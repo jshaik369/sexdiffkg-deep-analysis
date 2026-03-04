@@ -388,5 +388,11 @@
     }
   },
   "total_autoimmune_signals": 11009,
-  "overall_f_frac": 0.5074
+  "overall_f_frac": 0.5074,
+  "aggregation_note": {
+    "explanation": "Two autoimmune F% values exist: (1) 50.7%F is signal-level (dominated by high-volume drugs with lower female fractions), (2) 69.2%F is drug-level mean (equal weight per drug). Both are correct but measure different things.",
+    "signal_level_f_pct": 50.7,
+    "drug_level_mean_f_pct": 69.2,
+    "recommendation": "Use signal-level (50.7%) for population-level estimates, drug-level (69.2%) for per-drug characterization"
+  }
 }

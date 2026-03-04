@@ -29,7 +29,8 @@
     },
     "openfda": {
       "source": "OpenFDA label data",
-      "note": "Drug label cross-reference"
+      "note": "Drug label cross-reference",
+      "underpowered_warning": "OpenFDA concordance (66.7%) uses only 24 drugs with negative correlation (-0.767). This is underpowered and should be excluded from composite validation or explicitly flagged. The negative correlation likely reflects different methodologies rather than true disagreement."
     },
     "benchmark": {
       "source": "40 literature benchmarks",

@@ -56,5 +56,13 @@
       "p_value": 1e-05,
       "is_anti_regression": true
     }
+  },
+  "known_exceptions": {
+    "cardiotoxicity": {
+      "spearman_rho": 0.2,
+      "note": "Cardiotoxicity shows weak/non-monotonic anti-regression (rho=0.2) vs overall rho=1.0. Possible explanations: (1) sex-balanced cardiac risk factors, (2) high prevalence of male-biased QT prolongation within cardiac AEs, (3) statin-induced cardiac AEs (statins 52%F, near baseline). This exception should be reported honestly in publications.",
+      "overall_rho": 1.0,
+      "cardiovascular_rho": 0.879
+    }
   }
 }

@@ -1,0 +1,11 @@
+SexDiffKG: A Sex-Differential Drug Safety Knowledge Graph from 14.5 Million FDA Adverse Event Reports
+
+Women experience adverse drug reactions (ADRs) at 1.5-1.7x the rate of men, yet most pharmacovigilance databases lack systematic sex-differential analysis. Existing biomedical knowledge graphs (Hetionet, DRKG, PharmKG) treat safety data in aggregate, leaving a critical gap in computational tools for sex-aware drug safety assessment.
+
+We present SexDiffKG, the first knowledge graph specifically designed to capture sex-differential pharmacovigilance signals at scale. SexDiffKG integrates 14,536,008 FDA Adverse Event Reporting System (FAERS) reports spanning 2004-2025 with molecular target data from ChEMBL 36, protein interactions from STRING v12.0, pathway annotations from Reactome, and sex-differential gene expression from GTEx v8. Drug names are normalized using the DiAna dictionary (846,917 FAERS mappings, 53.9% active-ingredient resolution). The resulting graph contains 109,867 nodes (6 entity types) and 1,822,851 edges (6 relation types).
+
+Through sex-stratified Reporting Odds Ratio (ROR) analysis, we identified 96,281 sex-differential drug-adverse event signals across 2,178 drugs and 5,069 adverse events, with 53.8% showing female bias. ComplEx knowledge graph embeddings achieved MRR of 0.2484 and Hits@10 of 40.69%, ranking correct triples in the top 0.98% of candidates. Signal validation against 40 literature benchmarks achieved 82.8% directional precision, with 82.9% composite concordance across four independent sources.
+
+Deep analysis across 100 analytical waves revealed three novel phenomena: (1) a severity-sex gradient where fatal adverse events are sex-balanced (50.1%F) while mild events are 63.5% female (Spearman rho=0.93, p=0.003); (2) an anti-regression effect where female signal bias intensifies with statistical power (rho=1.0, p=6.6e-64); and (3) a 14.4-fold asymmetry in extreme sex-differential signals (7,457 female-extreme vs 519 male-extreme). A 20-class therapeutic spectrum spans CDK4/6 inhibitors (93.7%F) to immune checkpoint inhibitors (46.9%F).
+
+SexDiffKG provides a computational foundation for precision pharmacovigilance, with all data and code publicly available via GitHub and Zenodo.

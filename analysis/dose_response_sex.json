@@ -240,5 +240,10 @@
     "extreme_female_report_pct": 35.46,
     "extreme_male_signals": 519,
     "extreme_male_report_pct": 1.36
+  },
+  "canonical_reference": {
+    "note": "This file (dose_response_sex.json) contains the CANONICAL volume-sex gradient values. Other files may report different ranges due to different \"volume\" operationalizations. Use the decile values from this file for all publications.",
+    "decile_range": "D1 50.4%F \u2192 D10 80.3%F",
+    "is_canonical": true
   }
 }

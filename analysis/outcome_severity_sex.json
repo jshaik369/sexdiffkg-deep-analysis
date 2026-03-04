@@ -144,5 +144,16 @@
     "n_signals": 450,
     "n_drugs": 414,
     "mean_f_pct": 46.16
+  },
+  "canonical_death_statistics": {
+    "recommended_value": "Fatal severity category",
+    "female_pct": 50.1,
+    "n_signals": 738,
+    "note": "Three death-related values exist across files: (1) death_detail 46.2%F (n=450, narrow AE terms), (2) Fatal severity 50.1%F (n=738, outcome category), (3) death_deepdive 68.9%F (n=856, broad death-associated). The Fatal severity category (50.1%F, n=738) is recommended as canonical because it uses standardized MedDRA outcome severity classification rather than ad-hoc AE term matching.",
+    "sensitivity_range": {
+      "narrow_definition_pct": 46.2,
+      "standard_definition_pct": 50.1,
+      "broad_definition_pct": 68.9
+    }
   }
 }
