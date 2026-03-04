@@ -1,0 +1,286 @@
+{
+  "overview": {
+    "n_signals": 2954,
+    "n_drugs": 796,
+    "n_aes": 51,
+    "overall_f_pct": 57.0,
+    "mean_abs_lr": 0.965
+  },
+  "subcategories": [
+    {
+      "category": "Substance_use",
+      "n_signals": 166,
+      "n_drugs": 150,
+      "mean_f_pct": 50.6,
+      "mean_lr": 0.993
+    },
+    {
+      "category": "Aggression_agitation",
+      "n_signals": 400,
+      "n_drugs": 274,
+      "mean_f_pct": 51.3,
+      "mean_lr": 0.839
+    },
+    {
+      "category": "Sexual_dysfunction",
+      "n_signals": 50,
+      "n_drugs": 44,
+      "mean_f_pct": 52.8,
+      "mean_lr": 1.343
+    },
+    {
+      "category": "Psychosis",
+      "n_signals": 223,
+      "n_drugs": 139,
+      "mean_f_pct": 53.6,
+      "mean_lr": 1.043
+    },
+    {
+      "category": "Affective",
+      "n_signals": 124,
+      "n_drugs": 90,
+      "mean_f_pct": 55.7,
+      "mean_lr": 0.796
+    },
+    {
+      "category": "Suicidality",
+      "n_signals": 344,
+      "n_drugs": 280,
+      "mean_f_pct": 56.0,
+      "mean_lr": 0.914
+    },
+    {
+      "category": "Sleep_disturbance",
+      "n_signals": 385,
+      "n_drugs": 328,
+      "mean_f_pct": 56.2,
+      "mean_lr": 0.991
+    },
+    {
+      "category": "Depression_anxiety",
+      "n_signals": 798,
+      "n_drugs": 494,
+      "mean_f_pct": 60.8,
+      "mean_lr": 0.992
+    },
+    {
+      "category": "Eating_disorders",
+      "n_signals": 52,
+      "n_drugs": 52,
+      "mean_f_pct": 72.0,
+      "mean_lr": 1.037
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "Antipsychotics",
+      "n_drugs": 9,
+      "n_signals": 110,
+      "mean_f_pct": 48.5,
+      "mean_lr": 1.023
+    },
+    {
+      "class": "SSRIs",
+      "n_drugs": 6,
+      "n_signals": 70,
+      "mean_f_pct": 51.1,
+      "mean_lr": 0.854
+    },
+    {
+      "class": "Opioids",
+      "n_drugs": 6,
+      "n_signals": 61,
+      "mean_f_pct": 53.2,
+      "mean_lr": 0.827
+    },
+    {
+      "class": "Benzodiazepines",
+      "n_drugs": 5,
+      "n_signals": 48,
+      "mean_f_pct": 59.8,
+      "mean_lr": 0.881
+    },
+    {
+      "class": "ICIs",
+      "n_drugs": 4,
+      "n_signals": 8,
+      "mean_f_pct": 61.8,
+      "mean_lr": 0.852
+    },
+    {
+      "class": "Corticosteroids",
+      "n_drugs": 4,
+      "n_signals": 68,
+      "mean_f_pct": 68.1,
+      "mean_lr": 0.985
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "RISPERIDONE",
+      "n_aes": 29,
+      "mean_f_pct": 44.7,
+      "total_reports": 17693
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 22,
+      "mean_f_pct": 72.1,
+      "total_reports": 16874
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 12,
+      "mean_f_pct": 73.2,
+      "total_reports": 15124
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 10,
+      "mean_f_pct": 50.9,
+      "total_reports": 13117
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 15,
+      "mean_f_pct": 75.7,
+      "total_reports": 11797
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 18,
+      "mean_f_pct": 67.3,
+      "total_reports": 11757
+    },
+    {
+      "drug": "ISOTRETINOIN",
+      "n_aes": 20,
+      "mean_f_pct": 44.9,
+      "total_reports": 11743
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "n_aes": 5,
+      "mean_f_pct": 96.6,
+      "total_reports": 10422
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 6,
+      "mean_f_pct": 86.7,
+      "total_reports": 10065
+    },
+    {
+      "drug": "METHADONE",
+      "n_aes": 7,
+      "mean_f_pct": 54.5,
+      "total_reports": 9898
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 5,
+      "mean_f_pct": 90.9,
+      "total_reports": 9520
+    },
+    {
+      "drug": "MONTELUKAST",
+      "n_aes": 12,
+      "mean_f_pct": 57.1,
+      "total_reports": 9338
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_aes": 10,
+      "mean_f_pct": 69.7,
+      "total_reports": 9246
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 11,
+      "mean_f_pct": 73.5,
+      "total_reports": 8553
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_aes": 10,
+      "mean_f_pct": 77.7,
+      "total_reports": 8526
+    },
+    {
+      "drug": "CLONAZEPAM",
+      "n_aes": 15,
+      "mean_f_pct": 59.5,
+      "total_reports": 8425
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 13,
+      "mean_f_pct": 65.0,
+      "total_reports": 8301
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 5,
+      "mean_f_pct": 82.9,
+      "total_reports": 8095
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 7,
+      "mean_f_pct": 81.8,
+      "total_reports": 7516
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 5,
+      "mean_f_pct": 87.7,
+      "total_reports": 7470
+    }
+  ],
+  "suicidality_focus": {
+    "n_signals": 344,
+    "overall_f_pct": 56.0,
+    "top_drugs": [
+      {
+        "drug": "ALPRAZOLAM",
+        "f_pct": 65.9
+      },
+      {
+        "drug": "HYDROCODONE;PARACETAMOL",
+        "f_pct": 65.0
+      },
+      {
+        "drug": "RISPERIDONE",
+        "f_pct": 52.5
+      },
+      {
+        "drug": "OXYCODONE",
+        "f_pct": 58.1
+      },
+      {
+        "drug": "CLONAZEPAM",
+        "f_pct": 68.1
+      },
+      {
+        "drug": "ETHANOL",
+        "f_pct": 57.5
+      },
+      {
+        "drug": "ALCOHOL",
+        "f_pct": 57.2
+      },
+      {
+        "drug": "TRAZODONE",
+        "f_pct": 70.7
+      },
+      {
+        "drug": "DIAZEPAM",
+        "f_pct": 65.1
+      },
+      {
+        "drug": "TRAMADOL",
+        "f_pct": 65.3
+      }
+    ]
+  }
+}

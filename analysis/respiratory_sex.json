@@ -1,0 +1,244 @@
+{
+  "overview": {
+    "n_signals": 4952,
+    "n_drugs": 977,
+    "n_aes": 49,
+    "overall_f_pct": 57.3,
+    "mean_abs_lr": 1.036
+  },
+  "subcategories": [
+    {
+      "category": "Vascular",
+      "n_signals": 486,
+      "n_drugs": 348,
+      "mean_f_pct": 44.3,
+      "mean_lr": 1.09
+    },
+    {
+      "category": "Respiratory_failure",
+      "n_signals": 588,
+      "n_drugs": 359,
+      "mean_f_pct": 50.6,
+      "mean_lr": 0.874
+    },
+    {
+      "category": "Pleural",
+      "n_signals": 212,
+      "n_drugs": 188,
+      "mean_f_pct": 53.4,
+      "mean_lr": 0.846
+    },
+    {
+      "category": "ILD_fibrosis",
+      "n_signals": 310,
+      "n_drugs": 223,
+      "mean_f_pct": 55.7,
+      "mean_lr": 1.069
+    },
+    {
+      "category": "Obstructive",
+      "n_signals": 779,
+      "n_drugs": 405,
+      "mean_f_pct": 59.1,
+      "mean_lr": 1.178
+    },
+    {
+      "category": "Dyspnoea",
+      "n_signals": 412,
+      "n_drugs": 398,
+      "mean_f_pct": 59.3,
+      "mean_lr": 0.94
+    },
+    {
+      "category": "Upper_airway",
+      "n_signals": 883,
+      "n_drugs": 465,
+      "mean_f_pct": 60.7,
+      "mean_lr": 1.004
+    },
+    {
+      "category": "Pneumonia",
+      "n_signals": 297,
+      "n_drugs": 291,
+      "mean_f_pct": 66.1,
+      "mean_lr": 1.082
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 33,
+      "mean_f_pct": 39.9,
+      "mean_lr": 0.793
+    },
+    {
+      "class": "TKIs",
+      "n_drugs": 8,
+      "n_signals": 31,
+      "mean_f_pct": 46.4,
+      "mean_lr": 0.716
+    },
+    {
+      "class": "Beta_blockers",
+      "n_drugs": 5,
+      "n_signals": 52,
+      "mean_f_pct": 47.3,
+      "mean_lr": 1.022
+    },
+    {
+      "class": "Inhalers",
+      "n_drugs": 6,
+      "n_signals": 93,
+      "mean_f_pct": 51.7,
+      "mean_lr": 0.903
+    },
+    {
+      "class": "ACE_inhibitors",
+      "n_drugs": 4,
+      "n_signals": 37,
+      "mean_f_pct": 60.7,
+      "mean_lr": 1.173
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_drugs": 5,
+      "n_signals": 65,
+      "mean_f_pct": 77.8,
+      "mean_lr": 1.153
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 16,
+      "mean_f_pct": 78.0,
+      "total_reports": 38252
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 20,
+      "mean_f_pct": 67.2,
+      "total_reports": 34844
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 18,
+      "mean_f_pct": 71.5,
+      "total_reports": 28882
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 14,
+      "mean_f_pct": 66.4,
+      "total_reports": 25024
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "n_aes": 18,
+      "mean_f_pct": 53.3,
+      "total_reports": 24264
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 20,
+      "mean_f_pct": 68.6,
+      "total_reports": 24193
+    },
+    {
+      "drug": "TIOTROPIUM",
+      "n_aes": 20,
+      "mean_f_pct": 48.8,
+      "total_reports": 23704
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 20,
+      "mean_f_pct": 72.3,
+      "total_reports": 22491
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 22,
+      "mean_f_pct": 77.8,
+      "total_reports": 22258
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 22,
+      "mean_f_pct": 76.3,
+      "total_reports": 21068
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 12,
+      "mean_f_pct": 81.0,
+      "total_reports": 20120
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_aes": 12,
+      "mean_f_pct": 82.0,
+      "total_reports": 18196
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 9,
+      "mean_f_pct": 73.8,
+      "total_reports": 17963
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 20,
+      "mean_f_pct": 72.2,
+      "total_reports": 17848
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 14,
+      "mean_f_pct": 82.3,
+      "total_reports": 16794
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 26,
+      "mean_f_pct": 68.4,
+      "total_reports": 16663
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 18,
+      "mean_f_pct": 77.7,
+      "total_reports": 16479
+    },
+    {
+      "drug": "OMALIZUMAB",
+      "n_aes": 14,
+      "mean_f_pct": 75.8,
+      "total_reports": 15975
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_aes": 10,
+      "mean_f_pct": 87.8,
+      "total_reports": 15141
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "n_aes": 11,
+      "mean_f_pct": 75.4,
+      "total_reports": 14869
+    }
+  ],
+  "ici_pneumonitis": {
+    "n_signals": 1,
+    "overall_f_pct": 44.5,
+    "drugs": [
+      {
+        "drug": "ATEZOLIZUMAB",
+        "ae": "Pneumonitis",
+        "f_pct": 44.5
+      }
+    ]
+  }
+}
