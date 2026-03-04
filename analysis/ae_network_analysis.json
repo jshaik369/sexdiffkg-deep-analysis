@@ -1,0 +1,1059 @@
+{
+  "analysis": "ae_cooccurrence_network",
+  "wave": 14,
+  "date": "2026-03-04",
+  "network_stats": {
+    "n_drugs": 2178,
+    "n_aes": 5069,
+    "n_edges": 96281,
+    "density": 0.008721,
+    "mean_drug_degree": 44.2,
+    "median_drug_degree": 10,
+    "max_drug_degree": 926,
+    "mean_ae_degree": 19.0,
+    "max_ae_degree": 501
+  },
+  "ae_cooccurrence": {
+    "top_pairs": [
+      {
+        "ae1": "Hypertension",
+        "ae2": "Rash",
+        "cooccurrence_count": 117,
+        "same_direction": 108,
+        "diff_direction": 9,
+        "concordance_pct": 92.3
+      },
+      {
+        "ae1": "Drug intolerance",
+        "ae2": "Hypertension",
+        "cooccurrence_count": 117,
+        "same_direction": 105,
+        "diff_direction": 12,
+        "concordance_pct": 89.7
+      },
+      {
+        "ae1": "Condition aggravated",
+        "ae2": "Pain",
+        "cooccurrence_count": 115,
+        "same_direction": 61,
+        "diff_direction": 54,
+        "concordance_pct": 53.0
+      },
+      {
+        "ae1": "Hypersensitivity",
+        "ae2": "Rash",
+        "cooccurrence_count": 113,
+        "same_direction": 100,
+        "diff_direction": 13,
+        "concordance_pct": 88.5
+      },
+      {
+        "ae1": "Condition aggravated",
+        "ae2": "Drug intolerance",
+        "cooccurrence_count": 113,
+        "same_direction": 94,
+        "diff_direction": 19,
+        "concordance_pct": 83.2
+      },
+      {
+        "ae1": "Drug hypersensitivity",
+        "ae2": "Drug intolerance",
+        "cooccurrence_count": 113,
+        "same_direction": 108,
+        "diff_direction": 5,
+        "concordance_pct": 95.6
+      },
+      {
+        "ae1": "Fatigue",
+        "ae2": "Hypertension",
+        "cooccurrence_count": 112,
+        "same_direction": 106,
+        "diff_direction": 6,
+        "concordance_pct": 94.6
+      },
+      {
+        "ae1": "Fatigue",
+        "ae2": "Pain",
+        "cooccurrence_count": 110,
+        "same_direction": 99,
+        "diff_direction": 11,
+        "concordance_pct": 90.0
+      },
+      {
+        "ae1": "Pyrexia",
+        "ae2": "Rash",
+        "cooccurrence_count": 110,
+        "same_direction": 107,
+        "diff_direction": 3,
+        "concordance_pct": 97.3
+      },
+      {
+        "ae1": "Fatigue",
+        "ae2": "Vomiting",
+        "cooccurrence_count": 110,
+        "same_direction": 95,
+        "diff_direction": 15,
+        "concordance_pct": 86.4
+      },
+      {
+        "ae1": "Malaise",
+        "ae2": "Pain",
+        "cooccurrence_count": 109,
+        "same_direction": 92,
+        "diff_direction": 17,
+        "concordance_pct": 84.4
+      },
+      {
+        "ae1": "Abdominal discomfort",
+        "ae2": "Drug intolerance",
+        "cooccurrence_count": 109,
+        "same_direction": 92,
+        "diff_direction": 17,
+        "concordance_pct": 84.4
+      },
+      {
+        "ae1": "Hypertension",
+        "ae2": "Pain",
+        "cooccurrence_count": 108,
+        "same_direction": 94,
+        "diff_direction": 14,
+        "concordance_pct": 87.0
+      },
+      {
+        "ae1": "Hypersensitivity",
+        "ae2": "Hypertension",
+        "cooccurrence_count": 107,
+        "same_direction": 105,
+        "diff_direction": 2,
+        "concordance_pct": 98.1
+      },
+      {
+        "ae1": "Drug intolerance",
+        "ae2": "General physical health deterioration",
+        "cooccurrence_count": 107,
+        "same_direction": 96,
+        "diff_direction": 11,
+        "concordance_pct": 89.7
+      },
+      {
+        "ae1": "General physical health deterioration",
+        "ae2": "Hypertension",
+        "cooccurrence_count": 106,
+        "same_direction": 91,
+        "diff_direction": 15,
+        "concordance_pct": 85.8
+      },
+      {
+        "ae1": "Hypertension",
+        "ae2": "Weight decreased",
+        "cooccurrence_count": 106,
+        "same_direction": 88,
+        "diff_direction": 18,
+        "concordance_pct": 83.0
+      },
+      {
+        "ae1": "Pain",
+        "ae2": "Rash",
+        "cooccurrence_count": 106,
+        "same_direction": 101,
+        "diff_direction": 5,
+        "concordance_pct": 95.3
+      },
+      {
+        "ae1": "Drug intolerance",
+        "ae2": "Pain",
+        "cooccurrence_count": 106,
+        "same_direction": 87,
+        "diff_direction": 19,
+        "concordance_pct": 82.1
+      },
+      {
+        "ae1": "Fatigue",
+        "ae2": "Rash",
+        "cooccurrence_count": 106,
+        "same_direction": 102,
+        "diff_direction": 4,
+        "concordance_pct": 96.2
+      },
+      {
+        "ae1": "Asthenia",
+        "ae2": "Rash",
+        "cooccurrence_count": 106,
+        "same_direction": 93,
+        "diff_direction": 13,
+        "concordance_pct": 87.7
+      },
+      {
+        "ae1": "Drug intolerance",
+        "ae2": "Sleep disorder",
+        "cooccurrence_count": 105,
+        "same_direction": 96,
+        "diff_direction": 9,
+        "concordance_pct": 91.4
+      },
+      {
+        "ae1": "Pyrexia",
+        "ae2": "Weight decreased",
+        "cooccurrence_count": 105,
+        "same_direction": 97,
+        "diff_direction": 8,
+        "concordance_pct": 92.4
+      },
+      {
+        "ae1": "Asthenia",
+        "ae2": "Fatigue",
+        "cooccurrence_count": 105,
+        "same_direction": 94,
+        "diff_direction": 11,
+        "concordance_pct": 89.5
+      },
+      {
+        "ae1": "Hypersensitivity",
+        "ae2": "Pain",
+        "cooccurrence_count": 104,
+        "same_direction": 86,
+        "diff_direction": 18,
+        "concordance_pct": 82.7
+      },
+      {
+        "ae1": "Asthenia",
+        "ae2": "Pain",
+        "cooccurrence_count": 104,
+        "same_direction": 89,
+        "diff_direction": 15,
+        "concordance_pct": 85.6
+      },
+      {
+        "ae1": "Drug intolerance",
+        "ae2": "Therapeutic product effect incomplete",
+        "cooccurrence_count": 104,
+        "same_direction": 78,
+        "diff_direction": 26,
+        "concordance_pct": 75.0
+      },
+      {
+        "ae1": "Dry mouth",
+        "ae2": "Sleep disorder",
+        "cooccurrence_count": 103,
+        "same_direction": 101,
+        "diff_direction": 2,
+        "concordance_pct": 98.1
+      },
+      {
+        "ae1": "Drug intolerance",
+        "ae2": "Musculoskeletal stiffness",
+        "cooccurrence_count": 103,
+        "same_direction": 97,
+        "diff_direction": 6,
+        "concordance_pct": 94.2
+      },
+      {
+        "ae1": "Hypertension",
+        "ae2": "Pneumonia",
+        "cooccurrence_count": 103,
+        "same_direction": 88,
+        "diff_direction": 15,
+        "concordance_pct": 85.4
+      }
+    ],
+    "overall_concordance": 88.1
+  },
+  "ae_sex_bias_distribution": {
+    "strong_female": 1411,
+    "female": 588,
+    "balanced": 479,
+    "male": 430,
+    "strong_male": 287,
+    "slight_female": 280,
+    "slight_male": 225
+  },
+  "drug_consistency": {
+    "most_consistent": [
+      {
+        "drug_name": "ALFUZOSIN",
+        "n_signals": 10,
+        "pct_female": 100.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 1.766
+      },
+      {
+        "drug_name": "AZELASTINE",
+        "n_signals": 11,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.713
+      },
+      {
+        "drug_name": "AZELASTINE;FLUTICASONE",
+        "n_signals": 12,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.933
+      },
+      {
+        "drug_name": "BRIMONIDINE;TIMOLOL",
+        "n_signals": 20,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.705
+      },
+      {
+        "drug_name": "BUPROPION;NALTREXONE",
+        "n_signals": 23,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.872
+      },
+      {
+        "drug_name": "CASIRIVIMAB;IMDEVIMAB",
+        "n_signals": 15,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.746
+      },
+      {
+        "drug_name": "CENEGERMIN",
+        "n_signals": 20,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.683
+      },
+      {
+        "drug_name": "CHORIONIC GONADOTROPHIN",
+        "n_signals": 14,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 2.008
+      },
+      {
+        "drug_name": "CITRIC ACID;MAGNESIUM;SODIUM PICOSULFATE",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.912
+      },
+      {
+        "drug_name": "CLIOQUINOL",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 1.933
+      },
+      {
+        "drug_name": "CRISABOROLE",
+        "n_signals": 13,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.786
+      },
+      {
+        "drug_name": "DIROXIMEL FUMARATE",
+        "n_signals": 25,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.868
+      },
+      {
+        "drug_name": "EPTINEZUMAB",
+        "n_signals": 27,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 1.19
+      },
+      {
+        "drug_name": "ESTRADIOL",
+        "n_signals": 18,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 2.805
+      },
+      {
+        "drug_name": "FOSFOMYCIN",
+        "n_signals": 19,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.963
+      },
+      {
+        "drug_name": "GADOXETIC ACID",
+        "n_signals": 15,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.768
+      },
+      {
+        "drug_name": "HYDROXYQUINOLINE",
+        "n_signals": 14,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 2.465
+      },
+      {
+        "drug_name": "IDARUCIZUMAB",
+        "n_signals": 12,
+        "pct_female": 100.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.813
+      },
+      {
+        "drug_name": "INOTERSEN",
+        "n_signals": 20,
+        "pct_female": 100.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.775
+      },
+      {
+        "drug_name": "IOPAMIDOL",
+        "n_signals": 13,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.727
+      },
+      {
+        "drug_name": "KETOTIFEN",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.899
+      },
+      {
+        "drug_name": "MACROGOL;PROPYLENE GLYCOL",
+        "n_signals": 12,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.886
+      },
+      {
+        "drug_name": "MEBEVERINE",
+        "n_signals": 52,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 1.921
+      },
+      {
+        "drug_name": "METFORMIN;ROSIGLITAZONE",
+        "n_signals": 20,
+        "pct_female": 100.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.693
+      },
+      {
+        "drug_name": "MIFEPRISTONE",
+        "n_signals": 47,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 1.07
+      },
+      {
+        "drug_name": "OLOPATADINE",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.882
+      },
+      {
+        "drug_name": "ORITAVANCIN",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.863
+      },
+      {
+        "drug_name": "PEGINTERFERON BETA-1A",
+        "n_signals": 46,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.752
+      },
+      {
+        "drug_name": "PEGVALIASE",
+        "n_signals": 37,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.79
+      },
+      {
+        "drug_name": "PHENTERMINE;TOPIRAMATE",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "consistency": 100.0,
+        "mean_abs_lr": 0.734
+      }
+    ],
+    "least_consistent": [
+      {
+        "drug_name": "ALISKIREN",
+        "n_signals": 38,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.225
+      },
+      {
+        "drug_name": "AMBROXOL",
+        "n_signals": 14,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.493
+      },
+      {
+        "drug_name": "AVACOPAN",
+        "n_signals": 10,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.716
+      },
+      {
+        "drug_name": "BELUMOSUDIL",
+        "n_signals": 10,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.693
+      },
+      {
+        "drug_name": "BENZATROPINE",
+        "n_signals": 22,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.861
+      },
+      {
+        "drug_name": "BRODALUMAB",
+        "n_signals": 12,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.663
+      },
+      {
+        "drug_name": "BUPROPION HYDROCHLORIDE",
+        "n_signals": 10,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.103
+      },
+      {
+        "drug_name": "COBIMETINIB",
+        "n_signals": 20,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.712
+      },
+      {
+        "drug_name": "DESLORATADINE",
+        "n_signals": 28,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.861
+      },
+      {
+        "drug_name": "ENZALUTAMIDE",
+        "n_signals": 10,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.847
+      },
+      {
+        "drug_name": "FARICIMAB",
+        "n_signals": 10,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.706
+      },
+      {
+        "drug_name": "GEFITINIB",
+        "n_signals": 12,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.709
+      },
+      {
+        "drug_name": "HYDROMORPHONE HYDROCHLORIDE",
+        "n_signals": 20,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.81
+      },
+      {
+        "drug_name": "INDAPAMIDE;PERINDOPRIL",
+        "n_signals": 12,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.973
+      },
+      {
+        "drug_name": "INDOMETHACIN",
+        "n_signals": 12,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.74
+      },
+      {
+        "drug_name": "LEVOCETIRIZINE",
+        "n_signals": 36,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.806
+      },
+      {
+        "drug_name": "LUTETIUM (177LU) DOTATATE",
+        "n_signals": 14,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.704
+      },
+      {
+        "drug_name": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+        "n_signals": 20,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.015
+      },
+      {
+        "drug_name": "MAGNESIUM",
+        "n_signals": 136,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.414
+      },
+      {
+        "drug_name": "MIDOSTAURIN",
+        "n_signals": 18,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.804
+      },
+      {
+        "drug_name": "NEBIVOLOL",
+        "n_signals": 38,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.827
+      },
+      {
+        "drug_name": "NUTRIENTS, UNSPECIFIED",
+        "n_signals": 42,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.323
+      },
+      {
+        "drug_name": "OLAPARIB",
+        "n_signals": 44,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.946
+      },
+      {
+        "drug_name": "PROPAFENONE",
+        "n_signals": 16,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.766
+      },
+      {
+        "drug_name": "SEVOFLURANE",
+        "n_signals": 30,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.907
+      },
+      {
+        "drug_name": "SPIRONOLACTONE",
+        "n_signals": 162,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.943
+      },
+      {
+        "drug_name": "TENOFOVIR DISOPROXIL FUMARATE",
+        "n_signals": 20,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.851
+      },
+      {
+        "drug_name": "TORASEMIDE",
+        "n_signals": 116,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.963
+      },
+      {
+        "drug_name": "TRAVOPROST",
+        "n_signals": 12,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 0.652
+      },
+      {
+        "drug_name": "VILANTEROL",
+        "n_signals": 12,
+        "pct_female": 50.0,
+        "consistency": 50.0,
+        "mean_abs_lr": 1.418
+      }
+    ]
+  },
+  "drug_drug_concordance": {
+    "pairs_analyzed": 40,
+    "top_positive_corr": [
+      {
+        "drug1": "MAGNESIUM",
+        "drug2": "NUTRIENTS, UNSPECIFIED",
+        "shared_aes": 29,
+        "lr_correlation": 0.813
+      },
+      {
+        "drug1": "AMBROXOL",
+        "drug2": "MAGNESIUM",
+        "shared_aes": 10,
+        "lr_correlation": 0.717
+      },
+      {
+        "drug1": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+        "drug2": "TORASEMIDE",
+        "shared_aes": 11,
+        "lr_correlation": 0.681
+      },
+      {
+        "drug1": "MEBEVERINE",
+        "drug2": "SPIRONOLACTONE",
+        "shared_aes": 10,
+        "lr_correlation": 0.633
+      },
+      {
+        "drug1": "SPIRONOLACTONE",
+        "drug2": "TORASEMIDE",
+        "shared_aes": 34,
+        "lr_correlation": 0.583
+      },
+      {
+        "drug1": "NUTRIENTS, UNSPECIFIED",
+        "drug2": "SPIRONOLACTONE",
+        "shared_aes": 10,
+        "lr_correlation": 0.55
+      },
+      {
+        "drug1": "NEBIVOLOL",
+        "drug2": "SPIRONOLACTONE",
+        "shared_aes": 12,
+        "lr_correlation": 0.451
+      },
+      {
+        "drug1": "ALISKIREN",
+        "drug2": "MAGNESIUM",
+        "shared_aes": 21,
+        "lr_correlation": 0.417
+      },
+      {
+        "drug1": "ALISKIREN",
+        "drug2": "NEBIVOLOL",
+        "shared_aes": 10,
+        "lr_correlation": 0.407
+      },
+      {
+        "drug1": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+        "drug2": "MAGNESIUM",
+        "shared_aes": 11,
+        "lr_correlation": 0.4
+      }
+    ],
+    "top_negative_corr": [
+      {
+        "drug1": "DESLORATADINE",
+        "drug2": "MAGNESIUM",
+        "shared_aes": 13,
+        "lr_correlation": -0.467
+      },
+      {
+        "drug1": "MAGNESIUM",
+        "drug2": "PROPAFENONE",
+        "shared_aes": 11,
+        "lr_correlation": -0.418
+      },
+      {
+        "drug1": "MIFEPRISTONE",
+        "drug2": "ALISKIREN",
+        "shared_aes": 15,
+        "lr_correlation": -0.381
+      },
+      {
+        "drug1": "BENZATROPINE",
+        "drug2": "MAGNESIUM",
+        "shared_aes": 11,
+        "lr_correlation": -0.361
+      }
+    ]
+  },
+  "hub_aes": [
+    {
+      "ae": "Drug ineffective",
+      "n_drugs": 501,
+      "overall_pct_female": 37.7,
+      "per_drug_lr_range": 7.616,
+      "per_drug_lr_std": 1.019,
+      "most_female_drug": "XANTOFYL",
+      "most_male_drug": "TRIFLUOPERAZINE"
+    },
+    {
+      "ae": "Off label use",
+      "n_drugs": 445,
+      "overall_pct_female": 50.8,
+      "per_drug_lr_range": 9.3,
+      "per_drug_lr_std": 1.184,
+      "most_female_drug": "RADIUM-223 DICHLORIDE",
+      "most_male_drug": "FEZOLINETANT"
+    },
+    {
+      "ae": "Condition aggravated",
+      "n_drugs": 392,
+      "overall_pct_female": 33.7,
+      "per_drug_lr_range": 6.949,
+      "per_drug_lr_std": 1.153,
+      "most_female_drug": "CANNABIS SPP",
+      "most_male_drug": "RUPATADINE"
+    },
+    {
+      "ae": "Vomiting",
+      "n_drugs": 362,
+      "overall_pct_female": 48.9,
+      "per_drug_lr_range": 6.343,
+      "per_drug_lr_std": 1.132,
+      "most_female_drug": "TRIAMCINOLONE",
+      "most_male_drug": "DOBUTAMINE"
+    },
+    {
+      "ae": "Dyspnoea",
+      "n_drugs": 349,
+      "overall_pct_female": 51.9,
+      "per_drug_lr_range": 6.474,
+      "per_drug_lr_std": 1.087,
+      "most_female_drug": "CHLORHEXIDINE",
+      "most_male_drug": "CLOTRIMAZOLE"
+    },
+    {
+      "ae": "Nausea",
+      "n_drugs": 339,
+      "overall_pct_female": 39.5,
+      "per_drug_lr_range": 5.398,
+      "per_drug_lr_std": 1.062,
+      "most_female_drug": "PSEUDOEPHEDRINE",
+      "most_male_drug": "VITAMIN K"
+    },
+    {
+      "ae": "Death",
+      "n_drugs": 337,
+      "overall_pct_female": 74.5,
+      "per_drug_lr_range": 5.282,
+      "per_drug_lr_std": 0.862,
+      "most_female_drug": "TRIAMCINOLONE",
+      "most_male_drug": "LEUPRORELIN"
+    },
+    {
+      "ae": "Fatigue",
+      "n_drugs": 332,
+      "overall_pct_female": 66.3,
+      "per_drug_lr_range": 5.769,
+      "per_drug_lr_std": 1.074,
+      "most_female_drug": "PSEUDOEPHEDRINE",
+      "most_male_drug": "MEBEVERINE"
+    },
+    {
+      "ae": "Headache",
+      "n_drugs": 327,
+      "overall_pct_female": 50.2,
+      "per_drug_lr_range": 4.431,
+      "per_drug_lr_std": 0.975,
+      "most_female_drug": "PSEUDOEPHEDRINE",
+      "most_male_drug": "BUSULFAN"
+    },
+    {
+      "ae": "Pain",
+      "n_drugs": 327,
+      "overall_pct_female": 69.4,
+      "per_drug_lr_range": 7.426,
+      "per_drug_lr_std": 1.109,
+      "most_female_drug": "PSEUDOEPHEDRINE",
+      "most_male_drug": "HYDROXYQUINOLINE"
+    },
+    {
+      "ae": "Pyrexia",
+      "n_drugs": 322,
+      "overall_pct_female": 68.6,
+      "per_drug_lr_range": 5.936,
+      "per_drug_lr_std": 1.016,
+      "most_female_drug": "CHLORHEXIDINE",
+      "most_male_drug": "SODIUM CITRATE"
+    },
+    {
+      "ae": "Hypertension",
+      "n_drugs": 313,
+      "overall_pct_female": 66.1,
+      "per_drug_lr_range": 5.95,
+      "per_drug_lr_std": 1.14,
+      "most_female_drug": "PSEUDOEPHEDRINE",
+      "most_male_drug": "PNEUMOCOCCAL VACCINE"
+    },
+    {
+      "ae": "Product use in unapproved indication",
+      "n_drugs": 304,
+      "overall_pct_female": 50.7,
+      "per_drug_lr_range": 7.469,
+      "per_drug_lr_std": 1.216,
+      "most_female_drug": "ATOMOXETINE",
+      "most_male_drug": "ALMOTRIPTAN"
+    },
+    {
+      "ae": "Rash",
+      "n_drugs": 301,
+      "overall_pct_female": 73.4,
+      "per_drug_lr_range": 6.567,
+      "per_drug_lr_std": 1.047,
+      "most_female_drug": "OXYCODONE;PARACETAMOL",
+      "most_male_drug": "SODIUM BICARBONATE;SODIUM CHLORIDE"
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "n_drugs": 299,
+      "overall_pct_female": 46.2,
+      "per_drug_lr_range": 6.532,
+      "per_drug_lr_std": 1.271,
+      "most_female_drug": "ATOMOXETINE",
+      "most_male_drug": "MINOCYCLINE HYDROCHLORIDE"
+    },
+    {
+      "ae": "Diarrhoea",
+      "n_drugs": 296,
+      "overall_pct_female": 68.6,
+      "per_drug_lr_range": 4.708,
+      "per_drug_lr_std": 0.896,
+      "most_female_drug": "TRIAMCINOLONE",
+      "most_male_drug": "FLUPIRTINE"
+    },
+    {
+      "ae": "Dizziness",
+      "n_drugs": 289,
+      "overall_pct_female": 55.4,
+      "per_drug_lr_range": 5.235,
+      "per_drug_lr_std": 0.951,
+      "most_female_drug": "VITAMIN C",
+      "most_male_drug": "DIPYRIDAMOLE"
+    },
+    {
+      "ae": "Hypersensitivity",
+      "n_drugs": 281,
+      "overall_pct_female": 47.3,
+      "per_drug_lr_range": 6.177,
+      "per_drug_lr_std": 1.195,
+      "most_female_drug": "OXYCODONE;PARACETAMOL",
+      "most_male_drug": "BETAXOLOL"
+    },
+    {
+      "ae": "Drug intolerance",
+      "n_drugs": 279,
+      "overall_pct_female": 44.8,
+      "per_drug_lr_range": 7.672,
+      "per_drug_lr_std": 1.395,
+      "most_female_drug": "OXYCODONE;PARACETAMOL",
+      "most_male_drug": "MEDROXYPROGESTERONE"
+    },
+    {
+      "ae": "Malaise",
+      "n_drugs": 275,
+      "overall_pct_female": 54.9,
+      "per_drug_lr_range": 6.844,
+      "per_drug_lr_std": 1.037,
+      "most_female_drug": "VITAMIN C",
+      "most_male_drug": "CYPROTERONE;ETHINYLESTRADIOL"
+    },
+    {
+      "ae": "Hypotension",
+      "n_drugs": 274,
+      "overall_pct_female": 81.0,
+      "per_drug_lr_range": 5.416,
+      "per_drug_lr_std": 0.804,
+      "most_female_drug": "DIPYRIDAMOLE",
+      "most_male_drug": "CHLORHEXIDINE"
+    },
+    {
+      "ae": "Pneumonia",
+      "n_drugs": 267,
+      "overall_pct_female": 73.0,
+      "per_drug_lr_range": 5.854,
+      "per_drug_lr_std": 1.08,
+      "most_female_drug": "AMINOSALICYLIC ACID",
+      "most_male_drug": "SODIUM BICARBONATE;SODIUM CHLORIDE"
+    },
+    {
+      "ae": "Acute kidney injury",
+      "n_drugs": 267,
+      "overall_pct_female": 71.5,
+      "per_drug_lr_range": 3.955,
+      "per_drug_lr_std": 0.786,
+      "most_female_drug": "PHENPROCOUMON",
+      "most_male_drug": "VITAMIN C"
+    },
+    {
+      "ae": "Asthenia",
+      "n_drugs": 266,
+      "overall_pct_female": 73.7,
+      "per_drug_lr_range": 4.902,
+      "per_drug_lr_std": 0.896,
+      "most_female_drug": "ATOMOXETINE",
+      "most_male_drug": "LIOTHYRONINE SODIUM"
+    },
+    {
+      "ae": "Weight decreased",
+      "n_drugs": 261,
+      "overall_pct_female": 79.7,
+      "per_drug_lr_range": 4.354,
+      "per_drug_lr_std": 0.845,
+      "most_female_drug": "BETAMETHASONE",
+      "most_male_drug": "MEBEVERINE"
+    },
+    {
+      "ae": "Abdominal pain",
+      "n_drugs": 261,
+      "overall_pct_female": 46.4,
+      "per_drug_lr_range": 6.426,
+      "per_drug_lr_std": 1.148,
+      "most_female_drug": "MIDAZOLAM",
+      "most_male_drug": "SODIUM PICOSULFATE"
+    },
+    {
+      "ae": "Anxiety",
+      "n_drugs": 260,
+      "overall_pct_female": 41.9,
+      "per_drug_lr_range": 7.114,
+      "per_drug_lr_std": 1.123,
+      "most_female_drug": "DOCETAXEL",
+      "most_male_drug": "CLOTRIMAZOLE"
+    },
+    {
+      "ae": "Product use issue",
+      "n_drugs": 256,
+      "overall_pct_female": 55.9,
+      "per_drug_lr_range": 8.547,
+      "per_drug_lr_std": 1.433,
+      "most_female_drug": "ENZALUTAMIDE",
+      "most_male_drug": "FLIBANSERIN"
+    },
+    {
+      "ae": "Toxicity to various agents",
+      "n_drugs": 255,
+      "overall_pct_female": 70.2,
+      "per_drug_lr_range": 6.395,
+      "per_drug_lr_std": 0.985,
+      "most_female_drug": "TIOTROPIUM",
+      "most_male_drug": "ESTRADIOL"
+    },
+    {
+      "ae": "Fall",
+      "n_drugs": 250,
+      "overall_pct_female": 58.8,
+      "per_drug_lr_range": 5.871,
+      "per_drug_lr_std": 1.012,
+      "most_female_drug": "DUTASTERIDE;TAMSULOSIN",
+      "most_male_drug": "MELPERONE"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "analysis": "drug_properties_formulation",
+  "wave": 14,
+  "date": "2026-03-04",
+  "target_complexity": {
+    "single_target": {
+      "n_drugs": 677,
+      "mean_pct_female": 46.5,
+      "median_pct_female": 49.4,
+      "mean_abs_lr": 0.9408,
+      "mean_n_targets": 1.0
+    },
+    "few_targets_2_3": {
+      "n_drugs": 146,
+      "mean_pct_female": 49.2,
+      "median_pct_female": 50.0,
+      "mean_abs_lr": 0.9372,
+      "mean_n_targets": 2.2
+    },
+    "multi_target_4_10": {
+      "n_drugs": 22,
+      "mean_pct_female": 58.0,
+      "median_pct_female": 60.3,
+      "mean_abs_lr": 0.8649,
+      "mean_n_targets": 5.3
+    },
+    "poly_target_10plus": {
+      "n_drugs": 1,
+      "mean_pct_female": 74.3,
+      "median_pct_female": 74.3,
+      "mean_abs_lr": 0.7851,
+      "mean_n_targets": 15.0
+    }
+  },
+  "organ_system_analysis": {
+    "renal": {
+      "n_signals": 1868,
+      "n_drugs": 672,
+      "n_aes": 95,
+      "pct_female": 73.4,
+      "mean_abs_lr": 0.8935,
+      "median_total_reports": 67
+    },
+    "neurological": {
+      "n_signals": 920,
+      "n_drugs": 447,
+      "n_aes": 57,
+      "pct_female": 69.2,
+      "mean_abs_lr": 0.8603,
+      "median_total_reports": 58
+    },
+    "hepatic": {
+      "n_signals": 2428,
+      "n_drugs": 563,
+      "n_aes": 100,
+      "pct_female": 66.7,
+      "mean_abs_lr": 1.0058,
+      "median_total_reports": 65
+    },
+    "haematological": {
+      "n_signals": 1430,
+      "n_drugs": 603,
+      "n_aes": 48,
+      "pct_female": 65.3,
+      "mean_abs_lr": 0.9036,
+      "median_total_reports": 70
+    },
+    "cardiac": {
+      "n_signals": 1943,
+      "n_drugs": 688,
+      "n_aes": 70,
+      "pct_female": 63.1,
+      "mean_abs_lr": 0.8844,
+      "median_total_reports": 63
+    },
+    "gastrointestinal": {
+      "n_signals": 2169,
+      "n_drugs": 915,
+      "n_aes": 96,
+      "pct_female": 56.7,
+      "mean_abs_lr": 0.948,
+      "median_total_reports": 86
+    },
+    "pulmonary": {
+      "n_signals": 4424,
+      "n_drugs": 944,
+      "n_aes": 175,
+      "pct_female": 56.1,
+      "mean_abs_lr": 0.9935,
+      "median_total_reports": 77
+    },
+    "endocrine": {
+      "n_signals": 942,
+      "n_drugs": 366,
+      "n_aes": 70,
+      "pct_female": 52.9,
+      "mean_abs_lr": 1.0761,
+      "median_total_reports": 74
+    },
+    "musculoskeletal": {
+      "n_signals": 1607,
+      "n_drugs": 554,
+      "n_aes": 69,
+      "pct_female": 49.0,
+      "mean_abs_lr": 0.9764,
+      "median_total_reports": 82
+    },
+    "immunological": {
+      "n_signals": 1259,
+      "n_drugs": 592,
+      "n_aes": 55,
+      "pct_female": 44.7,
+      "mean_abs_lr": 1.1205,
+      "median_total_reports": 98
+    },
+    "dermatological": {
+      "n_signals": 3279,
+      "n_drugs": 824,
+      "n_aes": 128,
+      "pct_female": 44.2,
+      "mean_abs_lr": 0.9413,
+      "median_total_reports": 76
+    },
+    "ocular": {
+      "n_signals": 482,
+      "n_drugs": 288,
+      "n_aes": 43,
+      "pct_female": 35.7,
+      "mean_abs_lr": 0.8272,
+      "median_total_reports": 57
+    }
+  },
+  "systemic_vs_organ": {
+    "systemic": {
+      "n_signals": 9050,
+      "pct_female": 54.6,
+      "mean_abs_lr": 0.9887
+    },
+    "organ_specific": {
+      "n_signals": 22523,
+      "pct_female": 56.9,
+      "mean_abs_lr": 0.9593
+    }
+  },
+  "signal_strength_percentiles": {
+    "p1": {
+      "abs_lr_threshold": 0.5043,
+      "n_signals_above": 95318,
+      "pct_female": 53.8
+    },
+    "p5": {
+      "abs_lr_threshold": 0.5228,
+      "n_signals_above": 91467,
+      "pct_female": 53.9
+    },
+    "p10": {
+      "abs_lr_threshold": 0.5469,
+      "n_signals_above": 86653,
+      "pct_female": 54.1
+    },
+    "p25": {
+      "abs_lr_threshold": 0.6292,
+      "n_signals_above": 72211,
+      "pct_female": 54.6
+    },
+    "p50": {
+      "abs_lr_threshold": 0.8116,
+      "n_signals_above": 48141,
+      "pct_female": 55.6
+    },
+    "p75": {
+      "abs_lr_threshold": 1.1439,
+      "n_signals_above": 24071,
+      "pct_female": 57.1
+    },
+    "p90": {
+      "abs_lr_threshold": 1.6537,
+      "n_signals_above": 9629,
+      "pct_female": 58.4
+    },
+    "p95": {
+      "abs_lr_threshold": 2.0822,
+      "n_signals_above": 4815,
+      "pct_female": 59.1
+    },
+    "p99": {
+      "abs_lr_threshold": 3.042,
+      "n_signals_above": 963,
+      "pct_female": 58.7
+    }
+  },
+  "evidence_quality_tiers": {
+    "very_low_10_50": {
+      "n_signals": 32530,
+      "pct_female": 44.0,
+      "mean_abs_lr": 0.8824,
+      "median_reports": 35
+    },
+    "low_50_200": {
+      "n_signals": 43433,
+      "pct_female": 52.3,
+      "mean_abs_lr": 0.9582,
+      "median_reports": 85
+    },
+    "moderate_200_1000": {
+      "n_signals": 15843,
+      "pct_female": 68.4,
+      "mean_abs_lr": 1.1516,
+      "median_reports": 350
+    },
+    "high_1000_5000": {
+      "n_signals": 3997,
+      "pct_female": 87.4,
+      "mean_abs_lr": 1.4538,
+      "median_reports": 1724
+    },
+    "very_high_5000plus": {
+      "n_signals": 478,
+      "pct_female": 86.8,
+      "mean_abs_lr": 1.3166,
+      "median_reports": 6986
+    }
+  },
+  "key_findings": {
+    "most_female_organ": "renal",
+    "most_female_pct": 73.4,
+    "most_male_organ": "ocular",
+    "most_male_pct": 35.7,
+    "evidence_gradient": "Higher evidence signals maintain sex bias"
+  }
+}
