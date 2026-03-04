@@ -1,0 +1,530 @@
+{
+  "analysis": "drug_network_soc_analysis",
+  "wave": 24,
+  "date": "2026-03-04",
+  "drug_overlap_pairs": [
+    {
+      "drug1": "SULFASALAZINE",
+      "bias1": 46.5,
+      "drug2": "CELECOXIB",
+      "bias2": 63.1,
+      "jaccard": 0.301,
+      "shared_aes": 137,
+      "bias_diff": 16.6
+    },
+    {
+      "drug1": "CELECOXIB",
+      "bias1": 63.1,
+      "drug2": "VITAMIN B9",
+      "bias2": 46.8,
+      "jaccard": 0.3,
+      "shared_aes": 121,
+      "bias_diff": 16.3
+    },
+    {
+      "drug1": "SILDENAFIL",
+      "bias1": 87.5,
+      "drug2": "TADALAFIL",
+      "bias2": 73.3,
+      "jaccard": 0.444,
+      "shared_aes": 163,
+      "bias_diff": 14.2
+    },
+    {
+      "drug1": "LEFLUNOMIDE",
+      "bias1": 41.9,
+      "drug2": "GOLIMUMAB",
+      "bias2": 55.7,
+      "jaccard": 0.326,
+      "shared_aes": 173,
+      "bias_diff": 13.8
+    },
+    {
+      "drug1": "USTEKINUMAB",
+      "bias1": 65.0,
+      "drug2": "CERTOLIZUMAB",
+      "bias2": 52.5,
+      "jaccard": 0.348,
+      "shared_aes": 162,
+      "bias_diff": 12.5
+    },
+    {
+      "drug1": "HYDROCORTISONE",
+      "bias1": 50.7,
+      "drug2": "CELECOXIB",
+      "bias2": 63.1,
+      "jaccard": 0.3,
+      "shared_aes": 133,
+      "bias_diff": 12.4
+    },
+    {
+      "drug1": "ABATACEPT",
+      "bias1": 45.1,
+      "drug2": "GOLIMUMAB",
+      "bias2": 55.7,
+      "jaccard": 0.337,
+      "shared_aes": 171,
+      "bias_diff": 10.6
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "bias1": 51.9,
+      "drug2": "LEFLUNOMIDE",
+      "bias2": 41.9,
+      "jaccard": 0.347,
+      "shared_aes": 192,
+      "bias_diff": 10.0
+    },
+    {
+      "drug1": "OXYCODONE",
+      "bias1": 85.0,
+      "drug2": "TRAMADOL",
+      "bias2": 75.3,
+      "jaccard": 0.329,
+      "shared_aes": 211,
+      "bias_diff": 9.7
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "bias1": 55.7,
+      "drug2": "USTEKINUMAB",
+      "bias2": 65.0,
+      "jaccard": 0.35,
+      "shared_aes": 168,
+      "bias_diff": 9.3
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "bias1": 55.7,
+      "drug2": "SULFASALAZINE",
+      "bias2": 46.5,
+      "jaccard": 0.333,
+      "shared_aes": 163,
+      "bias_diff": 9.2
+    },
+    {
+      "drug1": "NAPROXEN",
+      "bias1": 54.1,
+      "drug2": "CELECOXIB",
+      "bias2": 63.1,
+      "jaccard": 0.318,
+      "shared_aes": 146,
+      "bias_diff": 9.0
+    },
+    {
+      "drug1": "OXYCODONE",
+      "bias1": 85.0,
+      "drug2": "HYDROMORPHONE",
+      "bias2": 76.5,
+      "jaccard": 0.306,
+      "shared_aes": 188,
+      "bias_diff": 8.5
+    },
+    {
+      "drug1": "MORPHINE",
+      "bias1": 83.4,
+      "drug2": "TRAMADOL",
+      "bias2": 75.3,
+      "jaccard": 0.348,
+      "shared_aes": 207,
+      "bias_diff": 8.1
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "bias1": 49.4,
+      "drug2": "LEFLUNOMIDE",
+      "bias2": 41.9,
+      "jaccard": 0.328,
+      "shared_aes": 217,
+      "bias_diff": 7.5
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "bias1": 51.9,
+      "drug2": "AZATHIOPRINE",
+      "bias2": 59.3,
+      "jaccard": 0.313,
+      "shared_aes": 170,
+      "bias_diff": 7.4
+    },
+    {
+      "drug1": "ABATACEPT",
+      "bias1": 45.1,
+      "drug2": "CERTOLIZUMAB",
+      "bias2": 52.5,
+      "jaccard": 0.348,
+      "shared_aes": 170,
+      "bias_diff": 7.4
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "bias1": 55.7,
+      "drug2": "CELECOXIB",
+      "bias2": 63.1,
+      "jaccard": 0.302,
+      "shared_aes": 141,
+      "bias_diff": 7.4
+    },
+    {
+      "drug1": "MORPHINE",
+      "bias1": 83.4,
+      "drug2": "HYDROMORPHONE",
+      "bias2": 76.5,
+      "jaccard": 0.329,
+      "shared_aes": 186,
+      "bias_diff": 6.9
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "bias1": 51.9,
+      "drug2": "ABATACEPT",
+      "bias2": 45.1,
+      "jaccard": 0.356,
+      "shared_aes": 189,
+      "bias_diff": 6.8
+    },
+    {
+      "drug1": "SULFASALAZINE",
+      "bias1": 46.5,
+      "drug2": "CERTOLIZUMAB",
+      "bias2": 52.5,
+      "jaccard": 0.3,
+      "shared_aes": 146,
+      "bias_diff": 6.0
+    },
+    {
+      "drug1": "TRAMADOL",
+      "bias1": 75.3,
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "bias2": 80.8,
+      "jaccard": 0.347,
+      "shared_aes": 161,
+      "bias_diff": 5.5
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "bias1": 51.9,
+      "drug2": "SULFASALAZINE",
+      "bias2": 46.5,
+      "jaccard": 0.419,
+      "shared_aes": 205,
+      "bias_diff": 5.4
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "bias1": 51.9,
+      "drug2": "VITAMIN B9",
+      "bias2": 46.8,
+      "jaccard": 0.301,
+      "shared_aes": 145,
+      "bias_diff": 5.1
+    },
+    {
+      "drug1": "DOXORUBICIN",
+      "bias1": 71.4,
+      "drug2": "VINCRISTINE",
+      "bias2": 76.2,
+      "jaccard": 0.317,
+      "shared_aes": 148,
+      "bias_diff": 4.8
+    },
+    {
+      "drug1": "LEFLUNOMIDE",
+      "bias1": 41.9,
+      "drug2": "SULFASALAZINE",
+      "bias2": 46.5,
+      "jaccard": 0.398,
+      "shared_aes": 196,
+      "bias_diff": 4.6
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "bias1": 49.4,
+      "drug2": "ABATACEPT",
+      "bias2": 45.1,
+      "jaccard": 0.338,
+      "shared_aes": 215,
+      "bias_diff": 4.3
+    },
+    {
+      "drug1": "HYDROMORPHONE",
+      "bias1": 76.5,
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "bias2": 80.8,
+      "jaccard": 0.405,
+      "shared_aes": 166,
+      "bias_diff": 4.3
+    },
+    {
+      "drug1": "OXYCODONE",
+      "bias1": 85.0,
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "bias2": 80.8,
+      "jaccard": 0.319,
+      "shared_aes": 183,
+      "bias_diff": 4.2
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "bias1": 51.9,
+      "drug2": "GOLIMUMAB",
+      "bias2": 55.7,
+      "jaccard": 0.305,
+      "shared_aes": 166,
+      "bias_diff": 3.8
+    },
+    {
+      "drug1": "PREDNISONE",
+      "bias1": 70.2,
+      "drug2": "RITUXIMAB",
+      "bias2": 66.6,
+      "jaccard": 0.313,
+      "shared_aes": 401,
+      "bias_diff": 3.6
+    },
+    {
+      "drug1": "DICLOFENAC",
+      "bias1": 50.6,
+      "drug2": "NAPROXEN",
+      "bias2": 54.1,
+      "jaccard": 0.321,
+      "shared_aes": 178,
+      "bias_diff": 3.5
+    },
+    {
+      "drug1": "LEFLUNOMIDE",
+      "bias1": 41.9,
+      "drug2": "ABATACEPT",
+      "bias2": 45.1,
+      "jaccard": 0.381,
+      "shared_aes": 197,
+      "bias_diff": 3.2
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "bias1": 55.7,
+      "drug2": "CERTOLIZUMAB",
+      "bias2": 52.5,
+      "jaccard": 0.342,
+      "shared_aes": 165,
+      "bias_diff": 3.2
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "bias1": 49.4,
+      "drug2": "SULFASALAZINE",
+      "bias2": 46.5,
+      "jaccard": 0.309,
+      "shared_aes": 195,
+      "bias_diff": 2.9
+    },
+    {
+      "drug1": "MORPHINE",
+      "bias1": 83.4,
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "bias2": 80.8,
+      "jaccard": 0.303,
+      "shared_aes": 164,
+      "bias_diff": 2.6
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "bias1": 49.4,
+      "drug2": "HYDROXYCHLOROQUINE",
+      "bias2": 51.9,
+      "jaccard": 0.373,
+      "shared_aes": 240,
+      "bias_diff": 2.5
+    },
+    {
+      "drug1": "OXYCODONE",
+      "bias1": 85.0,
+      "drug2": "MORPHINE",
+      "bias2": 83.4,
+      "jaccard": 0.37,
+      "shared_aes": 252,
+      "bias_diff": 1.6
+    },
+    {
+      "drug1": "ABATACEPT",
+      "bias1": 45.1,
+      "drug2": "SULFASALAZINE",
+      "bias2": 46.5,
+      "jaccard": 0.368,
+      "shared_aes": 178,
+      "bias_diff": 1.4
+    },
+    {
+      "drug1": "METHYLPREDNISOLONE",
+      "bias1": 77.2,
+      "drug2": "MYCOPHENOLIC ACID",
+      "bias2": 76.3,
+      "jaccard": 0.308,
+      "shared_aes": 242,
+      "bias_diff": 0.9
+    }
+  ],
+  "soc_ranking": {
+    "Reproductive": {
+      "n_signals": 34,
+      "n_drugs": 27,
+      "n_aes": 3,
+      "pct_female": 79.4,
+      "mean_abs_lr": 1.9928
+    },
+    "Renal": {
+      "n_signals": 2046,
+      "n_drugs": 681,
+      "n_aes": 97,
+      "pct_female": 75.0,
+      "mean_abs_lr": 0.8984
+    },
+    "Congenital": {
+      "n_signals": 44,
+      "n_drugs": 35,
+      "n_aes": 16,
+      "pct_female": 72.7,
+      "mean_abs_lr": 0.9683
+    },
+    "Investigations": {
+      "n_signals": 676,
+      "n_drugs": 476,
+      "n_aes": 3,
+      "pct_female": 72.5,
+      "mean_abs_lr": 0.9753
+    },
+    "Metabolism": {
+      "n_signals": 1032,
+      "n_drugs": 500,
+      "n_aes": 26,
+      "pct_female": 70.0,
+      "mean_abs_lr": 0.8972
+    },
+    "Neoplasms": {
+      "n_signals": 1478,
+      "n_drugs": 369,
+      "n_aes": 221,
+      "pct_female": 69.7,
+      "mean_abs_lr": 0.893
+    },
+    "Hepatobiliary": {
+      "n_signals": 2534,
+      "n_drugs": 572,
+      "n_aes": 101,
+      "pct_female": 67.1,
+      "mean_abs_lr": 0.9987
+    },
+    "Vascular": {
+      "n_signals": 2625,
+      "n_drugs": 787,
+      "n_aes": 164,
+      "pct_female": 65.8,
+      "mean_abs_lr": 1.001
+    },
+    "Blood": {
+      "n_signals": 1537,
+      "n_drugs": 616,
+      "n_aes": 49,
+      "pct_female": 64.4,
+      "mean_abs_lr": 0.9034
+    },
+    "Cardiac": {
+      "n_signals": 2665,
+      "n_drugs": 766,
+      "n_aes": 91,
+      "pct_female": 63.7,
+      "mean_abs_lr": 0.8923
+    },
+    "Endocrine": {
+      "n_signals": 283,
+      "n_drugs": 177,
+      "n_aes": 24,
+      "pct_female": 56.5,
+      "mean_abs_lr": 1.1331
+    },
+    "Psychiatric": {
+      "n_signals": 2070,
+      "n_drugs": 745,
+      "n_aes": 56,
+      "pct_female": 55.4,
+      "mean_abs_lr": 0.993
+    },
+    "Nervous": {
+      "n_signals": 1553,
+      "n_drugs": 830,
+      "n_aes": 49,
+      "pct_female": 55.1,
+      "mean_abs_lr": 0.8538
+    },
+    "Infections": {
+      "n_signals": 3902,
+      "n_drugs": 764,
+      "n_aes": 283,
+      "pct_female": 53.9,
+      "mean_abs_lr": 0.9772
+    },
+    "Pregnancy": {
+      "n_signals": 173,
+      "n_drugs": 158,
+      "n_aes": 6,
+      "pct_female": 53.8,
+      "mean_abs_lr": 1.4253
+    },
+    "General": {
+      "n_signals": 5540,
+      "n_drugs": 1267,
+      "n_aes": 130,
+      "pct_female": 52.3,
+      "mean_abs_lr": 0.9844
+    },
+    "GI": {
+      "n_signals": 2793,
+      "n_drugs": 1036,
+      "n_aes": 49,
+      "pct_female": 52.1,
+      "mean_abs_lr": 0.993
+    },
+    "Immune": {
+      "n_signals": 962,
+      "n_drugs": 592,
+      "n_aes": 19,
+      "pct_female": 51.1,
+      "mean_abs_lr": 1.0285
+    },
+    "Respiratory": {
+      "n_signals": 3717,
+      "n_drugs": 907,
+      "n_aes": 105,
+      "pct_female": 51.0,
+      "mean_abs_lr": 1.0108
+    },
+    "Skin": {
+      "n_signals": 2114,
+      "n_drugs": 769,
+      "n_aes": 59,
+      "pct_female": 47.3,
+      "mean_abs_lr": 0.9728
+    },
+    "MSK": {
+      "n_signals": 1419,
+      "n_drugs": 552,
+      "n_aes": 55,
+      "pct_female": 41.8,
+      "mean_abs_lr": 0.9554
+    },
+    "Ear": {
+      "n_signals": 338,
+      "n_drugs": 247,
+      "n_aes": 11,
+      "pct_female": 37.0,
+      "mean_abs_lr": 0.9224
+    },
+    "Eye": {
+      "n_signals": 532,
+      "n_drugs": 327,
+      "n_aes": 22,
+      "pct_female": 32.5,
+      "mean_abs_lr": 0.85
+    }
+  }
+}
