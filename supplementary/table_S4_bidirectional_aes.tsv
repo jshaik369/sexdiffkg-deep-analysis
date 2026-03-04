@@ -1,0 +1,1113 @@
+adverse_event	n_total	n_drugs	n_female	n_male	pct_female
+Drug ineffective	501	501	189	312	37.7
+Off label use	445	445	226	219	50.8
+Condition aggravated	392	392	132	260	33.7
+Vomiting	362	362	177	185	48.9
+Dyspnoea	349	349	181	168	51.9
+Nausea	339	339	134	205	39.5
+Death	337	337	251	86	74.5
+Fatigue	332	332	220	112	66.3
+Pain	327	327	227	100	69.4
+Headache	327	327	164	163	50.2
+Pyrexia	322	322	221	101	68.6
+Hypertension	313	313	207	106	66.1
+Product use in unapproved indication	304	304	154	150	50.7
+Rash	301	301	221	80	73.4
+Drug hypersensitivity	299	299	138	161	46.2
+Diarrhoea	296	296	203	93	68.6
+Dizziness	289	289	160	129	55.4
+Hypersensitivity	281	281	133	148	47.3
+Drug intolerance	279	279	125	154	44.8
+Malaise	275	275	151	124	54.9
+Hypotension	274	274	222	52	81.0
+Pneumonia	267	267	195	72	73.0
+Acute kidney injury	267	267	191	76	71.5
+Asthenia	266	266	196	70	73.7
+Weight decreased	261	261	208	53	79.7
+Abdominal pain	261	261	121	140	46.4
+Anxiety	260	260	109	151	41.9
+Product use issue	256	256	143	113	55.9
+Toxicity to various agents	255	255	179	76	70.2
+Fall	250	250	147	103	58.8
+Constipation	246	246	138	108	56.1
+Pruritus	244	244	158	86	64.8
+Decreased appetite	243	243	188	55	77.4
+Drug interaction	243	243	195	48	80.2
+Anaemia	242	242	158	84	65.3
+Overdose	241	241	197	44	81.7
+General physical health deterioration	239	239	147	92	61.5
+Therapeutic product effect incomplete	238	238	110	128	46.2
+Arthralgia	238	238	137	101	57.6
+Weight increased	237	237	143	94	60.3
+Pain in extremity	235	235	78	157	33.2
+Confusional state	234	234	153	81	65.4
+Treatment failure	233	233	107	126	45.9
+Abdominal discomfort	229	229	143	86	62.4
+Insomnia	224	224	105	119	46.9
+Erythema	222	222	90	132	40.5
+Cough	220	220	113	107	51.4
+Urticaria	219	219	117	102	53.4
+Asthma	217	217	102	115	47.0
+Thrombocytopenia	217	217	172	45	79.3
+Depression	214	214	120	94	56.1
+Oedema peripheral	214	214	147	67	68.7
+Somnolence	213	213	82	131	38.5
+Sleep disorder	212	212	89	123	42.0
+Cardiac arrest	210	210	178	32	84.8
+Gastrointestinal disorder	209	209	123	86	58.9
+Abdominal pain upper	209	209	135	74	64.6
+Swelling	209	209	88	121	42.1
+Adverse drug reaction	206	206	193	13	93.7
+Musculoskeletal stiffness	206	206	97	109	47.1
+Foetal exposure during pregnancy	203	203	132	71	65.0
+Renal failure	202	202	159	43	78.7
+Sepsis	202	202	98	104	48.5
+Alopecia	198	198	64	134	32.3
+Paraesthesia	197	197	80	117	40.6
+Hypoaesthesia	197	197	96	101	48.7
+Pulmonary embolism	196	196	44	152	22.4
+Gait disturbance	193	193	95	98	49.2
+Hyponatraemia	193	193	111	82	57.5
+Respiratory failure	192	192	130	62	67.7
+Multiple organ dysfunction syndrome	192	192	129	63	67.2
+Chest pain	192	192	119	73	62.0
+Intentional product misuse	188	188	43	145	22.9
+Infection	184	184	112	72	60.9
+Cardiac failure	184	184	147	37	79.9
+Myocardial infarction	182	182	150	32	82.4
+Hepatic enzyme increased	181	181	111	70	61.3
+Back pain	181	181	83	98	45.9
+Wheezing	181	181	102	79	56.4
+Atrial fibrillation	180	180	113	67	62.8
+Dry mouth	180	180	82	98	45.6
+Blood creatinine increased	178	178	139	39	78.1
+Abdominal distension	178	178	62	116	34.8
+Loss of personal independence in daily activities	177	177	57	120	32.2
+Dysphagia	177	177	121	56	68.4
+Renal impairment	177	177	144	33	81.4
+Muscle spasms	176	176	94	82	53.4
+Drug abuse	176	176	141	35	80.1
+Nasopharyngitis	174	174	91	83	52.3
+Urinary tract infection	172	172	60	112	34.9
+Tachycardia	172	172	100	72	58.1
+Lung disorder	170	170	91	79	53.5
+Hyperhidrosis	170	170	77	93	45.3
+Haemorrhage	170	170	144	26	84.7
+Joint swelling	169	169	87	82	51.5
+Muscular weakness	168	168	104	64	61.9
+Chest discomfort	165	165	53	112	32.1
+Feeling abnormal	162	162	60	102	37.0
+Mobility decreased	162	162	93	69	57.4
+Gastrooesophageal reflux disease	160	160	100	60	62.5
+Dyspepsia	160	160	105	55	65.6
+Peripheral swelling	159	159	106	53	66.7
+Contraindicated product administered	158	158	77	81	48.7
+Lower respiratory tract infection	158	158	77	81	48.7
+Stress	156	156	21	135	13.5
+Inflammation	156	156	73	83	46.8
+Blood pressure increased	155	155	91	64	58.7
+Tremor	155	155	73	82	47.1
+Septic shock	155	155	134	21	86.5
+Hyperkalaemia	154	154	137	17	89.0
+Discomfort	154	154	67	87	43.5
+Memory impairment	154	154	80	74	51.9
+Dehydration	154	154	108	46	70.1
+Migraine	153	153	39	114	25.5
+Palpitations	153	153	28	125	18.3
+Bradycardia	152	152	93	59	61.2
+Hallucination	151	151	123	28	81.5
+COVID-19	151	151	29	122	19.2
+Coma	151	151	109	42	72.2
+Cerebrovascular accident	151	151	98	53	64.9
+Premature baby	149	149	91	58	61.1
+Intentional product use issue	149	149	102	47	68.5
+Chills	147	147	57	90	38.8
+Completed suicide	147	147	91	56	61.9
+Treatment noncompliance	147	147	129	18	87.8
+Seizure	147	147	90	57	61.2
+Sinusitis	145	145	65	80	44.8
+Skin exfoliation	144	144	30	114	20.8
+Pleural effusion	143	143	86	57	60.1
+Productive cough	142	142	41	101	28.9
+Neutropenia	142	142	84	58	59.2
+Loss of consciousness	142	142	98	44	69.0
+Alanine aminotransferase increased	142	142	118	24	83.1
+Cardio-respiratory arrest	141	141	109	32	77.3
+Oedema	141	141	97	44	68.8
+Myalgia	141	141	78	63	55.3
+Pancytopenia	141	141	101	40	71.6
+Pulmonary oedema	140	140	63	77	45.0
+Hypokalaemia	140	140	106	34	75.7
+Thrombosis	140	140	52	88	37.1
+Visual impairment	138	138	78	60	56.5
+Upper respiratory tract infection	138	138	59	79	42.8
+Bronchitis	137	137	36	101	26.3
+Liver disorder	137	137	92	45	67.2
+C-reactive protein increased	136	136	87	49	64.0
+Vertigo	136	136	29	107	21.3
+Hypoxia	136	136	72	64	52.9
+Drug ineffective for unapproved indication	136	136	53	83	39.0
+Febrile neutropenia	135	135	93	42	68.9
+Drug-induced liver injury	135	135	105	30	77.8
+Haemoglobin decreased	135	135	93	42	68.9
+Contusion	135	135	98	37	72.6
+Haematuria	134	134	125	9	93.3
+Hepatic function abnormal	132	132	106	26	80.3
+Arthropathy	132	132	62	70	47.0
+Aspartate aminotransferase increased	131	131	80	51	61.1
+Drug resistance	130	130	105	25	80.8
+Platelet count decreased	130	130	76	54	58.5
+Syncope	129	129	74	55	57.4
+Anaphylactic reaction	128	128	63	65	49.2
+Blister	127	127	91	36	71.7
+Type 2 diabetes mellitus	127	127	45	82	35.4
+Product dose omission issue	126	126	49	77	38.9
+Disease progression	125	125	84	41	67.2
+Delirium	125	125	110	15	88.0
+Urinary retention	124	124	98	26	79.0
+Depressed level of consciousness	124	124	92	32	74.2
+Interstitial lung disease	124	124	74	50	59.7
+Heart rate increased	124	124	35	89	28.2
+Rhabdomyolysis	123	123	97	26	78.9
+Electrocardiogram QT prolonged	122	122	84	38	68.9
+Therapy non-responder	122	122	80	42	65.6
+Blood cholesterol increased	122	122	58	64	47.5
+Diabetes mellitus	122	122	48	74	39.3
+Medication error	122	122	88	34	72.1
+Angioedema	121	121	108	13	89.3
+Transaminases increased	120	120	75	45	62.5
+Vision blurred	120	120	47	73	39.2
+Therapeutic product effect decreased	119	119	63	56	52.9
+Neck pain	118	118	57	61	48.3
+Inappropriate schedule of product administration	118	118	34	84	28.8
+Balance disorder	118	118	49	69	41.5
+Influenza	118	118	48	70	40.7
+Intentional overdose	118	118	61	57	51.7
+Rectal haemorrhage	117	117	93	24	79.5
+Hot flush	117	117	95	22	81.2
+Drug dependence	117	117	88	29	75.2
+Liver injury	116	116	77	39	66.4
+Eosinophilia	116	116	68	48	58.6
+Chronic obstructive pulmonary disease	116	116	37	79	31.9
+Arthritis	115	115	50	65	43.5
+Deep vein thrombosis	113	113	36	77	31.9
+Pneumonia aspiration	112	112	87	25	77.7
+Eye pain	112	112	38	74	33.9
+Agitation	112	112	84	28	75.0
+Wound	111	111	45	66	40.5
+Musculoskeletal pain	110	110	67	43	60.9
+Cardiac disorder	110	110	73	37	66.4
+Stomatitis	110	110	62	48	56.4
+Fungal infection	110	110	21	89	19.1
+Hypoglycaemia	110	110	89	21	80.9
+Blood glucose increased	110	110	60	50	54.5
+Psoriasis	109	109	82	27	75.2
+Tinnitus	109	109	37	72	33.9
+Neuropathy peripheral	109	109	71	38	65.1
+Pancreatitis	109	109	79	30	72.5
+Blood pressure decreased	109	109	68	41	62.4
+Dry skin	108	108	24	84	22.2
+Swelling face	108	108	43	65	39.8
+Cognitive disorder	108	108	62	46	57.4
+No adverse event	108	108	34	74	31.5
+Amnesia	107	107	69	38	64.5
+Dysarthria	107	107	60	47	56.1
+Dysuria	107	107	73	34	68.2
+Rheumatoid arthritis	107	107	60	47	56.1
+Gait inability	107	107	59	48	55.1
+Leukopenia	107	107	54	53	50.5
+Osteoporosis	107	107	84	23	78.5
+Drug reaction with eosinophilia and systemic symptoms	107	107	73	34	68.2
+Hepatitis	107	107	82	25	76.6
+Cholestasis	106	106	82	24	77.4
+Pulmonary fibrosis	106	106	60	46	56.6
+Cardiac failure congestive	106	106	78	28	73.6
+Suicide attempt	105	105	54	51	51.4
+Metabolic acidosis	105	105	63	42	60.0
+Haemoptysis	105	105	56	49	53.3
+Blood creatine phosphokinase increased	105	105	99	6	94.3
+Rhinorrhoea	105	105	66	39	62.9
+Night sweats	104	104	55	49	52.9
+Gastrointestinal haemorrhage	104	104	87	17	83.7
+Hepatocellular injury	104	104	79	25	76.0
+Ascites	104	104	50	54	48.1
+Epistaxis	103	103	64	39	62.1
+Respiratory disorder	103	103	61	42	59.2
+Acne	103	103	8	95	7.8
+Rash erythematous	102	102	42	60	41.2
+Toxic epidermal necrolysis	102	102	60	42	58.8
+Lymphadenopathy	102	102	28	74	27.5
+Ill-defined disorder	101	101	59	42	58.4
+Hypothyroidism	101	101	52	49	51.5
+Dysphonia	101	101	50	51	49.5
+Therapeutic response decreased	100	100	50	50	50.0
+Haematochezia	100	100	63	37	63.0
+Burning sensation	100	100	38	62	38.0
+Lactic acidosis	100	100	61	39	61.0
+Acute respiratory distress syndrome	100	100	73	27	73.0
+Wrong technique in product usage process	99	99	44	55	44.4
+Incorrect route of product administration	99	99	45	54	45.5
+Product quality issue	99	99	49	50	49.5
+Rash maculo-papular	99	99	58	41	58.6
+Nasal congestion	98	98	54	44	55.1
+Emotional distress	98	98	87	11	88.8
+Feeling hot	98	98	51	47	52.0
+Malignant neoplasm progression	98	98	78	20	79.6
+Colitis	98	98	72	26	73.5
+Cataract	98	98	32	66	32.7
+Dyspnoea exertional	98	98	34	64	34.7
+Bone pain	97	97	17	80	17.5
+Adverse event	97	97	78	19	80.4
+Influenza like illness	96	96	37	59	38.5
+Hospitalisation	96	96	64	32	66.7
+Liver function test increased	96	96	53	43	55.2
+Flushing	96	96	32	64	33.3
+Oxygen saturation decreased	95	95	55	40	57.9
+Disease recurrence	95	95	28	67	29.5
+Osteoarthritis	95	95	54	41	56.8
+Cardiogenic shock	95	95	52	43	54.7
+White blood cell count increased	94	94	77	17	81.9
+Infusion related reaction	94	94	63	31	67.0
+Hepatic failure	93	93	69	24	74.2
+Hepatotoxicity	93	93	63	30	67.7
+Suicidal ideation	92	92	38	54	41.3
+Impaired healing	92	92	42	50	45.7
+Renal disorder	92	92	63	29	68.5
+Encephalopathy	92	92	76	16	82.6
+Obesity	91	91	64	27	70.3
+Hepatic cytolysis	90	90	47	43	52.2
+Eczema	89	89	32	57	36.0
+Ulcer	89	89	32	57	36.0
+Oropharyngeal pain	89	89	24	65	27.0
+Nightmare	89	89	18	71	20.2
+Injury	89	89	47	42	52.8
+Acute respiratory failure	88	88	69	19	78.4
+Obstructive airways disorder	88	88	26	62	29.5
+Fluid retention	88	88	68	20	77.3
+Speech disorder	88	88	32	56	36.4
+Arrhythmia	88	88	49	39	55.7
+Shock	88	88	62	26	70.5
+Dysgeusia	87	87	38	49	43.7
+Sleep apnoea syndrome	87	87	49	38	56.3
+Cellulitis	87	87	41	46	47.1
+Chronic kidney disease	87	87	71	16	81.6
+Depressed mood	87	87	32	55	36.8
+Cerebral haemorrhage	86	86	76	10	88.4
+Incorrect dose administered	86	86	35	51	40.7
+Illness	86	86	27	59	31.4
+Cerebral infarction	85	85	72	13	84.7
+Disorientation	85	85	55	30	64.7
+Road traffic accident	84	84	63	21	75.0
+Psychotic disorder	84	84	58	26	69.0
+Mental status changes	84	84	67	17	79.8
+Lethargy	84	84	49	35	58.3
+Hyperglycaemia	83	83	58	25	69.9
+Epilepsy	83	83	58	25	69.9
+Ventricular tachycardia	83	83	63	20	75.9
+Skin discolouration	83	83	31	52	37.3
+Irritability	83	83	15	68	18.1
+Maternal exposure during pregnancy	82	82	31	51	37.8
+Liver function test abnormal	82	82	45	37	54.9
+White blood cell count decreased	82	82	24	58	29.3
+Body temperature increased	81	81	43	38	53.1
+Herpes zoster	81	81	22	59	27.2
+Respiratory distress	81	81	39	42	48.1
+Sleep disorder due to a general medical condition	81	81	31	50	38.3
+Full blood count abnormal	80	80	24	56	30.0
+Movement disorder	80	80	33	47	41.2
+Emotional disorder	79	79	65	14	82.3
+Hypercholesterolaemia	79	79	43	36	54.4
+Heart rate decreased	79	79	42	37	53.2
+Pericarditis	79	79	38	41	48.1
+Respiratory arrest	79	79	54	25	68.4
+Pancreatitis acute	79	79	49	30	62.0
+Neuralgia	79	79	9	70	11.4
+Crohn's disease	77	77	57	20	74.0
+Aspiration	77	77	61	16	79.2
+Agranulocytosis	77	77	54	23	70.1
+Injection site pain	76	76	25	51	32.9
+Acute myocardial infarction	76	76	62	14	81.6
+Circulatory collapse	76	76	51	25	67.1
+Accidental overdose	76	76	38	38	50.0
+Bacterial infection	76	76	16	60	21.1
+Transient ischaemic attack	76	76	35	41	46.1
+Pericardial effusion	75	75	40	35	53.3
+Colitis ulcerative	75	75	51	24	68.0
+Jaundice	75	75	54	21	72.0
+Nephrolithiasis	74	74	29	45	39.2
+Renal failure acute	74	74	65	9	87.8
+Low birth weight baby	74	74	35	39	47.3
+Restlessness	74	74	48	26	64.9
+Dementia	73	73	51	22	69.9
+Hypoacusis	73	73	40	33	54.8
+Drug eruption	73	73	50	23	68.5
+Blood bilirubin increased	73	73	52	21	71.2
+Rash pruritic	73	73	49	24	67.1
+Orthostatic hypotension	72	72	54	18	75.0
+Sedation	72	72	37	35	51.4
+Neutrophil count decreased	72	72	39	33	54.2
+Nervousness	72	72	10	62	13.9
+Systemic lupus erythematosus	71	71	32	39	45.1
+Altered state of consciousness	71	71	55	16	77.5
+Eye irritation	71	71	10	61	14.1
+Anaphylactic shock	71	71	29	42	40.8
+Gamma-glutamyltransferase increased	71	71	44	27	62.0
+Stevens-Johnson syndrome	71	71	58	13	81.7
+Skin lesion	71	71	34	37	47.9
+Nervous system disorder	71	71	30	41	42.3
+Swollen tongue	70	70	25	45	35.7
+Pallor	70	70	32	38	45.7
+Leukocytosis	70	70	36	34	51.4
+Hepatic steatosis	70	70	30	40	42.9
+Joint stiffness	70	70	39	31	55.7
+Mucosal inflammation	69	69	49	20	71.0
+Pollakiuria	69	69	40	29	58.0
+Bronchiectasis	69	69	22	47	31.9
+Gout	69	69	36	33	52.2
+Vasculitis	69	69	13	56	18.8
+Staphylococcal infection	69	69	40	29	58.0
+Accidental exposure to product	69	69	11	58	15.9
+Aphasia	68	68	41	27	60.3
+Angina pectoris	68	68	51	17	75.0
+Urinary incontinence	68	68	29	39	42.6
+Disseminated intravascular coagulation	68	68	57	11	83.8
+Aggression	68	68	46	22	67.6
+Ocular hyperaemia	67	67	25	42	37.3
+Lip swelling	67	67	19	48	28.4
+Skin ulcer	67	67	44	23	65.7
+Tubulointerstitial nephritis	67	67	39	28	58.2
+Intestinal obstruction	67	67	40	27	59.7
+Feeling cold	67	67	22	45	32.8
+Haematoma	67	67	51	16	76.1
+Skin disorder	66	66	40	26	60.6
+Disturbance in attention	66	66	30	36	45.5
+Psoriatic arthropathy	66	66	48	18	72.7
+Injection site erythema	66	66	5	61	7.6
+Ischaemic stroke	66	66	36	30	54.5
+Diverticulitis	66	66	22	44	33.3
+Flatulence	66	66	29	37	43.9
+Product prescribing error	65	65	19	46	29.2
+Blood test abnormal	65	65	38	27	58.5
+Candida infection	65	65	22	43	33.8
+Impaired work ability	65	65	20	45	30.8
+Deafness	65	65	46	19	70.8
+Acute hepatic failure	65	65	39	26	60.0
+Joint injury	65	65	27	38	41.5
+Visual acuity reduced	65	65	20	45	30.8
+Eye swelling	64	64	8	56	12.5
+Photosensitivity reaction	64	64	13	51	20.3
+Blood alkaline phosphatase increased	64	64	40	24	62.5
+Drug withdrawal syndrome	64	64	54	10	84.4
+Ejection fraction decreased	64	64	36	28	56.2
+Gastric disorder	64	64	26	38	40.6
+Haematemesis	64	64	45	19	70.3
+Ventricular fibrillation	64	64	38	26	59.4
+Hepatic cirrhosis	64	64	56	8	87.5
+Neurotoxicity	64	64	58	6	90.6
+Prescribed overdose	64	64	45	19	70.3
+Red blood cell count decreased	64	64	26	38	40.6
+Brain oedema	64	64	39	25	60.9
+Melaena	64	64	55	9	85.9
+Cystitis	63	63	25	38	39.7
+Unresponsive to stimuli	63	63	47	16	74.6
+Dyskinesia	63	63	41	22	65.1
+Tachypnoea	63	63	42	21	66.7
+Nodule	63	63	9	54	14.3
+Lacrimation increased	63	63	23	40	36.5
+Presyncope	63	63	20	43	31.7
+Cardiomyopathy	63	63	39	24	61.9
+Blindness	63	63	18	45	28.6
+Throat irritation	63	63	19	44	30.2
+Panic attack	63	63	10	53	15.9
+Cholelithiasis	63	63	27	36	42.9
+Pneumothorax	62	62	39	23	62.9
+Hypomagnesaemia	62	62	44	18	71.0
+Frequent bowel movements	62	62	37	25	59.7
+Lung neoplasm malignant	62	62	43	19	69.4
+Rash papular	61	61	5	56	8.2
+Bacteraemia	61	61	43	18	70.5
+Cytopenia	61	61	51	10	83.6
+Underdose	61	61	44	17	72.1
+Femur fracture	61	61	6	55	9.8
+Diplopia	61	61	18	43	29.5
+Neoplasm malignant	61	61	49	12	80.3
+Hyperbilirubinaemia	60	60	43	17	71.7
+Pulmonary congestion	60	60	21	39	35.0
+Irritable bowel syndrome	59	59	31	28	52.5
+Fear	59	59	8	51	13.6
+Atelectasis	59	59	31	28	52.5
+Coronary artery disease	59	59	39	20	66.1
+Viral infection	59	59	17	42	28.8
+Toxic skin eruption	59	59	41	18	69.5
+Intentional self-injury	58	58	24	34	41.4
+Limb discomfort	58	58	18	40	31.0
+Blood potassium decreased	58	58	24	34	41.4
+Drug effect incomplete	58	58	19	39	32.8
+Gastritis	58	58	17	41	29.3
+Coagulopathy	58	58	36	22	62.1
+Micturition urgency	57	57	7	50	12.3
+Respiratory tract infection	57	57	36	21	63.2
+Drug level increased	57	57	37	20	64.9
+Adverse reaction	57	57	21	36	36.8
+Face oedema	57	57	26	31	45.6
+Haematocrit decreased	57	57	36	21	63.2
+Crying	57	57	10	47	17.5
+Lymphocyte count decreased	56	56	9	47	16.1
+Mental disorder	56	56	31	25	55.4
+Hyperlipidaemia	56	56	19	37	33.9
+Blood pressure systolic increased	56	56	35	21	62.5
+Cyanosis	56	56	30	26	53.6
+International normalised ratio increased	56	56	47	9	83.9
+Myelodysplastic syndrome	56	56	48	8	85.7
+Pulmonary mass	55	55	21	34	38.2
+Hypophagia	55	55	39	16	70.9
+Procedural pain	55	55	13	42	23.6
+Chromaturia	55	55	34	21	61.8
+Cardiac murmur	55	55	21	34	38.2
+Therapy partial responder	55	55	36	19	65.5
+Cytomegalovirus infection	55	55	46	9	83.6
+Splenomegaly	55	55	39	16	70.9
+Myelosuppression	55	55	20	35	36.4
+Abnormal behaviour	55	55	43	12	78.2
+Oral candidiasis	55	55	28	27	50.9
+Eye disorder	55	55	16	39	29.1
+Renal tubular necrosis	54	54	42	12	77.8
+Blood pressure fluctuation	54	54	32	22	59.3
+Mood swings	54	54	8	46	14.8
+Pain in jaw	54	54	7	47	13.0
+Head injury	54	54	38	16	70.4
+Troponin increased	54	54	27	27	50.0
+Secretion discharge	54	54	14	40	25.9
+Poor quality sleep	54	54	34	20	63.0
+Dysstasia	54	54	16	38	29.6
+Sciatica	54	54	31	23	57.4
+Blood lactate dehydrogenase increased	53	53	38	15	71.7
+Mouth ulceration	53	53	17	36	32.1
+Haemodynamic instability	53	53	46	7	86.8
+Throat tightness	53	53	15	38	28.3
+Thinking abnormal	53	53	15	38	28.3
+Withdrawal syndrome	53	53	22	31	41.5
+Synovitis	53	53	38	15	71.7
+Eating disorder	52	52	37	15	71.2
+Upper gastrointestinal haemorrhage	52	52	36	16	69.2
+Injection site reaction	52	52	22	30	42.3
+Pneumonitis	52	52	33	19	63.5
+Sputum discoloured	52	52	26	26	50.0
+Dry eye	52	52	25	27	48.1
+Peritonitis	52	52	46	6	88.5
+Conjunctivitis	52	52	35	17	67.3
+Mood altered	52	52	14	38	26.9
+Therapy interrupted	51	51	13	38	25.5
+Lymphopenia	51	51	13	38	25.5
+Muscle spasticity	51	51	24	27	47.1
+Generalised tonic-clonic seizure	51	51	33	18	64.7
+Anuria	51	51	41	10	80.4
+Acute myeloid leukaemia	51	51	44	7	86.3
+Feeding disorder	51	51	25	26	49.0
+Multiple-drug resistance	50	50	41	9	82.0
+Unevaluable event	50	50	35	15	70.0
+Incorrect product administration duration	50	50	7	43	14.0
+Photophobia	50	50	11	39	22.0
+Muscle twitching	50	50	23	27	46.0
+Rash macular	49	49	10	39	20.4
+Parkinson's disease	49	49	38	11	77.6
+Clostridium difficile infection	49	49	30	19	61.2
+Basal cell carcinoma	49	49	21	28	42.9
+Lower limb fracture	49	49	25	24	51.0
+Metastases to bone	49	49	24	25	49.0
+Disability	49	49	42	7	85.7
+Nephropathy toxic	49	49	41	8	83.7
+Cardiomegaly	49	49	17	32	34.7
+Blood urea increased	49	49	36	13	73.5
+Metastases to liver	48	48	14	34	29.2
+Arteriosclerosis	48	48	28	20	58.3
+Hypercalcaemia	48	48	37	11	77.1
+Hypokinesia	48	48	24	24	50.0
+Ear infection	48	48	26	22	54.2
+Therapy cessation	48	48	11	37	22.9
+Therapeutic response unexpected	48	48	9	39	18.8
+Surgery	48	48	7	41	14.6
+Product substitution issue	48	48	14	34	29.2
+Psychomotor hyperactivity	47	47	30	17	63.8
+Inappropriate schedule of drug administration	47	47	12	35	25.5
+Glaucoma	47	47	21	26	44.7
+Generalised oedema	47	47	15	32	31.9
+Schizophrenia	47	47	38	9	80.9
+Sensory disturbance	47	47	10	37	21.3
+Sinus tachycardia	47	47	27	20	57.4
+Adrenal insufficiency	47	47	38	9	80.9
+Cardiovascular disorder	47	47	29	18	61.7
+Hypotonia	47	47	31	16	66.0
+Limb injury	47	47	27	20	57.4
+Poisoning	47	47	30	17	63.8
+Clostridium difficile colitis	47	47	32	15	68.1
+Neutrophil count increased	46	46	24	22	52.2
+Left ventricular dysfunction	46	46	35	11	76.1
+Myocarditis	46	46	41	5	89.1
+Electrolyte imbalance	46	46	32	14	69.6
+Product dose omission	46	46	9	37	19.6
+Ileus	46	46	41	5	89.1
+Cold sweat	46	46	12	34	26.1
+Hypophosphataemia	46	46	23	23	50.0
+Serotonin syndrome	46	46	23	23	50.0
+Anger	46	46	21	25	45.7
+Wound infection	46	46	25	21	54.3
+Folliculitis	46	46	22	24	47.8
+Posterior reversible encephalopathy syndrome	46	46	36	10	78.3
+Eye pruritus	46	46	11	35	23.9
+Faeces discoloured	46	46	30	16	65.2
+Gastric ulcer	45	45	32	13	71.1
+Pulmonary hypertension	45	45	13	32	28.9
+Knee arthroplasty	45	45	22	23	48.9
+Dystonia	45	45	32	13	71.1
+Polyneuropathy	45	45	33	12	73.3
+Cytokine release syndrome	45	45	39	6	86.7
+Thrombotic microangiopathy	45	45	31	14	68.9
+Musculoskeletal discomfort	45	45	10	35	22.2
+Localised infection	44	44	18	26	40.9
+Blood urine present	44	44	37	7	84.1
+Status epilepticus	44	44	35	9	79.5
+Blood glucose decreased	44	44	33	11	75.0
+Neuroleptic malignant syndrome	44	44	39	5	88.6
+Blood potassium increased	44	44	35	9	79.5
+Lipase increased	44	44	33	11	75.0
+Sinus bradycardia	44	44	31	13	70.5
+Eosinophil count increased	44	44	21	23	47.7
+Rib fracture	44	44	20	24	45.5
+Blood sodium decreased	44	44	20	24	45.5
+Respiratory depression	44	44	24	20	54.5
+Inappropriate antidiuretic hormone secretion	44	44	29	15	65.9
+Haemolytic anaemia	44	44	28	16	63.6
+Haemorrhoids	44	44	24	20	54.5
+Product administration error	44	44	14	30	31.8
+Rales	44	44	27	17	61.4
+Proteinuria	44	44	38	6	86.4
+Intervertebral disc protrusion	44	44	10	34	22.7
+Bronchopulmonary aspergillosis	44	44	36	8	81.8
+Bone marrow failure	44	44	31	13	70.5
+Myoclonus	43	43	32	11	74.4
+Tenderness	43	43	17	26	39.5
+Acute generalised exanthematous pustulosis	43	43	26	17	60.5
+Bursitis	43	43	23	20	53.5
+Fibromyalgia	43	43	21	22	48.8
+Ataxia	43	43	26	17	60.5
+Ear pain	43	43	20	23	46.5
+Delusion	43	43	33	10	76.7
+Red blood cell sedimentation rate increased	43	43	26	17	60.5
+Torsade de pointes	43	43	27	16	62.8
+Hernia	42	42	29	13	69.0
+Extrapyramidal disorder	42	42	36	6	85.7
+Hypothermia	42	42	30	12	71.4
+Hallucination, visual	42	42	29	13	69.0
+Restless legs syndrome	42	42	12	30	28.6
+Musculoskeletal disorder	42	42	15	27	35.7
+Hypocalcaemia	42	42	26	16	61.9
+Hyperthermia	42	42	29	13	69.0
+Blood pressure abnormal	42	42	18	24	42.9
+Heart rate irregular	42	42	19	23	45.2
+Joint dislocation	42	42	23	19	54.8
+Purpura	42	42	29	13	69.0
+Hip arthroplasty	42	42	29	13	69.0
+Myocardial ischaemia	42	42	37	5	88.1
+Laboratory test abnormal	42	42	33	9	78.6
+Glossodynia	41	41	15	26	36.6
+Mental impairment	41	41	14	27	34.1
+Sneezing	41	41	19	22	46.3
+Diabetes mellitus inadequate control	41	41	32	9	78.0
+Hypersomnia	41	41	22	19	53.7
+Hyperthyroidism	41	41	15	26	36.6
+Musculoskeletal chest pain	41	41	14	27	34.1
+Arteriosclerosis coronary artery	41	41	21	20	51.2
+Mass	40	40	8	32	20.0
+Multiple sclerosis	40	40	6	34	15.0
+Mydriasis	40	40	16	24	40.0
+Middle insomnia	40	40	12	28	30.0
+Haemophagocytic lymphohistiocytosis	40	40	33	7	82.5
+Coordination abnormal	40	40	19	21	47.5
+Hallucination, auditory	40	40	19	21	47.5
+Asphyxia	40	40	20	20	50.0
+Blood calcium increased	40	40	10	30	25.0
+Bronchospasm	40	40	21	19	52.5
+Osteomyelitis	40	40	32	8	80.0
+C-reactive protein abnormal	40	40	21	19	52.5
+Foetal growth restriction	40	40	16	24	40.0
+Increased appetite	40	40	11	29	27.5
+Feeling jittery	40	40	10	30	25.0
+Fracture	39	39	14	25	35.9
+Foot deformity	39	39	16	23	41.0
+Brain injury	39	39	31	8	79.5
+Gingival bleeding	39	39	30	9	76.9
+Blood uric acid increased	39	39	25	14	64.1
+Enterococcal infection	39	39	33	6	84.6
+Drug dose omission	39	39	21	18	53.8
+Mitral valve incompetence	39	39	18	21	46.2
+Small intestinal obstruction	39	39	23	16	59.0
+Muscle rigidity	39	39	33	6	84.6
+Hepatitis acute	39	39	22	17	56.4
+Poisoning deliberate	39	39	16	23	41.0
+Plasma cell myeloma	39	39	33	6	84.6
+Oral pain	39	39	20	19	51.3
+Apathy	38	38	20	18	52.6
+COVID-19 pneumonia	38	38	17	21	44.7
+Joint range of motion decreased	38	38	28	10	73.7
+Acidosis	38	38	24	14	63.2
+Motor dysfunction	38	38	14	24	36.8
+Upper limb fracture	38	38	12	26	31.6
+Toothache	38	38	5	33	13.2
+Tooth disorder	38	38	7	31	18.4
+Taste disorder	38	38	29	9	76.3
+Kidney infection	38	38	6	32	15.8
+Expired product administered	38	38	8	30	21.1
+Substance abuse	38	38	33	5	86.8
+Pulmonary alveolar haemorrhage	38	38	31	7	81.6
+Retching	38	38	15	23	39.5
+Device related infection	38	38	12	26	31.6
+Bedridden	37	37	21	16	56.8
+Pharyngitis	37	37	11	26	29.7
+Skin reaction	37	37	13	24	35.1
+Blood count abnormal	37	37	6	31	16.2
+Abscess	37	37	17	20	45.9
+Muscle tightness	37	37	12	25	32.4
+Hiatus hernia	37	37	9	28	24.3
+Convulsion	37	37	22	15	59.5
+Electrocardiogram abnormal	37	37	15	22	40.5
+Dermatitis bullous	37	37	26	11	70.3
+Head discomfort	37	37	6	31	16.2
+Hepatitis cholestatic	37	37	27	10	73.0
+Gastroenteritis	37	37	23	14	62.2
+Drug withdrawal syndrome neonatal	36	36	17	19	47.2
+Emphysema	36	36	15	21	41.7
+Thirst	36	36	9	27	25.0
+Sinus disorder	36	36	24	12	66.7
+Gastric haemorrhage	36	36	29	7	80.6
+Seasonal allergy	36	36	6	30	16.7
+Choking	36	36	17	19	47.2
+Peripheral coldness	36	36	18	18	50.0
+Hip fracture	36	36	19	17	52.8
+Quality of life decreased	36	36	15	21	41.7
+Klebsiella infection	36	36	28	8	77.8
+Platelet count increased	36	36	26	10	72.2
+Hemiparesis	36	36	27	9	75.0
+Aspergillus infection	36	36	30	6	83.3
+Tendonitis	36	36	10	26	27.8
+Glycosylated haemoglobin increased	35	35	20	15	57.1
+Thyroid disorder	35	35	14	21	40.0
+Hepatic encephalopathy	35	35	27	8	77.1
+Paranoia	35	35	16	19	45.7
+Atrial flutter	35	35	30	5	85.7
+Vitamin D deficiency	35	35	11	24	31.4
+Pruritus generalised	35	35	12	23	34.3
+Oesophagitis	35	35	20	15	57.1
+Cholecystitis	35	35	18	17	51.4
+Laryngitis	35	35	12	23	34.3
+Skin necrosis	35	35	23	12	65.7
+Shock haemorrhagic	35	35	26	9	74.3
+Hypertriglyceridaemia	35	35	24	11	68.6
+Erythema multiforme	35	35	21	14	60.0
+Urosepsis	35	35	26	9	74.3
+Tricuspid valve incompetence	34	34	18	16	52.9
+Bone disorder	34	34	9	25	26.5
+Hypertensive crisis	34	34	26	8	76.5
+Drug use disorder	34	34	27	7	79.4
+Eructation	34	34	14	20	41.2
+Blood triglycerides increased	34	34	20	14	58.8
+Parkinsonism	34	34	24	10	70.6
+Back injury	34	34	25	9	73.5
+Miosis	34	34	26	8	76.5
+Pneumocystis jirovecii pneumonia	34	34	29	5	85.3
+Glomerular filtration rate decreased	33	33	19	14	57.6
+Decreased activity	33	33	11	22	33.3
+Hypovolaemia	33	33	22	11	66.7
+Osteopenia	33	33	26	7	78.8
+Immunodeficiency	33	33	19	14	57.6
+Breath sounds abnormal	33	33	12	21	36.4
+Nocturia	33	33	17	16	51.5
+Endocarditis	33	33	27	6	81.8
+Grip strength decreased	33	33	17	16	51.5
+Exostosis	33	33	14	19	42.4
+Oliguria	33	33	24	9	72.7
+Exercise tolerance decreased	33	33	14	19	42.4
+Aphonia	33	33	7	26	21.2
+Cardiac failure acute	33	33	25	8	75.8
+Drug prescribing error	33	33	14	19	42.4
+Extra dose administered	33	33	9	24	27.3
+Myositis	33	33	26	7	78.8
+Blood lactic acid increased	33	33	19	14	57.6
+Dyslipidaemia	33	33	22	11	66.7
+Hypertransaminasaemia	33	33	22	11	66.7
+Lymphoedema	32	32	6	26	18.8
+Immune reconstitution inflammatory syndrome	32	32	21	11	65.6
+Hand deformity	32	32	20	12	62.5
+Renal cyst	32	32	18	14	56.2
+Gallbladder disorder	32	32	6	26	18.8
+Neurological symptom	32	32	11	21	34.4
+Mania	31	31	19	12	61.3
+Ageusia	31	31	23	8	74.2
+Flank pain	31	31	19	12	61.3
+Affect lability	31	31	12	19	38.7
+Product dispensing error	31	31	12	19	38.7
+Dermatitis	31	31	15	16	48.4
+Pulmonary thrombosis	31	31	12	19	38.7
+Metastases to lung	31	31	13	18	41.9
+Foot fracture	31	31	7	24	22.6
+Muscle atrophy	31	31	24	7	77.4
+Blood albumin decreased	31	31	21	10	67.7
+Carpal tunnel syndrome	31	31	12	19	38.7
+Abnormal dreams	31	31	21	10	67.7
+Ventricular extrasystoles	31	31	18	13	58.1
+Pneumonia bacterial	31	31	23	8	74.2
+Progressive multifocal leukoencephalopathy	30	30	11	19	36.7
+Drug effect decreased	30	30	13	17	43.3
+Atrial septal defect	30	30	11	19	36.7
+Autoimmune disorder	30	30	18	12	60.0
+Abasia	30	30	9	21	30.0
+Nephropathy	30	30	24	6	80.0
+Gastroenteritis viral	30	30	8	22	26.7
+Sopor	30	30	17	13	56.7
+Ankylosing spondylitis	30	30	7	23	23.3
+End stage renal disease	30	30	9	21	30.0
+Rash generalised	30	30	13	17	43.3
+Suspected suicide	30	30	19	11	63.3
+Anal incontinence	30	30	12	18	40.0
+Affective disorder	30	30	11	19	36.7
+Helicobacter infection	30	30	14	16	46.7
+Chronic sinusitis	30	30	13	17	43.3
+Acute pulmonary oedema	30	30	16	14	53.3
+Gastrointestinal pain	29	29	12	17	41.4
+Dermatitis allergic	29	29	10	19	34.5
+Systemic inflammatory response syndrome	29	29	24	5	82.8
+Product prescribing issue	29	29	9	20	31.0
+Personality change	29	29	20	9	69.0
+Hyperaesthesia	29	29	7	22	24.1
+Nasal polyps	29	29	17	12	58.6
+Paralysis	29	29	17	12	58.6
+Supraventricular tachycardia	29	29	6	23	20.7
+Large intestine perforation	29	29	21	8	72.4
+Nephrotic syndrome	29	29	24	5	82.8
+Escherichia infection	29	29	15	14	51.7
+Scab	29	29	6	23	20.7
+Staphylococcal bacteraemia	28	28	22	6	78.6
+Euphoric mood	28	28	10	18	35.7
+Febrile bone marrow aplasia	28	28	23	5	82.1
+Product availability issue	28	28	19	9	67.9
+Cardiotoxicity	28	28	14	14	50.0
+Terminal state	28	28	13	15	46.4
+Lung infiltration	28	28	13	15	46.4
+Intestinal ischaemia	28	28	15	13	53.6
+Sleep disorder due to general medical condition, insomnia type	28	28	14	14	50.0
+Weight fluctuation	28	28	21	7	75.0
+Hyperammonaemia	28	28	22	6	78.6
+Embolism	28	28	22	6	78.6
+Product storage error	28	28	7	21	25.0
+Hemiplegia	28	28	20	8	71.4
+Electrocardiogram QRS complex prolonged	28	28	15	13	53.6
+Renal pain	28	28	12	16	42.9
+Neutropenic sepsis	28	28	18	10	64.3
+Behaviour disorder	28	28	22	6	78.6
+Hydronephrosis	28	28	21	7	75.0
+Enterocolitis	27	27	21	6	77.8
+Hepatomegaly	27	27	9	18	33.3
+Hypogammaglobulinaemia	27	27	19	8	70.4
+Dependence	27	27	22	5	81.5
+Cytomegalovirus viraemia	27	27	22	5	81.5
+Eyelid oedema	27	27	8	19	29.6
+Tooth infection	27	27	5	22	18.5
+Product physical issue	27	27	6	21	22.2
+Back disorder	27	27	14	13	51.9
+Enteritis	27	27	17	10	63.0
+Bone erosion	27	27	12	15	44.4
+Pharyngeal oedema	27	27	6	21	22.2
+Wrong patient received product	27	27	17	10	63.0
+Lung opacity	27	27	18	9	66.7
+Intestinal perforation	27	27	18	9	66.7
+Bipolar disorder	27	27	6	21	22.2
+Myopathy	27	27	20	7	74.1
+Facial paralysis	26	26	5	21	19.2
+Blood calcium decreased	26	26	7	19	26.9
+Petechiae	26	26	16	10	61.5
+Pulmonary toxicity	26	26	20	6	76.9
+Haemolysis	26	26	18	8	69.2
+Sensory loss	26	26	16	10	61.5
+Respiratory syncytial virus infection	26	26	14	12	53.8
+Pulseless electrical activity	26	26	21	5	80.8
+Intraocular pressure increased	26	26	5	21	19.2
+Pseudomonas infection	26	26	17	9	65.4
+Brain fog	26	26	8	18	30.8
+Atrioventricular block complete	26	26	20	6	76.9
+Second primary malignancy	26	26	15	11	57.7
+Neoplasm	26	26	10	16	38.5
+Atrioventricular block	26	26	20	6	76.9
+Lymphoma	26	26	18	8	69.2
+Uveitis	25	25	7	18	28.0
+Incontinence	25	25	12	13	48.0
+Pulmonary arterial hypertension	25	25	6	19	24.0
+Exposure via ingestion	25	25	19	6	76.0
+Product use complaint	25	25	5	20	20.0
+Paraesthesia oral	25	25	10	15	40.0
+Upper-airway cough syndrome	25	25	6	19	24.0
+Lung infection	25	25	10	15	40.0
+Diabetic ketoacidosis	25	25	16	9	64.0
+Toxic encephalopathy	25	25	20	5	80.0
+Wrong technique in drug usage process	25	25	8	17	32.0
+Accident	25	25	14	11	56.0
+Polyuria	25	25	16	9	64.0
+Local swelling	25	25	6	19	24.0
+Leukaemia	25	25	18	7	72.0
+Major depression	24	24	7	17	29.2
+Renal cancer	24	24	19	5	79.2
+Appendicitis	24	24	10	14	41.7
+Ankle fracture	24	24	6	18	25.0
+Food allergy	24	24	15	9	62.5
+Pneumatosis intestinalis	24	24	18	6	75.0
+Sinus congestion	24	24	9	15	37.5
+Post-traumatic stress disorder	24	24	7	17	29.2
+Akathisia	24	24	8	16	33.3
+Metastases to central nervous system	24	24	14	10	58.3
+Prescribed underdose	24	24	17	7	70.8
+Cardiac failure chronic	24	24	16	8	66.7
+Cutaneous vasculitis	24	24	15	9	62.5
+Drug administration error	24	24	11	13	45.8
+Urine output decreased	23	23	12	11	52.2
+Aplastic anaemia	23	23	16	7	69.6
+Metastasis	23	23	12	11	52.2
+Needle issue	23	23	9	14	39.1
+Post transplant lymphoproliferative disorder	23	23	17	6	73.9
+Respiratory acidosis	23	23	17	6	73.9
+Post procedural complication	23	23	10	13	43.5
+Apnoea	23	23	16	7	69.6
+Respiratory rate increased	23	23	10	13	43.5
+Varicella zoster virus infection	23	23	18	5	78.3
+Bradyphrenia	23	23	13	10	56.5
+Diarrhoea haemorrhagic	23	23	9	14	39.1
+Bronchopulmonary aspergillosis allergic	23	23	16	7	69.6
+Tenosynovitis	23	23	9	14	39.1
+Skin haemorrhage	23	23	14	9	60.9
+Left ventricular hypertrophy	23	23	11	12	47.8
+Skin laceration	23	23	12	11	52.2
+Body temperature decreased	23	23	8	15	34.8
+Osteonecrosis of jaw	23	23	10	13	43.5
+Intentional drug misuse	22	22	9	13	40.9
+Nerve injury	22	22	7	15	31.8
+Lupus-like syndrome	22	22	14	8	63.6
+Deformity	22	22	6	16	27.3
+Insurance issue	22	22	13	9	59.1
+Malnutrition	22	22	16	6	72.7
+Blood iron decreased	22	22	6	16	27.3
+Skin cancer	22	22	12	10	54.5
+Psychiatric symptom	22	22	9	13	40.9
+Ventricular arrhythmia	22	22	16	6	72.7
+Erysipelas	22	22	9	13	40.9
+Haematotoxicity	22	22	17	5	77.3
+Mixed liver injury	21	21	15	6	71.4
+Walking aid user	21	21	10	11	47.6
+Blepharospasm	21	21	5	16	23.8
+Maternal drugs affecting foetus	21	21	5	16	23.8
+Polyp	21	21	9	12	42.9
+Rhinitis allergic	21	21	10	11	47.6
+Intentional dose omission	21	21	6	15	28.6
+Temperature intolerance	21	21	6	15	28.6
+Decubitus ulcer	21	21	13	8	61.9
+Macular degeneration	21	21	8	13	38.1
+Pyelonephritis	21	21	11	10	52.4
+Respiration abnormal	21	21	13	8	61.9
+Metabolic disorder	21	21	14	7	66.7
+Blood magnesium decreased	21	21	9	12	42.9
+Peripheral venous disease	21	21	12	9	57.1
+Coronary artery occlusion	21	21	15	6	71.4
+Organising pneumonia	21	21	16	5	76.2
+Panniculitis	21	21	16	5	76.2
+Drug administered to patient of inappropriate age	21	21	6	15	28.6
+Metastases to lymph nodes	21	21	13	8	61.9
+Spinal stenosis	21	21	10	11	47.6
+Bradykinesia	21	21	11	10	52.4
+Accidental exposure to product by child	21	21	14	7	66.7
+Myasthenia gravis	21	21	10	11	47.6
+Thrombocytosis	21	21	11	10	52.4
+Rash vesicular	20	20	14	6	70.0
+Faeces soft	20	20	5	15	25.0
+Libido decreased	20	20	14	6	70.0
+Hyperventilation	20	20	5	15	25.0
+Oral discomfort	20	20	8	12	40.0
+Paradoxical drug reaction	20	20	13	7	65.0
+Psychomotor skills impaired	20	20	12	8	60.0
+Colitis ischaemic	20	20	7	13	35.0
+Salivary hypersecretion	20	20	11	9	55.0
+Drug screen positive	20	20	13	7	65.0
+Blood glucose abnormal	20	20	15	5	75.0
+No therapeutic response	20	20	12	8	60.0
+Developmental delay	20	20	13	7	65.0
+Transfusion	20	20	14	6	70.0
+Pleuritic pain	20	20	14	6	70.0
+Skin plaque	20	20	5	15	25.0
+Eye movement disorder	20	20	7	13	35.0
+Hypernatraemia	20	20	14	6	70.0
+Eye haemorrhage	19	19	14	5	73.7
+Nail disorder	19	19	11	8	57.9
+Fine motor skill dysfunction	19	19	6	13	31.6
+Tardive dyskinesia	19	19	6	13	31.6
+Substance-induced psychotic disorder	19	19	14	5	73.7
+Cyst	19	19	5	14	26.3
+Bradypnoea	19	19	13	6	68.4
+Stent placement	19	19	8	11	42.1
+Depressive symptom	19	19	7	12	36.8
+Hydrocephalus	19	19	14	5	73.7
+Sedation complication	19	19	6	13	31.6
+Pancreatic carcinoma	19	19	10	9	52.6
+Hypovolaemic shock	19	19	12	7	63.2
+Dementia Alzheimer's type	19	19	11	8	57.9
+Bundle branch block left	19	19	5	14	26.3
+Obsessive-compulsive disorder	19	19	6	13	31.6
+Injection site mass	19	19	9	10	47.4
+Viral upper respiratory tract infection	19	19	6	13	31.6
+Patent ductus arteriosus	19	19	13	6	68.4
+Onychomycosis	19	19	9	10	47.4
+White blood cell count abnormal	19	19	12	7	63.2
+Ventricular septal defect	18	18	11	7	61.1
+Intestinal haemorrhage	18	18	9	9	50.0
+Autoimmune hepatitis	18	18	5	13	27.8
+Herpes simplex	18	18	9	9	50.0
+Squamous cell carcinoma	18	18	9	9	50.0
+Small for dates baby	18	18	8	10	44.4
+Tendon rupture	18	18	5	13	27.8
+Dermatitis exfoliative generalised	18	18	12	6	66.7
+Joint effusion	18	18	10	8	55.6
+Hypertonia	18	18	10	8	55.6
+Tuberculosis	18	18	7	11	38.9
+Escherichia sepsis	18	18	12	6	66.7
+Cystitis haemorrhagic	18	18	13	5	72.2
+Neonatal respiratory distress syndrome	18	18	8	10	44.4
+Ligament sprain	18	18	5	13	27.8
+Nerve compression	18	18	5	13	27.8
+Large intestine polyp	18	18	6	12	33.3
+Blood parathyroid hormone decreased	18	18	12	6	66.7
+Skin fissures	18	18	10	8	55.6
+Cardiac operation	18	18	8	10	44.4
+Respiratory tract congestion	18	18	13	5	72.2
+Cholecystitis acute	17	17	8	9	47.1
+Wrist fracture	17	17	5	12	29.4
+Hodgkin's disease	17	17	12	5	70.6
+Abdominal abscess	17	17	7	10	41.2
+Persecutory delusion	17	17	10	7	58.8
+Mycobacterium avium complex infection	17	17	7	10	41.2
+Endophthalmitis	17	17	5	12	29.4
+Clonus	17	17	11	6	64.7
+Skin atrophy	17	17	9	8	52.9
+Retinal haemorrhage	17	17	10	7	58.8
+Nystagmus	17	17	6	11	35.3
+Groin pain	17	17	8	9	47.1
+Energy increased	17	17	6	11	35.3
+Circumstance or information capable of leading to medication error	17	17	8	9	47.1
+Epstein-Barr virus infection	17	17	10	7	58.8
+Prescription drug used without a prescription	17	17	6	11	35.3
+Hyperphosphataemia	17	17	9	8	52.9
+Proctalgia	16	16	5	11	31.2
+Polyarthritis	16	16	8	8	50.0
+Body height decreased	16	16	6	10	37.5
+Pigmentation disorder	16	16	7	9	43.8
+Hypomania	16	16	7	9	43.8
+Poor quality product administered	16	16	5	11	31.2
+Functional gastrointestinal disorder	16	16	6	10	37.5
+Infarction	16	16	10	6	62.5
+Sleep terror	16	16	10	6	62.5
+Furuncle	16	16	5	11	31.2
+Blood immunoglobulin E increased	16	16	8	8	50.0
+Granuloma skin	16	16	10	6	62.5
+Fistula	16	16	8	8	50.0
+Defaecation urgency	16	16	5	11	31.2
+Acute myeloid leukaemia recurrent	16	16	9	7	56.2
+Crepitations	16	16	9	7	56.2
+Ventricular hypokinesia	16	16	6	10	37.5
+Abdominal tenderness	16	16	8	8	50.0
+Mycobacterial infection	16	16	6	10	37.5
+Spinal disorder	16	16	5	11	31.2
+Iron deficiency anaemia	16	16	6	10	37.5
+Thermal burn	16	16	5	11	31.2
+Hepatic lesion	16	16	6	10	37.5
+Urinary tract disorder	15	15	7	8	46.7
+Hepatic enzyme abnormal	15	15	6	9	40.0
+Atrioventricular block first degree	15	15	9	6	60.0
+Concomitant disease aggravated	15	15	5	10	33.3
+Granuloma	15	15	9	6	60.0
+Increased bronchial secretion	15	15	6	9	40.0
+Application site pain	15	15	8	7	53.3
+Arthritis bacterial	15	15	7	8	46.7
+Hepatitis B	15	15	9	6	60.0
+Self-medication	15	15	8	7	53.3
+Leukoencephalopathy	15	15	10	5	66.7
+Long QT syndrome	15	15	5	10	33.3
+Orthopnoea	15	15	8	7	53.3
+Osteolysis	15	15	8	7	53.3
+Overweight	15	15	9	6	60.0
+Pneumonia viral	15	15	6	9	40.0
+Cushingoid	15	15	8	7	53.3
+Cheilitis	14	14	5	9	35.7
+Product packaging quantity issue	14	14	7	7	50.0
+Dizziness postural	14	14	6	8	42.9
+Transplant dysfunction	14	14	9	5	64.3
+Liver abscess	14	14	7	7	50.0
+Pulmonary function test abnormal	14	14	5	9	35.7
+Activated partial thromboplastin time prolonged	14	14	6	8	42.9
+Catatonia	14	14	8	6	57.1
+Logorrhoea	14	14	5	9	35.7
+B-cell lymphoma	14	14	8	6	57.1
+Drug tolerance decreased	14	14	9	5	64.3
+Personality disorder	14	14	6	8	42.9
+JC virus infection	14	14	6	8	42.9
+Schizoaffective disorder	14	14	8	6	57.1
+Deafness neurosensory	14	14	8	6	57.1
+Device occlusion	14	14	8	6	57.1
+Coma scale abnormal	14	14	8	6	57.1
+Metastases to peritoneum	14	14	6	8	42.9
+Dermatomyositis	14	14	6	8	42.9
+Wound dehiscence	14	14	6	8	42.9
+Muscle disorder	14	14	6	8	42.9
+Cerebral atrophy	13	13	6	7	46.2
+Petit mal epilepsy	13	13	8	5	61.5
+Hypoventilation	13	13	7	6	53.8
+Platelet count abnormal	13	13	6	7	46.2
+Multiple drug therapy	13	13	7	6	53.8
+Spinal fusion surgery	13	13	8	5	61.5
+Blood pressure diastolic decreased	13	13	7	6	53.8
+Retinal detachment	13	13	5	8	38.5
+Angiopathy	13	13	6	7	46.2
+Sluggishness	13	13	5	8	38.5
+Clostridium test positive	13	13	6	7	46.2
+Diverticulum intestinal	13	13	8	5	61.5
+Necrotising fasciitis	13	13	8	5	61.5
+Radiculopathy	13	13	8	5	61.5
+Aortic valve incompetence	13	13	5	8	38.5
+Guillain-Barre syndrome	13	13	7	6	53.8
+Iridocyclitis	12	12	6	6	50.0
+Onychomadesis	12	12	6	6	50.0
+Inflammatory bowel disease	12	12	5	7	41.7
+Micturition disorder	12	12	6	6	50.0
+Vasoplegia syndrome	12	12	5	7	41.7
+Vascular device infection	12	12	5	7	41.7
+Poor venous access	12	12	7	5	58.3
+Drug effect less than expected	12	12	5	7	41.7
+Aortic arteriosclerosis	12	12	7	5	58.3
+Serum ferritin increased	12	12	7	5	58.3
+Lung adenocarcinoma	12	12	6	6	50.0
+Anticholinergic syndrome	12	12	7	5	58.3
+Fluid overload	12	12	7	5	58.3
+Laceration	12	12	5	7	41.7
+Lichenoid keratosis	11	11	6	5	54.5
+Abnormal faeces	11	11	5	6	45.5
+Hypersensitivity vasculitis	11	11	5	6	45.5
+Full blood count decreased	11	11	6	5	54.5
+Anaemia macrocytic	11	11	6	5	54.5
+Empyema	11	11	6	5	54.5
+Chest X-ray abnormal	11	11	5	6	45.5
+Type I hypersensitivity	11	11	5	6	45.5
+Methaemoglobinaemia	11	11	5	6	45.5
+Fear of injection	11	11	5	6	45.5
+Abscess limb	10	10	5	5	50.0
+Squamous cell carcinoma of skin	10	10	5	5	50.0
+Thrombotic thrombocytopenic purpura	10	10	5	5	50.0
+Respiratory rate decreased	10	10	5	5	50.0
+Self injurious behaviour	10	10	5	5	50.0
+Laryngeal oedema	10	10	5	5	50.0
+Demyelination	10	10	5	5	50.0
+Tachyarrhythmia	10	10	5	5	50.0
+Oesophageal candidiasis	10	10	5	5	50.0
+Alcoholism	10	10	5	5	50.0

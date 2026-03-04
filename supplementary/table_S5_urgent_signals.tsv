@@ -1,0 +1,119 @@
+drug_name	adverse_event	log_ratio	n_female	n_male	direction	total_reports	abs_lr
+ABATACEPT	Apparent death	-4.465	22	282	male_higher	304	4.465
+LEFLUNOMIDE	Apparent death	-4.389	22	289	male_higher	311	4.389
+SULFASALAZINE	Apparent death	-4.301	21	278	male_higher	299	4.301
+SODIUM AUROTHIOMALATE	Apparent death	-4.092	20	150	male_higher	170	4.092
+HYDROXYCHLOROQUINE SULFATE	Apparent death	-4.064	13	124	male_higher	137	4.064
+SODIUM AUROTHIOMALATE	Pulmonary embolism	-4.051	21	156	male_higher	177	4.051
+HYDROXYCHLOROQUINE	Apparent death	-4.026	17	225	male_higher	242	4.026
+TOCILIZUMAB	Apparent death	-3.859	25	279	male_higher	304	3.859
+CORTISONE	Pulmonary embolism	-3.843	17	99	male_higher	116	3.843
+MAGNESIUM	Pulmonary embolism	-3.649	11	184	male_higher	195	3.649
+SODIUM AUROTHIOMALATE	Renal failure	-3.608	20	157	male_higher	177	3.608
+IRON	Ventricular fibrillation	-3.298	10	173	male_higher	183	3.298
+HYDROXYCHLOROQUINE SULFATE	Pulmonary embolism	-3.290	31	139	male_higher	170	3.290
+CHLORHEXIDINE	Anaphylactic reaction	-3.218	72	130	male_higher	202	3.218
+ANAKINRA	Pulmonary embolism	-3.185	26	322	male_higher	348	3.185
+METHOTREXATE	Apparent death	-3.163	27	269	male_higher	296	3.163
+SODIUM CHLORIDE	Agranulocytosis	3.134	524	20	female_higher	544	3.134
+ANAKINRA	Renal failure	-3.045	19	337	male_higher	356	3.045
+SULFASALAZINE	Pulmonary embolism	-3.039	92	400	male_higher	492	3.039
+INFLIXIMAB	Apparent death	-3.020	27	286	male_higher	313	3.020
+HYDROXYCHLOROQUINE SULFATE	Renal failure	-3.013	26	145	male_higher	171	3.013
+LEUPRORELIN	Death	-2.916	85	8312	male_higher	8397	2.916
+METRONIDAZOLE	Ventricular fibrillation	-2.897	13	220	male_higher	233	2.897
+CALCIUM	Pulmonary embolism	-2.889	37	187	male_higher	224	2.889
+TRIPTORELIN	Death	-2.790	14	336	male_higher	350	2.790
+ETANERCEPT	Apparent death	-2.786	62	296	male_higher	358	2.786
+CANAKINUMAB	Renal failure	-2.770	14	286	male_higher	300	2.770
+CEFUROXIME	Pulmonary embolism	-2.718	10	100	male_higher	110	2.718
+BISACODYL	Ventricular fibrillation	-2.690	16	181	male_higher	197	2.690
+CALCIUM	Ventricular fibrillation	-2.649	12	88	male_higher	100	2.649
+SALBUTAMOL	Ventricular fibrillation	-2.605	15	204	male_higher	219	2.605
+GOSERELIN	Death	-2.585	38	652	male_higher	690	2.585
+BETAMETHASONE	Pulmonary embolism	-2.572	29	182	male_higher	211	2.572
+RITUXIMAB	Apparent death	-2.521	35	268	male_higher	303	2.521
+UMECLIDINIUM;VILANTEROL	Pulmonary embolism	-2.517	11	103	male_higher	114	2.517
+AZATHIOPRINE	Anaphylactic reaction	2.506	311	12	female_higher	323	2.506
+AZITHROMYCIN	Pulmonary embolism	-2.502	16	124	male_higher	140	2.502
+LEFLUNOMIDE	Pulmonary embolism	-2.452	144	327	male_higher	471	2.452
+SULFASALAZINE	Renal failure	-2.428	100	392	male_higher	492	2.428
+FLUTICASONE;UMECLIDINIUM;VILANTEROL	Pulmonary embolism	-2.424	14	119	male_higher	133	2.424
+FORMOTEROL;MOMETASONE	Pulmonary embolism	-2.417	31	195	male_higher	226	2.417
+GLUCOSE	Ventricular fibrillation	-2.405	17	200	male_higher	217	2.405
+TRIAMCINOLONE	Death	2.366	151	13	female_higher	164	2.366
+BETAMETHASONE	Death	-2.357	15	131	male_higher	146	2.357
+LANSOPRAZOLE	Ventricular fibrillation	-2.330	17	220	male_higher	237	2.330
+MELATONIN	Pulmonary embolism	-2.330	12	98	male_higher	110	2.330
+ABATACEPT	Pulmonary embolism	-2.330	197	355	male_higher	552	2.330
+LOSARTAN	Cardiac failure congestive	2.322	244	23	female_higher	267	2.322
+METAMIZOLE	Pulmonary embolism	-2.300	16	118	male_higher	134	2.300
+MACROGOL	Ventricular fibrillation	-2.294	18	189	male_higher	207	2.294
+HEPARIN	Ventricular fibrillation	-2.291	10	210	male_higher	220	2.291
+OSELTAMIVIR	Pulmonary embolism	-2.281	12	97	male_higher	109	2.281
+ADALIMUMAB	Apparent death	-2.269	80	324	male_higher	404	2.269
+GABAPENTIN	Ventricular fibrillation	-2.258	19	192	male_higher	211	2.258
+CICLESONIDE	Pulmonary embolism	-2.257	38	222	male_higher	260	2.257
+MINOCYCLINE	Pulmonary embolism	-2.253	21	86	male_higher	107	2.253
+HYDROXYCHLOROQUINE	Pulmonary embolism	-2.233	116	287	male_higher	403	2.233
+MAGNESIUM	Ventricular fibrillation	-2.222	14	103	male_higher	117	2.222
+DOXAZOSIN	Pulmonary embolism	-2.204	16	225	male_higher	241	2.204
+MOXIFLOXACIN	Cardiac failure congestive	2.203	101	10	female_higher	111	2.203
+LEVOFLOXACIN	Cardiac failure congestive	2.199	129	15	female_higher	144	2.199
+RISPERIDONE	Pancytopenia	2.143	105	48	female_higher	153	2.143
+CEFTRIAXONE	Ventricular fibrillation	-2.100	14	208	male_higher	222	2.100
+EPIRUBICIN	Agranulocytosis	2.091	469	15	female_higher	484	2.091
+TESTOSTERONE	Pulmonary embolism	-2.079	16	2191	male_higher	2207	2.079
+ABATACEPT	Renal failure	-2.049	167	375	male_higher	542	2.049
+MOXIFLOXACIN	Pulmonary embolism	-2.048	45	227	male_higher	272	2.048
+IRON	Pulmonary embolism	-2.045	55	158	male_higher	213	2.045
+METRONIDAZOLE	Pulmonary embolism	-2.025	30	126	male_higher	156	2.025
+HYDROXYCHLOROQUINE	Renal failure	-2.022	98	323	male_higher	421	2.022
+LEFLUNOMIDE	Renal failure	-2.011	171	409	male_higher	580	2.011
+ALENDRONIC ACID	Pulmonary embolism	-2.008	146	86	male_higher	232	2.008
+FLUTICASONE;SALMETEROL	Pulmonary embolism	-1.983	67	280	male_higher	347	1.983
+SILDENAFIL	Respiratory failure	1.978	167	83	female_higher	250	1.978
+WARFARIN	Ventricular fibrillation	-1.963	13	191	male_higher	204	1.963
+FLUOROURACIL	Cardiac failure congestive	1.924	95	23	female_higher	118	1.924
+ENALAPRIL	Cardiac failure congestive	1.905	123	26	female_higher	149	1.905
+IXEKIZUMAB	Cardiac failure congestive	-1.886	15	87	male_higher	102	1.886
+POTASSIUM	Pulmonary embolism	-1.872	25	121	male_higher	146	1.872
+POTASSIUM	Ventricular fibrillation	-1.865	20	165	male_higher	185	1.865
+VITAMIN K	Pulmonary embolism	-1.857	10	108	male_higher	118	1.857
+ONDANSETRON	Pulmonary embolism	-1.840	42	147	male_higher	189	1.840
+TOFACITINIB	Anaphylactic reaction	1.835	322	10	female_higher	332	1.835
+VITAMIN D3	Pulmonary embolism	-1.831	95	226	male_higher	321	1.831
+LIRAGLUTIDE	Pulmonary embolism	-1.818	24	81	male_higher	105	1.818
+SODIUM PHOSPHATE	Renal failure acute	1.815	132	58	female_higher	190	1.815
+SILDENAFIL	Cardiac failure congestive	1.803	232	119	female_higher	351	1.803
+POLATUZUMAB VEDOTIN	Pancytopenia	1.786	83	29	female_higher	112	1.786
+LEVOTHYROXINE	Pulmonary embolism	-1.774	179	193	male_higher	372	1.774
+CALCIUM;VITAMIN D3	Pulmonary embolism	-1.774	54	117	male_higher	171	1.774
+LEVETIRACETAM	Ventricular fibrillation	1.768	101	28	female_higher	129	1.768
+PREGABALIN	Anaphylactic reaction	1.744	231	16	female_higher	247	1.744
+SILDENAFIL CITRATE	Death	1.732	102	56	female_higher	158	1.732
+CIPROFLOXACIN	Cardiac failure congestive	1.721	117	20	female_higher	137	1.721
+TOCILIZUMAB	Pulmonary embolism	-1.714	284	438	male_higher	722	1.714
+TADALAFIL	Cardiac failure	1.695	364	128	female_higher	492	1.695
+PARACETAMOL	Ventricular fibrillation	-1.681	42	201	male_higher	243	1.681
+BUDESONIDE	Pulmonary embolism	-1.662	105	376	male_higher	481	1.662
+SILDENAFIL	Renal failure	1.649	120	90	female_higher	210	1.649
+DOBUTAMINE	Pulmonary embolism	-1.642	15	104	male_higher	119	1.642
+SILDENAFIL	Cardiac failure	1.639	245	164	female_higher	409	1.639
+SENNA SPP	Pulmonary embolism	-1.637	40	94	male_higher	134	1.637
+TAMSULOSIN	Renal failure	1.624	18	85	female_higher	103	1.624
+TOCILIZUMAB	Renal failure	-1.608	168	386	male_higher	554	1.608
+ESCITALOPRAM	Pulmonary embolism	-1.598	96	279	male_higher	375	1.598
+FLUTICASONE	Pulmonary embolism	-1.594	64	170	male_higher	234	1.594
+INSULIN	Ventricular fibrillation	-1.571	33	215	male_higher	248	1.571
+VASOPRESSIN	Ventricular fibrillation	-1.570	13	154	male_higher	167	1.570
+RISPERIDONE	Cardio-respiratory arrest	1.567	156	130	female_higher	286	1.567
+RISPERIDONE	Cardiac arrest	1.561	169	157	female_higher	326	1.561
+ETANERCEPT	Anaphylactic reaction	1.561	960	54	female_higher	1014	1.561
+CEFTRIAXONE	Pulmonary embolism	-1.550	33	166	male_higher	199	1.550
+EPIRUBICIN	Cardiac failure	1.550	333	19	female_higher	352	1.550
+SILDENAFIL	Death	1.537	1449	1347	female_higher	2796	1.537
+GOLIMUMAB	Anaphylactic reaction	1.520	306	16	female_higher	322	1.520
+LEVOFLOXACIN	Pulmonary embolism	-1.514	78	277	male_higher	355	1.514
+TADALAFIL	Cardiac failure congestive	1.514	179	67	female_higher	246	1.514
+FELODIPINE	Pulmonary embolism	-1.508	28	74	male_higher	102	1.508

@@ -1,0 +1,501 @@
+drug_name	adverse_event	log_ratio	n_female	n_male	ror_female	ror_male	direction	abs_lr
+TESTOSTERONE	Prostatic disorder	8.869	25	21	7197.743	1.012	female_higher	8.869
+PERTUZUMAB	Carbohydrate antigen 15-3 increased	-7.391	11	10	8.587	13927.369	male_higher	7.391
+ETONOGESTREL	Foetal exposure during pregnancy	-6.568	30	40	0.257	183.262	male_higher	6.568
+HYDROXYPROGESTERONE	Abortion spontaneous	-6.456	105	12	2.617	1665.768	male_higher	6.456
+MINOXIDIL	Adverse drug reaction	-6.448	20	8460	0.183	115.639	male_higher	6.448
+CARBIDOPA;LEVODOPA	Embedded device	-6.447	169	548	8.579	5412.584	male_higher	6.447
+ETONOGESTREL	Premature baby	-6.421	18	23	0.451	277.374	male_higher	6.421
+CARBIDOPA;LEVODOPA	Device expulsion	-6.412	48	79	0.355	216.320	male_higher	6.412
+ETONOGESTREL	Injury associated with device	-6.327	40	15	0.545	305.185	male_higher	6.327
+ETHINYLESTRADIOL;ETONOGESTREL	Medical device discomfort	-6.030	100	19	25.898	10766.752	male_higher	6.030
+TRASTUZUMAB	Carbohydrate antigen 15-3 increased	-5.865	19	10	6.900	2431.299	male_higher	5.865
+ESTRADIOL	Invasive ductal breast carcinoma	-5.865	42	10	5.371	1892.467	male_higher	5.865
+VITAMIN B12	Abortion spontaneous	-5.858	24	11	2.970	1039.503	male_higher	5.858
+FEZOLINETANT	Off label use	-5.744	65	16	1.090	340.433	male_higher	5.744
+LABETALOL	Abortion spontaneous	-5.679	48	15	7.914	2315.894	male_higher	5.679
+HISTRELIN	Device expulsion	-5.598	21	11	7.012	1892.553	male_higher	5.598
+TAMOXIFEN	Carbohydrate antigen 15-3 increased	-5.562	44	10	90.822	23637.731	male_higher	5.562
+HYDROXYPROGESTERONE	Stillbirth	-5.540	71	52	20.501	5222.644	male_higher	5.540
+VITAMIN B9	Abortion spontaneous	-5.506	99	14	2.816	692.918	male_higher	5.506
+OXYCODONE	Infusion related reaction	5.496	2523	10	11.610	0.048	female_higher	5.496
+ETONOGESTREL	Accidental exposure to product	-5.491	33	10	0.106	25.619	male_higher	5.491
+DESOXIMETASONE	Stress	-5.456	12	49	0.283	66.190	male_higher	5.456
+CLOZAPINE	Gynaecomastia	5.448	11	31	26.719	0.115	female_higher	5.448
+PERTUZUMAB	Oligohydramnios	-5.445	18	11	4.502	1042.911	male_higher	5.445
+OXYCODONE	Pericarditis	5.396	2508	11	51.535	0.234	female_higher	5.396
+DENOSUMAB	Peri-implantitis	-5.346	13	14	19.468	4084.794	male_higher	5.346
+DUTASTERIDE	Product prescribing issue	5.089	120	12	566.635	3.494	female_higher	5.089
+OXYCODONE	Blister	5.056	2917	19	14.536	0.093	female_higher	5.056
+INTRAUTERINE CONTRACEPTIVE DEVICE	Dyspareunia	-4.989	823	31	85.233	12509.161	male_higher	4.989
+LEVONORGESTREL	Foetal exposure during pregnancy	-4.946	23	10	0.237	33.390	male_higher	4.946
+ALENDRONIC ACID	Vasculitis	-4.913	16	139	1.151	156.544	male_higher	4.913
+VITAMIN D2	Nodule	-4.894	14	169	5.990	799.265	male_higher	4.894
+ALENDRONIC ACID	Eosinophilic granulomatosis with polyangiitis	-4.857	12	147	5.690	732.102	male_higher	4.857
+PREDNISONE	Duodenal ulcer perforation	4.828	3339	10	283.755	2.271	female_higher	4.828
+GOLIMUMAB	Pericarditis	4.810	4061	11	177.329	1.445	female_higher	4.810
+OXYCODONE	Impaired healing	4.808	2933	22	27.424	0.224	female_higher	4.808
+DESOXIMETASONE	Pulmonary embolism	-4.795	10	47	0.275	33.279	male_higher	4.795
+DOCETAXEL	Carbohydrate antigen 15-3 increased	-4.786	16	10	5.367	642.740	male_higher	4.786
+HYDROXYCHLOROQUINE	Pericarditis	4.770	4069	10	215.816	1.831	female_higher	4.770
+METHOTREXATE	Glossodynia	4.745	6104	14	60.672	0.528	female_higher	4.745
+ADALIMUMAB	Pemphigus	4.743	6766	16	87.412	0.762	female_higher	4.743
+PREDNISONE	Helicobacter infection	4.708	3295	12	132.405	1.195	female_higher	4.708
+DESOXIMETASONE	COVID-19	-4.699	15	52	0.147	16.130	male_higher	4.699
+RIZATRIPTAN	Hyperhidrosis	-4.675	13	255	1.171	125.572	male_higher	4.675
+DESOXIMETASONE	Accidental overdose	-4.673	10	49	0.717	76.700	male_higher	4.673
+ALENDRONIC ACID	Neuritis	-4.642	21	141	12.000	1245.211	male_higher	4.642
+LOPINAVIR	Abortion spontaneous	-4.632	19	11	35.185	3615.784	male_higher	4.632
+FLIBANSERIN	Product use issue	-4.631	23	28	1.295	132.810	male_higher	4.631
+ETANERCEPT	Breast feeding	-4.613	11	11	0.470	47.351	male_higher	4.613
+RISPERIDONE	Emotional disorder	-4.578	39	5735	1.510	146.927	male_higher	4.578
+RISPERIDONE	Abnormal weight gain	-4.564	66	9346	17.997	1727.667	male_higher	4.564
+RITUXIMAB	Prescribed overdose	4.559	1278	12	19.121	0.200	female_higher	4.559
+ETHINYLESTRADIOL;ETONOGESTREL	Medical device site discomfort	-4.548	159	14	234.158	22116.914	male_higher	4.548
+SIROLIMUS	Transplant dysfunction	4.505	452	17	2536.593	28.047	female_higher	4.505
+INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL	Low birth weight baby	-4.502	16	14	0.554	50.012	male_higher	4.502
+XANTOFYL	Drug ineffective	4.489	362	33	353.258	3.967	female_higher	4.489
+VITAMIN B9	Pericarditis	4.487	3491	12	756.313	8.508	female_higher	4.487
+ABATACEPT	Apparent death	-4.465	22	282	1.276	110.942	male_higher	4.465
+OXYCODONE	Wheezing	4.462	1532	18	6.830	0.079	female_higher	4.462
+MINOXIDIL	Wrong patient received medication	4.460	1460	21	795.450	9.194	female_higher	4.460
+SULFASALAZINE	Pericarditis	4.449	4104	12	317.735	3.714	female_higher	4.449
+CETIRIZINE	Hepatic enzyme increased	4.433	3847	14	57.584	0.684	female_higher	4.433
+SECUKINUMAB	Infusion related reaction	4.432	1982	11	7.368	0.088	female_higher	4.432
+HYDROXYQUINOLINE	Joint swelling	-4.422	17	46	44.820	3732.459	male_higher	4.422
+ALENDRONIC ACID	Haemoptysis	-4.413	15	153	0.516	42.592	male_higher	4.413
+DESOXIMETASONE	Somnolence	-4.411	19	52	0.216	17.782	male_higher	4.411
+CETIRIZINE	Arthropathy	4.410	4077	11	61.039	0.742	female_higher	4.410
+DEXAMETHASONE	Complication of device insertion	-4.405	65	70	0.847	69.385	male_higher	4.405
+VITAMIN B9	Wound	4.402	3728	12	350.274	4.290	female_higher	4.402
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Wound	4.397	1499	10	49.152	0.605	female_higher	4.397
+PERTUZUMAB	SARS-CoV-2 test positive	-4.395	21	46	1.337	108.367	male_higher	4.395
+LEFLUNOMIDE	Apparent death	-4.389	22	289	2.907	234.202	male_higher	4.389
+ZIDOVUDINE	Abortion spontaneous	-4.389	50	11	7.971	642.125	male_higher	4.389
+PREDNISONE	Glossodynia	4.384	6082	34	105.070	1.311	female_higher	4.384
+METHOTREXATE	Pemphigus	4.371	6680	22	258.336	3.265	female_higher	4.371
+INFLIXIMAB	Glossodynia	4.365	5962	25	91.328	1.161	female_higher	4.365
+BOTULINUM TOXIN	Sedation	-4.360	20	262	0.374	29.273	male_higher	4.360
+OXYCODONE	Wound	4.358	2434	27	22.664	0.290	female_higher	4.358
+ALENDRONIC ACID	Conjunctivitis allergic	-4.357	10	81	6.389	498.372	male_higher	4.357
+ETANERCEPT	Glossodynia	4.349	6286	15	24.232	0.313	female_higher	4.349
+OXYCODONE;PARACETAMOL	Hepatic enzyme increased	4.346	1441	16	13.596	0.176	female_higher	4.346
+VITAMIN D2	Vasculitis	-4.337	10	121	7.087	542.209	male_higher	4.337
+RITUXIMAB	Obesity	4.335	1172	20	27.359	0.359	female_higher	4.335
+OXYCODONE	Synovitis	4.316	2510	13	31.816	0.425	female_higher	4.316
+GOLIMUMAB	Confusional state	4.303	2867	14	8.878	0.120	female_higher	4.303
+SULFASALAZINE	Apparent death	-4.301	21	278	3.949	291.443	male_higher	4.301
+HYDROXYPROGESTERONE	Premature baby	-4.287	732	810	83.621	6085.199	male_higher	4.287
+SODIUM PICOSULFATE	Abdominal distension	-4.281	10	181	4.241	306.583	male_higher	4.281
+CETIRIZINE	General physical health deterioration	4.242	2667	17	25.026	0.360	female_higher	4.242
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Discomfort	4.241	1299	10	19.129	0.275	female_higher	4.241
+HYDROCORTISONE	Arthropathy	4.241	2102	10	51.632	0.743	female_higher	4.241
+PREDNISONE	Irritable bowel syndrome	4.235	2539	13	31.009	0.449	female_higher	4.235
+DICLOFENAC	Injury	4.234	2243	14	20.827	0.302	female_higher	4.234
+LEFLUNOMIDE	Wound	4.226	4919	13	107.077	1.564	female_higher	4.226
+OXYCODONE;PARACETAMOL	Wound	4.223	1150	12	22.342	0.327	female_higher	4.223
+CETIRIZINE	Joint swelling	4.215	3896	12	24.550	0.363	female_higher	4.215
+LETROZOLE	Cardio-respiratory arrest	-4.210	11	13	0.257	17.324	male_higher	4.210
+CALCIUM	Nodule	-4.206	14	144	1.834	122.981	male_higher	4.206
+SODIUM BICARBONATE;SODIUM CHLORIDE	Productive cough	-4.205	10	68	6.906	462.785	male_higher	4.205
+MEDROXYPROGESTERONE	Drug intolerance	-4.200	16	10	0.339	22.628	male_higher	4.200
+HYDROXYCHLOROQUINE	Discomfort	4.191	3752	11	30.549	0.462	female_higher	4.191
+ESTRADIOL	Premature baby	-4.185	11	21	0.464	30.516	male_higher	4.185
+HYDROCORTISONE	Joint swelling	4.181	2188	11	23.979	0.367	female_higher	4.181
+OXYCODONE;PARACETAMOL	Joint swelling	4.180	1795	17	7.577	0.116	female_higher	4.180
+GOLIMUMAB	Ill-defined disorder	4.168	2626	11	27.891	0.432	female_higher	4.168
+OXYCODONE	Sinusitis	4.164	2897	26	6.127	0.095	female_higher	4.164
+DESOXIMETASONE	Dyspnoea exertional	-4.162	11	28	0.626	40.183	male_higher	4.162
+LEFLUNOMIDE	Folliculitis	4.160	3331	11	313.396	4.889	female_higher	4.160
+DICLOFENAC	Delirium	4.156	829	11	18.099	0.284	female_higher	4.156
+DESOXIMETASONE	Vertigo	-4.149	37	48	1.122	71.106	male_higher	4.149
+CETIRIZINE	Contraindicated product administered	4.148	3885	14	113.189	1.788	female_higher	4.148
+ESTRADIOL	Foetal exposure during pregnancy	-4.146	18	38	0.260	16.433	male_higher	4.146
+RITUXIMAB	Irritable bowel syndrome	4.142	2781	14	31.559	0.501	female_higher	4.142
+SECUKINUMAB	Delirium	4.141	642	11	6.348	0.101	female_higher	4.141
+SODIUM AUROTHIOMALATE	Pulmonary thrombosis	-4.136	20	151	10.853	678.611	male_higher	4.136
+INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL	Foetal exposure during pregnancy	-4.135	30	23	0.135	8.423	male_higher	4.135
+LEFLUNOMIDE	Pericarditis	4.131	4329	16	237.971	3.823	female_higher	4.131
+RUPATADINE	Condition aggravated	-4.124	10	108	1.248	77.110	male_higher	4.124
+OXYCODONE	Hepatic enzyme increased	4.119	2569	41	10.921	0.178	female_higher	4.119
+VITAMIN B9	Contraindicated product administered	4.117	3453	11	254.225	4.144	female_higher	4.117
+VITAMIN D2	Mycotic allergy	-4.108	16	143	152.640	9286.582	male_higher	4.108
+OXYCODONE	Psoriatic arthropathy	4.100	1623	24	9.677	0.160	female_higher	4.100
+OXYCODONE;PARACETAMOL	Contusion	4.097	1369	16	7.901	0.131	female_higher	4.097
+PERTUZUMAB	Tooth disorder	-4.096	10	12	0.400	24.064	male_higher	4.096
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Joint swelling	4.095	2283	18	16.342	0.272	female_higher	4.095
+HYDROCORTISONE	Impaired healing	4.093	1571	10	75.816	1.265	female_higher	4.093
+SODIUM AUROTHIOMALATE	Apparent death	-4.092	20	150	34.965	2093.371	male_higher	4.092
+HYDROXYCHLOROQUINE	Blister	4.089	2987	11	27.592	0.462	female_higher	4.089
+CYPROTERONE;ETHINYLESTRADIOL	Malaise	-4.089	12	10	2.362	140.944	male_higher	4.089
+USTEKINUMAB	Obesity	4.077	743	15	29.986	0.509	female_higher	4.077
+ALENDRONIC ACID;VITAMIN D3	Hypoacusis	-4.076	17	48	2.809	165.459	male_higher	4.076
+GOLIMUMAB	Wound	4.074	4884	23	89.779	1.527	female_higher	4.074
+GOLIMUMAB	Folliculitis	4.064	3028	15	214.422	3.683	female_higher	4.064
+HYDROXYCHLOROQUINE SULFATE	Apparent death	-4.064	13	124	8.471	492.804	male_higher	4.064
+BACLOFEN	Implant site scar	-4.062	27	32	38.013	2207.271	male_higher	4.062
+GLYCERYL TRINITRATE	Orthostatic hypotension	4.058	462	13	324.755	5.614	female_higher	4.058
+GLUCOSE	Abdominal distension	-4.051	10	234	0.690	39.634	male_higher	4.051
+SODIUM AUROTHIOMALATE	Pulmonary embolism	-4.051	21	156	1.668	95.800	male_higher	4.051
+METHOTREXATE	Helicobacter infection	4.051	3538	16	90.567	1.577	female_higher	4.051
+OXYCODONE	Peripheral venous disease	4.027	861	11	62.344	1.111	female_higher	4.027
+HYDROXYCHLOROQUINE	Apparent death	-4.026	17	225	2.302	129.042	male_higher	4.026
+GOLIMUMAB	Discomfort	4.020	3951	16	26.881	0.482	female_higher	4.020
+DESOXIMETASONE	Eczema	-4.015	26	49	1.124	62.301	male_higher	4.015
+PSEUDOEPHEDRINE	Pain	4.015	3790	12	23.921	0.432	female_higher	4.015
+RITUXIMAB	Folliculitis	4.011	2831	30	102.265	1.852	female_higher	4.011
+RITUXIMAB	Pericarditis	4.003	4362	61	111.243	2.031	female_higher	4.003
+OXYCODONE	Pulmonary fibrosis	3.998	626	17	10.886	0.200	female_higher	3.998
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Infusion related reaction	3.998	1724	20	29.355	0.539	female_higher	3.998
+ALMOTRIPTAN	Hyperhidrosis	-3.997	24	240	12.445	677.331	male_higher	3.997
+DICLOFENAC	Wound	3.987	4390	34	92.665	1.719	female_higher	3.987
+OXYCODONE;PARACETAMOL	Treatment failure	3.987	608	11	4.367	0.081	female_higher	3.987
+BUPRENORPHINE	Epilepsy	3.986	549	11	11.790	0.219	female_higher	3.986
+MISOPROSTOL	Maternal exposure during pregnancy	-3.985	207	33	8.192	440.756	male_higher	3.985
+DESOXIMETASONE	Palpitations	-3.981	48	46	0.766	41.020	male_higher	3.981
+CORTISONE	Rhinitis	-3.977	10	54	3.047	162.589	male_higher	3.977
+VITAMIN A	Stress	-3.976	14	92	5.194	276.825	male_higher	3.976
+APREMILAST	Liver injury	3.971	1106	11	12.725	0.240	female_higher	3.971
+RITUXIMAB	Injury	3.971	2281	26	9.758	0.184	female_higher	3.971
+PREDNISONE	Wound	3.964	4965	65	55.057	1.045	female_higher	3.964
+PREDNISONE	Pericarditis	3.964	4370	73	123.999	2.355	female_higher	3.964
+ATOMOXETINE	Obesity	3.959	339	12	155.154	2.960	female_higher	3.959
+CARBIDOPA;LEVODOPA	Complication of device insertion	-3.956	17	20	0.455	23.800	male_higher	3.956
+INFLIXIMAB	Obesity	3.952	1163	25	27.226	0.523	female_higher	3.952
+OXYCODONE	Blood cholesterol increased	3.950	1384	22	8.597	0.166	female_higher	3.950
+EMTRICITABINE	Abortion spontaneous	-3.947	53	11	20.379	1055.353	male_higher	3.947
+ABATACEPT	Onychoclasis	-3.946	25	84	0.545	28.200	male_higher	3.946
+INTRAUTERINE CONTRACEPTIVE DEVICE	Injury	-3.945	292	31	2.409	124.480	male_higher	3.945
+CETIRIZINE	Therapeutic product effect decreased	3.945	2464	13	46.430	0.899	female_higher	3.945
+DICLOFENAC	Irritable bowel syndrome	3.942	2731	12	67.464	1.309	female_higher	3.942
+TRASTUZUMAB EMTANSINE	Tooth disorder	-3.939	13	11	1.258	64.637	male_higher	3.939
+IRON	Blood cholesterol increased	-3.937	10	109	0.261	13.400	male_higher	3.937
+LEVOFLOXACIN	Orthostatic hypotension	3.935	492	13	43.923	0.858	female_higher	3.935
+CALCIUM	Vasculitis	-3.933	12	146	2.608	133.200	male_higher	3.933
+OXYCODONE;PARACETAMOL	Peripheral swelling	3.931	1669	27	5.279	0.104	female_higher	3.931
+DICLOFENAC	Type 2 diabetes mellitus	3.930	2593	15	44.223	0.869	female_higher	3.930
+GOLD (198 AU)	Diverticulitis	-3.930	32	144	6.915	352.036	male_higher	3.930
+ATOMOXETINE	Epilepsy	3.926	523	16	117.939	2.325	female_higher	3.926
+OXYCODONE;PARACETAMOL	Nasopharyngitis	3.924	1508	22	4.241	0.084	female_higher	3.924
+USTEKINUMAB	Liver injury	3.924	1322	19	30.296	0.599	female_higher	3.924
+CETIRIZINE	Gastrointestinal disorder	3.923	2104	11	20.477	0.405	female_higher	3.923
+CORTISONE	Infusion related reaction	3.918	3093	10	214.773	4.268	female_higher	3.918
+ENZALUTAMIDE	Product use issue	3.916	24	69	6.935	0.138	female_higher	3.916
+PARACETAMOL	Impaired healing	3.914	2582	18	23.794	0.475	female_higher	3.914
+LEVOTHYROXINE	Neurological symptom	-3.914	10	88	0.901	45.168	male_higher	3.914
+RANITIDINE	Prescribed overdose	3.912	356	10	2.501	0.050	female_higher	3.912
+FELODIPINE	Systemic lupus erythematosus	-3.909	22	76	9.487	473.020	male_higher	3.909
+LETROZOLE	Anal incontinence	-3.904	20	10	1.290	64.007	male_higher	3.904
+OXYCODONE	Hypercholesterolaemia	3.904	788	16	29.380	0.592	female_higher	3.904
+RITUXIMAB	Peripheral venous disease	3.902	1086	10	76.874	1.553	female_higher	3.902
+OXYCODONE;PARACETAMOL	Rheumatoid arthritis	3.902	1421	10	5.679	0.115	female_higher	3.902
+SODIUM AUROTHIOMALATE	Red blood cell sedimentation rate abnormal	-3.899	30	63	50.533	2494.926	male_higher	3.899
+SULFASALAZINE	Discomfort	3.897	3849	13	45.477	0.923	female_higher	3.897
+INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL	Premature baby	-3.894	37	19	0.487	23.943	male_higher	3.894
+CEFTRIAXONE	Stress	-3.894	10	232	0.227	11.137	male_higher	3.894
+MOXIFLOXACIN	Nodule	-3.887	12	201	1.749	85.316	male_higher	3.887
+DESOXIMETASONE	Acne	-3.887	19	20	0.402	19.592	male_higher	3.887
+RISPERIDONE	Injury	-3.884	29	2359	0.481	23.380	male_higher	3.884
+MEBEVERINE	Systemic lupus erythematosus	-3.883	23	74	62.724	3045.992	male_higher	3.883
+HYDROCORTISONE	Psoriatic arthropathy	3.882	1627	14	56.498	1.165	female_higher	3.882
+METHYLPREDNISOLONE	Psoriatic arthropathy	3.881	1016	12	14.076	0.290	female_higher	3.881
+FLUTICASONE;SALMETEROL	Nodule	-3.876	17	245	0.661	31.887	male_higher	3.876
+FINASTERIDE	Product use issue	3.873	44	34	12.020	0.250	female_higher	3.873
+RITUXIMAB	Helicobacter infection	3.869	3487	27	135.611	2.832	female_higher	3.869
+SODIUM BICARBONATE;SODIUM CHLORIDE	Chest discomfort	-3.869	28	78	8.817	422.129	male_higher	3.869
+SODIUM CITRATE	Constipation	-3.859	10	182	0.181	8.588	male_higher	3.859
+TOCILIZUMAB	Apparent death	-3.859	25	279	1.959	92.857	male_higher	3.859
+FLUOROURACIL	Carbohydrate antigen 15-3 increased	-3.857	10	10	6.568	310.905	male_higher	3.857
+PANTOPRAZOLE	Wound	3.855	1099	10	18.499	0.392	female_higher	3.855
+FINASTERIDE	Exposure via father	3.853	15	12	768.029	16.291	female_higher	3.853
+CHORIONIC GONADOTROPHIN	Product dose omission issue	-3.851	12	79	0.297	13.959	male_higher	3.851
+CORTISONE	Pulmonary embolism	-3.843	17	99	0.545	25.439	male_higher	3.843
+CETIRIZINE	Discomfort	3.839	3323	18	46.161	0.993	female_higher	3.839
+USTEKINUMAB	Hypercholesterolaemia	3.839	823	10	50.004	1.076	female_higher	3.839
+CHLORHEXIDINE	Pyrexia	3.832	2525	11	40.253	0.872	female_higher	3.832
+TOCILIZUMAB	Folliculitis	3.831	3297	20	174.856	3.791	female_higher	3.831
+PSEUDOEPHEDRINE	Fatigue	3.830	3483	14	16.981	0.369	female_higher	3.830
+HYDROCORTISONE	Mobility decreased	3.825	1475	13	27.659	0.603	female_higher	3.825
+CLOTRIMAZOLE	Pain in extremity	-3.825	17	106	0.536	24.580	male_higher	3.825
+OXYCODONE	Swelling	3.824	3160	52	8.100	0.177	female_higher	3.824
+PARACETAMOL	Therapeutic product effect decreased	3.818	2290	19	13.726	0.302	female_higher	3.818
+USTEKINUMAB	Sleep disorder	3.817	1322	18	8.332	0.183	female_higher	3.817
+BUPRENORPHINE	Obesity	3.817	338	10	15.388	0.338	female_higher	3.817
+CALCIUM	Hypothyroidism	-3.816	16	140	1.008	45.777	male_higher	3.816
+RANITIDINE	C-reactive protein increased	3.814	417	12	1.577	0.035	female_higher	3.814
+GABAPENTIN	Hand deformity	-3.813	13	38	0.266	12.052	male_higher	3.813
+ALMOTRIPTAN	Product use in unapproved indication	-3.812	10	176	2.467	111.557	male_higher	3.812
+CERTOLIZUMAB	Liver injury	3.811	1884	11	26.828	0.594	female_higher	3.811
+PARACETAMOL	Irritable bowel syndrome	3.810	2471	12	32.665	0.723	female_higher	3.810
+DESVENLAFAXINE	Maternal exposure during pregnancy	-3.809	18	11	0.303	13.676	male_higher	3.809
+FOLIC ACID	Abdominal discomfort	3.807	2148	16	78.024	1.733	female_higher	3.807
+VITAMIN B9	Blister	3.807	2629	14	102.556	2.279	female_higher	3.807
+ADALIMUMAB	Glossodynia	3.805	6373	38	21.037	0.468	female_higher	3.805
+MELATONIN	Abdominal distension	-3.799	10	221	0.838	37.386	male_higher	3.799
+RITUXIMAB	Wound	3.798	5178	71	52.851	1.185	female_higher	3.798
+CELECOXIB	Nightmare	-3.794	19	265	0.500	22.217	male_higher	3.794
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Folliculitis	3.789	2012	26	259.946	5.877	female_higher	3.789
+TAMSULOSIN	Product use issue	3.787	98	29	10.760	0.244	female_higher	3.787
+PEGINTERFERON ALFA-2A	Pregnancy	-3.785	60	31	2.959	130.255	male_higher	3.785
+GOLIMUMAB	Helicobacter infection	3.782	3163	11	199.846	4.552	female_higher	3.782
+FOLINIC ACID	Anti-cyclic citrullinated peptide antibody positive	-3.781	11	23	2.052	90.014	male_higher	3.781
+MORPHINE	Orthostatic hypotension	3.778	381	16	16.608	0.380	female_higher	3.778
+DICLOFENAC	Hepatic enzyme increased	3.768	4267	42	37.052	0.856	female_higher	3.768
+RANITIDINE	Epilepsy	3.764	475	17	2.317	0.054	female_higher	3.764
+HYDROCORTISONE	Type 2 diabetes mellitus	3.761	1810	14	92.497	2.151	female_higher	3.761
+NAPROXEN	Pulmonary fibrosis	3.760	766	10	29.353	0.683	female_higher	3.760
+PARACETAMOL	Arthropathy	3.759	2925	19	12.630	0.294	female_higher	3.759
+HYDROMORPHONE	Hepatic enzyme increased	3.757	545	10	5.686	0.133	female_higher	3.757
+PARACETAMOL	Ill-defined disorder	3.756	2072	20	14.098	0.330	female_higher	3.756
+SULFAMETHOXAZOLE	Pruritus	3.754	1628	10	52.391	1.228	female_higher	3.754
+NORETHISTERONE	Premature baby	-3.753	10	11	11.018	470.101	male_higher	3.753
+TRASTUZUMAB	Oligohydramnios	-3.753	72	20	8.519	363.171	male_higher	3.753
+CERTOLIZUMAB	Wound	3.750	4811	23	52.500	1.235	female_higher	3.750
+TESTOSTERONE	Accidental exposure to product	3.747	294	118	33.639	0.793	female_higher	3.747
+SECUKINUMAB	Intentional product use issue	3.742	1458	25	4.332	0.103	female_higher	3.742
+CHLORHEXIDINE	Pain	3.737	2941	10	22.209	0.529	female_higher	3.737
+RITUXIMAB	Hypercholesterolaemia	3.733	1143	17	40.559	0.970	female_higher	3.733
+OXYCODONE;PARACETAMOL	Arthropathy	3.725	1305	19	11.991	0.289	female_higher	3.725
+BREMELANOTIDE	Off label use	-3.721	30	23	1.077	44.490	male_higher	3.721
+SODIUM PICOSULFATE	Abdominal pain	-3.720	15	174	2.985	123.150	male_higher	3.720
+OXYCODONE	Drug-induced liver injury	3.717	402	14	3.836	0.093	female_higher	3.717
+ANAKINRA	Diverticulitis	-3.713	23	322	2.065	84.627	male_higher	3.713
+TRASTUZUMAB	Incorrect dose administered	-3.711	23	73	0.048	1.950	male_higher	3.711
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Impaired healing	3.708	2021	29	68.097	1.671	female_higher	3.708
+TOCILIZUMAB	Pericarditis	3.707	4366	33	137.007	3.364	female_higher	3.707
+OXYCODONE	Nasopharyngitis	3.705	2940	60	3.650	0.090	female_higher	3.705
+SALBUTAMOL	Mycotic allergy	-3.702	19	219	10.530	426.941	male_higher	3.702
+RAMIPRIL	Liver injury	3.702	755	18	48.026	1.185	female_higher	3.702
+DOCETAXEL	Anxiety	3.702	4378	26	7.566	0.187	female_higher	3.702
+TESTOSTERONE	Accidental exposure to product by child	3.700	28	22	58.129	1.437	female_higher	3.700
+SULFASALAZINE	Pulmonary thrombosis	-3.691	23	183	1.342	53.809	male_higher	3.691
+GOLIMUMAB	Liver injury	3.690	1854	16	42.805	1.069	female_higher	3.690
+USTEKINUMAB	Injury	3.689	1740	26	13.944	0.348	female_higher	3.689
+RITUXIMAB	Back injury	3.684	646	11	15.559	0.391	female_higher	3.684
+PREDNISONE	Hand deformity	3.683	5354	29	154.552	3.885	female_higher	3.683
+METHYLPREDNISOLONE	Wound	3.682	1009	13	20.062	0.505	female_higher	3.682
+GOLIMUMAB	Blood cholesterol increased	3.682	2217	12	22.153	0.558	female_higher	3.682
+ESTRADIOL	Heart rate decreased	-3.680	12	11	0.257	10.196	male_higher	3.680
+FUROSEMIDE	Creatinine renal clearance decreased	3.680	463	12	146.135	3.686	female_higher	3.680
+HYDROCORTISONE	Discomfort	3.679	1842	18	43.370	1.095	female_higher	3.679
+DICLOFENAC	Blood cholesterol increased	3.678	2408	21	29.368	0.742	female_higher	3.678
+MYCOPHENOLIC ACID	Injury	3.676	795	17	7.743	0.196	female_higher	3.676
+ESTRADIOL	Meningioma	-3.675	230	42	24.332	960.033	male_higher	3.675
+DICLOFENAC	Liver injury	3.671	2141	31	61.973	1.578	female_higher	3.671
+HYDROCORTISONE	Delirium	3.670	586	14	37.627	0.958	female_higher	3.670
+PREDNISONE	Injury	3.667	2108	37	9.892	0.253	female_higher	3.667
+FENTANYL	Pelvic pain	-3.665	10	52	0.214	8.374	male_higher	3.665
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Road traffic accident	3.664	591	14	16.487	0.422	female_higher	3.664
+DESOXIMETASONE	Impaired work ability	-3.664	37	48	4.017	156.770	male_higher	3.664
+HYDROXYCHLOROQUINE	Infusion related reaction	3.664	4507	27	43.381	1.112	female_higher	3.664
+ROFECOXIB	Insomnia	-3.664	10	69	0.765	29.839	male_higher	3.664
+HYDROCORTISONE	Obesity	3.661	738	18	101.541	2.611	female_higher	3.661
+CLORHEXIDINE;ISOPROPANOL	Adverse reaction	-3.660	33	11	56.482	2194.447	male_higher	3.660
+MELATONIN	Stress	-3.659	17	217	1.747	67.822	male_higher	3.659
+ATOMOXETINE	Product use in unapproved indication	3.657	485	16	11.372	0.293	female_higher	3.657
+ANTITHYMOCYTE IMMUNOGLOBULIN	Pneumonia aspiration	3.656	183	14	43.448	1.122	female_higher	3.656
+ESTRADIOL	Accidental exposure to product	-3.652	46	26	0.249	9.586	male_higher	3.652
+SALBUTAMOL	Nodule	-3.652	21	245	0.518	19.973	male_higher	3.652
+MAGNESIUM	Pulmonary embolism	-3.649	11	184	0.464	17.843	male_higher	3.649
+PERTUZUMAB	Nasal discomfort	-3.647	16	10	1.882	72.146	male_higher	3.647
+USTEKINUMAB	Pericarditis	3.645	2641	38	91.020	2.377	female_higher	3.645
+SULFASALAZINE	Lower respiratory tract infection	3.645	2328	11	34.809	0.910	female_higher	3.645
+VITAMIN B9	Intentional product use issue	3.644	1866	16	50.216	1.313	female_higher	3.644
+SODIUM AUROTHIOMALATE	Haemoglobin decreased	-3.642	15	98	1.084	41.382	male_higher	3.642
+PETHIDINE	Product use in unapproved indication	-3.642	17	189	0.322	12.277	male_higher	3.642
+ABATACEPT	Liver injury	3.640	2117	11	25.274	0.664	female_higher	3.640
+BISACODYL	Dry mouth	-3.640	12	126	0.993	37.815	male_higher	3.640
+LACTULOSE	Balance disorder	3.639	537	10	67.581	1.777	female_higher	3.639
+HYDROXYCHLOROQUINE	Impaired healing	3.638	2754	14	46.670	1.227	female_higher	3.638
+VITAMIN D3	Nodule	-3.638	13	106	2.061	78.338	male_higher	3.638
+EPINEPHRINE	Systemic lupus erythematosus	-3.637	23	74	1.117	42.418	male_higher	3.637
+OXYCODONE	Irritable bowel syndrome	3.637	3021	47	42.019	1.107	female_higher	3.637
+SODIUM BICARBONATE;SODIUM CHLORIDE	Influenza	-3.636	12	44	2.973	112.839	male_higher	3.636
+CORTISONE	Deep vein thrombosis	-3.634	11	58	0.537	20.343	male_higher	3.634
+MYCOPHENOLIC ACID	Sciatica	3.633	963	14	29.906	0.791	female_higher	3.633
+DICLOFENAC	Therapeutic product effect decreased	3.631	2646	27	29.340	0.777	female_higher	3.631
+GOLIMUMAB	Injury	3.626	1967	14	14.931	0.397	female_higher	3.626
+APREMILAST	Injury	3.626	1300	15	5.230	0.139	female_higher	3.626
+ISOTRETINOIN	Exposure via body fluid	-3.624	11	34	6.721	252.036	male_higher	3.624
+ESCITALOPRAM	Sleep disorder due to a general medical condition	-3.624	12	208	0.736	27.613	male_higher	3.624
+SECUKINUMAB	Liver injury	3.619	1953	37	25.011	0.671	female_higher	3.619
+NEVIRAPINE	Abortion spontaneous	-3.615	103	11	18.110	673.041	male_higher	3.615
+CERTOLIZUMAB	Intentional product use issue	3.613	2002	15	6.830	0.184	female_higher	3.613
+PENTOSAN POLYSULFATE	Stress	-3.612	10	15	0.549	20.331	male_higher	3.612
+SULFAMETHOXAZOLE	Stomatitis	3.611	1619	11	325.404	8.798	female_higher	3.611
+LEFLUNOMIDE	Confusional state	3.608	3140	20	11.509	0.312	female_higher	3.608
+SODIUM AUROTHIOMALATE	Renal failure	-3.608	20	157	1.398	51.555	male_higher	3.608
+METHOTREXATE	Prescribed underdose	3.604	888	11	5.924	0.161	female_higher	3.604
+CEFALEXIN	Asthma	-3.603	21	151	0.743	27.266	male_higher	3.603
+ALENDRONIC ACID;VITAMIN D3	Cardiac failure congestive	-3.601	29	54	3.906	143.129	male_higher	3.601
+AMLODIPINE	Sedation	3.600	516	14	14.905	0.407	female_higher	3.600
+RANITIDINE	Upper respiratory tract infection	3.599	528	11	1.212	0.033	female_higher	3.599
+SULFAMETHOXAZOLE	Pyrexia	3.599	1685	19	75.231	2.058	female_higher	3.599
+PERTUZUMAB	Neutrophil count increased	-3.597	32	57	4.225	154.231	male_higher	3.597
+MISOPROSTOL	Foetal exposure during delivery	-3.597	31	55	1088.528	39706.154	male_higher	3.597
+OXYCODONE	Myositis	3.596	166	10	7.927	0.217	female_higher	3.596
+CELECOXIB	Sedation	-3.594	19	259	0.695	25.303	male_higher	3.594
+PANTOPRAZOLE	Infusion related reaction	3.594	1431	20	12.691	0.349	female_higher	3.594
+RANITIDINE	Peripheral swelling	3.591	552	13	0.328	0.009	female_higher	3.591
+GOLIMUMAB	Impaired healing	3.590	3126	20	45.581	1.259	female_higher	3.590
+CORTISONE	Tinnitus	-3.587	17	62	0.939	33.909	male_higher	3.587
+PREDNISONE	C-reactive protein abnormal	3.584	1462	16	59.859	1.661	female_higher	3.584
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Blood cholesterol increased	3.584	695	10	15.296	0.425	female_higher	3.584
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Contraindicated product administered	3.583	1269	15	34.458	0.958	female_higher	3.583
+DICLOFENAC	Impaired healing	3.582	2822	28	48.153	1.340	female_higher	3.582
+NORTRIPTYLINE	Nightmare	-3.581	17	268	3.362	120.737	male_higher	3.581
+LEFLUNOMIDE	Onychoclasis	-3.581	31	82	1.543	55.399	male_higher	3.581
+METFORMIN	Abortion spontaneous	-3.581	190	14	1.525	54.739	male_higher	3.581
+GOLIMUMAB	Blister	3.579	3319	24	25.952	0.724	female_higher	3.579
+LETROZOLE	Abnormal behaviour	-3.577	13	10	0.386	13.804	male_higher	3.577
+RITUXIMAB	Discomfort	3.576	4181	58	15.629	0.437	female_higher	3.576
+TRASTUZUMAB	SARS-CoV-2 test positive	-3.575	18	48	0.525	18.762	male_higher	3.575
+TALC	Deformity	-3.575	23	62	83.892	2994.829	male_higher	3.575
+TRIAMCINOLONE	General physical health deterioration	3.571	788	14	14.409	0.405	female_higher	3.571
+SULFAMETHOXAZOLE;TRIMETHOPRIM	Peripheral swelling	3.569	2153	38	11.492	0.324	female_higher	3.569
+LEFLUNOMIDE	Tooth fracture	-3.569	20	84	0.731	25.958	male_higher	3.569
+GOLIMUMAB	Type 2 diabetes mellitus	3.566	2340	12	32.348	0.914	female_higher	3.566
+USTEKINUMAB	Joint range of motion decreased	3.566	1122	12	33.882	0.958	female_higher	3.566
+DICLOFENAC;MISOPROSTOL	Alopecia	-3.566	15	23	0.788	27.878	male_higher	3.566
+PERTUZUMAB	Lymphocyte count decreased	-3.566	68	58	3.606	127.494	male_higher	3.566
+CLOTRIMAZOLE	Dyspnoea	-3.564	19	126	0.363	12.826	male_higher	3.564
+DOXAZOSIN	Asthma	-3.563	12	357	0.784	27.658	male_higher	3.563
+LEFLUNOMIDE	Pulmonary thrombosis	-3.562	28	180	1.149	40.467	male_higher	3.562
+USTEKINUMAB	Discomfort	3.561	2335	31	15.548	0.442	female_higher	3.561
+OXYCODONE	Type 2 diabetes mellitus	3.559	1630	32	13.916	0.396	female_higher	3.559
+RADIUM-223 DICHLORIDE	Off label use	3.556	11	53	8.916	0.255	female_higher	3.556
+FLUTICASONE;SALMETEROL	Conjunctivitis allergic	-3.556	11	211	6.323	221.381	male_higher	3.556
+DICLOFENAC	Hepatic cirrhosis	3.555	559	11	19.195	0.549	female_higher	3.555
+GOLIMUMAB	Systemic lupus erythematosus	3.555	6230	11	74.154	2.120	female_higher	3.555
+TRAMADOL	Wheezing	3.554	1458	28	13.005	0.372	female_higher	3.554
+USTEKINUMAB	Folliculitis	3.553	1659	20	81.076	2.323	female_higher	3.553
+SECUKINUMAB	Lip dry	3.552	1241	15	36.098	1.035	female_higher	3.552
+TRAMADOL	Wound	3.548	902	13	14.686	0.422	female_higher	3.548
+VITAMIN D2	Dysphonia	-3.548	17	81	1.781	61.866	male_higher	3.548
+CETIRIZINE	Swelling	3.548	4435	30	40.102	1.155	female_higher	3.548
+INFLIXIMAB	Sleep disorder due to general medical condition, insomnia type	3.547	1879	14	82.390	2.375	female_higher	3.547
+SODIUM BICARBONATE;SODIUM CHLORIDE	Cough	-3.544	35	79	3.891	134.592	male_higher	3.544
+BETAMETHASONE	Hyponatraemia	-3.542	15	233	0.959	33.119	male_higher	3.542
+NAPROXEN	Road traffic accident	3.542	779	12	12.883	0.373	female_higher	3.542
+CALCITRIOL	Abdominal distension	-3.540	12	208	2.007	69.201	male_higher	3.540
+RIBAVIRIN	Pregnancy	-3.539	56	27	1.743	60.022	male_higher	3.539
+CETIRIZINE	Mobility decreased	3.539	1963	14	20.291	0.589	female_higher	3.539
+METHOTREXATE	Injury	3.538	2330	28	6.484	0.188	female_higher	3.538
+CALCIUM	Hypoxia	-3.538	12	155	0.928	31.930	male_higher	3.538
+OXYCODONE	Epilepsy	3.537	544	25	5.881	0.171	female_higher	3.537
+VITAMIN B9	Discomfort	3.533	3145	20	111.786	3.265	female_higher	3.533
+PANTOPRAZOLE	Impaired healing	3.532	1025	13	16.525	0.483	female_higher	3.532
+CETIRIZINE	Treatment failure	3.531	2429	23	25.722	0.753	female_higher	3.531
+CALCIUM	Eosinophilic granulomatosis with polyangiitis	-3.530	14	165	20.148	687.707	male_higher	3.530
+RANITIDINE	Treatment failure	3.529	549	17	0.775	0.023	female_higher	3.529
+PROGESTERONE	Foetal exposure during pregnancy	-3.527	115	174	10.967	373.246	male_higher	3.527
+NAPROXEN	Stomatitis	3.527	1458	14	13.092	0.385	female_higher	3.527
+CERTOLIZUMAB	Blood cholesterol increased	3.526	2285	11	14.045	0.413	female_higher	3.526
+FORMOTEROL;MOMETASONE	Nodule	-3.523	18	182	3.895	132.029	male_higher	3.523
+ETANERCEPT	Helicobacter infection	3.522	3563	19	35.203	1.040	female_higher	3.522
+DESOXIMETASONE	Diabetes mellitus	-3.522	19	29	0.671	22.710	male_higher	3.522
+APREMILAST	Folliculitis	3.519	1294	11	29.707	0.881	female_higher	3.519
+GLUCOSE	Constipation	-3.519	12	208	0.426	14.356	male_higher	3.519
+GOLIMUMAB	Stomatitis	3.517	3032	21	20.667	0.613	female_higher	3.517
+USTEKINUMAB	Dry mouth	3.517	1040	14	5.313	0.158	female_higher	3.517
+APREMILAST	Stomatitis	3.516	1315	14	4.492	0.134	female_higher	3.516
+ABATACEPT	Chondropathy	-3.511	26	92	1.751	58.619	male_higher	3.511
+RAMIPRIL	Road traffic accident	3.510	371	12	13.048	0.390	female_higher	3.510
+RITUXIMAB	Lower limb fracture	3.509	934	11	9.907	0.296	female_higher	3.509
+ESCITALOPRAM	Systemic lupus erythematosus	-3.509	32	77	0.677	22.612	male_higher	3.509
+TOCILIZUMAB	Discomfort	3.507	4210	25	19.364	0.581	female_higher	3.507
+RAMIPRIL	Treatment failure	3.505	628	16	9.380	0.282	female_higher	3.505
+TOFACITINIB	Glossodynia	3.504	4295	14	35.939	1.081	female_higher	3.504
+ROSUVASTATIN	Creatinine renal clearance decreased	3.499	368	11	137.606	4.158	female_higher	3.499
+SECUKINUMAB	Pericarditis	3.499	2031	27	31.902	0.964	female_higher	3.499
+ALENDRONIC ACID	Chest X-ray abnormal	-3.499	12	30	3.889	128.721	male_higher	3.499
+MYCOPHENOLIC ACID	Gait inability	3.496	603	14	8.187	0.248	female_higher	3.496
+ETANERCEPT	Muscle injury	3.494	3012	23	44.059	1.338	female_higher	3.494
+METHOTREXATE	Folliculitis	3.494	3380	50	97.898	2.974	female_higher	3.494
+LEFLUNOMIDE	Blister	3.488	3638	19	34.060	1.041	female_higher	3.488
+INFLIXIMAB	Prescribed underdose	3.487	755	13	7.642	0.234	female_higher	3.487
+TRIAMCINOLONE	Nightmare	-3.480	11	174	0.626	20.318	male_higher	3.480
+TOFACITINIB	Folliculitis	3.479	2447	14	54.100	1.668	female_higher	3.479
+METHYLPREDNISOLONE	Prescribed overdose	3.479	569	17	21.671	0.668	female_higher	3.479
+MYCOPHENOLIC ACID	Prescribed underdose	3.475	411	12	9.744	0.302	female_higher	3.475
+PREDNISONE	Gangrene	3.475	171	10	12.024	0.372	female_higher	3.475
+ONDANSETRON	Sedation	-3.475	13	254	0.891	28.783	male_higher	3.475
+MIFEPRISTONE	Maternal exposure during pregnancy	-3.475	56	10	2.178	70.325	male_higher	3.475
+GOLD (198 AU)	Photosensitivity reaction	-3.474	20	86	8.091	261.015	male_higher	3.474
+CETIRIZINE	Folliculitis	3.473	2569	22	319.998	9.927	female_higher	3.473
+OXYCODONE;PARACETAMOL	Drug intolerance	3.472	1247	27	6.739	0.209	female_higher	3.472
+PREDNISONE	Road traffic accident	3.470	1048	30	7.661	0.238	female_higher	3.470
+OXYCODONE	Peripheral swelling	3.469	3252	94	4.552	0.142	female_higher	3.469
+ALENDRONIC ACID	Spirometry abnormal	-3.468	10	78	25.823	828.606	male_higher	3.468
+CETIRIZINE	Drug intolerance	3.468	3730	28	30.928	0.964	female_higher	3.468
+SALBUTAMOL	Appendicitis	-3.465	11	230	0.563	17.994	male_higher	3.465
+TRAMADOL	Obesity	3.465	459	19	21.438	0.671	female_higher	3.465
+HYDROCORTISONE	Hepatic enzyme increased	3.464	2189	32	55.315	1.731	female_higher	3.464
+DICLOFENAC	Pelvic pain	-3.463	17	36	0.311	9.912	male_higher	3.463
+SALBUTAMOL	Ascites	-3.461	11	251	0.190	6.051	male_higher	3.461
+METHOTREXATE	Muscle spasticity	3.459	705	10	9.771	0.307	female_higher	3.459
+RELUGOLIX	Off label use	3.457	17	44	2.889	0.091	female_higher	3.457
+USTEKINUMAB	Blood cholesterol increased	3.455	1809	27	18.778	0.593	female_higher	3.455
+PARACETAMOL	Synovitis	3.454	2962	15	40.283	1.273	female_higher	3.454
+NAPROXEN	Night sweats	3.452	948	11	17.360	0.550	female_higher	3.452
+ABATACEPT	Oral surgery	-3.450	15	41	1.156	36.407	male_higher	3.450
+PROGESTERONE	Low birth weight baby	-3.450	15	35	10.742	338.401	male_higher	3.450
+TRIAMCINOLONE	Confusional state	3.450	702	13	8.794	0.279	female_higher	3.450
+GLUCOSE	Swelling	-3.449	12	125	0.789	24.827	male_higher	3.449
+DARBEPOETIN ALFA	Stress	-3.448	12	214	0.169	5.326	male_higher	3.448
+TOFACITINIB	Pericarditis	3.447	3788	29	58.445	1.861	female_higher	3.447
+ESTRADIOL	Pancreatitis acute	-3.445	11	11	0.472	14.799	male_higher	3.445
+HERBALS, UNSPECIFIED;NUTRIENTS, UNSPECIFIED	Abdominal distension	-3.443	11	13	1.988	62.162	male_higher	3.443
+UMECLIDINIUM	Stress	-3.442	18	176	1.153	36.054	male_higher	3.442
+INFLIXIMAB	Blood cholesterol increased	3.442	2538	34	14.394	0.460	female_higher	3.442
+OXYCODONE;PARACETAMOL	Rash	3.441	1801	56	2.552	0.082	female_higher	3.441
+PARACETAMOL	Stomatitis	3.439	2590	30	11.464	0.368	female_higher	3.439
+RITUXIMAB	Gangrene	3.439	187	10	12.028	0.386	female_higher	3.439
+DUTASTERIDE	Product use issue	3.439	124	52	47.065	1.511	female_higher	3.439
+CERTOLIZUMAB	Infusion related reaction	3.438	4399	28	20.801	0.668	female_higher	3.438
+INFLIXIMAB	Liver injury	3.437	1877	40	24.242	0.780	female_higher	3.437
+HYDROXYCHLOROQUINE SULFATE	Pulmonary thrombosis	-3.437	13	67	2.637	81.988	male_higher	3.437
+HYDROCORTISONE	Pulmonary fibrosis	3.435	706	15	68.193	2.196	female_higher	3.435
+ALMOTRIPTAN	Off label use	-3.434	20	197	1.313	40.723	male_higher	3.434
+PARALDEHYDE	Drug ineffective	3.433	32	15	218.470	7.054	female_higher	3.433
+MINOCYCLINE HYDROCHLORIDE	Drug hypersensitivity	-3.433	11	58	1.997	61.836	male_higher	3.433
+MYCOPHENOLIC ACID	Psoriatic arthropathy	3.431	1080	25	12.984	0.420	female_higher	3.431
+FORMOTEROL;MOMETASONE	Thrombosis	-3.429	10	182	0.489	15.068	male_higher	3.429
+PARACETAMOL;TRAMADOL	Nightmare	-3.428	13	235	2.633	81.154	male_higher	3.428
+METHYLPREDNISOLONE	Joint range of motion decreased	3.427	790	11	33.598	1.091	female_higher	3.427
+OXYCODONE;PARACETAMOL	Hypersensitivity	3.427	1699	34	5.107	0.166	female_higher	3.427
+CLONAZEPAM	Tearfulness	-3.427	11	100	2.023	62.253	male_higher	3.427
+LEVOTHYROXINE	Systemic lupus erythematosus	-3.426	114	78	0.888	27.323	male_higher	3.426
+DICLOFENAC SODIUM	Abdominal discomfort	3.426	899	11	37.782	1.228	female_higher	3.426
+PERTUZUMAB	Intentional product misuse	-3.426	28	24	0.271	8.347	male_higher	3.426
+MAGNESIUM	Thrombosis	-3.425	13	183	0.599	18.393	male_higher	3.425
+INFLIXIMAB	Helicobacter infection	3.425	3306	32	120.897	3.936	female_higher	3.425
+INFLIXIMAB	Irritable bowel syndrome	3.421	2633	23	29.504	0.964	female_higher	3.421
+TRICLOSAN	Drug hypersensitivity	-3.420	19	28	5.526	169.020	male_higher	3.420
+DICLOFENAC	Rheumatoid arthritis	3.419	5765	33	21.374	0.700	female_higher	3.419
+USTEKINUMAB	Wound	3.418	2845	47	45.103	1.479	female_higher	3.418
+MYCOPHENOLIC ACID	Road traffic accident	3.417	820	32	13.112	0.430	female_higher	3.417
+SODIUM PICOSULFATE	Sepsis	-3.417	11	177	6.207	189.092	male_higher	3.417
+HYDROXYCHLOROQUINE	Wheezing	3.415	1558	11	12.629	0.415	female_higher	3.415
+DILTIAZEM	Orthostatic hypotension	3.414	482	16	105.273	3.464	female_higher	3.414
+TESTOSTERONE	Laceration	3.414	29	18	37.579	1.237	female_higher	3.414
+PENTOSAN POLYSULFATE	Drug hypersensitivity	-3.413	12	14	0.226	6.870	male_higher	3.413
+SULFAMETHOXAZOLE	Arthralgia	3.413	1546	11	39.430	1.299	female_higher	3.413
+CLOTRIMAZOLE	Anxiety	-3.412	23	112	0.878	26.618	male_higher	3.412
+HYDROXYQUINOLINE	Pain	-3.411	27	46	19.348	586.209	male_higher	3.411
+DOMPERIDONE	Thrombosis	-3.410	11	94	1.033	31.255	male_higher	3.410
+RANITIDINE	Muscular weakness	3.406	346	12	0.369	0.012	female_higher	3.406
+CETIRIZINE;PSEUDOEPHEDRINE	Rash	3.404	2250	10	41.807	1.390	female_higher	3.404
+OXYCODONE;PARACETAMOL	Wheezing	3.401	514	15	5.016	0.167	female_higher	3.401
+CARBAMAZEPINE	Sedation complication	3.400	453	16	378.030	12.619	female_higher	3.400
+ABATACEPT	Pericarditis	3.399	4447	29	103.852	3.469	female_higher	3.399
+DIPYRIDAMOLE	Cognitive disorder	3.397	461	12	439.353	14.705	female_higher	3.397
+SULFAMETHOXAZOLE	Lymphoproliferative disorder	-3.395	11	43	25.324	755.387	male_higher	3.395
+OXYCODONE;PARACETAMOL	Swelling	3.394	1458	32	8.257	0.277	female_higher	3.394
+TOFACITINIB	Wound	3.394	4212	28	26.918	0.903	female_higher	3.394
+INFLIXIMAB	Delirium	3.394	642	22	6.467	0.217	female_higher	3.394
+CORTISONE	Accidental overdose	-3.393	11	51	0.918	27.323	male_higher	3.393
+NAPROXEN	Blood cholesterol increased	3.392	1352	14	18.234	0.613	female_higher	3.392
+DOMPERIDONE	Hypothyroidism	-3.392	23	120	4.612	137.123	male_higher	3.392
+PARACETAMOL	Device dislocation	-3.388	11	26	0.042	1.232	male_higher	3.388
+HYDROXYCHLOROQUINE	Pulmonary thrombosis	-3.388	21	154	0.885	26.192	male_higher	3.388
