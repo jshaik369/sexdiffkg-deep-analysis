@@ -1,0 +1,555 @@
+{
+  "analysis": "Reproductive Paradox Deep-Dive",
+  "date": "2026-03-04T08:10:52.734766",
+  "hormone_drugs_found": 31,
+  "categories": [
+    {
+      "category": "Estrogen_agonist",
+      "drugs": [
+        "ETHINYLESTRADIOL;ETONOGESTREL",
+        "ESTRADIOL",
+        "CYPROTERONE;ETHINYLESTRADIOL"
+      ],
+      "n_drugs": 3,
+      "n_signals": 21,
+      "n_female": 0,
+      "n_male": 21,
+      "pct_female": 0.0,
+      "mean_log_ratio": -3.1027,
+      "top_female_signals": [],
+      "top_male_signals": [
+        {
+          "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+          "ae": "Medical device discomfort",
+          "lr": -6.03
+        },
+        {
+          "drug": "ESTRADIOL",
+          "ae": "Invasive ductal breast carcinoma",
+          "lr": -5.865
+        },
+        {
+          "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+          "ae": "Medical device site discomfort",
+          "lr": -4.548
+        },
+        {
+          "drug": "ESTRADIOL",
+          "ae": "Premature baby",
+          "lr": -4.185
+        },
+        {
+          "drug": "ESTRADIOL",
+          "ae": "Foetal exposure during pregnancy",
+          "lr": -4.146
+        }
+      ]
+    },
+    {
+      "category": "Progestin",
+      "drugs": [
+        "HYDROXYPROGESTERONE",
+        "MEDROXYPROGESTERONE",
+        "PROGESTERONE",
+        "LEVONORGESTREL",
+        "INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL",
+        "ETONOGESTREL",
+        "ETHINYLESTRADIOL;ETONOGESTREL",
+        "MEGESTROL"
+      ],
+      "n_drugs": 8,
+      "n_signals": 39,
+      "n_female": 2,
+      "n_male": 37,
+      "pct_female": 5.1,
+      "mean_log_ratio": -3.1057,
+      "top_female_signals": [
+        {
+          "drug": "PROGESTERONE",
+          "ae": "Off label use",
+          "lr": 1.089
+        },
+        {
+          "drug": "MEGESTROL",
+          "ae": "Death",
+          "lr": 0.571
+        }
+      ],
+      "top_male_signals": [
+        {
+          "drug": "ETONOGESTREL",
+          "ae": "Foetal exposure during pregnancy",
+          "lr": -6.568
+        },
+        {
+          "drug": "HYDROXYPROGESTERONE",
+          "ae": "Abortion spontaneous",
+          "lr": -6.456
+        },
+        {
+          "drug": "ETONOGESTREL",
+          "ae": "Premature baby",
+          "lr": -6.421
+        },
+        {
+          "drug": "ETONOGESTREL",
+          "ae": "Injury associated with device",
+          "lr": -6.327
+        },
+        {
+          "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+          "ae": "Medical device discomfort",
+          "lr": -6.03
+        }
+      ]
+    },
+    {
+      "category": "Oral_contraceptive",
+      "drugs": [
+        "ETHINYLESTRADIOL;ETONOGESTREL",
+        "CYPROTERONE;ETHINYLESTRADIOL"
+      ],
+      "n_drugs": 2,
+      "n_signals": 3,
+      "n_female": 0,
+      "n_male": 3,
+      "pct_female": 0.0,
+      "mean_log_ratio": -4.889,
+      "top_female_signals": [],
+      "top_male_signals": [
+        {
+          "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+          "ae": "Medical device discomfort",
+          "lr": -6.03
+        },
+        {
+          "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+          "ae": "Medical device site discomfort",
+          "lr": -4.548
+        },
+        {
+          "drug": "CYPROTERONE;ETHINYLESTRADIOL",
+          "ae": "Malaise",
+          "lr": -4.089
+        }
+      ]
+    },
+    {
+      "category": "SERM",
+      "drugs": [
+        "TAMOXIFEN"
+      ],
+      "n_drugs": 1,
+      "n_signals": 12,
+      "n_female": 1,
+      "n_male": 11,
+      "pct_female": 8.3,
+      "mean_log_ratio": -1.4836,
+      "top_female_signals": [
+        {
+          "drug": "TAMOXIFEN",
+          "ae": "Malignant neoplasm progression",
+          "lr": 1.167
+        }
+      ],
+      "top_male_signals": [
+        {
+          "drug": "TAMOXIFEN",
+          "ae": "Carbohydrate antigen 15-3 increased",
+          "lr": -5.562
+        },
+        {
+          "drug": "TAMOXIFEN",
+          "ae": "Drug ineffective for unapproved indication",
+          "lr": -2.553
+        },
+        {
+          "drug": "TAMOXIFEN",
+          "ae": "Product use issue",
+          "lr": -2.117
+        },
+        {
+          "drug": "TAMOXIFEN",
+          "ae": "Thrombosis",
+          "lr": -1.691
+        },
+        {
+          "drug": "TAMOXIFEN",
+          "ae": "Pulmonary embolism",
+          "lr": -1.453
+        }
+      ]
+    },
+    {
+      "category": "Aromatase_inhibitor",
+      "drugs": [
+        "LETROZOLE",
+        "ANASTROZOLE",
+        "EXEMESTANE"
+      ],
+      "n_drugs": 3,
+      "n_signals": 36,
+      "n_female": 7,
+      "n_male": 29,
+      "pct_female": 19.4,
+      "mean_log_ratio": -1.5294,
+      "top_female_signals": [
+        {
+          "drug": "ANASTROZOLE",
+          "ae": "Fatigue",
+          "lr": 1.035
+        },
+        {
+          "drug": "ANASTROZOLE",
+          "ae": "Arthralgia",
+          "lr": 0.927
+        },
+        {
+          "drug": "ANASTROZOLE",
+          "ae": "Malignant neoplasm progression",
+          "lr": 0.835
+        },
+        {
+          "drug": "LETROZOLE",
+          "ae": "Diarrhoea",
+          "lr": 0.642
+        },
+        {
+          "drug": "LETROZOLE",
+          "ae": "Malignant neoplasm progression",
+          "lr": 0.552
+        }
+      ],
+      "top_male_signals": [
+        {
+          "drug": "LETROZOLE",
+          "ae": "Cardio-respiratory arrest",
+          "lr": -4.21
+        },
+        {
+          "drug": "LETROZOLE",
+          "ae": "Anal incontinence",
+          "lr": -3.904
+        },
+        {
+          "drug": "LETROZOLE",
+          "ae": "Abnormal behaviour",
+          "lr": -3.577
+        },
+        {
+          "drug": "LETROZOLE",
+          "ae": "Foetal exposure during pregnancy",
+          "lr": -3.099
+        },
+        {
+          "drug": "LETROZOLE",
+          "ae": "Product use issue",
+          "lr": -3.097
+        }
+      ]
+    },
+    {
+      "category": "GnRH_agonist",
+      "drugs": [
+        "GOSERELIN",
+        "LEUPROLIDE ACETATE",
+        "TRIPTORELIN"
+      ],
+      "n_drugs": 3,
+      "n_signals": 83,
+      "n_female": 45,
+      "n_male": 38,
+      "pct_female": 54.2,
+      "mean_log_ratio": 0.0745,
+      "top_female_signals": [
+        {
+          "drug": "GOSERELIN",
+          "ae": "Neutropenia",
+          "lr": 2.86
+        },
+        {
+          "drug": "GOSERELIN",
+          "ae": "Metastases to liver",
+          "lr": 2.717
+        },
+        {
+          "drug": "GOSERELIN",
+          "ae": "Metastases to lung",
+          "lr": 1.939
+        },
+        {
+          "drug": "TRIPTORELIN",
+          "ae": "Disease progression",
+          "lr": 1.686
+        },
+        {
+          "drug": "TRIPTORELIN",
+          "ae": "Mood altered",
+          "lr": 1.658
+        }
+      ],
+      "top_male_signals": [
+        {
+          "drug": "TRIPTORELIN",
+          "ae": "Death",
+          "lr": -2.79
+        },
+        {
+          "drug": "GOSERELIN",
+          "ae": "Death",
+          "lr": -2.585
+        },
+        {
+          "drug": "GOSERELIN",
+          "ae": "Fall",
+          "lr": -1.769
+        },
+        {
+          "drug": "GOSERELIN",
+          "ae": "Memory impairment",
+          "lr": -1.56
+        },
+        {
+          "drug": "GOSERELIN",
+          "ae": "Urinary tract infection",
+          "lr": -1.511
+        }
+      ]
+    },
+    {
+      "category": "Antiandrogen",
+      "drugs": [
+        "ENZALUTAMIDE",
+        "BICALUTAMIDE",
+        "CYPROTERONE;ETHINYLESTRADIOL",
+        "CYPROTERONE",
+        "ABIRATERONE"
+      ],
+      "n_drugs": 5,
+      "n_signals": 18,
+      "n_female": 12,
+      "n_male": 6,
+      "pct_female": 66.7,
+      "mean_log_ratio": 0.939,
+      "top_female_signals": [
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Product use issue",
+          "lr": 3.916
+        },
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Off label use",
+          "lr": 3.154
+        },
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Product use in unapproved indication",
+          "lr": 2.968
+        },
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Hyponatraemia",
+          "lr": 2.892
+        },
+        {
+          "drug": "ABIRATERONE",
+          "ae": "Product use issue",
+          "lr": 2.813
+        }
+      ],
+      "top_male_signals": [
+        {
+          "drug": "CYPROTERONE;ETHINYLESTRADIOL",
+          "ae": "Malaise",
+          "lr": -4.089
+        },
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Fatigue",
+          "lr": -1.133
+        },
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Hot flush",
+          "lr": -1.013
+        },
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Arthralgia",
+          "lr": -0.701
+        },
+        {
+          "drug": "ENZALUTAMIDE",
+          "ae": "Back pain",
+          "lr": -0.684
+        }
+      ]
+    },
+    {
+      "category": "5alpha_reductase",
+      "drugs": [
+        "FINASTERIDE",
+        "DUTASTERIDE",
+        "DUTASTERIDE;TAMSULOSIN"
+      ],
+      "n_drugs": 3,
+      "n_signals": 20,
+      "n_female": 16,
+      "n_male": 4,
+      "pct_female": 80.0,
+      "mean_log_ratio": 1.6023,
+      "top_female_signals": [
+        {
+          "drug": "DUTASTERIDE",
+          "ae": "Product prescribing issue",
+          "lr": 5.089
+        },
+        {
+          "drug": "FINASTERIDE",
+          "ae": "Product use issue",
+          "lr": 3.873
+        },
+        {
+          "drug": "FINASTERIDE",
+          "ae": "Exposure via father",
+          "lr": 3.853
+        },
+        {
+          "drug": "DUTASTERIDE",
+          "ae": "Product use issue",
+          "lr": 3.439
+        },
+        {
+          "drug": "DUTASTERIDE;TAMSULOSIN",
+          "ae": "Fall",
+          "lr": 3.271
+        }
+      ],
+      "top_male_signals": [
+        {
+          "drug": "FINASTERIDE",
+          "ae": "Alopecia",
+          "lr": -1.553
+        },
+        {
+          "drug": "FINASTERIDE",
+          "ae": "Depression",
+          "lr": -1.534
+        },
+        {
+          "drug": "FINASTERIDE",
+          "ae": "Breast cancer",
+          "lr": -0.708
+        },
+        {
+          "drug": "FINASTERIDE",
+          "ae": "Dizziness",
+          "lr": -0.512
+        }
+      ]
+    },
+    {
+      "category": "Androgen",
+      "drugs": [
+        "TESTOSTERONE",
+        "TESTOSTERONE CYPIONATE"
+      ],
+      "n_drugs": 2,
+      "n_signals": 47,
+      "n_female": 35,
+      "n_male": 12,
+      "pct_female": 74.5,
+      "mean_log_ratio": 1.3871,
+      "top_female_signals": [
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Prostatic disorder",
+          "lr": 8.869
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Accidental exposure to product",
+          "lr": 3.747
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Accidental exposure to product by child",
+          "lr": 3.7
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Laceration",
+          "lr": 3.414
+        },
+        {
+          "drug": "TESTOSTERONE CYPIONATE",
+          "ae": "Off label use",
+          "lr": 3.233
+        }
+      ],
+      "top_male_signals": [
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Cerebrovascular accident",
+          "lr": -2.407
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Pulmonary embolism",
+          "lr": -2.079
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Asthenia",
+          "lr": -1.876
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Pain",
+          "lr": -1.744
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "ae": "Drug ineffective",
+          "lr": -1.548
+        }
+      ]
+    }
+  ],
+  "paradoxes": [
+    {
+      "category": "Estrogen_agonist",
+      "expected": "female_higher",
+      "actual_pct_female": 0.0,
+      "paradox_type": "hormone drugs with male-biased AEs"
+    },
+    {
+      "category": "Progestin",
+      "expected": "female_higher",
+      "actual_pct_female": 5.1,
+      "paradox_type": "hormone drugs with male-biased AEs"
+    },
+    {
+      "category": "Antiandrogen",
+      "expected": "male_higher",
+      "actual_pct_female": 66.7,
+      "paradox_type": "male-targeting drugs with female-biased AEs"
+    },
+    {
+      "category": "5alpha_reductase",
+      "expected": "male_higher",
+      "actual_pct_female": 80.0,
+      "paradox_type": "male-targeting drugs with female-biased AEs"
+    }
+  ],
+  "interpretation": {
+    "key_finding": "Drugs targeting sex hormone receptors generate AE signals biased toward the OPPOSITE sex",
+    "biological_hypothesis": "Hormone receptor drugs primarily used in sex-concordant conditions (e.g., estrogen for menopause in women) meaning the exposed population is sex-skewed, AND the AEs may reflect off-target effects more common in the exposed sex",
+    "confounders": [
+      "Exposure bias (women take more estrogen drugs)",
+      "Indication bias (prostate cancer drugs only in men)",
+      "Off-target pharmacology"
+    ]
+  }
+}
