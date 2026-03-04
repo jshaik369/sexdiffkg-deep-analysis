@@ -1,0 +1,648 @@
+{
+  "analysis": "cross_organ_sex_reversal",
+  "wave": 20,
+  "date": "2026-03-04",
+  "multi_organ_drugs": 878,
+  "reversal_drugs": 70,
+  "top_reversal_drugs": [
+    {
+      "drug": "ABATACEPT",
+      "n_organs": 7,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "GI",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Cardiac",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 51
+    },
+    {
+      "drug": "ACETAMINOPHEN",
+      "n_organs": 6,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Dermatological",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Haematological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 23
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "n_organs": 7,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Dermatological",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Renal",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 27
+    },
+    {
+      "drug": "AMBRISENTAN",
+      "n_organs": 5,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 21
+    },
+    {
+      "drug": "AMIODARONE",
+      "n_organs": 7,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Haematological",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 39
+    },
+    {
+      "drug": "AMIODARONE HYDROCHLORIDE",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 9
+    },
+    {
+      "drug": "AMOXICILLIN;CLAVULANIC ACID",
+      "n_organs": 6,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Renal",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Hepatic",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 29
+    },
+    {
+      "drug": "ANTITHYMOCYTE IMMUNOGLOBULIN",
+      "n_organs": 6,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 43
+    },
+    {
+      "drug": "APREPITANT",
+      "n_organs": 6,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "GI",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Renal",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 22
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "n_organs": 7,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Renal",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 24
+    },
+    {
+      "drug": "ASPARAGINASE",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Hepatic",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 12
+    },
+    {
+      "drug": "ATORVASTATIN CALCIUM",
+      "n_organs": 5,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Hepatic",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 11
+    },
+    {
+      "drug": "AZITHROMYCIN ANHYDROUS",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "GI",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Hepatic",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 15
+    },
+    {
+      "drug": "BARICITINIB",
+      "n_organs": 3,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "GI",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Cardiac",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 14
+    },
+    {
+      "drug": "BEDAQUILINE",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Hepatic",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 14
+    },
+    {
+      "drug": "BIPERIDEN",
+      "n_organs": 2,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Pulmonary",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 5
+    },
+    {
+      "drug": "BOCEPREVIR",
+      "n_organs": 2,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Hepatic",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 6
+    },
+    {
+      "drug": "BUSULFAN",
+      "n_organs": 7,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 29
+    },
+    {
+      "drug": "CANDESARTAN;HYDROCHLOROTHIAZIDE",
+      "n_organs": 2,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "GI",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 8
+    },
+    {
+      "drug": "CAPECITABINE",
+      "n_organs": 8,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Neurological",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 43
+    },
+    {
+      "drug": "CARBAMAZEPINE",
+      "n_organs": 5,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 23
+    },
+    {
+      "drug": "CARVEDILOL",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Hepatic",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Renal",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 20
+    },
+    {
+      "drug": "CEFUROXIME",
+      "n_organs": 7,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "GI",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 18
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_organs": 7,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Haematological",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Cardiac",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 43
+    },
+    {
+      "drug": "CHLORPROMAZINE",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Hepatic",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 12
+    },
+    {
+      "drug": "CICLESONIDE",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 23
+    },
+    {
+      "drug": "CISPLATIN",
+      "n_organs": 5,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 34
+    },
+    {
+      "drug": "CLARITHROMYCIN",
+      "n_organs": 6,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Cardiac",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Dermatological",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 23
+    },
+    {
+      "drug": "CLOBAZAM",
+      "n_organs": 4,
+      "organ_range_pp": 100.0,
+      "most_female_organ": "Neurological",
+      "most_female_pct": 100.0,
+      "most_male_organ": "GI",
+      "most_male_pct": 0.0,
+      "has_reversal": "True",
+      "total_signals": 13
+    },
+    {
+      "drug": "ACICLOVIR",
+      "n_organs": 7,
+      "organ_range_pp": 85.7,
+      "most_female_organ": "GI",
+      "most_female_pct": 100.0,
+      "most_male_organ": "Hepatic",
+      "most_male_pct": 14.3,
+      "has_reversal": "True",
+      "total_signals": 28
+    }
+  ],
+  "organ_pair_concordance": {
+    "Hepatic_vs_Renal": {
+      "shared_drugs": 421,
+      "concordant": 60,
+      "discordant": 40,
+      "concordance_pct": 60.0
+    },
+    "Hepatic_vs_Cardiac": {
+      "shared_drugs": 384,
+      "concordant": 62,
+      "discordant": 38,
+      "concordance_pct": 62.0
+    },
+    "Hepatic_vs_Pulmonary": {
+      "shared_drugs": 465,
+      "concordant": 56,
+      "discordant": 44,
+      "concordance_pct": 56.0
+    },
+    "Hepatic_vs_GI": {
+      "shared_drugs": 419,
+      "concordant": 43,
+      "discordant": 57,
+      "concordance_pct": 43.0
+    },
+    "Hepatic_vs_Neurological": {
+      "shared_drugs": 365,
+      "concordant": 53,
+      "discordant": 47,
+      "concordance_pct": 53.0
+    },
+    "Hepatic_vs_Dermatological": {
+      "shared_drugs": 426,
+      "concordant": 34,
+      "discordant": 66,
+      "concordance_pct": 34.0
+    },
+    "Hepatic_vs_Haematological": {
+      "shared_drugs": 377,
+      "concordant": 62,
+      "discordant": 38,
+      "concordance_pct": 62.0
+    },
+    "Renal_vs_Cardiac": {
+      "shared_drugs": 424,
+      "concordant": 59,
+      "discordant": 41,
+      "concordance_pct": 59.0
+    },
+    "Renal_vs_Pulmonary": {
+      "shared_drugs": 531,
+      "concordant": 50,
+      "discordant": 50,
+      "concordance_pct": 50.0
+    },
+    "Renal_vs_GI": {
+      "shared_drugs": 497,
+      "concordant": 44,
+      "discordant": 56,
+      "concordance_pct": 44.0
+    },
+    "Renal_vs_Neurological": {
+      "shared_drugs": 402,
+      "concordant": 49,
+      "discordant": 51,
+      "concordance_pct": 49.0
+    },
+    "Renal_vs_Dermatological": {
+      "shared_drugs": 448,
+      "concordant": 32,
+      "discordant": 68,
+      "concordance_pct": 32.0
+    },
+    "Renal_vs_Haematological": {
+      "shared_drugs": 417,
+      "concordant": 60,
+      "discordant": 40,
+      "concordance_pct": 60.0
+    },
+    "Cardiac_vs_Pulmonary": {
+      "shared_drugs": 508,
+      "concordant": 53,
+      "discordant": 47,
+      "concordance_pct": 53.0
+    },
+    "Cardiac_vs_GI": {
+      "shared_drugs": 453,
+      "concordant": 44,
+      "discordant": 56,
+      "concordance_pct": 44.0
+    },
+    "Cardiac_vs_Neurological": {
+      "shared_drugs": 402,
+      "concordant": 55,
+      "discordant": 45,
+      "concordance_pct": 55.0
+    },
+    "Cardiac_vs_Dermatological": {
+      "shared_drugs": 438,
+      "concordant": 41,
+      "discordant": 59,
+      "concordance_pct": 41.0
+    },
+    "Cardiac_vs_Haematological": {
+      "shared_drugs": 357,
+      "concordant": 50,
+      "discordant": 50,
+      "concordance_pct": 50.0
+    },
+    "Pulmonary_vs_GI": {
+      "shared_drugs": 630,
+      "concordant": 49,
+      "discordant": 51,
+      "concordance_pct": 49.0
+    },
+    "Pulmonary_vs_Neurological": {
+      "shared_drugs": 512,
+      "concordant": 42,
+      "discordant": 58,
+      "concordance_pct": 42.0
+    },
+    "Pulmonary_vs_Dermatological": {
+      "shared_drugs": 551,
+      "concordant": 51,
+      "discordant": 49,
+      "concordance_pct": 51.0
+    },
+    "Pulmonary_vs_Haematological": {
+      "shared_drugs": 457,
+      "concordant": 49,
+      "discordant": 51,
+      "concordance_pct": 49.0
+    },
+    "GI_vs_Neurological": {
+      "shared_drugs": 498,
+      "concordant": 54,
+      "discordant": 46,
+      "concordance_pct": 54.0
+    },
+    "GI_vs_Dermatological": {
+      "shared_drugs": 528,
+      "concordant": 54,
+      "discordant": 46,
+      "concordance_pct": 54.0
+    },
+    "GI_vs_Haematological": {
+      "shared_drugs": 422,
+      "concordant": 34,
+      "discordant": 66,
+      "concordance_pct": 34.0
+    },
+    "Neurological_vs_Dermatological": {
+      "shared_drugs": 444,
+      "concordant": 43,
+      "discordant": 57,
+      "concordance_pct": 43.0
+    },
+    "Neurological_vs_Haematological": {
+      "shared_drugs": 343,
+      "concordant": 51,
+      "discordant": 49,
+      "concordance_pct": 51.0
+    },
+    "Dermatological_vs_Haematological": {
+      "shared_drugs": 388,
+      "concordant": 31,
+      "discordant": 69,
+      "concordance_pct": 31.0
+    }
+  },
+  "most_discordant_pairs": [
+    [
+      "Dermatological_vs_Haematological",
+      {
+        "shared_drugs": 388,
+        "concordant": 31,
+        "discordant": 69,
+        "concordance_pct": 31.0
+      }
+    ],
+    [
+      "Renal_vs_Dermatological",
+      {
+        "shared_drugs": 448,
+        "concordant": 32,
+        "discordant": 68,
+        "concordance_pct": 32.0
+      }
+    ],
+    [
+      "Hepatic_vs_Dermatological",
+      {
+        "shared_drugs": 426,
+        "concordant": 34,
+        "discordant": 66,
+        "concordance_pct": 34.0
+      }
+    ],
+    [
+      "GI_vs_Haematological",
+      {
+        "shared_drugs": 422,
+        "concordant": 34,
+        "discordant": 66,
+        "concordance_pct": 34.0
+      }
+    ],
+    [
+      "Cardiac_vs_Dermatological",
+      {
+        "shared_drugs": 438,
+        "concordant": 41,
+        "discordant": 59,
+        "concordance_pct": 41.0
+      }
+    ],
+    [
+      "Pulmonary_vs_Neurological",
+      {
+        "shared_drugs": 512,
+        "concordant": 42,
+        "discordant": 58,
+        "concordance_pct": 42.0
+      }
+    ],
+    [
+      "Hepatic_vs_GI",
+      {
+        "shared_drugs": 419,
+        "concordant": 43,
+        "discordant": 57,
+        "concordance_pct": 43.0
+      }
+    ],
+    [
+      "Neurological_vs_Dermatological",
+      {
+        "shared_drugs": 444,
+        "concordant": 43,
+        "discordant": 57,
+        "concordance_pct": 43.0
+      }
+    ],
+    [
+      "Renal_vs_GI",
+      {
+        "shared_drugs": 497,
+        "concordant": 44,
+        "discordant": 56,
+        "concordance_pct": 44.0
+      }
+    ],
+    [
+      "Cardiac_vs_GI",
+      {
+        "shared_drugs": 453,
+        "concordant": 44,
+        "discordant": 56,
+        "concordance_pct": 44.0
+      }
+    ]
+  ],
+  "most_concordant_pairs": [
+    [
+      "Renal_vs_Cardiac",
+      {
+        "shared_drugs": 424,
+        "concordant": 59,
+        "discordant": 41,
+        "concordance_pct": 59.0
+      }
+    ],
+    [
+      "Hepatic_vs_Renal",
+      {
+        "shared_drugs": 421,
+        "concordant": 60,
+        "discordant": 40,
+        "concordance_pct": 60.0
+      }
+    ],
+    [
+      "Renal_vs_Haematological",
+      {
+        "shared_drugs": 417,
+        "concordant": 60,
+        "discordant": 40,
+        "concordance_pct": 60.0
+      }
+    ],
+    [
+      "Hepatic_vs_Cardiac",
+      {
+        "shared_drugs": 384,
+        "concordant": 62,
+        "discordant": 38,
+        "concordance_pct": 62.0
+      }
+    ],
+    [
+      "Hepatic_vs_Haematological",
+      {
+        "shared_drugs": 377,
+        "concordant": 62,
+        "discordant": 38,
+        "concordance_pct": 62.0
+      }
+    ]
+  ]
+}

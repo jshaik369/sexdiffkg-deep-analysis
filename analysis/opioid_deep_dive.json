@@ -1,0 +1,300 @@
+{
+  "analysis": "opioid_sex_differential",
+  "wave": 20,
+  "date": "2026-03-04",
+  "overview": {
+    "total_signals": 2875,
+    "drugs_found": 22,
+    "overall_pct_female": 73.7
+  },
+  "by_category": {
+    "natural_opioids": {
+      "n_signals": 631,
+      "n_drugs": 2,
+      "pct_female": 81.1,
+      "drugs_found": [
+        "MORPHINE",
+        "CODEINE"
+      ]
+    },
+    "semi_synthetic": {
+      "n_signals": 1232,
+      "n_drugs": 7,
+      "pct_female": 74.5,
+      "drugs_found": [
+        "OXYCODONE",
+        "BUPRENORPHINE",
+        "HYDROMORPHONE",
+        "HYDROCODONE",
+        "DIAMORPHINE",
+        "HEROIN",
+        "OXYMORPHONE"
+      ]
+    },
+    "synthetic": {
+      "n_signals": 889,
+      "n_drugs": 8,
+      "pct_female": 69.7,
+      "drugs_found": [
+        "FENTANYL",
+        "PETHIDINE",
+        "TRAMADOL",
+        "METHADONE",
+        "SUFENTANIL",
+        "ALFENTANIL",
+        "TAPENTADOL",
+        "REMIFENTANIL"
+      ]
+    },
+    "antagonists": {
+      "n_signals": 118,
+      "n_drugs": 3,
+      "pct_female": 57.6,
+      "drugs_found": [
+        "NALTREXONE",
+        "NALOXONE",
+        "NALMEFENE"
+      ]
+    },
+    "mixed": {
+      "n_signals": 5,
+      "n_drugs": 2,
+      "pct_female": 40.0,
+      "drugs_found": [
+        "PENTAZOCINE",
+        "NALBUPHINE"
+      ]
+    }
+  },
+  "per_drug": [
+    {
+      "drug_name": "OXYCODONE",
+      "n": 492,
+      "pct_f": 84.959,
+      "mean_abs_lr": 1.332,
+      "total_reports": 365911
+    },
+    {
+      "drug_name": "MORPHINE",
+      "n": 441,
+      "pct_f": 83.447,
+      "mean_abs_lr": 1.117,
+      "total_reports": 159810
+    },
+    {
+      "drug_name": "TRAMADOL",
+      "n": 360,
+      "pct_f": 75.278,
+      "mean_abs_lr": 1.119,
+      "total_reports": 140351
+    },
+    {
+      "drug_name": "HYDROMORPHONE",
+      "n": 311,
+      "pct_f": 76.527,
+      "mean_abs_lr": 1.136,
+      "total_reports": 98640
+    },
+    {
+      "drug_name": "CODEINE",
+      "n": 190,
+      "pct_f": 75.789,
+      "mean_abs_lr": 1.321,
+      "total_reports": 75127
+    },
+    {
+      "drug_name": "BUPRENORPHINE",
+      "n": 261,
+      "pct_f": 54.023,
+      "mean_abs_lr": 1.104,
+      "total_reports": 71932
+    },
+    {
+      "drug_name": "FENTANYL",
+      "n": 291,
+      "pct_f": 74.57,
+      "mean_abs_lr": 0.936,
+      "total_reports": 48172
+    },
+    {
+      "drug_name": "METHADONE",
+      "n": 107,
+      "pct_f": 73.832,
+      "mean_abs_lr": 0.847,
+      "total_reports": 25861
+    },
+    {
+      "drug_name": "NALTREXONE",
+      "n": 95,
+      "pct_f": 49.474,
+      "mean_abs_lr": 0.769,
+      "total_reports": 18189
+    },
+    {
+      "drug_name": "HYDROCODONE",
+      "n": 76,
+      "pct_f": 68.421,
+      "mean_abs_lr": 0.771,
+      "total_reports": 16226
+    },
+    {
+      "drug_name": "PETHIDINE",
+      "n": 48,
+      "pct_f": 27.083,
+      "mean_abs_lr": 1.12,
+      "total_reports": 11100
+    },
+    {
+      "drug_name": "DIAMORPHINE",
+      "n": 41,
+      "pct_f": 82.927,
+      "mean_abs_lr": 0.949,
+      "total_reports": 9051
+    },
+    {
+      "drug_name": "OXYMORPHONE",
+      "n": 50,
+      "pct_f": 68.0,
+      "mean_abs_lr": 0.768,
+      "total_reports": 8837
+    },
+    {
+      "drug_name": "SUFENTANIL",
+      "n": 33,
+      "pct_f": 48.485,
+      "mean_abs_lr": 0.862,
+      "total_reports": 2519
+    },
+    {
+      "drug_name": "TAPENTADOL",
+      "n": 39,
+      "pct_f": 43.59,
+      "mean_abs_lr": 0.771,
+      "total_reports": 2472
+    },
+    {
+      "drug_name": "NALOXONE",
+      "n": 21,
+      "pct_f": 90.476,
+      "mean_abs_lr": 0.8,
+      "total_reports": 1118
+    },
+    {
+      "drug_name": "REMIFENTANIL",
+      "n": 10,
+      "pct_f": 70.0,
+      "mean_abs_lr": 0.693,
+      "total_reports": 496
+    },
+    {
+      "drug_name": "PENTAZOCINE",
+      "n": 2,
+      "pct_f": 50.0,
+      "mean_abs_lr": 0.917,
+      "total_reports": 355
+    },
+    {
+      "drug_name": "NALBUPHINE",
+      "n": 3,
+      "pct_f": 33.333,
+      "mean_abs_lr": 0.844,
+      "total_reports": 153
+    },
+    {
+      "drug_name": "NALMEFENE",
+      "n": 2,
+      "pct_f": 100.0,
+      "mean_abs_lr": 1.082,
+      "total_reports": 75
+    }
+  ],
+  "organ_breakdown": {
+    "Respiratory": {
+      "n_signals": 72,
+      "pct_female": 88.9,
+      "top_aes": {
+        "Cardio-respiratory arrest": 8,
+        "Respiratory failure": 7,
+        "Respiratory arrest": 7,
+        "Dyspnoea": 6,
+        "Respiratory disorder": 5
+      }
+    },
+    "GI": {
+      "n_signals": 42,
+      "pct_female": 78.6,
+      "top_aes": {
+        "Abdominal discomfort": 10,
+        "Abdominal pain upper": 7,
+        "Diarrhoea": 6,
+        "Abdominal distension": 5,
+        "Abdominal pain": 5
+      }
+    },
+    "CNS": {
+      "n_signals": 44,
+      "pct_female": 79.5,
+      "top_aes": {
+        "Headache": 8,
+        "Hallucination": 6,
+        "Confusional state": 5,
+        "Sedation": 4,
+        "Dizziness": 4
+      }
+    },
+    "Cardiac": {
+      "n_signals": 51,
+      "pct_female": 80.4,
+      "top_aes": {
+        "Cardiac arrest": 10,
+        "Bradycardia": 7,
+        "Tachycardia": 6,
+        "Electrocardiogram QT prolonged": 4,
+        "Cardiac failure congestive": 4
+      }
+    },
+    "Dependence": {
+      "n_signals": 64,
+      "pct_female": 76.6,
+      "top_aes": {
+        "Drug intolerance": 9,
+        "Drug withdrawal syndrome neonatal": 9,
+        "Drug dependence": 6,
+        "Substance abuse": 6,
+        "Substance dependence": 4
+      }
+    },
+    "Endocrine": {
+      "n_signals": 9,
+      "pct_female": 55.6,
+      "top_aes": {
+        "Hormone level abnormal": 4,
+        "Adrenal insufficiency": 3,
+        "Blood parathyroid hormone decreased": 1,
+        "Inappropriate antidiuretic hormone secretion": 1
+      }
+    },
+    "Dermatological": {
+      "n_signals": 49,
+      "pct_female": 91.8,
+      "top_aes": {
+        "Rash": 10,
+        "Urticaria": 10,
+        "Pruritus": 9,
+        "Rash pruritic": 5,
+        "Rash erythematous": 4
+      }
+    },
+    "Fatal": {
+      "n_signals": 34,
+      "pct_female": 73.5,
+      "top_aes": {
+        "Prescribed overdose": 6,
+        "Toxicity to various agents": 6,
+        "Accidental death": 5,
+        "Sudden death": 3,
+        "Hepatotoxicity": 3
+      }
+    }
+  }
+}

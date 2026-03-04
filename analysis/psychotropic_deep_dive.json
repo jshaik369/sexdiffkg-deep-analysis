@@ -1,0 +1,389 @@
+{
+  "analysis": "psychotropic_sex_differential",
+  "wave": 20,
+  "date": "2026-03-04",
+  "drug_classes": {
+    "typical_antipsychotics": {
+      "n_signals": 242,
+      "n_drugs": 7,
+      "pct_female": 57.4,
+      "mean_abs_lr": 0.9383,
+      "within_class_range": 100.0,
+      "per_drug": [
+        {
+          "drug_name": "HALOPERIDOL",
+          "n": 158,
+          "pct_f": 56.3
+        },
+        {
+          "drug_name": "CHLORPROMAZINE",
+          "n": 57,
+          "pct_f": 61.4
+        },
+        {
+          "drug_name": "PERPHENAZINE",
+          "n": 15,
+          "pct_f": 53.3
+        },
+        {
+          "drug_name": "FLUPHENAZINE",
+          "n": 7,
+          "pct_f": 85.7
+        },
+        {
+          "drug_name": "TRIFLUOPERAZINE",
+          "n": 3,
+          "pct_f": 0.0
+        },
+        {
+          "drug_name": "PIMOZIDE",
+          "n": 1,
+          "pct_f": 100.0
+        },
+        {
+          "drug_name": "THIORIDAZINE",
+          "n": 1,
+          "pct_f": 0.0
+        }
+      ]
+    },
+    "atypical_antipsychotics": {
+      "n_signals": 2370,
+      "n_drugs": 12,
+      "pct_female": 65.0,
+      "mean_abs_lr": 0.9874,
+      "within_class_range": 90.3,
+      "per_drug": [
+        {
+          "drug_name": "RISPERIDONE",
+          "n": 518,
+          "pct_f": 92.9
+        },
+        {
+          "drug_name": "QUETIAPINE",
+          "n": 426,
+          "pct_f": 63.4
+        },
+        {
+          "drug_name": "ARIPIPRAZOLE",
+          "n": 342,
+          "pct_f": 47.4
+        },
+        {
+          "drug_name": "OLANZAPINE",
+          "n": 336,
+          "pct_f": 58.9
+        },
+        {
+          "drug_name": "CLOZAPINE",
+          "n": 287,
+          "pct_f": 68.6
+        },
+        {
+          "drug_name": "PALIPERIDONE",
+          "n": 161,
+          "pct_f": 85.7
+        },
+        {
+          "drug_name": "ZIPRASIDONE",
+          "n": 87,
+          "pct_f": 44.8
+        },
+        {
+          "drug_name": "LURASIDONE",
+          "n": 81,
+          "pct_f": 23.5
+        },
+        {
+          "drug_name": "ASENAPINE",
+          "n": 47,
+          "pct_f": 42.6
+        },
+        {
+          "drug_name": "BREXPIPRAZOLE",
+          "n": 43,
+          "pct_f": 32.6
+        },
+        {
+          "drug_name": "CARIPRAZINE",
+          "n": 39,
+          "pct_f": 2.6
+        },
+        {
+          "drug_name": "ILOPERIDONE",
+          "n": 3,
+          "pct_f": 33.3
+        }
+      ]
+    },
+    "ssris": {
+      "n_signals": 1176,
+      "n_drugs": 6,
+      "pct_female": 42.2,
+      "mean_abs_lr": 0.9498,
+      "within_class_range": 28.4,
+      "per_drug": [
+        {
+          "drug_name": "SERTRALINE",
+          "n": 302,
+          "pct_f": 42.1
+        },
+        {
+          "drug_name": "CITALOPRAM",
+          "n": 237,
+          "pct_f": 56.5
+        },
+        {
+          "drug_name": "ESCITALOPRAM",
+          "n": 217,
+          "pct_f": 28.1
+        },
+        {
+          "drug_name": "FLUOXETINE",
+          "n": 204,
+          "pct_f": 36.3
+        },
+        {
+          "drug_name": "PAROXETINE",
+          "n": 186,
+          "pct_f": 48.4
+        },
+        {
+          "drug_name": "FLUVOXAMINE",
+          "n": 30,
+          "pct_f": 33.3
+        }
+      ]
+    },
+    "snris": {
+      "n_signals": 537,
+      "n_drugs": 5,
+      "pct_female": 39.5,
+      "mean_abs_lr": 0.8883,
+      "within_class_range": 39.1,
+      "per_drug": [
+        {
+          "drug_name": "VENLAFAXINE",
+          "n": 287,
+          "pct_f": 40.8
+        },
+        {
+          "drug_name": "DULOXETINE",
+          "n": 189,
+          "pct_f": 45.0
+        },
+        {
+          "drug_name": "DESVENLAFAXINE",
+          "n": 46,
+          "pct_f": 10.9
+        },
+        {
+          "drug_name": "MILNACIPRAN",
+          "n": 11,
+          "pct_f": 27.3
+        },
+        {
+          "drug_name": "LEVOMILNACIPRAN",
+          "n": 4,
+          "pct_f": 50.0
+        }
+      ]
+    },
+    "tcas": {
+      "n_signals": 340,
+      "n_drugs": 5,
+      "pct_female": 47.9,
+      "mean_abs_lr": 1.0107,
+      "within_class_range": 39.7,
+      "per_drug": [
+        {
+          "drug_name": "AMITRIPTYLINE",
+          "n": 189,
+          "pct_f": 54.0
+        },
+        {
+          "drug_name": "NORTRIPTYLINE",
+          "n": 64,
+          "pct_f": 48.4
+        },
+        {
+          "drug_name": "CLOMIPRAMINE",
+          "n": 43,
+          "pct_f": 41.9
+        },
+        {
+          "drug_name": "DOXEPIN",
+          "n": 37,
+          "pct_f": 29.7
+        },
+        {
+          "drug_name": "IMIPRAMINE",
+          "n": 7,
+          "pct_f": 14.3
+        }
+      ]
+    },
+    "mood_stabilizers": {
+      "n_signals": 981,
+      "n_drugs": 4,
+      "pct_female": 45.6,
+      "mean_abs_lr": 0.9222,
+      "within_class_range": 10.8,
+      "per_drug": [
+        {
+          "drug_name": "VALPROIC ACID",
+          "n": 339,
+          "pct_f": 49.3
+        },
+        {
+          "drug_name": "LAMOTRIGINE",
+          "n": 319,
+          "pct_f": 43.6
+        },
+        {
+          "drug_name": "CARBAMAZEPINE",
+          "n": 180,
+          "pct_f": 38.9
+        },
+        {
+          "drug_name": "LITHIUM",
+          "n": 143,
+          "pct_f": 49.7
+        }
+      ]
+    },
+    "benzodiazepines": {
+      "n_signals": 1316,
+      "n_drugs": 8,
+      "pct_female": 66.6,
+      "mean_abs_lr": 0.9521,
+      "within_class_range": 40.7,
+      "per_drug": [
+        {
+          "drug_name": "CLONAZEPAM",
+          "n": 285,
+          "pct_f": 62.1
+        },
+        {
+          "drug_name": "LORAZEPAM",
+          "n": 264,
+          "pct_f": 62.5
+        },
+        {
+          "drug_name": "DIAZEPAM",
+          "n": 250,
+          "pct_f": 76.4
+        },
+        {
+          "drug_name": "ALPRAZOLAM",
+          "n": 237,
+          "pct_f": 75.1
+        },
+        {
+          "drug_name": "MIDAZOLAM",
+          "n": 107,
+          "pct_f": 62.6
+        },
+        {
+          "drug_name": "OXAZEPAM",
+          "n": 88,
+          "pct_f": 64.8
+        },
+        {
+          "drug_name": "TEMAZEPAM",
+          "n": 71,
+          "pct_f": 50.7
+        },
+        {
+          "drug_name": "TRIAZOLAM",
+          "n": 14,
+          "pct_f": 35.7
+        }
+      ]
+    },
+    "stimulants": {
+      "n_signals": 377,
+      "n_drugs": 4,
+      "pct_female": 56.8,
+      "mean_abs_lr": 1.0369,
+      "within_class_range": 70.4,
+      "per_drug": [
+        {
+          "drug_name": "METHYLPHENIDATE",
+          "n": 147,
+          "pct_f": 77.6
+        },
+        {
+          "drug_name": "ATOMOXETINE",
+          "n": 105,
+          "pct_f": 68.6
+        },
+        {
+          "drug_name": "LISDEXAMFETAMINE",
+          "n": 97,
+          "pct_f": 26.8
+        },
+        {
+          "drug_name": "MODAFINIL",
+          "n": 28,
+          "pct_f": 7.1
+        }
+      ]
+    },
+    "z_drugs": {
+      "n_signals": 318,
+      "n_drugs": 4,
+      "pct_female": 58.5,
+      "mean_abs_lr": 1.0147,
+      "within_class_range": 60.3,
+      "per_drug": [
+        {
+          "drug_name": "ZOPICLONE",
+          "n": 161,
+          "pct_f": 60.2
+        },
+        {
+          "drug_name": "ZOLPIDEM",
+          "n": 146,
+          "pct_f": 60.3
+        },
+        {
+          "drug_name": "ESZOPICLONE",
+          "n": 8,
+          "pct_f": 0.0
+        },
+        {
+          "drug_name": "ZALEPLON",
+          "n": 3,
+          "pct_f": 33.3
+        }
+      ]
+    }
+  },
+  "antipsychotic_ae_profile": {
+    "metabolic": {
+      "n_signals": 54,
+      "pct_female": 63.0
+    },
+    "movement": {
+      "n_signals": 40,
+      "pct_female": 90.0
+    },
+    "sedation": {
+      "n_signals": 16,
+      "pct_female": 50.0
+    },
+    "cardiac": {
+      "n_signals": 42,
+      "pct_female": 76.2
+    },
+    "prolactin": {
+      "n_signals": 40,
+      "pct_female": 90.0
+    },
+    "neuroleptic": {
+      "n_signals": 12,
+      "pct_female": 91.7
+    }
+  }
+}
