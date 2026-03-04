@@ -1,0 +1,662 @@
+{
+  "analysis": "cpi_comprehensive_sex_analysis",
+  "wave": 19,
+  "date": "2026-03-04",
+  "overview": {
+    "total_cpi_signals": 965,
+    "cpi_drugs_found": [
+      "PEMBROLIZUMAB",
+      "TREMELIMUMAB",
+      "DURVALUMAB",
+      "NIVOLUMAB",
+      "IPILIMUMAB",
+      "ATEZOLIZUMAB",
+      "CEMIPLIMAB",
+      "AVELUMAB"
+    ],
+    "total_aes": 649,
+    "overall_pct_female": 74.6,
+    "mean_abs_lr": 0.8347
+  },
+  "per_drug": {
+    "PEMBROLIZUMAB": {
+      "n_signals": 309,
+      "pct_female": 73.1
+    },
+    "TREMELIMUMAB": {
+      "n_signals": 21,
+      "pct_female": 85.7
+    },
+    "DURVALUMAB": {
+      "n_signals": 61,
+      "pct_female": 85.2
+    },
+    "NIVOLUMAB": {
+      "n_signals": 238,
+      "pct_female": 66.8
+    },
+    "IPILIMUMAB": {
+      "n_signals": 161,
+      "pct_female": 75.8
+    },
+    "ATEZOLIZUMAB": {
+      "n_signals": 152,
+      "pct_female": 82.9
+    },
+    "CEMIPLIMAB": {
+      "n_signals": 4,
+      "pct_female": 75.0
+    },
+    "AVELUMAB": {
+      "n_signals": 19,
+      "pct_female": 73.7
+    }
+  },
+  "organ_breakdown": {
+    "Neurological": {
+      "n_signals": 22,
+      "n_aes": 13,
+      "pct_female": 100.0,
+      "mean_abs_lr": 0.852
+    },
+    "Haematological": {
+      "n_signals": 27,
+      "n_aes": 11,
+      "pct_female": 96.3,
+      "mean_abs_lr": 0.8326
+    },
+    "Hepatic": {
+      "n_signals": 44,
+      "n_aes": 29,
+      "pct_female": 93.2,
+      "mean_abs_lr": 0.7841
+    },
+    "Renal": {
+      "n_signals": 30,
+      "n_aes": 20,
+      "pct_female": 90.0,
+      "mean_abs_lr": 0.9344
+    },
+    "GI": {
+      "n_signals": 26,
+      "n_aes": 15,
+      "pct_female": 88.5,
+      "mean_abs_lr": 0.8752
+    },
+    "Cardiac": {
+      "n_signals": 23,
+      "n_aes": 13,
+      "pct_female": 87.0,
+      "mean_abs_lr": 0.8774
+    },
+    "Pulmonary": {
+      "n_signals": 26,
+      "n_aes": 18,
+      "pct_female": 84.6,
+      "mean_abs_lr": 0.7669
+    },
+    "Immunological": {
+      "n_signals": 30,
+      "n_aes": 16,
+      "pct_female": 70.0,
+      "mean_abs_lr": 0.7636
+    },
+    "Endocrine": {
+      "n_signals": 41,
+      "n_aes": 23,
+      "pct_female": 56.1,
+      "mean_abs_lr": 0.9524
+    },
+    "Dermatological": {
+      "n_signals": 23,
+      "n_aes": 19,
+      "pct_female": 47.8,
+      "mean_abs_lr": 0.8578
+    }
+  },
+  "top_female_aes": [
+    {
+      "adverse_event": "Abdominal pain",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 206
+    },
+    {
+      "adverse_event": "Acute coronary syndrome",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 142
+    },
+    {
+      "adverse_event": "Acute respiratory failure",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 151
+    },
+    {
+      "adverse_event": "Adrenocorticotropic hormone deficiency",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 506
+    },
+    {
+      "adverse_event": "Agranulocytosis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 237
+    },
+    {
+      "adverse_event": "Alanine aminotransferase increased",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 112
+    },
+    {
+      "adverse_event": "Aplasia pure red cell",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 95
+    },
+    {
+      "adverse_event": "Aplastic anaemia",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 67
+    },
+    {
+      "adverse_event": "Appendicitis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 72
+    },
+    {
+      "adverse_event": "Aspartate aminotransferase increased",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 105
+    },
+    {
+      "adverse_event": "Ataxia",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 80
+    },
+    {
+      "adverse_event": "Atelectasis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 151
+    },
+    {
+      "adverse_event": "Atrioventricular block",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 67
+    },
+    {
+      "adverse_event": "Autoimmune colitis",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 636
+    },
+    {
+      "adverse_event": "Autoimmune haemolytic anaemia",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 213
+    },
+    {
+      "adverse_event": "Autoimmune nephritis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 93
+    },
+    {
+      "adverse_event": "Autoimmune pancreatitis",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 157
+    },
+    {
+      "adverse_event": "Bacteraemia",
+      "n_drugs": 4,
+      "n_signals": 4,
+      "pct_female": 100.0,
+      "total_reports": 254
+    },
+    {
+      "adverse_event": "Biliary tract infection",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 147
+    },
+    {
+      "adverse_event": "Blood bilirubin increased",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 429
+    }
+  ],
+  "top_male_aes": [
+    {
+      "adverse_event": "Alopecia",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 300
+    },
+    {
+      "adverse_event": "Arthritis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 517
+    },
+    {
+      "adverse_event": "Autoimmune disorder",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 0.0,
+      "total_reports": 298
+    },
+    {
+      "adverse_event": "Autoimmune thyroiditis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 258
+    },
+    {
+      "adverse_event": "Blood thyroid stimulating hormone abnormal",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 94
+    },
+    {
+      "adverse_event": "Blood thyroid stimulating hormone decreased",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 186
+    },
+    {
+      "adverse_event": "Blood thyroid stimulating hormone increased",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 109
+    },
+    {
+      "adverse_event": "Bronchitis",
+      "n_drugs": 4,
+      "n_signals": 4,
+      "pct_female": 0.0,
+      "total_reports": 369
+    },
+    {
+      "adverse_event": "Colitis microscopic",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 0.0,
+      "total_reports": 172
+    },
+    {
+      "adverse_event": "Dermatomyositis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 121
+    },
+    {
+      "adverse_event": "Diverticulitis",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 133
+    },
+    {
+      "adverse_event": "Drug intolerance",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 91
+    },
+    {
+      "adverse_event": "Ear pain",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 62
+    },
+    {
+      "adverse_event": "Eye pain",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 102
+    },
+    {
+      "adverse_event": "Fungal infection",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 105
+    },
+    {
+      "adverse_event": "Hair colour changes",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 101
+    },
+    {
+      "adverse_event": "Herpes zoster",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 86
+    },
+    {
+      "adverse_event": "Impaired healing",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 218
+    },
+    {
+      "adverse_event": "Inflammation",
+      "n_drugs": 3,
+      "n_signals": 3,
+      "pct_female": 0.0,
+      "total_reports": 350
+    },
+    {
+      "adverse_event": "Influenza",
+      "n_drugs": 2,
+      "n_signals": 2,
+      "pct_female": 0.0,
+      "total_reports": 281
+    }
+  ],
+  "cpi_vs_noncpi": {
+    "aes_compared": 28,
+    "cpi_more_female": 23,
+    "cpi_more_male": 2,
+    "top_cpi_excess": [
+      {
+        "ae": "Tinnitus",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 32.7,
+        "cpi_excess": 67.3,
+        "cpi_n": 2,
+        "noncpi_n": 107
+      },
+      {
+        "ae": "Tremor",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 46.4,
+        "cpi_excess": 53.6,
+        "cpi_n": 2,
+        "noncpi_n": 153
+      },
+      {
+        "ae": "Troponin increased",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 47.1,
+        "cpi_excess": 52.9,
+        "cpi_n": 3,
+        "noncpi_n": 51
+      },
+      {
+        "ae": "Pericardial effusion",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 52.1,
+        "cpi_excess": 47.9,
+        "cpi_n": 2,
+        "noncpi_n": 73
+      },
+      {
+        "ae": "Sinus tachycardia",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 55.6,
+        "cpi_excess": 44.4,
+        "cpi_n": 2,
+        "noncpi_n": 45
+      },
+      {
+        "ae": "Eosinophilia",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 57.1,
+        "cpi_excess": 42.9,
+        "cpi_n": 4,
+        "noncpi_n": 112
+      },
+      {
+        "ae": "Epistaxis",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 61.4,
+        "cpi_excess": 38.6,
+        "cpi_n": 2,
+        "noncpi_n": 101
+      },
+      {
+        "ae": "Dermatitis bullous",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 68.6,
+        "cpi_excess": 31.4,
+        "cpi_n": 2,
+        "noncpi_n": 35
+      },
+      {
+        "ae": "Agranulocytosis",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 69.3,
+        "cpi_excess": 30.7,
+        "cpi_n": 2,
+        "noncpi_n": 75
+      },
+      {
+        "ae": "Hepatitis cholestatic",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 70.6,
+        "cpi_excess": 29.4,
+        "cpi_n": 3,
+        "noncpi_n": 34
+      },
+      {
+        "ae": "Hydronephrosis",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 72.0,
+        "cpi_excess": 28.0,
+        "cpi_n": 3,
+        "noncpi_n": 25
+      },
+      {
+        "ae": "Death",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 74.3,
+        "cpi_excess": 25.7,
+        "cpi_n": 3,
+        "noncpi_n": 334
+      },
+      {
+        "ae": "Hepatocellular injury",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 75.5,
+        "cpi_excess": 24.5,
+        "cpi_n": 2,
+        "noncpi_n": 102
+      },
+      {
+        "ae": "Embolism",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 76.0,
+        "cpi_excess": 24.0,
+        "cpi_n": 3,
+        "noncpi_n": 25
+      },
+      {
+        "ae": "Thrombocytopenia",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 79.0,
+        "cpi_excess": 21.0,
+        "cpi_n": 3,
+        "noncpi_n": 214
+      }
+    ],
+    "top_noncpi_excess": [
+      {
+        "ae": "Malaise",
+        "cpi_pct_f": 0.0,
+        "noncpi_pct_f": 55.3,
+        "cpi_excess": -55.3,
+        "cpi_n": 2,
+        "noncpi_n": 273
+      },
+      {
+        "ae": "No adverse event",
+        "cpi_pct_f": 0.0,
+        "noncpi_pct_f": 32.1,
+        "cpi_excess": -32.1,
+        "cpi_n": 2,
+        "noncpi_n": 106
+      },
+      {
+        "ae": "Gastrointestinal disorder",
+        "cpi_pct_f": 50.0,
+        "noncpi_pct_f": 58.9,
+        "cpi_excess": -8.9,
+        "cpi_n": 2,
+        "noncpi_n": 207
+      },
+      {
+        "ae": "Hyperbilirubinaemia",
+        "cpi_pct_f": 66.7,
+        "noncpi_pct_f": 71.9,
+        "cpi_excess": -5.3,
+        "cpi_n": 3,
+        "noncpi_n": 57
+      },
+      {
+        "ae": "Tumour lysis syndrome",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 91.4,
+        "cpi_excess": 8.6,
+        "cpi_n": 2,
+        "noncpi_n": 35
+      },
+      {
+        "ae": "Oesophagitis",
+        "cpi_pct_f": 66.7,
+        "noncpi_pct_f": 56.2,
+        "cpi_excess": 10.4,
+        "cpi_n": 3,
+        "noncpi_n": 32
+      },
+      {
+        "ae": "Lung infection",
+        "cpi_pct_f": 50.0,
+        "noncpi_pct_f": 39.1,
+        "cpi_excess": 10.9,
+        "cpi_n": 2,
+        "noncpi_n": 23
+      },
+      {
+        "ae": "Failure to thrive",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 86.7,
+        "cpi_excess": 13.3,
+        "cpi_n": 3,
+        "noncpi_n": 15
+      },
+      {
+        "ae": "Palmar-plantar erythrodysaesthesia syndrome",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 85.7,
+        "cpi_excess": 14.3,
+        "cpi_n": 2,
+        "noncpi_n": 28
+      },
+      {
+        "ae": "International normalised ratio increased",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 83.3,
+        "cpi_excess": 16.7,
+        "cpi_n": 2,
+        "noncpi_n": 54
+      },
+      {
+        "ae": "Cardiac tamponade",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 82.4,
+        "cpi_excess": 17.6,
+        "cpi_n": 2,
+        "noncpi_n": 17
+      },
+      {
+        "ae": "Hypoglycaemia",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 80.6,
+        "cpi_excess": 19.4,
+        "cpi_n": 2,
+        "noncpi_n": 108
+      },
+      {
+        "ae": "Hospice care",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 80.0,
+        "cpi_excess": 20.0,
+        "cpi_n": 3,
+        "noncpi_n": 15
+      },
+      {
+        "ae": "Thrombocytopenia",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 79.0,
+        "cpi_excess": 21.0,
+        "cpi_n": 3,
+        "noncpi_n": 214
+      },
+      {
+        "ae": "Embolism",
+        "cpi_pct_f": 100.0,
+        "noncpi_pct_f": 76.0,
+        "cpi_excess": 24.0,
+        "cpi_n": 3,
+        "noncpi_n": 25
+      }
+    ]
+  },
+  "irae_profile": {
+    "irae": {
+      "n_signals": 89,
+      "pct_female": 88.8,
+      "n_aes": 44
+    },
+    "non_irae": {
+      "n_signals": 876,
+      "pct_female": 73.2,
+      "n_aes": 605
+    }
+  }
+}
