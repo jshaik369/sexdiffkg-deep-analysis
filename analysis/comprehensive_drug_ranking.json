@@ -1,0 +1,884 @@
+{
+  "drug_ranking": {
+    "n_drugs": 2178,
+    "top_50_female": [
+      {
+        "drug_name": "ELACESTRANT",
+        "n_signals": 3,
+        "mean_f": 98.0,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.124
+      },
+      {
+        "drug_name": "NEOMYCIN",
+        "n_signals": 1,
+        "mean_f": 97.5,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.167
+      },
+      {
+        "drug_name": "NIRAPARIB",
+        "n_signals": 12,
+        "mean_f": 95.8,
+        "pct_female_direction": 66.7,
+        "mean_lr": 1.113
+      },
+      {
+        "drug_name": "HYALURONIDASE",
+        "n_signals": 1,
+        "mean_f": 95.7,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.145
+      },
+      {
+        "drug_name": "FULVESTRANT",
+        "n_signals": 6,
+        "mean_f": 95.6,
+        "pct_female_direction": 33.3,
+        "mean_lr": 1.352
+      },
+      {
+        "drug_name": "TROFINETIDE",
+        "n_signals": 2,
+        "mean_f": 95.1,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.645
+      },
+      {
+        "drug_name": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+        "n_signals": 5,
+        "mean_f": 94.9,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.836
+      },
+      {
+        "drug_name": "PALBOCICLIB",
+        "n_signals": 38,
+        "mean_f": 94.3,
+        "pct_female_direction": 47.4,
+        "mean_lr": 0.951
+      },
+      {
+        "drug_name": "CORTISONE ACETATE",
+        "n_signals": 4,
+        "mean_f": 94.0,
+        "pct_female_direction": 50.0,
+        "mean_lr": 1.251
+      },
+      {
+        "drug_name": "RIBOCICLIB",
+        "n_signals": 10,
+        "mean_f": 94.0,
+        "pct_female_direction": 40.0,
+        "mean_lr": 1.185
+      },
+      {
+        "drug_name": "HYDROCORTISONE ACETATE",
+        "n_signals": 1,
+        "mean_f": 93.8,
+        "pct_female_direction": 100.0,
+        "mean_lr": 2.131
+      },
+      {
+        "drug_name": "BETAMETHASONE VALERATE",
+        "n_signals": 1,
+        "mean_f": 93.6,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.276
+      },
+      {
+        "drug_name": "CLASCOTERONE",
+        "n_signals": 1,
+        "mean_f": 93.2,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.923
+      },
+      {
+        "drug_name": "SULFACETAMIDE",
+        "n_signals": 1,
+        "mean_f": 92.8,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.573
+      },
+      {
+        "drug_name": "ERENUMAB",
+        "n_signals": 68,
+        "mean_f": 92.0,
+        "pct_female_direction": 79.4,
+        "mean_lr": 1.109
+      },
+      {
+        "drug_name": "TETANUS VACCINE",
+        "n_signals": 1,
+        "mean_f": 91.9,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.827
+      },
+      {
+        "drug_name": "ABALOPARATIDE",
+        "n_signals": 31,
+        "mean_f": 91.8,
+        "pct_female_direction": 6.5,
+        "mean_lr": 0.886
+      },
+      {
+        "drug_name": "ABEMACICLIB",
+        "n_signals": 12,
+        "mean_f": 91.6,
+        "pct_female_direction": 8.3,
+        "mean_lr": 1.185
+      },
+      {
+        "drug_name": "ALENDRONATE SODIUM",
+        "n_signals": 19,
+        "mean_f": 91.5,
+        "pct_female_direction": 36.8,
+        "mean_lr": 1.102
+      },
+      {
+        "drug_name": "HERBALS, UNSPECIFIED;SENNA SPP",
+        "n_signals": 1,
+        "mean_f": 91.1,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.817
+      },
+      {
+        "drug_name": "UBIDECARENONE",
+        "n_signals": 1,
+        "mean_f": 90.9,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.174
+      },
+      {
+        "drug_name": "CAPIVASERTIB",
+        "n_signals": 1,
+        "mean_f": 90.7,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.024
+      },
+      {
+        "drug_name": "ALPELISIB",
+        "n_signals": 11,
+        "mean_f": 90.7,
+        "pct_female_direction": 54.5,
+        "mean_lr": 1.182
+      },
+      {
+        "drug_name": "SULINDAC",
+        "n_signals": 1,
+        "mean_f": 90.4,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.815
+      },
+      {
+        "drug_name": "CEFADROXIL",
+        "n_signals": 1,
+        "mean_f": 89.3,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.591
+      },
+      {
+        "drug_name": "LAPATINIB",
+        "n_signals": 7,
+        "mean_f": 89.3,
+        "pct_female_direction": 28.6,
+        "mean_lr": 1.077
+      },
+      {
+        "drug_name": "EDETIC ACID",
+        "n_signals": 1,
+        "mean_f": 88.8,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.695
+      },
+      {
+        "drug_name": "ETHINYLESTRADIOL;ETONOGESTREL",
+        "n_signals": 2,
+        "mean_f": 88.0,
+        "pct_female_direction": 0.0,
+        "mean_lr": 5.289
+      },
+      {
+        "drug_name": "CLOBETASONE",
+        "n_signals": 1,
+        "mean_f": 87.5,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.882
+      },
+      {
+        "drug_name": "C1-INHIBITOR",
+        "n_signals": 59,
+        "mean_f": 87.3,
+        "pct_female_direction": 71.2,
+        "mean_lr": 1.13
+      },
+      {
+        "drug_name": "LETROZOLE",
+        "n_signals": 17,
+        "mean_f": 87.0,
+        "pct_female_direction": 17.6,
+        "mean_lr": 1.811
+      },
+      {
+        "drug_name": "RUCAPARIB",
+        "n_signals": 13,
+        "mean_f": 86.7,
+        "pct_female_direction": 38.5,
+        "mean_lr": 1.081
+      },
+      {
+        "drug_name": "ROMOSOZUMAB",
+        "n_signals": 10,
+        "mean_f": 86.7,
+        "pct_female_direction": 10.0,
+        "mean_lr": 0.874
+      },
+      {
+        "drug_name": "DEOXYCHOLIC ACID",
+        "n_signals": 2,
+        "mean_f": 86.6,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.846
+      },
+      {
+        "drug_name": "CLORHEXIDINE;ISOPROPANOL",
+        "n_signals": 5,
+        "mean_f": 86.6,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.166
+      },
+      {
+        "drug_name": "HERBALS, UNSPECIFIED;NUTRIENTS, UNSPECIFIED",
+        "n_signals": 5,
+        "mean_f": 86.5,
+        "pct_female_direction": 80.0,
+        "mean_lr": 1.362
+      },
+      {
+        "drug_name": "ERIBULIN",
+        "n_signals": 6,
+        "mean_f": 86.4,
+        "pct_female_direction": 16.7,
+        "mean_lr": 1.033
+      },
+      {
+        "drug_name": "TERIPARATIDE",
+        "n_signals": 84,
+        "mean_f": 86.2,
+        "pct_female_direction": 17.9,
+        "mean_lr": 0.758
+      },
+      {
+        "drug_name": "CETIRIZINE;PSEUDOEPHEDRINE",
+        "n_signals": 21,
+        "mean_f": 86.0,
+        "pct_female_direction": 57.1,
+        "mean_lr": 1.919
+      },
+      {
+        "drug_name": "SARILUMAB",
+        "n_signals": 103,
+        "mean_f": 86.0,
+        "pct_female_direction": 58.3,
+        "mean_lr": 1.294
+      },
+      {
+        "drug_name": "LEVOTHYROXINE;LIOTHYRONINE",
+        "n_signals": 1,
+        "mean_f": 85.5,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.602
+      },
+      {
+        "drug_name": "TRASTUZUMAB EMTANSINE",
+        "n_signals": 17,
+        "mean_f": 85.3,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.694
+      },
+      {
+        "drug_name": "LINCOMYCIN",
+        "n_signals": 1,
+        "mean_f": 85.2,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.688
+      },
+      {
+        "drug_name": "ACEBUTOLOL",
+        "n_signals": 6,
+        "mean_f": 85.1,
+        "pct_female_direction": 83.3,
+        "mean_lr": 1.623
+      },
+      {
+        "drug_name": "EXEMESTANE",
+        "n_signals": 4,
+        "mean_f": 85.0,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.609
+      },
+      {
+        "drug_name": "PRAMLINTIDE",
+        "n_signals": 1,
+        "mean_f": 84.8,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.124
+      },
+      {
+        "drug_name": "MEDROXYPROGESTERONE",
+        "n_signals": 5,
+        "mean_f": 84.8,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.326
+      },
+      {
+        "drug_name": "TAMOXIFEN",
+        "n_signals": 12,
+        "mean_f": 84.7,
+        "pct_female_direction": 8.3,
+        "mean_lr": 1.678
+      },
+      {
+        "drug_name": "BUTYLSCOPOLAMINE",
+        "n_signals": 1,
+        "mean_f": 84.7,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.865
+      },
+      {
+        "drug_name": "IBANDRONIC ACID",
+        "n_signals": 14,
+        "mean_f": 84.6,
+        "pct_female_direction": 14.3,
+        "mean_lr": 1.119
+      }
+    ],
+    "top_50_male": [
+      {
+        "drug_name": "ABIRATERONE",
+        "n_signals": 2,
+        "mean_f": 6.2,
+        "pct_female_direction": 100.0,
+        "mean_lr": 2.256
+      },
+      {
+        "drug_name": "ENZALUTAMIDE",
+        "n_signals": 10,
+        "mean_f": 6.2,
+        "pct_female_direction": 50.0,
+        "mean_lr": 1.847
+      },
+      {
+        "drug_name": "BICALUTAMIDE",
+        "n_signals": 1,
+        "mean_f": 6.7,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.337
+      },
+      {
+        "drug_name": "FURAZOLIDONE",
+        "n_signals": 1,
+        "mean_f": 8.2,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.631
+      },
+      {
+        "drug_name": "FACTOR IX",
+        "n_signals": 3,
+        "mean_f": 8.9,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.266
+      },
+      {
+        "drug_name": "TRIFLUOPERAZINE",
+        "n_signals": 3,
+        "mean_f": 9.2,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.977
+      },
+      {
+        "drug_name": "ATENOLOL;CHLORTALIDONE",
+        "n_signals": 3,
+        "mean_f": 9.7,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.697
+      },
+      {
+        "drug_name": "TESAMORELIN",
+        "n_signals": 1,
+        "mean_f": 11.3,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.649
+      },
+      {
+        "drug_name": "GINKGO SPP",
+        "n_signals": 1,
+        "mean_f": 11.4,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.266
+      },
+      {
+        "drug_name": "MAGNESIUM;POTASSIUM ASPARTATE",
+        "n_signals": 1,
+        "mean_f": 11.5,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.388
+      },
+      {
+        "drug_name": "ALMOTRIPTAN",
+        "n_signals": 5,
+        "mean_f": 12.0,
+        "pct_female_direction": 0.0,
+        "mean_lr": 3.449
+      },
+      {
+        "drug_name": "FACTOR VIII",
+        "n_signals": 38,
+        "mean_f": 13.1,
+        "pct_female_direction": 73.7,
+        "mean_lr": 1.061
+      },
+      {
+        "drug_name": "THIORIDAZINE",
+        "n_signals": 1,
+        "mean_f": 14.3,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.243
+      },
+      {
+        "drug_name": "VITAMIN K",
+        "n_signals": 19,
+        "mean_f": 14.5,
+        "pct_female_direction": 5.3,
+        "mean_lr": 1.727
+      },
+      {
+        "drug_name": "ALPROSTADIL",
+        "n_signals": 2,
+        "mean_f": 16.3,
+        "pct_female_direction": 50.0,
+        "mean_lr": 2.158
+      },
+      {
+        "drug_name": "SILODOSIN",
+        "n_signals": 1,
+        "mean_f": 16.8,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.923
+      },
+      {
+        "drug_name": "RADIUM-223 DICHLORIDE",
+        "n_signals": 1,
+        "mean_f": 17.2,
+        "pct_female_direction": 100.0,
+        "mean_lr": 3.556
+      },
+      {
+        "drug_name": "FINASTERIDE",
+        "n_signals": 15,
+        "mean_f": 18.3,
+        "pct_female_direction": 73.3,
+        "mean_lr": 1.759
+      },
+      {
+        "drug_name": "EMICIZUMAB",
+        "n_signals": 5,
+        "mean_f": 18.4,
+        "pct_female_direction": 80.0,
+        "mean_lr": 1.693
+      },
+      {
+        "drug_name": "PEGLOTICASE",
+        "n_signals": 6,
+        "mean_f": 19.7,
+        "pct_female_direction": 33.3,
+        "mean_lr": 0.796
+      },
+      {
+        "drug_name": "COVID-19 CONVALESCENT PLASMA",
+        "n_signals": 1,
+        "mean_f": 20.5,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.574
+      },
+      {
+        "drug_name": "ALOE SPP",
+        "n_signals": 1,
+        "mean_f": 21.2,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.6
+      },
+      {
+        "drug_name": "QUINIDINE",
+        "n_signals": 1,
+        "mean_f": 21.7,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.621
+      },
+      {
+        "drug_name": "BETAXOLOL",
+        "n_signals": 1,
+        "mean_f": 22.0,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.751
+      },
+      {
+        "drug_name": "ALUMINIUM",
+        "n_signals": 2,
+        "mean_f": 22.2,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.716
+      },
+      {
+        "drug_name": "DUTASTERIDE;TAMSULOSIN",
+        "n_signals": 1,
+        "mean_f": 22.2,
+        "pct_female_direction": 100.0,
+        "mean_lr": 3.271
+      },
+      {
+        "drug_name": "ANGIOTENSIN II",
+        "n_signals": 1,
+        "mean_f": 22.2,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.018
+      },
+      {
+        "drug_name": "TRIMETAZIDINE",
+        "n_signals": 2,
+        "mean_f": 22.3,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.843
+      },
+      {
+        "drug_name": "VITAMIN B7",
+        "n_signals": 18,
+        "mean_f": 22.3,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.966
+      },
+      {
+        "drug_name": "XYLOMETAZOLINE",
+        "n_signals": 11,
+        "mean_f": 22.7,
+        "pct_female_direction": 18.2,
+        "mean_lr": 1.706
+      },
+      {
+        "drug_name": "OMEGA-3-ACID ETHYL ESTERS",
+        "n_signals": 1,
+        "mean_f": 22.7,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.662
+      },
+      {
+        "drug_name": "NECITUMUMAB",
+        "n_signals": 1,
+        "mean_f": 22.7,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.522
+      },
+      {
+        "drug_name": "SOFOSBUVIR;VELPATASVIR;VOXILAPREVIR",
+        "n_signals": 2,
+        "mean_f": 22.9,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.549
+      },
+      {
+        "drug_name": "ACLIDINIUM;FORMOTEROL",
+        "n_signals": 5,
+        "mean_f": 23.0,
+        "pct_female_direction": 20.0,
+        "mean_lr": 2.017
+      },
+      {
+        "drug_name": "SULFADIAZINE;TRIMETHOPRIM",
+        "n_signals": 1,
+        "mean_f": 23.1,
+        "pct_female_direction": 0.0,
+        "mean_lr": 2.91
+      },
+      {
+        "drug_name": "CHLORAMPHENICOL",
+        "n_signals": 13,
+        "mean_f": 23.1,
+        "pct_female_direction": 7.7,
+        "mean_lr": 1.422
+      },
+      {
+        "drug_name": "PANAX SPP",
+        "n_signals": 8,
+        "mean_f": 23.1,
+        "pct_female_direction": 25.0,
+        "mean_lr": 0.849
+      },
+      {
+        "drug_name": "ROSIGLITAZONE MALEATE",
+        "n_signals": 1,
+        "mean_f": 23.2,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.895
+      },
+      {
+        "drug_name": "TAMSULOSIN",
+        "n_signals": 52,
+        "mean_f": 23.3,
+        "pct_female_direction": 80.8,
+        "mean_lr": 1.373
+      },
+      {
+        "drug_name": "LANTHANUM CARBONATE",
+        "n_signals": 14,
+        "mean_f": 23.6,
+        "pct_female_direction": 35.7,
+        "mean_lr": 1.501
+      },
+      {
+        "drug_name": "NADOFARAGENE FIRADENOVEC",
+        "n_signals": 1,
+        "mean_f": 23.6,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.475
+      },
+      {
+        "drug_name": "ACETYLFENTANYL",
+        "n_signals": 1,
+        "mean_f": 23.8,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.828
+      },
+      {
+        "drug_name": "DOLUTEGRAVIR;LAMIVUDINE",
+        "n_signals": 4,
+        "mean_f": 25.1,
+        "pct_female_direction": 50.0,
+        "mean_lr": 0.712
+      },
+      {
+        "drug_name": "MEBEVERINE",
+        "n_signals": 52,
+        "mean_f": 25.4,
+        "pct_female_direction": 0.0,
+        "mean_lr": 1.921
+      },
+      {
+        "drug_name": "MANNITOL",
+        "n_signals": 13,
+        "mean_f": 25.6,
+        "pct_female_direction": 15.4,
+        "mean_lr": 1.385
+      },
+      {
+        "drug_name": "TESTOSTERONE",
+        "n_signals": 46,
+        "mean_f": 25.7,
+        "pct_female_direction": 73.9,
+        "mean_lr": 2.02
+      },
+      {
+        "drug_name": "METHANOL",
+        "n_signals": 1,
+        "mean_f": 26.1,
+        "pct_female_direction": 0.0,
+        "mean_lr": 0.701
+      },
+      {
+        "drug_name": "BENZOYLECGONINE",
+        "n_signals": 1,
+        "mean_f": 26.2,
+        "pct_female_direction": 100.0,
+        "mean_lr": 0.681
+      },
+      {
+        "drug_name": "HEROIN",
+        "n_signals": 1,
+        "mean_f": 26.8,
+        "pct_female_direction": 100.0,
+        "mean_lr": 1.818
+      },
+      {
+        "drug_name": "FENOTEROL;IPRATROPIUM",
+        "n_signals": 9,
+        "mean_f": 27.0,
+        "pct_female_direction": 11.1,
+        "mean_lr": 1.366
+      }
+    ]
+  },
+  "direction_dominance": {
+    "strongly_male": 789,
+    "strongly_female": 619,
+    "female": 272,
+    "male": 259,
+    "balanced": 239
+  },
+  "effect_size_asymmetry": {
+    "mean_lr_diff_fm": -0.109,
+    "pct_f_stronger": 46.8,
+    "female_mean_lr": 1.007,
+    "male_mean_lr": 0.963
+  },
+  "serious_vs_overall_divergence": [
+    {
+      "drug_name": "DESOXIMETASONE",
+      "n_signals": 79,
+      "mean_f": 80.9,
+      "n_serious": 1.0,
+      "mean_f_serious": 17.5,
+      "serious_overall_diff": -63.4
+    },
+    {
+      "drug_name": "VITAMIN C",
+      "n_signals": 77,
+      "mean_f": 78.2,
+      "n_serious": 1.0,
+      "mean_f_serious": 14.9,
+      "serious_overall_diff": -63.4
+    },
+    {
+      "drug_name": "GOSERELIN",
+      "n_signals": 36,
+      "mean_f": 57.1,
+      "n_serious": 1.0,
+      "mean_f_serious": 5.5,
+      "serious_overall_diff": -51.6
+    },
+    {
+      "drug_name": "ANAKINRA",
+      "n_signals": 100,
+      "mean_f": 63.4,
+      "n_serious": 3.0,
+      "mean_f_serious": 12.0,
+      "serious_overall_diff": -51.4
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "n_signals": 99,
+      "mean_f": 71.2,
+      "n_serious": 4.0,
+      "mean_f_serious": 20.2,
+      "serious_overall_diff": -50.9
+    },
+    {
+      "drug_name": "DOMPERIDONE",
+      "n_signals": 89,
+      "mean_f": 77.1,
+      "n_serious": 2.0,
+      "mean_f_serious": 29.0,
+      "serious_overall_diff": -48.1
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "n_signals": 68,
+      "mean_f": 65.2,
+      "n_serious": 5.0,
+      "mean_f_serious": 17.1,
+      "serious_overall_diff": -48.1
+    },
+    {
+      "drug_name": "CHLORHEXIDINE",
+      "n_signals": 36,
+      "mean_f": 83.6,
+      "n_serious": 2.0,
+      "mean_f_serious": 35.7,
+      "serious_overall_diff": -47.9
+    },
+    {
+      "drug_name": "MOMETASONE",
+      "n_signals": 119,
+      "mean_f": 63.9,
+      "n_serious": 1.0,
+      "mean_f_serious": 16.2,
+      "serious_overall_diff": -47.7
+    },
+    {
+      "drug_name": "CORTISONE",
+      "n_signals": 188,
+      "mean_f": 76.5,
+      "n_serious": 3.0,
+      "mean_f_serious": 28.9,
+      "serious_overall_diff": -47.6
+    },
+    {
+      "drug_name": "DEXLANSOPRAZOLE",
+      "n_signals": 78,
+      "mean_f": 57.2,
+      "n_serious": 1.0,
+      "mean_f_serious": 10.3,
+      "serious_overall_diff": -47.0
+    },
+    {
+      "drug_name": "TRIPTORELIN",
+      "n_signals": 46,
+      "mean_f": 50.7,
+      "n_serious": 1.0,
+      "mean_f_serious": 4.0,
+      "serious_overall_diff": -46.7
+    },
+    {
+      "drug_name": "MINOCYCLINE",
+      "n_signals": 100,
+      "mean_f": 71.2,
+      "n_serious": 2.0,
+      "mean_f_serious": 25.4,
+      "serious_overall_diff": -45.8
+    },
+    {
+      "drug_name": "CAFFEINE",
+      "n_signals": 35,
+      "mean_f": 71.6,
+      "n_serious": 1.0,
+      "mean_f_serious": 27.2,
+      "serious_overall_diff": -44.3
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "n_signals": 376,
+      "mean_f": 73.2,
+      "n_serious": 6.0,
+      "mean_f_serious": 29.1,
+      "serious_overall_diff": -44.1
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "n_signals": 318,
+      "mean_f": 71.8,
+      "n_serious": 7.0,
+      "mean_f_serious": 29.8,
+      "serious_overall_diff": -42.0
+    },
+    {
+      "drug_name": "SARILUMAB",
+      "n_signals": 103,
+      "mean_f": 86.0,
+      "n_serious": 1.0,
+      "mean_f_serious": 45.8,
+      "serious_overall_diff": -40.1
+    },
+    {
+      "drug_name": "CICLESONIDE",
+      "n_signals": 123,
+      "mean_f": 54.1,
+      "n_serious": 2.0,
+      "mean_f_serious": 14.1,
+      "serious_overall_diff": -40.0
+    },
+    {
+      "drug_name": "ACYCLOVIR",
+      "n_signals": 29,
+      "mean_f": 63.0,
+      "n_serious": 1.0,
+      "mean_f_serious": 25.5,
+      "serious_overall_diff": -37.5
+    },
+    {
+      "drug_name": "FLUTICASONE;SALMETEROL",
+      "n_signals": 252,
+      "mean_f": 55.9,
+      "n_serious": 1.0,
+      "mean_f_serious": 19.3,
+      "serious_overall_diff": -36.6
+    }
+  ]
+}

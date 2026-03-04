@@ -1,0 +1,400 @@
+{
+  "overview": {
+    "n_signals": 3810,
+    "n_drugs": 895,
+    "n_aes": 53,
+    "overall_f_pct": 62.6,
+    "mean_abs_lr": 1.007
+  },
+  "subcategories": [
+    {
+      "category": "Neoplastic",
+      "n_signals": 75,
+      "n_drugs": 64,
+      "mean_f_pct": 48.5,
+      "mean_lr": 0.892,
+      "aes_found": [
+        "Basal cell carcinoma",
+        "Keratoacanthoma",
+        "Skin papilloma",
+        "Squamous cell carcinoma of skin"
+      ]
+    },
+    {
+      "category": "Pigmentation",
+      "n_signals": 250,
+      "n_drugs": 173,
+      "mean_f_pct": 54.4,
+      "mean_lr": 0.91,
+      "aes_found": [
+        "Ecchymosis",
+        "Petechiae",
+        "Photosensitivity reaction",
+        "Purpura",
+        "Skin discolouration",
+        "Skin hyperpigmentation"
+      ]
+    },
+    {
+      "category": "HFS",
+      "n_signals": 59,
+      "n_drugs": 49,
+      "mean_f_pct": 57.7,
+      "mean_lr": 0.871,
+      "aes_found": [
+        "Dermatitis acneiform",
+        "Palmar-plantar erythrodysaesthesia syndrome",
+        "Skin toxicity"
+      ]
+    },
+    {
+      "category": "Skin_integrity",
+      "n_signals": 463,
+      "n_drugs": 278,
+      "mean_f_pct": 63.1,
+      "mean_lr": 1.065,
+      "aes_found": [
+        "Blister",
+        "Dry skin",
+        "Skin atrophy",
+        "Skin exfoliation",
+        "Skin ulcer"
+      ]
+    },
+    {
+      "category": "Rashes",
+      "n_signals": 1010,
+      "n_drugs": 585,
+      "mean_f_pct": 63.3,
+      "mean_lr": 0.94,
+      "aes_found": [
+        "Drug eruption",
+        "Erythema",
+        "Rash",
+        "Rash erythematous",
+        "Rash generalised",
+        "Rash macular",
+        "Rash maculo-papular",
+        "Rash papular",
+        "Rash pruritic"
+      ]
+    },
+    {
+      "category": "Allergic/Immune",
+      "n_signals": 927,
+      "n_drugs": 541,
+      "mean_f_pct": 64.7,
+      "mean_lr": 0.991,
+      "aes_found": [
+        "Angioedema",
+        "Dermatitis",
+        "Eczema",
+        "Pemphigoid",
+        "Pemphigus",
+        "Pruritus",
+        "Stevens-Johnson syndrome",
+        "Toxic epidermal necrolysis",
+        "Urticaria",
+        "Vitiligo"
+      ]
+    },
+    {
+      "category": "Hair/Nail",
+      "n_signals": 250,
+      "n_drugs": 209,
+      "mean_f_pct": 73.3,
+      "mean_lr": 1.263,
+      "aes_found": [
+        "Alopecia",
+        "Hair colour changes",
+        "Hirsutism",
+        "Hypertrichosis",
+        "Nail disorder",
+        "Onychoclasis"
+      ]
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "TKIs",
+      "n_drugs": 13,
+      "n_signals": 68,
+      "mean_f_pct": 53.2,
+      "mean_lr": 0.772,
+      "top_aes": {
+        "Dry skin": 5,
+        "Acne": 5,
+        "Drug eruption": 5,
+        "Rash maculo-papular": 4,
+        "Skin toxicity": 4
+      }
+    },
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 27,
+      "mean_f_pct": 41.7,
+      "mean_lr": 0.883,
+      "top_aes": {
+        "Lichenoid keratosis": 3,
+        "Psoriasis": 2,
+        "Hair colour changes": 2,
+        "Palmar-plantar erythrodysaesthesia syndrome": 2,
+        "Alopecia": 2
+      }
+    },
+    {
+      "class": "Biologics",
+      "n_drugs": 9,
+      "n_signals": 128,
+      "mean_f_pct": 73.2,
+      "mean_lr": 1.1,
+      "top_aes": {
+        "Night sweats": 8,
+        "Alopecia": 8,
+        "Blister": 7,
+        "Dry skin": 6,
+        "Skin exfoliation": 6
+      }
+    },
+    {
+      "class": "Chemotherapy",
+      "n_drugs": 10,
+      "n_signals": 118,
+      "mean_f_pct": 63.5,
+      "mean_lr": 0.976,
+      "top_aes": {
+        "Palmar-plantar erythrodysaesthesia syndrome": 8,
+        "Alopecia": 7,
+        "Night sweats": 5,
+        "Skin reaction": 4,
+        "Cellulitis": 4
+      }
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 16,
+      "mean_f_pct": 80.0,
+      "mean_lr": 0.976,
+      "total_reports": 53885
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 17,
+      "mean_f_pct": 72.5,
+      "mean_lr": 1.117,
+      "total_reports": 53747
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 21,
+      "mean_f_pct": 74.9,
+      "mean_lr": 1.279,
+      "total_reports": 49204
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 29,
+      "mean_f_pct": 73.1,
+      "mean_lr": 1.245,
+      "total_reports": 47658
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 24,
+      "mean_f_pct": 77.2,
+      "mean_lr": 1.269,
+      "total_reports": 40199
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 23,
+      "mean_f_pct": 80.1,
+      "mean_lr": 1.246,
+      "total_reports": 36080
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 17,
+      "mean_f_pct": 85.3,
+      "mean_lr": 1.418,
+      "total_reports": 36039
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 21,
+      "mean_f_pct": 73.5,
+      "mean_lr": 1.125,
+      "total_reports": 35836
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 15,
+      "mean_f_pct": 88.4,
+      "mean_lr": 1.49,
+      "total_reports": 34628
+    },
+    {
+      "drug": "DUPILUMAB",
+      "n_aes": 10,
+      "mean_f_pct": 61.6,
+      "mean_lr": 0.793,
+      "total_reports": 34606
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_aes": 11,
+      "mean_f_pct": 89.7,
+      "mean_lr": 1.337,
+      "total_reports": 29914
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_aes": 13,
+      "mean_f_pct": 85.3,
+      "mean_lr": 0.985,
+      "total_reports": 26511
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 14,
+      "mean_f_pct": 82.5,
+      "mean_lr": 1.525,
+      "total_reports": 26169
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 20,
+      "mean_f_pct": 70.5,
+      "mean_lr": 1.117,
+      "total_reports": 25967
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 15,
+      "mean_f_pct": 87.5,
+      "mean_lr": 1.312,
+      "total_reports": 25234
+    },
+    {
+      "drug": "DOCETAXEL",
+      "n_aes": 12,
+      "mean_f_pct": 67.1,
+      "mean_lr": 1.007,
+      "total_reports": 21728
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 17,
+      "mean_f_pct": 73.8,
+      "mean_lr": 1.207,
+      "total_reports": 21144
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_aes": 17,
+      "mean_f_pct": 66.4,
+      "mean_lr": 0.871,
+      "total_reports": 20795
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "n_aes": 15,
+      "mean_f_pct": 80.5,
+      "mean_lr": 1.064,
+      "total_reports": 20619
+    },
+    {
+      "drug": "CETIRIZINE",
+      "n_aes": 18,
+      "mean_f_pct": 76.3,
+      "mean_lr": 0.982,
+      "total_reports": 20132
+    }
+  ],
+  "alopecia_focus": {
+    "n_signals": 198,
+    "overall_f_pct": 76.2,
+    "top_drugs": [
+      {
+        "drug": "DOCETAXEL",
+        "f_pct": 98.7,
+        "reports": 20319
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "f_pct": 94.8,
+        "reports": 12867
+      },
+      {
+        "drug": "ETANERCEPT",
+        "f_pct": 96.7,
+        "reports": 11257
+      },
+      {
+        "drug": "METHOTREXATE",
+        "f_pct": 96.8,
+        "reports": 10871
+      },
+      {
+        "drug": "INFLIXIMAB",
+        "f_pct": 97.2,
+        "reports": 8713
+      },
+      {
+        "drug": "LEFLUNOMIDE",
+        "f_pct": 97.6,
+        "reports": 8488
+      },
+      {
+        "drug": "ABATACEPT",
+        "f_pct": 98.2,
+        "reports": 8456
+      },
+      {
+        "drug": "RITUXIMAB",
+        "f_pct": 97.5,
+        "reports": 8310
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "f_pct": 99.7,
+        "reports": 8068
+      },
+      {
+        "drug": "PREDNISONE",
+        "f_pct": 98.5,
+        "reports": 7676
+      }
+    ]
+  },
+  "sjs_ten_focus": {
+    "n_signals": 173,
+    "overall_f_pct": 55.5,
+    "mean_lr": 0.953,
+    "top_drugs": [
+      {
+        "drug": "ALLOPURINOL",
+        "f_pct": 54.5
+      },
+      {
+        "drug": "ALLOPURINOL",
+        "f_pct": 52.8
+      },
+      {
+        "drug": "CEFTRIAXONE",
+        "f_pct": 59.9
+      },
+      {
+        "drug": "CIPROFLOXACIN",
+        "f_pct": 67.3
+      },
+      {
+        "drug": "PREDNISOLONE",
+        "f_pct": 58.4
+      }
+    ]
+  }
+}

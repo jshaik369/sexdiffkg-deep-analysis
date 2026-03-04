@@ -1,0 +1,424 @@
+{
+  "overview": {
+    "n_signals": 2382,
+    "n_drugs": 746,
+    "n_aes": 35,
+    "overall_f_pct": 54.9,
+    "mean_abs_lr": 0.875
+  },
+  "ae_breakdown": [
+    {
+      "ae": "Acute kidney injury",
+      "n_signals": 267,
+      "mean_f_pct": 49.8,
+      "mean_lr": 0.805,
+      "total_reports": 48101
+    },
+    {
+      "ae": "Renal failure",
+      "n_signals": 202,
+      "mean_f_pct": 49.9,
+      "mean_lr": 0.843,
+      "total_reports": 30232
+    },
+    {
+      "ae": "Blood creatinine increased",
+      "n_signals": 178,
+      "mean_f_pct": 57.7,
+      "mean_lr": 0.93,
+      "total_reports": 23988
+    },
+    {
+      "ae": "Renal impairment",
+      "n_signals": 177,
+      "mean_f_pct": 55.4,
+      "mean_lr": 0.831,
+      "total_reports": 23408
+    },
+    {
+      "ae": "Urinary tract infection",
+      "n_signals": 172,
+      "mean_f_pct": 66.2,
+      "mean_lr": 0.822,
+      "total_reports": 38077
+    },
+    {
+      "ae": "Haematuria",
+      "n_signals": 134,
+      "mean_f_pct": 49.1,
+      "mean_lr": 0.977,
+      "total_reports": 13601
+    },
+    {
+      "ae": "Urinary retention",
+      "n_signals": 124,
+      "mean_f_pct": 54.3,
+      "mean_lr": 0.908,
+      "total_reports": 14068
+    },
+    {
+      "ae": "Dysuria",
+      "n_signals": 107,
+      "mean_f_pct": 57.1,
+      "mean_lr": 0.833,
+      "total_reports": 10073
+    },
+    {
+      "ae": "Renal disorder",
+      "n_signals": 92,
+      "mean_f_pct": 58.1,
+      "mean_lr": 0.93,
+      "total_reports": 11168
+    },
+    {
+      "ae": "Chronic kidney disease",
+      "n_signals": 87,
+      "mean_f_pct": 57.0,
+      "mean_lr": 0.909,
+      "total_reports": 87056
+    },
+    {
+      "ae": "Renal failure acute",
+      "n_signals": 74,
+      "mean_f_pct": 52.8,
+      "mean_lr": 0.829,
+      "total_reports": 7149
+    },
+    {
+      "ae": "Urinary incontinence",
+      "n_signals": 68,
+      "mean_f_pct": 59.6,
+      "mean_lr": 0.827,
+      "total_reports": 6247
+    },
+    {
+      "ae": "Tubulointerstitial nephritis",
+      "n_signals": 67,
+      "mean_f_pct": 46.6,
+      "mean_lr": 0.876,
+      "total_reports": 11064
+    },
+    {
+      "ae": "Cystitis",
+      "n_signals": 63,
+      "mean_f_pct": 68.3,
+      "mean_lr": 1.028,
+      "total_reports": 11204
+    },
+    {
+      "ae": "Renal tubular necrosis",
+      "n_signals": 54,
+      "mean_f_pct": 51.0,
+      "mean_lr": 0.923,
+      "total_reports": 5362
+    },
+    {
+      "ae": "Anuria",
+      "n_signals": 51,
+      "mean_f_pct": 61.7,
+      "mean_lr": 0.995,
+      "total_reports": 3749
+    },
+    {
+      "ae": "Blood urea increased",
+      "n_signals": 49,
+      "mean_f_pct": 50.2,
+      "mean_lr": 0.812,
+      "total_reports": 2733
+    },
+    {
+      "ae": "Proteinuria",
+      "n_signals": 44,
+      "mean_f_pct": 58.3,
+      "mean_lr": 0.866,
+      "total_reports": 4737
+    },
+    {
+      "ae": "Kidney infection",
+      "n_signals": 38,
+      "mean_f_pct": 57.0,
+      "mean_lr": 1.008,
+      "total_reports": 4492
+    },
+    {
+      "ae": "Glomerular filtration rate decreased",
+      "n_signals": 33,
+      "mean_f_pct": 50.4,
+      "mean_lr": 0.759,
+      "total_reports": 2537
+    }
+  ],
+  "class_analysis": [
+    {
+      "class": "Calcineurin_inhibitors",
+      "n_drugs": 3,
+      "n_signals": 14,
+      "mean_f_pct": 42.0,
+      "mean_lr": 0.799,
+      "total_reports": 2116,
+      "drugs": [
+        "CICLOSPORIN",
+        "CYCLOSPORINE",
+        "TACROLIMUS"
+      ]
+    },
+    {
+      "class": "ICIs",
+      "n_drugs": 6,
+      "n_signals": 30,
+      "mean_f_pct": 44.3,
+      "mean_lr": 0.819,
+      "total_reports": 3921,
+      "drugs": [
+        "ATEZOLIZUMAB",
+        "AVELUMAB",
+        "DURVALUMAB",
+        "IPILIMUMAB",
+        "NIVOLUMAB",
+        "PEMBROLIZUMAB"
+      ]
+    },
+    {
+      "class": "ACE_inhibitors",
+      "n_drugs": 6,
+      "n_signals": 28,
+      "mean_f_pct": 48.6,
+      "mean_lr": 0.79,
+      "total_reports": 3911,
+      "drugs": [
+        "CAPTOPRIL",
+        "ENALAPRIL",
+        "FOSINOPRIL",
+        "LISINOPRIL",
+        "PERINDOPRIL",
+        "RAMIPRIL"
+      ]
+    },
+    {
+      "class": "Platinums",
+      "n_drugs": 3,
+      "n_signals": 29,
+      "mean_f_pct": 51.1,
+      "mean_lr": 0.885,
+      "total_reports": 3610,
+      "drugs": [
+        "CARBOPLATIN",
+        "CISPLATIN",
+        "OXALIPLATIN"
+      ]
+    },
+    {
+      "class": "Diuretics",
+      "n_drugs": 4,
+      "n_signals": 26,
+      "mean_f_pct": 55.3,
+      "mean_lr": 0.765,
+      "total_reports": 3450,
+      "drugs": [
+        "BUMETANIDE",
+        "FUROSEMIDE",
+        "HYDROCHLOROTHIAZIDE",
+        "SPIRONOLACTONE"
+      ]
+    },
+    {
+      "class": "NSAIDs",
+      "n_drugs": 8,
+      "n_signals": 30,
+      "mean_f_pct": 56.8,
+      "mean_lr": 0.907,
+      "total_reports": 3478,
+      "drugs": [
+        "CELECOXIB",
+        "DICLOFENAC",
+        "IBUPROFEN",
+        "INDOMETHACIN",
+        "KETOPROFEN",
+        "KETOROLAC",
+        "MELOXICAM",
+        "NAPROXEN"
+      ]
+    },
+    {
+      "class": "ARBs",
+      "n_drugs": 6,
+      "n_signals": 33,
+      "mean_f_pct": 57.1,
+      "mean_lr": 0.86,
+      "total_reports": 3516,
+      "drugs": [
+        "CANDESARTAN",
+        "IRBESARTAN",
+        "LOSARTAN",
+        "OLMESARTAN",
+        "TELMISARTAN",
+        "VALSARTAN"
+      ]
+    },
+    {
+      "class": "Aminoglycosides",
+      "n_drugs": 3,
+      "n_signals": 12,
+      "mean_f_pct": 59.9,
+      "mean_lr": 0.842,
+      "total_reports": 1025,
+      "drugs": [
+        "AMIKACIN",
+        "GENTAMICIN",
+        "TOBRAMYCIN"
+      ]
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "LANSOPRAZOLE",
+      "n_aes": 10,
+      "mean_f_pct": 60.3,
+      "mean_lr": 0.596,
+      "total_reports": 30508
+    },
+    {
+      "drug": "ESOMEPRAZOLE",
+      "n_aes": 10,
+      "mean_f_pct": 71.4,
+      "mean_lr": 0.749,
+      "total_reports": 23038
+    },
+    {
+      "drug": "OMEPRAZOLE",
+      "n_aes": 8,
+      "mean_f_pct": 61.3,
+      "mean_lr": 0.776,
+      "total_reports": 22995
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_aes": 11,
+      "mean_f_pct": 59.2,
+      "mean_lr": 0.732,
+      "total_reports": 20673
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 14,
+      "mean_f_pct": 56.3,
+      "mean_lr": 0.647,
+      "total_reports": 5379
+    },
+    {
+      "drug": "METFORMIN",
+      "n_aes": 11,
+      "mean_f_pct": 64.9,
+      "mean_lr": 0.854,
+      "total_reports": 4850
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_aes": 6,
+      "mean_f_pct": 88.2,
+      "mean_lr": 0.778,
+      "total_reports": 4375
+    },
+    {
+      "drug": "OCRELIZUMAB",
+      "n_aes": 2,
+      "mean_f_pct": 76.6,
+      "mean_lr": 0.569,
+      "total_reports": 3459
+    },
+    {
+      "drug": "IMMUNOGLOBULINS, UNSPECIFIED",
+      "n_aes": 11,
+      "mean_f_pct": 67.5,
+      "mean_lr": 0.728,
+      "total_reports": 3337
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 12,
+      "mean_f_pct": 69.8,
+      "mean_lr": 0.851,
+      "total_reports": 3206
+    },
+    {
+      "drug": "ESOMEPRAZOLE MAGNESIUM",
+      "n_aes": 9,
+      "mean_f_pct": 59.5,
+      "mean_lr": 0.632,
+      "total_reports": 3096
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 8,
+      "mean_f_pct": 62.5,
+      "mean_lr": 0.662,
+      "total_reports": 3033
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "n_aes": 7,
+      "mean_f_pct": 46.3,
+      "mean_lr": 0.868,
+      "total_reports": 2893
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 10,
+      "mean_f_pct": 56.9,
+      "mean_lr": 0.767,
+      "total_reports": 2868
+    },
+    {
+      "drug": "FUMARIC ACID",
+      "n_aes": 4,
+      "mean_f_pct": 67.2,
+      "mean_lr": 0.96,
+      "total_reports": 2734
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 13,
+      "mean_f_pct": 52.5,
+      "mean_lr": 0.787,
+      "total_reports": 2712
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_aes": 13,
+      "mean_f_pct": 48.0,
+      "mean_lr": 0.687,
+      "total_reports": 2624
+    },
+    {
+      "drug": "AMLODIPINE",
+      "n_aes": 12,
+      "mean_f_pct": 65.6,
+      "mean_lr": 0.955,
+      "total_reports": 2524
+    },
+    {
+      "drug": "INTERFERON BETA-1A",
+      "n_aes": 4,
+      "mean_f_pct": 68.6,
+      "mean_lr": 1.018,
+      "total_reports": 2473
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 10,
+      "mean_f_pct": 59.4,
+      "mean_lr": 0.835,
+      "total_reports": 2430
+    }
+  ],
+  "volume_sex_correlation": {
+    "rho": 0.166,
+    "p": 4.9810935187057115e-06
+  },
+  "severity_gradient": {
+    "serious_f_pct": 51.3,
+    "nonserious_f_pct": 55.2,
+    "n_serious": 741,
+    "n_nonserious": 589
+  }
+}
