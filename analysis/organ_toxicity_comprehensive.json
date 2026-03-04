@@ -1,0 +1,193 @@
+{
+  "analysis": "haematotoxicity_dermatotoxicity_organ_summary",
+  "wave": 18,
+  "date": "2026-03-04",
+  "haematotoxicity": {
+    "overview": {
+      "n_signals": 4380,
+      "n_aes": 226,
+      "n_drugs": 818,
+      "pct_female": 66.4
+    },
+    "subtypes": {
+      "anaemia": {
+        "n_signals": 710,
+        "pct_female": 59.0,
+        "n_drugs": 437
+      },
+      "thrombocytopenia": {
+        "n_signals": 460,
+        "pct_female": 71.1,
+        "n_drugs": 353
+      },
+      "neutropenia": {
+        "n_signals": 691,
+        "pct_female": 60.6,
+        "n_drugs": 389
+      },
+      "pancytopenia": {
+        "n_signals": 327,
+        "pct_female": 64.5,
+        "n_drugs": 232
+      },
+      "bleeding": {
+        "n_signals": 1405,
+        "pct_female": 77.9,
+        "n_drugs": 411
+      },
+      "lymphopenia": {
+        "n_signals": 96,
+        "pct_female": 41.7,
+        "n_drugs": 80
+      }
+    }
+  },
+  "dermatotoxicity": {
+    "overview": {
+      "n_signals": 4765,
+      "n_aes": 187,
+      "n_drugs": 912,
+      "pct_female": 46.1
+    },
+    "subtypes": {
+      "rash": {
+        "n_signals": 935,
+        "pct_female": 55.1,
+        "n_drugs": 527
+      },
+      "severe_skin": {
+        "n_signals": 446,
+        "pct_female": 53.1,
+        "n_drugs": 281
+      },
+      "allergic_skin": {
+        "n_signals": 773,
+        "pct_female": 55.2,
+        "n_drugs": 506
+      },
+      "alopecia": {
+        "n_signals": 205,
+        "pct_female": 31.2,
+        "n_drugs": 199
+      },
+      "acne": {
+        "n_signals": 122,
+        "pct_female": 13.1,
+        "n_drugs": 111
+      },
+      "photosensitivity": {
+        "n_signals": 64,
+        "pct_female": 20.3,
+        "n_drugs": 64
+      }
+    }
+  },
+  "organ_system_ranking": {
+    "Renal": {
+      "n_signals": 1915,
+      "n_drugs": 678,
+      "n_aes": 100,
+      "pct_female": 73.8,
+      "mean_abs_lr": 0.8914
+    },
+    "Neurological": {
+      "n_signals": 1278,
+      "n_drugs": 518,
+      "n_aes": 83,
+      "pct_female": 69.5,
+      "mean_abs_lr": 0.8528
+    },
+    "Cardiac": {
+      "n_signals": 1965,
+      "n_drugs": 679,
+      "n_aes": 74,
+      "pct_female": 66.8,
+      "mean_abs_lr": 0.8976
+    },
+    "Hepatic": {
+      "n_signals": 2428,
+      "n_drugs": 563,
+      "n_aes": 100,
+      "pct_female": 66.7,
+      "mean_abs_lr": 1.0058
+    },
+    "Metabolic": {
+      "n_signals": 1200,
+      "n_drugs": 628,
+      "n_aes": 19,
+      "pct_female": 66.3,
+      "mean_abs_lr": 1.0003
+    },
+    "Haematological": {
+      "n_signals": 1486,
+      "n_drugs": 613,
+      "n_aes": 48,
+      "pct_female": 65.7,
+      "mean_abs_lr": 0.8998
+    },
+    "Pulmonary": {
+      "n_signals": 4199,
+      "n_drugs": 966,
+      "n_aes": 142,
+      "pct_female": 54.7,
+      "mean_abs_lr": 0.9954
+    },
+    "Psychiatric": {
+      "n_signals": 1769,
+      "n_drugs": 692,
+      "n_aes": 44,
+      "pct_female": 54.1,
+      "mean_abs_lr": 0.9803
+    },
+    "GI": {
+      "n_signals": 3219,
+      "n_drugs": 1034,
+      "n_aes": 119,
+      "pct_female": 53.7,
+      "mean_abs_lr": 0.9868
+    },
+    "Endocrine": {
+      "n_signals": 942,
+      "n_drugs": 366,
+      "n_aes": 70,
+      "pct_female": 52.9,
+      "mean_abs_lr": 1.0761
+    },
+    "Dermatological": {
+      "n_signals": 1891,
+      "n_drugs": 747,
+      "n_aes": 59,
+      "pct_female": 49.1,
+      "mean_abs_lr": 0.9698
+    },
+    "MSK": {
+      "n_signals": 1607,
+      "n_drugs": 554,
+      "n_aes": 69,
+      "pct_female": 49.0,
+      "mean_abs_lr": 0.9764
+    },
+    "Immunological": {
+      "n_signals": 1145,
+      "n_drugs": 582,
+      "n_aes": 49,
+      "pct_female": 44.1,
+      "mean_abs_lr": 1.0752
+    },
+    "Ocular": {
+      "n_signals": 482,
+      "n_drugs": 288,
+      "n_aes": 43,
+      "pct_female": 35.7,
+      "mean_abs_lr": 0.8272
+    }
+  },
+  "key_findings": {
+    "most_female_organ": "Renal",
+    "most_male_organ": "Ocular",
+    "total_organs_analyzed": 14,
+    "female_biased_organs": 6,
+    "male_biased_organs": 2,
+    "balanced_organs": 6
+  }
+}
