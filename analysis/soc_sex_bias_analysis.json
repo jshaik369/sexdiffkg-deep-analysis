@@ -1,0 +1,865 @@
+{
+  "analysis": "soc_sex_bias_analysis",
+  "soc_summary": [
+    {
+      "soc": "Renal",
+      "n_signals": 2203,
+      "n_drugs": 690,
+      "n_aes": 109,
+      "pct_female": 75.3,
+      "mean_abs_lr": 0.896
+    },
+    {
+      "soc": "Neoplasms",
+      "n_signals": 1438,
+      "n_drugs": 395,
+      "n_aes": 196,
+      "pct_female": 72.0,
+      "mean_abs_lr": 0.883
+    },
+    {
+      "soc": "Haematological",
+      "n_signals": 2294,
+      "n_drugs": 715,
+      "n_aes": 105,
+      "pct_female": 70.0,
+      "mean_abs_lr": 0.904
+    },
+    {
+      "soc": "Hepatobiliary",
+      "n_signals": 2845,
+      "n_drugs": 592,
+      "n_aes": 114,
+      "pct_female": 66.1,
+      "mean_abs_lr": 1.003
+    },
+    {
+      "soc": "Cardiac",
+      "n_signals": 3563,
+      "n_drugs": 794,
+      "n_aes": 140,
+      "pct_female": 63.3,
+      "mean_abs_lr": 0.901
+    },
+    {
+      "soc": "Vascular",
+      "n_signals": 1151,
+      "n_drugs": 673,
+      "n_aes": 48,
+      "pct_female": 62.1,
+      "mean_abs_lr": 1.037
+    },
+    {
+      "soc": "Neurological",
+      "n_signals": 1903,
+      "n_drugs": 617,
+      "n_aes": 116,
+      "pct_female": 61.8,
+      "mean_abs_lr": 0.873
+    },
+    {
+      "soc": "Endocrine_Metabolic",
+      "n_signals": 2303,
+      "n_drugs": 738,
+      "n_aes": 76,
+      "pct_female": 59.7,
+      "mean_abs_lr": 1.044
+    },
+    {
+      "soc": "Gastrointestinal",
+      "n_signals": 3163,
+      "n_drugs": 1046,
+      "n_aes": 77,
+      "pct_female": 57.3,
+      "mean_abs_lr": 0.977
+    },
+    {
+      "soc": "Psychiatric",
+      "n_signals": 2255,
+      "n_drugs": 764,
+      "n_aes": 54,
+      "pct_female": 55.7,
+      "mean_abs_lr": 0.993
+    },
+    {
+      "soc": "Respiratory",
+      "n_signals": 4889,
+      "n_drugs": 1005,
+      "n_aes": 150,
+      "pct_female": 53.2,
+      "mean_abs_lr": 1.012
+    },
+    {
+      "soc": "Immune_Allergic",
+      "n_signals": 936,
+      "n_drugs": 588,
+      "n_aes": 23,
+      "pct_female": 52.5,
+      "mean_abs_lr": 1.084
+    },
+    {
+      "soc": "Infections",
+      "n_signals": 3093,
+      "n_drugs": 649,
+      "n_aes": 245,
+      "pct_female": 52.3,
+      "mean_abs_lr": 0.966
+    },
+    {
+      "soc": "General_Constitutional",
+      "n_signals": 4419,
+      "n_drugs": 1364,
+      "n_aes": 100,
+      "pct_female": 52.0,
+      "mean_abs_lr": 0.984
+    },
+    {
+      "soc": "Other",
+      "n_signals": 50615,
+      "n_drugs": 1837,
+      "n_aes": 3099,
+      "pct_female": 51.4,
+      "mean_abs_lr": 0.999
+    },
+    {
+      "soc": "Reproductive",
+      "n_signals": 507,
+      "n_drugs": 298,
+      "n_aes": 39,
+      "pct_female": 48.1,
+      "mean_abs_lr": 1.258
+    },
+    {
+      "soc": "Musculoskeletal",
+      "n_signals": 3030,
+      "n_drugs": 717,
+      "n_aes": 115,
+      "pct_female": 45.8,
+      "mean_abs_lr": 1.03
+    },
+    {
+      "soc": "Dermatological",
+      "n_signals": 4444,
+      "n_drugs": 897,
+      "n_aes": 171,
+      "pct_female": 44.1,
+      "mean_abs_lr": 0.979
+    },
+    {
+      "soc": "Ocular",
+      "n_signals": 1230,
+      "n_drugs": 429,
+      "n_aes": 92,
+      "pct_female": 30.7,
+      "mean_abs_lr": 0.866
+    }
+  ],
+  "within_soc_variability": [
+    {
+      "soc": "Renal",
+      "n_drugs": 690,
+      "mean_pct_f": 73.6,
+      "std_pct_f": 37.1,
+      "range": "0-100%",
+      "cv": 0.5
+    },
+    {
+      "soc": "Neoplasms",
+      "n_drugs": 395,
+      "mean_pct_f": 73.3,
+      "std_pct_f": 37.3,
+      "range": "0-100%",
+      "cv": 0.51
+    },
+    {
+      "soc": "Haematological",
+      "n_drugs": 715,
+      "mean_pct_f": 68.8,
+      "std_pct_f": 38.3,
+      "range": "0-100%",
+      "cv": 0.56
+    },
+    {
+      "soc": "Hepatobiliary",
+      "n_drugs": 592,
+      "mean_pct_f": 62.4,
+      "std_pct_f": 39.0,
+      "range": "0-100%",
+      "cv": 0.62
+    },
+    {
+      "soc": "Cardiac",
+      "n_drugs": 794,
+      "mean_pct_f": 58.9,
+      "std_pct_f": 40.4,
+      "range": "0-100%",
+      "cv": 0.69
+    },
+    {
+      "soc": "Vascular",
+      "n_drugs": 673,
+      "mean_pct_f": 63.7,
+      "std_pct_f": 42.7,
+      "range": "0-100%",
+      "cv": 0.67
+    },
+    {
+      "soc": "Neurological",
+      "n_drugs": 617,
+      "mean_pct_f": 58.8,
+      "std_pct_f": 42.5,
+      "range": "0-100%",
+      "cv": 0.72
+    },
+    {
+      "soc": "Endocrine_Metabolic",
+      "n_drugs": 738,
+      "mean_pct_f": 59.2,
+      "std_pct_f": 39.6,
+      "range": "0-100%",
+      "cv": 0.67
+    },
+    {
+      "soc": "Gastrointestinal",
+      "n_drugs": 1046,
+      "mean_pct_f": 48.6,
+      "std_pct_f": 43.4,
+      "range": "0-100%",
+      "cv": 0.89
+    },
+    {
+      "soc": "Psychiatric",
+      "n_drugs": 764,
+      "mean_pct_f": 51.1,
+      "std_pct_f": 42.0,
+      "range": "0-100%",
+      "cv": 0.82
+    },
+    {
+      "soc": "Respiratory",
+      "n_drugs": 1005,
+      "mean_pct_f": 48.3,
+      "std_pct_f": 39.6,
+      "range": "0-100%",
+      "cv": 0.82
+    },
+    {
+      "soc": "Immune_Allergic",
+      "n_drugs": 588,
+      "mean_pct_f": 46.3,
+      "std_pct_f": 46.1,
+      "range": "0-100%",
+      "cv": 1.0
+    },
+    {
+      "soc": "Infections",
+      "n_drugs": 649,
+      "mean_pct_f": 49.2,
+      "std_pct_f": 40.5,
+      "range": "0-100%",
+      "cv": 0.82
+    },
+    {
+      "soc": "General_Constitutional",
+      "n_drugs": 1364,
+      "mean_pct_f": 45.0,
+      "std_pct_f": 40.6,
+      "range": "0-100%",
+      "cv": 0.9
+    },
+    {
+      "soc": "Other",
+      "n_drugs": 1837,
+      "mean_pct_f": 45.4,
+      "std_pct_f": 34.9,
+      "range": "0-100%",
+      "cv": 0.77
+    },
+    {
+      "soc": "Reproductive",
+      "n_drugs": 298,
+      "mean_pct_f": 54.4,
+      "std_pct_f": 46.0,
+      "range": "0-100%",
+      "cv": 0.85
+    },
+    {
+      "soc": "Musculoskeletal",
+      "n_drugs": 717,
+      "mean_pct_f": 41.0,
+      "std_pct_f": 40.5,
+      "range": "0-100%",
+      "cv": 0.99
+    },
+    {
+      "soc": "Dermatological",
+      "n_drugs": 897,
+      "mean_pct_f": 39.9,
+      "std_pct_f": 39.1,
+      "range": "0-100%",
+      "cv": 0.98
+    },
+    {
+      "soc": "Ocular",
+      "n_drugs": 429,
+      "mean_pct_f": 28.9,
+      "std_pct_f": 37.6,
+      "range": "0-100%",
+      "cv": 1.3
+    }
+  ],
+  "cross_soc_reversal_drugs": [
+    {
+      "drug": "ABACAVIR",
+      "n_socs": 13,
+      "max_f_soc": "Dermatological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Gastrointestinal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+      "n_socs": 15,
+      "max_f_soc": "Dermatological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Endocrine_Metabolic",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ABACAVIR;LAMIVUDINE",
+      "n_socs": 17,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Psychiatric",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_socs": 18,
+      "max_f_soc": "Ocular",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Neurological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ABROCITINIB",
+      "n_socs": 6,
+      "max_f_soc": "Other",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Dermatological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACALABRUTINIB",
+      "n_socs": 11,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Dermatological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACARBOSE",
+      "n_socs": 6,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACEBUTOLOL",
+      "n_socs": 5,
+      "max_f_soc": "General_Constitutional",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACENOCOUMAROL",
+      "n_socs": 7,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "General_Constitutional",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACETAMINOPHEN",
+      "n_socs": 16,
+      "max_f_soc": "General_Constitutional",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Haematological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACETAMINOPHEN\\CODEINE PHOSPHATE",
+      "n_socs": 3,
+      "max_f_soc": "Ocular",
+      "max_f_pct": 100.0,
+      "min_f_soc": "General_Constitutional",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE\\OXYCODONE TEREPHTHALATE",
+      "n_socs": 13,
+      "max_f_soc": "Dermatological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Vascular",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "n_socs": 6,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Psychiatric",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "n_socs": 10,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Infections",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACICLOVIR",
+      "n_socs": 18,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Immune_Allergic",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACITRETIN",
+      "n_socs": 10,
+      "max_f_soc": "Neoplasms",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Gastrointestinal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACLIDINIUM",
+      "n_socs": 14,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Immune_Allergic",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ACYCLOVIR",
+      "n_socs": 11,
+      "max_f_soc": "Dermatological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Haematological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ADEFOVIR",
+      "n_socs": 6,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Musculoskeletal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ADEFOVIR DIPIVOXIL",
+      "n_socs": 6,
+      "max_f_soc": "Infections",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Musculoskeletal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AFATINIB",
+      "n_socs": 9,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Ocular",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AFLIBERCEPT",
+      "n_socs": 15,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Endocrine_Metabolic",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AGALSIDASE BETA",
+      "n_socs": 12,
+      "max_f_soc": "Dermatological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Gastrointestinal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALBUMIN",
+      "n_socs": 10,
+      "max_f_soc": "General_Constitutional",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALBUTEROL",
+      "n_socs": 7,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALBUTEROL SULFATE",
+      "n_socs": 4,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "General_Constitutional",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALECTINIB",
+      "n_socs": 11,
+      "max_f_soc": "Neurological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALEMTUZUMAB",
+      "n_socs": 18,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Neoplasms",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALENDRONATE SODIUM",
+      "n_socs": 6,
+      "max_f_soc": "General_Constitutional",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALFACALCIDOL",
+      "n_socs": 5,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Other",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALIMEMAZINE",
+      "n_socs": 12,
+      "max_f_soc": "Dermatological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Gastrointestinal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALIROCUMAB",
+      "n_socs": 11,
+      "max_f_soc": "Haematological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALISKIREN",
+      "n_socs": 12,
+      "max_f_soc": "General_Constitutional",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Dermatological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALOGLIPTIN",
+      "n_socs": 7,
+      "max_f_soc": "General_Constitutional",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Gastrointestinal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALPELISIB",
+      "n_socs": 7,
+      "max_f_soc": "Dermatological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Psychiatric",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALPHA-1-ANTITRYPSIN",
+      "n_socs": 10,
+      "max_f_soc": "Vascular",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "ALTEPLASE",
+      "n_socs": 12,
+      "max_f_soc": "Haematological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Dermatological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMANTADINE",
+      "n_socs": 11,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMBRISENTAN",
+      "n_socs": 15,
+      "max_f_soc": "Endocrine_Metabolic",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Dermatological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMBROXOL",
+      "n_socs": 6,
+      "max_f_soc": "Gastrointestinal",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Respiratory",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMFETAMINE",
+      "n_socs": 11,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Musculoskeletal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMFETAMINE;DEXAMFETAMINE",
+      "n_socs": 9,
+      "max_f_soc": "Musculoskeletal",
+      "max_f_pct": 100.0,
+      "min_f_soc": "General_Constitutional",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMIFAMPRIDINE",
+      "n_socs": 4,
+      "max_f_soc": "Gastrointestinal",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Infections",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMIKACIN",
+      "n_socs": 13,
+      "max_f_soc": "Renal",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Endocrine_Metabolic",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMINO ACIDS, UNSPECIFIED",
+      "n_socs": 3,
+      "max_f_soc": "General_Constitutional",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Gastrointestinal",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMINOPHYLLINE",
+      "n_socs": 5,
+      "max_f_soc": "Gastrointestinal",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Dermatological",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMINOSALICYLIC ACID",
+      "n_socs": 13,
+      "max_f_soc": "Gastrointestinal",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Cardiac",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMIODARONE",
+      "n_socs": 18,
+      "max_f_soc": "Haematological",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Infections",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMIODARONE HYDROCHLORIDE",
+      "n_socs": 11,
+      "max_f_soc": "Cardiac",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Endocrine_Metabolic",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    },
+    {
+      "drug": "AMISULPRIDE",
+      "n_socs": 10,
+      "max_f_soc": "Gastrointestinal",
+      "max_f_pct": 100.0,
+      "min_f_soc": "Vascular",
+      "min_f_pct": 0.0,
+      "spread": 100.0
+    }
+  ],
+  "soc_pair_cooccurrence": [
+    {
+      "soc1": "General_Constitutional",
+      "soc2": "Other",
+      "n_drugs": 1219
+    },
+    {
+      "soc1": "Gastrointestinal",
+      "soc2": "Other",
+      "n_drugs": 993
+    },
+    {
+      "soc1": "Other",
+      "soc2": "Respiratory",
+      "n_drugs": 971
+    },
+    {
+      "soc1": "Dermatological",
+      "soc2": "Other",
+      "n_drugs": 856
+    },
+    {
+      "soc1": "Gastrointestinal",
+      "soc2": "General_Constitutional",
+      "n_drugs": 843
+    },
+    {
+      "soc1": "General_Constitutional",
+      "soc2": "Respiratory",
+      "n_drugs": 842
+    },
+    {
+      "soc1": "Cardiac",
+      "soc2": "Other",
+      "n_drugs": 775
+    },
+    {
+      "soc1": "Dermatological",
+      "soc2": "General_Constitutional",
+      "n_drugs": 746
+    },
+    {
+      "soc1": "Other",
+      "soc2": "Psychiatric",
+      "n_drugs": 744
+    },
+    {
+      "soc1": "Gastrointestinal",
+      "soc2": "Respiratory",
+      "n_drugs": 741
+    },
+    {
+      "soc1": "Endocrine_Metabolic",
+      "soc2": "Other",
+      "n_drugs": 722
+    },
+    {
+      "soc1": "Musculoskeletal",
+      "soc2": "Other",
+      "n_drugs": 707
+    },
+    {
+      "soc1": "Cardiac",
+      "soc2": "General_Constitutional",
+      "n_drugs": 690
+    },
+    {
+      "soc1": "Haematological",
+      "soc2": "Other",
+      "n_drugs": 686
+    },
+    {
+      "soc1": "Dermatological",
+      "soc2": "Respiratory",
+      "n_drugs": 675
+    },
+    {
+      "soc1": "Dermatological",
+      "soc2": "Gastrointestinal",
+      "n_drugs": 671
+    },
+    {
+      "soc1": "Other",
+      "soc2": "Renal",
+      "n_drugs": 669
+    },
+    {
+      "soc1": "General_Constitutional",
+      "soc2": "Psychiatric",
+      "n_drugs": 661
+    },
+    {
+      "soc1": "Other",
+      "soc2": "Vascular",
+      "n_drugs": 657
+    },
+    {
+      "soc1": "Endocrine_Metabolic",
+      "soc2": "General_Constitutional",
+      "n_drugs": 657
+    }
+  ]
+}

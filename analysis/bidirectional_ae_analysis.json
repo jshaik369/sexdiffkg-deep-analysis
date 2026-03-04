@@ -1,0 +1,848 @@
+{
+  "analysis": "bidirectional_ae_analysis",
+  "total_bidirectional_aes": 1178,
+  "top_bidirectional": [
+    {
+      "ae": "Drug ineffective",
+      "n_drugs": 501,
+      "pct_female": 37.7,
+      "n_drugs_female": 189,
+      "n_drugs_male": 312
+    },
+    {
+      "ae": "Off label use",
+      "n_drugs": 445,
+      "pct_female": 50.8,
+      "n_drugs_female": 226,
+      "n_drugs_male": 219
+    },
+    {
+      "ae": "Condition aggravated",
+      "n_drugs": 392,
+      "pct_female": 33.7,
+      "n_drugs_female": 132,
+      "n_drugs_male": 260
+    },
+    {
+      "ae": "Vomiting",
+      "n_drugs": 362,
+      "pct_female": 48.9,
+      "n_drugs_female": 177,
+      "n_drugs_male": 185
+    },
+    {
+      "ae": "Dyspnoea",
+      "n_drugs": 349,
+      "pct_female": 51.9,
+      "n_drugs_female": 181,
+      "n_drugs_male": 168
+    },
+    {
+      "ae": "Nausea",
+      "n_drugs": 339,
+      "pct_female": 39.5,
+      "n_drugs_female": 134,
+      "n_drugs_male": 205
+    },
+    {
+      "ae": "Death",
+      "n_drugs": 337,
+      "pct_female": 74.5,
+      "n_drugs_female": 251,
+      "n_drugs_male": 86
+    },
+    {
+      "ae": "Fatigue",
+      "n_drugs": 332,
+      "pct_female": 66.3,
+      "n_drugs_female": 220,
+      "n_drugs_male": 112
+    },
+    {
+      "ae": "Pain",
+      "n_drugs": 327,
+      "pct_female": 69.4,
+      "n_drugs_female": 227,
+      "n_drugs_male": 100
+    },
+    {
+      "ae": "Headache",
+      "n_drugs": 327,
+      "pct_female": 50.2,
+      "n_drugs_female": 164,
+      "n_drugs_male": 163
+    },
+    {
+      "ae": "Pyrexia",
+      "n_drugs": 322,
+      "pct_female": 68.6,
+      "n_drugs_female": 221,
+      "n_drugs_male": 101
+    },
+    {
+      "ae": "Hypertension",
+      "n_drugs": 313,
+      "pct_female": 66.1,
+      "n_drugs_female": 207,
+      "n_drugs_male": 106
+    },
+    {
+      "ae": "Product use in unapproved indication",
+      "n_drugs": 304,
+      "pct_female": 50.7,
+      "n_drugs_female": 154,
+      "n_drugs_male": 150
+    },
+    {
+      "ae": "Rash",
+      "n_drugs": 301,
+      "pct_female": 73.4,
+      "n_drugs_female": 221,
+      "n_drugs_male": 80
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "n_drugs": 299,
+      "pct_female": 46.2,
+      "n_drugs_female": 138,
+      "n_drugs_male": 161
+    },
+    {
+      "ae": "Diarrhoea",
+      "n_drugs": 296,
+      "pct_female": 68.6,
+      "n_drugs_female": 203,
+      "n_drugs_male": 93
+    },
+    {
+      "ae": "Dizziness",
+      "n_drugs": 289,
+      "pct_female": 55.4,
+      "n_drugs_female": 160,
+      "n_drugs_male": 129
+    },
+    {
+      "ae": "Hypersensitivity",
+      "n_drugs": 281,
+      "pct_female": 47.3,
+      "n_drugs_female": 133,
+      "n_drugs_male": 148
+    },
+    {
+      "ae": "Drug intolerance",
+      "n_drugs": 279,
+      "pct_female": 44.8,
+      "n_drugs_female": 125,
+      "n_drugs_male": 154
+    },
+    {
+      "ae": "Malaise",
+      "n_drugs": 275,
+      "pct_female": 54.9,
+      "n_drugs_female": 151,
+      "n_drugs_male": 124
+    },
+    {
+      "ae": "Acute kidney injury",
+      "n_drugs": 267,
+      "pct_female": 71.5,
+      "n_drugs_female": 191,
+      "n_drugs_male": 76
+    },
+    {
+      "ae": "Pneumonia",
+      "n_drugs": 267,
+      "pct_female": 73.0,
+      "n_drugs_female": 195,
+      "n_drugs_male": 72
+    },
+    {
+      "ae": "Asthenia",
+      "n_drugs": 266,
+      "pct_female": 73.7,
+      "n_drugs_female": 196,
+      "n_drugs_male": 70
+    },
+    {
+      "ae": "Weight decreased",
+      "n_drugs": 261,
+      "pct_female": 79.7,
+      "n_drugs_female": 208,
+      "n_drugs_male": 53
+    },
+    {
+      "ae": "Abdominal pain",
+      "n_drugs": 261,
+      "pct_female": 46.4,
+      "n_drugs_female": 121,
+      "n_drugs_male": 140
+    },
+    {
+      "ae": "Anxiety",
+      "n_drugs": 260,
+      "pct_female": 41.9,
+      "n_drugs_female": 109,
+      "n_drugs_male": 151
+    },
+    {
+      "ae": "Product use issue",
+      "n_drugs": 256,
+      "pct_female": 55.9,
+      "n_drugs_female": 143,
+      "n_drugs_male": 113
+    },
+    {
+      "ae": "Toxicity to various agents",
+      "n_drugs": 255,
+      "pct_female": 70.2,
+      "n_drugs_female": 179,
+      "n_drugs_male": 76
+    },
+    {
+      "ae": "Fall",
+      "n_drugs": 250,
+      "pct_female": 58.8,
+      "n_drugs_female": 147,
+      "n_drugs_male": 103
+    },
+    {
+      "ae": "Constipation",
+      "n_drugs": 246,
+      "pct_female": 56.1,
+      "n_drugs_female": 138,
+      "n_drugs_male": 108
+    },
+    {
+      "ae": "Pruritus",
+      "n_drugs": 244,
+      "pct_female": 64.8,
+      "n_drugs_female": 158,
+      "n_drugs_male": 86
+    },
+    {
+      "ae": "Decreased appetite",
+      "n_drugs": 243,
+      "pct_female": 77.4,
+      "n_drugs_female": 188,
+      "n_drugs_male": 55
+    },
+    {
+      "ae": "Anaemia",
+      "n_drugs": 242,
+      "pct_female": 65.3,
+      "n_drugs_female": 158,
+      "n_drugs_male": 84
+    },
+    {
+      "ae": "General physical health deterioration",
+      "n_drugs": 239,
+      "pct_female": 61.5,
+      "n_drugs_female": 147,
+      "n_drugs_male": 92
+    },
+    {
+      "ae": "Therapeutic product effect incomplete",
+      "n_drugs": 238,
+      "pct_female": 46.2,
+      "n_drugs_female": 110,
+      "n_drugs_male": 128
+    },
+    {
+      "ae": "Arthralgia",
+      "n_drugs": 238,
+      "pct_female": 57.6,
+      "n_drugs_female": 137,
+      "n_drugs_male": 101
+    },
+    {
+      "ae": "Weight increased",
+      "n_drugs": 237,
+      "pct_female": 60.3,
+      "n_drugs_female": 143,
+      "n_drugs_male": 94
+    },
+    {
+      "ae": "Pain in extremity",
+      "n_drugs": 235,
+      "pct_female": 33.2,
+      "n_drugs_female": 78,
+      "n_drugs_male": 157
+    },
+    {
+      "ae": "Confusional state",
+      "n_drugs": 234,
+      "pct_female": 65.4,
+      "n_drugs_female": 153,
+      "n_drugs_male": 81
+    },
+    {
+      "ae": "Treatment failure",
+      "n_drugs": 233,
+      "pct_female": 45.9,
+      "n_drugs_female": 107,
+      "n_drugs_male": 126
+    },
+    {
+      "ae": "Abdominal discomfort",
+      "n_drugs": 229,
+      "pct_female": 62.4,
+      "n_drugs_female": 143,
+      "n_drugs_male": 86
+    },
+    {
+      "ae": "Insomnia",
+      "n_drugs": 224,
+      "pct_female": 46.9,
+      "n_drugs_female": 105,
+      "n_drugs_male": 119
+    },
+    {
+      "ae": "Erythema",
+      "n_drugs": 222,
+      "pct_female": 40.5,
+      "n_drugs_female": 90,
+      "n_drugs_male": 132
+    },
+    {
+      "ae": "Cough",
+      "n_drugs": 220,
+      "pct_female": 51.4,
+      "n_drugs_female": 113,
+      "n_drugs_male": 107
+    },
+    {
+      "ae": "Urticaria",
+      "n_drugs": 219,
+      "pct_female": 53.4,
+      "n_drugs_female": 117,
+      "n_drugs_male": 102
+    },
+    {
+      "ae": "Thrombocytopenia",
+      "n_drugs": 217,
+      "pct_female": 79.3,
+      "n_drugs_female": 172,
+      "n_drugs_male": 45
+    },
+    {
+      "ae": "Asthma",
+      "n_drugs": 217,
+      "pct_female": 47.0,
+      "n_drugs_female": 102,
+      "n_drugs_male": 115
+    },
+    {
+      "ae": "Depression",
+      "n_drugs": 214,
+      "pct_female": 56.1,
+      "n_drugs_female": 120,
+      "n_drugs_male": 94
+    },
+    {
+      "ae": "Oedema peripheral",
+      "n_drugs": 214,
+      "pct_female": 68.7,
+      "n_drugs_female": 147,
+      "n_drugs_male": 67
+    },
+    {
+      "ae": "Somnolence",
+      "n_drugs": 213,
+      "pct_female": 38.5,
+      "n_drugs_female": 82,
+      "n_drugs_male": 131
+    }
+  ],
+  "deep_dive": [
+    {
+      "ae": "Drug ineffective",
+      "n_drugs": 501,
+      "pct_female": 37.7,
+      "top_female_drugs": [
+        {
+          "drug": "TOCILIZUMAB",
+          "lr": 0.52
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "lr": 0.55
+        },
+        {
+          "drug": "RITUXIMAB",
+          "lr": 0.96
+        },
+        {
+          "drug": "HYDROXYCHLOROQUINE",
+          "lr": 0.71
+        },
+        {
+          "drug": "PREDNISONE",
+          "lr": 0.68
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "ADAPALENE",
+          "lr": -0.54
+        },
+        {
+          "drug": "SKIN CARE",
+          "lr": -0.52
+        },
+        {
+          "drug": "SILDENAFIL",
+          "lr": -2.13
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "lr": -1.55
+        },
+        {
+          "drug": "TADALAFIL",
+          "lr": -2.43
+        }
+      ]
+    },
+    {
+      "ae": "Off label use",
+      "n_drugs": 445,
+      "pct_female": 50.8,
+      "top_female_drugs": [
+        {
+          "drug": "CERTOLIZUMAB",
+          "lr": 0.53
+        },
+        {
+          "drug": "LEFLUNOMIDE",
+          "lr": 0.74
+        },
+        {
+          "drug": "DICLOFENAC",
+          "lr": 0.58
+        },
+        {
+          "drug": "GOLIMUMAB",
+          "lr": 0.58
+        },
+        {
+          "drug": "CETIRIZINE",
+          "lr": 0.9
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "RISPERIDONE",
+          "lr": -1.03
+        },
+        {
+          "drug": "HYDROXYCHLOROQUINE",
+          "lr": -0.76
+        },
+        {
+          "drug": "AZITHROMYCIN ANHYDROUS",
+          "lr": -0.96
+        },
+        {
+          "drug": "CEFTRIAXONE",
+          "lr": -0.6
+        },
+        {
+          "drug": "OSELTAMIVIR",
+          "lr": -0.66
+        }
+      ]
+    },
+    {
+      "ae": "Condition aggravated",
+      "n_drugs": 392,
+      "pct_female": 33.7,
+      "top_female_drugs": [
+        {
+          "drug": "ADALIMUMAB",
+          "lr": 0.53
+        },
+        {
+          "drug": "METHOTREXATE",
+          "lr": 0.73
+        },
+        {
+          "drug": "PREDNISONE",
+          "lr": 0.65
+        },
+        {
+          "drug": "ABATACEPT",
+          "lr": 0.89
+        },
+        {
+          "drug": "LEFLUNOMIDE",
+          "lr": 0.99
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "SALBUTAMOL",
+          "lr": -0.66
+        },
+        {
+          "drug": "FUROSEMIDE",
+          "lr": -0.72
+        },
+        {
+          "drug": "BUDESONIDE",
+          "lr": -0.6
+        },
+        {
+          "drug": "FLUTICASONE;SALMETEROL",
+          "lr": -0.67
+        },
+        {
+          "drug": "LEVOFLOXACIN",
+          "lr": -1.16
+        }
+      ]
+    },
+    {
+      "ae": "Vomiting",
+      "n_drugs": 362,
+      "pct_female": 48.9,
+      "top_female_drugs": [
+        {
+          "drug": "METHOTREXATE",
+          "lr": 0.53
+        },
+        {
+          "drug": "ETANERCEPT",
+          "lr": 0.9
+        },
+        {
+          "drug": "RITUXIMAB",
+          "lr": 1.1
+        },
+        {
+          "drug": "PREDNISONE",
+          "lr": 1.11
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "lr": 0.68
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "WARFARIN",
+          "lr": -0.61
+        },
+        {
+          "drug": "CEFTRIAXONE",
+          "lr": -0.9
+        },
+        {
+          "drug": "MACROGOL",
+          "lr": -0.74
+        },
+        {
+          "drug": "ALLOPURINOL",
+          "lr": -0.59
+        },
+        {
+          "drug": "AMIODARONE",
+          "lr": -0.53
+        }
+      ]
+    },
+    {
+      "ae": "Dyspnoea",
+      "n_drugs": 349,
+      "pct_female": 51.9,
+      "top_female_drugs": [
+        {
+          "drug": "METHOTREXATE",
+          "lr": 0.6
+        },
+        {
+          "drug": "RITUXIMAB",
+          "lr": 0.72
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "lr": 0.52
+        },
+        {
+          "drug": "TOCILIZUMAB",
+          "lr": 0.89
+        },
+        {
+          "drug": "ABATACEPT",
+          "lr": 0.79
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "FORMOTEROL;MOMETASONE",
+          "lr": -0.52
+        },
+        {
+          "drug": "TAMSULOSIN",
+          "lr": -0.93
+        },
+        {
+          "drug": "UMECLIDINIUM",
+          "lr": -0.62
+        },
+        {
+          "drug": "ALLOPURINOL",
+          "lr": -0.6
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "lr": -0.77
+        }
+      ]
+    },
+    {
+      "ae": "Nausea",
+      "n_drugs": 339,
+      "pct_female": 39.5,
+      "top_female_drugs": [
+        {
+          "drug": "RITUXIMAB",
+          "lr": 0.59
+        },
+        {
+          "drug": "PREDNISONE",
+          "lr": 0.73
+        },
+        {
+          "drug": "NIRAPARIB",
+          "lr": 0.66
+        },
+        {
+          "drug": "PANTOPRAZOLE",
+          "lr": 0.58
+        },
+        {
+          "drug": "CETIRIZINE",
+          "lr": 0.77
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "ENZALUTAMIDE",
+          "lr": -0.55
+        },
+        {
+          "drug": "DOCETAXEL",
+          "lr": -0.76
+        },
+        {
+          "drug": "TEMOZOLOMIDE",
+          "lr": -0.62
+        },
+        {
+          "drug": "EMTRICITABINE;TENOFOVIR",
+          "lr": -0.81
+        },
+        {
+          "drug": "AMIODARONE",
+          "lr": -0.66
+        }
+      ]
+    },
+    {
+      "ae": "Death",
+      "n_drugs": 337,
+      "pct_female": 74.5,
+      "top_female_drugs": [
+        {
+          "drug": "NIVOLUMAB",
+          "lr": 0.59
+        },
+        {
+          "drug": "EVEROLIMUS",
+          "lr": 0.57
+        },
+        {
+          "drug": "HYDROCODONE;PARACETAMOL",
+          "lr": 0.58
+        },
+        {
+          "drug": "CALCIUM;ICODEXTRIN;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+          "lr": 0.55
+        },
+        {
+          "drug": "DEXTROMETHORPHAN;QUINIDINE",
+          "lr": 0.86
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "LEUPRORELIN",
+          "lr": -2.92
+        },
+        {
+          "drug": "OLAPARIB",
+          "lr": -0.62
+        },
+        {
+          "drug": "GOSERELIN",
+          "lr": -2.58
+        },
+        {
+          "drug": "BOTULINUM TOXIN",
+          "lr": -1.09
+        },
+        {
+          "drug": "TERIPARATIDE",
+          "lr": -0.65
+        }
+      ]
+    },
+    {
+      "ae": "Fatigue",
+      "n_drugs": 332,
+      "pct_female": 66.3,
+      "top_female_drugs": [
+        {
+          "drug": "ETANERCEPT",
+          "lr": 0.64
+        },
+        {
+          "drug": "METHOTREXATE",
+          "lr": 1.17
+        },
+        {
+          "drug": "TOCILIZUMAB",
+          "lr": 1.86
+        },
+        {
+          "drug": "TOFACITINIB",
+          "lr": 0.61
+        },
+        {
+          "drug": "ABATACEPT",
+          "lr": 1.39
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "ENZALUTAMIDE",
+          "lr": -1.13
+        },
+        {
+          "drug": "LEUPRORELIN",
+          "lr": -0.78
+        },
+        {
+          "drug": "TESTOSTERONE",
+          "lr": -0.97
+        },
+        {
+          "drug": "DOCETAXEL",
+          "lr": -0.66
+        },
+        {
+          "drug": "EMTRICITABINE;TENOFOVIR",
+          "lr": -0.64
+        }
+      ]
+    },
+    {
+      "ae": "Pain",
+      "n_drugs": 327,
+      "pct_female": 69.4,
+      "top_female_drugs": [
+        {
+          "drug": "METHOTREXATE",
+          "lr": 0.82
+        },
+        {
+          "drug": "TOCILIZUMAB",
+          "lr": 0.86
+        },
+        {
+          "drug": "RITUXIMAB",
+          "lr": 1.59
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "lr": 0.95
+        },
+        {
+          "drug": "CERTOLIZUMAB",
+          "lr": 0.77
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "OXYCODONE",
+          "lr": -0.58
+        },
+        {
+          "drug": "MORPHINE",
+          "lr": -0.5
+        },
+        {
+          "drug": "HYDROMORPHONE",
+          "lr": -0.53
+        },
+        {
+          "drug": "EMTRICITABINE;TENOFOVIR",
+          "lr": -0.66
+        },
+        {
+          "drug": "HYDROCODONE",
+          "lr": -0.66
+        }
+      ]
+    },
+    {
+      "ae": "Headache",
+      "n_drugs": 327,
+      "pct_female": 50.2,
+      "top_female_drugs": [
+        {
+          "drug": "TOCILIZUMAB",
+          "lr": 0.59
+        },
+        {
+          "drug": "RITUXIMAB",
+          "lr": 0.9
+        },
+        {
+          "drug": "PREDNISONE",
+          "lr": 0.81
+        },
+        {
+          "drug": "PARACETAMOL",
+          "lr": 0.56
+        },
+        {
+          "drug": "GOLIMUMAB",
+          "lr": 0.55
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug": "PEGINTERFERON ALFA-2A",
+          "lr": -0.5
+        },
+        {
+          "drug": "TELAPREVIR",
+          "lr": -0.6
+        },
+        {
+          "drug": "GLECAPREVIR;PIBRENTASVIR",
+          "lr": -0.61
+        },
+        {
+          "drug": "MINOXIDIL",
+          "lr": -1.14
+        },
+        {
+          "drug": "DASABUVIR;OMBITASVIR;PARITAPREVIR;RITONAVIR",
+          "lr": -0.54
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "analysis": "rare_drug_sex_analysis",
+  "rarity_tiers": [
+    {
+      "tier": "Ultra-rare",
+      "n_drugs": 482,
+      "n_signals": 657,
+      "pct_female": 42.5
+    },
+    {
+      "tier": "Rare",
+      "n_drugs": 732,
+      "n_signals": 4824,
+      "pct_female": 45.0
+    },
+    {
+      "tier": "Moderate",
+      "n_drugs": 622,
+      "n_signals": 22738,
+      "pct_female": 50.7
+    },
+    {
+      "tier": "Common",
+      "n_drugs": 298,
+      "n_signals": 49971,
+      "pct_female": 54.3
+    },
+    {
+      "tier": "Very Common",
+      "n_drugs": 44,
+      "n_signals": 18091,
+      "pct_female": 58.9
+    }
+  ],
+  "combo_vs_single": {
+    "combo_drugs": 320,
+    "combo_pct_female": 50.5,
+    "single_drugs": 1858,
+    "single_pct_female": 54.0
+  },
+  "biologic_vs_small": {
+    "biologics": 217,
+    "biologic_pct_female": 50.8,
+    "small_molecules": 1961,
+    "small_mol_pct_female": 54.3
+  },
+  "diverse_biased_drugs": [
+    {
+      "drug": "TACROLIMUS",
+      "n_aes": 572,
+      "pct_female": 75.9
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_aes": 542,
+      "pct_female": 82.5
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_aes": 537,
+      "pct_female": 80.3
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_aes": 521,
+      "pct_female": 77.2
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_aes": 518,
+      "pct_female": 92.9
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_aes": 507,
+      "pct_female": 76.3
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 492,
+      "pct_female": 85.0
+    },
+    {
+      "drug": "MORPHINE",
+      "n_aes": 441,
+      "pct_female": 83.4
+    },
+    {
+      "drug": "TRAMADOL",
+      "n_aes": 360,
+      "pct_female": 75.3
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_aes": 324,
+      "pct_female": 93.5
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "n_aes": 322,
+      "pct_female": 20.5
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "n_aes": 311,
+      "pct_female": 76.5
+    },
+    {
+      "drug": "DOCETAXEL",
+      "n_aes": 304,
+      "pct_female": 11.2
+    },
+    {
+      "drug": "CLOPIDOGREL",
+      "n_aes": 300,
+      "pct_female": 82.3
+    },
+    {
+      "drug": "VINCRISTINE",
+      "n_aes": 290,
+      "pct_female": 76.2
+    },
+    {
+      "drug": "DUPILUMAB",
+      "n_aes": 289,
+      "pct_female": 17.0
+    },
+    {
+      "drug": "MYCOPHENOLATE MOFETIL",
+      "n_aes": 277,
+      "pct_female": 81.2
+    },
+    {
+      "drug": "CYTARABINE",
+      "n_aes": 274,
+      "pct_female": 79.6
+    },
+    {
+      "drug": "ETOPOSIDE",
+      "n_aes": 273,
+      "pct_female": 79.1
+    },
+    {
+      "drug": "SILDENAFIL",
+      "n_aes": 272,
+      "pct_female": 87.5
+    }
+  ]
+}

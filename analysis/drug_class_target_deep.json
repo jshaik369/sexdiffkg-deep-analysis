@@ -1,0 +1,2328 @@
+{
+  "analysis": "drug_class_target_deep_dive",
+  "signals_with_targets": 168424,
+  "drugs_with_targets": 846,
+  "strongly_biased_targets": [
+    {
+      "target": "DNA polymerase (alpha/delta/epsilon)",
+      "n_drugs": 4,
+      "n_signals": 3872,
+      "pct_female": 80.1,
+      "mean_abs_lr": 0.864,
+      "bias": "F"
+    },
+    {
+      "target": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+      "n_drugs": 3,
+      "n_signals": 1570,
+      "pct_female": 78.1,
+      "mean_abs_lr": 1.038,
+      "bias": "F"
+    },
+    {
+      "target": "Retinoic acid receptor",
+      "n_drugs": 4,
+      "n_signals": 813,
+      "pct_female": 15.5,
+      "mean_abs_lr": 0.899,
+      "bias": "M"
+    },
+    {
+      "target": "Voltage-gated L-type calcium channel",
+      "n_drugs": 8,
+      "n_signals": 652,
+      "pct_female": 21.5,
+      "mean_abs_lr": 1.072,
+      "bias": "M"
+    },
+    {
+      "target": "DNA topoisomerase II",
+      "n_drugs": 3,
+      "n_signals": 564,
+      "pct_female": 78.4,
+      "mean_abs_lr": 0.898,
+      "bias": "F"
+    },
+    {
+      "target": "Glucagon-like peptide 1 receptor",
+      "n_drugs": 6,
+      "n_signals": 531,
+      "pct_female": 24.5,
+      "mean_abs_lr": 0.776,
+      "bias": "M"
+    },
+    {
+      "target": "Histamine H2 receptor",
+      "n_drugs": 4,
+      "n_signals": 427,
+      "pct_female": 85.5,
+      "mean_abs_lr": 1.304,
+      "bias": "F"
+    },
+    {
+      "target": "Interleukin-2 receptor",
+      "n_drugs": 3,
+      "n_signals": 333,
+      "pct_female": 83.8,
+      "mean_abs_lr": 0.951,
+      "bias": "F"
+    },
+    {
+      "target": "Ribonucleoside-diphosphate reductase RR1",
+      "n_drugs": 4,
+      "n_signals": 258,
+      "pct_female": 81.4,
+      "mean_abs_lr": 0.856,
+      "bias": "F"
+    },
+    {
+      "target": "Programmed cell death 1 ligand 1",
+      "n_drugs": 3,
+      "n_signals": 232,
+      "pct_female": 82.8,
+      "mean_abs_lr": 0.826,
+      "bias": "F"
+    },
+    {
+      "target": "Receptor tyrosine-protein kinase erbB-2",
+      "n_drugs": 6,
+      "n_signals": 199,
+      "pct_female": 21.6,
+      "mean_abs_lr": 1.527,
+      "bias": "M"
+    },
+    {
+      "target": "Prothrombin",
+      "n_drugs": 4,
+      "n_signals": 197,
+      "pct_female": 81.2,
+      "mean_abs_lr": 0.759,
+      "bias": "F"
+    },
+    {
+      "target": "B-lymphocyte antigen CD19",
+      "n_drugs": 6,
+      "n_signals": 176,
+      "pct_female": 83.0,
+      "mean_abs_lr": 0.798,
+      "bias": "F"
+    },
+    {
+      "target": "Calcitonin gene-related peptide",
+      "n_drugs": 3,
+      "n_signals": 172,
+      "pct_female": 4.7,
+      "mean_abs_lr": 0.946,
+      "bias": "M"
+    },
+    {
+      "target": "Parathyroid hormone/parathyroid hormone-related peptide receptor",
+      "n_drugs": 3,
+      "n_signals": 123,
+      "pct_female": 14.6,
+      "mean_abs_lr": 0.801,
+      "bias": "M"
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M2",
+      "n_drugs": 5,
+      "n_signals": 85,
+      "pct_female": 22.4,
+      "mean_abs_lr": 1.186,
+      "bias": "M"
+    },
+    {
+      "target": "Neurotrophic tyrosine kinase receptor",
+      "n_drugs": 3,
+      "n_signals": 84,
+      "pct_female": 10.7,
+      "mean_abs_lr": 0.664,
+      "bias": "M"
+    },
+    {
+      "target": "Thyroid hormone receptor",
+      "n_drugs": 3,
+      "n_signals": 82,
+      "pct_female": 22.0,
+      "mean_abs_lr": 1.219,
+      "bias": "M"
+    },
+    {
+      "target": "Synaptic vesicular amine transporter",
+      "n_drugs": 5,
+      "n_signals": 70,
+      "pct_female": 22.9,
+      "mean_abs_lr": 0.709,
+      "bias": "M"
+    },
+    {
+      "target": "Progesterone receptor",
+      "n_drugs": 5,
+      "n_signals": 65,
+      "pct_female": 3.1,
+      "mean_abs_lr": 1.64,
+      "bias": "M"
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 1D",
+      "n_drugs": 3,
+      "n_signals": 65,
+      "pct_female": 20.0,
+      "mean_abs_lr": 0.974,
+      "bias": "M"
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 1B",
+      "n_drugs": 3,
+      "n_signals": 65,
+      "pct_female": 20.0,
+      "mean_abs_lr": 0.974,
+      "bias": "M"
+    },
+    {
+      "target": "D(3) dopamine receptor",
+      "n_drugs": 3,
+      "n_signals": 61,
+      "pct_female": 78.7,
+      "mean_abs_lr": 0.76,
+      "bias": "F"
+    },
+    {
+      "target": "Vitamin K epoxide reductase complex subunit 1",
+      "n_drugs": 3,
+      "n_signals": 56,
+      "pct_female": 76.8,
+      "mean_abs_lr": 0.868,
+      "bias": "F"
+    },
+    {
+      "target": "Peroxisome proliferator-activated receptor gamma",
+      "n_drugs": 3,
+      "n_signals": 49,
+      "pct_female": 93.9,
+      "mean_abs_lr": 0.704,
+      "bias": "F"
+    },
+    {
+      "target": "Tyrosine-protein kinase JAK1",
+      "n_drugs": 3,
+      "n_signals": 46,
+      "pct_female": 21.7,
+      "mean_abs_lr": 0.841,
+      "bias": "M"
+    },
+    {
+      "target": "Tumor necrosis factor receptor superfamily member 17",
+      "n_drugs": 5,
+      "n_signals": 42,
+      "pct_female": 76.2,
+      "mean_abs_lr": 0.757,
+      "bias": "F"
+    },
+    {
+      "target": "Aromatase",
+      "n_drugs": 3,
+      "n_signals": 36,
+      "pct_female": 19.4,
+      "mean_abs_lr": 1.811,
+      "bias": "M"
+    },
+    {
+      "target": "Estrogen receptor",
+      "n_drugs": 3,
+      "n_signals": 33,
+      "pct_female": 12.1,
+      "mean_abs_lr": 2.124,
+      "bias": "M"
+    },
+    {
+      "target": "Amyloid-beta precursor protein",
+      "n_drugs": 3,
+      "n_signals": 25,
+      "pct_female": 20.0,
+      "mean_abs_lr": 0.744,
+      "bias": "M"
+    }
+  ],
+  "multitarget_analysis": [
+    {
+      "n_targets": "1",
+      "n_drugs": 677,
+      "n_signals": 41655,
+      "pct_female": 54.2
+    },
+    {
+      "n_targets": "2",
+      "n_drugs": 113,
+      "n_signals": 4435,
+      "pct_female": 50.9
+    },
+    {
+      "n_targets": "3-5",
+      "n_drugs": 45,
+      "n_signals": 2330,
+      "pct_female": 64.0
+    },
+    {
+      "n_targets": "6-10",
+      "n_drugs": 10,
+      "n_signals": 417,
+      "pct_female": 55.9
+    },
+    {
+      "n_targets": "11+",
+      "n_drugs": 1,
+      "n_signals": 70,
+      "pct_female": 74.3
+    }
+  ],
+  "drug_families": [
+    {
+      "target": "GABA-A receptor; anion channel",
+      "n_drugs": 31,
+      "overall_pct_female": 61.8,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "TETRAZEPAM",
+          "pct_female": 0.0,
+          "n_signals": 32
+        },
+        {
+          "drug": "CENOBAMATE",
+          "pct_female": 0.0,
+          "n_signals": 32
+        },
+        {
+          "drug": "ETIFOXINE",
+          "pct_female": 0.0,
+          "n_signals": 64
+        },
+        {
+          "drug": "CLOTIAZEPAM",
+          "pct_female": 0.0,
+          "n_signals": 32
+        },
+        {
+          "drug": "ESZOPICLONE",
+          "pct_female": 0.0,
+          "n_signals": 128
+        },
+        {
+          "drug": "PRIMIDONE",
+          "pct_female": 18.2,
+          "n_signals": 176
+        },
+        {
+          "drug": "ESTAZOLAM",
+          "pct_female": 33.3,
+          "n_signals": 48
+        },
+        {
+          "drug": "CLOBAZAM",
+          "pct_female": 34.4,
+          "n_signals": 1024
+        },
+        {
+          "drug": "TRIAZOLAM",
+          "pct_female": 35.7,
+          "n_signals": 224
+        },
+        {
+          "drug": "TOPIRAMATE",
+          "pct_female": 48.0,
+          "n_signals": 3200
+        },
+        {
+          "drug": "SEVOFLURANE",
+          "pct_female": 50.0,
+          "n_signals": 480
+        },
+        {
+          "drug": "TEMAZEPAM",
+          "pct_female": 50.7,
+          "n_signals": 1136
+        },
+        {
+          "drug": "PROPOFOL",
+          "pct_female": 56.2,
+          "n_signals": 2048
+        },
+        {
+          "drug": "PRAZEPAM",
+          "pct_female": 60.0,
+          "n_signals": 240
+        },
+        {
+          "drug": "CLONAZEPAM",
+          "pct_female": 62.1,
+          "n_signals": 4560
+        },
+        {
+          "drug": "LORAZEPAM",
+          "pct_female": 62.5,
+          "n_signals": 4224
+        },
+        {
+          "drug": "ISOFLURANE",
+          "pct_female": 62.5,
+          "n_signals": 128
+        },
+        {
+          "drug": "MIDAZOLAM",
+          "pct_female": 62.6,
+          "n_signals": 1712
+        },
+        {
+          "drug": "OXAZEPAM",
+          "pct_female": 64.8,
+          "n_signals": 1408
+        },
+        {
+          "drug": "ALPRAZOLAM",
+          "pct_female": 75.1,
+          "n_signals": 3792
+        },
+        {
+          "drug": "DIAZEPAM",
+          "pct_female": 76.4,
+          "n_signals": 4000
+        },
+        {
+          "drug": "CHLORDIAZEPOXIDE",
+          "pct_female": 87.5,
+          "n_signals": 128
+        },
+        {
+          "drug": "MIDAZOLAM HYDROCHLORIDE",
+          "pct_female": 100.0,
+          "n_signals": 48
+        },
+        {
+          "drug": "FLUNITRAZEPAM",
+          "pct_female": 100.0,
+          "n_signals": 64
+        },
+        {
+          "drug": "PENTOBARBITAL",
+          "pct_female": 100.0,
+          "n_signals": 32
+        },
+        {
+          "drug": "FLUMAZENIL",
+          "pct_female": 100.0,
+          "n_signals": 64
+        },
+        {
+          "drug": "ETOMIDATE",
+          "pct_female": 100.0,
+          "n_signals": 32
+        },
+        {
+          "drug": "DESFLURANE",
+          "pct_female": 100.0,
+          "n_signals": 32
+        },
+        {
+          "drug": "BUTALBITAL",
+          "pct_female": 100.0,
+          "n_signals": 48
+        },
+        {
+          "drug": "MEPROBAMATE",
+          "pct_female": 100.0,
+          "n_signals": 32
+        },
+        {
+          "drug": "FLURAZEPAM HYDROCHLORIDE",
+          "pct_female": 100.0,
+          "n_signals": 16
+        }
+      ]
+    },
+    {
+      "target": "Glucocorticoid receptor",
+      "n_drugs": 30,
+      "overall_pct_female": 66.4,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "FLUOCINONIDE",
+          "pct_female": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "RIMEXOLONE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "MOMETASONE FUROATE",
+          "pct_female": 0.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "MIFEPRISTONE",
+          "pct_female": 0.0,
+          "n_signals": 47
+        },
+        {
+          "drug": "CLOBETASOL PROPIONATE",
+          "pct_female": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "FLUOCINOLONE ACETONIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "DIFLUPREDNATE",
+          "pct_female": 0.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "PREDNISOLONE ACETATE",
+          "pct_female": 12.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "FLUOROMETHOLONE",
+          "pct_female": 25.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "DEXAMETHASONE SODIUM PHOSPHATE",
+          "pct_female": 25.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "DESONIDE",
+          "pct_female": 28.6,
+          "n_signals": 14
+        },
+        {
+          "drug": "FLUTICASONE PROPIONATE",
+          "pct_female": 30.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "TRIAMCINOLONE ACETONIDE",
+          "pct_female": 33.3,
+          "n_signals": 9
+        },
+        {
+          "drug": "CICLESONIDE",
+          "pct_female": 35.0,
+          "n_signals": 123
+        },
+        {
+          "drug": "BETAMETHASONE",
+          "pct_female": 35.4,
+          "n_signals": 130
+        },
+        {
+          "drug": "DESOXIMETASONE",
+          "pct_female": 43.0,
+          "n_signals": 79
+        },
+        {
+          "drug": "BUDESONIDE",
+          "pct_female": 45.2,
+          "n_signals": 259
+        },
+        {
+          "drug": "CORTISONE ACETATE",
+          "pct_female": 50.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "BETAMETHASONE DIPROPIONATE",
+          "pct_female": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "HYDROCORTISONE",
+          "pct_female": 50.7,
+          "n_signals": 302
+        },
+        {
+          "drug": "TRIAMCINOLONE",
+          "pct_female": 60.0,
+          "n_signals": 170
+        },
+        {
+          "drug": "PREDNISONE",
+          "pct_female": 70.2,
+          "n_signals": 926
+        },
+        {
+          "drug": "METHYLPREDNISOLONE",
+          "pct_female": 77.2,
+          "n_signals": 521
+        },
+        {
+          "drug": "DEXAMETHASONE",
+          "pct_female": 80.3,
+          "n_signals": 537
+        },
+        {
+          "drug": "PREDNISOLONE",
+          "pct_female": 82.5,
+          "n_signals": 542
+        },
+        {
+          "drug": "DEFLAZACORT",
+          "pct_female": 87.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+          "pct_female": 91.2,
+          "n_signals": 68
+        },
+        {
+          "drug": "HYDROCORTISONE ACETATE",
+          "pct_female": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "BETAMETHASONE VALERATE",
+          "pct_female": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PREDNISOLONE SODIUM PHOSPHATE",
+          "pct_female": 100.0,
+          "n_signals": 2
+        }
+      ]
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "n_drugs": 23,
+      "overall_pct_female": 66.9,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "THIORIDAZINE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "CYCLOBENZAPRINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LUMATEPERONE",
+          "pct_female": 13.6,
+          "n_signals": 22
+        },
+        {
+          "drug": "TRAZODONE HYDROCHLORIDE",
+          "pct_female": 14.3,
+          "n_signals": 7
+        },
+        {
+          "drug": "BREXPIPRAZOLE",
+          "pct_female": 32.6,
+          "n_signals": 43
+        },
+        {
+          "drug": "DROPERIDOL",
+          "pct_female": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "ILOPERIDONE",
+          "pct_female": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "ARIPIPRAZOLE",
+          "pct_female": 47.4,
+          "n_signals": 342
+        },
+        {
+          "drug": "QUETIAPINE FUMARATE",
+          "pct_female": 52.0,
+          "n_signals": 50
+        },
+        {
+          "drug": "HALOPERIDOL",
+          "pct_female": 56.3,
+          "n_signals": 158
+        },
+        {
+          "drug": "MIRTAZAPINE",
+          "pct_female": 57.0,
+          "n_signals": 193
+        },
+        {
+          "drug": "OLANZAPINE",
+          "pct_female": 58.9,
+          "n_signals": 336
+        },
+        {
+          "drug": "CHLORPROMAZINE",
+          "pct_female": 61.4,
+          "n_signals": 57
+        },
+        {
+          "drug": "LOXAPINE",
+          "pct_female": 66.7,
+          "n_signals": 45
+        },
+        {
+          "drug": "CHLORPROMAZINE HYDROCHLORIDE",
+          "pct_female": 66.7,
+          "n_signals": 3
+        },
+        {
+          "drug": "CLOZAPINE",
+          "pct_female": 68.6,
+          "n_signals": 287
+        },
+        {
+          "drug": "CHLORPROTHIXENE",
+          "pct_female": 80.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "PALIPERIDONE",
+          "pct_female": 85.7,
+          "n_signals": 161
+        },
+        {
+          "drug": "ZIPRASIDONE HYDROCHLORIDE",
+          "pct_female": 92.3,
+          "n_signals": 13
+        },
+        {
+          "drug": "RISPERIDONE",
+          "pct_female": 92.9,
+          "n_signals": 518
+        },
+        {
+          "drug": "HALOPERIDOL LACTATE",
+          "pct_female": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PIMOZIDE",
+          "pct_female": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LOXAPINE SUCCINATE",
+          "pct_female": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "target": "Cyclooxygenase",
+      "n_drugs": 21,
+      "overall_pct_female": 54.6,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "NEPAFENAC",
+          "pct_female": 0.0,
+          "n_signals": 18
+        },
+        {
+          "drug": "BENZYDAMINE",
+          "pct_female": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "DEXKETOPROFEN",
+          "pct_female": 0.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "DICLOFENAC POTASSIUM",
+          "pct_female": 0.0,
+          "n_signals": 12
+        },
+        {
+          "drug": "FLURBIPROFEN",
+          "pct_female": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "KETOROLAC TROMETHAMINE",
+          "pct_female": 0.0,
+          "n_signals": 8
+        },
+        {
+          "drug": "MEFENAMIC ACID",
+          "pct_female": 12.5,
+          "n_signals": 16
+        },
+        {
+          "drug": "DICLOFENAC SODIUM",
+          "pct_female": 26.9,
+          "n_signals": 134
+        },
+        {
+          "drug": "NAPROXEN SODIUM",
+          "pct_female": 38.5,
+          "n_signals": 26
+        },
+        {
+          "drug": "SULFASALAZINE",
+          "pct_female": 46.5,
+          "n_signals": 636
+        },
+        {
+          "drug": "INDOMETHACIN",
+          "pct_female": 50.0,
+          "n_signals": 24
+        },
+        {
+          "drug": "DICLOFENAC",
+          "pct_female": 50.6,
+          "n_signals": 802
+        },
+        {
+          "drug": "NAPROXEN",
+          "pct_female": 54.1,
+          "n_signals": 662
+        },
+        {
+          "drug": "IBUPROFEN",
+          "pct_female": 59.4,
+          "n_signals": 744
+        },
+        {
+          "drug": "LOXOPROFEN",
+          "pct_female": 64.3,
+          "n_signals": 28
+        },
+        {
+          "drug": "ACETAMINOPHEN",
+          "pct_female": 65.2,
+          "n_signals": 178
+        },
+        {
+          "drug": "KETOPROFEN",
+          "pct_female": 66.1,
+          "n_signals": 118
+        },
+        {
+          "drug": "PIROXICAM",
+          "pct_female": 81.0,
+          "n_signals": 42
+        },
+        {
+          "drug": "ASPIRIN",
+          "pct_female": 82.5,
+          "n_signals": 274
+        },
+        {
+          "drug": "MESALAMINE",
+          "pct_female": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "SULINDAC",
+          "pct_female": 100.0,
+          "n_signals": 2
+        }
+      ]
+    },
+    {
+      "target": "D(2) dopamine receptor",
+      "n_drugs": 18,
+      "overall_pct_female": 70.2,
+      "spread_pp": 92.9,
+      "drugs": [
+        {
+          "drug": "ALIZAPRIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LUMATEPERONE",
+          "pct_female": 13.6,
+          "n_signals": 22
+        },
+        {
+          "drug": "CABERGOLINE",
+          "pct_female": 14.3,
+          "n_signals": 14
+        },
+        {
+          "drug": "BREXPIPRAZOLE",
+          "pct_female": 32.6,
+          "n_signals": 43
+        },
+        {
+          "drug": "ILOPERIDONE",
+          "pct_female": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "SULPIRIDE",
+          "pct_female": 40.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "ARIPIPRAZOLE",
+          "pct_female": 47.4,
+          "n_signals": 342
+        },
+        {
+          "drug": "PROCHLORPERAZINE",
+          "pct_female": 47.6,
+          "n_signals": 21
+        },
+        {
+          "drug": "METOCLOPRAMIDE HYDROCHLORIDE",
+          "pct_female": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "QUETIAPINE FUMARATE",
+          "pct_female": 52.0,
+          "n_signals": 50
+        },
+        {
+          "drug": "PERPHENAZINE",
+          "pct_female": 53.3,
+          "n_signals": 15
+        },
+        {
+          "drug": "DOMPERIDONE",
+          "pct_female": 60.7,
+          "n_signals": 89
+        },
+        {
+          "drug": "CLOZAPINE",
+          "pct_female": 68.6,
+          "n_signals": 287
+        },
+        {
+          "drug": "CHLORPROTHIXENE",
+          "pct_female": 80.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "PALIPERIDONE",
+          "pct_female": 85.7,
+          "n_signals": 161
+        },
+        {
+          "drug": "ZIPRASIDONE HYDROCHLORIDE",
+          "pct_female": 92.3,
+          "n_signals": 13
+        },
+        {
+          "drug": "TIAPRIDE",
+          "pct_female": 92.9,
+          "n_signals": 14
+        },
+        {
+          "drug": "RISPERIDONE",
+          "pct_female": 92.9,
+          "n_signals": 518
+        }
+      ]
+    },
+    {
+      "target": "Sodium-dependent noradrenaline transporter",
+      "n_drugs": 16,
+      "overall_pct_female": 56.9,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "DEXTROAMPHETAMINE SULFATE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "NORTRIPTYLINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PHENTERMINE",
+          "pct_female": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "DESVENLAFAXINE",
+          "pct_female": 10.9,
+          "n_signals": 46
+        },
+        {
+          "drug": "DULOXETINE HYDROCHLORIDE",
+          "pct_female": 15.4,
+          "n_signals": 13
+        },
+        {
+          "drug": "PSEUDOEPHEDRINE HYDROCHLORIDE",
+          "pct_female": 25.0,
+          "n_signals": 8
+        },
+        {
+          "drug": "AMITRIPTYLINE HYDROCHLORIDE",
+          "pct_female": 28.6,
+          "n_signals": 7
+        },
+        {
+          "drug": "DOXEPIN HYDROCHLORIDE",
+          "pct_female": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "ATOMOXETINE HYDROCHLORIDE",
+          "pct_female": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "BUPROPION HYDROCHLORIDE",
+          "pct_female": 50.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "VENLAFAXINE HYDROCHLORIDE",
+          "pct_female": 58.3,
+          "n_signals": 12
+        },
+        {
+          "drug": "METHYLPHENIDATE HYDROCHLORIDE",
+          "pct_female": 60.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "DEXTROAMPHETAMINE",
+          "pct_female": 66.7,
+          "n_signals": 3
+        },
+        {
+          "drug": "METHYLPHENIDATE",
+          "pct_female": 77.6,
+          "n_signals": 147
+        },
+        {
+          "drug": "MIDOMAFETAMINE",
+          "pct_female": 83.3,
+          "n_signals": 12
+        },
+        {
+          "drug": "AMPHETAMINE SULFATE",
+          "pct_female": 100.0,
+          "n_signals": 2
+        }
+      ]
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "n_drugs": 16,
+      "overall_pct_female": 37.6,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "ALCAFTADINE",
+          "pct_female": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "AZELASTINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "EBASTINE",
+          "pct_female": 0.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "FEXOFENADINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "PROMETHAZINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "RUPATADINE",
+          "pct_female": 20.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "DOXEPIN",
+          "pct_female": 29.7,
+          "n_signals": 37
+        },
+        {
+          "drug": "BETAHISTINE",
+          "pct_female": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "CETIRIZINE HYDROCHLORIDE",
+          "pct_female": 34.2,
+          "n_signals": 38
+        },
+        {
+          "drug": "BILASTINE",
+          "pct_female": 35.7,
+          "n_signals": 14
+        },
+        {
+          "drug": "LORATADINE",
+          "pct_female": 39.6,
+          "n_signals": 48
+        },
+        {
+          "drug": "DESLORATADINE",
+          "pct_female": 50.0,
+          "n_signals": 28
+        },
+        {
+          "drug": "DOXYLAMINE SUCCINATE",
+          "pct_female": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "DIMENHYDRINATE",
+          "pct_female": 54.5,
+          "n_signals": 22
+        },
+        {
+          "drug": "DIPHENHYDRAMINE HYDROCHLORIDE",
+          "pct_female": 77.8,
+          "n_signals": 9
+        },
+        {
+          "drug": "HYDROXYZINE HYDROCHLORIDE",
+          "pct_female": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "n_drugs": 16,
+      "overall_pct_female": 43.5,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "CENOBAMATE",
+          "pct_female": 0.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "ROPIVACAINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "PRIMIDONE",
+          "pct_female": 18.2,
+          "n_signals": 110
+        },
+        {
+          "drug": "LIDOCAINE",
+          "pct_female": 19.5,
+          "n_signals": 1180
+        },
+        {
+          "drug": "ESLICARBAZEPINE",
+          "pct_female": 27.3,
+          "n_signals": 110
+        },
+        {
+          "drug": "CARBAMAZEPINE",
+          "pct_female": 38.9,
+          "n_signals": 1800
+        },
+        {
+          "drug": "LAMOTRIGINE",
+          "pct_female": 43.6,
+          "n_signals": 3190
+        },
+        {
+          "drug": "OXCARBAZEPINE",
+          "pct_female": 47.2,
+          "n_signals": 1080
+        },
+        {
+          "drug": "TOPIRAMATE",
+          "pct_female": 48.0,
+          "n_signals": 2000
+        },
+        {
+          "drug": "LACOSAMIDE",
+          "pct_female": 49.0,
+          "n_signals": 980
+        },
+        {
+          "drug": "RUFINAMIDE",
+          "pct_female": 60.0,
+          "n_signals": 50
+        },
+        {
+          "drug": "PHENYTOIN",
+          "pct_female": 60.2,
+          "n_signals": 880
+        },
+        {
+          "drug": "ZONISAMIDE",
+          "pct_female": 66.7,
+          "n_signals": 300
+        },
+        {
+          "drug": "FOSPHENYTOIN SODIUM",
+          "pct_female": 100.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "PHENYTOIN SODIUM",
+          "pct_female": 100.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "RILUZOLE",
+          "pct_female": 100.0,
+          "n_signals": 10
+        }
+      ]
+    },
+    {
+      "target": "Mu-type opioid receptor",
+      "n_drugs": 14,
+      "overall_pct_female": 67.6,
+      "spread_pp": 85.0,
+      "drugs": [
+        {
+          "drug": "LEVORPHANOL TARTRATE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LOPERAMIDE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 6
+        },
+        {
+          "drug": "MEPERIDINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "NALDEMEDINE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "MORPHINE SULFATE",
+          "pct_female": 12.8,
+          "n_signals": 86
+        },
+        {
+          "drug": "ELUXADOLINE",
+          "pct_female": 16.7,
+          "n_signals": 6
+        },
+        {
+          "drug": "HYDROMORPHONE HYDROCHLORIDE",
+          "pct_female": 50.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "BUPRENORPHINE",
+          "pct_female": 54.0,
+          "n_signals": 261
+        },
+        {
+          "drug": "METHADONE HYDROCHLORIDE",
+          "pct_female": 57.1,
+          "n_signals": 7
+        },
+        {
+          "drug": "TRAMADOL HYDROCHLORIDE",
+          "pct_female": 59.0,
+          "n_signals": 39
+        },
+        {
+          "drug": "OXYCODONE HYDROCHLORIDE",
+          "pct_female": 59.7,
+          "n_signals": 67
+        },
+        {
+          "drug": "FENTANYL CITRATE",
+          "pct_female": 72.4,
+          "n_signals": 29
+        },
+        {
+          "drug": "FENTANYL",
+          "pct_female": 74.6,
+          "n_signals": 291
+        },
+        {
+          "drug": "OXYCODONE",
+          "pct_female": 85.0,
+          "n_signals": 492
+        }
+      ]
+    },
+    {
+      "target": "Sodium-dependent serotonin transporter",
+      "n_drugs": 13,
+      "overall_pct_female": 26.8,
+      "spread_pp": 83.3,
+      "drugs": [
+        {
+          "drug": "NORTRIPTYLINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "DESVENLAFAXINE",
+          "pct_female": 10.9,
+          "n_signals": 46
+        },
+        {
+          "drug": "ESCITALOPRAM OXALATE",
+          "pct_female": 12.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "LUMATEPERONE",
+          "pct_female": 13.6,
+          "n_signals": 22
+        },
+        {
+          "drug": "TRAZODONE HYDROCHLORIDE",
+          "pct_female": 14.3,
+          "n_signals": 7
+        },
+        {
+          "drug": "DULOXETINE HYDROCHLORIDE",
+          "pct_female": 15.4,
+          "n_signals": 13
+        },
+        {
+          "drug": "CITALOPRAM HYDROBROMIDE",
+          "pct_female": 16.7,
+          "n_signals": 6
+        },
+        {
+          "drug": "PAROXETINE HYDROCHLORIDE",
+          "pct_female": 22.7,
+          "n_signals": 22
+        },
+        {
+          "drug": "AMITRIPTYLINE HYDROCHLORIDE",
+          "pct_female": 28.6,
+          "n_signals": 7
+        },
+        {
+          "drug": "SERTRALINE HYDROCHLORIDE",
+          "pct_female": 37.5,
+          "n_signals": 24
+        },
+        {
+          "drug": "FLUOXETINE HYDROCHLORIDE",
+          "pct_female": 42.9,
+          "n_signals": 14
+        },
+        {
+          "drug": "VENLAFAXINE HYDROCHLORIDE",
+          "pct_female": 58.3,
+          "n_signals": 12
+        },
+        {
+          "drug": "MIDOMAFETAMINE",
+          "pct_female": 83.3,
+          "n_signals": 12
+        }
+      ]
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2C",
+      "n_drugs": 12,
+      "overall_pct_female": 73.3,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "CYCLOBENZAPRINE HYDROCHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "THIORIDAZINE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "AGOMELATINE",
+          "pct_female": 12.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "TRAZODONE HYDROCHLORIDE",
+          "pct_female": 14.3,
+          "n_signals": 7
+        },
+        {
+          "drug": "QUETIAPINE FUMARATE",
+          "pct_female": 52.0,
+          "n_signals": 50
+        },
+        {
+          "drug": "MIRTAZAPINE",
+          "pct_female": 57.0,
+          "n_signals": 193
+        },
+        {
+          "drug": "OLANZAPINE",
+          "pct_female": 58.9,
+          "n_signals": 336
+        },
+        {
+          "drug": "LOXAPINE",
+          "pct_female": 66.7,
+          "n_signals": 45
+        },
+        {
+          "drug": "CHLORPROTHIXENE",
+          "pct_female": 80.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "ZIPRASIDONE HYDROCHLORIDE",
+          "pct_female": 92.3,
+          "n_signals": 13
+        },
+        {
+          "drug": "RISPERIDONE",
+          "pct_female": 92.9,
+          "n_signals": 518
+        },
+        {
+          "drug": "LOXAPINE SUCCINATE",
+          "pct_female": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "target": "Tubulin",
+      "n_drugs": 11,
+      "overall_pct_female": 49.0,
+      "spread_pp": 81.2,
+      "drugs": [
+        {
+          "drug": "TRASTUZUMAB EMTANSINE",
+          "pct_female": 0.0,
+          "n_signals": 255
+        },
+        {
+          "drug": "VINBLASTINE SULFATE",
+          "pct_female": 0.0,
+          "n_signals": 15
+        },
+        {
+          "drug": "VINORELBINE TARTRATE",
+          "pct_female": 0.0,
+          "n_signals": 30
+        },
+        {
+          "drug": "DOCETAXEL",
+          "pct_female": 11.2,
+          "n_signals": 4560
+        },
+        {
+          "drug": "BELANTAMAB MAFODOTIN",
+          "pct_female": 55.6,
+          "n_signals": 135
+        },
+        {
+          "drug": "PACLITAXEL",
+          "pct_female": 62.5,
+          "n_signals": 3885
+        },
+        {
+          "drug": "BRENTUXIMAB VEDOTIN",
+          "pct_female": 73.8,
+          "n_signals": 915
+        },
+        {
+          "drug": "ENFORTUMAB VEDOTIN",
+          "pct_female": 73.9,
+          "n_signals": 345
+        },
+        {
+          "drug": "COLCHICINE",
+          "pct_female": 79.7,
+          "n_signals": 1110
+        },
+        {
+          "drug": "POLATUZUMAB VEDOTIN",
+          "pct_female": 80.5,
+          "n_signals": 615
+        },
+        {
+          "drug": "VINCRISTINE SULFATE",
+          "pct_female": 81.2,
+          "n_signals": 1515
+        }
+      ]
+    },
+    {
+      "target": "D2-like dopamine receptor",
+      "n_drugs": 11,
+      "overall_pct_female": 57.3,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "THIORIDAZINE",
+          "pct_female": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "ROTIGOTINE",
+          "pct_female": 20.5,
+          "n_signals": 132
+        },
+        {
+          "drug": "DROPERIDOL",
+          "pct_female": 33.3,
+          "n_signals": 9
+        },
+        {
+          "drug": "HALOPERIDOL",
+          "pct_female": 56.3,
+          "n_signals": 474
+        },
+        {
+          "drug": "OLANZAPINE",
+          "pct_female": 58.9,
+          "n_signals": 1008
+        },
+        {
+          "drug": "CHLORPROMAZINE",
+          "pct_female": 61.4,
+          "n_signals": 171
+        },
+        {
+          "drug": "CHLORPROMAZINE HYDROCHLORIDE",
+          "pct_female": 66.7,
+          "n_signals": 9
+        },
+        {
+          "drug": "LOXAPINE",
+          "pct_female": 66.7,
+          "n_signals": 135
+        },
+        {
+          "drug": "LEVOMEPROMAZINE",
+          "pct_female": 72.5,
+          "n_signals": 120
+        },
+        {
+          "drug": "HALOPERIDOL LACTATE",
+          "pct_female": 100.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "LOXAPINE SUCCINATE",
+          "pct_female": 100.0,
+          "n_signals": 3
+        }
+      ]
+    },
+    {
+      "target": "Epidermal growth factor receptor",
+      "n_drugs": 10,
+      "overall_pct_female": 63.6,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "DACOMITINIB",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "AMIVANTAMAB",
+          "pct_female": 25.0,
+          "n_signals": 8
+        },
+        {
+          "drug": "GEFITINIB",
+          "pct_female": 50.0,
+          "n_signals": 12
+        },
+        {
+          "drug": "MOBOCERTINIB",
+          "pct_female": 50.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "CETUXIMAB",
+          "pct_female": 56.9,
+          "n_signals": 72
+        },
+        {
+          "drug": "VANDETANIB",
+          "pct_female": 63.6,
+          "n_signals": 44
+        },
+        {
+          "drug": "BRIGATINIB",
+          "pct_female": 71.4,
+          "n_signals": 14
+        },
+        {
+          "drug": "OSIMERTINIB",
+          "pct_female": 71.7,
+          "n_signals": 53
+        },
+        {
+          "drug": "PANITUMUMAB",
+          "pct_female": 73.1,
+          "n_signals": 52
+        },
+        {
+          "drug": "NECITUMUMAB",
+          "pct_female": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "target": "Mast/stem cell growth factor receptor Kit",
+      "n_drugs": 10,
+      "overall_pct_female": 56.7,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "QUIZARTINIB",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "AVAPRITINIB",
+          "pct_female": 11.5,
+          "n_signals": 52
+        },
+        {
+          "drug": "RIPRETINIB",
+          "pct_female": 31.6,
+          "n_signals": 19
+        },
+        {
+          "drug": "PEXIDARTINIB",
+          "pct_female": 42.9,
+          "n_signals": 14
+        },
+        {
+          "drug": "MIDOSTAURIN",
+          "pct_female": 50.0,
+          "n_signals": 18
+        },
+        {
+          "drug": "SUNITINIB",
+          "pct_female": 65.6,
+          "n_signals": 122
+        },
+        {
+          "drug": "REGORAFENIB",
+          "pct_female": 74.3,
+          "n_signals": 70
+        },
+        {
+          "drug": "IMATINIB MESYLATE",
+          "pct_female": 84.0,
+          "n_signals": 25
+        },
+        {
+          "drug": "CATEQUENTINIB",
+          "pct_female": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "SUNITINIB MALATE",
+          "pct_female": 100.0,
+          "n_signals": 4
+        }
+      ]
+    },
+    {
+      "target": "Type-1 angiotensin II receptor",
+      "n_drugs": 10,
+      "overall_pct_female": 49.6,
+      "spread_pp": 73.3,
+      "drugs": [
+        {
+          "drug": "AZILSARTAN",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LOSARTAN POTASSIUM",
+          "pct_female": 40.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "OLMESARTAN MEDOXOMIL",
+          "pct_female": 41.7,
+          "n_signals": 12
+        },
+        {
+          "drug": "IRBESARTAN",
+          "pct_female": 43.3,
+          "n_signals": 97
+        },
+        {
+          "drug": "SPARSENTAN",
+          "pct_female": 46.2,
+          "n_signals": 13
+        },
+        {
+          "drug": "OLMESARTAN",
+          "pct_female": 49.3,
+          "n_signals": 67
+        },
+        {
+          "drug": "VALSARTAN",
+          "pct_female": 49.3,
+          "n_signals": 219
+        },
+        {
+          "drug": "TELMISARTAN",
+          "pct_female": 50.7,
+          "n_signals": 73
+        },
+        {
+          "drug": "CANDESARTAN",
+          "pct_female": 52.5,
+          "n_signals": 198
+        },
+        {
+          "drug": "CANDESARTAN CILEXETIL",
+          "pct_female": 73.3,
+          "n_signals": 15
+        }
+      ]
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M3",
+      "n_drugs": 9,
+      "overall_pct_female": 26.9,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "ATROPINE SULFATE",
+          "pct_female": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "IPRATROPIUM BROMIDE",
+          "pct_female": 0.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "OXYBUTYNIN CHLORIDE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "TOLTERODINE TARTRATE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PILOCARPINE",
+          "pct_female": 14.3,
+          "n_signals": 7
+        },
+        {
+          "drug": "OXYBUTYNIN",
+          "pct_female": 14.5,
+          "n_signals": 62
+        },
+        {
+          "drug": "TROPICAMIDE",
+          "pct_female": 40.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "ATROPINE",
+          "pct_female": 52.6,
+          "n_signals": 19
+        },
+        {
+          "drug": "ACLIDINIUM BROMIDE",
+          "pct_female": 100.0,
+          "n_signals": 7
+        }
+      ]
+    },
+    {
+      "target": "Receptor-type tyrosine-protein kinase FLT3",
+      "n_drugs": 9,
+      "overall_pct_female": 66.7,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "QUIZARTINIB",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PEXIDARTINIB",
+          "pct_female": 42.9,
+          "n_signals": 14
+        },
+        {
+          "drug": "MIDOSTAURIN",
+          "pct_female": 50.0,
+          "n_signals": 18
+        },
+        {
+          "drug": "SUNITINIB",
+          "pct_female": 65.6,
+          "n_signals": 122
+        },
+        {
+          "drug": "FEDRATINIB",
+          "pct_female": 66.7,
+          "n_signals": 3
+        },
+        {
+          "drug": "GILTERITINIB",
+          "pct_female": 84.8,
+          "n_signals": 33
+        },
+        {
+          "drug": "LESTAURTINIB",
+          "pct_female": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PACRITINIB",
+          "pct_female": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "SUNITINIB MALATE",
+          "pct_female": 100.0,
+          "n_signals": 4
+        }
+      ]
+    },
+    {
+      "target": "Sodium-dependent dopamine transporter",
+      "n_drugs": 9,
+      "overall_pct_female": 62.5,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "DEXTROAMPHETAMINE SULFATE",
+          "pct_female": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "MODAFINIL",
+          "pct_female": 7.1,
+          "n_signals": 28
+        },
+        {
+          "drug": "ARMODAFINIL",
+          "pct_female": 12.5,
+          "n_signals": 16
+        },
+        {
+          "drug": "BUPROPION HYDROCHLORIDE",
+          "pct_female": 50.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "METHYLPHENIDATE HYDROCHLORIDE",
+          "pct_female": 60.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "DEXTROAMPHETAMINE",
+          "pct_female": 66.7,
+          "n_signals": 3
+        },
+        {
+          "drug": "METHYLPHENIDATE",
+          "pct_female": 77.6,
+          "n_signals": 147
+        },
+        {
+          "drug": "MIDOMAFETAMINE",
+          "pct_female": 83.3,
+          "n_signals": 12
+        },
+        {
+          "drug": "AMPHETAMINE SULFATE",
+          "pct_female": 100.0,
+          "n_signals": 2
+        }
+      ]
+    },
+    {
+      "target": "T cell surface glycoprotein CD3",
+      "n_drugs": 8,
+      "overall_pct_female": 69.7,
+      "spread_pp": 57.1,
+      "drugs": [
+        {
+          "drug": "TALQUETAMAB",
+          "pct_female": 42.9,
+          "n_signals": 21
+        },
+        {
+          "drug": "BLINATUMOMAB",
+          "pct_female": 60.4,
+          "n_signals": 144
+        },
+        {
+          "drug": "TECLISTAMAB",
+          "pct_female": 62.5,
+          "n_signals": 24
+        },
+        {
+          "drug": "TARLATAMAB",
+          "pct_female": 66.7,
+          "n_signals": 9
+        },
+        {
+          "drug": "EPCORITAMAB",
+          "pct_female": 81.8,
+          "n_signals": 66
+        },
+        {
+          "drug": "MOSUNETUZUMAB",
+          "pct_female": 83.3,
+          "n_signals": 18
+        },
+        {
+          "drug": "GLOFITAMAB",
+          "pct_female": 88.9,
+          "n_signals": 27
+        },
+        {
+          "drug": "ELRANATAMAB",
+          "pct_female": 100.0,
+          "n_signals": 18
+        }
+      ]
+    }
+  ],
+  "opposite_target_pairs": [
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Androgen receptor",
+      "pct_f": 71.4,
+      "n_drugs_f": 7,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Angiotensin-converting enzyme",
+      "pct_f": 74.8,
+      "n_drugs_f": 6,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "B-lymphocyte antigen CD19",
+      "pct_f": 83.0,
+      "n_drugs_f": 6,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "D(2) dopamine receptor",
+      "pct_f": 70.2,
+      "n_drugs_f": 18,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "D(3) dopamine receptor",
+      "pct_f": 78.7,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "DNA polymerase (alpha/delta/epsilon)",
+      "pct_f": 80.1,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "DNA topoisomerase 2-alpha",
+      "pct_f": 74.0,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "DNA topoisomerase II",
+      "pct_f": 78.4,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "High affinity nerve growth factor receptor",
+      "pct_f": 73.6,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Histamine H2 receptor",
+      "pct_f": 85.5,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+      "pct_f": 78.1,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Interleukin-2 receptor",
+      "pct_f": 83.8,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Peroxisome proliferator-activated receptor gamma",
+      "pct_f": 93.9,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Programmed cell death 1 ligand 1",
+      "pct_f": 82.8,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Programmed cell death protein 1",
+      "pct_f": 70.6,
+      "n_drugs_f": 7,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Prothrombin",
+      "pct_f": 81.2,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Ribonucleoside-diphosphate reductase RR1",
+      "pct_f": 81.4,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Sulfonylurea receptor 1, Kir6.2",
+      "pct_f": 72.9,
+      "n_drugs_f": 5,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Tumor necrosis factor receptor superfamily member 17",
+      "pct_f": 76.2,
+      "n_drugs_f": 5,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Vitamin K epoxide reductase complex subunit 1",
+      "pct_f": 76.8,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1B",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Androgen receptor",
+      "pct_f": 71.4,
+      "n_drugs_f": 7,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Angiotensin-converting enzyme",
+      "pct_f": 74.8,
+      "n_drugs_f": 6,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "B-lymphocyte antigen CD19",
+      "pct_f": 83.0,
+      "n_drugs_f": 6,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "D(2) dopamine receptor",
+      "pct_f": 70.2,
+      "n_drugs_f": 18,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "D(3) dopamine receptor",
+      "pct_f": 78.7,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "DNA polymerase (alpha/delta/epsilon)",
+      "pct_f": 80.1,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "DNA topoisomerase 2-alpha",
+      "pct_f": 74.0,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "DNA topoisomerase II",
+      "pct_f": 78.4,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "High affinity nerve growth factor receptor",
+      "pct_f": 73.6,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Histamine H2 receptor",
+      "pct_f": 85.5,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+      "pct_f": 78.1,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Interleukin-2 receptor",
+      "pct_f": 83.8,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Peroxisome proliferator-activated receptor gamma",
+      "pct_f": 93.9,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Programmed cell death 1 ligand 1",
+      "pct_f": 82.8,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Programmed cell death protein 1",
+      "pct_f": 70.6,
+      "n_drugs_f": 7,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Prothrombin",
+      "pct_f": 81.2,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Ribonucleoside-diphosphate reductase RR1",
+      "pct_f": 81.4,
+      "n_drugs_f": 4,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Sulfonylurea receptor 1, Kir6.2",
+      "pct_f": 72.9,
+      "n_drugs_f": 5,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Tumor necrosis factor receptor superfamily member 17",
+      "pct_f": 76.2,
+      "n_drugs_f": 5,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "Vitamin K epoxide reductase complex subunit 1",
+      "pct_f": 76.8,
+      "n_drugs_f": 3,
+      "target_m": "5-hydroxytryptamine receptor 1D",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "Amyloid-beta precursor protein",
+      "pct_m": 20.0,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "Aromatase",
+      "pct_m": 19.4,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "Calcitonin gene-related peptide",
+      "pct_m": 4.7,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "DNA topoisomerase 1",
+      "pct_m": 28.6,
+      "n_drugs_m": 4
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "Estrogen receptor",
+      "pct_m": 12.1,
+      "n_drugs_m": 3
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "Glucagon-like peptide 1 receptor",
+      "pct_m": 24.5,
+      "n_drugs_m": 6
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "Interferon alpha/beta receptor",
+      "pct_m": 26.3,
+      "n_drugs_m": 8
+    },
+    {
+      "target_f": "5-hydroxytryptamine receptor 2C",
+      "pct_f": 73.3,
+      "n_drugs_f": 12,
+      "target_m": "Melatonin receptor",
+      "pct_m": 26.9,
+      "n_drugs_m": 4
+    }
+  ]
+}
