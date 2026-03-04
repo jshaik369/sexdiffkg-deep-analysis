@@ -1,0 +1,12 @@
+{
+  "rare_vs_common": {
+    "rare_pct_f": 46.88457609805924,
+    "common_pct_f": 55.61782011768002
+  },
+  "withdrawal_signals": 1669,
+  "withdrawal_pct_f": 54.34391851408029,
+  "reproductive_signals": 676,
+  "immune_signals": 2665,
+  "immune_pct_f": 55.68480300187617,
+  "extreme_signals": 1028
+}

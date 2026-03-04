@@ -1,0 +1,2191 @@
+{
+  "wave": "26_embedding_clustering",
+  "model": "RotatE_v4.1",
+  "entity_count": 113155,
+  "embedding_dim": 512,
+  "drugs_in_embeddings": 3920,
+  "aes_in_embeddings": 9949,
+  "drug_clustering": {
+    "silhouette_scores": {
+      "5": -0.0126,
+      "10": -0.02,
+      "15": -0.0157,
+      "20": -0.0263,
+      "30": -0.0281
+    },
+    "best_k": 5,
+    "cluster_profiles": {
+      "cluster_0": {
+        "n_drugs": 878,
+        "mean_female_frac": 0.3633,
+        "mean_signals": 6.4,
+        "top_drugs": [
+          {
+            "name": "BETAMETHASONE",
+            "n_signals": 130,
+            "f_frac": 0.3538
+          },
+          {
+            "name": "DOMPERIDONE",
+            "n_signals": 89,
+            "f_frac": 0.6067
+          },
+          {
+            "name": "VITAMIN C",
+            "n_signals": 77,
+            "f_frac": 0.6364
+          },
+          {
+            "name": "VITAMIN B3",
+            "n_signals": 76,
+            "f_frac": 0.8684
+          },
+          {
+            "name": "SULFAMETHOXAZOLE",
+            "n_signals": 75,
+            "f_frac": 0.5733
+          }
+        ],
+        "bias": "male"
+      },
+      "cluster_1": {
+        "n_drugs": 583,
+        "mean_female_frac": 0.6274,
+        "mean_signals": 19.3,
+        "top_drugs": [
+          {
+            "name": "VINCRISTINE",
+            "n_signals": 290,
+            "f_frac": 0.7621
+          },
+          {
+            "name": "CYTARABINE",
+            "n_signals": 274,
+            "f_frac": 0.7956
+          },
+          {
+            "name": "CISPLATIN",
+            "n_signals": 219,
+            "f_frac": 0.7626
+          },
+          {
+            "name": "FLUDARABINE",
+            "n_signals": 184,
+            "f_frac": 0.8424
+          },
+          {
+            "name": "ANTITHYMOCYTE IMMUNOGLOBULIN",
+            "n_signals": 169,
+            "f_frac": 0.787
+          }
+        ],
+        "bias": "female"
+      },
+      "cluster_2": {
+        "n_drugs": 605,
+        "mean_female_frac": 0.488,
+        "mean_signals": 9.9,
+        "top_drugs": [
+          {
+            "name": "PROPRANOLOL",
+            "n_signals": 123,
+            "f_frac": 0.2764
+          },
+          {
+            "name": "OXCARBAZEPINE",
+            "n_signals": 108,
+            "f_frac": 0.4722
+          },
+          {
+            "name": "METHADONE",
+            "n_signals": 107,
+            "f_frac": 0.7383
+          },
+          {
+            "name": "LISDEXAMFETAMINE",
+            "n_signals": 97,
+            "f_frac": 0.268
+          },
+          {
+            "name": "PRAMIPEXOLE",
+            "n_signals": 95,
+            "f_frac": 0.4105
+          }
+        ],
+        "bias": "mixed"
+      },
+      "cluster_3": {
+        "n_drugs": 532,
+        "mean_female_frac": 0.4764,
+        "mean_signals": 137.4,
+        "top_drugs": [
+          {
+            "name": "PREDNISONE",
+            "n_signals": 926,
+            "f_frac": 0.7019
+          },
+          {
+            "name": "METHOTREXATE",
+            "n_signals": 892,
+            "f_frac": 0.4854
+          },
+          {
+            "name": "ADALIMUMAB",
+            "n_signals": 807,
+            "f_frac": 0.3817
+          },
+          {
+            "name": "RITUXIMAB",
+            "n_signals": 755,
+            "f_frac": 0.6662
+          },
+          {
+            "name": "INFLIXIMAB",
+            "n_signals": 623,
+            "f_frac": 0.504
+          }
+        ],
+        "bias": "mixed"
+      },
+      "cluster_4": {
+        "n_drugs": 1322,
+        "mean_female_frac": 0.4866,
+        "mean_signals": 0.2,
+        "top_drugs": [
+          {
+            "name": "TALC",
+            "n_signals": 11,
+            "f_frac": 0.0
+          },
+          {
+            "name": "FARICIMAB",
+            "n_signals": 10,
+            "f_frac": 0.5
+          },
+          {
+            "name": "DONANEMAB",
+            "n_signals": 8,
+            "f_frac": 0.25
+          },
+          {
+            "name": "RITLECITINIB",
+            "n_signals": 5,
+            "f_frac": 0.2
+          },
+          {
+            "name": "KETOROLAC TROMETHAMINE",
+            "n_signals": 4,
+            "f_frac": 0.0
+          }
+        ],
+        "bias": "mixed"
+      }
+    }
+  },
+  "ae_clustering": {
+    "k": 10,
+    "silhouette": -0.0341,
+    "cluster_profiles": {
+      "cluster_0": {
+        "n_aes": 1074,
+        "mean_female_frac": 0.5163,
+        "top_aes": [
+          {
+            "name": "Application site pruritus",
+            "n_signals": 11
+          },
+          {
+            "name": "Application site vesicles",
+            "n_signals": 11
+          },
+          {
+            "name": "Application site swelling",
+            "n_signals": 8
+          },
+          {
+            "name": "Sickle cell anaemia with crisis",
+            "n_signals": 6
+          },
+          {
+            "name": "Peritoneal cloudy effluent",
+            "n_signals": 6
+          }
+        ],
+        "bias": "mixed"
+      },
+      "cluster_1": {
+        "n_aes": 1137,
+        "mean_female_frac": 0.3129,
+        "top_aes": [
+          {
+            "name": "Injection site erythema",
+            "n_signals": 66
+          },
+          {
+            "name": "Pain of skin",
+            "n_signals": 61
+          },
+          {
+            "name": "Procedural pain",
+            "n_signals": 55
+          },
+          {
+            "name": "Tooth loss",
+            "n_signals": 53
+          },
+          {
+            "name": "Spinal fracture",
+            "n_signals": 52
+          }
+        ],
+        "bias": "male"
+      },
+      "cluster_2": {
+        "n_aes": 1264,
+        "mean_female_frac": 0.4499,
+        "top_aes": [
+          {
+            "name": "Product size issue",
+            "n_signals": 11
+          },
+          {
+            "name": "Exposure via skin contact",
+            "n_signals": 11
+          },
+          {
+            "name": "Device use issue",
+            "n_signals": 10
+          },
+          {
+            "name": "Device difficult to use",
+            "n_signals": 9
+          },
+          {
+            "name": "Product physical consistency issue",
+            "n_signals": 9
+          }
+        ],
+        "bias": "male"
+      },
+      "cluster_3": {
+        "n_aes": 1136,
+        "mean_female_frac": 0.5336,
+        "top_aes": [
+          {
+            "name": "Upper gastrointestinal haemorrhage",
+            "n_signals": 52
+          },
+          {
+            "name": "Sinus bradycardia",
+            "n_signals": 44
+          },
+          {
+            "name": "Torsade de pointes",
+            "n_signals": 43
+          },
+          {
+            "name": "Pemphigoid",
+            "n_signals": 40
+          },
+          {
+            "name": "Tricuspid valve incompetence",
+            "n_signals": 34
+          }
+        ],
+        "bias": "mixed"
+      },
+      "cluster_4": {
+        "n_aes": 930,
+        "mean_female_frac": 0.6286,
+        "top_aes": [
+          {
+            "name": "Malignant neoplasm progression",
+            "n_signals": 98
+          },
+          {
+            "name": "Neoplasm progression",
+            "n_signals": 66
+          },
+          {
+            "name": "Hypomagnesaemia",
+            "n_signals": 62
+          },
+          {
+            "name": "Bacteraemia",
+            "n_signals": 61
+          },
+          {
+            "name": "Cytopenia",
+            "n_signals": 61
+          }
+        ],
+        "bias": "female"
+      },
+      "cluster_5": {
+        "n_aes": 152,
+        "mean_female_frac": 0.5817,
+        "top_aes": [
+          {
+            "name": "Foetal growth restriction",
+            "n_signals": 40
+          },
+          {
+            "name": "Viral load increased",
+            "n_signals": 36
+          },
+          {
+            "name": "Viral mutation identified",
+            "n_signals": 36
+          },
+          {
+            "name": "Immune reconstitution inflammatory syndrome",
+            "n_signals": 32
+          },
+          {
+            "name": "Virologic failure",
+            "n_signals": 32
+          }
+        ],
+        "bias": "female"
+      },
+      "cluster_6": {
+        "n_aes": 916,
+        "mean_female_frac": 0.5155,
+        "top_aes": [
+          {
+            "name": "Drug ineffective",
+            "n_signals": 501
+          },
+          {
+            "name": "Off label use",
+            "n_signals": 445
+          },
+          {
+            "name": "Condition aggravated",
+            "n_signals": 392
+          },
+          {
+            "name": "Vomiting",
+            "n_signals": 362
+          },
+          {
+            "name": "Dyspnoea",
+            "n_signals": 349
+          }
+        ],
+        "bias": "mixed"
+      },
+      "cluster_7": {
+        "n_aes": 1060,
+        "mean_female_frac": 0.5207,
+        "top_aes": [
+          {
+            "name": "Drug abuse",
+            "n_signals": 176
+          },
+          {
+            "name": "Aggression",
+            "n_signals": 68
+          },
+          {
+            "name": "Abnormal behaviour",
+            "n_signals": 55
+          },
+          {
+            "name": "Thinking abnormal",
+            "n_signals": 53
+          },
+          {
+            "name": "Poisoning",
+            "n_signals": 47
+          }
+        ],
+        "bias": "mixed"
+      },
+      "cluster_8": {
+        "n_aes": 1272,
+        "mean_female_frac": 0.4086,
+        "top_aes": [
+          {
+            "name": "Osteosclerosis",
+            "n_signals": 8
+          },
+          {
+            "name": "Axial spondyloarthritis",
+            "n_signals": 8
+          },
+          {
+            "name": "Dermatitis psoriasiform",
+            "n_signals": 7
+          },
+          {
+            "name": "Ligament rupture",
+            "n_signals": 6
+          },
+          {
+            "name": "Dental implantation",
+            "n_signals": 6
+          }
+        ],
+        "bias": "male"
+      },
+      "cluster_9": {
+        "n_aes": 1008,
+        "mean_female_frac": 0.5934,
+        "top_aes": [
+          {
+            "name": "Mucormycosis",
+            "n_signals": 32
+          },
+          {
+            "name": "Human herpesvirus 6 infection",
+            "n_signals": 22
+          },
+          {
+            "name": "Acute graft versus host disease",
+            "n_signals": 21
+          },
+          {
+            "name": "Graft versus host disease in gastrointestinal tract",
+            "n_signals": 21
+          },
+          {
+            "name": "Acute lymphocytic leukaemia recurrent",
+            "n_signals": 20
+          }
+        ],
+        "bias": "female"
+      }
+    }
+  },
+  "divergent_pairs": [
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "OLANZAPINE",
+      "cosine_sim": 0.9472,
+      "f_frac_diff": 0.3393,
+      "drug1_f": 0.9286,
+      "drug2_f": 0.5893
+    },
+    {
+      "drug1": "LEFLUNOMIDE",
+      "drug2": "METHOTREXATE SODIUM",
+      "cosine_sim": 0.9427,
+      "f_frac_diff": 0.3329,
+      "drug1_f": 0.4189,
+      "drug2_f": 0.086
+    },
+    {
+      "drug1": "CETIRIZINE",
+      "drug2": "DIPHENHYDRAMINE",
+      "cosine_sim": 0.9407,
+      "f_frac_diff": 0.3301,
+      "drug1_f": 0.4426,
+      "drug2_f": 0.7727
+    },
+    {
+      "drug1": "VENLAFAXINE",
+      "drug2": "ALPRAZOLAM",
+      "cosine_sim": 0.9403,
+      "f_frac_diff": 0.3434,
+      "drug1_f": 0.4077,
+      "drug2_f": 0.7511
+    },
+    {
+      "drug1": "SULFASALAZINE",
+      "drug2": "METHOTREXATE SODIUM",
+      "cosine_sim": 0.9389,
+      "f_frac_diff": 0.3794,
+      "drug1_f": 0.4654,
+      "drug2_f": 0.086
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "HALOPERIDOL",
+      "cosine_sim": 0.9385,
+      "f_frac_diff": 0.3653,
+      "drug1_f": 0.9286,
+      "drug2_f": 0.5633
+    },
+    {
+      "drug1": "VENLAFAXINE",
+      "drug2": "DIAZEPAM",
+      "cosine_sim": 0.9385,
+      "f_frac_diff": 0.3563,
+      "drug1_f": 0.4077,
+      "drug2_f": 0.764
+    },
+    {
+      "drug1": "NAPROXEN",
+      "drug2": "LISINOPRIL",
+      "cosine_sim": 0.9376,
+      "f_frac_diff": 0.3045,
+      "drug1_f": 0.5408,
+      "drug2_f": 0.8452
+    },
+    {
+      "drug1": "SIMVASTATIN",
+      "drug2": "LISINOPRIL",
+      "cosine_sim": 0.9372,
+      "f_frac_diff": 0.3203,
+      "drug1_f": 0.5249,
+      "drug2_f": 0.8452
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "VENLAFAXINE",
+      "cosine_sim": 0.9353,
+      "f_frac_diff": 0.5209,
+      "drug1_f": 0.9286,
+      "drug2_f": 0.4077
+    },
+    {
+      "drug1": "DOCETAXEL",
+      "drug2": "PACLITAXEL",
+      "cosine_sim": 0.9353,
+      "f_frac_diff": 0.5136,
+      "drug1_f": 0.1118,
+      "drug2_f": 0.6255
+    },
+    {
+      "drug1": "ALPRAZOLAM",
+      "drug2": "FLUOXETINE",
+      "cosine_sim": 0.9329,
+      "f_frac_diff": 0.3883,
+      "drug1_f": 0.7511,
+      "drug2_f": 0.3627
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "FLUOXETINE",
+      "cosine_sim": 0.9325,
+      "f_frac_diff": 0.5658,
+      "drug1_f": 0.9286,
+      "drug2_f": 0.3627
+    },
+    {
+      "drug1": "DIAZEPAM",
+      "drug2": "FLUOXETINE",
+      "cosine_sim": 0.9324,
+      "f_frac_diff": 0.4013,
+      "drug1_f": 0.764,
+      "drug2_f": 0.3627
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "PREGABALIN",
+      "cosine_sim": 0.9314,
+      "f_frac_diff": 0.3102,
+      "drug1_f": 0.8496,
+      "drug2_f": 0.5394
+    },
+    {
+      "drug1": "ALPRAZOLAM",
+      "drug2": "CARBAMAZEPINE",
+      "cosine_sim": 0.9307,
+      "f_frac_diff": 0.3622,
+      "drug1_f": 0.7511,
+      "drug2_f": 0.3889
+    },
+    {
+      "drug1": "USTEKINUMAB",
+      "drug2": "UPADACITINIB",
+      "cosine_sim": 0.9306,
+      "f_frac_diff": 0.4066,
+      "drug1_f": 0.6497,
+      "drug2_f": 0.2431
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "PAROXETINE",
+      "cosine_sim": 0.9305,
+      "f_frac_diff": 0.4447,
+      "drug1_f": 0.9286,
+      "drug2_f": 0.4839
+    },
+    {
+      "drug1": "CERTOLIZUMAB",
+      "drug2": "INTERFERON BETA-1A",
+      "cosine_sim": 0.9304,
+      "f_frac_diff": 0.3961,
+      "drug1_f": 0.5255,
+      "drug2_f": 0.1294
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "METHOTREXATE SODIUM",
+      "cosine_sim": 0.9301,
+      "f_frac_diff": 0.4709,
+      "drug1_f": 0.5569,
+      "drug2_f": 0.086
+    }
+  ],
+  "convergent_pairs": [
+    {
+      "drug1": "LEFLUNOMIDE",
+      "drug2": "SULFASALAZINE",
+      "cosine_sim": 0.9531,
+      "f_frac_diff": 0.0465,
+      "drug1_f": 0.4189,
+      "drug2_f": 0.4654
+    },
+    {
+      "drug1": "SALBUTAMOL",
+      "drug2": "MEPOLIZUMAB",
+      "cosine_sim": 0.9526,
+      "f_frac_diff": 0.0608,
+      "drug1_f": 0.4234,
+      "drug2_f": 0.4843
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "SULFASALAZINE",
+      "cosine_sim": 0.948,
+      "f_frac_diff": 0.0915,
+      "drug1_f": 0.5569,
+      "drug2_f": 0.4654
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "USTEKINUMAB",
+      "cosine_sim": 0.9479,
+      "f_frac_diff": 0.0928,
+      "drug1_f": 0.5569,
+      "drug2_f": 0.6497
+    },
+    {
+      "drug1": "OXYCODONE;PARACETAMOL",
+      "drug2": "CODEINE;PARACETAMOL",
+      "cosine_sim": 0.9477,
+      "f_frac_diff": 0.0293,
+      "drug1_f": 0.8075,
+      "drug2_f": 0.8369
+    },
+    {
+      "drug1": "BISOPROLOL",
+      "drug2": "ALLOPURINOL",
+      "cosine_sim": 0.9474,
+      "f_frac_diff": 0.018,
+      "drug1_f": 0.6037,
+      "drug2_f": 0.5857
+    },
+    {
+      "drug1": "NAPROXEN",
+      "drug2": "CELECOXIB",
+      "cosine_sim": 0.9463,
+      "f_frac_diff": 0.0906,
+      "drug1_f": 0.5408,
+      "drug2_f": 0.6314
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "LEFLUNOMIDE",
+      "cosine_sim": 0.946,
+      "f_frac_diff": 0.0997,
+      "drug1_f": 0.5186,
+      "drug2_f": 0.4189
+    },
+    {
+      "drug1": "METHYLPREDNISOLONE",
+      "drug2": "MYCOPHENOLIC ACID",
+      "cosine_sim": 0.9458,
+      "f_frac_diff": 0.0083,
+      "drug1_f": 0.7716,
+      "drug2_f": 0.7633
+    },
+    {
+      "drug1": "VINCRISTINE",
+      "drug2": "ETOPOSIDE",
+      "cosine_sim": 0.9455,
+      "f_frac_diff": 0.0291,
+      "drug1_f": 0.7621,
+      "drug2_f": 0.7912
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "HYDROMORPHONE",
+      "cosine_sim": 0.9451,
+      "f_frac_diff": 0.0843,
+      "drug1_f": 0.8496,
+      "drug2_f": 0.7653
+    },
+    {
+      "drug1": "DOXORUBICIN",
+      "drug2": "ETOPOSIDE",
+      "cosine_sim": 0.9447,
+      "f_frac_diff": 0.0774,
+      "drug1_f": 0.7138,
+      "drug2_f": 0.7912
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "cosine_sim": 0.944,
+      "f_frac_diff": 0.042,
+      "drug1_f": 0.8496,
+      "drug2_f": 0.8075
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "ABATACEPT",
+      "cosine_sim": 0.9436,
+      "f_frac_diff": 0.0435,
+      "drug1_f": 0.4941,
+      "drug2_f": 0.4506
+    },
+    {
+      "drug1": "DIAZEPAM",
+      "drug2": "ALPRAZOLAM",
+      "cosine_sim": 0.9433,
+      "f_frac_diff": 0.0129,
+      "drug1_f": 0.764,
+      "drug2_f": 0.7511
+    },
+    {
+      "drug1": "ETANERCEPT",
+      "drug2": "TOCILIZUMAB",
+      "cosine_sim": 0.9425,
+      "f_frac_diff": 0.0685,
+      "drug1_f": 0.4256,
+      "drug2_f": 0.4941
+    },
+    {
+      "drug1": "CYTARABINE",
+      "drug2": "ETOPOSIDE",
+      "cosine_sim": 0.9422,
+      "f_frac_diff": 0.0044,
+      "drug1_f": 0.7956,
+      "drug2_f": 0.7912
+    },
+    {
+      "drug1": "SALBUTAMOL",
+      "drug2": "BUDESONIDE;FORMOTEROL",
+      "cosine_sim": 0.9411,
+      "f_frac_diff": 0.0479,
+      "drug1_f": 0.4234,
+      "drug2_f": 0.3755
+    },
+    {
+      "drug1": "AZATHIOPRINE",
+      "drug2": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "cosine_sim": 0.9411,
+      "f_frac_diff": 0.0426,
+      "drug1_f": 0.5935,
+      "drug2_f": 0.6361
+    },
+    {
+      "drug1": "OXYCODONE;PARACETAMOL",
+      "drug2": "DIPHENHYDRAMINE",
+      "cosine_sim": 0.9409,
+      "f_frac_diff": 0.0348,
+      "drug1_f": 0.8075,
+      "drug2_f": 0.7727
+    }
+  ],
+  "pca_variance": [
+    "0.0683",
+    "0.0411"
+  ],
+  "drug_pca_top200": [
+    {
+      "name": "PREDNISONE",
+      "pc1": 0.496,
+      "pc2": -0.3043,
+      "f_frac": 0.7019,
+      "cluster": 3
+    },
+    {
+      "name": "METHOTREXATE",
+      "pc1": 0.4749,
+      "pc2": -0.3438,
+      "f_frac": 0.4854,
+      "cluster": 3
+    },
+    {
+      "name": "ADALIMUMAB",
+      "pc1": 0.4619,
+      "pc2": -0.2486,
+      "f_frac": 0.3817,
+      "cluster": 3
+    },
+    {
+      "name": "RITUXIMAB",
+      "pc1": 0.4955,
+      "pc2": -0.2984,
+      "f_frac": 0.6662,
+      "cluster": 3
+    },
+    {
+      "name": "INFLIXIMAB",
+      "pc1": 0.4918,
+      "pc2": -0.1646,
+      "f_frac": 0.504,
+      "cluster": 3
+    },
+    {
+      "name": "ETANERCEPT",
+      "pc1": 0.5202,
+      "pc2": -0.1641,
+      "f_frac": 0.4256,
+      "cluster": 3
+    },
+    {
+      "name": "TACROLIMUS",
+      "pc1": 0.4396,
+      "pc2": -0.3825,
+      "f_frac": 0.7587,
+      "cluster": 3
+    },
+    {
+      "name": "PREDNISOLONE",
+      "pc1": 0.4632,
+      "pc2": -0.3504,
+      "f_frac": 0.8247,
+      "cluster": 3
+    },
+    {
+      "name": "DEXAMETHASONE",
+      "pc1": 0.4866,
+      "pc2": -0.3583,
+      "f_frac": 0.8026,
+      "cluster": 3
+    },
+    {
+      "name": "METHYLPREDNISOLONE",
+      "pc1": 0.4798,
+      "pc2": -0.2715,
+      "f_frac": 0.7716,
+      "cluster": 3
+    },
+    {
+      "name": "RISPERIDONE",
+      "pc1": 0.3969,
+      "pc2": -0.139,
+      "f_frac": 0.9286,
+      "cluster": 3
+    },
+    {
+      "name": "TOCILIZUMAB",
+      "pc1": 0.5109,
+      "pc2": -0.1118,
+      "f_frac": 0.4941,
+      "cluster": 3
+    },
+    {
+      "name": "MYCOPHENOLIC ACID",
+      "pc1": 0.4176,
+      "pc2": -0.2753,
+      "f_frac": 0.7633,
+      "cluster": 3
+    },
+    {
+      "name": "PANTOPRAZOLE",
+      "pc1": 0.4819,
+      "pc2": -0.1279,
+      "f_frac": 0.6028,
+      "cluster": 3
+    },
+    {
+      "name": "CYCLOPHOSPHAMIDE",
+      "pc1": 0.4325,
+      "pc2": -0.5204,
+      "f_frac": 0.6466,
+      "cluster": 3
+    },
+    {
+      "name": "OXYCODONE",
+      "pc1": 0.4334,
+      "pc2": 0.006,
+      "f_frac": 0.8496,
+      "cluster": 3
+    },
+    {
+      "name": "PARACETAMOL",
+      "pc1": 0.4654,
+      "pc2": -0.0844,
+      "f_frac": 0.5688,
+      "cluster": 3
+    },
+    {
+      "name": "SECUKINUMAB",
+      "pc1": 0.5003,
+      "pc2": -0.0872,
+      "f_frac": 0.5219,
+      "cluster": 3
+    },
+    {
+      "name": "MORPHINE",
+      "pc1": 0.4787,
+      "pc2": -0.0486,
+      "f_frac": 0.8345,
+      "cluster": 3
+    },
+    {
+      "name": "ACETYLSALICYLIC ACID",
+      "pc1": 0.4848,
+      "pc2": -0.2149,
+      "f_frac": 0.7298,
+      "cluster": 3
+    },
+    {
+      "name": "QUETIAPINE",
+      "pc1": 0.392,
+      "pc2": -0.0888,
+      "f_frac": 0.6338,
+      "cluster": 3
+    },
+    {
+      "name": "AMLODIPINE",
+      "pc1": 0.4789,
+      "pc2": -0.1429,
+      "f_frac": 0.5047,
+      "cluster": 3
+    },
+    {
+      "name": "SALBUTAMOL",
+      "pc1": 0.4564,
+      "pc2": 0.0227,
+      "f_frac": 0.4234,
+      "cluster": 3
+    },
+    {
+      "name": "CICLOSPORIN",
+      "pc1": 0.4411,
+      "pc2": -0.1641,
+      "f_frac": 0.4939,
+      "cluster": 3
+    },
+    {
+      "name": "PREGABALIN",
+      "pc1": 0.4788,
+      "pc2": -0.1078,
+      "f_frac": 0.5394,
+      "cluster": 3
+    },
+    {
+      "name": "DICLOFENAC",
+      "pc1": 0.4855,
+      "pc2": -0.0806,
+      "f_frac": 0.5062,
+      "cluster": 3
+    },
+    {
+      "name": "METFORMIN",
+      "pc1": 0.4712,
+      "pc2": -0.0777,
+      "f_frac": 0.6241,
+      "cluster": 3
+    },
+    {
+      "name": "ATORVASTATIN",
+      "pc1": 0.4956,
+      "pc2": -0.1821,
+      "f_frac": 0.4639,
+      "cluster": 3
+    },
+    {
+      "name": "FUROSEMIDE",
+      "pc1": 0.4345,
+      "pc2": -0.1766,
+      "f_frac": 0.5688,
+      "cluster": 3
+    },
+    {
+      "name": "HYDROXYCHLOROQUINE",
+      "pc1": 0.4951,
+      "pc2": -0.1072,
+      "f_frac": 0.5186,
+      "cluster": 3
+    },
+    {
+      "name": "ZOLEDRONIC ACID",
+      "pc1": 0.4914,
+      "pc2": -0.1412,
+      "f_frac": 0.2633,
+      "cluster": 3
+    },
+    {
+      "name": "IBUPROFEN",
+      "pc1": 0.4915,
+      "pc2": -0.0888,
+      "f_frac": 0.5941,
+      "cluster": 3
+    },
+    {
+      "name": "LEFLUNOMIDE",
+      "pc1": 0.4909,
+      "pc2": -0.0834,
+      "f_frac": 0.4189,
+      "cluster": 3
+    },
+    {
+      "name": "RAMIPRIL",
+      "pc1": 0.443,
+      "pc2": -0.0418,
+      "f_frac": 0.712,
+      "cluster": 3
+    },
+    {
+      "name": "TRAMADOL",
+      "pc1": 0.4195,
+      "pc2": 0.022,
+      "f_frac": 0.7528,
+      "cluster": 3
+    },
+    {
+      "name": "ABATACEPT",
+      "pc1": 0.4822,
+      "pc2": -0.0417,
+      "f_frac": 0.4506,
+      "cluster": 3
+    },
+    {
+      "name": "ARIPIPRAZOLE",
+      "pc1": 0.446,
+      "pc2": -0.0564,
+      "f_frac": 0.4737,
+      "cluster": 3
+    },
+    {
+      "name": "CIPROFLOXACIN",
+      "pc1": 0.492,
+      "pc2": -0.1933,
+      "f_frac": 0.4123,
+      "cluster": 3
+    },
+    {
+      "name": "INSULIN",
+      "pc1": 0.4556,
+      "pc2": -0.0372,
+      "f_frac": 0.3953,
+      "cluster": 3
+    },
+    {
+      "name": "VALPROIC ACID",
+      "pc1": 0.3503,
+      "pc2": -0.1801,
+      "f_frac": 0.4926,
+      "cluster": 3
+    },
+    {
+      "name": "AZATHIOPRINE",
+      "pc1": 0.4627,
+      "pc2": -0.1426,
+      "f_frac": 0.5935,
+      "cluster": 3
+    },
+    {
+      "name": "ROSUVASTATIN",
+      "pc1": 0.4914,
+      "pc2": -0.131,
+      "f_frac": 0.4896,
+      "cluster": 3
+    },
+    {
+      "name": "OLANZAPINE",
+      "pc1": 0.4022,
+      "pc2": -0.088,
+      "f_frac": 0.5893,
+      "cluster": 3
+    },
+    {
+      "name": "GOLIMUMAB",
+      "pc1": 0.4781,
+      "pc2": -0.0214,
+      "f_frac": 0.5569,
+      "cluster": 3
+    },
+    {
+      "name": "GABAPENTIN",
+      "pc1": 0.4665,
+      "pc2": -0.0621,
+      "f_frac": 0.3483,
+      "cluster": 3
+    },
+    {
+      "name": "NAPROXEN",
+      "pc1": 0.469,
+      "pc2": 0.0048,
+      "f_frac": 0.5408,
+      "cluster": 3
+    },
+    {
+      "name": "TOFACITINIB",
+      "pc1": 0.5077,
+      "pc2": -0.0663,
+      "f_frac": 0.5136,
+      "cluster": 3
+    },
+    {
+      "name": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "pc1": 0.4275,
+      "pc2": -0.0785,
+      "f_frac": 0.6361,
+      "cluster": 3
+    },
+    {
+      "name": "DOXORUBICIN",
+      "pc1": 0.4383,
+      "pc2": -0.3818,
+      "f_frac": 0.7138,
+      "cluster": 3
+    },
+    {
+      "name": "RANITIDINE",
+      "pc1": 0.3357,
+      "pc2": -0.0425,
+      "f_frac": 0.9352,
+      "cluster": 3
+    },
+    {
+      "name": "LEVOTHYROXINE",
+      "pc1": 0.4753,
+      "pc2": -0.0454,
+      "f_frac": 0.205,
+      "cluster": 3
+    },
+    {
+      "name": "LAMOTRIGINE",
+      "pc1": 0.4206,
+      "pc2": -0.1314,
+      "f_frac": 0.4357,
+      "cluster": 3
+    },
+    {
+      "name": "OMEPRAZOLE",
+      "pc1": 0.4825,
+      "pc2": -0.1221,
+      "f_frac": 0.5423,
+      "cluster": 3
+    },
+    {
+      "name": "SULFASALAZINE",
+      "pc1": 0.458,
+      "pc2": -0.0092,
+      "f_frac": 0.4654,
+      "cluster": 3
+    },
+    {
+      "name": "CERTOLIZUMAB",
+      "pc1": 0.4767,
+      "pc2": 0.0405,
+      "f_frac": 0.5255,
+      "cluster": 3
+    },
+    {
+      "name": "USTEKINUMAB",
+      "pc1": 0.4741,
+      "pc2": -0.0056,
+      "f_frac": 0.6497,
+      "cluster": 3
+    },
+    {
+      "name": "HYDROMORPHONE",
+      "pc1": 0.4272,
+      "pc2": 0.0342,
+      "f_frac": 0.7653,
+      "cluster": 3
+    },
+    {
+      "name": "CARBOPLATIN",
+      "pc1": 0.4367,
+      "pc2": -0.3764,
+      "f_frac": 0.6355,
+      "cluster": 3
+    },
+    {
+      "name": "PEMBROLIZUMAB",
+      "pc1": 0.4393,
+      "pc2": -0.3044,
+      "f_frac": 0.7314,
+      "cluster": 3
+    },
+    {
+      "name": "ESOMEPRAZOLE",
+      "pc1": 0.4978,
+      "pc2": -0.0858,
+      "f_frac": 0.6039,
+      "cluster": 3
+    },
+    {
+      "name": "OMALIZUMAB",
+      "pc1": 0.4927,
+      "pc2": -0.018,
+      "f_frac": 0.2778,
+      "cluster": 3
+    },
+    {
+      "name": "DOCETAXEL",
+      "pc1": 0.4367,
+      "pc2": -0.1865,
+      "f_frac": 0.1118,
+      "cluster": 3
+    },
+    {
+      "name": "HYDROCORTISONE",
+      "pc1": 0.4136,
+      "pc2": -0.0453,
+      "f_frac": 0.5066,
+      "cluster": 3
+    },
+    {
+      "name": "SERTRALINE",
+      "pc1": 0.4334,
+      "pc2": -0.0847,
+      "f_frac": 0.4205,
+      "cluster": 3
+    },
+    {
+      "name": "CLOPIDOGREL",
+      "pc1": 0.4145,
+      "pc2": -0.2456,
+      "f_frac": 0.8233,
+      "cluster": 3
+    },
+    {
+      "name": "BEVACIZUMAB",
+      "pc1": 0.4645,
+      "pc2": -0.2154,
+      "f_frac": 0.5544,
+      "cluster": 3
+    },
+    {
+      "name": "LEUPRORELIN",
+      "pc1": 0.4924,
+      "pc2": -0.0629,
+      "f_frac": 0.6973,
+      "cluster": 3
+    },
+    {
+      "name": "LENALIDOMIDE",
+      "pc1": 0.4857,
+      "pc2": -0.2078,
+      "f_frac": 0.5959,
+      "cluster": 3
+    },
+    {
+      "name": "FENTANYL",
+      "pc1": 0.3878,
+      "pc2": -0.0396,
+      "f_frac": 0.7457,
+      "cluster": 3
+    },
+    {
+      "name": "VINCRISTINE",
+      "pc1": 0.3598,
+      "pc2": -0.435,
+      "f_frac": 0.7621,
+      "cluster": 1
+    },
+    {
+      "name": "DUPILUMAB",
+      "pc1": 0.4602,
+      "pc2": 0.0196,
+      "f_frac": 0.1696,
+      "cluster": 3
+    },
+    {
+      "name": "CLOZAPINE",
+      "pc1": 0.4392,
+      "pc2": -0.1864,
+      "f_frac": 0.6864,
+      "cluster": 3
+    },
+    {
+      "name": "VENLAFAXINE",
+      "pc1": 0.4319,
+      "pc2": -0.1247,
+      "f_frac": 0.4077,
+      "cluster": 3
+    },
+    {
+      "name": "CLONAZEPAM",
+      "pc1": 0.4376,
+      "pc2": -0.0261,
+      "f_frac": 0.6211,
+      "cluster": 3
+    },
+    {
+      "name": "IMMUNOGLOBULINS, UNSPECIFIED",
+      "pc1": 0.4767,
+      "pc2": -0.1275,
+      "f_frac": 0.5599,
+      "cluster": 3
+    },
+    {
+      "name": "ONDANSETRON",
+      "pc1": 0.4076,
+      "pc2": -0.1227,
+      "f_frac": 0.3887,
+      "cluster": 3
+    },
+    {
+      "name": "MONTELUKAST",
+      "pc1": 0.4255,
+      "pc2": -0.0375,
+      "f_frac": 0.4057,
+      "cluster": 3
+    },
+    {
+      "name": "MYCOPHENOLATE MOFETIL",
+      "pc1": 0.3675,
+      "pc2": -0.4431,
+      "f_frac": 0.8123,
+      "cluster": 3
+    },
+    {
+      "name": "APIXABAN",
+      "pc1": 0.463,
+      "pc2": -0.1716,
+      "f_frac": 0.5855,
+      "cluster": 3
+    },
+    {
+      "name": "CELECOXIB",
+      "pc1": 0.4412,
+      "pc2": 0.0761,
+      "f_frac": 0.6314,
+      "cluster": 3
+    },
+    {
+      "name": "CYTARABINE",
+      "pc1": 0.349,
+      "pc2": -0.5051,
+      "f_frac": 0.7956,
+      "cluster": 1
+    },
+    {
+      "name": "ETOPOSIDE",
+      "pc1": 0.4084,
+      "pc2": -0.4136,
+      "f_frac": 0.7912,
+      "cluster": 3
+    },
+    {
+      "name": "SILDENAFIL",
+      "pc1": 0.4365,
+      "pc2": 0.014,
+      "f_frac": 0.875,
+      "cluster": 3
+    },
+    {
+      "name": "BISOPROLOL",
+      "pc1": 0.468,
+      "pc2": -0.1558,
+      "f_frac": 0.6037,
+      "cluster": 3
+    },
+    {
+      "name": "CAPECITABINE",
+      "pc1": 0.4467,
+      "pc2": -0.2883,
+      "f_frac": 0.5741,
+      "cluster": 3
+    },
+    {
+      "name": "OXYCODONE;PARACETAMOL",
+      "pc1": 0.4179,
+      "pc2": 0.1159,
+      "f_frac": 0.8075,
+      "cluster": 3
+    },
+    {
+      "name": "LORAZEPAM",
+      "pc1": 0.3667,
+      "pc2": -0.039,
+      "f_frac": 0.625,
+      "cluster": 3
+    },
+    {
+      "name": "BUPRENORPHINE",
+      "pc1": 0.3866,
+      "pc2": 0.131,
+      "f_frac": 0.5402,
+      "cluster": 3
+    },
+    {
+      "name": "SIMVASTATIN",
+      "pc1": 0.4718,
+      "pc2": -0.1069,
+      "f_frac": 0.5249,
+      "cluster": 3
+    },
+    {
+      "name": "BUDESONIDE",
+      "pc1": 0.4474,
+      "pc2": -0.0221,
+      "f_frac": 0.4517,
+      "cluster": 3
+    },
+    {
+      "name": "PACLITAXEL",
+      "pc1": 0.4724,
+      "pc2": -0.2853,
+      "f_frac": 0.6255,
+      "cluster": 3
+    },
+    {
+      "name": "LEVETIRACETAM",
+      "pc1": 0.4057,
+      "pc2": -0.252,
+      "f_frac": 0.4535,
+      "cluster": 3
+    },
+    {
+      "name": "TADALAFIL",
+      "pc1": 0.4161,
+      "pc2": -0.0145,
+      "f_frac": 0.7326,
+      "cluster": 3
+    },
+    {
+      "name": "TIOTROPIUM",
+      "pc1": 0.4147,
+      "pc2": -0.0154,
+      "f_frac": 0.2957,
+      "cluster": 3
+    },
+    {
+      "name": "LEVOFLOXACIN",
+      "pc1": 0.4859,
+      "pc2": -0.1382,
+      "f_frac": 0.4646,
+      "cluster": 3
+    },
+    {
+      "name": "MEPOLIZUMAB",
+      "pc1": 0.4439,
+      "pc2": 0.1001,
+      "f_frac": 0.4843,
+      "cluster": 3
+    },
+    {
+      "name": "FLUTICASONE;SALMETEROL",
+      "pc1": 0.4328,
+      "pc2": 0.0976,
+      "f_frac": 0.3571,
+      "cluster": 3
+    },
+    {
+      "name": "LISINOPRIL",
+      "pc1": 0.4754,
+      "pc2": -0.0059,
+      "f_frac": 0.8452,
+      "cluster": 3
+    },
+    {
+      "name": "DIAZEPAM",
+      "pc1": 0.4118,
+      "pc2": -0.1045,
+      "f_frac": 0.764,
+      "cluster": 3
+    },
+    {
+      "name": "VITAMIN B9",
+      "pc1": 0.3777,
+      "pc2": 0.0773,
+      "f_frac": 0.468,
+      "cluster": 3
+    },
+    {
+      "name": "BUDESONIDE;FORMOTEROL",
+      "pc1": 0.477,
+      "pc2": -0.0167,
+      "f_frac": 0.3755,
+      "cluster": 3
+    },
+    {
+      "name": "CETIRIZINE",
+      "pc1": 0.4635,
+      "pc2": 0.0888,
+      "f_frac": 0.4426,
+      "cluster": 3
+    },
+    {
+      "name": "METOPROLOL",
+      "pc1": 0.4605,
+      "pc2": -0.1172,
+      "f_frac": 0.5369,
+      "cluster": 3
+    },
+    {
+      "name": "RIVAROXABAN",
+      "pc1": 0.4626,
+      "pc2": -0.2011,
+      "f_frac": 0.6872,
+      "cluster": 3
+    },
+    {
+      "name": "VITAMIN D3",
+      "pc1": 0.4032,
+      "pc2": 0.0472,
+      "f_frac": 0.4587,
+      "cluster": 3
+    },
+    {
+      "name": "ALENDRONIC ACID",
+      "pc1": 0.4327,
+      "pc2": -0.0636,
+      "f_frac": 0.444,
+      "cluster": 3
+    },
+    {
+      "name": "LANSOPRAZOLE",
+      "pc1": 0.4433,
+      "pc2": -0.1549,
+      "f_frac": 0.575,
+      "cluster": 3
+    },
+    {
+      "name": "EVEROLIMUS",
+      "pc1": 0.4562,
+      "pc2": -0.2366,
+      "f_frac": 0.5063,
+      "cluster": 3
+    },
+    {
+      "name": "FLUOROURACIL",
+      "pc1": 0.3937,
+      "pc2": -0.2715,
+      "f_frac": 0.6025,
+      "cluster": 3
+    },
+    {
+      "name": "OXALIPLATIN",
+      "pc1": 0.4545,
+      "pc2": -0.2983,
+      "f_frac": 0.6904,
+      "cluster": 3
+    },
+    {
+      "name": "NIVOLUMAB",
+      "pc1": 0.4267,
+      "pc2": -0.324,
+      "f_frac": 0.6681,
+      "cluster": 3
+    },
+    {
+      "name": "ALPRAZOLAM",
+      "pc1": 0.3933,
+      "pc2": 0.0089,
+      "f_frac": 0.7511,
+      "cluster": 3
+    },
+    {
+      "name": "CITALOPRAM",
+      "pc1": 0.4183,
+      "pc2": -0.0166,
+      "f_frac": 0.5654,
+      "cluster": 3
+    },
+    {
+      "name": "DENOSUMAB",
+      "pc1": 0.478,
+      "pc2": -0.0607,
+      "f_frac": 0.2308,
+      "cluster": 3
+    },
+    {
+      "name": "VEDOLIZUMAB",
+      "pc1": 0.4622,
+      "pc2": -0.0514,
+      "f_frac": 0.6996,
+      "cluster": 3
+    },
+    {
+      "name": "AMIODARONE",
+      "pc1": 0.4034,
+      "pc2": -0.1404,
+      "f_frac": 0.5833,
+      "cluster": 3
+    },
+    {
+      "name": "DOXYCYCLINE",
+      "pc1": 0.3879,
+      "pc2": -0.0136,
+      "f_frac": 0.5874,
+      "cluster": 3
+    },
+    {
+      "name": "FLUTICASONE",
+      "pc1": 0.4111,
+      "pc2": 0.1105,
+      "f_frac": 0.3348,
+      "cluster": 3
+    },
+    {
+      "name": "DIPHENHYDRAMINE",
+      "pc1": 0.4104,
+      "pc2": 0.1373,
+      "f_frac": 0.7727,
+      "cluster": 3
+    },
+    {
+      "name": "WARFARIN",
+      "pc1": 0.3807,
+      "pc2": -0.1031,
+      "f_frac": 0.5682,
+      "cluster": 3
+    },
+    {
+      "name": "CALCIUM",
+      "pc1": 0.3259,
+      "pc2": 0.1196,
+      "f_frac": 0.4018,
+      "cluster": 3
+    },
+    {
+      "name": "CISPLATIN",
+      "pc1": 0.3498,
+      "pc2": -0.4022,
+      "f_frac": 0.7626,
+      "cluster": 1
+    },
+    {
+      "name": "VALSARTAN",
+      "pc1": 0.4652,
+      "pc2": -0.0914,
+      "f_frac": 0.4932,
+      "cluster": 3
+    },
+    {
+      "name": "SOMATROPIN",
+      "pc1": 0.3792,
+      "pc2": 0.0788,
+      "f_frac": 0.6284,
+      "cluster": 3
+    },
+    {
+      "name": "CARBIDOPA;LEVODOPA",
+      "pc1": 0.4368,
+      "pc2": -0.062,
+      "f_frac": 0.6175,
+      "cluster": 3
+    },
+    {
+      "name": "ESCITALOPRAM",
+      "pc1": 0.4288,
+      "pc2": -0.0142,
+      "f_frac": 0.2811,
+      "cluster": 3
+    },
+    {
+      "name": "ISOTRETINOIN",
+      "pc1": 0.3632,
+      "pc2": 0.0759,
+      "f_frac": 0.0922,
+      "cluster": 3
+    },
+    {
+      "name": "APREMILAST",
+      "pc1": 0.4153,
+      "pc2": 0.0965,
+      "f_frac": 0.6682,
+      "cluster": 3
+    },
+    {
+      "name": "AMOXICILLIN",
+      "pc1": 0.4873,
+      "pc2": -0.1226,
+      "f_frac": 0.4292,
+      "cluster": 3
+    },
+    {
+      "name": "OCTREOTIDE",
+      "pc1": 0.4931,
+      "pc2": -0.0179,
+      "f_frac": 0.5261,
+      "cluster": 3
+    },
+    {
+      "name": "ALLOPURINOL",
+      "pc1": 0.4428,
+      "pc2": -0.1538,
+      "f_frac": 0.5857,
+      "cluster": 3
+    },
+    {
+      "name": "BORTEZOMIB",
+      "pc1": 0.4355,
+      "pc2": -0.351,
+      "f_frac": 0.7512,
+      "cluster": 3
+    },
+    {
+      "name": "METRONIDAZOLE",
+      "pc1": 0.402,
+      "pc2": -0.0437,
+      "f_frac": 0.2392,
+      "cluster": 3
+    },
+    {
+      "name": "FLUOXETINE",
+      "pc1": 0.3895,
+      "pc2": -0.0741,
+      "f_frac": 0.3627,
+      "cluster": 3
+    },
+    {
+      "name": "TOPIRAMATE",
+      "pc1": 0.397,
+      "pc2": -0.0133,
+      "f_frac": 0.48,
+      "cluster": 3
+    },
+    {
+      "name": "CANDESARTAN",
+      "pc1": 0.4041,
+      "pc2": -0.0138,
+      "f_frac": 0.5253,
+      "cluster": 3
+    },
+    {
+      "name": "IRON",
+      "pc1": 0.4096,
+      "pc2": -0.1116,
+      "f_frac": 0.2879,
+      "cluster": 3
+    },
+    {
+      "name": "HYDROCODONE;PARACETAMOL",
+      "pc1": 0.4047,
+      "pc2": 0.1003,
+      "f_frac": 0.7563,
+      "cluster": 3
+    },
+    {
+      "name": "ALEMTUZUMAB",
+      "pc1": 0.3706,
+      "pc2": -0.2226,
+      "f_frac": 0.7385,
+      "cluster": 3
+    },
+    {
+      "name": "MIRTAZAPINE",
+      "pc1": 0.4364,
+      "pc2": -0.037,
+      "f_frac": 0.5699,
+      "cluster": 3
+    },
+    {
+      "name": "VANCOMYCIN",
+      "pc1": 0.3365,
+      "pc2": -0.1867,
+      "f_frac": 0.7644,
+      "cluster": 3
+    },
+    {
+      "name": "CODEINE",
+      "pc1": 0.3702,
+      "pc2": 0.1545,
+      "f_frac": 0.7579,
+      "cluster": 3
+    },
+    {
+      "name": "AMITRIPTYLINE",
+      "pc1": 0.4042,
+      "pc2": -0.0064,
+      "f_frac": 0.5397,
+      "cluster": 3
+    },
+    {
+      "name": "AZITHROMYCIN",
+      "pc1": 0.4237,
+      "pc2": -0.0613,
+      "f_frac": 0.4074,
+      "cluster": 3
+    },
+    {
+      "name": "DULOXETINE",
+      "pc1": 0.4881,
+      "pc2": -0.0178,
+      "f_frac": 0.4497,
+      "cluster": 3
+    },
+    {
+      "name": "CORTISONE",
+      "pc1": 0.3816,
+      "pc2": 0.1531,
+      "f_frac": 0.4574,
+      "cluster": 3
+    },
+    {
+      "name": "MESALAZINE",
+      "pc1": 0.4636,
+      "pc2": -0.0165,
+      "f_frac": 0.5372,
+      "cluster": 3
+    },
+    {
+      "name": "IBRUTINIB",
+      "pc1": 0.4502,
+      "pc2": -0.2066,
+      "f_frac": 0.6452,
+      "cluster": 3
+    },
+    {
+      "name": "METHOTREXATE SODIUM",
+      "pc1": 0.4418,
+      "pc2": -0.0097,
+      "f_frac": 0.086,
+      "cluster": 3
+    },
+    {
+      "name": "PAROXETINE",
+      "pc1": 0.3552,
+      "pc2": -0.0168,
+      "f_frac": 0.4839,
+      "cluster": 3
+    },
+    {
+      "name": "FLUDARABINE",
+      "pc1": 0.2923,
+      "pc2": -0.3918,
+      "f_frac": 0.8424,
+      "cluster": 1
+    },
+    {
+      "name": "EMTRICITABINE;TENOFOVIR",
+      "pc1": 0.3689,
+      "pc2": 0.0017,
+      "f_frac": 0.4751,
+      "cluster": 3
+    },
+    {
+      "name": "RIBAVIRIN",
+      "pc1": 0.4835,
+      "pc2": -0.1477,
+      "f_frac": 0.6519,
+      "cluster": 3
+    },
+    {
+      "name": "UPADACITINIB",
+      "pc1": 0.4486,
+      "pc2": 0.0319,
+      "f_frac": 0.2431,
+      "cluster": 3
+    },
+    {
+      "name": "CARBAMAZEPINE",
+      "pc1": 0.4479,
+      "pc2": -0.0526,
+      "f_frac": 0.3889,
+      "cluster": 3
+    },
+    {
+      "name": "DABIGATRAN",
+      "pc1": 0.4421,
+      "pc2": -0.2413,
+      "f_frac": 0.7955,
+      "cluster": 3
+    },
+    {
+      "name": "CLARITHROMYCIN",
+      "pc1": 0.404,
+      "pc2": -0.0142,
+      "f_frac": 0.3714,
+      "cluster": 3
+    },
+    {
+      "name": "FLUTICASONE;VILANTEROL",
+      "pc1": 0.3679,
+      "pc2": 0.101,
+      "f_frac": 0.1886,
+      "cluster": 3
+    },
+    {
+      "name": "FOLINIC ACID",
+      "pc1": 0.3508,
+      "pc2": -0.3164,
+      "f_frac": 0.6514,
+      "cluster": 3
+    },
+    {
+      "name": "MOXIFLOXACIN",
+      "pc1": 0.3926,
+      "pc2": 0.0783,
+      "f_frac": 0.5886,
+      "cluster": 3
+    },
+    {
+      "name": "BUPROPION",
+      "pc1": 0.3803,
+      "pc2": 0.0031,
+      "f_frac": 0.5402,
+      "cluster": 3
+    },
+    {
+      "name": "GEMCITABINE",
+      "pc1": 0.4058,
+      "pc2": -0.3556,
+      "f_frac": 0.7688,
+      "cluster": 3
+    },
+    {
+      "name": "HYDROCHLOROTHIAZIDE",
+      "pc1": 0.436,
+      "pc2": -0.1045,
+      "f_frac": 0.4094,
+      "cluster": 3
+    },
+    {
+      "name": "INTERFERON BETA-1A",
+      "pc1": 0.498,
+      "pc2": -0.0556,
+      "f_frac": 0.1294,
+      "cluster": 3
+    },
+    {
+      "name": "TRIAMCINOLONE",
+      "pc1": 0.325,
+      "pc2": 0.1611,
+      "f_frac": 0.6,
+      "cluster": 3
+    },
+    {
+      "name": "ANTITHYMOCYTE IMMUNOGLOBULIN",
+      "pc1": 0.3005,
+      "pc2": -0.358,
+      "f_frac": 0.787,
+      "cluster": 1
+    },
+    {
+      "name": "DILTIAZEM",
+      "pc1": 0.3023,
+      "pc2": 0.0818,
+      "f_frac": 0.6686,
+      "cluster": 3
+    },
+    {
+      "name": "BACLOFEN",
+      "pc1": 0.3427,
+      "pc2": -0.0335,
+      "f_frac": 0.494,
+      "cluster": 3
+    },
+    {
+      "name": "VENETOCLAX",
+      "pc1": 0.416,
+      "pc2": -0.2598,
+      "f_frac": 0.7202,
+      "cluster": 3
+    },
+    {
+      "name": "CEFTRIAXONE",
+      "pc1": 0.429,
+      "pc2": -0.2708,
+      "f_frac": 0.6407,
+      "cluster": 3
+    },
+    {
+      "name": "LENVATINIB",
+      "pc1": 0.3328,
+      "pc2": -0.2457,
+      "f_frac": 0.6242,
+      "cluster": 3
+    },
+    {
+      "name": "TREPROSTINIL",
+      "pc1": 0.4299,
+      "pc2": -0.0016,
+      "f_frac": 0.3212,
+      "cluster": 3
+    },
+    {
+      "name": "AMOXICILLIN;CLAVULANIC ACID",
+      "pc1": 0.4186,
+      "pc2": -0.1512,
+      "f_frac": 0.4259,
+      "cluster": 3
+    },
+    {
+      "name": "SPIRONOLACTONE",
+      "pc1": 0.446,
+      "pc2": -0.1121,
+      "f_frac": 0.5,
+      "cluster": 3
+    },
+    {
+      "name": "IPILIMUMAB",
+      "pc1": 0.36,
+      "pc2": -0.2392,
+      "f_frac": 0.7578,
+      "cluster": 3
+    },
+    {
+      "name": "OXYBATE SODIUM",
+      "pc1": 0.4469,
+      "pc2": 0.0485,
+      "f_frac": 0.2981,
+      "cluster": 3
+    },
+    {
+      "name": "PALIPERIDONE",
+      "pc1": 0.3621,
+      "pc2": 0.0269,
+      "f_frac": 0.8571,
+      "cluster": 3
+    },
+    {
+      "name": "ZOPICLONE",
+      "pc1": 0.3287,
+      "pc2": -0.0011,
+      "f_frac": 0.6025,
+      "cluster": 3
+    },
+    {
+      "name": "FINGOLIMOD",
+      "pc1": 0.4621,
+      "pc2": -0.1275,
+      "f_frac": 0.195,
+      "cluster": 3
+    },
+    {
+      "name": "HALOPERIDOL",
+      "pc1": 0.3461,
+      "pc2": -0.0997,
+      "f_frac": 0.5633,
+      "cluster": 3
+    },
+    {
+      "name": "SACUBITRIL;VALSARTAN",
+      "pc1": 0.488,
+      "pc2": -0.1295,
+      "f_frac": 0.6752,
+      "cluster": 3
+    },
+    {
+      "name": "IMATINIB",
+      "pc1": 0.4242,
+      "pc2": -0.2097,
+      "f_frac": 0.8194,
+      "cluster": 3
+    },
+    {
+      "name": "DAPAGLIFLOZIN",
+      "pc1": 0.3626,
+      "pc2": -0.0998,
+      "f_frac": 0.5909,
+      "cluster": 3
+    },
+    {
+      "name": "SITAGLIPTIN",
+      "pc1": 0.4378,
+      "pc2": -0.014,
+      "f_frac": 0.5519,
+      "cluster": 3
+    },
+    {
+      "name": "ATEZOLIZUMAB",
+      "pc1": 0.3262,
+      "pc2": -0.2494,
+      "f_frac": 0.8289,
+      "cluster": 1
+    },
+    {
+      "name": "SEMAGLUTIDE",
+      "pc1": 0.4696,
+      "pc2": -0.0283,
+      "f_frac": 0.3158,
+      "cluster": 3
+    },
+    {
+      "name": "SODIUM CHLORIDE",
+      "pc1": 0.3146,
+      "pc2": -0.0166,
+      "f_frac": 0.2632,
+      "cluster": 3
+    },
+    {
+      "name": "TRAZODONE",
+      "pc1": 0.3471,
+      "pc2": 0.1162,
+      "f_frac": 0.6556,
+      "cluster": 3
+    },
+    {
+      "name": "COVID-19 VACCINE",
+      "pc1": 0.4695,
+      "pc2": -0.0055,
+      "f_frac": 0.4324,
+      "cluster": 3
+    },
+    {
+      "name": "METHYLPHENIDATE",
+      "pc1": 0.2982,
+      "pc2": 0.0605,
+      "f_frac": 0.7755,
+      "cluster": 3
+    },
+    {
+      "name": "ZOLPIDEM",
+      "pc1": 0.3598,
+      "pc2": 0.0283,
+      "f_frac": 0.6027,
+      "cluster": 3
+    },
+    {
+      "name": "VORICONAZOLE",
+      "pc1": 0.2973,
+      "pc2": -0.19,
+      "f_frac": 0.8759,
+      "cluster": 1
+    },
+    {
+      "name": "HEPARIN",
+      "pc1": 0.3651,
+      "pc2": -0.2505,
+      "f_frac": 0.6389,
+      "cluster": 3
+    },
+    {
+      "name": "LITHIUM",
+      "pc1": 0.353,
+      "pc2": -0.1316,
+      "f_frac": 0.4965,
+      "cluster": 3
+    },
+    {
+      "name": "CODEINE;PARACETAMOL",
+      "pc1": 0.3786,
+      "pc2": 0.0839,
+      "f_frac": 0.8369,
+      "cluster": 3
+    },
+    {
+      "name": "NATALIZUMAB",
+      "pc1": 0.473,
+      "pc2": -0.0873,
+      "f_frac": 0.227,
+      "cluster": 3
+    },
+    {
+      "name": "FUMARIC ACID",
+      "pc1": 0.4706,
+      "pc2": -0.0581,
+      "f_frac": 0.1439,
+      "cluster": 3
+    },
+    {
+      "name": "FLUCONAZOLE",
+      "pc1": 0.36,
+      "pc2": -0.1808,
+      "f_frac": 0.6522,
+      "cluster": 3
+    },
+    {
+      "name": "ASPIRIN",
+      "pc1": 0.422,
+      "pc2": -0.0888,
+      "f_frac": 0.8248,
+      "cluster": 3
+    },
+    {
+      "name": "RISANKIZUMAB",
+      "pc1": 0.4603,
+      "pc2": -0.1067,
+      "f_frac": 0.2993,
+      "cluster": 3
+    }
+  ]
+}

@@ -1,8 +1,541 @@
 {
-  "total_combo_signals": 5860,
-  "total_single_signals": 90421,
-  "unique_combos": 271,
-  "combo_pct_female": 50.597269624573386,
-  "single_pct_female": 53.97639928777607,
-  "difference_pp": -3.379129663202683
+  "wave": "27_polypharmacy",
+  "drug_pairs_analyzed": 34443,
+  "divergent_pairs_top10": [
+    {
+      "drug1": "DIPHENHYDRAMINE",
+      "drug2": "CORTISONE",
+      "shared_aes": 101,
+      "jaccard": 0.329,
+      "f_frac_1": 0.7727,
+      "f_frac_2": 0.4574,
+      "f_diff": 0.3153,
+      "direction_agreement": 0.703
+    },
+    {
+      "drug1": "RANITIDINE",
+      "drug2": "CORTISONE",
+      "shared_aes": 124,
+      "jaccard": 0.3196,
+      "f_frac_1": 0.9352,
+      "f_frac_2": 0.4574,
+      "f_diff": 0.4777,
+      "direction_agreement": 0.5968
+    },
+    {
+      "drug1": "DESOXIMETASONE",
+      "drug2": "ALBENDAZOLE",
+      "shared_aes": 33,
+      "jaccard": 0.3173,
+      "f_frac_1": 0.4304,
+      "f_frac_2": 0.0517,
+      "f_diff": 0.3787,
+      "direction_agreement": 0.6061
+    },
+    {
+      "drug1": "CALCIUM;VITAMIN D3",
+      "drug2": "VITAMIN B3",
+      "shared_aes": 37,
+      "jaccard": 0.3008,
+      "f_frac_1": 0.5119,
+      "f_frac_2": 0.8684,
+      "f_diff": 0.3565,
+      "direction_agreement": 0.8108
+    },
+    {
+      "drug1": "DEXLANSOPRAZOLE",
+      "drug2": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+      "shared_aes": 36,
+      "jaccard": 0.2975,
+      "f_frac_1": 0.5128,
+      "f_frac_2": 0.1519,
+      "f_diff": 0.3609,
+      "direction_agreement": 0.7778
+    },
+    {
+      "drug1": "CETIRIZINE",
+      "drug2": "DIPHENHYDRAMINE",
+      "shared_aes": 103,
+      "jaccard": 0.2853,
+      "f_frac_1": 0.4426,
+      "f_frac_2": 0.7727,
+      "f_diff": 0.3301,
+      "direction_agreement": 0.8738
+    },
+    {
+      "drug1": "CODEINE",
+      "drug2": "CORTISONE",
+      "shared_aes": 83,
+      "jaccard": 0.2814,
+      "f_frac_1": 0.7579,
+      "f_frac_2": 0.4574,
+      "f_diff": 0.3004,
+      "direction_agreement": 0.759
+    },
+    {
+      "drug1": "RANITIDINE",
+      "drug2": "VITAMIN D3",
+      "shared_aes": 124,
+      "jaccard": 0.2805,
+      "f_frac_1": 0.9352,
+      "f_frac_2": 0.4587,
+      "f_diff": 0.4765,
+      "direction_agreement": 0.6613
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "HYDROCORTISONE",
+      "shared_aes": 173,
+      "jaccard": 0.2786,
+      "f_frac_1": 0.8496,
+      "f_frac_2": 0.5066,
+      "f_diff": 0.343,
+      "direction_agreement": 0.763
+    },
+    {
+      "drug1": "SENNA SPP",
+      "drug2": "VITAMIN B3",
+      "shared_aes": 33,
+      "jaccard": 0.2773,
+      "f_frac_1": 0.5263,
+      "f_frac_2": 0.8684,
+      "f_diff": 0.3421,
+      "direction_agreement": 0.6667
+    }
+  ],
+  "jaccard_vs_sex_diff_correlation": {
+    "r": -0.0919,
+    "p": 1.997957663264855e-65
+  },
+  "jaccard_vs_agreement_correlation": {
+    "r": 0.1765,
+    "p": 5.7581201541653455e-239
+  },
+  "combo_drugs": 271,
+  "combo_deviations_top10": [
+    {
+      "combo": "CYPROTERONE;ETHINYLESTRADIOL",
+      "n_ingredients": 2,
+      "combo_f": 0.0,
+      "mean_ingredient_f": 1.0,
+      "deviation": -1.0,
+      "ingredients_with_data": 1
+    },
+    {
+      "combo": "SOFOSBUVIR;VELPATASVIR;VOXILAPREVIR",
+      "n_ingredients": 3,
+      "combo_f": 0.0,
+      "mean_ingredient_f": 0.8133,
+      "deviation": -0.8133,
+      "ingredients_with_data": 1
+    },
+    {
+      "combo": "ELBASVIR;GRAZOPREVIR",
+      "n_ingredients": 2,
+      "combo_f": 0.2,
+      "mean_ingredient_f": 1.0,
+      "deviation": -0.8,
+      "ingredients_with_data": 1
+    },
+    {
+      "combo": "BUTALBITAL;PARACETAMOL",
+      "n_ingredients": 2,
+      "combo_f": 0.0,
+      "mean_ingredient_f": 0.7844,
+      "deviation": -0.7844,
+      "ingredients_with_data": 2
+    },
+    {
+      "combo": "BUTALBITAL;CAFFEINE;CODEINE;PARACETAMOL",
+      "n_ingredients": 4,
+      "combo_f": 0.0,
+      "mean_ingredient_f": 0.7817,
+      "deviation": -0.7817,
+      "ingredients_with_data": 4
+    },
+    {
+      "combo": "GLUCOSE;SODIUM CHLORIDE",
+      "n_ingredients": 2,
+      "combo_f": 1.0,
+      "mean_ingredient_f": 0.2316,
+      "deviation": 0.7684,
+      "ingredients_with_data": 2
+    },
+    {
+      "combo": "HERBALS, UNSPECIFIED;MITRAGYNA SPP",
+      "n_ingredients": 2,
+      "combo_f": 1.0,
+      "mean_ingredient_f": 0.25,
+      "deviation": 0.75,
+      "ingredients_with_data": 1
+    },
+    {
+      "combo": "CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM BICARBONATE;SODIUM CHLORIDE;SODIUM LACTATE",
+      "n_ingredients": 6,
+      "combo_f": 1.0,
+      "mean_ingredient_f": 0.2606,
+      "deviation": 0.7394,
+      "ingredients_with_data": 5
+    },
+    {
+      "combo": "INSULIN;LIRAGLUTIDE",
+      "n_ingredients": 2,
+      "combo_f": 1.0,
+      "mean_ingredient_f": 0.2669,
+      "deviation": 0.7331,
+      "ingredients_with_data": 2
+    },
+    {
+      "combo": "DEXAMETHASONE;NEOMYCIN;POLYMYXIN B",
+      "n_ingredients": 3,
+      "combo_f": 0.0,
+      "mean_ingredient_f": 0.712,
+      "deviation": -0.712,
+      "ingredients_with_data": 3
+    }
+  ],
+  "class_within_variation": {
+    "statins": {
+      "n_drugs": 7,
+      "mean_f": 0.4626,
+      "std": 0.0901,
+      "spread": 0.2917,
+      "min_f": 0.3333,
+      "max_f": 0.625,
+      "drugs": [
+        {
+          "name": "ATORVASTATIN",
+          "f_frac": 0.4639
+        },
+        {
+          "name": "ROSUVASTATIN",
+          "f_frac": 0.4896
+        },
+        {
+          "name": "SIMVASTATIN",
+          "f_frac": 0.5249
+        },
+        {
+          "name": "PRAVASTATIN",
+          "f_frac": 0.3731
+        },
+        {
+          "name": "LOVASTATIN",
+          "f_frac": 0.625
+        },
+        {
+          "name": "FLUVASTATIN",
+          "f_frac": 0.4286
+        },
+        {
+          "name": "PITAVASTATIN",
+          "f_frac": 0.3333
+        }
+      ]
+    },
+    "SSRIs": {
+      "n_drugs": 6,
+      "mean_f": 0.4078,
+      "std": 0.0952,
+      "spread": 0.2843,
+      "min_f": 0.2811,
+      "max_f": 0.5654,
+      "drugs": [
+        {
+          "name": "FLUOXETINE",
+          "f_frac": 0.3627
+        },
+        {
+          "name": "SERTRALINE",
+          "f_frac": 0.4205
+        },
+        {
+          "name": "PAROXETINE",
+          "f_frac": 0.4839
+        },
+        {
+          "name": "CITALOPRAM",
+          "f_frac": 0.5654
+        },
+        {
+          "name": "ESCITALOPRAM",
+          "f_frac": 0.2811
+        },
+        {
+          "name": "FLUVOXAMINE",
+          "f_frac": 0.3333
+        }
+      ]
+    },
+    "ACE_inhibitors": {
+      "n_drugs": 9,
+      "mean_f": 0.6295,
+      "std": 0.2236,
+      "spread": 0.675,
+      "min_f": 0.2,
+      "max_f": 0.875,
+      "drugs": [
+        {
+          "name": "LISINOPRIL",
+          "f_frac": 0.8452
+        },
+        {
+          "name": "ENALAPRIL",
+          "f_frac": 0.6667
+        },
+        {
+          "name": "RAMIPRIL",
+          "f_frac": 0.712
+        },
+        {
+          "name": "PERINDOPRIL",
+          "f_frac": 0.6829
+        },
+        {
+          "name": "CAPTOPRIL",
+          "f_frac": 0.2
+        },
+        {
+          "name": "BENAZEPRIL",
+          "f_frac": 0.6667
+        },
+        {
+          "name": "FOSINOPRIL",
+          "f_frac": 0.75
+        },
+        {
+          "name": "QUINAPRIL",
+          "f_frac": 0.2667
+        },
+        {
+          "name": "TRANDOLAPRIL",
+          "f_frac": 0.875
+        }
+      ]
+    },
+    "NSAIDs": {
+      "n_drugs": 8,
+      "mean_f": 0.6051,
+      "std": 0.094,
+      "spread": 0.3095,
+      "min_f": 0.5,
+      "max_f": 0.8095,
+      "drugs": [
+        {
+          "name": "IBUPROFEN",
+          "f_frac": 0.5941
+        },
+        {
+          "name": "NAPROXEN",
+          "f_frac": 0.5408
+        },
+        {
+          "name": "DICLOFENAC",
+          "f_frac": 0.5062
+        },
+        {
+          "name": "CELECOXIB",
+          "f_frac": 0.6314
+        },
+        {
+          "name": "MELOXICAM",
+          "f_frac": 0.5977
+        },
+        {
+          "name": "PIROXICAM",
+          "f_frac": 0.8095
+        },
+        {
+          "name": "INDOMETHACIN",
+          "f_frac": 0.5
+        },
+        {
+          "name": "KETOPROFEN",
+          "f_frac": 0.661
+        }
+      ]
+    },
+    "beta_blockers": {
+      "n_drugs": 8,
+      "mean_f": 0.4422,
+      "std": 0.1681,
+      "spread": 0.4799,
+      "min_f": 0.1818,
+      "max_f": 0.6618,
+      "drugs": [
+        {
+          "name": "METOPROLOL",
+          "f_frac": 0.5369
+        },
+        {
+          "name": "ATENOLOL",
+          "f_frac": 0.6618
+        },
+        {
+          "name": "PROPRANOLOL",
+          "f_frac": 0.2764
+        },
+        {
+          "name": "BISOPROLOL",
+          "f_frac": 0.6037
+        },
+        {
+          "name": "CARVEDILOL",
+          "f_frac": 0.5268
+        },
+        {
+          "name": "NEBIVOLOL",
+          "f_frac": 0.5
+        },
+        {
+          "name": "NADOLOL",
+          "f_frac": 0.25
+        },
+        {
+          "name": "LABETALOL",
+          "f_frac": 0.1818
+        }
+      ]
+    },
+    "antipsychotics": {
+      "n_drugs": 8,
+      "mean_f": 0.6476,
+      "std": 0.1601,
+      "spread": 0.4803,
+      "min_f": 0.4483,
+      "max_f": 0.9286,
+      "drugs": [
+        {
+          "name": "RISPERIDONE",
+          "f_frac": 0.9286
+        },
+        {
+          "name": "OLANZAPINE",
+          "f_frac": 0.5893
+        },
+        {
+          "name": "QUETIAPINE",
+          "f_frac": 0.6338
+        },
+        {
+          "name": "ARIPIPRAZOLE",
+          "f_frac": 0.4737
+        },
+        {
+          "name": "HALOPERIDOL",
+          "f_frac": 0.5633
+        },
+        {
+          "name": "CLOZAPINE",
+          "f_frac": 0.6864
+        },
+        {
+          "name": "PALIPERIDONE",
+          "f_frac": 0.8571
+        },
+        {
+          "name": "ZIPRASIDONE",
+          "f_frac": 0.4483
+        }
+      ]
+    },
+    "PPIs": {
+      "n_drugs": 6,
+      "mean_f": 0.5267,
+      "std": 0.0966,
+      "spread": 0.2808,
+      "min_f": 0.3231,
+      "max_f": 0.6039,
+      "drugs": [
+        {
+          "name": "OMEPRAZOLE",
+          "f_frac": 0.5423
+        },
+        {
+          "name": "PANTOPRAZOLE",
+          "f_frac": 0.6028
+        },
+        {
+          "name": "LANSOPRAZOLE",
+          "f_frac": 0.575
+        },
+        {
+          "name": "ESOMEPRAZOLE",
+          "f_frac": 0.6039
+        },
+        {
+          "name": "RABEPRAZOLE",
+          "f_frac": 0.3231
+        },
+        {
+          "name": "DEXLANSOPRAZOLE",
+          "f_frac": 0.5128
+        }
+      ]
+    },
+    "ARBs": {
+      "n_drugs": 7,
+      "mean_f": 0.4204,
+      "std": 0.1736,
+      "spread": 0.5253,
+      "min_f": 0.0,
+      "max_f": 0.5253,
+      "drugs": [
+        {
+          "name": "LOSARTAN",
+          "f_frac": 0.4923
+        },
+        {
+          "name": "VALSARTAN",
+          "f_frac": 0.4932
+        },
+        {
+          "name": "IRBESARTAN",
+          "f_frac": 0.433
+        },
+        {
+          "name": "CANDESARTAN",
+          "f_frac": 0.5253
+        },
+        {
+          "name": "TELMISARTAN",
+          "f_frac": 0.5068
+        },
+        {
+          "name": "OLMESARTAN",
+          "f_frac": 0.4925
+        },
+        {
+          "name": "AZILSARTAN",
+          "f_frac": 0.0
+        }
+      ]
+    }
+  },
+  "ae_specificity": {
+    "1 drug": {
+      "n_aes": 1418,
+      "mean_f": 0.4506
+    },
+    "2-3": {
+      "n_aes": 1007,
+      "mean_f": 0.4697
+    },
+    "4-10": {
+      "n_aes": 1061,
+      "mean_f": 0.496
+    },
+    "11-50": {
+      "n_aes": 1067,
+      "mean_f": 0.5068
+    },
+    "51-200": {
+      "n_aes": 453,
+      "mean_f": 0.5385
+    },
+    "200+": {
+      "n_aes": 63,
+      "mean_f": 0.5898
+    }
+  }
 }

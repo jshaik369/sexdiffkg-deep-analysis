@@ -1,0 +1,165 @@
+{
+  "wave": "26_mechanism_analysis",
+  "drug_target_edges": 12682,
+  "drugs_with_targets": 4455,
+  "unique_targets": 1148,
+  "consistent_targets": [
+    {
+      "target": "Cardiac myosin",
+      "n_drugs": 7,
+      "mean_f_frac": 0.111,
+      "std": 0.0
+    },
+    {
+      "target": "Mitochondrial complex I",
+      "n_drugs": 50,
+      "mean_f_frac": 0.508,
+      "std": 0.0
+    },
+    {
+      "target": "Adrenergic receptor alpha",
+      "n_drugs": 6,
+      "mean_f_frac": 0.182,
+      "std": 0.0
+    },
+    {
+      "target": "Serotonin (5-HT) receptor",
+      "n_drugs": 17,
+      "mean_f_frac": 0.596,
+      "std": 0.0
+    },
+    {
+      "target": "Dopamine receptor",
+      "n_drugs": 5,
+      "mean_f_frac": 1.0,
+      "std": 0.0
+    },
+    {
+      "target": "Laminin",
+      "n_drugs": 12,
+      "mean_f_frac": 1.0,
+      "std": 0.0
+    }
+  ],
+  "variable_targets": [
+    {
+      "target": "JAK2",
+      "n_drugs": 5,
+      "mean_f_frac": 0.583,
+      "std": 0.401
+    },
+    {
+      "target": "L-type Ca channel",
+      "n_drugs": 32,
+      "mean_f_frac": 0.455,
+      "std": 0.378
+    },
+    {
+      "target": "Alpha-2 adrenergic",
+      "n_drugs": 21,
+      "mean_f_frac": 0.322,
+      "std": 0.372
+    },
+    {
+      "target": "GABA-A receptor",
+      "n_drugs": 496,
+      "mean_f_frac": 0.594,
+      "std": 0.349
+    },
+    {
+      "target": "Tubulin",
+      "n_drugs": 165,
+      "mean_f_frac": 0.471,
+      "std": 0.344
+    }
+  ],
+  "target_hubs": [
+    {
+      "target": "Tubulin",
+      "n_drugs": 1245,
+      "mean_f": 0.471
+    },
+    {
+      "target": "GABA-A receptor",
+      "n_drugs": 1056,
+      "mean_f": 0.594
+    },
+    {
+      "target": "Na channel alpha",
+      "n_drugs": 580,
+      "mean_f": 0.487
+    },
+    {
+      "target": "V-gated K+ channel",
+      "n_drugs": 240,
+      "mean_f": 0.286
+    },
+    {
+      "target": "V-gated Ca channel",
+      "n_drugs": 234,
+      "mean_f": 0.296
+    },
+    {
+      "target": "26S proteasome",
+      "n_drugs": 190,
+      "mean_f": 0.683
+    },
+    {
+      "target": "NMDA receptor",
+      "n_drugs": 154,
+      "mean_f": 0.31
+    },
+    {
+      "target": "VEGFR",
+      "n_drugs": 123,
+      "mean_f": 0.67
+    },
+    {
+      "target": "Cyclooxygenase",
+      "n_drugs": 114,
+      "mean_f": 0.427
+    },
+    {
+      "target": "Histone deacetylase",
+      "n_drugs": 110,
+      "mean_f": 0.938
+    },
+    {
+      "target": "PDE4",
+      "n_drugs": 104,
+      "mean_f": 0.444
+    }
+  ],
+  "target_count_effect": {
+    "1_target": {
+      "n_drugs": 260,
+      "entropy": 0.808,
+      "f_frac": 0.492
+    },
+    "2_targets": {
+      "n_drugs": 96,
+      "entropy": 0.774,
+      "f_frac": 0.443
+    },
+    "3-5_targets": {
+      "n_drugs": 63,
+      "entropy": 0.82,
+      "f_frac": 0.523
+    },
+    "6-10_targets": {
+      "n_drugs": 22,
+      "entropy": 0.932,
+      "f_frac": 0.457
+    },
+    "11-50_targets": {
+      "n_drugs": 35,
+      "entropy": 0.836,
+      "f_frac": 0.592
+    }
+  },
+  "sde_overlap": {
+    "sde_genes": 143,
+    "drugs_targeting_sde": 0,
+    "note": "Node ID format mismatch between SDE edges and target edges"
+  }
+}

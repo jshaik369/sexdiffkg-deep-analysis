@@ -1,0 +1,182 @@
+{
+  "wave": "27_age_sex_interaction",
+  "age_proxy_profiles": {
+    "pediatric": {
+      "n_drugs": 10,
+      "mean_f": 0.4872
+    },
+    "reproductive_age": {
+      "n_drugs": 4,
+      "mean_f": 0.0441
+    },
+    "working_age": {
+      "n_drugs": 8,
+      "mean_f": 0.4676
+    },
+    "geriatric": {
+      "n_drugs": 13,
+      "mean_f": 0.4806
+    }
+  },
+  "volume_proxy": {
+    "high_vol": {
+      "n": 545,
+      "mean_f": 0.5173
+    },
+    "low_vol": {
+      "n": 548,
+      "mean_f": 0.4285
+    }
+  },
+  "ae_profile_clusters": {
+    "cluster_0": {
+      "n_drugs": 54,
+      "mean_f": 0.325,
+      "top_drugs": [
+        "SALBUTAMOL",
+        "INSULIN",
+        "OMALIZUMAB",
+        "DUPILUMAB",
+        "IMMUNOGLOBULINS, UNSPECIFIED"
+      ],
+      "top_aes": [
+        "Mobility decreased",
+        "Wound",
+        "Discomfort",
+        "Acne",
+        "Arthropathy"
+      ]
+    },
+    "cluster_1": {
+      "n_drugs": 75,
+      "mean_f": 0.4656,
+      "top_drugs": [
+        "RANITIDINE",
+        "CETIRIZINE",
+        "CALCIUM",
+        "CORTISONE",
+        "FLUTICASONE;VILANTEROL"
+      ],
+      "top_aes": [
+        "Condition aggravated",
+        "Pyrexia",
+        "Fatigue",
+        "Product use in unapproved indication",
+        "Off label use"
+      ]
+    },
+    "cluster_2": {
+      "n_drugs": 98,
+      "mean_f": 0.4807,
+      "top_drugs": [
+        "ONDANSETRON",
+        "SILDENAFIL",
+        "TADALAFIL",
+        "AMIODARONE",
+        "ALLOPURINOL"
+      ],
+      "top_aes": [
+        "General physical health deterioration",
+        "Drug intolerance",
+        "Weight decreased",
+        "Therapeutic product effect incomplete",
+        "Cardiac arrest"
+      ]
+    },
+    "cluster_3": {
+      "n_drugs": 78,
+      "mean_f": 0.6268,
+      "top_drugs": [
+        "TACROLIMUS",
+        "DEXAMETHASONE",
+        "CYCLOPHOSPHAMIDE",
+        "CICLOSPORIN",
+        "ZOLEDRONIC ACID"
+      ],
+      "top_aes": [
+        "Haematuria",
+        "Haemorrhage",
+        "Fungal infection",
+        "Bronchitis",
+        "Cerebral infarction"
+      ]
+    },
+    "cluster_4": {
+      "n_drugs": 43,
+      "mean_f": 0.7091,
+      "top_drugs": [
+        "FLUDARABINE",
+        "ANTITHYMOCYTE IMMUNOGLOBULIN",
+        "VORICONAZOLE",
+        "PIPERACILLIN;TAZOBACTAM",
+        "MELPHALAN"
+      ],
+      "top_aes": [
+        "Cardiac failure",
+        "Cardiac arrest",
+        "Acute kidney injury",
+        "Fungal infection",
+        "Dysphagia"
+      ]
+    },
+    "cluster_5": {
+      "n_drugs": 55,
+      "mean_f": 0.5478,
+      "top_drugs": [
+        "RISPERIDONE",
+        "ACETYLSALICYLIC ACID",
+        "QUETIAPINE",
+        "AMLODIPINE",
+        "METFORMIN"
+      ],
+      "top_aes": [
+        "Contraindicated product administered",
+        "Alopecia",
+        "Loss of personal independence in daily activities",
+        "Migraine",
+        "Angioedema"
+      ]
+    },
+    "cluster_6": {
+      "n_drugs": 43,
+      "mean_f": 0.5873,
+      "top_drugs": [
+        "EMTRICITABINE;TENOFOVIR",
+        "PROPOFOL",
+        "LAMIVUDINE",
+        "TENOFOVIR",
+        "MIDAZOLAM"
+      ],
+      "top_aes": [
+        "Pain",
+        "Malaise",
+        "Drug interaction",
+        "Dizziness",
+        "Hypertension"
+      ]
+    },
+    "cluster_7": {
+      "n_drugs": 54,
+      "mean_f": 0.5762,
+      "top_drugs": [
+        "PREDNISONE",
+        "METHOTREXATE",
+        "ADALIMUMAB",
+        "RITUXIMAB",
+        "INFLIXIMAB"
+      ],
+      "top_aes": [
+        "Hypertension",
+        "Swelling",
+        "Hepatic enzyme increased",
+        "General physical health deterioration",
+        "Liver disorder"
+      ]
+    }
+  },
+  "paradox_reporters_count": 447,
+  "reporter_signal_correlation": {
+    "r": -0.0071,
+    "p": 0.7390890018556202
+  }
+}

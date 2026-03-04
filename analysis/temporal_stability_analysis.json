@@ -1,0 +1,740 @@
+{
+  "wave": "26_temporal_stability",
+  "signal_strength_distribution": {
+    "0-0.5": {
+      "count": 0,
+      "female_pct": 0
+    },
+    "0.5-1.0": {
+      "count": 64037,
+      "female_pct": 52.5
+    },
+    "1.0-1.5": {
+      "count": 19726,
+      "female_pct": 55.1
+    },
+    "1.5-2.0": {
+      "count": 7051,
+      "female_pct": 57.4
+    },
+    "2.0-3.0": {
+      "count": 4439,
+      "female_pct": 59.7
+    },
+    "3.0-5.0": {
+      "count": 1000,
+      "female_pct": 59.5
+    },
+    "5.0+": {
+      "count": 28,
+      "female_pct": 21.4
+    }
+  },
+  "volume_direction_matrix": {
+    "D0": {
+      "n": 9772,
+      "female_pct": 42.2,
+      "mean_abs_lr": 0.8708
+    },
+    "D1": {
+      "n": 10141,
+      "female_pct": 43.6,
+      "mean_abs_lr": 0.8739
+    },
+    "D2": {
+      "n": 9839,
+      "female_pct": 45.3,
+      "mean_abs_lr": 0.8978
+    },
+    "D3": {
+      "n": 9402,
+      "female_pct": 47.7,
+      "mean_abs_lr": 0.9013
+    },
+    "D4": {
+      "n": 9307,
+      "female_pct": 51.1,
+      "mean_abs_lr": 0.9144
+    },
+    "D5": {
+      "n": 9454,
+      "female_pct": 51.5,
+      "mean_abs_lr": 0.9364
+    },
+    "D6": {
+      "n": 9642,
+      "female_pct": 52.3,
+      "mean_abs_lr": 1.0032
+    },
+    "D7": {
+      "n": 9505,
+      "female_pct": 58.2,
+      "mean_abs_lr": 1.029
+    },
+    "D8": {
+      "n": 9615,
+      "female_pct": 64.0,
+      "mean_abs_lr": 1.0958
+    },
+    "D9": {
+      "n": 9604,
+      "female_pct": 82.5,
+      "mean_abs_lr": 1.3513
+    }
+  },
+  "drug_entropy_top10_consistent": [
+    {
+      "drug": "MEBEVERINE",
+      "n_signals": 52,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.9206
+    },
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "n_signals": 50,
+      "female_frac": 1.0,
+      "entropy": 0,
+      "mean_abs_lr": 0.791
+    },
+    {
+      "drug": "PRASUGREL",
+      "n_signals": 50,
+      "female_frac": 0.96,
+      "entropy": 0.2423,
+      "mean_abs_lr": 0.8087
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "n_signals": 58,
+      "female_frac": 0.0517,
+      "entropy": 0.2937,
+      "mean_abs_lr": 1.1397
+    },
+    {
+      "drug": "INTERFERON BETA-1B",
+      "n_signals": 70,
+      "female_frac": 0.0571,
+      "entropy": 0.316,
+      "mean_abs_lr": 0.757
+    },
+    {
+      "drug": "SOLIFENACIN",
+      "n_signals": 52,
+      "female_frac": 0.0577,
+      "entropy": 0.3182,
+      "mean_abs_lr": 0.9565
+    },
+    {
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "n_signals": 62,
+      "female_frac": 0.9355,
+      "entropy": 0.3451,
+      "mean_abs_lr": 0.7984
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_signals": 324,
+      "female_frac": 0.9352,
+      "entropy": 0.3463,
+      "mean_abs_lr": 1.4585
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "female_frac": 0.9286,
+      "entropy": 0.3712,
+      "mean_abs_lr": 1.1677
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "n_signals": 53,
+      "female_frac": 0.0755,
+      "entropy": 0.386,
+      "mean_abs_lr": 2.1348
+    }
+  ],
+  "drug_entropy_top10_mixed": [
+    {
+      "drug": "TELMISARTAN",
+      "n_signals": 73,
+      "female_frac": 0.5068,
+      "entropy": 0.9999,
+      "mean_abs_lr": 0.9066
+    },
+    {
+      "drug": "TEMAZEPAM",
+      "n_signals": 71,
+      "female_frac": 0.507,
+      "entropy": 0.9999,
+      "mean_abs_lr": 1.0957
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "female_frac": 0.4941,
+      "entropy": 0.9999,
+      "mean_abs_lr": 1.1859
+    },
+    {
+      "drug": "VALSARTAN",
+      "n_signals": 219,
+      "female_frac": 0.4932,
+      "entropy": 0.9999,
+      "mean_abs_lr": 0.8882
+    },
+    {
+      "drug": "VITAMIN D2",
+      "n_signals": 79,
+      "female_frac": 0.5063,
+      "entropy": 0.9999,
+      "mean_abs_lr": 1.4684
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "female_frac": 0.504,
+      "entropy": 1.0,
+      "mean_abs_lr": 1.0893
+    },
+    {
+      "drug": "LITHIUM",
+      "n_signals": 143,
+      "female_frac": 0.4965,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.9152
+    },
+    {
+      "drug": "MAGNESIUM",
+      "n_signals": 136,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 1.4143
+    },
+    {
+      "drug": "SPIRONOLACTONE",
+      "n_signals": 162,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.9427
+    },
+    {
+      "drug": "TORASEMIDE",
+      "n_signals": 116,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.9626
+    }
+  ],
+  "ae_entropy_top10_consistent": [
+    {
+      "ae": "Central nervous system lesion",
+      "n_signals": 35,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.0506
+    },
+    {
+      "ae": "Complication associated with device",
+      "n_signals": 30,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.2783
+    },
+    {
+      "ae": "Device breakage",
+      "n_signals": 30,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.0242
+    },
+    {
+      "ae": "Facial pain",
+      "n_signals": 33,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.0782
+    },
+    {
+      "ae": "Gingival pain",
+      "n_signals": 34,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.7153
+    },
+    {
+      "ae": "Hypopnoea",
+      "n_signals": 35,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.4339
+    },
+    {
+      "ae": "Pain of skin",
+      "n_signals": 61,
+      "female_frac": 0.0,
+      "entropy": 0,
+      "mean_abs_lr": 0.9033
+    },
+    {
+      "ae": "Viral load increased",
+      "n_signals": 36,
+      "female_frac": 1.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.2818
+    },
+    {
+      "ae": "Viral mutation identified",
+      "n_signals": 36,
+      "female_frac": 1.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.3708
+    },
+    {
+      "ae": "Virologic failure",
+      "n_signals": 32,
+      "female_frac": 1.0,
+      "entropy": 0,
+      "mean_abs_lr": 1.1539
+    }
+  ],
+  "ae_entropy_top10_variable": [
+    {
+      "ae": "Accidental overdose",
+      "n_signals": 76,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.9858
+    },
+    {
+      "ae": "Asphyxia",
+      "n_signals": 40,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.8845
+    },
+    {
+      "ae": "Headache",
+      "n_signals": 327,
+      "female_frac": 0.5015,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.9042
+    },
+    {
+      "ae": "Hypokinesia",
+      "n_signals": 48,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.874
+    },
+    {
+      "ae": "Hypophosphataemia",
+      "n_signals": 46,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 1.1413
+    },
+    {
+      "ae": "Peripheral coldness",
+      "n_signals": 36,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.7828
+    },
+    {
+      "ae": "Serotonin syndrome",
+      "n_signals": 46,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.8941
+    },
+    {
+      "ae": "Sputum discoloured",
+      "n_signals": 52,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.9753
+    },
+    {
+      "ae": "Therapeutic response decreased",
+      "n_signals": 100,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 0.8352
+    },
+    {
+      "ae": "Troponin increased",
+      "n_signals": 54,
+      "female_frac": 0.5,
+      "entropy": 1.0,
+      "mean_abs_lr": 1.1129
+    }
+  ],
+  "paradoxical_signals": [
+    {
+      "drug": "MISOPROSTOL",
+      "ae": "Maternal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -3.9853,
+      "reports": 240,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "PROGESTERONE",
+      "ae": "Foetal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -3.5274,
+      "reports": 289,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "SERTRALINE",
+      "ae": "Maternal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -3.3419,
+      "reports": 1229,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "ae": "Gynaecomastia",
+      "direction": "female_higher",
+      "log_ratio": 3.323,
+      "reports": 147,
+      "type": "male_ae_female_signal"
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Breast disorder",
+      "direction": "male_higher",
+      "log_ratio": -3.2793,
+      "reports": 120,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "VENLAFAXINE",
+      "ae": "Maternal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -3.1346,
+      "reports": 590,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "ESCITALOPRAM",
+      "ae": "Pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -3.0744,
+      "reports": 140,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "OLANZAPINE",
+      "ae": "Gynaecomastia",
+      "direction": "female_higher",
+      "log_ratio": 3.0154,
+      "reports": 383,
+      "type": "male_ae_female_signal"
+    },
+    {
+      "drug": "SPIRONOLACTONE",
+      "ae": "Breast pain",
+      "direction": "male_higher",
+      "log_ratio": -2.8932,
+      "reports": 103,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "CITALOPRAM",
+      "ae": "Pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -2.8817,
+      "reports": 111,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "OXYTOCIN",
+      "ae": "Foetal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -2.8456,
+      "reports": 159,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Breast discharge",
+      "direction": "male_higher",
+      "log_ratio": -2.6373,
+      "reports": 177,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "TRASTUZUMAB",
+      "ae": "Breast cancer metastatic",
+      "direction": "male_higher",
+      "log_ratio": -2.6266,
+      "reports": 613,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "SERTRALINE",
+      "ae": "Exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -2.5467,
+      "reports": 492,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "MISOPROSTOL",
+      "ae": "Foetal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -2.4536,
+      "reports": 136,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "ae": "Gynaecomastia",
+      "direction": "female_higher",
+      "log_ratio": 2.4129,
+      "reports": 388,
+      "type": "male_ae_female_signal"
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "ae": "Maternal exposure before pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -2.3435,
+      "reports": 1565,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "PROGESTERONE",
+      "ae": "Maternal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -2.3158,
+      "reports": 411,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "QUETIAPINE",
+      "ae": "Gynaecomastia",
+      "direction": "female_higher",
+      "log_ratio": 2.2628,
+      "reports": 535,
+      "type": "male_ae_female_signal"
+    },
+    {
+      "drug": "RANITIDINE",
+      "ae": "Uterine cancer",
+      "direction": "male_higher",
+      "log_ratio": -2.1722,
+      "reports": 3892,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "AMITRIPTYLINE",
+      "ae": "Maternal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.9589,
+      "reports": 187,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "VENLAFAXINE",
+      "ae": "Exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.9132,
+      "reports": 716,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "OXAZEPAM",
+      "ae": "Maternal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.9046,
+      "reports": 140,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "ae": "Uterine haemorrhage",
+      "direction": "male_higher",
+      "log_ratio": -1.8582,
+      "reports": 386,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "ESCITALOPRAM",
+      "ae": "Exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.8321,
+      "reports": 231,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "CITALOPRAM",
+      "ae": "Exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.8314,
+      "reports": 588,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "PAROXETINE",
+      "ae": "Maternal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.7826,
+      "reports": 213,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "AMITRIPTYLINE",
+      "ae": "Foetal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.7407,
+      "reports": 210,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "METHYLDOPA",
+      "ae": "Foetal exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.705,
+      "reports": 594,
+      "type": "female_ae_male_signal"
+    },
+    {
+      "drug": "FLUOXETINE",
+      "ae": "Exposure during pregnancy",
+      "direction": "male_higher",
+      "log_ratio": -1.6814,
+      "reports": 450,
+      "type": "female_ae_male_signal"
+    }
+  ],
+  "paradoxical_count": 115,
+  "drug_info_content_top15": [
+    {
+      "drug_name": "PREDNISONE",
+      "n_signals": 926,
+      "n_unique_ae": 926,
+      "mean_lr": 1.0796488627095324,
+      "info_score": 999.754846869027,
+      "f_frac": 0.7019438444924406
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "n_signals": 755,
+      "n_unique_ae": 755,
+      "mean_lr": 1.1642841423304144,
+      "info_score": 879.0345274594629,
+      "f_frac": 0.6662251655629139
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "n_signals": 892,
+      "n_unique_ae": 892,
+      "mean_lr": 0.9670534081451873,
+      "info_score": 862.611640065507,
+      "f_frac": 0.4854260089686099
+    },
+    {
+      "drug_name": "ADALIMUMAB",
+      "n_signals": 807,
+      "n_unique_ae": 807,
+      "mean_lr": 0.8791668911810603,
+      "info_score": 709.4876811831157,
+      "f_frac": 0.38166047087980176
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "n_signals": 623,
+      "n_unique_ae": 623,
+      "mean_lr": 1.089293833342577,
+      "info_score": 678.6300581724255,
+      "f_frac": 0.5040128410914928
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "n_signals": 492,
+      "n_unique_ae": 492,
+      "mean_lr": 1.331882933830664,
+      "info_score": 655.2864034446867,
+      "f_frac": 0.8495934959349594
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "n_signals": 618,
+      "n_unique_ae": 618,
+      "mean_lr": 0.9844997609425438,
+      "info_score": 608.4208522624921,
+      "f_frac": 0.4255663430420712
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "n_signals": 518,
+      "n_unique_ae": 518,
+      "mean_lr": 1.1677385431563794,
+      "info_score": 604.8885653550045,
+      "f_frac": 0.9285714285714286
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "n_signals": 508,
+      "n_unique_ae": 508,
+      "mean_lr": 1.185858286496695,
+      "info_score": 602.416009540321,
+      "f_frac": 0.4940944881889764
+    },
+    {
+      "drug_name": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "n_unique_ae": 521,
+      "mean_lr": 1.1559061958172554,
+      "info_score": 602.22712802079,
+      "f_frac": 0.7715930902111324
+    },
+    {
+      "drug_name": "PARACETAMOL",
+      "n_signals": 487,
+      "n_unique_ae": 487,
+      "mean_lr": 1.1764739171545908,
+      "info_score": 572.9427976542858,
+      "f_frac": 0.5687885010266941
+    },
+    {
+      "drug_name": "PANTOPRAZOLE",
+      "n_signals": 501,
+      "n_unique_ae": 501,
+      "mean_lr": 1.1306076530543454,
+      "info_score": 566.4344341802271,
+      "f_frac": 0.6027944111776448
+    },
+    {
+      "drug_name": "MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "n_unique_ae": 507,
+      "mean_lr": 1.1122216770644007,
+      "info_score": 563.8963902716512,
+      "f_frac": 0.7633136094674556
+    },
+    {
+      "drug_name": "DICLOFENAC",
+      "n_signals": 401,
+      "n_unique_ae": 401,
+      "mean_lr": 1.3253182047786645,
+      "info_score": 531.4526001162444,
+      "f_frac": 0.5062344139650873
+    },
+    {
+      "drug_name": "TACROLIMUS",
+      "n_signals": 572,
+      "n_unique_ae": 572,
+      "mean_lr": 0.8788906224975591,
+      "info_score": 502.7254360686038,
+      "f_frac": 0.7587412587412588
+    }
+  ],
+  "total_drugs_analyzed": 818,
+  "total_aes_analyzed": 1082
+}

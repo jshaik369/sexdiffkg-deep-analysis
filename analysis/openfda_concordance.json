@@ -1,0 +1,311 @@
+{
+  "drugs_compared": 24,
+  "direction_concordance": 66.7,
+  "correlation": -0.767,
+  "per_drug": [
+    {
+      "drug": "PREDNISONE",
+      "fda_pct_f": 60.3,
+      "kg_pct_f": 70.2,
+      "fda_total": 427236,
+      "kg_signals": 926,
+      "direction_match": true
+    },
+    {
+      "drug": "METHOTREXATE",
+      "fda_pct_f": 71.1,
+      "kg_pct_f": 48.5,
+      "fda_total": 432768,
+      "kg_signals": 892,
+      "direction_match": false
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "fda_pct_f": 68.0,
+      "kg_pct_f": 38.2,
+      "fda_total": 668553,
+      "kg_signals": 807,
+      "direction_match": false
+    },
+    {
+      "drug": "RITUXIMAB",
+      "fda_pct_f": 58.8,
+      "kg_pct_f": 66.6,
+      "fda_total": 163596,
+      "kg_signals": 755,
+      "direction_match": true
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "fda_pct_f": 63.2,
+      "kg_pct_f": 50.4,
+      "fda_total": 187364,
+      "kg_signals": 623,
+      "direction_match": true
+    },
+    {
+      "drug": "ETANERCEPT",
+      "fda_pct_f": 74.6,
+      "kg_pct_f": 42.6,
+      "fda_total": 546795,
+      "kg_signals": 618,
+      "direction_match": false
+    },
+    {
+      "drug": "TACROLIMUS",
+      "fda_pct_f": 44.0,
+      "kg_pct_f": 75.9,
+      "fda_total": 130038,
+      "kg_signals": 572,
+      "direction_match": false
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "fda_pct_f": 53.8,
+      "kg_pct_f": 82.5,
+      "fda_total": 164284,
+      "kg_signals": 542,
+      "direction_match": true
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "fda_pct_f": 48.8,
+      "kg_pct_f": 80.3,
+      "fda_total": 263473,
+      "kg_signals": 537,
+      "direction_match": false
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "fda_pct_f": 57.9,
+      "kg_pct_f": 77.2,
+      "fda_total": 142384,
+      "kg_signals": 521,
+      "direction_match": true
+    },
+    {
+      "drug": "RISPERIDONE",
+      "fda_pct_f": 35.8,
+      "kg_pct_f": 92.9,
+      "fda_total": 115719,
+      "kg_signals": 518,
+      "direction_match": false
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "fda_pct_f": 78.3,
+      "kg_pct_f": 49.4,
+      "fda_total": 96642,
+      "kg_signals": 508,
+      "direction_match": false
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "fda_pct_f": 59.1,
+      "kg_pct_f": 60.3,
+      "fda_total": 282315,
+      "kg_signals": 501,
+      "direction_match": true
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "fda_pct_f": 54.4,
+      "kg_pct_f": 64.7,
+      "fda_total": 136409,
+      "kg_signals": 498,
+      "direction_match": true
+    },
+    {
+      "drug": "OXYCODONE",
+      "fda_pct_f": 50.6,
+      "kg_pct_f": 85.0,
+      "fda_total": 331950,
+      "kg_signals": 492,
+      "direction_match": true
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "fda_pct_f": 62.0,
+      "kg_pct_f": 52.2,
+      "fda_total": 145862,
+      "kg_signals": 456,
+      "direction_match": true
+    },
+    {
+      "drug": "MORPHINE",
+      "fda_pct_f": 53.2,
+      "kg_pct_f": 83.4,
+      "fda_total": 153511,
+      "kg_signals": 441,
+      "direction_match": true
+    },
+    {
+      "drug": "QUETIAPINE",
+      "fda_pct_f": 59.5,
+      "kg_pct_f": 63.4,
+      "fda_total": 171823,
+      "kg_signals": 426,
+      "direction_match": true
+    },
+    {
+      "drug": "AMLODIPINE",
+      "fda_pct_f": 54.5,
+      "kg_pct_f": 50.5,
+      "fda_total": 392615,
+      "kg_signals": 422,
+      "direction_match": true
+    },
+    {
+      "drug": "PREGABALIN",
+      "fda_pct_f": 65.9,
+      "kg_pct_f": 53.9,
+      "fda_total": 241203,
+      "kg_signals": 406,
+      "direction_match": true
+    },
+    {
+      "drug": "DICLOFENAC",
+      "fda_pct_f": 68.2,
+      "kg_pct_f": 50.6,
+      "fda_total": 126491,
+      "kg_signals": 401,
+      "direction_match": true
+    },
+    {
+      "drug": "METFORMIN",
+      "fda_pct_f": 53.9,
+      "kg_pct_f": 62.4,
+      "fda_total": 396363,
+      "kg_signals": 399,
+      "direction_match": true
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "fda_pct_f": 54.2,
+      "kg_pct_f": 46.4,
+      "fda_total": 227255,
+      "kg_signals": 388,
+      "direction_match": false
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "fda_pct_f": 55.5,
+      "kg_pct_f": 56.9,
+      "fda_total": 361977,
+      "kg_signals": 385,
+      "direction_match": true
+    }
+  ],
+  "openfda_counts": {
+    "PREDNISONE": {
+      "Female": 257456,
+      "Male": 169780
+    },
+    "METHOTREXATE": {
+      "Female": 307880,
+      "Male": 124888
+    },
+    "ADALIMUMAB": {
+      "Female": 454292,
+      "Male": 214261
+    },
+    "RITUXIMAB": {
+      "Female": 96152,
+      "Male": 67444
+    },
+    "INFLIXIMAB": {
+      "Female": 118506,
+      "Male": 68858
+    },
+    "ETANERCEPT": {
+      "Female": 407740,
+      "Male": 139055
+    },
+    "TACROLIMUS": {
+      "Female": 57216,
+      "Male": 72822
+    },
+    "PREDNISOLONE": {
+      "Female": 88314,
+      "Male": 75970
+    },
+    "DEXAMETHASONE": {
+      "Female": 128636,
+      "Male": 134837
+    },
+    "METHYLPREDNISOLONE": {
+      "Female": 82481,
+      "Male": 59903
+    },
+    "RISPERIDONE": {
+      "Female": 41447,
+      "Male": 74272
+    },
+    "TOCILIZUMAB": {
+      "Female": 75630,
+      "Male": 21012
+    },
+    "PANTOPRAZOLE": {
+      "Female": 166807,
+      "Male": 115508
+    },
+    "CYCLOPHOSPHAMIDE": {
+      "Female": 74262,
+      "Male": 62147
+    },
+    "OXYCODONE": {
+      "Female": 168031,
+      "Male": 163919
+    },
+    "SECUKINUMAB": {
+      "Female": 90501,
+      "Male": 55361
+    },
+    "MORPHINE": {
+      "Female": 81661,
+      "Male": 71850
+    },
+    "QUETIAPINE": {
+      "Female": 102163,
+      "Male": 69660
+    },
+    "AMLODIPINE": {
+      "Female": 213809,
+      "Male": 178806
+    },
+    "PREGABALIN": {
+      "Female": 158873,
+      "Male": 82330
+    },
+    "DICLOFENAC": {
+      "Female": 86281,
+      "Male": 40210
+    },
+    "METFORMIN": {
+      "Female": 213638,
+      "Male": 182725
+    },
+    "ATORVASTATIN": {
+      "Female": 123112,
+      "Male": 104143
+    },
+    "FUROSEMIDE": {
+      "Female": 200834,
+      "Male": 161143
+    }
+  },
+  "summary": {
+    "mean_fda_pct_female": 58.6,
+    "mean_kg_pct_female_higher": 62.7,
+    "fda_total_reports": 6306626,
+    "kg_total_signals": 13034,
+    "failed_drugs": [
+      "MYCOPHENOLIC ACID",
+      "PARACETAMOL",
+      "ACETYLSALICYLIC ACID",
+      "SALBUTAMOL",
+      "CICLOSPORIN",
+      "ZOLEDRONIC ACID"
+    ]
+  }
+}

@@ -1,238 +1,88 @@
 {
-  "analysis": "Dose-Response Pattern Analysis",
-  "date": "2026-03-04T08:08:03.591464",
-  "total_signals": 96281,
-  "dose_response_bins": [
-    {
-      "report_bin": "11-50",
-      "n_signals": 33505,
-      "pct_female": 44.1,
-      "pct_male": 55.9,
-      "mean_abs_log_ratio": 0.883,
-      "median_abs_log_ratio": 0.7749,
-      "mean_log_ratio": -0.1328
+  "wave": "27_dose_response",
+  "distribution": {
+    "mean_abs_lr": 0.9868,
+    "median_abs_lr": 0.8116,
+    "skewness": 2.3685,
+    "kurtosis": 8.4197
+  },
+  "female_vs_male_effect": {
+    "female_mean": 1.0072,
+    "male_mean": 0.9631,
+    "t_stat": 12.7566,
+    "p_val": 3.0687324595966146e-37
+  },
+  "correlations": {
+    "n_signals_vs_lr": {
+      "r": 0.0324,
+      "p": 0.13046576744727464
     },
-    {
-      "report_bin": "51-100",
-      "n_signals": 26026,
-      "pct_female": 50.5,
-      "pct_male": 49.5,
-      "mean_abs_log_ratio": 0.9247,
-      "median_abs_log_ratio": 0.7923,
-      "mean_log_ratio": -0.0327
+    "log_n_vs_lr": {
+      "r": -0.005,
+      "p": 0.8172796597629893
     },
-    {
-      "report_bin": "101-500",
-      "n_signals": 27887,
-      "pct_female": 59.1,
-      "pct_male": 40.9,
-      "mean_abs_log_ratio": 1.051,
-      "median_abs_log_ratio": 0.84,
-      "mean_log_ratio": 0.1832
-    },
-    {
-      "report_bin": "501-1K",
-      "n_signals": 4393,
-      "pct_female": 79.0,
-      "pct_male": 21.0,
-      "mean_abs_log_ratio": 1.2774,
-      "median_abs_log_ratio": 1.0298,
-      "mean_log_ratio": 0.9114
-    },
-    {
-      "report_bin": "1K-5K",
-      "n_signals": 3992,
-      "pct_female": 87.5,
-      "pct_male": 12.5,
-      "mean_abs_log_ratio": 1.4546,
-      "median_abs_log_ratio": 1.1715,
-      "mean_log_ratio": 1.2468
-    },
-    {
-      "report_bin": "5K-10K",
-      "n_signals": 389,
-      "pct_female": 88.2,
-      "pct_male": 11.8,
-      "mean_abs_log_ratio": 1.4165,
-      "median_abs_log_ratio": 1.1514,
-      "mean_log_ratio": 1.1214
-    },
-    {
-      "report_bin": "10K-50K",
-      "n_signals": 87,
-      "pct_female": 81.6,
-      "pct_male": 18.4,
-      "mean_abs_log_ratio": 0.88,
-      "median_abs_log_ratio": 0.7301,
-      "mean_log_ratio": 0.6069
-    },
-    {
-      "report_bin": "50K+",
-      "n_signals": 2,
-      "pct_female": 50.0,
-      "pct_male": 50.0,
-      "mean_abs_log_ratio": 0.8741,
-      "median_abs_log_ratio": 0.8741,
-      "mean_log_ratio": 0.2955
+    "log_reports_vs_lr": {
+      "r": 0.0716,
+      "p": 0.0008287247903526743
     }
-  ],
-  "correlation": {
-    "pearson_r": 0.258,
-    "pearson_p": 0.0,
-    "spearman_rho": 0.1519,
-    "spearman_p": 0.0
   },
-  "high_volume_stats": {
-    "n_high_vol": 4475,
-    "pct_female_high_vol": 87.4,
-    "n_low_vol": 59206,
-    "pct_female_low_vol": 46.9
+  "ror_analysis": {
+    "extreme_female": 34405,
+    "extreme_male": 28195
   },
-  "extreme_signals": {
-    "extreme_female": 3250,
-    "extreme_male": 2217,
-    "moderate": 0
-  },
-  "top_20_high_confidence_extreme": [
-    {
-      "drug": "MINOXIDIL",
-      "ae": "Adverse drug reaction",
-      "direction": "male_higher",
-      "log_ratio": -6.4479,
-      "total_reports": 8480
+  "severity_analysis": {
+    "serious": {
+      "n": 2701,
+      "mean_lr": 0.9112,
+      "f_pct": 65.6
     },
-    {
-      "drug": "METHOTREXATE",
-      "ae": "Glossodynia",
-      "direction": "female_higher",
-      "log_ratio": 4.7448,
-      "total_reports": 6118
+    "moderate": {
+      "n": 90147,
+      "mean_lr": 0.9902,
+      "f_pct": 53.5
     },
-    {
-      "drug": "ADALIMUMAB",
-      "ae": "Pemphigus",
-      "direction": "female_higher",
-      "log_ratio": 4.7428,
-      "total_reports": 6782
-    },
-    {
-      "drug": "RISPERIDONE",
-      "ae": "Emotional disorder",
-      "direction": "male_higher",
-      "log_ratio": -4.5777,
-      "total_reports": 5774
-    },
-    {
-      "drug": "RISPERIDONE",
-      "ae": "Abnormal weight gain",
-      "direction": "male_higher",
-      "log_ratio": -4.5643,
-      "total_reports": 9412
-    },
-    {
-      "drug": "PREDNISONE",
-      "ae": "Glossodynia",
-      "direction": "female_higher",
-      "log_ratio": 4.3839,
-      "total_reports": 6116
-    },
-    {
-      "drug": "METHOTREXATE",
-      "ae": "Pemphigus",
-      "direction": "female_higher",
-      "log_ratio": 4.3709,
-      "total_reports": 6702
-    },
-    {
-      "drug": "INFLIXIMAB",
-      "ae": "Glossodynia",
-      "direction": "female_higher",
-      "log_ratio": 4.3651,
-      "total_reports": 5987
-    },
-    {
-      "drug": "ETANERCEPT",
-      "ae": "Glossodynia",
-      "direction": "female_higher",
-      "log_ratio": 4.3494,
-      "total_reports": 6301
-    },
-    {
-      "drug": "PREDNISONE",
-      "ae": "Wound",
-      "direction": "female_higher",
-      "log_ratio": 3.9644,
-      "total_reports": 5030
-    },
-    {
-      "drug": "ADALIMUMAB",
-      "ae": "Glossodynia",
-      "direction": "female_higher",
-      "log_ratio": 3.8047,
-      "total_reports": 6411
-    },
-    {
-      "drug": "RITUXIMAB",
-      "ae": "Wound",
-      "direction": "female_higher",
-      "log_ratio": 3.7981,
-      "total_reports": 5249
-    },
-    {
-      "drug": "PREDNISONE",
-      "ae": "Hand deformity",
-      "direction": "female_higher",
-      "log_ratio": 3.6833,
-      "total_reports": 5383
-    },
-    {
-      "drug": "GOLIMUMAB",
-      "ae": "Systemic lupus erythematosus",
-      "direction": "female_higher",
-      "log_ratio": 3.5548,
-      "total_reports": 6241
-    },
-    {
-      "drug": "DICLOFENAC",
-      "ae": "Rheumatoid arthritis",
-      "direction": "female_higher",
-      "log_ratio": 3.419,
-      "total_reports": 5798
-    },
-    {
-      "drug": "PREDNISONE",
-      "ae": "Pemphigus",
-      "direction": "female_higher",
-      "log_ratio": 3.3283,
-      "total_reports": 6756
-    },
-    {
-      "drug": "ATORVASTATIN",
-      "ae": "Type 2 diabetes mellitus",
-      "direction": "female_higher",
-      "log_ratio": 3.3184,
-      "total_reports": 6891
-    },
-    {
-      "drug": "LEFLUNOMIDE",
-      "ae": "Infusion related reaction",
-      "direction": "female_higher",
-      "log_ratio": 3.2257,
-      "total_reports": 5072
-    },
-    {
-      "drug": "PREDNISONE",
-      "ae": "Contraindicated product administered",
-      "direction": "female_higher",
-      "log_ratio": 3.2202,
-      "total_reports": 5591
-    },
-    {
-      "drug": "ADALIMUMAB",
-      "ae": "Infusion related reaction",
-      "direction": "female_higher",
-      "log_ratio": 3.1485,
-      "total_reports": 5739
+    "mild": {
+      "n": 3433,
+      "mean_lr": 0.9577,
+      "f_pct": 52.6
     }
-  ]
+  },
+  "inequality": {
+    "drug_gini": 0.7461,
+    "ae_gini": 0.7497
+  },
+  "threshold_sensitivity": {
+    "0.5": {
+      "n": 96281,
+      "f_pct": 53.8
+    },
+    "0.75": {
+      "n": 55247,
+      "f_pct": 55.2
+    },
+    "1.0": {
+      "n": 32244,
+      "f_pct": 56.4
+    },
+    "1.25": {
+      "n": 19595,
+      "f_pct": 57.5
+    },
+    "1.5": {
+      "n": 12518,
+      "f_pct": 58.3
+    },
+    "2.0": {
+      "n": 5467,
+      "f_pct": 59.4
+    },
+    "2.5": {
+      "n": 2473,
+      "f_pct": 59.3
+    },
+    "3.0": {
+      "n": 1028,
+      "f_pct": 58.5
+    }
+  }
 }
