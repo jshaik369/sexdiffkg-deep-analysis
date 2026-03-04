@@ -1,0 +1,237 @@
+{
+  "overview": {
+    "n_target_edges": 12682,
+    "n_drugs_with_targets": 4455,
+    "n_genes_targeted": 1148,
+    "n_drugs_matched": 846,
+    "n_genes_analyzed": 130,
+    "target_degree_sex_rho": -0.024,
+    "target_degree_sex_p": 0.7891674256195508
+  },
+  "most_male_targets": [
+    {
+      "gene": "Androgen receptor",
+      "n_drugs": 7,
+      "mean_f_pct": 31.4
+    },
+    {
+      "gene": "Mineralocorticoid receptor",
+      "n_drugs": 5,
+      "mean_f_pct": 42.3
+    },
+    {
+      "gene": "Cannabinoid receptor 1",
+      "n_drugs": 3,
+      "mean_f_pct": 43.3
+    },
+    {
+      "gene": "Programmed cell death 1 ligand 1",
+      "n_drugs": 3,
+      "mean_f_pct": 44.0
+    },
+    {
+      "gene": "Growth hormone receptor",
+      "n_drugs": 3,
+      "mean_f_pct": 44.0
+    },
+    {
+      "gene": "Programmed cell death protein 1",
+      "n_drugs": 7,
+      "mean_f_pct": 44.0
+    },
+    {
+      "gene": "B-lymphocyte antigen CD19",
+      "n_drugs": 6,
+      "mean_f_pct": 44.7
+    },
+    {
+      "gene": "Platelet-derived growth factor receptor",
+      "n_drugs": 5,
+      "mean_f_pct": 44.8
+    },
+    {
+      "gene": "Platelet-derived growth factor receptor alpha",
+      "n_drugs": 4,
+      "mean_f_pct": 45.6
+    },
+    {
+      "gene": "Prothrombin",
+      "n_drugs": 4,
+      "mean_f_pct": 46.0
+    },
+    {
+      "gene": "Vascular endothelial growth factor receptor 2",
+      "n_drugs": 4,
+      "mean_f_pct": 46.0
+    },
+    {
+      "gene": "D2-like dopamine receptor",
+      "n_drugs": 11,
+      "mean_f_pct": 46.1
+    },
+    {
+      "gene": "Plasminogen",
+      "n_drugs": 3,
+      "mean_f_pct": 46.7
+    },
+    {
+      "gene": "T cell surface glycoprotein CD3",
+      "n_drugs": 8,
+      "mean_f_pct": 46.9
+    },
+    {
+      "gene": "Tumor necrosis factor receptor superfamily member 17",
+      "n_drugs": 5,
+      "mean_f_pct": 47.5
+    }
+  ],
+  "most_female_targets": [
+    {
+      "gene": "Estrogen receptor",
+      "n_drugs": 3,
+      "mean_f_pct": 90.5
+    },
+    {
+      "gene": "Parathyroid hormone/parathyroid hormone-related peptide receptor",
+      "n_drugs": 3,
+      "mean_f_pct": 85.9
+    },
+    {
+      "gene": "Aromatase",
+      "n_drugs": 3,
+      "mean_f_pct": 84.7
+    },
+    {
+      "gene": "Calcitonin gene-related peptide type 1 receptor",
+      "n_drugs": 4,
+      "mean_f_pct": 81.4
+    },
+    {
+      "gene": "Calcitonin gene-related peptide",
+      "n_drugs": 3,
+      "mean_f_pct": 77.4
+    },
+    {
+      "gene": "Receptor tyrosine-protein kinase erbB-2",
+      "n_drugs": 6,
+      "mean_f_pct": 74.3
+    },
+    {
+      "gene": "Prostacyclin receptor",
+      "n_drugs": 3,
+      "mean_f_pct": 70.7
+    },
+    {
+      "gene": "Endothelin receptor, ET-A/ET-B",
+      "n_drugs": 3,
+      "mean_f_pct": 70.6
+    },
+    {
+      "gene": "Thyroid hormone receptor",
+      "n_drugs": 3,
+      "mean_f_pct": 69.5
+    },
+    {
+      "gene": "Tumor necrosis factor",
+      "n_drugs": 4,
+      "mean_f_pct": 69.3
+    },
+    {
+      "gene": "Prostaglandin F2-alpha receptor",
+      "n_drugs": 5,
+      "mean_f_pct": 68.8
+    },
+    {
+      "gene": "5-hydroxytryptamine receptor 1D",
+      "n_drugs": 3,
+      "mean_f_pct": 68.2
+    },
+    {
+      "gene": "5-hydroxytryptamine receptor 1B",
+      "n_drugs": 3,
+      "mean_f_pct": 68.2
+    },
+    {
+      "gene": "Plasma kallikrein",
+      "n_drugs": 3,
+      "mean_f_pct": 66.8
+    },
+    {
+      "gene": "Histamine H2 receptor",
+      "n_drugs": 4,
+      "mean_f_pct": 65.8
+    }
+  ],
+  "target_families": {
+    "Kinases": {
+      "n_genes": 11,
+      "mean_f_pct": 56.1,
+      "mean_drugs_per_gene": 5.6,
+      "top_genes": [
+        {
+          "gene": "Mast/stem cell growth factor receptor Kit",
+          "n_drugs": 10,
+          "mean_f_pct": 50.1
+        },
+        {
+          "gene": "Tyrosine-protein kinase JAK1",
+          "n_drugs": 3,
+          "mean_f_pct": 51.4
+        },
+        {
+          "gene": "Tyrosine-protein kinase ABL1",
+          "n_drugs": 4,
+          "mean_f_pct": 51.5
+        },
+        {
+          "gene": "Receptor-type tyrosine-protein kinase FLT3",
+          "n_drugs": 9,
+          "mean_f_pct": 52.5
+        },
+        {
+          "gene": "EML4-ALK",
+          "n_drugs": 3,
+          "mean_f_pct": 53.6
+        }
+      ]
+    },
+    "Nuclear_receptors": {
+      "n_genes": 13,
+      "mean_f_pct": 58.4,
+      "mean_drugs_per_gene": 4.7,
+      "top_genes": [
+        {
+          "gene": "Vascular endothelial growth factor receptor 2",
+          "n_drugs": 4,
+          "mean_f_pct": 46.0
+        },
+        {
+          "gene": "Vascular endothelial growth factor receptor",
+          "n_drugs": 5,
+          "mean_f_pct": 47.5
+        },
+        {
+          "gene": "Solute carrier family 12 member 1",
+          "n_drugs": 3,
+          "mean_f_pct": 49.9
+        },
+        {
+          "gene": "Muscarinic acetylcholine receptor M1",
+          "n_drugs": 5,
+          "mean_f_pct": 53.2
+        },
+        {
+          "gene": "3-hydroxy-3-methylglutaryl-coenzyme A reductase",
+          "n_drugs": 5,
+          "mean_f_pct": 54.0
+        }
+      ]
+    }
+  },
+  "sex_diff_expression_overlap": {
+    "n_sex_diff_genes": 20,
+    "n_targeted_genes": 130,
+    "n_overlap": 0,
+    "pct_targeted_sex_diff": 0.0
+  }
+}
