@@ -1,0 +1,631 @@
+{
+  "gold_signals": {
+    "female_biased": [
+      {
+        "drug": "OXYCODONE",
+        "ae": "Infusion related reaction",
+        "log_ratio": 5.496,
+        "reports": 2533
+      },
+      {
+        "drug": "OXYCODONE",
+        "ae": "Pericarditis",
+        "log_ratio": 5.396,
+        "reports": 2519
+      },
+      {
+        "drug": "DUTASTERIDE",
+        "ae": "Product prescribing issue",
+        "log_ratio": 5.089,
+        "reports": 132
+      },
+      {
+        "drug": "OXYCODONE",
+        "ae": "Blister",
+        "log_ratio": 5.056,
+        "reports": 2936
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Duodenal ulcer perforation",
+        "log_ratio": 4.828,
+        "reports": 3349
+      },
+      {
+        "drug": "GOLIMUMAB",
+        "ae": "Pericarditis",
+        "log_ratio": 4.81,
+        "reports": 4072
+      },
+      {
+        "drug": "OXYCODONE",
+        "ae": "Impaired healing",
+        "log_ratio": 4.808,
+        "reports": 2955
+      },
+      {
+        "drug": "HYDROXYCHLOROQUINE",
+        "ae": "Pericarditis",
+        "log_ratio": 4.77,
+        "reports": 4079
+      },
+      {
+        "drug": "METHOTREXATE",
+        "ae": "Glossodynia",
+        "log_ratio": 4.745,
+        "reports": 6118
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "ae": "Pemphigus",
+        "log_ratio": 4.743,
+        "reports": 6782
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Helicobacter infection",
+        "log_ratio": 4.708,
+        "reports": 3307
+      },
+      {
+        "drug": "RITUXIMAB",
+        "ae": "Prescribed overdose",
+        "log_ratio": 4.559,
+        "reports": 1290
+      },
+      {
+        "drug": "SIROLIMUS",
+        "ae": "Transplant dysfunction",
+        "log_ratio": 4.505,
+        "reports": 469
+      },
+      {
+        "drug": "XANTOFYL",
+        "ae": "Drug ineffective",
+        "log_ratio": 4.489,
+        "reports": 395
+      },
+      {
+        "drug": "VITAMIN B9",
+        "ae": "Pericarditis",
+        "log_ratio": 4.487,
+        "reports": 3503
+      },
+      {
+        "drug": "OXYCODONE",
+        "ae": "Wheezing",
+        "log_ratio": 4.462,
+        "reports": 1550
+      },
+      {
+        "drug": "MINOXIDIL",
+        "ae": "Wrong patient received medication",
+        "log_ratio": 4.46,
+        "reports": 1481
+      },
+      {
+        "drug": "SULFASALAZINE",
+        "ae": "Pericarditis",
+        "log_ratio": 4.449,
+        "reports": 4116
+      },
+      {
+        "drug": "CETIRIZINE",
+        "ae": "Hepatic enzyme increased",
+        "log_ratio": 4.433,
+        "reports": 3861
+      },
+      {
+        "drug": "SECUKINUMAB",
+        "ae": "Infusion related reaction",
+        "log_ratio": 4.432,
+        "reports": 1993
+      }
+    ],
+    "male_biased": [
+      {
+        "drug": "HYDROXYPROGESTERONE",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -6.456,
+        "reports": 117
+      },
+      {
+        "drug": "MINOXIDIL",
+        "ae": "Adverse drug reaction",
+        "log_ratio": -6.448,
+        "reports": 8480
+      },
+      {
+        "drug": "CARBIDOPA;LEVODOPA",
+        "ae": "Embedded device",
+        "log_ratio": -6.447,
+        "reports": 717
+      },
+      {
+        "drug": "CARBIDOPA;LEVODOPA",
+        "ae": "Device expulsion",
+        "log_ratio": -6.412,
+        "reports": 127
+      },
+      {
+        "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+        "ae": "Medical device discomfort",
+        "log_ratio": -6.03,
+        "reports": 119
+      },
+      {
+        "drug": "HYDROXYPROGESTERONE",
+        "ae": "Stillbirth",
+        "log_ratio": -5.54,
+        "reports": 123
+      },
+      {
+        "drug": "VITAMIN B9",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -5.506,
+        "reports": 113
+      },
+      {
+        "drug": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+        "ae": "Dyspareunia",
+        "log_ratio": -4.989,
+        "reports": 854
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "ae": "Vasculitis",
+        "log_ratio": -4.913,
+        "reports": 155
+      },
+      {
+        "drug": "VITAMIN D2",
+        "ae": "Nodule",
+        "log_ratio": -4.894,
+        "reports": 183
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "ae": "Eosinophilic granulomatosis with polyangiitis",
+        "log_ratio": -4.857,
+        "reports": 159
+      },
+      {
+        "drug": "RIZATRIPTAN",
+        "ae": "Hyperhidrosis",
+        "log_ratio": -4.675,
+        "reports": 268
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "ae": "Neuritis",
+        "log_ratio": -4.642,
+        "reports": 162
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Emotional disorder",
+        "log_ratio": -4.578,
+        "reports": 5774
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Abnormal weight gain",
+        "log_ratio": -4.564,
+        "reports": 9412
+      },
+      {
+        "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+        "ae": "Medical device site discomfort",
+        "log_ratio": -4.548,
+        "reports": 173
+      },
+      {
+        "drug": "ABATACEPT",
+        "ae": "Apparent death",
+        "log_ratio": -4.465,
+        "reports": 304
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "ae": "Haemoptysis",
+        "log_ratio": -4.413,
+        "reports": 168
+      },
+      {
+        "drug": "DEXAMETHASONE",
+        "ae": "Complication of device insertion",
+        "log_ratio": -4.405,
+        "reports": 135
+      },
+      {
+        "drug": "LEFLUNOMIDE",
+        "ae": "Apparent death",
+        "log_ratio": -4.389,
+        "reports": 311
+      }
+    ]
+  },
+  "actionable_monitoring": [
+    {
+      "drug": "LEUPRORELIN",
+      "ae": "DEATH",
+      "log_ratio": -2.916,
+      "direction": "male_higher",
+      "reports": 8397,
+      "recommendation": "Monitor men more closely for death"
+    },
+    {
+      "drug": "TRIPTORELIN",
+      "ae": "DEATH",
+      "log_ratio": -2.79,
+      "direction": "male_higher",
+      "reports": 350,
+      "recommendation": "Monitor men more closely for death"
+    },
+    {
+      "drug": "VITAMIN C",
+      "ae": "DEATH",
+      "log_ratio": -2.712,
+      "direction": "male_higher",
+      "reports": 94,
+      "recommendation": "Monitor men more closely for death"
+    },
+    {
+      "drug": "GOLD (198 AU)",
+      "ae": "MYOCARDIAL INFARCTION",
+      "log_ratio": -3.328,
+      "direction": "male_higher",
+      "reports": 130,
+      "recommendation": "Monitor men more closely for myocardial infarction"
+    },
+    {
+      "drug": "KETAMINE",
+      "ae": "MYOCARDIAL INFARCTION",
+      "log_ratio": 2.461,
+      "direction": "female_higher",
+      "reports": 127,
+      "recommendation": "Monitor women more closely for myocardial infarction"
+    },
+    {
+      "drug": "EDOXABAN",
+      "ae": "MYOCARDIAL INFARCTION",
+      "log_ratio": 2.257,
+      "direction": "female_higher",
+      "reports": 56,
+      "recommendation": "Monitor women more closely for myocardial infarction"
+    },
+    {
+      "drug": "MELATONIN",
+      "ae": "CARDIAC ARREST",
+      "log_ratio": 2.27,
+      "direction": "female_higher",
+      "reports": 82,
+      "recommendation": "Monitor women more closely for cardiac arrest"
+    },
+    {
+      "drug": "BELIMUMAB",
+      "ae": "CARDIAC ARREST",
+      "log_ratio": -2.124,
+      "direction": "male_higher",
+      "reports": 44,
+      "recommendation": "Monitor men more closely for cardiac arrest"
+    },
+    {
+      "drug": "BENZATROPINE",
+      "ae": "CARDIAC ARREST",
+      "log_ratio": 2.01,
+      "direction": "female_higher",
+      "reports": 65,
+      "recommendation": "Monitor women more closely for cardiac arrest"
+    },
+    {
+      "drug": "LANSOPRAZOLE",
+      "ae": "HEPATIC FAILURE",
+      "log_ratio": 1.683,
+      "direction": "female_higher",
+      "reports": 74,
+      "recommendation": "Monitor women more closely for hepatic failure"
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "HEPATIC FAILURE",
+      "log_ratio": -1.548,
+      "direction": "male_higher",
+      "reports": 27,
+      "recommendation": "Monitor men more closely for hepatic failure"
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "ae": "HEPATIC FAILURE",
+      "log_ratio": 1.545,
+      "direction": "female_higher",
+      "reports": 36,
+      "recommendation": "Monitor women more closely for hepatic failure"
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "RENAL FAILURE",
+      "log_ratio": -3.608,
+      "direction": "male_higher",
+      "reports": 177,
+      "recommendation": "Monitor men more closely for renal failure"
+    },
+    {
+      "drug": "ANAKINRA",
+      "ae": "RENAL FAILURE",
+      "log_ratio": -3.045,
+      "direction": "male_higher",
+      "reports": 356,
+      "recommendation": "Monitor men more closely for renal failure"
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "ae": "RENAL FAILURE",
+      "log_ratio": -3.013,
+      "direction": "male_higher",
+      "reports": 171,
+      "recommendation": "Monitor men more closely for renal failure"
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "ae": "PULMONARY EMBOLISM",
+      "log_ratio": -4.795,
+      "direction": "male_higher",
+      "reports": 57,
+      "recommendation": "Monitor men more closely for pulmonary embolism"
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "PULMONARY EMBOLISM",
+      "log_ratio": -4.051,
+      "direction": "male_higher",
+      "reports": 177,
+      "recommendation": "Monitor men more closely for pulmonary embolism"
+    },
+    {
+      "drug": "CORTISONE",
+      "ae": "PULMONARY EMBOLISM",
+      "log_ratio": -3.843,
+      "direction": "male_higher",
+      "reports": 116,
+      "recommendation": "Monitor men more closely for pulmonary embolism"
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "ae": "SUICIDAL IDEATION",
+      "log_ratio": 2.254,
+      "direction": "female_higher",
+      "reports": 204,
+      "recommendation": "Monitor women more closely for suicidal ideation"
+    },
+    {
+      "drug": "APIXABAN",
+      "ae": "SUICIDAL IDEATION",
+      "log_ratio": 1.979,
+      "direction": "female_higher",
+      "reports": 123,
+      "recommendation": "Monitor women more closely for suicidal ideation"
+    },
+    {
+      "drug": "LEVOMEPROMAZINE",
+      "ae": "SUICIDAL IDEATION",
+      "log_ratio": 1.928,
+      "direction": "female_higher",
+      "reports": 120,
+      "recommendation": "Monitor women more closely for suicidal ideation"
+    },
+    {
+      "drug": "ZOLPIDEM",
+      "ae": "SUICIDAL BEHAVIOUR",
+      "log_ratio": -1.076,
+      "direction": "male_higher",
+      "reports": 40,
+      "recommendation": "Monitor men more closely for suicidal behaviour"
+    },
+    {
+      "drug": "CEFOTAXIME",
+      "ae": "STEVENS-JOHNSON SYNDROME",
+      "log_ratio": 1.866,
+      "direction": "female_higher",
+      "reports": 61,
+      "recommendation": "Monitor women more closely for stevens-johnson syndrome"
+    },
+    {
+      "drug": "ASPIRIN",
+      "ae": "STEVENS-JOHNSON SYNDROME",
+      "log_ratio": 1.823,
+      "direction": "female_higher",
+      "reports": 61,
+      "recommendation": "Monitor women more closely for stevens-johnson syndrome"
+    },
+    {
+      "drug": "DOCETAXEL",
+      "ae": "STEVENS-JOHNSON SYNDROME",
+      "log_ratio": -1.694,
+      "direction": "male_higher",
+      "reports": 62,
+      "recommendation": "Monitor men more closely for stevens-johnson syndrome"
+    },
+    {
+      "drug": "SODIUM CHLORIDE",
+      "ae": "AGRANULOCYTOSIS",
+      "log_ratio": 3.134,
+      "direction": "female_higher",
+      "reports": 544,
+      "recommendation": "Monitor women more closely for agranulocytosis"
+    },
+    {
+      "drug": "EPIRUBICIN",
+      "ae": "AGRANULOCYTOSIS",
+      "log_ratio": 2.091,
+      "direction": "female_higher",
+      "reports": 484,
+      "recommendation": "Monitor women more closely for agranulocytosis"
+    },
+    {
+      "drug": "POLATUZUMAB VEDOTIN",
+      "ae": "AGRANULOCYTOSIS",
+      "log_ratio": 1.471,
+      "direction": "female_higher",
+      "reports": 39,
+      "recommendation": "Monitor women more closely for agranulocytosis"
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "ae": "PANCREATITIS",
+      "log_ratio": 1.984,
+      "direction": "female_higher",
+      "reports": 174,
+      "recommendation": "Monitor women more closely for pancreatitis"
+    },
+    {
+      "drug": "DICLOFENAC",
+      "ae": "PANCREATITIS",
+      "log_ratio": 1.841,
+      "direction": "female_higher",
+      "reports": 253,
+      "recommendation": "Monitor women more closely for pancreatitis"
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "ae": "PANCREATITIS",
+      "log_ratio": 1.652,
+      "direction": "female_higher",
+      "reports": 239,
+      "recommendation": "Monitor women more closely for pancreatitis"
+    },
+    {
+      "drug": "ITRACONAZOLE",
+      "ae": "RHABDOMYOLYSIS",
+      "log_ratio": 1.825,
+      "direction": "female_higher",
+      "reports": 56,
+      "recommendation": "Monitor women more closely for rhabdomyolysis"
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "ae": "RHABDOMYOLYSIS",
+      "log_ratio": 1.793,
+      "direction": "female_higher",
+      "reports": 46,
+      "recommendation": "Monitor women more closely for rhabdomyolysis"
+    },
+    {
+      "drug": "ENALAPRIL",
+      "ae": "RHABDOMYOLYSIS",
+      "log_ratio": 1.772,
+      "direction": "female_higher",
+      "reports": 58,
+      "recommendation": "Monitor women more closely for rhabdomyolysis"
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "TORSADE DE POINTES",
+      "log_ratio": 1.848,
+      "direction": "female_higher",
+      "reports": 81,
+      "recommendation": "Monitor women more closely for torsade de pointes"
+    },
+    {
+      "drug": "LOPERAMIDE HYDROCHLORIDE",
+      "ae": "TORSADE DE POINTES",
+      "log_ratio": -1.477,
+      "direction": "male_higher",
+      "reports": 57,
+      "recommendation": "Monitor men more closely for torsade de pointes"
+    },
+    {
+      "drug": "LIDOCAINE",
+      "ae": "TORSADE DE POINTES",
+      "log_ratio": -1.428,
+      "direction": "male_higher",
+      "reports": 45,
+      "recommendation": "Monitor men more closely for torsade de pointes"
+    }
+  ],
+  "nti_dosing_candidates": [
+    {
+      "drug": "WARFARIN",
+      "n_signals": 220,
+      "f_pct": 42.4,
+      "n_strong": 20,
+      "mean_lr": 0.929
+    },
+    {
+      "drug": "LITHIUM",
+      "n_signals": 143,
+      "f_pct": 53.3,
+      "n_strong": 15,
+      "mean_lr": 0.915
+    },
+    {
+      "drug": "DIGOXIN",
+      "n_signals": 70,
+      "f_pct": 57.7,
+      "n_strong": 3,
+      "mean_lr": 0.794
+    },
+    {
+      "drug": "PHENYTOIN",
+      "n_signals": 88,
+      "f_pct": 53.7,
+      "n_strong": 1,
+      "mean_lr": 0.738
+    },
+    {
+      "drug": "CARBAMAZEPINE",
+      "n_signals": 180,
+      "f_pct": 64.7,
+      "n_strong": 23,
+      "mean_lr": 0.946
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_signals": 572,
+      "f_pct": 47.5,
+      "n_strong": 36,
+      "mean_lr": 0.879
+    },
+    {
+      "drug": "CYCLOSPORINE",
+      "n_signals": 52,
+      "f_pct": 70.7,
+      "n_strong": 1,
+      "mean_lr": 0.81
+    },
+    {
+      "drug": "THEOPHYLLINE",
+      "n_signals": 80,
+      "f_pct": 59.4,
+      "n_strong": 24,
+      "mean_lr": 1.23
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "f_pct": 84.8,
+      "n_strong": 106,
+      "mean_lr": 0.967
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "n_signals": 339,
+      "f_pct": 48.3,
+      "n_strong": 18,
+      "mean_lr": 0.851
+    },
+    {
+      "drug": "VANCOMYCIN",
+      "n_signals": 191,
+      "f_pct": 53.7,
+      "n_strong": 12,
+      "mean_lr": 0.858
+    }
+  ],
+  "clinical_summary": {
+    "n_gold_signals": 7971,
+    "n_actionable": 37,
+    "n_nti_analyzed": 11,
+    "n_nti_warranting_monitoring": 9
+  }
+}

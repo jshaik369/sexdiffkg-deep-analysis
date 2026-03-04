@@ -1,0 +1,456 @@
+{
+  "lr_deciles": [
+    {
+      "decile": 0,
+      "n": 9629,
+      "f_pct": 63.5,
+      "lr_min": 0.5,
+      "lr_max": 0.547,
+      "mean_reports": 209.0
+    },
+    {
+      "decile": 1,
+      "n": 9628,
+      "f_pct": 64.1,
+      "lr_min": 0.547,
+      "lr_max": 0.6,
+      "mean_reports": 205.0
+    },
+    {
+      "decile": 2,
+      "n": 9628,
+      "f_pct": 64.8,
+      "lr_min": 0.6,
+      "lr_max": 0.661,
+      "mean_reports": 197.0
+    },
+    {
+      "decile": 3,
+      "n": 9628,
+      "f_pct": 65.5,
+      "lr_min": 0.661,
+      "lr_max": 0.73,
+      "mean_reports": 192.0
+    },
+    {
+      "decile": 4,
+      "n": 9628,
+      "f_pct": 69.1,
+      "lr_min": 0.73,
+      "lr_max": 0.812,
+      "mean_reports": 193.0
+    },
+    {
+      "decile": 5,
+      "n": 9628,
+      "f_pct": 70.5,
+      "lr_min": 0.812,
+      "lr_max": 0.916,
+      "mean_reports": 194.0
+    },
+    {
+      "decile": 6,
+      "n": 9628,
+      "f_pct": 73.9,
+      "lr_min": 0.916,
+      "lr_max": 1.053,
+      "mean_reports": 221.0
+    },
+    {
+      "decile": 7,
+      "n": 9628,
+      "f_pct": 74.1,
+      "lr_min": 1.054,
+      "lr_max": 1.26,
+      "mean_reports": 229.0
+    },
+    {
+      "decile": 8,
+      "n": 9628,
+      "f_pct": 81.8,
+      "lr_min": 1.26,
+      "lr_max": 1.654,
+      "mean_reports": 316.0
+    },
+    {
+      "decile": 9,
+      "n": 9628,
+      "f_pct": 87.4,
+      "lr_min": 1.654,
+      "lr_max": 8.869,
+      "mean_reports": 557.0
+    }
+  ],
+  "lr_vs_ffrac": {
+    "rho": 0.113,
+    "p": 1.0047130485557494e-271
+  },
+  "report_volume_deciles": [
+    {
+      "decile": 0,
+      "n": 9772,
+      "f_pct": 50.4,
+      "rep_min": 20,
+      "rep_max": 29
+    },
+    {
+      "decile": 1,
+      "n": 10141,
+      "f_pct": 51.0,
+      "rep_min": 30,
+      "rep_max": 37
+    },
+    {
+      "decile": 2,
+      "n": 9839,
+      "f_pct": 52.0,
+      "rep_min": 38,
+      "rep_max": 46
+    },
+    {
+      "decile": 3,
+      "n": 9402,
+      "f_pct": 53.2,
+      "rep_min": 47,
+      "rep_max": 57
+    },
+    {
+      "decile": 4,
+      "n": 9307,
+      "f_pct": 54.8,
+      "rep_min": 58,
+      "rep_max": 72
+    },
+    {
+      "decile": 5,
+      "n": 9454,
+      "f_pct": 55.9,
+      "rep_min": 73,
+      "rep_max": 95
+    },
+    {
+      "decile": 6,
+      "n": 9642,
+      "f_pct": 56.6,
+      "rep_min": 96,
+      "rep_max": 134
+    },
+    {
+      "decile": 7,
+      "n": 9505,
+      "f_pct": 60.8,
+      "rep_min": 135,
+      "rep_max": 212
+    },
+    {
+      "decile": 8,
+      "n": 9615,
+      "f_pct": 67.3,
+      "rep_min": 213,
+      "rep_max": 463
+    },
+    {
+      "decile": 9,
+      "n": 9604,
+      "f_pct": 82.0,
+      "rep_min": 464,
+      "rep_max": 55041
+    }
+  ],
+  "signal_landscape": {
+    "lr_labels": [
+      "0-0.5",
+      "0.5-1",
+      "1-1.5",
+      "1.5-2",
+      "2-3",
+      "3+"
+    ],
+    "rep_labels": [
+      "<20",
+      "20-50",
+      "50-100",
+      "100-500",
+      "500-1K",
+      "1K+"
+    ],
+    "matrix": [
+      [
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 0,
+          "f_pct": null
+        }
+      ],
+      [
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 23777,
+          "f_pct": 51.9
+        },
+        {
+          "n": 18682,
+          "f_pct": 56.1
+        },
+        {
+          "n": 17498,
+          "f_pct": 61.5
+        },
+        {
+          "n": 2145,
+          "f_pct": 67.7
+        },
+        {
+          "n": 1935,
+          "f_pct": 75.0
+        }
+      ],
+      [
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 6660,
+          "f_pct": 50.7
+        },
+        {
+          "n": 5540,
+          "f_pct": 55.0
+        },
+        {
+          "n": 5719,
+          "f_pct": 67.8
+        },
+        {
+          "n": 892,
+          "f_pct": 80.6
+        },
+        {
+          "n": 915,
+          "f_pct": 86.0
+        }
+      ],
+      [
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 1525,
+          "f_pct": 49.4
+        },
+        {
+          "n": 1694,
+          "f_pct": 50.0
+        },
+        {
+          "n": 2646,
+          "f_pct": 70.8
+        },
+        {
+          "n": 586,
+          "f_pct": 88.4
+        },
+        {
+          "n": 600,
+          "f_pct": 89.9
+        }
+      ],
+      [
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 487,
+          "f_pct": 45.7
+        },
+        {
+          "n": 638,
+          "f_pct": 38.2
+        },
+        {
+          "n": 1994,
+          "f_pct": 69.9
+        },
+        {
+          "n": 648,
+          "f_pct": 93.1
+        },
+        {
+          "n": 672,
+          "f_pct": 95.0
+        }
+      ],
+      [
+        {
+          "n": 0,
+          "f_pct": null
+        },
+        {
+          "n": 81,
+          "f_pct": 50.4
+        },
+        {
+          "n": 122,
+          "f_pct": 35.4
+        },
+        {
+          "n": 337,
+          "f_pct": 49.9
+        },
+        {
+          "n": 135,
+          "f_pct": 96.1
+        },
+        {
+          "n": 353,
+          "f_pct": 95.3
+        }
+      ]
+    ]
+  },
+  "direction_asymmetry": {
+    "n_female_higher": 51771,
+    "n_male_higher": 44510,
+    "f_higher_pct": 53.8,
+    "f_higher_mean_lr": 1.007,
+    "m_higher_mean_lr": 0.963,
+    "p_value": 2.802259731947894e-41
+  },
+  "extreme_signals": {
+    "n_total": 1028,
+    "n_female": 601,
+    "n_male": 427,
+    "top_signals": [
+      {
+        "drug_name": "TESTOSTERONE",
+        "adverse_event": "Prostatic disorder",
+        "log_ratio": 8.869498849549007,
+        "direction": "female_higher",
+        "total_reports": 46
+      },
+      {
+        "drug_name": "PERTUZUMAB",
+        "adverse_event": "Carbohydrate antigen 15-3 increased",
+        "log_ratio": -7.391389912032977,
+        "direction": "male_higher",
+        "total_reports": 21
+      },
+      {
+        "drug_name": "ETONOGESTREL",
+        "adverse_event": "Foetal exposure during pregnancy",
+        "log_ratio": -6.568155804227702,
+        "direction": "male_higher",
+        "total_reports": 70
+      },
+      {
+        "drug_name": "HYDROXYPROGESTERONE",
+        "adverse_event": "Abortion spontaneous",
+        "log_ratio": -6.45611994771499,
+        "direction": "male_higher",
+        "total_reports": 117
+      },
+      {
+        "drug_name": "MINOXIDIL",
+        "adverse_event": "Adverse drug reaction",
+        "log_ratio": -6.447868373787949,
+        "direction": "male_higher",
+        "total_reports": 8480
+      },
+      {
+        "drug_name": "CARBIDOPA;LEVODOPA",
+        "adverse_event": "Embedded device",
+        "log_ratio": -6.447123659548959,
+        "direction": "male_higher",
+        "total_reports": 717
+      },
+      {
+        "drug_name": "ETONOGESTREL",
+        "adverse_event": "Premature baby",
+        "log_ratio": -6.421162224144812,
+        "direction": "male_higher",
+        "total_reports": 41
+      },
+      {
+        "drug_name": "CARBIDOPA;LEVODOPA",
+        "adverse_event": "Device expulsion",
+        "log_ratio": -6.411558803376324,
+        "direction": "male_higher",
+        "total_reports": 127
+      },
+      {
+        "drug_name": "ETONOGESTREL",
+        "adverse_event": "Injury associated with device",
+        "log_ratio": -6.3274744571603785,
+        "direction": "male_higher",
+        "total_reports": 55
+      },
+      {
+        "drug_name": "ETHINYLESTRADIOL;ETONOGESTREL",
+        "adverse_event": "Medical device discomfort",
+        "log_ratio": -6.030045047468779,
+        "direction": "male_higher",
+        "total_reports": 119
+      },
+      {
+        "drug_name": "TRASTUZUMAB",
+        "adverse_event": "Carbohydrate antigen 15-3 increased",
+        "log_ratio": -5.864657873936223,
+        "direction": "male_higher",
+        "total_reports": 29
+      },
+      {
+        "drug_name": "ESTRADIOL",
+        "adverse_event": "Invasive ductal breast carcinoma",
+        "log_ratio": -5.864613801833109,
+        "direction": "male_higher",
+        "total_reports": 52
+      },
+      {
+        "drug_name": "VITAMIN B12",
+        "adverse_event": "Abortion spontaneous",
+        "log_ratio": -5.85809251070579,
+        "direction": "male_higher",
+        "total_reports": 35
+      },
+      {
+        "drug_name": "FEZOLINETANT",
+        "adverse_event": "Off label use",
+        "log_ratio": -5.7443138761509145,
+        "direction": "male_higher",
+        "total_reports": 81
+      },
+      {
+        "drug_name": "LABETALOL",
+        "adverse_event": "Abortion spontaneous",
+        "log_ratio": -5.678888909227175,
+        "direction": "male_higher",
+        "total_reports": 63
+      }
+    ]
+  }
+}
