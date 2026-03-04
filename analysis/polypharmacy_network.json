@@ -1,0 +1,346 @@
+{
+  "signal_count_bins": [
+    {
+      "range": "1-4",
+      "n_drugs": 784,
+      "f_pct": 56.8
+    },
+    {
+      "range": "5-9",
+      "n_drugs": 304,
+      "f_pct": 61.4
+    },
+    {
+      "range": "10-19",
+      "n_drugs": 272,
+      "f_pct": 62.9
+    },
+    {
+      "range": "20-49",
+      "n_drugs": 343,
+      "f_pct": 62.3
+    },
+    {
+      "range": "50-99",
+      "n_drugs": 200,
+      "f_pct": 66.5
+    },
+    {
+      "range": "100-199",
+      "n_drugs": 140,
+      "f_pct": 66.1
+    },
+    {
+      "range": "200-499",
+      "n_drugs": 121,
+      "f_pct": 76.9
+    },
+    {
+      "range": "500-999",
+      "n_drugs": 14,
+      "f_pct": 81.4
+    }
+  ],
+  "most_promiscuous_aes": [
+    {
+      "ae": "Drug ineffective",
+      "n_drugs": 501,
+      "n_signals": 501,
+      "f_pct": 72.1
+    },
+    {
+      "ae": "Off label use",
+      "n_drugs": 445,
+      "n_signals": 445,
+      "f_pct": 72.2
+    },
+    {
+      "ae": "Condition aggravated",
+      "n_drugs": 392,
+      "n_signals": 392,
+      "f_pct": 74.0
+    },
+    {
+      "ae": "Vomiting",
+      "n_drugs": 362,
+      "n_signals": 362,
+      "f_pct": 81.6
+    },
+    {
+      "ae": "Dyspnoea",
+      "n_drugs": 349,
+      "n_signals": 349,
+      "f_pct": 78.5
+    },
+    {
+      "ae": "Nausea",
+      "n_drugs": 339,
+      "n_signals": 339,
+      "f_pct": 74.8
+    },
+    {
+      "ae": "Death",
+      "n_drugs": 337,
+      "n_signals": 337,
+      "f_pct": 44.2
+    },
+    {
+      "ae": "Fatigue",
+      "n_drugs": 332,
+      "n_signals": 332,
+      "f_pct": 84.6
+    },
+    {
+      "ae": "Headache",
+      "n_drugs": 327,
+      "n_signals": 327,
+      "f_pct": 82.2
+    },
+    {
+      "ae": "Pain",
+      "n_drugs": 327,
+      "n_signals": 327,
+      "f_pct": 74.8
+    },
+    {
+      "ae": "Pyrexia",
+      "n_drugs": 322,
+      "n_signals": 322,
+      "f_pct": 81.0
+    },
+    {
+      "ae": "Hypertension",
+      "n_drugs": 313,
+      "n_signals": 313,
+      "f_pct": 84.1
+    },
+    {
+      "ae": "Product use in unapproved indication",
+      "n_drugs": 304,
+      "n_signals": 304,
+      "f_pct": 72.3
+    },
+    {
+      "ae": "Rash",
+      "n_drugs": 301,
+      "n_signals": 301,
+      "f_pct": 89.2
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "n_drugs": 299,
+      "n_signals": 299,
+      "f_pct": 83.6
+    },
+    {
+      "ae": "Diarrhoea",
+      "n_drugs": 296,
+      "n_signals": 296,
+      "f_pct": 82.8
+    },
+    {
+      "ae": "Dizziness",
+      "n_drugs": 289,
+      "n_signals": 289,
+      "f_pct": 81.9
+    },
+    {
+      "ae": "Hypersensitivity",
+      "n_drugs": 281,
+      "n_signals": 281,
+      "f_pct": 89.8
+    },
+    {
+      "ae": "Drug intolerance",
+      "n_drugs": 279,
+      "n_signals": 279,
+      "f_pct": 87.4
+    },
+    {
+      "ae": "Malaise",
+      "n_drugs": 275,
+      "n_signals": 275,
+      "f_pct": 83.0
+    },
+    {
+      "ae": "Hypotension",
+      "n_drugs": 274,
+      "n_signals": 274,
+      "f_pct": 69.2
+    },
+    {
+      "ae": "Acute kidney injury",
+      "n_drugs": 267,
+      "n_signals": 267,
+      "f_pct": 49.3
+    },
+    {
+      "ae": "Pneumonia",
+      "n_drugs": 267,
+      "n_signals": 267,
+      "f_pct": 77.0
+    },
+    {
+      "ae": "Asthenia",
+      "n_drugs": 266,
+      "n_signals": 266,
+      "f_pct": 79.1
+    },
+    {
+      "ae": "Weight decreased",
+      "n_drugs": 261,
+      "n_signals": 261,
+      "f_pct": 76.1
+    },
+    {
+      "ae": "Abdominal pain",
+      "n_drugs": 261,
+      "n_signals": 261,
+      "f_pct": 71.0
+    },
+    {
+      "ae": "Anxiety",
+      "n_drugs": 260,
+      "n_signals": 260,
+      "f_pct": 66.7
+    },
+    {
+      "ae": "Product use issue",
+      "n_drugs": 256,
+      "n_signals": 256,
+      "f_pct": 85.6
+    },
+    {
+      "ae": "Toxicity to various agents",
+      "n_drugs": 255,
+      "n_signals": 255,
+      "f_pct": 57.5
+    },
+    {
+      "ae": "Fall",
+      "n_drugs": 250,
+      "n_signals": 250,
+      "f_pct": 75.7
+    }
+  ],
+  "promiscuity_vs_sex_bias": {
+    "rho": 0.256,
+    "p": 1.8244593036201573e-26,
+    "n_aes": 1668
+  },
+  "hub_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 926,
+      "f_pct": 82.6
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 892,
+      "f_pct": 84.8
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 807,
+      "f_pct": 82.8
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 755,
+      "f_pct": 85.6
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 623,
+      "f_pct": 83.9
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 618,
+      "f_pct": 86.2
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_aes": 572,
+      "f_pct": 47.5
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_aes": 542,
+      "f_pct": 64.9
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_aes": 537,
+      "f_pct": 54.1
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_aes": 521,
+      "f_pct": 83.2
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_aes": 518,
+      "f_pct": 28.5
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 508,
+      "f_pct": 91.4
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_aes": 507,
+      "f_pct": 77.6
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_aes": 501,
+      "f_pct": 78.7
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_aes": 498,
+      "f_pct": 59.8
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 492,
+      "f_pct": 75.4
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 487,
+      "f_pct": 87.0
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_aes": 456,
+      "f_pct": 83.7
+    },
+    {
+      "drug": "MORPHINE",
+      "n_aes": 441,
+      "f_pct": 70.2
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_aes": 433,
+      "f_pct": 60.5
+    }
+  ],
+  "connectivity_vs_sex_bias": {
+    "rho": 0.108,
+    "p": 0.00034172612292806957,
+    "n_drugs": 1090
+  },
+  "network_summary": {
+    "n_drugs": 2178,
+    "n_aes": 5069,
+    "n_edges": 96281,
+    "density": 0.0087,
+    "mean_drug_degree": 44.2,
+    "mean_ae_degree": 19.0
+  }
+}
