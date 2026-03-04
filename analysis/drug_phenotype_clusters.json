@@ -1,0 +1,296 @@
+{
+  "analysis": "drug_phenotype_clustering",
+  "common_aes": 521,
+  "drugs_in_matrix": 2128,
+  "active_drugs": 726,
+  "clusters_10": [
+    {
+      "cluster_id": 1,
+      "n_drugs": 52,
+      "pct_female": 60.8,
+      "n_signals": 19923,
+      "top_drugs": [
+        "OXYCODONE",
+        "GOLIMUMAB",
+        "HYDROXYCHLOROQUINE",
+        "RITUXIMAB",
+        "SULFASALAZINE",
+        "SECUKINUMAB",
+        "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+        "OXYCODONE;PARACETAMOL",
+        "PREDNISONE",
+        "DICLOFENAC"
+      ],
+      "female_characteristic_aes": [
+        "Malaise",
+        "C-reactive protein",
+        "Malignant transformation"
+      ],
+      "male_characteristic_aes": [
+        "Xerosis",
+        "Ocular icterus",
+        "Ear infection bacterial"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "n_drugs": 44,
+      "pct_female": 56.0,
+      "n_signals": 4863,
+      "top_drugs": [
+        "DESOXIMETASONE",
+        "ALENDRONIC ACID",
+        "VITAMIN B9",
+        "CETIRIZINE",
+        "HYDROCORTISONE",
+        "CALCIUM",
+        "PSEUDOEPHEDRINE",
+        "ATOMOXETINE",
+        "CORTISONE",
+        "MOXIFLOXACIN"
+      ],
+      "female_characteristic_aes": [
+        "Ear pruritus",
+        "Sneezing",
+        "Colorectal cancer stage II"
+      ],
+      "male_characteristic_aes": [
+        "Injection site pruritus",
+        "Mast cell activation syndrome",
+        "Maternal drugs affecting foetus"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "n_drugs": 133,
+      "pct_female": 67.5,
+      "n_signals": 16574,
+      "top_drugs": [
+        "ANTITHYMOCYTE IMMUNOGLOBULIN",
+        "SIROLIMUS",
+        "BEVACIZUMAB",
+        "VANCOMYCIN",
+        "VINCRISTINE",
+        "MYCOPHENOLATE MOFETIL",
+        "BORTEZOMIB",
+        "AMPHOTERICIN B",
+        "DEXAMETHASONE",
+        "FLUDARABINE"
+      ],
+      "female_characteristic_aes": [
+        "Hyperviscosity syndrome",
+        "Hypoproteinaemia",
+        "Zygomycosis"
+      ],
+      "male_characteristic_aes": [
+        "Patient dissatisfaction with treatment",
+        "Libido decreased",
+        "Leukaemic infiltration extramedullary"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "n_drugs": 201,
+      "pct_female": 51.6,
+      "n_signals": 13978,
+      "top_drugs": [
+        "ALENDRONIC ACID;VITAMIN D3",
+        "DESVENLAFAXINE",
+        "FOLIC ACID",
+        "TAMSULOSIN",
+        "DICLOFENAC SODIUM",
+        "OXAZEPAM",
+        "LEUPRORELIN",
+        "VENLAFAXINE",
+        "ZIPRASIDONE",
+        "CLOZAPINE"
+      ],
+      "female_characteristic_aes": [
+        "Galactorrhoea",
+        "Pancreatic carcinoma metastatic",
+        "Multi-organ failure"
+      ],
+      "male_characteristic_aes": [
+        "5-hydroxyindolacetic acid increased",
+        "Impaired gastric emptying",
+        "Impaired self-care"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "n_drugs": 76,
+      "pct_female": 65.6,
+      "n_signals": 11348,
+      "top_drugs": [
+        "RISPERIDONE",
+        "LACTULOSE",
+        "AMLODIPINE",
+        "NORTRIPTYLINE",
+        "SERTRALINE",
+        "ATORVASTATIN",
+        "ABACAVIR",
+        "CLONIDINE",
+        "APIXABAN",
+        "ROSUVASTATIN"
+      ],
+      "female_characteristic_aes": [
+        "Functional gastrointestinal disorder",
+        "Gastrointestinal angiodysplasia",
+        "Yawning"
+      ],
+      "male_characteristic_aes": [
+        "Breath sounds abnormal",
+        "Cheilitis",
+        "Plantar fasciitis"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "n_drugs": 38,
+      "pct_female": 42.4,
+      "n_signals": 4420,
+      "top_drugs": [
+        "SODIUM PICOSULFATE",
+        "VITAMIN A",
+        "IRON",
+        "CEFTRIAXONE",
+        "MELATONIN",
+        "BISACODYL",
+        "BETAMETHASONE",
+        "CALCITRIOL",
+        "ONDANSETRON",
+        "DARBEPOETIN ALFA"
+      ],
+      "female_characteristic_aes": [
+        "Drug administration error",
+        "Palmoplantar keratoderma",
+        "Dementia"
+      ],
+      "male_characteristic_aes": [
+        "Infusion site induration",
+        "Muscle contractions involuntary",
+        "Muscle discomfort"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "n_drugs": 62,
+      "pct_female": 39.1,
+      "n_signals": 3134,
+      "top_drugs": [
+        "MINOXIDIL",
+        "GLUCOSE",
+        "SODIUM CITRATE",
+        "TESTOSTERONE",
+        "MIFEPRISTONE",
+        "KETOROLAC",
+        "GALANTAMINE",
+        "ATAZANAVIR",
+        "ATORVASTATIN CALCIUM",
+        "EFAVIRENZ"
+      ],
+      "female_characteristic_aes": [
+        "Product physical issue",
+        "Haematochezia",
+        "Metabolic acidosis"
+      ],
+      "male_characteristic_aes": [
+        "Abasia",
+        "Gastrooesophageal reflux disease",
+        "Gastroenteritis"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "n_drugs": 31,
+      "pct_female": 36.9,
+      "n_signals": 4296,
+      "top_drugs": [
+        "VITAMIN D2",
+        "LEVOFLOXACIN",
+        "FLUTICASONE;SALMETEROL",
+        "SALBUTAMOL",
+        "CEFALEXIN",
+        "DOXAZOSIN",
+        "FORMOTEROL;MOMETASONE",
+        "UMECLIDINIUM",
+        "DOMPERIDONE",
+        "TIOTROPIUM"
+      ],
+      "female_characteristic_aes": [
+        "Post-traumatic stress disorder",
+        "Dyslipidaemia",
+        "Abasia"
+      ],
+      "male_characteristic_aes": [
+        "Intentional device misuse",
+        "Parkinson's disease",
+        "Papillary thyroid cancer"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "n_drugs": 11,
+      "pct_female": 36.9,
+      "n_signals": 1819,
+      "top_drugs": [
+        "FELODIPINE",
+        "MEBEVERINE",
+        "EPINEPHRINE",
+        "ESCITALOPRAM",
+        "LEVOTHYROXINE",
+        "ALBENDAZOLE",
+        "BUDESONIDE",
+        "COVID-19 VACCINE",
+        "ESOMEPRAZOLE",
+        "DAPAGLIFLOZIN"
+      ],
+      "female_characteristic_aes": [
+        "Lung neoplasm malignant",
+        "Myocardial infarction",
+        "Yawning"
+      ],
+      "male_characteristic_aes": [
+        "Abdominal discomfort",
+        "Intentional product use issue",
+        "Intentional underdose"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "n_drugs": 78,
+      "pct_female": 24.8,
+      "n_signals": 6456,
+      "top_drugs": [
+        "BOTULINUM TOXIN",
+        "GLYCERYL TRINITRATE",
+        "SODIUM AUROTHIOMALATE",
+        "GOLD (198 AU)",
+        "TRASTUZUMAB",
+        "DOCETAXEL",
+        "PETHIDINE",
+        "PERTUZUMAB",
+        "IPRATROPIUM",
+        "CANAKINUMAB"
+      ],
+      "female_characteristic_aes": [
+        "Central venous catheterisation",
+        "Philadelphia chromosome positive",
+        "Chronic myeloid leukaemia transformation"
+      ],
+      "male_characteristic_aes": [
+        "Abasia",
+        "Meniscus injury",
+        "Meningioma"
+      ]
+    }
+  ],
+  "most_similar_pairs": [
+    {
+      "drug1": "FELODIPINE",
+      "drug2": "MEBEVERINE",
+      "similarity": 0.82
+    }
+  ],
+  "most_different_pairs": []
+}

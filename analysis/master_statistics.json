@@ -1,0 +1,77 @@
+{
+  "kg": {
+    "total_nodes": 109867,
+    "total_edges": 1822851,
+    "node_types": {
+      "Gene": 77498,
+      "Protein": 16201,
+      "AdverseEvent": 9949,
+      "Drug": 3920,
+      "Pathway": 2279,
+      "Tissue": 20
+    },
+    "edge_types": {
+      "has_adverse_event": 869142,
+      "interacts_with": 473860,
+      "participates_in": 370597,
+      "sex_differential_adverse_event": 96281,
+      "targets": 12682,
+      "sex_differential_expression": 289
+    }
+  },
+  "signals": {
+    "total": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "pct_female": 53.8,
+    "unique_drugs": 2178,
+    "unique_aes": 5069
+  },
+  "volume_gradient": {
+    "q1": 42.9,
+    "q2": 46.4,
+    "q3": 51.3,
+    "q4": 55.2,
+    "q5": 73.3,
+    "top_1pct": 88.9,
+    "rho": 0.258
+  },
+  "severity_gradient": {
+    "moderate": 50.2,
+    "serious": 69.5,
+    "life_threatening": 68.2,
+    "drugs_100pct_f_lt": 78
+  },
+  "models": {
+    "ComplEx_v4": {
+      "MRR": 0.2484,
+      "Hits10": 0.4069
+    },
+    "DistMult_v41": {
+      "MRR": 0.1013,
+      "Hits10": 0.1961
+    }
+  },
+  "validation": {
+    "benchmarks": 40,
+    "coverage": 72.5,
+    "precision": 82.8
+  },
+  "key_findings": {
+    "cardiac_reversal": 65.1,
+    "death": 74.5,
+    "sudden_death": 94.6,
+    "cpi_irae": 100.0,
+    "anti_regression": 0.258,
+    "report_anti_corr": -0.215,
+    "drugs_needing_warnings": 187,
+    "divergent_targets": 116,
+    "universal_aes": 246
+  },
+  "inventory": {
+    "json": 61,
+    "tsv": 28,
+    "figures": 40,
+    "papers": 6
+  }
+}
