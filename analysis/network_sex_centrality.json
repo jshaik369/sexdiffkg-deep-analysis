@@ -1,0 +1,276 @@
+{
+  "network_stats": {
+    "n_drugs": 2178,
+    "n_aes": 5069,
+    "n_edges": 96281,
+    "density": 0.008721,
+    "drug_degree_mean": 44.2,
+    "ae_degree_mean": 19.0
+  },
+  "degree_sex_correlations": {
+    "drug_degree_sex_rho": 0.1172,
+    "ae_degree_sex_rho": 0.1431,
+    "degree_assortativity": -0.395
+  },
+  "degree_quintiles": [
+    {
+      "quintile": "Q1",
+      "n_drugs": 547,
+      "mean_degree": 1.0,
+      "mean_f_pct": 53.4,
+      "mean_lr": 0.974
+    },
+    {
+      "quintile": "Q2",
+      "n_drugs": 378,
+      "mean_degree": 4.0,
+      "mean_f_pct": 53.4,
+      "mean_lr": 0.978
+    },
+    {
+      "quintile": "Q3",
+      "n_drugs": 382,
+      "mean_degree": 11.0,
+      "mean_f_pct": 55.4,
+      "mean_lr": 0.935
+    },
+    {
+      "quintile": "Q4",
+      "n_drugs": 439,
+      "mean_degree": 32.0,
+      "mean_f_pct": 54.5,
+      "mean_lr": 0.926
+    },
+    {
+      "quintile": "Q5",
+      "n_drugs": 432,
+      "mean_degree": 176.0,
+      "mean_f_pct": 57.5,
+      "mean_lr": 0.976
+    }
+  ],
+  "hub_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "degree": 926,
+      "mean_f_pct": 63.8,
+      "mean_lr": 1.08
+    },
+    {
+      "drug": "METHOTREXATE",
+      "degree": 892,
+      "mean_f_pct": 64.3,
+      "mean_lr": 0.967
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "degree": 807,
+      "mean_f_pct": 64.0,
+      "mean_lr": 0.879
+    },
+    {
+      "drug": "RITUXIMAB",
+      "degree": 755,
+      "mean_f_pct": 66.4,
+      "mean_lr": 1.164
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "degree": 623,
+      "mean_f_pct": 64.9,
+      "mean_lr": 1.089
+    },
+    {
+      "drug": "ETANERCEPT",
+      "degree": 618,
+      "mean_f_pct": 69.9,
+      "mean_lr": 0.984
+    },
+    {
+      "drug": "TACROLIMUS",
+      "degree": 572,
+      "mean_f_pct": 48.0,
+      "mean_lr": 0.879
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "degree": 542,
+      "mean_f_pct": 60.1,
+      "mean_lr": 0.886
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "degree": 537,
+      "mean_f_pct": 54.0,
+      "mean_lr": 0.858
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "degree": 521,
+      "mean_f_pct": 66.9,
+      "mean_lr": 1.156
+    },
+    {
+      "drug": "RISPERIDONE",
+      "degree": 518,
+      "mean_f_pct": 47.7,
+      "mean_lr": 1.168
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "degree": 508,
+      "mean_f_pct": 72.3,
+      "mean_lr": 1.186
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "degree": 507,
+      "mean_f_pct": 60.4,
+      "mean_lr": 1.112
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "degree": 501,
+      "mean_f_pct": 63.5,
+      "mean_lr": 1.131
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "degree": 498,
+      "mean_f_pct": 56.4,
+      "mean_lr": 0.908
+    },
+    {
+      "drug": "OXYCODONE",
+      "degree": 492,
+      "mean_f_pct": 65.3,
+      "mean_lr": 1.332
+    },
+    {
+      "drug": "PARACETAMOL",
+      "degree": 487,
+      "mean_f_pct": 67.6,
+      "mean_lr": 1.176
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "degree": 456,
+      "mean_f_pct": 66.8,
+      "mean_lr": 1.04
+    },
+    {
+      "drug": "MORPHINE",
+      "degree": 441,
+      "mean_f_pct": 67.1,
+      "mean_lr": 1.117
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "degree": 433,
+      "mean_f_pct": 56.1,
+      "mean_lr": 0.983
+    }
+  ],
+  "hub_aes": [
+    {
+      "ae": "Drug ineffective",
+      "degree": 501,
+      "mean_f_pct": 57.1
+    },
+    {
+      "ae": "Off label use",
+      "degree": 445,
+      "mean_f_pct": 59.4
+    },
+    {
+      "ae": "Condition aggravated",
+      "degree": 392,
+      "mean_f_pct": 51.6
+    },
+    {
+      "ae": "Vomiting",
+      "degree": 362,
+      "mean_f_pct": 63.2
+    },
+    {
+      "ae": "Dyspnoea",
+      "degree": 349,
+      "mean_f_pct": 60.8
+    },
+    {
+      "ae": "Nausea",
+      "degree": 339,
+      "mean_f_pct": 60.6
+    },
+    {
+      "ae": "Death",
+      "degree": 337,
+      "mean_f_pct": 46.1
+    },
+    {
+      "ae": "Fatigue",
+      "degree": 332,
+      "mean_f_pct": 69.2
+    },
+    {
+      "ae": "Headache",
+      "degree": 327,
+      "mean_f_pct": 68.0
+    },
+    {
+      "ae": "Pain",
+      "degree": 327,
+      "mean_f_pct": 72.2
+    },
+    {
+      "ae": "Pyrexia",
+      "degree": 322,
+      "mean_f_pct": 64.9
+    },
+    {
+      "ae": "Hypertension",
+      "degree": 313,
+      "mean_f_pct": 67.6
+    },
+    {
+      "ae": "Product use in unapproved indication",
+      "degree": 304,
+      "mean_f_pct": 58.7
+    },
+    {
+      "ae": "Rash",
+      "degree": 301,
+      "mean_f_pct": 72.1
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "degree": 299,
+      "mean_f_pct": 66.3
+    },
+    {
+      "ae": "Diarrhoea",
+      "degree": 296,
+      "mean_f_pct": 68.1
+    },
+    {
+      "ae": "Dizziness",
+      "degree": 289,
+      "mean_f_pct": 65.6
+    },
+    {
+      "ae": "Hypersensitivity",
+      "degree": 281,
+      "mean_f_pct": 69.7
+    },
+    {
+      "ae": "Drug intolerance",
+      "degree": 279,
+      "mean_f_pct": 64.0
+    },
+    {
+      "ae": "Malaise",
+      "degree": 275,
+      "mean_f_pct": 66.5
+    }
+  ]
+}
