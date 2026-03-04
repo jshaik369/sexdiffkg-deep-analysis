@@ -1,0 +1,591 @@
+{
+  "analysis": "safety_label_gap_analysis",
+  "off_target_candidates": [
+    {
+      "drug": "PREDNISONE",
+      "unique_aes": 926,
+      "n_targets": 1,
+      "pct_female": 70.2
+    },
+    {
+      "drug": "METHOTREXATE",
+      "unique_aes": 892,
+      "n_targets": 1,
+      "pct_female": 48.5
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "unique_aes": 807,
+      "n_targets": 1,
+      "pct_female": 38.2
+    },
+    {
+      "drug": "RITUXIMAB",
+      "unique_aes": 755,
+      "n_targets": 1,
+      "pct_female": 66.6
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "unique_aes": 623,
+      "n_targets": 1,
+      "pct_female": 50.4
+    },
+    {
+      "drug": "ETANERCEPT",
+      "unique_aes": 618,
+      "n_targets": 1,
+      "pct_female": 42.6
+    },
+    {
+      "drug": "TACROLIMUS",
+      "unique_aes": 572,
+      "n_targets": 1,
+      "pct_female": 75.9
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "unique_aes": 542,
+      "n_targets": 1,
+      "pct_female": 82.5
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "unique_aes": 537,
+      "n_targets": 1,
+      "pct_female": 80.3
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "unique_aes": 521,
+      "n_targets": 1,
+      "pct_female": 77.2
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "unique_aes": 508,
+      "n_targets": 1,
+      "pct_female": 49.4
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "unique_aes": 501,
+      "n_targets": 0,
+      "pct_female": 60.3
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "unique_aes": 498,
+      "n_targets": 0,
+      "pct_female": 64.7
+    },
+    {
+      "drug": "OXYCODONE",
+      "unique_aes": 492,
+      "n_targets": 1,
+      "pct_female": 85.0
+    },
+    {
+      "drug": "PARACETAMOL",
+      "unique_aes": 487,
+      "n_targets": 0,
+      "pct_female": 56.9
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "unique_aes": 456,
+      "n_targets": 1,
+      "pct_female": 52.2
+    },
+    {
+      "drug": "MORPHINE",
+      "unique_aes": 441,
+      "n_targets": 0,
+      "pct_female": 83.4
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "unique_aes": 433,
+      "n_targets": 0,
+      "pct_female": 73.0
+    },
+    {
+      "drug": "QUETIAPINE",
+      "unique_aes": 426,
+      "n_targets": 0,
+      "pct_female": 63.4
+    },
+    {
+      "drug": "AMLODIPINE",
+      "unique_aes": 422,
+      "n_targets": 0,
+      "pct_female": 50.5
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "unique_aes": 418,
+      "n_targets": 0,
+      "pct_female": 42.3
+    },
+    {
+      "drug": "CICLOSPORIN",
+      "unique_aes": 409,
+      "n_targets": 0,
+      "pct_female": 49.4
+    },
+    {
+      "drug": "METFORMIN",
+      "unique_aes": 399,
+      "n_targets": 0,
+      "pct_female": 62.4
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "unique_aes": 388,
+      "n_targets": 0,
+      "pct_female": 46.4
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "unique_aes": 385,
+      "n_targets": 1,
+      "pct_female": 56.9
+    },
+    {
+      "drug": "ZOLEDRONIC ACID",
+      "unique_aes": 376,
+      "n_targets": 1,
+      "pct_female": 26.3
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "unique_aes": 376,
+      "n_targets": 0,
+      "pct_female": 51.9
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "unique_aes": 370,
+      "n_targets": 1,
+      "pct_female": 41.9
+    },
+    {
+      "drug": "RAMIPRIL",
+      "unique_aes": 368,
+      "n_targets": 1,
+      "pct_female": 71.2
+    },
+    {
+      "drug": "TRAMADOL",
+      "unique_aes": 360,
+      "n_targets": 0,
+      "pct_female": 75.3
+    }
+  ],
+  "polypharmacology_drugs": [
+    {
+      "drug": "METFORMIN HYDROCHLORIDE",
+      "n_targets": 51,
+      "n_signals": 59,
+      "pct_female": 50.8
+    },
+    {
+      "drug": "AMIFAMPRIDINE",
+      "n_targets": 40,
+      "n_signals": 7,
+      "pct_female": 57.1
+    },
+    {
+      "drug": "DALFAMPRIDINE",
+      "n_targets": 40,
+      "n_signals": 7,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "IXAZOMIB",
+      "n_targets": 38,
+      "n_signals": 90,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "OCRIPLASMIN",
+      "n_targets": 38,
+      "n_signals": 2,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "CARFILZOMIB",
+      "n_targets": 38,
+      "n_signals": 93,
+      "pct_female": 69.9
+    },
+    {
+      "drug": "TOPIRAMATE",
+      "n_targets": 37,
+      "n_signals": 200,
+      "pct_female": 48.0
+    },
+    {
+      "drug": "PRIMIDONE",
+      "n_targets": 26,
+      "n_signals": 11,
+      "pct_female": 18.2
+    },
+    {
+      "drug": "PREGABALIN",
+      "n_targets": 26,
+      "n_signals": 406,
+      "pct_female": 53.9
+    },
+    {
+      "drug": "CENOBAMATE",
+      "n_targets": 26,
+      "n_signals": 2,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "GABAPENTIN",
+      "n_targets": 26,
+      "n_signals": 333,
+      "pct_female": 34.8
+    },
+    {
+      "drug": "PHLOROGLUCINOL",
+      "n_targets": 26,
+      "n_signals": 3,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "COLLAGENASE CLOSTRIDIUM HISTOLYTICUM",
+      "n_targets": 25,
+      "n_signals": 24,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "PENTOXIFYLLINE",
+      "n_targets": 25,
+      "n_signals": 9,
+      "pct_female": 44.4
+    },
+    {
+      "drug": "VANDETANIB",
+      "n_targets": 25,
+      "n_signals": 11,
+      "pct_female": 63.6
+    },
+    {
+      "drug": "DIPYRIDAMOLE",
+      "n_targets": 24,
+      "n_signals": 8,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "SEVOFLURANE",
+      "n_targets": 23,
+      "n_signals": 30,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "ISOFLURANE",
+      "n_targets": 23,
+      "n_signals": 8,
+      "pct_female": 62.5
+    },
+    {
+      "drug": "DESFLURANE",
+      "n_targets": 23,
+      "n_signals": 2,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "AMISULPRIDE",
+      "n_targets": 19,
+      "n_signals": 52,
+      "pct_female": 59.6
+    }
+  ],
+  "over_enriched_aes": [
+    {
+      "ae": "Drug ineffective",
+      "enrichment": 26.4,
+      "n_signals": 501,
+      "pct_female": 37.7
+    },
+    {
+      "ae": "Off label use",
+      "enrichment": 23.4,
+      "n_signals": 445,
+      "pct_female": 50.8
+    },
+    {
+      "ae": "Condition aggravated",
+      "enrichment": 20.6,
+      "n_signals": 392,
+      "pct_female": 33.7
+    },
+    {
+      "ae": "Vomiting",
+      "enrichment": 19.1,
+      "n_signals": 362,
+      "pct_female": 48.9
+    },
+    {
+      "ae": "Dyspnoea",
+      "enrichment": 18.4,
+      "n_signals": 349,
+      "pct_female": 51.9
+    },
+    {
+      "ae": "Nausea",
+      "enrichment": 17.8,
+      "n_signals": 339,
+      "pct_female": 39.5
+    },
+    {
+      "ae": "Death",
+      "enrichment": 17.7,
+      "n_signals": 337,
+      "pct_female": 74.5
+    },
+    {
+      "ae": "Fatigue",
+      "enrichment": 17.5,
+      "n_signals": 332,
+      "pct_female": 66.3
+    },
+    {
+      "ae": "Pain",
+      "enrichment": 17.2,
+      "n_signals": 327,
+      "pct_female": 69.4
+    },
+    {
+      "ae": "Headache",
+      "enrichment": 17.2,
+      "n_signals": 327,
+      "pct_female": 50.2
+    },
+    {
+      "ae": "Pyrexia",
+      "enrichment": 17.0,
+      "n_signals": 322,
+      "pct_female": 68.6
+    },
+    {
+      "ae": "Hypertension",
+      "enrichment": 16.5,
+      "n_signals": 313,
+      "pct_female": 66.1
+    },
+    {
+      "ae": "Product use in unapproved indication",
+      "enrichment": 16.0,
+      "n_signals": 304,
+      "pct_female": 50.7
+    },
+    {
+      "ae": "Rash",
+      "enrichment": 15.8,
+      "n_signals": 301,
+      "pct_female": 73.4
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "enrichment": 15.7,
+      "n_signals": 299,
+      "pct_female": 46.2
+    },
+    {
+      "ae": "Diarrhoea",
+      "enrichment": 15.6,
+      "n_signals": 296,
+      "pct_female": 68.6
+    },
+    {
+      "ae": "Dizziness",
+      "enrichment": 15.2,
+      "n_signals": 289,
+      "pct_female": 55.4
+    },
+    {
+      "ae": "Hypersensitivity",
+      "enrichment": 14.8,
+      "n_signals": 281,
+      "pct_female": 47.3
+    },
+    {
+      "ae": "Drug intolerance",
+      "enrichment": 14.7,
+      "n_signals": 279,
+      "pct_female": 44.8
+    },
+    {
+      "ae": "Malaise",
+      "enrichment": 14.5,
+      "n_signals": 275,
+      "pct_female": 54.9
+    },
+    {
+      "ae": "Hypotension",
+      "enrichment": 14.4,
+      "n_signals": 274,
+      "pct_female": 81.0
+    },
+    {
+      "ae": "Acute kidney injury",
+      "enrichment": 14.1,
+      "n_signals": 267,
+      "pct_female": 71.5
+    },
+    {
+      "ae": "Pneumonia",
+      "enrichment": 14.1,
+      "n_signals": 267,
+      "pct_female": 73.0
+    },
+    {
+      "ae": "Asthenia",
+      "enrichment": 14.0,
+      "n_signals": 266,
+      "pct_female": 73.7
+    },
+    {
+      "ae": "Weight decreased",
+      "enrichment": 13.7,
+      "n_signals": 261,
+      "pct_female": 79.7
+    },
+    {
+      "ae": "Abdominal pain",
+      "enrichment": 13.7,
+      "n_signals": 261,
+      "pct_female": 46.4
+    },
+    {
+      "ae": "Anxiety",
+      "enrichment": 13.7,
+      "n_signals": 260,
+      "pct_female": 41.9
+    },
+    {
+      "ae": "Product use issue",
+      "enrichment": 13.5,
+      "n_signals": 256,
+      "pct_female": 55.9
+    },
+    {
+      "ae": "Toxicity to various agents",
+      "enrichment": 13.4,
+      "n_signals": 255,
+      "pct_female": 70.2
+    },
+    {
+      "ae": "Fall",
+      "enrichment": 13.2,
+      "n_signals": 250,
+      "pct_female": 58.8
+    }
+  ],
+  "serious_underrepresented_aes": [
+    {
+      "ae": "Colorectal cancer",
+      "enrichment": 0.47,
+      "pct_female": 88.9
+    },
+    {
+      "ae": "Renal transplant failure",
+      "enrichment": 0.47,
+      "pct_female": 88.9
+    },
+    {
+      "ae": "Cardiac dysfunction",
+      "enrichment": 0.47,
+      "pct_female": 77.8
+    },
+    {
+      "ae": "Haemorrhagic stroke",
+      "enrichment": 0.47,
+      "pct_female": 88.9
+    },
+    {
+      "ae": "Colon cancer metastatic",
+      "enrichment": 0.47,
+      "pct_female": 88.9
+    },
+    {
+      "ae": "Cardiac valve disease",
+      "enrichment": 0.42,
+      "pct_female": 75.0
+    },
+    {
+      "ae": "Renal artery stenosis",
+      "enrichment": 0.42,
+      "pct_female": 62.5
+    },
+    {
+      "ae": "Renal tubular acidosis",
+      "enrichment": 0.42,
+      "pct_female": 62.5
+    },
+    {
+      "ae": "Colorectal cancer metastatic",
+      "enrichment": 0.42,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Renal transplant",
+      "enrichment": 0.42,
+      "pct_female": 87.5
+    },
+    {
+      "ae": "Renal tubular injury",
+      "enrichment": 0.42,
+      "pct_female": 87.5
+    },
+    {
+      "ae": "Cardiac amyloidosis",
+      "enrichment": 0.42,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Hepatic cyst",
+      "enrichment": 0.42,
+      "pct_female": 37.5
+    },
+    {
+      "ae": "Prerenal failure",
+      "enrichment": 0.42,
+      "pct_female": 87.5
+    },
+    {
+      "ae": "Cell death",
+      "enrichment": 0.37,
+      "pct_female": 85.7
+    },
+    {
+      "ae": "Immune-mediated hepatic disorder",
+      "enrichment": 0.37,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Catheterisation cardiac",
+      "enrichment": 0.37,
+      "pct_female": 28.6
+    },
+    {
+      "ae": "Hepatorenal syndrome",
+      "enrichment": 0.37,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Small cell lung cancer",
+      "enrichment": 0.37,
+      "pct_female": 71.4
+    },
+    {
+      "ae": "Near death experience",
+      "enrichment": 0.37,
+      "pct_female": 0.0
+    }
+  ]
+}

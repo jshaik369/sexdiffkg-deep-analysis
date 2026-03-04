@@ -1,0 +1,146 @@
+{
+  "analysis": "temporal_volume_deep_analysis",
+  "volume_quintiles": [
+    {
+      "quintile": "Q1 (lowest)",
+      "n_signals": 19913,
+      "median_reports": 30,
+      "pct_female": 42.9,
+      "mean_effect": 0.872
+    },
+    {
+      "quintile": "Q2",
+      "n_signals": 19241,
+      "median_reports": 46,
+      "pct_female": 46.4,
+      "mean_effect": 0.9
+    },
+    {
+      "quintile": "Q3",
+      "n_signals": 18761,
+      "median_reports": 73,
+      "pct_female": 51.3,
+      "mean_effect": 0.925
+    },
+    {
+      "quintile": "Q4",
+      "n_signals": 19147,
+      "median_reports": 134,
+      "pct_female": 55.2,
+      "mean_effect": 1.016
+    },
+    {
+      "quintile": "Q5 (highest)",
+      "n_signals": 19219,
+      "median_reports": 463,
+      "pct_female": 73.3,
+      "mean_effect": 1.223
+    }
+  ],
+  "top_1pct_pct_female": 88.9,
+  "super_consistent_aes": [
+    {
+      "ae": "Adverse drug reaction",
+      "n_drugs": 206,
+      "pct_female": 93.7
+    },
+    {
+      "ae": "Haematuria",
+      "n_drugs": 134,
+      "pct_female": 93.3
+    },
+    {
+      "ae": "Blood creatine phosphokinase increased",
+      "n_drugs": 105,
+      "pct_female": 94.3
+    },
+    {
+      "ae": "Acne",
+      "n_drugs": 103,
+      "pct_female": 7.8
+    },
+    {
+      "ae": "Abdominal pain lower",
+      "n_drugs": 91,
+      "pct_female": 2.2
+    },
+    {
+      "ae": "Skin burning sensation",
+      "n_drugs": 73,
+      "pct_female": 5.5
+    },
+    {
+      "ae": "Neoplasm progression",
+      "n_drugs": 66,
+      "pct_female": 6.1
+    },
+    {
+      "ae": "Injection site erythema",
+      "n_drugs": 66,
+      "pct_female": 7.6
+    },
+    {
+      "ae": "Neurotoxicity",
+      "n_drugs": 64,
+      "pct_female": 90.6
+    },
+    {
+      "ae": "Pain of skin",
+      "n_drugs": 61,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Rash papular",
+      "n_drugs": 61,
+      "pct_female": 8.2
+    },
+    {
+      "ae": "Femur fracture",
+      "n_drugs": 61,
+      "pct_female": 9.8
+    },
+    {
+      "ae": "Impaired quality of life",
+      "n_drugs": 60,
+      "pct_female": 5.0
+    },
+    {
+      "ae": "Skin irritation",
+      "n_drugs": 58,
+      "pct_female": 1.7
+    },
+    {
+      "ae": "Osteonecrosis",
+      "n_drugs": 57,
+      "pct_female": 96.5
+    },
+    {
+      "ae": "Pathogen resistance",
+      "n_drugs": 57,
+      "pct_female": 93.0
+    },
+    {
+      "ae": "Tooth loss",
+      "n_drugs": 53,
+      "pct_female": 94.3
+    },
+    {
+      "ae": "Spinal fracture",
+      "n_drugs": 52,
+      "pct_female": 3.8
+    },
+    {
+      "ae": "Subdural haematoma",
+      "n_drugs": 52,
+      "pct_female": 94.2
+    }
+  ],
+  "consistency_vs_effect": {
+    "rho": 0.032,
+    "p_value": 0.19370654066281084
+  },
+  "strong_effect_pct_female": 59.4,
+  "weak_effect_pct_female": 51.6,
+  "ror_median_female": 2.65,
+  "ror_median_male": 2.42
+}

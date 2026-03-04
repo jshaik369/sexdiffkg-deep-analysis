@@ -1,0 +1,1243 @@
+{
+  "analysis": "comprehensive_drug_profiles",
+  "total_drugs": 2178,
+  "extreme_female_drugs": 20,
+  "extreme_male_drugs": 42,
+  "balanced_drugs": 90,
+  "report_vs_signal_correlation": {
+    "rho": -0.215,
+    "p_value": 6.924476141724183e-13
+  },
+  "divergent_families": [
+    {
+      "family": ".ALPHA.-TOCOPHEROL",
+      "n_members": 3,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          ".ALPHA.-TOCOPHEROL",
+          0.0
+        ],
+        [
+          ".ALPHA.-TOCOPHEROL ACETATE, D-",
+          0.0
+        ],
+        [
+          ".ALPHA.-TOCOPHEROL ACETATE, DL-",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "BETAMETHASONE",
+      "n_members": 4,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "BETAMETHASONE DIPROPIONATE\\CLOTRIMAZOLE",
+          0.0
+        ],
+        [
+          "BETAMETHASONE",
+          35.4
+        ],
+        [
+          "BETAMETHASONE DIPROPIONATE",
+          50.0
+        ],
+        [
+          "BETAMETHASONE VALERATE",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "CALCIUM",
+      "n_members": 10,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "CALCIUM ACETATE",
+          0.0
+        ],
+        [
+          "CALCIUM CHLORIDE",
+          0.0
+        ],
+        [
+          "CALCIUM CARBONATE",
+          8.3
+        ],
+        [
+          "CALCIUM",
+          40.2
+        ],
+        [
+          "CALCIUM GLUCONATE",
+          50.0
+        ],
+        [
+          "CALCIUM CHLORIDE\\DEXTROSE\\MAGNESIUM CHLORIDE\\SODIUM CHLORIDE\\SODIUM LACTATE",
+          55.6
+        ],
+        [
+          "CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE",
+          66.7
+        ],
+        [
+          "CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+          83.3
+        ],
+        [
+          "CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM BICARBONATE;SODIUM CHLORIDE;SODIUM LACTATE",
+          100.0
+        ],
+        [
+          "CALCIUM CHLORIDE\\DEXTROSE\\MAGNESIUM CHLORIDE\\SODIUM CHLORIDE SOLUTION",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "COVID-19",
+      "n_members": 4,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "COVID-19 CONVALESCENT PLASMA",
+          0.0
+        ],
+        [
+          "COVID-19 VACCINE NOS",
+          20.0
+        ],
+        [
+          "COVID-19 VACCINE",
+          43.2
+        ],
+        [
+          "COVID-19 SERUM",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "FACTOR",
+      "n_members": 7,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "FACTOR I",
+          0.0
+        ],
+        [
+          "FACTOR I;THROMBIN",
+          0.0
+        ],
+        [
+          "FACTOR VIII;VON WILLEBRAND FACTOR",
+          33.3
+        ],
+        [
+          "FACTOR VIII",
+          73.7
+        ],
+        [
+          "FACTOR II;FACTOR IX;FACTOR VII;FACTOR X;PROTEIN C;PROTEIN S",
+          100.0
+        ],
+        [
+          "FACTOR IX",
+          100.0
+        ],
+        [
+          "FACTOR VIIA",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "HERBALS,",
+      "n_members": 5,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "HERBALS, UNSPECIFIED;SENNA SPP",
+          0.0
+        ],
+        [
+          "HERBALS, UNSPECIFIED;PLANTAGO SPP",
+          16.7
+        ],
+        [
+          "HERBALS, UNSPECIFIED",
+          25.0
+        ],
+        [
+          "HERBALS, UNSPECIFIED;NUTRIENTS, UNSPECIFIED",
+          80.0
+        ],
+        [
+          "HERBALS, UNSPECIFIED;MITRAGYNA SPP",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "INTERFERON",
+      "n_members": 7,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "INTERFERON BETA",
+          0.0
+        ],
+        [
+          "INTERFERON BETA-1B",
+          5.7
+        ],
+        [
+          "INTERFERON BETA-1A",
+          12.9
+        ],
+        [
+          "INTERFERON ALFA-2B",
+          41.7
+        ],
+        [
+          "INTERFERON GAMMA",
+          60.0
+        ],
+        [
+          "INTERFERON",
+          72.7
+        ],
+        [
+          "INTERFERON ALFA-2A",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "SODIUM",
+      "n_members": 16,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "SODIUM GLYCEROPHOSPHATE",
+          0.0
+        ],
+        [
+          "SODIUM SULFIDE",
+          0.0
+        ],
+        [
+          "SODIUM THIOSULFATE",
+          0.0
+        ],
+        [
+          "SODIUM CITRATE",
+          3.7
+        ],
+        [
+          "SODIUM BICARBONATE;SODIUM CHLORIDE",
+          5.3
+        ],
+        [
+          "SODIUM CHLORIDE",
+          26.3
+        ],
+        [
+          "SODIUM",
+          30.0
+        ],
+        [
+          "SODIUM FLUORIDE",
+          30.0
+        ],
+        [
+          "SODIUM AUROTHIOMALATE",
+          30.9
+        ],
+        [
+          "SODIUM PICOSULFATE",
+          31.8
+        ],
+        [
+          "SODIUM BICARBONATE",
+          34.0
+        ],
+        [
+          "SODIUM PHOSPHATE",
+          45.2
+        ],
+        [
+          "SODIUM PHENYLBUTYRATE;TAURURSODIOL",
+          50.0
+        ],
+        [
+          "SODIUM PHENYLBUTYRATE",
+          100.0
+        ],
+        [
+          "SODIUM POLYSTYRENE SULFONATE",
+          100.0
+        ],
+        [
+          "SODIUM ZIRCONIUM CYCLOSILICATE",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "TECHNETIUM",
+      "n_members": 3,
+      "min_pct_f": 0.0,
+      "max_pct_f": 100.0,
+      "spread": 100.0,
+      "members": [
+        [
+          "TECHNETIUM (99M TC) SESTAMIBI",
+          0.0
+        ],
+        [
+          "TECHNETIUM TC 99M TETROFOSMIN",
+          100.0
+        ],
+        [
+          "TECHNETIUM TC-99M SODIUM PERTECHNETATE",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "ACETYLSALICYLIC",
+      "n_members": 6,
+      "min_pct_f": 10.0,
+      "max_pct_f": 100.0,
+      "spread": 90.0,
+      "members": [
+        [
+          "ACETYLSALICYLIC ACID;CAFFEINE;PARACETAMOL",
+          10.0
+        ],
+        [
+          "ACETYLSALICYLIC ACID;DIPYRIDAMOLE",
+          25.0
+        ],
+        [
+          "ACETYLSALICYLIC ACID;OXYCODONE",
+          69.2
+        ],
+        [
+          "ACETYLSALICYLIC ACID",
+          73.0
+        ],
+        [
+          "ACETYLSALICYLIC ACID;CARISOPRODOL",
+          100.0
+        ],
+        [
+          "ACETYLSALICYLIC ACID;CLOPIDOGREL",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "PREDNISOLONE",
+      "n_members": 3,
+      "min_pct_f": 12.5,
+      "max_pct_f": 100.0,
+      "spread": 87.5,
+      "members": [
+        [
+          "PREDNISOLONE ACETATE",
+          12.5
+        ],
+        [
+          "PREDNISOLONE",
+          82.5
+        ],
+        [
+          "PREDNISOLONE SODIUM PHOSPHATE",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "VITAMIN",
+      "n_members": 16,
+      "min_pct_f": 0.0,
+      "max_pct_f": 86.8,
+      "spread": 86.8,
+      "members": [
+        [
+          "VITAMIN B7",
+          0.0
+        ],
+        [
+          "VITAMIN K",
+          5.3
+        ],
+        [
+          "VITAMIN A",
+          11.5
+        ],
+        [
+          "VITAMIN B6",
+          25.0
+        ],
+        [
+          "VITAMIN E",
+          31.2
+        ],
+        [
+          "VITAMIN D, UNSPECIFIED",
+          38.8
+        ],
+        [
+          "VITAMIN B, UNSPECIFIED",
+          41.7
+        ],
+        [
+          "VITAMIN D3",
+          45.9
+        ],
+        [
+          "VITAMIN B9",
+          46.8
+        ],
+        [
+          "VITAMIN B2",
+          50.0
+        ],
+        [
+          "VITAMIN D2",
+          50.6
+        ],
+        [
+          "VITAMIN B5",
+          54.5
+        ],
+        [
+          "VITAMIN C",
+          63.6
+        ],
+        [
+          "VITAMIN B12",
+          73.0
+        ],
+        [
+          "VITAMIN B1",
+          77.3
+        ],
+        [
+          "VITAMIN B3",
+          86.8
+        ]
+      ]
+    },
+    {
+      "family": "PEGINTERFERON",
+      "n_members": 4,
+      "min_pct_f": 0.0,
+      "max_pct_f": 75.0,
+      "spread": 75.0,
+      "members": [
+        [
+          "PEGINTERFERON BETA-1A",
+          0.0
+        ],
+        [
+          "PEGINTERFERON ALFA-2A",
+          51.2
+        ],
+        [
+          "PEGINTERFERON ALFA-2B",
+          54.7
+        ],
+        [
+          "PEGINTERFERON ALFA",
+          75.0
+        ]
+      ]
+    },
+    {
+      "family": "ESOMEPRAZOLE",
+      "n_members": 3,
+      "min_pct_f": 45.9,
+      "max_pct_f": 100.0,
+      "spread": 54.1,
+      "members": [
+        [
+          "ESOMEPRAZOLE MAGNESIUM",
+          45.9
+        ],
+        [
+          "ESOMEPRAZOLE",
+          60.4
+        ],
+        [
+          "ESOMEPRAZOLE SODIUM",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "CALCIUM;VITAMIN",
+      "n_members": 3,
+      "min_pct_f": 0.0,
+      "max_pct_f": 51.2,
+      "spread": 51.2,
+      "members": [
+        [
+          "CALCIUM;VITAMIN D2",
+          0.0
+        ],
+        [
+          "CALCIUM;VITAMIN D, UNSPECIFIED",
+          8.0
+        ],
+        [
+          "CALCIUM;VITAMIN D3",
+          51.2
+        ]
+      ]
+    },
+    {
+      "family": "DICLOFENAC",
+      "n_members": 3,
+      "min_pct_f": 0.0,
+      "max_pct_f": 50.6,
+      "spread": 50.6,
+      "members": [
+        [
+          "DICLOFENAC POTASSIUM",
+          0.0
+        ],
+        [
+          "DICLOFENAC SODIUM",
+          26.9
+        ],
+        [
+          "DICLOFENAC",
+          50.6
+        ]
+      ]
+    },
+    {
+      "family": "DEXTROMETHORPHAN",
+      "n_members": 3,
+      "min_pct_f": 50.0,
+      "max_pct_f": 100.0,
+      "spread": 50.0,
+      "members": [
+        [
+          "DEXTROMETHORPHAN HYDROBROMIDE\\GUAIFENESIN",
+          50.0
+        ],
+        [
+          "DEXTROMETHORPHAN",
+          73.0
+        ],
+        [
+          "DEXTROMETHORPHAN HYDROBROMIDE",
+          100.0
+        ]
+      ]
+    },
+    {
+      "family": "MACROGOL;POTASSIUM;SODIUM",
+      "n_members": 4,
+      "min_pct_f": 0.0,
+      "max_pct_f": 50.0,
+      "spread": 50.0,
+      "members": [
+        [
+          "MACROGOL;POTASSIUM;SODIUM BICARBONATE",
+          0.0
+        ],
+        [
+          "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE;SODIUM SULFATE",
+          0.0
+        ],
+        [
+          "MACROGOL;POTASSIUM;SODIUM CHLORIDE;SODIUM SULFATE;VITAMIN C",
+          15.4
+        ],
+        [
+          "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+          50.0
+        ]
+      ]
+    },
+    {
+      "family": "MAGNESIUM",
+      "n_members": 4,
+      "min_pct_f": 0.0,
+      "max_pct_f": 50.0,
+      "spread": 50.0,
+      "members": [
+        [
+          "MAGNESIUM HYDROXIDE",
+          0.0
+        ],
+        [
+          "MAGNESIUM SULFATE",
+          0.0
+        ],
+        [
+          "MAGNESIUM",
+          50.0
+        ],
+        [
+          "MAGNESIUM OXIDE",
+          50.0
+        ]
+      ]
+    },
+    {
+      "family": "METFORMIN",
+      "n_members": 3,
+      "min_pct_f": 50.8,
+      "max_pct_f": 100.0,
+      "spread": 49.2,
+      "members": [
+        [
+          "METFORMIN HYDROCHLORIDE",
+          50.8
+        ],
+        [
+          "METFORMIN",
+          62.4
+        ],
+        [
+          "METFORMIN HYDROCHLORIDE\\VILDAGLIPTIN",
+          100.0
+        ]
+      ]
+    }
+  ],
+  "top_risk_drugs": [
+    {
+      "drug": "RANITIDINE",
+      "risk_score": 4557.0,
+      "n_signals": 324,
+      "pct_female": 93.5,
+      "mean_effect": 1.459
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "risk_score": 3882.0,
+      "n_signals": 5,
+      "pct_female": 0.0,
+      "mean_effect": 5.065
+    },
+    {
+      "drug": "RISPERIDONE",
+      "risk_score": 3790.1,
+      "n_signals": 518,
+      "pct_female": 92.9,
+      "mean_effect": 1.168
+    },
+    {
+      "drug": "OXYCODONE",
+      "risk_score": 3698.4,
+      "n_signals": 492,
+      "pct_female": 85.0,
+      "mean_effect": 1.332
+    },
+    {
+      "drug": "ESTRADIOL",
+      "risk_score": 3575.2,
+      "n_signals": 18,
+      "pct_female": 0.0,
+      "mean_effect": 2.805
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "risk_score": 3537.6,
+      "n_signals": 53,
+      "pct_female": 7.5,
+      "mean_effect": 2.135
+    },
+    {
+      "drug": "MEBEVERINE",
+      "risk_score": 3263.8,
+      "n_signals": 52,
+      "pct_female": 0.0,
+      "mean_effect": 1.921
+    },
+    {
+      "drug": "HYDROXYPROGESTERONE",
+      "risk_score": 3034.0,
+      "n_signals": 8,
+      "pct_female": 0.0,
+      "mean_effect": 3.648
+    },
+    {
+      "drug": "SILDENAFIL",
+      "risk_score": 2834.9,
+      "n_signals": 272,
+      "pct_female": 87.5,
+      "mean_effect": 1.235
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "risk_score": 2816.7,
+      "n_signals": 265,
+      "pct_female": 80.8,
+      "mean_effect": 1.385
+    },
+    {
+      "drug": "MORPHINE",
+      "risk_score": 2726.9,
+      "n_signals": 441,
+      "pct_female": 83.4,
+      "mean_effect": 1.117
+    },
+    {
+      "drug": "ALENDRONIC ACID;VITAMIN D3",
+      "risk_score": 2576.9,
+      "n_signals": 23,
+      "pct_female": 4.3,
+      "mean_effect": 1.977
+    },
+    {
+      "drug": "CODEINE;PARACETAMOL",
+      "risk_score": 2538.4,
+      "n_signals": 141,
+      "pct_female": 83.7,
+      "mean_effect": 1.403
+    },
+    {
+      "drug": "DOCETAXEL",
+      "risk_score": 2497.4,
+      "n_signals": 304,
+      "pct_female": 11.2,
+      "mean_effect": 0.989
+    },
+    {
+      "drug": "SODIUM BICARBONATE;SODIUM CHLORIDE",
+      "risk_score": 2398.5,
+      "n_signals": 19,
+      "pct_female": 5.3,
+      "mean_effect": 2.263
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "risk_score": 2378.4,
+      "n_signals": 521,
+      "pct_female": 77.2,
+      "mean_effect": 1.156
+    },
+    {
+      "drug": "FELODIPINE",
+      "risk_score": 2336.7,
+      "n_signals": 79,
+      "pct_female": 7.6,
+      "mean_effect": 1.301
+    },
+    {
+      "drug": "INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL",
+      "risk_score": 2321.7,
+      "n_signals": 4,
+      "pct_female": 0.0,
+      "mean_effect": 3.962
+    },
+    {
+      "drug": "VITAMIN B3",
+      "risk_score": 2248.9,
+      "n_signals": 76,
+      "pct_female": 86.8,
+      "mean_effect": 1.442
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "risk_score": 2219.0,
+      "n_signals": 322,
+      "pct_female": 20.5,
+      "mean_effect": 1.144
+    },
+    {
+      "drug": "HYDROXYQUINOLINE",
+      "risk_score": 2204.6,
+      "n_signals": 14,
+      "pct_female": 0.0,
+      "mean_effect": 2.465
+    },
+    {
+      "drug": "ALMOTRIPTAN",
+      "risk_score": 2179.2,
+      "n_signals": 5,
+      "pct_female": 0.0,
+      "mean_effect": 3.449
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "risk_score": 2169.9,
+      "n_signals": 507,
+      "pct_female": 76.3,
+      "mean_effect": 1.112
+    },
+    {
+      "drug": "ISOTRETINOIN",
+      "risk_score": 2154.7,
+      "n_signals": 217,
+      "pct_female": 9.2,
+      "mean_effect": 0.907
+    },
+    {
+      "drug": "FORMOTEROL;MOMETASONE",
+      "risk_score": 2109.6,
+      "n_signals": 118,
+      "pct_female": 14.4,
+      "mean_effect": 1.218
+    },
+    {
+      "drug": "VITAMIN B7",
+      "risk_score": 2104.0,
+      "n_signals": 18,
+      "pct_female": 0.0,
+      "mean_effect": 1.966
+    },
+    {
+      "drug": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+      "risk_score": 2082.1,
+      "n_signals": 5,
+      "pct_female": 0.0,
+      "mean_effect": 2.836
+    },
+    {
+      "drug": "UMECLIDINIUM",
+      "risk_score": 2080.2,
+      "n_signals": 80,
+      "pct_female": 16.2,
+      "mean_effect": 1.436
+    },
+    {
+      "drug": "SODIUM CITRATE",
+      "risk_score": 2068.1,
+      "n_signals": 27,
+      "pct_female": 3.7,
+      "mean_effect": 1.504
+    },
+    {
+      "drug": "TRASTUZUMAB EMTANSINE",
+      "risk_score": 2046.8,
+      "n_signals": 17,
+      "pct_female": 0.0,
+      "mean_effect": 1.694
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "risk_score": 2037.1,
+      "n_signals": 542,
+      "pct_female": 82.5,
+      "mean_effect": 0.886
+    },
+    {
+      "drug": "CODEINE",
+      "risk_score": 2009.2,
+      "n_signals": 190,
+      "pct_female": 75.8,
+      "mean_effect": 1.321
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "risk_score": 1990.8,
+      "n_signals": 311,
+      "pct_female": 76.5,
+      "mean_effect": 1.136
+    },
+    {
+      "drug": "PREDNISONE",
+      "risk_score": 1988.7,
+      "n_signals": 926,
+      "pct_female": 70.2,
+      "mean_effect": 1.08
+    },
+    {
+      "drug": "LISINOPRIL",
+      "risk_score": 1983.3,
+      "n_signals": 252,
+      "pct_female": 84.5,
+      "mean_effect": 0.953
+    },
+    {
+      "drug": "TRAMADOL",
+      "risk_score": 1973.7,
+      "n_signals": 360,
+      "pct_female": 75.3,
+      "mean_effect": 1.119
+    },
+    {
+      "drug": "MISOPROSTOL",
+      "risk_score": 1970.9,
+      "n_signals": 8,
+      "pct_female": 0.0,
+      "mean_effect": 2.804
+    },
+    {
+      "drug": "DIPHENHYDRAMINE",
+      "risk_score": 1949.2,
+      "n_signals": 220,
+      "pct_female": 77.3,
+      "mean_effect": 1.178
+    },
+    {
+      "drug": "METHOTREXATE SODIUM",
+      "risk_score": 1878.7,
+      "n_signals": 186,
+      "pct_female": 8.6,
+      "mean_effect": 0.872
+    },
+    {
+      "drug": "CHORIONIC GONADOTROPHIN",
+      "risk_score": 1864.9,
+      "n_signals": 14,
+      "pct_female": 0.0,
+      "mean_effect": 2.008
+    },
+    {
+      "drug": "TESTOSTERONE",
+      "risk_score": 1842.8,
+      "n_signals": 46,
+      "pct_female": 73.9,
+      "mean_effect": 2.02
+    },
+    {
+      "drug": "VITAMIN K",
+      "risk_score": 1821.5,
+      "n_signals": 19,
+      "pct_female": 5.3,
+      "mean_effect": 1.727
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "risk_score": 1818.6,
+      "n_signals": 537,
+      "pct_female": 80.3,
+      "mean_effect": 0.858
+    },
+    {
+      "drug": "MIFEPRISTONE",
+      "risk_score": 1801.9,
+      "n_signals": 47,
+      "pct_female": 0.0,
+      "mean_effect": 1.07
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "risk_score": 1796.9,
+      "n_signals": 58,
+      "pct_female": 5.2,
+      "mean_effect": 1.14
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "risk_score": 1795.4,
+      "n_signals": 161,
+      "pct_female": 85.7,
+      "mean_effect": 0.97
+    },
+    {
+      "drug": "CLOPIDOGREL",
+      "risk_score": 1781.6,
+      "n_signals": 300,
+      "pct_female": 82.3,
+      "mean_effect": 0.919
+    },
+    {
+      "drug": "OXYBUTYNIN",
+      "risk_score": 1780.3,
+      "n_signals": 62,
+      "pct_female": 14.5,
+      "mean_effect": 1.29
+    },
+    {
+      "drug": "RAMIPRIL",
+      "risk_score": 1776.5,
+      "n_signals": 368,
+      "pct_female": 71.2,
+      "mean_effect": 1.209
+    },
+    {
+      "drug": "FLUDARABINE",
+      "risk_score": 1749.2,
+      "n_signals": 184,
+      "pct_female": 84.2,
+      "mean_effect": 0.988
+    }
+  ],
+  "extreme_female_list": [
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "pct_female": 92.9
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_signals": 324,
+      "pct_female": 93.5
+    },
+    {
+      "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+      "n_signals": 68,
+      "pct_female": 91.2
+    },
+    {
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "n_signals": 62,
+      "pct_female": 93.5
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "n_signals": 61,
+      "pct_female": 90.2
+    },
+    {
+      "drug": "PRASUGREL",
+      "n_signals": 50,
+      "pct_female": 96.0
+    },
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "n_signals": 50,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "ROSIGLITAZONE",
+      "n_signals": 47,
+      "pct_female": 93.6
+    },
+    {
+      "drug": "SILDENAFIL CITRATE",
+      "n_signals": 42,
+      "pct_female": 95.2
+    },
+    {
+      "drug": "CARMUSTINE",
+      "n_signals": 39,
+      "pct_female": 92.3
+    },
+    {
+      "drug": "CASPOFUNGIN",
+      "n_signals": 37,
+      "pct_female": 91.9
+    },
+    {
+      "drug": "FLUDARABINE PHOSPHATE",
+      "n_signals": 37,
+      "pct_female": 97.3
+    },
+    {
+      "drug": "FLUINDIONE",
+      "n_signals": 24,
+      "pct_female": 95.8
+    },
+    {
+      "drug": "TEMSIROLIMUS",
+      "n_signals": 24,
+      "pct_female": 95.8
+    },
+    {
+      "drug": "BCG VACCINE",
+      "n_signals": 22,
+      "pct_female": 95.5
+    },
+    {
+      "drug": "BENDAMUSTINE HYDROCHLORIDE",
+      "n_signals": 22,
+      "pct_female": 90.9
+    },
+    {
+      "drug": "NALOXONE",
+      "n_signals": 21,
+      "pct_female": 90.5
+    },
+    {
+      "drug": "INOTERSEN",
+      "n_signals": 20,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "METFORMIN;ROSIGLITAZONE",
+      "n_signals": 20,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "BELATACEPT",
+      "n_signals": 20,
+      "pct_female": 95.0
+    }
+  ],
+  "extreme_male_list": [
+    {
+      "drug": "ISOTRETINOIN",
+      "n_signals": 217,
+      "pct_female": 9.2
+    },
+    {
+      "drug": "METHOTREXATE SODIUM",
+      "n_signals": 186,
+      "pct_female": 8.6
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "n_signals": 95,
+      "pct_female": 8.4
+    },
+    {
+      "drug": "FELODIPINE",
+      "n_signals": 79,
+      "pct_female": 7.6
+    },
+    {
+      "drug": "TERIFLUNOMIDE",
+      "n_signals": 77,
+      "pct_female": 7.8
+    },
+    {
+      "drug": "INTERFERON BETA-1B",
+      "n_signals": 70,
+      "pct_female": 5.7
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "n_signals": 58,
+      "pct_female": 5.2
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "n_signals": 53,
+      "pct_female": 7.5
+    },
+    {
+      "drug": "SOLIFENACIN",
+      "n_signals": 52,
+      "pct_female": 5.8
+    },
+    {
+      "drug": "MEBEVERINE",
+      "n_signals": 52,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "SIPONIMOD",
+      "n_signals": 48,
+      "pct_female": 4.2
+    },
+    {
+      "drug": "MIFEPRISTONE",
+      "n_signals": 47,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "PEGINTERFERON BETA-1A",
+      "n_signals": 46,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "CARIPRAZINE",
+      "n_signals": 39,
+      "pct_female": 2.6
+    },
+    {
+      "drug": "ASFOTASE ALFA",
+      "n_signals": 38,
+      "pct_female": 7.9
+    },
+    {
+      "drug": "PEGVALIASE",
+      "n_signals": 37,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "GALCANEZUMAB",
+      "n_signals": 36,
+      "pct_female": 5.6
+    },
+    {
+      "drug": "OZANIMOD",
+      "n_signals": 35,
+      "pct_female": 5.7
+    },
+    {
+      "drug": "TEPROTUMUMAB",
+      "n_signals": 33,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "ABALOPARATIDE",
+      "n_signals": 31,
+      "pct_female": 6.5
+    },
+    {
+      "drug": "GADOBUTROL",
+      "n_signals": 28,
+      "pct_female": 7.1
+    },
+    {
+      "drug": "MODAFINIL",
+      "n_signals": 28,
+      "pct_female": 7.1
+    },
+    {
+      "drug": "PHENOXYMETHYLPENICILLIN",
+      "n_signals": 28,
+      "pct_female": 7.1
+    },
+    {
+      "drug": "EPTINEZUMAB",
+      "n_signals": 27,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "SODIUM CITRATE",
+      "n_signals": 27,
+      "pct_female": 3.7
+    },
+    {
+      "drug": "SOTROVIMAB",
+      "n_signals": 26,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "CALCIUM;VITAMIN D, UNSPECIFIED",
+      "n_signals": 25,
+      "pct_female": 8.0
+    },
+    {
+      "drug": "DIROXIMEL FUMARATE",
+      "n_signals": 25,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "CALCIUM CARBONATE",
+      "n_signals": 24,
+      "pct_female": 8.3
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE DIPHOSPHATE",
+      "n_signals": 23,
+      "pct_female": 8.7
+    }
+  ]
+}
