@@ -1,0 +1,11 @@
+{
+  "target_genes": 1148,
+  "pathway_genes": 76227,
+  "direct_overlap": 0,
+  "gene_nodes_total": 77498,
+  "ensembl_gene_nodes": 13029,
+  "name_to_ensembl_mappings": 13029,
+  "target_genes_mappable": 0,
+  "mapping_rate": 0.0,
+  "status": "bridge_insufficient"
+}

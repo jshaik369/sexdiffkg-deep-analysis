@@ -1,0 +1,67 @@
+{
+  "n_validations": 12,
+  "n_concordant": 11,
+  "concordance_rate": 91.7,
+  "validations": [
+    {
+      "finding": "DILI more common in women",
+      "our_result": "61.4%F (766 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "QT prolongation more common in women",
+      "our_result": "61.1%F (180 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "SJS/TEN sex distribution",
+      "our_result": "55.5%F (173 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "VTE male-biased",
+      "our_result": "42.7%F (310 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "ICI irAEs male predominance",
+      "our_result": "47.1%F (921 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "ACE inhibitor cough in women",
+      "our_result": "50.4%F (4 signals)",
+      "concordant": false
+    },
+    {
+      "finding": "Statin myopathy",
+      "our_result": "52.5%F (11 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "Autoimmune reactions female",
+      "our_result": "79.2%F (201 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "Warfarin bleeding",
+      "our_result": "51.2%F (11 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "Migraine/headache female",
+      "our_result": "69.7%F (480 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "Gout male-predominant",
+      "our_result": "37.9%F (69 signals)",
+      "concordant": true
+    },
+    {
+      "finding": "Alopecia female",
+      "our_result": "76.2%F (198 signals)",
+      "concordant": true
+    }
+  ]
+}
