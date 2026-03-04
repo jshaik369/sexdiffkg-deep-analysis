@@ -1,0 +1,313 @@
+{
+  "model": "ComplEx_v4",
+  "n_drugs": 3920,
+  "k": 20,
+  "pca_50pc_var": 0.4444,
+  "clusters": {
+    "female": 6,
+    "male": 12,
+    "balanced": 2
+  },
+  "details": [
+    {
+      "cluster": 0,
+      "n_drugs": 286,
+      "n_signals": 2527,
+      "female_ratio": 0.535,
+      "mean_log_ratio": 0.0574,
+      "bias": "balanced",
+      "top_drugs": [
+        ".ALPHA.-PYRROLIDINOVALEROTHIOPHENONE",
+        ".DELTA.8-TETRAHYDROCANNABINOL\\HERBALS",
+        "4-AMINO-3-PHENYLBUTYRIC ACID",
+        "ABACAVIR SULFATE",
+        "ABACAVIR SULFATE\\LAMIVUDINE\\ZIDOVUDINE"
+      ]
+    },
+    {
+      "cluster": 1,
+      "n_drugs": 189,
+      "n_signals": 41,
+      "female_ratio": 0.293,
+      "mean_log_ratio": -0.3565,
+      "bias": "male",
+      "top_drugs": [
+        "A + D ORIGINAL OINTMENT",
+        "A+D MEDICATED OINTMENT",
+        "ACETAMINOPHEN\\BUTALBITAL\\CAFFEINE",
+        "ACETAMINOPHEN\\CAFFEINE\\CODEINE PHOSPHATE",
+        "ACETAMINOPHEN\\DEXTROMETHORPHAN HYDROBROMIDE"
+      ]
+    },
+    {
+      "cluster": 2,
+      "n_drugs": 61,
+      "n_signals": 4,
+      "female_ratio": 0.0,
+      "mean_log_ratio": -1.1375,
+      "bias": "male",
+      "top_drugs": [
+        "ACETAMINOPHEN\\PROPOXYPHENE NAPSYLATE",
+        "ACETAMINOPHEN\\TRAMADOL HYDROCHLORIDE",
+        "ACETYLSALICYLIC ACID;BUTALBITAL;CAFFEINE",
+        "ALLERGENS, INSECTS",
+        "AMPICILLIN TRIHYDRATE"
+      ]
+    },
+    {
+      "cluster": 3,
+      "n_drugs": 180,
+      "n_signals": 55,
+      "female_ratio": 0.927,
+      "mean_log_ratio": 0.7973,
+      "bias": "female",
+      "top_drugs": [
+        "11-HYDROXY-.DELTA.9-TETRAHYDROCANNABINOL",
+        "11-NOR-9-CARBOXY-.DELTA-9-TETRAHYDROCANNABINOL",
+        "3-FLUOROPHENMETRAZINE",
+        "3-METHOXYPHENCYCLIDINE",
+        "3-METHYLMETHCATHINONE"
+      ]
+    },
+    {
+      "cluster": 4,
+      "n_drugs": 176,
+      "n_signals": 454,
+      "female_ratio": 0.361,
+      "mean_log_ratio": -0.5069,
+      "bias": "male",
+      "top_drugs": [
+        ".ALPHA.-TOCOPHEROL, D-",
+        "ACETAMINOPHEN\\CYANOCOBALAMIN\\THIAMINE\\TRAMADOL HYDROCHLORIDE",
+        "ACETAMINOPHEN\\NAPROXEN",
+        "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE",
+        "ACRIVASTINE"
+      ]
+    },
+    {
+      "cluster": 5,
+      "n_drugs": 191,
+      "n_signals": 138,
+      "female_ratio": 0.442,
+      "mean_log_ratio": -0.0458,
+      "bias": "male",
+      "top_drugs": [
+        "ABACAVIR;LAMIVUDINE;ZIDOVUDINE",
+        "ACETAMINOPHEN\\PSEUDOEPHEDRINE HYDROCHLORIDE\\TRIPROLIDINE HYDROCHLORIDE",
+        "ADAGRASIB",
+        "AFATINIB, TRIAL",
+        "ALIZAPRIDE"
+      ]
+    },
+    {
+      "cluster": 6,
+      "n_drugs": 248,
+      "n_signals": 2908,
+      "female_ratio": 0.605,
+      "mean_log_ratio": 0.1527,
+      "bias": "female",
+      "top_drugs": [
+        "ABIRATERONE ACETATE",
+        "ACARBOSE",
+        "ACENOCOUMAROL",
+        "ACETYLCYSTEINE",
+        "ACETYLLEUCINE"
+      ]
+    },
+    {
+      "cluster": 7,
+      "n_drugs": 148,
+      "n_signals": 417,
+      "female_ratio": 0.185,
+      "mean_log_ratio": -0.516,
+      "bias": "male",
+      "top_drugs": [
+        "ACETAMINOPHEN\\DEXTROMETHORPHAN HYDROBROMIDE\\GUAIFENESIN\\PHENYLEPHRINE HYDROCHLORIDE",
+        "ALANINE;ARGININE;ASPARTIC ACID;CALCIUM;GLUCOSE;GLUTAMIC ACID;GLYCINE SPP;HISTIDINE;ISOLEUCINE;LEUCINE;LYSINE;MAGNESIUM;METHIONINE;PHENYLALANINE;POTASSIUM;PROLINE;SERINE;SODIUM ACETATE;SODIUM GLYCEROPHOSPHATE;THREONINE;TRYPTOPHAN, L-;TYROSINE;VALINE",
+        "ALBUMIN",
+        "ALBUTEROL\\IPRATROPIUM",
+        "ALLERGENS, ANIMALS"
+      ]
+    },
+    {
+      "cluster": 8,
+      "n_drugs": 429,
+      "n_signals": 7523,
+      "female_ratio": 0.588,
+      "mean_log_ratio": 0.2709,
+      "bias": "female",
+      "top_drugs": [
+        ".ALPHA.-PYRROLIDINOISOHEXANOPHENONE",
+        "ABACAVIR SULFATE\\DOLUTEGRAVIR SODIUM\\LAMIVUDINE",
+        "ABACAVIR SULFATE\\LAMIVUDINE",
+        "ACETAMINOPHEN\\CAFFEINE\\DIHYDROCODEINE BITARTRATE",
+        "ACETAMINOPHEN\\CAFFEINE\\ERGOTAMINE\\PROCHLORPERAZINE"
+      ]
+    },
+    {
+      "cluster": 9,
+      "n_drugs": 277,
+      "n_signals": 2148,
+      "female_ratio": 0.757,
+      "mean_log_ratio": 0.4546,
+      "bias": "female",
+      "top_drugs": [
+        "ABCIXIMAB",
+        "ACLARUBICIN",
+        "ALDESLEUKIN",
+        "ALGINIC ACID",
+        "ALPELISIB, TRIAL"
+      ]
+    },
+    {
+      "cluster": 10,
+      "n_drugs": 41,
+      "n_signals": 53,
+      "female_ratio": 0.415,
+      "mean_log_ratio": 0.1098,
+      "bias": "male",
+      "top_drugs": [
+        "ACEBUTOLOL",
+        "ACEBUTOLOL HYDROCHLORIDE",
+        "ACEMETACIN",
+        "ACETAMINOPHEN\\ASPIRIN\\CAFFEINE",
+        "ACETAMINOPHEN\\CAFFEINE"
+      ]
+    },
+    {
+      "cluster": 11,
+      "n_drugs": 87,
+      "n_signals": 545,
+      "female_ratio": 0.297,
+      "mean_log_ratio": -0.7676,
+      "bias": "male",
+      "top_drugs": [
+        ".ALPHA.-TOCOPHEROL",
+        ".ALPHA.-TOCOPHEROL, DL-",
+        ".BETA.-CAROTENE",
+        "AESCULUS SPP",
+        "ALLANTOIN"
+      ]
+    },
+    {
+      "cluster": 12,
+      "n_drugs": 133,
+      "n_signals": 767,
+      "female_ratio": 0.166,
+      "mean_log_ratio": -0.5344,
+      "bias": "male",
+      "top_drugs": [
+        "ADAPALENE",
+        "ADAPALENE;BENZOYL PEROXIDE",
+        "ALCAFTADINE",
+        "ALUMINUM ZIRCONIUM TRICHLOROHYDREX GLY",
+        "AMINOLEVULINIC ACID"
+      ]
+    },
+    {
+      "cluster": 13,
+      "n_drugs": 133,
+      "n_signals": 49,
+      "female_ratio": 0.469,
+      "mean_log_ratio": -0.2352,
+      "bias": "balanced",
+      "top_drugs": [
+        "ACETAMINOPHEN\\BELLADONNA LEAF\\CAFFEINE\\ERGOTAMINE TARTRATE",
+        "ACETAMINOPHEN\\CAFFEINE\\SALICYLIC ACID",
+        "ACETYLSALICYLIC ACID;DIPHENHYDRAMINE;PARACETAMOL",
+        "ALITRETINOIN",
+        "ANDEXANET ALFA"
+      ]
+    },
+    {
+      "cluster": 14,
+      "n_drugs": 115,
+      "n_signals": 278,
+      "female_ratio": 0.313,
+      "mean_log_ratio": -0.6015,
+      "bias": "male",
+      "top_drugs": [
+        ".ALPHA.-TOCOPHEROL ACETATE",
+        ".ALPHA.-TOCOPHEROL ACETATE, DL-",
+        ".ALPHA.1-PROTEINASE INHIBITOR HUMAN",
+        "ACETIC ACID;DELTAMETHRIN",
+        "ACETYLCHOLINE"
+      ]
+    },
+    {
+      "cluster": 15,
+      "n_drugs": 258,
+      "n_signals": 850,
+      "female_ratio": 0.296,
+      "mean_log_ratio": -0.3348,
+      "bias": "male",
+      "top_drugs": [
+        "ABROCITINIB",
+        "ACETAMINOPHEN\\TRAMADOL",
+        "AGALSIDASE ALFA",
+        "ALBIGLUTIDE",
+        "ALENDRONATE SODIUM\\CHOLECALCIFEROL"
+      ]
+    },
+    {
+      "cluster": 16,
+      "n_drugs": 44,
+      "n_signals": 37,
+      "female_ratio": 0.378,
+      "mean_log_ratio": -0.5111,
+      "bias": "male",
+      "top_drugs": [
+        ".ALPHA.-TOCOPHEROL ACETATE, D-",
+        "ACETIC ACID;TRIAMCINOLONE",
+        "ACETYLSALICYLIC ACID;ALUMINIUM;MAGNESIUM",
+        "ACETYLSALICYLIC ACID;CITRIC ACID;SODIUM BICARBONATE",
+        "AMBROXOL\\CETIRIZINE"
+      ]
+    },
+    {
+      "cluster": 17,
+      "n_drugs": 140,
+      "n_signals": 450,
+      "female_ratio": 0.587,
+      "mean_log_ratio": 0.1637,
+      "bias": "female",
+      "top_drugs": [
+        "ACEPROMAZINE",
+        "ACETAMINOPHEN\\CODEINE\\PHENYLEPHRINE",
+        "ACETYLSALICYLIC ACID;METHOCARBAMOL",
+        "ACETYLSALICYLIC ACID;PRAVASTATIN",
+        "ADENOSINE"
+      ]
+    },
+    {
+      "cluster": 18,
+      "n_drugs": 344,
+      "n_signals": 11329,
+      "female_ratio": 0.391,
+      "mean_log_ratio": -0.2206,
+      "bias": "male",
+      "top_drugs": [
+        "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "ABALOPARATIDE",
+        "ACALABRUTINIB",
+        "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE\\OXYCODONE TEREPHTHALATE",
+        "ACETAZOLAMIDE"
+      ]
+    },
+    {
+      "cluster": 19,
+      "n_drugs": 440,
+      "n_signals": 65708,
+      "female_ratio": 0.561,
+      "mean_log_ratio": 0.1496,
+      "bias": "female",
+      "top_drugs": [
+        "ABACAVIR",
+        "ABACAVIR;LAMIVUDINE",
+        "ABATACEPT",
+        "ABEMACICLIB",
+        "ABIRATERONE"
+      ]
+    }
+  ]
+}

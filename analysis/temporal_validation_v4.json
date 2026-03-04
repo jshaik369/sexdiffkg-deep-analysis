@@ -1,0 +1,40 @@
+{
+  "analysis": "Temporal Validation",
+  "date_column_used": "event_dt",
+  "train_period": "2004Q1-2020Q4 (approximate)",
+  "test_period": "2021Q1-2025Q3 (approximate)",
+  "train": {
+    "reports": 5239086,
+    "female": 3140479,
+    "male": 2098607,
+    "total_signals": 121530,
+    "strong_signals": 38884,
+    "female_biased": 19725,
+    "male_biased": 19159
+  },
+  "test": {
+    "reports": 2230049,
+    "female": 1324159,
+    "male": 905890,
+    "total_signals": 44549,
+    "strong_signals": 13125,
+    "female_biased": 6666,
+    "male_biased": 6459
+  },
+  "overlap": {
+    "strong_in_both": 3350,
+    "same_direction": 2815,
+    "directional_precision_pct": 84.0
+  },
+  "relaxed_overlap": {
+    "train_strong_in_test_any": 8108,
+    "same_direction": 5888,
+    "directional_precision_pct": 72.6
+  },
+  "correlation": {
+    "n_shared_pairs": 33786,
+    "pearson_r": 0.3837
+  },
+  "novel_test_signals": 9775,
+  "runtime_seconds": 7.1
+}

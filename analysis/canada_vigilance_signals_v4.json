@@ -1,0 +1,239 @@
+{
+  "analysis": "Canada Vigilance Sex-Differential Signals",
+  "date": "2026-03-04",
+  "reports": {
+    "total": 592089,
+    "with_sex": 566240,
+    "female": 349488,
+    "male": 216752,
+    "f_pct": 61.7
+  },
+  "reactions": 4371003,
+  "drug_links": 3866758,
+  "unique_drugs": 1312,
+  "unique_aes": 1564,
+  "signals": {
+    "total": 18888,
+    "strong": 7655,
+    "fb": 3437,
+    "mb": 4218,
+    "f_pct": 44.9,
+    "mean_lr": -0.0502
+  },
+  "faers_xref": {
+    "error": "Binder Error: Referenced column \"adverse_event\" not found in FROM clause!\nCandidate bindings: \"a_female\", \"drug_name\", \"direction\"\n\nLINE 1: CREATE TABLE fsig AS SELECT drug_name, adverse_event, log_ror_ratio, direction\n                                               ^"
+  },
+  "top_drugs": [
+    {
+      "drug": "REMICADE",
+      "n": 245,
+      "fb": 145,
+      "mb": 100,
+      "mlr": 0.2267
+    },
+    {
+      "drug": "INFLECTRA",
+      "n": 223,
+      "fb": 116,
+      "mb": 107,
+      "mlr": 0.0017
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n": 199,
+      "fb": 100,
+      "mb": 99,
+      "mlr": 0.0072
+    },
+    {
+      "drug": "PREDNISONE",
+      "n": 198,
+      "fb": 141,
+      "mb": 57,
+      "mlr": 0.4787
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n": 192,
+      "fb": 101,
+      "mb": 91,
+      "mlr": 0.0728
+    },
+    {
+      "drug": "ACTEMRA",
+      "n": 173,
+      "fb": 85,
+      "mb": 88,
+      "mlr": -0.0765
+    },
+    {
+      "drug": "XELJANZ",
+      "n": 130,
+      "fb": 81,
+      "mb": 49,
+      "mlr": 0.2564
+    },
+    {
+      "drug": "HUMIRA",
+      "n": 117,
+      "fb": 48,
+      "mb": 69,
+      "mlr": -0.2309
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "n": 110,
+      "fb": 64,
+      "mb": 46,
+      "mlr": 0.0712
+    },
+    {
+      "drug": "ENBREL",
+      "n": 105,
+      "fb": 41,
+      "mb": 64,
+      "mlr": -0.3642
+    },
+    {
+      "drug": "ORENCIA",
+      "n": 96,
+      "fb": 28,
+      "mb": 68,
+      "mlr": -0.6629
+    },
+    {
+      "drug": "RITUXAN",
+      "n": 90,
+      "fb": 45,
+      "mb": 45,
+      "mlr": -0.0336
+    },
+    {
+      "drug": "STELARA",
+      "n": 90,
+      "fb": 68,
+      "mb": 22,
+      "mlr": 0.5791
+    },
+    {
+      "drug": "SIMPONI",
+      "n": 89,
+      "fb": 61,
+      "mb": 28,
+      "mlr": 0.6427
+    },
+    {
+      "drug": "OCRELIZUMAB",
+      "n": 83,
+      "fb": 16,
+      "mb": 67,
+      "mlr": -0.5486
+    },
+    {
+      "drug": "COSENTYX",
+      "n": 74,
+      "fb": 54,
+      "mb": 20,
+      "mlr": 0.5512
+    },
+    {
+      "drug": "ARAVA",
+      "n": 70,
+      "fb": 29,
+      "mb": 41,
+      "mlr": -0.4087
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n": 68,
+      "fb": 40,
+      "mb": 28,
+      "mlr": 0.1987
+    },
+    {
+      "drug": "ESBRIET",
+      "n": 67,
+      "fb": 42,
+      "mb": 25,
+      "mlr": 0.2344
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "n": 65,
+      "fb": 16,
+      "mb": 49,
+      "mlr": -0.5682
+    },
+    {
+      "drug": "CELEBREX",
+      "n": 56,
+      "fb": 46,
+      "mb": 10,
+      "mlr": 0.6426
+    },
+    {
+      "drug": "RUXIENCE CONCENTRATE. SINGLE USE VIAL",
+      "n": 55,
+      "fb": 20,
+      "mb": 35,
+      "mlr": -0.2295
+    },
+    {
+      "drug": "AVASTIN",
+      "n": 53,
+      "fb": 20,
+      "mb": 33,
+      "mlr": -0.1988
+    },
+    {
+      "drug": "OMALIZUMAB",
+      "n": 51,
+      "fb": 16,
+      "mb": 35,
+      "mlr": -0.3789
+    },
+    {
+      "drug": "ACETAMINOPHEN",
+      "n": 50,
+      "fb": 32,
+      "mb": 18,
+      "mlr": 0.4788
+    },
+    {
+      "drug": "COMIRNATY PURPLE CAP VIAL (12+ YEARS) AFTER DILUTION CONTAINS 6 DOSES OF 0.3 ML",
+      "n": 48,
+      "fb": 20,
+      "mb": 28,
+      "mlr": -0.1249
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n": 48,
+      "fb": 42,
+      "mb": 6,
+      "mlr": 0.9846
+    },
+    {
+      "drug": "MYCOPHENOLATE MOFETIL",
+      "n": 47,
+      "fb": 42,
+      "mb": 5,
+      "mlr": 0.6959
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n": 47,
+      "fb": 22,
+      "mb": 25,
+      "mlr": -0.1911
+    },
+    {
+      "drug": "AZATHIOPRINE",
+      "n": 46,
+      "fb": 21,
+      "mb": 25,
+      "mlr": -0.1937
+    }
+  ],
+  "runtime": 3.7
+}

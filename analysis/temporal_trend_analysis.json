@@ -1,0 +1,4446 @@
+{
+  "analysis": "Temporal Trend Analysis of Sex-Differential Drug Safety Signals",
+  "data": {
+    "source": "FAERS 2012Q4-2025Q3 (deduplicated)",
+    "total_reports": 14536008,
+    "female_reports": 8744397,
+    "male_reports": 5791611,
+    "quarters": 52,
+    "eras": 5
+  },
+  "quarterly_reporting_trends": [
+    {
+      "quarter": "2012Q4",
+      "female": 125869,
+      "male": 76700,
+      "total": 202569,
+      "pct_female": 62.14,
+      "fm_ratio": 1.6411
+    },
+    {
+      "quarter": "2013Q1",
+      "female": 126480,
+      "male": 75756,
+      "total": 202236,
+      "pct_female": 62.54,
+      "fm_ratio": 1.6696
+    },
+    {
+      "quarter": "2013Q2",
+      "female": 95865,
+      "male": 57862,
+      "total": 153727,
+      "pct_female": 62.36,
+      "fm_ratio": 1.6568
+    },
+    {
+      "quarter": "2013Q3",
+      "female": 102452,
+      "male": 63545,
+      "total": 165997,
+      "pct_female": 61.72,
+      "fm_ratio": 1.6123
+    },
+    {
+      "quarter": "2013Q4",
+      "female": 131026,
+      "male": 75197,
+      "total": 206223,
+      "pct_female": 63.54,
+      "fm_ratio": 1.7424
+    },
+    {
+      "quarter": "2014Q1",
+      "female": 140017,
+      "male": 80186,
+      "total": 220203,
+      "pct_female": 63.59,
+      "fm_ratio": 1.7462
+    },
+    {
+      "quarter": "2014Q2",
+      "female": 107164,
+      "male": 65700,
+      "total": 172864,
+      "pct_female": 61.99,
+      "fm_ratio": 1.6311
+    },
+    {
+      "quarter": "2014Q3",
+      "female": 111934,
+      "male": 68262,
+      "total": 180196,
+      "pct_female": 62.12,
+      "fm_ratio": 1.6398
+    },
+    {
+      "quarter": "2014Q4",
+      "female": 104320,
+      "male": 67249,
+      "total": 171569,
+      "pct_female": 60.8,
+      "fm_ratio": 1.5512
+    },
+    {
+      "quarter": "2015Q1",
+      "female": 154628,
+      "male": 103915,
+      "total": 258543,
+      "pct_female": 59.81,
+      "fm_ratio": 1.488
+    },
+    {
+      "quarter": "2015Q2",
+      "female": 139843,
+      "male": 93543,
+      "total": 233386,
+      "pct_female": 59.92,
+      "fm_ratio": 1.495
+    },
+    {
+      "quarter": "2015Q3",
+      "female": 212234,
+      "male": 131943,
+      "total": 344177,
+      "pct_female": 61.66,
+      "fm_ratio": 1.6085
+    },
+    {
+      "quarter": "2015Q4",
+      "female": 168481,
+      "male": 91761,
+      "total": 260242,
+      "pct_female": 64.74,
+      "fm_ratio": 1.8361
+    },
+    {
+      "quarter": "2016Q1",
+      "female": 192477,
+      "male": 113835,
+      "total": 306312,
+      "pct_female": 62.84,
+      "fm_ratio": 1.6908
+    },
+    {
+      "quarter": "2016Q2",
+      "female": 142932,
+      "male": 94257,
+      "total": 237189,
+      "pct_female": 60.26,
+      "fm_ratio": 1.5164
+    },
+    {
+      "quarter": "2016Q3",
+      "female": 147103,
+      "male": 97134,
+      "total": 244237,
+      "pct_female": 60.23,
+      "fm_ratio": 1.5144
+    },
+    {
+      "quarter": "2016Q4",
+      "female": 145915,
+      "male": 92202,
+      "total": 238117,
+      "pct_female": 61.28,
+      "fm_ratio": 1.5826
+    },
+    {
+      "quarter": "2017Q1",
+      "female": 161974,
+      "male": 104562,
+      "total": 266536,
+      "pct_female": 60.77,
+      "fm_ratio": 1.5491
+    },
+    {
+      "quarter": "2017Q2",
+      "female": 155523,
+      "male": 107663,
+      "total": 263186,
+      "pct_female": 59.09,
+      "fm_ratio": 1.4445
+    },
+    {
+      "quarter": "2017Q3",
+      "female": 165760,
+      "male": 105435,
+      "total": 271195,
+      "pct_female": 61.12,
+      "fm_ratio": 1.5722
+    },
+    {
+      "quarter": "2017Q4",
+      "female": 163314,
+      "male": 96305,
+      "total": 259619,
+      "pct_female": 62.91,
+      "fm_ratio": 1.6958
+    },
+    {
+      "quarter": "2018Q1",
+      "female": 184754,
+      "male": 117590,
+      "total": 302344,
+      "pct_female": 61.11,
+      "fm_ratio": 1.5712
+    },
+    {
+      "quarter": "2018Q2",
+      "female": 196178,
+      "male": 118776,
+      "total": 314954,
+      "pct_female": 62.29,
+      "fm_ratio": 1.6517
+    },
+    {
+      "quarter": "2018Q3",
+      "female": 193588,
+      "male": 120981,
+      "total": 314569,
+      "pct_female": 61.54,
+      "fm_ratio": 1.6002
+    },
+    {
+      "quarter": "2018Q4",
+      "female": 181896,
+      "male": 116810,
+      "total": 298706,
+      "pct_female": 60.89,
+      "fm_ratio": 1.5572
+    },
+    {
+      "quarter": "2019Q1",
+      "female": 178639,
+      "male": 113608,
+      "total": 292247,
+      "pct_female": 61.13,
+      "fm_ratio": 1.5724
+    },
+    {
+      "quarter": "2019Q2",
+      "female": 191961,
+      "male": 118890,
+      "total": 310851,
+      "pct_female": 61.75,
+      "fm_ratio": 1.6146
+    },
+    {
+      "quarter": "2019Q3",
+      "female": 206909,
+      "male": 120287,
+      "total": 327196,
+      "pct_female": 63.24,
+      "fm_ratio": 1.7201
+    },
+    {
+      "quarter": "2019Q4",
+      "female": 190902,
+      "male": 120989,
+      "total": 311891,
+      "pct_female": 61.21,
+      "fm_ratio": 1.5778
+    },
+    {
+      "quarter": "2020Q1",
+      "female": 213901,
+      "male": 131490,
+      "total": 345391,
+      "pct_female": 61.93,
+      "fm_ratio": 1.6267
+    },
+    {
+      "quarter": "2020Q2",
+      "female": 191398,
+      "male": 118479,
+      "total": 309877,
+      "pct_female": 61.77,
+      "fm_ratio": 1.6155
+    },
+    {
+      "quarter": "2020Q3",
+      "female": 169029,
+      "male": 116697,
+      "total": 285726,
+      "pct_female": 59.16,
+      "fm_ratio": 1.4484
+    },
+    {
+      "quarter": "2020Q4",
+      "female": 170166,
+      "male": 120240,
+      "total": 290406,
+      "pct_female": 58.6,
+      "fm_ratio": 1.4152
+    },
+    {
+      "quarter": "2021Q1",
+      "female": 196290,
+      "male": 144378,
+      "total": 340668,
+      "pct_female": 57.62,
+      "fm_ratio": 1.3596
+    },
+    {
+      "quarter": "2021Q2",
+      "female": 200742,
+      "male": 154856,
+      "total": 355598,
+      "pct_female": 56.45,
+      "fm_ratio": 1.2963
+    },
+    {
+      "quarter": "2021Q3",
+      "female": 205880,
+      "male": 166292,
+      "total": 372172,
+      "pct_female": 55.32,
+      "fm_ratio": 1.2381
+    },
+    {
+      "quarter": "2021Q4",
+      "female": 183861,
+      "male": 141533,
+      "total": 325394,
+      "pct_female": 56.5,
+      "fm_ratio": 1.2991
+    },
+    {
+      "quarter": "2022Q1",
+      "female": 196276,
+      "male": 153366,
+      "total": 349642,
+      "pct_female": 56.14,
+      "fm_ratio": 1.2798
+    },
+    {
+      "quarter": "2022Q2",
+      "female": 184415,
+      "male": 133641,
+      "total": 318056,
+      "pct_female": 57.98,
+      "fm_ratio": 1.3799
+    },
+    {
+      "quarter": "2022Q3",
+      "female": 186494,
+      "male": 141403,
+      "total": 327897,
+      "pct_female": 56.88,
+      "fm_ratio": 1.3189
+    },
+    {
+      "quarter": "2022Q4",
+      "female": 206412,
+      "male": 142800,
+      "total": 349212,
+      "pct_female": 59.11,
+      "fm_ratio": 1.4455
+    },
+    {
+      "quarter": "2023Q1",
+      "female": 181121,
+      "male": 121392,
+      "total": 302513,
+      "pct_female": 59.87,
+      "fm_ratio": 1.492
+    },
+    {
+      "quarter": "2023Q2",
+      "female": 174634,
+      "male": 116673,
+      "total": 291307,
+      "pct_female": 59.95,
+      "fm_ratio": 1.4968
+    },
+    {
+      "quarter": "2023Q3",
+      "female": 167577,
+      "male": 122584,
+      "total": 290161,
+      "pct_female": 57.75,
+      "fm_ratio": 1.367
+    },
+    {
+      "quarter": "2023Q4",
+      "female": 165559,
+      "male": 120532,
+      "total": 286091,
+      "pct_female": 57.87,
+      "fm_ratio": 1.3736
+    },
+    {
+      "quarter": "2024Q1",
+      "female": 169785,
+      "male": 115510,
+      "total": 285295,
+      "pct_female": 59.51,
+      "fm_ratio": 1.4699
+    },
+    {
+      "quarter": "2024Q2",
+      "female": 167261,
+      "male": 112499,
+      "total": 279760,
+      "pct_female": 59.79,
+      "fm_ratio": 1.4868
+    },
+    {
+      "quarter": "2024Q3",
+      "female": 173906,
+      "male": 115002,
+      "total": 288908,
+      "pct_female": 60.19,
+      "fm_ratio": 1.5122
+    },
+    {
+      "quarter": "2024Q4",
+      "female": 165405,
+      "male": 117233,
+      "total": 282638,
+      "pct_female": 58.52,
+      "fm_ratio": 1.4109
+    },
+    {
+      "quarter": "2025Q1",
+      "female": 162233,
+      "male": 116019,
+      "total": 278252,
+      "pct_female": 58.3,
+      "fm_ratio": 1.3983
+    },
+    {
+      "quarter": "2025Q2",
+      "female": 172310,
+      "male": 113865,
+      "total": 286175,
+      "pct_female": 60.21,
+      "fm_ratio": 1.5133
+    },
+    {
+      "quarter": "2025Q3",
+      "female": 219604,
+      "male": 144184,
+      "total": 363788,
+      "pct_female": 60.37,
+      "fm_ratio": 1.5231
+    }
+  ],
+  "era_signal_summaries": {
+    "Era1_2013-2015": {
+      "reports_female": 1720170,
+      "reports_male": 1051531,
+      "total_pairs_evaluated": 538258,
+      "total_signals": 294005,
+      "female_signals": 165356,
+      "male_signals": 128649,
+      "signal_fm_ratio": 1.2853
+    },
+    "Era2_2016-2017": {
+      "reports_female": 1274972,
+      "reports_male": 811367,
+      "total_pairs_evaluated": 433737,
+      "total_signals": 242977,
+      "female_signals": 136003,
+      "male_signals": 106974,
+      "signal_fm_ratio": 1.2714
+    },
+    "Era3_2018-2019": {
+      "reports_female": 1524767,
+      "reports_male": 947898,
+      "total_pairs_evaluated": 596551,
+      "total_signals": 361151,
+      "female_signals": 202777,
+      "male_signals": 158374,
+      "signal_fm_ratio": 1.2804
+    },
+    "Era4_2020-2022": {
+      "reports_female": 2304712,
+      "reports_male": 1665018,
+      "total_pairs_evaluated": 877424,
+      "total_signals": 563823,
+      "female_signals": 315710,
+      "male_signals": 248113,
+      "signal_fm_ratio": 1.2724
+    },
+    "Era5_2023-2025": {
+      "reports_female": 1919294,
+      "reports_male": 1315391,
+      "total_pairs_evaluated": 850076,
+      "total_signals": 555089,
+      "female_signals": 322443,
+      "male_signals": 232646,
+      "signal_fm_ratio": 1.386
+    }
+  },
+  "temporal_aggregate_trends": [
+    {
+      "era": "Era1_2013-2015",
+      "n_pairs": 96785,
+      "median_log2_ror_ratio": 0.0242,
+      "mean_log2_ror_ratio": 0.0159,
+      "std_log2_ror_ratio": 0.8618,
+      "pct_female_biased": 51.27,
+      "pct_male_biased": 48.73,
+      "q25_log2_ratio": -0.4925,
+      "q75_log2_ratio": 0.547
+    },
+    {
+      "era": "Era2_2016-2017",
+      "n_pairs": 74554,
+      "median_log2_ror_ratio": 0.0032,
+      "mean_log2_ror_ratio": -0.0015,
+      "std_log2_ror_ratio": 0.8804,
+      "pct_female_biased": 50.16,
+      "pct_male_biased": 49.84,
+      "q25_log2_ratio": -0.5189,
+      "q75_log2_ratio": 0.5197
+    },
+    {
+      "era": "Era3_2018-2019",
+      "n_pairs": 100330,
+      "median_log2_ror_ratio": 0.0318,
+      "mean_log2_ror_ratio": 0.0229,
+      "std_log2_ror_ratio": 0.9721,
+      "pct_female_biased": 51.51,
+      "pct_male_biased": 48.49,
+      "q25_log2_ratio": -0.5403,
+      "q75_log2_ratio": 0.6059
+    },
+    {
+      "era": "Era4_2020-2022",
+      "n_pairs": 151871,
+      "median_log2_ror_ratio": -0.0785,
+      "mean_log2_ror_ratio": -0.0748,
+      "std_log2_ror_ratio": 1.1475,
+      "pct_female_biased": 46.66,
+      "pct_male_biased": 53.34,
+      "q25_log2_ratio": -0.7127,
+      "q75_log2_ratio": 0.5723
+    },
+    {
+      "era": "Era5_2023-2025",
+      "n_pairs": 143122,
+      "median_log2_ror_ratio": -0.0359,
+      "mean_log2_ror_ratio": -0.0075,
+      "std_log2_ror_ratio": 1.4376,
+      "pct_female_biased": 48.57,
+      "pct_male_biased": 51.43,
+      "q25_log2_ratio": -0.7392,
+      "q75_log2_ratio": 0.7017
+    }
+  ],
+  "first_vs_last_era_comparison": {
+    "first_era": "Era1_2013-2015",
+    "last_era": "Era5_2023-2025",
+    "pairs_compared": 27233,
+    "reversed_direction": 11510,
+    "reversal_pct": 42.26,
+    "mean_absolute_shift": 0.9412
+  },
+  "top_20_shifts_toward_female": [
+    {
+      "drug": "INFLIXIMAB",
+      "pt": "Injury",
+      "ratio_early": -2.033277550239812,
+      "ratio_late": 6.511863294266988,
+      "shift": 8.5451408445068,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 12,
+      "am_early": 15,
+      "af_late": 1616,
+      "am_late": 11
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": -2.4736271995172476,
+      "ratio_late": 5.8357933142004015,
+      "shift": 8.30942051371765,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 13,
+      "am_early": 15,
+      "af_late": 1765,
+      "am_late": 14
+    },
+    {
+      "drug": "MINOXIDIL",
+      "pt": "Intentional product misuse",
+      "ratio_early": -1.7170167750426717,
+      "ratio_late": 6.367397467980991,
+      "shift": 8.084414243023662,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 12,
+      "am_early": 11,
+      "af_late": 481,
+      "am_late": 18
+    },
+    {
+      "drug": "ETANERCEPT",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": -1.6640153717411312,
+      "ratio_late": 5.243821191526827,
+      "shift": 6.907836563267958,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 62,
+      "am_early": 22,
+      "af_late": 1986,
+      "am_late": 11
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "pt": "Infusion related reaction",
+      "ratio_early": -0.568124125759554,
+      "ratio_late": 6.238154602704323,
+      "shift": 6.806278728463877,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 18,
+      "am_early": 14,
+      "af_late": 2773,
+      "am_late": 12
+    },
+    {
+      "drug": "DICLOFENAC",
+      "pt": "Confusional state",
+      "ratio_early": -0.8347863830473912,
+      "ratio_late": 5.677441617752921,
+      "shift": 6.512228000800312,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 24,
+      "am_early": 29,
+      "af_late": 1971,
+      "am_late": 19
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "pt": "Swelling",
+      "ratio_early": -1.123404149206398,
+      "ratio_late": 5.388280718964325,
+      "shift": 6.511684868170724,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 13,
+      "am_early": 17,
+      "af_late": 1084,
+      "am_late": 12
+    },
+    {
+      "drug": "NAPROXEN",
+      "pt": "Hepatic enzyme increased",
+      "ratio_early": -1.33632681736709,
+      "ratio_late": 5.151571993087894,
+      "shift": 6.487898810454984,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 16,
+      "am_early": 19,
+      "af_late": 1398,
+      "am_late": 10
+    },
+    {
+      "drug": "DICLOFENAC",
+      "pt": "Weight increased",
+      "ratio_early": -0.6402670735698487,
+      "ratio_late": 5.8425467154234045,
+      "shift": 6.482813788993253,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 36,
+      "am_early": 21,
+      "af_late": 2062,
+      "am_late": 13
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "pt": "Hepatic enzyme increased",
+      "ratio_early": -2.380660339544119,
+      "ratio_late": 3.973192415881638,
+      "shift": 6.353852755425757,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 12,
+      "am_early": 12,
+      "af_late": 2183,
+      "am_late": 19
+    },
+    {
+      "drug": "PREDNISONE",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": -1.1277709923152808,
+      "ratio_late": 5.133938513539241,
+      "shift": 6.261709505854522,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 21,
+      "am_early": 13,
+      "af_late": 2032,
+      "am_late": 38
+    },
+    {
+      "drug": "RITUXIMAB",
+      "pt": "Wheezing",
+      "ratio_early": -1.1299311535438448,
+      "ratio_late": 5.02242140637516,
+      "shift": 6.152352559919004,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 15,
+      "am_early": 25,
+      "af_late": 2265,
+      "am_late": 36
+    },
+    {
+      "drug": "OXYCODONE",
+      "pt": "Mobility decreased",
+      "ratio_early": -0.6120843737988759,
+      "ratio_late": 5.530364950343666,
+      "shift": 6.142449324142541,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 13,
+      "am_early": 14,
+      "af_late": 1399,
+      "am_late": 18
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "pt": "Injury",
+      "ratio_early": -1.4662868455233267,
+      "ratio_late": 4.581176452715038,
+      "shift": 6.047463298238364,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 83,
+      "am_early": 50,
+      "af_late": 1921,
+      "am_late": 41
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "pt": "Injection site abscess",
+      "ratio_early": -0.7347388748875803,
+      "ratio_late": 5.274969387605718,
+      "shift": 6.009708262493298,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 23,
+      "am_early": 24,
+      "af_late": 38,
+      "am_late": 12
+    },
+    {
+      "drug": "RITUXIMAB",
+      "pt": "Blister",
+      "ratio_early": -0.3366661752032412,
+      "ratio_late": 5.656574537480638,
+      "shift": 5.993240712683879,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 12,
+      "am_early": 12,
+      "af_late": 1953,
+      "am_late": 21
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "pt": "Peripheral swelling",
+      "ratio_early": -0.24353137537737016,
+      "ratio_late": 5.698530889410499,
+      "shift": 5.942062264787869,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 20,
+      "am_early": 17,
+      "af_late": 1267,
+      "am_late": 10
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "pt": "General physical health deterioration",
+      "ratio_early": -0.7323480123648712,
+      "ratio_late": 5.204377196563114,
+      "shift": 5.936725208927985,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 12,
+      "am_early": 19,
+      "af_late": 913,
+      "am_late": 22
+    },
+    {
+      "drug": "NAPROXEN",
+      "pt": "Pneumonia",
+      "ratio_early": -0.5312074375009941,
+      "ratio_late": 5.400701875723721,
+      "shift": 5.931909313224715,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 16,
+      "am_early": 14,
+      "af_late": 1070,
+      "am_late": 10
+    },
+    {
+      "drug": "TRIAMCINOLONE",
+      "pt": "Hypoaesthesia",
+      "ratio_early": -1.1356179331602916,
+      "ratio_late": 4.784382496842743,
+      "shift": 5.920000430003034,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "reversed": true,
+      "af_early": 21,
+      "am_early": 17,
+      "af_late": 847,
+      "am_late": 10
+    }
+  ],
+  "top_20_shifts_toward_male": [
+    {
+      "drug": "ATORVASTATIN",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": 6.900169028829276,
+      "ratio_late": -2.0275428057246234,
+      "shift": -8.9277118345539,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 4230,
+      "am_early": 38,
+      "af_late": 28,
+      "am_late": 45
+    },
+    {
+      "drug": "DUTASTERIDE",
+      "pt": "Off label use",
+      "ratio_early": 5.434927375861388,
+      "ratio_late": -0.7254015988850265,
+      "shift": -6.160328974746415,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 11,
+      "am_early": 19,
+      "af_late": 10,
+      "am_late": 47
+    },
+    {
+      "drug": "SIMVASTATIN",
+      "pt": "Blood cholesterol increased",
+      "ratio_early": 1.8208521706096426,
+      "ratio_late": -3.7512839833043423,
+      "shift": -5.572136153913985,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 86,
+      "am_early": 27,
+      "af_late": 25,
+      "am_late": 116
+    },
+    {
+      "drug": "GABAPENTIN",
+      "pt": "Blood cholesterol increased",
+      "ratio_early": 0.8896370426037254,
+      "ratio_late": -4.656159639247761,
+      "shift": -5.5457966818514866,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 65,
+      "am_early": 18,
+      "af_late": 18,
+      "am_late": 114
+    },
+    {
+      "drug": "AMLODIPINE",
+      "pt": "Transient ischaemic attack",
+      "ratio_early": 1.05194088808408,
+      "ratio_late": -3.926924277914552,
+      "shift": -4.978865165998632,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 36,
+      "am_early": 16,
+      "af_late": 11,
+      "am_late": 120
+    },
+    {
+      "drug": "IBUPROFEN",
+      "pt": "Sedation",
+      "ratio_early": 1.0630817271116684,
+      "ratio_late": -3.8707758142334154,
+      "shift": -4.933857541345084,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 26,
+      "am_early": 10,
+      "af_late": 18,
+      "am_late": 196
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "pt": "Pain in extremity",
+      "ratio_early": -0.07067793616977319,
+      "ratio_late": -4.913041703652756,
+      "shift": -4.842363767482983,
+      "direction_early": "male_biased",
+      "direction_late": "male_biased",
+      "reversed": false,
+      "af_early": 25,
+      "am_early": 10,
+      "af_late": 13,
+      "am_late": 87
+    },
+    {
+      "drug": "LANSOPRAZOLE",
+      "pt": "Somnolence",
+      "ratio_early": 0.9261480779832956,
+      "ratio_late": -3.798400219132852,
+      "shift": -4.724548297116147,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 54,
+      "am_early": 18,
+      "af_late": 17,
+      "am_late": 138
+    },
+    {
+      "drug": "PARACETAMOL;TRAMADOL",
+      "pt": "Hyperhidrosis",
+      "ratio_early": -0.5420199815907422,
+      "ratio_late": -5.209552087073472,
+      "shift": -4.667532105482731,
+      "direction_early": "male_biased",
+      "direction_late": "male_biased",
+      "reversed": false,
+      "af_early": 12,
+      "am_early": 13,
+      "af_late": 11,
+      "am_late": 189
+    },
+    {
+      "drug": "ESOMEPRAZOLE;NAPROXEN",
+      "pt": "Off label use",
+      "ratio_early": 0.013285127035729004,
+      "ratio_late": -4.621948081522041,
+      "shift": -4.6352332085577705,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 52,
+      "am_early": 23,
+      "af_late": 27,
+      "am_late": 146
+    },
+    {
+      "drug": "PSEUDOEPHEDRINE",
+      "pt": "Completed suicide",
+      "ratio_early": -0.06776545953107871,
+      "ratio_late": -4.670299944092032,
+      "shift": -4.6025344845609535,
+      "direction_early": "male_biased",
+      "direction_late": "male_biased",
+      "reversed": false,
+      "af_early": 19,
+      "am_early": 13,
+      "af_late": 10,
+      "am_late": 13
+    },
+    {
+      "drug": "GOSERELIN",
+      "pt": "Disease progression",
+      "ratio_early": 3.380021712857453,
+      "ratio_late": -1.176845460093185,
+      "shift": -4.556867172950637,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 18,
+      "am_early": 11,
+      "af_late": 25,
+      "am_late": 26
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "pt": "Hyponatraemia",
+      "ratio_early": 0.5592770437685229,
+      "ratio_late": -3.9683986688492365,
+      "shift": -4.52767571261776,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 24,
+      "am_early": 11,
+      "af_late": 16,
+      "am_late": 96
+    },
+    {
+      "drug": "BOTULINUM TOXIN",
+      "pt": "Hyperhidrosis",
+      "ratio_early": -1.0227021933340175,
+      "ratio_late": -5.542962496598114,
+      "shift": -4.520260303264097,
+      "direction_early": "male_biased",
+      "direction_late": "male_biased",
+      "reversed": false,
+      "af_early": 41,
+      "am_early": 11,
+      "af_late": 28,
+      "am_late": 202
+    },
+    {
+      "drug": "PSEUDOEPHEDRINE",
+      "pt": "Incorrect dose administered",
+      "ratio_early": 0.14881360743270225,
+      "ratio_late": -4.338262849990656,
+      "shift": -4.487076457423358,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 24,
+      "am_early": 11,
+      "af_late": 13,
+      "am_late": 10
+    },
+    {
+      "drug": "SIMVASTATIN",
+      "pt": "Chronic obstructive pulmonary disease",
+      "ratio_early": 0.9663322255428833,
+      "ratio_late": -3.4541478798387097,
+      "shift": -4.420480105381593,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 19,
+      "am_early": 12,
+      "af_late": 10,
+      "am_late": 109
+    },
+    {
+      "drug": "FUMARIC ACID",
+      "pt": "Muscle spasticity",
+      "ratio_early": -0.19354728851421169,
+      "ratio_late": -4.55890652453122,
+      "shift": -4.365359236017008,
+      "direction_early": "male_biased",
+      "direction_late": "male_biased",
+      "reversed": false,
+      "af_early": 83,
+      "am_early": 29,
+      "af_late": 12,
+      "am_late": 45
+    },
+    {
+      "drug": "INSULIN",
+      "pt": "Lung disorder",
+      "ratio_early": 1.54480415621062,
+      "ratio_late": -2.8115609466171065,
+      "shift": -4.356365102827727,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 53,
+      "am_early": 15,
+      "af_late": 41,
+      "am_late": 159
+    },
+    {
+      "drug": "DULOXETINE",
+      "pt": "Sedation",
+      "ratio_early": -0.3138299887132663,
+      "ratio_late": -4.64731344378207,
+      "shift": -4.333483455068804,
+      "direction_early": "male_biased",
+      "direction_late": "male_biased",
+      "reversed": false,
+      "af_early": 37,
+      "am_early": 22,
+      "af_late": 20,
+      "am_late": 204
+    },
+    {
+      "drug": "TOPOTECAN",
+      "pt": "White blood cell count decreased",
+      "ratio_early": 2.542451350719879,
+      "ratio_late": -1.64917560950044,
+      "shift": -4.191626960220319,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "reversed": true,
+      "af_early": 85,
+      "am_early": 10,
+      "af_late": 15,
+      "am_late": 24
+    }
+  ],
+  "top_30_reversed_signals": [
+    {
+      "drug": "ATORVASTATIN",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": 6.900169028829276,
+      "ratio_late": -2.0275428057246234,
+      "shift": -8.9277118345539,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "af_early": 4230,
+      "am_early": 38,
+      "af_late": 28,
+      "am_late": 45
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "pt": "Injury",
+      "ratio_early": -2.033277550239812,
+      "ratio_late": 6.511863294266988,
+      "shift": 8.5451408445068,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 12,
+      "am_early": 15,
+      "af_late": 1616,
+      "am_late": 11
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": -2.4736271995172476,
+      "ratio_late": 5.8357933142004015,
+      "shift": 8.30942051371765,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 13,
+      "am_early": 15,
+      "af_late": 1765,
+      "am_late": 14
+    },
+    {
+      "drug": "MINOXIDIL",
+      "pt": "Intentional product misuse",
+      "ratio_early": -1.7170167750426717,
+      "ratio_late": 6.367397467980991,
+      "shift": 8.084414243023662,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 12,
+      "am_early": 11,
+      "af_late": 481,
+      "am_late": 18
+    },
+    {
+      "drug": "ETANERCEPT",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": -1.6640153717411312,
+      "ratio_late": 5.243821191526827,
+      "shift": 6.907836563267958,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 62,
+      "am_early": 22,
+      "af_late": 1986,
+      "am_late": 11
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "pt": "Infusion related reaction",
+      "ratio_early": -0.568124125759554,
+      "ratio_late": 6.238154602704323,
+      "shift": 6.806278728463877,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 18,
+      "am_early": 14,
+      "af_late": 2773,
+      "am_late": 12
+    },
+    {
+      "drug": "DICLOFENAC",
+      "pt": "Confusional state",
+      "ratio_early": -0.8347863830473912,
+      "ratio_late": 5.677441617752921,
+      "shift": 6.512228000800312,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 24,
+      "am_early": 29,
+      "af_late": 1971,
+      "am_late": 19
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "pt": "Swelling",
+      "ratio_early": -1.123404149206398,
+      "ratio_late": 5.388280718964325,
+      "shift": 6.511684868170724,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 13,
+      "am_early": 17,
+      "af_late": 1084,
+      "am_late": 12
+    },
+    {
+      "drug": "NAPROXEN",
+      "pt": "Hepatic enzyme increased",
+      "ratio_early": -1.33632681736709,
+      "ratio_late": 5.151571993087894,
+      "shift": 6.487898810454984,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 16,
+      "am_early": 19,
+      "af_late": 1398,
+      "am_late": 10
+    },
+    {
+      "drug": "DICLOFENAC",
+      "pt": "Weight increased",
+      "ratio_early": -0.6402670735698487,
+      "ratio_late": 5.8425467154234045,
+      "shift": 6.482813788993253,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 36,
+      "am_early": 21,
+      "af_late": 2062,
+      "am_late": 13
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "pt": "Hepatic enzyme increased",
+      "ratio_early": -2.380660339544119,
+      "ratio_late": 3.973192415881638,
+      "shift": 6.353852755425757,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 12,
+      "am_early": 12,
+      "af_late": 2183,
+      "am_late": 19
+    },
+    {
+      "drug": "PREDNISONE",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": -1.1277709923152808,
+      "ratio_late": 5.133938513539241,
+      "shift": 6.261709505854522,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 21,
+      "am_early": 13,
+      "af_late": 2032,
+      "am_late": 38
+    },
+    {
+      "drug": "DUTASTERIDE",
+      "pt": "Off label use",
+      "ratio_early": 5.434927375861388,
+      "ratio_late": -0.7254015988850265,
+      "shift": -6.160328974746415,
+      "direction_early": "female_biased",
+      "direction_late": "male_biased",
+      "af_early": 11,
+      "am_early": 19,
+      "af_late": 10,
+      "am_late": 47
+    },
+    {
+      "drug": "RITUXIMAB",
+      "pt": "Wheezing",
+      "ratio_early": -1.1299311535438448,
+      "ratio_late": 5.02242140637516,
+      "shift": 6.152352559919004,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 15,
+      "am_early": 25,
+      "af_late": 2265,
+      "am_late": 36
+    },
+    {
+      "drug": "OXYCODONE",
+      "pt": "Mobility decreased",
+      "ratio_early": -0.6120843737988759,
+      "ratio_late": 5.530364950343666,
+      "shift": 6.142449324142541,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 13,
+      "am_early": 14,
+      "af_late": 1399,
+      "am_late": 18
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "pt": "Injury",
+      "ratio_early": -1.4662868455233267,
+      "ratio_late": 4.581176452715038,
+      "shift": 6.047463298238364,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 83,
+      "am_early": 50,
+      "af_late": 1921,
+      "am_late": 41
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "pt": "Injection site abscess",
+      "ratio_early": -0.7347388748875803,
+      "ratio_late": 5.274969387605718,
+      "shift": 6.009708262493298,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 23,
+      "am_early": 24,
+      "af_late": 38,
+      "am_late": 12
+    },
+    {
+      "drug": "RITUXIMAB",
+      "pt": "Blister",
+      "ratio_early": -0.3366661752032412,
+      "ratio_late": 5.656574537480638,
+      "shift": 5.993240712683879,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 12,
+      "am_early": 12,
+      "af_late": 1953,
+      "am_late": 21
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "pt": "Peripheral swelling",
+      "ratio_early": -0.24353137537737016,
+      "ratio_late": 5.698530889410499,
+      "shift": 5.942062264787869,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 20,
+      "am_early": 17,
+      "af_late": 1267,
+      "am_late": 10
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "pt": "General physical health deterioration",
+      "ratio_early": -0.7323480123648712,
+      "ratio_late": 5.204377196563114,
+      "shift": 5.936725208927985,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 12,
+      "am_early": 19,
+      "af_late": 913,
+      "am_late": 22
+    },
+    {
+      "drug": "NAPROXEN",
+      "pt": "Pneumonia",
+      "ratio_early": -0.5312074375009941,
+      "ratio_late": 5.400701875723721,
+      "shift": 5.931909313224715,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 16,
+      "am_early": 14,
+      "af_late": 1070,
+      "am_late": 10
+    },
+    {
+      "drug": "TRIAMCINOLONE",
+      "pt": "Hypoaesthesia",
+      "ratio_early": -1.1356179331602916,
+      "ratio_late": 4.784382496842743,
+      "shift": 5.920000430003034,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 21,
+      "am_early": 17,
+      "af_late": 847,
+      "am_late": 10
+    },
+    {
+      "drug": "RITUXIMAB",
+      "pt": "Mobility decreased",
+      "ratio_early": -0.6940374186346272,
+      "ratio_late": 5.144772686758931,
+      "shift": 5.838810105393558,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 16,
+      "am_early": 15,
+      "af_late": 2102,
+      "am_late": 35
+    },
+    {
+      "drug": "OXYCODONE",
+      "pt": "Contusion",
+      "ratio_early": -0.02391774069557586,
+      "ratio_late": 5.813148825223037,
+      "shift": 5.837066565918613,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 24,
+      "am_early": 15,
+      "af_late": 1152,
+      "am_late": 10
+    },
+    {
+      "drug": "NAPROXEN",
+      "pt": "Confusional state",
+      "ratio_early": -0.6068209790168523,
+      "ratio_late": 5.222466136872153,
+      "shift": 5.829287115889006,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 46,
+      "am_early": 39,
+      "af_late": 1310,
+      "am_late": 15
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "pt": "Confusional state",
+      "ratio_early": -1.1858905899340204,
+      "ratio_late": 4.631683956573566,
+      "shift": 5.817574546507586,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 16,
+      "am_early": 25,
+      "af_late": 755,
+      "am_late": 36
+    },
+    {
+      "drug": "DOXYCYCLINE",
+      "pt": "Pain in extremity",
+      "ratio_early": -2.208420297333502,
+      "ratio_late": 3.596936179001994,
+      "shift": 5.805356476335496,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 16,
+      "am_early": 20,
+      "af_late": 368,
+      "am_late": 11
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "pt": "Pericarditis",
+      "ratio_early": -1.013177373454964,
+      "ratio_late": 4.780638366224244,
+      "shift": 5.793815739679209,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 22,
+      "am_early": 45,
+      "af_late": 2017,
+      "am_late": 28
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "pt": "Hypoaesthesia",
+      "ratio_early": -0.7000630880970673,
+      "ratio_late": 5.083599333127177,
+      "shift": 5.7836624212242445,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 19,
+      "am_early": 21,
+      "af_late": 1304,
+      "am_late": 14
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "pt": "Type 2 diabetes mellitus",
+      "ratio_early": -1.921552944495732,
+      "ratio_late": 3.837015642494196,
+      "shift": 5.758568586989928,
+      "direction_early": "male_biased",
+      "direction_late": "female_biased",
+      "af_early": 70,
+      "am_early": 39,
+      "af_late": 2008,
+      "am_late": 51
+    }
+  ],
+  "top_50_ae_temporal_trends": [
+    {
+      "pt": "Unintentional medical device removal",
+      "values_by_era": {
+        "Era1_2013-2015": -7.5377,
+        "Era2_2016-2017": -3.1897,
+        "Era3_2018-2019": -1.7432,
+        "Era4_2020-2022": -1.3648,
+        "Era5_2023-2025": -1.1695
+      },
+      "trend_shift": 6.3682,
+      "mean_ratio": -3.001,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Blood phosphorus increased",
+      "values_by_era": {
+        "Era1_2013-2015": 1.5046,
+        "Era2_2016-2017": -0.1012,
+        "Era3_2018-2019": -0.0122,
+        "Era4_2020-2022": 0.9427,
+        "Era5_2023-2025": -3.3785
+      },
+      "trend_shift": -4.8831,
+      "mean_ratio": -0.2089,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Device difficult to use",
+      "values_by_era": {
+        "Era1_2013-2015": -4.9019,
+        "Era2_2016-2017": -3.4158,
+        "Era3_2018-2019": -2.3097,
+        "Era4_2020-2022": -0.7287,
+        "Era5_2023-2025": -0.1938
+      },
+      "trend_shift": 4.7081,
+      "mean_ratio": -2.31,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Forced expiratory volume decreased",
+      "values_by_era": {
+        "Era1_2013-2015": 0.5147,
+        "Era2_2016-2017": -0.0425,
+        "Era3_2018-2019": -0.0109,
+        "Era4_2020-2022": -0.7204,
+        "Era5_2023-2025": -3.6174
+      },
+      "trend_shift": -4.1321,
+      "mean_ratio": -0.7753,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Hypophosphataemia",
+      "values_by_era": {
+        "Era1_2013-2015": 1.005,
+        "Era2_2016-2017": 0.6917,
+        "Era3_2018-2019": 0.3036,
+        "Era4_2020-2022": -0.043,
+        "Era5_2023-2025": -3.0245
+      },
+      "trend_shift": -4.0295,
+      "mean_ratio": -0.2134,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Bursitis",
+      "values_by_era": {
+        "Era1_2013-2015": -1.4577,
+        "Era2_2016-2017": -1.1334,
+        "Era3_2018-2019": -0.2163,
+        "Era4_2020-2022": 0.2386,
+        "Era5_2023-2025": 2.2681
+      },
+      "trend_shift": 3.7258,
+      "mean_ratio": -0.0601,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Blood uric acid increased",
+      "values_by_era": {
+        "Era1_2013-2015": 1.0164,
+        "Era2_2016-2017": 0.7862,
+        "Era3_2018-2019": 0.6667,
+        "Era4_2020-2022": -0.0304,
+        "Era5_2023-2025": -2.7054
+      },
+      "trend_shift": -3.7218,
+      "mean_ratio": -0.0533,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Appendicitis",
+      "values_by_era": {
+        "Era1_2013-2015": -0.0208,
+        "Era2_2016-2017": 0.3759,
+        "Era3_2018-2019": -0.0017,
+        "Era4_2020-2022": -0.1825,
+        "Era5_2023-2025": -3.562
+      },
+      "trend_shift": -3.5412,
+      "mean_ratio": -0.6782,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Graft loss",
+      "values_by_era": {
+        "Era1_2013-2015": 3.6146,
+        "Era2_2016-2017": 0.7201,
+        "Era3_2018-2019": 1.4209,
+        "Era4_2020-2022": 2.3487,
+        "Era5_2023-2025": 0.1845
+      },
+      "trend_shift": -3.4301,
+      "mean_ratio": 1.6578,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Temperature regulation disorder",
+      "values_by_era": {
+        "Era1_2013-2015": -1.0125,
+        "Era2_2016-2017": -0.9153,
+        "Era3_2018-2019": -1.3487,
+        "Era4_2020-2022": -0.3449,
+        "Era5_2023-2025": 2.2215
+      },
+      "trend_shift": 3.234,
+      "mean_ratio": -0.28,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Blood growth hormone increased",
+      "values_by_era": {
+        "Era1_2013-2015": 1.6071,
+        "Era2_2016-2017": 1.215,
+        "Era3_2018-2019": -0.3249,
+        "Era4_2020-2022": 0.028,
+        "Era5_2023-2025": -1.6155
+      },
+      "trend_shift": -3.2226,
+      "mean_ratio": 0.1819,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Bone density decreased",
+      "values_by_era": {
+        "Era1_2013-2015": -1.4988,
+        "Era2_2016-2017": -0.7885,
+        "Era3_2018-2019": -0.5562,
+        "Era4_2020-2022": 2.529,
+        "Era5_2023-2025": 1.7191
+      },
+      "trend_shift": 3.2179,
+      "mean_ratio": 0.2809,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Autoimmune disorder",
+      "values_by_era": {
+        "Era1_2013-2015": -0.914,
+        "Era2_2016-2017": -0.7895,
+        "Era3_2018-2019": -0.0851,
+        "Era4_2020-2022": -0.0557,
+        "Era5_2023-2025": 2.2942
+      },
+      "trend_shift": 3.2082,
+      "mean_ratio": 0.09,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Agoraphobia",
+      "values_by_era": {
+        "Era1_2013-2015": 0.4892,
+        "Era2_2016-2017": -0.5092,
+        "Era3_2018-2019": -1.7596,
+        "Era4_2020-2022": -0.6583,
+        "Era5_2023-2025": -2.6793
+      },
+      "trend_shift": -3.1685,
+      "mean_ratio": -1.0234,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Milk-alkali syndrome",
+      "values_by_era": {
+        "Era1_2013-2015": -0.0584,
+        "Era2_2016-2017": -1.9907,
+        "Era3_2018-2019": -1.217,
+        "Era4_2020-2022": -0.7054,
+        "Era5_2023-2025": -3.1945
+      },
+      "trend_shift": -3.1361,
+      "mean_ratio": -1.4332,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Bone density abnormal",
+      "values_by_era": {
+        "Era1_2013-2015": -3.3847,
+        "Era2_2016-2017": -0.4545,
+        "Era3_2018-2019": -0.5822,
+        "Era4_2020-2022": 0.1963,
+        "Era5_2023-2025": -0.2934
+      },
+      "trend_shift": 3.0913,
+      "mean_ratio": -0.9037,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Onychomycosis",
+      "values_by_era": {
+        "Era1_2013-2015": -0.4803,
+        "Era2_2016-2017": 0.1131,
+        "Era3_2018-2019": 1.1645,
+        "Era4_2020-2022": -0.083,
+        "Era5_2023-2025": 2.6026
+      },
+      "trend_shift": 3.0829,
+      "mean_ratio": 0.6634,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Ventricular fibrillation",
+      "values_by_era": {
+        "Era1_2013-2015": 0.4766,
+        "Era2_2016-2017": 0.9833,
+        "Era3_2018-2019": 0.0949,
+        "Era4_2020-2022": -0.3077,
+        "Era5_2023-2025": -2.5559
+      },
+      "trend_shift": -3.0325,
+      "mean_ratio": -0.2618,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Application site paraesthesia",
+      "values_by_era": {
+        "Era1_2013-2015": -0.6072,
+        "Era2_2016-2017": -0.9282,
+        "Era3_2018-2019": -1.4317,
+        "Era4_2020-2022": 0.4597,
+        "Era5_2023-2025": 2.3689
+      },
+      "trend_shift": 2.9761,
+      "mean_ratio": -0.0277,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Wound infection",
+      "values_by_era": {
+        "Era1_2013-2015": 0.0312,
+        "Era2_2016-2017": -0.0467,
+        "Era3_2018-2019": 0.0158,
+        "Era4_2020-2022": 0.0063,
+        "Era5_2023-2025": 2.9559
+      },
+      "trend_shift": 2.9247,
+      "mean_ratio": 0.5925,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Insulin-like growth factor decreased",
+      "values_by_era": {
+        "Era1_2013-2015": 2.724,
+        "Era2_2016-2017": -1.723,
+        "Era3_2018-2019": 0.3325,
+        "Era4_2020-2022": 0.478,
+        "Era5_2023-2025": -0.1935
+      },
+      "trend_shift": -2.9175,
+      "mean_ratio": 0.3236,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Device breakage",
+      "values_by_era": {
+        "Era1_2013-2015": -3.0446,
+        "Era2_2016-2017": -2.9863,
+        "Era3_2018-2019": -2.5614,
+        "Era4_2020-2022": -1.6147,
+        "Era5_2023-2025": -0.1955
+      },
+      "trend_shift": 2.8491,
+      "mean_ratio": -2.0805,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Osteosclerosis",
+      "values_by_era": {
+        "Era1_2013-2015": -0.4637,
+        "Era2_2016-2017": -1.8177,
+        "Era3_2018-2019": -2.1549,
+        "Era4_2020-2022": -2.529,
+        "Era5_2023-2025": -3.3036
+      },
+      "trend_shift": -2.8399,
+      "mean_ratio": -2.0538,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Respiratory syncytial virus test positive",
+      "values_by_era": {
+        "Era1_2013-2015": 1.6797,
+        "Era2_2016-2017": 0.1193,
+        "Era3_2018-2019": 2.604,
+        "Era4_2020-2022": -2.3817,
+        "Era5_2023-2025": -1.1508
+      },
+      "trend_shift": -2.8305,
+      "mean_ratio": 0.1741,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Grip strength decreased",
+      "values_by_era": {
+        "Era1_2013-2015": -0.7671,
+        "Era2_2016-2017": 0.1152,
+        "Era3_2018-2019": -0.0826,
+        "Era4_2020-2022": -0.911,
+        "Era5_2023-2025": 2.0612
+      },
+      "trend_shift": 2.8283,
+      "mean_ratio": 0.0831,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Myasthenia gravis",
+      "values_by_era": {
+        "Era1_2013-2015": -0.0376,
+        "Era2_2016-2017": -0.1114,
+        "Era3_2018-2019": 0.3323,
+        "Era4_2020-2022": 0.1542,
+        "Era5_2023-2025": -2.8571
+      },
+      "trend_shift": -2.8195,
+      "mean_ratio": -0.5039,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Device kink",
+      "values_by_era": {
+        "Era1_2013-2015": -3.2013,
+        "Era2_2016-2017": -3.4639,
+        "Era3_2018-2019": -3.3032,
+        "Era4_2020-2022": -2.0863,
+        "Era5_2023-2025": -0.403
+      },
+      "trend_shift": 2.7983,
+      "mean_ratio": -2.4915,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Iron deficiency",
+      "values_by_era": {
+        "Era1_2013-2015": -0.7398,
+        "Era2_2016-2017": -0.2201,
+        "Era3_2018-2019": -0.5622,
+        "Era4_2020-2022": -0.9704,
+        "Era5_2023-2025": -3.4979
+      },
+      "trend_shift": -2.7581,
+      "mean_ratio": -1.1981,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Dental implantation",
+      "values_by_era": {
+        "Era1_2013-2015": -3.5019,
+        "Era2_2016-2017": -0.9656,
+        "Era3_2018-2019": -0.9695,
+        "Era4_2020-2022": -1.5605,
+        "Era5_2023-2025": -0.7497
+      },
+      "trend_shift": 2.7522,
+      "mean_ratio": -1.5494,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Hypersensitivity vasculitis",
+      "values_by_era": {
+        "Era1_2013-2015": 0.1359,
+        "Era2_2016-2017": 0.1786,
+        "Era3_2018-2019": -0.4952,
+        "Era4_2020-2022": -0.3053,
+        "Era5_2023-2025": -2.6159
+      },
+      "trend_shift": -2.7518,
+      "mean_ratio": -0.6204,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Mutism",
+      "values_by_era": {
+        "Era1_2013-2015": 1.0015,
+        "Era2_2016-2017": 1.0339,
+        "Era3_2018-2019": -0.1752,
+        "Era4_2020-2022": -0.4762,
+        "Era5_2023-2025": -1.7483
+      },
+      "trend_shift": -2.7498,
+      "mean_ratio": -0.0729,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Medical device site infection",
+      "values_by_era": {
+        "Era1_2013-2015": -2.5981,
+        "Era2_2016-2017": 0.0629,
+        "Era3_2018-2019": 0.6135,
+        "Era4_2020-2022": -0.3651,
+        "Era5_2023-2025": 0.0849
+      },
+      "trend_shift": 2.683,
+      "mean_ratio": -0.4404,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Deformity",
+      "values_by_era": {
+        "Era1_2013-2015": -0.4775,
+        "Era2_2016-2017": -1.8345,
+        "Era3_2018-2019": -0.7128,
+        "Era4_2020-2022": -1.3221,
+        "Era5_2023-2025": -3.141
+      },
+      "trend_shift": -2.6635,
+      "mean_ratio": -1.4976,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Antipsychotic drug level decreased",
+      "values_by_era": {
+        "Era1_2013-2015": 1.2218,
+        "Era2_2016-2017": 0.8503,
+        "Era3_2018-2019": -0.8606,
+        "Era4_2020-2022": 2.9046,
+        "Era5_2023-2025": 3.8828
+      },
+      "trend_shift": 2.661,
+      "mean_ratio": 1.5998,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Excessive granulation tissue",
+      "values_by_era": {
+        "Era1_2013-2015": -0.8894,
+        "Era2_2016-2017": 0.8475,
+        "Era3_2018-2019": -0.3316,
+        "Era4_2020-2022": 0.5224,
+        "Era5_2023-2025": 1.7557
+      },
+      "trend_shift": 2.6451,
+      "mean_ratio": 0.3809,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Loose tooth",
+      "values_by_era": {
+        "Era1_2013-2015": -0.9725,
+        "Era2_2016-2017": -0.7192,
+        "Era3_2018-2019": -0.6152,
+        "Era4_2020-2022": -0.3073,
+        "Era5_2023-2025": 1.6687
+      },
+      "trend_shift": 2.6412,
+      "mean_ratio": -0.1891,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Cleft lip and palate",
+      "values_by_era": {
+        "Era1_2013-2015": -0.2519,
+        "Era2_2016-2017": 0.8165,
+        "Era3_2018-2019": 0.0875,
+        "Era4_2020-2022": 1.5461,
+        "Era5_2023-2025": -2.844
+      },
+      "trend_shift": -2.5921,
+      "mean_ratio": -0.1292,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Bronchial hyperreactivity",
+      "values_by_era": {
+        "Era1_2013-2015": -0.5723,
+        "Era2_2016-2017": -1.2862,
+        "Era3_2018-2019": -1.3976,
+        "Era4_2020-2022": -1.7735,
+        "Era5_2023-2025": -3.0847
+      },
+      "trend_shift": -2.5124,
+      "mean_ratio": -1.6229,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Pemphigus",
+      "values_by_era": {
+        "Era1_2013-2015": 0.404,
+        "Era2_2016-2017": 4.1016,
+        "Era3_2018-2019": -0.6382,
+        "Era4_2020-2022": -1.4175,
+        "Era5_2023-2025": 2.8805
+      },
+      "trend_shift": 2.4765,
+      "mean_ratio": 1.0661,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Troponin increased",
+      "values_by_era": {
+        "Era1_2013-2015": 0.7987,
+        "Era2_2016-2017": 0.3704,
+        "Era3_2018-2019": 0.8358,
+        "Era4_2020-2022": 0.6164,
+        "Era5_2023-2025": -1.674
+      },
+      "trend_shift": -2.4727,
+      "mean_ratio": 0.1895,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Synovitis",
+      "values_by_era": {
+        "Era1_2013-2015": -0.1764,
+        "Era2_2016-2017": -0.4854,
+        "Era3_2018-2019": -0.732,
+        "Era4_2020-2022": 0.212,
+        "Era5_2023-2025": 2.2893
+      },
+      "trend_shift": 2.4657,
+      "mean_ratio": 0.2215,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Oesophageal varices haemorrhage",
+      "values_by_era": {
+        "Era1_2013-2015": 1.0726,
+        "Era2_2016-2017": 1.2043,
+        "Era3_2018-2019": 1.2467,
+        "Era4_2020-2022": -0.7724,
+        "Era5_2023-2025": -1.3786
+      },
+      "trend_shift": -2.4512,
+      "mean_ratio": 0.2745,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Sleep disorder due to general medical condition, insomnia type",
+      "values_by_era": {
+        "Era1_2013-2015": -0.3243,
+        "Era2_2016-2017": -0.1051,
+        "Era3_2018-2019": -1.5683,
+        "Era4_2020-2022": 1.4249,
+        "Era5_2023-2025": -2.7692
+      },
+      "trend_shift": -2.4449,
+      "mean_ratio": -0.6684,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Embolia cutis medicamentosa",
+      "values_by_era": {
+        "Era1_2013-2015": 0.7537,
+        "Era2_2016-2017": 0.6858,
+        "Era3_2018-2019": -1.0827,
+        "Era4_2020-2022": -1.1488,
+        "Era5_2023-2025": -1.6878
+      },
+      "trend_shift": -2.4415,
+      "mean_ratio": -0.496,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Exposure during pregnancy",
+      "values_by_era": {
+        "Era1_2013-2015": -1.2028,
+        "Era2_2016-2017": -4.326,
+        "Era3_2018-2019": -4.1777,
+        "Era4_2020-2022": -0.9567,
+        "Era5_2023-2025": -3.6343
+      },
+      "trend_shift": -2.4315,
+      "mean_ratio": -2.8595,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Vasoplegia syndrome",
+      "values_by_era": {
+        "Era1_2013-2015": 2.0089,
+        "Era2_2016-2017": 1.4248,
+        "Era3_2018-2019": -0.4244,
+        "Era4_2020-2022": -0.0992,
+        "Era5_2023-2025": -0.3868
+      },
+      "trend_shift": -2.3957,
+      "mean_ratio": 0.5047,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Bone loss",
+      "values_by_era": {
+        "Era1_2013-2015": -0.9023,
+        "Era2_2016-2017": -1.878,
+        "Era3_2018-2019": -0.5055,
+        "Era4_2020-2022": 1.5203,
+        "Era5_2023-2025": 1.4707
+      },
+      "trend_shift": 2.373,
+      "mean_ratio": -0.059,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Spinal epidural haematoma",
+      "values_by_era": {
+        "Era1_2013-2015": -0.03,
+        "Era2_2016-2017": 0.4604,
+        "Era3_2018-2019": 0.5045,
+        "Era4_2020-2022": 0.3814,
+        "Era5_2023-2025": 2.3363
+      },
+      "trend_shift": 2.3663,
+      "mean_ratio": 0.7305,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Chest X-ray abnormal",
+      "values_by_era": {
+        "Era1_2013-2015": 0.2583,
+        "Era2_2016-2017": 0.4835,
+        "Era3_2018-2019": -0.7712,
+        "Era4_2020-2022": -0.5956,
+        "Era5_2023-2025": 2.6165
+      },
+      "trend_shift": 2.3582,
+      "mean_ratio": 0.3983,
+      "all_female_biased": false,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Perirectal abscess",
+      "values_by_era": {
+        "Era1_2013-2015": -0.3446,
+        "Era2_2016-2017": -0.4834,
+        "Era3_2018-2019": -0.8076,
+        "Era4_2020-2022": 0.6143,
+        "Era5_2023-2025": 2.0114
+      },
+      "trend_shift": 2.356,
+      "mean_ratio": 0.198,
+      "all_female_biased": false,
+      "all_male_biased": false
+    }
+  ],
+  "top_50_drug_temporal_trends": [
+    {
+      "drug": "OLAPARIB",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -5.0728,
+          "n_pairs": 2
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.8337,
+          "n_pairs": 7
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.0864,
+          "n_pairs": 9
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.5976,
+          "n_pairs": 36
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.2152,
+          "n_pairs": 79
+        }
+      },
+      "trend_shift": 4.8576,
+      "mean_ratio": -1.3611,
+      "total_pairs": 133
+    },
+    {
+      "drug": "PALBOCICLIB",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -4.3755,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.1004,
+          "n_pairs": 21
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.1527,
+          "n_pairs": 12
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.1082,
+          "n_pairs": 40
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.1018,
+          "n_pairs": 38
+        }
+      },
+      "trend_shift": 4.2737,
+      "mean_ratio": -0.8634,
+      "total_pairs": 112
+    },
+    {
+      "drug": "ATAZANAVIR",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.196,
+          "n_pairs": 25
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.9469,
+          "n_pairs": 4
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.4509,
+          "n_pairs": 2
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -1.156,
+          "n_pairs": 3
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 3.4842,
+          "n_pairs": 1
+        }
+      },
+      "trend_shift": 3.6802,
+      "mean_ratio": 0.706,
+      "total_pairs": 35
+    },
+    {
+      "drug": "HYDROCHLOROTHIAZIDE;LISINOPRIL",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.5397,
+          "n_pairs": 15
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.2753,
+          "n_pairs": 6
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.1134,
+          "n_pairs": 10
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.6125,
+          "n_pairs": 4
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -2.977,
+          "n_pairs": 1
+        }
+      },
+      "trend_shift": -3.5167,
+      "mean_ratio": -0.2872,
+      "total_pairs": 36
+    },
+    {
+      "drug": "ASENAPINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.1508,
+          "n_pairs": 44
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.6139,
+          "n_pairs": 4
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 1.2035,
+          "n_pairs": 17
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 1.9002,
+          "n_pairs": 19
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 3.0542,
+          "n_pairs": 16
+        }
+      },
+      "trend_shift": 3.205,
+      "mean_ratio": 1.0786,
+      "total_pairs": 100
+    },
+    {
+      "drug": "ESOMEPRAZOLE;NAPROXEN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.9251,
+          "n_pairs": 3
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.2693,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.4335,
+          "n_pairs": 11
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -1.3335,
+          "n_pairs": 4
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -4.0698,
+          "n_pairs": 4
+        }
+      },
+      "trend_shift": -3.1447,
+      "mean_ratio": -1.4062,
+      "total_pairs": 23
+    },
+    {
+      "drug": "GOSERELIN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 1.5182,
+          "n_pairs": 5
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 1.3273,
+          "n_pairs": 7
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.1802,
+          "n_pairs": 6
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.4851,
+          "n_pairs": 6
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.1484,
+          "n_pairs": 14
+        }
+      },
+      "trend_shift": -2.6666,
+      "mean_ratio": 0.2064,
+      "total_pairs": 38
+    },
+    {
+      "drug": "RANITIDINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.0283,
+          "n_pairs": 57
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.1268,
+          "n_pairs": 36
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.2424,
+          "n_pairs": 81
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.5542,
+          "n_pairs": 287
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 2.619,
+          "n_pairs": 78
+        }
+      },
+      "trend_shift": 2.6473,
+      "mean_ratio": 0.5551,
+      "total_pairs": 539
+    },
+    {
+      "drug": "QUININE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.2457,
+          "n_pairs": 4
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -1.3722,
+          "n_pairs": 2
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.591,
+          "n_pairs": 1
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.3045,
+          "n_pairs": 1
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 2.3035,
+          "n_pairs": 6
+        }
+      },
+      "trend_shift": 2.5492,
+      "mean_ratio": -0.042,
+      "total_pairs": 14
+    },
+    {
+      "drug": "MINOCYCLINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.7009,
+          "n_pairs": 17
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.7033,
+          "n_pairs": 10
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.3462,
+          "n_pairs": 17
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.4641,
+          "n_pairs": 29
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.7453,
+          "n_pairs": 27
+        }
+      },
+      "trend_shift": 2.4462,
+      "mean_ratio": -0.0938,
+      "total_pairs": 100
+    },
+    {
+      "drug": "STAVUDINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.3028,
+          "n_pairs": 7
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.5369,
+          "n_pairs": 11
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 2.2762,
+          "n_pairs": 5
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 2.9802,
+          "n_pairs": 1
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 2.1188,
+          "n_pairs": 2
+        }
+      },
+      "trend_shift": 2.4216,
+      "mean_ratio": 1.5219,
+      "total_pairs": 26
+    },
+    {
+      "drug": "ATROPINE;DIPHENOXYLATE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.2583,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.364,
+          "n_pairs": 4
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.3747,
+          "n_pairs": 6
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.0653,
+          "n_pairs": 2
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 2.1429,
+          "n_pairs": 2
+        }
+      },
+      "trend_shift": 2.4012,
+      "mean_ratio": 0.2422,
+      "total_pairs": 15
+    },
+    {
+      "drug": "CODEINE;PARACETAMOL",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.2806,
+          "n_pairs": 39
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.4699,
+          "n_pairs": 17
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.1182,
+          "n_pairs": 35
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.0028,
+          "n_pairs": 91
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.879,
+          "n_pairs": 80
+        }
+      },
+      "trend_shift": 2.1596,
+      "mean_ratio": 0.2026,
+      "total_pairs": 262
+    },
+    {
+      "drug": "APREPITANT",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.3415,
+          "n_pairs": 13
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.1794,
+          "n_pairs": 17
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.6927,
+          "n_pairs": 20
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.1811,
+          "n_pairs": 15
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.7846,
+          "n_pairs": 28
+        }
+      },
+      "trend_shift": 2.1261,
+      "mean_ratio": 0.078,
+      "total_pairs": 93
+    },
+    {
+      "drug": "DEXTROPROPOXYPHENE;PARACETAMOL",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.7097,
+          "n_pairs": 14
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.6055,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 1.0406,
+          "n_pairs": 1
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.2418,
+          "n_pairs": 9
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.4052,
+          "n_pairs": 2
+        }
+      },
+      "trend_shift": -2.1149,
+      "mean_ratio": 0.1418,
+      "total_pairs": 27
+    },
+    {
+      "drug": "CELECOXIB",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.1904,
+          "n_pairs": 144
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.0344,
+          "n_pairs": 66
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.139,
+          "n_pairs": 93
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.1029,
+          "n_pairs": 176
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.8437,
+          "n_pairs": 88
+        }
+      },
+      "trend_shift": 2.0341,
+      "mean_ratio": 0.3166,
+      "total_pairs": 567
+    },
+    {
+      "drug": "APREMILAST",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.4215,
+          "n_pairs": 103
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.2164,
+          "n_pairs": 198
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.1271,
+          "n_pairs": 255
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.0507,
+          "n_pairs": 237
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.6046,
+          "n_pairs": 115
+        }
+      },
+      "trend_shift": 2.0261,
+      "mean_ratio": 0.1578,
+      "total_pairs": 908
+    },
+    {
+      "drug": "CEFTAZIDIME",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 1.7815,
+          "n_pairs": 2
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 1.056,
+          "n_pairs": 3
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.3848,
+          "n_pairs": 5
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.4118,
+          "n_pairs": 15
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.2227,
+          "n_pairs": 18
+        }
+      },
+      "trend_shift": -2.0042,
+      "mean_ratio": 0.6823,
+      "total_pairs": 43
+    },
+    {
+      "drug": "DACLATASVIR",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.5081,
+          "n_pairs": 13
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.2946,
+          "n_pairs": 53
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.721,
+          "n_pairs": 10
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.2558,
+          "n_pairs": 1
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 2.4966,
+          "n_pairs": 1
+        }
+      },
+      "trend_shift": 1.9885,
+      "mean_ratio": 0.8552,
+      "total_pairs": 78
+    },
+    {
+      "drug": "PROCHLORPERAZINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -1.2034,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.3845,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.0318,
+          "n_pairs": 2
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -1.014,
+          "n_pairs": 6
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.7635,
+          "n_pairs": 6
+        }
+      },
+      "trend_shift": 1.9669,
+      "mean_ratio": -0.2075,
+      "total_pairs": 16
+    },
+    {
+      "drug": "MINOXIDIL",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -1.1049,
+          "n_pairs": 58
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.8974,
+          "n_pairs": 73
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -1.1586,
+          "n_pairs": 73
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.0684,
+          "n_pairs": 76
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.7353,
+          "n_pairs": 63
+        }
+      },
+      "trend_shift": 1.8402,
+      "mean_ratio": -0.4988,
+      "total_pairs": 343
+    },
+    {
+      "drug": "VITAMINS, UNSPECIFIED",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -1.1449,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.5218,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.568,
+          "n_pairs": 2
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.4305,
+          "n_pairs": 3
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.6881,
+          "n_pairs": 42
+        }
+      },
+      "trend_shift": 1.833,
+      "mean_ratio": -0.3954,
+      "total_pairs": 49
+    },
+    {
+      "drug": "CHLORMETHINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.8213,
+          "n_pairs": 4
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.4364,
+          "n_pairs": 18
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.1798,
+          "n_pairs": 14
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.2863,
+          "n_pairs": 15
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.0105,
+          "n_pairs": 4
+        }
+      },
+      "trend_shift": 1.8318,
+      "mean_ratio": -0.0707,
+      "total_pairs": 55
+    },
+    {
+      "drug": "BRINZOLAMIDE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.1585,
+          "n_pairs": 3
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -1.0988,
+          "n_pairs": 3
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.5712,
+          "n_pairs": 7
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.8613,
+          "n_pairs": 9
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.9733,
+          "n_pairs": 2
+        }
+      },
+      "trend_shift": -1.8148,
+      "mean_ratio": -0.9326,
+      "total_pairs": 24
+    },
+    {
+      "drug": "ANASTROZOLE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -3.1723,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -3.1902,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -4.2192,
+          "n_pairs": 1
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -4.1191,
+          "n_pairs": 3
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.4134,
+          "n_pairs": 2
+        }
+      },
+      "trend_shift": 1.7589,
+      "mean_ratio": -3.2228,
+      "total_pairs": 8
+    },
+    {
+      "drug": "ROFECOXIB",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 1.1686,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.3952,
+          "n_pairs": 2
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -2.8805,
+          "n_pairs": 4
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -3.48,
+          "n_pairs": 6
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.5685,
+          "n_pairs": 1
+        }
+      },
+      "trend_shift": -1.7371,
+      "mean_ratio": -1.2311,
+      "total_pairs": 14
+    },
+    {
+      "drug": "PIROXICAM",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 1.7747,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.5642,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.5126,
+          "n_pairs": 2
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.7674,
+          "n_pairs": 3
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.0681,
+          "n_pairs": 6
+        }
+      },
+      "trend_shift": -1.7066,
+      "mean_ratio": 0.2254,
+      "total_pairs": 13
+    },
+    {
+      "drug": "EFAVIRENZ",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.32,
+          "n_pairs": 18
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 1.0239,
+          "n_pairs": 7
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 1.2936,
+          "n_pairs": 7
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.9168,
+          "n_pairs": 27
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.3689,
+          "n_pairs": 14
+        }
+      },
+      "trend_shift": 1.6889,
+      "mean_ratio": 0.8566,
+      "total_pairs": 73
+    },
+    {
+      "drug": "MELATONIN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.0557,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.0811,
+          "n_pairs": 4
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.6879,
+          "n_pairs": 6
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.0242,
+          "n_pairs": 30
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.5456,
+          "n_pairs": 45
+        }
+      },
+      "trend_shift": -1.6013,
+      "mean_ratio": -0.149,
+      "total_pairs": 86
+    },
+    {
+      "drug": "VITAMIN D3",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -1.7082,
+          "n_pairs": 4
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.8141,
+          "n_pairs": 2
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.3986,
+          "n_pairs": 19
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.4826,
+          "n_pairs": 86
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.1521,
+          "n_pairs": 190
+        }
+      },
+      "trend_shift": 1.5561,
+      "mean_ratio": -0.7111,
+      "total_pairs": 301
+    },
+    {
+      "drug": "ROPINIROLE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.0664,
+          "n_pairs": 35
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.0008,
+          "n_pairs": 15
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.2832,
+          "n_pairs": 13
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.4154,
+          "n_pairs": 23
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.6106,
+          "n_pairs": 15
+        }
+      },
+      "trend_shift": -1.5442,
+      "mean_ratio": -0.475,
+      "total_pairs": 101
+    },
+    {
+      "drug": "SOFOSBUVIR",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.2283,
+          "n_pairs": 148
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.3717,
+          "n_pairs": 99
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.5591,
+          "n_pairs": 24
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.3979,
+          "n_pairs": 7
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.7293,
+          "n_pairs": 2
+        }
+      },
+      "trend_shift": 1.501,
+      "mean_ratio": 0.6573,
+      "total_pairs": 280
+    },
+    {
+      "drug": "IMIQUIMOD",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.4399,
+          "n_pairs": 4
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.9272,
+          "n_pairs": 4
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -1.0273,
+          "n_pairs": 3
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.2522,
+          "n_pairs": 5
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.016,
+          "n_pairs": 1
+        }
+      },
+      "trend_shift": -1.4559,
+      "mean_ratio": -0.4557,
+      "total_pairs": 17
+    },
+    {
+      "drug": "CODEINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.6555,
+          "n_pairs": 40
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -1.0949,
+          "n_pairs": 12
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.5103,
+          "n_pairs": 41
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.5625,
+          "n_pairs": 159
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.7862,
+          "n_pairs": 99
+        }
+      },
+      "trend_shift": 1.4417,
+      "mean_ratio": -0.1824,
+      "total_pairs": 351
+    },
+    {
+      "drug": "IVERMECTIN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -1.6672,
+          "n_pairs": 5
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.1928,
+          "n_pairs": 3
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.2889,
+          "n_pairs": 3
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.6213,
+          "n_pairs": 6
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.2269,
+          "n_pairs": 5
+        }
+      },
+      "trend_shift": 1.4403,
+      "mean_ratio": -0.5994,
+      "total_pairs": 22
+    },
+    {
+      "drug": "CALCITRIOL",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.782,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.4548,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.0069,
+          "n_pairs": 2
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.055,
+          "n_pairs": 9
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.6432,
+          "n_pairs": 19
+        }
+      },
+      "trend_shift": -1.4252,
+      "mean_ratio": -0.0536,
+      "total_pairs": 32
+    },
+    {
+      "drug": "PARICALCITOL",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.589,
+          "n_pairs": 30
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.5233,
+          "n_pairs": 27
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.6619,
+          "n_pairs": 6
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.137,
+          "n_pairs": 17
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.8056,
+          "n_pairs": 1
+        }
+      },
+      "trend_shift": -1.3946,
+      "mean_ratio": 0.2211,
+      "total_pairs": 81
+    },
+    {
+      "drug": "DOXEPIN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.2846,
+          "n_pairs": 8
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.5057,
+          "n_pairs": 3
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.2584,
+          "n_pairs": 7
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.8076,
+          "n_pairs": 30
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.1059,
+          "n_pairs": 17
+        }
+      },
+      "trend_shift": -1.3905,
+      "mean_ratio": -0.4786,
+      "total_pairs": 65
+    },
+    {
+      "drug": "DIPHENHYDRAMINE;IBUPROFEN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.3929,
+          "n_pairs": 11
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.267,
+          "n_pairs": 6
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.0873,
+          "n_pairs": 2
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.0137,
+          "n_pairs": 1
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.7793,
+          "n_pairs": 2
+        }
+      },
+      "trend_shift": -1.3864,
+      "mean_ratio": -0.5026,
+      "total_pairs": 22
+    },
+    {
+      "drug": "THEOPHYLLINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.1063,
+          "n_pairs": 3
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -1.3602,
+          "n_pairs": 3
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.2968,
+          "n_pairs": 8
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.4511,
+          "n_pairs": 59
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.4903,
+          "n_pairs": 49
+        }
+      },
+      "trend_shift": -1.384,
+      "mean_ratio": -0.6222,
+      "total_pairs": 122
+    },
+    {
+      "drug": "DOLUTEGRAVIR",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.4221,
+          "n_pairs": 2
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.3916,
+          "n_pairs": 8
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.4866,
+          "n_pairs": 22
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.4653,
+          "n_pairs": 35
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.961,
+          "n_pairs": 20
+        }
+      },
+      "trend_shift": 1.3831,
+      "mean_ratio": 0.1904,
+      "total_pairs": 87
+    },
+    {
+      "drug": "TRETINOIN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.4687,
+          "n_pairs": 6
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.1132,
+          "n_pairs": 2
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.0179,
+          "n_pairs": 9
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.736,
+          "n_pairs": 4
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.8929,
+          "n_pairs": 4
+        }
+      },
+      "trend_shift": 1.3616,
+      "mean_ratio": -0.0886,
+      "total_pairs": 25
+    },
+    {
+      "drug": "CAFFEINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.1161,
+          "n_pairs": 5
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.0739,
+          "n_pairs": 2
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.3652,
+          "n_pairs": 5
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.0766,
+          "n_pairs": 6
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.2434,
+          "n_pairs": 15
+        }
+      },
+      "trend_shift": 1.3595,
+      "mean_ratio": 0.2684,
+      "total_pairs": 33
+    },
+    {
+      "drug": "PERITONEAL DIALYTICS, UNSPECIFIED",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 1.3941,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.9214,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.0454,
+          "n_pairs": 2
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.6792,
+          "n_pairs": 7
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.0784,
+          "n_pairs": 6
+        }
+      },
+      "trend_shift": -1.3157,
+      "mean_ratio": 0.6237,
+      "total_pairs": 17
+    },
+    {
+      "drug": "OXYGEN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.8917,
+          "n_pairs": 3
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.2821,
+          "n_pairs": 3
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.7105,
+          "n_pairs": 4
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.3674,
+          "n_pairs": 8
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -0.4218,
+          "n_pairs": 10
+        }
+      },
+      "trend_shift": -1.3135,
+      "mean_ratio": -0.178,
+      "total_pairs": 28
+    },
+    {
+      "drug": "CILASTATIN;IMIPENEM",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 1.4571,
+          "n_pairs": 2
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 0.794,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": 0.1709,
+          "n_pairs": 11
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.1848,
+          "n_pairs": 27
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.167,
+          "n_pairs": 22
+        }
+      },
+      "trend_shift": -1.2901,
+      "mean_ratio": 0.5548,
+      "total_pairs": 63
+    },
+    {
+      "drug": "HYDROCHLOROTHIAZIDE;LOSARTAN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.1113,
+          "n_pairs": 4
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.1879,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.1774,
+          "n_pairs": 6
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.2584,
+          "n_pairs": 9
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 1.3705,
+          "n_pairs": 6
+        }
+      },
+      "trend_shift": 1.2592,
+      "mean_ratio": 0.1716,
+      "total_pairs": 26
+    },
+    {
+      "drug": "TEICOPLANIN",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": -0.4484,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 1.3513,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.006,
+          "n_pairs": 5
+        },
+        "Era4_2020-2022": {
+          "median_ratio": 0.4673,
+          "n_pairs": 10
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.8061,
+          "n_pairs": 3
+        }
+      },
+      "trend_shift": 1.2545,
+      "mean_ratio": 0.4341,
+      "total_pairs": 20
+    },
+    {
+      "drug": "SULFADIAZINE",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 1.8083,
+          "n_pairs": 1
+        },
+        "Era2_2016-2017": {
+          "median_ratio": 1.6891,
+          "n_pairs": 1
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.7965,
+          "n_pairs": 1
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.6977,
+          "n_pairs": 6
+        },
+        "Era5_2023-2025": {
+          "median_ratio": 0.5552,
+          "n_pairs": 4
+        }
+      },
+      "trend_shift": -1.2531,
+      "mean_ratio": 0.5117,
+      "total_pairs": 13
+    },
+    {
+      "drug": "DENOSUMAB",
+      "values_by_era": {
+        "Era1_2013-2015": {
+          "median_ratio": 0.1174,
+          "n_pairs": 164
+        },
+        "Era2_2016-2017": {
+          "median_ratio": -0.286,
+          "n_pairs": 170
+        },
+        "Era3_2018-2019": {
+          "median_ratio": -0.3776,
+          "n_pairs": 151
+        },
+        "Era4_2020-2022": {
+          "median_ratio": -0.732,
+          "n_pairs": 161
+        },
+        "Era5_2023-2025": {
+          "median_ratio": -1.1226,
+          "n_pairs": 169
+        }
+      },
+      "trend_shift": -1.24,
+      "mean_ratio": -0.4802,
+      "total_pairs": 815
+    }
+  ],
+  "consistently_female_biased_aes": [
+    {
+      "pt": "Graft loss",
+      "values_by_era": {
+        "Era1_2013-2015": 3.6146,
+        "Era2_2016-2017": 0.7201,
+        "Era3_2018-2019": 1.4209,
+        "Era4_2020-2022": 2.3487,
+        "Era5_2023-2025": 0.1845
+      },
+      "trend_shift": -3.4301,
+      "mean_ratio": 1.6578,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Blood prolactin abnormal",
+      "values_by_era": {
+        "Era1_2013-2015": 1.4613,
+        "Era2_2016-2017": 1.4239,
+        "Era3_2018-2019": 0.7825,
+        "Era4_2020-2022": 2.275,
+        "Era5_2023-2025": 3.7973
+      },
+      "trend_shift": 2.336,
+      "mean_ratio": 1.948,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Dopamine dysregulation syndrome",
+      "values_by_era": {
+        "Era1_2013-2015": 0.8703,
+        "Era2_2016-2017": 1.3053,
+        "Era3_2018-2019": 0.4348,
+        "Era4_2020-2022": 1.9773,
+        "Era5_2023-2025": 3.1603
+      },
+      "trend_shift": 2.29,
+      "mean_ratio": 1.5496,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Economic problem",
+      "values_by_era": {
+        "Era1_2013-2015": 2.5502,
+        "Era2_2016-2017": 0.965,
+        "Era3_2018-2019": 0.7295,
+        "Era4_2020-2022": 1.0728,
+        "Era5_2023-2025": 0.3473
+      },
+      "trend_shift": -2.2029,
+      "mean_ratio": 1.133,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Haemarthrosis",
+      "values_by_era": {
+        "Era1_2013-2015": 2.0153,
+        "Era2_2016-2017": 2.0834,
+        "Era3_2018-2019": 2.7572,
+        "Era4_2020-2022": 3.3384,
+        "Era5_2023-2025": 4.1731
+      },
+      "trend_shift": 2.1578,
+      "mean_ratio": 2.8735,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Diffuse large B-cell lymphoma recurrent",
+      "values_by_era": {
+        "Era1_2013-2015": 2.324,
+        "Era2_2016-2017": 0.32,
+        "Era3_2018-2019": 0.7259,
+        "Era4_2020-2022": 0.5704,
+        "Era5_2023-2025": 0.4456
+      },
+      "trend_shift": -1.8784,
+      "mean_ratio": 0.8772,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Abnormal weight gain",
+      "values_by_era": {
+        "Era1_2013-2015": 1.8388,
+        "Era2_2016-2017": 3.5928,
+        "Era3_2018-2019": 3.4186,
+        "Era4_2020-2022": 0.4364,
+        "Era5_2023-2025": 0.1504
+      },
+      "trend_shift": -1.6884,
+      "mean_ratio": 1.8874,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Disturbance in social behaviour",
+      "values_by_era": {
+        "Era1_2013-2015": 1.3297,
+        "Era2_2016-2017": 1.5319,
+        "Era3_2018-2019": 1.7261,
+        "Era4_2020-2022": 2.4695,
+        "Era5_2023-2025": 2.9807
+      },
+      "trend_shift": 1.651,
+      "mean_ratio": 2.0076,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Blood testosterone increased",
+      "values_by_era": {
+        "Era1_2013-2015": 4.6113,
+        "Era2_2016-2017": 4.9296,
+        "Era3_2018-2019": 4.4843,
+        "Era4_2020-2022": 1.9475,
+        "Era5_2023-2025": 3.0933
+      },
+      "trend_shift": -1.518,
+      "mean_ratio": 3.8132,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Traumatic haemorrhage",
+      "values_by_era": {
+        "Era1_2013-2015": 1.0579,
+        "Era2_2016-2017": 0.7129,
+        "Era3_2018-2019": 1.4896,
+        "Era4_2020-2022": 1.9877,
+        "Era5_2023-2025": 2.5477
+      },
+      "trend_shift": 1.4898,
+      "mean_ratio": 1.5592,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Light chain analysis increased",
+      "values_by_era": {
+        "Era1_2013-2015": 1.751,
+        "Era2_2016-2017": 0.8141,
+        "Era3_2018-2019": 0.1984,
+        "Era4_2020-2022": 0.7683,
+        "Era5_2023-2025": 0.3067
+      },
+      "trend_shift": -1.4443,
+      "mean_ratio": 0.7677,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Psychiatric decompensation",
+      "values_by_era": {
+        "Era1_2013-2015": 0.5674,
+        "Era2_2016-2017": 0.8512,
+        "Era3_2018-2019": 0.8137,
+        "Era4_2020-2022": 0.8487,
+        "Era5_2023-2025": 1.9766
+      },
+      "trend_shift": 1.4092,
+      "mean_ratio": 1.0115,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Hyperprolactinaemia",
+      "values_by_era": {
+        "Era1_2013-2015": 2.3078,
+        "Era2_2016-2017": 2.0521,
+        "Era3_2018-2019": 1.8039,
+        "Era4_2020-2022": 0.4709,
+        "Era5_2023-2025": 0.9155
+      },
+      "trend_shift": -1.3923,
+      "mean_ratio": 1.51,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Nephrogenic diabetes insipidus",
+      "values_by_era": {
+        "Era1_2013-2015": 0.1072,
+        "Era2_2016-2017": 0.2331,
+        "Era3_2018-2019": 3.1701,
+        "Era4_2020-2022": 0.8143,
+        "Era5_2023-2025": 1.4964
+      },
+      "trend_shift": 1.3892,
+      "mean_ratio": 1.1642,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Multiple-drug resistance",
+      "values_by_era": {
+        "Era1_2013-2015": 1.9052,
+        "Era2_2016-2017": 1.8195,
+        "Era3_2018-2019": 0.551,
+        "Era4_2020-2022": 0.6525,
+        "Era5_2023-2025": 0.5242
+      },
+      "trend_shift": -1.381,
+      "mean_ratio": 1.0905,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Pseudomonal sepsis",
+      "values_by_era": {
+        "Era1_2013-2015": 1.4086,
+        "Era2_2016-2017": 0.9804,
+        "Era3_2018-2019": 0.6384,
+        "Era4_2020-2022": 0.945,
+        "Era5_2023-2025": 0.0354
+      },
+      "trend_shift": -1.3732,
+      "mean_ratio": 0.8016,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Vascular stent thrombosis",
+      "values_by_era": {
+        "Era1_2013-2015": 1.6401,
+        "Era2_2016-2017": 1.5647,
+        "Era3_2018-2019": 1.8973,
+        "Era4_2020-2022": 0.9889,
+        "Era5_2023-2025": 0.2967
+      },
+      "trend_shift": -1.3434,
+      "mean_ratio": 1.2775,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Bone marrow transplant",
+      "values_by_era": {
+        "Era1_2013-2015": 0.008,
+        "Era2_2016-2017": 0.525,
+        "Era3_2018-2019": 1.0292,
+        "Era4_2020-2022": 0.0731,
+        "Era5_2023-2025": 1.3028
+      },
+      "trend_shift": 1.2948,
+      "mean_ratio": 0.5876,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Haemorrhage subcutaneous",
+      "values_by_era": {
+        "Era1_2013-2015": 0.202,
+        "Era2_2016-2017": 0.7934,
+        "Era3_2018-2019": 0.4682,
+        "Era4_2020-2022": 0.5585,
+        "Era5_2023-2025": 1.4924
+      },
+      "trend_shift": 1.2904,
+      "mean_ratio": 0.7029,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Muscle haemorrhage",
+      "values_by_era": {
+        "Era1_2013-2015": 1.314,
+        "Era2_2016-2017": 0.934,
+        "Era3_2018-2019": 1.7011,
+        "Era4_2020-2022": 2.6886,
+        "Era5_2023-2025": 2.5477
+      },
+      "trend_shift": 1.2337,
+      "mean_ratio": 1.8371,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Renal transplant failure",
+      "values_by_era": {
+        "Era1_2013-2015": 0.2525,
+        "Era2_2016-2017": 1.4594,
+        "Era3_2018-2019": 0.82,
+        "Era4_2020-2022": 0.9538,
+        "Era5_2023-2025": 1.4858
+      },
+      "trend_shift": 1.2333,
+      "mean_ratio": 0.9943,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Detachment of retinal pigment epithelium",
+      "values_by_era": {
+        "Era1_2013-2015": 1.5179,
+        "Era2_2016-2017": 0.8753,
+        "Era3_2018-2019": 0.7696,
+        "Era4_2020-2022": 0.6556,
+        "Era5_2023-2025": 0.3497
+      },
+      "trend_shift": -1.1682,
+      "mean_ratio": 0.8336,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Traumatic intracranial haemorrhage",
+      "values_by_era": {
+        "Era1_2013-2015": 0.2691,
+        "Era2_2016-2017": 1.1114,
+        "Era3_2018-2019": 0.4738,
+        "Era4_2020-2022": 0.8061,
+        "Era5_2023-2025": 1.4256
+      },
+      "trend_shift": 1.1565,
+      "mean_ratio": 0.8172,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Metabolic disorder",
+      "values_by_era": {
+        "Era1_2013-2015": 0.7805,
+        "Era2_2016-2017": 1.2517,
+        "Era3_2018-2019": 0.9807,
+        "Era4_2020-2022": 1.0047,
+        "Era5_2023-2025": 1.9271
+      },
+      "trend_shift": 1.1466,
+      "mean_ratio": 1.1889,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Gastrostomy",
+      "values_by_era": {
+        "Era1_2013-2015": 0.1008,
+        "Era2_2016-2017": 0.841,
+        "Era3_2018-2019": 1.0201,
+        "Era4_2020-2022": 0.4725,
+        "Era5_2023-2025": 1.2429
+      },
+      "trend_shift": 1.1421,
+      "mean_ratio": 0.7355,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Chronic lymphocytic leukaemia recurrent",
+      "values_by_era": {
+        "Era1_2013-2015": 0.0829,
+        "Era2_2016-2017": 1.0386,
+        "Era3_2018-2019": 1.4443,
+        "Era4_2020-2022": 0.8688,
+        "Era5_2023-2025": 1.2196
+      },
+      "trend_shift": 1.1367,
+      "mean_ratio": 0.9308,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Bradypnoea",
+      "values_by_era": {
+        "Era1_2013-2015": 1.3622,
+        "Era2_2016-2017": 0.2047,
+        "Era3_2018-2019": 0.2953,
+        "Era4_2020-2022": 0.2605,
+        "Era5_2023-2025": 0.2496
+      },
+      "trend_shift": -1.1126,
+      "mean_ratio": 0.4745,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Subcutaneous haematoma",
+      "values_by_era": {
+        "Era1_2013-2015": 0.3223,
+        "Era2_2016-2017": 1.2465,
+        "Era3_2018-2019": 0.8034,
+        "Era4_2020-2022": 0.146,
+        "Era5_2023-2025": 1.3738
+      },
+      "trend_shift": 1.0515,
+      "mean_ratio": 0.7784,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Syringe issue",
+      "values_by_era": {
+        "Era1_2013-2015": 0.6451,
+        "Era2_2016-2017": 0.9033,
+        "Era3_2018-2019": 0.598,
+        "Era4_2020-2022": 1.7419,
+        "Era5_2023-2025": 1.667
+      },
+      "trend_shift": 1.0219,
+      "mean_ratio": 1.1111,
+      "all_female_biased": true,
+      "all_male_biased": false
+    },
+    {
+      "pt": "Gambling",
+      "values_by_era": {
+        "Era1_2013-2015": 1.2832,
+        "Era2_2016-2017": 1.1179,
+        "Era3_2018-2019": 0.4508,
+        "Era4_2020-2022": 0.0807,
+        "Era5_2023-2025": 0.2631
+      },
+      "trend_shift": -1.0201,
+      "mean_ratio": 0.6391,
+      "all_female_biased": true,
+      "all_male_biased": false
+    }
+  ],
+  "consistently_male_biased_aes": [
+    {
+      "pt": "Unintentional medical device removal",
+      "values_by_era": {
+        "Era1_2013-2015": -7.5377,
+        "Era2_2016-2017": -3.1897,
+        "Era3_2018-2019": -1.7432,
+        "Era4_2020-2022": -1.3648,
+        "Era5_2023-2025": -1.1695
+      },
+      "trend_shift": 6.3682,
+      "mean_ratio": -3.001,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Device difficult to use",
+      "values_by_era": {
+        "Era1_2013-2015": -4.9019,
+        "Era2_2016-2017": -3.4158,
+        "Era3_2018-2019": -2.3097,
+        "Era4_2020-2022": -0.7287,
+        "Era5_2023-2025": -0.1938
+      },
+      "trend_shift": 4.7081,
+      "mean_ratio": -2.31,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Milk-alkali syndrome",
+      "values_by_era": {
+        "Era1_2013-2015": -0.0584,
+        "Era2_2016-2017": -1.9907,
+        "Era3_2018-2019": -1.217,
+        "Era4_2020-2022": -0.7054,
+        "Era5_2023-2025": -3.1945
+      },
+      "trend_shift": -3.1361,
+      "mean_ratio": -1.4332,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Device breakage",
+      "values_by_era": {
+        "Era1_2013-2015": -3.0446,
+        "Era2_2016-2017": -2.9863,
+        "Era3_2018-2019": -2.5614,
+        "Era4_2020-2022": -1.6147,
+        "Era5_2023-2025": -0.1955
+      },
+      "trend_shift": 2.8491,
+      "mean_ratio": -2.0805,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Osteosclerosis",
+      "values_by_era": {
+        "Era1_2013-2015": -0.4637,
+        "Era2_2016-2017": -1.8177,
+        "Era3_2018-2019": -2.1549,
+        "Era4_2020-2022": -2.529,
+        "Era5_2023-2025": -3.3036
+      },
+      "trend_shift": -2.8399,
+      "mean_ratio": -2.0538,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Device kink",
+      "values_by_era": {
+        "Era1_2013-2015": -3.2013,
+        "Era2_2016-2017": -3.4639,
+        "Era3_2018-2019": -3.3032,
+        "Era4_2020-2022": -2.0863,
+        "Era5_2023-2025": -0.403
+      },
+      "trend_shift": 2.7983,
+      "mean_ratio": -2.4915,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Iron deficiency",
+      "values_by_era": {
+        "Era1_2013-2015": -0.7398,
+        "Era2_2016-2017": -0.2201,
+        "Era3_2018-2019": -0.5622,
+        "Era4_2020-2022": -0.9704,
+        "Era5_2023-2025": -3.4979
+      },
+      "trend_shift": -2.7581,
+      "mean_ratio": -1.1981,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Dental implantation",
+      "values_by_era": {
+        "Era1_2013-2015": -3.5019,
+        "Era2_2016-2017": -0.9656,
+        "Era3_2018-2019": -0.9695,
+        "Era4_2020-2022": -1.5605,
+        "Era5_2023-2025": -0.7497
+      },
+      "trend_shift": 2.7522,
+      "mean_ratio": -1.5494,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Deformity",
+      "values_by_era": {
+        "Era1_2013-2015": -0.4775,
+        "Era2_2016-2017": -1.8345,
+        "Era3_2018-2019": -0.7128,
+        "Era4_2020-2022": -1.3221,
+        "Era5_2023-2025": -3.141
+      },
+      "trend_shift": -2.6635,
+      "mean_ratio": -1.4976,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Bronchial hyperreactivity",
+      "values_by_era": {
+        "Era1_2013-2015": -0.5723,
+        "Era2_2016-2017": -1.2862,
+        "Era3_2018-2019": -1.3976,
+        "Era4_2020-2022": -1.7735,
+        "Era5_2023-2025": -3.0847
+      },
+      "trend_shift": -2.5124,
+      "mean_ratio": -1.6229,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Exposure during pregnancy",
+      "values_by_era": {
+        "Era1_2013-2015": -1.2028,
+        "Era2_2016-2017": -4.326,
+        "Era3_2018-2019": -4.1777,
+        "Era4_2020-2022": -0.9567,
+        "Era5_2023-2025": -3.6343
+      },
+      "trend_shift": -2.4315,
+      "mean_ratio": -2.8595,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Oral surgery",
+      "values_by_era": {
+        "Era1_2013-2015": -2.3742,
+        "Era2_2016-2017": -2.1339,
+        "Era3_2018-2019": -2.5525,
+        "Era4_2020-2022": -1.1619,
+        "Era5_2023-2025": -0.0424
+      },
+      "trend_shift": 2.3318,
+      "mean_ratio": -1.653,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Gingival pain",
+      "values_by_era": {
+        "Era1_2013-2015": -0.4481,
+        "Era2_2016-2017": -0.6293,
+        "Era3_2018-2019": -0.378,
+        "Era4_2020-2022": -0.4364,
+        "Era5_2023-2025": -2.7687
+      },
+      "trend_shift": -2.3206,
+      "mean_ratio": -0.9321,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Parosmia",
+      "values_by_era": {
+        "Era1_2013-2015": -0.193,
+        "Era2_2016-2017": -0.1648,
+        "Era3_2018-2019": -0.9935,
+        "Era4_2020-2022": -0.5644,
+        "Era5_2023-2025": -2.4734
+      },
+      "trend_shift": -2.2804,
+      "mean_ratio": -0.8778,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Tooth discolouration",
+      "values_by_era": {
+        "Era1_2013-2015": -1.8285,
+        "Era2_2016-2017": -0.3327,
+        "Era3_2018-2019": -3.2136,
+        "Era4_2020-2022": -0.3547,
+        "Era5_2023-2025": -3.8231
+      },
+      "trend_shift": -1.9946,
+      "mean_ratio": -1.9105,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Walking distance test abnormal",
+      "values_by_era": {
+        "Era1_2013-2015": -1.1701,
+        "Era2_2016-2017": -1.2045,
+        "Era3_2018-2019": -0.8722,
+        "Era4_2020-2022": -0.7167,
+        "Era5_2023-2025": -3.1496
+      },
+      "trend_shift": -1.9795,
+      "mean_ratio": -1.4226,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Implant site extravasation",
+      "values_by_era": {
+        "Era1_2013-2015": -0.8317,
+        "Era2_2016-2017": -0.0754,
+        "Era3_2018-2019": -1.064,
+        "Era4_2020-2022": -1.193,
+        "Era5_2023-2025": -2.6903
+      },
+      "trend_shift": -1.8586,
+      "mean_ratio": -1.1709,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Pelvic abscess",
+      "values_by_era": {
+        "Era1_2013-2015": -0.4676,
+        "Era2_2016-2017": -0.6383,
+        "Era3_2018-2019": -1.1859,
+        "Era4_2020-2022": -0.9481,
+        "Era5_2023-2025": -2.1809
+      },
+      "trend_shift": -1.7133,
+      "mean_ratio": -1.0842,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Sacroiliitis",
+      "values_by_era": {
+        "Era1_2013-2015": -1.7855,
+        "Era2_2016-2017": -1.0975,
+        "Era3_2018-2019": -0.2311,
+        "Era4_2020-2022": -0.8252,
+        "Era5_2023-2025": -0.1392
+      },
+      "trend_shift": 1.6463,
+      "mean_ratio": -0.8157,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Pre-existing condition improved",
+      "values_by_era": {
+        "Era1_2013-2015": -0.1619,
+        "Era2_2016-2017": -0.4647,
+        "Era3_2018-2019": -0.2332,
+        "Era4_2020-2022": -0.5412,
+        "Era5_2023-2025": -1.7511
+      },
+      "trend_shift": -1.5892,
+      "mean_ratio": -0.6304,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Hypopnoea",
+      "values_by_era": {
+        "Era1_2013-2015": -0.473,
+        "Era2_2016-2017": -0.3943,
+        "Era3_2018-2019": -1.3027,
+        "Era4_2020-2022": -0.7686,
+        "Era5_2023-2025": -2.0593
+      },
+      "trend_shift": -1.5863,
+      "mean_ratio": -0.9996,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Nasal ulcer",
+      "values_by_era": {
+        "Era1_2013-2015": -0.5514,
+        "Era2_2016-2017": -0.1016,
+        "Era3_2018-2019": -1.1617,
+        "Era4_2020-2022": -0.8372,
+        "Era5_2023-2025": -2.128
+      },
+      "trend_shift": -1.5766,
+      "mean_ratio": -0.956,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Stress fracture",
+      "values_by_era": {
+        "Era1_2013-2015": -2.3707,
+        "Era2_2016-2017": -2.0363,
+        "Era3_2018-2019": -0.5647,
+        "Era4_2020-2022": -1.6418,
+        "Era5_2023-2025": -0.8083
+      },
+      "trend_shift": 1.5624,
+      "mean_ratio": -1.4844,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Implant site infection",
+      "values_by_era": {
+        "Era1_2013-2015": -0.814,
+        "Era2_2016-2017": -0.575,
+        "Era3_2018-2019": -2.3116,
+        "Era4_2020-2022": -2.9257,
+        "Era5_2023-2025": -2.3694
+      },
+      "trend_shift": -1.5554,
+      "mean_ratio": -1.7991,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Infusion site vesicles",
+      "values_by_era": {
+        "Era1_2013-2015": -1.9454,
+        "Era2_2016-2017": -0.9742,
+        "Era3_2018-2019": -0.7252,
+        "Era4_2020-2022": -0.502,
+        "Era5_2023-2025": -0.3986
+      },
+      "trend_shift": 1.5468,
+      "mean_ratio": -0.9091,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Blepharospasm",
+      "values_by_era": {
+        "Era1_2013-2015": -0.6441,
+        "Era2_2016-2017": -0.9408,
+        "Era3_2018-2019": -0.857,
+        "Era4_2020-2022": -1.2261,
+        "Era5_2023-2025": -2.1564
+      },
+      "trend_shift": -1.5123,
+      "mean_ratio": -1.1649,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Tonsillectomy",
+      "values_by_era": {
+        "Era1_2013-2015": -1.4377,
+        "Era2_2016-2017": -0.8918,
+        "Era3_2018-2019": -1.0932,
+        "Era4_2020-2022": -1.5648,
+        "Era5_2023-2025": -0.03
+      },
+      "trend_shift": 1.4077,
+      "mean_ratio": -1.0035,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Type 2 diabetes mellitus",
+      "values_by_era": {
+        "Era1_2013-2015": -1.7656,
+        "Era2_2016-2017": -1.4621,
+        "Era3_2018-2019": -0.5358,
+        "Era4_2020-2022": -0.1855,
+        "Era5_2023-2025": -0.3986
+      },
+      "trend_shift": 1.367,
+      "mean_ratio": -0.8695,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Band sensation",
+      "values_by_era": {
+        "Era1_2013-2015": -1.1019,
+        "Era2_2016-2017": -2.1976,
+        "Era3_2018-2019": -1.6295,
+        "Era4_2020-2022": -1.1681,
+        "Era5_2023-2025": -2.4599
+      },
+      "trend_shift": -1.358,
+      "mean_ratio": -1.7114,
+      "all_female_biased": false,
+      "all_male_biased": true
+    },
+    {
+      "pt": "Depressive symptom",
+      "values_by_era": {
+        "Era1_2013-2015": -0.3969,
+        "Era2_2016-2017": -0.6071,
+        "Era3_2018-2019": -0.2745,
+        "Era4_2020-2022": -1.1375,
+        "Era5_2023-2025": -1.7461
+      },
+      "trend_shift": -1.3492,
+      "mean_ratio": -0.8324,
+      "all_female_biased": false,
+      "all_male_biased": true
+    }
+  ],
+  "runtime_seconds": 293.5
+}

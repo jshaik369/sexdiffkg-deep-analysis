@@ -1,0 +1,586 @@
+{
+  "Antipsychotics": {
+    "total": 2558,
+    "drugs_found": 15,
+    "female_higher": 1658,
+    "male_higher": 900,
+    "pct_female": 64.81626270523847,
+    "mean_logR": 0.34115937968506344,
+    "per_drug": {
+      "ARIPIPRAZOLE": {
+        "total": 342,
+        "f": 162,
+        "m": 180,
+        "pct_f": 47.368421052631575,
+        "mean_logR": -0.03724414615699542
+      },
+      "BREXPIPRAZOLE": {
+        "total": 43,
+        "f": 14,
+        "m": 29,
+        "pct_f": 32.55813953488372,
+        "mean_logR": -0.1951185665570979
+      },
+      "CARIPRAZINE": {
+        "total": 39,
+        "f": 1,
+        "m": 38,
+        "pct_f": 2.564102564102564,
+        "mean_logR": -0.83264742774827
+      },
+      "CHLORPROMAZINE": {
+        "total": 57,
+        "f": 35,
+        "m": 22,
+        "pct_f": 61.40350877192983,
+        "mean_logR": 0.17232530369561821
+      },
+      "CLOZAPINE": {
+        "total": 287,
+        "f": 197,
+        "m": 90,
+        "pct_f": 68.6411149825784,
+        "mean_logR": 0.39066014517368824
+      },
+      "FLUPHENAZINE": {
+        "total": 7,
+        "f": 6,
+        "m": 1,
+        "pct_f": 85.71428571428571,
+        "mean_logR": 0.521165820512387
+      },
+      "HALOPERIDOL": {
+        "total": 158,
+        "f": 89,
+        "m": 69,
+        "pct_f": 56.32911392405063,
+        "mean_logR": 0.1325139218230584
+      },
+      "LURASIDONE": {
+        "total": 81,
+        "f": 19,
+        "m": 62,
+        "pct_f": 23.456790123456788,
+        "mean_logR": -0.5076468959660408
+      },
+      "OLANZAPINE": {
+        "total": 336,
+        "f": 198,
+        "m": 138,
+        "pct_f": 58.92857142857143,
+        "mean_logR": 0.21378342186395555
+      },
+      "PALIPERIDONE": {
+        "total": 161,
+        "f": 138,
+        "m": 23,
+        "pct_f": 85.71428571428571,
+        "mean_logR": 0.6897213143157772
+      },
+      "PERPHENAZINE": {
+        "total": 15,
+        "f": 8,
+        "m": 7,
+        "pct_f": 53.333333333333336,
+        "mean_logR": -0.12276196878261686
+      },
+      "PIMOZIDE": {
+        "total": 1,
+        "f": 1,
+        "m": 0,
+        "pct_f": 100.0,
+        "mean_logR": 1.2013819967149972
+      },
+      "QUETIAPINE": {
+        "total": 426,
+        "f": 270,
+        "m": 156,
+        "pct_f": 63.38028169014085,
+        "mean_logR": 0.37006614092851037
+      },
+      "RISPERIDONE": {
+        "total": 518,
+        "f": 481,
+        "m": 37,
+        "pct_f": 92.85714285714286,
+        "mean_logR": 0.9402384546252379
+      },
+      "ZIPRASIDONE": {
+        "total": 87,
+        "f": 39,
+        "m": 48,
+        "pct_f": 44.827586206896555,
+        "mean_logR": -0.06953374571471961
+      }
+    }
+  },
+  "SSRIs": {
+    "total": 1176,
+    "drugs_found": 6,
+    "female_higher": 496,
+    "male_higher": 680,
+    "pct_female": 42.17687074829932,
+    "mean_logR": -0.18762054895438873,
+    "per_drug": {
+      "CITALOPRAM": {
+        "total": 237,
+        "f": 134,
+        "m": 103,
+        "pct_f": 56.540084388185655,
+        "mean_logR": 0.08396415168692255
+      },
+      "ESCITALOPRAM": {
+        "total": 217,
+        "f": 61,
+        "m": 156,
+        "pct_f": 28.110599078341014,
+        "mean_logR": -0.518138727055339
+      },
+      "FLUOXETINE": {
+        "total": 204,
+        "f": 74,
+        "m": 130,
+        "pct_f": 36.27450980392157,
+        "mean_logR": -0.29141346743254515
+      },
+      "FLUVOXAMINE": {
+        "total": 30,
+        "f": 10,
+        "m": 20,
+        "pct_f": 33.33333333333333,
+        "mean_logR": -0.33577884978799716
+      },
+      "PAROXETINE": {
+        "total": 186,
+        "f": 90,
+        "m": 96,
+        "pct_f": 48.38709677419355,
+        "mean_logR": -0.028459601353228427
+      },
+      "SERTRALINE": {
+        "total": 302,
+        "f": 127,
+        "m": 175,
+        "pct_f": 42.05298013245033,
+        "mean_logR": -0.17645684452838944
+      }
+    }
+  },
+  "SNRIs": {
+    "total": 537,
+    "drugs_found": 5,
+    "female_higher": 212,
+    "male_higher": 325,
+    "pct_female": 39.47858472998138,
+    "mean_logR": -0.2293294661628187,
+    "per_drug": {
+      "DESVENLAFAXINE": {
+        "total": 46,
+        "f": 5,
+        "m": 41,
+        "pct_f": 10.869565217391305,
+        "mean_logR": -0.6694429881446387
+      },
+      "DULOXETINE": {
+        "total": 189,
+        "f": 85,
+        "m": 104,
+        "pct_f": 44.97354497354497,
+        "mean_logR": -0.15754014326766078
+      },
+      "LEVOMILNACIPRAN": {
+        "total": 4,
+        "f": 2,
+        "m": 2,
+        "pct_f": 50.0,
+        "mean_logR": 0.06907150602898302
+      },
+      "MILNACIPRAN": {
+        "total": 11,
+        "f": 3,
+        "m": 8,
+        "pct_f": 27.27272727272727,
+        "mean_logR": -0.48999825414635656
+      },
+      "VENLAFAXINE": {
+        "total": 287,
+        "f": 117,
+        "m": 170,
+        "pct_f": 40.76655052264808,
+        "mean_logR": -0.2002326272672418
+      }
+    }
+  },
+  "TCAs": {
+    "total": 340,
+    "drugs_found": 5,
+    "female_higher": 163,
+    "male_higher": 177,
+    "pct_female": 47.94117647058824,
+    "mean_logR": -0.050168751026004,
+    "per_drug": {
+      "AMITRIPTYLINE": {
+        "total": 189,
+        "f": 102,
+        "m": 87,
+        "pct_f": 53.96825396825397,
+        "mean_logR": 0.08749739857808221
+      },
+      "CLOMIPRAMINE": {
+        "total": 43,
+        "f": 18,
+        "m": 25,
+        "pct_f": 41.86046511627907,
+        "mean_logR": -0.25600190830169695
+      },
+      "DOXEPIN": {
+        "total": 37,
+        "f": 11,
+        "m": 26,
+        "pct_f": 29.72972972972973,
+        "mean_logR": -0.5914186272984447
+      },
+      "IMIPRAMINE": {
+        "total": 7,
+        "f": 1,
+        "m": 6,
+        "pct_f": 14.285714285714285,
+        "mean_logR": -0.4863076259564858
+      },
+      "NORTRIPTYLINE": {
+        "total": 64,
+        "f": 31,
+        "m": 33,
+        "pct_f": 48.4375,
+        "mean_logR": 0.04219282763456114
+      }
+    }
+  },
+  "Other_AD": {
+    "total": 596,
+    "drugs_found": 5,
+    "female_higher": 328,
+    "male_higher": 268,
+    "pct_female": 55.033557046979865,
+    "mean_logR": 0.1401055340036295,
+    "per_drug": {
+      "BUPROPION": {
+        "total": 174,
+        "f": 94,
+        "m": 80,
+        "pct_f": 54.02298850574713,
+        "mean_logR": 0.08156141475490407
+      },
+      "MIRTAZAPINE": {
+        "total": 193,
+        "f": 110,
+        "m": 83,
+        "pct_f": 56.994818652849744,
+        "mean_logR": 0.12071267477160934
+      },
+      "TRAZODONE": {
+        "total": 151,
+        "f": 99,
+        "m": 52,
+        "pct_f": 65.56291390728477,
+        "mean_logR": 0.4611145613811324
+      },
+      "VILAZODONE": {
+        "total": 17,
+        "f": 6,
+        "m": 11,
+        "pct_f": 35.294117647058826,
+        "mean_logR": -0.28864891975168183
+      },
+      "VORTIOXETINE": {
+        "total": 61,
+        "f": 19,
+        "m": 42,
+        "pct_f": 31.147540983606557,
+        "mean_logR": -0.30668198794890406
+      }
+    }
+  },
+  "All_Antidepressants": {
+    "total": 2649,
+    "drugs_found": 21,
+    "female_higher": 1199,
+    "male_higher": 1450,
+    "pct_female": 45.26236315590789,
+    "mean_logR": -0.10469843940448206,
+    "per_drug": {
+      "AMITRIPTYLINE": {
+        "total": 189,
+        "f": 102,
+        "m": 87,
+        "pct_f": 53.96825396825397,
+        "mean_logR": 0.08749739857808221
+      },
+      "BUPROPION": {
+        "total": 174,
+        "f": 94,
+        "m": 80,
+        "pct_f": 54.02298850574713,
+        "mean_logR": 0.08156141475490407
+      },
+      "CITALOPRAM": {
+        "total": 237,
+        "f": 134,
+        "m": 103,
+        "pct_f": 56.540084388185655,
+        "mean_logR": 0.08396415168692255
+      },
+      "CLOMIPRAMINE": {
+        "total": 43,
+        "f": 18,
+        "m": 25,
+        "pct_f": 41.86046511627907,
+        "mean_logR": -0.25600190830169695
+      },
+      "DESVENLAFAXINE": {
+        "total": 46,
+        "f": 5,
+        "m": 41,
+        "pct_f": 10.869565217391305,
+        "mean_logR": -0.6694429881446387
+      },
+      "DOXEPIN": {
+        "total": 37,
+        "f": 11,
+        "m": 26,
+        "pct_f": 29.72972972972973,
+        "mean_logR": -0.5914186272984447
+      },
+      "DULOXETINE": {
+        "total": 189,
+        "f": 85,
+        "m": 104,
+        "pct_f": 44.97354497354497,
+        "mean_logR": -0.15754014326766078
+      },
+      "ESCITALOPRAM": {
+        "total": 217,
+        "f": 61,
+        "m": 156,
+        "pct_f": 28.110599078341014,
+        "mean_logR": -0.518138727055339
+      },
+      "FLUOXETINE": {
+        "total": 204,
+        "f": 74,
+        "m": 130,
+        "pct_f": 36.27450980392157,
+        "mean_logR": -0.29141346743254515
+      },
+      "FLUVOXAMINE": {
+        "total": 30,
+        "f": 10,
+        "m": 20,
+        "pct_f": 33.33333333333333,
+        "mean_logR": -0.33577884978799716
+      },
+      "IMIPRAMINE": {
+        "total": 7,
+        "f": 1,
+        "m": 6,
+        "pct_f": 14.285714285714285,
+        "mean_logR": -0.4863076259564858
+      },
+      "LEVOMILNACIPRAN": {
+        "total": 4,
+        "f": 2,
+        "m": 2,
+        "pct_f": 50.0,
+        "mean_logR": 0.06907150602898302
+      },
+      "MILNACIPRAN": {
+        "total": 11,
+        "f": 3,
+        "m": 8,
+        "pct_f": 27.27272727272727,
+        "mean_logR": -0.48999825414635656
+      },
+      "MIRTAZAPINE": {
+        "total": 193,
+        "f": 110,
+        "m": 83,
+        "pct_f": 56.994818652849744,
+        "mean_logR": 0.12071267477160934
+      },
+      "NORTRIPTYLINE": {
+        "total": 64,
+        "f": 31,
+        "m": 33,
+        "pct_f": 48.4375,
+        "mean_logR": 0.04219282763456114
+      },
+      "PAROXETINE": {
+        "total": 186,
+        "f": 90,
+        "m": 96,
+        "pct_f": 48.38709677419355,
+        "mean_logR": -0.028459601353228427
+      },
+      "SERTRALINE": {
+        "total": 302,
+        "f": 127,
+        "m": 175,
+        "pct_f": 42.05298013245033,
+        "mean_logR": -0.17645684452838944
+      },
+      "TRAZODONE": {
+        "total": 151,
+        "f": 99,
+        "m": 52,
+        "pct_f": 65.56291390728477,
+        "mean_logR": 0.4611145613811324
+      },
+      "VENLAFAXINE": {
+        "total": 287,
+        "f": 117,
+        "m": 170,
+        "pct_f": 40.76655052264808,
+        "mean_logR": -0.2002326272672418
+      },
+      "VILAZODONE": {
+        "total": 17,
+        "f": 6,
+        "m": 11,
+        "pct_f": 35.294117647058826,
+        "mean_logR": -0.28864891975168183
+      },
+      "VORTIOXETINE": {
+        "total": 61,
+        "f": 19,
+        "m": 42,
+        "pct_f": 31.147540983606557,
+        "mean_logR": -0.30668198794890406
+      }
+    }
+  },
+  "Anxiolytics": {
+    "total": 1374,
+    "drugs_found": 10,
+    "female_higher": 897,
+    "male_higher": 477,
+    "pct_female": 65.28384279475983,
+    "mean_logR": 0.3246313870052496,
+    "per_drug": {
+      "ALPRAZOLAM": {
+        "total": 237,
+        "f": 178,
+        "m": 59,
+        "pct_f": 75.10548523206751,
+        "mean_logR": 0.5000338258610004
+      },
+      "BUSPIRONE": {
+        "total": 50,
+        "f": 14,
+        "m": 36,
+        "pct_f": 28.000000000000004,
+        "mean_logR": -0.45930195770400783
+      },
+      "CHLORDIAZEPOXIDE": {
+        "total": 8,
+        "f": 7,
+        "m": 1,
+        "pct_f": 87.5,
+        "mean_logR": 0.8242681879141731
+      },
+      "CLONAZEPAM": {
+        "total": 285,
+        "f": 177,
+        "m": 108,
+        "pct_f": 62.10526315789474,
+        "mean_logR": 0.26662666667022716
+      },
+      "DIAZEPAM": {
+        "total": 250,
+        "f": 191,
+        "m": 59,
+        "pct_f": 76.4,
+        "mean_logR": 0.5369307160270268
+      },
+      "LORAZEPAM": {
+        "total": 264,
+        "f": 165,
+        "m": 99,
+        "pct_f": 62.5,
+        "mean_logR": 0.202007650373677
+      },
+      "MIDAZOLAM": {
+        "total": 107,
+        "f": 67,
+        "m": 40,
+        "pct_f": 62.616822429906534,
+        "mean_logR": 0.3262668761255448
+      },
+      "OXAZEPAM": {
+        "total": 88,
+        "f": 57,
+        "m": 31,
+        "pct_f": 64.77272727272727,
+        "mean_logR": 0.411458897744048
+      },
+      "TEMAZEPAM": {
+        "total": 71,
+        "f": 36,
+        "m": 35,
+        "pct_f": 50.70422535211267,
+        "mean_logR": 0.19367927340899296
+      },
+      "TRIAZOLAM": {
+        "total": 14,
+        "f": 5,
+        "m": 9,
+        "pct_f": 35.714285714285715,
+        "mean_logR": -0.32250031909480487
+      }
+    }
+  },
+  "Mood_Stabilizers": {
+    "total": 1181,
+    "drugs_found": 5,
+    "female_higher": 543,
+    "male_higher": 638,
+    "pct_female": 45.977984758679085,
+    "mean_logR": -0.047295978394889394,
+    "per_drug": {
+      "CARBAMAZEPINE": {
+        "total": 180,
+        "f": 70,
+        "m": 110,
+        "pct_f": 38.88888888888889,
+        "mean_logR": -0.17731311165628816
+      },
+      "LAMOTRIGINE": {
+        "total": 319,
+        "f": 139,
+        "m": 180,
+        "pct_f": 43.573667711598745,
+        "mean_logR": -0.0489961476151447
+      },
+      "LITHIUM": {
+        "total": 143,
+        "f": 71,
+        "m": 72,
+        "pct_f": 49.65034965034965,
+        "mean_logR": -0.12166660878299533
+      },
+      "TOPIRAMATE": {
+        "total": 200,
+        "f": 96,
+        "m": 104,
+        "pct_f": 48.0,
+        "mean_logR": 0.05777390215794005
+      },
+      "VALPROIC ACID": {
+        "total": 339,
+        "f": 167,
+        "m": 172,
+        "pct_f": 49.26253687315634,
+        "mean_logR": -0.0072769164384101186
+      }
+    }
+  }
+}

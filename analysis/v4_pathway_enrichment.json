@@ -1,0 +1,558 @@
+{
+  "f_drugs_with_targets": 389,
+  "m_drugs_with_targets": 380,
+  "f_protein_targets": 466,
+  "m_protein_targets": 369,
+  "shared_targets": 176,
+  "f_only_pathways": 326,
+  "m_only_pathways": 208,
+  "shared_pathways": 522,
+  "top_f_pathways": [
+    {
+      "pathway": "Separation of Sister Chromatids",
+      "f": 295,
+      "m": 69
+    },
+    {
+      "pathway": "The role of GTSE1 in G2/M progression after G2 checkpoint",
+      "f": 233,
+      "m": 69
+    },
+    {
+      "pathway": "NCAM1 interactions",
+      "f": 212,
+      "m": 141
+    },
+    {
+      "pathway": "ER-Phagosome pathway",
+      "f": 188,
+      "m": 18
+    },
+    {
+      "pathway": "MAPK6/MAPK4 signaling",
+      "f": 187,
+      "m": 0
+    },
+    {
+      "pathway": "Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha",
+      "f": 187,
+      "m": 0
+    },
+    {
+      "pathway": "Neddylation",
+      "f": 181,
+      "m": 37
+    },
+    {
+      "pathway": "Proteasome assembly",
+      "f": 180,
+      "m": 0
+    },
+    {
+      "pathway": "Regulation of RUNX2 expression and activity",
+      "f": 175,
+      "m": 11
+    },
+    {
+      "pathway": "Regulation of RAS by GAPs",
+      "f": 173,
+      "m": 0
+    },
+    {
+      "pathway": "Downstream TCR signaling",
+      "f": 172,
+      "m": 8
+    },
+    {
+      "pathway": "Ub-specific processing proteases",
+      "f": 171,
+      "m": 34
+    },
+    {
+      "pathway": "Cross-presentation of soluble exogenous antigens (endosomes)",
+      "f": 170,
+      "m": 0
+    },
+    {
+      "pathway": "Regulation of expression of SLITs and ROBOs",
+      "f": 170,
+      "m": 0
+    },
+    {
+      "pathway": "ABC-family proteins mediated transport",
+      "f": 168,
+      "m": 20
+    },
+    {
+      "pathway": "Antigen processing: Ubiquitination & Proteasome degradation",
+      "f": 168,
+      "m": 7
+    },
+    {
+      "pathway": "Dectin-1 mediated noncanonical NF-kB signaling",
+      "f": 168,
+      "m": 0
+    },
+    {
+      "pathway": "NIK-->noncanonical NF-kB signaling",
+      "f": 168,
+      "m": 0
+    },
+    {
+      "pathway": "Degradation of CDH1",
+      "f": 166,
+      "m": 0
+    },
+    {
+      "pathway": "Somitogenesis",
+      "f": 166,
+      "m": 0
+    },
+    {
+      "pathway": "FCERI mediated NF-kB activation",
+      "f": 166,
+      "m": 1
+    },
+    {
+      "pathway": "RUNX1 regulates transcription of genes involved in differentiation of HSCs",
+      "f": 166,
+      "m": 0
+    },
+    {
+      "pathway": "Ubiquitin-Mediated Degradation of Phosphorylated Cdc25A",
+      "f": 166,
+      "m": 0
+    },
+    {
+      "pathway": "TNFR2 non-canonical NF-kB pathway",
+      "f": 166,
+      "m": 2
+    },
+    {
+      "pathway": "Regulation of RUNX3 expression and activity",
+      "f": 166,
+      "m": 0
+    },
+    {
+      "pathway": "CLEC7A (Dectin-1) signaling",
+      "f": 166,
+      "m": 1
+    },
+    {
+      "pathway": "GSK3B-mediated proteasomal degradation of PD-L1(CD274)",
+      "f": 165,
+      "m": 0
+    },
+    {
+      "pathway": "Regulation of PTEN stability and activity",
+      "f": 165,
+      "m": 33
+    },
+    {
+      "pathway": "AMPK-induced ERAD and lysosome mediated degradation of PD-L1(CD274)",
+      "f": 165,
+      "m": 0
+    },
+    {
+      "pathway": "SPOP-mediated proteasomal degradation of PD-L1(CD274)",
+      "f": 165,
+      "m": 13
+    }
+  ],
+  "top_m_pathways": [
+    {
+      "pathway": "Potential therapeutics for SARS",
+      "m": 152,
+      "f": 139
+    },
+    {
+      "pathway": "NCAM1 interactions",
+      "m": 141,
+      "f": 212
+    },
+    {
+      "pathway": "PIP3 activates AKT signaling",
+      "m": 138,
+      "f": 116
+    },
+    {
+      "pathway": "Presynaptic depolarization and calcium channel opening",
+      "m": 118,
+      "f": 118
+    },
+    {
+      "pathway": "RAF/MAP kinase cascade",
+      "m": 117,
+      "f": 131
+    },
+    {
+      "pathway": "Voltage gated Potassium channels",
+      "m": 116,
+      "f": 3
+    },
+    {
+      "pathway": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "m": 114,
+      "f": 116
+    },
+    {
+      "pathway": "Phase 0 - rapid depolarisation",
+      "m": 114,
+      "f": 114
+    },
+    {
+      "pathway": "Interleukin-4 and Interleukin-13 signaling",
+      "m": 112,
+      "f": 65
+    },
+    {
+      "pathway": "Neutrophil degranulation",
+      "m": 106,
+      "f": 159
+    },
+    {
+      "pathway": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "m": 105,
+      "f": 116
+    },
+    {
+      "pathway": "Translocation of SLC2A4 (GLUT4) to the plasma membrane",
+      "m": 100,
+      "f": 69
+    },
+    {
+      "pathway": "Interaction between L1 and Ankyrins",
+      "m": 93,
+      "f": 70
+    },
+    {
+      "pathway": "Regulation of insulin secretion",
+      "m": 92,
+      "f": 137
+    },
+    {
+      "pathway": "HCMV Early Events",
+      "m": 90,
+      "f": 81
+    },
+    {
+      "pathway": "Nuclear signaling by ERBB4",
+      "m": 90,
+      "f": 14
+    },
+    {
+      "pathway": "Aggrephagy",
+      "m": 89,
+      "f": 86
+    },
+    {
+      "pathway": "Assembly and cell surface presentation of NMDA receptors",
+      "m": 89,
+      "f": 89
+    },
+    {
+      "pathway": "Nuclear Receptor transcription pathway",
+      "m": 88,
+      "f": 55
+    },
+    {
+      "pathway": "RHO GTPases Activate Formins",
+      "m": 86,
+      "f": 94
+    },
+    {
+      "pathway": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+      "m": 85,
+      "f": 85
+    },
+    {
+      "pathway": "NOTCH3 Activation and Transmission of Signal to the Nucleus",
+      "m": 82,
+      "f": 4
+    },
+    {
+      "pathway": "Mechanical load activates signaling by PIEZO1 and integrins in osteocytes",
+      "m": 82,
+      "f": 73
+    },
+    {
+      "pathway": "TGFBR3 PTM regulation",
+      "m": 78,
+      "f": 0
+    },
+    {
+      "pathway": "EPH-ephrin mediated repulsion of cells",
+      "m": 78,
+      "f": 5
+    },
+    {
+      "pathway": "Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants",
+      "m": 78,
+      "f": 135
+    },
+    {
+      "pathway": "Noncanonical activation of NOTCH3",
+      "m": 78,
+      "f": 0
+    },
+    {
+      "pathway": "Constitutive Signaling by NOTCH1 PEST Domain Mutants",
+      "m": 78,
+      "f": 135
+    },
+    {
+      "pathway": "NRIF signals cell death from the nucleus",
+      "m": 78,
+      "f": 0
+    },
+    {
+      "pathway": "NOTCH4 Activation and Transmission of Signal to the Nucleus",
+      "m": 78,
+      "f": 0
+    }
+  ],
+  "f_enriched_shared": [
+    {
+      "pathway": "CLEC7A (Dectin-1) signaling",
+      "f": 166,
+      "m": 1,
+      "f_ratio": 0.994
+    },
+    {
+      "pathway": "FCERI mediated NF-kB activation",
+      "f": 166,
+      "m": 1,
+      "f_ratio": 0.994
+    },
+    {
+      "pathway": "Collagen degradation",
+      "f": 102,
+      "m": 1,
+      "f_ratio": 0.99
+    },
+    {
+      "pathway": "TNFR2 non-canonical NF-kB pathway",
+      "f": 166,
+      "m": 2,
+      "f_ratio": 0.988
+    },
+    {
+      "pathway": "Interleukin-1 signaling",
+      "f": 164,
+      "m": 4,
+      "f_ratio": 0.976
+    },
+    {
+      "pathway": "Antigen processing: Ubiquitination & Proteasome degradation",
+      "f": 168,
+      "m": 7,
+      "f_ratio": 0.96
+    },
+    {
+      "pathway": "Negative regulation of NOTCH4 signaling",
+      "f": 164,
+      "m": 7,
+      "f_ratio": 0.959
+    },
+    {
+      "pathway": "Downstream TCR signaling",
+      "f": 172,
+      "m": 8,
+      "f_ratio": 0.956
+    },
+    {
+      "pathway": "Signaling by PDGF",
+      "f": 96,
+      "m": 5,
+      "f_ratio": 0.95
+    },
+    {
+      "pathway": "GP1b-IX-V activation signalling",
+      "f": 34,
+      "m": 2,
+      "f_ratio": 0.944
+    },
+    {
+      "pathway": "Regulation of RUNX2 expression and activity",
+      "f": 175,
+      "m": 11,
+      "f_ratio": 0.941
+    },
+    {
+      "pathway": "Regulation of signaling by CBL",
+      "f": 15,
+      "m": 1,
+      "f_ratio": 0.938
+    },
+    {
+      "pathway": "Common Pathway of Fibrin Clot Formation",
+      "f": 13,
+      "m": 1,
+      "f_ratio": 0.929
+    },
+    {
+      "pathway": "SPOP-mediated proteasomal degradation of PD-L1(CD274)",
+      "f": 165,
+      "m": 13,
+      "f_ratio": 0.927
+    },
+    {
+      "pathway": "Ubiquitin-dependent degradation of Cyclin D",
+      "f": 164,
+      "m": 13,
+      "f_ratio": 0.927
+    },
+    {
+      "pathway": "SCF(Skp2)-mediated degradation of p27/p21",
+      "f": 164,
+      "m": 13,
+      "f_ratio": 0.927
+    },
+    {
+      "pathway": "ER-Phagosome pathway",
+      "f": 188,
+      "m": 18,
+      "f_ratio": 0.913
+    },
+    {
+      "pathway": "Dengue Virus Attachment and Entry",
+      "f": 10,
+      "m": 1,
+      "f_ratio": 0.909
+    },
+    {
+      "pathway": "ECM proteoglycans",
+      "f": 152,
+      "m": 17,
+      "f_ratio": 0.899
+    },
+    {
+      "pathway": "ABC-family proteins mediated transport",
+      "f": 168,
+      "m": 20,
+      "f_ratio": 0.894
+    }
+  ],
+  "m_enriched_shared": [
+    {
+      "pathway": "Voltage gated Potassium channels",
+      "f": 3,
+      "m": 116,
+      "f_ratio": 0.025
+    },
+    {
+      "pathway": "Insulin processing",
+      "f": 1,
+      "m": 32,
+      "f_ratio": 0.03
+    },
+    {
+      "pathway": "Signaling by Retinoic Acid",
+      "f": 1,
+      "m": 27,
+      "f_ratio": 0.036
+    },
+    {
+      "pathway": "PDE3B signalling",
+      "f": 1,
+      "m": 25,
+      "f_ratio": 0.038
+    },
+    {
+      "pathway": "NOTCH3 Activation and Transmission of Signal to the Nucleus",
+      "f": 4,
+      "m": 82,
+      "f_ratio": 0.047
+    },
+    {
+      "pathway": "RHOG GTPase cycle",
+      "f": 1,
+      "m": 17,
+      "f_ratio": 0.056
+    },
+    {
+      "pathway": "RUNX2 regulates genes involved in cell migration",
+      "f": 2,
+      "m": 33,
+      "f_ratio": 0.057
+    },
+    {
+      "pathway": "EPH-ephrin mediated repulsion of cells",
+      "f": 5,
+      "m": 78,
+      "f_ratio": 0.06
+    },
+    {
+      "pathway": "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+      "f": 1,
+      "m": 15,
+      "f_ratio": 0.062
+    },
+    {
+      "pathway": "Interleukin-20 family signaling",
+      "f": 3,
+      "m": 38,
+      "f_ratio": 0.073
+    },
+    {
+      "pathway": "Interleukin-27 signaling",
+      "f": 3,
+      "m": 36,
+      "f_ratio": 0.077
+    },
+    {
+      "pathway": "Hormone ligand-binding receptors",
+      "f": 1,
+      "m": 11,
+      "f_ratio": 0.083
+    },
+    {
+      "pathway": "Detoxification of Reactive Oxygen Species",
+      "f": 3,
+      "m": 32,
+      "f_ratio": 0.086
+    },
+    {
+      "pathway": "Amyloid fiber formation",
+      "f": 3,
+      "m": 31,
+      "f_ratio": 0.088
+    },
+    {
+      "pathway": "NFE2L2 regulating anti-oxidant/detoxification enzymes",
+      "f": 3,
+      "m": 30,
+      "f_ratio": 0.091
+    },
+    {
+      "pathway": "Other interleukin signaling",
+      "f": 5,
+      "m": 44,
+      "f_ratio": 0.102
+    },
+    {
+      "pathway": "Interleukin-23 signaling",
+      "f": 7,
+      "m": 57,
+      "f_ratio": 0.109
+    },
+    {
+      "pathway": "NFE2L2 regulating TCA cycle genes",
+      "f": 4,
+      "m": 30,
+      "f_ratio": 0.118
+    },
+    {
+      "pathway": "Interleukin-12 signaling",
+      "f": 10,
+      "m": 71,
+      "f_ratio": 0.123
+    },
+    {
+      "pathway": "Activation of BAD and translocation to mitochondria ",
+      "f": 5,
+      "m": 33,
+      "f_ratio": 0.132
+    }
+  ]
+}

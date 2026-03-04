@@ -1,0 +1,10 @@
+{
+  "drug_overlap": 776,
+  "ae_overlap": 2666,
+  "pair_overlap": 12557,
+  "known_signals": 12557,
+  "novel_signals": 83724,
+  "known_pct_female": 60.77088476546946,
+  "novel_pct_female": 52.720844680139514,
+  "hc_novel_count": 3894
+}

@@ -1,0 +1,41 @@
+Pathway	F_target_genes	M_target_genes	F_ratio	Bias
+CLEC7A (Dectin-1) signaling	166	1	0.994	Female-enriched
+FCERI mediated NF-kB activation	166	1	0.994	Female-enriched
+Collagen degradation	102	1	0.99	Female-enriched
+TNFR2 non-canonical NF-kB pathway	166	2	0.988	Female-enriched
+Interleukin-1 signaling	164	4	0.976	Female-enriched
+Antigen processing: Ubiquitination & Proteasome degradation	168	7	0.96	Female-enriched
+Negative regulation of NOTCH4 signaling	164	7	0.959	Female-enriched
+Downstream TCR signaling	172	8	0.956	Female-enriched
+Signaling by PDGF	96	5	0.95	Female-enriched
+GP1b-IX-V activation signalling	34	2	0.944	Female-enriched
+Regulation of RUNX2 expression and activity	175	11	0.941	Female-enriched
+Regulation of signaling by CBL	15	1	0.938	Female-enriched
+Common Pathway of Fibrin Clot Formation	13	1	0.929	Female-enriched
+SPOP-mediated proteasomal degradation of PD-L1(CD274)	165	13	0.927	Female-enriched
+Ubiquitin-dependent degradation of Cyclin D	164	13	0.927	Female-enriched
+SCF(Skp2)-mediated degradation of p27/p21	164	13	0.927	Female-enriched
+ER-Phagosome pathway	188	18	0.913	Female-enriched
+Dengue Virus Attachment and Entry	10	1	0.909	Female-enriched
+ECM proteoglycans	152	17	0.899	Female-enriched
+ABC-family proteins mediated transport	168	20	0.894	Female-enriched
+Voltage gated Potassium channels	3	116	0.025	Male-enriched
+Insulin processing	1	32	0.03	Male-enriched
+Signaling by Retinoic Acid	1	27	0.036	Male-enriched
+PDE3B signalling	1	25	0.038	Male-enriched
+NOTCH3 Activation and Transmission of Signal to the Nucleus	4	82	0.047	Male-enriched
+RHOG GTPase cycle	1	17	0.056	Male-enriched
+RUNX2 regulates genes involved in cell migration	2	33	0.057	Male-enriched
+EPH-ephrin mediated repulsion of cells	5	78	0.06	Male-enriched
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation	1	15	0.062	Male-enriched
+Interleukin-20 family signaling	3	38	0.073	Male-enriched
+Interleukin-27 signaling	3	36	0.077	Male-enriched
+Hormone ligand-binding receptors	1	11	0.083	Male-enriched
+Detoxification of Reactive Oxygen Species	3	32	0.086	Male-enriched
+Amyloid fiber formation	3	31	0.088	Male-enriched
+NFE2L2 regulating anti-oxidant/detoxification enzymes	3	30	0.091	Male-enriched
+Other interleukin signaling	5	44	0.102	Male-enriched
+Interleukin-23 signaling	7	57	0.109	Male-enriched
+NFE2L2 regulating TCA cycle genes	4	30	0.118	Male-enriched
+Interleukin-12 signaling	10	71	0.123	Male-enriched
+Activation of BAD and translocation to mitochondria 	5	33	0.132	Male-enriched

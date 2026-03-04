@@ -1,0 +1,7056 @@
+{
+  "analysis": "Deep Per-Country FAERS Analysis",
+  "date": "2026-03-04",
+  "n_countries": 62,
+  "country_results": {
+    "US": {
+      "reports": 9934811,
+      "female": 6204335,
+      "male": 3730476,
+      "f_reporter_pct": 62.5,
+      "total_signals": 208798,
+      "strong_signals": 69673,
+      "female_biased": 34066,
+      "male_biased": 35607,
+      "f_pct": 48.9,
+      "mean_log_ratio": -0.0103,
+      "drug_classes": {
+        "opioids": {
+          "total": 1649,
+          "f": 1203,
+          "m": 446,
+          "f_pct": 73.0,
+          "mlr": 0.3954
+        },
+        "antipsychotics": {
+          "total": 1286,
+          "f": 980,
+          "m": 306,
+          "f_pct": 76.2,
+          "mlr": 0.6589
+        },
+        "ssris": {
+          "total": 657,
+          "f": 248,
+          "m": 409,
+          "f_pct": 37.7,
+          "mlr": -0.2321
+        },
+        "ace_inhibitors": {
+          "total": 328,
+          "f": 253,
+          "m": 75,
+          "f_pct": 77.1,
+          "mlr": 0.4795
+        },
+        "checkpoint_inhibitors": {
+          "total": 672,
+          "f": 431,
+          "m": 241,
+          "f_pct": 64.1,
+          "mlr": 0.2523
+        },
+        "nsaids": {
+          "total": 718,
+          "f": 197,
+          "m": 521,
+          "f_pct": 27.4,
+          "mlr": -0.4158
+        },
+        "statins": {
+          "total": 592,
+          "f": 161,
+          "m": 431,
+          "f_pct": 27.2,
+          "mlr": -0.3811
+        },
+        "anticoagulants": {
+          "total": 896,
+          "f": 664,
+          "m": 232,
+          "f_pct": 74.1,
+          "mlr": 0.3858
+        },
+        "corticosteroids": {
+          "total": 1393,
+          "f": 1027,
+          "m": 366,
+          "f_pct": 73.7,
+          "mlr": 0.4327
+        }
+      },
+      "compute_seconds": 7.6
+    },
+    "COUNTRY NOT SPECIFIED": {
+      "reports": 625919,
+      "female": 369227,
+      "male": 256692,
+      "f_reporter_pct": 59.0,
+      "total_signals": 15882,
+      "strong_signals": 5351,
+      "female_biased": 2321,
+      "male_biased": 3030,
+      "f_pct": 43.4,
+      "mean_log_ratio": -0.0531,
+      "drug_classes": {
+        "opioids": {
+          "total": 56,
+          "f": 37,
+          "m": 19,
+          "f_pct": 66.1,
+          "mlr": 0.5655
+        },
+        "antipsychotics": {
+          "total": 112,
+          "f": 72,
+          "m": 40,
+          "f_pct": 64.3,
+          "mlr": 0.2756
+        },
+        "ssris": {
+          "total": 26,
+          "f": 7,
+          "m": 19,
+          "f_pct": 26.9,
+          "mlr": -0.3498
+        },
+        "ace_inhibitors": {
+          "total": 21,
+          "f": 6,
+          "m": 15,
+          "f_pct": 28.6,
+          "mlr": -0.2615
+        },
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6085
+        },
+        "nsaids": {
+          "total": 62,
+          "f": 21,
+          "m": 41,
+          "f_pct": 33.9,
+          "mlr": -0.1718
+        },
+        "statins": {
+          "total": 35,
+          "f": 15,
+          "m": 20,
+          "f_pct": 42.9,
+          "mlr": -0.0874
+        },
+        "anticoagulants": {
+          "total": 53,
+          "f": 38,
+          "m": 15,
+          "f_pct": 71.7,
+          "mlr": 0.3683
+        },
+        "corticosteroids": {
+          "total": 116,
+          "f": 77,
+          "m": 39,
+          "f_pct": 66.4,
+          "mlr": 0.3503
+        }
+      },
+      "compute_seconds": 1.4
+    },
+    "CA": {
+      "reports": 573932,
+      "female": 346497,
+      "male": 227435,
+      "f_reporter_pct": 60.4,
+      "total_signals": 60139,
+      "strong_signals": 41146,
+      "female_biased": 14131,
+      "male_biased": 27015,
+      "f_pct": 34.3,
+      "mean_log_ratio": -0.41,
+      "drug_classes": {
+        "opioids": {
+          "total": 942,
+          "f": 469,
+          "m": 473,
+          "f_pct": 49.8,
+          "mlr": -0.0021
+        },
+        "antipsychotics": {
+          "total": 735,
+          "f": 367,
+          "m": 368,
+          "f_pct": 49.9,
+          "mlr": 0.0446
+        },
+        "ssris": {
+          "total": 399,
+          "f": 124,
+          "m": 275,
+          "f_pct": 31.1,
+          "mlr": -0.6554
+        },
+        "ace_inhibitors": {
+          "total": 239,
+          "f": 110,
+          "m": 129,
+          "f_pct": 46.0,
+          "mlr": -0.1507
+        },
+        "checkpoint_inhibitors": {
+          "total": 193,
+          "f": 50,
+          "m": 143,
+          "f_pct": 25.9,
+          "mlr": -0.4872
+        },
+        "nsaids": {
+          "total": 844,
+          "f": 393,
+          "m": 451,
+          "f_pct": 46.6,
+          "mlr": -0.1923
+        },
+        "statins": {
+          "total": 534,
+          "f": 185,
+          "m": 349,
+          "f_pct": 34.6,
+          "mlr": -0.5303
+        },
+        "anticoagulants": {
+          "total": 279,
+          "f": 110,
+          "m": 169,
+          "f_pct": 39.4,
+          "mlr": -0.5381
+        },
+        "corticosteroids": {
+          "total": 1219,
+          "f": 583,
+          "m": 636,
+          "f_pct": 47.8,
+          "mlr": -0.0757
+        }
+      },
+      "compute_seconds": 2.4
+    },
+    "GB": {
+      "reports": 491181,
+      "female": 275761,
+      "male": 215420,
+      "f_reporter_pct": 56.1,
+      "total_signals": 29994,
+      "strong_signals": 14702,
+      "female_biased": 6176,
+      "male_biased": 8526,
+      "f_pct": 42.0,
+      "mean_log_ratio": -0.0996,
+      "drug_classes": {
+        "opioids": {
+          "total": 308,
+          "f": 158,
+          "m": 150,
+          "f_pct": 51.3,
+          "mlr": 0.0613
+        },
+        "antipsychotics": {
+          "total": 787,
+          "f": 402,
+          "m": 385,
+          "f_pct": 51.1,
+          "mlr": -0.0022
+        },
+        "ssris": {
+          "total": 571,
+          "f": 212,
+          "m": 359,
+          "f_pct": 37.1,
+          "mlr": -0.296
+        },
+        "ace_inhibitors": {
+          "total": 223,
+          "f": 127,
+          "m": 96,
+          "f_pct": 57.0,
+          "mlr": 0.1563
+        },
+        "checkpoint_inhibitors": {
+          "total": 88,
+          "f": 54,
+          "m": 34,
+          "f_pct": 61.4,
+          "mlr": 0.2054
+        },
+        "nsaids": {
+          "total": 283,
+          "f": 114,
+          "m": 169,
+          "f_pct": 40.3,
+          "mlr": -0.2085
+        },
+        "statins": {
+          "total": 375,
+          "f": 181,
+          "m": 194,
+          "f_pct": 48.3,
+          "mlr": -0.0329
+        },
+        "anticoagulants": {
+          "total": 213,
+          "f": 111,
+          "m": 102,
+          "f_pct": 52.1,
+          "mlr": 0.0815
+        },
+        "corticosteroids": {
+          "total": 455,
+          "f": 269,
+          "m": 186,
+          "f_pct": 59.1,
+          "mlr": 0.2198
+        }
+      },
+      "compute_seconds": 0.9
+    },
+    "FR": {
+      "reports": 416996,
+      "female": 220154,
+      "male": 196842,
+      "f_reporter_pct": 52.8,
+      "total_signals": 32290,
+      "strong_signals": 15092,
+      "female_biased": 7361,
+      "male_biased": 7731,
+      "f_pct": 48.8,
+      "mean_log_ratio": -0.0213,
+      "drug_classes": {
+        "opioids": {
+          "total": 309,
+          "f": 148,
+          "m": 161,
+          "f_pct": 47.9,
+          "mlr": -0.0776
+        },
+        "antipsychotics": {
+          "total": 441,
+          "f": 207,
+          "m": 234,
+          "f_pct": 46.9,
+          "mlr": -0.1026
+        },
+        "ssris": {
+          "total": 279,
+          "f": 108,
+          "m": 171,
+          "f_pct": 38.7,
+          "mlr": -0.2807
+        },
+        "ace_inhibitors": {
+          "total": 88,
+          "f": 45,
+          "m": 43,
+          "f_pct": 51.1,
+          "mlr": 0.029
+        },
+        "checkpoint_inhibitors": {
+          "total": 290,
+          "f": 148,
+          "m": 142,
+          "f_pct": 51.0,
+          "mlr": 0.0562
+        },
+        "nsaids": {
+          "total": 150,
+          "f": 57,
+          "m": 93,
+          "f_pct": 38.0,
+          "mlr": -0.3315
+        },
+        "statins": {
+          "total": 198,
+          "f": 112,
+          "m": 86,
+          "f_pct": 56.6,
+          "mlr": 0.1359
+        },
+        "anticoagulants": {
+          "total": 216,
+          "f": 121,
+          "m": 95,
+          "f_pct": 56.0,
+          "mlr": 0.0643
+        },
+        "corticosteroids": {
+          "total": 502,
+          "f": 264,
+          "m": 238,
+          "f_pct": 52.6,
+          "mlr": 0.0182
+        }
+      },
+      "compute_seconds": 0.9
+    },
+    "JP": {
+      "reports": 412316,
+      "female": 193943,
+      "male": 218373,
+      "f_reporter_pct": 47.0,
+      "total_signals": 22591,
+      "strong_signals": 7502,
+      "female_biased": 4152,
+      "male_biased": 3350,
+      "f_pct": 55.3,
+      "mean_log_ratio": 0.0385,
+      "drug_classes": {
+        "opioids": {
+          "total": 41,
+          "f": 17,
+          "m": 24,
+          "f_pct": 41.5,
+          "mlr": -0.0951
+        },
+        "antipsychotics": {
+          "total": 182,
+          "f": 47,
+          "m": 135,
+          "f_pct": 25.8,
+          "mlr": -0.4134
+        },
+        "ssris": {
+          "total": 34,
+          "f": 5,
+          "m": 29,
+          "f_pct": 14.7,
+          "mlr": -0.7049
+        },
+        "ace_inhibitors": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6625
+        },
+        "checkpoint_inhibitors": {
+          "total": 458,
+          "f": 343,
+          "m": 115,
+          "f_pct": 74.9,
+          "mlr": 0.4602
+        },
+        "nsaids": {
+          "total": 60,
+          "f": 15,
+          "m": 45,
+          "f_pct": 25.0,
+          "mlr": -0.4473
+        },
+        "statins": {
+          "total": 28,
+          "f": 13,
+          "m": 15,
+          "f_pct": 46.4,
+          "mlr": -0.0354
+        },
+        "anticoagulants": {
+          "total": 148,
+          "f": 115,
+          "m": 33,
+          "f_pct": 77.7,
+          "mlr": 0.476
+        },
+        "corticosteroids": {
+          "total": 347,
+          "f": 185,
+          "m": 162,
+          "f_pct": 53.3,
+          "mlr": 0.0688
+        }
+      },
+      "compute_seconds": 1.4
+    },
+    "DE": {
+      "reports": 292428,
+      "female": 162016,
+      "male": 130412,
+      "f_reporter_pct": 55.4,
+      "total_signals": 24463,
+      "strong_signals": 12120,
+      "female_biased": 5652,
+      "male_biased": 6468,
+      "f_pct": 46.6,
+      "mean_log_ratio": -0.0441,
+      "drug_classes": {
+        "opioids": {
+          "total": 134,
+          "f": 85,
+          "m": 49,
+          "f_pct": 63.4,
+          "mlr": 0.3077
+        },
+        "antipsychotics": {
+          "total": 442,
+          "f": 155,
+          "m": 287,
+          "f_pct": 35.1,
+          "mlr": -0.2988
+        },
+        "ssris": {
+          "total": 223,
+          "f": 95,
+          "m": 128,
+          "f_pct": 42.6,
+          "mlr": -0.1776
+        },
+        "ace_inhibitors": {
+          "total": 125,
+          "f": 72,
+          "m": 53,
+          "f_pct": 57.6,
+          "mlr": 0.1934
+        },
+        "checkpoint_inhibitors": {
+          "total": 243,
+          "f": 122,
+          "m": 121,
+          "f_pct": 50.2,
+          "mlr": 0.0248
+        },
+        "nsaids": {
+          "total": 306,
+          "f": 159,
+          "m": 147,
+          "f_pct": 52.0,
+          "mlr": 0.006
+        },
+        "statins": {
+          "total": 192,
+          "f": 122,
+          "m": 70,
+          "f_pct": 63.5,
+          "mlr": 0.3098
+        },
+        "anticoagulants": {
+          "total": 288,
+          "f": 177,
+          "m": 111,
+          "f_pct": 61.5,
+          "mlr": 0.1982
+        },
+        "corticosteroids": {
+          "total": 418,
+          "f": 258,
+          "m": 160,
+          "f_pct": 61.7,
+          "mlr": 0.2854
+        }
+      },
+      "compute_seconds": 1.6
+    },
+    "IT": {
+      "reports": 201710,
+      "female": 109271,
+      "male": 92439,
+      "f_reporter_pct": 54.2,
+      "total_signals": 12277,
+      "strong_signals": 5554,
+      "female_biased": 2728,
+      "male_biased": 2826,
+      "f_pct": 49.1,
+      "mean_log_ratio": -0.0126,
+      "drug_classes": {
+        "opioids": {
+          "total": 52,
+          "f": 24,
+          "m": 28,
+          "f_pct": 46.2,
+          "mlr": -0.1029
+        },
+        "antipsychotics": {
+          "total": 216,
+          "f": 71,
+          "m": 145,
+          "f_pct": 32.9,
+          "mlr": -0.3154
+        },
+        "ssris": {
+          "total": 136,
+          "f": 38,
+          "m": 98,
+          "f_pct": 27.9,
+          "mlr": -0.5057
+        },
+        "ace_inhibitors": {
+          "total": 76,
+          "f": 35,
+          "m": 41,
+          "f_pct": 46.1,
+          "mlr": -0.0862
+        },
+        "checkpoint_inhibitors": {
+          "total": 90,
+          "f": 63,
+          "m": 27,
+          "f_pct": 70.0,
+          "mlr": 0.4043
+        },
+        "nsaids": {
+          "total": 90,
+          "f": 34,
+          "m": 56,
+          "f_pct": 37.8,
+          "mlr": -0.2439
+        },
+        "statins": {
+          "total": 66,
+          "f": 39,
+          "m": 27,
+          "f_pct": 59.1,
+          "mlr": 0.2235
+        },
+        "anticoagulants": {
+          "total": 110,
+          "f": 69,
+          "m": 41,
+          "f_pct": 62.7,
+          "mlr": 0.1712
+        },
+        "corticosteroids": {
+          "total": 229,
+          "f": 154,
+          "m": 75,
+          "f_pct": 67.2,
+          "mlr": 0.3616
+        }
+      },
+      "compute_seconds": 1.3
+    },
+    "CN": {
+      "reports": 160623,
+      "female": 79699,
+      "male": 80924,
+      "f_reporter_pct": 49.6,
+      "total_signals": 8526,
+      "strong_signals": 3123,
+      "female_biased": 1700,
+      "male_biased": 1423,
+      "f_pct": 54.4,
+      "mean_log_ratio": 0.0303,
+      "drug_classes": {
+        "opioids": {
+          "total": 29,
+          "f": 22,
+          "m": 7,
+          "f_pct": 75.9,
+          "mlr": 0.4147
+        },
+        "antipsychotics": {
+          "total": 22,
+          "f": 11,
+          "m": 11,
+          "f_pct": 50.0,
+          "mlr": 0.086
+        },
+        "ssris": {
+          "total": 11,
+          "f": 0,
+          "m": 11,
+          "f_pct": 0.0,
+          "mlr": -0.937
+        },
+        "checkpoint_inhibitors": {
+          "total": 62,
+          "f": 49,
+          "m": 13,
+          "f_pct": 79.0,
+          "mlr": 0.5772
+        },
+        "nsaids": {
+          "total": 43,
+          "f": 27,
+          "m": 16,
+          "f_pct": 62.8,
+          "mlr": 0.2339
+        },
+        "statins": {
+          "total": 27,
+          "f": 22,
+          "m": 5,
+          "f_pct": 81.5,
+          "mlr": 0.6017
+        },
+        "anticoagulants": {
+          "total": 39,
+          "f": 29,
+          "m": 10,
+          "f_pct": 74.4,
+          "mlr": 0.3777
+        },
+        "corticosteroids": {
+          "total": 197,
+          "f": 125,
+          "m": 72,
+          "f_pct": 63.5,
+          "mlr": 0.2534
+        }
+      },
+      "compute_seconds": 1.3
+    },
+    "BR": {
+      "reports": 117585,
+      "female": 76377,
+      "male": 41208,
+      "f_reporter_pct": 65.0,
+      "total_signals": 6194,
+      "strong_signals": 2205,
+      "female_biased": 721,
+      "male_biased": 1484,
+      "f_pct": 32.7,
+      "mean_log_ratio": -0.1412,
+      "drug_classes": {
+        "opioids": {
+          "total": 11,
+          "f": 0,
+          "m": 11,
+          "f_pct": 0.0,
+          "mlr": -0.9861
+        },
+        "antipsychotics": {
+          "total": 30,
+          "f": 17,
+          "m": 13,
+          "f_pct": 56.7,
+          "mlr": 0.0486
+        },
+        "ssris": {
+          "total": 4,
+          "f": 0,
+          "m": 4,
+          "f_pct": 0.0,
+          "mlr": -0.9647
+        },
+        "ace_inhibitors": {
+          "total": 9,
+          "f": 2,
+          "m": 7,
+          "f_pct": 22.2,
+          "mlr": -0.4003
+        },
+        "checkpoint_inhibitors": {
+          "total": 12,
+          "f": 6,
+          "m": 6,
+          "f_pct": 50.0,
+          "mlr": 0.0332
+        },
+        "nsaids": {
+          "total": 20,
+          "f": 1,
+          "m": 19,
+          "f_pct": 5.0,
+          "mlr": -0.9016
+        },
+        "statins": {
+          "total": 41,
+          "f": 22,
+          "m": 19,
+          "f_pct": 53.7,
+          "mlr": 0.0226
+        },
+        "anticoagulants": {
+          "total": 21,
+          "f": 7,
+          "m": 14,
+          "f_pct": 33.3,
+          "mlr": -0.3132
+        },
+        "corticosteroids": {
+          "total": 53,
+          "f": 40,
+          "m": 13,
+          "f_pct": 75.5,
+          "mlr": 0.5437
+        }
+      },
+      "compute_seconds": 0.7
+    },
+    "ES": {
+      "reports": 117420,
+      "female": 61209,
+      "male": 56211,
+      "f_reporter_pct": 52.1,
+      "total_signals": 6600,
+      "strong_signals": 3103,
+      "female_biased": 1568,
+      "male_biased": 1535,
+      "f_pct": 50.5,
+      "mean_log_ratio": -0.0015,
+      "drug_classes": {
+        "opioids": {
+          "total": 61,
+          "f": 24,
+          "m": 37,
+          "f_pct": 39.3,
+          "mlr": -0.2534
+        },
+        "antipsychotics": {
+          "total": 142,
+          "f": 68,
+          "m": 74,
+          "f_pct": 47.9,
+          "mlr": -0.1064
+        },
+        "ssris": {
+          "total": 56,
+          "f": 11,
+          "m": 45,
+          "f_pct": 19.6,
+          "mlr": -0.901
+        },
+        "ace_inhibitors": {
+          "total": 14,
+          "f": 6,
+          "m": 8,
+          "f_pct": 42.9,
+          "mlr": -0.0543
+        },
+        "checkpoint_inhibitors": {
+          "total": 52,
+          "f": 37,
+          "m": 15,
+          "f_pct": 71.2,
+          "mlr": 0.3896
+        },
+        "nsaids": {
+          "total": 70,
+          "f": 27,
+          "m": 43,
+          "f_pct": 38.6,
+          "mlr": -0.3447
+        },
+        "statins": {
+          "total": 47,
+          "f": 34,
+          "m": 13,
+          "f_pct": 72.3,
+          "mlr": 0.4203
+        },
+        "anticoagulants": {
+          "total": 16,
+          "f": 13,
+          "m": 3,
+          "f_pct": 81.2,
+          "mlr": 0.7327
+        },
+        "corticosteroids": {
+          "total": 136,
+          "f": 82,
+          "m": 54,
+          "f_pct": 60.3,
+          "mlr": 0.2135
+        }
+      },
+      "compute_seconds": 0.7
+    },
+    "AU": {
+      "reports": 104498,
+      "female": 52705,
+      "male": 51793,
+      "f_reporter_pct": 50.4,
+      "total_signals": 6665,
+      "strong_signals": 3348,
+      "female_biased": 1627,
+      "male_biased": 1721,
+      "f_pct": 48.6,
+      "mean_log_ratio": -0.0114,
+      "drug_classes": {
+        "opioids": {
+          "total": 73,
+          "f": 32,
+          "m": 41,
+          "f_pct": 43.8,
+          "mlr": -0.1067
+        },
+        "antipsychotics": {
+          "total": 354,
+          "f": 185,
+          "m": 169,
+          "f_pct": 52.3,
+          "mlr": 0.0911
+        },
+        "ssris": {
+          "total": 53,
+          "f": 17,
+          "m": 36,
+          "f_pct": 32.1,
+          "mlr": -0.3635
+        },
+        "ace_inhibitors": {
+          "total": 8,
+          "f": 4,
+          "m": 4,
+          "f_pct": 50.0,
+          "mlr": -0.0524
+        },
+        "checkpoint_inhibitors": {
+          "total": 43,
+          "f": 31,
+          "m": 12,
+          "f_pct": 72.1,
+          "mlr": 0.4879
+        },
+        "nsaids": {
+          "total": 18,
+          "f": 8,
+          "m": 10,
+          "f_pct": 44.4,
+          "mlr": -0.1991
+        },
+        "statins": {
+          "total": 61,
+          "f": 40,
+          "m": 21,
+          "f_pct": 65.6,
+          "mlr": 0.4174
+        },
+        "anticoagulants": {
+          "total": 38,
+          "f": 21,
+          "m": 17,
+          "f_pct": 55.3,
+          "mlr": 0.0536
+        },
+        "corticosteroids": {
+          "total": 231,
+          "f": 134,
+          "m": 97,
+          "f_pct": 58.0,
+          "mlr": 0.2234
+        }
+      },
+      "compute_seconds": 0.7
+    },
+    "NL": {
+      "reports": 96869,
+      "female": 48818,
+      "male": 48051,
+      "f_reporter_pct": 50.4,
+      "total_signals": 4951,
+      "strong_signals": 2246,
+      "female_biased": 922,
+      "male_biased": 1324,
+      "f_pct": 41.1,
+      "mean_log_ratio": -0.094,
+      "drug_classes": {
+        "opioids": {
+          "total": 56,
+          "f": 17,
+          "m": 39,
+          "f_pct": 30.4,
+          "mlr": -0.5155
+        },
+        "antipsychotics": {
+          "total": 109,
+          "f": 44,
+          "m": 65,
+          "f_pct": 40.4,
+          "mlr": -0.1742
+        },
+        "ssris": {
+          "total": 57,
+          "f": 10,
+          "m": 47,
+          "f_pct": 17.5,
+          "mlr": -0.6846
+        },
+        "ace_inhibitors": {
+          "total": 10,
+          "f": 8,
+          "m": 2,
+          "f_pct": 80.0,
+          "mlr": 0.4714
+        },
+        "checkpoint_inhibitors": {
+          "total": 23,
+          "f": 12,
+          "m": 11,
+          "f_pct": 52.2,
+          "mlr": 0.0133
+        },
+        "nsaids": {
+          "total": 27,
+          "f": 12,
+          "m": 15,
+          "f_pct": 44.4,
+          "mlr": -0.1934
+        },
+        "statins": {
+          "total": 46,
+          "f": 30,
+          "m": 16,
+          "f_pct": 65.2,
+          "mlr": 0.3008
+        },
+        "anticoagulants": {
+          "total": 14,
+          "f": 10,
+          "m": 4,
+          "f_pct": 71.4,
+          "mlr": 0.3789
+        },
+        "corticosteroids": {
+          "total": 126,
+          "f": 72,
+          "m": 54,
+          "f_pct": 57.1,
+          "mlr": 0.128
+        }
+      },
+      "compute_seconds": 0.7
+    },
+    "IN": {
+      "reports": 62500,
+      "female": 28528,
+      "male": 33972,
+      "f_reporter_pct": 45.6,
+      "total_signals": 2240,
+      "strong_signals": 941,
+      "female_biased": 489,
+      "male_biased": 452,
+      "f_pct": 52.0,
+      "mean_log_ratio": 0.0271,
+      "drug_classes": {
+        "opioids": {
+          "total": 5,
+          "f": 4,
+          "m": 1,
+          "f_pct": 80.0,
+          "mlr": 0.5187
+        },
+        "antipsychotics": {
+          "total": 22,
+          "f": 16,
+          "m": 6,
+          "f_pct": 72.7,
+          "mlr": 0.5457
+        },
+        "ssris": {
+          "total": 4,
+          "f": 1,
+          "m": 3,
+          "f_pct": 25.0,
+          "mlr": -0.5079
+        },
+        "ace_inhibitors": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.1583
+        },
+        "checkpoint_inhibitors": {
+          "total": 14,
+          "f": 12,
+          "m": 2,
+          "f_pct": 85.7,
+          "mlr": 0.5847
+        },
+        "nsaids": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8983
+        },
+        "statins": {
+          "total": 8,
+          "f": 7,
+          "m": 1,
+          "f_pct": 87.5,
+          "mlr": 0.8111
+        },
+        "anticoagulants": {
+          "total": 2,
+          "f": 1,
+          "m": 1,
+          "f_pct": 50.0,
+          "mlr": 0.059
+        },
+        "corticosteroids": {
+          "total": 93,
+          "f": 60,
+          "m": 33,
+          "f_pct": 64.5,
+          "mlr": 0.3762
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "CO": {
+      "reports": 58100,
+      "female": 33135,
+      "male": 24965,
+      "f_reporter_pct": 57.0,
+      "total_signals": 2694,
+      "strong_signals": 971,
+      "female_biased": 303,
+      "male_biased": 668,
+      "f_pct": 31.2,
+      "mean_log_ratio": -0.1517,
+      "drug_classes": {
+        "opioids": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.999
+        },
+        "antipsychotics": {
+          "total": 18,
+          "f": 17,
+          "m": 1,
+          "f_pct": 94.4,
+          "mlr": 0.762
+        },
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.9122
+        },
+        "checkpoint_inhibitors": {
+          "total": 9,
+          "f": 5,
+          "m": 4,
+          "f_pct": 55.6,
+          "mlr": 0.2083
+        },
+        "nsaids": {
+          "total": 2,
+          "f": 0,
+          "m": 2,
+          "f_pct": 0.0,
+          "mlr": -1.6548
+        },
+        "statins": {
+          "total": 22,
+          "f": 4,
+          "m": 18,
+          "f_pct": 18.2,
+          "mlr": -0.4559
+        },
+        "anticoagulants": {
+          "total": 13,
+          "f": 3,
+          "m": 10,
+          "f_pct": 23.1,
+          "mlr": -0.3569
+        },
+        "corticosteroids": {
+          "total": 3,
+          "f": 0,
+          "m": 3,
+          "f_pct": 0.0,
+          "mlr": -0.7811
+        }
+      },
+      "compute_seconds": 0.9
+    },
+    "SE": {
+      "reports": 44775,
+      "female": 26494,
+      "male": 18281,
+      "f_reporter_pct": 59.2,
+      "total_signals": 1816,
+      "strong_signals": 965,
+      "female_biased": 370,
+      "male_biased": 595,
+      "f_pct": 38.3,
+      "mean_log_ratio": -0.1556,
+      "drug_classes": {
+        "opioids": {
+          "total": 29,
+          "f": 6,
+          "m": 23,
+          "f_pct": 20.7,
+          "mlr": -0.5765
+        },
+        "antipsychotics": {
+          "total": 83,
+          "f": 27,
+          "m": 56,
+          "f_pct": 32.5,
+          "mlr": -0.4763
+        },
+        "ssris": {
+          "total": 55,
+          "f": 7,
+          "m": 48,
+          "f_pct": 12.7,
+          "mlr": -0.833
+        },
+        "ace_inhibitors": {
+          "total": 14,
+          "f": 7,
+          "m": 7,
+          "f_pct": 50.0,
+          "mlr": 0.1372
+        },
+        "checkpoint_inhibitors": {
+          "total": 7,
+          "f": 4,
+          "m": 3,
+          "f_pct": 57.1,
+          "mlr": 0.0804
+        },
+        "nsaids": {
+          "total": 18,
+          "f": 5,
+          "m": 13,
+          "f_pct": 27.8,
+          "mlr": -0.4327
+        },
+        "statins": {
+          "total": 33,
+          "f": 15,
+          "m": 18,
+          "f_pct": 45.5,
+          "mlr": 0.0135
+        },
+        "anticoagulants": {
+          "total": 35,
+          "f": 22,
+          "m": 13,
+          "f_pct": 62.9,
+          "mlr": 0.3536
+        },
+        "corticosteroids": {
+          "total": 14,
+          "f": 10,
+          "m": 4,
+          "f_pct": 71.4,
+          "mlr": 0.4611
+        }
+      },
+      "compute_seconds": 1.1
+    },
+    "AR": {
+      "reports": 43378,
+      "female": 28745,
+      "male": 14633,
+      "f_reporter_pct": 66.3,
+      "total_signals": 925,
+      "strong_signals": 409,
+      "female_biased": 127,
+      "male_biased": 282,
+      "f_pct": 31.1,
+      "mean_log_ratio": -0.1799,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 17,
+          "f": 10,
+          "m": 7,
+          "f_pct": 58.8,
+          "mlr": 0.4859
+        },
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.5688
+        },
+        "anticoagulants": {
+          "total": 17,
+          "f": 10,
+          "m": 7,
+          "f_pct": 58.8,
+          "mlr": 0.1382
+        },
+        "corticosteroids": {
+          "total": 2,
+          "f": 1,
+          "m": 1,
+          "f_pct": 50.0,
+          "mlr": 0.1715
+        }
+      },
+      "compute_seconds": 1.3
+    },
+    "EU": {
+      "reports": 41161,
+      "female": 21912,
+      "male": 19249,
+      "f_reporter_pct": 53.2,
+      "total_signals": 3411,
+      "strong_signals": 1625,
+      "female_biased": 820,
+      "male_biased": 805,
+      "f_pct": 50.5,
+      "mean_log_ratio": 0.0111,
+      "drug_classes": {
+        "opioids": {
+          "total": 40,
+          "f": 26,
+          "m": 14,
+          "f_pct": 65.0,
+          "mlr": 0.3742
+        },
+        "antipsychotics": {
+          "total": 49,
+          "f": 22,
+          "m": 27,
+          "f_pct": 44.9,
+          "mlr": -0.1968
+        },
+        "ssris": {
+          "total": 20,
+          "f": 4,
+          "m": 16,
+          "f_pct": 20.0,
+          "mlr": -0.6828
+        },
+        "ace_inhibitors": {
+          "total": 6,
+          "f": 2,
+          "m": 4,
+          "f_pct": 33.3,
+          "mlr": -0.3705
+        },
+        "checkpoint_inhibitors": {
+          "total": 32,
+          "f": 20,
+          "m": 12,
+          "f_pct": 62.5,
+          "mlr": 0.3534
+        },
+        "nsaids": {
+          "total": 27,
+          "f": 9,
+          "m": 18,
+          "f_pct": 33.3,
+          "mlr": -0.4156
+        },
+        "statins": {
+          "total": 22,
+          "f": 6,
+          "m": 16,
+          "f_pct": 27.3,
+          "mlr": -0.4646
+        },
+        "anticoagulants": {
+          "total": 10,
+          "f": 5,
+          "m": 5,
+          "f_pct": 50.0,
+          "mlr": -0.0061
+        },
+        "corticosteroids": {
+          "total": 89,
+          "f": 48,
+          "m": 41,
+          "f_pct": 53.9,
+          "mlr": 0.1074
+        }
+      },
+      "compute_seconds": 1.2
+    },
+    "PL": {
+      "reports": 40997,
+      "female": 22119,
+      "male": 18878,
+      "f_reporter_pct": 54.0,
+      "total_signals": 4606,
+      "strong_signals": 2455,
+      "female_biased": 1179,
+      "male_biased": 1276,
+      "f_pct": 48.0,
+      "mean_log_ratio": -0.0228,
+      "drug_classes": {
+        "opioids": {
+          "total": 39,
+          "f": 19,
+          "m": 20,
+          "f_pct": 48.7,
+          "mlr": -0.2349
+        },
+        "antipsychotics": {
+          "total": 87,
+          "f": 26,
+          "m": 61,
+          "f_pct": 29.9,
+          "mlr": -0.4427
+        },
+        "ssris": {
+          "total": 51,
+          "f": 11,
+          "m": 40,
+          "f_pct": 21.6,
+          "mlr": -0.581
+        },
+        "ace_inhibitors": {
+          "total": 37,
+          "f": 18,
+          "m": 19,
+          "f_pct": 48.6,
+          "mlr": -0.1297
+        },
+        "checkpoint_inhibitors": {
+          "total": 30,
+          "f": 17,
+          "m": 13,
+          "f_pct": 56.7,
+          "mlr": 0.066
+        },
+        "nsaids": {
+          "total": 37,
+          "f": 10,
+          "m": 27,
+          "f_pct": 27.0,
+          "mlr": -0.5206
+        },
+        "statins": {
+          "total": 61,
+          "f": 34,
+          "m": 27,
+          "f_pct": 55.7,
+          "mlr": 0.1439
+        },
+        "anticoagulants": {
+          "total": 35,
+          "f": 20,
+          "m": 15,
+          "f_pct": 57.1,
+          "mlr": 0.166
+        },
+        "corticosteroids": {
+          "total": 153,
+          "f": 95,
+          "m": 58,
+          "f_pct": 62.1,
+          "mlr": 0.3054
+        }
+      },
+      "compute_seconds": 1.2
+    },
+    "PT": {
+      "reports": 39191,
+      "female": 21986,
+      "male": 17205,
+      "f_reporter_pct": 56.1,
+      "total_signals": 2318,
+      "strong_signals": 1265,
+      "female_biased": 559,
+      "male_biased": 706,
+      "f_pct": 44.2,
+      "mean_log_ratio": -0.0859,
+      "drug_classes": {
+        "opioids": {
+          "total": 12,
+          "f": 5,
+          "m": 7,
+          "f_pct": 41.7,
+          "mlr": -0.276
+        },
+        "antipsychotics": {
+          "total": 76,
+          "f": 41,
+          "m": 35,
+          "f_pct": 53.9,
+          "mlr": 0.1196
+        },
+        "ssris": {
+          "total": 29,
+          "f": 1,
+          "m": 28,
+          "f_pct": 3.4,
+          "mlr": -1.1241
+        },
+        "ace_inhibitors": {
+          "total": 7,
+          "f": 4,
+          "m": 3,
+          "f_pct": 57.1,
+          "mlr": -0.0987
+        },
+        "checkpoint_inhibitors": {
+          "total": 28,
+          "f": 13,
+          "m": 15,
+          "f_pct": 46.4,
+          "mlr": -0.0328
+        },
+        "nsaids": {
+          "total": 56,
+          "f": 16,
+          "m": 40,
+          "f_pct": 28.6,
+          "mlr": -0.4802
+        },
+        "statins": {
+          "total": 28,
+          "f": 13,
+          "m": 15,
+          "f_pct": 46.4,
+          "mlr": 0.0017
+        },
+        "anticoagulants": {
+          "total": 4,
+          "f": 4,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8515
+        },
+        "corticosteroids": {
+          "total": 82,
+          "f": 50,
+          "m": 32,
+          "f_pct": 61.0,
+          "mlr": 0.2118
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "CH": {
+      "reports": 36535,
+      "female": 19831,
+      "male": 16704,
+      "f_reporter_pct": 54.3,
+      "total_signals": 1648,
+      "strong_signals": 687,
+      "female_biased": 402,
+      "male_biased": 285,
+      "f_pct": 58.5,
+      "mean_log_ratio": 0.0734,
+      "drug_classes": {
+        "opioids": {
+          "total": 13,
+          "f": 4,
+          "m": 9,
+          "f_pct": 30.8,
+          "mlr": -0.3197
+        },
+        "antipsychotics": {
+          "total": 46,
+          "f": 25,
+          "m": 21,
+          "f_pct": 54.3,
+          "mlr": 0.0336
+        },
+        "ssris": {
+          "total": 14,
+          "f": 4,
+          "m": 10,
+          "f_pct": 28.6,
+          "mlr": -0.7025
+        },
+        "ace_inhibitors": {
+          "total": 7,
+          "f": 6,
+          "m": 1,
+          "f_pct": 85.7,
+          "mlr": 0.7752
+        },
+        "checkpoint_inhibitors": {
+          "total": 14,
+          "f": 12,
+          "m": 2,
+          "f_pct": 85.7,
+          "mlr": 0.6604
+        },
+        "nsaids": {
+          "total": 14,
+          "f": 4,
+          "m": 10,
+          "f_pct": 28.6,
+          "mlr": -0.4612
+        },
+        "statins": {
+          "total": 6,
+          "f": 5,
+          "m": 1,
+          "f_pct": 83.3,
+          "mlr": 0.8929
+        },
+        "anticoagulants": {
+          "total": 18,
+          "f": 14,
+          "m": 4,
+          "f_pct": 77.8,
+          "mlr": 0.4333
+        },
+        "corticosteroids": {
+          "total": 16,
+          "f": 13,
+          "m": 3,
+          "f_pct": 81.2,
+          "mlr": 0.4759
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "TR": {
+      "reports": 35663,
+      "female": 18433,
+      "male": 17230,
+      "f_reporter_pct": 51.7,
+      "total_signals": 983,
+      "strong_signals": 421,
+      "female_biased": 199,
+      "male_biased": 222,
+      "f_pct": 47.3,
+      "mean_log_ratio": -0.0391,
+      "drug_classes": {
+        "opioids": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6223
+        },
+        "antipsychotics": {
+          "total": 24,
+          "f": 13,
+          "m": 11,
+          "f_pct": 54.2,
+          "mlr": 0.0423
+        },
+        "ssris": {
+          "total": 10,
+          "f": 2,
+          "m": 8,
+          "f_pct": 20.0,
+          "mlr": -0.6642
+        },
+        "checkpoint_inhibitors": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.753
+        },
+        "nsaids": {
+          "total": 11,
+          "f": 0,
+          "m": 11,
+          "f_pct": 0.0,
+          "mlr": -1.2968
+        },
+        "anticoagulants": {
+          "total": 4,
+          "f": 3,
+          "m": 1,
+          "f_pct": 75.0,
+          "mlr": 0.2996
+        },
+        "corticosteroids": {
+          "total": 32,
+          "f": 23,
+          "m": 9,
+          "f_pct": 71.9,
+          "mlr": 0.3783
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "KR": {
+      "reports": 32468,
+      "female": 15957,
+      "male": 16511,
+      "f_reporter_pct": 49.1,
+      "total_signals": 820,
+      "strong_signals": 376,
+      "female_biased": 188,
+      "male_biased": 188,
+      "f_pct": 50.0,
+      "mean_log_ratio": -0.0068,
+      "drug_classes": {
+        "opioids": {
+          "total": 5,
+          "f": 1,
+          "m": 4,
+          "f_pct": 20.0,
+          "mlr": -0.4102
+        },
+        "antipsychotics": {
+          "total": 7,
+          "f": 2,
+          "m": 5,
+          "f_pct": 28.6,
+          "mlr": -0.3798
+        },
+        "checkpoint_inhibitors": {
+          "total": 26,
+          "f": 16,
+          "m": 10,
+          "f_pct": 61.5,
+          "mlr": 0.2707
+        },
+        "nsaids": {
+          "total": 4,
+          "f": 1,
+          "m": 3,
+          "f_pct": 25.0,
+          "mlr": -0.569
+        },
+        "anticoagulants": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.5889
+        },
+        "corticosteroids": {
+          "total": 20,
+          "f": 14,
+          "m": 6,
+          "f_pct": 70.0,
+          "mlr": 0.246
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "BE": {
+      "reports": 31516,
+      "female": 16653,
+      "male": 14863,
+      "f_reporter_pct": 52.8,
+      "total_signals": 1428,
+      "strong_signals": 709,
+      "female_biased": 319,
+      "male_biased": 390,
+      "f_pct": 45.0,
+      "mean_log_ratio": -0.0483,
+      "drug_classes": {
+        "opioids": {
+          "total": 3,
+          "f": 1,
+          "m": 2,
+          "f_pct": 33.3,
+          "mlr": -0.3267
+        },
+        "antipsychotics": {
+          "total": 18,
+          "f": 3,
+          "m": 15,
+          "f_pct": 16.7,
+          "mlr": -0.5537
+        },
+        "ssris": {
+          "total": 3,
+          "f": 0,
+          "m": 3,
+          "f_pct": 0.0,
+          "mlr": -0.6119
+        },
+        "checkpoint_inhibitors": {
+          "total": 26,
+          "f": 22,
+          "m": 4,
+          "f_pct": 84.6,
+          "mlr": 0.5794
+        },
+        "nsaids": {
+          "total": 5,
+          "f": 2,
+          "m": 3,
+          "f_pct": 40.0,
+          "mlr": -0.1737
+        },
+        "statins": {
+          "total": 4,
+          "f": 2,
+          "m": 2,
+          "f_pct": 50.0,
+          "mlr": -0.0225
+        },
+        "anticoagulants": {
+          "total": 11,
+          "f": 7,
+          "m": 4,
+          "f_pct": 63.6,
+          "mlr": 0.1639
+        },
+        "corticosteroids": {
+          "total": 46,
+          "f": 27,
+          "m": 19,
+          "f_pct": 58.7,
+          "mlr": 0.1571
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "GR": {
+      "reports": 27190,
+      "female": 14203,
+      "male": 12987,
+      "f_reporter_pct": 52.2,
+      "total_signals": 898,
+      "strong_signals": 440,
+      "female_biased": 229,
+      "male_biased": 211,
+      "f_pct": 52.0,
+      "mean_log_ratio": 0.0094,
+      "drug_classes": {
+        "opioids": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.5741
+        },
+        "antipsychotics": {
+          "total": 3,
+          "f": 2,
+          "m": 1,
+          "f_pct": 66.7,
+          "mlr": 0.1265
+        },
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.6897
+        },
+        "ace_inhibitors": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8494
+        },
+        "checkpoint_inhibitors": {
+          "total": 8,
+          "f": 5,
+          "m": 3,
+          "f_pct": 62.5,
+          "mlr": 0.2941
+        },
+        "nsaids": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.8076
+        },
+        "statins": {
+          "total": 22,
+          "f": 12,
+          "m": 10,
+          "f_pct": 54.5,
+          "mlr": 0.1602
+        },
+        "anticoagulants": {
+          "total": 8,
+          "f": 6,
+          "m": 2,
+          "f_pct": 75.0,
+          "mlr": 0.8082
+        },
+        "corticosteroids": {
+          "total": 34,
+          "f": 18,
+          "m": 16,
+          "f_pct": 52.9,
+          "mlr": 0.0677
+        }
+      },
+      "compute_seconds": 0.7
+    },
+    "TW": {
+      "reports": 26712,
+      "female": 14141,
+      "male": 12571,
+      "f_reporter_pct": 52.9,
+      "total_signals": 657,
+      "strong_signals": 273,
+      "female_biased": 163,
+      "male_biased": 110,
+      "f_pct": 59.7,
+      "mean_log_ratio": 0.0924,
+      "drug_classes": {
+        "opioids": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8478
+        },
+        "antipsychotics": {
+          "total": 2,
+          "f": 0,
+          "m": 2,
+          "f_pct": 0.0,
+          "mlr": -1.3655
+        },
+        "ssris": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8676
+        },
+        "checkpoint_inhibitors": {
+          "total": 22,
+          "f": 19,
+          "m": 3,
+          "f_pct": 86.4,
+          "mlr": 0.6613
+        },
+        "statins": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.702
+        },
+        "anticoagulants": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.1153
+        },
+        "corticosteroids": {
+          "total": 11,
+          "f": 6,
+          "m": 5,
+          "f_pct": 54.5,
+          "mlr": 0.1541
+        }
+      },
+      "compute_seconds": 1.3
+    },
+    "IL": {
+      "reports": 25169,
+      "female": 13640,
+      "male": 11529,
+      "f_reporter_pct": 54.2,
+      "total_signals": 749,
+      "strong_signals": 285,
+      "female_biased": 129,
+      "male_biased": 156,
+      "f_pct": 45.3,
+      "mean_log_ratio": -0.0613,
+      "drug_classes": {
+        "opioids": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.5778
+        },
+        "antipsychotics": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 2.2974
+        },
+        "checkpoint_inhibitors": {
+          "total": 9,
+          "f": 7,
+          "m": 2,
+          "f_pct": 77.8,
+          "mlr": 0.3967
+        },
+        "anticoagulants": {
+          "total": 11,
+          "f": 8,
+          "m": 3,
+          "f_pct": 72.7,
+          "mlr": 0.4486
+        },
+        "corticosteroids": {
+          "total": 9,
+          "f": 8,
+          "m": 1,
+          "f_pct": 88.9,
+          "mlr": 0.707
+        }
+      },
+      "compute_seconds": 1.1
+    },
+    "MX": {
+      "reports": 24963,
+      "female": 14674,
+      "male": 10289,
+      "f_reporter_pct": 58.8,
+      "total_signals": 756,
+      "strong_signals": 285,
+      "female_biased": 90,
+      "male_biased": 195,
+      "f_pct": 31.6,
+      "mean_log_ratio": -0.1296,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 5,
+          "f": 3,
+          "m": 2,
+          "f_pct": 60.0,
+          "mlr": 0.1219
+        },
+        "anticoagulants": {
+          "total": 3,
+          "f": 1,
+          "m": 2,
+          "f_pct": 33.3,
+          "mlr": -0.2934
+        },
+        "corticosteroids": {
+          "total": 6,
+          "f": 5,
+          "m": 1,
+          "f_pct": 83.3,
+          "mlr": 0.6388
+        }
+      },
+      "compute_seconds": 1.1
+    },
+    "AT": {
+      "reports": 24518,
+      "female": 13210,
+      "male": 11308,
+      "f_reporter_pct": 53.9,
+      "total_signals": 1218,
+      "strong_signals": 646,
+      "female_biased": 294,
+      "male_biased": 352,
+      "f_pct": 45.5,
+      "mean_log_ratio": -0.0761,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 43,
+          "f": 21,
+          "m": 22,
+          "f_pct": 48.8,
+          "mlr": -0.0998
+        },
+        "ssris": {
+          "total": 8,
+          "f": 2,
+          "m": 6,
+          "f_pct": 25.0,
+          "mlr": -0.4681
+        },
+        "checkpoint_inhibitors": {
+          "total": 23,
+          "f": 10,
+          "m": 13,
+          "f_pct": 43.5,
+          "mlr": -0.1197
+        },
+        "nsaids": {
+          "total": 3,
+          "f": 2,
+          "m": 1,
+          "f_pct": 66.7,
+          "mlr": 0.3157
+        },
+        "statins": {
+          "total": 4,
+          "f": 1,
+          "m": 3,
+          "f_pct": 25.0,
+          "mlr": -0.2671
+        },
+        "anticoagulants": {
+          "total": 10,
+          "f": 7,
+          "m": 3,
+          "f_pct": 70.0,
+          "mlr": 0.3393
+        },
+        "corticosteroids": {
+          "total": 40,
+          "f": 21,
+          "m": 19,
+          "f_pct": 52.5,
+          "mlr": 0.1888
+        }
+      },
+      "compute_seconds": 1.1
+    },
+    "RU": {
+      "reports": 24328,
+      "female": 14570,
+      "male": 9758,
+      "f_reporter_pct": 59.9,
+      "total_signals": 663,
+      "strong_signals": 277,
+      "female_biased": 107,
+      "male_biased": 170,
+      "f_pct": 38.6,
+      "mean_log_ratio": -0.1025,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 10,
+          "f": 5,
+          "m": 5,
+          "f_pct": 50.0,
+          "mlr": -0.0057
+        },
+        "anticoagulants": {
+          "total": 5,
+          "f": 4,
+          "m": 1,
+          "f_pct": 80.0,
+          "mlr": 0.4652
+        },
+        "corticosteroids": {
+          "total": 7,
+          "f": 4,
+          "m": 3,
+          "f_pct": 57.1,
+          "mlr": -0.142
+        }
+      },
+      "compute_seconds": 0.7
+    },
+    "DK": {
+      "reports": 23710,
+      "female": 13744,
+      "male": 9966,
+      "f_reporter_pct": 58.0,
+      "total_signals": 1062,
+      "strong_signals": 556,
+      "female_biased": 196,
+      "male_biased": 360,
+      "f_pct": 35.3,
+      "mean_log_ratio": -0.1981,
+      "drug_classes": {
+        "opioids": {
+          "total": 14,
+          "f": 4,
+          "m": 10,
+          "f_pct": 28.6,
+          "mlr": -0.4372
+        },
+        "antipsychotics": {
+          "total": 64,
+          "f": 20,
+          "m": 44,
+          "f_pct": 31.2,
+          "mlr": -0.4044
+        },
+        "ssris": {
+          "total": 70,
+          "f": 22,
+          "m": 48,
+          "f_pct": 31.4,
+          "mlr": -0.4762
+        },
+        "ace_inhibitors": {
+          "total": 2,
+          "f": 1,
+          "m": 1,
+          "f_pct": 50.0,
+          "mlr": -0.4056
+        },
+        "checkpoint_inhibitors": {
+          "total": 4,
+          "f": 3,
+          "m": 1,
+          "f_pct": 75.0,
+          "mlr": 0.3221
+        },
+        "nsaids": {
+          "total": 9,
+          "f": 1,
+          "m": 8,
+          "f_pct": 11.1,
+          "mlr": -0.8438
+        },
+        "statins": {
+          "total": 15,
+          "f": 5,
+          "m": 10,
+          "f_pct": 33.3,
+          "mlr": -0.2682
+        },
+        "anticoagulants": {
+          "total": 13,
+          "f": 6,
+          "m": 7,
+          "f_pct": 46.2,
+          "mlr": -0.02
+        },
+        "corticosteroids": {
+          "total": 24,
+          "f": 14,
+          "m": 10,
+          "f_pct": 58.3,
+          "mlr": 0.0197
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "ZA": {
+      "reports": 23395,
+      "female": 14050,
+      "male": 9345,
+      "f_reporter_pct": 60.1,
+      "total_signals": 663,
+      "strong_signals": 339,
+      "female_biased": 138,
+      "male_biased": 201,
+      "f_pct": 40.7,
+      "mean_log_ratio": -0.1335,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.7786
+        },
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.8412
+        },
+        "statins": {
+          "total": 5,
+          "f": 3,
+          "m": 2,
+          "f_pct": 60.0,
+          "mlr": 0.2294
+        },
+        "anticoagulants": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.1899
+        },
+        "corticosteroids": {
+          "total": 2,
+          "f": 0,
+          "m": 2,
+          "f_pct": 0.0,
+          "mlr": -1.1726
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "IE": {
+      "reports": 22804,
+      "female": 12410,
+      "male": 10394,
+      "f_reporter_pct": 54.4,
+      "total_signals": 640,
+      "strong_signals": 296,
+      "female_biased": 163,
+      "male_biased": 133,
+      "f_pct": 55.1,
+      "mean_log_ratio": 0.0693,
+      "drug_classes": {
+        "opioids": {
+          "total": 3,
+          "f": 0,
+          "m": 3,
+          "f_pct": 0.0,
+          "mlr": -1.3978
+        },
+        "antipsychotics": {
+          "total": 38,
+          "f": 29,
+          "m": 9,
+          "f_pct": 76.3,
+          "mlr": 0.6505
+        },
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.5431
+        },
+        "checkpoint_inhibitors": {
+          "total": 9,
+          "f": 5,
+          "m": 4,
+          "f_pct": 55.6,
+          "mlr": 0.1138
+        },
+        "statins": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.3102
+        },
+        "anticoagulants": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.966
+        },
+        "corticosteroids": {
+          "total": 13,
+          "f": 8,
+          "m": 5,
+          "f_pct": 61.5,
+          "mlr": 0.0529
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "CZ": {
+      "reports": 19643,
+      "female": 10853,
+      "male": 8790,
+      "f_reporter_pct": 55.3,
+      "total_signals": 1411,
+      "strong_signals": 778,
+      "female_biased": 401,
+      "male_biased": 377,
+      "f_pct": 51.5,
+      "mean_log_ratio": -0.0129,
+      "drug_classes": {
+        "opioids": {
+          "total": 12,
+          "f": 4,
+          "m": 8,
+          "f_pct": 33.3,
+          "mlr": -0.7474
+        },
+        "antipsychotics": {
+          "total": 41,
+          "f": 22,
+          "m": 19,
+          "f_pct": 53.7,
+          "mlr": 0.0192
+        },
+        "ssris": {
+          "total": 11,
+          "f": 3,
+          "m": 8,
+          "f_pct": 27.3,
+          "mlr": -0.7111
+        },
+        "ace_inhibitors": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.4886
+        },
+        "checkpoint_inhibitors": {
+          "total": 24,
+          "f": 22,
+          "m": 2,
+          "f_pct": 91.7,
+          "mlr": 1.0198
+        },
+        "nsaids": {
+          "total": 16,
+          "f": 1,
+          "m": 15,
+          "f_pct": 6.2,
+          "mlr": -0.7911
+        },
+        "statins": {
+          "total": 7,
+          "f": 3,
+          "m": 4,
+          "f_pct": 42.9,
+          "mlr": -0.007
+        },
+        "anticoagulants": {
+          "total": 11,
+          "f": 8,
+          "m": 3,
+          "f_pct": 72.7,
+          "mlr": 0.4147
+        },
+        "corticosteroids": {
+          "total": 42,
+          "f": 28,
+          "m": 14,
+          "f_pct": 66.7,
+          "mlr": 0.2414
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "RO": {
+      "reports": 16430,
+      "female": 9046,
+      "male": 7384,
+      "f_reporter_pct": 55.1,
+      "total_signals": 871,
+      "strong_signals": 400,
+      "female_biased": 158,
+      "male_biased": 242,
+      "f_pct": 39.5,
+      "mean_log_ratio": -0.1198,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 17,
+          "f": 8,
+          "m": 9,
+          "f_pct": 47.1,
+          "mlr": 0.0276
+        },
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.5913
+        },
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.683
+        },
+        "nsaids": {
+          "total": 4,
+          "f": 1,
+          "m": 3,
+          "f_pct": 25.0,
+          "mlr": -0.9474
+        },
+        "anticoagulants": {
+          "total": 4,
+          "f": 4,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.7916
+        },
+        "corticosteroids": {
+          "total": 26,
+          "f": 11,
+          "m": 15,
+          "f_pct": 42.3,
+          "mlr": -0.1475
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "NO": {
+      "reports": 13728,
+      "female": 7605,
+      "male": 6123,
+      "f_reporter_pct": 55.4,
+      "total_signals": 500,
+      "strong_signals": 285,
+      "female_biased": 144,
+      "male_biased": 141,
+      "f_pct": 50.5,
+      "mean_log_ratio": 0.0032,
+      "drug_classes": {
+        "opioids": {
+          "total": 7,
+          "f": 4,
+          "m": 3,
+          "f_pct": 57.1,
+          "mlr": 0.079
+        },
+        "antipsychotics": {
+          "total": 34,
+          "f": 13,
+          "m": 21,
+          "f_pct": 38.2,
+          "mlr": -0.1979
+        },
+        "ssris": {
+          "total": 6,
+          "f": 1,
+          "m": 5,
+          "f_pct": 16.7,
+          "mlr": -1.069
+        },
+        "checkpoint_inhibitors": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.2016
+        },
+        "nsaids": {
+          "total": 5,
+          "f": 0,
+          "m": 5,
+          "f_pct": 0.0,
+          "mlr": -0.9278
+        },
+        "statins": {
+          "total": 8,
+          "f": 6,
+          "m": 2,
+          "f_pct": 75.0,
+          "mlr": 0.4948
+        },
+        "anticoagulants": {
+          "total": 6,
+          "f": 5,
+          "m": 1,
+          "f_pct": 83.3,
+          "mlr": 0.5968
+        },
+        "corticosteroids": {
+          "total": 22,
+          "f": 17,
+          "m": 5,
+          "f_pct": 77.3,
+          "mlr": 0.4832
+        }
+      },
+      "compute_seconds": 0.7
+    },
+    "PR": {
+      "reports": 12908,
+      "female": 8272,
+      "male": 4636,
+      "f_reporter_pct": 64.1,
+      "total_signals": 249,
+      "strong_signals": 92,
+      "female_biased": 33,
+      "male_biased": 59,
+      "f_pct": 35.9,
+      "mean_log_ratio": -0.144,
+      "drug_classes": {
+        "anticoagulants": {
+          "total": 2,
+          "f": 1,
+          "m": 1,
+          "f_pct": 50.0,
+          "mlr": 0.2619
+        }
+      },
+      "compute_seconds": 1.3
+    },
+    "HR": {
+      "reports": 12874,
+      "female": 7378,
+      "male": 5496,
+      "f_reporter_pct": 57.3,
+      "total_signals": 641,
+      "strong_signals": 358,
+      "female_biased": 179,
+      "male_biased": 179,
+      "f_pct": 50.0,
+      "mean_log_ratio": -0.0016,
+      "drug_classes": {
+        "opioids": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.5577
+        },
+        "antipsychotics": {
+          "total": 25,
+          "f": 12,
+          "m": 13,
+          "f_pct": 48.0,
+          "mlr": -0.1078
+        },
+        "ssris": {
+          "total": 5,
+          "f": 1,
+          "m": 4,
+          "f_pct": 20.0,
+          "mlr": -0.7346
+        },
+        "ace_inhibitors": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6388
+        },
+        "checkpoint_inhibitors": {
+          "total": 9,
+          "f": 7,
+          "m": 2,
+          "f_pct": 77.8,
+          "mlr": 0.5905
+        },
+        "nsaids": {
+          "total": 8,
+          "f": 0,
+          "m": 8,
+          "f_pct": 0.0,
+          "mlr": -1.0206
+        },
+        "statins": {
+          "total": 11,
+          "f": 7,
+          "m": 4,
+          "f_pct": 63.6,
+          "mlr": 0.5464
+        },
+        "anticoagulants": {
+          "total": 22,
+          "f": 12,
+          "m": 10,
+          "f_pct": 54.5,
+          "mlr": -0.0821
+        },
+        "corticosteroids": {
+          "total": 17,
+          "f": 13,
+          "m": 4,
+          "f_pct": 76.5,
+          "mlr": 0.4855
+        }
+      },
+      "compute_seconds": 0.9
+    },
+    "FI": {
+      "reports": 12771,
+      "female": 6952,
+      "male": 5819,
+      "f_reporter_pct": 54.4,
+      "total_signals": 403,
+      "strong_signals": 217,
+      "female_biased": 102,
+      "male_biased": 115,
+      "f_pct": 47.0,
+      "mean_log_ratio": -0.0639,
+      "drug_classes": {
+        "opioids": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.2696
+        },
+        "antipsychotics": {
+          "total": 60,
+          "f": 31,
+          "m": 29,
+          "f_pct": 51.7,
+          "mlr": 0.06
+        },
+        "ssris": {
+          "total": 11,
+          "f": 6,
+          "m": 5,
+          "f_pct": 54.5,
+          "mlr": 0.0045
+        },
+        "nsaids": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8485
+        },
+        "statins": {
+          "total": 11,
+          "f": 4,
+          "m": 7,
+          "f_pct": 36.4,
+          "mlr": -0.323
+        },
+        "anticoagulants": {
+          "total": 4,
+          "f": 2,
+          "m": 2,
+          "f_pct": 50.0,
+          "mlr": 0.0934
+        },
+        "corticosteroids": {
+          "total": 3,
+          "f": 0,
+          "m": 3,
+          "f_pct": 0.0,
+          "mlr": -0.7603
+        }
+      },
+      "compute_seconds": 0.9
+    },
+    "HU": {
+      "reports": 11707,
+      "female": 6589,
+      "male": 5118,
+      "f_reporter_pct": 56.3,
+      "total_signals": 674,
+      "strong_signals": 378,
+      "female_biased": 184,
+      "male_biased": 194,
+      "f_pct": 48.7,
+      "mean_log_ratio": -0.0221,
+      "drug_classes": {
+        "opioids": {
+          "total": 2,
+          "f": 1,
+          "m": 1,
+          "f_pct": 50.0,
+          "mlr": 0.0127
+        },
+        "antipsychotics": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.7409
+        },
+        "ace_inhibitors": {
+          "total": 4,
+          "f": 2,
+          "m": 2,
+          "f_pct": 50.0,
+          "mlr": -0.1024
+        },
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6895
+        },
+        "nsaids": {
+          "total": 17,
+          "f": 2,
+          "m": 15,
+          "f_pct": 11.8,
+          "mlr": -1.0736
+        },
+        "statins": {
+          "total": 11,
+          "f": 10,
+          "m": 1,
+          "f_pct": 90.9,
+          "mlr": 0.977
+        },
+        "anticoagulants": {
+          "total": 6,
+          "f": 5,
+          "m": 1,
+          "f_pct": 83.3,
+          "mlr": 0.4087
+        },
+        "corticosteroids": {
+          "total": 18,
+          "f": 11,
+          "m": 7,
+          "f_pct": 61.1,
+          "mlr": 0.386
+        }
+      },
+      "compute_seconds": 1.0
+    },
+    "EG": {
+      "reports": 11403,
+      "female": 6570,
+      "male": 4833,
+      "f_reporter_pct": 57.6,
+      "total_signals": 402,
+      "strong_signals": 157,
+      "female_biased": 56,
+      "male_biased": 101,
+      "f_pct": 35.7,
+      "mean_log_ratio": -0.1261,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 2,
+          "f": 1,
+          "m": 1,
+          "f_pct": 50.0,
+          "mlr": -0.2426
+        }
+      },
+      "compute_seconds": 1.0
+    },
+    "SG": {
+      "reports": 11230,
+      "female": 6258,
+      "male": 4972,
+      "f_reporter_pct": 55.7,
+      "total_signals": 105,
+      "strong_signals": 46,
+      "female_biased": 21,
+      "male_biased": 25,
+      "f_pct": 45.7,
+      "mean_log_ratio": -0.0466,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 5,
+          "f": 2,
+          "m": 3,
+          "f_pct": 40.0,
+          "mlr": 0.3009
+        },
+        "nsaids": {
+          "total": 4,
+          "f": 0,
+          "m": 4,
+          "f_pct": 0.0,
+          "mlr": -0.9625
+        },
+        "statins": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 2.8947
+        },
+        "corticosteroids": {
+          "total": 5,
+          "f": 4,
+          "m": 1,
+          "f_pct": 80.0,
+          "mlr": 0.7089
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "CL": {
+      "reports": 10793,
+      "female": 6821,
+      "male": 3972,
+      "f_reporter_pct": 63.2,
+      "total_signals": 179,
+      "strong_signals": 88,
+      "female_biased": 18,
+      "male_biased": 70,
+      "f_pct": 20.5,
+      "mean_log_ratio": -0.3306,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 3,
+          "f": 2,
+          "m": 1,
+          "f_pct": 66.7,
+          "mlr": 0.2803
+        },
+        "checkpoint_inhibitors": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.7798
+        },
+        "anticoagulants": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.9521
+        },
+        "corticosteroids": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.9353
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "TH": {
+      "reports": 9223,
+      "female": 4825,
+      "male": 4398,
+      "f_reporter_pct": 52.3,
+      "total_signals": 192,
+      "strong_signals": 93,
+      "female_biased": 48,
+      "male_biased": 45,
+      "f_pct": 51.6,
+      "mean_log_ratio": -0.01,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 5,
+          "f": 4,
+          "m": 1,
+          "f_pct": 80.0,
+          "mlr": 0.4268
+        },
+        "nsaids": {
+          "total": 2,
+          "f": 0,
+          "m": 2,
+          "f_pct": 0.0,
+          "mlr": -0.8774
+        },
+        "anticoagulants": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.1904
+        },
+        "corticosteroids": {
+          "total": 8,
+          "f": 5,
+          "m": 3,
+          "f_pct": 62.5,
+          "mlr": 0.3828
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "NZ": {
+      "reports": 9150,
+      "female": 4491,
+      "male": 4659,
+      "f_reporter_pct": 49.1,
+      "total_signals": 170,
+      "strong_signals": 92,
+      "female_biased": 44,
+      "male_biased": 48,
+      "f_pct": 47.8,
+      "mean_log_ratio": -0.0091,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 46,
+          "f": 25,
+          "m": 21,
+          "f_pct": 54.3,
+          "mlr": 0.0971
+        },
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -1.0345
+        },
+        "statins": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.0737
+        },
+        "anticoagulants": {
+          "total": 4,
+          "f": 1,
+          "m": 3,
+          "f_pct": 25.0,
+          "mlr": -0.3124
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "PH": {
+      "reports": 7655,
+      "female": 3936,
+      "male": 3719,
+      "f_reporter_pct": 51.4,
+      "total_signals": 108,
+      "strong_signals": 40,
+      "female_biased": 26,
+      "male_biased": 14,
+      "f_pct": 65.0,
+      "mean_log_ratio": 0.0761,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6567
+        },
+        "anticoagulants": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6062
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "MY": {
+      "reports": 7107,
+      "female": 3753,
+      "male": 3354,
+      "f_reporter_pct": 52.8,
+      "total_signals": 98,
+      "strong_signals": 33,
+      "female_biased": 11,
+      "male_biased": 22,
+      "f_pct": 33.3,
+      "mean_log_ratio": -0.0253,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -1.0925
+        },
+        "anticoagulants": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.2549
+        },
+        "corticosteroids": {
+          "total": 4,
+          "f": 3,
+          "m": 1,
+          "f_pct": 75.0,
+          "mlr": 0.7307
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "SK": {
+      "reports": 6943,
+      "female": 3801,
+      "male": 3142,
+      "f_reporter_pct": 54.7,
+      "total_signals": 258,
+      "strong_signals": 149,
+      "female_biased": 86,
+      "male_biased": 63,
+      "f_pct": 57.7,
+      "mean_log_ratio": 0.1494,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 5,
+          "f": 2,
+          "m": 3,
+          "f_pct": 40.0,
+          "mlr": -0.9303
+        },
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -1.2766
+        },
+        "statins": {
+          "total": 3,
+          "f": 2,
+          "m": 1,
+          "f_pct": 66.7,
+          "mlr": 0.2458
+        },
+        "anticoagulants": {
+          "total": 5,
+          "f": 4,
+          "m": 1,
+          "f_pct": 80.0,
+          "mlr": 1.0987
+        },
+        "corticosteroids": {
+          "total": 18,
+          "f": 6,
+          "m": 12,
+          "f_pct": 33.3,
+          "mlr": -0.2535
+        }
+      },
+      "compute_seconds": 0.9
+    },
+    "PE": {
+      "reports": 6710,
+      "female": 4258,
+      "male": 2452,
+      "f_reporter_pct": 63.5,
+      "total_signals": 44,
+      "strong_signals": 25,
+      "female_biased": 12,
+      "male_biased": 13,
+      "f_pct": 48.0,
+      "mean_log_ratio": -0.1078,
+      "drug_classes": {
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.7015
+        }
+      },
+      "compute_seconds": 1.0
+    },
+    "SI": {
+      "reports": 6456,
+      "female": 3412,
+      "male": 3044,
+      "f_reporter_pct": 52.9,
+      "total_signals": 190,
+      "strong_signals": 110,
+      "female_biased": 72,
+      "male_biased": 38,
+      "f_pct": 65.5,
+      "mean_log_ratio": 0.1894,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 4,
+          "f": 0,
+          "m": 4,
+          "f_pct": 0.0,
+          "mlr": -1.3878
+        },
+        "ace_inhibitors": {
+          "total": 3,
+          "f": 3,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.5125
+        },
+        "checkpoint_inhibitors": {
+          "total": 2,
+          "f": 0,
+          "m": 2,
+          "f_pct": 0.0,
+          "mlr": -1.2263
+        },
+        "statins": {
+          "total": 9,
+          "f": 6,
+          "m": 3,
+          "f_pct": 66.7,
+          "mlr": 0.4858
+        },
+        "anticoagulants": {
+          "total": 8,
+          "f": 8,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.7749
+        },
+        "corticosteroids": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.4328
+        }
+      },
+      "compute_seconds": 1.0
+    },
+    "BG": {
+      "reports": 6355,
+      "female": 3063,
+      "male": 3292,
+      "f_reporter_pct": 48.2,
+      "total_signals": 71,
+      "strong_signals": 40,
+      "female_biased": 23,
+      "male_biased": 17,
+      "f_pct": 57.5,
+      "mean_log_ratio": 0.1224,
+      "drug_classes": {
+        "ace_inhibitors": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -1.2073
+        },
+        "checkpoint_inhibitors": {
+          "total": 5,
+          "f": 5,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8254
+        },
+        "anticoagulants": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.6919
+        },
+        "corticosteroids": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.5106
+        }
+      },
+      "compute_seconds": 1.1
+    },
+    "PK": {
+      "reports": 6197,
+      "female": 3231,
+      "male": 2966,
+      "f_reporter_pct": 52.1,
+      "total_signals": 94,
+      "strong_signals": 43,
+      "female_biased": 19,
+      "male_biased": 24,
+      "f_pct": 44.2,
+      "mean_log_ratio": -0.1269,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.8822
+        }
+      },
+      "compute_seconds": 1.1
+    },
+    "IR": {
+      "reports": 6185,
+      "female": 3155,
+      "male": 3030,
+      "f_reporter_pct": 51.0,
+      "total_signals": 160,
+      "strong_signals": 74,
+      "female_biased": 40,
+      "male_biased": 34,
+      "f_pct": 54.1,
+      "mean_log_ratio": 0.0265,
+      "drug_classes": {
+        "opioids": {
+          "total": 13,
+          "f": 12,
+          "m": 1,
+          "f_pct": 92.3,
+          "mlr": 1.0218
+        },
+        "antipsychotics": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.493
+        },
+        "ssris": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.5874
+        },
+        "corticosteroids": {
+          "total": 10,
+          "f": 3,
+          "m": 7,
+          "f_pct": 30.0,
+          "mlr": -0.5553
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "SA": {
+      "reports": 5624,
+      "female": 3066,
+      "male": 2558,
+      "f_reporter_pct": 54.5,
+      "total_signals": 54,
+      "strong_signals": 27,
+      "female_biased": 13,
+      "male_biased": 14,
+      "f_pct": 48.1,
+      "mean_log_ratio": -0.0075,
+      "drug_classes": {
+        "corticosteroids": {
+          "total": 3,
+          "f": 2,
+          "m": 1,
+          "f_pct": 66.7,
+          "mlr": 0.1804
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "VN": {
+      "reports": 5032,
+      "female": 2562,
+      "male": 2470,
+      "f_reporter_pct": 50.9,
+      "total_signals": 132,
+      "strong_signals": 52,
+      "female_biased": 31,
+      "male_biased": 21,
+      "f_pct": 59.6,
+      "mean_log_ratio": 0.0705,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 4,
+          "f": 4,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.9026
+        },
+        "corticosteroids": {
+          "total": 8,
+          "f": 2,
+          "m": 6,
+          "f_pct": 25.0,
+          "mlr": -0.3524
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "HK": {
+      "reports": 4954,
+      "female": 2224,
+      "male": 2730,
+      "f_reporter_pct": 44.9,
+      "total_signals": 45,
+      "strong_signals": 24,
+      "female_biased": 10,
+      "male_biased": 14,
+      "f_pct": 41.7,
+      "mean_log_ratio": -0.1056,
+      "drug_classes": {
+        "statins": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.8351
+        },
+        "corticosteroids": {
+          "total": 4,
+          "f": 3,
+          "m": 1,
+          "f_pct": 75.0,
+          "mlr": 0.6743
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "LB": {
+      "reports": 4915,
+      "female": 2468,
+      "male": 2447,
+      "f_reporter_pct": 50.2,
+      "total_signals": 96,
+      "strong_signals": 38,
+      "female_biased": 22,
+      "male_biased": 16,
+      "f_pct": 57.9,
+      "mean_log_ratio": 0.0673,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 3,
+          "f": 2,
+          "m": 1,
+          "f_pct": 66.7,
+          "mlr": 0.2381
+        },
+        "corticosteroids": {
+          "total": 2,
+          "f": 1,
+          "m": 1,
+          "f_pct": 50.0,
+          "mlr": 0.0376
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "ID": {
+      "reports": 4698,
+      "female": 2444,
+      "male": 2254,
+      "f_reporter_pct": 52.0,
+      "total_signals": 75,
+      "strong_signals": 33,
+      "female_biased": 21,
+      "male_biased": 12,
+      "f_pct": 63.6,
+      "mean_log_ratio": 0.0924,
+      "drug_classes": {
+        "checkpoint_inhibitors": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -1.1816
+        },
+        "corticosteroids": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.7043
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "AE": {
+      "reports": 3735,
+      "female": 2149,
+      "male": 1586,
+      "f_reporter_pct": 57.5,
+      "total_signals": 15,
+      "strong_signals": 12,
+      "female_biased": 7,
+      "male_biased": 5,
+      "f_pct": 58.3,
+      "mean_log_ratio": 0.0843,
+      "drug_classes": {
+        "corticosteroids": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.1936
+        }
+      },
+      "compute_seconds": 0.6
+    },
+    "VE": {
+      "reports": 3645,
+      "female": 2080,
+      "male": 1565,
+      "f_reporter_pct": 57.1,
+      "total_signals": 77,
+      "strong_signals": 35,
+      "female_biased": 11,
+      "male_biased": 24,
+      "f_pct": 31.4,
+      "mean_log_ratio": -0.1784,
+      "drug_classes": {
+        "ssris": {
+          "total": 1,
+          "f": 0,
+          "m": 1,
+          "f_pct": 0.0,
+          "mlr": -0.7333
+        }
+      },
+      "compute_seconds": 1.3
+    },
+    "RS": {
+      "reports": 3482,
+      "female": 1855,
+      "male": 1627,
+      "f_reporter_pct": 53.3,
+      "total_signals": 26,
+      "strong_signals": 10,
+      "female_biased": 6,
+      "male_biased": 4,
+      "f_pct": 60.0,
+      "mean_log_ratio": 0.0864,
+      "drug_classes": {
+        "antipsychotics": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 1.7827
+        },
+        "checkpoint_inhibitors": {
+          "total": 2,
+          "f": 2,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.9418
+        },
+        "corticosteroids": {
+          "total": 1,
+          "f": 1,
+          "m": 0,
+          "f_pct": 100.0,
+          "mlr": 0.5058
+        }
+      },
+      "compute_seconds": 1.0
+    },
+    "TN": {
+      "reports": 3110,
+      "female": 1763,
+      "male": 1347,
+      "f_reporter_pct": 56.7,
+      "total_signals": 19,
+      "strong_signals": 4,
+      "female_biased": 2,
+      "male_biased": 2,
+      "f_pct": 50.0,
+      "mean_log_ratio": 0.0765,
+      "drug_classes": {},
+      "compute_seconds": 1.1
+    }
+  },
+  "correlation_matrix": {
+    "US_vs_COUNTRY NOT SPECIFIED": {
+      "r": 0.6412,
+      "n": 1236
+    },
+    "US_vs_CA": {
+      "r": 0.2291,
+      "n": 6300
+    },
+    "US_vs_GB": {
+      "r": 0.289,
+      "n": 2975
+    },
+    "US_vs_FR": {
+      "r": 0.278,
+      "n": 2841
+    },
+    "US_vs_JP": {
+      "r": 0.3804,
+      "n": 1627
+    },
+    "US_vs_DE": {
+      "r": 0.2873,
+      "n": 2337
+    },
+    "US_vs_IT": {
+      "r": 0.2336,
+      "n": 1292
+    },
+    "US_vs_CN": {
+      "r": 0.3419,
+      "n": 637
+    },
+    "US_vs_BR": {
+      "r": 0.5573,
+      "n": 392
+    },
+    "US_vs_ES": {
+      "r": 0.1937,
+      "n": 725
+    },
+    "US_vs_AU": {
+      "r": 0.3833,
+      "n": 726
+    },
+    "US_vs_NL": {
+      "r": 0.4342,
+      "n": 475
+    },
+    "US_vs_IN": {
+      "r": 0.4342,
+      "n": 218
+    },
+    "US_vs_CO": {
+      "r": 0.5429,
+      "n": 155
+    },
+    "US_vs_SE": {
+      "r": 0.3358,
+      "n": 163
+    },
+    "US_vs_AR": {
+      "r": 0.6097,
+      "n": 78
+    },
+    "US_vs_EU": {
+      "r": 0.3677,
+      "n": 402
+    },
+    "US_vs_PL": {
+      "r": 0.195,
+      "n": 494
+    },
+    "US_vs_PT": {
+      "r": 0.3038,
+      "n": 285
+    },
+    "US_vs_CH": {
+      "r": 0.4845,
+      "n": 185
+    },
+    "US_vs_TR": {
+      "r": 0.36,
+      "n": 109
+    },
+    "US_vs_KR": {
+      "r": 0.2409,
+      "n": 85
+    },
+    "US_vs_BE": {
+      "r": 0.4455,
+      "n": 156
+    },
+    "US_vs_GR": {
+      "r": 0.291,
+      "n": 111
+    },
+    "US_vs_TW": {
+      "r": 0.3876,
+      "n": 62
+    },
+    "US_vs_IL": {
+      "r": 0.599,
+      "n": 57
+    },
+    "US_vs_MX": {
+      "r": 0.4708,
+      "n": 51
+    },
+    "US_vs_AT": {
+      "r": 0.3814,
+      "n": 152
+    },
+    "US_vs_RU": {
+      "r": 0.4969,
+      "n": 60
+    },
+    "US_vs_DK": {
+      "r": 0.4086,
+      "n": 112
+    },
+    "US_vs_ZA": {
+      "r": 0.2207,
+      "n": 68
+    },
+    "US_vs_IE": {
+      "r": 0.0236,
+      "n": 60
+    },
+    "US_vs_CZ": {
+      "r": 0.1955,
+      "n": 180
+    },
+    "US_vs_RO": {
+      "r": 0.3215,
+      "n": 84
+    },
+    "US_vs_NO": {
+      "r": 0.2764,
+      "n": 62
+    },
+    "US_vs_HR": {
+      "r": 0.1465,
+      "n": 68
+    },
+    "US_vs_FI": {
+      "r": 0.4392,
+      "n": 42
+    },
+    "US_vs_HU": {
+      "r": 0.4348,
+      "n": 89
+    },
+    "US_vs_EG": {
+      "r": 0.3515,
+      "n": 27
+    },
+    "US_vs_SK": {
+      "r": 0.4661,
+      "n": 29
+    },
+    "US_vs_SI": {
+      "r": 0.3696,
+      "n": 17
+    },
+    "COUNTRY NOT SPECIFIED_vs_CA": {
+      "r": 0.4209,
+      "n": 1605
+    },
+    "COUNTRY NOT SPECIFIED_vs_GB": {
+      "r": 0.3092,
+      "n": 763
+    },
+    "COUNTRY NOT SPECIFIED_vs_FR": {
+      "r": 0.3466,
+      "n": 602
+    },
+    "COUNTRY NOT SPECIFIED_vs_JP": {
+      "r": 0.336,
+      "n": 351
+    },
+    "COUNTRY NOT SPECIFIED_vs_DE": {
+      "r": 0.2951,
+      "n": 732
+    },
+    "COUNTRY NOT SPECIFIED_vs_IT": {
+      "r": 0.2449,
+      "n": 378
+    },
+    "COUNTRY NOT SPECIFIED_vs_CN": {
+      "r": 0.33,
+      "n": 179
+    },
+    "COUNTRY NOT SPECIFIED_vs_BR": {
+      "r": 0.4614,
+      "n": 279
+    },
+    "COUNTRY NOT SPECIFIED_vs_ES": {
+      "r": 0.2768,
+      "n": 336
+    },
+    "COUNTRY NOT SPECIFIED_vs_AU": {
+      "r": 0.3667,
+      "n": 344
+    },
+    "COUNTRY NOT SPECIFIED_vs_NL": {
+      "r": 0.3633,
+      "n": 319
+    },
+    "COUNTRY NOT SPECIFIED_vs_IN": {
+      "r": 0.4306,
+      "n": 91
+    },
+    "COUNTRY NOT SPECIFIED_vs_CO": {
+      "r": 0.4812,
+      "n": 113
+    },
+    "COUNTRY NOT SPECIFIED_vs_SE": {
+      "r": 0.2356,
+      "n": 118
+    },
+    "COUNTRY NOT SPECIFIED_vs_AR": {
+      "r": 0.3503,
+      "n": 48
+    },
+    "COUNTRY NOT SPECIFIED_vs_EU": {
+      "r": 0.2956,
+      "n": 207
+    },
+    "COUNTRY NOT SPECIFIED_vs_PL": {
+      "r": 0.2223,
+      "n": 270
+    },
+    "COUNTRY NOT SPECIFIED_vs_PT": {
+      "r": 0.1895,
+      "n": 140
+    },
+    "COUNTRY NOT SPECIFIED_vs_CH": {
+      "r": 0.273,
+      "n": 73
+    },
+    "COUNTRY NOT SPECIFIED_vs_TR": {
+      "r": 0.3548,
+      "n": 72
+    },
+    "COUNTRY NOT SPECIFIED_vs_KR": {
+      "r": 0.4431,
+      "n": 53
+    },
+    "COUNTRY NOT SPECIFIED_vs_BE": {
+      "r": 0.6286,
+      "n": 78
+    },
+    "COUNTRY NOT SPECIFIED_vs_GR": {
+      "r": 0.3373,
+      "n": 65
+    },
+    "COUNTRY NOT SPECIFIED_vs_TW": {
+      "r": 0.3659,
+      "n": 29
+    },
+    "COUNTRY NOT SPECIFIED_vs_IL": {
+      "r": 0.6069,
+      "n": 48
+    },
+    "COUNTRY NOT SPECIFIED_vs_MX": {
+      "r": 0.4158,
+      "n": 36
+    },
+    "COUNTRY NOT SPECIFIED_vs_AT": {
+      "r": 0.1464,
+      "n": 86
+    },
+    "COUNTRY NOT SPECIFIED_vs_RU": {
+      "r": 0.3556,
+      "n": 28
+    },
+    "COUNTRY NOT SPECIFIED_vs_DK": {
+      "r": 0.1012,
+      "n": 81
+    },
+    "COUNTRY NOT SPECIFIED_vs_ZA": {
+      "r": 0.3384,
+      "n": 34
+    },
+    "COUNTRY NOT SPECIFIED_vs_IE": {
+      "r": 0.2531,
+      "n": 38
+    },
+    "COUNTRY NOT SPECIFIED_vs_CZ": {
+      "r": 0.3418,
+      "n": 116
+    },
+    "COUNTRY NOT SPECIFIED_vs_RO": {
+      "r": -0.1194,
+      "n": 49
+    },
+    "COUNTRY NOT SPECIFIED_vs_NO": {
+      "r": 0.2722,
+      "n": 56
+    },
+    "COUNTRY NOT SPECIFIED_vs_HR": {
+      "r": 0.2346,
+      "n": 47
+    },
+    "COUNTRY NOT SPECIFIED_vs_FI": {
+      "r": 0.4469,
+      "n": 38
+    },
+    "COUNTRY NOT SPECIFIED_vs_HU": {
+      "r": 0.5069,
+      "n": 66
+    },
+    "COUNTRY NOT SPECIFIED_vs_EG": {
+      "r": 0.406,
+      "n": 25
+    },
+    "COUNTRY NOT SPECIFIED_vs_SK": {
+      "r": 0.1847,
+      "n": 22
+    },
+    "COUNTRY NOT SPECIFIED_vs_SI": {
+      "r": 0.602,
+      "n": 12
+    },
+    "CA_vs_GB": {
+      "r": 0.1951,
+      "n": 4102
+    },
+    "CA_vs_FR": {
+      "r": 0.0333,
+      "n": 2918
+    },
+    "CA_vs_JP": {
+      "r": 0.0641,
+      "n": 1352
+    },
+    "CA_vs_DE": {
+      "r": 0.1274,
+      "n": 3374
+    },
+    "CA_vs_IT": {
+      "r": 0.0688,
+      "n": 1554
+    },
+    "CA_vs_CN": {
+      "r": 0.2123,
+      "n": 753
+    },
+    "CA_vs_BR": {
+      "r": 0.1611,
+      "n": 810
+    },
+    "CA_vs_ES": {
+      "r": 0.0457,
+      "n": 1001
+    },
+    "CA_vs_AU": {
+      "r": 0.1358,
+      "n": 1291
+    },
+    "CA_vs_NL": {
+      "r": 0.1175,
+      "n": 883
+    },
+    "CA_vs_IN": {
+      "r": 0.1212,
+      "n": 269
+    },
+    "CA_vs_CO": {
+      "r": 0.0582,
+      "n": 326
+    },
+    "CA_vs_SE": {
+      "r": 0.1246,
+      "n": 346
+    },
+    "CA_vs_AR": {
+      "r": 0.119,
+      "n": 161
+    },
+    "CA_vs_EU": {
+      "r": 0.0856,
+      "n": 655
+    },
+    "CA_vs_PL": {
+      "r": 0.0726,
+      "n": 903
+    },
+    "CA_vs_PT": {
+      "r": 0.0041,
+      "n": 468
+    },
+    "CA_vs_CH": {
+      "r": 0.1055,
+      "n": 253
+    },
+    "CA_vs_TR": {
+      "r": 0.0275,
+      "n": 175
+    },
+    "CA_vs_KR": {
+      "r": 0.1117,
+      "n": 127
+    },
+    "CA_vs_BE": {
+      "r": 0.268,
+      "n": 304
+    },
+    "CA_vs_GR": {
+      "r": 0.1572,
+      "n": 178
+    },
+    "CA_vs_TW": {
+      "r": 0.1286,
+      "n": 100
+    },
+    "CA_vs_IL": {
+      "r": 0.3974,
+      "n": 122
+    },
+    "CA_vs_MX": {
+      "r": 0.1733,
+      "n": 66
+    },
+    "CA_vs_AT": {
+      "r": 0.1501,
+      "n": 250
+    },
+    "CA_vs_RU": {
+      "r": -0.0588,
+      "n": 72
+    },
+    "CA_vs_DK": {
+      "r": 0.0324,
+      "n": 230
+    },
+    "CA_vs_ZA": {
+      "r": -0.0117,
+      "n": 110
+    },
+    "CA_vs_IE": {
+      "r": 0.0749,
+      "n": 119
+    },
+    "CA_vs_CZ": {
+      "r": 0.0431,
+      "n": 320
+    },
+    "CA_vs_RO": {
+      "r": -0.0757,
+      "n": 133
+    },
+    "CA_vs_NO": {
+      "r": -0.17,
+      "n": 119
+    },
+    "CA_vs_HR": {
+      "r": 0.0129,
+      "n": 146
+    },
+    "CA_vs_FI": {
+      "r": -0.0416,
+      "n": 109
+    },
+    "CA_vs_HU": {
+      "r": 0.0063,
+      "n": 149
+    },
+    "CA_vs_EG": {
+      "r": 0.2144,
+      "n": 46
+    },
+    "CA_vs_SK": {
+      "r": 0.2668,
+      "n": 52
+    },
+    "CA_vs_SI": {
+      "r": 0.1048,
+      "n": 52
+    },
+    "GB_vs_FR": {
+      "r": 0.2843,
+      "n": 2012
+    },
+    "GB_vs_JP": {
+      "r": 0.1995,
+      "n": 938
+    },
+    "GB_vs_DE": {
+      "r": 0.1865,
+      "n": 2128
+    },
+    "GB_vs_IT": {
+      "r": 0.2163,
+      "n": 1158
+    },
+    "GB_vs_CN": {
+      "r": 0.271,
+      "n": 491
+    },
+    "GB_vs_BR": {
+      "r": 0.2724,
+      "n": 390
+    },
+    "GB_vs_ES": {
+      "r": 0.1564,
+      "n": 764
+    },
+    "GB_vs_AU": {
+      "r": 0.2503,
+      "n": 924
+    },
+    "GB_vs_NL": {
+      "r": 0.2864,
+      "n": 598
+    },
+    "GB_vs_IN": {
+      "r": 0.2968,
+      "n": 185
+    },
+    "GB_vs_CO": {
+      "r": 0.352,
+      "n": 165
+    },
+    "GB_vs_SE": {
+      "r": 0.3245,
+      "n": 241
+    },
+    "GB_vs_AR": {
+      "r": 0.3488,
+      "n": 90
+    },
+    "GB_vs_EU": {
+      "r": 0.2037,
+      "n": 444
+    },
+    "GB_vs_PL": {
+      "r": 0.2149,
+      "n": 622
+    },
+    "GB_vs_PT": {
+      "r": 0.0752,
+      "n": 326
+    },
+    "GB_vs_CH": {
+      "r": 0.3459,
+      "n": 178
+    },
+    "GB_vs_TR": {
+      "r": 0.1642,
+      "n": 127
+    },
+    "GB_vs_KR": {
+      "r": 0.2267,
+      "n": 95
+    },
+    "GB_vs_BE": {
+      "r": 0.2009,
+      "n": 204
+    },
+    "GB_vs_GR": {
+      "r": 0.1466,
+      "n": 118
+    },
+    "GB_vs_TW": {
+      "r": 0.4194,
+      "n": 63
+    },
+    "GB_vs_IL": {
+      "r": 0.3915,
+      "n": 82
+    },
+    "GB_vs_MX": {
+      "r": 0.5236,
+      "n": 39
+    },
+    "GB_vs_AT": {
+      "r": 0.3238,
+      "n": 199
+    },
+    "GB_vs_RU": {
+      "r": 0.4191,
+      "n": 63
+    },
+    "GB_vs_DK": {
+      "r": 0.1235,
+      "n": 168
+    },
+    "GB_vs_ZA": {
+      "r": 0.1996,
+      "n": 65
+    },
+    "GB_vs_IE": {
+      "r": 0.1853,
+      "n": 68
+    },
+    "GB_vs_CZ": {
+      "r": 0.2142,
+      "n": 212
+    },
+    "GB_vs_RO": {
+      "r": 0.2368,
+      "n": 98
+    },
+    "GB_vs_NO": {
+      "r": 0.176,
+      "n": 83
+    },
+    "GB_vs_HR": {
+      "r": -0.1008,
+      "n": 103
+    },
+    "GB_vs_FI": {
+      "r": 0.3452,
+      "n": 60
+    },
+    "GB_vs_HU": {
+      "r": 0.2953,
+      "n": 91
+    },
+    "GB_vs_EG": {
+      "r": 0.4364,
+      "n": 27
+    },
+    "GB_vs_SK": {
+      "r": 0.1392,
+      "n": 39
+    },
+    "GB_vs_SI": {
+      "r": -0.1519,
+      "n": 25
+    },
+    "FR_vs_JP": {
+      "r": 0.3211,
+      "n": 1024
+    },
+    "FR_vs_DE": {
+      "r": 0.2534,
+      "n": 1947
+    },
+    "FR_vs_IT": {
+      "r": 0.2718,
+      "n": 1314
+    },
+    "FR_vs_CN": {
+      "r": 0.3171,
+      "n": 514
+    },
+    "FR_vs_BR": {
+      "r": 0.2529,
+      "n": 318
+    },
+    "FR_vs_ES": {
+      "r": 0.3222,
+      "n": 810
+    },
+    "FR_vs_AU": {
+      "r": 0.2128,
+      "n": 732
+    },
+    "FR_vs_NL": {
+      "r": 0.3877,
+      "n": 575
+    },
+    "FR_vs_IN": {
+      "r": 0.302,
+      "n": 164
+    },
+    "FR_vs_CO": {
+      "r": 0.29,
+      "n": 124
+    },
+    "FR_vs_SE": {
+      "r": 0.2524,
+      "n": 216
+    },
+    "FR_vs_AR": {
+      "r": 0.2773,
+      "n": 58
+    },
+    "FR_vs_EU": {
+      "r": 0.3578,
+      "n": 455
+    },
+    "FR_vs_PL": {
+      "r": 0.2361,
+      "n": 601
+    },
+    "FR_vs_PT": {
+      "r": 0.1904,
+      "n": 328
+    },
+    "FR_vs_CH": {
+      "r": 0.4005,
+      "n": 189
+    },
+    "FR_vs_TR": {
+      "r": 0.3956,
+      "n": 97
+    },
+    "FR_vs_KR": {
+      "r": 0.0868,
+      "n": 85
+    },
+    "FR_vs_BE": {
+      "r": 0.3727,
+      "n": 193
+    },
+    "FR_vs_GR": {
+      "r": 0.17,
+      "n": 131
+    },
+    "FR_vs_TW": {
+      "r": 0.1152,
+      "n": 59
+    },
+    "FR_vs_IL": {
+      "r": 0.3979,
+      "n": 70
+    },
+    "FR_vs_MX": {
+      "r": 0.2564,
+      "n": 40
+    },
+    "FR_vs_AT": {
+      "r": 0.2588,
+      "n": 172
+    },
+    "FR_vs_RU": {
+      "r": -0.0507,
+      "n": 54
+    },
+    "FR_vs_DK": {
+      "r": 0.2109,
+      "n": 140
+    },
+    "FR_vs_ZA": {
+      "r": 0.2663,
+      "n": 45
+    },
+    "FR_vs_IE": {
+      "r": 0.1537,
+      "n": 68
+    },
+    "FR_vs_CZ": {
+      "r": 0.3159,
+      "n": 214
+    },
+    "FR_vs_RO": {
+      "r": 0.2595,
+      "n": 88
+    },
+    "FR_vs_NO": {
+      "r": 0.3665,
+      "n": 85
+    },
+    "FR_vs_HR": {
+      "r": 0.0505,
+      "n": 97
+    },
+    "FR_vs_FI": {
+      "r": 0.5171,
+      "n": 67
+    },
+    "FR_vs_HU": {
+      "r": 0.2273,
+      "n": 87
+    },
+    "FR_vs_EG": {
+      "r": 0.2684,
+      "n": 28
+    },
+    "FR_vs_SK": {
+      "r": 0.3701,
+      "n": 36
+    },
+    "FR_vs_SI": {
+      "r": 0.4749,
+      "n": 27
+    },
+    "JP_vs_DE": {
+      "r": 0.2327,
+      "n": 1001
+    },
+    "JP_vs_IT": {
+      "r": 0.2634,
+      "n": 620
+    },
+    "JP_vs_CN": {
+      "r": 0.3925,
+      "n": 392
+    },
+    "JP_vs_BR": {
+      "r": 0.3606,
+      "n": 183
+    },
+    "JP_vs_ES": {
+      "r": 0.2656,
+      "n": 399
+    },
+    "JP_vs_AU": {
+      "r": 0.2976,
+      "n": 400
+    },
+    "JP_vs_NL": {
+      "r": 0.1792,
+      "n": 277
+    },
+    "JP_vs_IN": {
+      "r": 0.2187,
+      "n": 123
+    },
+    "JP_vs_CO": {
+      "r": 0.2321,
+      "n": 56
+    },
+    "JP_vs_SE": {
+      "r": 0.4406,
+      "n": 100
+    },
+    "JP_vs_AR": {
+      "r": 0.517,
+      "n": 44
+    },
+    "JP_vs_EU": {
+      "r": 0.2684,
+      "n": 262
+    },
+    "JP_vs_PL": {
+      "r": 0.1424,
+      "n": 328
+    },
+    "JP_vs_PT": {
+      "r": 0.1745,
+      "n": 151
+    },
+    "JP_vs_CH": {
+      "r": 0.5545,
+      "n": 106
+    },
+    "JP_vs_TR": {
+      "r": 0.5544,
+      "n": 69
+    },
+    "JP_vs_KR": {
+      "r": 0.2802,
+      "n": 61
+    },
+    "JP_vs_BE": {
+      "r": 0.1818,
+      "n": 110
+    },
+    "JP_vs_GR": {
+      "r": 0.2898,
+      "n": 65
+    },
+    "JP_vs_TW": {
+      "r": 0.7558,
+      "n": 41
+    },
+    "JP_vs_IL": {
+      "r": 0.1279,
+      "n": 47
+    },
+    "JP_vs_MX": {
+      "r": 0.5164,
+      "n": 32
+    },
+    "JP_vs_AT": {
+      "r": 0.2342,
+      "n": 102
+    },
+    "JP_vs_RU": {
+      "r": 0.2742,
+      "n": 34
+    },
+    "JP_vs_DK": {
+      "r": 0.219,
+      "n": 95
+    },
+    "JP_vs_ZA": {
+      "r": 0.1352,
+      "n": 33
+    },
+    "JP_vs_IE": {
+      "r": 0.0954,
+      "n": 36
+    },
+    "JP_vs_CZ": {
+      "r": 0.1953,
+      "n": 120
+    },
+    "JP_vs_RO": {
+      "r": 0.13,
+      "n": 61
+    },
+    "JP_vs_NO": {
+      "r": 0.3496,
+      "n": 46
+    },
+    "JP_vs_HR": {
+      "r": 0.229,
+      "n": 40
+    },
+    "JP_vs_FI": {
+      "r": 0.1639,
+      "n": 29
+    },
+    "JP_vs_HU": {
+      "r": 0.2288,
+      "n": 47
+    },
+    "JP_vs_EG": {
+      "r": -0.1542,
+      "n": 16
+    },
+    "JP_vs_SK": {
+      "r": 0.2423,
+      "n": 22
+    },
+    "JP_vs_SI": {
+      "r": 0.5472,
+      "n": 15
+    },
+    "DE_vs_IT": {
+      "r": 0.2801,
+      "n": 1129
+    },
+    "DE_vs_CN": {
+      "r": 0.217,
+      "n": 512
+    },
+    "DE_vs_BR": {
+      "r": 0.2235,
+      "n": 374
+    },
+    "DE_vs_ES": {
+      "r": 0.1514,
+      "n": 751
+    },
+    "DE_vs_AU": {
+      "r": 0.2844,
+      "n": 775
+    },
+    "DE_vs_NL": {
+      "r": 0.2428,
+      "n": 591
+    },
+    "DE_vs_IN": {
+      "r": 0.4499,
+      "n": 189
+    },
+    "DE_vs_CO": {
+      "r": 0.2596,
+      "n": 159
+    },
+    "DE_vs_SE": {
+      "r": 0.2849,
+      "n": 226
+    },
+    "DE_vs_AR": {
+      "r": 0.3025,
+      "n": 69
+    },
+    "DE_vs_EU": {
+      "r": 0.3857,
+      "n": 469
+    },
+    "DE_vs_PL": {
+      "r": 0.1175,
+      "n": 636
+    },
+    "DE_vs_PT": {
+      "r": 0.1608,
+      "n": 308
+    },
+    "DE_vs_CH": {
+      "r": 0.3466,
+      "n": 193
+    },
+    "DE_vs_TR": {
+      "r": 0.2232,
+      "n": 122
+    },
+    "DE_vs_KR": {
+      "r": 0.2081,
+      "n": 99
+    },
+    "DE_vs_BE": {
+      "r": 0.284,
+      "n": 200
+    },
+    "DE_vs_GR": {
+      "r": 0.0555,
+      "n": 126
+    },
+    "DE_vs_TW": {
+      "r": 0.0879,
+      "n": 60
+    },
+    "DE_vs_IL": {
+      "r": 0.3288,
+      "n": 65
+    },
+    "DE_vs_MX": {
+      "r": 0.4697,
+      "n": 49
+    },
+    "DE_vs_AT": {
+      "r": 0.1295,
+      "n": 191
+    },
+    "DE_vs_RU": {
+      "r": 0.2631,
+      "n": 54
+    },
+    "DE_vs_DK": {
+      "r": 0.2017,
+      "n": 152
+    },
+    "DE_vs_ZA": {
+      "r": 0.3078,
+      "n": 63
+    },
+    "DE_vs_IE": {
+      "r": 0.2671,
+      "n": 65
+    },
+    "DE_vs_CZ": {
+      "r": 0.2269,
+      "n": 225
+    },
+    "DE_vs_RO": {
+      "r": 0.2099,
+      "n": 100
+    },
+    "DE_vs_NO": {
+      "r": 0.2024,
+      "n": 79
+    },
+    "DE_vs_HR": {
+      "r": 0.0004,
+      "n": 99
+    },
+    "DE_vs_FI": {
+      "r": 0.3132,
+      "n": 66
+    },
+    "DE_vs_HU": {
+      "r": 0.2488,
+      "n": 99
+    },
+    "DE_vs_EG": {
+      "r": 0.3235,
+      "n": 41
+    },
+    "DE_vs_SK": {
+      "r": 0.2366,
+      "n": 36
+    },
+    "DE_vs_SI": {
+      "r": 0.0976,
+      "n": 26
+    },
+    "IT_vs_CN": {
+      "r": 0.3935,
+      "n": 396
+    },
+    "IT_vs_BR": {
+      "r": 0.3186,
+      "n": 258
+    },
+    "IT_vs_ES": {
+      "r": 0.283,
+      "n": 705
+    },
+    "IT_vs_AU": {
+      "r": 0.2912,
+      "n": 484
+    },
+    "IT_vs_NL": {
+      "r": 0.284,
+      "n": 433
+    },
+    "IT_vs_IN": {
+      "r": 0.256,
+      "n": 155
+    },
+    "IT_vs_CO": {
+      "r": 0.181,
+      "n": 73
+    },
+    "IT_vs_SE": {
+      "r": 0.2281,
+      "n": 203
+    },
+    "IT_vs_AR": {
+      "r": 0.7212,
+      "n": 37
+    },
+    "IT_vs_EU": {
+      "r": 0.2512,
+      "n": 375
+    },
+    "IT_vs_PL": {
+      "r": 0.1551,
+      "n": 523
+    },
+    "IT_vs_PT": {
+      "r": 0.2476,
+      "n": 315
+    },
+    "IT_vs_CH": {
+      "r": 0.2995,
+      "n": 128
+    },
+    "IT_vs_TR": {
+      "r": 0.3946,
+      "n": 98
+    },
+    "IT_vs_KR": {
+      "r": 0.319,
+      "n": 85
+    },
+    "IT_vs_BE": {
+      "r": 0.4184,
+      "n": 167
+    },
+    "IT_vs_GR": {
+      "r": 0.2707,
+      "n": 120
+    },
+    "IT_vs_TW": {
+      "r": 0.2212,
+      "n": 58
+    },
+    "IT_vs_IL": {
+      "r": 0.6169,
+      "n": 65
+    },
+    "IT_vs_MX": {
+      "r": 0.6035,
+      "n": 36
+    },
+    "IT_vs_AT": {
+      "r": 0.202,
+      "n": 166
+    },
+    "IT_vs_RU": {
+      "r": 0.4349,
+      "n": 50
+    },
+    "IT_vs_DK": {
+      "r": 0.2583,
+      "n": 111
+    },
+    "IT_vs_ZA": {
+      "r": 0.304,
+      "n": 35
+    },
+    "IT_vs_IE": {
+      "r": 0.2577,
+      "n": 44
+    },
+    "IT_vs_CZ": {
+      "r": 0.2647,
+      "n": 199
+    },
+    "IT_vs_RO": {
+      "r": 0.2698,
+      "n": 94
+    },
+    "IT_vs_NO": {
+      "r": 0.1939,
+      "n": 82
+    },
+    "IT_vs_HR": {
+      "r": 0.2413,
+      "n": 95
+    },
+    "IT_vs_FI": {
+      "r": 0.286,
+      "n": 38
+    },
+    "IT_vs_HU": {
+      "r": 0.4228,
+      "n": 92
+    },
+    "IT_vs_EG": {
+      "r": -0.1084,
+      "n": 25
+    },
+    "IT_vs_SK": {
+      "r": 0.3339,
+      "n": 31
+    },
+    "IT_vs_SI": {
+      "r": 0.5331,
+      "n": 22
+    },
+    "CN_vs_BR": {
+      "r": 0.3486,
+      "n": 123
+    },
+    "CN_vs_ES": {
+      "r": 0.2779,
+      "n": 298
+    },
+    "CN_vs_AU": {
+      "r": 0.3149,
+      "n": 240
+    },
+    "CN_vs_NL": {
+      "r": 0.2056,
+      "n": 211
+    },
+    "CN_vs_IN": {
+      "r": 0.5049,
+      "n": 108
+    },
+    "CN_vs_CO": {
+      "r": 0.5801,
+      "n": 33
+    },
+    "CN_vs_SE": {
+      "r": 0.3162,
+      "n": 67
+    },
+    "CN_vs_EU": {
+      "r": 0.2379,
+      "n": 212
+    },
+    "CN_vs_PL": {
+      "r": 0.1965,
+      "n": 276
+    },
+    "CN_vs_PT": {
+      "r": 0.083,
+      "n": 129
+    },
+    "CN_vs_CH": {
+      "r": 0.4043,
+      "n": 74
+    },
+    "CN_vs_TR": {
+      "r": 0.3525,
+      "n": 62
+    },
+    "CN_vs_KR": {
+      "r": 0.2706,
+      "n": 68
+    },
+    "CN_vs_BE": {
+      "r": 0.2814,
+      "n": 106
+    },
+    "CN_vs_GR": {
+      "r": 0.4352,
+      "n": 72
+    },
+    "CN_vs_TW": {
+      "r": 0.5397,
+      "n": 38
+    },
+    "CN_vs_IL": {
+      "r": 0.5575,
+      "n": 37
+    },
+    "CN_vs_MX": {
+      "r": 0.6468,
+      "n": 25
+    },
+    "CN_vs_AT": {
+      "r": 0.2754,
+      "n": 96
+    },
+    "CN_vs_RU": {
+      "r": 0.3852,
+      "n": 46
+    },
+    "CN_vs_DK": {
+      "r": 0.3847,
+      "n": 66
+    },
+    "CN_vs_ZA": {
+      "r": -0.2469,
+      "n": 16
+    },
+    "CN_vs_IE": {
+      "r": 0.1633,
+      "n": 23
+    },
+    "CN_vs_CZ": {
+      "r": 0.1902,
+      "n": 125
+    },
+    "CN_vs_RO": {
+      "r": 0.34,
+      "n": 48
+    },
+    "CN_vs_NO": {
+      "r": 0.3088,
+      "n": 44
+    },
+    "CN_vs_HR": {
+      "r": 0.1012,
+      "n": 37
+    },
+    "CN_vs_FI": {
+      "r": 0.1952,
+      "n": 17
+    },
+    "CN_vs_HU": {
+      "r": 0.4116,
+      "n": 57
+    },
+    "CN_vs_EG": {
+      "r": 0.3271,
+      "n": 12
+    },
+    "CN_vs_SK": {
+      "r": 0.1055,
+      "n": 20
+    },
+    "BR_vs_ES": {
+      "r": 0.2583,
+      "n": 204
+    },
+    "BR_vs_AU": {
+      "r": 0.2239,
+      "n": 229
+    },
+    "BR_vs_NL": {
+      "r": 0.363,
+      "n": 156
+    },
+    "BR_vs_IN": {
+      "r": 0.4169,
+      "n": 66
+    },
+    "BR_vs_CO": {
+      "r": 0.4894,
+      "n": 122
+    },
+    "BR_vs_SE": {
+      "r": 0.2056,
+      "n": 63
+    },
+    "BR_vs_AR": {
+      "r": 0.6944,
+      "n": 65
+    },
+    "BR_vs_EU": {
+      "r": 0.1484,
+      "n": 127
+    },
+    "BR_vs_PL": {
+      "r": 0.2657,
+      "n": 171
+    },
+    "BR_vs_PT": {
+      "r": 0.3089,
+      "n": 105
+    },
+    "BR_vs_CH": {
+      "r": 0.5307,
+      "n": 55
+    },
+    "BR_vs_TR": {
+      "r": 0.4791,
+      "n": 39
+    },
+    "BR_vs_KR": {
+      "r": 0.2579,
+      "n": 41
+    },
+    "BR_vs_BE": {
+      "r": 0.1832,
+      "n": 74
+    },
+    "BR_vs_GR": {
+      "r": 0.2871,
+      "n": 56
+    },
+    "BR_vs_TW": {
+      "r": 0.2943,
+      "n": 49
+    },
+    "BR_vs_IL": {
+      "r": 0.5018,
+      "n": 51
+    },
+    "BR_vs_MX": {
+      "r": 0.6116,
+      "n": 45
+    },
+    "BR_vs_AT": {
+      "r": 0.4849,
+      "n": 79
+    },
+    "BR_vs_RU": {
+      "r": 0.5961,
+      "n": 29
+    },
+    "BR_vs_DK": {
+      "r": 0.2422,
+      "n": 43
+    },
+    "BR_vs_ZA": {
+      "r": 0.5195,
+      "n": 27
+    },
+    "BR_vs_IE": {
+      "r": 0.2934,
+      "n": 27
+    },
+    "BR_vs_CZ": {
+      "r": 0.3318,
+      "n": 88
+    },
+    "BR_vs_RO": {
+      "r": 0.1643,
+      "n": 45
+    },
+    "BR_vs_NO": {
+      "r": 0.4315,
+      "n": 34
+    },
+    "BR_vs_HR": {
+      "r": 0.2526,
+      "n": 34
+    },
+    "BR_vs_FI": {
+      "r": 0.4288,
+      "n": 16
+    },
+    "BR_vs_HU": {
+      "r": 0.4518,
+      "n": 65
+    },
+    "BR_vs_EG": {
+      "r": 0.5906,
+      "n": 26
+    },
+    "BR_vs_SK": {
+      "r": -0.0174,
+      "n": 19
+    },
+    "BR_vs_SI": {
+      "r": 0.1463,
+      "n": 11
+    },
+    "ES_vs_AU": {
+      "r": 0.1296,
+      "n": 391
+    },
+    "ES_vs_NL": {
+      "r": 0.2024,
+      "n": 396
+    },
+    "ES_vs_IN": {
+      "r": 0.1891,
+      "n": 140
+    },
+    "ES_vs_CO": {
+      "r": 0.5326,
+      "n": 67
+    },
+    "ES_vs_SE": {
+      "r": 0.3608,
+      "n": 149
+    },
+    "ES_vs_AR": {
+      "r": 0.3201,
+      "n": 15
+    },
+    "ES_vs_EU": {
+      "r": 0.3112,
+      "n": 350
+    },
+    "ES_vs_PL": {
+      "r": 0.2886,
+      "n": 419
+    },
+    "ES_vs_PT": {
+      "r": 0.2823,
+      "n": 273
+    },
+    "ES_vs_CH": {
+      "r": 0.414,
+      "n": 138
+    },
+    "ES_vs_TR": {
+      "r": 0.2004,
+      "n": 97
+    },
+    "ES_vs_KR": {
+      "r": 0.2131,
+      "n": 75
+    },
+    "ES_vs_BE": {
+      "r": 0.3201,
+      "n": 152
+    },
+    "ES_vs_GR": {
+      "r": 0.2621,
+      "n": 101
+    },
+    "ES_vs_TW": {
+      "r": 0.1651,
+      "n": 58
+    },
+    "ES_vs_IL": {
+      "r": 0.5628,
+      "n": 57
+    },
+    "ES_vs_MX": {
+      "r": 0.3733,
+      "n": 23
+    },
+    "ES_vs_AT": {
+      "r": 0.0709,
+      "n": 136
+    },
+    "ES_vs_RU": {
+      "r": 0.2825,
+      "n": 46
+    },
+    "ES_vs_DK": {
+      "r": -0.0774,
+      "n": 92
+    },
+    "ES_vs_ZA": {
+      "r": -0.0677,
+      "n": 27
+    },
+    "ES_vs_IE": {
+      "r": 0.3135,
+      "n": 46
+    },
+    "ES_vs_CZ": {
+      "r": 0.237,
+      "n": 191
+    },
+    "ES_vs_RO": {
+      "r": 0.1235,
+      "n": 86
+    },
+    "ES_vs_NO": {
+      "r": 0.3688,
+      "n": 59
+    },
+    "ES_vs_HR": {
+      "r": 0.1955,
+      "n": 72
+    },
+    "ES_vs_FI": {
+      "r": 0.254,
+      "n": 34
+    },
+    "ES_vs_HU": {
+      "r": 0.2982,
+      "n": 69
+    },
+    "ES_vs_EG": {
+      "r": 0.4954,
+      "n": 14
+    },
+    "ES_vs_SK": {
+      "r": 0.1899,
+      "n": 37
+    },
+    "ES_vs_SI": {
+      "r": -0.4863,
+      "n": 16
+    },
+    "AU_vs_NL": {
+      "r": 0.2169,
+      "n": 346
+    },
+    "AU_vs_IN": {
+      "r": 0.3391,
+      "n": 131
+    },
+    "AU_vs_CO": {
+      "r": 0.3024,
+      "n": 85
+    },
+    "AU_vs_SE": {
+      "r": 0.3156,
+      "n": 167
+    },
+    "AU_vs_AR": {
+      "r": 0.4035,
+      "n": 36
+    },
+    "AU_vs_EU": {
+      "r": 0.2321,
+      "n": 308
+    },
+    "AU_vs_PL": {
+      "r": 0.1797,
+      "n": 361
+    },
+    "AU_vs_PT": {
+      "r": 0.263,
+      "n": 225
+    },
+    "AU_vs_CH": {
+      "r": 0.4247,
+      "n": 132
+    },
+    "AU_vs_TR": {
+      "r": 0.4283,
+      "n": 99
+    },
+    "AU_vs_KR": {
+      "r": 0.0956,
+      "n": 77
+    },
+    "AU_vs_BE": {
+      "r": 0.3165,
+      "n": 156
+    },
+    "AU_vs_GR": {
+      "r": 0.4367,
+      "n": 106
+    },
+    "AU_vs_TW": {
+      "r": 0.1914,
+      "n": 41
+    },
+    "AU_vs_IL": {
+      "r": 0.3604,
+      "n": 69
+    },
+    "AU_vs_MX": {
+      "r": 0.1277,
+      "n": 39
+    },
+    "AU_vs_AT": {
+      "r": 0.1423,
+      "n": 131
+    },
+    "AU_vs_RU": {
+      "r": 0.3265,
+      "n": 39
+    },
+    "AU_vs_DK": {
+      "r": 0.2251,
+      "n": 129
+    },
+    "AU_vs_ZA": {
+      "r": 0.2269,
+      "n": 45
+    },
+    "AU_vs_IE": {
+      "r": 0.2195,
+      "n": 75
+    },
+    "AU_vs_CZ": {
+      "r": 0.1276,
+      "n": 166
+    },
+    "AU_vs_RO": {
+      "r": -0.3058,
+      "n": 79
+    },
+    "AU_vs_NO": {
+      "r": 0.2166,
+      "n": 72
+    },
+    "AU_vs_HR": {
+      "r": 0.0962,
+      "n": 73
+    },
+    "AU_vs_FI": {
+      "r": 0.5453,
+      "n": 49
+    },
+    "AU_vs_HU": {
+      "r": 0.2633,
+      "n": 76
+    },
+    "AU_vs_EG": {
+      "r": 0.3545,
+      "n": 18
+    },
+    "AU_vs_SK": {
+      "r": 0.0454,
+      "n": 27
+    },
+    "AU_vs_SI": {
+      "r": 0.0725,
+      "n": 26
+    },
+    "NL_vs_IN": {
+      "r": 0.4241,
+      "n": 89
+    },
+    "NL_vs_CO": {
+      "r": 0.3389,
+      "n": 51
+    },
+    "NL_vs_SE": {
+      "r": 0.1823,
+      "n": 153
+    },
+    "NL_vs_AR": {
+      "r": 0.5355,
+      "n": 17
+    },
+    "NL_vs_EU": {
+      "r": 0.162,
+      "n": 278
+    },
+    "NL_vs_PL": {
+      "r": 0.1687,
+      "n": 279
+    },
+    "NL_vs_PT": {
+      "r": 0.1601,
+      "n": 207
+    },
+    "NL_vs_CH": {
+      "r": 0.3429,
+      "n": 103
+    },
+    "NL_vs_TR": {
+      "r": 0.4767,
+      "n": 67
+    },
+    "NL_vs_KR": {
+      "r": 0.2263,
+      "n": 49
+    },
+    "NL_vs_BE": {
+      "r": 0.2709,
+      "n": 151
+    },
+    "NL_vs_GR": {
+      "r": 0.2001,
+      "n": 92
+    },
+    "NL_vs_TW": {
+      "r": 0.4055,
+      "n": 45
+    },
+    "NL_vs_IL": {
+      "r": 0.5382,
+      "n": 39
+    },
+    "NL_vs_MX": {
+      "r": 0.4198,
+      "n": 22
+    },
+    "NL_vs_AT": {
+      "r": 0.2143,
+      "n": 118
+    },
+    "NL_vs_RU": {
+      "r": 0.1516,
+      "n": 40
+    },
+    "NL_vs_DK": {
+      "r": 0.0698,
+      "n": 106
+    },
+    "NL_vs_ZA": {
+      "r": 0.4812,
+      "n": 19
+    },
+    "NL_vs_IE": {
+      "r": 0.3642,
+      "n": 45
+    },
+    "NL_vs_CZ": {
+      "r": 0.1318,
+      "n": 136
+    },
+    "NL_vs_RO": {
+      "r": 0.4312,
+      "n": 69
+    },
+    "NL_vs_NO": {
+      "r": 0.4155,
+      "n": 68
+    },
+    "NL_vs_HR": {
+      "r": 0.0231,
+      "n": 56
+    },
+    "NL_vs_FI": {
+      "r": 0.263,
+      "n": 40
+    },
+    "NL_vs_HU": {
+      "r": 0.4358,
+      "n": 73
+    },
+    "NL_vs_SK": {
+      "r": -0.0605,
+      "n": 30
+    },
+    "NL_vs_SI": {
+      "r": 0.0142,
+      "n": 10
+    },
+    "IN_vs_CO": {
+      "r": 0.1022,
+      "n": 30
+    },
+    "IN_vs_SE": {
+      "r": 0.0372,
+      "n": 31
+    },
+    "IN_vs_AR": {
+      "r": 0.4009,
+      "n": 22
+    },
+    "IN_vs_EU": {
+      "r": 0.3234,
+      "n": 99
+    },
+    "IN_vs_PL": {
+      "r": 0.1259,
+      "n": 112
+    },
+    "IN_vs_PT": {
+      "r": 0.3269,
+      "n": 95
+    },
+    "IN_vs_CH": {
+      "r": 0.3689,
+      "n": 38
+    },
+    "IN_vs_TR": {
+      "r": 0.359,
+      "n": 56
+    },
+    "IN_vs_KR": {
+      "r": 0.1721,
+      "n": 44
+    },
+    "IN_vs_BE": {
+      "r": 0.3775,
+      "n": 48
+    },
+    "IN_vs_GR": {
+      "r": 0.2062,
+      "n": 44
+    },
+    "IN_vs_TW": {
+      "r": -0.1835,
+      "n": 27
+    },
+    "IN_vs_IL": {
+      "r": 0.4566,
+      "n": 27
+    },
+    "IN_vs_MX": {
+      "r": 0.4084,
+      "n": 19
+    },
+    "IN_vs_AT": {
+      "r": 0.1958,
+      "n": 53
+    },
+    "IN_vs_RU": {
+      "r": 0.4872,
+      "n": 26
+    },
+    "IN_vs_DK": {
+      "r": 0.3094,
+      "n": 40
+    },
+    "IN_vs_ZA": {
+      "r": 0.1028,
+      "n": 17
+    },
+    "IN_vs_IE": {
+      "r": 0.1953,
+      "n": 13
+    },
+    "IN_vs_CZ": {
+      "r": 0.0698,
+      "n": 57
+    },
+    "IN_vs_RO": {
+      "r": 0.3816,
+      "n": 33
+    },
+    "IN_vs_NO": {
+      "r": -0.1577,
+      "n": 26
+    },
+    "IN_vs_HR": {
+      "r": 0.2809,
+      "n": 27
+    },
+    "IN_vs_HU": {
+      "r": 0.5297,
+      "n": 39
+    },
+    "IN_vs_SK": {
+      "r": 0.3495,
+      "n": 12
+    },
+    "CO_vs_SE": {
+      "r": 0.0556,
+      "n": 22
+    },
+    "CO_vs_AR": {
+      "r": 0.5261,
+      "n": 64
+    },
+    "CO_vs_EU": {
+      "r": 0.113,
+      "n": 27
+    },
+    "CO_vs_PL": {
+      "r": 0.4444,
+      "n": 49
+    },
+    "CO_vs_PT": {
+      "r": 0.3842,
+      "n": 30
+    },
+    "CO_vs_CH": {
+      "r": 0.7365,
+      "n": 25
+    },
+    "CO_vs_TR": {
+      "r": 0.508,
+      "n": 21
+    },
+    "CO_vs_KR": {
+      "r": -0.0795,
+      "n": 10
+    },
+    "CO_vs_BE": {
+      "r": 0.5145,
+      "n": 28
+    },
+    "CO_vs_GR": {
+      "r": 0.2679,
+      "n": 23
+    },
+    "CO_vs_TW": {
+      "r": 0.5953,
+      "n": 20
+    },
+    "CO_vs_IL": {
+      "r": 0.0928,
+      "n": 31
+    },
+    "CO_vs_MX": {
+      "r": 0.6151,
+      "n": 22
+    },
+    "CO_vs_AT": {
+      "r": 0.3553,
+      "n": 21
+    },
+    "CO_vs_RU": {
+      "r": 0.3342,
+      "n": 15
+    },
+    "CO_vs_DK": {
+      "r": 0.4427,
+      "n": 15
+    },
+    "CO_vs_ZA": {
+      "r": 0.6436,
+      "n": 20
+    },
+    "CO_vs_IE": {
+      "r": -0.156,
+      "n": 15
+    },
+    "CO_vs_CZ": {
+      "r": 0.2083,
+      "n": 17
+    },
+    "CO_vs_RO": {
+      "r": 0.4672,
+      "n": 17
+    },
+    "CO_vs_HR": {
+      "r": -0.4382,
+      "n": 20
+    },
+    "CO_vs_HU": {
+      "r": 0.597,
+      "n": 13
+    },
+    "CO_vs_EG": {
+      "r": 0.3334,
+      "n": 14
+    },
+    "SE_vs_AR": {
+      "r": 0.1665,
+      "n": 12
+    },
+    "SE_vs_EU": {
+      "r": 0.2802,
+      "n": 112
+    },
+    "SE_vs_PL": {
+      "r": 0.2197,
+      "n": 109
+    },
+    "SE_vs_PT": {
+      "r": 0.1892,
+      "n": 91
+    },
+    "SE_vs_CH": {
+      "r": 0.3968,
+      "n": 84
+    },
+    "SE_vs_TR": {
+      "r": 0.2553,
+      "n": 42
+    },
+    "SE_vs_KR": {
+      "r": 0.3007,
+      "n": 34
+    },
+    "SE_vs_BE": {
+      "r": 0.274,
+      "n": 52
+    },
+    "SE_vs_GR": {
+      "r": 0.508,
+      "n": 44
+    },
+    "SE_vs_TW": {
+      "r": 0.5693,
+      "n": 14
+    },
+    "SE_vs_IL": {
+      "r": 0.5506,
+      "n": 35
+    },
+    "SE_vs_MX": {
+      "r": 0.3781,
+      "n": 10
+    },
+    "SE_vs_AT": {
+      "r": 0.4233,
+      "n": 57
+    },
+    "SE_vs_RU": {
+      "r": -0.0085,
+      "n": 24
+    },
+    "SE_vs_DK": {
+      "r": 0.2743,
+      "n": 79
+    },
+    "SE_vs_ZA": {
+      "r": -0.3242,
+      "n": 13
+    },
+    "SE_vs_IE": {
+      "r": 0.3001,
+      "n": 37
+    },
+    "SE_vs_CZ": {
+      "r": 0.3924,
+      "n": 62
+    },
+    "SE_vs_RO": {
+      "r": 0.1767,
+      "n": 29
+    },
+    "SE_vs_NO": {
+      "r": 0.366,
+      "n": 57
+    },
+    "SE_vs_HR": {
+      "r": 0.4333,
+      "n": 40
+    },
+    "SE_vs_FI": {
+      "r": 0.3499,
+      "n": 35
+    },
+    "SE_vs_HU": {
+      "r": 0.4875,
+      "n": 34
+    },
+    "SE_vs_SK": {
+      "r": -0.0376,
+      "n": 13
+    },
+    "AR_vs_EU": {
+      "r": 0.2097,
+      "n": 14
+    },
+    "AR_vs_PL": {
+      "r": 0.4245,
+      "n": 26
+    },
+    "AR_vs_PT": {
+      "r": 0.1195,
+      "n": 16
+    },
+    "AR_vs_CH": {
+      "r": 0.7021,
+      "n": 11
+    },
+    "AR_vs_TR": {
+      "r": 0.7246,
+      "n": 17
+    },
+    "AR_vs_KR": {
+      "r": 0.2591,
+      "n": 12
+    },
+    "AR_vs_BE": {
+      "r": 0.3832,
+      "n": 14
+    },
+    "AR_vs_GR": {
+      "r": 0.7031,
+      "n": 15
+    },
+    "AR_vs_TW": {
+      "r": 0.7002,
+      "n": 17
+    },
+    "AR_vs_IL": {
+      "r": 0.0554,
+      "n": 21
+    },
+    "AR_vs_MX": {
+      "r": 0.7762,
+      "n": 11
+    },
+    "AR_vs_AT": {
+      "r": -0.029,
+      "n": 10
+    },
+    "AR_vs_ZA": {
+      "r": 0.6301,
+      "n": 13
+    },
+    "AR_vs_IE": {
+      "r": -0.2886,
+      "n": 11
+    },
+    "AR_vs_CZ": {
+      "r": -0.1945,
+      "n": 13
+    },
+    "AR_vs_RO": {
+      "r": -0.1669,
+      "n": 10
+    },
+    "AR_vs_EG": {
+      "r": -0.1305,
+      "n": 24
+    },
+    "EU_vs_PL": {
+      "r": 0.3099,
+      "n": 338
+    },
+    "EU_vs_PT": {
+      "r": 0.0891,
+      "n": 193
+    },
+    "EU_vs_CH": {
+      "r": 0.3083,
+      "n": 116
+    },
+    "EU_vs_TR": {
+      "r": 0.3689,
+      "n": 65
+    },
+    "EU_vs_KR": {
+      "r": 0.3599,
+      "n": 50
+    },
+    "EU_vs_BE": {
+      "r": 0.2519,
+      "n": 134
+    },
+    "EU_vs_GR": {
+      "r": 0.3282,
+      "n": 110
+    },
+    "EU_vs_TW": {
+      "r": -0.0484,
+      "n": 38
+    },
+    "EU_vs_IL": {
+      "r": 0.4025,
+      "n": 39
+    },
+    "EU_vs_MX": {
+      "r": 0.2369,
+      "n": 23
+    },
+    "EU_vs_AT": {
+      "r": 0.106,
+      "n": 125
+    },
+    "EU_vs_RU": {
+      "r": 0.3266,
+      "n": 43
+    },
+    "EU_vs_DK": {
+      "r": 0.0642,
+      "n": 86
+    },
+    "EU_vs_ZA": {
+      "r": 0.3881,
+      "n": 12
+    },
+    "EU_vs_IE": {
+      "r": 0.2804,
+      "n": 37
+    },
+    "EU_vs_CZ": {
+      "r": -0.0122,
+      "n": 152
+    },
+    "EU_vs_RO": {
+      "r": 0.1673,
+      "n": 78
+    },
+    "EU_vs_NO": {
+      "r": 0.1228,
+      "n": 54
+    },
+    "EU_vs_HR": {
+      "r": 0.2399,
+      "n": 65
+    },
+    "EU_vs_FI": {
+      "r": 0.3251,
+      "n": 35
+    },
+    "EU_vs_HU": {
+      "r": 0.043,
+      "n": 69
+    },
+    "EU_vs_EG": {
+      "r": 0.4084,
+      "n": 11
+    },
+    "EU_vs_SK": {
+      "r": 0.1993,
+      "n": 32
+    },
+    "EU_vs_SI": {
+      "r": 0.3721,
+      "n": 16
+    },
+    "PL_vs_PT": {
+      "r": 0.2624,
+      "n": 218
+    },
+    "PL_vs_CH": {
+      "r": 0.1805,
+      "n": 97
+    },
+    "PL_vs_TR": {
+      "r": 0.2859,
+      "n": 95
+    },
+    "PL_vs_KR": {
+      "r": 0.3299,
+      "n": 79
+    },
+    "PL_vs_BE": {
+      "r": 0.2877,
+      "n": 133
+    },
+    "PL_vs_GR": {
+      "r": 0.2166,
+      "n": 97
+    },
+    "PL_vs_TW": {
+      "r": 0.3852,
+      "n": 47
+    },
+    "PL_vs_IL": {
+      "r": 0.4992,
+      "n": 41
+    },
+    "PL_vs_MX": {
+      "r": 0.36,
+      "n": 26
+    },
+    "PL_vs_AT": {
+      "r": 0.0893,
+      "n": 136
+    },
+    "PL_vs_RU": {
+      "r": 0.2594,
+      "n": 45
+    },
+    "PL_vs_DK": {
+      "r": 0.1561,
+      "n": 102
+    },
+    "PL_vs_ZA": {
+      "r": 0.3197,
+      "n": 27
+    },
+    "PL_vs_IE": {
+      "r": 0.4916,
+      "n": 29
+    },
+    "PL_vs_CZ": {
+      "r": 0.2458,
+      "n": 202
+    },
+    "PL_vs_RO": {
+      "r": 0.1164,
+      "n": 98
+    },
+    "PL_vs_NO": {
+      "r": 0.0593,
+      "n": 53
+    },
+    "PL_vs_HR": {
+      "r": 0.226,
+      "n": 82
+    },
+    "PL_vs_FI": {
+      "r": 0.4075,
+      "n": 33
+    },
+    "PL_vs_HU": {
+      "r": 0.246,
+      "n": 94
+    },
+    "PL_vs_EG": {
+      "r": 0.7354,
+      "n": 14
+    },
+    "PL_vs_SK": {
+      "r": 0.235,
+      "n": 37
+    },
+    "PL_vs_SI": {
+      "r": 0.3978,
+      "n": 32
+    },
+    "PT_vs_CH": {
+      "r": 0.4902,
+      "n": 78
+    },
+    "PT_vs_TR": {
+      "r": 0.3725,
+      "n": 66
+    },
+    "PT_vs_KR": {
+      "r": 0.2147,
+      "n": 61
+    },
+    "PT_vs_BE": {
+      "r": -0.0197,
+      "n": 89
+    },
+    "PT_vs_GR": {
+      "r": -0.0014,
+      "n": 90
+    },
+    "PT_vs_TW": {
+      "r": 0.1943,
+      "n": 35
+    },
+    "PT_vs_IL": {
+      "r": 0.5832,
+      "n": 29
+    },
+    "PT_vs_MX": {
+      "r": 0.4742,
+      "n": 21
+    },
+    "PT_vs_AT": {
+      "r": 0.4213,
+      "n": 84
+    },
+    "PT_vs_RU": {
+      "r": 0.6786,
+      "n": 36
+    },
+    "PT_vs_DK": {
+      "r": 0.2242,
+      "n": 75
+    },
+    "PT_vs_ZA": {
+      "r": 0.133,
+      "n": 18
+    },
+    "PT_vs_IE": {
+      "r": 0.1309,
+      "n": 30
+    },
+    "PT_vs_CZ": {
+      "r": 0.1246,
+      "n": 124
+    },
+    "PT_vs_RO": {
+      "r": 0.0269,
+      "n": 59
+    },
+    "PT_vs_NO": {
+      "r": 0.1992,
+      "n": 45
+    },
+    "PT_vs_HR": {
+      "r": -0.016,
+      "n": 55
+    },
+    "PT_vs_FI": {
+      "r": 0.1561,
+      "n": 30
+    },
+    "PT_vs_HU": {
+      "r": 0.3699,
+      "n": 71
+    },
+    "PT_vs_SK": {
+      "r": 0.0146,
+      "n": 29
+    },
+    "PT_vs_SI": {
+      "r": -0.1867,
+      "n": 14
+    },
+    "CH_vs_TR": {
+      "r": 0.341,
+      "n": 41
+    },
+    "CH_vs_KR": {
+      "r": 0.6755,
+      "n": 30
+    },
+    "CH_vs_BE": {
+      "r": 0.2957,
+      "n": 45
+    },
+    "CH_vs_GR": {
+      "r": 0.4363,
+      "n": 44
+    },
+    "CH_vs_TW": {
+      "r": 0.5275,
+      "n": 16
+    },
+    "CH_vs_IL": {
+      "r": 0.4755,
+      "n": 29
+    },
+    "CH_vs_MX": {
+      "r": 0.338,
+      "n": 12
+    },
+    "CH_vs_AT": {
+      "r": 0.429,
+      "n": 59
+    },
+    "CH_vs_RU": {
+      "r": 0.5988,
+      "n": 24
+    },
+    "CH_vs_DK": {
+      "r": 0.3697,
+      "n": 33
+    },
+    "CH_vs_IE": {
+      "r": 0.3322,
+      "n": 25
+    },
+    "CH_vs_CZ": {
+      "r": 0.3285,
+      "n": 42
+    },
+    "CH_vs_RO": {
+      "r": 0.4299,
+      "n": 35
+    },
+    "CH_vs_NO": {
+      "r": 0.5269,
+      "n": 28
+    },
+    "CH_vs_HR": {
+      "r": 0.1403,
+      "n": 29
+    },
+    "CH_vs_FI": {
+      "r": 0.4601,
+      "n": 24
+    },
+    "CH_vs_HU": {
+      "r": 0.3603,
+      "n": 32
+    },
+    "CH_vs_SK": {
+      "r": 0.4011,
+      "n": 16
+    },
+    "CH_vs_SI": {
+      "r": 0.7753,
+      "n": 14
+    },
+    "TR_vs_KR": {
+      "r": 0.0373,
+      "n": 32
+    },
+    "TR_vs_BE": {
+      "r": 0.1769,
+      "n": 49
+    },
+    "TR_vs_GR": {
+      "r": 0.2284,
+      "n": 44
+    },
+    "TR_vs_TW": {
+      "r": -0.2344,
+      "n": 23
+    },
+    "TR_vs_IL": {
+      "r": 0.4608,
+      "n": 21
+    },
+    "TR_vs_MX": {
+      "r": 0.3836,
+      "n": 13
+    },
+    "TR_vs_AT": {
+      "r": -0.1006,
+      "n": 34
+    },
+    "TR_vs_RU": {
+      "r": 0.6124,
+      "n": 18
+    },
+    "TR_vs_DK": {
+      "r": 0.3457,
+      "n": 34
+    },
+    "TR_vs_IE": {
+      "r": 0.2755,
+      "n": 20
+    },
+    "TR_vs_CZ": {
+      "r": 0.3387,
+      "n": 48
+    },
+    "TR_vs_RO": {
+      "r": 0.4479,
+      "n": 33
+    },
+    "TR_vs_NO": {
+      "r": 0.4414,
+      "n": 21
+    },
+    "TR_vs_HR": {
+      "r": -0.1442,
+      "n": 24
+    },
+    "TR_vs_FI": {
+      "r": 0.2379,
+      "n": 13
+    },
+    "TR_vs_HU": {
+      "r": 0.3405,
+      "n": 27
+    },
+    "TR_vs_SK": {
+      "r": 0.1026,
+      "n": 14
+    },
+    "KR_vs_BE": {
+      "r": 0.2266,
+      "n": 55
+    },
+    "KR_vs_GR": {
+      "r": 0.327,
+      "n": 45
+    },
+    "KR_vs_TW": {
+      "r": 0.3695,
+      "n": 25
+    },
+    "KR_vs_IL": {
+      "r": 0.539,
+      "n": 15
+    },
+    "KR_vs_MX": {
+      "r": 0.4191,
+      "n": 22
+    },
+    "KR_vs_AT": {
+      "r": 0.0402,
+      "n": 42
+    },
+    "KR_vs_RU": {
+      "r": 0.466,
+      "n": 22
+    },
+    "KR_vs_DK": {
+      "r": 0.267,
+      "n": 31
+    },
+    "KR_vs_IE": {
+      "r": 0.4002,
+      "n": 13
+    },
+    "KR_vs_CZ": {
+      "r": 0.1788,
+      "n": 45
+    },
+    "KR_vs_RO": {
+      "r": 0.3049,
+      "n": 27
+    },
+    "KR_vs_NO": {
+      "r": 0.2314,
+      "n": 20
+    },
+    "KR_vs_HR": {
+      "r": 0.0352,
+      "n": 22
+    },
+    "KR_vs_FI": {
+      "r": 0.2,
+      "n": 13
+    },
+    "KR_vs_HU": {
+      "r": 0.0156,
+      "n": 33
+    },
+    "KR_vs_SK": {
+      "r": 0.0676,
+      "n": 19
+    },
+    "BE_vs_GR": {
+      "r": 0.3106,
+      "n": 65
+    },
+    "BE_vs_TW": {
+      "r": 0.2962,
+      "n": 35
+    },
+    "BE_vs_IL": {
+      "r": 0.3636,
+      "n": 37
+    },
+    "BE_vs_MX": {
+      "r": 0.1108,
+      "n": 18
+    },
+    "BE_vs_AT": {
+      "r": -0.0042,
+      "n": 95
+    },
+    "BE_vs_RU": {
+      "r": 0.1486,
+      "n": 25
+    },
+    "BE_vs_DK": {
+      "r": 0.2708,
+      "n": 58
+    },
+    "BE_vs_IE": {
+      "r": 0.3315,
+      "n": 33
+    },
+    "BE_vs_CZ": {
+      "r": 0.101,
+      "n": 92
+    },
+    "BE_vs_RO": {
+      "r": -0.305,
+      "n": 52
+    },
+    "BE_vs_NO": {
+      "r": 0.548,
+      "n": 33
+    },
+    "BE_vs_HR": {
+      "r": 0.0087,
+      "n": 35
+    },
+    "BE_vs_FI": {
+      "r": 0.659,
+      "n": 23
+    },
+    "BE_vs_HU": {
+      "r": 0.1327,
+      "n": 45
+    },
+    "BE_vs_SK": {
+      "r": -0.1832,
+      "n": 21
+    },
+    "GR_vs_TW": {
+      "r": 0.3494,
+      "n": 20
+    },
+    "GR_vs_IL": {
+      "r": 0.6876,
+      "n": 33
+    },
+    "GR_vs_MX": {
+      "r": 0.2937,
+      "n": 21
+    },
+    "GR_vs_AT": {
+      "r": 0.3935,
+      "n": 85
+    },
+    "GR_vs_RU": {
+      "r": 0.2262,
+      "n": 35
+    },
+    "GR_vs_DK": {
+      "r": 0.0649,
+      "n": 46
+    },
+    "GR_vs_ZA": {
+      "r": 0.5475,
+      "n": 14
+    },
+    "GR_vs_IE": {
+      "r": 0.3436,
+      "n": 30
+    },
+    "GR_vs_CZ": {
+      "r": 0.3606,
+      "n": 66
+    },
+    "GR_vs_RO": {
+      "r": 0.0349,
+      "n": 46
+    },
+    "GR_vs_NO": {
+      "r": 0.0397,
+      "n": 36
+    },
+    "GR_vs_HR": {
+      "r": -0.1222,
+      "n": 33
+    },
+    "GR_vs_FI": {
+      "r": 0.4259,
+      "n": 18
+    },
+    "GR_vs_HU": {
+      "r": 0.1026,
+      "n": 58
+    },
+    "GR_vs_SK": {
+      "r": 0.0621,
+      "n": 24
+    },
+    "TW_vs_IL": {
+      "r": 0.6167,
+      "n": 11
+    },
+    "TW_vs_MX": {
+      "r": 0.4591,
+      "n": 16
+    },
+    "TW_vs_AT": {
+      "r": 0.1669,
+      "n": 31
+    },
+    "TW_vs_RU": {
+      "r": 0.4803,
+      "n": 18
+    },
+    "TW_vs_DK": {
+      "r": 0.2284,
+      "n": 22
+    },
+    "TW_vs_IE": {
+      "r": 0.1523,
+      "n": 11
+    },
+    "TW_vs_CZ": {
+      "r": 0.0699,
+      "n": 28
+    },
+    "TW_vs_RO": {
+      "r": 0.4435,
+      "n": 24
+    },
+    "TW_vs_NO": {
+      "r": 0.478,
+      "n": 15
+    },
+    "TW_vs_HR": {
+      "r": 0.4491,
+      "n": 15
+    },
+    "TW_vs_HU": {
+      "r": 0.3636,
+      "n": 20
+    },
+    "TW_vs_SK": {
+      "r": -0.0455,
+      "n": 10
+    },
+    "IL_vs_MX": {
+      "r": 0.5781,
+      "n": 24
+    },
+    "IL_vs_AT": {
+      "r": 0.4957,
+      "n": 32
+    },
+    "IL_vs_RU": {
+      "r": 0.5011,
+      "n": 19
+    },
+    "IL_vs_DK": {
+      "r": 0.6411,
+      "n": 26
+    },
+    "IL_vs_IE": {
+      "r": 0.537,
+      "n": 21
+    },
+    "IL_vs_CZ": {
+      "r": 0.3226,
+      "n": 31
+    },
+    "IL_vs_RO": {
+      "r": 0.5653,
+      "n": 21
+    },
+    "IL_vs_NO": {
+      "r": 0.4181,
+      "n": 20
+    },
+    "IL_vs_HR": {
+      "r": 0.407,
+      "n": 12
+    },
+    "IL_vs_HU": {
+      "r": 0.7523,
+      "n": 22
+    },
+    "MX_vs_AT": {
+      "r": 0.0556,
+      "n": 19
+    },
+    "MX_vs_RU": {
+      "r": 0.6044,
+      "n": 12
+    },
+    "MX_vs_DK": {
+      "r": 0.2964,
+      "n": 13
+    },
+    "MX_vs_ZA": {
+      "r": 0.7644,
+      "n": 11
+    },
+    "MX_vs_IE": {
+      "r": 0.1181,
+      "n": 12
+    },
+    "MX_vs_CZ": {
+      "r": 0.5118,
+      "n": 25
+    },
+    "MX_vs_RO": {
+      "r": 0.4699,
+      "n": 19
+    },
+    "MX_vs_NO": {
+      "r": 0.1977,
+      "n": 11
+    },
+    "MX_vs_HR": {
+      "r": 0.1795,
+      "n": 12
+    },
+    "MX_vs_FI": {
+      "r": 0.3945,
+      "n": 10
+    },
+    "MX_vs_HU": {
+      "r": 0.5827,
+      "n": 15
+    },
+    "MX_vs_EG": {
+      "r": 0.2254,
+      "n": 16
+    },
+    "MX_vs_SK": {
+      "r": 0.1848,
+      "n": 14
+    },
+    "AT_vs_RU": {
+      "r": 0.5053,
+      "n": 36
+    },
+    "AT_vs_DK": {
+      "r": 0.3664,
+      "n": 54
+    },
+    "AT_vs_IE": {
+      "r": 0.1226,
+      "n": 33
+    },
+    "AT_vs_CZ": {
+      "r": 0.2491,
+      "n": 95
+    },
+    "AT_vs_RO": {
+      "r": 0.1492,
+      "n": 48
+    },
+    "AT_vs_NO": {
+      "r": 0.0659,
+      "n": 41
+    },
+    "AT_vs_HR": {
+      "r": -0.0572,
+      "n": 26
+    },
+    "AT_vs_FI": {
+      "r": 0.3215,
+      "n": 20
+    },
+    "AT_vs_HU": {
+      "r": 0.4301,
+      "n": 54
+    },
+    "AT_vs_SK": {
+      "r": 0.2705,
+      "n": 29
+    },
+    "RU_vs_DK": {
+      "r": 0.1563,
+      "n": 21
+    },
+    "RU_vs_IE": {
+      "r": 0.2877,
+      "n": 16
+    },
+    "RU_vs_CZ": {
+      "r": 0.0978,
+      "n": 25
+    },
+    "RU_vs_RO": {
+      "r": 0.3275,
+      "n": 25
+    },
+    "RU_vs_NO": {
+      "r": 0.4216,
+      "n": 18
+    },
+    "RU_vs_HR": {
+      "r": 0.0626,
+      "n": 16
+    },
+    "RU_vs_HU": {
+      "r": 0.2362,
+      "n": 32
+    },
+    "RU_vs_SK": {
+      "r": 0.5519,
+      "n": 23
+    },
+    "DK_vs_IE": {
+      "r": 0.0741,
+      "n": 15
+    },
+    "DK_vs_CZ": {
+      "r": 0.2598,
+      "n": 54
+    },
+    "DK_vs_RO": {
+      "r": 0.089,
+      "n": 32
+    },
+    "DK_vs_NO": {
+      "r": 0.3008,
+      "n": 49
+    },
+    "DK_vs_HR": {
+      "r": 0.1323,
+      "n": 29
+    },
+    "DK_vs_FI": {
+      "r": 0.0533,
+      "n": 30
+    },
+    "DK_vs_HU": {
+      "r": 0.1923,
+      "n": 42
+    },
+    "DK_vs_SK": {
+      "r": 0.0662,
+      "n": 15
+    },
+    "ZA_vs_IE": {
+      "r": 0.8081,
+      "n": 10
+    },
+    "ZA_vs_CZ": {
+      "r": 0.3734,
+      "n": 10
+    },
+    "ZA_vs_HU": {
+      "r": 0.5948,
+      "n": 10
+    },
+    "ZA_vs_EG": {
+      "r": 0.2024,
+      "n": 18
+    },
+    "IE_vs_CZ": {
+      "r": 0.3051,
+      "n": 25
+    },
+    "IE_vs_RO": {
+      "r": 0.4718,
+      "n": 21
+    },
+    "IE_vs_NO": {
+      "r": 0.5333,
+      "n": 13
+    },
+    "IE_vs_HR": {
+      "r": 0.7593,
+      "n": 11
+    },
+    "IE_vs_FI": {
+      "r": -0.2361,
+      "n": 16
+    },
+    "IE_vs_HU": {
+      "r": 0.4192,
+      "n": 15
+    },
+    "IE_vs_SK": {
+      "r": 0.2412,
+      "n": 15
+    },
+    "CZ_vs_RO": {
+      "r": 0.1184,
+      "n": 79
+    },
+    "CZ_vs_NO": {
+      "r": 0.1303,
+      "n": 40
+    },
+    "CZ_vs_HR": {
+      "r": 0.0464,
+      "n": 47
+    },
+    "CZ_vs_FI": {
+      "r": -0.0514,
+      "n": 28
+    },
+    "CZ_vs_HU": {
+      "r": 0.3666,
+      "n": 61
+    },
+    "CZ_vs_SK": {
+      "r": 0.1139,
+      "n": 39
+    },
+    "CZ_vs_SI": {
+      "r": 0.3838,
+      "n": 12
+    },
+    "RO_vs_NO": {
+      "r": 0.5257,
+      "n": 19
+    },
+    "RO_vs_HR": {
+      "r": -0.0032,
+      "n": 23
+    },
+    "RO_vs_FI": {
+      "r": 0.1775,
+      "n": 18
+    },
+    "RO_vs_HU": {
+      "r": 0.2674,
+      "n": 41
+    },
+    "RO_vs_SK": {
+      "r": 0.1292,
+      "n": 20
+    },
+    "NO_vs_HR": {
+      "r": -0.291,
+      "n": 14
+    },
+    "NO_vs_FI": {
+      "r": 0.3333,
+      "n": 22
+    },
+    "NO_vs_HU": {
+      "r": 0.4434,
+      "n": 24
+    },
+    "HR_vs_FI": {
+      "r": 0.3122,
+      "n": 11
+    },
+    "HR_vs_HU": {
+      "r": 0.3886,
+      "n": 29
+    },
+    "HR_vs_SK": {
+      "r": 0.4631,
+      "n": 16
+    },
+    "HR_vs_SI": {
+      "r": 0.0694,
+      "n": 17
+    },
+    "FI_vs_HU": {
+      "r": 0.4482,
+      "n": 24
+    },
+    "HU_vs_SK": {
+      "r": 0.3634,
+      "n": 16
+    },
+    "HU_vs_SI": {
+      "r": 0.3623,
+      "n": 17
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "country": "SI",
+      "f_bias_pct": 65.5,
+      "f_reporter_pct": 52.9,
+      "strong": 110
+    },
+    {
+      "rank": 2,
+      "country": "PH",
+      "f_bias_pct": 65.0,
+      "f_reporter_pct": 51.4,
+      "strong": 40
+    },
+    {
+      "rank": 3,
+      "country": "ID",
+      "f_bias_pct": 63.6,
+      "f_reporter_pct": 52.0,
+      "strong": 33
+    },
+    {
+      "rank": 4,
+      "country": "RS",
+      "f_bias_pct": 60.0,
+      "f_reporter_pct": 53.3,
+      "strong": 10
+    },
+    {
+      "rank": 5,
+      "country": "TW",
+      "f_bias_pct": 59.7,
+      "f_reporter_pct": 52.9,
+      "strong": 273
+    },
+    {
+      "rank": 6,
+      "country": "VN",
+      "f_bias_pct": 59.6,
+      "f_reporter_pct": 50.9,
+      "strong": 52
+    },
+    {
+      "rank": 7,
+      "country": "CH",
+      "f_bias_pct": 58.5,
+      "f_reporter_pct": 54.3,
+      "strong": 687
+    },
+    {
+      "rank": 8,
+      "country": "AE",
+      "f_bias_pct": 58.3,
+      "f_reporter_pct": 57.5,
+      "strong": 12
+    },
+    {
+      "rank": 9,
+      "country": "LB",
+      "f_bias_pct": 57.9,
+      "f_reporter_pct": 50.2,
+      "strong": 38
+    },
+    {
+      "rank": 10,
+      "country": "SK",
+      "f_bias_pct": 57.7,
+      "f_reporter_pct": 54.7,
+      "strong": 149
+    },
+    {
+      "rank": 11,
+      "country": "BG",
+      "f_bias_pct": 57.5,
+      "f_reporter_pct": 48.2,
+      "strong": 40
+    },
+    {
+      "rank": 12,
+      "country": "JP",
+      "f_bias_pct": 55.3,
+      "f_reporter_pct": 47.0,
+      "strong": 7502
+    },
+    {
+      "rank": 13,
+      "country": "IE",
+      "f_bias_pct": 55.1,
+      "f_reporter_pct": 54.4,
+      "strong": 296
+    },
+    {
+      "rank": 14,
+      "country": "CN",
+      "f_bias_pct": 54.4,
+      "f_reporter_pct": 49.6,
+      "strong": 3123
+    },
+    {
+      "rank": 15,
+      "country": "IR",
+      "f_bias_pct": 54.1,
+      "f_reporter_pct": 51.0,
+      "strong": 74
+    },
+    {
+      "rank": 16,
+      "country": "IN",
+      "f_bias_pct": 52.0,
+      "f_reporter_pct": 45.6,
+      "strong": 941
+    },
+    {
+      "rank": 17,
+      "country": "GR",
+      "f_bias_pct": 52.0,
+      "f_reporter_pct": 52.2,
+      "strong": 440
+    },
+    {
+      "rank": 18,
+      "country": "TH",
+      "f_bias_pct": 51.6,
+      "f_reporter_pct": 52.3,
+      "strong": 93
+    },
+    {
+      "rank": 19,
+      "country": "CZ",
+      "f_bias_pct": 51.5,
+      "f_reporter_pct": 55.3,
+      "strong": 778
+    },
+    {
+      "rank": 20,
+      "country": "ES",
+      "f_bias_pct": 50.5,
+      "f_reporter_pct": 52.1,
+      "strong": 3103
+    },
+    {
+      "rank": 21,
+      "country": "EU",
+      "f_bias_pct": 50.5,
+      "f_reporter_pct": 53.2,
+      "strong": 1625
+    },
+    {
+      "rank": 22,
+      "country": "NO",
+      "f_bias_pct": 50.5,
+      "f_reporter_pct": 55.4,
+      "strong": 285
+    },
+    {
+      "rank": 23,
+      "country": "KR",
+      "f_bias_pct": 50.0,
+      "f_reporter_pct": 49.1,
+      "strong": 376
+    },
+    {
+      "rank": 24,
+      "country": "HR",
+      "f_bias_pct": 50.0,
+      "f_reporter_pct": 57.3,
+      "strong": 358
+    },
+    {
+      "rank": 25,
+      "country": "TN",
+      "f_bias_pct": 50.0,
+      "f_reporter_pct": 56.7,
+      "strong": 4
+    },
+    {
+      "rank": 26,
+      "country": "IT",
+      "f_bias_pct": 49.1,
+      "f_reporter_pct": 54.2,
+      "strong": 5554
+    },
+    {
+      "rank": 27,
+      "country": "US",
+      "f_bias_pct": 48.9,
+      "f_reporter_pct": 62.5,
+      "strong": 69673
+    },
+    {
+      "rank": 28,
+      "country": "FR",
+      "f_bias_pct": 48.8,
+      "f_reporter_pct": 52.8,
+      "strong": 15092
+    },
+    {
+      "rank": 29,
+      "country": "HU",
+      "f_bias_pct": 48.7,
+      "f_reporter_pct": 56.3,
+      "strong": 378
+    },
+    {
+      "rank": 30,
+      "country": "AU",
+      "f_bias_pct": 48.6,
+      "f_reporter_pct": 50.4,
+      "strong": 3348
+    },
+    {
+      "rank": 31,
+      "country": "SA",
+      "f_bias_pct": 48.1,
+      "f_reporter_pct": 54.5,
+      "strong": 27
+    },
+    {
+      "rank": 32,
+      "country": "PL",
+      "f_bias_pct": 48.0,
+      "f_reporter_pct": 54.0,
+      "strong": 2455
+    },
+    {
+      "rank": 33,
+      "country": "PE",
+      "f_bias_pct": 48.0,
+      "f_reporter_pct": 63.5,
+      "strong": 25
+    },
+    {
+      "rank": 34,
+      "country": "NZ",
+      "f_bias_pct": 47.8,
+      "f_reporter_pct": 49.1,
+      "strong": 92
+    },
+    {
+      "rank": 35,
+      "country": "TR",
+      "f_bias_pct": 47.3,
+      "f_reporter_pct": 51.7,
+      "strong": 421
+    },
+    {
+      "rank": 36,
+      "country": "FI",
+      "f_bias_pct": 47.0,
+      "f_reporter_pct": 54.4,
+      "strong": 217
+    },
+    {
+      "rank": 37,
+      "country": "DE",
+      "f_bias_pct": 46.6,
+      "f_reporter_pct": 55.4,
+      "strong": 12120
+    },
+    {
+      "rank": 38,
+      "country": "SG",
+      "f_bias_pct": 45.7,
+      "f_reporter_pct": 55.7,
+      "strong": 46
+    },
+    {
+      "rank": 39,
+      "country": "AT",
+      "f_bias_pct": 45.5,
+      "f_reporter_pct": 53.9,
+      "strong": 646
+    },
+    {
+      "rank": 40,
+      "country": "IL",
+      "f_bias_pct": 45.3,
+      "f_reporter_pct": 54.2,
+      "strong": 285
+    },
+    {
+      "rank": 41,
+      "country": "BE",
+      "f_bias_pct": 45.0,
+      "f_reporter_pct": 52.8,
+      "strong": 709
+    },
+    {
+      "rank": 42,
+      "country": "PT",
+      "f_bias_pct": 44.2,
+      "f_reporter_pct": 56.1,
+      "strong": 1265
+    },
+    {
+      "rank": 43,
+      "country": "PK",
+      "f_bias_pct": 44.2,
+      "f_reporter_pct": 52.1,
+      "strong": 43
+    },
+    {
+      "rank": 44,
+      "country": "COUNTRY NOT SPECIFIED",
+      "f_bias_pct": 43.4,
+      "f_reporter_pct": 59.0,
+      "strong": 5351
+    },
+    {
+      "rank": 45,
+      "country": "GB",
+      "f_bias_pct": 42.0,
+      "f_reporter_pct": 56.1,
+      "strong": 14702
+    },
+    {
+      "rank": 46,
+      "country": "HK",
+      "f_bias_pct": 41.7,
+      "f_reporter_pct": 44.9,
+      "strong": 24
+    },
+    {
+      "rank": 47,
+      "country": "NL",
+      "f_bias_pct": 41.1,
+      "f_reporter_pct": 50.4,
+      "strong": 2246
+    },
+    {
+      "rank": 48,
+      "country": "ZA",
+      "f_bias_pct": 40.7,
+      "f_reporter_pct": 60.1,
+      "strong": 339
+    },
+    {
+      "rank": 49,
+      "country": "RO",
+      "f_bias_pct": 39.5,
+      "f_reporter_pct": 55.1,
+      "strong": 400
+    },
+    {
+      "rank": 50,
+      "country": "RU",
+      "f_bias_pct": 38.6,
+      "f_reporter_pct": 59.9,
+      "strong": 277
+    },
+    {
+      "rank": 51,
+      "country": "SE",
+      "f_bias_pct": 38.3,
+      "f_reporter_pct": 59.2,
+      "strong": 965
+    },
+    {
+      "rank": 52,
+      "country": "PR",
+      "f_bias_pct": 35.9,
+      "f_reporter_pct": 64.1,
+      "strong": 92
+    },
+    {
+      "rank": 53,
+      "country": "EG",
+      "f_bias_pct": 35.7,
+      "f_reporter_pct": 57.6,
+      "strong": 157
+    },
+    {
+      "rank": 54,
+      "country": "DK",
+      "f_bias_pct": 35.3,
+      "f_reporter_pct": 58.0,
+      "strong": 556
+    },
+    {
+      "rank": 55,
+      "country": "CA",
+      "f_bias_pct": 34.3,
+      "f_reporter_pct": 60.4,
+      "strong": 41146
+    },
+    {
+      "rank": 56,
+      "country": "MY",
+      "f_bias_pct": 33.3,
+      "f_reporter_pct": 52.8,
+      "strong": 33
+    },
+    {
+      "rank": 57,
+      "country": "BR",
+      "f_bias_pct": 32.7,
+      "f_reporter_pct": 65.0,
+      "strong": 2205
+    },
+    {
+      "rank": 58,
+      "country": "MX",
+      "f_bias_pct": 31.6,
+      "f_reporter_pct": 58.8,
+      "strong": 285
+    },
+    {
+      "rank": 59,
+      "country": "VE",
+      "f_bias_pct": 31.4,
+      "f_reporter_pct": 57.1,
+      "strong": 35
+    },
+    {
+      "rank": 60,
+      "country": "CO",
+      "f_bias_pct": 31.2,
+      "f_reporter_pct": 57.0,
+      "strong": 971
+    },
+    {
+      "rank": 61,
+      "country": "AR",
+      "f_bias_pct": 31.1,
+      "f_reporter_pct": 66.3,
+      "strong": 409
+    },
+    {
+      "rank": 62,
+      "country": "CL",
+      "f_bias_pct": 20.5,
+      "f_reporter_pct": 63.2,
+      "strong": 88
+    }
+  ],
+  "runtime_seconds": 85.7
+}

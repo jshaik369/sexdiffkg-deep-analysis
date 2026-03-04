@@ -1,0 +1,2518 @@
+{
+  "total_opioid_signals": 2674,
+  "unique_drugs": 17,
+  "female_higher": 2008,
+  "male_higher": 666,
+  "direction_fix_applied": true,
+  "per_drug": {
+    "ALFENTANIL": {
+      "total": 1,
+      "female_higher": 0,
+      "male_higher": 1,
+      "pct_female": 0.0,
+      "mean_log_ratio": -1.416402680513895
+    },
+    "BUPRENORPHINE": {
+      "total": 261,
+      "female_higher": 141,
+      "male_higher": 120,
+      "pct_female": 54.02298850574713,
+      "mean_log_ratio": 0.22925006973830236
+    },
+    "CODEINE": {
+      "total": 190,
+      "female_higher": 144,
+      "male_higher": 46,
+      "pct_female": 75.78947368421053,
+      "mean_log_ratio": 0.8320399804637116
+    },
+    "DIHYDROCODEINE": {
+      "total": 7,
+      "female_higher": 4,
+      "male_higher": 3,
+      "pct_female": 57.14285714285714,
+      "mean_log_ratio": 0.06600659165692256
+    },
+    "FENTANYL": {
+      "total": 291,
+      "female_higher": 217,
+      "male_higher": 74,
+      "pct_female": 74.5704467353952,
+      "mean_log_ratio": 0.47379349889407796
+    },
+    "HYDROCODONE": {
+      "total": 76,
+      "female_higher": 52,
+      "male_higher": 24,
+      "pct_female": 68.42105263157895,
+      "mean_log_ratio": 0.33378500399792876
+    },
+    "HYDROMORPHONE": {
+      "total": 311,
+      "female_higher": 238,
+      "male_higher": 73,
+      "pct_female": 76.52733118971061,
+      "mean_log_ratio": 0.6542785280427313
+    },
+    "METHADONE": {
+      "total": 107,
+      "female_higher": 79,
+      "male_higher": 28,
+      "pct_female": 73.83177570093457,
+      "mean_log_ratio": 0.42487440085497125
+    },
+    "MORPHINE": {
+      "total": 441,
+      "female_higher": 368,
+      "male_higher": 73,
+      "pct_female": 83.44671201814059,
+      "mean_log_ratio": 0.8473125144515573
+    },
+    "NALBUPHINE": {
+      "total": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "pct_female": 33.33333333333333,
+      "mean_log_ratio": -0.08519077022729227
+    },
+    "OXYCODONE": {
+      "total": 492,
+      "female_higher": 418,
+      "male_higher": 74,
+      "pct_female": 84.95934959349594,
+      "mean_log_ratio": 1.0912548845241659
+    },
+    "OXYMORPHONE": {
+      "total": 50,
+      "female_higher": 34,
+      "male_higher": 16,
+      "pct_female": 68.0,
+      "mean_log_ratio": 0.2795277917582718
+    },
+    "PENTAZOCINE": {
+      "total": 2,
+      "female_higher": 1,
+      "male_higher": 1,
+      "pct_female": 50.0,
+      "mean_log_ratio": -0.36697905233314787
+    },
+    "REMIFENTANIL": {
+      "total": 10,
+      "female_higher": 7,
+      "male_higher": 3,
+      "pct_female": 70.0,
+      "mean_log_ratio": 0.33544274057466905
+    },
+    "SUFENTANIL": {
+      "total": 33,
+      "female_higher": 16,
+      "male_higher": 17,
+      "pct_female": 48.484848484848484,
+      "mean_log_ratio": -0.11778830488145914
+    },
+    "TAPENTADOL": {
+      "total": 39,
+      "female_higher": 17,
+      "male_higher": 22,
+      "pct_female": 43.58974358974359,
+      "mean_log_ratio": -0.16290978342216997
+    },
+    "TRAMADOL": {
+      "total": 360,
+      "female_higher": 271,
+      "male_higher": 89,
+      "pct_female": 75.27777777777777,
+      "mean_log_ratio": 0.7216752668004304
+    }
+  },
+  "cross_opioid_patterns": {
+    "Drug hypersensitivity": {
+      "n_drugs": 11,
+      "female_higher": 11,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9987776920882703
+    },
+    "Abdominal discomfort": {
+      "n_drugs": 10,
+      "female_higher": 7,
+      "male_higher": 3,
+      "mean_log_ratio": 0.5670931852104399
+    },
+    "Therapeutic product effect incomplete": {
+      "n_drugs": 9,
+      "female_higher": 8,
+      "male_higher": 1,
+      "mean_log_ratio": 1.3271771564682975
+    },
+    "Completed suicide": {
+      "n_drugs": 9,
+      "female_higher": 8,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5305122755574324
+    },
+    "Drug intolerance": {
+      "n_drugs": 9,
+      "female_higher": 9,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2978505970370628
+    },
+    "Hypersensitivity": {
+      "n_drugs": 9,
+      "female_higher": 8,
+      "male_higher": 1,
+      "mean_log_ratio": 1.1734737460500204
+    },
+    "Impaired driving ability": {
+      "n_drugs": 9,
+      "female_higher": 0,
+      "male_higher": 9,
+      "mean_log_ratio": -0.8496777804389056
+    },
+    "Pyrexia": {
+      "n_drugs": 9,
+      "female_higher": 9,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3433425947881057
+    },
+    "Rash": {
+      "n_drugs": 9,
+      "female_higher": 9,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3216259094012526
+    },
+    "Condition aggravated": {
+      "n_drugs": 9,
+      "female_higher": 8,
+      "male_higher": 1,
+      "mean_log_ratio": 0.8869690216186416
+    },
+    "Tooth loss": {
+      "n_drugs": 9,
+      "female_higher": 9,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8859260050266902
+    },
+    "Urticaria": {
+      "n_drugs": 9,
+      "female_higher": 8,
+      "male_higher": 1,
+      "mean_log_ratio": 1.0593600559429013
+    },
+    "Arthropathy": {
+      "n_drugs": 8,
+      "female_higher": 7,
+      "male_higher": 1,
+      "mean_log_ratio": 1.6640396476432129
+    },
+    "Impaired quality of life": {
+      "n_drugs": 8,
+      "female_higher": 0,
+      "male_higher": 8,
+      "mean_log_ratio": -0.7512917119964848
+    },
+    "Neck pain": {
+      "n_drugs": 8,
+      "female_higher": 5,
+      "male_higher": 3,
+      "mean_log_ratio": 0.6132049842568801
+    },
+    "Dyspepsia": {
+      "n_drugs": 8,
+      "female_higher": 7,
+      "male_higher": 1,
+      "mean_log_ratio": 1.2591104343253225
+    },
+    "Liver injury": {
+      "n_drugs": 8,
+      "female_higher": 6,
+      "male_higher": 2,
+      "mean_log_ratio": 0.8673568897365481
+    },
+    "Pruritus": {
+      "n_drugs": 8,
+      "female_higher": 8,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0557694323838496
+    },
+    "Cardiac arrest": {
+      "n_drugs": 8,
+      "female_higher": 8,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7080050573308587
+    },
+    "Substance use disorder": {
+      "n_drugs": 8,
+      "female_higher": 8,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9618625343418897
+    },
+    "Infection": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.4045778105177071
+    },
+    "Hypotension": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9116604881031781
+    },
+    "Inflammation": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 1.9480986328854049
+    },
+    "Off label use": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5757367645101833
+    },
+    "Fatigue": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 0.8101910720814247
+    },
+    "Hypertension": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 1.1335427126962687
+    },
+    "Hepatic enzyme increased": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 2.327511092120205
+    },
+    "Muscular weakness": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 1.305293846361583
+    },
+    "Musculoskeletal pain": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 1.7211735960178849
+    },
+    "C-reactive protein increased": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 2.419634712142417
+    },
+    "Drug withdrawal syndrome neonatal": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5304622822907147
+    },
+    "Obesity": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 2.227796259705584
+    },
+    "Oedema": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.964728106350998
+    },
+    "Drug interaction": {
+      "n_drugs": 7,
+      "female_higher": 5,
+      "male_higher": 2,
+      "mean_log_ratio": 0.33004065052050713
+    },
+    "Cardio-respiratory arrest": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7169579472485488
+    },
+    "Medication error": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0674855330897082
+    },
+    "Arthralgia": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.263021840583504
+    },
+    "Psychological trauma": {
+      "n_drugs": 7,
+      "female_higher": 0,
+      "male_higher": 7,
+      "mean_log_ratio": -3.0312135461856555
+    },
+    "Stress": {
+      "n_drugs": 7,
+      "female_higher": 0,
+      "male_higher": 7,
+      "mean_log_ratio": -0.8818525032098423
+    },
+    "Spinal operation": {
+      "n_drugs": 7,
+      "female_higher": 0,
+      "male_higher": 7,
+      "mean_log_ratio": -0.6484317716635889
+    },
+    "Rheumatoid arthritis": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 2.2030041174618673
+    },
+    "Adverse drug reaction": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2387749633706278
+    },
+    "Treatment failure": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 2.246054660781093
+    },
+    "Pulmonary oedema": {
+      "n_drugs": 7,
+      "female_higher": 0,
+      "male_higher": 7,
+      "mean_log_ratio": -0.8499897038588072
+    },
+    "Product use issue": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 1.3565050352989079
+    },
+    "Headache": {
+      "n_drugs": 7,
+      "female_higher": 5,
+      "male_higher": 2,
+      "mean_log_ratio": 0.6567238221886716
+    },
+    "Abdominal pain upper": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 0.8694513862251123
+    },
+    "Pain in extremity": {
+      "n_drugs": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "mean_log_ratio": 0.6618435255642939
+    },
+    "Pneumonia": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.5456538992134359
+    },
+    "Angioedema": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.5677565814575327
+    },
+    "Peripheral swelling": {
+      "n_drugs": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 1.8914082673837977
+    },
+    "Cough": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0107905497539351
+    },
+    "Gastrooesophageal reflux disease": {
+      "n_drugs": 6,
+      "female_higher": 4,
+      "male_higher": 2,
+      "mean_log_ratio": 0.8045291148551988
+    },
+    "Wheezing": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 2.780143289828576
+    },
+    "Gait inability": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 1.4461909753710802
+    },
+    "Drug diversion": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 0.7871399259833868
+    },
+    "Diarrhoea": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0058759248577052
+    },
+    "Weight increased": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3776633777405758
+    },
+    "Delirium": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2838056199455885
+    },
+    "Foetal exposure during pregnancy": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6576165343697045
+    },
+    "Drug ineffective": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6838704422673129
+    },
+    "Exposure via ingestion": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 0.3918687640167257
+    },
+    "Erythema": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 1.074878636565067
+    },
+    "Dyspnoea": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0782863448570295
+    },
+    "Crohn's disease": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.854300689700754
+    },
+    "Therapy non-responder": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3736174669181767
+    },
+    "Weight decreased": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9032431571552784
+    },
+    "Oedema peripheral": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3651605274866003
+    },
+    "Sleep disorder": {
+      "n_drugs": 6,
+      "female_higher": 4,
+      "male_higher": 2,
+      "mean_log_ratio": 0.474835420619305
+    },
+    "Respiratory failure": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5553702311020949
+    },
+    "Renal impairment": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.131426251133882
+    },
+    "Product quality issue": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3312390470974338
+    },
+    "Prescribed overdose": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 2.359439960082641
+    },
+    "Panic attack": {
+      "n_drugs": 6,
+      "female_higher": 0,
+      "male_higher": 6,
+      "mean_log_ratio": -0.6636498367182857
+    },
+    "Pain": {
+      "n_drugs": 6,
+      "female_higher": 2,
+      "male_higher": 4,
+      "mean_log_ratio": -0.013511039189845734
+    },
+    "Osteoarthritis": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.600817855656666
+    },
+    "Night sweats": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.6389508392624832
+    },
+    "Hypoaesthesia": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 0.9494368738370628
+    },
+    "Contraindicated product administered": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 2.2965729428345125
+    },
+    "Musculoskeletal stiffness": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.8607874245545155
+    },
+    "Mobility decreased": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.632361972679466
+    },
+    "Therapeutic product effect decreased": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 2.036194839031739
+    },
+    "Lung disorder": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.9444064009427278
+    },
+    "Liver disorder": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.400901345097606
+    },
+    "Joint swelling": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 2.3865252762161115
+    },
+    "Intentional product use issue": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 0.9753479228592042
+    },
+    "Nasopharyngitis": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 2.054559432500665
+    },
+    "Ill-defined disorder": {
+      "n_drugs": 6,
+      "female_higher": 3,
+      "male_higher": 3,
+      "mean_log_ratio": 0.6820799597272588
+    },
+    "Wound": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 2.075681713324758
+    },
+    "Asthenia": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1171708473957396
+    },
+    "Asthma": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 1.3790284973123308
+    },
+    "Blood pressure increased": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 0.49976808381351484
+    },
+    "Atrial fibrillation": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8444385432957962
+    },
+    "Blood creatinine increased": {
+      "n_drugs": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "mean_log_ratio": 1.046744436663827
+    },
+    "Blister": {
+      "n_drugs": 6,
+      "female_higher": 6,
+      "male_higher": 0,
+      "mean_log_ratio": 2.4587970104432606
+    },
+    "Migraine": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.671819179388464
+    },
+    "Physical disability": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6197346463094865
+    },
+    "Paraesthesia": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3505605898794115
+    },
+    "Pancreatitis": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1483961947107564
+    },
+    "Nervousness": {
+      "n_drugs": 5,
+      "female_higher": 1,
+      "male_higher": 4,
+      "mean_log_ratio": -0.2700279899717729
+    },
+    "Nephrolithiasis": {
+      "n_drugs": 5,
+      "female_higher": 1,
+      "male_higher": 4,
+      "mean_log_ratio": -1.1011026947298599
+    },
+    "Multiple organ dysfunction syndrome": {
+      "n_drugs": 5,
+      "female_higher": 3,
+      "male_higher": 2,
+      "mean_log_ratio": 0.002357531148914993
+    },
+    "Mood swings": {
+      "n_drugs": 5,
+      "female_higher": 0,
+      "male_higher": 5,
+      "mean_log_ratio": -0.8577163460235571
+    },
+    "Back injury": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.953857460687308
+    },
+    "Malaise": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8996543833841708
+    },
+    "Maternal exposure during pregnancy": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.4682965391103298
+    },
+    "Anaemia": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.929100589200268
+    },
+    "Lower limb fracture": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 1.1146084232751632
+    },
+    "Infusion related reaction": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 3.2919464246005306
+    },
+    "Influenza like illness": {
+      "n_drugs": 5,
+      "female_higher": 2,
+      "male_higher": 3,
+      "mean_log_ratio": -0.07598573089187402
+    },
+    "Bradycardia": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.33929096525318414
+    },
+    "Illness": {
+      "n_drugs": 5,
+      "female_higher": 1,
+      "male_higher": 4,
+      "mean_log_ratio": -0.35011278911426236
+    },
+    "Abdominal distension": {
+      "n_drugs": 5,
+      "female_higher": 3,
+      "male_higher": 2,
+      "mean_log_ratio": 0.48313861863568264
+    },
+    "Hot flush": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7895329311649818
+    },
+    "Hepatic cirrhosis": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.8348963516925287
+    },
+    "Hallucination": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5823003548495288
+    },
+    "General physical health deterioration": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0963702269991296
+    },
+    "Pneumonia aspiration": {
+      "n_drugs": 5,
+      "female_higher": 3,
+      "male_higher": 2,
+      "mean_log_ratio": 0.5500306643319635
+    },
+    "Prescription drug used without a prescription": {
+      "n_drugs": 5,
+      "female_higher": 1,
+      "male_higher": 4,
+      "mean_log_ratio": -0.3474587413955383
+    },
+    "Formication": {
+      "n_drugs": 5,
+      "female_higher": 0,
+      "male_higher": 5,
+      "mean_log_ratio": -0.8349855742266685
+    },
+    "Altered state of consciousness": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.4142650993944438
+    },
+    "Abdominal pain": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5383346502386501
+    },
+    "Vomiting": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6788943250482814
+    },
+    "Urinary retention": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7352400744902352
+    },
+    "Type 2 diabetes mellitus": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 2.2157647458408145
+    },
+    "Treatment noncompliance": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0252758246698028
+    },
+    "Toxic epidermal necrolysis": {
+      "n_drugs": 5,
+      "female_higher": 2,
+      "male_higher": 3,
+      "mean_log_ratio": -0.004668340494788615
+    },
+    "Accidental death": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.962151657880292
+    },
+    "Thrombocytopenia": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 1.5529832641828434
+    },
+    "Swelling": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 2.325147295886538
+    },
+    "Suspected suicide": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7869939422908678
+    },
+    "Suicidal behaviour": {
+      "n_drugs": 5,
+      "female_higher": 0,
+      "male_higher": 5,
+      "mean_log_ratio": -0.8578339827451529
+    },
+    "Acute kidney injury": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7744068108133124
+    },
+    "Acute myocardial infarction": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.191546077536901
+    },
+    "Skin ulcer": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0680088674462358
+    },
+    "Sinusitis": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.9110147427494233
+    },
+    "Septic shock": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.7242431350319383
+    },
+    "Restlessness": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.4528448933775969
+    },
+    "Respiratory disorder": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.4086219262779394
+    },
+    "Respiratory arrest": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.412683788756237
+    },
+    "Adverse event": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3259610789397072
+    },
+    "Renal failure": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.710195348327843
+    },
+    "Renal disorder": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7693773891973472
+    },
+    "Rash pruritic": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3255426740866914
+    },
+    "Pulmonary congestion": {
+      "n_drugs": 5,
+      "female_higher": 1,
+      "male_higher": 4,
+      "mean_log_ratio": -0.7480061098117414
+    },
+    "Psoriatic arthropathy": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 2.616125052311112
+    },
+    "Alanine aminotransferase increased": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2838301581186393
+    },
+    "Alopecia": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 1.367539521075114
+    },
+    "Gait disturbance": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8092675478324416
+    },
+    "Mood altered": {
+      "n_drugs": 5,
+      "female_higher": 0,
+      "male_higher": 5,
+      "mean_log_ratio": -0.8021191317317962
+    },
+    "Decreased appetite": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.135648738422198
+    },
+    "Chest pain": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1807994742994001
+    },
+    "Dysphagia": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8864006801977421
+    },
+    "Cerebrovascular accident": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9752693688393503
+    },
+    "Discomfort": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.6256783047711032
+    },
+    "Fibromyalgia": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 1.073573773946407
+    },
+    "Fall": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 0.23597888220614233
+    },
+    "Cardiomegaly": {
+      "n_drugs": 5,
+      "female_higher": 0,
+      "male_higher": 5,
+      "mean_log_ratio": -0.7996175604737037
+    },
+    "Dry mouth": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.31236194159308
+    },
+    "Cerebral disorder": {
+      "n_drugs": 5,
+      "female_higher": 0,
+      "male_higher": 5,
+      "mean_log_ratio": -0.8644446195845553
+    },
+    "Epilepsy": {
+      "n_drugs": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "mean_log_ratio": 1.830966708314562
+    },
+    "Fluid retention": {
+      "n_drugs": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "mean_log_ratio": 1.8900352445417312
+    },
+    "Delusion": {
+      "n_drugs": 5,
+      "female_higher": 3,
+      "male_higher": 2,
+      "mean_log_ratio": 0.15388797395996404
+    },
+    "Sensory disturbance": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": 0.12624974709798406
+    },
+    "Dysphonia": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0355436941204896
+    },
+    "Skin lesion": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.8503195324026132
+    },
+    "Neuralgia": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.5663165708644503
+    },
+    "Neuropathy peripheral": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5878575486758437
+    },
+    "Device leakage": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0215804954509113
+    },
+    "Myocardial infarction": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1192222601769075
+    },
+    "Seizure": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.19088298010481683
+    },
+    "Myalgia": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7648877028057596
+    },
+    "Autism spectrum disorder": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8518725649731235
+    },
+    "Constipation": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.46144724219517746
+    },
+    "Muscle spasms": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8633541377931347
+    },
+    "Economic problem": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0590920722709372
+    },
+    "Spinal fusion surgery": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.4743112645205339
+    },
+    "Staphylococcal infection": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": -0.033344298258897676
+    },
+    "Emotional disorder": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7073870520962371
+    },
+    "Stomatitis": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 2.4870681925116114
+    },
+    "Developmental delay": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6767619564334165
+    },
+    "Memory impairment": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5044997378942659
+    },
+    "Back pain": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.3764361071496035
+    },
+    "Encephalopathy": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0647787062128333
+    },
+    "Substance abuse": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5337573000125436
+    },
+    "Endocarditis": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.38069372627043896
+    },
+    "Acute hepatic failure": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.044908181317936
+    },
+    "Exposure to toxic agent": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": -0.051147308628246096
+    },
+    "Learning disability": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6397155784605661
+    },
+    "Movement disorder": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8146613872360973
+    },
+    "Aspartate aminotransferase increased": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.7980961836664155
+    },
+    "Nightmare": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -1.3316747749728524
+    },
+    "Post-traumatic stress disorder": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.4333187471561993
+    },
+    "Quality of life decreased": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -0.6359900284529508
+    },
+    "Psychotic disorder": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.4088614536838714
+    },
+    "Adverse reaction": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": 0.37144475725054316
+    },
+    "Psychomotor hyperactivity": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8812107959695673
+    },
+    "Rash erythematous": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3520362608934995
+    },
+    "Drug ineffective for unapproved indication": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.916290761974481
+    },
+    "Psoriasis": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 2.1574131736196387
+    },
+    "Productive cough": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.185233468679884
+    },
+    "Chest discomfort": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5593932451335724
+    },
+    "Cholestasis": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": 0.10895924083496095
+    },
+    "Drug level increased": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.5000310109222295
+    },
+    "Rectal haemorrhage": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 2.249425606524446
+    },
+    "Product dose omission issue": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8461964560594739
+    },
+    "Procedural pain": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.9239907299683056
+    },
+    "Drug dependence": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.2305681174559449
+    },
+    "No adverse event": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.02829171837739
+    },
+    "Anaphylactic reaction": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8015564834477866
+    },
+    "Ankle fracture": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -0.9241029243153156
+    },
+    "Dizziness": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8671117111627178
+    },
+    "Retching": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9187416585358708
+    },
+    "Rhabdomyolysis": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.650765079633328
+    },
+    "Pancreatitis acute": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.4099179087576855
+    },
+    "Cerebral haemorrhage": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7402121414392273
+    },
+    "Palpitations": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.5435839201940315
+    },
+    "Oxygen saturation decreased": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.684058135766739
+    },
+    "Osteoporosis": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 2.0193384730378012
+    },
+    "Schizophrenia": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0725190926978292
+    },
+    "Sciatica": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.5963347703381356
+    },
+    "Sedation": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": -0.47831136500222887
+    },
+    "Asphyxia": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -0.9655736581675274
+    },
+    "Knee operation": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -0.8229979324671934
+    },
+    "Lower respiratory tract infection": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.3755117255772353
+    },
+    "Swelling face": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.294317063045276
+    },
+    "Thrombosis": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.3057762200554887
+    },
+    "Hypoxic-ischaemic encephalopathy": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5856179339430065
+    },
+    "Hypoxia": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8177489144521665
+    },
+    "Tinnitus": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.33793536263648805
+    },
+    "Hyponatraemia": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.06906402101267206
+    },
+    "Hypokalaemia": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.4456182318885824
+    },
+    "Brain oedema": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": -0.07926390856140611
+    },
+    "Bronchitis": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8241178484045966
+    },
+    "Hypercholesterolaemia": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 2.6407282524305598
+    },
+    "Hyperaesthesia": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.5350513074263212
+    },
+    "Hormone level abnormal": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -1.2874889017431659
+    },
+    "Hip arthroplasty": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.5944589036907413
+    },
+    "Hiatus hernia": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.47193572003181594
+    },
+    "Herpes zoster": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5622037645168736
+    },
+    "Hernia": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8789434764403109
+    },
+    "Cyanosis": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": -0.009415315474891633
+    },
+    "Coma": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": 0.07332155002304186
+    },
+    "Upper respiratory tract infection": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 2.3190008311015204
+    },
+    "Vertigo": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": -0.06415197272645526
+    },
+    "Haemorrhage": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5632697177164109
+    },
+    "Haematuria": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.7404412019645028
+    },
+    "Haematemesis": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9671642396725251
+    },
+    "Cardiac failure": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8160347401679329
+    },
+    "Gastrointestinal disorder": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.400716747273147
+    },
+    "Contusion": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.6892658674838121
+    },
+    "Cardiac failure congestive": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6243435222979326
+    },
+    "White blood cell count increased": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2450996699160122
+    },
+    "Frequent bowel movements": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 2.173752533905538
+    },
+    "Ileus": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5219727021808919
+    },
+    "Affective disorder": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.0022491031068379574
+    },
+    "Intentional product misuse": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -0.9030188091765308
+    },
+    "Irritable bowel syndrome": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 1.7265280020758782
+    },
+    "Injection site pain": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.34358622577546133
+    },
+    "Accidental exposure to product by child": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.6080267044667312
+    },
+    "Therapeutic response decreased": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5663815655626627
+    },
+    "Influenza": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5356681751755803
+    },
+    "Tachycardia": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5234181456902254
+    },
+    "Faecaloma": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8768608856756341
+    },
+    "Intestinal obstruction": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6779437663742969
+    },
+    "Thinking abnormal": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -0.7510012998889186
+    },
+    "Synovitis": {
+      "n_drugs": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "mean_log_ratio": 1.3636251504872858
+    },
+    "Imprisonment": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8784479824946991
+    },
+    "Bone pain": {
+      "n_drugs": 4,
+      "female_higher": 1,
+      "male_higher": 3,
+      "mean_log_ratio": -0.31743282353343827
+    },
+    "Joint injury": {
+      "n_drugs": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "mean_log_ratio": -0.9913670419168706
+    },
+    "Joint dislocation": {
+      "n_drugs": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "mean_log_ratio": 0.5919492492459756
+    },
+    "Blood pressure decreased": {
+      "n_drugs": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5834373577485659
+    },
+    "Respiratory depression": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6954085345858813
+    },
+    "White blood cell count decreased": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7423705409121348
+    },
+    "Drug abuser": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.09939866732829035
+    },
+    "Coma scale abnormal": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.3633802389914836
+    },
+    "Abscess": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.8696264120019762
+    },
+    "Ventricular fibrillation": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9928738009077881
+    },
+    "Affect lability": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": 0.17609438553902768
+    },
+    "Abnormal behaviour": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.04815640280914139
+    },
+    "Abnormal dreams": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6402961221850757
+    },
+    "Convulsion": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6875455332089935
+    },
+    "Chronic kidney disease": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1403621380528606
+    },
+    "Depressed level of consciousness": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.26065092415132773
+    },
+    "Drug effect incomplete": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5910054323123095
+    },
+    "Substance dependence": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.83080971368607
+    },
+    "Visual impairment": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8146927183579921
+    },
+    "Dementia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8336806665659676
+    },
+    "Pulseless electrical activity": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7405808019339197
+    },
+    "Colitis ulcerative": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 2.0172475802618988
+    },
+    "Upper limb fracture": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.6616682634236821
+    },
+    "Therapy partial responder": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8960007927619936
+    },
+    "Skin discolouration": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.33628815284025376
+    },
+    "Dialysis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9051027066375577
+    },
+    "Colitis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.9988328818915158
+    },
+    "Sleep apnoea syndrome": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.11821349168957522
+    },
+    "Acute respiratory distress syndrome": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9164624492298601
+    },
+    "Decreased interest": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.6908084332881339
+    },
+    "Toothache": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.7387351031425697
+    },
+    "Throat tightness": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.21932214536540448
+    },
+    "Toxicity to various agents": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.8594304582986587
+    },
+    "Swollen tongue": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.7359350487473323
+    },
+    "Small intestinal obstruction": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0843836949680599
+    },
+    "Underdose": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.9674046482289194
+    },
+    "Accidental exposure to product": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.07306437462834518
+    },
+    "Scar": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.8819867127272344
+    },
+    "Accident": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.3079839200601399
+    },
+    "Device dislocation": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.908512181601946
+    },
+    "Rhinorrhoea": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.6368248264814976
+    },
+    "Acute respiratory failure": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1537023675411913
+    },
+    "Accidental poisoning": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.2613645884302253
+    },
+    "Skin disorder": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.014105439985059
+    },
+    "Adrenal insufficiency": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1632057386946768
+    },
+    "Ulcer": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.2937945911841809
+    },
+    "Transaminases increased": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9000620594932814
+    },
+    "Foot fracture": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.19436020076282778
+    },
+    "Pulmonary fibrosis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 2.855495857015891
+    },
+    "Hypoglycaemia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9563747534939945
+    },
+    "Bradypnoea": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.542599960503564
+    },
+    "Hypothermia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1049027318829665
+    },
+    "Hypotonia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9952118010816241
+    },
+    "Fear": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.6576035602398415
+    },
+    "Impaired healing": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 2.8089868754558807
+    },
+    "Inappropriate schedule of drug administration": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.20684982170195285
+    },
+    "Incoherent": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7513894630702401
+    },
+    "Incorrect route of product administration": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2231597452629315
+    },
+    "Blood pressure systolic increased": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.184602677203312
+    },
+    "Face oedema": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.37031488127332884
+    },
+    "Cardiovascular disorder": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.1566643466682731
+    },
+    "Injury": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.2997026481514235
+    },
+    "Interstitial lung disease": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.4406509537215412
+    },
+    "Intervertebral disc degeneration": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.8220593933391576
+    },
+    "Joint stiffness": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 2.504096166542738
+    },
+    "Blood glucose increased": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9910943971890417
+    },
+    "Knee arthroplasty": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2421755029900448
+    },
+    "Hypophagia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0230740807818761
+    },
+    "Brain injury": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.21635816983485914
+    },
+    "Choking": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6919846399034836
+    },
+    "Febrile neutropenia": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": -0.15718782670174777
+    },
+    "Fungal infection": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.5404588516604366
+    },
+    "Gamma-glutamyltransferase increased": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9151263118923988
+    },
+    "Gastric ulcer": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7287307812574694
+    },
+    "Flatulence": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5864577336014416
+    },
+    "Haematochezia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 2.434566207264241
+    },
+    "Haemodynamic instability": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8308462473990682
+    },
+    "Haemoglobin decreased": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2548418005415574
+    },
+    "Hallucination, auditory": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.811659389160419
+    },
+    "Hallucination, visual": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.15230001192527567
+    },
+    "Cancer pain": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8946707597872988
+    },
+    "Feeling hot": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2013480633716138
+    },
+    "Hepatic cytolysis": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.5780276350181127
+    },
+    "Burning sensation": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.3395973417976131
+    },
+    "Hepatic failure": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5448925720072083
+    },
+    "Hepatitis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 2.102873947605496
+    },
+    "Hepatocellular injury": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7338502751346937
+    },
+    "Hepatotoxicity": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0048925413942422
+    },
+    "Cellulitis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.6699309590947905
+    },
+    "Loss of personal independence in daily activities": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.6736339695625947
+    },
+    "Blindness": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -1.0655409007193113
+    },
+    "Malignant neoplasm progression": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0997779948631112
+    },
+    "Arteriosclerosis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7948813185260538
+    },
+    "Aphasia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.357210940180727
+    },
+    "Anxiety": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.30468737681352626
+    },
+    "Ankylosing spondylitis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.1168785560601913
+    },
+    "Dysarthria": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.40933237693584695
+    },
+    "Paralysis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8895907762727573
+    },
+    "Parkinson's disease": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9049113702728745
+    },
+    "Peripheral coldness": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7009949142180961
+    },
+    "Platelet count decreased": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.37595974914669655
+    },
+    "Drug-induced liver injury": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 2.6350312345307816
+    },
+    "Poisoning": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.5521898484780612
+    },
+    "Drug reaction with eosinophilia and systemic symptoms": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.3356715538948509
+    },
+    "Product adhesion issue": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.8560889899467893
+    },
+    "Product prescribing issue": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.6539079899982697
+    },
+    "Product use in unapproved indication": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.6786060015687745
+    },
+    "Agitation": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.12006311815199178
+    },
+    "Psychomotor skills impaired": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8609979369525732
+    },
+    "Cardiogenic shock": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": -0.02344639712945999
+    },
+    "Arthritis": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.2080737251606524
+    },
+    "Ascites": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.07991066550549815
+    },
+    "Eating disorder": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0554228078533412
+    },
+    "Mania": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.20463373343987545
+    },
+    "Emotional distress": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.17770018568591026
+    },
+    "Miosis": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.14191814980049078
+    },
+    "Confusional state": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.0975248154842328
+    },
+    "Electrocardiogram QT prolonged": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.3265903926449888
+    },
+    "Motor dysfunction": {
+      "n_drugs": 3,
+      "female_higher": 1,
+      "male_higher": 2,
+      "mean_log_ratio": -0.12009586623383368
+    },
+    "Multiple fractures": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.7581736872083479
+    },
+    "Atelectasis": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.1939476432564652
+    },
+    "Neutropenia": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.19347949697747743
+    },
+    "Myoclonus": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.5869286738510987
+    },
+    "Narcotic bowel syndrome": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.6365187484151674
+    },
+    "Ataxia": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 0.8906989613635053
+    },
+    "Near death experience": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.5831702753800555
+    },
+    "Dysstasia": {
+      "n_drugs": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "mean_log_ratio": 0.250690240782893
+    },
+    "Neoplasm progression": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.785538537611771
+    },
+    "Nerve injury": {
+      "n_drugs": 3,
+      "female_higher": 0,
+      "male_higher": 3,
+      "mean_log_ratio": -0.6867834610979081
+    },
+    "Orthostatic hypotension": {
+      "n_drugs": 3,
+      "female_higher": 3,
+      "male_higher": 0,
+      "mean_log_ratio": 1.968139091332616
+    }
+  }
+}

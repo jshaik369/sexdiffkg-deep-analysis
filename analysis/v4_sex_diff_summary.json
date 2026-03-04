@@ -1,0 +1,222 @@
+{
+  "total_signals": 183539,
+  "strong_signals": 183539,
+  "unique_drugs": 3441,
+  "unique_aes": 5658,
+  "top_female_biased_aes": [
+    {
+      "pt": "Blood HIV RNA increased",
+      "n_f_biased": 28,
+      "n_strong": 28,
+      "n_drugs": 28,
+      "mean_bias": 1.3997719691214454
+    },
+    {
+      "pt": "Device power source issue",
+      "n_f_biased": 25,
+      "n_strong": 25,
+      "n_drugs": 25,
+      "mean_bias": 0.9528322735403932
+    },
+    {
+      "pt": "Fungaemia",
+      "n_f_biased": 24,
+      "n_strong": 24,
+      "n_drugs": 24,
+      "mean_bias": 1.029449575797423
+    },
+    {
+      "pt": "Haemarthrosis",
+      "n_f_biased": 79,
+      "n_strong": 79,
+      "n_drugs": 79,
+      "mean_bias": 1.84464427302407
+    },
+    {
+      "pt": "Hepatitis B reactivation",
+      "n_f_biased": 27,
+      "n_strong": 27,
+      "n_drugs": 27,
+      "mean_bias": 0.9912033349992436
+    },
+    {
+      "pt": "Leukaemia recurrent",
+      "n_f_biased": 21,
+      "n_strong": 21,
+      "n_drugs": 21,
+      "mean_bias": 0.875054733060564
+    },
+    {
+      "pt": "Muscle haemorrhage",
+      "n_f_biased": 54,
+      "n_strong": 54,
+      "n_drugs": 54,
+      "mean_bias": 1.154585156528037
+    },
+    {
+      "pt": "Skeletal injury",
+      "n_f_biased": 59,
+      "n_strong": 59,
+      "n_drugs": 59,
+      "mean_bias": 1.0041353273096993
+    },
+    {
+      "pt": "Traumatic haemorrhage",
+      "n_f_biased": 21,
+      "n_strong": 21,
+      "n_drugs": 21,
+      "mean_bias": 1.2173717434607165
+    },
+    {
+      "pt": "Viral load increased",
+      "n_f_biased": 50,
+      "n_strong": 50,
+      "n_drugs": 50,
+      "mean_bias": 1.2588436043100275
+    }
+  ],
+  "top_male_biased_aes": [
+    {
+      "pt": "Addison's disease",
+      "n_m_biased": 20,
+      "n_strong": 20,
+      "n_drugs": 20,
+      "mean_bias": -1.0534325049954805
+    },
+    {
+      "pt": "Blood thyroid stimulating hormone decreased",
+      "n_m_biased": 29,
+      "n_strong": 29,
+      "n_drugs": 29,
+      "mean_bias": -1.0372186897930284
+    },
+    {
+      "pt": "Breast pain",
+      "n_m_biased": 42,
+      "n_strong": 42,
+      "n_drugs": 42,
+      "mean_bias": -0.9707195675160543
+    },
+    {
+      "pt": "Breast tenderness",
+      "n_m_biased": 23,
+      "n_strong": 23,
+      "n_drugs": 23,
+      "mean_bias": -1.4177644355528023
+    },
+    {
+      "pt": "Complication associated with device",
+      "n_m_biased": 149,
+      "n_strong": 149,
+      "n_drugs": 149,
+      "mean_bias": -1.1769747656703542
+    },
+    {
+      "pt": "Dermal cyst",
+      "n_m_biased": 21,
+      "n_strong": 21,
+      "n_drugs": 21,
+      "mean_bias": -0.7432123382176846
+    },
+    {
+      "pt": "Device dislocation",
+      "n_m_biased": 246,
+      "n_strong": 246,
+      "n_drugs": 246,
+      "mean_bias": -1.8014442683684977
+    },
+    {
+      "pt": "Device kink",
+      "n_m_biased": 33,
+      "n_strong": 33,
+      "n_drugs": 33,
+      "mean_bias": -1.5631095788491245
+    },
+    {
+      "pt": "Electric shock sensation",
+      "n_m_biased": 24,
+      "n_strong": 24,
+      "n_drugs": 24,
+      "mean_bias": -0.9559430196050887
+    },
+    {
+      "pt": "Fear of disease",
+      "n_m_biased": 20,
+      "n_strong": 20,
+      "n_drugs": 20,
+      "mean_bias": -1.3018735363973424
+    }
+  ],
+  "top_differential_drugs": [
+    {
+      "drug_name": "PREDNISONE",
+      "n_strong": 1091,
+      "n_f_biased": 721,
+      "n_m_biased": 370,
+      "n_aes": 1091
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "n_strong": 950,
+      "n_f_biased": 404,
+      "n_m_biased": 546,
+      "n_aes": 950
+    },
+    {
+      "drug_name": "ACETAMINOPHEN",
+      "n_strong": 847,
+      "n_f_biased": 550,
+      "n_m_biased": 297,
+      "n_aes": 847
+    },
+    {
+      "drug_name": "ADALIMUMAB",
+      "n_strong": 827,
+      "n_f_biased": 321,
+      "n_m_biased": 506,
+      "n_aes": 827
+    },
+    {
+      "drug_name": "ASPIRIN",
+      "n_strong": 822,
+      "n_f_biased": 591,
+      "n_m_biased": 231,
+      "n_aes": 822
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "n_strong": 795,
+      "n_f_biased": 538,
+      "n_m_biased": 257,
+      "n_aes": 795
+    },
+    {
+      "drug_name": "RANITIDINE HYDROCHLORIDE",
+      "n_strong": 788,
+      "n_f_biased": 775,
+      "n_m_biased": 13,
+      "n_aes": 788
+    },
+    {
+      "drug_name": "FUROSEMIDE",
+      "n_strong": 738,
+      "n_f_biased": 537,
+      "n_m_biased": 201,
+      "n_aes": 738
+    },
+    {
+      "drug_name": "FOLIC ACID",
+      "n_strong": 721,
+      "n_f_biased": 279,
+      "n_m_biased": 442,
+      "n_aes": 721
+    },
+    {
+      "drug_name": "PREDNISOLONE",
+      "n_strong": 720,
+      "n_f_biased": 569,
+      "n_m_biased": 151,
+      "n_aes": 720
+    }
+  ]
+}

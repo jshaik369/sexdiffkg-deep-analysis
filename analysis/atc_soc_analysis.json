@@ -1,0 +1,477 @@
+{
+  "analysis": "ATC/SOC sex-differential cross-analysis",
+  "signals_total": 96281,
+  "atc_coverage": "1424/2178 drugs (65.4%)",
+  "atc_merged_rows": 137665,
+  "note": "merged_rows > signals because one drug can have multiple ATC codes",
+  "atc_level1": {
+    "L": {
+      "name": "Antineoplastic/Immunomod",
+      "total": 27627,
+      "female_higher": 15972,
+      "male_higher": 11655,
+      "pct_female": 57.8,
+      "n_drugs": 318,
+      "mean_logR": 0.1917
+    },
+    "N": {
+      "name": "Nervous System",
+      "total": 22425,
+      "female_higher": 13046,
+      "male_higher": 9379,
+      "pct_female": 58.2,
+      "n_drugs": 272,
+      "mean_logR": 0.2213
+    },
+    "A": {
+      "name": "Alimentary/Metabolism",
+      "total": 13848,
+      "female_higher": 8067,
+      "male_higher": 5781,
+      "pct_female": 58.3,
+      "n_drugs": 171,
+      "mean_logR": 0.1936
+    },
+    "S": {
+      "name": "Sensory Organs",
+      "total": 12626,
+      "female_higher": 7299,
+      "male_higher": 5327,
+      "pct_female": 57.8,
+      "n_drugs": 117,
+      "mean_logR": 0.1751
+    },
+    "R": {
+      "name": "Respiratory",
+      "total": 11494,
+      "female_higher": 5648,
+      "male_higher": 5846,
+      "pct_female": 49.1,
+      "n_drugs": 89,
+      "mean_logR": -0.0057
+    },
+    "C": {
+      "name": "Cardiovascular",
+      "total": 11455,
+      "female_higher": 6256,
+      "male_higher": 5199,
+      "pct_female": 54.6,
+      "n_drugs": 145,
+      "mean_logR": 0.1232
+    },
+    "D": {
+      "name": "Dermatologicals",
+      "total": 10889,
+      "female_higher": 6108,
+      "male_higher": 4781,
+      "pct_female": 56.1,
+      "n_drugs": 110,
+      "mean_logR": 0.1655
+    },
+    "J": {
+      "name": "Anti-infectives",
+      "total": 7424,
+      "female_higher": 4298,
+      "male_higher": 3126,
+      "pct_female": 57.9,
+      "n_drugs": 162,
+      "mean_logR": 0.1429
+    },
+    "M": {
+      "name": "Musculoskeletal",
+      "total": 6389,
+      "female_higher": 3292,
+      "male_higher": 3097,
+      "pct_female": 51.5,
+      "n_drugs": 60,
+      "mean_logR": 0.114
+    },
+    "H": {
+      "name": "Systemic Hormones",
+      "total": 4928,
+      "female_higher": 3202,
+      "male_higher": 1726,
+      "pct_female": 65.0,
+      "n_drugs": 41,
+      "mean_logR": 0.3843
+    },
+    "B": {
+      "name": "Blood",
+      "total": 4074,
+      "female_higher": 2244,
+      "male_higher": 1830,
+      "pct_female": 55.1,
+      "n_drugs": 75,
+      "mean_logR": 0.0391
+    },
+    "G": {
+      "name": "Genito-urinary/Sex hormones",
+      "total": 2446,
+      "female_higher": 1269,
+      "male_higher": 1177,
+      "pct_female": 51.9,
+      "n_drugs": 62,
+      "mean_logR": 0.0466
+    },
+    "V": {
+      "name": "Various",
+      "total": 1060,
+      "female_higher": 472,
+      "male_higher": 588,
+      "pct_female": 44.5,
+      "n_drugs": 56,
+      "mean_logR": -0.1814
+    },
+    "P": {
+      "name": "Antiparasitic",
+      "total": 980,
+      "female_higher": 356,
+      "male_higher": 624,
+      "pct_female": 36.3,
+      "n_drugs": 16,
+      "mean_logR": -0.2965
+    }
+  },
+  "soc_summary": {
+    "Unclassified": {
+      "total": 23760,
+      "female_higher": 12392,
+      "male_higher": 11368,
+      "pct_female": 52.2,
+      "n_aes": 1798
+    },
+    "General disorders and administration site conditions": {
+      "total": 9811,
+      "female_higher": 4930,
+      "male_higher": 4881,
+      "pct_female": 50.2,
+      "n_aes": 261
+    },
+    "Investigations": {
+      "total": 6046,
+      "female_higher": 3519,
+      "male_higher": 2527,
+      "pct_female": 58.2,
+      "n_aes": 361
+    },
+    "Infections and infestations": {
+      "total": 5736,
+      "female_higher": 3237,
+      "male_higher": 2499,
+      "pct_female": 56.4,
+      "n_aes": 372
+    },
+    "Gastrointestinal disorders": {
+      "total": 5533,
+      "female_higher": 2989,
+      "male_higher": 2544,
+      "pct_female": 54.0,
+      "n_aes": 199
+    },
+    "Respiratory, thoracic and mediastinal disorders": {
+      "total": 4967,
+      "female_higher": 2486,
+      "male_higher": 2481,
+      "pct_female": 50.1,
+      "n_aes": 115
+    },
+    "Nervous system disorders": {
+      "total": 4614,
+      "female_higher": 2353,
+      "male_higher": 2261,
+      "pct_female": 51.0,
+      "n_aes": 139
+    },
+    "Psychiatric disorders": {
+      "total": 4406,
+      "female_higher": 2437,
+      "male_higher": 1969,
+      "pct_female": 55.3,
+      "n_aes": 111
+    },
+    "Injury, poisoning and procedural complications": {
+      "total": 4094,
+      "female_higher": 2352,
+      "male_higher": 1742,
+      "pct_female": 57.4,
+      "n_aes": 201
+    },
+    "Skin and subcutaneous tissue disorders": {
+      "total": 4087,
+      "female_higher": 1829,
+      "male_higher": 2258,
+      "pct_female": 44.8,
+      "n_aes": 141
+    },
+    "Musculoskeletal and connective tissue disorders": {
+      "total": 3571,
+      "female_higher": 1756,
+      "male_higher": 1815,
+      "pct_female": 49.2,
+      "n_aes": 103
+    },
+    "Cardiac disorders": {
+      "total": 3196,
+      "female_higher": 2080,
+      "male_higher": 1116,
+      "pct_female": 65.1,
+      "n_aes": 117
+    },
+    "Renal and urinary disorders": {
+      "total": 2266,
+      "female_higher": 1523,
+      "male_higher": 743,
+      "pct_female": 67.2,
+      "n_aes": 104
+    },
+    "Neoplasms benign, malignant and unspecified": {
+      "total": 2068,
+      "female_higher": 1320,
+      "male_higher": 748,
+      "pct_female": 63.8,
+      "n_aes": 274
+    },
+    "Vascular disorders": {
+      "total": 1969,
+      "female_higher": 1246,
+      "male_higher": 723,
+      "pct_female": 63.3,
+      "n_aes": 108
+    },
+    "Eye disorders": {
+      "total": 1914,
+      "female_higher": 619,
+      "male_higher": 1295,
+      "pct_female": 32.3,
+      "n_aes": 134
+    },
+    "Hepatobiliary disorders": {
+      "total": 1825,
+      "female_higher": 1141,
+      "male_higher": 684,
+      "pct_female": 62.5,
+      "n_aes": 60
+    },
+    "Blood and lymphatic system disorders": {
+      "total": 1540,
+      "female_higher": 889,
+      "male_higher": 651,
+      "pct_female": 57.7,
+      "n_aes": 77
+    },
+    "Metabolism and nutrition disorders": {
+      "total": 1461,
+      "female_higher": 935,
+      "male_higher": 526,
+      "pct_female": 64.0,
+      "n_aes": 41
+    },
+    "Immune system disorders": {
+      "total": 870,
+      "female_higher": 552,
+      "male_higher": 318,
+      "pct_female": 63.4,
+      "n_aes": 48
+    },
+    "Product issues": {
+      "total": 546,
+      "female_higher": 183,
+      "male_higher": 363,
+      "pct_female": 33.5,
+      "n_aes": 85
+    },
+    "Pregnancy, puerperium and perinatal conditions": {
+      "total": 535,
+      "female_higher": 305,
+      "male_higher": 230,
+      "pct_female": 57.0,
+      "n_aes": 36
+    },
+    "Ear and labyrinth disorders": {
+      "total": 509,
+      "female_higher": 185,
+      "male_higher": 324,
+      "pct_female": 36.3,
+      "n_aes": 30
+    },
+    "Surgical and medical procedures": {
+      "total": 351,
+      "female_higher": 206,
+      "male_higher": 145,
+      "pct_female": 58.7,
+      "n_aes": 45
+    },
+    "Endocrine disorders": {
+      "total": 256,
+      "female_higher": 117,
+      "male_higher": 139,
+      "pct_female": 45.7,
+      "n_aes": 39
+    },
+    "Reproductive system and breast disorders": {
+      "total": 155,
+      "female_higher": 53,
+      "male_higher": 102,
+      "pct_female": 34.2,
+      "n_aes": 24
+    },
+    "Social circumstances": {
+      "total": 103,
+      "female_higher": 83,
+      "male_higher": 20,
+      "pct_female": 80.6,
+      "n_aes": 10
+    },
+    "Congenital, familial and genetic disorders": {
+      "total": 92,
+      "female_higher": 54,
+      "male_higher": 38,
+      "pct_female": 58.7,
+      "n_aes": 36
+    }
+  },
+  "top_female_biased_l2": [
+    {
+      "code": "J02",
+      "name": "ANTIMYCOTICS FOR SYSTEMIC USE",
+      "total": 611,
+      "pct_female": 75.6,
+      "n_drugs": 12
+    },
+    {
+      "code": "J04",
+      "name": "ANTIMYCOBACTERIALS",
+      "total": 640,
+      "pct_female": 74.2,
+      "n_drugs": 18
+    },
+    {
+      "code": "H02",
+      "name": "CORTICOSTEROIDS FOR SYSTEMIC USE",
+      "total": 4071,
+      "pct_female": 69.2,
+      "n_drugs": 13
+    },
+    {
+      "code": "A01",
+      "name": "STOMATOLOGICAL PREPARATIONS",
+      "total": 3533,
+      "pct_female": 68.6,
+      "n_drugs": 21
+    },
+    {
+      "code": "S03",
+      "name": "OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS",
+      "total": 1663,
+      "pct_female": 67.4,
+      "n_drugs": 10
+    },
+    {
+      "code": "N02",
+      "name": "ANALGESICS",
+      "total": 8001,
+      "pct_female": 66.4,
+      "n_drugs": 41
+    },
+    {
+      "code": "G04",
+      "name": "UROLOGICALS",
+      "total": 930,
+      "pct_female": 65.9,
+      "n_drugs": 22
+    },
+    {
+      "code": "C05",
+      "name": "VASOPROTECTIVES",
+      "total": 2287,
+      "pct_female": 65.5,
+      "n_drugs": 17
+    },
+    {
+      "code": "B01",
+      "name": "ANTITHROMBOTIC AGENTS",
+      "total": 2705,
+      "pct_female": 65.1,
+      "n_drugs": 34
+    },
+    {
+      "code": "V03",
+      "name": "ALL OTHER THERAPEUTIC PRODUCTS",
+      "total": 546,
+      "pct_female": 65.0,
+      "n_drugs": 27
+    }
+  ],
+  "top_male_biased_l2": [
+    {
+      "code": "A11",
+      "name": "VITAMINS",
+      "total": 87,
+      "pct_female": 28.7,
+      "n_drugs": 5
+    },
+    {
+      "code": "V04",
+      "name": "DIAGNOSTIC AGENTS",
+      "total": 203,
+      "pct_female": 26.1,
+      "n_drugs": 9
+    },
+    {
+      "code": "A16",
+      "name": "OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS",
+      "total": 394,
+      "pct_female": 25.1,
+      "n_drugs": 28
+    },
+    {
+      "code": "D05",
+      "name": "ANTIPSORIATICS",
+      "total": 233,
+      "pct_female": 24.9,
+      "n_drugs": 8
+    },
+    {
+      "code": "A12",
+      "name": "MINERAL SUPPLEMENTS",
+      "total": 234,
+      "pct_female": 24.4,
+      "n_drugs": 8
+    },
+    {
+      "code": "V08",
+      "name": "CONTRAST MEDIA",
+      "total": 237,
+      "pct_female": 20.7,
+      "n_drugs": 17
+    },
+    {
+      "code": "V06",
+      "name": "GENERAL NUTRIENTS",
+      "total": 70,
+      "pct_female": 20.0,
+      "n_drugs": 1
+    },
+    {
+      "code": "G03",
+      "name": "SEX HORMONES AND MODULATORS OF THE GENITAL SYSTEM",
+      "total": 232,
+      "pct_female": 19.8,
+      "n_drugs": 13
+    },
+    {
+      "code": "B06",
+      "name": "OTHER HEMATOLOGICAL AGENTS",
+      "total": 72,
+      "pct_female": 19.4,
+      "n_drugs": 9
+    },
+    {
+      "code": "P02",
+      "name": "ANTHELMINTICS",
+      "total": 85,
+      "pct_female": 14.1,
+      "n_drugs": 4
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+gene_symbol	ensembl_id	total_drugs	female_biased_drugs	male_biased_drugs	total_signals	f_signals	m_signals	female_fraction	sex_bias_score	mean_log_ratio	median_log_ratio
+CHRM2	ENSG00000181072	5	2	5	85	19	66	0.4	-0.6	-0.7067	-0.9757
+PGR	ENSG00000082175	5	2	5	65	2	63	0.4	-0.6	-1.5822	-1.0784
+AR	ENSG00000169083	7	7	3	63	45	18	1.0	0.5714	1.3003	1.6449

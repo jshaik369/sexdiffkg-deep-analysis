@@ -1,0 +1,329 @@
+{
+  "total_mh_signals": 10799,
+  "strong_mh_signals": 10799,
+  "f_biased": 6107,
+  "m_biased": 4692,
+  "unique_drugs": 1735,
+  "unique_mh_aes": 187,
+  "coverage_pct": 5.9,
+  "top_mh_aes": [
+    {
+      "pt": "Anxiety",
+      "n_signals": 412,
+      "n_drugs": 412,
+      "mean_bias": -0.24606493477635827,
+      "n_strong": 412
+    },
+    {
+      "pt": "Decreased appetite",
+      "n_signals": 356,
+      "n_drugs": 356,
+      "mean_bias": 0.382114111886337,
+      "n_strong": 356
+    },
+    {
+      "pt": "Insomnia",
+      "n_signals": 348,
+      "n_drugs": 348,
+      "mean_bias": 0.10983533148472097,
+      "n_strong": 348
+    },
+    {
+      "pt": "Confusional state",
+      "n_signals": 343,
+      "n_drugs": 343,
+      "mean_bias": 0.37892134976056585,
+      "n_strong": 343
+    },
+    {
+      "pt": "Depression",
+      "n_signals": 341,
+      "n_drugs": 341,
+      "mean_bias": 0.14050010896273799,
+      "n_strong": 341
+    },
+    {
+      "pt": "Somnolence",
+      "n_signals": 329,
+      "n_drugs": 329,
+      "mean_bias": -0.3046357660905384,
+      "n_strong": 329
+    },
+    {
+      "pt": "Sleep disorder",
+      "n_signals": 306,
+      "n_drugs": 306,
+      "mean_bias": 0.22281448568804377,
+      "n_strong": 306
+    },
+    {
+      "pt": "Loss of personal independence in daily activities",
+      "n_signals": 289,
+      "n_drugs": 289,
+      "mean_bias": -0.46206886281780396,
+      "n_strong": 289
+    },
+    {
+      "pt": "Emotional distress",
+      "n_signals": 284,
+      "n_drugs": 284,
+      "mean_bias": 0.4866327020094193,
+      "n_strong": 284
+    },
+    {
+      "pt": "Drug abuse",
+      "n_signals": 263,
+      "n_drugs": 263,
+      "mean_bias": 0.617334504842031,
+      "n_strong": 263
+    },
+    {
+      "pt": "Hallucination",
+      "n_signals": 243,
+      "n_drugs": 243,
+      "mean_bias": 0.43001108150592077,
+      "n_strong": 243
+    },
+    {
+      "pt": "Delirium",
+      "n_signals": 241,
+      "n_drugs": 241,
+      "mean_bias": 0.8488836207753834,
+      "n_strong": 241
+    },
+    {
+      "pt": "Memory impairment",
+      "n_signals": 239,
+      "n_drugs": 239,
+      "mean_bias": 0.15198453033692308,
+      "n_strong": 239
+    },
+    {
+      "pt": "Stress",
+      "n_signals": 231,
+      "n_drugs": 231,
+      "mean_bias": -0.9382029490643218,
+      "n_strong": 231
+    },
+    {
+      "pt": "Drug dependence",
+      "n_signals": 213,
+      "n_drugs": 213,
+      "mean_bias": 0.714826527884492,
+      "n_strong": 213
+    },
+    {
+      "pt": "Emotional disorder",
+      "n_signals": 205,
+      "n_drugs": 205,
+      "mean_bias": 0.8435813239197677,
+      "n_strong": 205
+    },
+    {
+      "pt": "Cognitive disorder",
+      "n_signals": 192,
+      "n_drugs": 192,
+      "mean_bias": 0.45723556214188904,
+      "n_strong": 192
+    },
+    {
+      "pt": "Depressed level of consciousness",
+      "n_signals": 185,
+      "n_drugs": 185,
+      "mean_bias": 0.5582323805126317,
+      "n_strong": 185
+    },
+    {
+      "pt": "Agitation",
+      "n_signals": 179,
+      "n_drugs": 179,
+      "mean_bias": 0.2864331712692714,
+      "n_strong": 179
+    },
+    {
+      "pt": "Suicidal ideation",
+      "n_signals": 169,
+      "n_drugs": 169,
+      "mean_bias": 0.04817246657881496,
+      "n_strong": 169
+    },
+    {
+      "pt": "Completed suicide",
+      "n_signals": 167,
+      "n_drugs": 167,
+      "mean_bias": -0.12469703215074845,
+      "n_strong": 167
+    },
+    {
+      "pt": "Psychotic disorder",
+      "n_signals": 162,
+      "n_drugs": 162,
+      "mean_bias": 0.43948591450109786,
+      "n_strong": 162
+    },
+    {
+      "pt": "Nightmare",
+      "n_signals": 150,
+      "n_drugs": 150,
+      "mean_bias": -0.7513138954638319,
+      "n_strong": 150
+    },
+    {
+      "pt": "Acute respiratory distress syndrome",
+      "n_signals": 149,
+      "n_drugs": 149,
+      "mean_bias": 0.4817169534999907,
+      "n_strong": 149
+    },
+    {
+      "pt": "Sleep apnoea syndrome",
+      "n_signals": 148,
+      "n_drugs": 148,
+      "mean_bias": 0.5317242347905201,
+      "n_strong": 148
+    }
+  ],
+  "top_mh_drugs": [
+    {
+      "drug_name": "RISPERIDONE",
+      "n_mh_signals": 64,
+      "n_mh_aes": 64,
+      "mean_mh_bias": 0.7632627012490524,
+      "n_strong": 64
+    },
+    {
+      "drug_name": "RANITIDINE HYDROCHLORIDE",
+      "n_mh_signals": 46,
+      "n_mh_aes": 46,
+      "mean_mh_bias": 1.0321459209492436,
+      "n_strong": 46
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "n_mh_signals": 45,
+      "n_mh_aes": 45,
+      "mean_mh_bias": 0.7869770895079109,
+      "n_strong": 45
+    },
+    {
+      "drug_name": "RAMIPRIL",
+      "n_mh_signals": 40,
+      "n_mh_aes": 40,
+      "mean_mh_bias": 0.7912125410675268,
+      "n_strong": 40
+    },
+    {
+      "drug_name": "ACETAMINOPHEN",
+      "n_mh_signals": 37,
+      "n_mh_aes": 37,
+      "mean_mh_bias": 0.6066380491619024,
+      "n_strong": 37
+    },
+    {
+      "drug_name": "OLANZAPINE",
+      "n_mh_signals": 37,
+      "n_mh_aes": 37,
+      "mean_mh_bias": 0.1972800665599761,
+      "n_strong": 37
+    },
+    {
+      "drug_name": "METHYLPREDNISOLONE",
+      "n_mh_signals": 36,
+      "n_mh_aes": 36,
+      "mean_mh_bias": 0.8686804591907742,
+      "n_strong": 36
+    },
+    {
+      "drug_name": "ASPIRIN",
+      "n_mh_signals": 35,
+      "n_mh_aes": 35,
+      "mean_mh_bias": 0.5962820970250737,
+      "n_strong": 35
+    },
+    {
+      "drug_name": "CITALOPRAM HYDROBROMIDE",
+      "n_mh_signals": 35,
+      "n_mh_aes": 35,
+      "mean_mh_bias": -0.5539210741555045,
+      "n_strong": 35
+    },
+    {
+      "drug_name": "MONTELUKAST SODIUM",
+      "n_mh_signals": 34,
+      "n_mh_aes": 34,
+      "mean_mh_bias": -0.5530789311268612,
+      "n_strong": 34
+    },
+    {
+      "drug_name": "LANSOPRAZOLE",
+      "n_mh_signals": 34,
+      "n_mh_aes": 34,
+      "mean_mh_bias": 0.44016819690224507,
+      "n_strong": 34
+    },
+    {
+      "drug_name": "QUETIAPINE",
+      "n_mh_signals": 34,
+      "n_mh_aes": 34,
+      "mean_mh_bias": 0.11266355928822974,
+      "n_strong": 34
+    },
+    {
+      "drug_name": "PREDNISOLONE",
+      "n_mh_signals": 34,
+      "n_mh_aes": 34,
+      "mean_mh_bias": 0.8518628959027468,
+      "n_strong": 34
+    },
+    {
+      "drug_name": "ARIPIPRAZOLE",
+      "n_mh_signals": 33,
+      "n_mh_aes": 33,
+      "mean_mh_bias": 0.1365038942624903,
+      "n_strong": 33
+    },
+    {
+      "drug_name": "CALCIUM CARBONATE",
+      "n_mh_signals": 32,
+      "n_mh_aes": 32,
+      "mean_mh_bias": 0.671821691050398,
+      "n_strong": 32
+    },
+    {
+      "drug_name": "QUETIAPINE FUMARATE",
+      "n_mh_signals": 32,
+      "n_mh_aes": 32,
+      "mean_mh_bias": -0.16649007116656722,
+      "n_strong": 32
+    },
+    {
+      "drug_name": "FLUOXETINE HYDROCHLORIDE",
+      "n_mh_signals": 32,
+      "n_mh_aes": 32,
+      "mean_mh_bias": -0.5892606567127777,
+      "n_strong": 32
+    },
+    {
+      "drug_name": "OXYCODONE HYDROCHLORIDE",
+      "n_mh_signals": 31,
+      "n_mh_aes": 31,
+      "mean_mh_bias": 0.43681578135117094,
+      "n_strong": 31
+    },
+    {
+      "drug_name": "PALIPERIDONE",
+      "n_mh_signals": 31,
+      "n_mh_aes": 31,
+      "mean_mh_bias": 1.079030771816599,
+      "n_strong": 31
+    },
+    {
+      "drug_name": "ESCITALOPRAM OXALATE",
+      "n_mh_signals": 31,
+      "n_mh_aes": 31,
+      "mean_mh_bias": -0.6799825052484799,
+      "n_strong": 31
+    }
+  ],
+  "feasibility": "HIGH"
+}

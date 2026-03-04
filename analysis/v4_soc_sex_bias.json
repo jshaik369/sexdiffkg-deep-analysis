@@ -1,0 +1,562 @@
+{
+  "Cardiac": {
+    "n_aes": 142,
+    "n_signals": 5724,
+    "mean_bias": 0.2733,
+    "direction": "F",
+    "f_strong": 3863,
+    "m_strong": 1861,
+    "top_aes": [
+      {
+        "ae": "Myocardial infarction",
+        "n_signals": 310,
+        "mean_bias": 0.596
+      },
+      {
+        "ae": "Cardiac failure",
+        "n_signals": 304,
+        "mean_bias": 0.61
+      },
+      {
+        "ae": "Cardiac arrest",
+        "n_signals": 287,
+        "mean_bias": 0.473
+      },
+      {
+        "ae": "Atrial fibrillation",
+        "n_signals": 257,
+        "mean_bias": 0.234
+      },
+      {
+        "ae": "Tachycardia",
+        "n_signals": 254,
+        "mean_bias": 0.154
+      }
+    ]
+  },
+  "Dermatologic": {
+    "n_aes": 152,
+    "n_signals": 6724,
+    "mean_bias": 0.0091,
+    "direction": "F",
+    "f_strong": 3276,
+    "m_strong": 3448,
+    "top_aes": [
+      {
+        "ae": "Rash",
+        "n_signals": 396,
+        "mean_bias": 0.508
+      },
+      {
+        "ae": "Pruritus",
+        "n_signals": 342,
+        "mean_bias": 0.338
+      },
+      {
+        "ae": "Alopecia",
+        "n_signals": 303,
+        "mean_bias": -0.168
+      },
+      {
+        "ae": "Urticaria",
+        "n_signals": 303,
+        "mean_bias": 0.13
+      },
+      {
+        "ae": "Psoriasis",
+        "n_signals": 233,
+        "mean_bias": 0.632
+      }
+    ]
+  },
+  "Endocrine": {
+    "n_aes": 84,
+    "n_signals": 2179,
+    "mean_bias": -0.0108,
+    "direction": "M",
+    "f_strong": 1090,
+    "m_strong": 1089,
+    "top_aes": [
+      {
+        "ae": "Type 2 diabetes mellitus",
+        "n_signals": 316,
+        "mean_bias": -0.117
+      },
+      {
+        "ae": "Hypothyroidism",
+        "n_signals": 211,
+        "mean_bias": -0.199
+      },
+      {
+        "ae": "Diabetes mellitus",
+        "n_signals": 195,
+        "mean_bias": -0.255
+      },
+      {
+        "ae": "Hypoglycaemia",
+        "n_signals": 176,
+        "mean_bias": 0.392
+      },
+      {
+        "ae": "Hyperglycaemia",
+        "n_signals": 170,
+        "mean_bias": 0.292
+      }
+    ]
+  },
+  "Gastrointestinal": {
+    "n_aes": 98,
+    "n_signals": 4963,
+    "mean_bias": 0.0608,
+    "direction": "F",
+    "f_strong": 2627,
+    "m_strong": 2336,
+    "top_aes": [
+      {
+        "ae": "Nausea",
+        "n_signals": 474,
+        "mean_bias": -0.255
+      },
+      {
+        "ae": "Vomiting",
+        "n_signals": 470,
+        "mean_bias": 0.082
+      },
+      {
+        "ae": "Diarrhoea",
+        "n_signals": 394,
+        "mean_bias": 0.199
+      },
+      {
+        "ae": "Constipation",
+        "n_signals": 362,
+        "mean_bias": 0.016
+      },
+      {
+        "ae": "Abdominal pain",
+        "n_signals": 331,
+        "mean_bias": -0.015
+      }
+    ]
+  },
+  "Haematologic": {
+    "n_aes": 148,
+    "n_signals": 5604,
+    "mean_bias": 0.3806,
+    "direction": "F",
+    "f_strong": 4059,
+    "m_strong": 1545,
+    "top_aes": [
+      {
+        "ae": "Anaemia",
+        "n_signals": 366,
+        "mean_bias": 0.223
+      },
+      {
+        "ae": "Thrombocytopenia",
+        "n_signals": 352,
+        "mean_bias": 0.619
+      },
+      {
+        "ae": "Haemorrhage",
+        "n_signals": 302,
+        "mean_bias": 0.654
+      },
+      {
+        "ae": "Febrile neutropenia",
+        "n_signals": 290,
+        "mean_bias": 0.333
+      },
+      {
+        "ae": "Neutropenia",
+        "n_signals": 268,
+        "mean_bias": 0.06
+      }
+    ]
+  },
+  "Hepatic": {
+    "n_aes": 347,
+    "n_signals": 10544,
+    "mean_bias": 0.3035,
+    "direction": "F",
+    "f_strong": 6691,
+    "m_strong": 3853,
+    "top_aes": [
+      {
+        "ae": "General physical health deterioration",
+        "n_signals": 403,
+        "mean_bias": 0.377
+      },
+      {
+        "ae": "Asthenia",
+        "n_signals": 372,
+        "mean_bias": 0.373
+      },
+      {
+        "ae": "Asthma",
+        "n_signals": 355,
+        "mean_bias": 0.291
+      },
+      {
+        "ae": "Hepatic enzyme increased",
+        "n_signals": 300,
+        "mean_bias": 0.664
+      },
+      {
+        "ae": "Gastrointestinal disorder",
+        "n_signals": 262,
+        "mean_bias": 0.548
+      }
+    ]
+  },
+  "Immunologic": {
+    "n_aes": 69,
+    "n_signals": 2055,
+    "mean_bias": 0.1535,
+    "direction": "F",
+    "f_strong": 1173,
+    "m_strong": 882,
+    "top_aes": [
+      {
+        "ae": "Drug hypersensitivity",
+        "n_signals": 400,
+        "mean_bias": -0.171
+      },
+      {
+        "ae": "Hypersensitivity",
+        "n_signals": 367,
+        "mean_bias": 0.174
+      },
+      {
+        "ae": "Anaphylactic reaction",
+        "n_signals": 212,
+        "mean_bias": 0.196
+      },
+      {
+        "ae": "Anaphylactic shock",
+        "n_signals": 97,
+        "mean_bias": -0.159
+      },
+      {
+        "ae": "Rhinitis allergic",
+        "n_signals": 84,
+        "mean_bias": 0.011
+      }
+    ]
+  },
+  "Infection": {
+    "n_aes": 347,
+    "n_signals": 8147,
+    "mean_bias": 0.2019,
+    "direction": "F",
+    "f_strong": 4798,
+    "m_strong": 3349,
+    "top_aes": [
+      {
+        "ae": "Pneumonia",
+        "n_signals": 413,
+        "mean_bias": 0.327
+      },
+      {
+        "ae": "Sepsis",
+        "n_signals": 318,
+        "mean_bias": -0.057
+      },
+      {
+        "ae": "Infection",
+        "n_signals": 311,
+        "mean_bias": 0.387
+      },
+      {
+        "ae": "Lower respiratory tract infection",
+        "n_signals": 293,
+        "mean_bias": 0.32
+      },
+      {
+        "ae": "Urinary tract infection",
+        "n_signals": 256,
+        "mean_bias": -0.395
+      }
+    ]
+  },
+  "Metabolic": {
+    "n_aes": 80,
+    "n_signals": 4444,
+    "mean_bias": 0.3174,
+    "direction": "F",
+    "f_strong": 2907,
+    "m_strong": 1537,
+    "top_aes": [
+      {
+        "ae": "Weight decreased",
+        "n_signals": 361,
+        "mean_bias": 0.469
+      },
+      {
+        "ae": "Decreased appetite",
+        "n_signals": 356,
+        "mean_bias": 0.382
+      },
+      {
+        "ae": "Hyponatraemia",
+        "n_signals": 338,
+        "mean_bias": -0.047
+      },
+      {
+        "ae": "Weight increased",
+        "n_signals": 336,
+        "mean_bias": 0.461
+      },
+      {
+        "ae": "Oedema peripheral",
+        "n_signals": 317,
+        "mean_bias": 0.369
+      }
+    ]
+  },
+  "Musculoskeletal": {
+    "n_aes": 141,
+    "n_signals": 6150,
+    "mean_bias": 0.0316,
+    "direction": "F",
+    "f_strong": 2986,
+    "m_strong": 3164,
+    "top_aes": [
+      {
+        "ae": "Arthralgia",
+        "n_signals": 368,
+        "mean_bias": 0.137
+      },
+      {
+        "ae": "Back pain",
+        "n_signals": 284,
+        "mean_bias": -0.211
+      },
+      {
+        "ae": "Joint swelling",
+        "n_signals": 271,
+        "mean_bias": 0.279
+      },
+      {
+        "ae": "Osteoporosis",
+        "n_signals": 264,
+        "mean_bias": 0.517
+      },
+      {
+        "ae": "Muscle spasms",
+        "n_signals": 247,
+        "mean_bias": 0.108
+      }
+    ]
+  },
+  "Neurological": {
+    "n_aes": 101,
+    "n_signals": 3205,
+    "mean_bias": 0.1457,
+    "direction": "F",
+    "f_strong": 1911,
+    "m_strong": 1294,
+    "top_aes": [
+      {
+        "ae": "Headache",
+        "n_signals": 438,
+        "mean_bias": -0.017
+      },
+      {
+        "ae": "Migraine",
+        "n_signals": 246,
+        "mean_bias": -0.401
+      },
+      {
+        "ae": "Cerebrovascular accident",
+        "n_signals": 226,
+        "mean_bias": 0.254
+      },
+      {
+        "ae": "Seizure",
+        "n_signals": 209,
+        "mean_bias": 0.182
+      },
+      {
+        "ae": "Tremor",
+        "n_signals": 209,
+        "mean_bias": -0.252
+      }
+    ]
+  },
+  "Ocular": {
+    "n_aes": 99,
+    "n_signals": 2201,
+    "mean_bias": -0.2315,
+    "direction": "M",
+    "f_strong": 802,
+    "m_strong": 1399,
+    "top_aes": [
+      {
+        "ae": "Vision blurred",
+        "n_signals": 166,
+        "mean_bias": -0.155
+      },
+      {
+        "ae": "Cataract",
+        "n_signals": 165,
+        "mean_bias": -0.323
+      },
+      {
+        "ae": "Eye irritation",
+        "n_signals": 132,
+        "mean_bias": -0.502
+      },
+      {
+        "ae": "Eye pain",
+        "n_signals": 126,
+        "mean_bias": -0.361
+      },
+      {
+        "ae": "Dry eye",
+        "n_signals": 122,
+        "mean_bias": 0.148
+      }
+    ]
+  },
+  "Psychiatric": {
+    "n_aes": 61,
+    "n_signals": 3664,
+    "mean_bias": 0.084,
+    "direction": "F",
+    "f_strong": 2022,
+    "m_strong": 1642,
+    "top_aes": [
+      {
+        "ae": "Anxiety",
+        "n_signals": 412,
+        "mean_bias": -0.246
+      },
+      {
+        "ae": "Insomnia",
+        "n_signals": 348,
+        "mean_bias": 0.11
+      },
+      {
+        "ae": "Depression",
+        "n_signals": 341,
+        "mean_bias": 0.141
+      },
+      {
+        "ae": "Hallucination",
+        "n_signals": 243,
+        "mean_bias": 0.43
+      },
+      {
+        "ae": "Depressed level of consciousness",
+        "n_signals": 185,
+        "mean_bias": 0.558
+      }
+    ]
+  },
+  "Renal": {
+    "n_aes": 134,
+    "n_signals": 5023,
+    "mean_bias": 0.4719,
+    "direction": "F",
+    "f_strong": 3993,
+    "m_strong": 1030,
+    "top_aes": [
+      {
+        "ae": "Acute kidney injury",
+        "n_signals": 459,
+        "mean_bias": 0.487
+      },
+      {
+        "ae": "Renal failure",
+        "n_signals": 395,
+        "mean_bias": 0.488
+      },
+      {
+        "ae": "Chronic kidney disease",
+        "n_signals": 344,
+        "mean_bias": 0.533
+      },
+      {
+        "ae": "Blood creatinine increased",
+        "n_signals": 287,
+        "mean_bias": 0.473
+      },
+      {
+        "ae": "Renal impairment",
+        "n_signals": 282,
+        "mean_bias": 0.494
+      }
+    ]
+  },
+  "Respiratory": {
+    "n_aes": 179,
+    "n_signals": 8135,
+    "mean_bias": 0.1051,
+    "direction": "F",
+    "f_strong": 4545,
+    "m_strong": 3590,
+    "top_aes": [
+      {
+        "ae": "Dyspnoea",
+        "n_signals": 448,
+        "mean_bias": 0.114
+      },
+      {
+        "ae": "Pneumonia",
+        "n_signals": 413,
+        "mean_bias": 0.327
+      },
+      {
+        "ae": "Asthma",
+        "n_signals": 355,
+        "mean_bias": 0.291
+      },
+      {
+        "ae": "Pulmonary embolism",
+        "n_signals": 320,
+        "mean_bias": -0.469
+      },
+      {
+        "ae": "Lower respiratory tract infection",
+        "n_signals": 293,
+        "mean_bias": 0.32
+      }
+    ]
+  },
+  "Vascular": {
+    "n_aes": 78,
+    "n_signals": 2481,
+    "mean_bias": 0.06,
+    "direction": "F",
+    "f_strong": 1384,
+    "m_strong": 1097,
+    "top_aes": [
+      {
+        "ae": "Hypertension",
+        "n_signals": 436,
+        "mean_bias": 0.355
+      },
+      {
+        "ae": "Hypotension",
+        "n_signals": 357,
+        "mean_bias": 0.454
+      },
+      {
+        "ae": "Pulmonary embolism",
+        "n_signals": 320,
+        "mean_bias": -0.469
+      },
+      {
+        "ae": "Thrombosis",
+        "n_signals": 230,
+        "mean_bias": -0.453
+      },
+      {
+        "ae": "Deep vein thrombosis",
+        "n_signals": 213,
+        "mean_bias": -0.055
+      }
+    ]
+  }
+}

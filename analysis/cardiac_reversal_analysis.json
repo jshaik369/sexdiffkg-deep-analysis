@@ -1,0 +1,147 @@
+{
+  "total_cardiac_signals": 2187,
+  "female_higher": 1466,
+  "male_higher": 721,
+  "unique_aes": 19,
+  "unique_drugs": 760,
+  "per_ae_breakdown": {
+    "angina pectoris": {
+      "total": 68,
+      "female_higher": 51,
+      "male_higher": 17,
+      "mean_log_ratio": 0.578407475138726,
+      "median_log_ratio": 0.711832404305381
+    },
+    "arrhythmia": {
+      "total": 88,
+      "female_higher": 49,
+      "male_higher": 39,
+      "mean_log_ratio": 0.05739151726176914,
+      "median_log_ratio": 0.5563997360135153
+    },
+    "atrial fibrillation": {
+      "total": 180,
+      "female_higher": 113,
+      "male_higher": 67,
+      "mean_log_ratio": 0.16717415589751633,
+      "median_log_ratio": 0.5723013038854741
+    },
+    "bradycardia": {
+      "total": 152,
+      "female_higher": 93,
+      "male_higher": 59,
+      "mean_log_ratio": 0.18542530146049893,
+      "median_log_ratio": 0.5683753792665471
+    },
+    "cardiac arrest": {
+      "total": 210,
+      "female_higher": 178,
+      "male_higher": 32,
+      "mean_log_ratio": 0.5847901858591316,
+      "median_log_ratio": 0.729825250083392
+    },
+    "cardiac disorder": {
+      "total": 110,
+      "female_higher": 73,
+      "male_higher": 37,
+      "mean_log_ratio": 0.21602459851743785,
+      "median_log_ratio": 0.5930719080495879
+    },
+    "cardiac failure": {
+      "total": 184,
+      "female_higher": 147,
+      "male_higher": 37,
+      "mean_log_ratio": 0.5364028065620687,
+      "median_log_ratio": 0.7354782164109821
+    },
+    "cardiac failure congestive": {
+      "total": 106,
+      "female_higher": 78,
+      "male_higher": 28,
+      "mean_log_ratio": 0.38488149620808443,
+      "median_log_ratio": 0.6647944537533468
+    },
+    "cardio-respiratory arrest": {
+      "total": 141,
+      "female_higher": 109,
+      "male_higher": 32,
+      "mean_log_ratio": 0.4113916162849842,
+      "median_log_ratio": 0.6812753426508791
+    },
+    "cardiomyopathy": {
+      "total": 63,
+      "female_higher": 39,
+      "male_higher": 24,
+      "mean_log_ratio": 0.1937734456830612,
+      "median_log_ratio": 0.6544296815587185
+    },
+    "coronary artery disease": {
+      "total": 59,
+      "female_higher": 39,
+      "male_higher": 20,
+      "mean_log_ratio": 0.2581589019782945,
+      "median_log_ratio": 0.665358407820926
+    },
+    "electrocardiogram qt prolonged": {
+      "total": 122,
+      "female_higher": 84,
+      "male_higher": 38,
+      "mean_log_ratio": 0.32770895100961506,
+      "median_log_ratio": 0.6449085356897728
+    },
+    "myocardial infarction": {
+      "total": 182,
+      "female_higher": 150,
+      "male_higher": 32,
+      "mean_log_ratio": 0.6257774443712201,
+      "median_log_ratio": 0.7448572522436719
+    },
+    "palpitations": {
+      "total": 153,
+      "female_higher": 28,
+      "male_higher": 125,
+      "mean_log_ratio": -0.6091883688187254,
+      "median_log_ratio": -0.712934282208445
+    },
+    "sudden cardiac death": {
+      "total": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "mean_log_ratio": 0.9379564241716528,
+      "median_log_ratio": 0.9687505158194143
+    },
+    "tachycardia": {
+      "total": 172,
+      "female_higher": 100,
+      "male_higher": 72,
+      "mean_log_ratio": 0.16722677458452784,
+      "median_log_ratio": 0.560542218169357
+    },
+    "torsade de pointes": {
+      "total": 43,
+      "female_higher": 27,
+      "male_higher": 16,
+      "mean_log_ratio": 0.21118067614372726,
+      "median_log_ratio": 0.6070209348746176
+    },
+    "ventricular fibrillation": {
+      "total": 64,
+      "female_higher": 38,
+      "male_higher": 26,
+      "mean_log_ratio": -0.19866119677225508,
+      "median_log_ratio": 0.5853679545823792
+    },
+    "ventricular tachycardia": {
+      "total": 83,
+      "female_higher": 63,
+      "male_higher": 20,
+      "mean_log_ratio": 0.5200420798122123,
+      "median_log_ratio": 0.7777332221380385
+    }
+  },
+  "direction_fix_applied": true,
+  "direction_values_used": [
+    "female_higher",
+    "male_higher"
+  ]
+}

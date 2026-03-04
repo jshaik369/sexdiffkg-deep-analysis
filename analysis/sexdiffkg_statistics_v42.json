@@ -1,0 +1,82 @@
+{
+  "version": "v4.2",
+  "description": "SexDiffKG v4.2 \u2014 cleaned NaN entries from STRING PPI mapping failures",
+  "pipeline": {
+    "faers_reports_deduplicated": 14536008,
+    "faers_quarters": 87,
+    "sex_breakdown_female": 8744397,
+    "sex_breakdown_male": 5791611,
+    "normalization": "DiAna dictionary (846,917 mappings)"
+  },
+  "signals": {
+    "total_sex_differential": 183539,
+    "strong_signals_abs_log_ror_ge_0.5": 96281,
+    "female_biased": 55771,
+    "male_biased": 40510,
+    "unique_drugs": 2178,
+    "unique_adverse_events": 5069
+  },
+  "knowledge_graph": {
+    "version": "v4.2_clean",
+    "total_nodes": 126575,
+    "total_edges": 5489928,
+    "unique_triples": 3905373,
+    "node_types": {
+      "Gene": 70607,
+      "Drug": 29201,
+      "AdverseEvent": 16162,
+      "Protein": 8309,
+      "Pathway": 2279,
+      "Tissue": 17
+    },
+    "edge_types": {
+      "has_adverse_event": 4640396,
+      "participates_in": 537605,
+      "sex_differential_adverse_event": 183539,
+      "interacts_with": 115706,
+      "targets": 12577,
+      "sex_differential_expression": 105
+    },
+    "data_sources": [
+      "FAERS (2004Q1-2025Q3)",
+      "STRING v12.0 (PPI)",
+      "ChEMBL 35 (drug targets)",
+      "Reactome (pathways, CC-BY 4.0)",
+      "UniProt (gene-protein mapping)",
+      "GTEx v8 Oliva et al. 2020 (sex-DE genes)"
+    ],
+    "cleaning_notes": "v4.2 removed 349,789 edges with NaN from STRING ID mapping failures, 1,584,555 duplicate triples, 488 orphan nodes"
+  },
+  "embeddings": {
+    "ComplEx_v4": {
+      "epochs": 100,
+      "MRR": 0.248387,
+      "Hits_at_1": 0.167829,
+      "Hits_at_10": 0.40692,
+      "AMRI": 0.9902,
+      "note": "Trained on v4.1 (pre-cleaning). Best model."
+    },
+    "DistMult_v4": {
+      "epochs": 100,
+      "MRR": 0.09316,
+      "Hits_at_10": 0.17775,
+      "AMRI": 0.9906
+    },
+    "DistMult_v4.1": {
+      "status": "training",
+      "note": "In progress on GPU, epoch ~26/100"
+    },
+    "RotatE_v4.1": {
+      "status": "training",
+      "note": "In progress on CPU, epoch ~8/200. Will move to GPU after DistMult."
+    }
+  },
+  "validation": {
+    "benchmarks_total": 40,
+    "benchmarks_found": 29,
+    "coverage_pct": 72.5,
+    "directional_precision_pct": 82.8,
+    "gene_targets_assessed": 767,
+    "directionally_biased_targets": 317
+  }
+}

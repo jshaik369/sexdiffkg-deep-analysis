@@ -1,0 +1,129 @@
+{
+  "benchmarks": [
+    {
+      "drug": "ZOLPIDEM",
+      "expected": "female_higher",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (283 signals) but no matching AE",
+      "mechanism": "Slower metabolism; FDA halved female dose 2013"
+    },
+    {
+      "drug": "TERFENADINE",
+      "expected": "female_higher",
+      "status": "NOT_FOUND",
+      "detail": "Drug not in signals",
+      "mechanism": "Longer baseline QTc in women"
+    },
+    {
+      "drug": "CISAPRIDE",
+      "expected": "female_higher",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (1 signals) but no matching AE",
+      "mechanism": "Longer baseline QTc in women"
+    },
+    {
+      "drug": "LISINOPRIL",
+      "expected": "female_higher",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (459 signals) but no matching AE",
+      "mechanism": "Higher bradykinin sensitivity (ACE inhibitor)"
+    },
+    {
+      "drug": "ENALAPRIL",
+      "expected": "female_higher",
+      "status": "WEAK_SIGNAL",
+      "detail": "1 matches, none strong. Top: Productive cough log_ror=0.865 (female_higher)",
+      "mechanism": "Higher bradykinin sensitivity (ACE inhibitor)"
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "expected": "female_higher",
+      "observed": "female_higher",
+      "status": "CONFIRMED",
+      "detail": "3 strong. Top: Stress cardiomyopathy log_ror=1.582",
+      "mechanism": "Higher plasma levels (statin)",
+      "n_strong": 3
+    },
+    {
+      "drug": "SIMVASTATIN",
+      "expected": "female_higher",
+      "observed": "male_higher",
+      "status": "REVERSED",
+      "detail": "1 strong. Top: Muscle discomfort log_ror=-1.099",
+      "mechanism": "Higher plasma levels (statin)",
+      "n_strong": 1
+    },
+    {
+      "drug": "DIGOXIN",
+      "expected": "female_higher",
+      "observed": "female_higher",
+      "status": "CONFIRMED",
+      "detail": "2 strong. Top: Tachyarrhythmia log_ror=1.366",
+      "mechanism": "Lower P-glycoprotein in women",
+      "n_strong": 2
+    },
+    {
+      "drug": "HYDROCHLOROTHIAZIDE",
+      "expected": "female_higher",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (388 signals) but no matching AE",
+      "mechanism": "Lower body water volume (thiazide)"
+    },
+    {
+      "drug": "METOPROLOL",
+      "expected": "female_higher",
+      "status": "WEAK_SIGNAL",
+      "detail": "1 matches, none strong. Top: Bradycardia neonatal log_ror=-0.892 (male_higher)",
+      "mechanism": "2x higher plasma concentrations (CYP2D6)"
+    },
+    {
+      "drug": "ASPIRIN",
+      "expected": "male_higher",
+      "observed": "male_higher",
+      "status": "CONFIRMED",
+      "detail": "6 strong. Top: Genital haemorrhage log_ror=-2.858",
+      "mechanism": "Sex differences in platelet aggregation",
+      "n_strong": 6
+    },
+    {
+      "drug": "FLUOROURACIL",
+      "expected": "female_higher",
+      "status": "WEAK_SIGNAL",
+      "detail": "5 matches, none strong. Top: Ocular toxicity log_ror=0.986 (female_higher)",
+      "mechanism": "Higher drug exposure in women"
+    },
+    {
+      "drug": "WARFARIN",
+      "expected": "female_higher",
+      "observed": "male_higher",
+      "status": "REVERSED",
+      "detail": "2 strong. Top: Gastric haemorrhage log_ror=-1.399",
+      "mechanism": "Women need lower doses",
+      "n_strong": 2
+    },
+    {
+      "drug": "DIAZEPAM",
+      "expected": "female_higher",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (412 signals) but no matching AE",
+      "mechanism": "Slower metabolism in women"
+    },
+    {
+      "drug": "IBUPROFEN",
+      "expected": "male_higher",
+      "observed": "female_higher",
+      "status": "REVERSED",
+      "detail": "5 strong. Top: Gastric infection log_ror=1.345",
+      "mechanism": "Men at higher GI risk",
+      "n_strong": 5
+    }
+  ],
+  "summary": {
+    "confirmed": 3,
+    "weak": 3,
+    "reversed": 3,
+    "not_found": 6,
+    "hit_rate_strict": "3/9",
+    "hit_rate_inclusive": "6/9"
+  }
+}

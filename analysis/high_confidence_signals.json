@@ -1,0 +1,10 @@
+{
+  "high_confidence_signals": 4470,
+  "report_stats": {
+    "mean": 251.28816692805435,
+    "median": 72.0,
+    "max": 55041,
+    "gt_1000": 4470,
+    "gt_10000": 89
+  }
+}

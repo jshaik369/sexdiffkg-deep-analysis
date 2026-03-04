@@ -1,0 +1,96 @@
+{
+  "total_nodes": 127063,
+  "total_edges": 5839717,
+  "max_degree": 476255,
+  "mean_degree": 91.9,
+  "median_degree": 3,
+  "nodes_degree_gt_100": 12477,
+  "nodes_degree_gt_1000": 2581,
+  "top_10_hubs": [
+    {
+      "name": "GUCY1B2",
+      "category": "Protein",
+      "degree": 476255
+    },
+    {
+      "name": "ASPIRIN",
+      "category": "Drug",
+      "degree": 15705
+    },
+    {
+      "name": "PREDNISONE",
+      "category": "Drug",
+      "degree": 15643
+    },
+    {
+      "name": "ACETAMINOPHEN",
+      "category": "Drug",
+      "degree": 15055
+    },
+    {
+      "name": "CHOLECALCIFEROL",
+      "category": "Drug",
+      "degree": 13747
+    },
+    {
+      "name": "ADALIMUMAB",
+      "category": "Drug",
+      "degree": 13548
+    },
+    {
+      "name": "METHOTREXATE",
+      "category": "Drug",
+      "degree": 13190
+    },
+    {
+      "name": "AMLODIPINE BESYLATE",
+      "category": "Drug",
+      "degree": 13073
+    },
+    {
+      "name": "FUROSEMIDE",
+      "category": "Drug",
+      "degree": 12700
+    },
+    {
+      "name": "Nausea",
+      "category": "AdverseEvent",
+      "degree": 12594
+    }
+  ],
+  "degree_by_type": {
+    "Drug": {
+      "mean": 165.2,
+      "max": 15705
+    },
+    "Protein": {
+      "mean": 126.4,
+      "max": 476255
+    },
+    "Gene": {
+      "mean": 5.4,
+      "max": 768
+    },
+    "Pathway": {
+      "mean": 235.9,
+      "max": 5680
+    },
+    "Tissue": {
+      "mean": 6.2,
+      "max": 33
+    },
+    "AdverseEvent": {
+      "mean": 298.5,
+      "max": 12594
+    }
+  },
+  "edge_patterns": {
+    "Drug--has_adverse_event-->AdverseEvent": 4640396,
+    "Protein--interacts_with-->Protein": 465390,
+    "Gene--participates_in-->Pathway": 378840,
+    "Drug--sex_differential_adverse_event-->AdverseEvent": 183539,
+    "Protein--participates_in-->Pathway": 158765,
+    "Drug--targets-->Protein": 12682,
+    "Gene--sex_differential_expression-->Tissue": 105
+  }
+}

@@ -1,0 +1,1582 @@
+{
+  "overview": {
+    "total_sider_drug_se_pairs": 141100,
+    "matchable_pairs": 99990,
+    "pairs_with_sex_diff_signal": 11927,
+    "pairs_without_sex_diff_signal": 88063,
+    "pct_with_signal": 11.93,
+    "pairs_with_strong_signal_lrr_gte_1": 2938,
+    "pct_strong": 2.94,
+    "pairs_with_moderate_signal_lrr_gte_05": 11927,
+    "pct_moderate": 11.93,
+    "pairs_with_robust_signal_min50": 3920,
+    "pairs_strong_and_robust": 812,
+    "unmatched_drug": 34410,
+    "unmatched_ae": 6700,
+    "matching": {
+      "sider_drugs_total": 1347,
+      "sider_drugs_matched": 848,
+      "sider_ses_total": 4251,
+      "sider_ses_matched": 2862
+    }
+  },
+  "direction_breakdown": {
+    "female_higher": 7377,
+    "male_higher": 4550,
+    "pct_female_higher": 61.85,
+    "pct_male_higher": 38.15
+  },
+  "most_sex_differential_side_effects": [
+    {
+      "side_effect": "Gynaecomastia",
+      "mean_abs_log_ror_ratio": 2.8585,
+      "max_abs_log_ror_ratio": 4.3969,
+      "n_drugs_in_sider": 5,
+      "n_signals": 5,
+      "pct_female_higher": 80.0
+    },
+    {
+      "side_effect": "Galactorrhoea",
+      "mean_abs_log_ror_ratio": 2.1337,
+      "max_abs_log_ror_ratio": 3.4985,
+      "n_drugs_in_sider": 8,
+      "n_signals": 8,
+      "pct_female_higher": 87.5
+    },
+    {
+      "side_effect": "Neuritis",
+      "mean_abs_log_ror_ratio": 2.1237,
+      "max_abs_log_ror_ratio": 2.891,
+      "n_drugs_in_sider": 4,
+      "n_signals": 4,
+      "pct_female_higher": 25.0
+    },
+    {
+      "side_effect": "Obesity",
+      "mean_abs_log_ror_ratio": 1.8718,
+      "max_abs_log_ror_ratio": 2.4884,
+      "n_drugs_in_sider": 5,
+      "n_signals": 5,
+      "pct_female_higher": 80.0
+    },
+    {
+      "side_effect": "Systemic lupus erythematosus",
+      "mean_abs_log_ror_ratio": 1.7305,
+      "max_abs_log_ror_ratio": 3.1534,
+      "n_drugs_in_sider": 7,
+      "n_signals": 7,
+      "pct_female_higher": 42.9
+    },
+    {
+      "side_effect": "Pelvic pain",
+      "mean_abs_log_ror_ratio": 1.5629,
+      "max_abs_log_ror_ratio": 2.2326,
+      "n_drugs_in_sider": 7,
+      "n_signals": 7,
+      "pct_female_higher": 0.0
+    },
+    {
+      "side_effect": "Rhinitis allergic",
+      "mean_abs_log_ror_ratio": 1.5545,
+      "max_abs_log_ror_ratio": 1.8502,
+      "n_drugs_in_sider": 3,
+      "n_signals": 3,
+      "pct_female_higher": 66.7
+    },
+    {
+      "side_effect": "Folliculitis",
+      "mean_abs_log_ror_ratio": 1.5517,
+      "max_abs_log_ror_ratio": 3.3214,
+      "n_drugs_in_sider": 12,
+      "n_signals": 12,
+      "pct_female_higher": 33.3
+    },
+    {
+      "side_effect": "Respiratory disorder",
+      "mean_abs_log_ror_ratio": 1.5199,
+      "max_abs_log_ror_ratio": 2.033,
+      "n_drugs_in_sider": 3,
+      "n_signals": 3,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Pericarditis",
+      "mean_abs_log_ror_ratio": 1.5105,
+      "max_abs_log_ror_ratio": 4.029,
+      "n_drugs_in_sider": 13,
+      "n_signals": 13,
+      "pct_female_higher": 23.1
+    },
+    {
+      "side_effect": "Scleroderma",
+      "mean_abs_log_ror_ratio": 1.5053,
+      "max_abs_log_ror_ratio": 1.8997,
+      "n_drugs_in_sider": 3,
+      "n_signals": 3,
+      "pct_female_higher": 0.0
+    },
+    {
+      "side_effect": "Glossodynia",
+      "mean_abs_log_ror_ratio": 1.4666,
+      "max_abs_log_ror_ratio": 2.7241,
+      "n_drugs_in_sider": 4,
+      "n_signals": 4,
+      "pct_female_higher": 25.0
+    },
+    {
+      "side_effect": "Breast pain",
+      "mean_abs_log_ror_ratio": 1.4619,
+      "max_abs_log_ror_ratio": 2.6557,
+      "n_drugs_in_sider": 7,
+      "n_signals": 7,
+      "pct_female_higher": 0.0
+    },
+    {
+      "side_effect": "Depressive symptom",
+      "mean_abs_log_ror_ratio": 1.4568,
+      "max_abs_log_ror_ratio": 1.8063,
+      "n_drugs_in_sider": 4,
+      "n_signals": 4,
+      "pct_female_higher": 25.0
+    },
+    {
+      "side_effect": "Injury",
+      "mean_abs_log_ror_ratio": 1.4232,
+      "max_abs_log_ror_ratio": 3.354,
+      "n_drugs_in_sider": 34,
+      "n_signals": 34,
+      "pct_female_higher": 85.3
+    },
+    {
+      "side_effect": "Sexual dysfunction",
+      "mean_abs_log_ror_ratio": 1.4197,
+      "max_abs_log_ror_ratio": 3.6194,
+      "n_drugs_in_sider": 11,
+      "n_signals": 11,
+      "pct_female_higher": 72.7
+    },
+    {
+      "side_effect": "Palmar-plantar erythrodysaesthesia syndrome",
+      "mean_abs_log_ror_ratio": 1.4152,
+      "max_abs_log_ror_ratio": 2.1137,
+      "n_drugs_in_sider": 4,
+      "n_signals": 4,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Swelling",
+      "mean_abs_log_ror_ratio": 1.3478,
+      "max_abs_log_ror_ratio": 3.8832,
+      "n_drugs_in_sider": 21,
+      "n_signals": 21,
+      "pct_female_higher": 66.7
+    },
+    {
+      "side_effect": "Wheezing",
+      "mean_abs_log_ror_ratio": 1.3316,
+      "max_abs_log_ror_ratio": 2.6854,
+      "n_drugs_in_sider": 20,
+      "n_signals": 20,
+      "pct_female_higher": 90.0
+    },
+    {
+      "side_effect": "Ill-defined disorder",
+      "mean_abs_log_ror_ratio": 1.3255,
+      "max_abs_log_ror_ratio": 3.0811,
+      "n_drugs_in_sider": 58,
+      "n_signals": 58,
+      "pct_female_higher": 70.7
+    },
+    {
+      "side_effect": "Liver injury",
+      "mean_abs_log_ror_ratio": 1.3219,
+      "max_abs_log_ror_ratio": 3.094,
+      "n_drugs_in_sider": 20,
+      "n_signals": 20,
+      "pct_female_higher": 65.0
+    },
+    {
+      "side_effect": "Bursitis",
+      "mean_abs_log_ror_ratio": 1.3218,
+      "max_abs_log_ror_ratio": 2.1413,
+      "n_drugs_in_sider": 11,
+      "n_signals": 11,
+      "pct_female_higher": 72.7
+    },
+    {
+      "side_effect": "Proctitis",
+      "mean_abs_log_ror_ratio": 1.3162,
+      "max_abs_log_ror_ratio": 2.5123,
+      "n_drugs_in_sider": 3,
+      "n_signals": 3,
+      "pct_female_higher": 66.7
+    },
+    {
+      "side_effect": "Schizophrenia",
+      "mean_abs_log_ror_ratio": 1.3111,
+      "max_abs_log_ror_ratio": 2.4752,
+      "n_drugs_in_sider": 5,
+      "n_signals": 5,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Application site erythema",
+      "mean_abs_log_ror_ratio": 1.3096,
+      "max_abs_log_ror_ratio": 2.3653,
+      "n_drugs_in_sider": 4,
+      "n_signals": 4,
+      "pct_female_higher": 50.0
+    },
+    {
+      "side_effect": "Hyperprolactinaemia",
+      "mean_abs_log_ror_ratio": 1.3043,
+      "max_abs_log_ror_ratio": 1.9077,
+      "n_drugs_in_sider": 6,
+      "n_signals": 6,
+      "pct_female_higher": 66.7
+    },
+    {
+      "side_effect": "Cholelithiasis",
+      "mean_abs_log_ror_ratio": 1.2997,
+      "max_abs_log_ror_ratio": 2.5587,
+      "n_drugs_in_sider": 3,
+      "n_signals": 3,
+      "pct_female_higher": 33.3
+    },
+    {
+      "side_effect": "Personality disorder",
+      "mean_abs_log_ror_ratio": 1.2929,
+      "max_abs_log_ror_ratio": 1.8923,
+      "n_drugs_in_sider": 3,
+      "n_signals": 3,
+      "pct_female_higher": 66.7
+    },
+    {
+      "side_effect": "Subarachnoid haemorrhage",
+      "mean_abs_log_ror_ratio": 1.2749,
+      "max_abs_log_ror_ratio": 1.4838,
+      "n_drugs_in_sider": 3,
+      "n_signals": 3,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Posterior reversible encephalopathy syndrome",
+      "mean_abs_log_ror_ratio": 1.2713,
+      "max_abs_log_ror_ratio": 1.6031,
+      "n_drugs_in_sider": 7,
+      "n_signals": 7,
+      "pct_female_higher": 100.0
+    }
+  ],
+  "consistently_female_biased_ses": [
+    {
+      "side_effect": "Gynaecomastia",
+      "mean_abs_lrr": 2.8585,
+      "n_drugs": 5,
+      "pct_female_higher": 80.0
+    },
+    {
+      "side_effect": "Galactorrhoea",
+      "mean_abs_lrr": 2.1337,
+      "n_drugs": 8,
+      "pct_female_higher": 87.5
+    },
+    {
+      "side_effect": "Obesity",
+      "mean_abs_lrr": 1.8718,
+      "n_drugs": 5,
+      "pct_female_higher": 80.0
+    },
+    {
+      "side_effect": "Respiratory disorder",
+      "mean_abs_lrr": 1.5199,
+      "n_drugs": 3,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Injury",
+      "mean_abs_lrr": 1.4232,
+      "n_drugs": 34,
+      "pct_female_higher": 85.3
+    },
+    {
+      "side_effect": "Palmar-plantar erythrodysaesthesia syndrome",
+      "mean_abs_lrr": 1.4152,
+      "n_drugs": 4,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Wheezing",
+      "mean_abs_lrr": 1.3316,
+      "n_drugs": 20,
+      "pct_female_higher": 90.0
+    },
+    {
+      "side_effect": "Schizophrenia",
+      "mean_abs_lrr": 1.3111,
+      "n_drugs": 5,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Subarachnoid haemorrhage",
+      "mean_abs_lrr": 1.2749,
+      "n_drugs": 3,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Posterior reversible encephalopathy syndrome",
+      "mean_abs_lrr": 1.2713,
+      "n_drugs": 7,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Splenomegaly",
+      "mean_abs_lrr": 1.2105,
+      "n_drugs": 3,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Red blood cell sedimentation rate increased",
+      "mean_abs_lrr": 1.1763,
+      "n_drugs": 5,
+      "pct_female_higher": 80.0
+    },
+    {
+      "side_effect": "Peritonitis",
+      "mean_abs_lrr": 1.1554,
+      "n_drugs": 4,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Epilepsy",
+      "mean_abs_lrr": 1.1302,
+      "n_drugs": 7,
+      "pct_female_higher": 85.7
+    },
+    {
+      "side_effect": "Myositis",
+      "mean_abs_lrr": 1.1031,
+      "n_drugs": 5,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Dermatitis exfoliative",
+      "mean_abs_lrr": 1.1016,
+      "n_drugs": 6,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Glycosuria",
+      "mean_abs_lrr": 1.0984,
+      "n_drugs": 3,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Skin necrosis",
+      "mean_abs_lrr": 1.0961,
+      "n_drugs": 5,
+      "pct_female_higher": 80.0
+    },
+    {
+      "side_effect": "Crohn's disease",
+      "mean_abs_lrr": 1.0907,
+      "n_drugs": 3,
+      "pct_female_higher": 100.0
+    },
+    {
+      "side_effect": "Contusion",
+      "mean_abs_lrr": 1.0901,
+      "n_drugs": 19,
+      "pct_female_higher": 84.2
+    }
+  ],
+  "consistently_male_biased_ses": [
+    {
+      "side_effect": "Pelvic pain",
+      "mean_abs_lrr": 1.5629,
+      "n_drugs": 7,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Scleroderma",
+      "mean_abs_lrr": 1.5053,
+      "n_drugs": 3,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Breast pain",
+      "mean_abs_lrr": 1.4619,
+      "n_drugs": 7,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Bruxism",
+      "mean_abs_lrr": 1.1982,
+      "n_drugs": 5,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Lipodystrophy acquired",
+      "mean_abs_lrr": 1.1774,
+      "n_drugs": 6,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Crying",
+      "mean_abs_lrr": 1.1327,
+      "n_drugs": 3,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Loss of libido",
+      "mean_abs_lrr": 1.1032,
+      "n_drugs": 3,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Endophthalmitis",
+      "mean_abs_lrr": 1.0964,
+      "n_drugs": 5,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Throat irritation",
+      "mean_abs_lrr": 1.0748,
+      "n_drugs": 6,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Condition aggravated",
+      "mean_abs_lrr": 1.0662,
+      "n_drugs": 3,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Withdrawal syndrome",
+      "mean_abs_lrr": 1.0501,
+      "n_drugs": 3,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Fungal infection",
+      "mean_abs_lrr": 0.9934,
+      "n_drugs": 13,
+      "pct_male_higher": 84.6
+    },
+    {
+      "side_effect": "Hearing impaired",
+      "mean_abs_lrr": 0.9899,
+      "n_drugs": 3,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Hirsutism",
+      "mean_abs_lrr": 0.972,
+      "n_drugs": 3,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Tooth disorder",
+      "mean_abs_lrr": 0.9719,
+      "n_drugs": 5,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Skin irritation",
+      "mean_abs_lrr": 0.9695,
+      "n_drugs": 8,
+      "pct_male_higher": 87.5
+    },
+    {
+      "side_effect": "Trismus",
+      "mean_abs_lrr": 0.9619,
+      "n_drugs": 4,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Abdominal pain lower",
+      "mean_abs_lrr": 0.9574,
+      "n_drugs": 8,
+      "pct_male_higher": 100.0
+    },
+    {
+      "side_effect": "Lymphopenia",
+      "mean_abs_lrr": 0.9427,
+      "n_drugs": 8,
+      "pct_male_higher": 87.5
+    },
+    {
+      "side_effect": "Eye disorder",
+      "mean_abs_lrr": 0.9407,
+      "n_drugs": 24,
+      "pct_male_higher": 87.5
+    }
+  ],
+  "drugs_highest_sex_diff_pct": [
+    {
+      "drug": "ranitidine",
+      "total_matchable_ses": 91,
+      "ses_with_sex_diff": 71,
+      "pct_sex_differential": 78.0,
+      "mean_abs_lrr": 1.0957,
+      "pct_female_higher": 100.0
+    },
+    {
+      "drug": "dimenhydrinate",
+      "total_matchable_ses": 16,
+      "ses_with_sex_diff": 9,
+      "pct_sex_differential": 56.2,
+      "mean_abs_lrr": 0.7697,
+      "pct_female_higher": 100.0
+    },
+    {
+      "drug": "risperidone",
+      "total_matchable_ses": 527,
+      "ses_with_sex_diff": 250,
+      "pct_sex_differential": 47.4,
+      "mean_abs_lrr": 0.9874,
+      "pct_female_higher": 92.8
+    },
+    {
+      "drug": "codeine",
+      "total_matchable_ses": 88,
+      "ses_with_sex_diff": 41,
+      "pct_sex_differential": 46.6,
+      "mean_abs_lrr": 1.3082,
+      "pct_female_higher": 82.9
+    },
+    {
+      "drug": "chlorhexidine",
+      "total_matchable_ses": 54,
+      "ses_with_sex_diff": 25,
+      "pct_sex_differential": 46.3,
+      "mean_abs_lrr": 2.0513,
+      "pct_female_higher": 72.0
+    },
+    {
+      "drug": "ustekinumab",
+      "total_matchable_ses": 65,
+      "ses_with_sex_diff": 28,
+      "pct_sex_differential": 43.1,
+      "mean_abs_lrr": 1.1074,
+      "pct_female_higher": 82.1
+    },
+    {
+      "drug": "leflunomide",
+      "total_matchable_ses": 201,
+      "ses_with_sex_diff": 86,
+      "pct_sex_differential": 42.8,
+      "mean_abs_lrr": 0.9961,
+      "pct_female_higher": 66.3
+    },
+    {
+      "drug": "tetrahydrozoline",
+      "total_matchable_ses": 12,
+      "ses_with_sex_diff": 5,
+      "pct_sex_differential": 41.7,
+      "mean_abs_lrr": 1.616,
+      "pct_female_higher": 20.0
+    },
+    {
+      "drug": "clotrimazole",
+      "total_matchable_ses": 24,
+      "ses_with_sex_diff": 10,
+      "pct_sex_differential": 41.7,
+      "mean_abs_lrr": 0.7486,
+      "pct_female_higher": 50.0
+    },
+    {
+      "drug": "alendronate",
+      "total_matchable_ses": 80,
+      "ses_with_sex_diff": 32,
+      "pct_sex_differential": 40.0,
+      "mean_abs_lrr": 1.2723,
+      "pct_female_higher": 75.0
+    },
+    {
+      "drug": "zopiclone",
+      "total_matchable_ses": 212,
+      "ses_with_sex_diff": 80,
+      "pct_sex_differential": 37.7,
+      "mean_abs_lrr": 1.1453,
+      "pct_female_higher": 86.2
+    },
+    {
+      "drug": "ramipril",
+      "total_matchable_ses": 180,
+      "ses_with_sex_diff": 66,
+      "pct_sex_differential": 36.7,
+      "mean_abs_lrr": 1.009,
+      "pct_female_higher": 89.4
+    },
+    {
+      "drug": "quetiapine",
+      "total_matchable_ses": 347,
+      "ses_with_sex_diff": 126,
+      "pct_sex_differential": 36.3,
+      "mean_abs_lrr": 0.9719,
+      "pct_female_higher": 77.0
+    },
+    {
+      "drug": "mifepristone",
+      "total_matchable_ses": 68,
+      "ses_with_sex_diff": 24,
+      "pct_sex_differential": 35.3,
+      "mean_abs_lrr": 0.8775,
+      "pct_female_higher": 0.0
+    },
+    {
+      "drug": "diclofenac",
+      "total_matchable_ses": 332,
+      "ses_with_sex_diff": 116,
+      "pct_sex_differential": 34.9,
+      "mean_abs_lrr": 1.1944,
+      "pct_female_higher": 69.8
+    },
+    {
+      "drug": "minocycline",
+      "total_matchable_ses": 132,
+      "ses_with_sex_diff": 46,
+      "pct_sex_differential": 34.8,
+      "mean_abs_lrr": 1.2394,
+      "pct_female_higher": 76.1
+    },
+    {
+      "drug": "hydromorphone",
+      "total_matchable_ses": 254,
+      "ses_with_sex_diff": 88,
+      "pct_sex_differential": 34.6,
+      "mean_abs_lrr": 0.9057,
+      "pct_female_higher": 86.4
+    },
+    {
+      "drug": "terbutaline",
+      "total_matchable_ses": 27,
+      "ses_with_sex_diff": 9,
+      "pct_sex_differential": 33.3,
+      "mean_abs_lrr": 0.6873,
+      "pct_female_higher": 77.8
+    },
+    {
+      "drug": "buprenorphine",
+      "total_matchable_ses": 193,
+      "ses_with_sex_diff": 64,
+      "pct_sex_differential": 33.2,
+      "mean_abs_lrr": 1.0302,
+      "pct_female_higher": 78.1
+    },
+    {
+      "drug": "azathioprine",
+      "total_matchable_ses": 82,
+      "ses_with_sex_diff": 27,
+      "pct_sex_differential": 32.9,
+      "mean_abs_lrr": 1.0416,
+      "pct_female_higher": 63.0
+    },
+    {
+      "drug": "methotrexate",
+      "total_matchable_ses": 258,
+      "ses_with_sex_diff": 84,
+      "pct_sex_differential": 32.6,
+      "mean_abs_lrr": 0.8461,
+      "pct_female_higher": 56.0
+    },
+    {
+      "drug": "sildenafil",
+      "total_matchable_ses": 277,
+      "ses_with_sex_diff": 90,
+      "pct_sex_differential": 32.5,
+      "mean_abs_lrr": 0.8107,
+      "pct_female_higher": 74.4
+    },
+    {
+      "drug": "risedronate",
+      "total_matchable_ses": 143,
+      "ses_with_sex_diff": 46,
+      "pct_sex_differential": 32.2,
+      "mean_abs_lrr": 0.9484,
+      "pct_female_higher": 67.4
+    },
+    {
+      "drug": "docetaxel",
+      "total_matchable_ses": 242,
+      "ses_with_sex_diff": 77,
+      "pct_sex_differential": 31.8,
+      "mean_abs_lrr": 0.8175,
+      "pct_female_higher": 22.1
+    },
+    {
+      "drug": "tofacitinib",
+      "total_matchable_ses": 63,
+      "ses_with_sex_diff": 20,
+      "pct_sex_differential": 31.7,
+      "mean_abs_lrr": 0.8327,
+      "pct_female_higher": 90.0
+    },
+    {
+      "drug": "hydroxychloroquine",
+      "total_matchable_ses": 101,
+      "ses_with_sex_diff": 32,
+      "pct_sex_differential": 31.7,
+      "mean_abs_lrr": 0.9481,
+      "pct_female_higher": 81.2
+    },
+    {
+      "drug": "sulfasalazine",
+      "total_matchable_ses": 139,
+      "ses_with_sex_diff": 44,
+      "pct_sex_differential": 31.7,
+      "mean_abs_lrr": 1.1325,
+      "pct_female_higher": 68.2
+    },
+    {
+      "drug": "candesartan",
+      "total_matchable_ses": 171,
+      "ses_with_sex_diff": 54,
+      "pct_sex_differential": 31.6,
+      "mean_abs_lrr": 1.0616,
+      "pct_female_higher": 77.8
+    },
+    {
+      "drug": "piroxicam",
+      "total_matchable_ses": 150,
+      "ses_with_sex_diff": 47,
+      "pct_sex_differential": 31.3,
+      "mean_abs_lrr": 1.3263,
+      "pct_female_higher": 70.2
+    },
+    {
+      "drug": "erythromycin",
+      "total_matchable_ses": 62,
+      "ses_with_sex_diff": 19,
+      "pct_sex_differential": 30.6,
+      "mean_abs_lrr": 0.9562,
+      "pct_female_higher": 63.2
+    }
+  ],
+  "drug_class_analysis": {
+    "opioids": {
+      "drugs_matched": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tramadol",
+        "hydrocodone"
+      ],
+      "n_drugs": 8,
+      "total_matchable_pairs": 1862,
+      "pairs_with_signal": 369,
+      "pct_with_signal": 19.82,
+      "pairs_with_strong_signal": 111,
+      "mean_abs_lrr": 0.9513,
+      "pct_female_higher": 82.1
+    },
+    "antipsychotics": {
+      "drugs_matched": [
+        "clozapine",
+        "haloperidol",
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "aripiprazole",
+        "ziprasidone",
+        "paliperidone"
+      ],
+      "n_drugs": 8,
+      "total_matchable_pairs": 2944,
+      "pairs_with_signal": 745,
+      "pct_with_signal": 25.31,
+      "pairs_with_strong_signal": 222,
+      "mean_abs_lrr": 0.9152,
+      "pct_female_higher": 77.4
+    },
+    "ssris": {
+      "drugs_matched": [
+        "citalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "n_drugs": 5,
+      "total_matchable_pairs": 2277,
+      "pairs_with_signal": 130,
+      "pct_with_signal": 5.71,
+      "pairs_with_strong_signal": 33,
+      "mean_abs_lrr": 0.869,
+      "pct_female_higher": 42.3
+    },
+    "snris": {
+      "drugs_matched": [
+        "venlafaxine",
+        "milnacipran",
+        "duloxetine",
+        "desvenlafaxine"
+      ],
+      "n_drugs": 4,
+      "total_matchable_pairs": 972,
+      "pairs_with_signal": 122,
+      "pct_with_signal": 12.55,
+      "pairs_with_strong_signal": 21,
+      "mean_abs_lrr": 0.8281,
+      "pct_female_higher": 41.8
+    },
+    "benzodiazepines": {
+      "drugs_matched": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "midazolam",
+        "oxazepam",
+        "temazepam"
+      ],
+      "n_drugs": 7,
+      "total_matchable_pairs": 987,
+      "pairs_with_signal": 155,
+      "pct_with_signal": 15.7,
+      "pairs_with_strong_signal": 24,
+      "mean_abs_lrr": 0.778,
+      "pct_female_higher": 70.3
+    },
+    "ace_inhibitors": {
+      "drugs_matched": [
+        "benazepril",
+        "captopril",
+        "fosinopril",
+        "Lisinopril",
+        "ramipril",
+        "perindopril"
+      ],
+      "n_drugs": 6,
+      "total_matchable_pairs": 1031,
+      "pairs_with_signal": 181,
+      "pct_with_signal": 17.56,
+      "pairs_with_strong_signal": 53,
+      "mean_abs_lrr": 0.8957,
+      "pct_female_higher": 83.4
+    },
+    "arbs": {
+      "drugs_matched": [
+        "candesartan",
+        "irbesartan",
+        "losartan",
+        "valsartan",
+        "telmisartan",
+        "olmesartan"
+      ],
+      "n_drugs": 6,
+      "total_matchable_pairs": 936,
+      "pairs_with_signal": 172,
+      "pct_with_signal": 18.38,
+      "pairs_with_strong_signal": 39,
+      "mean_abs_lrr": 0.8693,
+      "pct_female_higher": 73.8
+    },
+    "nsaids": {
+      "drugs_matched": [
+        "naproxen",
+        "celecoxib",
+        "diclofenac",
+        "ibuprofen",
+        "indomethacin",
+        "ketoprofen",
+        "meloxicam",
+        "piroxicam"
+      ],
+      "n_drugs": 8,
+      "total_matchable_pairs": 1832,
+      "pairs_with_signal": 453,
+      "pct_with_signal": 24.73,
+      "pairs_with_strong_signal": 164,
+      "mean_abs_lrr": 1.0202,
+      "pct_female_higher": 75.9
+    },
+    "statins": {
+      "drugs_matched": [
+        "atorvastatin",
+        "fluvastatin",
+        "lovastatin",
+        "pravastatin",
+        "simvastatin",
+        "rosuvastatin"
+      ],
+      "n_drugs": 6,
+      "total_matchable_pairs": 779,
+      "pairs_with_signal": 69,
+      "pct_with_signal": 8.86,
+      "pairs_with_strong_signal": 10,
+      "mean_abs_lrr": 0.8015,
+      "pct_female_higher": 47.8
+    },
+    "anticoagulants": {
+      "drugs_matched": [
+        "dabigatran",
+        "warfarin",
+        "rivaroxaban",
+        "apixaban",
+        "heparin"
+      ],
+      "n_drugs": 5,
+      "total_matchable_pairs": 443,
+      "pairs_with_signal": 53,
+      "pct_with_signal": 11.96,
+      "pairs_with_strong_signal": 19,
+      "mean_abs_lrr": 0.9134,
+      "pct_female_higher": 79.2
+    },
+    "corticosteroids": {
+      "drugs_matched": [
+        "methylprednisolone",
+        "dexamethasone",
+        "budesonide",
+        "hydrocortisone",
+        "prednisolone",
+        "prednisone"
+      ],
+      "n_drugs": 6,
+      "total_matchable_pairs": 985,
+      "pairs_with_signal": 222,
+      "pct_with_signal": 22.54,
+      "pairs_with_strong_signal": 56,
+      "mean_abs_lrr": 0.9027,
+      "pct_female_higher": 75.7
+    },
+    "ppis": {
+      "drugs_matched": [
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole",
+        "esomeprazole"
+      ],
+      "n_drugs": 5,
+      "total_matchable_pairs": 1358,
+      "pairs_with_signal": 247,
+      "pct_with_signal": 18.19,
+      "pairs_with_strong_signal": 72,
+      "mean_abs_lrr": 0.9077,
+      "pct_female_higher": 77.3
+    },
+    "fluoroquinolones": {
+      "drugs_matched": [
+        "ciprofloxacin",
+        "moxifloxacin",
+        "norfloxacin",
+        "ofloxacin"
+      ],
+      "n_drugs": 4,
+      "total_matchable_pairs": 1279,
+      "pairs_with_signal": 171,
+      "pct_with_signal": 13.37,
+      "pairs_with_strong_signal": 34,
+      "mean_abs_lrr": 0.8397,
+      "pct_female_higher": 53.2
+    },
+    "beta_blockers": {
+      "drugs_matched": [
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "metoprolol",
+        "propranolol",
+        "nebivolol"
+      ],
+      "n_drugs": 6,
+      "total_matchable_pairs": 790,
+      "pairs_with_signal": 65,
+      "pct_with_signal": 8.23,
+      "pairs_with_strong_signal": 7,
+      "mean_abs_lrr": 0.6889,
+      "pct_female_higher": 72.3
+    },
+    "calcium_channel_blockers": {
+      "drugs_matched": [
+        "amlodipine",
+        "verapamil",
+        "diltiazem",
+        "felodipine",
+        "nifedipine"
+      ],
+      "n_drugs": 5,
+      "total_matchable_pairs": 777,
+      "pairs_with_signal": 99,
+      "pct_with_signal": 12.74,
+      "pairs_with_strong_signal": 19,
+      "mean_abs_lrr": 0.8379,
+      "pct_female_higher": 56.6
+    },
+    "diabetes_oral": {
+      "drugs_matched": [
+        "glipizide",
+        "metformin",
+        "pioglitazone",
+        "sitagliptin",
+        "dapagliflozin",
+        "empagliflozin",
+        "canagliflozin"
+      ],
+      "n_drugs": 7,
+      "total_matchable_pairs": 582,
+      "pairs_with_signal": 57,
+      "pct_with_signal": 9.79,
+      "pairs_with_strong_signal": 5,
+      "mean_abs_lrr": 0.7659,
+      "pct_female_higher": 73.7
+    },
+    "anticonvulsants": {
+      "drugs_matched": [
+        "phenytoin",
+        "carbamazepine",
+        "gabapentin",
+        "lamotrigine",
+        "topiramate",
+        "levetiracetam",
+        "pregabalin"
+      ],
+      "n_drugs": 7,
+      "total_matchable_pairs": 2494,
+      "pairs_with_signal": 407,
+      "pct_with_signal": 16.32,
+      "pairs_with_strong_signal": 82,
+      "mean_abs_lrr": 0.789,
+      "pct_female_higher": 62.2
+    },
+    "hormonal_contraceptives": {
+      "drugs_matched": [
+        "levonorgestrel"
+      ],
+      "n_drugs": 1,
+      "total_matchable_pairs": 147,
+      "pairs_with_signal": 1,
+      "pct_with_signal": 0.68,
+      "pairs_with_strong_signal": 1,
+      "mean_abs_lrr": 3.4621,
+      "pct_female_higher": 0.0
+    },
+    "thyroid": {
+      "drugs_matched": [
+        "propylthiouracil",
+        "methimazole"
+      ],
+      "n_drugs": 2,
+      "total_matchable_pairs": 77,
+      "pairs_with_signal": 5,
+      "pct_with_signal": 6.49,
+      "pairs_with_strong_signal": 0,
+      "mean_abs_lrr": 0.8287,
+      "pct_female_higher": 80.0
+    }
+  },
+  "drug_class_ranking": [
+    {
+      "class": "antipsychotics",
+      "pct_with_signal": 25.31,
+      "n_drugs": 8,
+      "mean_abs_lrr": 0.9152,
+      "pct_female_higher": 77.4
+    },
+    {
+      "class": "nsaids",
+      "pct_with_signal": 24.73,
+      "n_drugs": 8,
+      "mean_abs_lrr": 1.0202,
+      "pct_female_higher": 75.9
+    },
+    {
+      "class": "corticosteroids",
+      "pct_with_signal": 22.54,
+      "n_drugs": 6,
+      "mean_abs_lrr": 0.9027,
+      "pct_female_higher": 75.7
+    },
+    {
+      "class": "opioids",
+      "pct_with_signal": 19.82,
+      "n_drugs": 8,
+      "mean_abs_lrr": 0.9513,
+      "pct_female_higher": 82.1
+    },
+    {
+      "class": "arbs",
+      "pct_with_signal": 18.38,
+      "n_drugs": 6,
+      "mean_abs_lrr": 0.8693,
+      "pct_female_higher": 73.8
+    },
+    {
+      "class": "ppis",
+      "pct_with_signal": 18.19,
+      "n_drugs": 5,
+      "mean_abs_lrr": 0.9077,
+      "pct_female_higher": 77.3
+    },
+    {
+      "class": "ace_inhibitors",
+      "pct_with_signal": 17.56,
+      "n_drugs": 6,
+      "mean_abs_lrr": 0.8957,
+      "pct_female_higher": 83.4
+    },
+    {
+      "class": "anticonvulsants",
+      "pct_with_signal": 16.32,
+      "n_drugs": 7,
+      "mean_abs_lrr": 0.789,
+      "pct_female_higher": 62.2
+    },
+    {
+      "class": "benzodiazepines",
+      "pct_with_signal": 15.7,
+      "n_drugs": 7,
+      "mean_abs_lrr": 0.778,
+      "pct_female_higher": 70.3
+    },
+    {
+      "class": "fluoroquinolones",
+      "pct_with_signal": 13.37,
+      "n_drugs": 4,
+      "mean_abs_lrr": 0.8397,
+      "pct_female_higher": 53.2
+    },
+    {
+      "class": "calcium_channel_blockers",
+      "pct_with_signal": 12.74,
+      "n_drugs": 5,
+      "mean_abs_lrr": 0.8379,
+      "pct_female_higher": 56.6
+    },
+    {
+      "class": "snris",
+      "pct_with_signal": 12.55,
+      "n_drugs": 4,
+      "mean_abs_lrr": 0.8281,
+      "pct_female_higher": 41.8
+    },
+    {
+      "class": "anticoagulants",
+      "pct_with_signal": 11.96,
+      "n_drugs": 5,
+      "mean_abs_lrr": 0.9134,
+      "pct_female_higher": 79.2
+    },
+    {
+      "class": "diabetes_oral",
+      "pct_with_signal": 9.79,
+      "n_drugs": 7,
+      "mean_abs_lrr": 0.7659,
+      "pct_female_higher": 73.7
+    },
+    {
+      "class": "statins",
+      "pct_with_signal": 8.86,
+      "n_drugs": 6,
+      "mean_abs_lrr": 0.8015,
+      "pct_female_higher": 47.8
+    },
+    {
+      "class": "beta_blockers",
+      "pct_with_signal": 8.23,
+      "n_drugs": 6,
+      "mean_abs_lrr": 0.6889,
+      "pct_female_higher": 72.3
+    },
+    {
+      "class": "thyroid",
+      "pct_with_signal": 6.49,
+      "n_drugs": 2,
+      "mean_abs_lrr": 0.8287,
+      "pct_female_higher": 80.0
+    },
+    {
+      "class": "ssris",
+      "pct_with_signal": 5.71,
+      "n_drugs": 5,
+      "mean_abs_lrr": 0.869,
+      "pct_female_higher": 42.3
+    },
+    {
+      "class": "hormonal_contraceptives",
+      "pct_with_signal": 0.68,
+      "n_drugs": 1,
+      "mean_abs_lrr": 3.4621,
+      "pct_female_higher": 0.0
+    }
+  ],
+  "label_gap_analysis": {
+    "description": "Sex-differential signals in SexDiffKG for drugs also in SIDER. Shows which signals are/are not listed as side effects in drug labels.",
+    "total_sexdiff_signals_for_sider_drugs": 88106,
+    "signals_for_listed_ses": 11927,
+    "signals_for_unlisted_ses": 76179,
+    "pct_unlisted": 86.46,
+    "interpretation": "76179 out of 88106 sex-differential signals (86.5%) are for drug-AE pairs NOT listed in SIDER labels. These represent potential undisclosed sex-differential risks.",
+    "top_unlisted_strong_signals": [
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Alopecia",
+        "log_ror_ratio": -4.8619,
+        "direction": "male_higher",
+        "min_reports": 123
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Migraine",
+        "log_ror_ratio": -4.7463,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "RISPERIDONE",
+        "adverse_event": "Abnormal weight gain",
+        "log_ror_ratio": -4.6548,
+        "direction": "male_higher",
+        "min_reports": 76
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Facial pain",
+        "log_ror_ratio": -4.2959,
+        "direction": "male_higher",
+        "min_reports": 126
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Pericarditis",
+        "log_ror_ratio": -4.2809,
+        "direction": "male_higher",
+        "min_reports": 130
+      },
+      {
+        "drug": "RISPERIDONE",
+        "adverse_event": "Emotional disorder",
+        "log_ror_ratio": -4.2432,
+        "direction": "male_higher",
+        "min_reports": 69
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Cardiospasm",
+        "log_ror_ratio": -4.1566,
+        "direction": "male_higher",
+        "min_reports": 130
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Pain of skin",
+        "log_ror_ratio": -4.1433,
+        "direction": "male_higher",
+        "min_reports": 123
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Anxiety",
+        "log_ror_ratio": -4.0779,
+        "direction": "male_higher",
+        "min_reports": 136
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Palpitations",
+        "log_ror_ratio": -4.0278,
+        "direction": "male_higher",
+        "min_reports": 128
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Feeling abnormal",
+        "log_ror_ratio": -4.0187,
+        "direction": "male_higher",
+        "min_reports": 133
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Dry skin",
+        "log_ror_ratio": -3.9694,
+        "direction": "male_higher",
+        "min_reports": 128
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Tension headache",
+        "log_ror_ratio": -3.9457,
+        "direction": "male_higher",
+        "min_reports": 124
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Eye pruritus",
+        "log_ror_ratio": -3.9189,
+        "direction": "male_higher",
+        "min_reports": 123
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Abdominal discomfort",
+        "log_ror_ratio": -3.8967,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Lip swelling",
+        "log_ror_ratio": -3.8248,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Anosmia",
+        "log_ror_ratio": -3.7853,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Visual impairment",
+        "log_ror_ratio": -3.7737,
+        "direction": "male_higher",
+        "min_reports": 128
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Arthralgia",
+        "log_ror_ratio": -3.7705,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Amnesia",
+        "log_ror_ratio": -3.7322,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Peripheral swelling",
+        "log_ror_ratio": -3.7217,
+        "direction": "male_higher",
+        "min_reports": 125
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Disturbance in attention",
+        "log_ror_ratio": -3.7131,
+        "direction": "male_higher",
+        "min_reports": 133
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Heart rate increased",
+        "log_ror_ratio": -3.7106,
+        "direction": "male_higher",
+        "min_reports": 124
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Chest pain",
+        "log_ror_ratio": -3.7044,
+        "direction": "male_higher",
+        "min_reports": 132
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Rash papular",
+        "log_ror_ratio": -3.6906,
+        "direction": "male_higher",
+        "min_reports": 105
+      },
+      {
+        "drug": "ACETAMINOPHEN",
+        "adverse_event": "Folliculitis",
+        "log_ror_ratio": 3.6812,
+        "direction": "female_higher",
+        "min_reports": 52
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Malaise",
+        "log_ror_ratio": -3.6767,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Memory impairment",
+        "log_ror_ratio": -3.6608,
+        "direction": "male_higher",
+        "min_reports": 125
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "COVID-19",
+        "log_ror_ratio": -3.5977,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Muscular weakness",
+        "log_ror_ratio": -3.5915,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Back pain",
+        "log_ror_ratio": -3.5799,
+        "direction": "male_higher",
+        "min_reports": 125
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Dehydration",
+        "log_ror_ratio": -3.5319,
+        "direction": "male_higher",
+        "min_reports": 129
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Blindness",
+        "log_ror_ratio": -3.5177,
+        "direction": "male_higher",
+        "min_reports": 125
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Tinnitus",
+        "log_ror_ratio": -3.5019,
+        "direction": "male_higher",
+        "min_reports": 123
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Atrial tachycardia",
+        "log_ror_ratio": -3.4782,
+        "direction": "male_higher",
+        "min_reports": 130
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Diplopia",
+        "log_ror_ratio": -3.4754,
+        "direction": "male_higher",
+        "min_reports": 124
+      },
+      {
+        "drug": "CETIRIZINE HYDROCHLORIDE",
+        "adverse_event": "Wound",
+        "log_ror_ratio": 3.474,
+        "direction": "female_higher",
+        "min_reports": 61
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Vasculitis",
+        "log_ror_ratio": -3.4677,
+        "direction": "male_higher",
+        "min_reports": 125
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Intentional product misuse",
+        "log_ror_ratio": -3.4434,
+        "direction": "male_higher",
+        "min_reports": 122
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Muscle twitching",
+        "log_ror_ratio": -3.4389,
+        "direction": "male_higher",
+        "min_reports": 124
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Insomnia",
+        "log_ror_ratio": -3.4365,
+        "direction": "male_higher",
+        "min_reports": 124
+      },
+      {
+        "drug": "DUTASTERIDE",
+        "adverse_event": "Product use issue",
+        "log_ror_ratio": 3.4344,
+        "direction": "female_higher",
+        "min_reports": 115
+      },
+      {
+        "drug": "SULFASALAZINE",
+        "adverse_event": "Wound",
+        "log_ror_ratio": 3.4132,
+        "direction": "female_higher",
+        "min_reports": 51
+      },
+      {
+        "drug": "PROGESTERONE",
+        "adverse_event": "Foetal exposure during pregnancy",
+        "log_ror_ratio": -3.4013,
+        "direction": "male_higher",
+        "min_reports": 296
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Hyperhidrosis",
+        "log_ror_ratio": -3.3967,
+        "direction": "male_higher",
+        "min_reports": 127
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Vomiting",
+        "log_ror_ratio": -3.3798,
+        "direction": "male_higher",
+        "min_reports": 124
+      },
+      {
+        "drug": "GOLD",
+        "adverse_event": "Bone erosion",
+        "log_ror_ratio": -3.364,
+        "direction": "male_higher",
+        "min_reports": 51
+      },
+      {
+        "drug": "PALIPERIDONE",
+        "adverse_event": "Disturbance in social behaviour",
+        "log_ror_ratio": 3.3557,
+        "direction": "female_higher",
+        "min_reports": 70
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Tachycardia",
+        "log_ror_ratio": -3.3481,
+        "direction": "male_higher",
+        "min_reports": 123
+      },
+      {
+        "drug": "ESTRIOL",
+        "adverse_event": "Headache",
+        "log_ror_ratio": -3.3448,
+        "direction": "male_higher",
+        "min_reports": 123
+      }
+    ]
+  },
+  "summary": {
+    "sider_version": "4.1",
+    "sider_drugs": 1347,
+    "sider_side_effects_pt": 4251,
+    "sider_drug_se_pairs_pt": 141100,
+    "sexdiffkg_signals": 183539,
+    "sexdiffkg_drugs": 3441,
+    "sexdiffkg_pts": 5658,
+    "drugs_matched": 848,
+    "ses_matched": 2862,
+    "key_finding": "Of 99990 matchable SIDER drug-SE pairs, 11927 (11.93%) show sex-differential patterns in FAERS real-world data. 2938 pairs show strong (>2.7x) sex differences.",
+    "label_gap_finding": "76179 out of 88106 sex-differential signals (86.5%) are for drug-AE pairs NOT listed in SIDER labels. These represent potential undisclosed sex-differential risks."
+  }
+}

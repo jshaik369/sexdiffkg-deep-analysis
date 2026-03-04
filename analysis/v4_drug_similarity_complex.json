@@ -1,0 +1,569 @@
+{
+  "n_drugs": 29277,
+  "embedding_dim": 400,
+  "method": "ComplEx real+imag concatenation, cosine similarity",
+  "top_pairs": [
+    {
+      "d1": "ATORVASTATIN CALCIUM",
+      "d2": "SULFASALAZINE",
+      "sim": 0.9879,
+      "b1": 0.104,
+      "b2": -0.135
+    },
+    {
+      "d1": "MORPHINE",
+      "d2": "CYANOCOBALAMIN",
+      "sim": 0.9875,
+      "b1": 0.584,
+      "b2": 0.165
+    },
+    {
+      "d1": "ONDANSETRON",
+      "d2": "MONTELUKAST SODIUM",
+      "sim": 0.9804,
+      "b1": 0.108,
+      "b2": -0.281
+    },
+    {
+      "d1": "ESCITALOPRAM OXALATE",
+      "d2": "ETOPOSIDE",
+      "sim": 0.9795,
+      "b1": -0.363,
+      "b2": 0.56
+    },
+    {
+      "d1": "ETOPOSIDE",
+      "d2": "ESOMEPRAZOLE MAGNESIUM",
+      "sim": 0.9765,
+      "b1": 0.56,
+      "b2": 0.201
+    },
+    {
+      "d1": "ESCITALOPRAM OXALATE",
+      "d2": "ESOMEPRAZOLE MAGNESIUM",
+      "sim": 0.9753,
+      "b1": -0.363,
+      "b2": 0.201
+    },
+    {
+      "d1": "CYCLOPHOSPHAMIDE",
+      "d2": "DICLOFENAC SODIUM",
+      "sim": 0.9744,
+      "b1": 0.117,
+      "b2": 0.407
+    },
+    {
+      "d1": "BEVACIZUMAB",
+      "d2": "INFLIXIMAB",
+      "sim": 0.9733,
+      "b1": 0.209,
+      "b2": 0.207
+    },
+    {
+      "d1": "ONDANSETRON HYDROCHLORIDE",
+      "d2": "APIXABAN",
+      "sim": 0.9733,
+      "b1": -0.098,
+      "b2": 0.222
+    },
+    {
+      "d1": "RANITIDINE",
+      "d2": "MORPHINE SULFATE",
+      "sim": 0.9732,
+      "b1": 0.882,
+      "b2": 0.537
+    },
+    {
+      "d1": "CYCLOPHOSPHAMIDE",
+      "d2": "CERTOLIZUMAB PEGOL",
+      "sim": 0.972,
+      "b1": 0.117,
+      "b2": 0.204
+    },
+    {
+      "d1": "ALBUTEROL",
+      "d2": "ACETAMINOPHEN\\CODEINE PHOSPHATE",
+      "sim": 0.9718,
+      "b1": 0.062,
+      "b2": 0.684
+    },
+    {
+      "d1": "DICLOFENAC",
+      "d2": "GOLIMUMAB",
+      "sim": 0.9718,
+      "b1": 0.32,
+      "b2": 0.326
+    },
+    {
+      "d1": "CETIRIZINE HYDROCHLORIDE",
+      "d2": "ALPRAZOLAM",
+      "sim": 0.9683,
+      "b1": 0.282,
+      "b2": 0.167
+    },
+    {
+      "d1": "GABAPENTIN",
+      "d2": "TORSEMIDE",
+      "sim": 0.9623,
+      "b1": -0.193,
+      "b2": 0.102
+    },
+    {
+      "d1": "CERTOLIZUMAB PEGOL",
+      "d2": "DICLOFENAC SODIUM",
+      "sim": 0.9614,
+      "b1": 0.204,
+      "b2": 0.407
+    },
+    {
+      "d1": "LEVOTHYROXINE SODIUM",
+      "d2": "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE",
+      "sim": 0.9604,
+      "b1": -0.339,
+      "b2": 0.871
+    },
+    {
+      "d1": "CELECOXIB",
+      "d2": "ADALIMUMAB",
+      "sim": 0.9597,
+      "b1": 0.175,
+      "b2": -0.104
+    },
+    {
+      "d1": "METHOTREXATE SODIUM",
+      "d2": "PANTOPRAZOLE",
+      "sim": 0.956,
+      "b1": -0.357,
+      "b2": 0.416
+    },
+    {
+      "d1": "ETOPOSIDE",
+      "d2": "METFORMIN HYDROCHLORIDE",
+      "sim": 0.9552,
+      "b1": 0.56,
+      "b2": 0.134
+    },
+    {
+      "d1": "ASCORBIC ACID",
+      "d2": "FUROSEMIDE",
+      "sim": 0.9551,
+      "b1": 0.344,
+      "b2": 0.346
+    },
+    {
+      "d1": "METHYLPREDNISOLONE",
+      "d2": "TADALAFIL",
+      "sim": 0.954,
+      "b1": 0.543,
+      "b2": -0.077
+    },
+    {
+      "d1": "ETANERCEPT",
+      "d2": "DEXAMETHASONE",
+      "sim": 0.9518,
+      "b1": -0.12,
+      "b2": 0.43
+    },
+    {
+      "d1": "CLOZAPINE",
+      "d2": "ETOPOSIDE",
+      "sim": 0.9504,
+      "b1": 0.395,
+      "b2": 0.56
+    },
+    {
+      "d1": "DICLOFENAC",
+      "d2": "SPIRONOLACTONE",
+      "sim": 0.9492,
+      "b1": 0.32,
+      "b2": 0.265
+    },
+    {
+      "d1": "CYTARABINE",
+      "d2": "CALCIUM CARBONATE",
+      "sim": 0.9486,
+      "b1": 0.577,
+      "b2": 0.335
+    },
+    {
+      "d1": "CLONAZEPAM",
+      "d2": "SULFASALAZINE",
+      "sim": 0.9464,
+      "b1": 0.087,
+      "b2": -0.135
+    },
+    {
+      "d1": "GOLIMUMAB",
+      "d2": "SPIRONOLACTONE",
+      "sim": 0.9453,
+      "b1": 0.326,
+      "b2": 0.265
+    },
+    {
+      "d1": "ATORVASTATIN CALCIUM",
+      "d2": "CLONAZEPAM",
+      "sim": 0.9431,
+      "b1": 0.104,
+      "b2": 0.087
+    },
+    {
+      "d1": "CLOZAPINE",
+      "d2": "METFORMIN HYDROCHLORIDE",
+      "sim": 0.9335,
+      "b1": 0.395,
+      "b2": 0.134
+    },
+    {
+      "d1": "TRAMADOL HYDROCHLORIDE",
+      "d2": "TADALAFIL",
+      "sim": 0.9198,
+      "b1": 0.679,
+      "b2": -0.077
+    },
+    {
+      "d1": "CARBOPLATIN",
+      "d2": "SIMVASTATIN",
+      "sim": 0.9122,
+      "b1": 0.168,
+      "b2": 0.204
+    },
+    {
+      "d1": "WARFARIN",
+      "d2": "CALCIUM CARBONATE",
+      "sim": 0.9115,
+      "b1": 0.12,
+      "b2": 0.335
+    },
+    {
+      "d1": "HYDROMORPHONE",
+      "d2": "ESOMEPRAZOLE MAGNESIUM",
+      "sim": 0.9081,
+      "b1": 0.517,
+      "b2": 0.201
+    },
+    {
+      "d1": "FENTANYL",
+      "d2": "TOFACITINIB CITRATE",
+      "sim": 0.9071,
+      "b1": 0.469,
+      "b2": -0.021
+    },
+    {
+      "d1": "CELECOXIB",
+      "d2": "SIMVASTATIN",
+      "sim": 0.894,
+      "b1": 0.175,
+      "b2": 0.204
+    },
+    {
+      "d1": "MORPHINE SULFATE",
+      "d2": "DICLOFENAC",
+      "sim": 0.888,
+      "b1": 0.537,
+      "b2": 0.32
+    },
+    {
+      "d1": "WARFARIN",
+      "d2": "CYTARABINE",
+      "sim": 0.885,
+      "b1": 0.12,
+      "b2": 0.577
+    },
+    {
+      "d1": "ZOLEDRONIC ACID",
+      "d2": "ADALIMUMAB",
+      "sim": 0.8736,
+      "b1": 0.029,
+      "b2": -0.104
+    },
+    {
+      "d1": "FUROSEMIDE",
+      "d2": "TRAMADOL HYDROCHLORIDE",
+      "sim": 0.8734,
+      "b1": 0.346,
+      "b2": 0.679
+    },
+    {
+      "d1": "ETOPOSIDE",
+      "d2": "LEUPROLIDE ACETATE",
+      "sim": 0.8718,
+      "b1": 0.56,
+      "b2": 0.389
+    },
+    {
+      "d1": "ADALIMUMAB",
+      "d2": "SIMVASTATIN",
+      "sim": 0.8675,
+      "b1": -0.104,
+      "b2": 0.204
+    },
+    {
+      "d1": "METFORMIN HYDROCHLORIDE",
+      "d2": "LEUPROLIDE ACETATE",
+      "sim": 0.8593,
+      "b1": 0.134,
+      "b2": 0.389
+    },
+    {
+      "d1": "CELECOXIB",
+      "d2": "ZOLEDRONIC ACID",
+      "sim": 0.8577,
+      "b1": 0.175,
+      "b2": 0.029
+    },
+    {
+      "d1": "CELECOXIB",
+      "d2": "CARBOPLATIN",
+      "sim": 0.8522,
+      "b1": 0.175,
+      "b2": 0.168
+    },
+    {
+      "d1": "CLOZAPINE",
+      "d2": "LEUPROLIDE ACETATE",
+      "sim": 0.8512,
+      "b1": 0.395,
+      "b2": 0.389
+    },
+    {
+      "d1": "CARBOPLATIN",
+      "d2": "ADALIMUMAB",
+      "sim": 0.8504,
+      "b1": 0.168,
+      "b2": -0.104
+    },
+    {
+      "d1": "CLOPIDOGREL BISULFATE",
+      "d2": "CELECOXIB",
+      "sim": 0.8481,
+      "b1": 0.486,
+      "b2": 0.175
+    },
+    {
+      "d1": "DIPHENHYDRAMINE HYDROCHLORIDE",
+      "d2": "CYCLOPHOSPHAMIDE",
+      "sim": 0.8464,
+      "b1": 0.375,
+      "b2": 0.117
+    },
+    {
+      "d1": "LISINOPRIL",
+      "d2": "ALLOPURINOL",
+      "sim": 0.8411,
+      "b1": 0.463,
+      "b2": 0.341
+    }
+  ],
+  "repurposing_candidates": [
+    {
+      "d1": "MORPHINE",
+      "d2": "CYANOCOBALAMIN",
+      "sim": 0.9875,
+      "b1": 0.584,
+      "b2": 0.165
+    },
+    {
+      "d1": "ESCITALOPRAM OXALATE",
+      "d2": "ETOPOSIDE",
+      "sim": 0.9795,
+      "b1": -0.363,
+      "b2": 0.56
+    },
+    {
+      "d1": "ESCITALOPRAM OXALATE",
+      "d2": "ESOMEPRAZOLE MAGNESIUM",
+      "sim": 0.9753,
+      "b1": -0.363,
+      "b2": 0.201
+    },
+    {
+      "d1": "CYCLOPHOSPHAMIDE",
+      "d2": "DICLOFENAC SODIUM",
+      "sim": 0.9744,
+      "b1": 0.117,
+      "b2": 0.407
+    },
+    {
+      "d1": "ONDANSETRON HYDROCHLORIDE",
+      "d2": "APIXABAN",
+      "sim": 0.9733,
+      "b1": -0.098,
+      "b2": 0.222
+    },
+    {
+      "d1": "CYCLOPHOSPHAMIDE",
+      "d2": "CERTOLIZUMAB PEGOL",
+      "sim": 0.972,
+      "b1": 0.117,
+      "b2": 0.204
+    },
+    {
+      "d1": "ALBUTEROL",
+      "d2": "ACETAMINOPHEN\\CODEINE PHOSPHATE",
+      "sim": 0.9718,
+      "b1": 0.062,
+      "b2": 0.684
+    },
+    {
+      "d1": "CETIRIZINE HYDROCHLORIDE",
+      "d2": "ALPRAZOLAM",
+      "sim": 0.9683,
+      "b1": 0.282,
+      "b2": 0.167
+    },
+    {
+      "d1": "LEVOTHYROXINE SODIUM",
+      "d2": "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE",
+      "sim": 0.9604,
+      "b1": -0.339,
+      "b2": 0.871
+    },
+    {
+      "d1": "METHOTREXATE SODIUM",
+      "d2": "PANTOPRAZOLE",
+      "sim": 0.956,
+      "b1": -0.357,
+      "b2": 0.416
+    },
+    {
+      "d1": "ETOPOSIDE",
+      "d2": "METFORMIN HYDROCHLORIDE",
+      "sim": 0.9552,
+      "b1": 0.56,
+      "b2": 0.134
+    },
+    {
+      "d1": "METHYLPREDNISOLONE",
+      "d2": "TADALAFIL",
+      "sim": 0.954,
+      "b1": 0.543,
+      "b2": -0.077
+    },
+    {
+      "d1": "ETANERCEPT",
+      "d2": "DEXAMETHASONE",
+      "sim": 0.9518,
+      "b1": -0.12,
+      "b2": 0.43
+    },
+    {
+      "d1": "CLOZAPINE",
+      "d2": "METFORMIN HYDROCHLORIDE",
+      "sim": 0.9335,
+      "b1": 0.395,
+      "b2": 0.134
+    },
+    {
+      "d1": "TRAMADOL HYDROCHLORIDE",
+      "d2": "TADALAFIL",
+      "sim": 0.9198,
+      "b1": 0.679,
+      "b2": -0.077
+    },
+    {
+      "d1": "CARBOPLATIN",
+      "d2": "SIMVASTATIN",
+      "sim": 0.9122,
+      "b1": 0.168,
+      "b2": 0.204
+    },
+    {
+      "d1": "WARFARIN",
+      "d2": "CALCIUM CARBONATE",
+      "sim": 0.9115,
+      "b1": 0.12,
+      "b2": 0.335
+    },
+    {
+      "d1": "FENTANYL",
+      "d2": "TOFACITINIB CITRATE",
+      "sim": 0.9071,
+      "b1": 0.469,
+      "b2": -0.021
+    },
+    {
+      "d1": "CELECOXIB",
+      "d2": "SIMVASTATIN",
+      "sim": 0.894,
+      "b1": 0.175,
+      "b2": 0.204
+    },
+    {
+      "d1": "WARFARIN",
+      "d2": "CYTARABINE",
+      "sim": 0.885,
+      "b1": 0.12,
+      "b2": 0.577
+    },
+    {
+      "d1": "ADALIMUMAB",
+      "d2": "SIMVASTATIN",
+      "sim": 0.8675,
+      "b1": -0.104,
+      "b2": 0.204
+    },
+    {
+      "d1": "METFORMIN HYDROCHLORIDE",
+      "d2": "LEUPROLIDE ACETATE",
+      "sim": 0.8593,
+      "b1": 0.134,
+      "b2": 0.389
+    },
+    {
+      "d1": "CLOPIDOGREL BISULFATE",
+      "d2": "CELECOXIB",
+      "sim": 0.8481,
+      "b1": 0.486,
+      "b2": 0.175
+    },
+    {
+      "d1": "DIPHENHYDRAMINE HYDROCHLORIDE",
+      "d2": "CYCLOPHOSPHAMIDE",
+      "sim": 0.8464,
+      "b1": 0.375,
+      "b2": 0.117
+    },
+    {
+      "d1": "ZOPICLONE",
+      "d2": "ADALIMUMAB",
+      "sim": 0.8352,
+      "b1": 0.579,
+      "b2": -0.104
+    },
+    {
+      "d1": "CLOPIDOGREL BISULFATE",
+      "d2": "ADALIMUMAB",
+      "sim": 0.8346,
+      "b1": 0.486,
+      "b2": -0.104
+    },
+    {
+      "d1": "CELECOXIB",
+      "d2": "ZOPICLONE",
+      "sim": 0.8193,
+      "b1": 0.175,
+      "b2": 0.579
+    },
+    {
+      "d1": "CLOPIDOGREL BISULFATE",
+      "d2": "CARBOPLATIN",
+      "sim": 0.8119,
+      "b1": 0.486,
+      "b2": 0.168
+    },
+    {
+      "d1": "ZOLEDRONIC ACID",
+      "d2": "SIMVASTATIN",
+      "sim": 0.7995,
+      "b1": 0.029,
+      "b2": 0.204
+    },
+    {
+      "d1": "LEVETIRACETAM",
+      "d2": "PREDNISOLONE",
+      "sim": 0.7949,
+      "b1": 0.063,
+      "b2": 0.524
+    }
+  ]
+}

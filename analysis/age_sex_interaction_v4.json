@@ -1,0 +1,358 @@
+{
+  "analysis": "Age-Sex Interaction Analysis",
+  "date": "2026-03-04",
+  "age_coverage": {
+    "reports_with_age_yr": 9137988,
+    "total_reports": 14536008,
+    "coverage_pct": 62.9
+  },
+  "age_groups": {
+    "young_adult": {
+      "age_range": "18-44",
+      "reports": 1856734,
+      "female": 1238054,
+      "male": 618680,
+      "total_signals": 44432,
+      "strong_signals": 20458,
+      "female_biased": 12931,
+      "male_biased": 7527,
+      "f_pct": 63.2,
+      "mean_log_ratio": 0.1695,
+      "median_log_ratio": 0.1095
+    },
+    "middle_aged": {
+      "age_range": "45-64",
+      "reports": 3063407,
+      "female": 1875487,
+      "male": 1187920,
+      "total_signals": 77224,
+      "strong_signals": 31322,
+      "female_biased": 16306,
+      "male_biased": 15016,
+      "f_pct": 52.1,
+      "mean_log_ratio": 0.0123,
+      "median_log_ratio": -0.0012
+    },
+    "elderly": {
+      "age_range": "65-120",
+      "reports": 3421962,
+      "female": 1919378,
+      "male": 1502584,
+      "total_signals": 83416,
+      "strong_signals": 30983,
+      "female_biased": 15272,
+      "male_biased": 15711,
+      "f_pct": 49.3,
+      "mean_log_ratio": -0.0171,
+      "median_log_ratio": -0.0033
+    }
+  },
+  "drug_class_by_age": {
+    "opioids": {
+      "young_adult": {
+        "total": 872,
+        "f_bias": 766,
+        "m_bias": 106,
+        "mean_log_ratio": 1.1356
+      },
+      "middle_aged": {
+        "total": 709,
+        "f_bias": 403,
+        "m_bias": 306,
+        "mean_log_ratio": 0.217
+      },
+      "elderly": {
+        "total": 465,
+        "f_bias": 185,
+        "m_bias": 280,
+        "mean_log_ratio": -0.0975
+      }
+    },
+    "antipsychotics": {
+      "young_adult": {
+        "total": 1209,
+        "f_bias": 860,
+        "m_bias": 349,
+        "mean_log_ratio": 0.5264
+      },
+      "middle_aged": {
+        "total": 826,
+        "f_bias": 458,
+        "m_bias": 368,
+        "mean_log_ratio": 0.0946
+      },
+      "elderly": {
+        "total": 441,
+        "f_bias": 178,
+        "m_bias": 263,
+        "mean_log_ratio": -0.1753
+      }
+    },
+    "ssris": {
+      "young_adult": {
+        "total": 471,
+        "f_bias": 247,
+        "m_bias": 224,
+        "mean_log_ratio": 0.0619
+      },
+      "middle_aged": {
+        "total": 397,
+        "f_bias": 188,
+        "m_bias": 209,
+        "mean_log_ratio": -0.126
+      },
+      "elderly": {
+        "total": 311,
+        "f_bias": 101,
+        "m_bias": 210,
+        "mean_log_ratio": -0.4752
+      }
+    },
+    "statins": {
+      "young_adult": {
+        "total": 53,
+        "f_bias": 27,
+        "m_bias": 26,
+        "mean_log_ratio": 0.0647
+      },
+      "middle_aged": {
+        "total": 456,
+        "f_bias": 176,
+        "m_bias": 280,
+        "mean_log_ratio": -0.208
+      },
+      "elderly": {
+        "total": 612,
+        "f_bias": 346,
+        "m_bias": 266,
+        "mean_log_ratio": 0.1396
+      }
+    },
+    "ace_inhibitors": {
+      "young_adult": {
+        "total": 78,
+        "f_bias": 53,
+        "m_bias": 25,
+        "mean_log_ratio": 0.7434
+      },
+      "middle_aged": {
+        "total": 296,
+        "f_bias": 231,
+        "m_bias": 65,
+        "mean_log_ratio": 0.6714
+      },
+      "elderly": {
+        "total": 386,
+        "f_bias": 248,
+        "m_bias": 138,
+        "mean_log_ratio": 0.2623
+      }
+    },
+    "hormonal": {
+      "young_adult": {
+        "total": 2,
+        "f_bias": 0,
+        "m_bias": 2,
+        "mean_log_ratio": -1.9535
+      },
+      "middle_aged": {
+        "total": 13,
+        "f_bias": 1,
+        "m_bias": 12,
+        "mean_log_ratio": -2.4353
+      },
+      "elderly": {
+        "total": 3,
+        "f_bias": 0,
+        "m_bias": 3,
+        "mean_log_ratio": -0.8058
+      }
+    }
+  },
+  "direction_flips": {
+    "count": 1470,
+    "top_20": [
+      {
+        "drug": "CALCIUM",
+        "ae": "Condition aggravated",
+        "young_log_ratio": 2.742,
+        "elderly_log_ratio": -2.752,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 5.494
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Obesity",
+        "young_log_ratio": 3.361,
+        "elderly_log_ratio": -2.107,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 5.469
+      },
+      {
+        "drug": "PEGFILGRASTIM",
+        "ae": "Unintentional medical device removal",
+        "young_log_ratio": -4.516,
+        "elderly_log_ratio": 0.695,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 5.211
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Procedural pain",
+        "young_log_ratio": -2.333,
+        "elderly_log_ratio": 2.866,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 5.199
+      },
+      {
+        "drug": "AZATHIOPRINE",
+        "ae": "Lung disorder",
+        "young_log_ratio": 2.371,
+        "elderly_log_ratio": -2.443,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 4.814
+      },
+      {
+        "drug": "TREPROSTINIL",
+        "ae": "Device dislocation",
+        "young_log_ratio": -3.962,
+        "elderly_log_ratio": 0.687,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 4.65
+      },
+      {
+        "drug": "OXYCODONE",
+        "ae": "Dry mouth",
+        "young_log_ratio": 3.595,
+        "elderly_log_ratio": -0.895,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 4.49
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Hypercholesterolaemia",
+        "young_log_ratio": 3.318,
+        "elderly_log_ratio": -1.117,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 4.435
+      },
+      {
+        "drug": "BACLOFEN",
+        "ae": "Device dislocation",
+        "young_log_ratio": -3.711,
+        "elderly_log_ratio": 0.694,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 4.405
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "ae": "Device dislocation",
+        "young_log_ratio": -3.856,
+        "elderly_log_ratio": 0.537,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 4.393
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "ae": "Condition aggravated",
+        "young_log_ratio": 2.003,
+        "elderly_log_ratio": -2.373,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 4.376
+      },
+      {
+        "drug": "ANAKINRA",
+        "ae": "Rheumatoid arthritis",
+        "young_log_ratio": -3.403,
+        "elderly_log_ratio": 0.926,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 4.329
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "ae": "Off label use",
+        "young_log_ratio": -1.237,
+        "elderly_log_ratio": 2.973,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 4.21
+      },
+      {
+        "drug": "SECUKINUMAB",
+        "ae": "Injection site reaction",
+        "young_log_ratio": 2.339,
+        "elderly_log_ratio": -1.793,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 4.132
+      },
+      {
+        "drug": "VITAMIN B6",
+        "ae": "Vomiting",
+        "young_log_ratio": 0.528,
+        "elderly_log_ratio": -3.602,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 4.13
+      },
+      {
+        "drug": "PARACETAMOL",
+        "ae": "Drug intolerance",
+        "young_log_ratio": 3.089,
+        "elderly_log_ratio": -0.948,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 4.038
+      },
+      {
+        "drug": "CARBAMAZEPINE",
+        "ae": "Depressed level of consciousness",
+        "young_log_ratio": -0.674,
+        "elderly_log_ratio": 3.335,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 4.01
+      },
+      {
+        "drug": "SODIUM CHLORIDE",
+        "ae": "Pain",
+        "young_log_ratio": -2.809,
+        "elderly_log_ratio": 1.193,
+        "young_direction": "male",
+        "elderly_direction": "female",
+        "delta": 4.003
+      },
+      {
+        "drug": "HYDROMORPHONE",
+        "ae": "Sleep disorder",
+        "young_log_ratio": 0.883,
+        "elderly_log_ratio": -3.112,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 3.994
+      },
+      {
+        "drug": "DICLOFENAC",
+        "ae": "Nasopharyngitis",
+        "young_log_ratio": 2.832,
+        "elderly_log_ratio": -1.158,
+        "young_direction": "female",
+        "elderly_direction": "male",
+        "delta": 3.99
+      }
+    ]
+  },
+  "runtime_seconds": 10.7
+}

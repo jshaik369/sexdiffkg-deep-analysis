@@ -1,0 +1,299 @@
+[
+  {
+    "cluster": 0,
+    "n_drugs": 2087,
+    "n_signals": 79,
+    "female_biased": 31,
+    "male_biased": 48,
+    "female_ratio": 0.392,
+    "top_aes": {
+      "Drug ineffective": 5,
+      "Fatigue": 4,
+      "Nausea": 4,
+      "Dyspnoea": 3,
+      "Toxicity to various agents": 3
+    },
+    "top_drugs": {
+      "SULFAGUANIDINE": 4,
+      "MURO-128": 4,
+      "MAGNESIUM ASPARTATE\\POTASSIUM ASPARTATE": 3,
+      "MOSUNETUZUMAB": 2,
+      "RITODRINE HYDROCHLORIDE": 2
+    }
+  },
+  {
+    "cluster": 1,
+    "n_drugs": 1773,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 2,
+    "n_drugs": 2131,
+    "n_signals": 7,
+    "female_biased": 5,
+    "male_biased": 2,
+    "female_ratio": 0.714,
+    "top_aes": {
+      "Drug ineffective": 2,
+      "Death": 2,
+      "Overdose": 1,
+      "Urticaria": 1,
+      "Acute kidney injury": 1
+    },
+    "top_drugs": {
+      "PARAFLUOROFENTANYL": 1,
+      "COMBIVENT INHALATION AEROSOL": 1,
+      "BISMUTH SUBCITRATE": 1,
+      "DIANEAL PD-2, PERITONEAL DIALYSIS SOLUTION WITH 2.5% DEXTROSE ^BAXTER^": 1,
+      "ANTI THROMBIN III": 1
+    }
+  },
+  {
+    "cluster": 3,
+    "n_drugs": 899,
+    "n_signals": 39973,
+    "female_biased": 24283,
+    "male_biased": 15690,
+    "female_ratio": 0.607,
+    "top_aes": {
+      "Device dislocation": 201,
+      "Contraindicated product administered": 150,
+      "Type 2 diabetes mellitus": 142,
+      "Infusion related reaction": 129,
+      "Hepatic enzyme increased": 127
+    },
+    "top_drugs": {
+      "RANITIDINE HYDROCHLORIDE": 381,
+      "RITUXIMAB": 344,
+      "PREDNISONE": 302,
+      "RISPERIDONE": 298,
+      "TOCILIZUMAB": 294
+    }
+  },
+  {
+    "cluster": 4,
+    "n_drugs": 2028,
+    "n_signals": 956,
+    "female_biased": 324,
+    "male_biased": 632,
+    "female_ratio": 0.339,
+    "top_aes": {
+      "Off label use": 41,
+      "Drug ineffective": 36,
+      "Nausea": 30,
+      "Vomiting": 24,
+      "Dyspnoea": 23
+    },
+    "top_drugs": {
+      "PSEUDOEPHEDRINE": 29,
+      "EFINACONAZOLE": 25,
+      "ALOE VERA LEAF": 23,
+      "SODIUM FERRIC GLUCONATE COMPLEX": 22,
+      "DORZOLAMIDE": 22
+    }
+  },
+  {
+    "cluster": 5,
+    "n_drugs": 1679,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 6,
+    "n_drugs": 1176,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 7,
+    "n_drugs": 1649,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 8,
+    "n_drugs": 2168,
+    "n_signals": 2,
+    "female_biased": 2,
+    "male_biased": 0,
+    "female_ratio": 1.0,
+    "top_aes": {
+      "Acute kidney injury": 1,
+      "Chronic kidney disease": 1
+    },
+    "top_drugs": {
+      "ZANTAC 75 OTC": 2
+    }
+  },
+  {
+    "cluster": 9,
+    "n_drugs": 1711,
+    "n_signals": 7971,
+    "female_biased": 4010,
+    "male_biased": 3961,
+    "female_ratio": 0.503,
+    "top_aes": {
+      "Condition aggravated": 88,
+      "Off label use": 88,
+      "Drug ineffective": 82,
+      "Pain": 78,
+      "Product use in unapproved indication": 68
+    },
+    "top_drugs": {
+      "HYDROCORTISONE ACETATE": 107,
+      "GLUCOSAMINE": 106,
+      "PSEUDOEPHEDRINE HYDROCHLORIDE": 105,
+      "CALCIUM GLUCONATE": 83,
+      "DICLOFENAC POTASSIUM": 73
+    }
+  },
+  {
+    "cluster": 10,
+    "n_drugs": 1330,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 11,
+    "n_drugs": 357,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 12,
+    "n_drugs": 1343,
+    "n_signals": 6,
+    "female_biased": 2,
+    "male_biased": 4,
+    "female_ratio": 0.333,
+    "top_aes": {
+      "Drug ineffective": 1,
+      "Anosmia": 1,
+      "Toxicity to various agents": 1,
+      "Treatment failure": 1,
+      "Movement disorder": 1
+    },
+    "top_drugs": {
+      "PARALDEHYDE": 1,
+      "ACETAMINOPHEN\\CHLORPHENIRAMINE MALEATE\\DEXTROMETHORPHAN HYDROBROMIDE\\DOXYLAMINE SUCCINATE\\PHENYLEPHRINE HYDROCHLORIDE": 1,
+      "NORFLUOXETINE": 1,
+      "LAMIVUDINE\\NEVIRAPINE\\ZIDOVUDINE": 1,
+      "DARVOCET": 1
+    }
+  },
+  {
+    "cluster": 13,
+    "n_drugs": 1117,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 14,
+    "n_drugs": 993,
+    "n_signals": 3,
+    "female_biased": 2,
+    "male_biased": 1,
+    "female_ratio": 0.667,
+    "top_aes": {
+      "Completed suicide": 1,
+      "Drug abuse": 1,
+      "Corneal opacity": 1
+    },
+    "top_drugs": {
+      "HYPOCHLORITE ION": 1,
+      "HYDROCODONE /ACETAMINOPHEN": 1,
+      "RIPASUDIL HYDROCHLORIDE DIHYDRATE": 1
+    }
+  },
+  {
+    "cluster": 15,
+    "n_drugs": 549,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 16,
+    "n_drugs": 1909,
+    "n_signals": 29,
+    "female_biased": 10,
+    "male_biased": 19,
+    "female_ratio": 0.345,
+    "top_aes": {
+      "Urticaria": 4,
+      "Completed suicide": 2,
+      "Chronic kidney disease": 2,
+      "Death": 2,
+      "Cytokine release syndrome": 2
+    },
+    "top_drugs": {
+      "ACETAMINOPHEN\\CAFFEINE\\GUAIFENESIN": 2,
+      "SACROSIDASE": 2,
+      "ANTIHEMOPHILIC FACTOR PORCINE, B-DOMAIN TRUNCATED RECOMBINANT": 1,
+      "ALLERGENIC EXTRACTS": 1,
+      "SUNNY D": 1
+    }
+  },
+  {
+    "cluster": 17,
+    "n_drugs": 1346,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 18,
+    "n_drugs": 1975,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  },
+  {
+    "cluster": 19,
+    "n_drugs": 981,
+    "n_signals": 0,
+    "female_biased": 0,
+    "male_biased": 0,
+    "female_ratio": 0.5,
+    "top_aes": {},
+    "top_drugs": {}
+  }
+]

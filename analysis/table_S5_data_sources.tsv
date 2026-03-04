@@ -1,0 +1,7 @@
+Source	Version	License	Nodes	Edges	Type
+FDA FAERS	2004Q1-2025Q3	Public Domain	-	869,142	Drug-AE associations
+ChEMBL	36	CC-BY-SA 3.0	-	12,682	Drug-target interactions
+STRING	v12.0	CC-BY 4.0	-	473,860	Protein-protein interactions
+Reactome	2026-02	CC-BY 4.0	-	370,597	Gene-pathway membership
+GTEx	v8 (Oliva 2020)	Open Access	-	289	Sex-differential gene expression
+DiAna	2025	Open Source	-	-	Drug name normalization (846,917 mappings)

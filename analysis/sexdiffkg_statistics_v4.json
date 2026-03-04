@@ -1,0 +1,81 @@
+{
+  "version": "v4.1",
+  "description": "SexDiffKG v4.1 \u2014 DiAna normalization + Reactome + real GTEx",
+  "pipeline": {
+    "faers_reports_deduplicated": 14536008,
+    "faers_quarters": 87,
+    "sex_breakdown_female": 8744397,
+    "sex_breakdown_male": 5791611,
+    "normalization": "DiAna dictionary (846,917 mappings, 53.9% resolution)"
+  },
+  "signals": {
+    "total_sex_differential": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "unique_drugs": 2178,
+    "unique_adverse_events": 5069,
+    "threshold": "|log(ROR_F/ROR_M)| >= 0.5, min 10 reports/sex"
+  },
+  "knowledge_graph": {
+    "version": "v4.1",
+    "data_directory": "data/kg_v4/",
+    "total_nodes": 109867,
+    "total_edges": 1822851,
+    "node_types": {
+      "Gene": 77498,
+      "Protein": 16201,
+      "AdverseEvent": 9949,
+      "Drug": 3920,
+      "Pathway": 2279,
+      "Tissue": 20
+    },
+    "edge_types": {
+      "has_adverse_event": 869142,
+      "interacts_with": 473860,
+      "participates_in": 370597,
+      "sex_differential_adverse_event": 96281,
+      "targets": 12682,
+      "sex_differential_expression": 289
+    },
+    "data_sources": [
+      "FAERS 2004Q1-2025Q3 (Public Domain)",
+      "STRING v12.0 (CC-BY 4.0)",
+      "ChEMBL 36 (CC-BY-SA 3.0)",
+      "Reactome 2026-02 (CC-BY 4.0)",
+      "GTEx v8 Oliva 2020 (Open Access)",
+      "DiAna 2025 (Open Source)"
+    ]
+  },
+  "embeddings": {
+    "ComplEx_v4": {
+      "epochs": 100,
+      "MRR": 0.248387,
+      "Hits_at_1": 0.167829,
+      "Hits_at_10": 0.40692,
+      "AMRI": 0.9902,
+      "status": "BEST MODEL"
+    },
+    "DistMult_v4": {
+      "epochs": 100,
+      "MRR": 0.093157,
+      "Hits_at_1": 0.041918,
+      "Hits_at_10": 0.184235,
+      "AMRI": 0.9906
+    },
+    "DistMult_v4.1": {
+      "status": "training on GPU, epoch ~76/100"
+    },
+    "RotatE_v4.1": {
+      "status": "training on CPU, epoch ~11/200"
+    }
+  },
+  "validation": {
+    "benchmarks_total": 40,
+    "benchmarks_found": 29,
+    "coverage_pct": 72.5,
+    "directional_precision_pct": 82.8,
+    "gene_targets_assessed": 767,
+    "directionally_biased_targets": 317
+  },
+  "note": "data/kg/ is OLD v3 KG (126,575 nodes). data/kg_v4/ is CORRECT v4 KG (109,867 nodes). All models train on data/kg_v4/."
+}

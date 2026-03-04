@@ -1,0 +1,282 @@
+{
+  "analysis": "Geographic Variation in Sex-Differential Signals",
+  "date": "2026-03-04",
+  "country_distribution": {
+    "US": 9934811,
+    "COUNTRY NOT SPECIFIED": 625919,
+    "CA": 573932,
+    "GB": 491181,
+    "FR": 416996,
+    "JP": 412316,
+    "DE": 292428,
+    "IT": 201710,
+    "CN": 160623,
+    "BR": 117585,
+    "ES": 117420,
+    "AU": 104498,
+    "NL": 96869,
+    "IN": 62500,
+    "CO": 58100,
+    "SE": 44775,
+    "AR": 43378,
+    "EU": 41161,
+    "PL": 40997,
+    "PT": 39191
+  },
+  "country_results": {
+    "US": {
+      "country": "US",
+      "reports": 9934811,
+      "female": 6204335,
+      "male": 3730476,
+      "f_report_pct": 62.5,
+      "total_signals": 120988,
+      "strong_signals": 31688,
+      "female_biased": 16092,
+      "male_biased": 15596,
+      "f_bias_pct": 50.8,
+      "mean_log_ratio": 0.0023
+    },
+    "COUNTRY NOT SPECIFIED": {
+      "country": "COUNTRY NOT SPECIFIED",
+      "reports": 625919,
+      "female": 369227,
+      "male": 256692,
+      "f_report_pct": 59.0,
+      "total_signals": 7778,
+      "strong_signals": 2061,
+      "female_biased": 888,
+      "male_biased": 1173,
+      "f_bias_pct": 43.1,
+      "mean_log_ratio": -0.0503
+    },
+    "CA": {
+      "country": "CA",
+      "reports": 573932,
+      "female": 346497,
+      "male": 227435,
+      "f_report_pct": 60.4,
+      "total_signals": 35653,
+      "strong_signals": 23344,
+      "female_biased": 7973,
+      "male_biased": 15371,
+      "f_bias_pct": 34.2,
+      "mean_log_ratio": -0.3535
+    },
+    "GB": {
+      "country": "GB",
+      "reports": 491181,
+      "female": 275761,
+      "male": 215420,
+      "f_report_pct": 56.1,
+      "total_signals": 16519,
+      "strong_signals": 6974,
+      "female_biased": 2734,
+      "male_biased": 4240,
+      "f_bias_pct": 39.2,
+      "mean_log_ratio": -0.112
+    },
+    "FR": {
+      "country": "FR",
+      "reports": 416996,
+      "female": 220154,
+      "male": 196842,
+      "f_report_pct": 52.8,
+      "total_signals": 16288,
+      "strong_signals": 6328,
+      "female_biased": 3109,
+      "male_biased": 3219,
+      "f_bias_pct": 49.1,
+      "mean_log_ratio": -0.0086
+    },
+    "JP": {
+      "country": "JP",
+      "reports": 412316,
+      "female": 193943,
+      "male": 218373,
+      "f_report_pct": 47.0,
+      "total_signals": 10361,
+      "strong_signals": 2586,
+      "female_biased": 1485,
+      "male_biased": 1101,
+      "f_bias_pct": 57.4,
+      "mean_log_ratio": 0.0407
+    },
+    "DE": {
+      "country": "DE",
+      "reports": 292428,
+      "female": 162016,
+      "male": 130412,
+      "f_report_pct": 55.4,
+      "total_signals": 11818,
+      "strong_signals": 4971,
+      "female_biased": 2339,
+      "male_biased": 2632,
+      "f_bias_pct": 47.1,
+      "mean_log_ratio": -0.0297
+    },
+    "IT": {
+      "country": "IT",
+      "reports": 201710,
+      "female": 109271,
+      "male": 92439,
+      "f_report_pct": 54.2,
+      "total_signals": 5858,
+      "strong_signals": 2175,
+      "female_biased": 1025,
+      "male_biased": 1150,
+      "f_bias_pct": 47.1,
+      "mean_log_ratio": -0.0188
+    },
+    "CN": {
+      "country": "CN",
+      "reports": 160623,
+      "female": 79699,
+      "male": 80924,
+      "f_report_pct": 49.6,
+      "total_signals": 3962,
+      "strong_signals": 1229,
+      "female_biased": 627,
+      "male_biased": 602,
+      "f_bias_pct": 51.0,
+      "mean_log_ratio": 0.0005
+    },
+    "BR": {
+      "country": "BR",
+      "reports": 117585,
+      "female": 76377,
+      "male": 41208,
+      "f_report_pct": 65.0,
+      "total_signals": 2367,
+      "strong_signals": 627,
+      "female_biased": 188,
+      "male_biased": 439,
+      "f_bias_pct": 30.0,
+      "mean_log_ratio": -0.1203
+    },
+    "ES": {
+      "country": "ES",
+      "reports": 117420,
+      "female": 61209,
+      "male": 56211,
+      "f_report_pct": 52.1,
+      "total_signals": 2677,
+      "strong_signals": 1011,
+      "female_biased": 530,
+      "male_biased": 481,
+      "f_bias_pct": 52.4,
+      "mean_log_ratio": 0.0162
+    },
+    "AU": {
+      "country": "AU",
+      "reports": 104498,
+      "female": 52705,
+      "male": 51793,
+      "f_report_pct": 50.4,
+      "total_signals": 2697,
+      "strong_signals": 1139,
+      "female_biased": 552,
+      "male_biased": 587,
+      "f_bias_pct": 48.5,
+      "mean_log_ratio": -0.0191
+    },
+    "NL": {
+      "country": "NL",
+      "reports": 96869,
+      "female": 48818,
+      "male": 48051,
+      "f_report_pct": 50.4,
+      "total_signals": 1858,
+      "strong_signals": 688,
+      "female_biased": 269,
+      "male_biased": 419,
+      "f_bias_pct": 39.1,
+      "mean_log_ratio": -0.0903
+    },
+    "IN": {
+      "country": "IN",
+      "reports": 62500,
+      "female": 28528,
+      "male": 33972,
+      "f_report_pct": 45.6,
+      "total_signals": 859,
+      "strong_signals": 276,
+      "female_biased": 141,
+      "male_biased": 135,
+      "f_bias_pct": 51.1,
+      "mean_log_ratio": 0.0148
+    },
+    "CO": {
+      "country": "CO",
+      "reports": 58100,
+      "female": 33135,
+      "male": 24965,
+      "f_report_pct": 57.0,
+      "total_signals": 1052,
+      "strong_signals": 301,
+      "female_biased": 107,
+      "male_biased": 194,
+      "f_bias_pct": 35.5,
+      "mean_log_ratio": -0.1009
+    }
+  },
+  "cross_country_correlations": {
+    "US_vs_COUNTRY NOT SPECIFIED": {
+      "pearson_r": 0.3913,
+      "n_shared": 6645
+    },
+    "US_vs_CA": {
+      "pearson_r": 0.1434,
+      "n_shared": 20644
+    },
+    "US_vs_GB": {
+      "pearson_r": 0.1631,
+      "n_shared": 11833
+    },
+    "US_vs_FR": {
+      "pearson_r": 0.1658,
+      "n_shared": 9595
+    },
+    "US_vs_JP": {
+      "pearson_r": 0.2038,
+      "n_shared": 7056
+    },
+    "US_vs_DE": {
+      "pearson_r": 0.1446,
+      "n_shared": 8944
+    },
+    "US_vs_IT": {
+      "pearson_r": 0.1185,
+      "n_shared": 4594
+    },
+    "US_vs_CN": {
+      "pearson_r": 0.1499,
+      "n_shared": 2762
+    },
+    "US_vs_BR": {
+      "pearson_r": 0.3319,
+      "n_shared": 2180
+    },
+    "US_vs_ES": {
+      "pearson_r": 0.1288,
+      "n_shared": 2322
+    },
+    "US_vs_AU": {
+      "pearson_r": 0.259,
+      "n_shared": 2310
+    },
+    "US_vs_NL": {
+      "pearson_r": 0.1914,
+      "n_shared": 1633
+    },
+    "US_vs_IN": {
+      "pearson_r": 0.2853,
+      "n_shared": 724
+    },
+    "US_vs_CO": {
+      "pearson_r": 0.3469,
+      "n_shared": 924
+    }
+  },
+  "runtime_seconds": 195.9
+}

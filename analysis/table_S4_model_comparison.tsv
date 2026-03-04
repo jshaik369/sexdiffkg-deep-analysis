@@ -1,0 +1,6 @@
+Model	KG	Dim	Epochs	MRR	Hits@1	Hits@10	AMRI	Device	Time_h	Status
+DistMult v4	v4	200	100	0.09316	-	0.1842	0.9906	GPU	2.0	Complete
+ComplEx v4	v4	200 (400 real)	100	0.248387	0.167829	0.40692	0.9902	GPU	2.19	Complete
+DistMult v3	v3	200	100	0.04762	-	-	0.9807	GPU	2.0	Complete (baseline)
+RotatE v4.1	v4.1	200	200	training	-	-	-	CPU->GPU	-	In progress
+DistMult v4.1	v4.1	200	100	training	-	-	-	GPU	-	In progress

@@ -1,0 +1,9 @@
+{
+  "total_hepatic_signals": 2792,
+  "unique_aes": 106,
+  "unique_drugs": 586,
+  "female_higher": 1861,
+  "male_higher": 931,
+  "pct_female": 66.65472779369628,
+  "direction_fix_applied": true
+}

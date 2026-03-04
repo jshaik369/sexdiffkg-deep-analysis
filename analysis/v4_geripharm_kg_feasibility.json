@@ -1,0 +1,136 @@
+{
+  "total_geri_signals": 20589,
+  "strong_signals": 20589,
+  "unique_drugs": 2241,
+  "unique_aes": 488,
+  "f_biased": 13108,
+  "m_biased": 7481,
+  "top_aes": [
+    {
+      "pt": "Acute kidney injury",
+      "n_signals": 459,
+      "mean_bias": 0.4869555446806337
+    },
+    {
+      "pt": "Drug interaction",
+      "n_signals": 423,
+      "mean_bias": 0.37957869273372014
+    },
+    {
+      "pt": "Dizziness",
+      "n_signals": 414,
+      "mean_bias": 0.06226030935963693
+    },
+    {
+      "pt": "Pneumonia",
+      "n_signals": 413,
+      "mean_bias": 0.3271111534925803
+    },
+    {
+      "pt": "Renal failure",
+      "n_signals": 395,
+      "mean_bias": 0.48766188640359726
+    },
+    {
+      "pt": "Constipation",
+      "n_signals": 362,
+      "mean_bias": 0.016040391768375222
+    },
+    {
+      "pt": "Hypotension",
+      "n_signals": 357,
+      "mean_bias": 0.45426739304040425
+    },
+    {
+      "pt": "Fall",
+      "n_signals": 346,
+      "mean_bias": 0.14398157822886481
+    },
+    {
+      "pt": "Chronic kidney disease",
+      "n_signals": 344,
+      "mean_bias": 0.5329989032703594
+    },
+    {
+      "pt": "Confusional state",
+      "n_signals": 343,
+      "mean_bias": 0.37892134976056585
+    },
+    {
+      "pt": "Hyponatraemia",
+      "n_signals": 338,
+      "mean_bias": -0.04684385623052134
+    },
+    {
+      "pt": "Somnolence",
+      "n_signals": 329,
+      "mean_bias": -0.3046357660905384
+    },
+    {
+      "pt": "Pulmonary embolism",
+      "n_signals": 320,
+      "mean_bias": -0.4688263104562302
+    },
+    {
+      "pt": "Haemorrhage",
+      "n_signals": 302,
+      "mean_bias": 0.654000917517589
+    },
+    {
+      "pt": "Blood creatinine increased",
+      "n_signals": 287,
+      "mean_bias": 0.47328976284987145
+    },
+    {
+      "pt": "Renal impairment",
+      "n_signals": 282,
+      "mean_bias": 0.4943823687839299
+    },
+    {
+      "pt": "Osteoporosis",
+      "n_signals": 264,
+      "mean_bias": 0.517405008953455
+    },
+    {
+      "pt": "Urinary tract infection",
+      "n_signals": 256,
+      "mean_bias": -0.3952276985427665
+    },
+    {
+      "pt": "Renal injury",
+      "n_signals": 255,
+      "mean_bias": 0.7248990074686262
+    },
+    {
+      "pt": "Delirium",
+      "n_signals": 241,
+      "mean_bias": 0.8488836207753834
+    },
+    {
+      "pt": "Memory impairment",
+      "n_signals": 239,
+      "mean_bias": 0.15198453033692308
+    },
+    {
+      "pt": "Thrombosis",
+      "n_signals": 230,
+      "mean_bias": -0.45337672571639936
+    },
+    {
+      "pt": "Bradycardia",
+      "n_signals": 228,
+      "mean_bias": 0.33183647005706657
+    },
+    {
+      "pt": "Dysphagia",
+      "n_signals": 224,
+      "mean_bias": 0.2869450920654239
+    },
+    {
+      "pt": "Gastrointestinal haemorrhage",
+      "n_signals": 223,
+      "mean_bias": 0.5384443798035016
+    }
+  ],
+  "feasibility": "HIGH"
+}

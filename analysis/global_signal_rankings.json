@@ -1,0 +1,14 @@
+{
+  "total_signals": 96281,
+  "female_higher": 51771,
+  "male_higher": 44510,
+  "unique_drugs": 2178,
+  "unique_aes": 5069,
+  "log_ratio_stats": {
+    "mean": 0.09636383863201663,
+    "median": 0.5343181836498136,
+    "std": 1.1187181796803323,
+    "min": -7.391389912032977,
+    "max": 8.869498849549007
+  }
+}

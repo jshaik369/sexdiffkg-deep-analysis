@@ -1,0 +1,357 @@
+{
+  "Statins": {
+    "n_drugs": 15,
+    "n_signals": 2621,
+    "mean_bias": 0.1615,
+    "direction": "F",
+    "f_strong": 1584,
+    "m_strong": 1037,
+    "drugs_found": [
+      "ATORVASTATIN",
+      "ROSUVASTATIN",
+      "SIMVASTATIN",
+      "ATORVASTATIN CALCIUM",
+      "ROSUVASTATIN CALCIUM",
+      "PRAVASTATIN",
+      "PRAVASTATIN SODIUM",
+      "LOVASTATIN",
+      "EZETIMIBE\\SIMVASTATIN",
+      "FLUVASTATIN SODIUM"
+    ]
+  },
+  "ACE Inhibitors": {
+    "n_drugs": 27,
+    "n_signals": 2298,
+    "mean_bias": 0.4203,
+    "direction": "F",
+    "f_strong": 1607,
+    "m_strong": 691,
+    "drugs_found": [
+      "RAMIPRIL",
+      "LISINOPRIL",
+      "PERINDOPRIL",
+      "QUINAPRIL",
+      "QUINAPRIL HYDROCHLORIDE",
+      "ENALAPRIL",
+      "INDAPAMIDE\\PERINDOPRIL",
+      "PERINDOPRIL ARGININE",
+      "PERINDOPRIL ERBUMINE",
+      "INDAPAMIDE\\PERINDOPRIL ERBUMINE"
+    ]
+  },
+  "ARBs": {
+    "n_drugs": 26,
+    "n_signals": 2779,
+    "mean_bias": 0.189,
+    "direction": "F",
+    "f_strong": 1696,
+    "m_strong": 1083,
+    "drugs_found": [
+      "CANDESARTAN",
+      "VALSARTAN",
+      "TELMISARTAN",
+      "CANDESARTAN CILEXETIL\\HYDROCHLOROTHIAZIDE",
+      "IRBESARTAN",
+      "OLMESARTAN MEDOXOMIL",
+      "CANDESARTAN CILEXETIL",
+      "LOSARTAN POTASSIUM",
+      "HYDROCHLOROTHIAZIDE\\VALSARTAN",
+      "LOSARTAN"
+    ]
+  },
+  "Beta Blockers": {
+    "n_drugs": 18,
+    "n_signals": 2649,
+    "mean_bias": 0.1864,
+    "direction": "F",
+    "f_strong": 1650,
+    "m_strong": 999,
+    "drugs_found": [
+      "ATENOLOL\\CHLORTHALIDONE",
+      "BISOPROLOL FUMARATE",
+      "BISOPROLOL",
+      "METOPROLOL",
+      "METOPROLOL SUCCINATE",
+      "PROPRANOLOL HYDROCHLORIDE",
+      "NEBIVOLOL HYDROCHLORIDE",
+      "ATENOLOL",
+      "CARVEDILOL",
+      "METOPROLOL FUMARATE"
+    ]
+  },
+  "Ca Channel Blockers": {
+    "n_drugs": 26,
+    "n_signals": 1877,
+    "mean_bias": 0.1265,
+    "direction": "F",
+    "f_strong": 1081,
+    "m_strong": 796,
+    "drugs_found": [
+      "AMLODIPINE BESYLATE",
+      "DILTIAZEM",
+      "DILTIAZEM HYDROCHLORIDE",
+      "FELODIPINE",
+      "NIFEDIPINE",
+      "VERAPAMIL HYDROCHLORIDE",
+      "AMLODIPINE\\TELMISARTAN",
+      "AMLODIPINE MALEATE",
+      "AMLODIPINE\\PERINDOPRIL",
+      "AMLODIPINE MESYLATE"
+    ]
+  },
+  "SSRIs": {
+    "n_drugs": 15,
+    "n_signals": 2037,
+    "mean_bias": -0.1889,
+    "direction": "M",
+    "f_strong": 854,
+    "m_strong": 1183,
+    "drugs_found": [
+      "CITALOPRAM HYDROBROMIDE",
+      "ESCITALOPRAM OXALATE",
+      "SERTRALINE HYDROCHLORIDE",
+      "FLUOXETINE HYDROCHLORIDE",
+      "PAROXETINE MESYLATE",
+      "FLUVOXAMINE",
+      "PAROXETINE",
+      "FLUVOXAMINE MALEATE",
+      "PAROXETINE HYDROCHLORIDE",
+      "CITALOPRAM HYDROCHLORIDE"
+    ]
+  },
+  "Opioids": {
+    "n_drugs": 67,
+    "n_signals": 6555,
+    "mean_bias": 0.5236,
+    "direction": "F",
+    "f_strong": 4923,
+    "m_strong": 1632,
+    "drugs_found": [
+      "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE",
+      "OXYCODONE",
+      "BUPRENORPHINE",
+      "OXYCODONE HYDROCHLORIDE",
+      "ACETAMINOPHEN\\CODEINE PHOSPHATE",
+      "MORPHINE SULFATE",
+      "TRAMADOL",
+      "TRAMADOL HYDROCHLORIDE",
+      "CODEINE",
+      "ACETAMINOPHEN\\TRAMADOL"
+    ]
+  },
+  "NSAIDs": {
+    "n_drugs": 27,
+    "n_signals": 3442,
+    "mean_bias": 0.2433,
+    "direction": "F",
+    "f_strong": 1877,
+    "m_strong": 1565,
+    "drugs_found": [
+      "DICLOFENAC SODIUM",
+      "NAPROXEN",
+      "NAPROXEN SODIUM",
+      "ESOMEPRAZOLE MAGNESIUM\\NAPROXEN",
+      "DICLOFENAC",
+      "DICLOFENAC POTASSIUM",
+      "IBUPROFEN",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM\\MISOPROSTOL",
+      "DICLOFENAC DIETHYLAMINE"
+    ]
+  },
+  "PPIs": {
+    "n_drugs": 18,
+    "n_signals": 3937,
+    "mean_bias": 0.2556,
+    "direction": "F",
+    "f_strong": 2538,
+    "m_strong": 1399,
+    "drugs_found": [
+      "DEXLANSOPRAZOLE",
+      "PANTOPRAZOLE",
+      "ESOMEPRAZOLE MAGNESIUM\\NAPROXEN",
+      "ESOMEPRAZOLE MAGNESIUM",
+      "PANTOPRAZOLE MAGNESIUM",
+      "PANTOPRAZOLE SODIUM ANHYDROUS",
+      "PANTOPRAZOLE SODIUM",
+      "LANSOPRAZOLE",
+      "OMEPRAZOLE",
+      "RABEPRAZOLE SODIUM"
+    ]
+  },
+  "Anti-TNF": {
+    "n_drugs": 17,
+    "n_signals": 3214,
+    "mean_bias": 0.0703,
+    "direction": "F",
+    "f_strong": 1461,
+    "m_strong": 1753,
+    "drugs_found": [
+      "ADALIMUMAB",
+      "GOLIMUMAB",
+      "ETANERCEPT",
+      "INFLIXIMAB",
+      "CERTOLIZUMAB PEGOL",
+      "ETANERCEPT-SZZS",
+      "INFLIXIMAB-DYYB",
+      "ADALIMUMAB-ADAZ",
+      "CERTOLIZUMAB",
+      "INFLIXIMAB-ABDA"
+    ]
+  },
+  "Anticoagulants": {
+    "n_drugs": 13,
+    "n_signals": 2460,
+    "mean_bias": 0.2783,
+    "direction": "F",
+    "f_strong": 1678,
+    "m_strong": 782,
+    "drugs_found": [
+      "APIXABAN",
+      "RIVAROXABAN",
+      "DABIGATRAN ETEXILATE MESYLATE",
+      "HEPARIN SODIUM",
+      "WARFARIN",
+      "HEPARIN CALCIUM",
+      "DABIGATRAN",
+      "WARFARIN SODIUM",
+      "ENOXAPARIN SODIUM",
+      "ENOXAPARIN"
+    ]
+  },
+  "Corticosteroids": {
+    "n_drugs": 51,
+    "n_signals": 5110,
+    "mean_bias": 0.4079,
+    "direction": "F",
+    "f_strong": 3555,
+    "m_strong": 1555,
+    "drugs_found": [
+      "PREDNISONE",
+      "DEXAMETHASONE",
+      "HYDROCORTISONE ACETATE",
+      "METHYLPREDNISOLONE SODIUM SUCCINATE",
+      "HYDROCORTISONE",
+      "HYDROCORTISONE SODIUM SUCCINATE",
+      "PREDNISOLONE",
+      "HYDROCORTISONE BUTYRATE",
+      "METHYLPREDNISOLONE ACETATE",
+      "BETAMETHASONE DIPROPIONATE"
+    ]
+  },
+  "Antipsychotics": {
+    "n_drugs": 15,
+    "n_signals": 3292,
+    "mean_bias": 0.4544,
+    "direction": "F",
+    "f_strong": 2337,
+    "m_strong": 955,
+    "drugs_found": [
+      "CLOZAPINE",
+      "RISPERIDONE",
+      "QUETIAPINE",
+      "QUETIAPINE FUMARATE",
+      "PALIPERIDONE",
+      "OLANZAPINE",
+      "PALIPERIDONE PALMITATE",
+      "ARIPIPRAZOLE",
+      "HALOPERIDOL",
+      "HALOPERIDOL DECANOATE"
+    ]
+  },
+  "Anticonvulsants": {
+    "n_drugs": 11,
+    "n_signals": 2649,
+    "mean_bias": -0.0504,
+    "direction": "M",
+    "f_strong": 1260,
+    "m_strong": 1389,
+    "drugs_found": [
+      "CARBAMAZEPINE",
+      "PREGABALIN",
+      "LAMOTRIGINE",
+      "GABAPENTIN",
+      "TOPIRAMATE",
+      "LEVETIRACETAM",
+      "VALPROATE SODIUM",
+      "GABAPENTIN ENACARBIL",
+      "PHENTERMINE HYDROCHLORIDE\\TOPIRAMATE",
+      "VALPROATE MAGNESIUM"
+    ]
+  },
+  "Benzodiazepines": {
+    "n_drugs": 9,
+    "n_signals": 2096,
+    "mean_bias": 0.2662,
+    "direction": "F",
+    "f_strong": 1369,
+    "m_strong": 727,
+    "drugs_found": [
+      "DIAZEPAM",
+      "CLONAZEPAM",
+      "LORAZEPAM",
+      "MIDAZOLAM",
+      "ALPRAZOLAM",
+      "MIDAZOLAM HYDROCHLORIDE",
+      "7-AMINOCLONAZEPAM",
+      "DELORAZEPAM",
+      "MIDAZOLAM\\MIDAZOLAM HYDROCHLORIDE"
+    ]
+  },
+  "Insulins": {
+    "n_drugs": 10,
+    "n_signals": 1131,
+    "mean_bias": -0.0777,
+    "direction": "M",
+    "f_strong": 529,
+    "m_strong": 602,
+    "drugs_found": [
+      "INSULIN ASPART",
+      "INSULIN DEGLUDEC",
+      "INSULIN GLARGINE",
+      "INSULIN DETEMIR",
+      "INSULIN LISPRO",
+      "INSULIN DEGLUDEC\\LIRAGLUTIDE",
+      "INSULIN GLARGINE-YFGN",
+      "INSULIN GLARGINE\\LIXISENATIDE",
+      "INSULIN ASPART\\INSULIN DEGLUDEC",
+      "INSULIN LISPRO-AABC"
+    ]
+  },
+  "Oral Antidiabetics": {
+    "n_drugs": 29,
+    "n_signals": 1969,
+    "mean_bias": 0.212,
+    "direction": "F",
+    "f_strong": 1243,
+    "m_strong": 726,
+    "drugs_found": [
+      "SITAGLIPTIN PHOSPHATE",
+      "METFORMIN HYDROCHLORIDE",
+      "EMPAGLIFLOZIN",
+      "CANAGLIFLOZIN",
+      "DAPAGLIFLOZIN",
+      "DAPAGLIFLOZIN PROPANEDIOL",
+      "EMPAGLIFLOZIN\\METFORMIN HYDROCHLORIDE",
+      "SITAGLIPTIN",
+      "METFORMIN HYDROCHLORIDE\\SITAGLIPTIN PHOSPHATE",
+      "PIOGLITAZONE"
+    ]
+  },
+  "Checkpoint Inhibitors": {
+    "n_drugs": 6,
+    "n_signals": 1012,
+    "mean_bias": 0.3956,
+    "direction": "F",
+    "f_strong": 732,
+    "m_strong": 280,
+    "drugs_found": [
+      "PEMBROLIZUMAB",
+      "ATEZOLIZUMAB",
+      "DURVALUMAB",
+      "NIVOLUMAB",
+      "IPILIMUMAB",
+      "AVELUMAB"
+    ]
+  }
+}

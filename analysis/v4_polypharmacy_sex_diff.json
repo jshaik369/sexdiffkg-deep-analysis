@@ -1,0 +1,196 @@
+{
+  "n_conflicting_aes": 1848,
+  "top_balanced_aes": [
+    {
+      "ae": "Sleep disorder due to a general medical condition",
+      "n_f": 68,
+      "n_m": 68,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Urinary tract disorder",
+      "n_f": 14,
+      "n_m": 14,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Musculoskeletal stiffness",
+      "n_f": 148,
+      "n_m": 148,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Wrong product administered",
+      "n_f": 19,
+      "n_m": 19,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Obstruction",
+      "n_f": 20,
+      "n_m": 20,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Motor dysfunction",
+      "n_f": 50,
+      "n_m": 50,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Bronchial secretion retention",
+      "n_f": 9,
+      "n_m": 9,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Gastrointestinal infection",
+      "n_f": 33,
+      "n_m": 33,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Immunisation",
+      "n_f": 5,
+      "n_m": 5,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Affect lability",
+      "n_f": 27,
+      "n_m": 27,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Aortic valve stenosis",
+      "n_f": 14,
+      "n_m": 14,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Sputum discoloured",
+      "n_f": 52,
+      "n_m": 52,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Scleritis",
+      "n_f": 6,
+      "n_m": 6,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Injection site haemorrhage",
+      "n_f": 38,
+      "n_m": 38,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Skin weeping",
+      "n_f": 8,
+      "n_m": 8,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Staring",
+      "n_f": 7,
+      "n_m": 7,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Iridocyclitis",
+      "n_f": 7,
+      "n_m": 7,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Metastases to lung",
+      "n_f": 30,
+      "n_m": 30,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Restrictive pulmonary disease",
+      "n_f": 9,
+      "n_m": 9,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Electroencephalogram abnormal",
+      "n_f": 9,
+      "n_m": 9,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "White blood cells urine positive",
+      "n_f": 8,
+      "n_m": 8,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Jugular vein thrombosis",
+      "n_f": 5,
+      "n_m": 5,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Exposure via ingestion",
+      "n_f": 13,
+      "n_m": 13,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Suspected suicide",
+      "n_f": 13,
+      "n_m": 13,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Spinal fusion surgery",
+      "n_f": 18,
+      "n_m": 18,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Craniocerebral injury",
+      "n_f": 12,
+      "n_m": 12,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Application site exfoliation",
+      "n_f": 5,
+      "n_m": 5,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Electrocardiogram T wave inversion",
+      "n_f": 5,
+      "n_m": 5,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "Derealisation",
+      "n_f": 6,
+      "n_m": 6,
+      "f_ratio": 0.5
+    },
+    {
+      "ae": "N-terminal prohormone brain natriuretic peptide increased",
+      "n_f": 14,
+      "n_m": 14,
+      "f_ratio": 0.5
+    }
+  ],
+  "opposite_bias_drug_pairs": [
+    {
+      "drug1": "ESTRIOL",
+      "drug2": "TESTOSTERONE ENANTHATE",
+      "bias1": -3.434,
+      "bias2": 2.891,
+      "shared_aes": 10,
+      "total_aes1": 69,
+      "total_aes2": 21
+    }
+  ]
+}

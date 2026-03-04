@@ -1,0 +1,628 @@
+{
+  "total_nodes": 109867,
+  "total_edges": 1822851,
+  "largest_component_sample": 77485,
+  "isolated_nodes": -3288,
+  "top30_by_degree": [
+    {
+      "id": "DRUG:ADALIMUMAB",
+      "name": "ADALIMUMAB",
+      "category": "Drug",
+      "degree": 8203
+    },
+    {
+      "id": "DRUG:METHOTREXATE",
+      "name": "METHOTREXATE",
+      "category": "Drug",
+      "degree": 6611
+    },
+    {
+      "id": "DRUG:PREDNISONE",
+      "name": "PREDNISONE",
+      "category": "Drug",
+      "degree": 6339
+    },
+    {
+      "id": "DRUG:ETANERCEPT",
+      "name": "ETANERCEPT",
+      "category": "Drug",
+      "degree": 5281
+    },
+    {
+      "id": "DRUG:RITUXIMAB",
+      "name": "RITUXIMAB",
+      "category": "Drug",
+      "degree": 5176
+    },
+    {
+      "id": "DRUG:INFLIXIMAB",
+      "name": "INFLIXIMAB",
+      "category": "Drug",
+      "degree": 4543
+    },
+    {
+      "id": "AE:Drug ineffective",
+      "name": "Drug ineffective",
+      "category": "AdverseEvent",
+      "degree": 4529
+    },
+    {
+      "id": "DRUG:TACROLIMUS",
+      "name": "TACROLIMUS",
+      "category": "Drug",
+      "degree": 4529
+    },
+    {
+      "id": "DRUG:PREDNISOLONE",
+      "name": "PREDNISOLONE",
+      "category": "Drug",
+      "degree": 4299
+    },
+    {
+      "id": "DRUG:DEXAMETHASONE",
+      "name": "DEXAMETHASONE",
+      "category": "Drug",
+      "degree": 4257
+    },
+    {
+      "id": "DRUG:CYCLOPHOSPHAMIDE",
+      "name": "CYCLOPHOSPHAMIDE",
+      "category": "Drug",
+      "degree": 4171
+    },
+    {
+      "id": "AE:Off label use",
+      "name": "Off label use",
+      "category": "AdverseEvent",
+      "degree": 4080
+    },
+    {
+      "id": "DRUG:MYCOPHENOLIC ACID",
+      "name": "MYCOPHENOLIC ACID",
+      "category": "Drug",
+      "degree": 3950
+    },
+    {
+      "id": "DRUG:METHYLPREDNISOLONE",
+      "name": "METHYLPREDNISOLONE",
+      "category": "Drug",
+      "degree": 3832
+    },
+    {
+      "id": "DRUG:LENALIDOMIDE",
+      "name": "LENALIDOMIDE",
+      "category": "Drug",
+      "degree": 3788
+    },
+    {
+      "id": "PATHWAY:R-HSA-6798695",
+      "name": "Neutrophil degranulation",
+      "category": "Pathway",
+      "degree": 3680
+    },
+    {
+      "id": "AE:Nausea",
+      "name": "Nausea",
+      "category": "AdverseEvent",
+      "degree": 3670
+    },
+    {
+      "id": "DRUG:INSULIN",
+      "name": "INSULIN",
+      "category": "Drug",
+      "degree": 3653
+    },
+    {
+      "id": "DRUG:SECUKINUMAB",
+      "name": "SECUKINUMAB",
+      "category": "Drug",
+      "degree": 3521
+    },
+    {
+      "id": "DRUG:ACETYLSALICYLIC ACID",
+      "name": "ACETYLSALICYLIC ACID",
+      "category": "Drug",
+      "degree": 3521
+    },
+    {
+      "id": "DRUG:PARACETAMOL",
+      "name": "PARACETAMOL",
+      "category": "Drug",
+      "degree": 3506
+    },
+    {
+      "id": "DRUG:PREGABALIN",
+      "name": "PREGABALIN",
+      "category": "Drug",
+      "degree": 3475
+    },
+    {
+      "id": "DRUG:PANTOPRAZOLE",
+      "name": "PANTOPRAZOLE",
+      "category": "Drug",
+      "degree": 3438
+    },
+    {
+      "id": "AE:Dyspnoea",
+      "name": "Dyspnoea",
+      "category": "AdverseEvent",
+      "degree": 3427
+    },
+    {
+      "id": "DRUG:TOCILIZUMAB",
+      "name": "TOCILIZUMAB",
+      "category": "Drug",
+      "degree": 3396
+    },
+    {
+      "id": "DRUG:METFORMIN",
+      "name": "METFORMIN",
+      "category": "Drug",
+      "degree": 3375
+    },
+    {
+      "id": "AE:Vomiting",
+      "name": "Vomiting",
+      "category": "AdverseEvent",
+      "degree": 3359
+    },
+    {
+      "id": "DRUG:AMLODIPINE",
+      "name": "AMLODIPINE",
+      "category": "Drug",
+      "degree": 3351
+    },
+    {
+      "id": "DRUG:QUETIAPINE",
+      "name": "QUETIAPINE",
+      "category": "Drug",
+      "degree": 3343
+    },
+    {
+      "id": "DRUG:CICLOSPORIN",
+      "name": "CICLOSPORIN",
+      "category": "Drug",
+      "degree": 3268
+    }
+  ],
+  "mean_degree_by_type": {
+    "AdverseEvent": {
+      "mean": 97.0,
+      "median": 12,
+      "max": 4529
+    },
+    "Drug": {
+      "mean": 247.2,
+      "median": 34,
+      "max": 8203
+    },
+    "Gene": {
+      "mean": 4.9,
+      "median": 2,
+      "max": 1245
+    },
+    "Pathway": {
+      "mean": 162.6,
+      "median": 82,
+      "max": 3680
+    },
+    "Protein": {
+      "mean": 58.5,
+      "median": 26,
+      "max": 1532
+    },
+    "Tissue": {
+      "mean": 14.4,
+      "median": 11,
+      "max": 88
+    }
+  },
+  "top20_drugs_out_degree": [
+    {
+      "id": "DRUG:ADALIMUMAB",
+      "name": "ADALIMUMAB",
+      "out_degree": 8203
+    },
+    {
+      "id": "DRUG:METHOTREXATE",
+      "name": "METHOTREXATE",
+      "out_degree": 6611
+    },
+    {
+      "id": "DRUG:PREDNISONE",
+      "name": "PREDNISONE",
+      "out_degree": 6339
+    },
+    {
+      "id": "DRUG:ETANERCEPT",
+      "name": "ETANERCEPT",
+      "out_degree": 5281
+    },
+    {
+      "id": "DRUG:RITUXIMAB",
+      "name": "RITUXIMAB",
+      "out_degree": 5176
+    },
+    {
+      "id": "DRUG:INFLIXIMAB",
+      "name": "INFLIXIMAB",
+      "out_degree": 4543
+    },
+    {
+      "id": "DRUG:TACROLIMUS",
+      "name": "TACROLIMUS",
+      "out_degree": 4529
+    },
+    {
+      "id": "DRUG:PREDNISOLONE",
+      "name": "PREDNISOLONE",
+      "out_degree": 4299
+    },
+    {
+      "id": "DRUG:DEXAMETHASONE",
+      "name": "DEXAMETHASONE",
+      "out_degree": 4257
+    },
+    {
+      "id": "DRUG:CYCLOPHOSPHAMIDE",
+      "name": "CYCLOPHOSPHAMIDE",
+      "out_degree": 4171
+    },
+    {
+      "id": "DRUG:MYCOPHENOLIC ACID",
+      "name": "MYCOPHENOLIC ACID",
+      "out_degree": 3950
+    },
+    {
+      "id": "DRUG:METHYLPREDNISOLONE",
+      "name": "METHYLPREDNISOLONE",
+      "out_degree": 3832
+    },
+    {
+      "id": "DRUG:LENALIDOMIDE",
+      "name": "LENALIDOMIDE",
+      "out_degree": 3788
+    },
+    {
+      "id": "DRUG:INSULIN",
+      "name": "INSULIN",
+      "out_degree": 3653
+    },
+    {
+      "id": "DRUG:SECUKINUMAB",
+      "name": "SECUKINUMAB",
+      "out_degree": 3521
+    },
+    {
+      "id": "DRUG:ACETYLSALICYLIC ACID",
+      "name": "ACETYLSALICYLIC ACID",
+      "out_degree": 3521
+    },
+    {
+      "id": "DRUG:PARACETAMOL",
+      "name": "PARACETAMOL",
+      "out_degree": 3506
+    },
+    {
+      "id": "DRUG:PREGABALIN",
+      "name": "PREGABALIN",
+      "out_degree": 3475
+    },
+    {
+      "id": "DRUG:PANTOPRAZOLE",
+      "name": "PANTOPRAZOLE",
+      "out_degree": 3438
+    },
+    {
+      "id": "DRUG:TOCILIZUMAB",
+      "name": "TOCILIZUMAB",
+      "out_degree": 3396
+    }
+  ],
+  "top20_aes_in_degree": [
+    {
+      "id": "AE:Drug ineffective",
+      "name": "Drug ineffective",
+      "in_degree": 4529
+    },
+    {
+      "id": "AE:Off label use",
+      "name": "Off label use",
+      "in_degree": 4080
+    },
+    {
+      "id": "AE:Nausea",
+      "name": "Nausea",
+      "in_degree": 3670
+    },
+    {
+      "id": "AE:Dyspnoea",
+      "name": "Dyspnoea",
+      "in_degree": 3427
+    },
+    {
+      "id": "AE:Vomiting",
+      "name": "Vomiting",
+      "in_degree": 3359
+    },
+    {
+      "id": "AE:Fatigue",
+      "name": "Fatigue",
+      "in_degree": 3239
+    },
+    {
+      "id": "AE:Headache",
+      "name": "Headache",
+      "in_degree": 3200
+    },
+    {
+      "id": "AE:Diarrhoea",
+      "name": "Diarrhoea",
+      "in_degree": 3128
+    },
+    {
+      "id": "AE:Pyrexia",
+      "name": "Pyrexia",
+      "in_degree": 3031
+    },
+    {
+      "id": "AE:Dizziness",
+      "name": "Dizziness",
+      "in_degree": 3026
+    },
+    {
+      "id": "AE:Pain",
+      "name": "Pain",
+      "in_degree": 2953
+    },
+    {
+      "id": "AE:Condition aggravated",
+      "name": "Condition aggravated",
+      "in_degree": 2935
+    },
+    {
+      "id": "AE:Rash",
+      "name": "Rash",
+      "in_degree": 2872
+    },
+    {
+      "id": "AE:Malaise",
+      "name": "Malaise",
+      "in_degree": 2831
+    },
+    {
+      "id": "AE:Death",
+      "name": "Death",
+      "in_degree": 2815
+    },
+    {
+      "id": "AE:Asthenia",
+      "name": "Asthenia",
+      "in_degree": 2736
+    },
+    {
+      "id": "AE:Pruritus",
+      "name": "Pruritus",
+      "in_degree": 2591
+    },
+    {
+      "id": "AE:Pneumonia",
+      "name": "Pneumonia",
+      "in_degree": 2525
+    },
+    {
+      "id": "AE:Product use in unapproved indication",
+      "name": "Product use in unapproved indication",
+      "in_degree": 2521
+    },
+    {
+      "id": "AE:Hypertension",
+      "name": "Hypertension",
+      "in_degree": 2515
+    }
+  ],
+  "top20_proteins_degree": [
+    {
+      "id": "PROTEIN:ENSP00000269305",
+      "name": "ENSP00000269305",
+      "degree": 1532
+    },
+    {
+      "id": "PROTEIN:ENSP00000272317",
+      "name": "ENSP00000272317",
+      "degree": 1178
+    },
+    {
+      "id": "PROTEIN:ENSP00000388107",
+      "name": "ENSP00000388107",
+      "degree": 1042
+    },
+    {
+      "id": "PROTEIN:ENSP00000275493",
+      "name": "ENSP00000275493",
+      "degree": 1012
+    },
+    {
+      "id": "PROTEIN:ENSP00000495360",
+      "name": "ENSP00000495360",
+      "degree": 930
+    },
+    {
+      "id": "PROTEIN:ENSP00000244537",
+      "name": "ENSP00000244537",
+      "degree": 904
+    },
+    {
+      "id": "PROTEIN:ENSP00000333277",
+      "name": "ENSP00000333277",
+      "degree": 904
+    },
+    {
+      "id": "PROTEIN:ENSP00000494750",
+      "name": "ENSP00000494750",
+      "degree": 876
+    },
+    {
+      "id": "PROTEIN:ENSP00000451828",
+      "name": "ENSP00000451828",
+      "degree": 870
+    },
+    {
+      "id": "PROTEIN:ENSP00000431822",
+      "name": "ENSP00000431822",
+      "degree": 846
+    },
+    {
+      "id": "PROTEIN:ENSP00000393241",
+      "name": "ENSP00000393241",
+      "degree": 842
+    },
+    {
+      "id": "PROTEIN:ENSP00000352252",
+      "name": "ENSP00000352252",
+      "degree": 826
+    },
+    {
+      "id": "PROTEIN:ENSP00000362680",
+      "name": "ENSP00000362680",
+      "degree": 814
+    },
+    {
+      "id": "PROTEIN:ENSP00000270625",
+      "name": "ENSP00000270625",
+      "degree": 810
+    },
+    {
+      "id": "PROTEIN:ENSP00000441543",
+      "name": "ENSP00000441543",
+      "degree": 796
+    },
+    {
+      "id": "PROTEIN:ENSP00000375632",
+      "name": "ENSP00000375632",
+      "degree": 794
+    },
+    {
+      "id": "PROTEIN:ENSP00000300651",
+      "name": "ENSP00000300651",
+      "degree": 790
+    },
+    {
+      "id": "PROTEIN:ENSP00000398698",
+      "name": "ENSP00000398698",
+      "degree": 782
+    },
+    {
+      "id": "PROTEIN:ENSP00000263253",
+      "name": "ENSP00000263253",
+      "degree": 780
+    },
+    {
+      "id": "PROTEIN:ENSP00000278572",
+      "name": "ENSP00000278572",
+      "degree": 774
+    }
+  ],
+  "top20_drugs_sdae": [
+    {
+      "id": "DRUG:PREDNISONE",
+      "name": "PREDNISONE",
+      "sdae_connections": 926
+    },
+    {
+      "id": "DRUG:METHOTREXATE",
+      "name": "METHOTREXATE",
+      "sdae_connections": 892
+    },
+    {
+      "id": "DRUG:ADALIMUMAB",
+      "name": "ADALIMUMAB",
+      "sdae_connections": 807
+    },
+    {
+      "id": "DRUG:RITUXIMAB",
+      "name": "RITUXIMAB",
+      "sdae_connections": 755
+    },
+    {
+      "id": "DRUG:INFLIXIMAB",
+      "name": "INFLIXIMAB",
+      "sdae_connections": 623
+    },
+    {
+      "id": "DRUG:ETANERCEPT",
+      "name": "ETANERCEPT",
+      "sdae_connections": 618
+    },
+    {
+      "id": "DRUG:TACROLIMUS",
+      "name": "TACROLIMUS",
+      "sdae_connections": 572
+    },
+    {
+      "id": "DRUG:PREDNISOLONE",
+      "name": "PREDNISOLONE",
+      "sdae_connections": 542
+    },
+    {
+      "id": "DRUG:DEXAMETHASONE",
+      "name": "DEXAMETHASONE",
+      "sdae_connections": 537
+    },
+    {
+      "id": "DRUG:METHYLPREDNISOLONE",
+      "name": "METHYLPREDNISOLONE",
+      "sdae_connections": 521
+    },
+    {
+      "id": "DRUG:RISPERIDONE",
+      "name": "RISPERIDONE",
+      "sdae_connections": 518
+    },
+    {
+      "id": "DRUG:TOCILIZUMAB",
+      "name": "TOCILIZUMAB",
+      "sdae_connections": 508
+    },
+    {
+      "id": "DRUG:MYCOPHENOLIC ACID",
+      "name": "MYCOPHENOLIC ACID",
+      "sdae_connections": 507
+    },
+    {
+      "id": "DRUG:PANTOPRAZOLE",
+      "name": "PANTOPRAZOLE",
+      "sdae_connections": 501
+    },
+    {
+      "id": "DRUG:CYCLOPHOSPHAMIDE",
+      "name": "CYCLOPHOSPHAMIDE",
+      "sdae_connections": 498
+    },
+    {
+      "id": "DRUG:OXYCODONE",
+      "name": "OXYCODONE",
+      "sdae_connections": 492
+    },
+    {
+      "id": "DRUG:PARACETAMOL",
+      "name": "PARACETAMOL",
+      "sdae_connections": 487
+    },
+    {
+      "id": "DRUG:SECUKINUMAB",
+      "name": "SECUKINUMAB",
+      "sdae_connections": 456
+    },
+    {
+      "id": "DRUG:MORPHINE",
+      "name": "MORPHINE",
+      "sdae_connections": 441
+    },
+    {
+      "id": "DRUG:ACETYLSALICYLIC ACID",
+      "name": "ACETYLSALICYLIC ACID",
+      "sdae_connections": 433
+    }
+  ]
+}
