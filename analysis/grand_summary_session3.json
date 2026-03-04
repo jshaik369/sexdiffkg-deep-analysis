@@ -1,0 +1,256 @@
+{
+  "analysis": "grand_summary_session3",
+  "wave": 16,
+  "date": "2026-03-04",
+  "inventory": {
+    "json_analyses": 82,
+    "tsv_tables": 34,
+    "png_figures": 67,
+    "pdf_figures": 67,
+    "paper_drafts": 11,
+    "total_data_points": 24194276,
+    "json_file_list": [
+      "ae_network_analysis.json",
+      "age_sex_interaction_v4.json",
+      "atc_soc_analysis.json",
+      "autoimmune_sex_diff.json",
+      "bidirectional_ae_analysis.json",
+      "canada_faers_cross_validation.json",
+      "canada_vigilance_signals_v4.json",
+      "cardiac_reversal_analysis.json",
+      "cardiotoxicity_deep_dive.json",
+      "clinical_significance_scoring.json",
+      "cluster_profiles.json",
+      "comorbidity_proxy_analysis.json",
+      "comprehensive_drug_profiles.json",
+      "ddi_sex_analysis.json",
+      "death_deepdive_analysis.json",
+      "dose_response_analysis.json",
+      "drug_class_deepdive.json",
+      "drug_class_target_deep.json",
+      "drug_phenotype_clusters.json",
+      "drug_properties_analysis.json",
+      "effect_size_deep_analysis.json",
+      "embedding_predictions.json",
+      "embedding_validation_report.json",
+      "geographic_variation_v4.json",
+      "global_signal_rankings.json",
+      "gtex_integration.json",
+      "hepatotoxicity_deep_dive.json",
+      "hepatotoxicity_sex_diff.json",
+      "high_confidence_signals.json",
+      "indication_sex_analysis.json",
+      "master_statistics.json",
+      "mechanism_clustering.json",
+      "moa_clustering_analysis.json",
+      "molecular_audit_wave4.json",
+      "multi_drug_ae_landscape.json",
+      "network_centrality.json",
+      "network_medicine_tripartite.json",
+      "new_angles_analysis.json",
+      "oncology_sex_diff.json",
+      "openfda_concordance.json",
+      "opioid_sex_diff_analysis.json",
+      "per_country_deep_analysis_v4.json",
+      "polypharmacy_sex_bias.json",
+      "protein_family_tissue.json",
+      "protein_network_topology.json",
+      "psychotropic_sex_diff.json",
+      "rare_drug_analysis.json",
+      "reproductive_paradox_analysis.json",
+      "repurposing_analysis.json",
+      "safety_label_gap.json",
+      "severity_sex_analysis.json",
+      "severity_sex_interaction.json",
+      "sex_paradox_analysis.json",
+      "sex_safety_profiles.json",
+      "sexdiffkg_statistics_v4.json",
+      "sider_cross_reference_v4.json",
+      "sider_cross_validation.json",
+      "signal_quality_robustness.json",
+      "signal_validation_benchmarks.json",
+      "soc_sex_bias_analysis.json",
+      "soc_sex_bias_complete.json",
+      "soc_structural_analysis.json",
+      "statistical_tests_v4.json",
+      "temporal_cohort_polypharmacy.json",
+      "temporal_instability.json",
+      "temporal_trend_analysis.json",
+      "temporal_validation_v4.json",
+      "temporal_volume_deep.json",
+      "therapeutic_class_analysis.json",
+      "v4_drug_class_sex_bias.json",
+      "v4_drug_clustering.json",
+      "v4_geripharm_kg_feasibility.json",
+      "v4_mentalhealth_kg_feasibility.json",
+      "v4_model_comparison_full.json",
+      "v4_pathway_enrichment.json",
+      "v4_polypharmacy_sex_diff.json",
+      "v4_sex_diff_summary.json",
+      "v4_soc_sex_bias.json",
+      "v4_target_analysis.json",
+      "vaccine_sex_diff.json",
+      "wave10_audit.json",
+      "withdrawal_rarity_analysis.json"
+    ],
+    "draft_list": [
+      "CPI_irAE_paper.md",
+      "bidirectional_ae_paper.md",
+      "cardiac_reversal_paper.md",
+      "clinical_urgency_paper.md",
+      "hepatotoxicity_paper.md",
+      "regulatory_paper.md",
+      "severity_sex_gradient_paper.md",
+      "sex_paradox_paper.md",
+      "sexdiffkg_methods_paper.md",
+      "temporal_instability_paper.md",
+      "volume_gradient_paper.md"
+    ]
+  },
+  "consistency_checks": {
+    "total_signals": {
+      "expected": 96281,
+      "actual": 96281,
+      "match": true
+    },
+    "overall_pct_female": {
+      "value": 53.77,
+      "expected_range": "53-54%"
+    },
+    "n_drugs": {
+      "expected": 2178,
+      "actual": 2178,
+      "match": true
+    },
+    "n_aes": {
+      "expected": 5069,
+      "actual": 5069,
+      "match": true
+    }
+  },
+  "signal_statistics": {
+    "total_signals": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "pct_female": 53.77,
+    "n_drugs": 2178,
+    "n_aes": 5069,
+    "mean_abs_lr": 0.9868,
+    "median_abs_lr": 0.8116,
+    "total_reports": 24194276,
+    "mean_reports_per_signal": 251.3
+  },
+  "top_findings": [
+    {
+      "rank": 1,
+      "finding": "Severity-Sex Gradient",
+      "detail": "Life-threatening 75.0%F vs Mild 47.4%F \u2014 27.6pp gradient",
+      "novelty": "VERY HIGH",
+      "evidence": "15,815 classified signals, monotonic gradient",
+      "implication": "Women bear disproportionate burden of most dangerous AEs"
+    },
+    {
+      "rank": 2,
+      "finding": "Comorbidity Paradox",
+      "detail": "ALL female conditions \u2192 male signals, ALL male conditions \u2192 female signals",
+      "novelty": "VERY HIGH",
+      "evidence": "14 sex-specific conditions, 100% paradox rate",
+      "implication": "Strongest validation \u2014 confounding cannot explain opposite-direction signals"
+    },
+    {
+      "rank": 3,
+      "finding": "Report-Signal Anti-Correlation",
+      "detail": "rho=-0.215, p=6.9e-13. 133 paradox drugs, 32 reverse paradox",
+      "novelty": "HIGH",
+      "evidence": "1,090 drugs with >=10 signals",
+      "implication": "Definitively refutes reporting artifact hypothesis"
+    },
+    {
+      "rank": 4,
+      "finding": "CPI Hepatotoxicity 95.1% Female",
+      "detail": "Checkpoint inhibitor liver toxicity nearly universally female-biased",
+      "novelty": "HIGH",
+      "evidence": "41 signals across nivolumab, pembrolizumab, ipilimumab, atezolizumab",
+      "implication": "Female patients need enhanced liver monitoring on CPIs"
+    },
+    {
+      "rank": 5,
+      "finding": "Anti-Regression",
+      "detail": "Minimal 40.8%F \u2192 Massive 87.4%F; |LR| increases with volume",
+      "novelty": "HIGH",
+      "evidence": "rho=0.152, p\u22480, 10 deciles monotonically increasing",
+      "implication": "Effects AMPLIFY with more data \u2014 biological, not artifact"
+    },
+    {
+      "rank": 6,
+      "finding": "108 Urgent Signals (86.1% Male-Biased)",
+      "detail": "108 severe sex-differential signals, overwhelmingly male",
+      "novelty": "HIGH",
+      "evidence": "Severity>=8, |LR|>=1.5, n>=100",
+      "implication": "Male drug vulnerability systematically under-recognized"
+    },
+    {
+      "rank": 7,
+      "finding": "Nausea Male-Biased",
+      "detail": "Nausea 39.5%F across 339 drugs \u2014 contradicts clinical assumption",
+      "novelty": "HIGH",
+      "evidence": "339 drugs, one of most drug-diverse AEs",
+      "implication": "Challenges conventional wisdom about female nausea susceptibility"
+    },
+    {
+      "rank": 8,
+      "finding": "GABA-A Family Divergence",
+      "detail": "31 drugs sharing GABA-A target: 0-100%F range",
+      "novelty": "MODERATE",
+      "evidence": "31 drugs, same molecular target",
+      "implication": "Target alone does not determine sex bias \u2014 formulation/PK matters"
+    },
+    {
+      "rank": 9,
+      "finding": "Organ System Hierarchy",
+      "detail": "Renal 73.4%F \u2192 Ocular 35.7%F across 12 organ systems",
+      "novelty": "MODERATE",
+      "evidence": "12 organ systems, thousands of signals each",
+      "implication": "Organ-specific sex biology drives differential toxicity"
+    },
+    {
+      "rank": 10,
+      "finding": "Autoimmune Hepatitis Paradox",
+      "detail": "Drug-induced autoimmune hepatitis 27.8%F \u2014 MALE despite female autoimmunity",
+      "novelty": "MODERATE",
+      "evidence": "18 signals, distinct from broader hepatic pattern",
+      "implication": "Drug-triggered autoimmunity may use different pathway than spontaneous"
+    }
+  ],
+  "papers_written": {
+    "total": 11,
+    "titles": [
+      "Cpi Irae Paper",
+      "Bidirectional Ae Paper",
+      "Cardiac Reversal Paper",
+      "Clinical Urgency Paper",
+      "Hepatotoxicity Paper",
+      "Regulatory Paper",
+      "Severity Sex Gradient Paper",
+      "Sex Paradox Paper",
+      "Sexdiffkg Methods Paper",
+      "Temporal Instability Paper",
+      "Volume Gradient Paper"
+    ]
+  },
+  "session3_summary": {
+    "waves_completed": "13-16",
+    "new_analyses": 8,
+    "new_figures": 13,
+    "new_papers": 3,
+    "github_commits": "5 (waves 13-16)",
+    "key_discoveries": [
+      "Severity-sex gradient (75%F life-threatening vs 47%F mild)",
+      "CPI hepatotoxicity 95.1%F",
+      "Anti-regression definitive (40.8\u219287.4%F by volume)",
+      "486 bidirectional drugs",
+      "12 organ system ranking",
+      "3,700 AE sex bias classification"
+    ]
+  }
+}

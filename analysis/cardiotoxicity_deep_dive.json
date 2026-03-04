@@ -1,0 +1,360 @@
+{
+  "analysis": "cardiotoxicity_deep_dive",
+  "wave": 16,
+  "date": "2026-03-04",
+  "overview": {
+    "total_cardiac_signals": 3618,
+    "total_cardiac_aes": 149,
+    "drugs_with_cardiac_signals": 773,
+    "overall_pct_female": 65.1,
+    "mean_abs_lr": 0.9306
+  },
+  "subtypes": {
+    "arrhythmia": {
+      "n_signals": 1149,
+      "n_drugs": 537,
+      "pct_female": 62.6,
+      "mean_abs_lr": 0.8897,
+      "top_aes": {
+        "Atrial fibrillation": 180,
+        "Tachycardia": 172,
+        "Bradycardia": 152,
+        "Electrocardiogram QT prolonged": 122,
+        "Arrhythmia": 88
+      }
+    },
+    "heart_failure": {
+      "n_signals": 527,
+      "n_drugs": 314,
+      "pct_female": 71.7,
+      "mean_abs_lr": 0.9543,
+      "top_aes": {
+        "Cardiac failure": 184,
+        "Cardiac failure congestive": 106,
+        "Ejection fraction decreased": 64,
+        "Cardiomyopathy": 63,
+        "Cardiac failure acute": 33
+      }
+    },
+    "ischaemic": {
+      "n_signals": 596,
+      "n_drugs": 314,
+      "pct_female": 78.2,
+      "mean_abs_lr": 0.9294,
+      "top_aes": {
+        "Myocardial infarction": 182,
+        "Acute myocardial infarction": 76,
+        "Angina pectoris": 68,
+        "Coronary artery disease": 59,
+        "Myocardial ischaemia": 42
+      }
+    },
+    "inflammatory": {
+      "n_signals": 176,
+      "n_drugs": 122,
+      "pct_female": 68.2,
+      "mean_abs_lr": 1.3629,
+      "top_aes": {
+        "Pericarditis": 79,
+        "Myocarditis": 46,
+        "Endocarditis": 33,
+        "Immune-mediated myocarditis": 5,
+        "Myopericarditis": 3
+      }
+    },
+    "arrest_sudden": {
+      "n_signals": 217,
+      "n_drugs": 213,
+      "pct_female": 85.3,
+      "mean_abs_lr": 0.832,
+      "top_aes": {
+        "Cardiac arrest": 210,
+        "Sudden cardiac death": 7
+      }
+    },
+    "ecg_biomarker": {
+      "n_signals": 267,
+      "n_drugs": 189,
+      "pct_female": 60.3,
+      "mean_abs_lr": 0.9181,
+      "top_aes": {
+        "Electrocardiogram QT prolonged": 122,
+        "Troponin increased": 54,
+        "Electrocardiogram abnormal": 37,
+        "Electrocardiogram QRS complex prolonged": 28,
+        "Electrocardiogram ST segment elevation": 12
+      }
+    }
+  },
+  "qt_prolongation": {
+    "n_signals": 165,
+    "pct_female": 67.3,
+    "n_drugs": 148,
+    "top_drugs": [
+      {
+        "drug_name": "AMIODARONE",
+        "n": 2,
+        "pct_f": 100.0,
+        "total_reports": 1375
+      },
+      {
+        "drug_name": "OLANZAPINE",
+        "n": 2,
+        "pct_f": 100.0,
+        "total_reports": 1293
+      },
+      {
+        "drug_name": "FUROSEMIDE",
+        "n": 2,
+        "pct_f": 100.0,
+        "total_reports": 894
+      },
+      {
+        "drug_name": "HYDROXYCHLOROQUINE",
+        "n": 1,
+        "pct_f": 0.0,
+        "total_reports": 712
+      },
+      {
+        "drug_name": "LOPERAMIDE",
+        "n": 2,
+        "pct_f": 0.0,
+        "total_reports": 712
+      },
+      {
+        "drug_name": "FLUOXETINE",
+        "n": 1,
+        "pct_f": 100.0,
+        "total_reports": 690
+      },
+      {
+        "drug_name": "RISPERIDONE",
+        "n": 2,
+        "pct_f": 100.0,
+        "total_reports": 637
+      },
+      {
+        "drug_name": "MIRTAZAPINE",
+        "n": 2,
+        "pct_f": 100.0,
+        "total_reports": 603
+      },
+      {
+        "drug_name": "VALPROIC ACID",
+        "n": 1,
+        "pct_f": 100.0,
+        "total_reports": 486
+      },
+      {
+        "drug_name": "PARACETAMOL",
+        "n": 1,
+        "pct_f": 100.0,
+        "total_reports": 474
+      },
+      {
+        "drug_name": "AMITRIPTYLINE",
+        "n": 2,
+        "pct_f": 100.0,
+        "total_reports": 460
+      },
+      {
+        "drug_name": "AZITHROMYCIN ANHYDROUS",
+        "n": 2,
+        "pct_f": 0.0,
+        "total_reports": 425
+      },
+      {
+        "drug_name": "LEVETIRACETAM",
+        "n": 2,
+        "pct_f": 100.0,
+        "total_reports": 400
+      },
+      {
+        "drug_name": "METFORMIN",
+        "n": 2,
+        "pct_f": 50.0,
+        "total_reports": 397
+      },
+      {
+        "drug_name": "ZOPICLONE",
+        "n": 1,
+        "pct_f": 100.0,
+        "total_reports": 385
+      }
+    ]
+  },
+  "drug_classes": {
+    "antiarrhythmics": {
+      "n_signals": 43,
+      "n_drugs_found": 5,
+      "pct_female": 79.1,
+      "mean_abs_lr": 0.8199
+    },
+    "beta_blockers": {
+      "n_signals": 70,
+      "n_drugs_found": 6,
+      "pct_female": 62.9,
+      "mean_abs_lr": 0.8133
+    },
+    "ace_inhibitors": {
+      "n_signals": 49,
+      "n_drugs_found": 4,
+      "pct_female": 59.2,
+      "mean_abs_lr": 1.0067
+    },
+    "arbs": {
+      "n_signals": 41,
+      "n_drugs_found": 6,
+      "pct_female": 53.7,
+      "mean_abs_lr": 0.911
+    },
+    "ccbs": {
+      "n_signals": 48,
+      "n_drugs_found": 5,
+      "pct_female": 60.4,
+      "mean_abs_lr": 0.9019
+    },
+    "statins": {
+      "n_signals": 54,
+      "n_drugs_found": 4,
+      "pct_female": 50.0,
+      "mean_abs_lr": 0.9364
+    },
+    "anticoagulants": {
+      "n_signals": 47,
+      "n_drugs_found": 5,
+      "pct_female": 76.6,
+      "mean_abs_lr": 0.8747
+    },
+    "antiplatelets": {
+      "n_signals": 54,
+      "n_drugs_found": 4,
+      "pct_female": 88.9,
+      "mean_abs_lr": 0.8146
+    },
+    "checkpoint_inhibitors": {
+      "n_signals": 49,
+      "n_drugs_found": 4,
+      "pct_female": 85.7,
+      "mean_abs_lr": 0.8818
+    },
+    "anthracyclines": {
+      "n_signals": 42,
+      "n_drugs_found": 4,
+      "pct_female": 88.1,
+      "mean_abs_lr": 1.193
+    }
+  },
+  "cardiac_vs_hepatic": {
+    "drugs_with_both": 67,
+    "cardiac_more_female": 35,
+    "hepatic_more_female": 22,
+    "examples": [
+      {
+        "drug": "METHADONE",
+        "cardiac_pct_f": 100.0,
+        "hepatic_pct_f": 0.0,
+        "cardiac_n": 9,
+        "hepatic_n": 2
+      },
+      {
+        "drug": "LACOSAMIDE",
+        "cardiac_pct_f": 100.0,
+        "hepatic_pct_f": 0.0,
+        "cardiac_n": 10,
+        "hepatic_n": 3
+      },
+      {
+        "drug": "OXCARBAZEPINE",
+        "cardiac_pct_f": 100.0,
+        "hepatic_pct_f": 0.0,
+        "cardiac_n": 4,
+        "hepatic_n": 3
+      },
+      {
+        "drug": "LENVATINIB",
+        "cardiac_pct_f": 100.0,
+        "hepatic_pct_f": 20.0,
+        "cardiac_n": 11,
+        "hepatic_n": 5
+      },
+      {
+        "drug": "AMITRIPTYLINE",
+        "cardiac_pct_f": 75.0,
+        "hepatic_pct_f": 0.0,
+        "cardiac_n": 8,
+        "hepatic_n": 5
+      },
+      {
+        "drug": "REMDESIVIR",
+        "cardiac_pct_f": 100.0,
+        "hepatic_pct_f": 33.3,
+        "cardiac_n": 5,
+        "hepatic_n": 6
+      },
+      {
+        "drug": "PANTOPRAZOLE",
+        "cardiac_pct_f": 15.8,
+        "hepatic_pct_f": 77.8,
+        "cardiac_n": 19,
+        "hepatic_n": 18
+      },
+      {
+        "drug": "ZOLEDRONIC ACID",
+        "cardiac_pct_f": 25.0,
+        "hepatic_pct_f": 80.0,
+        "cardiac_n": 12,
+        "hepatic_n": 10
+      },
+      {
+        "drug": "ZOPICLONE",
+        "cardiac_pct_f": 85.7,
+        "hepatic_pct_f": 33.3,
+        "cardiac_n": 7,
+        "hepatic_n": 3
+      },
+      {
+        "drug": "HYDROCHLOROTHIAZIDE;VALSARTAN",
+        "cardiac_pct_f": 100.0,
+        "hepatic_pct_f": 50.0,
+        "cardiac_n": 2,
+        "hepatic_n": 2
+      },
+      {
+        "drug": "LOSARTAN",
+        "cardiac_pct_f": 50.0,
+        "hepatic_pct_f": 100.0,
+        "cardiac_n": 4,
+        "hepatic_n": 4
+      },
+      {
+        "drug": "RITONAVIR",
+        "cardiac_pct_f": 100.0,
+        "hepatic_pct_f": 50.0,
+        "cardiac_n": 2,
+        "hepatic_n": 4
+      },
+      {
+        "drug": "INSULIN",
+        "cardiac_pct_f": 50.0,
+        "hepatic_pct_f": 0.0,
+        "cardiac_n": 14,
+        "hepatic_n": 5
+      },
+      {
+        "drug": "NINTEDANIB",
+        "cardiac_pct_f": 50.0,
+        "hepatic_pct_f": 100.0,
+        "cardiac_n": 2,
+        "hepatic_n": 8
+      },
+      {
+        "drug": "CARVEDILOL",
+        "cardiac_pct_f": 53.3,
+        "hepatic_pct_f": 100.0,
+        "cardiac_n": 15,
+        "hepatic_n": 3
+      }
+    ]
+  }
+}
