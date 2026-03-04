@@ -1,0 +1,229 @@
+{
+  "soc_results": [
+    {
+      "soc": "Social circumstances",
+      "n_signals": 103,
+      "pct_female": 80.6,
+      "mean_lr": 0.5571,
+      "n_aes": 10,
+      "n_drugs": 86
+    },
+    {
+      "soc": "Renal and urinary disorders",
+      "n_signals": 2266,
+      "pct_female": 67.2,
+      "mean_lr": 0.2812,
+      "n_aes": 104,
+      "n_drugs": 730
+    },
+    {
+      "soc": "Cardiac disorders",
+      "n_signals": 3196,
+      "pct_female": 65.1,
+      "mean_lr": 0.2553,
+      "n_aes": 117,
+      "n_drugs": 749
+    },
+    {
+      "soc": "Metabolism and nutrition disorders",
+      "n_signals": 1461,
+      "pct_female": 64.0,
+      "mean_lr": 0.3129,
+      "n_aes": 41,
+      "n_drugs": 544
+    },
+    {
+      "soc": "Neoplasms benign, malignant and unspecified",
+      "n_signals": 2068,
+      "pct_female": 63.8,
+      "mean_lr": 0.2376,
+      "n_aes": 274,
+      "n_drugs": 517
+    },
+    {
+      "soc": "Immune system disorders",
+      "n_signals": 870,
+      "pct_female": 63.4,
+      "mean_lr": 0.3073,
+      "n_aes": 48,
+      "n_drugs": 390
+    },
+    {
+      "soc": "Vascular disorders",
+      "n_signals": 1969,
+      "pct_female": 63.3,
+      "mean_lr": 0.226,
+      "n_aes": 108,
+      "n_drugs": 759
+    },
+    {
+      "soc": "Hepatobiliary disorders",
+      "n_signals": 1825,
+      "pct_female": 62.5,
+      "mean_lr": 0.3549,
+      "n_aes": 60,
+      "n_drugs": 513
+    },
+    {
+      "soc": "Congenital, familial and genetic disorders",
+      "n_signals": 92,
+      "pct_female": 58.7,
+      "mean_lr": 0.2507,
+      "n_aes": 36,
+      "n_drugs": 58
+    },
+    {
+      "soc": "Surgical and medical procedures",
+      "n_signals": 351,
+      "pct_female": 58.7,
+      "mean_lr": 0.1897,
+      "n_aes": 45,
+      "n_drugs": 231
+    },
+    {
+      "soc": "Investigations",
+      "n_signals": 6046,
+      "pct_female": 58.2,
+      "mean_lr": 0.1743,
+      "n_aes": 361,
+      "n_drugs": 959
+    },
+    {
+      "soc": "Blood and lymphatic system disorders",
+      "n_signals": 1540,
+      "pct_female": 57.7,
+      "mean_lr": 0.0852,
+      "n_aes": 77,
+      "n_drugs": 577
+    },
+    {
+      "soc": "Injury, poisoning and procedural complications",
+      "n_signals": 4094,
+      "pct_female": 57.4,
+      "mean_lr": 0.1809,
+      "n_aes": 201,
+      "n_drugs": 892
+    },
+    {
+      "soc": "Pregnancy, puerperium and perinatal conditions",
+      "n_signals": 535,
+      "pct_female": 57.0,
+      "mean_lr": -0.0319,
+      "n_aes": 36,
+      "n_drugs": 295
+    },
+    {
+      "soc": "Infections and infestations",
+      "n_signals": 5736,
+      "pct_female": 56.4,
+      "mean_lr": 0.186,
+      "n_aes": 372,
+      "n_drugs": 887
+    },
+    {
+      "soc": "Psychiatric disorders",
+      "n_signals": 4406,
+      "pct_female": 55.3,
+      "mean_lr": 0.1348,
+      "n_aes": 111,
+      "n_drugs": 877
+    },
+    {
+      "soc": "Gastrointestinal disorders",
+      "n_signals": 5533,
+      "pct_female": 54.0,
+      "mean_lr": 0.1106,
+      "n_aes": 199,
+      "n_drugs": 1116
+    },
+    {
+      "soc": "Unclassified",
+      "n_signals": 23760,
+      "pct_female": 52.2,
+      "mean_lr": 0.0523,
+      "n_aes": 1798,
+      "n_drugs": 1511
+    },
+    {
+      "soc": "Nervous system disorders",
+      "n_signals": 4614,
+      "pct_female": 51.0,
+      "mean_lr": 0.0316,
+      "n_aes": 139,
+      "n_drugs": 1074
+    },
+    {
+      "soc": "General disorders and administration site conditions",
+      "n_signals": 9811,
+      "pct_female": 50.2,
+      "mean_lr": 0.0705,
+      "n_aes": 261,
+      "n_drugs": 1627
+    },
+    {
+      "soc": "Respiratory, thoracic and mediastinal disorders",
+      "n_signals": 4967,
+      "pct_female": 50.1,
+      "mean_lr": -0.0194,
+      "n_aes": 115,
+      "n_drugs": 952
+    },
+    {
+      "soc": "Musculoskeletal and connective tissue disorders",
+      "n_signals": 3571,
+      "pct_female": 49.2,
+      "mean_lr": 0.0877,
+      "n_aes": 103,
+      "n_drugs": 794
+    },
+    {
+      "soc": "Endocrine disorders",
+      "n_signals": 256,
+      "pct_female": 45.7,
+      "mean_lr": -0.0781,
+      "n_aes": 39,
+      "n_drugs": 138
+    },
+    {
+      "soc": "Skin and subcutaneous tissue disorders",
+      "n_signals": 4087,
+      "pct_female": 44.8,
+      "mean_lr": -0.0351,
+      "n_aes": 141,
+      "n_drugs": 874
+    },
+    {
+      "soc": "Ear and labyrinth disorders",
+      "n_signals": 509,
+      "pct_female": 36.3,
+      "mean_lr": -0.259,
+      "n_aes": 30,
+      "n_drugs": 290
+    },
+    {
+      "soc": "Reproductive system and breast disorders",
+      "n_signals": 155,
+      "pct_female": 34.2,
+      "mean_lr": -0.4873,
+      "n_aes": 24,
+      "n_drugs": 94
+    },
+    {
+      "soc": "Product issues",
+      "n_signals": 546,
+      "pct_female": 33.5,
+      "mean_lr": -0.3223,
+      "n_aes": 85,
+      "n_drugs": 230
+    },
+    {
+      "soc": "Eye disorders",
+      "n_signals": 1914,
+      "pct_female": 32.3,
+      "mean_lr": -0.2942,
+      "n_aes": 134,
+      "n_drugs": 508
+    }
+  ],
+  "total_coverage_pct": 100.0
+}
