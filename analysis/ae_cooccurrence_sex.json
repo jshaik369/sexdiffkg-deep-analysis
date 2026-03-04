@@ -1,0 +1,667 @@
+{
+  "ae_cooccurrence": {
+    "n_pairs": 19892,
+    "cooccurrence_sex_correlation": {
+      "rho": -0.107,
+      "p": 9.979e-52,
+      "interpretation": "Negative = co-occurring AEs have more similar sex profiles"
+    },
+    "most_cooccurring": [
+      {
+        "ae1": "Asthma",
+        "ae2": "Wheezing",
+        "shared_drugs": 115,
+        "jaccard": 0.406,
+        "f1": 65.6,
+        "f2": 67.5,
+        "sex_diff": 1.9
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Dry mouth",
+        "shared_drugs": 113,
+        "jaccard": 0.405,
+        "f1": 58.3,
+        "f2": 63.6,
+        "sex_diff": 5.3
+      },
+      {
+        "ae1": "Hypoaesthesia",
+        "ae2": "Paraesthesia",
+        "shared_drugs": 111,
+        "jaccard": 0.392,
+        "f1": 68.7,
+        "f2": 65.5,
+        "sex_diff": 3.2
+      },
+      {
+        "ae1": "Alanine aminotransferase increased",
+        "ae2": "Aspartate aminotransferase increased",
+        "shared_drugs": 76,
+        "jaccard": 0.386,
+        "f1": 61.1,
+        "f2": 53.7,
+        "sex_diff": 7.4
+      },
+      {
+        "ae1": "Type 2 diabetes mellitus",
+        "ae2": "Wound",
+        "shared_drugs": 65,
+        "jaccard": 0.376,
+        "f1": 64.8,
+        "f2": 68.2,
+        "sex_diff": 3.3
+      },
+      {
+        "ae1": "Foetal exposure during pregnancy",
+        "ae2": "Premature baby",
+        "shared_drugs": 96,
+        "jaccard": 0.375,
+        "f1": 51.9,
+        "f2": 54.6,
+        "sex_diff": 2.7
+      },
+      {
+        "ae1": "Swelling",
+        "ae2": "Dry mouth",
+        "shared_drugs": 103,
+        "jaccard": 0.36,
+        "f1": 65.6,
+        "f2": 63.6,
+        "sex_diff": 2.0
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Swelling",
+        "shared_drugs": 111,
+        "jaccard": 0.358,
+        "f1": 58.3,
+        "f2": 65.6,
+        "sex_diff": 7.3
+      },
+      {
+        "ae1": "Swelling",
+        "ae2": "Blood cholesterol increased",
+        "shared_drugs": 87,
+        "jaccard": 0.357,
+        "f1": 65.6,
+        "f2": 66.5,
+        "sex_diff": 0.9
+      },
+      {
+        "ae1": "Oedema",
+        "ae2": "Blister",
+        "shared_drugs": 70,
+        "jaccard": 0.354,
+        "f1": 72.0,
+        "f2": 76.4,
+        "sex_diff": 4.4
+      },
+      {
+        "ae1": "Wheezing",
+        "ae2": "Lung disorder",
+        "shared_drugs": 91,
+        "jaccard": 0.35,
+        "f1": 67.5,
+        "f2": 60.3,
+        "sex_diff": 7.2
+      },
+      {
+        "ae1": "Swelling",
+        "ae2": "Lower respiratory tract infection",
+        "shared_drugs": 94,
+        "jaccard": 0.344,
+        "f1": 65.6,
+        "f2": 66.3,
+        "sex_diff": 0.7
+      },
+      {
+        "ae1": "Dry mouth",
+        "ae2": "Blood cholesterol increased",
+        "shared_drugs": 77,
+        "jaccard": 0.342,
+        "f1": 63.6,
+        "f2": 66.5,
+        "sex_diff": 2.9
+      },
+      {
+        "ae1": "Dry mouth",
+        "ae2": "Abdominal distension",
+        "shared_drugs": 90,
+        "jaccard": 0.336,
+        "f1": 63.6,
+        "f2": 52.9,
+        "sex_diff": 10.7
+      },
+      {
+        "ae1": "Lung disorder",
+        "ae2": "Lower respiratory tract infection",
+        "shared_drugs": 82,
+        "jaccard": 0.333,
+        "f1": 60.3,
+        "f2": 66.3,
+        "sex_diff": 6.0
+      },
+      {
+        "ae1": "Gastrointestinal disorder",
+        "ae2": "Muscular weakness",
+        "shared_drugs": 94,
+        "jaccard": 0.332,
+        "f1": 70.3,
+        "f2": 67.9,
+        "sex_diff": 2.4
+      },
+      {
+        "ae1": "Discomfort",
+        "ae2": "Arthropathy",
+        "shared_drugs": 71,
+        "jaccard": 0.33,
+        "f1": 68.5,
+        "f2": 72.8,
+        "sex_diff": 4.3
+      },
+      {
+        "ae1": "Arthropathy",
+        "ae2": "Wound",
+        "shared_drugs": 60,
+        "jaccard": 0.328,
+        "f1": 72.8,
+        "f2": 68.2,
+        "sex_diff": 4.6
+      },
+      {
+        "ae1": "Inflammation",
+        "ae2": "C-reactive protein increased",
+        "shared_drugs": 72,
+        "jaccard": 0.327,
+        "f1": 67.7,
+        "f2": 64.7,
+        "sex_diff": 3.0
+      },
+      {
+        "ae1": "Hepatic enzyme increased",
+        "ae2": "Liver injury",
+        "shared_drugs": 73,
+        "jaccard": 0.326,
+        "f1": 70.9,
+        "f2": 68.4,
+        "sex_diff": 2.4
+      }
+    ],
+    "most_divergent_cooccurring": [
+      {
+        "ae1": "Condition aggravated",
+        "ae2": "Pain",
+        "shared_drugs": 167,
+        "jaccard": 0.303,
+        "f1": 51.6,
+        "f2": 72.2,
+        "sex_diff": 20.6
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Contusion",
+        "shared_drugs": 84,
+        "jaccard": 0.319,
+        "f1": 58.3,
+        "f2": 77.6,
+        "sex_diff": 19.3
+      },
+      {
+        "ae1": "Lung disorder",
+        "ae2": "Contusion",
+        "shared_drugs": 71,
+        "jaccard": 0.303,
+        "f1": 60.3,
+        "f2": 77.6,
+        "sex_diff": 17.4
+      },
+      {
+        "ae1": "Swelling",
+        "ae2": "Abdominal distension",
+        "shared_drugs": 91,
+        "jaccard": 0.307,
+        "f1": 65.6,
+        "f2": 52.9,
+        "sex_diff": 12.7
+      },
+      {
+        "ae1": "Swelling",
+        "ae2": "Blister",
+        "shared_drugs": 78,
+        "jaccard": 0.302,
+        "f1": 65.6,
+        "f2": 76.4,
+        "sex_diff": 10.8
+      },
+      {
+        "ae1": "Dry mouth",
+        "ae2": "Abdominal distension",
+        "shared_drugs": 90,
+        "jaccard": 0.336,
+        "f1": 63.6,
+        "f2": 52.9,
+        "sex_diff": 10.7
+      },
+      {
+        "ae1": "Adverse drug reaction",
+        "ae2": "Lung disorder",
+        "shared_drugs": 88,
+        "jaccard": 0.306,
+        "f1": 70.9,
+        "f2": 60.3,
+        "sex_diff": 10.6
+      },
+      {
+        "ae1": "Hepatic enzyme increased",
+        "ae2": "Lung disorder",
+        "shared_drugs": 82,
+        "jaccard": 0.305,
+        "f1": 70.9,
+        "f2": 60.3,
+        "sex_diff": 10.6
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Musculoskeletal stiffness",
+        "shared_drugs": 99,
+        "jaccard": 0.31,
+        "f1": 58.3,
+        "f2": 68.7,
+        "sex_diff": 10.4
+      },
+      {
+        "ae1": "Asthma",
+        "ae2": "Loss of personal independence in daily activities",
+        "shared_drugs": 94,
+        "jaccard": 0.313,
+        "f1": 65.6,
+        "f2": 55.9,
+        "sex_diff": 9.8
+      },
+      {
+        "ae1": "Muscular weakness",
+        "ae2": "Contusion",
+        "shared_drugs": 73,
+        "jaccard": 0.317,
+        "f1": 67.9,
+        "f2": 77.6,
+        "sex_diff": 9.8
+      },
+      {
+        "ae1": "Discomfort",
+        "ae2": "Contusion",
+        "shared_drugs": 69,
+        "jaccard": 0.314,
+        "f1": 68.5,
+        "f2": 77.6,
+        "sex_diff": 9.2
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Blood cholesterol increased",
+        "shared_drugs": 79,
+        "jaccard": 0.31,
+        "f1": 58.3,
+        "f2": 66.5,
+        "sex_diff": 8.2
+      },
+      {
+        "ae1": "Blister",
+        "ae2": "Liver injury",
+        "shared_drugs": 57,
+        "jaccard": 0.306,
+        "f1": 76.4,
+        "f2": 68.4,
+        "sex_diff": 8.0
+      },
+      {
+        "ae1": "Arthropathy",
+        "ae2": "Type 2 diabetes mellitus",
+        "shared_drugs": 63,
+        "jaccard": 0.321,
+        "f1": 72.8,
+        "f2": 64.8,
+        "sex_diff": 7.9
+      },
+      {
+        "ae1": "Alanine aminotransferase increased",
+        "ae2": "Aspartate aminotransferase increased",
+        "shared_drugs": 76,
+        "jaccard": 0.386,
+        "f1": 61.1,
+        "f2": 53.7,
+        "sex_diff": 7.4
+      },
+      {
+        "ae1": "Pyrexia",
+        "ae2": "Rash",
+        "shared_drugs": 144,
+        "jaccard": 0.301,
+        "f1": 64.9,
+        "f2": 72.1,
+        "sex_diff": 7.3
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Swelling",
+        "shared_drugs": 111,
+        "jaccard": 0.358,
+        "f1": 58.3,
+        "f2": 65.6,
+        "sex_diff": 7.3
+      },
+      {
+        "ae1": "Gastrointestinal disorder",
+        "ae2": "Contusion",
+        "shared_drugs": 82,
+        "jaccard": 0.313,
+        "f1": 70.3,
+        "f2": 77.6,
+        "sex_diff": 7.3
+      },
+      {
+        "ae1": "Wheezing",
+        "ae2": "Lung disorder",
+        "shared_drugs": 91,
+        "jaccard": 0.35,
+        "f1": 67.5,
+        "f2": 60.3,
+        "sex_diff": 7.2
+      }
+    ]
+  },
+  "ae_sex_profile_correlations": {
+    "n_high_corr_pairs": 2486,
+    "top_correlated": [
+      {
+        "ae1": "Hypoaesthesia",
+        "ae2": "Paraesthesia",
+        "rho": 0.949,
+        "f1": 68.7,
+        "f2": 65.5
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Dry mouth",
+        "rho": 0.935,
+        "f1": 58.3,
+        "f2": 63.6
+      },
+      {
+        "ae1": "Vomiting",
+        "ae2": "Nausea",
+        "rho": 0.93,
+        "f1": 63.2,
+        "f2": 60.6
+      },
+      {
+        "ae1": "Asthma",
+        "ae2": "Wheezing",
+        "rho": 0.925,
+        "f1": 65.6,
+        "f2": 67.5
+      },
+      {
+        "ae1": "Drug intolerance",
+        "ae2": "Swelling",
+        "rho": 0.918,
+        "f1": 64.0,
+        "f2": 65.6
+      },
+      {
+        "ae1": "General physical health deterioration",
+        "ae2": "Dry mouth",
+        "rho": 0.911,
+        "f1": 59.7,
+        "f2": 63.6
+      },
+      {
+        "ae1": "Dry mouth",
+        "ae2": "Abdominal distension",
+        "rho": 0.906,
+        "f1": 63.6,
+        "f2": 52.9
+      },
+      {
+        "ae1": "Vomiting",
+        "ae2": "General physical health deterioration",
+        "rho": 0.902,
+        "f1": 63.2,
+        "f2": 59.7
+      },
+      {
+        "ae1": "General physical health deterioration",
+        "ae2": "Sleep disorder",
+        "rho": 0.902,
+        "f1": 59.7,
+        "f2": 58.3
+      },
+      {
+        "ae1": "Abdominal pain",
+        "ae2": "Abdominal distension",
+        "rho": 0.898,
+        "f1": 60.1,
+        "f2": 52.9
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Swelling",
+        "rho": 0.893,
+        "f1": 58.3,
+        "f2": 65.6
+      },
+      {
+        "ae1": "Swelling",
+        "ae2": "Dry mouth",
+        "rho": 0.893,
+        "f1": 65.6,
+        "f2": 63.6
+      },
+      {
+        "ae1": "Fatigue",
+        "ae2": "Abdominal discomfort",
+        "rho": 0.892,
+        "f1": 69.2,
+        "f2": 73.3
+      },
+      {
+        "ae1": "General physical health deterioration",
+        "ae2": "Swelling",
+        "rho": 0.891,
+        "f1": 59.7,
+        "f2": 65.6
+      },
+      {
+        "ae1": "Abdominal discomfort",
+        "ae2": "Abdominal pain upper",
+        "rho": 0.891,
+        "f1": 73.3,
+        "f2": 74.2
+      },
+      {
+        "ae1": "Pain in extremity",
+        "ae2": "Lung disorder",
+        "rho": 0.89,
+        "f1": 59.5,
+        "f2": 60.3
+      },
+      {
+        "ae1": "Anxiety",
+        "ae2": "Pain in extremity",
+        "rho": 0.887,
+        "f1": 61.1,
+        "f2": 59.5
+      },
+      {
+        "ae1": "Vomiting",
+        "ae2": "Dry mouth",
+        "rho": 0.885,
+        "f1": 63.2,
+        "f2": 63.6
+      },
+      {
+        "ae1": "Rash",
+        "ae2": "Pruritus",
+        "rho": 0.884,
+        "f1": 72.1,
+        "f2": 70.5
+      },
+      {
+        "ae1": "Hypersensitivity",
+        "ae2": "Urticaria",
+        "rho": 0.882,
+        "f1": 69.7,
+        "f2": 69.3
+      }
+    ],
+    "top_anti_correlated": [
+      {
+        "ae1": "Therapeutic product effect incomplete",
+        "ae2": "Dry mouth",
+        "rho": 0.5,
+        "f1": 59.8,
+        "f2": 63.6
+      },
+      {
+        "ae1": "Depression",
+        "ae2": "Dysphagia",
+        "rho": 0.5,
+        "f1": 64.1,
+        "f2": 60.8
+      },
+      {
+        "ae1": "Drug ineffective",
+        "ae2": "Condition aggravated",
+        "rho": 0.501,
+        "f1": 57.1,
+        "f2": 51.6
+      },
+      {
+        "ae1": "Drug ineffective",
+        "ae2": "Sleep disorder",
+        "rho": 0.501,
+        "f1": 57.1,
+        "f2": 58.3
+      },
+      {
+        "ae1": "Death",
+        "ae2": "Somnolence",
+        "rho": 0.501,
+        "f1": 46.1,
+        "f2": 52.1
+      },
+      {
+        "ae1": "Weight decreased",
+        "ae2": "Thrombocytopenia",
+        "rho": 0.501,
+        "f1": 67.6,
+        "f2": 58.7
+      },
+      {
+        "ae1": "Decreased appetite",
+        "ae2": "Anaemia",
+        "rho": 0.501,
+        "f1": 68.0,
+        "f2": 57.4
+      },
+      {
+        "ae1": "Therapeutic product effect incomplete",
+        "ae2": "Tachycardia",
+        "rho": 0.501,
+        "f1": 59.8,
+        "f2": 60.7
+      },
+      {
+        "ae1": "Thrombocytopenia",
+        "ae2": "Adverse drug reaction",
+        "rho": 0.501,
+        "f1": 58.7,
+        "f2": 70.9
+      },
+      {
+        "ae1": "Off label use",
+        "ae2": "Loss of personal independence in daily activities",
+        "rho": 0.502,
+        "f1": 59.4,
+        "f2": 55.9
+      },
+      {
+        "ae1": "Condition aggravated",
+        "ae2": "Therapeutic product effect incomplete",
+        "rho": 0.502,
+        "f1": 51.6,
+        "f2": 59.8
+      },
+      {
+        "ae1": "Fatigue",
+        "ae2": "Thrombocytopenia",
+        "rho": 0.502,
+        "f1": 69.2,
+        "f2": 58.7
+      },
+      {
+        "ae1": "Pneumonia",
+        "ae2": "Renal impairment",
+        "rho": 0.502,
+        "f1": 68.0,
+        "f2": 55.4
+      },
+      {
+        "ae1": "Drug interaction",
+        "ae2": "Infection",
+        "rho": 0.502,
+        "f1": 56.6,
+        "f2": 67.1
+      },
+      {
+        "ae1": "General physical health deterioration",
+        "ae2": "Urinary tract infection",
+        "rho": 0.502,
+        "f1": 59.7,
+        "f2": 66.2
+      },
+      {
+        "ae1": "Asthma",
+        "ae2": "Gait disturbance",
+        "rho": 0.502,
+        "f1": 65.6,
+        "f2": 64.5
+      },
+      {
+        "ae1": "Sleep disorder",
+        "ae2": "Pulmonary embolism",
+        "rho": 0.502,
+        "f1": 58.3,
+        "f2": 40.3
+      },
+      {
+        "ae1": "Off label use",
+        "ae2": "Erythema",
+        "rho": 0.503,
+        "f1": 59.4,
+        "f2": 64.0
+      },
+      {
+        "ae1": "Hypersensitivity",
+        "ae2": "Back pain",
+        "rho": 0.503,
+        "f1": 69.7,
+        "f2": 63.7
+      },
+      {
+        "ae1": "Drug interaction",
+        "ae2": "Muscle spasms",
+        "rho": 0.503,
+        "f1": 56.6,
+        "f2": 69.1
+      }
+    ]
+  },
+  "direction_concordance": {
+    "n_pairs_tested": 500,
+    "mean_rho": 0.583,
+    "positive_pct": 97.0,
+    "significant_pct": 89.2
+  }
+}

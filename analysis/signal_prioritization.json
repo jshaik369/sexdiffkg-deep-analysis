@@ -1,0 +1,1148 @@
+{
+  "priority_distribution": {
+    "Medium": 49184,
+    "Low": 40154,
+    "High": 6827,
+    "Critical": 116
+  },
+  "top_100_signals": [
+    {
+      "drug_name": "LEUPRORELIN",
+      "adverse_event": "Death",
+      "f_frac": 1.0,
+      "log_ratio": -2.916,
+      "total_reports": 8397,
+      "is_serious": true,
+      "priority_score": 93.9
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 18.7,
+      "log_ratio": -3.039,
+      "total_reports": 492,
+      "is_serious": true,
+      "priority_score": 88.5
+    },
+    {
+      "drug_name": "ANAKINRA",
+      "adverse_event": "Renal failure",
+      "f_frac": 5.3,
+      "log_ratio": -3.045,
+      "total_reports": 356,
+      "is_serious": true,
+      "priority_score": 87.8
+    },
+    {
+      "drug_name": "ANAKINRA",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 7.5,
+      "log_ratio": -3.185,
+      "total_reports": 348,
+      "is_serious": true,
+      "priority_score": 87.7
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "adverse_event": "Apparent death",
+      "f_frac": 8.6,
+      "log_ratio": -3.02,
+      "total_reports": 313,
+      "is_serious": true,
+      "priority_score": 87.5
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.1,
+      "log_ratio": -4.389,
+      "total_reports": 311,
+      "is_serious": true,
+      "priority_score": 87.5
+    },
+    {
+      "drug_name": "ABATACEPT",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.2,
+      "log_ratio": -4.465,
+      "total_reports": 304,
+      "is_serious": true,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "adverse_event": "Apparent death",
+      "f_frac": 8.2,
+      "log_ratio": -3.859,
+      "total_reports": 304,
+      "is_serious": true,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.0,
+      "log_ratio": -4.301,
+      "total_reports": 299,
+      "is_serious": true,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "adverse_event": "Apparent death",
+      "f_frac": 9.1,
+      "log_ratio": -3.163,
+      "total_reports": 296,
+      "is_serious": true,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "GLUCOSE",
+      "adverse_event": "Sepsis",
+      "f_frac": 5.1,
+      "log_ratio": -3.115,
+      "total_reports": 273,
+      "is_serious": true,
+      "priority_score": 87.2
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Deep vein thrombosis",
+      "f_frac": 20.6,
+      "log_ratio": -2.857,
+      "total_reports": 491,
+      "is_serious": true,
+      "priority_score": 87.0
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.0,
+      "log_ratio": -4.026,
+      "total_reports": 242,
+      "is_serious": true,
+      "priority_score": 86.9
+    },
+    {
+      "drug_name": "MAGNESIUM",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 5.6,
+      "log_ratio": -3.649,
+      "total_reports": 195,
+      "is_serious": true,
+      "priority_score": 86.5
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Sepsis",
+      "f_frac": 17.9,
+      "log_ratio": -3.234,
+      "total_reports": 190,
+      "is_serious": true,
+      "priority_score": 86.4
+    },
+    {
+      "drug_name": "SODIUM PICOSULFATE",
+      "adverse_event": "Sepsis",
+      "f_frac": 5.9,
+      "log_ratio": -3.417,
+      "total_reports": 188,
+      "is_serious": true,
+      "priority_score": 86.4
+    },
+    {
+      "drug_name": "SODIUM CHLORIDE",
+      "adverse_event": "Agranulocytosis",
+      "f_frac": 96.3,
+      "log_ratio": 3.134,
+      "total_reports": 544,
+      "is_serious": true,
+      "priority_score": 86.3
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 11.9,
+      "log_ratio": -4.051,
+      "total_reports": 177,
+      "is_serious": true,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Renal failure",
+      "f_frac": 11.3,
+      "log_ratio": -3.608,
+      "total_reports": 177,
+      "is_serious": true,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "adverse_event": "Renal failure",
+      "f_frac": 15.2,
+      "log_ratio": -3.013,
+      "total_reports": 171,
+      "is_serious": true,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Apparent death",
+      "f_frac": 11.8,
+      "log_ratio": -4.092,
+      "total_reports": 170,
+      "is_serious": true,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 18.2,
+      "log_ratio": -3.29,
+      "total_reports": 170,
+      "is_serious": true,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "adverse_event": "Apparent death",
+      "f_frac": 17.3,
+      "log_ratio": -2.786,
+      "total_reports": 358,
+      "is_serious": true,
+      "priority_score": 86.0
+    },
+    {
+      "drug_name": "TRIPTORELIN",
+      "adverse_event": "Death",
+      "f_frac": 4.0,
+      "log_ratio": -2.79,
+      "total_reports": 350,
+      "is_serious": true,
+      "priority_score": 86.0
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "adverse_event": "Deep vein thrombosis",
+      "f_frac": 18.8,
+      "log_ratio": -3.175,
+      "total_reports": 154,
+      "is_serious": true,
+      "priority_score": 85.9
+    },
+    {
+      "drug_name": "CALCIUM",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 16.5,
+      "log_ratio": -2.889,
+      "total_reports": 224,
+      "is_serious": true,
+      "priority_score": 85.8
+    },
+    {
+      "drug_name": "GOSERELIN",
+      "adverse_event": "Death",
+      "f_frac": 5.5,
+      "log_ratio": -2.585,
+      "total_reports": 690,
+      "is_serious": true,
+      "priority_score": 85.7
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "adverse_event": "Apparent death",
+      "f_frac": 9.5,
+      "log_ratio": -4.064,
+      "total_reports": 137,
+      "is_serious": true,
+      "priority_score": 85.7
+    },
+    {
+      "drug_name": "GOLD (198 AU)",
+      "adverse_event": "Myocardial infarction",
+      "f_frac": 11.5,
+      "log_ratio": -3.328,
+      "total_reports": 130,
+      "is_serious": true,
+      "priority_score": 85.6
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Deep vein thrombosis",
+      "f_frac": 21.7,
+      "log_ratio": -3.254,
+      "total_reports": 198,
+      "is_serious": true,
+      "priority_score": 85.5
+    },
+    {
+      "drug_name": "CANAKINUMAB",
+      "adverse_event": "Renal failure",
+      "f_frac": 4.7,
+      "log_ratio": -2.77,
+      "total_reports": 300,
+      "is_serious": true,
+      "priority_score": 85.5
+    },
+    {
+      "drug_name": "PANTOPRAZOLE",
+      "adverse_event": "Disability",
+      "f_frac": 96.9,
+      "log_ratio": 3.271,
+      "total_reports": 320,
+      "is_serious": true,
+      "priority_score": 85.4
+    },
+    {
+      "drug_name": "CORTISONE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 14.7,
+      "log_ratio": -3.843,
+      "total_reports": 116,
+      "is_serious": true,
+      "priority_score": 85.3
+    },
+    {
+      "drug_name": "TRIFLUOPERAZINE",
+      "adverse_event": "Suicide attempt",
+      "f_frac": 7.7,
+      "log_ratio": -2.932,
+      "total_reports": 143,
+      "is_serious": true,
+      "priority_score": 85.2
+    },
+    {
+      "drug_name": "CALCITRIOL",
+      "adverse_event": "Sepsis",
+      "f_frac": 6.1,
+      "log_ratio": -2.74,
+      "total_reports": 247,
+      "is_serious": true,
+      "priority_score": 84.8
+    },
+    {
+      "drug_name": "TOFACITINIB",
+      "adverse_event": "Apparent death",
+      "f_frac": 14.6,
+      "log_ratio": -3.097,
+      "total_reports": 89,
+      "is_serious": true,
+      "priority_score": 84.7
+    },
+    {
+      "drug_name": "TRASTUZUMAB",
+      "adverse_event": "Breast cancer metastatic",
+      "f_frac": 98.4,
+      "log_ratio": -2.627,
+      "total_reports": 613,
+      "is_serious": true,
+      "priority_score": 84.7
+    },
+    {
+      "drug_name": "CLONAZEPAM",
+      "adverse_event": "Depression suicidal",
+      "f_frac": 8.9,
+      "log_ratio": -2.932,
+      "total_reports": 112,
+      "is_serious": true,
+      "priority_score": 84.7
+    },
+    {
+      "drug_name": "CORTISONE",
+      "adverse_event": "Deep vein thrombosis",
+      "f_frac": 15.9,
+      "log_ratio": -3.634,
+      "total_reports": 69,
+      "is_serious": true,
+      "priority_score": 84.2
+    },
+    {
+      "drug_name": "DOBUTAMINE",
+      "adverse_event": "Sepsis",
+      "f_frac": 4.2,
+      "log_ratio": -2.664,
+      "total_reports": 237,
+      "is_serious": true,
+      "priority_score": 84.1
+    },
+    {
+      "drug_name": "GOLIMUMAB",
+      "adverse_event": "Disability",
+      "f_frac": 97.5,
+      "log_ratio": 2.72,
+      "total_reports": 408,
+      "is_serious": true,
+      "priority_score": 84.1
+    },
+    {
+      "drug_name": "TESTOSTERONE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 0.7,
+      "log_ratio": -2.079,
+      "total_reports": 2207,
+      "is_serious": true,
+      "priority_score": 84.0
+    },
+    {
+      "drug_name": "DESOXIMETASONE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 17.5,
+      "log_ratio": -4.795,
+      "total_reports": 57,
+      "is_serious": true,
+      "priority_score": 83.8
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Renal failure",
+      "f_frac": 20.3,
+      "log_ratio": -2.428,
+      "total_reports": 492,
+      "is_serious": true,
+      "priority_score": 83.6
+    },
+    {
+      "drug_name": "MACROGOL",
+      "adverse_event": "Sepsis",
+      "f_frac": 8.1,
+      "log_ratio": -2.593,
+      "total_reports": 235,
+      "is_serious": true,
+      "priority_score": 83.5
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Prostate cancer",
+      "f_frac": 0.6,
+      "log_ratio": 1.17,
+      "total_reports": 54130,
+      "is_serious": true,
+      "priority_score": 83.4
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "adverse_event": "Apparent death",
+      "f_frac": 11.6,
+      "log_ratio": -2.521,
+      "total_reports": 303,
+      "is_serious": true,
+      "priority_score": 83.4
+    },
+    {
+      "drug_name": "BUPROPION",
+      "adverse_event": "Depression suicidal",
+      "f_frac": 14.4,
+      "log_ratio": -2.772,
+      "total_reports": 111,
+      "is_serious": true,
+      "priority_score": 83.3
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Uterine cancer",
+      "f_frac": 95.8,
+      "log_ratio": -2.172,
+      "total_reports": 3892,
+      "is_serious": true,
+      "priority_score": 83.3
+    },
+    {
+      "drug_name": "BETAMETHASONE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 13.7,
+      "log_ratio": -2.572,
+      "total_reports": 211,
+      "is_serious": true,
+      "priority_score": 83.1
+    }
+  ],
+  "top_female_signals": [
+    {
+      "drug_name": "SODIUM CHLORIDE",
+      "adverse_event": "Agranulocytosis",
+      "f_frac": 96.3,
+      "priority_score": 86.3
+    },
+    {
+      "drug_name": "PANTOPRAZOLE",
+      "adverse_event": "Disability",
+      "f_frac": 96.9,
+      "priority_score": 85.4
+    },
+    {
+      "drug_name": "GOLIMUMAB",
+      "adverse_event": "Disability",
+      "f_frac": 97.5,
+      "priority_score": 84.1
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Prostate cancer",
+      "f_frac": 0.6,
+      "priority_score": 83.4
+    },
+    {
+      "drug_name": "AZATHIOPRINE",
+      "adverse_event": "Anaphylactic reaction",
+      "f_frac": 96.3,
+      "priority_score": 81.0
+    },
+    {
+      "drug_name": "EPIRUBICIN",
+      "adverse_event": "Agranulocytosis",
+      "f_frac": 96.9,
+      "priority_score": 78.8
+    },
+    {
+      "drug_name": "PARACETAMOL",
+      "adverse_event": "Disability",
+      "f_frac": 93.6,
+      "priority_score": 76.5
+    },
+    {
+      "drug_name": "TOFACITINIB",
+      "adverse_event": "Anaphylactic reaction",
+      "f_frac": 97.0,
+      "priority_score": 75.9
+    },
+    {
+      "drug_name": "TRIAMCINOLONE",
+      "adverse_event": "Death",
+      "f_frac": 92.1,
+      "priority_score": 75.7
+    },
+    {
+      "drug_name": "MYCOPHENOLIC ACID",
+      "adverse_event": "Disability",
+      "f_frac": 90.5,
+      "priority_score": 75.6
+    },
+    {
+      "drug_name": "ABATACEPT",
+      "adverse_event": "Anaphylactic reaction",
+      "f_frac": 97.0,
+      "priority_score": 74.8
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "adverse_event": "Anaphylactic reaction",
+      "f_frac": 94.7,
+      "priority_score": 74.6
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Testis cancer",
+      "f_frac": 0.7,
+      "priority_score": 74.3
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Breast cancer stage I",
+      "f_frac": 98.7,
+      "priority_score": 73.9
+    },
+    {
+      "drug_name": "PANTOPRAZOLE",
+      "adverse_event": "Ischaemic stroke",
+      "f_frac": 90.7,
+      "priority_score": 73.6
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Disability",
+      "f_frac": 94.4,
+      "priority_score": 73.6
+    },
+    {
+      "drug_name": "TAMSULOSIN",
+      "adverse_event": "Renal failure",
+      "f_frac": 17.5,
+      "priority_score": 73.6
+    },
+    {
+      "drug_name": "TAMSULOSIN",
+      "adverse_event": "Completed suicide",
+      "f_frac": 18.9,
+      "priority_score": 73.1
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "adverse_event": "Anaphylactic reaction",
+      "f_frac": 96.2,
+      "priority_score": 73.1
+    },
+    {
+      "drug_name": "BCG VACCINE",
+      "adverse_event": "Bladder cancer recurrent",
+      "f_frac": 25.4,
+      "priority_score": 73.0
+    }
+  ],
+  "top_male_signals": [
+    {
+      "drug_name": "LEUPRORELIN",
+      "adverse_event": "Death",
+      "f_frac": 1.0,
+      "priority_score": 93.9
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 18.7,
+      "priority_score": 88.5
+    },
+    {
+      "drug_name": "ANAKINRA",
+      "adverse_event": "Renal failure",
+      "f_frac": 5.3,
+      "priority_score": 87.8
+    },
+    {
+      "drug_name": "ANAKINRA",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 7.5,
+      "priority_score": 87.7
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "adverse_event": "Apparent death",
+      "f_frac": 8.6,
+      "priority_score": 87.5
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.1,
+      "priority_score": 87.5
+    },
+    {
+      "drug_name": "ABATACEPT",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.2,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "adverse_event": "Apparent death",
+      "f_frac": 8.2,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.0,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "adverse_event": "Apparent death",
+      "f_frac": 9.1,
+      "priority_score": 87.4
+    },
+    {
+      "drug_name": "GLUCOSE",
+      "adverse_event": "Sepsis",
+      "f_frac": 5.1,
+      "priority_score": 87.2
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Deep vein thrombosis",
+      "f_frac": 20.6,
+      "priority_score": 87.0
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "adverse_event": "Apparent death",
+      "f_frac": 7.0,
+      "priority_score": 86.9
+    },
+    {
+      "drug_name": "MAGNESIUM",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 5.6,
+      "priority_score": 86.5
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Sepsis",
+      "f_frac": 17.9,
+      "priority_score": 86.4
+    },
+    {
+      "drug_name": "SODIUM PICOSULFATE",
+      "adverse_event": "Sepsis",
+      "f_frac": 5.9,
+      "priority_score": 86.4
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Pulmonary embolism",
+      "f_frac": 11.9,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Renal failure",
+      "f_frac": 11.3,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "adverse_event": "Renal failure",
+      "f_frac": 15.2,
+      "priority_score": 86.2
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "adverse_event": "Apparent death",
+      "f_frac": 11.8,
+      "priority_score": 86.2
+    }
+  ],
+  "drug_priority_ranking": [
+    {
+      "drug_name": "LEUPRORELIN",
+      "max_priority": 93.9,
+      "mean_priority": 34.6,
+      "n_high_priority": 31,
+      "n_signals": 294,
+      "mean_f": 38.9,
+      "n_serious": 11,
+      "total_rep": 104017
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "max_priority": 88.5,
+      "mean_priority": 39.5,
+      "n_high_priority": 75,
+      "n_signals": 318,
+      "mean_f": 71.8,
+      "n_serious": 13,
+      "total_rep": 300132
+    },
+    {
+      "drug_name": "ANAKINRA",
+      "max_priority": 87.8,
+      "mean_priority": 33.4,
+      "n_high_priority": 8,
+      "n_signals": 100,
+      "mean_f": 63.4,
+      "n_serious": 3,
+      "total_rep": 18802
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "max_priority": 87.5,
+      "mean_priority": 33.6,
+      "n_high_priority": 86,
+      "n_signals": 623,
+      "mean_f": 64.9,
+      "n_serious": 15,
+      "total_rep": 536319
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "max_priority": 87.5,
+      "mean_priority": 37.5,
+      "n_high_priority": 66,
+      "n_signals": 370,
+      "mean_f": 73.2,
+      "n_serious": 15,
+      "total_rep": 366621
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "max_priority": 87.4,
+      "mean_priority": 36.6,
+      "n_high_priority": 92,
+      "n_signals": 508,
+      "mean_f": 72.3,
+      "n_serious": 20,
+      "total_rep": 544873
+    },
+    {
+      "drug_name": "ABATACEPT",
+      "max_priority": 87.4,
+      "mean_priority": 39.5,
+      "n_high_priority": 80,
+      "n_signals": 344,
+      "mean_f": 76.7,
+      "n_serious": 12,
+      "total_rep": 381099
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "max_priority": 87.4,
+      "mean_priority": 31.9,
+      "n_high_priority": 79,
+      "n_signals": 892,
+      "mean_f": 64.3,
+      "n_serious": 24,
+      "total_rep": 686275
+    },
+    {
+      "drug_name": "GLUCOSE",
+      "max_priority": 87.2,
+      "mean_priority": 36.9,
+      "n_high_priority": 15,
+      "n_signals": 70,
+      "mean_f": 39.7,
+      "n_serious": 2,
+      "total_rep": 8744
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "max_priority": 86.9,
+      "mean_priority": 38.2,
+      "n_high_priority": 86,
+      "n_signals": 376,
+      "mean_f": 73.2,
+      "n_serious": 10,
+      "total_rep": 401102
+    },
+    {
+      "drug_name": "MAGNESIUM",
+      "max_priority": 86.5,
+      "mean_priority": 39.9,
+      "n_high_priority": 38,
+      "n_signals": 136,
+      "mean_f": 64.1,
+      "n_serious": 9,
+      "total_rep": 37258
+    },
+    {
+      "drug_name": "SODIUM AUROTHIOMALATE",
+      "max_priority": 86.4,
+      "mean_priority": 46.5,
+      "n_high_priority": 23,
+      "n_signals": 68,
+      "mean_f": 65.2,
+      "n_serious": 7,
+      "total_rep": 31937
+    },
+    {
+      "drug_name": "SODIUM PICOSULFATE",
+      "max_priority": 86.4,
+      "mean_priority": 47.9,
+      "n_high_priority": 11,
+      "n_signals": 22,
+      "mean_f": 42.3,
+      "n_serious": 1,
+      "total_rep": 3545
+    },
+    {
+      "drug_name": "SODIUM CHLORIDE",
+      "max_priority": 86.3,
+      "mean_priority": 31.2,
+      "n_high_priority": 10,
+      "n_signals": 152,
+      "mean_f": 51.8,
+      "n_serious": 8,
+      "total_rep": 15791
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "max_priority": 86.2,
+      "mean_priority": 37.3,
+      "n_high_priority": 15,
+      "n_signals": 99,
+      "mean_f": 71.2,
+      "n_serious": 7,
+      "total_rep": 34800
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "max_priority": 86.0,
+      "mean_priority": 31.6,
+      "n_high_priority": 52,
+      "n_signals": 618,
+      "mean_f": 69.9,
+      "n_serious": 16,
+      "total_rep": 531404
+    },
+    {
+      "drug_name": "TRIPTORELIN",
+      "max_priority": 86.0,
+      "mean_priority": 32.5,
+      "n_high_priority": 2,
+      "n_signals": 46,
+      "mean_f": 50.7,
+      "n_serious": 2,
+      "total_rep": 4061
+    },
+    {
+      "drug_name": "CALCIUM",
+      "max_priority": 85.8,
+      "mean_priority": 41.0,
+      "n_high_priority": 78,
+      "n_signals": 219,
+      "mean_f": 63.8,
+      "n_serious": 10,
+      "total_rep": 99044
+    },
+    {
+      "drug_name": "GOSERELIN",
+      "max_priority": 85.7,
+      "mean_priority": 31.4,
+      "n_high_priority": 3,
+      "n_signals": 36,
+      "mean_f": 57.1,
+      "n_serious": 1,
+      "total_rep": 4632
+    },
+    {
+      "drug_name": "GOLD (198 AU)",
+      "max_priority": 85.6,
+      "mean_priority": 38.6,
+      "n_high_priority": 7,
+      "n_signals": 68,
+      "mean_f": 72.2,
+      "n_serious": 1,
+      "total_rep": 28219
+    },
+    {
+      "drug_name": "CANAKINUMAB",
+      "max_priority": 85.5,
+      "mean_priority": 30.7,
+      "n_high_priority": 11,
+      "n_signals": 68,
+      "mean_f": 44.5,
+      "n_serious": 2,
+      "total_rep": 8363
+    },
+    {
+      "drug_name": "PANTOPRAZOLE",
+      "max_priority": 85.4,
+      "mean_priority": 34.7,
+      "n_high_priority": 65,
+      "n_signals": 501,
+      "mean_f": 63.5,
+      "n_serious": 11,
+      "total_rep": 224632
+    },
+    {
+      "drug_name": "CORTISONE",
+      "max_priority": 85.3,
+      "mean_priority": 42.5,
+      "n_high_priority": 63,
+      "n_signals": 188,
+      "mean_f": 76.5,
+      "n_serious": 4,
+      "total_rep": 150522
+    },
+    {
+      "drug_name": "TRIFLUOPERAZINE",
+      "max_priority": 85.2,
+      "mean_priority": 68.8,
+      "n_high_priority": 3,
+      "n_signals": 3,
+      "mean_f": 9.2,
+      "n_serious": 1,
+      "total_rep": 475
+    },
+    {
+      "drug_name": "CALCITRIOL",
+      "max_priority": 84.8,
+      "mean_priority": 41.6,
+      "n_high_priority": 13,
+      "n_signals": 40,
+      "mean_f": 34.1,
+      "n_serious": 2,
+      "total_rep": 5437
+    },
+    {
+      "drug_name": "TOFACITINIB",
+      "max_priority": 84.7,
+      "mean_priority": 35.0,
+      "n_high_priority": 40,
+      "n_signals": 331,
+      "mean_f": 77.0,
+      "n_serious": 9,
+      "total_rep": 319088
+    },
+    {
+      "drug_name": "TRASTUZUMAB",
+      "max_priority": 84.7,
+      "mean_priority": 37.3,
+      "n_high_priority": 8,
+      "n_signals": 101,
+      "mean_f": 78.9,
+      "n_serious": 3,
+      "total_rep": 38844
+    },
+    {
+      "drug_name": "CLONAZEPAM",
+      "max_priority": 84.7,
+      "mean_priority": 31.8,
+      "n_high_priority": 19,
+      "n_signals": 285,
+      "mean_f": 61.8,
+      "n_serious": 10,
+      "total_rep": 62433
+    },
+    {
+      "drug_name": "DOBUTAMINE",
+      "max_priority": 84.1,
+      "mean_priority": 43.3,
+      "n_high_priority": 8,
+      "n_signals": 28,
+      "mean_f": 30.8,
+      "n_serious": 5,
+      "total_rep": 3646
+    },
+    {
+      "drug_name": "GOLIMUMAB",
+      "max_priority": 84.1,
+      "mean_priority": 38.4,
+      "n_high_priority": 92,
+      "n_signals": 334,
+      "mean_f": 78.4,
+      "n_serious": 4,
+      "total_rep": 382592
+    }
+  ],
+  "serious_drug_ranking": [
+    {
+      "drug_name": "RANITIDINE",
+      "n_serious": 39,
+      "mean_f": 53.4,
+      "max_lr": 2.699449476363551,
+      "mean_priority": 57.0
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "n_serious": 24,
+      "mean_f": 57.6,
+      "max_lr": 3.16302223380099,
+      "mean_priority": 54.1
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "n_serious": 22,
+      "mean_f": 47.4,
+      "max_lr": 2.4922576886966117,
+      "mean_priority": 55.2
+    },
+    {
+      "drug_name": "ADALIMUMAB",
+      "n_serious": 21,
+      "mean_f": 53.8,
+      "max_lr": 2.2693071019203463,
+      "mean_priority": 52.9
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "n_serious": 20,
+      "mean_f": 54.4,
+      "max_lr": 3.858574949250137,
+      "mean_priority": 59.1
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "n_serious": 19,
+      "mean_f": 57.8,
+      "max_lr": 1.735867768051744,
+      "mean_priority": 51.8
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "n_serious": 18,
+      "mean_f": 48.7,
+      "max_lr": 2.5207893159368506,
+      "mean_priority": 57.2
+    },
+    {
+      "drug_name": "RANITIDINE HYDROCHLORIDE",
+      "n_serious": 17,
+      "mean_f": 45.7,
+      "max_lr": 0.9013006287583569,
+      "mean_priority": 53.1
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "n_serious": 17,
+      "mean_f": 49.3,
+      "max_lr": 1.2441256934197633,
+      "mean_priority": 51.6
+    },
+    {
+      "drug_name": "DEXAMETHASONE",
+      "n_serious": 17,
+      "mean_f": 53.6,
+      "max_lr": 2.1584840494537967,
+      "mean_priority": 47.8
+    },
+    {
+      "drug_name": "CYTARABINE",
+      "n_serious": 16,
+      "mean_f": 48.7,
+      "max_lr": 1.4548566577801179,
+      "mean_priority": 49.5
+    },
+    {
+      "drug_name": "TACROLIMUS",
+      "n_serious": 16,
+      "mean_f": 49.3,
+      "max_lr": 1.5697631796411993,
+      "mean_priority": 48.1
+    },
+    {
+      "drug_name": "CYCLOPHOSPHAMIDE",
+      "n_serious": 16,
+      "mean_f": 54.8,
+      "max_lr": 1.622262560266245,
+      "mean_priority": 49.7
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "n_serious": 16,
+      "mean_f": 54.1,
+      "max_lr": 2.785562865355502,
+      "mean_priority": 57.1
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "n_serious": 15,
+      "mean_f": 51.7,
+      "max_lr": 3.0200049564017526,
+      "mean_priority": 55.0
+    },
+    {
+      "drug_name": "HYDROMORPHONE",
+      "n_serious": 15,
+      "mean_f": 49.0,
+      "max_lr": 1.404829317871233,
+      "mean_priority": 49.1
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "n_serious": 15,
+      "mean_f": 45.8,
+      "max_lr": 4.389138617699751,
+      "mean_priority": 60.5
+    },
+    {
+      "drug_name": "AMIODARONE",
+      "n_serious": 14,
+      "mean_f": 43.1,
+      "max_lr": 1.96156593601176,
+      "mean_priority": 52.6
+    },
+    {
+      "drug_name": "HYDROCODONE;PARACETAMOL",
+      "n_serious": 14,
+      "mean_f": 54.8,
+      "max_lr": 1.3757002026727385,
+      "mean_priority": 50.7
+    },
+    {
+      "drug_name": "RAMIPRIL",
+      "n_serious": 14,
+      "mean_f": 54.2,
+      "max_lr": 1.1267865623479525,
+      "mean_priority": 49.6
+    }
+  ]
+}
