@@ -1,0 +1,137 @@
+{
+  "analysis": "grand_synthesis_session3",
+  "wave": 25,
+  "date": "2026-03-04",
+  "session_stats": {
+    "total_waves": 25,
+    "analysis_jsons": 98,
+    "figures_png": 103,
+    "paper_drafts": 14
+  },
+  "signal_overview": {
+    "total_signals": 96281,
+    "total_drugs": 2178,
+    "total_aes": 5069,
+    "overall_pct_female": 53.8,
+    "mean_abs_lr": 0.9868
+  },
+  "top_15_discoveries": [
+    {
+      "rank": 1,
+      "finding": "Anti-Regression Phenomenon",
+      "detail": "Female bias amplifies with evidence: D0 42.2%F \u2192 D9 82.5%F, rho=0.152",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 2,
+      "finding": "Reproductive Paradox",
+      "detail": "Female-indication drugs 11%F, Male-indication drugs 74.7%F \u2014 complete inversion",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 3,
+      "finding": "Cross-Organ Sex Reversal",
+      "detail": "70 drugs show opposite sex bias in different organ systems",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 4,
+      "finding": "Within-Class 90pp Spread",
+      "detail": "Risperidone 92.9%F vs Cariprazine 2.6%F in same drug class",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 5,
+      "finding": "Death is 73% Female",
+      "detail": "Drug-related death signals are 73.1% female across 450 signals",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 6,
+      "finding": "Severity-Sex Gradient",
+      "detail": "Life-threatening 75%F vs Mild 47.4%F \u2014 27.6pp severity gradient",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 7,
+      "finding": "CPI Neurological 100%F",
+      "detail": "ALL 22 checkpoint inhibitor neurological AE signals are female",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 8,
+      "finding": "Opioid Respiratory 88.9%F",
+      "detail": "Opioid respiratory depression is 88.9% female \u2014 exceeds all published data",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 9,
+      "finding": "SSRIs are Male-Biased",
+      "detail": "SSRI adverse events 42.2%F \u2014 counter to female vulnerability narrative",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 10,
+      "finding": "GLP-1RA Male-Biased",
+      "detail": "Ozempic/semaglutide AEs 24.6%F \u2014 critical for weight-loss revolution",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 11,
+      "finding": "Fluoroquinolone Tendon 0%F",
+      "detail": "Tendon damage from fluoroquinolones is 100% male",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 12,
+      "finding": "VTE is Male-Biased",
+      "detail": "PE 22.4%F, DVT 31.6%F \u2014 despite female risk factors",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 13,
+      "finding": "Anti-HER2 Paradox",
+      "detail": "Breast cancer drugs (anti-HER2) show 20.9% female signals",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 14,
+      "finding": "23-SOC Comprehensive Ranking",
+      "detail": "Reproductive 79.4%F \u2192 Eye 32.5%F across 23 System Organ Classes",
+      "novelty": "MODERATE"
+    },
+    {
+      "rank": 15,
+      "finding": "NMS 88.6% Female",
+      "detail": "Neuroleptic malignant syndrome signals are 88.6% female",
+      "novelty": "HIGH"
+    }
+  ],
+  "literature_novelty": {
+    "VERY_HIGH": 4,
+    "HIGH": 9,
+    "MODERATE": 2,
+    "no_competing_KG_approach": true
+  },
+  "models": {
+    "ComplEx_v4": {
+      "MRR": 0.2484,
+      "Hits10": 0.4069,
+      "AMRI": 0.9902,
+      "status": "BEST"
+    },
+    "DistMult_v4.1": {
+      "MRR": 0.1013,
+      "Hits10": 0.1961,
+      "AMRI": 0.9909,
+      "status": "COMPLETE"
+    },
+    "RotatE_v4": {
+      "MRR": 0.000106,
+      "status": "FAILED (random)"
+    },
+    "RotatE_v4.1": {
+      "status": "COMPLETE \u2014 metrics pending extraction"
+    }
+  }
+}
