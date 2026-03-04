@@ -1,0 +1,602 @@
+{
+  "drug_classes": {
+    "fluoroquinolones": {
+      "n_signals": 816,
+      "f_pct": 57.5,
+      "drugs": {
+        "LEVOFLOXACIN": {
+          "n": 254,
+          "f_pct": 54.3
+        },
+        "CIPROFLOXACIN": {
+          "n": 342,
+          "f_pct": 57.9
+        },
+        "MOXIFLOXACIN": {
+          "n": 175,
+          "f_pct": 64.8
+        },
+        "OFLOXACIN": {
+          "n": 40,
+          "f_pct": 42.6
+        },
+        "NORFLOXACIN": {
+          "n": 5,
+          "f_pct": 51.7
+        }
+      }
+    },
+    "penicillins": {
+      "n_signals": 283,
+      "f_pct": 58.0,
+      "drugs": {
+        "AMOXICILLIN": {
+          "n": 212,
+          "f_pct": 59.6
+        },
+        "AMPICILLIN": {
+          "n": 23,
+          "f_pct": 54.3
+        },
+        "PIPERACILLIN": {
+          "n": 3,
+          "f_pct": 50.3
+        },
+        "FLUCLOXACILLIN": {
+          "n": 9,
+          "f_pct": 48.1
+        },
+        "BENZYLPENICILLIN": {
+          "n": 36,
+          "f_pct": 53.8
+        }
+      }
+    },
+    "cephalosporins": {
+      "n_signals": 382,
+      "f_pct": 51.3,
+      "drugs": {
+        "CEFTRIAXONE": {
+          "n": 167,
+          "f_pct": 51.1
+        },
+        "CEFUROXIME": {
+          "n": 87,
+          "f_pct": 49.1
+        },
+        "CEPHALEXIN": {
+          "n": 11,
+          "f_pct": 62.7
+        },
+        "CEFTAZIDIME": {
+          "n": 41,
+          "f_pct": 51.7
+        },
+        "CEFEPIME": {
+          "n": 41,
+          "f_pct": 53.4
+        },
+        "CEFAZOLIN": {
+          "n": 31,
+          "f_pct": 50.6
+        },
+        "CEFIXIME": {
+          "n": 4,
+          "f_pct": 60.5
+        }
+      }
+    },
+    "carbapenems": {
+      "n_signals": 164,
+      "f_pct": 51.0,
+      "drugs": {
+        "MEROPENEM": {
+          "n": 119,
+          "f_pct": 52.7
+        },
+        "IMIPENEM": {
+          "n": 19,
+          "f_pct": 46.6
+        },
+        "ERTAPENEM": {
+          "n": 23,
+          "f_pct": 46.9
+        },
+        "DORIPENEM": {
+          "n": 3,
+          "f_pct": 46.9
+        }
+      }
+    },
+    "macrolides": {
+      "n_signals": 425,
+      "f_pct": 58.8,
+      "drugs": {
+        "AZITHROMYCIN": {
+          "n": 189,
+          "f_pct": 58.4
+        },
+        "CLARITHROMYCIN": {
+          "n": 175,
+          "f_pct": 57.6
+        },
+        "ERYTHROMYCIN": {
+          "n": 55,
+          "f_pct": 65.1
+        },
+        "FIDAXOMICIN": {
+          "n": 6,
+          "f_pct": 49.1
+        }
+      }
+    },
+    "tetracyclines": {
+      "n_signals": 349,
+      "f_pct": 68.3,
+      "drugs": {
+        "DOXYCYCLINE": {
+          "n": 223,
+          "f_pct": 68.9
+        },
+        "MINOCYCLINE": {
+          "n": 100,
+          "f_pct": 71.2
+        },
+        "TIGECYCLINE": {
+          "n": 26,
+          "f_pct": 51.5
+        }
+      }
+    },
+    "aminoglycosides": {
+      "n_signals": 182,
+      "f_pct": 52.5,
+      "drugs": {
+        "GENTAMICIN": {
+          "n": 45,
+          "f_pct": 52.5
+        },
+        "AMIKACIN": {
+          "n": 73,
+          "f_pct": 55.7
+        },
+        "TOBRAMYCIN": {
+          "n": 59,
+          "f_pct": 48.4
+        },
+        "STREPTOMYCIN": {
+          "n": 5,
+          "f_pct": 54.6
+        }
+      }
+    },
+    "glycopeptides": {
+      "n_signals": 211,
+      "f_pct": 54.3,
+      "drugs": {
+        "VANCOMYCIN": {
+          "n": 191,
+          "f_pct": 54.4
+        },
+        "TEICOPLANIN": {
+          "n": 18,
+          "f_pct": 53.0
+        },
+        "DALBAVANCIN": {
+          "n": 2,
+          "f_pct": 65.1
+        }
+      }
+    },
+    "antifungals_systemic": {
+      "n_signals": 528,
+      "f_pct": 53.8,
+      "drugs": {
+        "FLUCONAZOLE": {
+          "n": 138,
+          "f_pct": 62.9
+        },
+        "VORICONAZOLE": {
+          "n": 145,
+          "f_pct": 50.1
+        },
+        "POSACONAZOLE": {
+          "n": 69,
+          "f_pct": 52.4
+        },
+        "ISAVUCONAZOLE": {
+          "n": 11,
+          "f_pct": 44.5
+        },
+        "MICAFUNGIN": {
+          "n": 18,
+          "f_pct": 48.5
+        },
+        "CASPOFUNGIN": {
+          "n": 37,
+          "f_pct": 53.0
+        },
+        "ANIDULAFUNGIN": {
+          "n": 5,
+          "f_pct": 38.3
+        },
+        "AMPHOTERICIN B": {
+          "n": 105,
+          "f_pct": 50.6
+        }
+      }
+    },
+    "antivirals_HIV": {
+      "n_signals": 450,
+      "f_pct": 41.7,
+      "drugs": {
+        "EMTRICITABINE": {
+          "n": 22,
+          "f_pct": 42.6
+        },
+        "TENOFOVIR": {
+          "n": 114,
+          "f_pct": 38.9
+        },
+        "DOLUTEGRAVIR": {
+          "n": 81,
+          "f_pct": 50.8
+        },
+        "RILPIVIRINE": {
+          "n": 41,
+          "f_pct": 33.6
+        },
+        "EFAVIRENZ": {
+          "n": 52,
+          "f_pct": 43.9
+        },
+        "DARUNAVIR": {
+          "n": 58,
+          "f_pct": 42.4
+        },
+        "RALTEGRAVIR": {
+          "n": 82,
+          "f_pct": 38.6
+        }
+      }
+    },
+    "antivirals_HCV": {
+      "n_signals": 114,
+      "f_pct": 46.2,
+      "drugs": {
+        "SOFOSBUVIR": {
+          "n": 75,
+          "f_pct": 46.6
+        },
+        "LEDIPASVIR": {
+          "n": 1,
+          "f_pct": 46.2
+        },
+        "DACLATASVIR": {
+          "n": 37,
+          "f_pct": 45.1
+        },
+        "GRAZOPREVIR": {
+          "n": 1,
+          "f_pct": 60.7
+        }
+      }
+    },
+    "antivirals_herpes": {
+      "n_signals": 359,
+      "f_pct": 54.3,
+      "drugs": {
+        "ACICLOVIR": {
+          "n": 131,
+          "f_pct": 58.1
+        },
+        "VALACICLOVIR": {
+          "n": 103,
+          "f_pct": 58.9
+        },
+        "GANCICLOVIR": {
+          "n": 63,
+          "f_pct": 47.7
+        },
+        "VALGANCICLOVIR": {
+          "n": 62,
+          "f_pct": 45.3
+        }
+      }
+    },
+    "antimalarials": {
+      "n_signals": 414,
+      "f_pct": 71.6,
+      "drugs": {
+        "HYDROXYCHLOROQUINE": {
+          "n": 376,
+          "f_pct": 73.2
+        },
+        "CHLOROQUINE": {
+          "n": 14,
+          "f_pct": 75.3
+        },
+        "MEFLOQUINE": {
+          "n": 9,
+          "f_pct": 42.7
+        },
+        "ATOVAQUONE": {
+          "n": 15,
+          "f_pct": 45.9
+        }
+      }
+    },
+    "anti_TB": {
+      "n_signals": 309,
+      "f_pct": 53.8,
+      "drugs": {
+        "ISONIAZID": {
+          "n": 85,
+          "f_pct": 58.4
+        },
+        "RIFAMPICIN": {
+          "n": 83,
+          "f_pct": 52.4
+        },
+        "ETHAMBUTOL": {
+          "n": 63,
+          "f_pct": 51.7
+        },
+        "PYRAZINAMIDE": {
+          "n": 47,
+          "f_pct": 51.3
+        },
+        "BEDAQUILINE": {
+          "n": 31,
+          "f_pct": 53.0
+        }
+      }
+    },
+    "anti_COVID": {
+      "n_signals": 197,
+      "f_pct": 45.5,
+      "drugs": {
+        "REMDESIVIR": {
+          "n": 42,
+          "f_pct": 48.6
+        },
+        "RITONAVIR": {
+          "n": 102,
+          "f_pct": 39.5
+        },
+        "MOLNUPIRAVIR": {
+          "n": 17,
+          "f_pct": 58.0
+        },
+        "BARICITINIB": {
+          "n": 36,
+          "f_pct": 53.3
+        }
+      }
+    }
+  },
+  "antibiotic_comparison": {
+    "fluoroquinolones": {
+      "n": 816,
+      "f_pct": 57.5,
+      "mean_abs_lr": 0.982
+    },
+    "penicillins": {
+      "n": 283,
+      "f_pct": 58.0,
+      "mean_abs_lr": 0.92
+    },
+    "cephalosporins": {
+      "n": 382,
+      "f_pct": 51.3,
+      "mean_abs_lr": 1.002
+    },
+    "carbapenems": {
+      "n": 164,
+      "f_pct": 51.0,
+      "mean_abs_lr": 0.848
+    },
+    "macrolides": {
+      "n": 425,
+      "f_pct": 58.8,
+      "mean_abs_lr": 0.983
+    },
+    "tetracyclines": {
+      "n": 349,
+      "f_pct": 68.3,
+      "mean_abs_lr": 1.271
+    },
+    "aminoglycosides": {
+      "n": 182,
+      "f_pct": 52.5,
+      "mean_abs_lr": 0.787
+    },
+    "glycopeptides": {
+      "n": 211,
+      "f_pct": 54.3,
+      "mean_abs_lr": 0.849
+    }
+  },
+  "hiv_ranking": [
+    {
+      "drug": "DOLUTEGRAVIR",
+      "n": 81,
+      "f_pct": 50.8
+    },
+    {
+      "drug": "EFAVIRENZ",
+      "n": 52,
+      "f_pct": 43.9
+    },
+    {
+      "drug": "EMTRICITABINE",
+      "n": 22,
+      "f_pct": 42.6
+    },
+    {
+      "drug": "DARUNAVIR",
+      "n": 58,
+      "f_pct": 42.4
+    },
+    {
+      "drug": "TENOFOVIR",
+      "n": 114,
+      "f_pct": 38.9
+    },
+    {
+      "drug": "RALTEGRAVIR",
+      "n": 82,
+      "f_pct": 38.6
+    },
+    {
+      "drug": "RILPIVIRINE",
+      "n": 41,
+      "f_pct": 33.6
+    }
+  ],
+  "within_class_spread": {
+    "fluoroquinolones": {
+      "spread_pp": 22.2,
+      "min_drug": "OFLOXACIN",
+      "min_pct": 42.6,
+      "max_drug": "MOXIFLOXACIN",
+      "max_pct": 64.8
+    },
+    "penicillins": {
+      "spread_pp": 11.5,
+      "min_drug": "FLUCLOXACILLIN",
+      "min_pct": 48.1,
+      "max_drug": "AMOXICILLIN",
+      "max_pct": 59.6
+    },
+    "cephalosporins": {
+      "spread_pp": 13.6,
+      "min_drug": "CEFUROXIME",
+      "min_pct": 49.1,
+      "max_drug": "CEPHALEXIN",
+      "max_pct": 62.7
+    },
+    "carbapenems": {
+      "spread_pp": 6.1,
+      "min_drug": "IMIPENEM",
+      "min_pct": 46.6,
+      "max_drug": "MEROPENEM",
+      "max_pct": 52.7
+    },
+    "macrolides": {
+      "spread_pp": 16.0,
+      "min_drug": "FIDAXOMICIN",
+      "min_pct": 49.1,
+      "max_drug": "ERYTHROMYCIN",
+      "max_pct": 65.1
+    },
+    "tetracyclines": {
+      "spread_pp": 19.7,
+      "min_drug": "TIGECYCLINE",
+      "min_pct": 51.5,
+      "max_drug": "MINOCYCLINE",
+      "max_pct": 71.2
+    },
+    "aminoglycosides": {
+      "spread_pp": 7.4,
+      "min_drug": "TOBRAMYCIN",
+      "min_pct": 48.4,
+      "max_drug": "AMIKACIN",
+      "max_pct": 55.7
+    },
+    "glycopeptides": {
+      "spread_pp": 12.1,
+      "min_drug": "TEICOPLANIN",
+      "min_pct": 53.0,
+      "max_drug": "DALBAVANCIN",
+      "max_pct": 65.1
+    },
+    "antifungals_systemic": {
+      "spread_pp": 24.6,
+      "min_drug": "ANIDULAFUNGIN",
+      "min_pct": 38.3,
+      "max_drug": "FLUCONAZOLE",
+      "max_pct": 62.9
+    },
+    "antivirals_HIV": {
+      "spread_pp": 17.2,
+      "min_drug": "RILPIVIRINE",
+      "min_pct": 33.6,
+      "max_drug": "DOLUTEGRAVIR",
+      "max_pct": 50.8
+    },
+    "antivirals_HCV": {
+      "spread_pp": 15.6,
+      "min_drug": "DACLATASVIR",
+      "min_pct": 45.1,
+      "max_drug": "GRAZOPREVIR",
+      "max_pct": 60.7
+    },
+    "antivirals_herpes": {
+      "spread_pp": 13.6,
+      "min_drug": "VALGANCICLOVIR",
+      "min_pct": 45.3,
+      "max_drug": "VALACICLOVIR",
+      "max_pct": 58.9
+    },
+    "antimalarials": {
+      "spread_pp": 32.6,
+      "min_drug": "MEFLOQUINE",
+      "min_pct": 42.7,
+      "max_drug": "CHLOROQUINE",
+      "max_pct": 75.3
+    },
+    "anti_TB": {
+      "spread_pp": 7.1,
+      "min_drug": "PYRAZINAMIDE",
+      "min_pct": 51.3,
+      "max_drug": "ISONIAZID",
+      "max_pct": 58.4
+    },
+    "anti_COVID": {
+      "spread_pp": 18.5,
+      "min_drug": "RITONAVIR",
+      "min_pct": 39.5,
+      "max_drug": "MOLNUPIRAVIR",
+      "max_pct": 58.0
+    }
+  },
+  "anti_infective_ae_patterns": {
+    "QT_prolongation": {
+      "n": 16,
+      "f_pct": 55.6
+    },
+    "hepatotoxicity": {
+      "n": 52,
+      "f_pct": 52.4
+    },
+    "nephrotoxicity": {
+      "n": 41,
+      "f_pct": 45.4
+    },
+    "C_difficile": {
+      "n": 11,
+      "f_pct": 53.0
+    },
+    "tendon": {
+      "n": 2,
+      "f_pct": 41.4
+    },
+    "ototoxicity": {
+      "n": 14,
+      "f_pct": 59.6
+    },
+    "neuropathy": {
+      "n": 22,
+      "f_pct": 56.0
+    },
+    "allergy": {
+      "n": 34,
+      "f_pct": 70.6
+    },
+    "myelosuppression": {
+      "n": 84,
+      "f_pct": 48.6
+    }
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "drug_classes": {
+    "retinoids": {
+      "n_signals": 301,
+      "f_pct": 54.1,
+      "drugs": {
+        "ISOTRETINOIN": {
+          "n": 217,
+          "f_pct": 51.3
+        },
+        "TRETINOIN": {
+          "n": 32,
+          "f_pct": 68.4
+        },
+        "ADAPALENE": {
+          "n": 20,
+          "f_pct": 77.3
+        },
+        "ACITRETIN": {
+          "n": 30,
+          "f_pct": 43.0
+        },
+        "TAZAROTENE": {
+          "n": 2,
+          "f_pct": 57.2
+        }
+      }
+    },
+    "psoriasis_topical": {
+      "n_signals": 2,
+      "f_pct": 60.6,
+      "drugs": {
+        "CALCIPOTRIOL": {
+          "n": 2,
+          "f_pct": 60.6
+        }
+      }
+    },
+    "acne_antibiotics": {
+      "n_signals": 476,
+      "f_pct": 67.1,
+      "drugs": {
+        "DOXYCYCLINE": {
+          "n": 223,
+          "f_pct": 68.9
+        },
+        "MINOCYCLINE": {
+          "n": 100,
+          "f_pct": 71.2
+        },
+        "CLINDAMYCIN": {
+          "n": 98,
+          "f_pct": 59.8
+        },
+        "ERYTHROMYCIN": {
+          "n": 55,
+          "f_pct": 65.1
+        }
+      }
+    },
+    "antifungals_topical": {
+      "n_signals": 419,
+      "f_pct": 54.8,
+      "drugs": {
+        "TERBINAFINE": {
+          "n": 63,
+          "f_pct": 52.6
+        },
+        "ITRACONAZOLE": {
+          "n": 45,
+          "f_pct": 50.9
+        },
+        "FLUCONAZOLE": {
+          "n": 138,
+          "f_pct": 62.9
+        },
+        "KETOCONAZOLE": {
+          "n": 28,
+          "f_pct": 50.7
+        },
+        "VORICONAZOLE": {
+          "n": 145,
+          "f_pct": 50.1
+        }
+      }
+    },
+    "antihistamines": {
+      "n_signals": 615,
+      "f_pct": 72.7,
+      "drugs": {
+        "CETIRIZINE": {
+          "n": 244,
+          "f_pct": 72.8
+        },
+        "LORATADINE": {
+          "n": 48,
+          "f_pct": 63.3
+        },
+        "FEXOFENADINE": {
+          "n": 39,
+          "f_pct": 60.3
+        },
+        "DESLORATADINE": {
+          "n": 28,
+          "f_pct": 60.5
+        },
+        "LEVOCETIRIZINE": {
+          "n": 36,
+          "f_pct": 72.3
+        },
+        "DIPHENHYDRAMINE": {
+          "n": 220,
+          "f_pct": 78.5
+        }
+      }
+    },
+    "biologics_dermatology": {
+      "n_signals": 2160,
+      "f_pct": 63.5,
+      "drugs": {
+        "DUPILUMAB": {
+          "n": 289,
+          "f_pct": 57.8
+        },
+        "SECUKINUMAB": {
+          "n": 456,
+          "f_pct": 66.8
+        },
+        "IXEKIZUMAB": {
+          "n": 82,
+          "f_pct": 54.0
+        },
+        "ADALIMUMAB": {
+          "n": 807,
+          "f_pct": 64.0
+        },
+        "USTEKINUMAB": {
+          "n": 314,
+          "f_pct": 70.8
+        },
+        "GUSELKUMAB": {
+          "n": 38,
+          "f_pct": 56.4
+        },
+        "RISANKIZUMAB": {
+          "n": 137,
+          "f_pct": 54.6
+        },
+        "BRODALUMAB": {
+          "n": 12,
+          "f_pct": 52.3
+        },
+        "TILDRAKIZUMAB": {
+          "n": 3,
+          "f_pct": 63.9
+        },
+        "TRALOKINUMAB": {
+          "n": 22,
+          "f_pct": 54.2
+        }
+      }
+    },
+    "JAK_dermatology": {
+      "n_signals": 353,
+      "f_pct": 57.5,
+      "drugs": {
+        "BARICITINIB": {
+          "n": 36,
+          "f_pct": 53.3
+        },
+        "UPADACITINIB": {
+          "n": 181,
+          "f_pct": 63.5
+        },
+        "ABROCITINIB": {
+          "n": 9,
+          "f_pct": 49.0
+        },
+        "RUXOLITINIB": {
+          "n": 127,
+          "f_pct": 50.9
+        }
+      }
+    },
+    "anti_VEGF": {
+      "n_signals": 445,
+      "f_pct": 54.3,
+      "drugs": {
+        "RANIBIZUMAB": {
+          "n": 62,
+          "f_pct": 54.5
+        },
+        "AFLIBERCEPT": {
+          "n": 57,
+          "f_pct": 48.1
+        },
+        "BEVACIZUMAB": {
+          "n": 294,
+          "f_pct": 55.2
+        },
+        "BROLUCIZUMAB": {
+          "n": 22,
+          "f_pct": 56.1
+        },
+        "FARICIMAB": {
+          "n": 10,
+          "f_pct": 58.3
+        }
+      }
+    },
+    "glaucoma_PG": {
+      "n_signals": 104,
+      "f_pct": 67.8,
+      "drugs": {
+        "LATANOPROST": {
+          "n": 47,
+          "f_pct": 62.9
+        },
+        "TRAVOPROST": {
+          "n": 12,
+          "f_pct": 66.3
+        },
+        "BIMATOPROST": {
+          "n": 43,
+          "f_pct": 72.9
+        },
+        "TAFLUPROST": {
+          "n": 2,
+          "f_pct": 80.6
+        }
+      }
+    },
+    "glaucoma_other": {
+      "n_signals": 94,
+      "f_pct": 62.3,
+      "drugs": {
+        "TIMOLOL": {
+          "n": 15,
+          "f_pct": 62.3
+        },
+        "BRIMONIDINE": {
+          "n": 39,
+          "f_pct": 64.7
+        },
+        "DORZOLAMIDE": {
+          "n": 7,
+          "f_pct": 64.5
+        },
+        "BRINZOLAMIDE": {
+          "n": 11,
+          "f_pct": 61.7
+        },
+        "PILOCARPINE": {
+          "n": 7,
+          "f_pct": 54.9
+        },
+        "ACETAZOLAMIDE": {
+          "n": 15,
+          "f_pct": 58.9
+        }
+      }
+    },
+    "dry_eye": {
+      "n_signals": 429,
+      "f_pct": 58.2,
+      "drugs": {
+        "CICLOSPORIN": {
+          "n": 409,
+          "f_pct": 57.3
+        },
+        "LIFITEGRAST": {
+          "n": 20,
+          "f_pct": 75.3
+        }
+      }
+    },
+    "anti_inflammatory_eye": {
+      "n_signals": 1153,
+      "f_pct": 56.7,
+      "drugs": {
+        "DEXAMETHASONE": {
+          "n": 537,
+          "f_pct": 54.0
+        },
+        "PREDNISOLONE": {
+          "n": 542,
+          "f_pct": 60.1
+        },
+        "FLUOROMETHOLONE": {
+          "n": 4,
+          "f_pct": 65.8
+        },
+        "KETOROLAC": {
+          "n": 60,
+          "f_pct": 50.1
+        },
+        "NEPAFENAC": {
+          "n": 9,
+          "f_pct": 50.4
+        },
+        "BROMFENAC": {
+          "n": 1,
+          "f_pct": 57.6
+        }
+      }
+    }
+  },
+  "retinoid_ranking": [
+    {
+      "drug": "ADAPALENE",
+      "n": 20,
+      "f_pct": 77.3,
+      "mean_abs_lr": 0.662
+    },
+    {
+      "drug": "TRETINOIN",
+      "n": 32,
+      "f_pct": 68.4,
+      "mean_abs_lr": 1.0
+    },
+    {
+      "drug": "TAZAROTENE",
+      "n": 2,
+      "f_pct": 57.2,
+      "mean_abs_lr": 0.741
+    },
+    {
+      "drug": "ISOTRETINOIN",
+      "n": 217,
+      "f_pct": 51.3,
+      "mean_abs_lr": 0.907
+    },
+    {
+      "drug": "ACITRETIN",
+      "n": 30,
+      "f_pct": 43.0,
+      "mean_abs_lr": 0.992
+    }
+  ],
+  "anti_vegf_ranking": [
+    {
+      "drug": "FARICIMAB",
+      "n": 10,
+      "f_pct": 58.3,
+      "mean_abs_lr": 0.706
+    },
+    {
+      "drug": "BROLUCIZUMAB",
+      "n": 22,
+      "f_pct": 56.1,
+      "mean_abs_lr": 0.69
+    },
+    {
+      "drug": "BEVACIZUMAB",
+      "n": 294,
+      "f_pct": 55.2,
+      "mean_abs_lr": 0.842
+    },
+    {
+      "drug": "RANIBIZUMAB",
+      "n": 62,
+      "f_pct": 54.5,
+      "mean_abs_lr": 0.797
+    },
+    {
+      "drug": "AFLIBERCEPT",
+      "n": 57,
+      "f_pct": 48.1,
+      "mean_abs_lr": 0.751
+    }
+  ],
+  "dupilumab_ae_profile": {
+    "conjunctivitis": {
+      "n": 3,
+      "f_pct": 60.4
+    },
+    "injection_site": {
+      "n": 1,
+      "f_pct": 64.0
+    },
+    "eosinophilia": {
+      "n": 1,
+      "f_pct": 34.1
+    },
+    "dermatitis": {
+      "n": 1,
+      "f_pct": 82.2
+    }
+  },
+  "dupilumab_total": {
+    "n": 289,
+    "f_pct": 57.8
+  },
+  "within_class_spread": {
+    "retinoids": {
+      "spread_pp": 34.3,
+      "min_drug": "ACITRETIN",
+      "min_pct": 43.0,
+      "max_drug": "ADAPALENE",
+      "max_pct": 77.3
+    },
+    "acne_antibiotics": {
+      "spread_pp": 11.4,
+      "min_drug": "CLINDAMYCIN",
+      "min_pct": 59.8,
+      "max_drug": "MINOCYCLINE",
+      "max_pct": 71.2
+    },
+    "antifungals_topical": {
+      "spread_pp": 12.9,
+      "min_drug": "VORICONAZOLE",
+      "min_pct": 50.1,
+      "max_drug": "FLUCONAZOLE",
+      "max_pct": 62.9
+    },
+    "antihistamines": {
+      "spread_pp": 18.2,
+      "min_drug": "FEXOFENADINE",
+      "min_pct": 60.3,
+      "max_drug": "DIPHENHYDRAMINE",
+      "max_pct": 78.5
+    },
+    "biologics_dermatology": {
+      "spread_pp": 18.4,
+      "min_drug": "BRODALUMAB",
+      "min_pct": 52.3,
+      "max_drug": "USTEKINUMAB",
+      "max_pct": 70.8
+    },
+    "JAK_dermatology": {
+      "spread_pp": 14.4,
+      "min_drug": "ABROCITINIB",
+      "min_pct": 49.0,
+      "max_drug": "UPADACITINIB",
+      "max_pct": 63.5
+    },
+    "anti_VEGF": {
+      "spread_pp": 10.2,
+      "min_drug": "AFLIBERCEPT",
+      "min_pct": 48.1,
+      "max_drug": "FARICIMAB",
+      "max_pct": 58.3
+    },
+    "glaucoma_PG": {
+      "spread_pp": 17.7,
+      "min_drug": "LATANOPROST",
+      "min_pct": 62.9,
+      "max_drug": "TAFLUPROST",
+      "max_pct": 80.6
+    },
+    "glaucoma_other": {
+      "spread_pp": 9.8,
+      "min_drug": "PILOCARPINE",
+      "min_pct": 54.9,
+      "max_drug": "BRIMONIDINE",
+      "max_pct": 64.7
+    },
+    "dry_eye": {
+      "spread_pp": 17.9,
+      "min_drug": "CICLOSPORIN",
+      "min_pct": 57.3,
+      "max_drug": "LIFITEGRAST",
+      "max_pct": 75.3
+    },
+    "anti_inflammatory_eye": {
+      "spread_pp": 15.7,
+      "min_drug": "KETOROLAC",
+      "min_pct": 50.1,
+      "max_drug": "FLUOROMETHOLONE",
+      "max_pct": 65.8
+    }
+  },
+  "glaucoma_ranking": [
+    {
+      "drug": "TAFLUPROST",
+      "n": 2,
+      "f_pct": 80.6,
+      "mean_abs_lr": 0.563
+    },
+    {
+      "drug": "BIMATOPROST",
+      "n": 43,
+      "f_pct": 72.9,
+      "mean_abs_lr": 0.848
+    },
+    {
+      "drug": "TRAVOPROST",
+      "n": 12,
+      "f_pct": 66.3,
+      "mean_abs_lr": 0.652
+    },
+    {
+      "drug": "BRIMONIDINE",
+      "n": 39,
+      "f_pct": 64.7,
+      "mean_abs_lr": 0.743
+    },
+    {
+      "drug": "DORZOLAMIDE",
+      "n": 7,
+      "f_pct": 64.5,
+      "mean_abs_lr": 0.646
+    },
+    {
+      "drug": "LATANOPROST",
+      "n": 47,
+      "f_pct": 62.9,
+      "mean_abs_lr": 0.757
+    },
+    {
+      "drug": "TIMOLOL",
+      "n": 15,
+      "f_pct": 62.3,
+      "mean_abs_lr": 0.809
+    },
+    {
+      "drug": "BRINZOLAMIDE",
+      "n": 11,
+      "f_pct": 61.7,
+      "mean_abs_lr": 0.761
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "n": 15,
+      "f_pct": 58.9,
+      "mean_abs_lr": 1.009
+    },
+    {
+      "drug": "PILOCARPINE",
+      "n": 7,
+      "f_pct": 54.9,
+      "mean_abs_lr": 0.782
+    }
+  ]
+}

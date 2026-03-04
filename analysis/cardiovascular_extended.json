@@ -1,0 +1,626 @@
+{
+  "drug_classes": {
+    "ACEi": {
+      "n_signals": 871,
+      "f_pct": 63.0,
+      "drugs": {
+        "ENALAPRIL": {
+          "n": 72,
+          "f_pct": 59.0
+        },
+        "LISINOPRIL": {
+          "n": 252,
+          "f_pct": 67.5
+        },
+        "RAMIPRIL": {
+          "n": 368,
+          "f_pct": 63.6
+        },
+        "PERINDOPRIL": {
+          "n": 123,
+          "f_pct": 57.2
+        },
+        "CAPTOPRIL": {
+          "n": 20,
+          "f_pct": 51.8
+        },
+        "BENAZEPRIL": {
+          "n": 9,
+          "f_pct": 57.4
+        },
+        "FOSINOPRIL": {
+          "n": 4,
+          "f_pct": 50.0
+        },
+        "QUINAPRIL": {
+          "n": 15,
+          "f_pct": 64.7
+        },
+        "TRANDOLAPRIL": {
+          "n": 8,
+          "f_pct": 64.0
+        }
+      }
+    },
+    "ARBs": {
+      "n_signals": 785,
+      "f_pct": 58.6,
+      "drugs": {
+        "LOSARTAN": {
+          "n": 130,
+          "f_pct": 60.6
+        },
+        "VALSARTAN": {
+          "n": 219,
+          "f_pct": 56.6
+        },
+        "IRBESARTAN": {
+          "n": 97,
+          "f_pct": 54.7
+        },
+        "CANDESARTAN": {
+          "n": 198,
+          "f_pct": 63.2
+        },
+        "TELMISARTAN": {
+          "n": 73,
+          "f_pct": 60.1
+        },
+        "OLMESARTAN": {
+          "n": 67,
+          "f_pct": 51.7
+        },
+        "AZILSARTAN": {
+          "n": 1,
+          "f_pct": 50.0
+        }
+      }
+    },
+    "ARNI": {
+      "n_signals": 157,
+      "f_pct": 41.9,
+      "drugs": {
+        "SACUBITRIL;VALSARTAN": {
+          "n": 157,
+          "f_pct": 41.9
+        }
+      }
+    },
+    "CCBs": {
+      "n_signals": 822,
+      "f_pct": 57.4,
+      "drugs": {
+        "AMLODIPINE": {
+          "n": 422,
+          "f_pct": 55.2
+        },
+        "NIFEDIPINE": {
+          "n": 60,
+          "f_pct": 55.6
+        },
+        "DILTIAZEM": {
+          "n": 169,
+          "f_pct": 70.3
+        },
+        "VERAPAMIL": {
+          "n": 62,
+          "f_pct": 57.8
+        },
+        "FELODIPINE": {
+          "n": 79,
+          "f_pct": 41.9
+        },
+        "LERCANIDIPINE": {
+          "n": 29,
+          "f_pct": 59.3
+        },
+        "NIMODIPINE": {
+          "n": 1,
+          "f_pct": 27.8
+        }
+      }
+    },
+    "beta_blockers": {
+      "n_signals": 981,
+      "f_pct": 55.2,
+      "drugs": {
+        "METOPROLOL": {
+          "n": 244,
+          "f_pct": 56.1
+        },
+        "BISOPROLOL": {
+          "n": 270,
+          "f_pct": 52.9
+        },
+        "ATENOLOL": {
+          "n": 136,
+          "f_pct": 65.7
+        },
+        "CARVEDILOL": {
+          "n": 112,
+          "f_pct": 45.9
+        },
+        "PROPRANOLOL": {
+          "n": 123,
+          "f_pct": 55.0
+        },
+        "NEBIVOLOL": {
+          "n": 38,
+          "f_pct": 54.6
+        },
+        "SOTALOL": {
+          "n": 24,
+          "f_pct": 53.8
+        },
+        "LABETALOL": {
+          "n": 22,
+          "f_pct": 55.1
+        },
+        "NADOLOL": {
+          "n": 12,
+          "f_pct": 60.8
+        }
+      }
+    },
+    "diuretics_thiazide": {
+      "n_signals": 249,
+      "f_pct": 56.7,
+      "drugs": {
+        "HYDROCHLOROTHIAZIDE": {
+          "n": 171,
+          "f_pct": 56.5
+        },
+        "CHLORTHALIDONE": {
+          "n": 2,
+          "f_pct": 60.6
+        },
+        "INDAPAMIDE": {
+          "n": 62,
+          "f_pct": 57.3
+        },
+        "METOLAZONE": {
+          "n": 14,
+          "f_pct": 56.7
+        }
+      }
+    },
+    "diuretics_loop": {
+      "n_signals": 527,
+      "f_pct": 53.2,
+      "drugs": {
+        "FUROSEMIDE": {
+          "n": 385,
+          "f_pct": 55.1
+        },
+        "BUMETANIDE": {
+          "n": 26,
+          "f_pct": 49.4
+        },
+        "TORASEMIDE": {
+          "n": 116,
+          "f_pct": 47.5
+        }
+      }
+    },
+    "diuretics_K_sparing": {
+      "n_signals": 199,
+      "f_pct": 51.6,
+      "drugs": {
+        "SPIRONOLACTONE": {
+          "n": 162,
+          "f_pct": 54.5
+        },
+        "EPLERENONE": {
+          "n": 37,
+          "f_pct": 38.7
+        }
+      }
+    },
+    "anticoagulants_DOAC": {
+      "n_signals": 568,
+      "f_pct": 53.2,
+      "drugs": {
+        "RIVAROXABAN": {
+          "n": 243,
+          "f_pct": 53.3
+        },
+        "APIXABAN": {
+          "n": 275,
+          "f_pct": 52.6
+        },
+        "EDOXABAN": {
+          "n": 50,
+          "f_pct": 55.7
+        }
+      }
+    },
+    "anticoagulants_VKA": {
+      "n_signals": 256,
+      "f_pct": 48.4,
+      "drugs": {
+        "WARFARIN": {
+          "n": 220,
+          "f_pct": 47.3
+        },
+        "ACENOCOUMAROL": {
+          "n": 13,
+          "f_pct": 53.3
+        },
+        "PHENPROCOUMON": {
+          "n": 23,
+          "f_pct": 56.4
+        }
+      }
+    },
+    "antiplatelets": {
+      "n_signals": 927,
+      "f_pct": 52.9,
+      "drugs": {
+        "CLOPIDOGREL": {
+          "n": 300,
+          "f_pct": 52.6
+        },
+        "TICAGRELOR": {
+          "n": 136,
+          "f_pct": 44.9
+        },
+        "PRASUGREL": {
+          "n": 50,
+          "f_pct": 45.9
+        },
+        "ACETYLSALICYLIC ACID": {
+          "n": 433,
+          "f_pct": 56.1
+        },
+        "DIPYRIDAMOLE": {
+          "n": 8,
+          "f_pct": 68.9
+        }
+      }
+    },
+    "antiarrhythmics": {
+      "n_signals": 435,
+      "f_pct": 47.1,
+      "drugs": {
+        "AMIODARONE": {
+          "n": 228,
+          "f_pct": 42.4
+        },
+        "FLECAINIDE": {
+          "n": 36,
+          "f_pct": 56.7
+        },
+        "PROPAFENONE": {
+          "n": 16,
+          "f_pct": 61.4
+        },
+        "DRONEDARONE": {
+          "n": 15,
+          "f_pct": 56.5
+        },
+        "DOFETILIDE": {
+          "n": 22,
+          "f_pct": 54.4
+        },
+        "LIDOCAINE": {
+          "n": 118,
+          "f_pct": 49.0
+        }
+      }
+    },
+    "nitrates": {
+      "n_signals": 82,
+      "f_pct": 58.1,
+      "drugs": {
+        "NITROGLYCERIN": {
+          "n": 22,
+          "f_pct": 56.7
+        },
+        "ISOSORBIDE MONONITRATE": {
+          "n": 39,
+          "f_pct": 59.5
+        },
+        "ISOSORBIDE DINITRATE": {
+          "n": 21,
+          "f_pct": 57.0
+        }
+      }
+    },
+    "ivabradine": {
+      "n_signals": 32,
+      "f_pct": 50.5,
+      "drugs": {
+        "IVABRADINE": {
+          "n": 32,
+          "f_pct": 50.5
+        }
+      }
+    },
+    "digoxin": {
+      "n_signals": 70,
+      "f_pct": 56.2,
+      "drugs": {
+        "DIGOXIN": {
+          "n": 70,
+          "f_pct": 56.2
+        }
+      }
+    },
+    "SGLT2i_HF": {
+      "n_signals": 250,
+      "f_pct": 47.4,
+      "drugs": {
+        "EMPAGLIFLOZIN": {
+          "n": 96,
+          "f_pct": 49.0
+        },
+        "DAPAGLIFLOZIN": {
+          "n": 154,
+          "f_pct": 46.4
+        }
+      }
+    },
+    "PDE5i_PAH": {
+      "n_signals": 530,
+      "f_pct": 56.1,
+      "drugs": {
+        "SILDENAFIL": {
+          "n": 272,
+          "f_pct": 54.9
+        },
+        "TADALAFIL": {
+          "n": 258,
+          "f_pct": 57.4
+        }
+      }
+    },
+    "ERA": {
+      "n_signals": 324,
+      "f_pct": 70.6,
+      "drugs": {
+        "BOSENTAN": {
+          "n": 104,
+          "f_pct": 66.9
+        },
+        "AMBRISENTAN": {
+          "n": 125,
+          "f_pct": 72.2
+        },
+        "MACITENTAN": {
+          "n": 95,
+          "f_pct": 72.6
+        }
+      }
+    },
+    "prostacyclins": {
+      "n_signals": 320,
+      "f_pct": 70.3,
+      "drugs": {
+        "EPOPROSTENOL": {
+          "n": 64,
+          "f_pct": 72.1
+        },
+        "TREPROSTINIL": {
+          "n": 165,
+          "f_pct": 70.5
+        },
+        "ILOPROST": {
+          "n": 23,
+          "f_pct": 75.4
+        },
+        "SELEXIPAG": {
+          "n": 68,
+          "f_pct": 66.1
+        }
+      }
+    }
+  },
+  "doac_ranking": [
+    {
+      "drug": "EDOXABAN",
+      "n": 50,
+      "f_pct": 55.7
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "n": 243,
+      "f_pct": 53.3
+    },
+    {
+      "drug": "APIXABAN",
+      "n": 275,
+      "f_pct": 52.6
+    }
+  ],
+  "cv_ae_patterns": {
+    "bleeding": {
+      "n": 87,
+      "f_pct": 54.9
+    },
+    "thrombotic": {
+      "n": 75,
+      "f_pct": 53.8
+    },
+    "heart_failure": {
+      "n": 54,
+      "f_pct": 51.5
+    },
+    "arrhythmia": {
+      "n": 84,
+      "f_pct": 52.4
+    },
+    "hypotension": {
+      "n": 45,
+      "f_pct": 55.1
+    },
+    "electrolyte": {
+      "n": 76,
+      "f_pct": 58.1
+    },
+    "renal_cv": {
+      "n": 74,
+      "f_pct": 53.5
+    }
+  },
+  "within_class_spread": {
+    "ACEi": {
+      "spread_pp": 17.4,
+      "min_drug": "FOSINOPRIL",
+      "min_pct": 50.0,
+      "max_drug": "LISINOPRIL",
+      "max_pct": 67.5
+    },
+    "ARBs": {
+      "spread_pp": 13.2,
+      "min_drug": "AZILSARTAN",
+      "min_pct": 50.0,
+      "max_drug": "CANDESARTAN",
+      "max_pct": 63.2
+    },
+    "CCBs": {
+      "spread_pp": 42.5,
+      "min_drug": "NIMODIPINE",
+      "min_pct": 27.8,
+      "max_drug": "DILTIAZEM",
+      "max_pct": 70.3
+    },
+    "beta_blockers": {
+      "spread_pp": 19.7,
+      "min_drug": "CARVEDILOL",
+      "min_pct": 45.9,
+      "max_drug": "ATENOLOL",
+      "max_pct": 65.7
+    },
+    "diuretics_thiazide": {
+      "spread_pp": 4.1,
+      "min_drug": "HYDROCHLOROTHIAZIDE",
+      "min_pct": 56.5,
+      "max_drug": "CHLORTHALIDONE",
+      "max_pct": 60.6
+    },
+    "diuretics_loop": {
+      "spread_pp": 7.6,
+      "min_drug": "TORASEMIDE",
+      "min_pct": 47.5,
+      "max_drug": "FUROSEMIDE",
+      "max_pct": 55.1
+    },
+    "diuretics_K_sparing": {
+      "spread_pp": 15.8,
+      "min_drug": "EPLERENONE",
+      "min_pct": 38.7,
+      "max_drug": "SPIRONOLACTONE",
+      "max_pct": 54.5
+    },
+    "anticoagulants_DOAC": {
+      "spread_pp": 3.1,
+      "min_drug": "APIXABAN",
+      "min_pct": 52.6,
+      "max_drug": "EDOXABAN",
+      "max_pct": 55.7
+    },
+    "anticoagulants_VKA": {
+      "spread_pp": 9.0,
+      "min_drug": "WARFARIN",
+      "min_pct": 47.3,
+      "max_drug": "PHENPROCOUMON",
+      "max_pct": 56.4
+    },
+    "antiplatelets": {
+      "spread_pp": 24.0,
+      "min_drug": "TICAGRELOR",
+      "min_pct": 44.9,
+      "max_drug": "DIPYRIDAMOLE",
+      "max_pct": 68.9
+    },
+    "antiarrhythmics": {
+      "spread_pp": 19.1,
+      "min_drug": "AMIODARONE",
+      "min_pct": 42.4,
+      "max_drug": "PROPAFENONE",
+      "max_pct": 61.4
+    },
+    "nitrates": {
+      "spread_pp": 2.8,
+      "min_drug": "NITROGLYCERIN",
+      "min_pct": 56.7,
+      "max_drug": "ISOSORBIDE MONONITRATE",
+      "max_pct": 59.5
+    },
+    "SGLT2i_HF": {
+      "spread_pp": 2.6,
+      "min_drug": "DAPAGLIFLOZIN",
+      "min_pct": 46.4,
+      "max_drug": "EMPAGLIFLOZIN",
+      "max_pct": 49.0
+    },
+    "PDE5i_PAH": {
+      "spread_pp": 2.5,
+      "min_drug": "SILDENAFIL",
+      "min_pct": 54.9,
+      "max_drug": "TADALAFIL",
+      "max_pct": 57.4
+    },
+    "ERA": {
+      "spread_pp": 5.8,
+      "min_drug": "BOSENTAN",
+      "min_pct": 66.9,
+      "max_drug": "MACITENTAN",
+      "max_pct": 72.6
+    },
+    "prostacyclins": {
+      "spread_pp": 9.3,
+      "min_drug": "SELEXIPAG",
+      "min_pct": 66.1,
+      "max_drug": "ILOPROST",
+      "max_pct": 75.4
+    }
+  },
+  "pah_ranking": [
+    {
+      "drug": "ILOPROST",
+      "n": 23,
+      "f_pct": 75.4
+    },
+    {
+      "drug": "MACITENTAN",
+      "n": 95,
+      "f_pct": 72.6
+    },
+    {
+      "drug": "AMBRISENTAN",
+      "n": 125,
+      "f_pct": 72.2
+    },
+    {
+      "drug": "EPOPROSTENOL",
+      "n": 64,
+      "f_pct": 72.1
+    },
+    {
+      "drug": "TREPROSTINIL",
+      "n": 165,
+      "f_pct": 70.5
+    },
+    {
+      "drug": "BOSENTAN",
+      "n": 104,
+      "f_pct": 66.9
+    },
+    {
+      "drug": "SELEXIPAG",
+      "n": 68,
+      "f_pct": 66.1
+    },
+    {
+      "drug": "TADALAFIL",
+      "n": 258,
+      "f_pct": 57.4
+    },
+    {
+      "drug": "SILDENAFIL",
+      "n": 272,
+      "f_pct": 54.9
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "drug_classes": {
+    "NSAIDs_nonselective": {
+      "n_signals": 1352,
+      "f_pct": 67.3,
+      "drugs": {
+        "IBUPROFEN": {
+          "n": 372,
+          "f_pct": 63.8
+        },
+        "NAPROXEN": {
+          "n": 331,
+          "f_pct": 70.6
+        },
+        "DICLOFENAC": {
+          "n": 401,
+          "f_pct": 68.8
+        },
+        "INDOMETHACIN": {
+          "n": 12,
+          "f_pct": 60.0
+        },
+        "PIROXICAM": {
+          "n": 21,
+          "f_pct": 79.5
+        },
+        "KETOPROFEN": {
+          "n": 59,
+          "f_pct": 68.9
+        },
+        "MELOXICAM": {
+          "n": 87,
+          "f_pct": 73.0
+        },
+        "FLURBIPROFEN": {
+          "n": 1,
+          "f_pct": 48.0
+        },
+        "MEFENAMIC ACID": {
+          "n": 8,
+          "f_pct": 64.3
+        },
+        "KETOROLAC": {
+          "n": 60,
+          "f_pct": 50.1
+        }
+      }
+    },
+    "COX2_selective": {
+      "n_signals": 294,
+      "f_pct": 76.3,
+      "drugs": {
+        "CELECOXIB": {
+          "n": 274,
+          "f_pct": 78.0
+        },
+        "ETORICOXIB": {
+          "n": 20,
+          "f_pct": 52.6
+        }
+      }
+    },
+    "opioids_weak": {
+      "n_signals": 596,
+      "f_pct": 70.4,
+      "drugs": {
+        "TRAMADOL": {
+          "n": 360,
+          "f_pct": 68.4
+        },
+        "CODEINE": {
+          "n": 190,
+          "f_pct": 77.6
+        },
+        "DIHYDROCODEINE": {
+          "n": 7,
+          "f_pct": 53.4
+        },
+        "TAPENTADOL": {
+          "n": 39,
+          "f_pct": 57.9
+        }
+      }
+    },
+    "opioids_strong": {
+      "n_signals": 2062,
+      "f_pct": 61.9,
+      "drugs": {
+        "MORPHINE": {
+          "n": 441,
+          "f_pct": 67.1
+        },
+        "OXYCODONE": {
+          "n": 492,
+          "f_pct": 65.3
+        },
+        "FENTANYL": {
+          "n": 291,
+          "f_pct": 61.0
+        },
+        "HYDROMORPHONE": {
+          "n": 311,
+          "f_pct": 62.2
+        },
+        "METHADONE": {
+          "n": 107,
+          "f_pct": 48.0
+        },
+        "BUPRENORPHINE": {
+          "n": 261,
+          "f_pct": 59.3
+        },
+        "HYDROCODONE": {
+          "n": 76,
+          "f_pct": 57.6
+        },
+        "OXYMORPHONE": {
+          "n": 50,
+          "f_pct": 45.2
+        },
+        "SUFENTANIL": {
+          "n": 33,
+          "f_pct": 51.3
+        }
+      }
+    },
+    "opioid_antagonists": {
+      "n_signals": 118,
+      "f_pct": 50.2,
+      "drugs": {
+        "NALOXONE": {
+          "n": 21,
+          "f_pct": 55.7
+        },
+        "NALTREXONE": {
+          "n": 95,
+          "f_pct": 48.9
+        },
+        "NALMEFENE": {
+          "n": 2,
+          "f_pct": 57.1
+        }
+      }
+    },
+    "acetaminophen": {
+      "n_signals": 487,
+      "f_pct": 67.6,
+      "drugs": {
+        "PARACETAMOL": {
+          "n": 487,
+          "f_pct": 67.6
+        }
+      }
+    },
+    "migraine_triptans": {
+      "n_signals": 93,
+      "f_pct": 66.6,
+      "drugs": {
+        "SUMATRIPTAN": {
+          "n": 57,
+          "f_pct": 76.5
+        },
+        "RIZATRIPTAN": {
+          "n": 15,
+          "f_pct": 51.8
+        },
+        "ZOLMITRIPTAN": {
+          "n": 7,
+          "f_pct": 57.6
+        },
+        "ELETRIPTAN": {
+          "n": 9,
+          "f_pct": 65.5
+        },
+        "ALMOTRIPTAN": {
+          "n": 5,
+          "f_pct": 12.0
+        }
+      }
+    },
+    "migraine_CGRP": {
+      "n_signals": 177,
+      "f_pct": 83.0,
+      "drugs": {
+        "ERENUMAB": {
+          "n": 68,
+          "f_pct": 92.0
+        },
+        "FREMANEZUMAB": {
+          "n": 23,
+          "f_pct": 81.7
+        },
+        "GALCANEZUMAB": {
+          "n": 36,
+          "f_pct": 80.3
+        },
+        "EPTINEZUMAB": {
+          "n": 27,
+          "f_pct": 70.2
+        },
+        "RIMEGEPANT": {
+          "n": 12,
+          "f_pct": 75.4
+        },
+        "UBROGEPANT": {
+          "n": 3,
+          "f_pct": 79.0
+        },
+        "ATOGEPANT": {
+          "n": 8,
+          "f_pct": 79.3
+        }
+      }
+    },
+    "neuropathic": {
+      "n_signals": 1121,
+      "f_pct": 60.2,
+      "drugs": {
+        "PREGABALIN": {
+          "n": 406,
+          "f_pct": 65.8
+        },
+        "GABAPENTIN": {
+          "n": 333,
+          "f_pct": 53.5
+        },
+        "CARBAMAZEPINE": {
+          "n": 180,
+          "f_pct": 53.6
+        },
+        "DULOXETINE": {
+          "n": 189,
+          "f_pct": 66.6
+        },
+        "CAPSAICIN": {
+          "n": 13,
+          "f_pct": 58.7
+        }
+      }
+    },
+    "muscle_relaxants": {
+      "n_signals": 293,
+      "f_pct": 60.6,
+      "drugs": {
+        "BACLOFEN": {
+          "n": 168,
+          "f_pct": 53.2
+        },
+        "TIZANIDINE": {
+          "n": 35,
+          "f_pct": 61.3
+        },
+        "CYCLOBENZAPRINE": {
+          "n": 75,
+          "f_pct": 78.9
+        },
+        "DANTROLENE": {
+          "n": 1,
+          "f_pct": 40.0
+        },
+        "METHOCARBAMOL": {
+          "n": 14,
+          "f_pct": 50.1
+        }
+      }
+    },
+    "gout": {
+      "n_signals": 331,
+      "f_pct": 48.0,
+      "drugs": {
+        "COLCHICINE": {
+          "n": 74,
+          "f_pct": 59.2
+        },
+        "ALLOPURINOL": {
+          "n": 210,
+          "f_pct": 45.0
+        },
+        "FEBUXOSTAT": {
+          "n": 42,
+          "f_pct": 44.2
+        },
+        "RASBURICASE": {
+          "n": 5,
+          "f_pct": 41.4
+        }
+      }
+    },
+    "local_anesthetics": {
+      "n_signals": 202,
+      "f_pct": 52.8,
+      "drugs": {
+        "LIDOCAINE": {
+          "n": 118,
+          "f_pct": 49.0
+        },
+        "BUPIVACAINE": {
+          "n": 71,
+          "f_pct": 58.7
+        },
+        "ROPIVACAINE": {
+          "n": 13,
+          "f_pct": 54.8
+        }
+      }
+    },
+    "cannabinoids": {
+      "n_signals": 87,
+      "f_pct": 44.3,
+      "drugs": {
+        "CANNABIS SPP": {
+          "n": 44,
+          "f_pct": 42.6
+        },
+        "CANNABIDIOL": {
+          "n": 24,
+          "f_pct": 51.3
+        },
+        "NABILONE": {
+          "n": 2,
+          "f_pct": 38.8
+        },
+        "DRONABINOL": {
+          "n": 17,
+          "f_pct": 39.8
+        }
+      }
+    }
+  },
+  "opioid_vs_nsaid_ae": {
+    "respiratory": {
+      "opioid_n": 22,
+      "opioid_f_pct": 57.6,
+      "nsaid_n": 14,
+      "nsaid_f_pct": 55.1
+    },
+    "GI_bleed": {
+      "opioid_n": 12,
+      "opioid_f_pct": 66.0,
+      "nsaid_n": 12,
+      "nsaid_f_pct": 43.8
+    },
+    "dependence": {
+      "opioid_n": 11,
+      "opioid_f_pct": 43.3,
+      "nsaid_n": 8,
+      "nsaid_f_pct": 50.5
+    },
+    "cardiac": {
+      "opioid_n": 27,
+      "opioid_f_pct": 56.8,
+      "nsaid_n": 11,
+      "nsaid_f_pct": 66.5
+    },
+    "hepatic": {
+      "opioid_n": 21,
+      "opioid_f_pct": 73.4,
+      "nsaid_n": 12,
+      "nsaid_f_pct": 85.8
+    },
+    "renal": {
+      "opioid_n": 18,
+      "opioid_f_pct": 57.1,
+      "nsaid_n": 7,
+      "nsaid_f_pct": 49.6
+    },
+    "CNS": {
+      "opioid_n": 23,
+      "opioid_f_pct": 63.6,
+      "nsaid_n": 17,
+      "nsaid_f_pct": 79.1
+    }
+  },
+  "migraine_comparison": {
+    "triptans": {
+      "n": 93,
+      "f_pct": 66.6
+    },
+    "cgrp": {
+      "n": 177,
+      "f_pct": 83.0
+    }
+  },
+  "within_class_spread": {
+    "NSAIDs_nonselective": {
+      "spread_pp": 31.5,
+      "min_drug": "FLURBIPROFEN",
+      "min_pct": 48.0,
+      "max_drug": "PIROXICAM",
+      "max_pct": 79.5
+    },
+    "COX2_selective": {
+      "spread_pp": 25.4,
+      "min_drug": "ETORICOXIB",
+      "min_pct": 52.6,
+      "max_drug": "CELECOXIB",
+      "max_pct": 78.0
+    },
+    "opioids_weak": {
+      "spread_pp": 24.2,
+      "min_drug": "DIHYDROCODEINE",
+      "min_pct": 53.4,
+      "max_drug": "CODEINE",
+      "max_pct": 77.6
+    },
+    "opioids_strong": {
+      "spread_pp": 21.8,
+      "min_drug": "OXYMORPHONE",
+      "min_pct": 45.2,
+      "max_drug": "MORPHINE",
+      "max_pct": 67.1
+    },
+    "opioid_antagonists": {
+      "spread_pp": 8.3,
+      "min_drug": "NALTREXONE",
+      "min_pct": 48.9,
+      "max_drug": "NALMEFENE",
+      "max_pct": 57.1
+    },
+    "migraine_triptans": {
+      "spread_pp": 64.5,
+      "min_drug": "ALMOTRIPTAN",
+      "min_pct": 12.0,
+      "max_drug": "SUMATRIPTAN",
+      "max_pct": 76.5
+    },
+    "migraine_CGRP": {
+      "spread_pp": 21.8,
+      "min_drug": "EPTINEZUMAB",
+      "min_pct": 70.2,
+      "max_drug": "ERENUMAB",
+      "max_pct": 92.0
+    },
+    "neuropathic": {
+      "spread_pp": 13.1,
+      "min_drug": "GABAPENTIN",
+      "min_pct": 53.5,
+      "max_drug": "DULOXETINE",
+      "max_pct": 66.6
+    },
+    "muscle_relaxants": {
+      "spread_pp": 38.9,
+      "min_drug": "DANTROLENE",
+      "min_pct": 40.0,
+      "max_drug": "CYCLOBENZAPRINE",
+      "max_pct": 78.9
+    },
+    "gout": {
+      "spread_pp": 17.8,
+      "min_drug": "RASBURICASE",
+      "min_pct": 41.4,
+      "max_drug": "COLCHICINE",
+      "max_pct": 59.2
+    },
+    "local_anesthetics": {
+      "spread_pp": 9.7,
+      "min_drug": "LIDOCAINE",
+      "min_pct": 49.0,
+      "max_drug": "BUPIVACAINE",
+      "max_pct": 58.7
+    },
+    "cannabinoids": {
+      "spread_pp": 12.6,
+      "min_drug": "NABILONE",
+      "min_pct": 38.8,
+      "max_drug": "CANNABIDIOL",
+      "max_pct": 51.3
+    }
+  },
+  "strong_opioid_ranking": [
+    {
+      "drug": "MORPHINE",
+      "n": 441,
+      "f_pct": 67.1,
+      "mean_abs_lr": 1.117
+    },
+    {
+      "drug": "OXYCODONE",
+      "n": 492,
+      "f_pct": 65.3,
+      "mean_abs_lr": 1.332
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "n": 311,
+      "f_pct": 62.2,
+      "mean_abs_lr": 1.136
+    },
+    {
+      "drug": "FENTANYL",
+      "n": 291,
+      "f_pct": 61.0,
+      "mean_abs_lr": 0.936
+    },
+    {
+      "drug": "BUPRENORPHINE",
+      "n": 261,
+      "f_pct": 59.3,
+      "mean_abs_lr": 1.104
+    },
+    {
+      "drug": "HYDROCODONE",
+      "n": 76,
+      "f_pct": 57.6,
+      "mean_abs_lr": 0.771
+    },
+    {
+      "drug": "SUFENTANIL",
+      "n": 33,
+      "f_pct": 51.3,
+      "mean_abs_lr": 0.862
+    },
+    {
+      "drug": "METHADONE",
+      "n": 107,
+      "f_pct": 48.0,
+      "mean_abs_lr": 0.847
+    },
+    {
+      "drug": "OXYMORPHONE",
+      "n": 50,
+      "f_pct": 45.2,
+      "mean_abs_lr": 0.768
+    }
+  ],
+  "cannabis_vs_conventional": {
+    "cannabinoids": {
+      "n": 87,
+      "f_pct": 44.3
+    },
+    "conventional": {
+      "n": 3901,
+      "f_pct": 64.5
+    }
+  }
+}

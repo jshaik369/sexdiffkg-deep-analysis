@@ -1,0 +1,668 @@
+{
+  "drug_classes": {
+    "insulin_analogs": {
+      "n_signals": 339,
+      "f_pct": 52.9,
+      "drugs": {
+        "INSULIN": {
+          "n": 339,
+          "f_pct": 52.9
+        }
+      }
+    },
+    "metformin": {
+      "n_signals": 399,
+      "f_pct": 59.0,
+      "drugs": {
+        "METFORMIN": {
+          "n": 399,
+          "f_pct": 59.0
+        }
+      }
+    },
+    "SGLT2i": {
+      "n_signals": 320,
+      "f_pct": 48.0,
+      "drugs": {
+        "EMPAGLIFLOZIN": {
+          "n": 96,
+          "f_pct": 49.0
+        },
+        "DAPAGLIFLOZIN": {
+          "n": 154,
+          "f_pct": 46.4
+        },
+        "CANAGLIFLOZIN": {
+          "n": 69,
+          "f_pct": 50.1
+        },
+        "ERTUGLIFLOZIN": {
+          "n": 1,
+          "f_pct": 45.0
+        }
+      }
+    },
+    "GLP1_agonists": {
+      "n_signals": 517,
+      "f_pct": 58.2,
+      "drugs": {
+        "LIRAGLUTIDE": {
+          "n": 101,
+          "f_pct": 50.4
+        },
+        "SEMAGLUTIDE": {
+          "n": 152,
+          "f_pct": 61.0
+        },
+        "DULAGLUTIDE": {
+          "n": 77,
+          "f_pct": 56.9
+        },
+        "EXENATIDE": {
+          "n": 92,
+          "f_pct": 56.6
+        },
+        "TIRZEPATIDE": {
+          "n": 95,
+          "f_pct": 64.8
+        }
+      }
+    },
+    "DPP4i": {
+      "n_signals": 248,
+      "f_pct": 54.6,
+      "drugs": {
+        "SITAGLIPTIN": {
+          "n": 154,
+          "f_pct": 56.2
+        },
+        "SAXAGLIPTIN": {
+          "n": 18,
+          "f_pct": 54.8
+        },
+        "LINAGLIPTIN": {
+          "n": 42,
+          "f_pct": 50.8
+        },
+        "ALOGLIPTIN": {
+          "n": 9,
+          "f_pct": 50.7
+        },
+        "VILDAGLIPTIN": {
+          "n": 25,
+          "f_pct": 52.1
+        }
+      }
+    },
+    "sulfonylureas": {
+      "n_signals": 173,
+      "f_pct": 61.3,
+      "drugs": {
+        "GLIMEPIRIDE": {
+          "n": 38,
+          "f_pct": 59.7
+        },
+        "GLIPIZIDE": {
+          "n": 17,
+          "f_pct": 50.8
+        },
+        "GLYBURIDE": {
+          "n": 2,
+          "f_pct": 37.1
+        },
+        "GLIBENCLAMIDE": {
+          "n": 25,
+          "f_pct": 53.1
+        },
+        "GLICLAZIDE": {
+          "n": 91,
+          "f_pct": 66.6
+        }
+      }
+    },
+    "thiazolidinediones": {
+      "n_signals": 108,
+      "f_pct": 52.3,
+      "drugs": {
+        "PIOGLITAZONE": {
+          "n": 61,
+          "f_pct": 56.4
+        },
+        "ROSIGLITAZONE": {
+          "n": 47,
+          "f_pct": 47.0
+        }
+      }
+    },
+    "thyroid": {
+      "n_signals": 355,
+      "f_pct": 67.6,
+      "drugs": {
+        "LEVOTHYROXINE": {
+          "n": 322,
+          "f_pct": 67.5
+        },
+        "LIOTHYRONINE": {
+          "n": 23,
+          "f_pct": 73.5
+        },
+        "METHIMAZOLE": {
+          "n": 2,
+          "f_pct": 67.9
+        },
+        "PROPYLTHIOURACIL": {
+          "n": 4,
+          "f_pct": 52.9
+        },
+        "CARBIMAZOLE": {
+          "n": 4,
+          "f_pct": 55.4
+        }
+      }
+    },
+    "corticosteroids": {
+      "n_signals": 3392,
+      "f_pct": 61.8,
+      "drugs": {
+        "PREDNISONE": {
+          "n": 926,
+          "f_pct": 63.8
+        },
+        "PREDNISOLONE": {
+          "n": 542,
+          "f_pct": 60.1
+        },
+        "DEXAMETHASONE": {
+          "n": 537,
+          "f_pct": 54.0
+        },
+        "METHYLPREDNISOLONE": {
+          "n": 521,
+          "f_pct": 66.9
+        },
+        "HYDROCORTISONE": {
+          "n": 302,
+          "f_pct": 63.1
+        },
+        "BUDESONIDE": {
+          "n": 259,
+          "f_pct": 55.8
+        },
+        "BETAMETHASONE": {
+          "n": 130,
+          "f_pct": 58.6
+        },
+        "TRIAMCINOLONE": {
+          "n": 170,
+          "f_pct": 74.8
+        },
+        "FLUDROCORTISONE": {
+          "n": 5,
+          "f_pct": 37.4
+        }
+      }
+    },
+    "HRT_estrogen": {
+      "n_signals": 18,
+      "f_pct": 72.6,
+      "drugs": {
+        "ESTRADIOL": {
+          "n": 18,
+          "f_pct": 72.6
+        }
+      }
+    },
+    "testosterone": {
+      "n_signals": 46,
+      "f_pct": 25.7,
+      "drugs": {
+        "TESTOSTERONE": {
+          "n": 46,
+          "f_pct": 25.7
+        }
+      }
+    },
+    "bisphosphonates": {
+      "n_signals": 783,
+      "f_pct": 72.5,
+      "drugs": {
+        "ALENDRONIC ACID": {
+          "n": 241,
+          "f_pct": 83.6
+        },
+        "RISEDRONIC ACID": {
+          "n": 45,
+          "f_pct": 81.2
+        },
+        "ZOLEDRONIC ACID": {
+          "n": 376,
+          "f_pct": 66.6
+        },
+        "IBANDRONIC ACID": {
+          "n": 14,
+          "f_pct": 84.6
+        },
+        "PAMIDRONIC ACID": {
+          "n": 107,
+          "f_pct": 63.0
+        }
+      }
+    },
+    "denosumab": {
+      "n_signals": 234,
+      "f_pct": 74.0,
+      "drugs": {
+        "DENOSUMAB": {
+          "n": 234,
+          "f_pct": 74.0
+        }
+      }
+    },
+    "PTH_agents": {
+      "n_signals": 115,
+      "f_pct": 87.7,
+      "drugs": {
+        "TERIPARATIDE": {
+          "n": 84,
+          "f_pct": 86.2
+        },
+        "ABALOPARATIDE": {
+          "n": 31,
+          "f_pct": 91.8
+        }
+      }
+    },
+    "statins": {
+      "n_signals": 1085,
+      "f_pct": 52.0,
+      "drugs": {
+        "ATORVASTATIN": {
+          "n": 388,
+          "f_pct": 53.5
+        },
+        "ROSUVASTATIN": {
+          "n": 337,
+          "f_pct": 52.2
+        },
+        "SIMVASTATIN": {
+          "n": 261,
+          "f_pct": 50.1
+        },
+        "PRAVASTATIN": {
+          "n": 67,
+          "f_pct": 50.5
+        },
+        "PITAVASTATIN": {
+          "n": 3,
+          "f_pct": 58.9
+        },
+        "LOVASTATIN": {
+          "n": 8,
+          "f_pct": 63.7
+        },
+        "FLUVASTATIN": {
+          "n": 21,
+          "f_pct": 44.3
+        }
+      }
+    },
+    "PCSK9i": {
+      "n_signals": 184,
+      "f_pct": 53.6,
+      "drugs": {
+        "EVOLOCUMAB": {
+          "n": 131,
+          "f_pct": 54.2
+        },
+        "ALIROCUMAB": {
+          "n": 53,
+          "f_pct": 52.2
+        }
+      }
+    },
+    "fibrates": {
+      "n_signals": 61,
+      "f_pct": 47.0,
+      "drugs": {
+        "FENOFIBRATE": {
+          "n": 57,
+          "f_pct": 48.2
+        },
+        "GEMFIBROZIL": {
+          "n": 4,
+          "f_pct": 30.0
+        }
+      }
+    },
+    "ezetimibe": {
+      "n_signals": 94,
+      "f_pct": 46.3,
+      "drugs": {
+        "EZETIMIBE": {
+          "n": 94,
+          "f_pct": 46.3
+        }
+      }
+    },
+    "weight_loss": {
+      "n_signals": 652,
+      "f_pct": 60.1,
+      "drugs": {
+        "SEMAGLUTIDE": {
+          "n": 152,
+          "f_pct": 61.0
+        },
+        "LIRAGLUTIDE": {
+          "n": 101,
+          "f_pct": 50.4
+        },
+        "ORLISTAT": {
+          "n": 7,
+          "f_pct": 67.4
+        },
+        "PHENTERMINE": {
+          "n": 2,
+          "f_pct": 61.3
+        },
+        "NALTREXONE": {
+          "n": 95,
+          "f_pct": 48.9
+        },
+        "TOPIRAMATE": {
+          "n": 200,
+          "f_pct": 67.3
+        },
+        "TIRZEPATIDE": {
+          "n": 95,
+          "f_pct": 64.8
+        }
+      }
+    }
+  },
+  "diabetes_comparison": {
+    "insulin_analogs": {
+      "n": 339,
+      "f_pct": 52.9,
+      "mean_abs_lr": 0.852
+    },
+    "metformin": {
+      "n": 399,
+      "f_pct": 59.0,
+      "mean_abs_lr": 0.954
+    },
+    "SGLT2i": {
+      "n": 320,
+      "f_pct": 48.0,
+      "mean_abs_lr": 0.793
+    },
+    "GLP1_agonists": {
+      "n": 517,
+      "f_pct": 58.2,
+      "mean_abs_lr": 0.78
+    },
+    "DPP4i": {
+      "n": 248,
+      "f_pct": 54.6,
+      "mean_abs_lr": 0.856
+    },
+    "sulfonylureas": {
+      "n": 173,
+      "f_pct": 61.3,
+      "mean_abs_lr": 0.965
+    },
+    "thiazolidinediones": {
+      "n": 108,
+      "f_pct": 52.3,
+      "mean_abs_lr": 0.81
+    }
+  },
+  "statin_ranking": [
+    {
+      "drug": "LOVASTATIN",
+      "n": 8,
+      "f_pct": 63.7,
+      "mean_abs_lr": 0.779
+    },
+    {
+      "drug": "PITAVASTATIN",
+      "n": 3,
+      "f_pct": 58.9,
+      "mean_abs_lr": 0.684
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "n": 388,
+      "f_pct": 53.5,
+      "mean_abs_lr": 0.957
+    },
+    {
+      "drug": "ROSUVASTATIN",
+      "n": 337,
+      "f_pct": 52.2,
+      "mean_abs_lr": 0.952
+    },
+    {
+      "drug": "PRAVASTATIN",
+      "n": 67,
+      "f_pct": 50.5,
+      "mean_abs_lr": 0.856
+    },
+    {
+      "drug": "SIMVASTATIN",
+      "n": 261,
+      "f_pct": 50.1,
+      "mean_abs_lr": 0.95
+    },
+    {
+      "drug": "FLUVASTATIN",
+      "n": 21,
+      "f_pct": 44.3,
+      "mean_abs_lr": 0.862
+    }
+  ],
+  "glp1_ranking": [
+    {
+      "drug": "TIRZEPATIDE",
+      "n": 95,
+      "f_pct": 64.8,
+      "mean_abs_lr": 0.703
+    },
+    {
+      "drug": "SEMAGLUTIDE",
+      "n": 152,
+      "f_pct": 61.0,
+      "mean_abs_lr": 0.76
+    },
+    {
+      "drug": "DULAGLUTIDE",
+      "n": 77,
+      "f_pct": 56.9,
+      "mean_abs_lr": 0.735
+    },
+    {
+      "drug": "EXENATIDE",
+      "n": 92,
+      "f_pct": 56.6,
+      "mean_abs_lr": 0.715
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "n": 101,
+      "f_pct": 50.4,
+      "mean_abs_lr": 0.978
+    }
+  ],
+  "osteoporosis_ranking": [
+    {
+      "drug": "ABALOPARATIDE",
+      "n": 31,
+      "f_pct": 91.8,
+      "mean_abs_lr": 0.886
+    },
+    {
+      "drug": "TERIPARATIDE",
+      "n": 84,
+      "f_pct": 86.2,
+      "mean_abs_lr": 0.758
+    },
+    {
+      "drug": "IBANDRONIC ACID",
+      "n": 14,
+      "f_pct": 84.6,
+      "mean_abs_lr": 1.119
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "n": 241,
+      "f_pct": 83.6,
+      "mean_abs_lr": 1.447
+    },
+    {
+      "drug": "RISEDRONIC ACID",
+      "n": 45,
+      "f_pct": 81.2,
+      "mean_abs_lr": 1.24
+    },
+    {
+      "drug": "DENOSUMAB",
+      "n": 234,
+      "f_pct": 74.0,
+      "mean_abs_lr": 0.997
+    },
+    {
+      "drug": "ZOLEDRONIC ACID",
+      "n": 376,
+      "f_pct": 66.6,
+      "mean_abs_lr": 0.852
+    },
+    {
+      "drug": "PAMIDRONIC ACID",
+      "n": 107,
+      "f_pct": 63.0,
+      "mean_abs_lr": 0.761
+    }
+  ],
+  "within_class_spread": {
+    "SGLT2i": {
+      "spread_pp": 5.1,
+      "min_drug": "ERTUGLIFLOZIN",
+      "min_pct": 45.0,
+      "max_drug": "CANAGLIFLOZIN",
+      "max_pct": 50.1
+    },
+    "GLP1_agonists": {
+      "spread_pp": 14.5,
+      "min_drug": "LIRAGLUTIDE",
+      "min_pct": 50.4,
+      "max_drug": "TIRZEPATIDE",
+      "max_pct": 64.8
+    },
+    "DPP4i": {
+      "spread_pp": 5.5,
+      "min_drug": "ALOGLIPTIN",
+      "min_pct": 50.7,
+      "max_drug": "SITAGLIPTIN",
+      "max_pct": 56.2
+    },
+    "sulfonylureas": {
+      "spread_pp": 29.6,
+      "min_drug": "GLYBURIDE",
+      "min_pct": 37.1,
+      "max_drug": "GLICLAZIDE",
+      "max_pct": 66.6
+    },
+    "thiazolidinediones": {
+      "spread_pp": 9.4,
+      "min_drug": "ROSIGLITAZONE",
+      "min_pct": 47.0,
+      "max_drug": "PIOGLITAZONE",
+      "max_pct": 56.4
+    },
+    "thyroid": {
+      "spread_pp": 20.5,
+      "min_drug": "PROPYLTHIOURACIL",
+      "min_pct": 52.9,
+      "max_drug": "LIOTHYRONINE",
+      "max_pct": 73.5
+    },
+    "corticosteroids": {
+      "spread_pp": 37.4,
+      "min_drug": "FLUDROCORTISONE",
+      "min_pct": 37.4,
+      "max_drug": "TRIAMCINOLONE",
+      "max_pct": 74.8
+    },
+    "bisphosphonates": {
+      "spread_pp": 21.5,
+      "min_drug": "PAMIDRONIC ACID",
+      "min_pct": 63.0,
+      "max_drug": "IBANDRONIC ACID",
+      "max_pct": 84.6
+    },
+    "PTH_agents": {
+      "spread_pp": 5.6,
+      "min_drug": "TERIPARATIDE",
+      "min_pct": 86.2,
+      "max_drug": "ABALOPARATIDE",
+      "max_pct": 91.8
+    },
+    "statins": {
+      "spread_pp": 19.4,
+      "min_drug": "FLUVASTATIN",
+      "min_pct": 44.3,
+      "max_drug": "LOVASTATIN",
+      "max_pct": 63.7
+    },
+    "PCSK9i": {
+      "spread_pp": 2.0,
+      "min_drug": "ALIROCUMAB",
+      "min_pct": 52.2,
+      "max_drug": "EVOLOCUMAB",
+      "max_pct": 54.2
+    },
+    "fibrates": {
+      "spread_pp": 18.2,
+      "min_drug": "GEMFIBROZIL",
+      "min_pct": 30.0,
+      "max_drug": "FENOFIBRATE",
+      "max_pct": 48.2
+    },
+    "weight_loss": {
+      "spread_pp": 18.6,
+      "min_drug": "NALTREXONE",
+      "min_pct": 48.9,
+      "max_drug": "ORLISTAT",
+      "max_pct": 67.4
+    }
+  },
+  "corticosteroid_ae_patterns": {
+    "metabolic": {
+      "n": 18,
+      "f_pct": 75.5
+    },
+    "bone": {
+      "n": 11,
+      "f_pct": 63.8
+    },
+    "infection": {
+      "n": 12,
+      "f_pct": 53.2
+    },
+    "psychiatric": {
+      "n": 27,
+      "f_pct": 74.3
+    },
+    "adrenal": {
+      "n": 7,
+      "f_pct": 66.3
+    },
+    "skin": {
+      "n": 12,
+      "f_pct": 58.5
+    },
+    "ocular": {
+      "n": 13,
+      "f_pct": 50.8
+    }
+  }
+}
