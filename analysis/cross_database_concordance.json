@@ -1,0 +1,64 @@
+{
+  "validation_sources": {
+    "literature_crossval": {
+      "source": "Literature (12 published findings)",
+      "n_tested": 12,
+      "n_concordant": 11,
+      "concordance_pct": 92.0
+    },
+    "internal_validation": {
+      "source": "Split-half reliability",
+      "split_half_r": 0.755,
+      "bootstrap_ci": {
+        "overall_f_pct": 58.07,
+        "ci_lower": 57.94,
+        "ci_upper": 58.2
+      }
+    },
+    "meta_analysis_crossval": {
+      "source": "Published meta-analyses (16 findings)",
+      "n_tested": 13,
+      "n_concordant": 10,
+      "concordance_pct": 76.9
+    },
+    "drug_withdrawal": {
+      "source": "FDA-withdrawn drugs",
+      "n_tested": 5,
+      "n_concordant": 4,
+      "concordance_pct": 80.0
+    },
+    "openfda": {
+      "source": "OpenFDA label data",
+      "note": "Drug label cross-reference"
+    },
+    "benchmark": {
+      "source": "40 literature benchmarks",
+      "total_benchmarks": 40,
+      "found": 29,
+      "coverage_pct": 72.5,
+      "correct_direction": 24,
+      "directional_precision_pct": 82.8
+    },
+    "prediction_model": {
+      "source": "Signal-based linear regression",
+      "r2": 0.7723,
+      "spearman_rho": 0.9033,
+      "improvement_pct": 52.3
+    }
+  },
+  "composite_score": {
+    "n_concordance_sources": 4,
+    "mean_concordance_pct": 82.9,
+    "individual_scores": [
+      92.0,
+      76.9,
+      80.0,
+      82.8
+    ]
+  },
+  "current_totals": {
+    "analysis_jsons": 202,
+    "figures": 277,
+    "papers": 35
+  }
+}

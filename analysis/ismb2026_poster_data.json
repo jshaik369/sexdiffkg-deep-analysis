@@ -1,0 +1,72 @@
+{
+  "title": "SexDiffKG: A Knowledge Graph for Sex-Differential Drug Safety Signal Analysis",
+  "author": {
+    "author": "Mohammed Javeed Akhtar Abbas Shaik",
+    "short_name": "J.Shaik",
+    "email": "jshaik@coevolvenetwork.com",
+    "orcid": "0009-0002-1748-7516",
+    "affiliation": "CoEvolve Network, Independent Researcher, Barcelona, Spain"
+  },
+  "kg_stats": {
+    "nodes": 109867,
+    "edges": 1822851,
+    "node_types": {
+      "Gene": 77498,
+      "Protein": 16201,
+      "AdverseEvent": 9949,
+      "Drug": 3920,
+      "Pathway": 2279,
+      "Tissue": 20
+    },
+    "edge_types": {
+      "has_adverse_event": 869142,
+      "interacts_with": 473860,
+      "participates_in": 370597,
+      "sex_differential_adverse_event": 96281,
+      "targets": 12682,
+      "sex_differential_expression": 289
+    }
+  },
+  "faers_stats": {
+    "total_reports_deduplicated": 14536008,
+    "female_reports": 8744397,
+    "male_reports": 5791611,
+    "quarters": 87,
+    "quarter_range": "2004Q1-2025Q3"
+  },
+  "signal_stats": {
+    "total": 96281,
+    "drugs": 2178,
+    "aes": 5069
+  },
+  "model_performance": {
+    "ComplEx_v4_MRR": 0.2484,
+    "RotatE_v41_MRR": 0.2018
+  },
+  "validation_summary": {
+    "n_concordance_sources": 4,
+    "mean_concordance_pct": 82.9,
+    "individual_scores": [
+      92.0,
+      76.9,
+      80.0,
+      82.8
+    ]
+  },
+  "key_findings": {
+    "severity_sex_gradient": "Fatal 50.1%F \u2192 Moderate 63.5%F (rho=0.93, p=0.003)",
+    "volume_sex_gradient": "D1 50.4%F \u2192 D10 80.3%F",
+    "extreme_asymmetry": "7,457 F-extreme vs 519 M-extreme (14.4\u00d7 ratio)",
+    "biologics_gap": "Biologics 63.9%F vs small molecules 57.6%F (p=9.56e-117)",
+    "therapeutic_spectrum": "CDK4/6i 93.7%F \u2192 ICIs 46.9%F (20 classes)",
+    "death_male_biased": "46%F across 337+ drugs",
+    "age_sex_gradient": "Pediatric 46.3%F \u2192 Geriatric 61.4%F \u2192 Reproductive 64.8%F",
+    "network_topology": "Drug degree-sex rho=0.117, disassortative (rho=-0.395)",
+    "prediction_model": "R\u00b2=0.77, Spearman rho=0.90"
+  },
+  "total_analyses": {
+    "analysis_jsons": 202,
+    "figures": 277,
+    "papers": 35
+  }
+}
