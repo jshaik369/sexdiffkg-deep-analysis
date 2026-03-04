@@ -1,0 +1,20 @@
+{
+  "wave": "29_validation_audit",
+  "anti_regression_monotonicity": {
+    "spearman_rho": 1.0,
+    "p": 6.646897422032013e-64
+  },
+  "signal_counts": {
+    "total": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "unique_drugs": 2178,
+    "unique_aes": 5069
+  },
+  "output_counts": {
+    "analysis_jsons": 105,
+    "figures_png": 112,
+    "paper_drafts": 16
+  },
+  "audit_status": "PASSED"
+}

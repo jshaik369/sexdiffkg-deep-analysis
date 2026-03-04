@@ -1,0 +1,267 @@
+{
+  "wave": "29_reporter_decorrelation",
+  "global_correlation": {
+    "pearson_r": -0.0071,
+    "pearson_p": 0.7390890018556202,
+    "spearman_rho": -0.0063,
+    "spearman_p": 0.7673185281466308
+  },
+  "by_volume_tier": {
+    "10": {
+      "n_drugs": 1090,
+      "r": -0.1831
+    },
+    "20": {
+      "n_drugs": 818,
+      "r": -0.2012
+    },
+    "50": {
+      "n_drugs": 475,
+      "r": -0.1582
+    },
+    "100": {
+      "n_drugs": 275,
+      "r": -0.271
+    },
+    "200": {
+      "n_drugs": 135,
+      "r": -0.2226
+    }
+  },
+  "ae_level_correlation": {
+    "r": 0.107,
+    "p": 2.2607481620820803e-14
+  },
+  "adjusted_correlation": {
+    "r": -0.0071,
+    "p": 0.7390890018556202
+  },
+  "quadrant_analysis": {
+    "Q1_concordant_female": 667,
+    "Q2_discordant_male_report_female_signal": 392,
+    "Q3_concordant_male": 357,
+    "Q4_discordant_female_report_male_signal": 762,
+    "concordant_pct": 47.0,
+    "discordant_pct": 53.0
+  },
+  "female_report_male_signal_top15": [
+    {
+      "drug_name": "ABALOPARATIDE",
+      "reporter_f_ratio": 0.9304323134805139,
+      "f_frac": 0.06451612903225806,
+      "n_signals": 31,
+      "paradox_score": 0.8659161844482559
+    },
+    {
+      "drug_name": "BUPROPION;NALTREXONE",
+      "reporter_f_ratio": 0.8257575757575758,
+      "f_frac": 0.0,
+      "n_signals": 23,
+      "paradox_score": 0.8257575757575758
+    },
+    {
+      "drug_name": "ALENDRONIC ACID;VITAMIN D3",
+      "reporter_f_ratio": 0.8688936330528695,
+      "f_frac": 0.043478260869565216,
+      "n_signals": 23,
+      "paradox_score": 0.8254153721833043
+    },
+    {
+      "drug_name": "PERTUZUMAB",
+      "reporter_f_ratio": 0.895734863830745,
+      "f_frac": 0.07547169811320754,
+      "n_signals": 53,
+      "paradox_score": 0.8202631657175374
+    },
+    {
+      "drug_name": "EPTINEZUMAB",
+      "reporter_f_ratio": 0.8142584644730567,
+      "f_frac": 0.0,
+      "n_signals": 27,
+      "paradox_score": 0.8142584644730567
+    },
+    {
+      "drug_name": "BELIMUMAB",
+      "reporter_f_ratio": 0.9046819936230911,
+      "f_frac": 0.09090909090909091,
+      "n_signals": 22,
+      "paradox_score": 0.8137729027140002
+    },
+    {
+      "drug_name": "MIFEPRISTONE",
+      "reporter_f_ratio": 0.7978051213834386,
+      "f_frac": 0.0,
+      "n_signals": 47,
+      "paradox_score": 0.7978051213834386
+    },
+    {
+      "drug_name": "GALCANEZUMAB",
+      "reporter_f_ratio": 0.8474925989055351,
+      "f_frac": 0.05555555555555555,
+      "n_signals": 36,
+      "paradox_score": 0.7919370433499795
+    },
+    {
+      "drug_name": "PEGINTERFERON BETA-1A",
+      "reporter_f_ratio": 0.7851074462768616,
+      "f_frac": 0.0,
+      "n_signals": 46,
+      "paradox_score": 0.7851074462768616
+    },
+    {
+      "drug_name": "FREMANEZUMAB",
+      "reporter_f_ratio": 0.8665244191559981,
+      "f_frac": 0.08695652173913043,
+      "n_signals": 23,
+      "paradox_score": 0.7795678974168676
+    },
+    {
+      "drug_name": "DIROXIMEL FUMARATE",
+      "reporter_f_ratio": 0.7516887327749256,
+      "f_frac": 0.0,
+      "n_signals": 25,
+      "paradox_score": 0.7516887327749256
+    },
+    {
+      "drug_name": "TERIFLUNOMIDE",
+      "reporter_f_ratio": 0.8181593637306723,
+      "f_frac": 0.07792207792207792,
+      "n_signals": 77,
+      "paradox_score": 0.7402372858085944
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE DIPHOSPHATE",
+      "reporter_f_ratio": 0.8235522736105714,
+      "f_frac": 0.08695652173913043,
+      "n_signals": 23,
+      "paradox_score": 0.736595751871441
+    },
+    {
+      "drug_name": "TERIPARATIDE",
+      "reporter_f_ratio": 0.898510773130545,
+      "f_frac": 0.17857142857142858,
+      "n_signals": 84,
+      "paradox_score": 0.7199393445591163
+    },
+    {
+      "drug_name": "OXYBUTYNIN",
+      "reporter_f_ratio": 0.855072463768116,
+      "f_frac": 0.14516129032258066,
+      "n_signals": 62,
+      "paradox_score": 0.7099111734455353
+    }
+  ],
+  "male_report_female_signal_top15": [
+    {
+      "drug_name": "BCG VACCINE",
+      "reporter_f_ratio": 0.2586713697824809,
+      "f_frac": 0.9545454545454546,
+      "n_signals": 22,
+      "paradox_score": 0.6958740847629736
+    },
+    {
+      "drug_name": "TAMSULOSIN",
+      "reporter_f_ratio": 0.12555623418549866,
+      "f_frac": 0.8076923076923077,
+      "n_signals": 52,
+      "paradox_score": 0.682136073506809
+    },
+    {
+      "drug_name": "FACTOR VIII",
+      "reporter_f_ratio": 0.0680753513405761,
+      "f_frac": 0.7368421052631579,
+      "n_signals": 38,
+      "paradox_score": 0.6687667539225818
+    },
+    {
+      "drug_name": "TESTOSTERONE",
+      "reporter_f_ratio": 0.09263315082130413,
+      "f_frac": 0.7391304347826086,
+      "n_signals": 46,
+      "paradox_score": 0.6464972839613046
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "reporter_f_ratio": 0.285412586875552,
+      "f_frac": 0.9285714285714286,
+      "n_signals": 518,
+      "paradox_score": 0.6431588416958767
+    },
+    {
+      "drug_name": "TAFAMIDIS",
+      "reporter_f_ratio": 0.25728155339805825,
+      "f_frac": 0.8636363636363636,
+      "n_signals": 22,
+      "paradox_score": 0.6063548102383054
+    },
+    {
+      "drug_name": "DIAMORPHINE",
+      "reporter_f_ratio": 0.32493647110816487,
+      "f_frac": 0.8292682926829268,
+      "n_signals": 41,
+      "paradox_score": 0.5043318215747619
+    },
+    {
+      "drug_name": "SORAFENIB",
+      "reporter_f_ratio": 0.3126018468223791,
+      "f_frac": 0.8026315789473685,
+      "n_signals": 76,
+      "paradox_score": 0.49002973212498935
+    },
+    {
+      "drug_name": "DEVICE, UNSPECIFIED",
+      "reporter_f_ratio": 0.33041362530413626,
+      "f_frac": 0.7948717948717948,
+      "n_signals": 39,
+      "paradox_score": 0.46445816956765856
+    },
+    {
+      "drug_name": "ENFORTUMAB VEDOTIN",
+      "reporter_f_ratio": 0.28620492272467085,
+      "f_frac": 0.7391304347826086,
+      "n_signals": 23,
+      "paradox_score": 0.4529255120579378
+    },
+    {
+      "drug_name": "CANNABIS SPP",
+      "reporter_f_ratio": 0.3515832482124617,
+      "f_frac": 0.7954545454545454,
+      "n_signals": 44,
+      "paradox_score": 0.44387129724208374
+    },
+    {
+      "drug_name": "SOFOSBUVIR",
+      "reporter_f_ratio": 0.38070404172099087,
+      "f_frac": 0.8133333333333334,
+      "n_signals": 75,
+      "paradox_score": 0.4326292916123425
+    },
+    {
+      "drug_name": "DACLATASVIR",
+      "reporter_f_ratio": 0.3801324503311258,
+      "f_frac": 0.8108108108108109,
+      "n_signals": 37,
+      "paradox_score": 0.43067836047968505
+    },
+    {
+      "drug_name": "RAMUCIRUMAB",
+      "reporter_f_ratio": 0.3811285846438483,
+      "f_frac": 0.8,
+      "n_signals": 40,
+      "paradox_score": 0.41887141535615174
+    },
+    {
+      "drug_name": "EPLERENONE",
+      "reporter_f_ratio": 0.3357584576209531,
+      "f_frac": 0.7297297297297297,
+      "n_signals": 37,
+      "paradox_score": 0.39397127210877664
+    }
+  ],
+  "paradox_effect_size": {
+    "paradoxical_mean_lr": 0.9898,
+    "non_paradoxical_mean_lr": 0.9208,
+    "p": 0.00020884096888117214
+  },
+  "faers_base_f_ratio": 0.7427
+}
