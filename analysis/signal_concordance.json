@@ -1,0 +1,48 @@
+{
+  "split_half_reliability": {
+    "method": "even/odd total_reports split",
+    "n_shared_drugs": 1654,
+    "pearson_r": 0.731,
+    "spearman_rho": 0.695,
+    "interpretation": "High r = drug sex profiles are reliable across splits"
+  },
+  "high_low_report_concordance": {
+    "median_reports": 72,
+    "n_shared_drugs": 1438,
+    "pearson_r": 0.51,
+    "spearman_rho": 0.506,
+    "interpretation": "Agreement between high-volume and low-volume signal subsets"
+  },
+  "strong_weak_concordance": {
+    "n_aes_compared": 857,
+    "pearson_r": 0.483,
+    "spearman_rho": 0.496,
+    "interpretation": "Do strong (|LR|>=1.5) and weak (0.5-1.5) signals agree on AE sex profile?"
+  },
+  "direction_stability": {
+    "n_pairs_analyzed": 0,
+    "same_side_pct": NaN,
+    "baseline_consistent_pct": NaN
+  },
+  "effect_size_distribution": {
+    "percentiles": {
+      "p1": -2.53,
+      "p5": -1.544,
+      "p10": -1.178,
+      "p25": -0.761,
+      "p50": 0.534,
+      "p75": 0.863,
+      "p90": 1.334,
+      "p95": 1.749,
+      "p99": 2.747
+    },
+    "skewness": -0.057,
+    "kurtosis": 0.17,
+    "n_female_higher": 51771,
+    "n_male_higher": 44510,
+    "female_mean_abs_lr": 1.007,
+    "male_mean_abs_lr": 0.963,
+    "female_median_abs_lr": 0.828,
+    "male_median_abs_lr": 0.794
+  }
+}

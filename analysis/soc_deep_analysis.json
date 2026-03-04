@@ -1,0 +1,1764 @@
+{
+  "soc_detailed_analysis": [
+    {
+      "soc": "dermatologic",
+      "n_signals": 2684,
+      "n_drugs": 345,
+      "mean_f_pct": 63.9,
+      "std_f_pct": 21.1,
+      "mean_lr": 0.989,
+      "anti_regression_rho": 1.0,
+      "anti_regression_p": 1.404e-24,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 69,
+          "mean_f": 53.4
+        },
+        {
+          "q": 1,
+          "n": 69,
+          "mean_f": 59.4
+        },
+        {
+          "q": 2,
+          "n": 69,
+          "mean_f": 62.1
+        },
+        {
+          "q": 3,
+          "n": 69,
+          "mean_f": 69.6
+        },
+        {
+          "q": 4,
+          "n": 69,
+          "mean_f": 77.6
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "OXYBUTYNIN",
+          "n_signals": 5,
+          "mean_f": 97.1
+        },
+        {
+          "drug_name": "ALENDRONIC ACID",
+          "n_signals": 4,
+          "mean_f": 97.1
+        },
+        {
+          "drug_name": "OXYCODONE;PARACETAMOL",
+          "n_signals": 5,
+          "mean_f": 96.7
+        },
+        {
+          "drug_name": "TRASTUZUMAB",
+          "n_signals": 3,
+          "mean_f": 96.6
+        },
+        {
+          "drug_name": "ERENUMAB",
+          "n_signals": 3,
+          "mean_f": 94.9
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "FACTOR VIII",
+          "n_signals": 4,
+          "mean_f": 15.9
+        },
+        {
+          "drug_name": "RILPIVIRINE",
+          "n_signals": 3,
+          "mean_f": 27.6
+        },
+        {
+          "drug_name": "ENFORTUMAB VEDOTIN",
+          "n_signals": 3,
+          "mean_f": 31.0
+        },
+        {
+          "drug_name": "PIRFENIDONE",
+          "n_signals": 4,
+          "mean_f": 33.9
+        },
+        {
+          "drug_name": "FLUOROURACIL",
+          "n_signals": 9,
+          "mean_f": 34.2
+        }
+      ]
+    },
+    {
+      "soc": "musculoskeletal",
+      "n_signals": 2915,
+      "n_drugs": 316,
+      "mean_f_pct": 62.7,
+      "std_f_pct": 22.3,
+      "mean_lr": 1.017,
+      "anti_regression_rho": 1.0,
+      "anti_regression_p": 1.404e-24,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 63,
+          "mean_f": 52.7
+        },
+        {
+          "q": 1,
+          "n": 63,
+          "mean_f": 56.0
+        },
+        {
+          "q": 2,
+          "n": 63,
+          "mean_f": 62.7
+        },
+        {
+          "q": 3,
+          "n": 63,
+          "mean_f": 68.1
+        },
+        {
+          "q": 4,
+          "n": 64,
+          "mean_f": 71.6
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "PALBOCICLIB",
+          "n_signals": 3,
+          "mean_f": 98.9
+        },
+        {
+          "drug_name": "ERENUMAB",
+          "n_signals": 3,
+          "mean_f": 96.9
+        },
+        {
+          "drug_name": "DESOXIMETASONE",
+          "n_signals": 4,
+          "mean_f": 94.9
+        },
+        {
+          "drug_name": "ZOPICLONE",
+          "n_signals": 4,
+          "mean_f": 92.3
+        },
+        {
+          "drug_name": "MIRABEGRON",
+          "n_signals": 3,
+          "mean_f": 91.8
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "FACTOR VIII",
+          "n_signals": 3,
+          "mean_f": 2.7
+        },
+        {
+          "drug_name": "CABOTEGRAVIR",
+          "n_signals": 3,
+          "mean_f": 16.4
+        },
+        {
+          "drug_name": "RILPIVIRINE",
+          "n_signals": 3,
+          "mean_f": 20.7
+        },
+        {
+          "drug_name": "ADEFOVIR",
+          "n_signals": 3,
+          "mean_f": 23.9
+        },
+        {
+          "drug_name": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+          "n_signals": 15,
+          "mean_f": 24.2
+        }
+      ]
+    },
+    {
+      "soc": "immune",
+      "n_signals": 1137,
+      "n_drugs": 115,
+      "mean_f_pct": 62.0,
+      "std_f_pct": 23.3,
+      "mean_lr": 1.075,
+      "anti_regression_rho": 1.0,
+      "anti_regression_p": 1.404e-24,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 23,
+          "mean_f": 50.5
+        },
+        {
+          "q": 1,
+          "n": 23,
+          "mean_f": 54.8
+        },
+        {
+          "q": 2,
+          "n": 23,
+          "mean_f": 63.2
+        },
+        {
+          "q": 3,
+          "n": 23,
+          "mean_f": 71.5
+        },
+        {
+          "q": 4,
+          "n": 23,
+          "mean_f": 75.5
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "CODEINE",
+          "n_signals": 3,
+          "mean_f": 93.7
+        },
+        {
+          "drug_name": "QUETIAPINE",
+          "n_signals": 3,
+          "mean_f": 91.7
+        },
+        {
+          "drug_name": "METOCLOPRAMIDE",
+          "n_signals": 3,
+          "mean_f": 90.5
+        },
+        {
+          "drug_name": "HYDROMORPHONE",
+          "n_signals": 3,
+          "mean_f": 90.1
+        },
+        {
+          "drug_name": "DOXYCYCLINE",
+          "n_signals": 4,
+          "mean_f": 87.1
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "AMOXICILLIN;CLAVULANIC ACID",
+          "n_signals": 3,
+          "mean_f": 26.7
+        },
+        {
+          "drug_name": "BASILIXIMAB",
+          "n_signals": 3,
+          "mean_f": 38.7
+        },
+        {
+          "drug_name": "VINCRISTINE",
+          "n_signals": 3,
+          "mean_f": 39.2
+        },
+        {
+          "drug_name": "FLUDARABINE",
+          "n_signals": 7,
+          "mean_f": 41.0
+        },
+        {
+          "drug_name": "ANTITHYMOCYTE IMMUNOGLOBULIN",
+          "n_signals": 8,
+          "mean_f": 41.1
+        }
+      ]
+    },
+    {
+      "soc": "gastrointestinal",
+      "n_signals": 3496,
+      "n_drugs": 436,
+      "mean_f_pct": 61.9,
+      "std_f_pct": 22.1,
+      "mean_lr": 0.989,
+      "anti_regression_rho": 1.0,
+      "anti_regression_p": 1.404e-24,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 87,
+          "mean_f": 53.5
+        },
+        {
+          "q": 1,
+          "n": 87,
+          "mean_f": 58.7
+        },
+        {
+          "q": 2,
+          "n": 87,
+          "mean_f": 59.0
+        },
+        {
+          "q": 3,
+          "n": 87,
+          "mean_f": 62.0
+        },
+        {
+          "q": 4,
+          "n": 88,
+          "mean_f": 76.1
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "CHLORHEXIDINE",
+          "n_signals": 4,
+          "mean_f": 98.7
+        },
+        {
+          "drug_name": "PSEUDOEPHEDRINE",
+          "n_signals": 3,
+          "mean_f": 98.7
+        },
+        {
+          "drug_name": "SARILUMAB",
+          "n_signals": 6,
+          "mean_f": 97.1
+        },
+        {
+          "drug_name": "ERENUMAB",
+          "n_signals": 7,
+          "mean_f": 96.2
+        },
+        {
+          "drug_name": "ALENDRONIC ACID",
+          "n_signals": 5,
+          "mean_f": 96.2
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "VITAMIN K",
+          "n_signals": 3,
+          "mean_f": 6.4
+        },
+        {
+          "drug_name": "NOREPINEPHRINE",
+          "n_signals": 4,
+          "mean_f": 8.5
+        },
+        {
+          "drug_name": "LANTHANUM CARBONATE",
+          "n_signals": 5,
+          "mean_f": 16.4
+        },
+        {
+          "drug_name": "VITAMIN B7",
+          "n_signals": 4,
+          "mean_f": 18.2
+        },
+        {
+          "drug_name": "SODIUM PICOSULFATE",
+          "n_signals": 5,
+          "mean_f": 18.8
+        }
+      ]
+    },
+    {
+      "soc": "metabolic",
+      "n_signals": 1751,
+      "n_drugs": 230,
+      "mean_f_pct": 60.0,
+      "std_f_pct": 22.9,
+      "mean_lr": 1.1,
+      "anti_regression_rho": 0.9,
+      "anti_regression_p": 0.03739,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 46,
+          "mean_f": 54.3
+        },
+        {
+          "q": 1,
+          "n": 46,
+          "mean_f": 53.2
+        },
+        {
+          "q": 2,
+          "n": 46,
+          "mean_f": 56.7
+        },
+        {
+          "q": 3,
+          "n": 46,
+          "mean_f": 60.9
+        },
+        {
+          "q": 4,
+          "n": 46,
+          "mean_f": 73.9
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "CORTISONE",
+          "n_signals": 3,
+          "mean_f": 98.3
+        },
+        {
+          "drug_name": "SARILUMAB",
+          "n_signals": 3,
+          "mean_f": 97.9
+        },
+        {
+          "drug_name": "LEFLUNOMIDE",
+          "n_signals": 4,
+          "mean_f": 95.1
+        },
+        {
+          "drug_name": "ALENDRONIC ACID",
+          "n_signals": 8,
+          "mean_f": 94.7
+        },
+        {
+          "drug_name": "NAPROXEN",
+          "n_signals": 4,
+          "mean_f": 94.2
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "PALIPERIDONE",
+          "n_signals": 4,
+          "mean_f": 17.7
+        },
+        {
+          "drug_name": "AMLODIPINE",
+          "n_signals": 4,
+          "mean_f": 26.2
+        },
+        {
+          "drug_name": "EPLERENONE",
+          "n_signals": 3,
+          "mean_f": 30.3
+        },
+        {
+          "drug_name": "OSELTAMIVIR",
+          "n_signals": 3,
+          "mean_f": 30.9
+        },
+        {
+          "drug_name": "RISPERIDONE",
+          "n_signals": 8,
+          "mean_f": 31.5
+        }
+      ]
+    },
+    {
+      "soc": "vascular",
+      "n_signals": 1128,
+      "n_drugs": 113,
+      "mean_f_pct": 58.6,
+      "std_f_pct": 22.0,
+      "mean_lr": 1.037,
+      "anti_regression_rho": 0.9,
+      "anti_regression_p": 0.03739,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 22,
+          "mean_f": 49.0
+        },
+        {
+          "q": 1,
+          "n": 22,
+          "mean_f": 55.2
+        },
+        {
+          "q": 2,
+          "n": 22,
+          "mean_f": 58.8
+        },
+        {
+          "q": 3,
+          "n": 22,
+          "mean_f": 64.9
+        },
+        {
+          "q": 4,
+          "n": 25,
+          "mean_f": 62.9
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "AMITRIPTYLINE",
+          "n_signals": 3,
+          "mean_f": 86.2
+        },
+        {
+          "drug_name": "CODEINE;PARACETAMOL",
+          "n_signals": 3,
+          "mean_f": 86.0
+        },
+        {
+          "drug_name": "SENNA SPP",
+          "n_signals": 3,
+          "mean_f": 84.9
+        },
+        {
+          "drug_name": "CERTOLIZUMAB",
+          "n_signals": 3,
+          "mean_f": 82.3
+        },
+        {
+          "drug_name": "OMEPRAZOLE",
+          "n_signals": 3,
+          "mean_f": 81.4
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "GLUCOSE",
+          "n_signals": 3,
+          "mean_f": 26.0
+        },
+        {
+          "drug_name": "BUDESONIDE",
+          "n_signals": 3,
+          "mean_f": 28.5
+        },
+        {
+          "drug_name": "NOREPINEPHRINE",
+          "n_signals": 3,
+          "mean_f": 32.4
+        },
+        {
+          "drug_name": "RIBAVIRIN",
+          "n_signals": 4,
+          "mean_f": 33.1
+        },
+        {
+          "drug_name": "ONDANSETRON",
+          "n_signals": 3,
+          "mean_f": 36.5
+        }
+      ]
+    },
+    {
+      "soc": "psychiatric",
+      "n_signals": 2301,
+      "n_drugs": 312,
+      "mean_f_pct": 58.2,
+      "std_f_pct": 20.5,
+      "mean_lr": 0.962,
+      "anti_regression_rho": 0.9,
+      "anti_regression_p": 0.03739,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 62,
+          "mean_f": 54.0
+        },
+        {
+          "q": 1,
+          "n": 62,
+          "mean_f": 56.7
+        },
+        {
+          "q": 2,
+          "n": 62,
+          "mean_f": 60.3
+        },
+        {
+          "q": 3,
+          "n": 62,
+          "mean_f": 60.2
+        },
+        {
+          "q": 4,
+          "n": 64,
+          "mean_f": 66.2
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "SULFASALAZINE",
+          "n_signals": 3,
+          "mean_f": 95.4
+        },
+        {
+          "drug_name": "GOLIMUMAB",
+          "n_signals": 3,
+          "mean_f": 94.4
+        },
+        {
+          "drug_name": "MINOCYCLINE",
+          "n_signals": 3,
+          "mean_f": 93.5
+        },
+        {
+          "drug_name": "IPRATROPIUM",
+          "n_signals": 4,
+          "mean_f": 91.7
+        },
+        {
+          "drug_name": "TOCILIZUMAB",
+          "n_signals": 6,
+          "mean_f": 88.6
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "LOPINAVIR;RITONAVIR",
+          "n_signals": 4,
+          "mean_f": 12.9
+        },
+        {
+          "drug_name": "TADALAFIL",
+          "n_signals": 3,
+          "mean_f": 14.1
+        },
+        {
+          "drug_name": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+          "n_signals": 3,
+          "mean_f": 17.8
+        },
+        {
+          "drug_name": "TAMSULOSIN",
+          "n_signals": 3,
+          "mean_f": 23.2
+        },
+        {
+          "drug_name": "TESTOSTERONE",
+          "n_signals": 3,
+          "mean_f": 23.5
+        }
+      ]
+    },
+    {
+      "soc": "endocrine",
+      "n_signals": 903,
+      "n_drugs": 125,
+      "mean_f_pct": 57.7,
+      "std_f_pct": 21.3,
+      "mean_lr": 1.06,
+      "anti_regression_rho": 1.0,
+      "anti_regression_p": 1.404e-24,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 25,
+          "mean_f": 53.0
+        },
+        {
+          "q": 1,
+          "n": 25,
+          "mean_f": 54.0
+        },
+        {
+          "q": 2,
+          "n": 25,
+          "mean_f": 57.8
+        },
+        {
+          "q": 3,
+          "n": 25,
+          "mean_f": 63.9
+        },
+        {
+          "q": 4,
+          "n": 25,
+          "mean_f": 70.0
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "SULFASALAZINE",
+          "n_signals": 3,
+          "mean_f": 95.3
+        },
+        {
+          "drug_name": "CODEINE",
+          "n_signals": 4,
+          "mean_f": 89.1
+        },
+        {
+          "drug_name": "AMITRIPTYLINE",
+          "n_signals": 3,
+          "mean_f": 86.7
+        },
+        {
+          "drug_name": "ALENDRONIC ACID",
+          "n_signals": 3,
+          "mean_f": 86.1
+        },
+        {
+          "drug_name": "SALBUTAMOL",
+          "n_signals": 3,
+          "mean_f": 84.7
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "CALCIUM",
+          "n_signals": 3,
+          "mean_f": 29.2
+        },
+        {
+          "drug_name": "RISPERIDONE",
+          "n_signals": 5,
+          "mean_f": 32.6
+        },
+        {
+          "drug_name": "SACUBITRIL;VALSARTAN",
+          "n_signals": 3,
+          "mean_f": 35.1
+        },
+        {
+          "drug_name": "AMIODARONE",
+          "n_signals": 7,
+          "mean_f": 35.7
+        },
+        {
+          "drug_name": "NIVOLUMAB",
+          "n_signals": 7,
+          "mean_f": 35.7
+        }
+      ]
+    },
+    {
+      "soc": "hepatic",
+      "n_signals": 2749,
+      "n_drugs": 318,
+      "mean_f_pct": 57.5,
+      "std_f_pct": 20.7,
+      "mean_lr": 1.006,
+      "anti_regression_rho": 1.0,
+      "anti_regression_p": 1.404e-24,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 63,
+          "mean_f": 51.5
+        },
+        {
+          "q": 1,
+          "n": 63,
+          "mean_f": 51.7
+        },
+        {
+          "q": 2,
+          "n": 63,
+          "mean_f": 54.9
+        },
+        {
+          "q": 3,
+          "n": 63,
+          "mean_f": 58.3
+        },
+        {
+          "q": 4,
+          "n": 66,
+          "mean_f": 66.4
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "VITAMIN C",
+          "n_signals": 3,
+          "mean_f": 94.7
+        },
+        {
+          "drug_name": "APREMILAST",
+          "n_signals": 6,
+          "mean_f": 94.6
+        },
+        {
+          "drug_name": "MOXIFLOXACIN",
+          "n_signals": 4,
+          "mean_f": 90.6
+        },
+        {
+          "drug_name": "VITAMIN D2",
+          "n_signals": 3,
+          "mean_f": 89.3
+        },
+        {
+          "drug_name": "ABATACEPT",
+          "n_signals": 9,
+          "mean_f": 88.2
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "REMDESIVIR",
+          "n_signals": 6,
+          "mean_f": 29.9
+        },
+        {
+          "drug_name": "TREMELIMUMAB",
+          "n_signals": 3,
+          "mean_f": 29.9
+        },
+        {
+          "drug_name": "SORAFENIB",
+          "n_signals": 6,
+          "mean_f": 30.1
+        },
+        {
+          "drug_name": "AZITHROMYCIN ANHYDROUS",
+          "n_signals": 3,
+          "mean_f": 30.3
+        },
+        {
+          "drug_name": "ADEFOVIR",
+          "n_signals": 4,
+          "mean_f": 30.6
+        }
+      ]
+    },
+    {
+      "soc": "ocular",
+      "n_signals": 588,
+      "n_drugs": 58,
+      "mean_f_pct": 57.4,
+      "std_f_pct": 18.7,
+      "mean_lr": 0.857,
+      "anti_regression_rho": 0.7,
+      "anti_regression_p": 0.1881,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 11,
+          "mean_f": 51.0
+        },
+        {
+          "q": 1,
+          "n": 11,
+          "mean_f": 60.3
+        },
+        {
+          "q": 2,
+          "n": 11,
+          "mean_f": 63.9
+        },
+        {
+          "q": 3,
+          "n": 11,
+          "mean_f": 57.4
+        },
+        {
+          "q": 4,
+          "n": 14,
+          "mean_f": 64.4
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "ATORVASTATIN",
+          "n_signals": 3,
+          "mean_f": 86.6
+        },
+        {
+          "drug_name": "HYDROXYCHLOROQUINE",
+          "n_signals": 3,
+          "mean_f": 83.8
+        },
+        {
+          "drug_name": "SALBUTAMOL",
+          "n_signals": 4,
+          "mean_f": 78.4
+        },
+        {
+          "drug_name": "TOFACITINIB",
+          "n_signals": 3,
+          "mean_f": 78.2
+        },
+        {
+          "drug_name": "ARTIFICIAL TEARS",
+          "n_signals": 8,
+          "mean_f": 76.9
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "TADALAFIL",
+          "n_signals": 3,
+          "mean_f": 29.3
+        },
+        {
+          "drug_name": "TACROLIMUS",
+          "n_signals": 6,
+          "mean_f": 31.2
+        },
+        {
+          "drug_name": "VERTEPORFIN",
+          "n_signals": 3,
+          "mean_f": 33.3
+        },
+        {
+          "drug_name": "LEUPRORELIN",
+          "n_signals": 4,
+          "mean_f": 37.4
+        },
+        {
+          "drug_name": "METFORMIN;SITAGLIPTIN",
+          "n_signals": 3,
+          "mean_f": 41.4
+        }
+      ]
+    },
+    {
+      "soc": "neurological",
+      "n_signals": 1922,
+      "n_drugs": 245,
+      "mean_f_pct": 55.8,
+      "std_f_pct": 16.7,
+      "mean_lr": 0.89,
+      "anti_regression_rho": 0.9,
+      "anti_regression_p": 0.03739,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 49,
+          "mean_f": 52.5
+        },
+        {
+          "q": 1,
+          "n": 49,
+          "mean_f": 55.0
+        },
+        {
+          "q": 2,
+          "n": 49,
+          "mean_f": 56.0
+        },
+        {
+          "q": 3,
+          "n": 49,
+          "mean_f": 57.6
+        },
+        {
+          "q": 4,
+          "n": 49,
+          "mean_f": 57.4
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "TERIPARATIDE",
+          "n_signals": 4,
+          "mean_f": 81.1
+        },
+        {
+          "drug_name": "CODEINE",
+          "n_signals": 3,
+          "mean_f": 81.0
+        },
+        {
+          "drug_name": "HYDROCHLOROTHIAZIDE;VALSARTAN",
+          "n_signals": 4,
+          "mean_f": 78.4
+        },
+        {
+          "drug_name": "TOFACITINIB",
+          "n_signals": 5,
+          "mean_f": 77.7
+        },
+        {
+          "drug_name": "ZOLPIDEM",
+          "n_signals": 4,
+          "mean_f": 74.4
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "LEUPRORELIN",
+          "n_signals": 4,
+          "mean_f": 32.5
+        },
+        {
+          "drug_name": "RITONAVIR",
+          "n_signals": 3,
+          "mean_f": 35.3
+        },
+        {
+          "drug_name": "CETUXIMAB",
+          "n_signals": 4,
+          "mean_f": 35.8
+        },
+        {
+          "drug_name": "ZOPICLONE",
+          "n_signals": 3,
+          "mean_f": 36.4
+        },
+        {
+          "drug_name": "SIMVASTATIN",
+          "n_signals": 5,
+          "mean_f": 37.6
+        }
+      ]
+    },
+    {
+      "soc": "respiratory",
+      "n_signals": 4911,
+      "n_drugs": 496,
+      "mean_f_pct": 55.2,
+      "std_f_pct": 21.9,
+      "mean_lr": 1.003,
+      "anti_regression_rho": 0.9,
+      "anti_regression_p": 0.03739,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 99,
+          "mean_f": 50.2
+        },
+        {
+          "q": 1,
+          "n": 99,
+          "mean_f": 51.7
+        },
+        {
+          "q": 2,
+          "n": 99,
+          "mean_f": 54.2
+        },
+        {
+          "q": 3,
+          "n": 99,
+          "mean_f": 53.7
+        },
+        {
+          "q": 4,
+          "n": 100,
+          "mean_f": 62.6
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "RISEDRONIC ACID",
+          "n_signals": 4,
+          "mean_f": 97.1
+        },
+        {
+          "drug_name": "ERENUMAB",
+          "n_signals": 3,
+          "mean_f": 96.2
+        },
+        {
+          "drug_name": "ABEMACICLIB",
+          "n_signals": 3,
+          "mean_f": 94.1
+        },
+        {
+          "drug_name": "NIRAPARIB",
+          "n_signals": 3,
+          "mean_f": 91.1
+        },
+        {
+          "drug_name": "CERTOLIZUMAB",
+          "n_signals": 7,
+          "mean_f": 89.3
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "DOXAZOSIN",
+          "n_signals": 4,
+          "mean_f": 13.9
+        },
+        {
+          "drug_name": "TAMSULOSIN",
+          "n_signals": 8,
+          "mean_f": 14.2
+        },
+        {
+          "drug_name": "HERBALS, UNSPECIFIED",
+          "n_signals": 5,
+          "mean_f": 22.3
+        },
+        {
+          "drug_name": "SODIUM PHOSPHATE",
+          "n_signals": 5,
+          "mean_f": 22.5
+        },
+        {
+          "drug_name": "AMBROXOL",
+          "n_signals": 3,
+          "mean_f": 22.6
+        }
+      ]
+    },
+    {
+      "soc": "hematologic",
+      "n_signals": 2256,
+      "n_drugs": 303,
+      "mean_f_pct": 54.8,
+      "std_f_pct": 18.4,
+      "mean_lr": 0.911,
+      "anti_regression_rho": 0.7,
+      "anti_regression_p": 0.1881,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 60,
+          "mean_f": 51.9
+        },
+        {
+          "q": 1,
+          "n": 60,
+          "mean_f": 54.4
+        },
+        {
+          "q": 2,
+          "n": 60,
+          "mean_f": 57.4
+        },
+        {
+          "q": 3,
+          "n": 60,
+          "mean_f": 59.6
+        },
+        {
+          "q": 4,
+          "n": 63,
+          "mean_f": 57.3
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "EPIRUBICIN",
+          "n_signals": 4,
+          "mean_f": 92.0
+        },
+        {
+          "drug_name": "FLUTICASONE;SALMETEROL",
+          "n_signals": 3,
+          "mean_f": 91.4
+        },
+        {
+          "drug_name": "PERTUZUMAB",
+          "n_signals": 5,
+          "mean_f": 90.4
+        },
+        {
+          "drug_name": "CERTOLIZUMAB",
+          "n_signals": 5,
+          "mean_f": 87.7
+        },
+        {
+          "drug_name": "LOPERAMIDE",
+          "n_signals": 3,
+          "mean_f": 86.3
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "APREPITANT",
+          "n_signals": 3,
+          "mean_f": 28.1
+        },
+        {
+          "drug_name": "LEUPRORELIN",
+          "n_signals": 5,
+          "mean_f": 32.5
+        },
+        {
+          "drug_name": "LIDOCAINE",
+          "n_signals": 4,
+          "mean_f": 32.8
+        },
+        {
+          "drug_name": "FOSCARNET",
+          "n_signals": 4,
+          "mean_f": 34.6
+        },
+        {
+          "drug_name": "FOLIC ACID",
+          "n_signals": 4,
+          "mean_f": 34.8
+        }
+      ]
+    },
+    {
+      "soc": "infectious",
+      "n_signals": 2979,
+      "n_drugs": 279,
+      "mean_f_pct": 54.5,
+      "std_f_pct": 19.4,
+      "mean_lr": 0.961,
+      "anti_regression_rho": 0.7,
+      "anti_regression_p": 0.1881,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 55,
+          "mean_f": 51.5
+        },
+        {
+          "q": 1,
+          "n": 55,
+          "mean_f": 57.0
+        },
+        {
+          "q": 2,
+          "n": 55,
+          "mean_f": 53.7
+        },
+        {
+          "q": 3,
+          "n": 55,
+          "mean_f": 56.2
+        },
+        {
+          "q": 4,
+          "n": 59,
+          "mean_f": 60.6
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "DILTIAZEM",
+          "n_signals": 3,
+          "mean_f": 92.7
+        },
+        {
+          "drug_name": "OXYCODONE;PARACETAMOL",
+          "n_signals": 3,
+          "mean_f": 90.6
+        },
+        {
+          "drug_name": "ALPRAZOLAM",
+          "n_signals": 3,
+          "mean_f": 88.0
+        },
+        {
+          "drug_name": "MACITENTAN",
+          "n_signals": 5,
+          "mean_f": 84.7
+        },
+        {
+          "drug_name": "CITALOPRAM",
+          "n_signals": 3,
+          "mean_f": 84.0
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "CANAKINUMAB",
+          "n_signals": 4,
+          "mean_f": 24.3
+        },
+        {
+          "drug_name": "IPRATROPIUM",
+          "n_signals": 3,
+          "mean_f": 25.6
+        },
+        {
+          "drug_name": "POTASSIUM",
+          "n_signals": 4,
+          "mean_f": 26.1
+        },
+        {
+          "drug_name": "LEUPRORELIN",
+          "n_signals": 8,
+          "mean_f": 30.3
+        },
+        {
+          "drug_name": "GLUCOSE",
+          "n_signals": 3,
+          "mean_f": 33.9
+        }
+      ]
+    },
+    {
+      "soc": "cardiac",
+      "n_signals": 3186,
+      "n_drugs": 382,
+      "mean_f_pct": 53.1,
+      "std_f_pct": 18.1,
+      "mean_lr": 0.903,
+      "anti_regression_rho": 0.2,
+      "anti_regression_p": 0.7471,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 76,
+          "mean_f": 52.2
+        },
+        {
+          "q": 1,
+          "n": 76,
+          "mean_f": 54.6
+        },
+        {
+          "q": 2,
+          "n": 76,
+          "mean_f": 54.7
+        },
+        {
+          "q": 3,
+          "n": 76,
+          "mean_f": 53.1
+        },
+        {
+          "q": 4,
+          "n": 78,
+          "mean_f": 53.5
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "TRASTUZUMAB",
+          "n_signals": 6,
+          "mean_f": 84.0
+        },
+        {
+          "drug_name": "DENOSUMAB",
+          "n_signals": 3,
+          "mean_f": 81.3
+        },
+        {
+          "drug_name": "AMBRISENTAN",
+          "n_signals": 8,
+          "mean_f": 78.9
+        },
+        {
+          "drug_name": "ALENDRONIC ACID",
+          "n_signals": 9,
+          "mean_f": 78.8
+        },
+        {
+          "drug_name": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+          "n_signals": 5,
+          "mean_f": 78.3
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "TAFAMIDIS",
+          "n_signals": 6,
+          "mean_f": 24.6
+        },
+        {
+          "drug_name": "IXEKIZUMAB",
+          "n_signals": 3,
+          "mean_f": 26.3
+        },
+        {
+          "drug_name": "LEUPRORELIN",
+          "n_signals": 6,
+          "mean_f": 28.3
+        },
+        {
+          "drug_name": "ALLOPURINOL",
+          "n_signals": 11,
+          "mean_f": 29.4
+        },
+        {
+          "drug_name": "MAGNESIUM",
+          "n_signals": 7,
+          "mean_f": 29.8
+        }
+      ]
+    },
+    {
+      "soc": "renal",
+      "n_signals": 2045,
+      "n_drugs": 267,
+      "mean_f_pct": 52.9,
+      "std_f_pct": 17.3,
+      "mean_lr": 0.892,
+      "anti_regression_rho": 0.6,
+      "anti_regression_p": 0.2848,
+      "quintiles": [
+        {
+          "q": 0,
+          "n": 53,
+          "mean_f": 51.9
+        },
+        {
+          "q": 1,
+          "n": 53,
+          "mean_f": 48.0
+        },
+        {
+          "q": 2,
+          "n": 53,
+          "mean_f": 56.3
+        },
+        {
+          "q": 3,
+          "n": 53,
+          "mean_f": 53.2
+        },
+        {
+          "q": 4,
+          "n": 55,
+          "mean_f": 54.1
+        }
+      ],
+      "top_female_drugs": [
+        {
+          "drug_name": "TOFACITINIB",
+          "n_signals": 3,
+          "mean_f": 86.1
+        },
+        {
+          "drug_name": "BUPROPION",
+          "n_signals": 3,
+          "mean_f": 85.2
+        },
+        {
+          "drug_name": "OLAPARIB",
+          "n_signals": 4,
+          "mean_f": 85.0
+        },
+        {
+          "drug_name": "ABATACEPT",
+          "n_signals": 5,
+          "mean_f": 75.1
+        },
+        {
+          "drug_name": "ALENDRONIC ACID",
+          "n_signals": 4,
+          "mean_f": 75.1
+        }
+      ],
+      "top_male_drugs": [
+        {
+          "drug_name": "CANDESARTAN",
+          "n_signals": 3,
+          "mean_f": 22.5
+        },
+        {
+          "drug_name": "TAMSULOSIN",
+          "n_signals": 3,
+          "mean_f": 24.4
+        },
+        {
+          "drug_name": "RITONAVIR",
+          "n_signals": 6,
+          "mean_f": 25.1
+        },
+        {
+          "drug_name": "ATAZANAVIR",
+          "n_signals": 3,
+          "mean_f": 25.3
+        },
+        {
+          "drug_name": "DARUNAVIR",
+          "n_signals": 4,
+          "mean_f": 25.5
+        }
+      ]
+    }
+  ],
+  "seriousness_proxy": {
+    "n_serious": 3579,
+    "n_non_serious": 92702,
+    "serious_f_pct": 51.2,
+    "non_serious_f_pct": 58.3,
+    "serious_mean_lr": 0.927,
+    "non_serious_mean_lr": 0.989,
+    "mwu_p": 8.171e-83
+  },
+  "soc_correlation": {
+    "cardiac": {
+      "cardiac": 1.0,
+      "dermatologic": 0.25,
+      "endocrine": 0.253,
+      "gastrointestinal": 0.301,
+      "hematologic": 0.214,
+      "hepatic": 0.209,
+      "immune": 0.277,
+      "infectious": 0.265,
+      "metabolic": 0.273,
+      "musculoskeletal": 0.315,
+      "neurological": 0.255,
+      "ocular": 0.159,
+      "psychiatric": 0.195,
+      "renal": 0.303,
+      "respiratory": 0.347,
+      "vascular": 0.374
+    },
+    "dermatologic": {
+      "cardiac": 0.25,
+      "dermatologic": 1.0,
+      "endocrine": 0.224,
+      "gastrointestinal": 0.503,
+      "hematologic": 0.392,
+      "hepatic": 0.45,
+      "immune": 0.614,
+      "infectious": 0.443,
+      "metabolic": 0.47,
+      "musculoskeletal": 0.54,
+      "neurological": 0.233,
+      "ocular": 0.253,
+      "psychiatric": 0.37,
+      "renal": 0.234,
+      "respiratory": 0.462,
+      "vascular": 0.383
+    },
+    "endocrine": {
+      "cardiac": 0.253,
+      "dermatologic": 0.224,
+      "endocrine": 1.0,
+      "gastrointestinal": 0.26,
+      "hematologic": 0.186,
+      "hepatic": 0.294,
+      "immune": 0.309,
+      "infectious": 0.379,
+      "metabolic": 0.297,
+      "musculoskeletal": 0.278,
+      "neurological": 0.223,
+      "ocular": 0.325,
+      "psychiatric": 0.237,
+      "renal": 0.391,
+      "respiratory": 0.379,
+      "vascular": 0.311
+    },
+    "gastrointestinal": {
+      "cardiac": 0.301,
+      "dermatologic": 0.503,
+      "endocrine": 0.26,
+      "gastrointestinal": 1.0,
+      "hematologic": 0.405,
+      "hepatic": 0.483,
+      "immune": 0.601,
+      "infectious": 0.46,
+      "metabolic": 0.585,
+      "musculoskeletal": 0.569,
+      "neurological": 0.258,
+      "ocular": 0.292,
+      "psychiatric": 0.409,
+      "renal": 0.232,
+      "respiratory": 0.506,
+      "vascular": 0.416
+    },
+    "hematologic": {
+      "cardiac": 0.214,
+      "dermatologic": 0.392,
+      "endocrine": 0.186,
+      "gastrointestinal": 0.405,
+      "hematologic": 1.0,
+      "hepatic": 0.434,
+      "immune": 0.401,
+      "infectious": 0.384,
+      "metabolic": 0.404,
+      "musculoskeletal": 0.356,
+      "neurological": 0.226,
+      "ocular": 0.246,
+      "psychiatric": 0.241,
+      "renal": 0.336,
+      "respiratory": 0.357,
+      "vascular": 0.313
+    },
+    "hepatic": {
+      "cardiac": 0.209,
+      "dermatologic": 0.45,
+      "endocrine": 0.294,
+      "gastrointestinal": 0.483,
+      "hematologic": 0.434,
+      "hepatic": 1.0,
+      "immune": 0.434,
+      "infectious": 0.301,
+      "metabolic": 0.416,
+      "musculoskeletal": 0.444,
+      "neurological": 0.271,
+      "ocular": 0.228,
+      "psychiatric": 0.277,
+      "renal": 0.307,
+      "respiratory": 0.437,
+      "vascular": 0.28
+    },
+    "immune": {
+      "cardiac": 0.277,
+      "dermatologic": 0.614,
+      "endocrine": 0.309,
+      "gastrointestinal": 0.601,
+      "hematologic": 0.401,
+      "hepatic": 0.434,
+      "immune": 1.0,
+      "infectious": 0.538,
+      "metabolic": 0.528,
+      "musculoskeletal": 0.589,
+      "neurological": 0.206,
+      "ocular": 0.2,
+      "psychiatric": 0.243,
+      "renal": 0.188,
+      "respiratory": 0.532,
+      "vascular": 0.475
+    },
+    "infectious": {
+      "cardiac": 0.265,
+      "dermatologic": 0.443,
+      "endocrine": 0.379,
+      "gastrointestinal": 0.46,
+      "hematologic": 0.384,
+      "hepatic": 0.301,
+      "immune": 0.538,
+      "infectious": 1.0,
+      "metabolic": 0.467,
+      "musculoskeletal": 0.415,
+      "neurological": 0.21,
+      "ocular": 0.255,
+      "psychiatric": 0.28,
+      "renal": 0.332,
+      "respiratory": 0.514,
+      "vascular": 0.449
+    },
+    "metabolic": {
+      "cardiac": 0.273,
+      "dermatologic": 0.47,
+      "endocrine": 0.297,
+      "gastrointestinal": 0.585,
+      "hematologic": 0.404,
+      "hepatic": 0.416,
+      "immune": 0.528,
+      "infectious": 0.467,
+      "metabolic": 1.0,
+      "musculoskeletal": 0.495,
+      "neurological": 0.197,
+      "ocular": 0.083,
+      "psychiatric": 0.315,
+      "renal": 0.265,
+      "respiratory": 0.44,
+      "vascular": 0.428
+    },
+    "musculoskeletal": {
+      "cardiac": 0.315,
+      "dermatologic": 0.54,
+      "endocrine": 0.278,
+      "gastrointestinal": 0.569,
+      "hematologic": 0.356,
+      "hepatic": 0.444,
+      "immune": 0.589,
+      "infectious": 0.415,
+      "metabolic": 0.495,
+      "musculoskeletal": 1.0,
+      "neurological": 0.254,
+      "ocular": 0.299,
+      "psychiatric": 0.416,
+      "renal": 0.26,
+      "respiratory": 0.504,
+      "vascular": 0.397
+    },
+    "neurological": {
+      "cardiac": 0.255,
+      "dermatologic": 0.233,
+      "endocrine": 0.223,
+      "gastrointestinal": 0.258,
+      "hematologic": 0.226,
+      "hepatic": 0.271,
+      "immune": 0.206,
+      "infectious": 0.21,
+      "metabolic": 0.197,
+      "musculoskeletal": 0.254,
+      "neurological": 1.0,
+      "ocular": 0.205,
+      "psychiatric": 0.236,
+      "renal": 0.234,
+      "respiratory": 0.28,
+      "vascular": 0.173
+    },
+    "ocular": {
+      "cardiac": 0.159,
+      "dermatologic": 0.253,
+      "endocrine": 0.325,
+      "gastrointestinal": 0.292,
+      "hematologic": 0.246,
+      "hepatic": 0.228,
+      "immune": 0.2,
+      "infectious": 0.255,
+      "metabolic": 0.083,
+      "musculoskeletal": 0.299,
+      "neurological": 0.205,
+      "ocular": 1.0,
+      "psychiatric": 0.336,
+      "renal": 0.237,
+      "respiratory": 0.273,
+      "vascular": 0.168
+    },
+    "psychiatric": {
+      "cardiac": 0.195,
+      "dermatologic": 0.37,
+      "endocrine": 0.237,
+      "gastrointestinal": 0.409,
+      "hematologic": 0.241,
+      "hepatic": 0.277,
+      "immune": 0.243,
+      "infectious": 0.28,
+      "metabolic": 0.315,
+      "musculoskeletal": 0.416,
+      "neurological": 0.236,
+      "ocular": 0.336,
+      "psychiatric": 1.0,
+      "renal": 0.156,
+      "respiratory": 0.349,
+      "vascular": 0.276
+    },
+    "renal": {
+      "cardiac": 0.303,
+      "dermatologic": 0.234,
+      "endocrine": 0.391,
+      "gastrointestinal": 0.232,
+      "hematologic": 0.336,
+      "hepatic": 0.307,
+      "immune": 0.188,
+      "infectious": 0.332,
+      "metabolic": 0.265,
+      "musculoskeletal": 0.26,
+      "neurological": 0.234,
+      "ocular": 0.237,
+      "psychiatric": 0.156,
+      "renal": 1.0,
+      "respiratory": 0.29,
+      "vascular": 0.255
+    },
+    "respiratory": {
+      "cardiac": 0.347,
+      "dermatologic": 0.462,
+      "endocrine": 0.379,
+      "gastrointestinal": 0.506,
+      "hematologic": 0.357,
+      "hepatic": 0.437,
+      "immune": 0.532,
+      "infectious": 0.514,
+      "metabolic": 0.44,
+      "musculoskeletal": 0.504,
+      "neurological": 0.28,
+      "ocular": 0.273,
+      "psychiatric": 0.349,
+      "renal": 0.29,
+      "respiratory": 1.0,
+      "vascular": 0.445
+    },
+    "vascular": {
+      "cardiac": 0.374,
+      "dermatologic": 0.383,
+      "endocrine": 0.311,
+      "gastrointestinal": 0.416,
+      "hematologic": 0.313,
+      "hepatic": 0.28,
+      "immune": 0.475,
+      "infectious": 0.449,
+      "metabolic": 0.428,
+      "musculoskeletal": 0.397,
+      "neurological": 0.173,
+      "ocular": 0.168,
+      "psychiatric": 0.276,
+      "renal": 0.255,
+      "respiratory": 0.445,
+      "vascular": 1.0
+    }
+  },
+  "classification_coverage": {
+    "total_signals": 96281,
+    "classified": 36951,
+    "coverage_pct": 38.4
+  }
+}

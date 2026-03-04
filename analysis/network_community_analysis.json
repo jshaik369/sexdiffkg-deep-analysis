@@ -1,0 +1,1304 @@
+{
+  "drug_ae_overlap": {
+    "n_drugs_analyzed": 818,
+    "n_pairs": 11959,
+    "top_similar_pairs": [
+      {
+        "drug1": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "drug2": "ABACAVIR;LAMIVUDINE",
+        "jaccard": 0.433,
+        "shared_aes": 29,
+        "f_pct_1": 46.6,
+        "f_pct_2": 62.3,
+        "f_divergence": 15.6
+      },
+      {
+        "drug1": "CABOTEGRAVIR",
+        "drug2": "CABOTEGRAVIR;RILPIVIRINE",
+        "jaccard": 0.375,
+        "shared_aes": 15,
+        "f_pct_1": 29.6,
+        "f_pct_2": 31.6,
+        "f_divergence": 2.0
+      },
+      {
+        "drug1": "ABATACEPT",
+        "drug2": "CERTOLIZUMAB",
+        "jaccard": 0.348,
+        "shared_aes": 170,
+        "f_pct_1": 83.6,
+        "f_pct_2": 83.3,
+        "f_divergence": 0.3
+      },
+      {
+        "drug1": "ABACAVIR",
+        "drug2": "ABACAVIR;LAMIVUDINE",
+        "jaccard": 0.338,
+        "shared_aes": 24,
+        "f_pct_1": 64.6,
+        "f_pct_2": 61.7,
+        "f_divergence": 2.9
+      },
+      {
+        "drug1": "ABACAVIR",
+        "drug2": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "jaccard": 0.328,
+        "shared_aes": 21,
+        "f_pct_1": 59.5,
+        "f_pct_2": 44.0,
+        "f_divergence": 15.6
+      },
+      {
+        "drug1": "CODEINE",
+        "drug2": "CODEINE;PARACETAMOL",
+        "jaccard": 0.313,
+        "shared_aes": 79,
+        "f_pct_1": 82.3,
+        "f_pct_2": 84.4,
+        "f_divergence": 2.1
+      },
+      {
+        "drug1": "ATOMOXETINE",
+        "drug2": "CODEINE;PARACETAMOL",
+        "jaccard": 0.309,
+        "shared_aes": 58,
+        "f_pct_1": 81.2,
+        "f_pct_2": 87.7,
+        "f_divergence": 6.4
+      },
+      {
+        "drug1": "APREMILAST",
+        "drug2": "CERTOLIZUMAB",
+        "jaccard": 0.3,
+        "shared_aes": 122,
+        "f_pct_1": 85.4,
+        "f_pct_2": 89.9,
+        "f_divergence": 4.5
+      },
+      {
+        "drug1": "ATOMOXETINE",
+        "drug2": "CETIRIZINE",
+        "jaccard": 0.297,
+        "shared_aes": 80,
+        "f_pct_1": 73.5,
+        "f_pct_2": 84.7,
+        "f_divergence": 11.2
+      },
+      {
+        "drug1": "CELECOXIB",
+        "drug2": "CODEINE",
+        "jaccard": 0.292,
+        "shared_aes": 105,
+        "f_pct_1": 86.6,
+        "f_pct_2": 86.0,
+        "f_divergence": 0.5
+      },
+      {
+        "drug1": "BETAMETHASONE",
+        "drug2": "CALCIUM",
+        "jaccard": 0.288,
+        "shared_aes": 78,
+        "f_pct_1": 59.8,
+        "f_pct_2": 73.3,
+        "f_divergence": 13.5
+      },
+      {
+        "drug1": "ALENDRONIC ACID",
+        "drug2": "CALCIUM",
+        "jaccard": 0.285,
+        "shared_aes": 102,
+        "f_pct_1": 85.7,
+        "f_pct_2": 71.1,
+        "f_divergence": 14.7
+      },
+      {
+        "drug1": "CETIRIZINE HYDROCHLORIDE",
+        "drug2": "CETIRIZINE;PSEUDOEPHEDRINE",
+        "jaccard": 0.283,
+        "shared_aes": 13,
+        "f_pct_1": 76.9,
+        "f_pct_2": 88.0,
+        "f_divergence": 11.2
+      },
+      {
+        "drug1": "BEDAQUILINE",
+        "drug2": "CLOFAZIMINE",
+        "jaccard": 0.281,
+        "shared_aes": 16,
+        "f_pct_1": 51.6,
+        "f_pct_2": 54.3,
+        "f_divergence": 2.8
+      },
+      {
+        "drug1": "BETAMETHASONE",
+        "drug2": "CALCIUM;VITAMIN D3",
+        "jaccard": 0.281,
+        "shared_aes": 47,
+        "f_pct_1": 58.5,
+        "f_pct_2": 72.9,
+        "f_divergence": 14.4
+      },
+      {
+        "drug1": "BISACODYL",
+        "drug2": "CALCIUM;VITAMIN D, UNSPECIFIED",
+        "jaccard": 0.281,
+        "shared_aes": 18,
+        "f_pct_1": 36.7,
+        "f_pct_2": 43.0,
+        "f_divergence": 6.3
+      },
+      {
+        "drug1": "APREPITANT",
+        "drug2": "CHLORHEXIDINE",
+        "jaccard": 0.28,
+        "shared_aes": 26,
+        "f_pct_1": 84.2,
+        "f_pct_2": 88.5,
+        "f_divergence": 4.3
+      },
+      {
+        "drug1": "AZATHIOPRINE",
+        "drug2": "CELECOXIB",
+        "jaccard": 0.276,
+        "shared_aes": 132,
+        "f_pct_1": 80.2,
+        "f_pct_2": 86.7,
+        "f_divergence": 6.6
+      },
+      {
+        "drug1": "CELECOXIB",
+        "drug2": "CERTOLIZUMAB",
+        "jaccard": 0.275,
+        "shared_aes": 127,
+        "f_pct_1": 89.3,
+        "f_pct_2": 90.3,
+        "f_divergence": 1.0
+      },
+      {
+        "drug1": "CALCIUM",
+        "drug2": "CELECOXIB",
+        "jaccard": 0.274,
+        "shared_aes": 106,
+        "f_pct_1": 78.1,
+        "f_pct_2": 83.9,
+        "f_divergence": 5.8
+      }
+    ],
+    "most_divergent_sex": [
+      {
+        "drug1": "CABOTEGRAVIR",
+        "drug2": "CHLORHEXIDINE",
+        "jaccard": 0.129,
+        "shared_aes": 8,
+        "f_pct_1": 16.8,
+        "f_pct_2": 98.7,
+        "f_divergence": 81.9
+      },
+      {
+        "drug1": "CHLORHEXIDINE",
+        "drug2": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "jaccard": 0.06,
+        "shared_aes": 5,
+        "f_pct_1": 99.0,
+        "f_pct_2": 20.2,
+        "f_divergence": 78.8
+      },
+      {
+        "drug1": "ALENDRONIC ACID",
+        "drug2": "CABOTEGRAVIR",
+        "jaccard": 0.05,
+        "shared_aes": 13,
+        "f_pct_1": 96.4,
+        "f_pct_2": 23.6,
+        "f_divergence": 72.7
+      },
+      {
+        "drug1": "APREPITANT",
+        "drug2": "CABOTEGRAVIR",
+        "jaccard": 0.073,
+        "shared_aes": 8,
+        "f_pct_1": 89.7,
+        "f_pct_2": 17.4,
+        "f_divergence": 72.3
+      },
+      {
+        "drug1": "C1-INHIBITOR",
+        "drug2": "CABOTEGRAVIR",
+        "jaccard": 0.134,
+        "shared_aes": 11,
+        "f_pct_1": 89.6,
+        "f_pct_2": 18.8,
+        "f_divergence": 70.8
+      },
+      {
+        "drug1": "C1-INHIBITOR",
+        "drug2": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "jaccard": 0.067,
+        "shared_aes": 7,
+        "f_pct_1": 89.9,
+        "f_pct_2": 19.2,
+        "f_divergence": 70.7
+      },
+      {
+        "drug1": "ABATACEPT",
+        "drug2": "CABOTEGRAVIR",
+        "jaccard": 0.027,
+        "shared_aes": 10,
+        "f_pct_1": 95.5,
+        "f_pct_2": 25.2,
+        "f_divergence": 70.2
+      },
+      {
+        "drug1": "ALENDRONIC ACID",
+        "drug2": "CABOTEGRAVIR;RILPIVIRINE",
+        "jaccard": 0.023,
+        "shared_aes": 6,
+        "f_pct_1": 95.9,
+        "f_pct_2": 25.7,
+        "f_divergence": 70.2
+      },
+      {
+        "drug1": "AMINOSALICYLIC ACID",
+        "drug2": "CABOTEGRAVIR",
+        "jaccard": 0.072,
+        "shared_aes": 5,
+        "f_pct_1": 85.7,
+        "f_pct_2": 16.1,
+        "f_divergence": 69.6
+      },
+      {
+        "drug1": "CALCITRIOL",
+        "drug2": "CHLORHEXIDINE",
+        "jaccard": 0.134,
+        "shared_aes": 9,
+        "f_pct_1": 29.2,
+        "f_pct_2": 98.7,
+        "f_divergence": 69.4
+      },
+      {
+        "drug1": "ALENDRONIC ACID;VITAMIN D3",
+        "drug2": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "jaccard": 0.07,
+        "shared_aes": 5,
+        "f_pct_1": 87.0,
+        "f_pct_2": 18.1,
+        "f_divergence": 68.9
+      },
+      {
+        "drug1": "ABALOPARATIDE",
+        "drug2": "CABOTEGRAVIR",
+        "jaccard": 0.083,
+        "shared_aes": 5,
+        "f_pct_1": 94.9,
+        "f_pct_2": 26.5,
+        "f_divergence": 68.5
+      },
+      {
+        "drug1": "C1-INHIBITOR",
+        "drug2": "CALCITRIOL",
+        "jaccard": 0.165,
+        "shared_aes": 14,
+        "f_pct_1": 92.3,
+        "f_pct_2": 23.9,
+        "f_divergence": 68.3
+      },
+      {
+        "drug1": "ATAZANAVIR",
+        "drug2": "CETIRIZINE;PSEUDOEPHEDRINE",
+        "jaccard": 0.163,
+        "shared_aes": 7,
+        "f_pct_1": 30.8,
+        "f_pct_2": 98.7,
+        "f_divergence": 67.9
+      },
+      {
+        "drug1": "CABOTEGRAVIR",
+        "drug2": "CODEINE",
+        "jaccard": 0.072,
+        "shared_aes": 15,
+        "f_pct_1": 22.8,
+        "f_pct_2": 90.1,
+        "f_divergence": 67.3
+      },
+      {
+        "drug1": "CAFFEINE",
+        "drug2": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "jaccard": 0.086,
+        "shared_aes": 7,
+        "f_pct_1": 86.6,
+        "f_pct_2": 19.7,
+        "f_divergence": 66.9
+      },
+      {
+        "drug1": "CETIRIZINE;PSEUDOEPHEDRINE",
+        "drug2": "COCAINE",
+        "jaccard": 0.062,
+        "shared_aes": 5,
+        "f_pct_1": 98.5,
+        "f_pct_2": 31.6,
+        "f_divergence": 66.9
+      },
+      {
+        "drug1": "BOTULINUM TOXIN",
+        "drug2": "CABOTEGRAVIR",
+        "jaccard": 0.053,
+        "shared_aes": 8,
+        "f_pct_1": 85.9,
+        "f_pct_2": 19.0,
+        "f_divergence": 66.9
+      },
+      {
+        "drug1": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "drug2": "CODEINE",
+        "jaccard": 0.038,
+        "shared_aes": 9,
+        "f_pct_1": 23.7,
+        "f_pct_2": 90.5,
+        "f_divergence": 66.7
+      },
+      {
+        "drug1": "ABATACEPT",
+        "drug2": "CABOTEGRAVIR;RILPIVIRINE",
+        "jaccard": 0.014,
+        "shared_aes": 5,
+        "f_pct_1": 95.0,
+        "f_pct_2": 28.4,
+        "f_divergence": 66.6
+      }
+    ]
+  },
+  "ae_promiscuity": {
+    "top_50": [
+      {
+        "adverse_event": "Drug ineffective",
+        "n_drugs": 501,
+        "n_signals": 501,
+        "mean_f": 57.1,
+        "mean_lr": 0.916
+      },
+      {
+        "adverse_event": "Off label use",
+        "n_drugs": 445,
+        "n_signals": 445,
+        "mean_f": 59.4,
+        "mean_lr": 1.015
+      },
+      {
+        "adverse_event": "Condition aggravated",
+        "n_drugs": 392,
+        "n_signals": 392,
+        "mean_f": 51.6,
+        "mean_lr": 1.062
+      },
+      {
+        "adverse_event": "Vomiting",
+        "n_drugs": 362,
+        "n_signals": 362,
+        "mean_f": 63.2,
+        "mean_lr": 1.003
+      },
+      {
+        "adverse_event": "Dyspnoea",
+        "n_drugs": 349,
+        "n_signals": 349,
+        "mean_f": 60.8,
+        "mean_lr": 0.963
+      },
+      {
+        "adverse_event": "Nausea",
+        "n_drugs": 339,
+        "n_signals": 339,
+        "mean_f": 60.6,
+        "mean_lr": 0.969
+      },
+      {
+        "adverse_event": "Death",
+        "n_drugs": 337,
+        "n_signals": 337,
+        "mean_f": 46.1,
+        "mean_lr": 0.825
+      },
+      {
+        "adverse_event": "Fatigue",
+        "n_drugs": 332,
+        "n_signals": 332,
+        "mean_f": 69.2,
+        "mean_lr": 1.035
+      },
+      {
+        "adverse_event": "Headache",
+        "n_drugs": 327,
+        "n_signals": 327,
+        "mean_f": 68.0,
+        "mean_lr": 0.904
+      },
+      {
+        "adverse_event": "Pain",
+        "n_drugs": 327,
+        "n_signals": 327,
+        "mean_f": 72.2,
+        "mean_lr": 1.086
+      },
+      {
+        "adverse_event": "Pyrexia",
+        "n_drugs": 322,
+        "n_signals": 322,
+        "mean_f": 64.9,
+        "mean_lr": 1.009
+      },
+      {
+        "adverse_event": "Hypertension",
+        "n_drugs": 313,
+        "n_signals": 313,
+        "mean_f": 67.6,
+        "mean_lr": 1.08
+      },
+      {
+        "adverse_event": "Product use in unapproved indication",
+        "n_drugs": 304,
+        "n_signals": 304,
+        "mean_f": 58.7,
+        "mean_lr": 1.066
+      },
+      {
+        "adverse_event": "Rash",
+        "n_drugs": 301,
+        "n_signals": 301,
+        "mean_f": 72.1,
+        "mean_lr": 1.071
+      },
+      {
+        "adverse_event": "Drug hypersensitivity",
+        "n_drugs": 299,
+        "n_signals": 299,
+        "mean_f": 66.3,
+        "mean_lr": 1.113
+      },
+      {
+        "adverse_event": "Diarrhoea",
+        "n_drugs": 296,
+        "n_signals": 296,
+        "mean_f": 68.1,
+        "mean_lr": 0.89
+      },
+      {
+        "adverse_event": "Dizziness",
+        "n_drugs": 289,
+        "n_signals": 289,
+        "mean_f": 65.6,
+        "mean_lr": 0.885
+      },
+      {
+        "adverse_event": "Hypersensitivity",
+        "n_drugs": 281,
+        "n_signals": 281,
+        "mean_f": 69.7,
+        "mean_lr": 1.059
+      },
+      {
+        "adverse_event": "Drug intolerance",
+        "n_drugs": 279,
+        "n_signals": 279,
+        "mean_f": 64.0,
+        "mean_lr": 1.226
+      },
+      {
+        "adverse_event": "Malaise",
+        "n_drugs": 275,
+        "n_signals": 275,
+        "mean_f": 66.5,
+        "mean_lr": 0.946
+      },
+      {
+        "adverse_event": "Hypotension",
+        "n_drugs": 274,
+        "n_signals": 274,
+        "mean_f": 64.0,
+        "mean_lr": 0.901
+      },
+      {
+        "adverse_event": "Acute kidney injury",
+        "n_drugs": 267,
+        "n_signals": 267,
+        "mean_f": 49.8,
+        "mean_lr": 0.805
+      },
+      {
+        "adverse_event": "Pneumonia",
+        "n_drugs": 267,
+        "n_signals": 267,
+        "mean_f": 68.0,
+        "mean_lr": 1.112
+      },
+      {
+        "adverse_event": "Asthenia",
+        "n_drugs": 266,
+        "n_signals": 266,
+        "mean_f": 68.6,
+        "mean_lr": 0.932
+      },
+      {
+        "adverse_event": "Weight decreased",
+        "n_drugs": 261,
+        "n_signals": 261,
+        "mean_f": 67.6,
+        "mean_lr": 0.934
+      },
+      {
+        "adverse_event": "Abdominal pain",
+        "n_drugs": 261,
+        "n_signals": 261,
+        "mean_f": 60.1,
+        "mean_lr": 1.013
+      },
+      {
+        "adverse_event": "Anxiety",
+        "n_drugs": 260,
+        "n_signals": 260,
+        "mean_f": 61.1,
+        "mean_lr": 1.001
+      },
+      {
+        "adverse_event": "Product use issue",
+        "n_drugs": 256,
+        "n_signals": 256,
+        "mean_f": 66.4,
+        "mean_lr": 1.235
+      },
+      {
+        "adverse_event": "Toxicity to various agents",
+        "n_drugs": 255,
+        "n_signals": 255,
+        "mean_f": 57.3,
+        "mean_lr": 0.924
+      },
+      {
+        "adverse_event": "Fall",
+        "n_drugs": 250,
+        "n_signals": 250,
+        "mean_f": 65.0,
+        "mean_lr": 0.921
+      },
+      {
+        "adverse_event": "Constipation",
+        "n_drugs": 246,
+        "n_signals": 246,
+        "mean_f": 62.2,
+        "mean_lr": 1.109
+      },
+      {
+        "adverse_event": "Pruritus",
+        "n_drugs": 244,
+        "n_signals": 244,
+        "mean_f": 70.5,
+        "mean_lr": 0.942
+      },
+      {
+        "adverse_event": "Decreased appetite",
+        "n_drugs": 243,
+        "n_signals": 243,
+        "mean_f": 68.0,
+        "mean_lr": 0.963
+      },
+      {
+        "adverse_event": "Drug interaction",
+        "n_drugs": 243,
+        "n_signals": 243,
+        "mean_f": 56.6,
+        "mean_lr": 0.834
+      },
+      {
+        "adverse_event": "Anaemia",
+        "n_drugs": 242,
+        "n_signals": 242,
+        "mean_f": 57.4,
+        "mean_lr": 0.885
+      },
+      {
+        "adverse_event": "Overdose",
+        "n_drugs": 241,
+        "n_signals": 241,
+        "mean_f": 63.6,
+        "mean_lr": 0.981
+      },
+      {
+        "adverse_event": "General physical health deterioration",
+        "n_drugs": 239,
+        "n_signals": 239,
+        "mean_f": 59.7,
+        "mean_lr": 1.276
+      },
+      {
+        "adverse_event": "Therapeutic product effect incomplete",
+        "n_drugs": 238,
+        "n_signals": 238,
+        "mean_f": 59.8,
+        "mean_lr": 1.136
+      },
+      {
+        "adverse_event": "Arthralgia",
+        "n_drugs": 238,
+        "n_signals": 238,
+        "mean_f": 68.9,
+        "mean_lr": 0.936
+      },
+      {
+        "adverse_event": "Weight increased",
+        "n_drugs": 237,
+        "n_signals": 237,
+        "mean_f": 68.5,
+        "mean_lr": 1.055
+      },
+      {
+        "adverse_event": "Pain in extremity",
+        "n_drugs": 235,
+        "n_signals": 235,
+        "mean_f": 59.5,
+        "mean_lr": 0.974
+      },
+      {
+        "adverse_event": "Confusional state",
+        "n_drugs": 234,
+        "n_signals": 234,
+        "mean_f": 65.3,
+        "mean_lr": 1.115
+      },
+      {
+        "adverse_event": "Treatment failure",
+        "n_drugs": 233,
+        "n_signals": 233,
+        "mean_f": 61.3,
+        "mean_lr": 1.143
+      },
+      {
+        "adverse_event": "Abdominal discomfort",
+        "n_drugs": 229,
+        "n_signals": 229,
+        "mean_f": 73.3,
+        "mean_lr": 1.134
+      },
+      {
+        "adverse_event": "Insomnia",
+        "n_drugs": 224,
+        "n_signals": 224,
+        "mean_f": 62.6,
+        "mean_lr": 0.966
+      },
+      {
+        "adverse_event": "Erythema",
+        "n_drugs": 222,
+        "n_signals": 222,
+        "mean_f": 64.0,
+        "mean_lr": 0.93
+      },
+      {
+        "adverse_event": "Cough",
+        "n_drugs": 220,
+        "n_signals": 220,
+        "mean_f": 61.5,
+        "mean_lr": 0.94
+      },
+      {
+        "adverse_event": "Urticaria",
+        "n_drugs": 219,
+        "n_signals": 219,
+        "mean_f": 69.3,
+        "mean_lr": 1.014
+      },
+      {
+        "adverse_event": "Thrombocytopenia",
+        "n_drugs": 217,
+        "n_signals": 217,
+        "mean_f": 58.7,
+        "mean_lr": 0.99
+      },
+      {
+        "adverse_event": "Asthma",
+        "n_drugs": 217,
+        "n_signals": 217,
+        "mean_f": 65.6,
+        "mean_lr": 1.209
+      }
+    ]
+  },
+  "drug_hubs": {
+    "top_50": [
+      {
+        "drug_name": "PREDNISONE",
+        "n_aes": 926,
+        "n_signals": 926,
+        "mean_f": 63.8,
+        "mean_lr": 1.08
+      },
+      {
+        "drug_name": "METHOTREXATE",
+        "n_aes": 892,
+        "n_signals": 892,
+        "mean_f": 64.3,
+        "mean_lr": 0.967
+      },
+      {
+        "drug_name": "ADALIMUMAB",
+        "n_aes": 807,
+        "n_signals": 807,
+        "mean_f": 64.0,
+        "mean_lr": 0.879
+      },
+      {
+        "drug_name": "RITUXIMAB",
+        "n_aes": 755,
+        "n_signals": 755,
+        "mean_f": 66.4,
+        "mean_lr": 1.164
+      },
+      {
+        "drug_name": "INFLIXIMAB",
+        "n_aes": 623,
+        "n_signals": 623,
+        "mean_f": 64.9,
+        "mean_lr": 1.089
+      },
+      {
+        "drug_name": "ETANERCEPT",
+        "n_aes": 618,
+        "n_signals": 618,
+        "mean_f": 69.9,
+        "mean_lr": 0.984
+      },
+      {
+        "drug_name": "TACROLIMUS",
+        "n_aes": 572,
+        "n_signals": 572,
+        "mean_f": 48.0,
+        "mean_lr": 0.879
+      },
+      {
+        "drug_name": "PREDNISOLONE",
+        "n_aes": 542,
+        "n_signals": 542,
+        "mean_f": 60.1,
+        "mean_lr": 0.886
+      },
+      {
+        "drug_name": "DEXAMETHASONE",
+        "n_aes": 537,
+        "n_signals": 537,
+        "mean_f": 54.0,
+        "mean_lr": 0.858
+      },
+      {
+        "drug_name": "METHYLPREDNISOLONE",
+        "n_aes": 521,
+        "n_signals": 521,
+        "mean_f": 66.9,
+        "mean_lr": 1.156
+      },
+      {
+        "drug_name": "RISPERIDONE",
+        "n_aes": 518,
+        "n_signals": 518,
+        "mean_f": 47.7,
+        "mean_lr": 1.168
+      },
+      {
+        "drug_name": "TOCILIZUMAB",
+        "n_aes": 508,
+        "n_signals": 508,
+        "mean_f": 72.3,
+        "mean_lr": 1.186
+      },
+      {
+        "drug_name": "MYCOPHENOLIC ACID",
+        "n_aes": 507,
+        "n_signals": 507,
+        "mean_f": 60.4,
+        "mean_lr": 1.112
+      },
+      {
+        "drug_name": "PANTOPRAZOLE",
+        "n_aes": 501,
+        "n_signals": 501,
+        "mean_f": 63.5,
+        "mean_lr": 1.131
+      },
+      {
+        "drug_name": "CYCLOPHOSPHAMIDE",
+        "n_aes": 498,
+        "n_signals": 498,
+        "mean_f": 56.4,
+        "mean_lr": 0.908
+      },
+      {
+        "drug_name": "OXYCODONE",
+        "n_aes": 492,
+        "n_signals": 492,
+        "mean_f": 65.3,
+        "mean_lr": 1.332
+      },
+      {
+        "drug_name": "PARACETAMOL",
+        "n_aes": 487,
+        "n_signals": 487,
+        "mean_f": 67.6,
+        "mean_lr": 1.176
+      },
+      {
+        "drug_name": "SECUKINUMAB",
+        "n_aes": 456,
+        "n_signals": 456,
+        "mean_f": 66.8,
+        "mean_lr": 1.04
+      },
+      {
+        "drug_name": "MORPHINE",
+        "n_aes": 441,
+        "n_signals": 441,
+        "mean_f": 67.1,
+        "mean_lr": 1.117
+      },
+      {
+        "drug_name": "ACETYLSALICYLIC ACID",
+        "n_aes": 433,
+        "n_signals": 433,
+        "mean_f": 56.1,
+        "mean_lr": 0.983
+      },
+      {
+        "drug_name": "QUETIAPINE",
+        "n_aes": 426,
+        "n_signals": 426,
+        "mean_f": 63.1,
+        "mean_lr": 1.024
+      },
+      {
+        "drug_name": "AMLODIPINE",
+        "n_aes": 422,
+        "n_signals": 422,
+        "mean_f": 55.2,
+        "mean_lr": 0.961
+      },
+      {
+        "drug_name": "SALBUTAMOL",
+        "n_aes": 418,
+        "n_signals": 418,
+        "mean_f": 58.0,
+        "mean_lr": 1.084
+      },
+      {
+        "drug_name": "CICLOSPORIN",
+        "n_aes": 409,
+        "n_signals": 409,
+        "mean_f": 57.3,
+        "mean_lr": 0.9
+      },
+      {
+        "drug_name": "PREGABALIN",
+        "n_aes": 406,
+        "n_signals": 406,
+        "mean_f": 65.8,
+        "mean_lr": 1.006
+      },
+      {
+        "drug_name": "DICLOFENAC",
+        "n_aes": 401,
+        "n_signals": 401,
+        "mean_f": 68.8,
+        "mean_lr": 1.325
+      },
+      {
+        "drug_name": "METFORMIN",
+        "n_aes": 399,
+        "n_signals": 399,
+        "mean_f": 59.0,
+        "mean_lr": 0.954
+      },
+      {
+        "drug_name": "ATORVASTATIN",
+        "n_aes": 388,
+        "n_signals": 388,
+        "mean_f": 53.5,
+        "mean_lr": 0.957
+      },
+      {
+        "drug_name": "FUROSEMIDE",
+        "n_aes": 385,
+        "n_signals": 385,
+        "mean_f": 55.1,
+        "mean_lr": 0.966
+      },
+      {
+        "drug_name": "ZOLEDRONIC ACID",
+        "n_aes": 376,
+        "n_signals": 376,
+        "mean_f": 66.6,
+        "mean_lr": 0.852
+      },
+      {
+        "drug_name": "HYDROXYCHLOROQUINE",
+        "n_aes": 376,
+        "n_signals": 376,
+        "mean_f": 73.2,
+        "mean_lr": 1.3
+      },
+      {
+        "drug_name": "IBUPROFEN",
+        "n_aes": 372,
+        "n_signals": 372,
+        "mean_f": 63.8,
+        "mean_lr": 0.917
+      },
+      {
+        "drug_name": "LEFLUNOMIDE",
+        "n_aes": 370,
+        "n_signals": 370,
+        "mean_f": 73.2,
+        "mean_lr": 1.31
+      },
+      {
+        "drug_name": "RAMIPRIL",
+        "n_aes": 368,
+        "n_signals": 368,
+        "mean_f": 63.6,
+        "mean_lr": 1.209
+      },
+      {
+        "drug_name": "TRAMADOL",
+        "n_aes": 360,
+        "n_signals": 360,
+        "mean_f": 68.4,
+        "mean_lr": 1.119
+      },
+      {
+        "drug_name": "ABATACEPT",
+        "n_aes": 344,
+        "n_signals": 344,
+        "mean_f": 76.7,
+        "mean_lr": 1.342
+      },
+      {
+        "drug_name": "CIPROFLOXACIN",
+        "n_aes": 342,
+        "n_signals": 342,
+        "mean_f": 57.9,
+        "mean_lr": 0.897
+      },
+      {
+        "drug_name": "ARIPIPRAZOLE",
+        "n_aes": 342,
+        "n_signals": 342,
+        "mean_f": 52.2,
+        "mean_lr": 0.838
+      },
+      {
+        "drug_name": "INSULIN",
+        "n_aes": 339,
+        "n_signals": 339,
+        "mean_f": 52.9,
+        "mean_lr": 0.852
+      },
+      {
+        "drug_name": "VALPROIC ACID",
+        "n_aes": 339,
+        "n_signals": 339,
+        "mean_f": 48.0,
+        "mean_lr": 0.851
+      },
+      {
+        "drug_name": "ROSUVASTATIN",
+        "n_aes": 337,
+        "n_signals": 337,
+        "mean_f": 52.2,
+        "mean_lr": 0.952
+      },
+      {
+        "drug_name": "AZATHIOPRINE",
+        "n_aes": 337,
+        "n_signals": 337,
+        "mean_f": 65.4,
+        "mean_lr": 1.17
+      },
+      {
+        "drug_name": "OLANZAPINE",
+        "n_aes": 336,
+        "n_signals": 336,
+        "mean_f": 49.8,
+        "mean_lr": 0.909
+      },
+      {
+        "drug_name": "GOLIMUMAB",
+        "n_aes": 334,
+        "n_signals": 334,
+        "mean_f": 78.4,
+        "mean_lr": 1.376
+      },
+      {
+        "drug_name": "GABAPENTIN",
+        "n_aes": 333,
+        "n_signals": 333,
+        "mean_f": 53.5,
+        "mean_lr": 1.011
+      },
+      {
+        "drug_name": "TOFACITINIB",
+        "n_aes": 331,
+        "n_signals": 331,
+        "mean_f": 77.0,
+        "mean_lr": 1.045
+      },
+      {
+        "drug_name": "NAPROXEN",
+        "n_aes": 331,
+        "n_signals": 331,
+        "mean_f": 70.6,
+        "mean_lr": 1.233
+      },
+      {
+        "drug_name": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+        "n_aes": 327,
+        "n_signals": 327,
+        "mean_f": 64.5,
+        "mean_lr": 1.329
+      },
+      {
+        "drug_name": "DOXORUBICIN",
+        "n_aes": 325,
+        "n_signals": 325,
+        "mean_f": 59.2,
+        "mean_lr": 0.895
+      },
+      {
+        "drug_name": "RANITIDINE",
+        "n_aes": 324,
+        "n_signals": 324,
+        "mean_f": 71.6,
+        "mean_lr": 1.459
+      }
+    ]
+  },
+  "sex_modularity": {
+    "crosstab": {
+      "M-biased": {
+        "M-biased": 4.07,
+        "neutral": 5.61,
+        "F-biased": 6.4
+      },
+      "neutral": {
+        "M-biased": 7.93,
+        "neutral": 13.32,
+        "F-biased": 14.89
+      },
+      "F-biased": {
+        "M-biased": 8.46,
+        "neutral": 14.88,
+        "F-biased": 24.44
+      }
+    },
+    "interpretation": "If sex-bias is modular, diagonal should be highest"
+  },
+  "drug_sex_profile_similarity": {
+    "most_similar": [
+      {
+        "drug1": "AMIODARONE",
+        "drug2": "AMIODARONE HYDROCHLORIDE",
+        "rho": 0.947
+      },
+      {
+        "drug1": "ABACAVIR;LAMIVUDINE",
+        "drug2": "ALBENDAZOLE",
+        "rho": 0.927
+      },
+      {
+        "drug1": "ABACAVIR",
+        "drug2": "ABACAVIR;LAMIVUDINE",
+        "rho": 0.921
+      },
+      {
+        "drug1": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "drug2": "ABACAVIR;LAMIVUDINE",
+        "rho": 0.906
+      },
+      {
+        "drug1": "ATEZOLIZUMAB",
+        "drug2": "AXICABTAGENE CILOLEUCEL",
+        "rho": 0.895
+      },
+      {
+        "drug1": "AZATHIOPRINE",
+        "drug2": "BELIMUMAB",
+        "rho": 0.886
+      },
+      {
+        "drug1": "ALENDRONIC ACID",
+        "drug2": "ALENDRONIC ACID;VITAMIN D3",
+        "rho": 0.873
+      },
+      {
+        "drug1": "ALEMTUZUMAB",
+        "drug2": "BEDAQUILINE",
+        "rho": 0.866
+      },
+      {
+        "drug1": "AMBRISENTAN",
+        "drug2": "AZACITIDINE",
+        "rho": 0.855
+      },
+      {
+        "drug1": "ABATACEPT",
+        "drug2": "ADALIMUMAB",
+        "rho": 0.83
+      },
+      {
+        "drug1": "ALBENDAZOLE",
+        "drug2": "AMINOSALICYLIC ACID",
+        "rho": 0.824
+      },
+      {
+        "drug1": "AMLODIPINE;VALSARTAN",
+        "drug2": "ATENOLOL",
+        "rho": 0.82
+      },
+      {
+        "drug1": "ACYCLOVIR",
+        "drug2": "ALEMTUZUMAB",
+        "rho": 0.8
+      },
+      {
+        "drug1": "ALEMTUZUMAB",
+        "drug2": "BLEOMYCIN",
+        "rho": 0.8
+      },
+      {
+        "drug1": "ACETYLCYSTEINE",
+        "drug2": "ACETYLSALICYLIC ACID",
+        "rho": 0.797
+      },
+      {
+        "drug1": "ALENDRONATE SODIUM",
+        "drug2": "ALENDRONIC ACID",
+        "rho": 0.797
+      },
+      {
+        "drug1": "ALEMTUZUMAB",
+        "drug2": "BARICITINIB",
+        "rho": 0.794
+      },
+      {
+        "drug1": "ANTITHYMOCYTE IMMUNOGLOBULIN",
+        "drug2": "AXITINIB",
+        "rho": 0.794
+      },
+      {
+        "drug1": "ATORVASTATIN",
+        "drug2": "ATORVASTATIN CALCIUM",
+        "rho": 0.788
+      },
+      {
+        "drug1": "ALENDRONIC ACID",
+        "drug2": "BARICITINIB",
+        "rho": 0.785
+      }
+    ],
+    "most_opposite": [
+      {
+        "drug1": "AMIKACIN",
+        "drug2": "AXITINIB",
+        "rho": -0.867
+      },
+      {
+        "drug1": "ATOMOXETINE",
+        "drug2": "BIMATOPROST",
+        "rho": -0.83
+      },
+      {
+        "drug1": "ADALIMUMAB",
+        "drug2": "ALTEPLASE",
+        "rho": -0.807
+      },
+      {
+        "drug1": "APREPITANT",
+        "drug2": "BEDAQUILINE",
+        "rho": -0.806
+      },
+      {
+        "drug1": "ACICLOVIR",
+        "drug2": "ALENDRONIC ACID;VITAMIN D3",
+        "rho": -0.804
+      },
+      {
+        "drug1": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "drug2": "ATORVASTATIN CALCIUM",
+        "rho": -0.782
+      },
+      {
+        "drug1": "AZACITIDINE",
+        "drug2": "AZITHROMYCIN ANHYDROUS",
+        "rho": -0.77
+      },
+      {
+        "drug1": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "drug2": "BEDAQUILINE",
+        "rho": -0.758
+      },
+      {
+        "drug1": "APREPITANT",
+        "drug2": "ATAZANAVIR",
+        "rho": -0.758
+      },
+      {
+        "drug1": "ALLOPURINOL",
+        "drug2": "BINIMETINIB",
+        "rho": -0.709
+      },
+      {
+        "drug1": "APREPITANT",
+        "drug2": "AXITINIB",
+        "rho": -0.699
+      },
+      {
+        "drug1": "AZATHIOPRINE",
+        "drug2": "BICTEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "rho": -0.692
+      },
+      {
+        "drug1": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "drug2": "ALEMTUZUMAB",
+        "rho": -0.691
+      },
+      {
+        "drug1": "ACICLOVIR",
+        "drug2": "BINIMETINIB",
+        "rho": -0.682
+      },
+      {
+        "drug1": "AZATHIOPRINE",
+        "drug2": "BINIMETINIB",
+        "rho": -0.682
+      },
+      {
+        "drug1": "ALEMTUZUMAB",
+        "drug2": "BINIMETINIB",
+        "rho": -0.673
+      },
+      {
+        "drug1": "ACETAMINOPHEN",
+        "drug2": "AXITINIB",
+        "rho": -0.671
+      },
+      {
+        "drug1": "ALEMTUZUMAB",
+        "drug2": "ASPARAGINASE",
+        "rho": -0.664
+      },
+      {
+        "drug1": "AZACITIDINE",
+        "drug2": "BETAMETHASONE",
+        "rho": -0.664
+      },
+      {
+        "drug1": "AZATHIOPRINE",
+        "drug2": "BENRALIZUMAB",
+        "rho": -0.664
+      }
+    ]
+  }
+}
