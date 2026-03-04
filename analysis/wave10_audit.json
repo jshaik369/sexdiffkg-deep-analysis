@@ -1,0 +1,40 @@
+{
+  "audit": "wave10_comprehensive",
+  "timestamp": "2026-03-04",
+  "json_analyses": {
+    "total": 70,
+    "valid": 69,
+    "invalid": 1,
+    "total_data_points": 61113
+  },
+  "figures": {
+    "png": 51,
+    "pdf": 51,
+    "missing_pdfs": []
+  },
+  "papers": 8,
+  "tsvs": 28,
+  "signals_verified": {
+    "total": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "pct_female": 53.8,
+    "unique_drugs": 2178,
+    "unique_aes": 5069
+  },
+  "key_findings_verified": {
+    "death_pct_female": 73.1,
+    "cardiac_pct_female": 65.6,
+    "volume_gradient_monotonic": true,
+    "quintile_pcts": [
+      42.9,
+      46.4,
+      51.3,
+      55.2,
+      73.3
+    ]
+  },
+  "issues": [
+    "cluster_profiles.json: not a dict"
+  ]
+}

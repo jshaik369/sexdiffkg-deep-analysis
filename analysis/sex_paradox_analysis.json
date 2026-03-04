@@ -1,0 +1,434 @@
+{
+  "analysis": "sex_paradox_analysis",
+  "overall_correlation": {
+    "spearman_rho": -0.2152,
+    "p_value": 6.924476141724183e-13,
+    "n_drugs_tested": 1090
+  },
+  "paradox_drugs": [
+    {
+      "drug": "ADALIMUMAB",
+      "pct_f_reports": 82.8,
+      "pct_f_signals": 38.2,
+      "gap_pp": 44.6,
+      "n_signals": 807
+    },
+    {
+      "drug": "ZOLEDRONIC ACID",
+      "pct_f_reports": 70.4,
+      "pct_f_signals": 26.3,
+      "gap_pp": 44.1,
+      "n_signals": 376
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "pct_f_reports": 77.3,
+      "pct_f_signals": 20.5,
+      "gap_pp": 56.8,
+      "n_signals": 322
+    },
+    {
+      "drug": "OMALIZUMAB",
+      "pct_f_reports": 72.8,
+      "pct_f_signals": 27.8,
+      "gap_pp": 45.0,
+      "n_signals": 306
+    },
+    {
+      "drug": "DOCETAXEL",
+      "pct_f_reports": 75.3,
+      "pct_f_signals": 11.2,
+      "gap_pp": 64.1,
+      "n_signals": 304
+    },
+    {
+      "drug": "DUPILUMAB",
+      "pct_f_reports": 61.6,
+      "pct_f_signals": 17.0,
+      "gap_pp": 44.6,
+      "n_signals": 289
+    },
+    {
+      "drug": "ONDANSETRON",
+      "pct_f_reports": 65.3,
+      "pct_f_signals": 38.9,
+      "gap_pp": 26.5,
+      "n_signals": 283
+    },
+    {
+      "drug": "FLUTICASONE;SALMETEROL",
+      "pct_f_reports": 62.8,
+      "pct_f_signals": 35.7,
+      "gap_pp": 27.1,
+      "n_signals": 252
+    },
+    {
+      "drug": "BUDESONIDE;FORMOTEROL",
+      "pct_f_reports": 60.9,
+      "pct_f_signals": 37.6,
+      "gap_pp": 23.3,
+      "n_signals": 245
+    },
+    {
+      "drug": "DENOSUMAB",
+      "pct_f_reports": 80.5,
+      "pct_f_signals": 23.1,
+      "gap_pp": 57.5,
+      "n_signals": 234
+    },
+    {
+      "drug": "FLUTICASONE",
+      "pct_f_reports": 65.2,
+      "pct_f_signals": 33.5,
+      "gap_pp": 31.7,
+      "n_signals": 221
+    },
+    {
+      "drug": "FLUOXETINE",
+      "pct_f_reports": 64.1,
+      "pct_f_signals": 36.3,
+      "gap_pp": 27.8,
+      "n_signals": 204
+    },
+    {
+      "drug": "IRON",
+      "pct_f_reports": 67.4,
+      "pct_f_signals": 28.8,
+      "gap_pp": 38.6,
+      "n_signals": 198
+    },
+    {
+      "drug": "METHOTREXATE SODIUM",
+      "pct_f_reports": 71.0,
+      "pct_f_signals": 8.6,
+      "gap_pp": 62.4,
+      "n_signals": 186
+    },
+    {
+      "drug": "UPADACITINIB",
+      "pct_f_reports": 70.4,
+      "pct_f_signals": 24.3,
+      "gap_pp": 46.1,
+      "n_signals": 181
+    },
+    {
+      "drug": "CARBAMAZEPINE",
+      "pct_f_reports": 64.7,
+      "pct_f_signals": 38.9,
+      "gap_pp": 25.8,
+      "n_signals": 180
+    },
+    {
+      "drug": "CLARITHROMYCIN",
+      "pct_f_reports": 69.1,
+      "pct_f_signals": 37.1,
+      "gap_pp": 31.9,
+      "n_signals": 175
+    },
+    {
+      "drug": "INTERFERON BETA-1A",
+      "pct_f_reports": 77.7,
+      "pct_f_signals": 12.9,
+      "gap_pp": 64.8,
+      "n_signals": 170
+    },
+    {
+      "drug": "TREPROSTINIL",
+      "pct_f_reports": 75.8,
+      "pct_f_signals": 32.1,
+      "gap_pp": 43.6,
+      "n_signals": 165
+    },
+    {
+      "drug": "OXYBATE SODIUM",
+      "pct_f_reports": 71.3,
+      "pct_f_signals": 29.8,
+      "gap_pp": 41.5,
+      "n_signals": 161
+    },
+    {
+      "drug": "FINGOLIMOD",
+      "pct_f_reports": 75.7,
+      "pct_f_signals": 19.5,
+      "gap_pp": 56.2,
+      "n_signals": 159
+    },
+    {
+      "drug": "SEMAGLUTIDE",
+      "pct_f_reports": 67.0,
+      "pct_f_signals": 31.6,
+      "gap_pp": 35.4,
+      "n_signals": 152
+    },
+    {
+      "drug": "NATALIZUMAB",
+      "pct_f_reports": 75.0,
+      "pct_f_signals": 22.7,
+      "gap_pp": 52.3,
+      "n_signals": 141
+    },
+    {
+      "drug": "FUMARIC ACID",
+      "pct_f_reports": 74.1,
+      "pct_f_signals": 14.4,
+      "gap_pp": 59.7,
+      "n_signals": 139
+    },
+    {
+      "drug": "OCRELIZUMAB",
+      "pct_f_reports": 73.9,
+      "pct_f_signals": 28.7,
+      "gap_pp": 45.3,
+      "n_signals": 136
+    },
+    {
+      "drug": "EVOLOCUMAB",
+      "pct_f_reports": 61.4,
+      "pct_f_signals": 19.1,
+      "gap_pp": 42.3,
+      "n_signals": 131
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "pct_f_reports": 61.5,
+      "pct_f_signals": 35.4,
+      "gap_pp": 26.1,
+      "n_signals": 130
+    },
+    {
+      "drug": "AMBRISENTAN",
+      "pct_f_reports": 75.6,
+      "pct_f_signals": 32.8,
+      "gap_pp": 42.8,
+      "n_signals": 125
+    },
+    {
+      "drug": "PROPRANOLOL",
+      "pct_f_reports": 61.3,
+      "pct_f_signals": 27.6,
+      "gap_pp": 33.6,
+      "n_signals": 123
+    },
+    {
+      "drug": "NICOTINE",
+      "pct_f_reports": 62.7,
+      "pct_f_signals": 24.8,
+      "gap_pp": 37.9,
+      "n_signals": 117
+    }
+  ],
+  "reverse_paradox_drugs": [
+    {
+      "drug": "RISPERIDONE",
+      "pct_f_reports": 28.5,
+      "pct_f_signals": 92.9,
+      "gap_pp": 64.3,
+      "n_signals": 518
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "pct_f_reports": 23.6,
+      "pct_f_signals": 69.7,
+      "gap_pp": 46.1,
+      "n_signals": 294
+    },
+    {
+      "drug": "NIVOLUMAB",
+      "pct_f_reports": 37.0,
+      "pct_f_signals": 66.8,
+      "gap_pp": 29.8,
+      "n_signals": 238
+    },
+    {
+      "drug": "SOMATROPIN",
+      "pct_f_reports": 39.5,
+      "pct_f_signals": 62.8,
+      "gap_pp": 23.4,
+      "n_signals": 218
+    },
+    {
+      "drug": "IPILIMUMAB",
+      "pct_f_reports": 38.4,
+      "pct_f_signals": 75.8,
+      "gap_pp": 37.4,
+      "n_signals": 161
+    },
+    {
+      "drug": "SACUBITRIL;VALSARTAN",
+      "pct_f_reports": 35.7,
+      "pct_f_signals": 67.5,
+      "gap_pp": 31.8,
+      "n_signals": 157
+    },
+    {
+      "drug": "HEPARIN",
+      "pct_f_reports": 38.3,
+      "pct_f_signals": 63.9,
+      "gap_pp": 25.5,
+      "n_signals": 144
+    },
+    {
+      "drug": "SUNITINIB",
+      "pct_f_reports": 38.2,
+      "pct_f_signals": 65.6,
+      "gap_pp": 27.4,
+      "n_signals": 122
+    },
+    {
+      "drug": "TENOFOVIR",
+      "pct_f_reports": 31.5,
+      "pct_f_signals": 64.0,
+      "gap_pp": 32.5,
+      "n_signals": 114
+    },
+    {
+      "drug": "CABOZANTINIB",
+      "pct_f_reports": 32.8,
+      "pct_f_signals": 67.0,
+      "gap_pp": 34.2,
+      "n_signals": 112
+    },
+    {
+      "drug": "NOREPINEPHRINE",
+      "pct_f_reports": 36.1,
+      "pct_f_signals": 64.8,
+      "gap_pp": 28.7,
+      "n_signals": 88
+    },
+    {
+      "drug": "SORAFENIB",
+      "pct_f_reports": 31.3,
+      "pct_f_signals": 80.3,
+      "gap_pp": 49.0,
+      "n_signals": 76
+    },
+    {
+      "drug": "SOFOSBUVIR",
+      "pct_f_reports": 38.1,
+      "pct_f_signals": 81.3,
+      "gap_pp": 43.3,
+      "n_signals": 75
+    },
+    {
+      "drug": "COCAINE",
+      "pct_f_reports": 35.9,
+      "pct_f_signals": 73.8,
+      "gap_pp": 37.9,
+      "n_signals": 65
+    },
+    {
+      "drug": "TAMSULOSIN",
+      "pct_f_reports": 12.6,
+      "pct_f_signals": 80.8,
+      "gap_pp": 68.2,
+      "n_signals": 52
+    },
+    {
+      "drug": "EFAVIRENZ",
+      "pct_f_reports": 35.1,
+      "pct_f_signals": 63.5,
+      "gap_pp": 28.3,
+      "n_signals": 52
+    },
+    {
+      "drug": "TESTOSTERONE",
+      "pct_f_reports": 9.3,
+      "pct_f_signals": 73.9,
+      "gap_pp": 64.6,
+      "n_signals": 46
+    },
+    {
+      "drug": "LOXAPINE",
+      "pct_f_reports": 38.2,
+      "pct_f_signals": 66.7,
+      "gap_pp": 28.5,
+      "n_signals": 45
+    },
+    {
+      "drug": "CANNABIS SPP",
+      "pct_f_reports": 35.2,
+      "pct_f_signals": 79.5,
+      "gap_pp": 44.4,
+      "n_signals": 44
+    },
+    {
+      "drug": "DIAMORPHINE",
+      "pct_f_reports": 32.5,
+      "pct_f_signals": 82.9,
+      "gap_pp": 50.4,
+      "n_signals": 41
+    },
+    {
+      "drug": "RAMUCIRUMAB",
+      "pct_f_reports": 38.1,
+      "pct_f_signals": 80.0,
+      "gap_pp": 41.9,
+      "n_signals": 40
+    },
+    {
+      "drug": "DEVICE, UNSPECIFIED",
+      "pct_f_reports": 33.0,
+      "pct_f_signals": 79.5,
+      "gap_pp": 46.4,
+      "n_signals": 39
+    },
+    {
+      "drug": "FACTOR VIII",
+      "pct_f_reports": 6.8,
+      "pct_f_signals": 73.7,
+      "gap_pp": 66.9,
+      "n_signals": 38
+    },
+    {
+      "drug": "VASOPRESSIN",
+      "pct_f_reports": 31.0,
+      "pct_f_signals": 67.6,
+      "gap_pp": 36.5,
+      "n_signals": 37
+    },
+    {
+      "drug": "EPLERENONE",
+      "pct_f_reports": 33.6,
+      "pct_f_signals": 73.0,
+      "gap_pp": 39.4,
+      "n_signals": 37
+    },
+    {
+      "drug": "DACLATASVIR",
+      "pct_f_reports": 38.0,
+      "pct_f_signals": 81.1,
+      "gap_pp": 43.1,
+      "n_signals": 37
+    },
+    {
+      "drug": "STAVUDINE",
+      "pct_f_reports": 39.3,
+      "pct_f_signals": 68.0,
+      "gap_pp": 28.7,
+      "n_signals": 25
+    },
+    {
+      "drug": "LEVOFOLINIC ACID",
+      "pct_f_reports": 36.8,
+      "pct_f_signals": 60.9,
+      "gap_pp": 24.0,
+      "n_signals": 23
+    },
+    {
+      "drug": "ENFORTUMAB VEDOTIN",
+      "pct_f_reports": 28.6,
+      "pct_f_signals": 73.9,
+      "gap_pp": 45.3,
+      "n_signals": 23
+    },
+    {
+      "drug": "TAFAMIDIS",
+      "pct_f_reports": 25.7,
+      "pct_f_signals": 86.4,
+      "gap_pp": 60.6,
+      "n_signals": 22
+    }
+  ],
+  "n_paradox": 133,
+  "n_reverse_paradox": 32
+}
