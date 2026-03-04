@@ -1,0 +1,1153 @@
+{
+  "drug_profiles": {
+    "SEMAGLUTIDE": {
+      "n_signals": 152,
+      "f_pct": 67.0,
+      "f_higher_pct": 31.6,
+      "n_f_higher": 48,
+      "n_m_higher": 104,
+      "lr_mean": 0.76,
+      "lr_median": 0.684,
+      "lr_std": 0.246,
+      "report_q25": 34,
+      "report_q75": 91,
+      "top_female_aes": [
+        {
+          "adverse_event": "Counterfeit product administered",
+          "log_ratio": 1.5923329174771261
+        },
+        {
+          "adverse_event": "Device leakage",
+          "log_ratio": 1.4436163584300608
+        },
+        {
+          "adverse_event": "Suspected counterfeit product",
+          "log_ratio": 1.3980701523853412
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Cholecystitis chronic",
+          "log_ratio": -1.6218442365534806
+        },
+        {
+          "adverse_event": "Metastases to liver",
+          "log_ratio": -1.51992742113113
+        },
+        {
+          "adverse_event": "Aggression",
+          "log_ratio": -1.3808313501756133
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          52.1,
+          53.0,
+          62.3,
+          66.0,
+          70.7
+        ]
+      }
+    },
+    "TIRZEPATIDE": {
+      "n_signals": 95,
+      "f_pct": 71.7,
+      "f_higher_pct": 8.4,
+      "n_f_higher": 8,
+      "n_m_higher": 87,
+      "lr_mean": 0.703,
+      "lr_median": 0.65,
+      "lr_std": 0.207,
+      "report_q25": 41,
+      "report_q75": 152,
+      "top_female_aes": [
+        {
+          "adverse_event": "Lymphadenopathy",
+          "log_ratio": 1.0508291325494503
+        },
+        {
+          "adverse_event": "Hot flush",
+          "log_ratio": 0.9307530602521348
+        },
+        {
+          "adverse_event": "Product administered at inappropriate site",
+          "log_ratio": 0.9020887725502653
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Sleep disorder due to general medical condition, insomnia type",
+          "log_ratio": -1.5614410892687083
+        },
+        {
+          "adverse_event": "Small intestinal obstruction",
+          "log_ratio": -1.3867912852751445
+        },
+        {
+          "adverse_event": "Bowel movement irregularity",
+          "log_ratio": -1.3675664869696984
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          57.4,
+          60.4,
+          65.6,
+          69.0,
+          71.7
+        ]
+      }
+    },
+    "PEMBROLIZUMAB": {
+      "n_signals": 309,
+      "f_pct": 56.6,
+      "f_higher_pct": 73.1,
+      "n_f_higher": 226,
+      "n_m_higher": 83,
+      "lr_mean": 0.866,
+      "lr_median": 0.803,
+      "lr_std": 0.318,
+      "report_q25": 38,
+      "report_q75": 130,
+      "top_female_aes": [
+        {
+          "adverse_event": "Immune-mediated hyperthyroidism",
+          "log_ratio": 2.316655085786138
+        },
+        {
+          "adverse_event": "Immune-mediated endocrinopathy",
+          "log_ratio": 2.1839935433433846
+        },
+        {
+          "adverse_event": "Immune-mediated cystitis",
+          "log_ratio": 2.151134214002102
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "C-reactive protein abnormal",
+          "log_ratio": -2.0366772586035564
+        },
+        {
+          "adverse_event": "Psoriatic arthropathy",
+          "log_ratio": -1.6917239316331447
+        },
+        {
+          "adverse_event": "Sjogren's syndrome",
+          "log_ratio": -1.4532051222837175
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 0.8,
+        "p": 0.10408803866182788,
+        "quintiles": [
+          54.0,
+          52.9,
+          54.7,
+          56.4,
+          55.2
+        ]
+      }
+    },
+    "NIVOLUMAB": {
+      "n_signals": 238,
+      "f_pct": 37.0,
+      "f_higher_pct": 66.8,
+      "n_f_higher": 159,
+      "n_m_higher": 79,
+      "lr_mean": 0.828,
+      "lr_median": 0.77,
+      "lr_std": 0.271,
+      "report_q25": 33,
+      "report_q75": 102,
+      "top_female_aes": [
+        {
+          "adverse_event": "Urinary tract obstruction",
+          "log_ratio": 1.7836890158746659
+        },
+        {
+          "adverse_event": "Aplasia pure red cell",
+          "log_ratio": 1.6726169660376393
+        },
+        {
+          "adverse_event": "Engraftment syndrome",
+          "log_ratio": 1.633827058156283
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Psoriatic arthropathy",
+          "log_ratio": -1.6574685663910724
+        },
+        {
+          "adverse_event": "Colitis microscopic",
+          "log_ratio": -1.5261983505220338
+        },
+        {
+          "adverse_event": "Pelvic pain",
+          "log_ratio": -1.5175911994746767
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": -1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          47.7,
+          43.3,
+          39.6,
+          36.7,
+          36.7
+        ]
+      }
+    },
+    "ADALIMUMAB": {
+      "n_signals": 807,
+      "f_pct": 82.8,
+      "f_higher_pct": 38.2,
+      "n_f_higher": 308,
+      "n_m_higher": 499,
+      "lr_mean": 0.879,
+      "lr_median": 0.738,
+      "lr_std": 0.457,
+      "report_q25": 44,
+      "report_q75": 328,
+      "top_female_aes": [
+        {
+          "adverse_event": "Pemphigus",
+          "log_ratio": 4.742840780858185
+        },
+        {
+          "adverse_event": "Glossodynia",
+          "log_ratio": 3.8047488670521474
+        },
+        {
+          "adverse_event": "Lip dry",
+          "log_ratio": 3.3512775347698014
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Acne cystic",
+          "log_ratio": -3.1113177273944386
+        },
+        {
+          "adverse_event": "Post procedural discomfort",
+          "log_ratio": -2.712751645361904
+        },
+        {
+          "adverse_event": "Medical device pain",
+          "log_ratio": -2.354683447573465
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          50.9,
+          57.3,
+          62.0,
+          67.3,
+          82.0
+        ]
+      }
+    },
+    "METHOTREXATE": {
+      "n_signals": 892,
+      "f_pct": 84.8,
+      "f_higher_pct": 48.5,
+      "n_f_higher": 433,
+      "n_m_higher": 459,
+      "lr_mean": 0.967,
+      "lr_median": 0.815,
+      "lr_std": 0.517,
+      "report_q25": 48,
+      "report_q75": 407,
+      "top_female_aes": [
+        {
+          "adverse_event": "Glossodynia",
+          "log_ratio": 4.744840614648506
+        },
+        {
+          "adverse_event": "Pemphigus",
+          "log_ratio": 4.370921860017574
+        },
+        {
+          "adverse_event": "Helicobacter infection",
+          "log_ratio": 4.050525988249729
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Apparent death",
+          "log_ratio": -3.16302223380099
+        },
+        {
+          "adverse_event": "Chondropathy",
+          "log_ratio": -2.4249690913637387
+        },
+        {
+          "adverse_event": "Onychoclasis",
+          "log_ratio": -2.063906463635479
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          49.0,
+          55.9,
+          58.8,
+          72.3,
+          85.4
+        ]
+      }
+    },
+    "OXYCODONE": {
+      "n_signals": 492,
+      "f_pct": 75.4,
+      "f_higher_pct": 85.0,
+      "n_f_higher": 418,
+      "n_m_higher": 74,
+      "lr_mean": 1.332,
+      "lr_median": 0.943,
+      "lr_std": 0.951,
+      "report_q25": 53,
+      "report_q75": 649,
+      "top_female_aes": [
+        {
+          "adverse_event": "Infusion related reaction",
+          "log_ratio": 5.49607360941596
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": 5.396185812256093
+        },
+        {
+          "adverse_event": "Blister",
+          "log_ratio": 5.055572366021432
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -3.3227454653242154
+        },
+        {
+          "adverse_event": "Ligament sprain",
+          "log_ratio": -1.2957291827486819
+        },
+        {
+          "adverse_event": "Burns second degree",
+          "log_ratio": -1.1895499553841793
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          53.5,
+          56.6,
+          58.7,
+          72.5,
+          84.7
+        ]
+      }
+    },
+    "PREGABALIN": {
+      "n_signals": 406,
+      "f_pct": 77.6,
+      "f_higher_pct": 53.9,
+      "n_f_higher": 219,
+      "n_m_higher": 187,
+      "lr_mean": 1.006,
+      "lr_median": 0.842,
+      "lr_std": 0.488,
+      "report_q25": 49,
+      "report_q75": 382,
+      "top_female_aes": [
+        {
+          "adverse_event": "Obesity",
+          "log_ratio": 2.97533522577911
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": 2.865693115200499
+        },
+        {
+          "adverse_event": "Psoriatic arthropathy",
+          "log_ratio": 2.823441564607168
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Full blood count abnormal",
+          "log_ratio": -2.6508991844592638
+        },
+        {
+          "adverse_event": "Breath sounds abnormal",
+          "log_ratio": -2.6361680878056752
+        },
+        {
+          "adverse_event": "Pelvic pain",
+          "log_ratio": -2.3705092272304564
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          49.6,
+          55.2,
+          68.2,
+          71.9,
+          83.7
+        ]
+      }
+    },
+    "LEVOTHYROXINE": {
+      "n_signals": 322,
+      "f_pct": 77.3,
+      "f_higher_pct": 20.5,
+      "n_f_higher": 66,
+      "n_m_higher": 256,
+      "lr_mean": 1.144,
+      "lr_median": 0.99,
+      "lr_std": 0.583,
+      "report_q25": 54,
+      "report_q75": 320,
+      "top_female_aes": [
+        {
+          "adverse_event": "Depressed level of consciousness",
+          "log_ratio": 2.14955327192555
+        },
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": 1.5013337895219758
+        },
+        {
+          "adverse_event": "Angina pectoris",
+          "log_ratio": 1.4220914567593952
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Neurological symptom",
+          "log_ratio": -3.9141194067922296
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -3.4262198070330414
+        },
+        {
+          "adverse_event": "Burns second degree",
+          "log_ratio": -3.1549831387021916
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          54.9,
+          63.9,
+          65.4,
+          73.6,
+          79.5
+        ]
+      }
+    },
+    "ALENDRONIC ACID": {
+      "n_signals": 241,
+      "f_pct": 96.3,
+      "f_higher_pct": 44.4,
+      "n_f_higher": 107,
+      "n_m_higher": 134,
+      "lr_mean": 1.447,
+      "lr_median": 1.235,
+      "lr_std": 0.863,
+      "report_q25": 125,
+      "report_q75": 1762,
+      "top_female_aes": [
+        {
+          "adverse_event": "Swelling",
+          "log_ratio": 3.0935037714377867
+        },
+        {
+          "adverse_event": "Blister",
+          "log_ratio": 3.0240709304091973
+        },
+        {
+          "adverse_event": "Injury",
+          "log_ratio": 2.708326973368336
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Vasculitis",
+          "log_ratio": -4.913095871825798
+        },
+        {
+          "adverse_event": "Eosinophilic granulomatosis with polyangiitis",
+          "log_ratio": -4.857251934154963
+        },
+        {
+          "adverse_event": "Neuritis",
+          "log_ratio": -4.642166407272686
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          64.2,
+          73.2,
+          85.9,
+          96.0,
+          98.3
+        ]
+      }
+    },
+    "RITUXIMAB": {
+      "n_signals": 755,
+      "f_pct": 85.6,
+      "f_higher_pct": 66.6,
+      "n_f_higher": 503,
+      "n_m_higher": 252,
+      "lr_mean": 1.164,
+      "lr_median": 0.937,
+      "lr_std": 0.688,
+      "report_q25": 63,
+      "report_q75": 654,
+      "top_female_aes": [
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": 4.559055650143672
+        },
+        {
+          "adverse_event": "Obesity",
+          "log_ratio": 4.334857675477055
+        },
+        {
+          "adverse_event": "Irritable bowel syndrome",
+          "log_ratio": 4.142286112765884
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Chondropathy",
+          "log_ratio": -2.5551277879349183
+        },
+        {
+          "adverse_event": "Apparent death",
+          "log_ratio": -2.5207893159368506
+        },
+        {
+          "adverse_event": "Osteosclerosis",
+          "log_ratio": -2.160036274388546
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          47.6,
+          53.4,
+          65.9,
+          77.7,
+          87.3
+        ]
+      }
+    },
+    "SERTRALINE": {
+      "n_signals": 302,
+      "f_pct": 62.0,
+      "f_higher_pct": 42.1,
+      "n_f_higher": 127,
+      "n_m_higher": 175,
+      "lr_mean": 0.93,
+      "lr_median": 0.794,
+      "lr_std": 0.443,
+      "report_q25": 46,
+      "report_q75": 136,
+      "top_female_aes": [
+        {
+          "adverse_event": "Abnormal weight gain",
+          "log_ratio": 3.042992987854461
+        },
+        {
+          "adverse_event": "Galactorrhoea",
+          "log_ratio": 2.311032405489153
+        },
+        {
+          "adverse_event": "Staphylococcal infection",
+          "log_ratio": 2.1583798680728163
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Maternal exposure during pregnancy",
+          "log_ratio": -3.341872799621804
+        },
+        {
+          "adverse_event": "Maternal exposure timing unspecified",
+          "log_ratio": -3.226662132754939
+        },
+        {
+          "adverse_event": "Nodule",
+          "log_ratio": -2.7760979462266655
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          48.9,
+          56.9,
+          59.8,
+          61.0,
+          64.3
+        ]
+      }
+    },
+    "METFORMIN": {
+      "n_signals": 399,
+      "f_pct": 64.9,
+      "f_higher_pct": 62.4,
+      "n_f_higher": 249,
+      "n_m_higher": 150,
+      "lr_mean": 0.954,
+      "lr_median": 0.799,
+      "lr_std": 0.444,
+      "report_q25": 53,
+      "report_q75": 204,
+      "top_female_aes": [
+        {
+          "adverse_event": "Sinus disorder",
+          "log_ratio": 2.4230335395561813
+        },
+        {
+          "adverse_event": "Therapeutic product effect decreased",
+          "log_ratio": 2.3202655298195243
+        },
+        {
+          "adverse_event": "Sensory loss",
+          "log_ratio": 2.137308688055795
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Abortion spontaneous",
+          "log_ratio": -3.580755692607997
+        },
+        {
+          "adverse_event": "Neurological symptom",
+          "log_ratio": -2.945591539449647
+        },
+        {
+          "adverse_event": "Vasculitis",
+          "log_ratio": -2.803519314679211
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          53.2,
+          53.5,
+          55.4,
+          60.8,
+          71.6
+        ]
+      }
+    },
+    "ATORVASTATIN": {
+      "n_signals": 388,
+      "f_pct": 64.0,
+      "f_higher_pct": 46.4,
+      "n_f_higher": 180,
+      "n_m_higher": 208,
+      "lr_mean": 0.957,
+      "lr_median": 0.793,
+      "lr_std": 0.491,
+      "report_q25": 48,
+      "report_q75": 159,
+      "top_female_aes": [
+        {
+          "adverse_event": "Gynaecomastia",
+          "log_ratio": 3.3229628046850297
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": 3.3183718127034725
+        },
+        {
+          "adverse_event": "Macular degeneration",
+          "log_ratio": 3.1809165906985033
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Pulmonary hypertension",
+          "log_ratio": -2.1579768560290207
+        },
+        {
+          "adverse_event": "Tenderness",
+          "log_ratio": -2.1360667459269282
+        },
+        {
+          "adverse_event": "Raynaud's phenomenon",
+          "log_ratio": -1.928088291016038
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 0.9,
+        "p": 0.03738607346849874,
+        "quintiles": [
+          48.7,
+          46.4,
+          50.2,
+          54.4,
+          67.2
+        ]
+      }
+    },
+    "WARFARIN": {
+      "n_signals": 220,
+      "f_pct": 42.4,
+      "f_higher_pct": 56.8,
+      "n_f_higher": 125,
+      "n_m_higher": 95,
+      "lr_mean": 0.929,
+      "lr_median": 0.805,
+      "lr_std": 0.423,
+      "report_q25": 40,
+      "report_q75": 148,
+      "top_female_aes": [
+        {
+          "adverse_event": "Pneumonia aspiration",
+          "log_ratio": 2.7661279719964056
+        },
+        {
+          "adverse_event": "Coma",
+          "log_ratio": 2.0384945254604294
+        },
+        {
+          "adverse_event": "Prothrombin time abnormal",
+          "log_ratio": 2.0103145192759646
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -2.3432916004229005
+        },
+        {
+          "adverse_event": "Blood cholesterol increased",
+          "log_ratio": -2.264734361291675
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -2.260339931150539
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": -0.8,
+        "p": 0.10408803866182788,
+        "quintiles": [
+          54.7,
+          56.1,
+          49.0,
+          35.9,
+          40.8
+        ]
+      }
+    },
+    "RIVAROXABAN": {
+      "n_signals": 243,
+      "f_pct": 51.5,
+      "f_higher_pct": 68.7,
+      "n_f_higher": 167,
+      "n_m_higher": 76,
+      "lr_mean": 0.828,
+      "lr_median": 0.709,
+      "lr_std": 0.367,
+      "report_q25": 37,
+      "report_q75": 106,
+      "top_female_aes": [
+        {
+          "adverse_event": "Abnormal weight gain",
+          "log_ratio": 2.631511586683626
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.2568457826349784
+        },
+        {
+          "adverse_event": "Spontaneous haemorrhage",
+          "log_ratio": 1.7597853081336738
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Deep vein thrombosis postoperative",
+          "log_ratio": -2.9423766806339753
+        },
+        {
+          "adverse_event": "Sensation of foreign body",
+          "log_ratio": -2.8347238238003682
+        },
+        {
+          "adverse_event": "Secretion discharge",
+          "log_ratio": -1.924810084481141
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 0.1,
+        "p": 0.8728885715695383,
+        "quintiles": [
+          50.6,
+          54.7,
+          55.1,
+          53.4,
+          52.8
+        ]
+      }
+    },
+    "APIXABAN": {
+      "n_signals": 275,
+      "f_pct": 52.0,
+      "f_higher_pct": 58.5,
+      "n_f_higher": 161,
+      "n_m_higher": 114,
+      "lr_mean": 0.867,
+      "lr_median": 0.71,
+      "lr_std": 0.459,
+      "report_q25": 43,
+      "report_q75": 130,
+      "top_female_aes": [
+        {
+          "adverse_event": "Blood test abnormal",
+          "log_ratio": 3.1577423895201093
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.7066283238356332
+        },
+        {
+          "adverse_event": "Spontaneous haemorrhage",
+          "log_ratio": 2.640908415042166
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Mite allergy",
+          "log_ratio": -3.2102538339968945
+        },
+        {
+          "adverse_event": "Nodule",
+          "log_ratio": -3.1245887327706994
+        },
+        {
+          "adverse_event": "Normochromic normocytic anaemia",
+          "log_ratio": -2.5029665200119373
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": -0.3,
+        "p": 0.6238376647810728,
+        "quintiles": [
+          50.9,
+          54.2,
+          57.6,
+          51.2,
+          49.2
+        ]
+      }
+    },
+    "IBRUTINIB": {
+      "n_signals": 186,
+      "f_pct": 41.3,
+      "f_higher_pct": 64.5,
+      "n_f_higher": 120,
+      "n_m_higher": 66,
+      "lr_mean": 0.743,
+      "lr_median": 0.657,
+      "lr_std": 0.287,
+      "report_q25": 35,
+      "report_q75": 95,
+      "top_female_aes": [
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.7419531339553824
+        },
+        {
+          "adverse_event": "Neurological symptom",
+          "log_ratio": 1.857048327001509
+        },
+        {
+          "adverse_event": "Diffuse large B-cell lymphoma recurrent",
+          "log_ratio": 1.7933602741331074
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": -1.5439565123737358
+        },
+        {
+          "adverse_event": "Folliculitis",
+          "log_ratio": -1.270831144224708
+        },
+        {
+          "adverse_event": "Decreased immune responsiveness",
+          "log_ratio": -1.1711854679580331
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": -0.9,
+        "p": 0.03738607346849874,
+        "quintiles": [
+          49.8,
+          43.8,
+          43.2,
+          43.8,
+          39.5
+        ]
+      }
+    },
+    "PIRFENIDONE": {
+      "n_signals": 79,
+      "f_pct": 36.7,
+      "f_higher_pct": 44.3,
+      "n_f_higher": 35,
+      "n_m_higher": 44,
+      "lr_mean": 0.741,
+      "lr_median": 0.716,
+      "lr_std": 0.187,
+      "report_q25": 36,
+      "report_q75": 100,
+      "top_female_aes": [
+        {
+          "adverse_event": "Hyponatraemia",
+          "log_ratio": 1.2036240255951944
+        },
+        {
+          "adverse_event": "Haemorrhoids",
+          "log_ratio": 1.100844742510641
+        },
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": 1.081592693538955
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Feeling cold",
+          "log_ratio": -1.3844010178267907
+        },
+        {
+          "adverse_event": "Seasonal allergy",
+          "log_ratio": -1.0174886142281476
+        },
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -0.9956861316642871
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": -0.7,
+        "p": 0.1881204043741873,
+        "quintiles": [
+          52.7,
+          42.9,
+          35.5,
+          35.0,
+          36.6
+        ]
+      }
+    },
+    "TOFACITINIB": {
+      "n_signals": 331,
+      "f_pct": 91.8,
+      "f_higher_pct": 51.4,
+      "n_f_higher": 170,
+      "n_m_higher": 161,
+      "lr_mean": 1.045,
+      "lr_median": 0.895,
+      "lr_std": 0.531,
+      "report_q25": 62,
+      "report_q75": 1066,
+      "top_female_aes": [
+        {
+          "adverse_event": "Glossodynia",
+          "log_ratio": 3.5035037894542738
+        },
+        {
+          "adverse_event": "Folliculitis",
+          "log_ratio": 3.479461664615803
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": 3.4467325684765577
+        }
+      ],
+      "top_male_aes": [
+        {
+          "adverse_event": "Apparent death",
+          "log_ratio": -3.096973016076798
+        },
+        {
+          "adverse_event": "Neoplasm progression",
+          "log_ratio": -2.1034486874784504
+        },
+        {
+          "adverse_event": "Stent placement",
+          "log_ratio": -2.067830696659248
+        }
+      ],
+      "micro_anti_regression": {
+        "rho": 1.0,
+        "p": 1.4042654220543672e-24,
+        "quintiles": [
+          55.8,
+          67.0,
+          80.1,
+          88.2,
+          93.9
+        ]
+      }
+    }
+  },
+  "reversal_candidates": [],
+  "stability_ranking": [
+    {
+      "drug": "TIRZEPATIDE",
+      "cv": 0.179,
+      "n_signals": 95,
+      "f_pct": 71.7
+    },
+    {
+      "drug": "TOFACITINIB",
+      "cv": 0.241,
+      "n_signals": 331,
+      "f_pct": 91.8
+    },
+    {
+      "drug": "PEMBROLIZUMAB",
+      "cv": 0.244,
+      "n_signals": 309,
+      "f_pct": 56.6
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "cv": 0.244,
+      "n_signals": 241,
+      "f_pct": 96.3
+    },
+    {
+      "drug": "NIVOLUMAB",
+      "cv": 0.246,
+      "n_signals": 238,
+      "f_pct": 37.0
+    },
+    {
+      "drug": "SEMAGLUTIDE",
+      "cv": 0.26,
+      "n_signals": 152,
+      "f_pct": 67.0
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "cv": 0.27,
+      "n_signals": 322,
+      "f_pct": 77.3
+    },
+    {
+      "drug": "IBRUTINIB",
+      "cv": 0.275,
+      "n_signals": 186,
+      "f_pct": 41.3
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "cv": 0.283,
+      "n_signals": 243,
+      "f_pct": 51.5
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "cv": 0.284,
+      "n_signals": 807,
+      "f_pct": 82.8
+    },
+    {
+      "drug": "OXYCODONE",
+      "cv": 0.314,
+      "n_signals": 492,
+      "f_pct": 75.4
+    },
+    {
+      "drug": "SERTRALINE",
+      "cv": 0.321,
+      "n_signals": 302,
+      "f_pct": 62.0
+    },
+    {
+      "drug": "METHOTREXATE",
+      "cv": 0.334,
+      "n_signals": 892,
+      "f_pct": 84.8
+    },
+    {
+      "drug": "PREGABALIN",
+      "cv": 0.341,
+      "n_signals": 406,
+      "f_pct": 77.6
+    },
+    {
+      "drug": "APIXABAN",
+      "cv": 0.347,
+      "n_signals": 275,
+      "f_pct": 52.0
+    },
+    {
+      "drug": "RITUXIMAB",
+      "cv": 0.357,
+      "n_signals": 755,
+      "f_pct": 85.6
+    },
+    {
+      "drug": "METFORMIN",
+      "cv": 0.362,
+      "n_signals": 399,
+      "f_pct": 64.9
+    },
+    {
+      "drug": "PIRFENIDONE",
+      "cv": 0.374,
+      "n_signals": 79,
+      "f_pct": 36.7
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "cv": 0.399,
+      "n_signals": 388,
+      "f_pct": 64.0
+    },
+    {
+      "drug": "WARFARIN",
+      "cv": 0.413,
+      "n_signals": 220,
+      "f_pct": 42.4
+    }
+  ],
+  "micro_ar_summary": {
+    "n_tested": 20,
+    "n_positive": 15,
+    "n_significant": 15,
+    "pct_positive": 75.0
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "pairs": [
+    {
+      "drug1": "IBUPROFEN",
+      "drug2": "PARACETAMOL",
+      "label": "NSAID + APAP",
+      "f_pct1": 70.3,
+      "f_pct2": 87.0,
+      "divergence_pp": 16.7,
+      "shared_aes": 157,
+      "ae_correlation_rho": 0.707,
+      "ae_correlation_p": 4.133117750421894e-25
+    },
+    {
+      "drug1": "METFORMIN",
+      "drug2": "EMPAGLIFLOZIN",
+      "label": "Metformin + SGLT2i",
+      "f_pct1": 64.9,
+      "f_pct2": 49.9,
+      "divergence_pp": 14.9,
+      "shared_aes": 34,
+      "ae_correlation_rho": 0.162,
+      "ae_correlation_p": 0.3591497942894889
+    },
+    {
+      "drug1": "SERTRALINE",
+      "drug2": "QUETIAPINE",
+      "label": "SSRI + Atypical AP",
+      "f_pct1": 62.0,
+      "f_pct2": 74.3,
+      "divergence_pp": 12.4,
+      "shared_aes": 122,
+      "ae_correlation_rho": 0.389,
+      "ae_correlation_p": 9.278659408600807e-06
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "PARACETAMOL",
+      "label": "Opioid + APAP",
+      "f_pct1": 75.4,
+      "f_pct2": 87.0,
+      "divergence_pp": 11.6,
+      "shared_aes": 209,
+      "ae_correlation_rho": 0.801,
+      "ae_correlation_p": 5.008916465394151e-48
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "PREDNISONE",
+      "label": "HCQ + Steroid",
+      "f_pct1": 91.4,
+      "f_pct2": 82.6,
+      "divergence_pp": 8.8,
+      "shared_aes": 193,
+      "ae_correlation_rho": 0.728,
+      "ae_correlation_p": 3.367763607822223e-33
+    },
+    {
+      "drug1": "INSULIN",
+      "drug2": "METFORMIN",
+      "label": "Insulin + Metformin",
+      "f_pct1": 56.3,
+      "f_pct2": 64.9,
+      "divergence_pp": 8.6,
+      "shared_aes": 93,
+      "ae_correlation_rho": 0.517,
+      "ae_correlation_p": 1.1320595183722977e-07
+    },
+    {
+      "drug1": "TRAMADOL",
+      "drug2": "PARACETAMOL",
+      "label": "Weak opioid + APAP",
+      "f_pct1": 80.5,
+      "f_pct2": 87.0,
+      "divergence_pp": 6.5,
+      "shared_aes": 167,
+      "ae_correlation_rho": 0.815,
+      "ae_correlation_p": 5.032006725576622e-41
+    },
+    {
+      "drug1": "METOPROLOL",
+      "drug2": "LISINOPRIL",
+      "label": "BB + ACEi",
+      "f_pct1": 61.9,
+      "f_pct2": 67.0,
+      "divergence_pp": 5.1,
+      "shared_aes": 73,
+      "ae_correlation_rho": 0.099,
+      "ae_correlation_p": 0.40469583548294796
+    },
+    {
+      "drug1": "LITHIUM",
+      "drug2": "VALPROIC ACID",
+      "label": "Mood stabilizer combo",
+      "f_pct1": 53.3,
+      "f_pct2": 48.3,
+      "divergence_pp": 5.0,
+      "shared_aes": 43,
+      "ae_correlation_rho": 0.552,
+      "ae_correlation_p": 0.00012288778361830178
+    },
+    {
+      "drug1": "LISINOPRIL",
+      "drug2": "HYDROCHLOROTHIAZIDE",
+      "label": "ACEi + Thiazide",
+      "f_pct1": 67.0,
+      "f_pct2": 63.4,
+      "divergence_pp": 3.6,
+      "shared_aes": 51,
+      "ae_correlation_rho": 0.061,
+      "ae_correlation_p": 0.669070742267024
+    },
+    {
+      "drug1": "VENLAFAXINE",
+      "drug2": "QUETIAPINE",
+      "label": "SNRI + Atypical AP",
+      "f_pct1": 70.8,
+      "f_pct2": 74.3,
+      "divergence_pp": 3.5,
+      "shared_aes": 101,
+      "ae_correlation_rho": 0.506,
+      "ae_correlation_p": 6.834975682783053e-08
+    },
+    {
+      "drug1": "ESCITALOPRAM",
+      "drug2": "ARIPIPRAZOLE",
+      "label": "SSRI + AP augment",
+      "f_pct1": 52.0,
+      "f_pct2": 55.3,
+      "divergence_pp": 3.3,
+      "shared_aes": 60,
+      "ae_correlation_rho": 0.384,
+      "ae_correlation_p": 0.002473538326585081
+    },
+    {
+      "drug1": "WARFARIN",
+      "drug2": "AMIODARONE",
+      "label": "VKA + Antiarrhythmic",
+      "f_pct1": 42.4,
+      "f_pct2": 39.5,
+      "divergence_pp": 2.9,
+      "shared_aes": 63,
+      "ae_correlation_rho": 0.686,
+      "ae_correlation_p": 5.37211515413261e-10
+    },
+    {
+      "drug1": "METFORMIN",
+      "drug2": "SEMAGLUTIDE",
+      "label": "Metformin + GLP-1",
+      "f_pct1": 64.9,
+      "f_pct2": 67.0,
+      "divergence_pp": 2.2,
+      "shared_aes": 36,
+      "ae_correlation_rho": 0.14,
+      "ae_correlation_p": 0.4144465321028499
+    },
+    {
+      "drug1": "METHOTREXATE",
+      "drug2": "PREDNISONE",
+      "label": "MTX + Steroid",
+      "f_pct1": 84.8,
+      "f_pct2": 82.6,
+      "divergence_pp": 2.1,
+      "shared_aes": 366,
+      "ae_correlation_rho": 0.802,
+      "ae_correlation_p": 2.4728570445839464e-83
+    },
+    {
+      "drug1": "PREGABALIN",
+      "drug2": "DULOXETINE",
+      "label": "Gabapentinoid + SNRI",
+      "f_pct1": 77.6,
+      "f_pct2": 75.7,
+      "divergence_pp": 2.0,
+      "shared_aes": 75,
+      "ae_correlation_rho": 0.434,
+      "ae_correlation_p": 9.84731736401324e-05
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "METHOTREXATE",
+      "label": "Anti-TNF + MTX",
+      "f_pct1": 82.8,
+      "f_pct2": 84.8,
+      "divergence_pp": 2.0,
+      "shared_aes": 265,
+      "ae_correlation_rho": 0.868,
+      "ae_correlation_p": 4.5804899389275053e-82
+    },
+    {
+      "drug1": "AMLODIPINE",
+      "drug2": "ATORVASTATIN",
+      "label": "CCB + Statin",
+      "f_pct1": 62.5,
+      "f_pct2": 64.0,
+      "divergence_pp": 1.5,
+      "shared_aes": 138,
+      "ae_correlation_rho": 0.476,
+      "ae_correlation_p": 3.492882960577468e-09
+    },
+    {
+      "drug1": "RIVAROXABAN",
+      "drug2": "CLOPIDOGREL",
+      "label": "DOAC + Antiplatelet",
+      "f_pct1": 51.5,
+      "f_pct2": 52.1,
+      "divergence_pp": 0.6,
+      "shared_aes": 67,
+      "ae_correlation_rho": 0.056,
+      "ae_correlation_p": 0.6534822738276717
+    },
+    {
+      "drug1": "FUROSEMIDE",
+      "drug2": "SPIRONOLACTONE",
+      "label": "Loop + K-sparing",
+      "f_pct1": 60.6,
+      "f_pct2": 60.2,
+      "divergence_pp": 0.5,
+      "shared_aes": 77,
+      "ae_correlation_rho": 0.45,
+      "ae_correlation_p": 4.0472366065995714e-05
+    },
+    {
+      "drug1": "METOPROLOL",
+      "drug2": "AMLODIPINE",
+      "label": "BB + CCB",
+      "f_pct1": 61.9,
+      "f_pct2": 62.5,
+      "divergence_pp": 0.5,
+      "shared_aes": 105,
+      "ae_correlation_rho": 0.379,
+      "ae_correlation_p": 6.746103801495189e-05
+    },
+    {
+      "drug1": "BUDESONIDE",
+      "drug2": "FORMOTEROL",
+      "label": "ICS + LABA",
+      "f_pct1": 60.5,
+      "f_pct2": 60.1,
+      "divergence_pp": 0.4,
+      "shared_aes": 23,
+      "ae_correlation_rho": 0.41,
+      "ae_correlation_p": 0.05196140477253415
+    },
+    {
+      "drug1": "METFORMIN",
+      "drug2": "SITAGLIPTIN",
+      "label": "Metformin + DPP4i",
+      "f_pct1": 64.9,
+      "f_pct2": 64.7,
+      "divergence_pp": 0.2,
+      "shared_aes": 61,
+      "ae_correlation_rho": 0.567,
+      "ae_correlation_p": 1.8647229257212074e-06
+    }
+  ],
+  "concordance_stats": {
+    "n_concordant": 19,
+    "n_divergent": 4,
+    "mean_divergence": 5.0,
+    "median_divergence": 3.3,
+    "mean_ae_correlation": 0.478
+  },
+  "divergent_pairs": [
+    {
+      "drug1": "METFORMIN",
+      "drug2": "EMPAGLIFLOZIN",
+      "label": "Metformin + SGLT2i",
+      "f_pct1": 64.9,
+      "f_pct2": 49.9,
+      "divergence_pp": 14.9,
+      "shared_aes": 34,
+      "ae_correlation_rho": 0.162,
+      "ae_correlation_p": 0.3591497942894889
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "PARACETAMOL",
+      "label": "Opioid + APAP",
+      "f_pct1": 75.4,
+      "f_pct2": 87.0,
+      "divergence_pp": 11.6,
+      "shared_aes": 209,
+      "ae_correlation_rho": 0.801,
+      "ae_correlation_p": 5.008916465394151e-48
+    },
+    {
+      "drug1": "IBUPROFEN",
+      "drug2": "PARACETAMOL",
+      "label": "NSAID + APAP",
+      "f_pct1": 70.3,
+      "f_pct2": 87.0,
+      "divergence_pp": 16.7,
+      "shared_aes": 157,
+      "ae_correlation_rho": 0.707,
+      "ae_correlation_p": 4.133117750421894e-25
+    },
+    {
+      "drug1": "SERTRALINE",
+      "drug2": "QUETIAPINE",
+      "label": "SSRI + Atypical AP",
+      "f_pct1": 62.0,
+      "f_pct2": 74.3,
+      "divergence_pp": 12.4,
+      "shared_aes": 122,
+      "ae_correlation_rho": 0.389,
+      "ae_correlation_p": 9.278659408600807e-06
+    }
+  ],
+  "concordant_pairs": [
+    {
+      "drug1": "METOPROLOL",
+      "drug2": "LISINOPRIL",
+      "label": "BB + ACEi",
+      "f_pct1": 61.9,
+      "f_pct2": 67.0,
+      "divergence_pp": 5.1,
+      "shared_aes": 73,
+      "ae_correlation_rho": 0.099,
+      "ae_correlation_p": 0.40469583548294796
+    },
+    {
+      "drug1": "AMLODIPINE",
+      "drug2": "ATORVASTATIN",
+      "label": "CCB + Statin",
+      "f_pct1": 62.5,
+      "f_pct2": 64.0,
+      "divergence_pp": 1.5,
+      "shared_aes": 138,
+      "ae_correlation_rho": 0.476,
+      "ae_correlation_p": 3.492882960577468e-09
+    },
+    {
+      "drug1": "WARFARIN",
+      "drug2": "AMIODARONE",
+      "label": "VKA + Antiarrhythmic",
+      "f_pct1": 42.4,
+      "f_pct2": 39.5,
+      "divergence_pp": 2.9,
+      "shared_aes": 63,
+      "ae_correlation_rho": 0.686,
+      "ae_correlation_p": 5.37211515413261e-10
+    },
+    {
+      "drug1": "RIVAROXABAN",
+      "drug2": "CLOPIDOGREL",
+      "label": "DOAC + Antiplatelet",
+      "f_pct1": 51.5,
+      "f_pct2": 52.1,
+      "divergence_pp": 0.6,
+      "shared_aes": 67,
+      "ae_correlation_rho": 0.056,
+      "ae_correlation_p": 0.6534822738276717
+    },
+    {
+      "drug1": "FUROSEMIDE",
+      "drug2": "SPIRONOLACTONE",
+      "label": "Loop + K-sparing",
+      "f_pct1": 60.6,
+      "f_pct2": 60.2,
+      "divergence_pp": 0.5,
+      "shared_aes": 77,
+      "ae_correlation_rho": 0.45,
+      "ae_correlation_p": 4.0472366065995714e-05
+    },
+    {
+      "drug1": "METOPROLOL",
+      "drug2": "AMLODIPINE",
+      "label": "BB + CCB",
+      "f_pct1": 61.9,
+      "f_pct2": 62.5,
+      "divergence_pp": 0.5,
+      "shared_aes": 105,
+      "ae_correlation_rho": 0.379,
+      "ae_correlation_p": 6.746103801495189e-05
+    },
+    {
+      "drug1": "LISINOPRIL",
+      "drug2": "HYDROCHLOROTHIAZIDE",
+      "label": "ACEi + Thiazide",
+      "f_pct1": 67.0,
+      "f_pct2": 63.4,
+      "divergence_pp": 3.6,
+      "shared_aes": 51,
+      "ae_correlation_rho": 0.061,
+      "ae_correlation_p": 0.669070742267024
+    },
+    {
+      "drug1": "METFORMIN",
+      "drug2": "SEMAGLUTIDE",
+      "label": "Metformin + GLP-1",
+      "f_pct1": 64.9,
+      "f_pct2": 67.0,
+      "divergence_pp": 2.2,
+      "shared_aes": 36,
+      "ae_correlation_rho": 0.14,
+      "ae_correlation_p": 0.4144465321028499
+    },
+    {
+      "drug1": "METFORMIN",
+      "drug2": "SITAGLIPTIN",
+      "label": "Metformin + DPP4i",
+      "f_pct1": 64.9,
+      "f_pct2": 64.7,
+      "divergence_pp": 0.2,
+      "shared_aes": 61,
+      "ae_correlation_rho": 0.567,
+      "ae_correlation_p": 1.8647229257212074e-06
+    },
+    {
+      "drug1": "INSULIN",
+      "drug2": "METFORMIN",
+      "label": "Insulin + Metformin",
+      "f_pct1": 56.3,
+      "f_pct2": 64.9,
+      "divergence_pp": 8.6,
+      "shared_aes": 93,
+      "ae_correlation_rho": 0.517,
+      "ae_correlation_p": 1.1320595183722977e-07
+    },
+    {
+      "drug1": "PREGABALIN",
+      "drug2": "DULOXETINE",
+      "label": "Gabapentinoid + SNRI",
+      "f_pct1": 77.6,
+      "f_pct2": 75.7,
+      "divergence_pp": 2.0,
+      "shared_aes": 75,
+      "ae_correlation_rho": 0.434,
+      "ae_correlation_p": 9.84731736401324e-05
+    },
+    {
+      "drug1": "TRAMADOL",
+      "drug2": "PARACETAMOL",
+      "label": "Weak opioid + APAP",
+      "f_pct1": 80.5,
+      "f_pct2": 87.0,
+      "divergence_pp": 6.5,
+      "shared_aes": 167,
+      "ae_correlation_rho": 0.815,
+      "ae_correlation_p": 5.032006725576622e-41
+    },
+    {
+      "drug1": "ESCITALOPRAM",
+      "drug2": "ARIPIPRAZOLE",
+      "label": "SSRI + AP augment",
+      "f_pct1": 52.0,
+      "f_pct2": 55.3,
+      "divergence_pp": 3.3,
+      "shared_aes": 60,
+      "ae_correlation_rho": 0.384,
+      "ae_correlation_p": 0.002473538326585081
+    },
+    {
+      "drug1": "LITHIUM",
+      "drug2": "VALPROIC ACID",
+      "label": "Mood stabilizer combo",
+      "f_pct1": 53.3,
+      "f_pct2": 48.3,
+      "divergence_pp": 5.0,
+      "shared_aes": 43,
+      "ae_correlation_rho": 0.552,
+      "ae_correlation_p": 0.00012288778361830178
+    },
+    {
+      "drug1": "VENLAFAXINE",
+      "drug2": "QUETIAPINE",
+      "label": "SNRI + Atypical AP",
+      "f_pct1": 70.8,
+      "f_pct2": 74.3,
+      "divergence_pp": 3.5,
+      "shared_aes": 101,
+      "ae_correlation_rho": 0.506,
+      "ae_correlation_p": 6.834975682783053e-08
+    },
+    {
+      "drug1": "METHOTREXATE",
+      "drug2": "PREDNISONE",
+      "label": "MTX + Steroid",
+      "f_pct1": 84.8,
+      "f_pct2": 82.6,
+      "divergence_pp": 2.1,
+      "shared_aes": 366,
+      "ae_correlation_rho": 0.802,
+      "ae_correlation_p": 2.4728570445839464e-83
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "METHOTREXATE",
+      "label": "Anti-TNF + MTX",
+      "f_pct1": 82.8,
+      "f_pct2": 84.8,
+      "divergence_pp": 2.0,
+      "shared_aes": 265,
+      "ae_correlation_rho": 0.868,
+      "ae_correlation_p": 4.5804899389275053e-82
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "PREDNISONE",
+      "label": "HCQ + Steroid",
+      "f_pct1": 91.4,
+      "f_pct2": 82.6,
+      "divergence_pp": 8.8,
+      "shared_aes": 193,
+      "ae_correlation_rho": 0.728,
+      "ae_correlation_p": 3.367763607822223e-33
+    },
+    {
+      "drug1": "BUDESONIDE",
+      "drug2": "FORMOTEROL",
+      "label": "ICS + LABA",
+      "f_pct1": 60.5,
+      "f_pct2": 60.1,
+      "divergence_pp": 0.4,
+      "shared_aes": 23,
+      "ae_correlation_rho": 0.41,
+      "ae_correlation_p": 0.05196140477253415
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "regimens": {
+    "R-CHOP": {
+      "indication": "DLBCL/NHL",
+      "n_drugs_found": 5,
+      "combo_f_pct": 81.6,
+      "within_spread": 38.3,
+      "drugs": [
+        {
+          "drug": "RITUXIMAB",
+          "n_signals": 755,
+          "f_pct": 85.6
+        },
+        {
+          "drug": "CYCLOPHOSPHAMIDE",
+          "n_signals": 498,
+          "f_pct": 59.8
+        },
+        {
+          "drug": "DOXORUBICIN",
+          "n_signals": 325,
+          "f_pct": 60.6
+        },
+        {
+          "drug": "VINCRISTINE",
+          "n_signals": 290,
+          "f_pct": 47.3
+        },
+        {
+          "drug": "PREDNISONE",
+          "n_signals": 926,
+          "f_pct": 82.6
+        }
+      ]
+    },
+    "FOLFOX": {
+      "indication": "Colorectal cancer",
+      "n_drugs_found": 3,
+      "combo_f_pct": 49.0,
+      "within_spread": 9.9,
+      "drugs": [
+        {
+          "drug": "FLUOROURACIL",
+          "n_signals": 239,
+          "f_pct": 49.7
+        },
+        {
+          "drug": "OXALIPLATIN",
+          "n_signals": 239,
+          "f_pct": 48.8
+        },
+        {
+          "drug": "LEUCOVORIN",
+          "n_signals": 22,
+          "f_pct": 39.8
+        }
+      ]
+    },
+    "FOLFIRI": {
+      "indication": "Colorectal cancer",
+      "n_drugs_found": 3,
+      "combo_f_pct": 47.9,
+      "within_spread": 9.9,
+      "drugs": [
+        {
+          "drug": "FLUOROURACIL",
+          "n_signals": 239,
+          "f_pct": 49.7
+        },
+        {
+          "drug": "IRINOTECAN",
+          "n_signals": 134,
+          "f_pct": 44.7
+        },
+        {
+          "drug": "LEUCOVORIN",
+          "n_signals": 22,
+          "f_pct": 39.8
+        }
+      ]
+    },
+    "AC-T": {
+      "indication": "Breast cancer",
+      "n_drugs_found": 3,
+      "combo_f_pct": 64.7,
+      "within_spread": 15.4,
+      "drugs": [
+        {
+          "drug": "DOXORUBICIN",
+          "n_signals": 325,
+          "f_pct": 60.6
+        },
+        {
+          "drug": "CYCLOPHOSPHAMIDE",
+          "n_signals": 498,
+          "f_pct": 59.8
+        },
+        {
+          "drug": "PACLITAXEL",
+          "n_signals": 259,
+          "f_pct": 75.2
+        }
+      ]
+    },
+    "Gem-Cis": {
+      "indication": "Lung/bladder cancer",
+      "n_drugs_found": 2,
+      "combo_f_pct": 50.5,
+      "within_spread": 11.9,
+      "drugs": [
+        {
+          "drug": "GEMCITABINE",
+          "n_signals": 173,
+          "f_pct": 57.0
+        },
+        {
+          "drug": "CISPLATIN",
+          "n_signals": 219,
+          "f_pct": 45.1
+        }
+      ]
+    },
+    "Carbo-Tax": {
+      "indication": "Ovarian/lung cancer",
+      "n_drugs_found": 2,
+      "combo_f_pct": 69.9,
+      "within_spread": 10.6,
+      "drugs": [
+        {
+          "drug": "CARBOPLATIN",
+          "n_signals": 310,
+          "f_pct": 64.6
+        },
+        {
+          "drug": "PACLITAXEL",
+          "n_signals": 259,
+          "f_pct": 75.2
+        }
+      ]
+    },
+    "ICI_combo": {
+      "indication": "Melanoma/RCC",
+      "n_drugs_found": 2,
+      "combo_f_pct": 37.5,
+      "within_spread": 1.4,
+      "drugs": [
+        {
+          "drug": "NIVOLUMAB",
+          "n_signals": 238,
+          "f_pct": 37.0
+        },
+        {
+          "drug": "IPILIMUMAB",
+          "n_signals": 161,
+          "f_pct": 38.4
+        }
+      ]
+    },
+    "Triple_HF": {
+      "indication": "Heart failure",
+      "n_drugs_found": 4,
+      "combo_f_pct": 51.1,
+      "within_spread": 24.5,
+      "drugs": [
+        {
+          "drug": "SACUBITRIL;VALSARTAN",
+          "n_signals": 157,
+          "f_pct": 35.7
+        },
+        {
+          "drug": "BISOPROLOL",
+          "n_signals": 270,
+          "f_pct": 54.7
+        },
+        {
+          "drug": "SPIRONOLACTONE",
+          "n_signals": 162,
+          "f_pct": 60.2
+        },
+        {
+          "drug": "DAPAGLIFLOZIN",
+          "n_signals": 154,
+          "f_pct": 49.3
+        }
+      ]
+    },
+    "RA_standard": {
+      "indication": "Rheumatoid arthritis",
+      "n_drugs_found": 3,
+      "combo_f_pct": 83.9,
+      "within_spread": 7.7,
+      "drugs": [
+        {
+          "drug": "METHOTREXATE",
+          "n_signals": 892,
+          "f_pct": 84.8
+        },
+        {
+          "drug": "PREDNISONE",
+          "n_signals": 926,
+          "f_pct": 82.6
+        },
+        {
+          "drug": "FOLIC ACID",
+          "n_signals": 100,
+          "f_pct": 90.3
+        }
+      ]
+    },
+    "RA_biologic": {
+      "indication": "RA biologic",
+      "n_drugs_found": 2,
+      "combo_f_pct": 83.9,
+      "within_spread": 2.0,
+      "drugs": [
+        {
+          "drug": "ADALIMUMAB",
+          "n_signals": 807,
+          "f_pct": 82.8
+        },
+        {
+          "drug": "METHOTREXATE",
+          "n_signals": 892,
+          "f_pct": 84.8
+        }
+      ]
+    },
+    "HIV_ART": {
+      "indication": "HIV",
+      "n_drugs_found": 3,
+      "combo_f_pct": 39.9,
+      "within_spread": 22.8,
+      "drugs": [
+        {
+          "drug": "TENOFOVIR",
+          "n_signals": 114,
+          "f_pct": 31.5
+        },
+        {
+          "drug": "EMTRICITABINE",
+          "n_signals": 22,
+          "f_pct": 39.4
+        },
+        {
+          "drug": "DOLUTEGRAVIR",
+          "n_signals": 81,
+          "f_pct": 54.3
+        }
+      ]
+    },
+    "Asthma_step4": {
+      "indication": "Moderate-severe asthma",
+      "n_drugs_found": 3,
+      "combo_f_pct": 64.7,
+      "within_spread": 8.1,
+      "drugs": [
+        {
+          "drug": "BUDESONIDE",
+          "n_signals": 259,
+          "f_pct": 60.5
+        },
+        {
+          "drug": "FORMOTEROL",
+          "n_signals": 55,
+          "f_pct": 60.1
+        },
+        {
+          "drug": "MONTELUKAST",
+          "n_signals": 281,
+          "f_pct": 68.2
+        }
+      ]
+    },
+    "DM2_triple": {
+      "indication": "T2DM triple therapy",
+      "n_drugs_found": 3,
+      "combo_f_pct": 63.9,
+      "within_spread": 17.1,
+      "drugs": [
+        {
+          "drug": "METFORMIN",
+          "n_signals": 399,
+          "f_pct": 64.9
+        },
+        {
+          "drug": "EMPAGLIFLOZIN",
+          "n_signals": 96,
+          "f_pct": 49.9
+        },
+        {
+          "drug": "SEMAGLUTIDE",
+          "n_signals": 152,
+          "f_pct": 67.0
+        }
+      ]
+    },
+    "Pain_multi": {
+      "indication": "Chronic pain multimodal",
+      "n_drugs_found": 3,
+      "combo_f_pct": 83.4,
+      "within_spread": 11.3,
+      "drugs": [
+        {
+          "drug": "PREGABALIN",
+          "n_signals": 406,
+          "f_pct": 77.6
+        },
+        {
+          "drug": "DULOXETINE",
+          "n_signals": 189,
+          "f_pct": 75.7
+        },
+        {
+          "drug": "PARACETAMOL",
+          "n_signals": 487,
+          "f_pct": 87.0
+        }
+      ]
+    }
+  },
+  "within_regimen_spread": [
+    {
+      "regimen": "R-CHOP",
+      "spread": 38.3,
+      "n_drugs": 5,
+      "indication": "DLBCL/NHL"
+    },
+    {
+      "regimen": "Triple_HF",
+      "spread": 24.5,
+      "n_drugs": 4,
+      "indication": "Heart failure"
+    },
+    {
+      "regimen": "HIV_ART",
+      "spread": 22.8,
+      "n_drugs": 3,
+      "indication": "HIV"
+    },
+    {
+      "regimen": "DM2_triple",
+      "spread": 17.1,
+      "n_drugs": 3,
+      "indication": "T2DM triple therapy"
+    },
+    {
+      "regimen": "AC-T",
+      "spread": 15.4,
+      "n_drugs": 3,
+      "indication": "Breast cancer"
+    },
+    {
+      "regimen": "Gem-Cis",
+      "spread": 11.9,
+      "n_drugs": 2,
+      "indication": "Lung/bladder cancer"
+    },
+    {
+      "regimen": "Pain_multi",
+      "spread": 11.3,
+      "n_drugs": 3,
+      "indication": "Chronic pain multimodal"
+    },
+    {
+      "regimen": "Carbo-Tax",
+      "spread": 10.6,
+      "n_drugs": 2,
+      "indication": "Ovarian/lung cancer"
+    },
+    {
+      "regimen": "FOLFOX",
+      "spread": 9.9,
+      "n_drugs": 3,
+      "indication": "Colorectal cancer"
+    },
+    {
+      "regimen": "FOLFIRI",
+      "spread": 9.9,
+      "n_drugs": 3,
+      "indication": "Colorectal cancer"
+    },
+    {
+      "regimen": "Asthma_step4",
+      "spread": 8.1,
+      "n_drugs": 3,
+      "indication": "Moderate-severe asthma"
+    },
+    {
+      "regimen": "RA_standard",
+      "spread": 7.7,
+      "n_drugs": 3,
+      "indication": "Rheumatoid arthritis"
+    },
+    {
+      "regimen": "RA_biologic",
+      "spread": 2.0,
+      "n_drugs": 2,
+      "indication": "RA biologic"
+    },
+    {
+      "regimen": "ICI_combo",
+      "spread": 1.4,
+      "n_drugs": 2,
+      "indication": "Melanoma/RCC"
+    }
+  ],
+  "chemo_vs_targeted": {
+    "Cytotoxic chemo": {
+      "n_drugs": 13,
+      "n_signals": 4155,
+      "f_pct": 75.2,
+      "mean_lr": 0.907
+    },
+    "Targeted/IO": {
+      "n_drugs": 12,
+      "n_signals": 2644,
+      "f_pct": 78.1,
+      "mean_lr": 0.957
+    },
+    "p_value": 4.5815268799363226e-08
+  }
+}
