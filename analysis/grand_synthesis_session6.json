@@ -1,0 +1,145 @@
+{
+  "session": "session_6",
+  "waves": "38-46",
+  "total_jsons": 141,
+  "total_figures": 181,
+  "total_papers": 21,
+  "ranked_discoveries": [
+    {
+      "rank": 1,
+      "discovery": "Rare Disease Reporting Paradox",
+      "finding": "Orphan drugs 49.2%F vs common drugs 74.5%F \u2014 25.3pp gap (p=4.4e-82). Anti-regression absent in rare drugs.",
+      "novelty": "VERY HIGH",
+      "paper": "Paper 23",
+      "wave": 39
+    },
+    {
+      "rank": 2,
+      "discovery": "Organ System Architecture",
+      "finding": "30pp range across 16 SOCs: Skin 84.7%F to Cardiac 54.6%F. Vascular shows REVERSE anti-regression (rho=-0.733).",
+      "novelty": "HIGH",
+      "paper": "Paper 24",
+      "wave": 41
+    },
+    {
+      "rank": 3,
+      "discovery": "2D Signal Landscape",
+      "finding": "Strongest + most-reported signals are 96%F. Two axes (strength + volume) jointly predict female bias.",
+      "novelty": "HIGH",
+      "wave": 44
+    },
+    {
+      "rank": 4,
+      "discovery": "Target Sex Spectrum",
+      "finding": "Estrogen receptor 95.5%F to Androgen receptor 5.8%F \u2014 90pp range across drug targets.",
+      "novelty": "HIGH",
+      "wave": 42
+    },
+    {
+      "rank": 5,
+      "discovery": "Sensitivity Robustness",
+      "finding": "Anti-regression holds at ALL thresholds up to 500 reports (rho>=0.964). Bootstrap CI for %F: 57.93-58.21%.",
+      "novelty": "MODERATE",
+      "wave": 38
+    },
+    {
+      "rank": 6,
+      "discovery": "Micro Anti-Regression",
+      "finding": "75% of individual drugs (15/20) show within-drug anti-regression. 15 are significant.",
+      "novelty": "HIGH",
+      "wave": 40
+    },
+    {
+      "rank": 7,
+      "discovery": "Drug Approval Era",
+      "finding": "Newest drugs (2020+) least female-biased at 67.2%F. 2000s biologics peak at 79.7%F.",
+      "novelty": "MODERATE",
+      "wave": 41
+    },
+    {
+      "rank": 8,
+      "discovery": "CRP Direction Asymmetry",
+      "finding": "CRP increased 82.6%F vs CRP decreased 36.1%F \u2014 46.5pp delta. Inflammatory biomarkers sexually dimorphic.",
+      "novelty": "HIGH",
+      "wave": 45
+    },
+    {
+      "rank": 9,
+      "discovery": "Reproductive Drug Paradox",
+      "finding": "Leuprorelin: 23.6%F but 70% female-direction signals. Enzalutamide: 1.1%F. ED drugs 52.7%F (PAH use).",
+      "novelty": "HIGH",
+      "wave": 45
+    },
+    {
+      "rank": 10,
+      "discovery": "Combination Regimen Spread",
+      "finding": "R-CHOP 38.3pp spread, ICI combo only 1.4pp. HIV ART 22.8pp. Combo drugs can diverge significantly.",
+      "novelty": "MODERATE",
+      "wave": 40
+    },
+    {
+      "rank": 11,
+      "discovery": "DDI Sex Concordance",
+      "finding": "83% of co-prescribed pairs are concordant (<10pp). Mean AE correlation rho=0.478.",
+      "novelty": "MODERATE",
+      "wave": 40
+    },
+    {
+      "rank": 12,
+      "discovery": "Route of Administration",
+      "finding": "SC injectable 81.6%F highest, inhaled 61.2%F lowest (H=407.78, p=6.25e-86).",
+      "novelty": "MODERATE",
+      "wave": 39
+    },
+    {
+      "rank": 13,
+      "discovery": "MOA Sex Clustering",
+      "finding": "Immune targets 85.0%F, enzyme inhibitors 83.3%F. Transporters 56.1%F most balanced.",
+      "novelty": "MODERATE",
+      "wave": 42
+    },
+    {
+      "rank": 14,
+      "discovery": "Age-Sex Interaction",
+      "finding": "Pediatric 43.7%F (male-skewed), elderly 87.6%F drugs. Life-stage modulates sex bias.",
+      "novelty": "MODERATE",
+      "wave": 39
+    },
+    {
+      "rank": 15,
+      "discovery": "Direction Asymmetry",
+      "finding": "53.8% female-higher vs 46.2% male-higher. Female signals stronger (|LR| 1.007 vs 0.963, p=2.80e-41).",
+      "novelty": "MODERATE",
+      "wave": 44
+    },
+    {
+      "rank": 16,
+      "discovery": "NTI Drug Sex Monitoring",
+      "finding": "9/11 narrow therapeutic index drugs warrant sex-specific monitoring. MTX: 106 strong signals.",
+      "novelty": "MODERATE \u2014 clinical utility HIGH",
+      "wave": 44
+    },
+    {
+      "rank": 17,
+      "discovery": "Polypharmacy Hub Analysis",
+      "finding": "Rash 89.2%F across 301 drugs. Death 44.2%F. Network density 0.87%.",
+      "novelty": "LOW",
+      "wave": 43
+    },
+    {
+      "rank": 18,
+      "discovery": "Drug Hub Sex Bias",
+      "finding": "Tocilizumab 91.4%F (508 AEs), Risperidone 28.5%F (518 AEs). Most connected drugs are female-biased.",
+      "novelty": "LOW",
+      "wave": 43
+    }
+  ],
+  "cumulative_session_counts": {
+    "session_1": "Waves 1-10: Foundation analyses",
+    "session_2": "Waves 11-18: Cross-validation and SIDER/OpenFDA",
+    "session_3": "Waves 19-24: Novel angles and vaccine analysis",
+    "session_4": "Waves 25-32: Publication figures and paper drafts",
+    "session_5": "Waves 33-37: Drug class deep-dives",
+    "session_6": "Waves 38-45: Sensitivity, rare disease, MOA, prescribing"
+  }
+}
