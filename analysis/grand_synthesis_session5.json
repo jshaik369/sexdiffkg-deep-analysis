@@ -1,0 +1,181 @@
+{
+  "session": 5,
+  "timestamp": "2026-03-04T20:20:38.794315",
+  "total_waves": 37,
+  "total_analyses": 125,
+  "total_figures": 155,
+  "total_papers": 21,
+  "ranked_discoveries": [
+    {
+      "rank": 1,
+      "finding": "Anti-regression is UNIVERSAL across ALL 7 therapeutic areas (mean rho=0.964)",
+      "novelty": "VERY HIGH",
+      "wave": 35
+    },
+    {
+      "rank": 2,
+      "finding": "Within-class spreads exceed between-class: 42 classes, mean 17pp, up to 90pp (antipsychotics)",
+      "novelty": "VERY HIGH",
+      "wave": 34
+    },
+    {
+      "rank": 3,
+      "finding": "Reporter sex UNCORRELATED with signal direction (r=-0.007), 53% paradoxical",
+      "novelty": "VERY HIGH",
+      "wave": 29
+    },
+    {
+      "rank": 4,
+      "finding": "Gold tier (highest confidence) is 72%F \u2014 stronger evidence = stronger female bias",
+      "novelty": "HIGH",
+      "wave": 37
+    },
+    {
+      "rank": 5,
+      "finding": "Pan-therapeutic spectrum: CGRP 83%F to S1P 15%F (68pp range)",
+      "novelty": "HIGH",
+      "wave": 33
+    },
+    {
+      "rank": 6,
+      "finding": "Male-biased signals STRONGER than female (|LR| 1.10 vs 1.06, p=3e-11)",
+      "novelty": "HIGH",
+      "wave": 35
+    },
+    {
+      "rank": 7,
+      "finding": "GLP-1 agonists trending UP in female bias (r=0.76): 57%F (2005) \u2192 65%F (2022)",
+      "novelty": "HIGH",
+      "wave": 36
+    },
+    {
+      "rank": 8,
+      "finding": "AE archetypes: fibromyalgia 86%F, IBS 81%F, alopecia 76%F universally female across all drugs",
+      "novelty": "HIGH",
+      "wave": 34
+    },
+    {
+      "rank": 9,
+      "finding": "HER2 (80%F) most female-biased drug target, VEGFR2 (42%F) most male-biased",
+      "novelty": "HIGH",
+      "wave": 36
+    },
+    {
+      "rank": 10,
+      "finding": "Drug pair divergence: beta-blockers 21pp mean, 42% direction flip rate for shared AEs",
+      "novelty": "MODERATE",
+      "wave": 34
+    },
+    {
+      "rank": 11,
+      "finding": "Autoimmune drug concordance clusters (hydroxychloroquine\u2194leflunomide r=0.94)",
+      "novelty": "MODERATE",
+      "wave": 35
+    },
+    {
+      "rank": 12,
+      "finding": "Leuprorelin paradox: endometriosis drug shows male-biased signals (prostate cancer use)",
+      "novelty": "MODERATE",
+      "wave": 37
+    },
+    {
+      "rank": 13,
+      "finding": "ED drugs (sildenafil/tadalafil) 56%F \u2014 paradoxically female-biased due to PAH indication",
+      "novelty": "MODERATE",
+      "wave": 37
+    },
+    {
+      "rank": 14,
+      "finding": "CDK4/6 inhibitors 94%F \u2014 highest emerging drug class bias (breast cancer)",
+      "novelty": "MODERATE",
+      "wave": 36
+    },
+    {
+      "rank": 15,
+      "finding": "Corticosteroid metabolic AEs 76%F but infection AEs 53%F \u2014 organ-specific sex patterns",
+      "novelty": "MODERATE",
+      "wave": 33
+    },
+    {
+      "rank": 16,
+      "finding": "DOACs most uniform class (3pp spread) \u2014 safest for sex-balanced prescribing",
+      "novelty": "MODERATE",
+      "wave": 34
+    },
+    {
+      "rank": 17,
+      "finding": "Cannabinoids uniquely male-leaning (44%F) among pain drugs",
+      "novelty": "MODERATE",
+      "wave": 33
+    },
+    {
+      "rank": 18,
+      "finding": "Anti-infective allergy 71%F vs nephrotoxicity 45%F \u2014 organ drives sex bias",
+      "novelty": "MODERATE",
+      "wave": 33
+    },
+    {
+      "rank": 19,
+      "finding": "S1P modulators trending down significantly (r=-0.999, p=0.026)",
+      "novelty": "MODERATE",
+      "wave": 36
+    },
+    {
+      "rank": 20,
+      "finding": "Risperidone gynecomastia 0.1%F \u2014 most extreme male-biased high-volume signal",
+      "novelty": "LOW",
+      "wave": 37
+    }
+  ],
+  "therapeutic_area_summary": {
+    "Pain": {
+      "mean_f": 64.5,
+      "key": "CGRP 83%F vs cannabinoids 44%F, triptans 65pp spread"
+    },
+    "Cardiovascular": {
+      "mean_f": 55.0,
+      "key": "PAH drugs 71%F, DOACs 3pp uniform, ARNI 42%F"
+    },
+    "Endocrine": {
+      "mean_f": 57.0,
+      "key": "GLP-1 trending up, osteoporosis 73-92%F, statins 52%F balanced"
+    },
+    "Psychiatric": {
+      "mean_f": 58.0,
+      "key": "90pp antipsychotic spread, 51pp ADHD spread, benzos 67%F"
+    },
+    "Autoimmune": {
+      "mean_f": 50.0,
+      "key": "60pp anti-CD20 spread, S1P 15%F, concordance clusters"
+    },
+    "Anti-infective": {
+      "mean_f": 55.0,
+      "key": "Tetracyclines 68%F, HIV ARVs 42%F, allergy 71%F"
+    },
+    "Oncology": {
+      "mean_f": 47.0,
+      "key": "CDK4/6 94%F, CPI 47%F, PARP 78%F"
+    },
+    "Dermatology": {
+      "mean_f": 58.0,
+      "key": "Retinoids 34pp spread, antihistamines 73%F, dupilumab 58%F"
+    }
+  },
+  "models": {
+    "ComplEx_v4": {
+      "MRR": 0.2484,
+      "Hits10": 0.4069,
+      "status": "BEST"
+    },
+    "RotatE_v4.1": {
+      "MRR": 0.2018,
+      "Hits10": 0.3677,
+      "status": "complete"
+    },
+    "DistMult_v4.1": {
+      "MRR": 0.1013,
+      "Hits10": 0.1961,
+      "status": "complete"
+    }
+  }
+}
