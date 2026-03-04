@@ -1,0 +1,374 @@
+{
+  "emerging_classes": {
+    "GLP-1 agonists": {
+      "condition": "Diabetes/Obesity",
+      "n_signals": 517,
+      "mean_f_pct": 58.2,
+      "mean_abs_lr": 0.78,
+      "drugs": [
+        {
+          "drug": "EXENATIDE",
+          "year": 2005,
+          "n": 92,
+          "f_pct": 56.6
+        },
+        {
+          "drug": "LIRAGLUTIDE",
+          "year": 2010,
+          "n": 101,
+          "f_pct": 50.4
+        },
+        {
+          "drug": "DULAGLUTIDE",
+          "year": 2014,
+          "n": 77,
+          "f_pct": 56.9
+        },
+        {
+          "drug": "SEMAGLUTIDE",
+          "year": 2017,
+          "n": 152,
+          "f_pct": 61.0
+        },
+        {
+          "drug": "TIRZEPATIDE",
+          "year": 2022,
+          "n": 95,
+          "f_pct": 64.8
+        }
+      ],
+      "year_vs_f_corr": 0.758,
+      "year_vs_f_p": 0.138
+    },
+    "CGRP agents": {
+      "condition": "Migraine",
+      "n_signals": 177,
+      "mean_f_pct": 83.0,
+      "mean_abs_lr": 1.009,
+      "drugs": [
+        {
+          "drug": "ERENUMAB",
+          "year": 2018,
+          "n": 68,
+          "f_pct": 92.0
+        },
+        {
+          "drug": "FREMANEZUMAB",
+          "year": 2018,
+          "n": 23,
+          "f_pct": 81.7
+        },
+        {
+          "drug": "GALCANEZUMAB",
+          "year": 2018,
+          "n": 36,
+          "f_pct": 80.3
+        },
+        {
+          "drug": "UBROGEPANT",
+          "year": 2019,
+          "n": 3,
+          "f_pct": 79.0
+        },
+        {
+          "drug": "EPTINEZUMAB",
+          "year": 2020,
+          "n": 27,
+          "f_pct": 70.2
+        },
+        {
+          "drug": "RIMEGEPANT",
+          "year": 2020,
+          "n": 12,
+          "f_pct": 75.4
+        },
+        {
+          "drug": "ATOGEPANT",
+          "year": 2021,
+          "n": 8,
+          "f_pct": 79.3
+        }
+      ],
+      "year_vs_f_corr": -0.613,
+      "year_vs_f_p": 0.196
+    },
+    "JAK inhibitors": {
+      "condition": "Autoimmune/Hematologic",
+      "n_signals": 687,
+      "mean_f_pct": 66.9,
+      "mean_abs_lr": 0.901,
+      "drugs": [
+        {
+          "drug": "RUXOLITINIB",
+          "year": 2011,
+          "n": 127,
+          "f_pct": 50.9
+        },
+        {
+          "drug": "TOFACITINIB",
+          "year": 2012,
+          "n": 331,
+          "f_pct": 77.0
+        },
+        {
+          "drug": "BARICITINIB",
+          "year": 2018,
+          "n": 36,
+          "f_pct": 53.3
+        },
+        {
+          "drug": "UPADACITINIB",
+          "year": 2019,
+          "n": 181,
+          "f_pct": 63.5
+        },
+        {
+          "drug": "FEDRATINIB",
+          "year": 2019,
+          "n": 3,
+          "f_pct": 57.2
+        },
+        {
+          "drug": "ABROCITINIB",
+          "year": 2022,
+          "n": 9,
+          "f_pct": 49.0
+        }
+      ],
+      "year_vs_f_corr": -0.404,
+      "year_vs_f_p": 0.5
+    },
+    "Checkpoint inhibitors": {
+      "condition": "Oncology",
+      "n_signals": 944,
+      "mean_f_pct": 46.9,
+      "mean_abs_lr": 0.831,
+      "drugs": [
+        {
+          "drug": "IPILIMUMAB",
+          "year": 2011,
+          "n": 161,
+          "f_pct": 41.6
+        },
+        {
+          "drug": "NIVOLUMAB",
+          "year": 2014,
+          "n": 238,
+          "f_pct": 40.7
+        },
+        {
+          "drug": "PEMBROLIZUMAB",
+          "year": 2014,
+          "n": 309,
+          "f_pct": 54.7
+        },
+        {
+          "drug": "ATEZOLIZUMAB",
+          "year": 2016,
+          "n": 152,
+          "f_pct": 47.0
+        },
+        {
+          "drug": "DURVALUMAB",
+          "year": 2017,
+          "n": 61,
+          "f_pct": 48.5
+        },
+        {
+          "drug": "AVELUMAB",
+          "year": 2017,
+          "n": 19,
+          "f_pct": 36.4
+        },
+        {
+          "drug": "CEMIPLIMAB",
+          "year": 2018,
+          "n": 4,
+          "f_pct": 46.7
+        }
+      ],
+      "year_vs_f_corr": -0.002,
+      "year_vs_f_p": 0.996
+    },
+    "SGLT2 inhibitors": {
+      "condition": "Diabetes/Heart Failure",
+      "n_signals": 320,
+      "mean_f_pct": 48.0,
+      "mean_abs_lr": 0.793,
+      "drugs": [
+        {
+          "drug": "CANAGLIFLOZIN",
+          "year": 2013,
+          "n": 69,
+          "f_pct": 50.1
+        },
+        {
+          "drug": "DAPAGLIFLOZIN",
+          "year": 2014,
+          "n": 154,
+          "f_pct": 46.4
+        },
+        {
+          "drug": "EMPAGLIFLOZIN",
+          "year": 2014,
+          "n": 96,
+          "f_pct": 49.0
+        },
+        {
+          "drug": "ERTUGLIFLOZIN",
+          "year": 2017,
+          "n": 1,
+          "f_pct": 45.0
+        }
+      ],
+      "year_vs_f_corr": -0.729,
+      "year_vs_f_p": 0.48
+    },
+    "PCSK9 inhibitors": {
+      "condition": "Hyperlipidemia",
+      "n_signals": 184,
+      "mean_f_pct": 53.6,
+      "mean_abs_lr": 0.786,
+      "drugs": [
+        {
+          "drug": "EVOLOCUMAB",
+          "year": 2015,
+          "n": 131,
+          "f_pct": 54.2
+        },
+        {
+          "drug": "ALIROCUMAB",
+          "year": 2015,
+          "n": 53,
+          "f_pct": 52.2
+        }
+      ],
+      "year_vs_f_corr": null,
+      "year_vs_f_p": null
+    },
+    "Anti-IL-17": {
+      "condition": "Psoriasis/SpA",
+      "n_signals": 550,
+      "mean_f_pct": 64.6,
+      "mean_abs_lr": 0.991,
+      "drugs": [
+        {
+          "drug": "SECUKINUMAB",
+          "year": 2015,
+          "n": 456,
+          "f_pct": 66.8
+        },
+        {
+          "drug": "IXEKIZUMAB",
+          "year": 2016,
+          "n": 82,
+          "f_pct": 54.0
+        },
+        {
+          "drug": "BRODALUMAB",
+          "year": 2017,
+          "n": 12,
+          "f_pct": 52.3
+        }
+      ],
+      "year_vs_f_corr": -0.915,
+      "year_vs_f_p": 0.265
+    },
+    "S1P modulators": {
+      "condition": "Multiple Sclerosis",
+      "n_signals": 242,
+      "mean_f_pct": 66.5,
+      "mean_abs_lr": 0.79,
+      "drugs": [
+        {
+          "drug": "FINGOLIMOD",
+          "year": 2010,
+          "n": 159,
+          "f_pct": 69.3
+        },
+        {
+          "drug": "SIPONIMOD",
+          "year": 2019,
+          "n": 48,
+          "f_pct": 61.5
+        },
+        {
+          "drug": "OZANIMOD",
+          "year": 2020,
+          "n": 35,
+          "f_pct": 60.2
+        }
+      ],
+      "year_vs_f_corr": -0.999,
+      "year_vs_f_p": 0.026
+    },
+    "PARP inhibitors": {
+      "condition": "Oncology",
+      "n_signals": 76,
+      "mean_f_pct": 78.3,
+      "mean_abs_lr": 0.984,
+      "drugs": [
+        {
+          "drug": "OLAPARIB",
+          "year": 2014,
+          "n": 44,
+          "f_pct": 74.1
+        },
+        {
+          "drug": "RUCAPARIB",
+          "year": 2016,
+          "n": 13,
+          "f_pct": 86.7
+        },
+        {
+          "drug": "NIRAPARIB",
+          "year": 2017,
+          "n": 12,
+          "f_pct": 95.8
+        },
+        {
+          "drug": "TALAZOPARIB",
+          "year": 2018,
+          "n": 7,
+          "f_pct": 59.1
+        }
+      ],
+      "year_vs_f_corr": -0.161,
+      "year_vs_f_p": 0.839
+    },
+    "CDK4/6 inhibitors": {
+      "condition": "Breast cancer",
+      "n_signals": 60,
+      "mean_f_pct": 93.7,
+      "mean_abs_lr": 1.036,
+      "drugs": [
+        {
+          "drug": "PALBOCICLIB",
+          "year": 2015,
+          "n": 38,
+          "f_pct": 94.3
+        },
+        {
+          "drug": "RIBOCICLIB",
+          "year": 2017,
+          "n": 10,
+          "f_pct": 94.0
+        },
+        {
+          "drug": "ABEMACICLIB",
+          "year": 2017,
+          "n": 12,
+          "f_pct": 91.6
+        }
+      ],
+      "year_vs_f_corr": -0.585,
+      "year_vs_f_p": 0.602
+    }
+  },
+  "emerging_vs_established": {
+    "emerging_n": 3757,
+    "emerging_f_pct": 59.5,
+    "established_n": 92524,
+    "established_f_pct": 58.0
+  }
+}

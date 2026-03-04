@@ -1,0 +1,290 @@
+{
+  "n_targets_analyzed": 71,
+  "top20_female": [
+    {
+      "target": "Receptor tyrosine-protein kinase erbB-2",
+      "mean_f_pct": 79.9,
+      "std_f_pct": 3.7,
+      "n_drugs": 4
+    },
+    {
+      "target": "Calcitonin gene-related peptide",
+      "mean_f_pct": 77.4,
+      "std_f_pct": 6.3,
+      "n_drugs": 3
+    },
+    {
+      "target": "Prostacyclin receptor",
+      "mean_f_pct": 70.7,
+      "std_f_pct": 4.6,
+      "n_drugs": 3
+    },
+    {
+      "target": "Endothelin receptor, ET-A/ET-B",
+      "mean_f_pct": 70.6,
+      "std_f_pct": 3.2,
+      "n_drugs": 3
+    },
+    {
+      "target": "Tumor necrosis factor",
+      "mean_f_pct": 69.3,
+      "std_f_pct": 6.6,
+      "n_drugs": 4
+    },
+    {
+      "target": "Prostaglandin F2-alpha receptor",
+      "mean_f_pct": 67.4,
+      "std_f_pct": 5.1,
+      "n_drugs": 3
+    },
+    {
+      "target": "Cyclooxygenase",
+      "mean_f_pct": 66.3,
+      "std_f_pct": 7.5,
+      "n_drugs": 12
+    },
+    {
+      "target": "Retinoic acid receptor",
+      "mean_f_pct": 65.7,
+      "std_f_pct": 13.2,
+      "n_drugs": 3
+    },
+    {
+      "target": "Prostaglandin G/H synthase 2",
+      "mean_f_pct": 65.2,
+      "std_f_pct": 12.2,
+      "n_drugs": 4
+    },
+    {
+      "target": "Glucocorticoid receptor",
+      "mean_f_pct": 64.5,
+      "std_f_pct": 9.4,
+      "n_drugs": 14
+    },
+    {
+      "target": "Phosphodiesterase 4",
+      "mean_f_pct": 64.0,
+      "std_f_pct": 10.8,
+      "n_drugs": 5
+    },
+    {
+      "target": "Histamine H2 receptor",
+      "mean_f_pct": 62.6,
+      "std_f_pct": 8.1,
+      "n_drugs": 3
+    },
+    {
+      "target": "Carbonic anhydrase 2",
+      "mean_f_pct": 62.6,
+      "std_f_pct": 4.3,
+      "n_drugs": 3
+    },
+    {
+      "target": "Adenosine receptor",
+      "mean_f_pct": 62.3,
+      "std_f_pct": 12.0,
+      "n_drugs": 3
+    },
+    {
+      "target": "Beta-2 adrenergic receptor",
+      "mean_f_pct": 62.2,
+      "std_f_pct": 4.0,
+      "n_drugs": 4
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "mean_f_pct": 61.4,
+      "std_f_pct": 8.1,
+      "n_drugs": 7
+    },
+    {
+      "target": "Angiotensin-converting enzyme",
+      "mean_f_pct": 61.0,
+      "std_f_pct": 8.1,
+      "n_drugs": 3
+    },
+    {
+      "target": "Interleukin-23",
+      "mean_f_pct": 60.6,
+      "std_f_pct": 8.9,
+      "n_drugs": 3
+    },
+    {
+      "target": "Adrenergic receptor alpha-2",
+      "mean_f_pct": 60.5,
+      "std_f_pct": 4.3,
+      "n_drugs": 3
+    },
+    {
+      "target": "Potassium-transporting ATPase",
+      "mean_f_pct": 60.4,
+      "std_f_pct": 5.9,
+      "n_drugs": 5
+    }
+  ],
+  "top20_male": [
+    {
+      "target": "CRL4(CRBN) E3 ubiquitin ligase",
+      "mean_f_pct": 51.2,
+      "std_f_pct": 2.0,
+      "n_drugs": 3
+    },
+    {
+      "target": "Serine/threonine-protein kinase B-raf",
+      "mean_f_pct": 51.0,
+      "std_f_pct": 3.7,
+      "n_drugs": 3
+    },
+    {
+      "target": "Ribonucleoside-diphosphate reductase RR1",
+      "mean_f_pct": 49.9,
+      "std_f_pct": 3.8,
+      "n_drugs": 3
+    },
+    {
+      "target": "Mast/stem cell growth factor receptor Kit",
+      "mean_f_pct": 49.8,
+      "std_f_pct": 7.7,
+      "n_drugs": 7
+    },
+    {
+      "target": "Receptor-type tyrosine-protein kinase FLT3",
+      "mean_f_pct": 49.7,
+      "std_f_pct": 9.3,
+      "n_drugs": 4
+    },
+    {
+      "target": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+      "mean_f_pct": 49.6,
+      "std_f_pct": 6.9,
+      "n_drugs": 3
+    },
+    {
+      "target": "DNA polymerase (alpha/delta/epsilon)",
+      "mean_f_pct": 49.6,
+      "std_f_pct": 3.2,
+      "n_drugs": 4
+    },
+    {
+      "target": "Voltage-gated L-type calcium channel",
+      "mean_f_pct": 49.2,
+      "std_f_pct": 6.9,
+      "n_drugs": 3
+    },
+    {
+      "target": "Antithrombin-III",
+      "mean_f_pct": 49.2,
+      "std_f_pct": 7.5,
+      "n_drugs": 3
+    },
+    {
+      "target": "Sodium/glucose cotransporter 2",
+      "mean_f_pct": 48.5,
+      "std_f_pct": 1.9,
+      "n_drugs": 3
+    },
+    {
+      "target": "D2-like dopamine receptor",
+      "mean_f_pct": 47.8,
+      "std_f_pct": 4.6,
+      "n_drugs": 6
+    },
+    {
+      "target": "Erythropoietin receptor",
+      "mean_f_pct": 47.2,
+      "std_f_pct": 8.1,
+      "n_drugs": 3
+    },
+    {
+      "target": "Plasminogen",
+      "mean_f_pct": 46.7,
+      "std_f_pct": 4.7,
+      "n_drugs": 3
+    },
+    {
+      "target": "B-lymphocyte antigen CD19",
+      "mean_f_pct": 46.5,
+      "std_f_pct": 1.5,
+      "n_drugs": 3
+    },
+    {
+      "target": "Platelet-derived growth factor receptor alpha",
+      "mean_f_pct": 46.3,
+      "std_f_pct": 4.3,
+      "n_drugs": 3
+    },
+    {
+      "target": "Vascular endothelial growth factor receptor",
+      "mean_f_pct": 45.5,
+      "std_f_pct": 9.6,
+      "n_drugs": 4
+    },
+    {
+      "target": "Mineralocorticoid receptor",
+      "mean_f_pct": 45.0,
+      "std_f_pct": 8.3,
+      "n_drugs": 3
+    },
+    {
+      "target": "Programmed cell death 1 ligand 1",
+      "mean_f_pct": 44.0,
+      "std_f_pct": 6.6,
+      "n_drugs": 3
+    },
+    {
+      "target": "Platelet-derived growth factor receptor",
+      "mean_f_pct": 42.8,
+      "std_f_pct": 5.4,
+      "n_drugs": 3
+    },
+    {
+      "target": "Vascular endothelial growth factor receptor 2",
+      "mean_f_pct": 42.3,
+      "std_f_pct": 1.1,
+      "n_drugs": 3
+    }
+  ],
+  "family_results": {
+    "GPCRs": {
+      "mean_f_pct": 56.8,
+      "std": 8.3,
+      "n_targets": 38
+    },
+    "Ion channels": {
+      "mean_f_pct": 54.9,
+      "std": 4.5,
+      "n_targets": 8
+    },
+    "Kinases": {
+      "mean_f_pct": 56.0,
+      "std": 10.7,
+      "n_targets": 7
+    },
+    "Nuclear receptors": {
+      "mean_f_pct": 56.8,
+      "std": 10.0,
+      "n_targets": 4
+    },
+    "Enzymes": {
+      "mean_f_pct": 58.0,
+      "std": 6.4,
+      "n_targets": 6
+    },
+    "Immune targets": {
+      "mean_f_pct": 56.3,
+      "std": 6.7,
+      "n_targets": 4
+    },
+    "Transporters": {
+      "mean_f_pct": 54.7,
+      "std": 4.3,
+      "n_targets": 5
+    }
+  },
+  "targeted_vs_untargeted": {
+    "targeted_n": 477,
+    "targeted_f_pct": 57.6,
+    "untargeted_n": 613,
+    "untargeted_f_pct": 54.7
+  }
+}
