@@ -1,0 +1,272 @@
+{
+  "overview": {
+    "n_signals": 3218,
+    "n_drugs": 794,
+    "n_aes": 42,
+    "overall_f_pct": 66.2,
+    "mean_abs_lr": 1.056
+  },
+  "subcategories": [
+    {
+      "category": "Connective_tissue",
+      "n_signals": 66,
+      "n_drugs": 56,
+      "mean_f_pct": 56.8,
+      "mean_lr": 0.923
+    },
+    {
+      "category": "Muscle_damage",
+      "n_signals": 349,
+      "n_drugs": 277,
+      "mean_f_pct": 58.4,
+      "mean_lr": 0.973
+    },
+    {
+      "category": "Bone",
+      "n_signals": 319,
+      "n_drugs": 224,
+      "mean_f_pct": 64.6,
+      "mean_lr": 1.063
+    },
+    {
+      "category": "Muscle_pain",
+      "n_signals": 726,
+      "n_drugs": 424,
+      "mean_f_pct": 68.4,
+      "mean_lr": 1.021
+    },
+    {
+      "category": "Joint_pain",
+      "n_signals": 533,
+      "n_drugs": 374,
+      "mean_f_pct": 71.9,
+      "mean_lr": 1.138
+    },
+    {
+      "category": "Inflammatory",
+      "n_signals": 408,
+      "n_drugs": 223,
+      "mean_f_pct": 72.7,
+      "mean_lr": 1.237
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 22,
+      "mean_f_pct": 46.8,
+      "mean_lr": 0.825
+    },
+    {
+      "class": "Statins",
+      "n_drugs": 6,
+      "n_signals": 50,
+      "mean_f_pct": 48.9,
+      "mean_lr": 0.937
+    },
+    {
+      "class": "Fluoroquinolones",
+      "n_drugs": 4,
+      "n_signals": 39,
+      "mean_f_pct": 64.5,
+      "mean_lr": 0.886
+    },
+    {
+      "class": "Bisphosphonates",
+      "n_drugs": 3,
+      "n_signals": 29,
+      "mean_f_pct": 84.2,
+      "mean_lr": 0.951
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_drugs": 5,
+      "n_signals": 75,
+      "mean_f_pct": 86.3,
+      "mean_lr": 1.173
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 31,
+      "mean_f_pct": 85.6,
+      "total_reports": 74330
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 29,
+      "mean_f_pct": 83.0,
+      "total_reports": 59990
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 17,
+      "mean_f_pct": 88.1,
+      "total_reports": 49693
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 21,
+      "mean_f_pct": 92.1,
+      "total_reports": 49652
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 24,
+      "mean_f_pct": 78.4,
+      "total_reports": 48137
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "n_aes": 15,
+      "mean_f_pct": 95.3,
+      "total_reports": 41618
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 19,
+      "mean_f_pct": 85.1,
+      "total_reports": 38283
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 18,
+      "mean_f_pct": 92.4,
+      "total_reports": 37729
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 19,
+      "mean_f_pct": 94.1,
+      "total_reports": 36336
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_aes": 16,
+      "mean_f_pct": 91.6,
+      "total_reports": 32067
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 18,
+      "mean_f_pct": 86.7,
+      "total_reports": 26493
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 22,
+      "mean_f_pct": 79.3,
+      "total_reports": 26009
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "n_aes": 16,
+      "mean_f_pct": 90.8,
+      "total_reports": 24263
+    },
+    {
+      "drug": "NAPROXEN",
+      "n_aes": 19,
+      "mean_f_pct": 84.6,
+      "total_reports": 24040
+    },
+    {
+      "drug": "CELECOXIB",
+      "n_aes": 18,
+      "mean_f_pct": 92.3,
+      "total_reports": 23237
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "n_aes": 15,
+      "mean_f_pct": 89.7,
+      "total_reports": 21817
+    },
+    {
+      "drug": "VITAMIN B9",
+      "n_aes": 12,
+      "mean_f_pct": 86.1,
+      "total_reports": 21768
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 10,
+      "mean_f_pct": 83.8,
+      "total_reports": 21247
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "n_aes": 7,
+      "mean_f_pct": 96.0,
+      "total_reports": 20582
+    },
+    {
+      "drug": "CORTISONE",
+      "n_aes": 15,
+      "mean_f_pct": 88.7,
+      "total_reports": 19946
+    }
+  ],
+  "rhabdomyolysis_focus": {
+    "n_signals": 123,
+    "overall_f_pct": 46.6,
+    "top_drugs": [
+      {
+        "drug": "ROSUVASTATIN",
+        "f_pct": 44.4,
+        "reports": 2128
+      },
+      {
+        "drug": "RISPERIDONE",
+        "f_pct": 28.7,
+        "reports": 515
+      },
+      {
+        "drug": "PREGABALIN",
+        "f_pct": 30.7,
+        "reports": 437
+      },
+      {
+        "drug": "FUROSEMIDE",
+        "f_pct": 46.5,
+        "reports": 417
+      },
+      {
+        "drug": "DAPTOMYCIN",
+        "f_pct": 44.2,
+        "reports": 373
+      },
+      {
+        "drug": "SERTRALINE",
+        "f_pct": 62.3,
+        "reports": 345
+      },
+      {
+        "drug": "IBUPROFEN",
+        "f_pct": 52.4,
+        "reports": 292
+      },
+      {
+        "drug": "OXYCODONE",
+        "f_pct": 45.3,
+        "reports": 285
+      },
+      {
+        "drug": "ACETYLSALICYLIC ACID",
+        "f_pct": 40.1,
+        "reports": 257
+      },
+      {
+        "drug": "LAMOTRIGINE",
+        "f_pct": 60.5,
+        "reports": 238
+      }
+    ]
+  },
+  "onj_focus": {
+    "n_signals": 23,
+    "overall_f_pct": 63.6
+  }
+}

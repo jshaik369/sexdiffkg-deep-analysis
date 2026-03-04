@@ -1,0 +1,275 @@
+{
+  "overview": {
+    "n_signals": 3122,
+    "n_drugs": 794,
+    "n_aes": 42,
+    "overall_f_pct": 52.1,
+    "mean_abs_lr": 0.928
+  },
+  "subcategories": [
+    {
+      "category": "Thrombotic",
+      "n_signals": 479,
+      "n_drugs": 306,
+      "mean_f_pct": 43.4,
+      "mean_lr": 1.203
+    },
+    {
+      "category": "Coagulation",
+      "n_signals": 182,
+      "n_drugs": 154,
+      "mean_f_pct": 52.6,
+      "mean_lr": 0.825
+    },
+    {
+      "category": "Cytopenias",
+      "n_signals": 1179,
+      "n_drugs": 593,
+      "mean_f_pct": 53.9,
+      "mean_lr": 0.896
+    },
+    {
+      "category": "Hemolytic",
+      "n_signals": 87,
+      "n_drugs": 68,
+      "mean_f_pct": 53.9,
+      "mean_lr": 0.869
+    },
+    {
+      "category": "Lab_values",
+      "n_signals": 475,
+      "n_drugs": 321,
+      "mean_f_pct": 54.4,
+      "mean_lr": 0.867
+    },
+    {
+      "category": "Bleeding",
+      "n_signals": 310,
+      "n_drugs": 254,
+      "mean_f_pct": 56.5,
+      "mean_lr": 0.841
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "Antiplatelets",
+      "n_drugs": 4,
+      "n_signals": 22,
+      "mean_f_pct": 44.3,
+      "mean_lr": 0.768
+    },
+    {
+      "class": "Anticoagulants",
+      "n_drugs": 7,
+      "n_signals": 30,
+      "mean_f_pct": 48.2,
+      "mean_lr": 0.718
+    },
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 43,
+      "mean_f_pct": 48.8,
+      "mean_lr": 0.773
+    },
+    {
+      "class": "DMARDs",
+      "n_drugs": 5,
+      "n_signals": 62,
+      "mean_f_pct": 54.5,
+      "mean_lr": 1.082
+    },
+    {
+      "class": "Chemotherapy",
+      "n_drugs": 9,
+      "n_signals": 81,
+      "mean_f_pct": 56.3,
+      "mean_lr": 0.78
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_drugs": 5,
+      "n_signals": 44,
+      "mean_f_pct": 63.3,
+      "mean_lr": 0.9
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "PALBOCICLIB",
+      "n_aes": 5,
+      "mean_f_pct": 96.0,
+      "total_reports": 20924
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 14,
+      "mean_f_pct": 52.1,
+      "total_reports": 13486
+    },
+    {
+      "drug": "BEVACIZUMAB",
+      "n_aes": 13,
+      "mean_f_pct": 64.3,
+      "total_reports": 9447
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 11,
+      "mean_f_pct": 51.4,
+      "total_reports": 8505
+    },
+    {
+      "drug": "DOCETAXEL",
+      "n_aes": 14,
+      "mean_f_pct": 56.5,
+      "total_reports": 7097
+    },
+    {
+      "drug": "PEMBROLIZUMAB",
+      "n_aes": 10,
+      "mean_f_pct": 56.5,
+      "total_reports": 6249
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 14,
+      "mean_f_pct": 58.6,
+      "total_reports": 6059
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "n_aes": 5,
+      "mean_f_pct": 47.6,
+      "total_reports": 5897
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 17,
+      "mean_f_pct": 53.1,
+      "total_reports": 5698
+    },
+    {
+      "drug": "RIBOCICLIB",
+      "n_aes": 2,
+      "mean_f_pct": 99.0,
+      "total_reports": 4673
+    },
+    {
+      "drug": "RIBAVIRIN",
+      "n_aes": 11,
+      "mean_f_pct": 45.8,
+      "total_reports": 4659
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 6,
+      "mean_f_pct": 60.8,
+      "total_reports": 4610
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 13,
+      "mean_f_pct": 54.0,
+      "total_reports": 4419
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 7,
+      "mean_f_pct": 45.5,
+      "total_reports": 4061
+    },
+    {
+      "drug": "ATEZOLIZUMAB",
+      "n_aes": 11,
+      "mean_f_pct": 48.1,
+      "total_reports": 3879
+    },
+    {
+      "drug": "TRASTUZUMAB",
+      "n_aes": 8,
+      "mean_f_pct": 80.4,
+      "total_reports": 3763
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 10,
+      "mean_f_pct": 60.7,
+      "total_reports": 3750
+    },
+    {
+      "drug": "FLUOROURACIL",
+      "n_aes": 8,
+      "mean_f_pct": 58.7,
+      "total_reports": 3476
+    },
+    {
+      "drug": "EMICIZUMAB",
+      "n_aes": 1,
+      "mean_f_pct": 2.1,
+      "total_reports": 3445
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 12,
+      "mean_f_pct": 50.2,
+      "total_reports": 3383
+    }
+  ],
+  "vte_focus": {
+    "n_signals": 449,
+    "overall_f_pct": 42.6,
+    "top_drugs": [
+      {
+        "drug": "ADALIMUMAB",
+        "f_pct": 46.4,
+        "reports": 2777
+      },
+      {
+        "drug": "RITUXIMAB",
+        "f_pct": 39.0,
+        "reports": 2464
+      },
+      {
+        "drug": "INFLIXIMAB",
+        "f_pct": 36.7,
+        "reports": 2333
+      },
+      {
+        "drug": "PREDNISONE",
+        "f_pct": 40.4,
+        "reports": 2271
+      },
+      {
+        "drug": "TESTOSTERONE",
+        "f_pct": 0.7,
+        "reports": 2207
+      },
+      {
+        "drug": "METHOTREXATE",
+        "f_pct": 50.0,
+        "reports": 2177
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "f_pct": 44.9,
+        "reports": 1895
+      },
+      {
+        "drug": "ETANERCEPT",
+        "f_pct": 41.4,
+        "reports": 1539
+      },
+      {
+        "drug": "ABATACEPT",
+        "f_pct": 40.7,
+        "reports": 1530
+      },
+      {
+        "drug": "SULFASALAZINE",
+        "f_pct": 30.7,
+        "reports": 1410
+      }
+    ]
+  }
+}
