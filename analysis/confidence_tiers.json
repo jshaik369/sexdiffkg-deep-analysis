@@ -1,0 +1,17 @@
+{
+  "tier_counts": {
+    "Gold": 15497,
+    "Silver": 48254,
+    "Bronze": 32530,
+    "Low": 0
+  },
+  "tier_f_pcts": {
+    "Gold": 71.9,
+    "Silver": 58.2,
+    "Bronze": 51.3,
+    "Low": NaN
+  },
+  "gold_anti_regression_rho": 1.0,
+  "extreme_female": 10230,
+  "extreme_male": 611
+}

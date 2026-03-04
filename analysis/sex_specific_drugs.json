@@ -1,0 +1,305 @@
+{
+  "female_specific": {
+    "Contraceptives": {
+      "n": 7,
+      "f_pct": 64.8,
+      "drugs": {
+        "LEVONORGESTREL": {
+          "n": 1,
+          "f_pct": 69.7
+        },
+        "NORETHISTERONE": {
+          "n": 1,
+          "f_pct": 47.6
+        },
+        "ETONOGESTREL": {
+          "n": 5,
+          "f_pct": 67.2
+        }
+      }
+    },
+    "HRT": {
+      "n": 18,
+      "f_pct": 72.6,
+      "drugs": {
+        "ESTRADIOL": {
+          "n": 18,
+          "f_pct": 72.6
+        }
+      }
+    },
+    "Reproductive": {
+      "n": 55,
+      "f_pct": 73.7,
+      "drugs": {
+        "MIFEPRISTONE": {
+          "n": 47,
+          "f_pct": 77.6
+        },
+        "MISOPROSTOL": {
+          "n": 8,
+          "f_pct": 50.7
+        }
+      }
+    },
+    "Breast cancer": {
+      "n": 114,
+      "f_pct": 90.0,
+      "drugs": {
+        "TAMOXIFEN": {
+          "n": 12,
+          "f_pct": 84.7
+        },
+        "LETROZOLE": {
+          "n": 17,
+          "f_pct": 87.0
+        },
+        "ANASTROZOLE": {
+          "n": 15,
+          "f_pct": 82.0
+        },
+        "EXEMESTANE": {
+          "n": 4,
+          "f_pct": 85.0
+        },
+        "PALBOCICLIB": {
+          "n": 38,
+          "f_pct": 94.3
+        },
+        "RIBOCICLIB": {
+          "n": 10,
+          "f_pct": 94.0
+        },
+        "FULVESTRANT": {
+          "n": 6,
+          "f_pct": 95.6
+        },
+        "ABEMACICLIB": {
+          "n": 12,
+          "f_pct": 91.6
+        }
+      }
+    },
+    "Osteoporosis (F-predominant)": {
+      "n": 635,
+      "f_pct": 80.6,
+      "drugs": {
+        "ALENDRONIC ACID": {
+          "n": 241,
+          "f_pct": 83.6
+        },
+        "RISEDRONIC ACID": {
+          "n": 45,
+          "f_pct": 81.2
+        },
+        "DENOSUMAB": {
+          "n": 234,
+          "f_pct": 74.0
+        },
+        "TERIPARATIDE": {
+          "n": 84,
+          "f_pct": 86.2
+        },
+        "ABALOPARATIDE": {
+          "n": 31,
+          "f_pct": 91.8
+        }
+      }
+    },
+    "Endometriosis": {
+      "n": 330,
+      "f_pct": 40.9,
+      "drugs": {
+        "GOSERELIN": {
+          "n": 36,
+          "f_pct": 57.1
+        },
+        "LEUPRORELIN": {
+          "n": 294,
+          "f_pct": 38.9
+        }
+      }
+    }
+  },
+  "male_specific": {
+    "Prostate": {
+      "n": 13,
+      "f_pct": 6.2,
+      "drugs": {
+        "ENZALUTAMIDE": {
+          "n": 10,
+          "f_pct": 6.2
+        },
+        "ABIRATERONE": {
+          "n": 2,
+          "f_pct": 6.2
+        },
+        "BICALUTAMIDE": {
+          "n": 1,
+          "f_pct": 6.7
+        }
+      }
+    },
+    "BPH": {
+      "n": 133,
+      "f_pct": 29.9,
+      "drugs": {
+        "TAMSULOSIN": {
+          "n": 52,
+          "f_pct": 23.3
+        },
+        "FINASTERIDE": {
+          "n": 15,
+          "f_pct": 18.3
+        },
+        "DUTASTERIDE": {
+          "n": 4,
+          "f_pct": 52.4
+        },
+        "ALFUZOSIN": {
+          "n": 10,
+          "f_pct": 33.2
+        },
+        "SILODOSIN": {
+          "n": 1,
+          "f_pct": 16.8
+        },
+        "DOXAZOSIN": {
+          "n": 51,
+          "f_pct": 37.9
+        }
+      }
+    },
+    "ED": {
+      "n": 530,
+      "f_pct": 56.1,
+      "drugs": {
+        "SILDENAFIL": {
+          "n": 272,
+          "f_pct": 54.9
+        },
+        "TADALAFIL": {
+          "n": 258,
+          "f_pct": 57.4
+        }
+      }
+    },
+    "Testosterone replacement": {
+      "n": 46,
+      "f_pct": 25.7,
+      "drugs": {
+        "TESTOSTERONE": {
+          "n": 46,
+          "f_pct": 25.7
+        }
+      }
+    },
+    "Hemophilia": {
+      "n": 46,
+      "f_pct": 13.4,
+      "drugs": {
+        "FACTOR VIII": {
+          "n": 38,
+          "f_pct": 13.1
+        },
+        "EMICIZUMAB": {
+          "n": 5,
+          "f_pct": 18.4
+        },
+        "FACTOR IX": {
+          "n": 3,
+          "f_pct": 8.9
+        }
+      }
+    }
+  },
+  "breast_cancer_ranking": [
+    {
+      "drug": "FULVESTRANT",
+      "n": 6,
+      "f_pct": 95.6
+    },
+    {
+      "drug": "PALBOCICLIB",
+      "n": 38,
+      "f_pct": 94.3
+    },
+    {
+      "drug": "RIBOCICLIB",
+      "n": 10,
+      "f_pct": 94.0
+    },
+    {
+      "drug": "ABEMACICLIB",
+      "n": 12,
+      "f_pct": 91.6
+    },
+    {
+      "drug": "LETROZOLE",
+      "n": 17,
+      "f_pct": 87.0
+    },
+    {
+      "drug": "EXEMESTANE",
+      "n": 4,
+      "f_pct": 85.0
+    },
+    {
+      "drug": "TAMOXIFEN",
+      "n": 12,
+      "f_pct": 84.7
+    },
+    {
+      "drug": "ANASTROZOLE",
+      "n": 15,
+      "f_pct": 82.0
+    }
+  ],
+  "prostate_bph_ranking": [
+    {
+      "drug": "ABIRATERONE",
+      "n": 2,
+      "f_pct": 6.2
+    },
+    {
+      "drug": "ENZALUTAMIDE",
+      "n": 10,
+      "f_pct": 6.2
+    },
+    {
+      "drug": "BICALUTAMIDE",
+      "n": 1,
+      "f_pct": 6.7
+    },
+    {
+      "drug": "SILODOSIN",
+      "n": 1,
+      "f_pct": 16.8
+    },
+    {
+      "drug": "FINASTERIDE",
+      "n": 15,
+      "f_pct": 18.3
+    },
+    {
+      "drug": "TAMSULOSIN",
+      "n": 52,
+      "f_pct": 23.3
+    },
+    {
+      "drug": "ALFUZOSIN",
+      "n": 10,
+      "f_pct": 33.2
+    },
+    {
+      "drug": "DOXAZOSIN",
+      "n": 51,
+      "f_pct": 37.9
+    },
+    {
+      "drug": "DUTASTERIDE",
+      "n": 4,
+      "f_pct": 52.4
+    }
+  ]
+}
