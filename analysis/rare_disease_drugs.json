@@ -1,0 +1,614 @@
+{
+  "rare_disease_classes": {
+    "orphan_oncology": {
+      "description": "Rare hematologic malignancies",
+      "n_drugs_found": 17,
+      "n_drugs_total": 17,
+      "n_signals": 1551,
+      "f_pct": 48.4,
+      "mean_lr": 0.752,
+      "drugs": [
+        {
+          "drug": "IMATINIB",
+          "n_signals": 155,
+          "f_pct": 54.0,
+          "mean_lr": 0.761
+        },
+        {
+          "drug": "DASATINIB",
+          "n_signals": 79,
+          "f_pct": 51.3,
+          "mean_lr": 0.744
+        },
+        {
+          "drug": "NILOTINIB",
+          "n_signals": 132,
+          "f_pct": 53.8,
+          "mean_lr": 0.72
+        },
+        {
+          "drug": "BOSUTINIB",
+          "n_signals": 34,
+          "f_pct": 51.0,
+          "mean_lr": 0.711
+        },
+        {
+          "drug": "PONATINIB",
+          "n_signals": 68,
+          "f_pct": 52.1,
+          "mean_lr": 0.736
+        },
+        {
+          "drug": "RUXOLITINIB",
+          "n_signals": 127,
+          "f_pct": 50.3,
+          "mean_lr": 0.748
+        },
+        {
+          "drug": "FEDRATINIB",
+          "n_signals": 3,
+          "f_pct": 59.5,
+          "mean_lr": 0.83
+        },
+        {
+          "drug": "IBRUTINIB",
+          "n_signals": 186,
+          "f_pct": 41.3,
+          "mean_lr": 0.743
+        },
+        {
+          "drug": "ACALABRUTINIB",
+          "n_signals": 31,
+          "f_pct": 46.4,
+          "mean_lr": 0.69
+        },
+        {
+          "drug": "ZANUBRUTINIB",
+          "n_signals": 6,
+          "f_pct": 43.4,
+          "mean_lr": 0.703
+        },
+        {
+          "drug": "VENETOCLAX",
+          "n_signals": 168,
+          "f_pct": 41.5,
+          "mean_lr": 0.775
+        },
+        {
+          "drug": "IDELALISIB",
+          "n_signals": 29,
+          "f_pct": 44.2,
+          "mean_lr": 0.794
+        },
+        {
+          "drug": "MIDOSTAURIN",
+          "n_signals": 18,
+          "f_pct": 37.0,
+          "mean_lr": 0.804
+        },
+        {
+          "drug": "GILTERITINIB",
+          "n_signals": 33,
+          "f_pct": 54.1,
+          "mean_lr": 0.818
+        },
+        {
+          "drug": "THALIDOMIDE",
+          "n_signals": 62,
+          "f_pct": 52.8,
+          "mean_lr": 0.805
+        },
+        {
+          "drug": "LENALIDOMIDE",
+          "n_signals": 292,
+          "f_pct": 50.0,
+          "mean_lr": 0.761
+        },
+        {
+          "drug": "POMALIDOMIDE",
+          "n_signals": 128,
+          "f_pct": 47.6,
+          "mean_lr": 0.725
+        }
+      ]
+    },
+    "cystic_fibrosis": {
+      "description": "CFTR modulators",
+      "n_drugs_found": 1,
+      "n_drugs_total": 4,
+      "n_signals": 18,
+      "f_pct": 53.8,
+      "mean_lr": 0.718,
+      "drugs": [
+        {
+          "drug": "IVACAFTOR",
+          "n_signals": 18,
+          "f_pct": 53.8,
+          "mean_lr": 0.718
+        }
+      ]
+    },
+    "lysosomal_storage": {
+      "description": "Enzyme replacement/substrate reduction",
+      "n_drugs_found": 9,
+      "n_drugs_total": 10,
+      "n_signals": 134,
+      "f_pct": 45.1,
+      "mean_lr": 0.742,
+      "drugs": [
+        {
+          "drug": "IMIGLUCERASE",
+          "n_signals": 11,
+          "f_pct": 62.4,
+          "mean_lr": 0.697
+        },
+        {
+          "drug": "VELAGLUCERASE ALFA",
+          "n_signals": 17,
+          "f_pct": 49.1,
+          "mean_lr": 0.712
+        },
+        {
+          "drug": "ELIGLUSTAT",
+          "n_signals": 6,
+          "f_pct": 53.3,
+          "mean_lr": 0.689
+        },
+        {
+          "drug": "MIGLUSTAT",
+          "n_signals": 4,
+          "f_pct": 46.1,
+          "mean_lr": 0.796
+        },
+        {
+          "drug": "AGALSIDASE BETA",
+          "n_signals": 41,
+          "f_pct": 35.9,
+          "mean_lr": 0.841
+        },
+        {
+          "drug": "AGALSIDASE ALFA",
+          "n_signals": 1,
+          "f_pct": 50.0,
+          "mean_lr": 0.501
+        },
+        {
+          "drug": "LARONIDASE",
+          "n_signals": 20,
+          "f_pct": 50.1,
+          "mean_lr": 0.749
+        },
+        {
+          "drug": "GALSULFASE",
+          "n_signals": 14,
+          "f_pct": 51.2,
+          "mean_lr": 0.662
+        },
+        {
+          "drug": "ELOSULFASE ALFA",
+          "n_signals": 20,
+          "f_pct": 53.1,
+          "mean_lr": 0.652
+        }
+      ]
+    },
+    "rare_neuro": {
+      "description": "SMA, hATTR, complement inhibitors",
+      "n_drugs_found": 8,
+      "n_drugs_total": 8,
+      "n_signals": 274,
+      "f_pct": 50.5,
+      "mean_lr": 0.758,
+      "drugs": [
+        {
+          "drug": "NUSINERSEN",
+          "n_signals": 27,
+          "f_pct": 50.5,
+          "mean_lr": 0.758
+        },
+        {
+          "drug": "RISDIPLAM",
+          "n_signals": 8,
+          "f_pct": 50.4,
+          "mean_lr": 0.567
+        },
+        {
+          "drug": "ONASEMNOGENE ABEPARVOVEC",
+          "n_signals": 15,
+          "f_pct": 51.2,
+          "mean_lr": 0.735
+        },
+        {
+          "drug": "PATISIRAN",
+          "n_signals": 2,
+          "f_pct": 32.9,
+          "mean_lr": 0.528
+        },
+        {
+          "drug": "INOTERSEN",
+          "n_signals": 20,
+          "f_pct": 58.0,
+          "mean_lr": 0.775
+        },
+        {
+          "drug": "TAFAMIDIS",
+          "n_signals": 22,
+          "f_pct": 25.7,
+          "mean_lr": 0.73
+        },
+        {
+          "drug": "ECULIZUMAB",
+          "n_signals": 136,
+          "f_pct": 55.4,
+          "mean_lr": 0.782
+        },
+        {
+          "drug": "RAVULIZUMAB",
+          "n_signals": 44,
+          "f_pct": 45.8,
+          "mean_lr": 0.741
+        }
+      ]
+    },
+    "rare_pulmonary": {
+      "description": "IPF drugs",
+      "n_drugs_found": 2,
+      "n_drugs_total": 2,
+      "n_signals": 182,
+      "f_pct": 44.0,
+      "mean_lr": 0.748,
+      "drugs": [
+        {
+          "drug": "PIRFENIDONE",
+          "n_signals": 79,
+          "f_pct": 36.7,
+          "mean_lr": 0.741
+        },
+        {
+          "drug": "NINTEDANIB",
+          "n_signals": 103,
+          "f_pct": 48.6,
+          "mean_lr": 0.754
+        }
+      ]
+    },
+    "rare_metabolic": {
+      "description": "Rare metabolic disorders",
+      "n_drugs_found": 3,
+      "n_drugs_total": 4,
+      "n_signals": 102,
+      "f_pct": 61.7,
+      "mean_lr": 0.767,
+      "drugs": [
+        {
+          "drug": "NITISINONE",
+          "n_signals": 4,
+          "f_pct": 45.4,
+          "mean_lr": 1.167
+        },
+        {
+          "drug": "SAPROPTERIN",
+          "n_signals": 20,
+          "f_pct": 53.6,
+          "mean_lr": 0.75
+        },
+        {
+          "drug": "TEDUGLUTIDE",
+          "n_signals": 78,
+          "f_pct": 63.4,
+          "mean_lr": 0.751
+        }
+      ]
+    },
+    "rare_hematologic": {
+      "description": "Rare blood disorders (ITP, TTP, MDS)",
+      "n_drugs_found": 5,
+      "n_drugs_total": 5,
+      "n_signals": 117,
+      "f_pct": 59.7,
+      "mean_lr": 0.775,
+      "drugs": [
+        {
+          "drug": "ELTROMBOPAG",
+          "n_signals": 75,
+          "f_pct": 62.6,
+          "mean_lr": 0.712
+        },
+        {
+          "drug": "ROMIPLOSTIM",
+          "n_signals": 34,
+          "f_pct": 51.9,
+          "mean_lr": 0.941
+        },
+        {
+          "drug": "AVATROMBOPAG",
+          "n_signals": 2,
+          "f_pct": 47.9,
+          "mean_lr": 0.597
+        },
+        {
+          "drug": "LUSPATERCEPT",
+          "n_signals": 3,
+          "f_pct": 51.9,
+          "mean_lr": 0.759
+        },
+        {
+          "drug": "CAPLACIZUMAB",
+          "n_signals": 3,
+          "f_pct": 75.7,
+          "mean_lr": 0.599
+        }
+      ]
+    }
+  },
+  "orphan_vs_common": {
+    "rare": {
+      "n_signals": 2378,
+      "n_drugs": 45,
+      "f_pct": 49.2,
+      "mean_lr": 0.754
+    },
+    "common": {
+      "n_signals": 93903,
+      "n_drugs": 2133,
+      "f_pct": 74.5,
+      "mean_lr": 0.993
+    },
+    "mann_whitney_p": 4.43770390485044e-82
+  },
+  "rare_drug_ranking": [
+    {
+      "drug": "TEDUGLUTIDE",
+      "n_signals": 78,
+      "f_pct": 63.4,
+      "mean_lr": 0.751
+    },
+    {
+      "drug": "ELTROMBOPAG",
+      "n_signals": 75,
+      "f_pct": 62.6,
+      "mean_lr": 0.712
+    },
+    {
+      "drug": "IMIGLUCERASE",
+      "n_signals": 11,
+      "f_pct": 62.4,
+      "mean_lr": 0.697
+    },
+    {
+      "drug": "INOTERSEN",
+      "n_signals": 20,
+      "f_pct": 58.0,
+      "mean_lr": 0.775
+    },
+    {
+      "drug": "ECULIZUMAB",
+      "n_signals": 136,
+      "f_pct": 55.4,
+      "mean_lr": 0.782
+    },
+    {
+      "drug": "GILTERITINIB",
+      "n_signals": 33,
+      "f_pct": 54.1,
+      "mean_lr": 0.818
+    },
+    {
+      "drug": "IMATINIB",
+      "n_signals": 155,
+      "f_pct": 54.0,
+      "mean_lr": 0.761
+    },
+    {
+      "drug": "IVACAFTOR",
+      "n_signals": 18,
+      "f_pct": 53.8,
+      "mean_lr": 0.718
+    },
+    {
+      "drug": "NILOTINIB",
+      "n_signals": 132,
+      "f_pct": 53.8,
+      "mean_lr": 0.72
+    },
+    {
+      "drug": "SAPROPTERIN",
+      "n_signals": 20,
+      "f_pct": 53.6,
+      "mean_lr": 0.75
+    },
+    {
+      "drug": "ELIGLUSTAT",
+      "n_signals": 6,
+      "f_pct": 53.3,
+      "mean_lr": 0.689
+    },
+    {
+      "drug": "ELOSULFASE ALFA",
+      "n_signals": 20,
+      "f_pct": 53.1,
+      "mean_lr": 0.652
+    },
+    {
+      "drug": "THALIDOMIDE",
+      "n_signals": 62,
+      "f_pct": 52.8,
+      "mean_lr": 0.805
+    },
+    {
+      "drug": "PONATINIB",
+      "n_signals": 68,
+      "f_pct": 52.1,
+      "mean_lr": 0.736
+    },
+    {
+      "drug": "ROMIPLOSTIM",
+      "n_signals": 34,
+      "f_pct": 51.9,
+      "mean_lr": 0.941
+    },
+    {
+      "drug": "DASATINIB",
+      "n_signals": 79,
+      "f_pct": 51.3,
+      "mean_lr": 0.744
+    },
+    {
+      "drug": "GALSULFASE",
+      "n_signals": 14,
+      "f_pct": 51.2,
+      "mean_lr": 0.662
+    },
+    {
+      "drug": "ONASEMNOGENE ABEPARVOVEC",
+      "n_signals": 15,
+      "f_pct": 51.2,
+      "mean_lr": 0.735
+    },
+    {
+      "drug": "BOSUTINIB",
+      "n_signals": 34,
+      "f_pct": 51.0,
+      "mean_lr": 0.711
+    },
+    {
+      "drug": "NUSINERSEN",
+      "n_signals": 27,
+      "f_pct": 50.5,
+      "mean_lr": 0.758
+    },
+    {
+      "drug": "RISDIPLAM",
+      "n_signals": 8,
+      "f_pct": 50.4,
+      "mean_lr": 0.567
+    },
+    {
+      "drug": "RUXOLITINIB",
+      "n_signals": 127,
+      "f_pct": 50.3,
+      "mean_lr": 0.748
+    },
+    {
+      "drug": "LARONIDASE",
+      "n_signals": 20,
+      "f_pct": 50.1,
+      "mean_lr": 0.749
+    },
+    {
+      "drug": "LENALIDOMIDE",
+      "n_signals": 292,
+      "f_pct": 50.0,
+      "mean_lr": 0.761
+    },
+    {
+      "drug": "VELAGLUCERASE ALFA",
+      "n_signals": 17,
+      "f_pct": 49.1,
+      "mean_lr": 0.712
+    },
+    {
+      "drug": "NINTEDANIB",
+      "n_signals": 103,
+      "f_pct": 48.6,
+      "mean_lr": 0.754
+    },
+    {
+      "drug": "POMALIDOMIDE",
+      "n_signals": 128,
+      "f_pct": 47.6,
+      "mean_lr": 0.725
+    },
+    {
+      "drug": "ACALABRUTINIB",
+      "n_signals": 31,
+      "f_pct": 46.4,
+      "mean_lr": 0.69
+    },
+    {
+      "drug": "RAVULIZUMAB",
+      "n_signals": 44,
+      "f_pct": 45.8,
+      "mean_lr": 0.741
+    },
+    {
+      "drug": "IDELALISIB",
+      "n_signals": 29,
+      "f_pct": 44.2,
+      "mean_lr": 0.794
+    },
+    {
+      "drug": "ZANUBRUTINIB",
+      "n_signals": 6,
+      "f_pct": 43.4,
+      "mean_lr": 0.703
+    },
+    {
+      "drug": "VENETOCLAX",
+      "n_signals": 168,
+      "f_pct": 41.5,
+      "mean_lr": 0.775
+    },
+    {
+      "drug": "IBRUTINIB",
+      "n_signals": 186,
+      "f_pct": 41.3,
+      "mean_lr": 0.743
+    },
+    {
+      "drug": "MIDOSTAURIN",
+      "n_signals": 18,
+      "f_pct": 37.0,
+      "mean_lr": 0.804
+    },
+    {
+      "drug": "PIRFENIDONE",
+      "n_signals": 79,
+      "f_pct": 36.7,
+      "mean_lr": 0.741
+    },
+    {
+      "drug": "AGALSIDASE BETA",
+      "n_signals": 41,
+      "f_pct": 35.9,
+      "mean_lr": 0.841
+    },
+    {
+      "drug": "TAFAMIDIS",
+      "n_signals": 22,
+      "f_pct": 25.7,
+      "mean_lr": 0.73
+    }
+  ],
+  "rare_antiregression": {
+    "quintiles": [
+      {
+        "quintile": 0,
+        "n_drugs": 9,
+        "mean_f_frac": 50.4
+      },
+      {
+        "quintile": 1,
+        "n_drugs": 9,
+        "mean_f_frac": 51.4
+      },
+      {
+        "quintile": 2,
+        "n_drugs": 9,
+        "mean_f_frac": 48.6
+      },
+      {
+        "quintile": 3,
+        "n_drugs": 9,
+        "mean_f_frac": 50.9
+      },
+      {
+        "quintile": 4,
+        "n_drugs": 9,
+        "mean_f_frac": 50.1
+      }
+    ],
+    "rho": -0.3,
+    "p": 0.6238376647810728
+  }
+}

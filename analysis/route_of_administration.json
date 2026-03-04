@@ -1,0 +1,220 @@
+{
+  "route_classes": {
+    "injectable_IV": {
+      "desc": "IV/injectable biologics and chemo",
+      "n_drugs": 29,
+      "n_signals": 7590,
+      "f_pct": 79.1,
+      "mean_lr": 0.946
+    },
+    "injectable_SC": {
+      "desc": "SC biologics and peptides",
+      "n_drugs": 20,
+      "n_signals": 4277,
+      "f_pct": 81.6,
+      "mean_lr": 0.948
+    },
+    "oral": {
+      "desc": "Common oral drugs",
+      "n_drugs": 28,
+      "n_signals": 10183,
+      "f_pct": 77.9,
+      "mean_lr": 1.011
+    },
+    "topical_dermal": {
+      "desc": "Topical/dermal",
+      "n_drugs": 12,
+      "n_signals": 1648,
+      "f_pct": 79.5,
+      "mean_lr": 1.141
+    },
+    "inhaled": {
+      "desc": "Inhaled respiratory",
+      "n_drugs": 10,
+      "n_signals": 1530,
+      "f_pct": 61.2,
+      "mean_lr": 1.104
+    },
+    "ophthalmic": {
+      "desc": "Ophthalmic",
+      "n_drugs": 8,
+      "n_signals": 282,
+      "f_pct": 64.0,
+      "mean_lr": 0.772
+    }
+  },
+  "route_comparison": [
+    {
+      "route": "injectable_IV",
+      "n_signals": 7590,
+      "f_pct": 79.1,
+      "mean_lr": 0.946
+    },
+    {
+      "route": "injectable_SC",
+      "n_signals": 4277,
+      "f_pct": 81.6,
+      "mean_lr": 0.948
+    },
+    {
+      "route": "oral",
+      "n_signals": 10183,
+      "f_pct": 77.9,
+      "mean_lr": 1.011
+    },
+    {
+      "route": "topical_dermal",
+      "n_signals": 1648,
+      "f_pct": 79.5,
+      "mean_lr": 1.141
+    },
+    {
+      "route": "inhaled",
+      "n_signals": 1530,
+      "f_pct": 61.2,
+      "mean_lr": 1.104
+    },
+    {
+      "route": "ophthalmic",
+      "n_signals": 282,
+      "f_pct": 64.0,
+      "mean_lr": 0.772
+    }
+  ],
+  "route_ae_patterns": {
+    "GI": {
+      "injectable_IV": {
+        "n": 14,
+        "f_pct": 83.1
+      },
+      "injectable_SC": {
+        "n": 21,
+        "f_pct": 86.0
+      },
+      "oral": {
+        "n": 34,
+        "f_pct": 80.4
+      },
+      "topical_dermal": {
+        "n": 15,
+        "f_pct": 84.1
+      },
+      "inhaled": {
+        "n": 26,
+        "f_pct": 65.7
+      },
+      "ophthalmic": {
+        "n": 4,
+        "f_pct": 53.5
+      }
+    },
+    "skin_allergic": {
+      "injectable_IV": {
+        "n": 33,
+        "f_pct": 88.0
+      },
+      "injectable_SC": {
+        "n": 23,
+        "f_pct": 85.7
+      },
+      "oral": {
+        "n": 45,
+        "f_pct": 84.8
+      },
+      "topical_dermal": {
+        "n": 15,
+        "f_pct": 84.6
+      },
+      "inhaled": {
+        "n": 14,
+        "f_pct": 80.7
+      },
+      "ophthalmic": {
+        "n": 4,
+        "f_pct": 84.6
+      }
+    },
+    "hepatic": {
+      "injectable_IV": {
+        "n": 26,
+        "f_pct": 71.8
+      },
+      "injectable_SC": {
+        "n": 14,
+        "f_pct": 72.7
+      },
+      "oral": {
+        "n": 40,
+        "f_pct": 68.8
+      },
+      "topical_dermal": {
+        "n": 4,
+        "f_pct": 73.4
+      }
+    },
+    "renal": {
+      "injectable_IV": {
+        "n": 12,
+        "f_pct": 52.0
+      },
+      "injectable_SC": {
+        "n": 10,
+        "f_pct": 60.5
+      },
+      "oral": {
+        "n": 24,
+        "f_pct": 50.6
+      },
+      "topical_dermal": {
+        "n": 3,
+        "f_pct": 33.5
+      },
+      "inhaled": {
+        "n": 6,
+        "f_pct": 41.1
+      },
+      "ophthalmic": {
+        "n": 5,
+        "f_pct": 55.0
+      }
+    },
+    "CNS": {
+      "injectable_IV": {
+        "n": 25,
+        "f_pct": 87.7
+      },
+      "injectable_SC": {
+        "n": 21,
+        "f_pct": 84.2
+      },
+      "oral": {
+        "n": 30,
+        "f_pct": 83.8
+      },
+      "topical_dermal": {
+        "n": 21,
+        "f_pct": 85.5
+      },
+      "inhaled": {
+        "n": 17,
+        "f_pct": 68.5
+      },
+      "ophthalmic": {
+        "n": 4,
+        "f_pct": 87.1
+      }
+    }
+  },
+  "kruskal_wallis": {
+    "H": 407.78,
+    "p": 6.248002543287281e-86,
+    "groups": [
+      "injectable_IV",
+      "injectable_SC",
+      "oral",
+      "topical_dermal",
+      "inhaled",
+      "ophthalmic"
+    ]
+  }
+}

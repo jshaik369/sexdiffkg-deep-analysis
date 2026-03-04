@@ -1,182 +1,545 @@
 {
-  "wave": "27_age_sex_interaction",
-  "age_proxy_profiles": {
+  "age_groups": {
     "pediatric": {
-      "n_drugs": 10,
-      "mean_f": 0.4872
+      "n_signals": 61,
+      "n_drugs": 56,
+      "f_pct": 43.7,
+      "mean_lr": 0.865,
+      "ae_details": [
+        {
+          "ae": "FEBRILE CONVULSION",
+          "n_signals": 1,
+          "f_pct": 48.1
+        },
+        {
+          "ae": "GROWTH RETARDATION",
+          "n_signals": 14,
+          "f_pct": 45.5
+        },
+        {
+          "ae": "DEVELOPMENTAL DELAY",
+          "n_signals": 20,
+          "f_pct": 41.5
+        },
+        {
+          "ae": "FAILURE TO THRIVE",
+          "n_signals": 18,
+          "f_pct": 51.4
+        },
+        {
+          "ae": "ENURESIS",
+          "n_signals": 8,
+          "f_pct": 61.6
+        }
+      ]
     },
     "reproductive_age": {
-      "n_drugs": 4,
-      "mean_f": 0.0441
+      "n_signals": 14,
+      "n_drugs": 14,
+      "f_pct": 28.9,
+      "mean_lr": 2.238,
+      "ae_details": [
+        {
+          "ae": "PREGNANCY",
+          "n_signals": 4,
+          "f_pct": 79.1
+        },
+        {
+          "ae": "GALACTORRHOEA",
+          "n_signals": 10,
+          "f_pct": 25.2
+        }
+      ]
     },
-    "working_age": {
+    "middle_aged": {
+      "n_signals": 792,
+      "n_drugs": 507,
+      "f_pct": 83.2,
+      "mean_lr": 1.257,
+      "ae_details": [
+        {
+          "ae": "MYOCARDIAL INFARCTION",
+          "n_signals": 182,
+          "f_pct": 54.6
+        },
+        {
+          "ae": "TYPE 2 DIABETES MELLITUS",
+          "n_signals": 127,
+          "f_pct": 92.4
+        },
+        {
+          "ae": "HYPERTENSION",
+          "n_signals": 313,
+          "f_pct": 84.1
+        },
+        {
+          "ae": "HYPERCHOLESTEROLAEMIA",
+          "n_signals": 79,
+          "f_pct": 90.0
+        },
+        {
+          "ae": "OBESITY",
+          "n_signals": 91,
+          "f_pct": 77.4
+        }
+      ]
+    },
+    "elderly": {
+      "n_signals": 633,
+      "n_drugs": 443,
+      "f_pct": 73.3,
+      "mean_lr": 1.005,
+      "ae_details": [
+        {
+          "ae": "FALL",
+          "n_signals": 250,
+          "f_pct": 75.7
+        },
+        {
+          "ae": "DEMENTIA",
+          "n_signals": 73,
+          "f_pct": 57.8
+        },
+        {
+          "ae": "OSTEOPOROTIC FRACTURE",
+          "n_signals": 5,
+          "f_pct": 56.1
+        },
+        {
+          "ae": "URINARY INCONTINENCE",
+          "n_signals": 68,
+          "f_pct": 62.1
+        },
+        {
+          "ae": "DELIRIUM",
+          "n_signals": 125,
+          "f_pct": 78.4
+        },
+        {
+          "ae": "PNEUMONIA ASPIRATION",
+          "n_signals": 112,
+          "f_pct": 59.7
+        }
+      ]
+    }
+  },
+  "age_drug_patterns": {
+    "pediatric": {
+      "n_drugs": 7,
+      "n_signals": 1990,
+      "f_pct": 46.0,
+      "mean_lr": 0.996,
+      "drugs": [
+        {
+          "drug": "METHYLPHENIDATE",
+          "n_signals": 147,
+          "f_pct": 42.8
+        },
+        {
+          "drug": "ATOMOXETINE",
+          "n_signals": 105,
+          "f_pct": 81.2
+        },
+        {
+          "drug": "RISPERIDONE",
+          "n_signals": 518,
+          "f_pct": 28.5
+        },
+        {
+          "drug": "ARIPIPRAZOLE",
+          "n_signals": 342,
+          "f_pct": 55.3
+        },
+        {
+          "drug": "VALPROIC ACID",
+          "n_signals": 339,
+          "f_pct": 48.3
+        },
+        {
+          "drug": "LEVETIRACETAM",
+          "n_signals": 258,
+          "f_pct": 57.3
+        },
+        {
+          "drug": "MONTELUKAST",
+          "n_signals": 281,
+          "f_pct": 68.2
+        }
+      ]
+    },
+    "reproductive_age": {
+      "n_drugs": 5,
+      "n_signals": 2001,
+      "f_pct": 84.5,
+      "mean_lr": 1.067,
+      "drugs": [
+        {
+          "drug": "ISOTRETINOIN",
+          "n_signals": 217,
+          "f_pct": 52.6
+        },
+        {
+          "drug": "METHOTREXATE",
+          "n_signals": 892,
+          "f_pct": 84.8
+        },
+        {
+          "drug": "LEFLUNOMIDE",
+          "n_signals": 370,
+          "f_pct": 92.3
+        },
+        {
+          "drug": "MYCOPHENOLIC ACID",
+          "n_signals": 507,
+          "f_pct": 77.6
+        },
+        {
+          "drug": "FINASTERIDE",
+          "n_signals": 15,
+          "f_pct": 5.5
+        }
+      ]
+    },
+    "middle_aged": {
+      "n_drugs": 7,
+      "n_signals": 2157,
+      "f_pct": 63.1,
+      "mean_lr": 0.93,
+      "drugs": [
+        {
+          "drug": "ATORVASTATIN",
+          "n_signals": 388,
+          "f_pct": 64.0
+        },
+        {
+          "drug": "METFORMIN",
+          "n_signals": 399,
+          "f_pct": 64.9
+        },
+        {
+          "drug": "AMLODIPINE",
+          "n_signals": 422,
+          "f_pct": 62.5
+        },
+        {
+          "drug": "LISINOPRIL",
+          "n_signals": 252,
+          "f_pct": 67.0
+        },
+        {
+          "drug": "METOPROLOL",
+          "n_signals": 244,
+          "f_pct": 61.9
+        },
+        {
+          "drug": "CLOPIDOGREL",
+          "n_signals": 300,
+          "f_pct": 52.1
+        },
+        {
+          "drug": "SEMAGLUTIDE",
+          "n_signals": 152,
+          "f_pct": 67.0
+        }
+      ]
+    },
+    "elderly": {
       "n_drugs": 8,
-      "mean_f": 0.4676
-    },
-    "geriatric": {
-      "n_drugs": 13,
-      "mean_f": 0.4806
-    }
-  },
-  "volume_proxy": {
-    "high_vol": {
-      "n": 545,
-      "mean_f": 0.5173
-    },
-    "low_vol": {
-      "n": 548,
-      "mean_f": 0.4285
-    }
-  },
-  "ae_profile_clusters": {
-    "cluster_0": {
-      "n_drugs": 54,
-      "mean_f": 0.325,
-      "top_drugs": [
-        "SALBUTAMOL",
-        "INSULIN",
-        "OMALIZUMAB",
-        "DUPILUMAB",
-        "IMMUNOGLOBULINS, UNSPECIFIED"
-      ],
-      "top_aes": [
-        "Mobility decreased",
-        "Wound",
-        "Discomfort",
-        "Acne",
-        "Arthropathy"
-      ]
-    },
-    "cluster_1": {
-      "n_drugs": 75,
-      "mean_f": 0.4656,
-      "top_drugs": [
-        "RANITIDINE",
-        "CETIRIZINE",
-        "CALCIUM",
-        "CORTISONE",
-        "FLUTICASONE;VILANTEROL"
-      ],
-      "top_aes": [
-        "Condition aggravated",
-        "Pyrexia",
-        "Fatigue",
-        "Product use in unapproved indication",
-        "Off label use"
-      ]
-    },
-    "cluster_2": {
-      "n_drugs": 98,
-      "mean_f": 0.4807,
-      "top_drugs": [
-        "ONDANSETRON",
-        "SILDENAFIL",
-        "TADALAFIL",
-        "AMIODARONE",
-        "ALLOPURINOL"
-      ],
-      "top_aes": [
-        "General physical health deterioration",
-        "Drug intolerance",
-        "Weight decreased",
-        "Therapeutic product effect incomplete",
-        "Cardiac arrest"
-      ]
-    },
-    "cluster_3": {
-      "n_drugs": 78,
-      "mean_f": 0.6268,
-      "top_drugs": [
-        "TACROLIMUS",
-        "DEXAMETHASONE",
-        "CYCLOPHOSPHAMIDE",
-        "CICLOSPORIN",
-        "ZOLEDRONIC ACID"
-      ],
-      "top_aes": [
-        "Haematuria",
-        "Haemorrhage",
-        "Fungal infection",
-        "Bronchitis",
-        "Cerebral infarction"
-      ]
-    },
-    "cluster_4": {
-      "n_drugs": 43,
-      "mean_f": 0.7091,
-      "top_drugs": [
-        "FLUDARABINE",
-        "ANTITHYMOCYTE IMMUNOGLOBULIN",
-        "VORICONAZOLE",
-        "PIPERACILLIN;TAZOBACTAM",
-        "MELPHALAN"
-      ],
-      "top_aes": [
-        "Cardiac failure",
-        "Cardiac arrest",
-        "Acute kidney injury",
-        "Fungal infection",
-        "Dysphagia"
-      ]
-    },
-    "cluster_5": {
-      "n_drugs": 55,
-      "mean_f": 0.5478,
-      "top_drugs": [
-        "RISPERIDONE",
-        "ACETYLSALICYLIC ACID",
-        "QUETIAPINE",
-        "AMLODIPINE",
-        "METFORMIN"
-      ],
-      "top_aes": [
-        "Contraindicated product administered",
-        "Alopecia",
-        "Loss of personal independence in daily activities",
-        "Migraine",
-        "Angioedema"
-      ]
-    },
-    "cluster_6": {
-      "n_drugs": 43,
-      "mean_f": 0.5873,
-      "top_drugs": [
-        "EMTRICITABINE;TENOFOVIR",
-        "PROPOFOL",
-        "LAMIVUDINE",
-        "TENOFOVIR",
-        "MIDAZOLAM"
-      ],
-      "top_aes": [
-        "Pain",
-        "Malaise",
-        "Drug interaction",
-        "Dizziness",
-        "Hypertension"
-      ]
-    },
-    "cluster_7": {
-      "n_drugs": 54,
-      "mean_f": 0.5762,
-      "top_drugs": [
-        "PREDNISONE",
-        "METHOTREXATE",
-        "ADALIMUMAB",
-        "RITUXIMAB",
-        "INFLIXIMAB"
-      ],
-      "top_aes": [
-        "Hypertension",
-        "Swelling",
-        "Hepatic enzyme increased",
-        "General physical health deterioration",
-        "Liver disorder"
+      "n_signals": 960,
+      "f_pct": 87.6,
+      "mean_lr": 1.042,
+      "drugs": [
+        {
+          "drug": "DONEPEZIL",
+          "n_signals": 62,
+          "f_pct": 59.7
+        },
+        {
+          "drug": "MEMANTINE",
+          "n_signals": 35,
+          "f_pct": 60.9
+        },
+        {
+          "drug": "RIVASTIGMINE",
+          "n_signals": 74,
+          "f_pct": 57.3
+        },
+        {
+          "drug": "GALANTAMINE",
+          "n_signals": 24,
+          "f_pct": 75.5
+        },
+        {
+          "drug": "ALENDRONIC ACID",
+          "n_signals": 241,
+          "f_pct": 96.3
+        },
+        {
+          "drug": "DENOSUMAB",
+          "n_signals": 234,
+          "f_pct": 80.5
+        },
+        {
+          "drug": "WARFARIN",
+          "n_signals": 220,
+          "f_pct": 42.4
+        },
+        {
+          "drug": "DIGOXIN",
+          "n_signals": 70,
+          "f_pct": 57.7
+        }
       ]
     }
   },
-  "paradox_reporters_count": 447,
-  "reporter_signal_correlation": {
-    "r": -0.0071,
-    "p": 0.7390890018556202
-  }
+  "life_stage_comparison": [
+    {
+      "age_group": "pediatric",
+      "f_pct_aes": 43.7,
+      "f_pct_drugs": 46.0
+    },
+    {
+      "age_group": "reproductive_age",
+      "f_pct_aes": 28.9,
+      "f_pct_drugs": 84.5
+    },
+    {
+      "age_group": "middle_aged",
+      "f_pct_aes": 83.2,
+      "f_pct_drugs": 63.1
+    },
+    {
+      "age_group": "elderly",
+      "f_pct_aes": 73.3,
+      "f_pct_drugs": 87.6
+    }
+  ],
+  "dementia_deep_dive": {
+    "DONEPEZIL": {
+      "n_signals": 62,
+      "f_pct": 59.7,
+      "top_aes": [
+        {
+          "adverse_event": "Urinary retention",
+          "log_ratio": 2.144595015957991,
+          "direction": "female_higher"
+        },
+        {
+          "adverse_event": "Rash",
+          "log_ratio": -1.3432106769166163,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": -1.311573194248006,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Myalgia",
+          "log_ratio": -1.2970721494067525,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Balance disorder",
+          "log_ratio": -1.2938042649166033,
+          "direction": "male_higher"
+        }
+      ]
+    },
+    "MEMANTINE": {
+      "n_signals": 35,
+      "f_pct": 60.9,
+      "top_aes": [
+        {
+          "adverse_event": "Wound",
+          "log_ratio": -1.3202804149874512,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Acute kidney injury",
+          "log_ratio": 1.2203473601848431,
+          "direction": "female_higher"
+        },
+        {
+          "adverse_event": "Myocardial infarction",
+          "log_ratio": 1.1843964937997762,
+          "direction": "female_higher"
+        },
+        {
+          "adverse_event": "Mental status changes",
+          "log_ratio": -1.1471573528028227,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Cough",
+          "log_ratio": -1.0157776853358833,
+          "direction": "male_higher"
+        }
+      ]
+    },
+    "RIVASTIGMINE": {
+      "n_signals": 74,
+      "f_pct": 57.3,
+      "top_aes": [
+        {
+          "adverse_event": "Nasopharyngitis",
+          "log_ratio": -1.5830815581732536,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Productive cough",
+          "log_ratio": -1.5830464834143572,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Arthritis",
+          "log_ratio": -1.5576081420253536,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Dysphonia",
+          "log_ratio": -1.3754827404299987,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Osteoarthritis",
+          "log_ratio": -1.304115166961698,
+          "direction": "male_higher"
+        }
+      ]
+    },
+    "GALANTAMINE": {
+      "n_signals": 24,
+      "f_pct": 75.5,
+      "top_aes": [
+        {
+          "adverse_event": "Toxicity to various agents",
+          "log_ratio": 3.0672873280673225,
+          "direction": "female_higher"
+        },
+        {
+          "adverse_event": "Headache",
+          "log_ratio": -1.9599684007548595,
+          "direction": "male_higher"
+        },
+        {
+          "adverse_event": "Drug interaction",
+          "log_ratio": 1.635606643928822,
+          "direction": "female_higher"
+        },
+        {
+          "adverse_event": "Fall",
+          "log_ratio": 1.4671257695831805,
+          "direction": "female_higher"
+        },
+        {
+          "adverse_event": "Gait disturbance",
+          "log_ratio": -1.4145585748097151,
+          "direction": "male_higher"
+        }
+      ]
+    }
+  },
+  "high_signal_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "f_pct": 63.8
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "f_pct": 64.3
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "f_pct": 64.0
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "f_pct": 66.4
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "f_pct": 64.9
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "f_pct": 69.9
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_signals": 572,
+      "f_pct": 48.0
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "f_pct": 60.1
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "f_pct": 54.0
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "f_pct": 66.9
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "f_pct": 47.7
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "f_pct": 72.3
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "f_pct": 60.4
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_signals": 501,
+      "f_pct": 63.5
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_signals": 498,
+      "f_pct": 56.4
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 492,
+      "f_pct": 65.3
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_signals": 487,
+      "f_pct": 67.6
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "f_pct": 66.8
+    },
+    {
+      "drug": "MORPHINE",
+      "n_signals": 441,
+      "f_pct": 67.1
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_signals": 433,
+      "f_pct": 56.1
+    }
+  ]
 }
