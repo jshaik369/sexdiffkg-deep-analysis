@@ -1,0 +1,289 @@
+{
+  "analysis": "high_volume_drug_classes",
+  "wave": 21,
+  "date": "2026-03-04",
+  "statins": {
+    "total_signals": 1085,
+    "drugs_found": 7,
+    "overall_pct_female": 48.1,
+    "per_drug": [
+      {
+        "drug_name": "ATORVASTATIN",
+        "n": 388,
+        "pct_f": 46.39,
+        "mean_lr": 0.96
+      },
+      {
+        "drug_name": "ROSUVASTATIN",
+        "n": 337,
+        "pct_f": 48.96,
+        "mean_lr": 0.95
+      },
+      {
+        "drug_name": "SIMVASTATIN",
+        "n": 261,
+        "pct_f": 52.49,
+        "mean_lr": 0.95
+      },
+      {
+        "drug_name": "PRAVASTATIN",
+        "n": 67,
+        "pct_f": 37.31,
+        "mean_lr": 0.86
+      },
+      {
+        "drug_name": "FLUVASTATIN",
+        "n": 21,
+        "pct_f": 42.86,
+        "mean_lr": 0.86
+      },
+      {
+        "drug_name": "LOVASTATIN",
+        "n": 8,
+        "pct_f": 62.5,
+        "mean_lr": 0.78
+      },
+      {
+        "drug_name": "PITAVASTATIN",
+        "n": 3,
+        "pct_f": 33.33,
+        "mean_lr": 0.68
+      }
+    ],
+    "ae_categories": {
+      "myopathy": {
+        "n_signals": 34,
+        "pct_female": 41.2
+      },
+      "hepatic": {
+        "n_signals": 26,
+        "pct_female": 69.2
+      },
+      "diabetes": {
+        "n_signals": 14,
+        "pct_female": 78.6
+      },
+      "cognitive": {
+        "n_signals": 2,
+        "pct_female": 50.0
+      },
+      "renal": {
+        "n_signals": 21,
+        "pct_female": 57.1
+      }
+    }
+  },
+  "nsaids": {
+    "total_signals": 1633,
+    "drugs_found": 14,
+    "overall_pct_female": 55.4,
+    "per_drug": [
+      {
+        "drug_name": "DICLOFENAC",
+        "n": 401,
+        "pct_f": 50.62,
+        "mean_lr": 1.33
+      },
+      {
+        "drug_name": "IBUPROFEN",
+        "n": 372,
+        "pct_f": 59.41,
+        "mean_lr": 0.92
+      },
+      {
+        "drug_name": "NAPROXEN",
+        "n": 331,
+        "pct_f": 54.08,
+        "mean_lr": 1.23
+      },
+      {
+        "drug_name": "CELECOXIB",
+        "n": 274,
+        "pct_f": 63.14,
+        "mean_lr": 1.24
+      },
+      {
+        "drug_name": "MELOXICAM",
+        "n": 87,
+        "pct_f": 59.77,
+        "mean_lr": 0.93
+      },
+      {
+        "drug_name": "KETOROLAC",
+        "n": 60,
+        "pct_f": 20.0,
+        "mean_lr": 1.07
+      },
+      {
+        "drug_name": "KETOPROFEN",
+        "n": 59,
+        "pct_f": 66.1,
+        "mean_lr": 1.21
+      },
+      {
+        "drug_name": "PIROXICAM",
+        "n": 21,
+        "pct_f": 80.95,
+        "mean_lr": 0.97
+      },
+      {
+        "drug_name": "INDOMETHACIN",
+        "n": 12,
+        "pct_f": 50.0,
+        "mean_lr": 0.74
+      },
+      {
+        "drug_name": "MEFENAMIC ACID",
+        "n": 8,
+        "pct_f": 12.5,
+        "mean_lr": 0.93
+      },
+      {
+        "drug_name": "ETODOLAC",
+        "n": 3,
+        "pct_f": 33.33,
+        "mean_lr": 0.82
+      },
+      {
+        "drug_name": "NABUMETONE",
+        "n": 3,
+        "pct_f": 0.0,
+        "mean_lr": 0.94
+      },
+      {
+        "drug_name": "FLURBIPROFEN",
+        "n": 1,
+        "pct_f": 0.0,
+        "mean_lr": 1.49
+      },
+      {
+        "drug_name": "SULINDAC",
+        "n": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.82
+      }
+    ],
+    "ae_categories": {
+      "gi": {
+        "n_signals": 70,
+        "pct_female": 57.1
+      },
+      "cardiac": {
+        "n_signals": 19,
+        "pct_female": 52.6
+      },
+      "renal": {
+        "n_signals": 25,
+        "pct_female": 36.0
+      },
+      "hepatic": {
+        "n_signals": 45,
+        "pct_female": 77.8
+      },
+      "bleeding": {
+        "n_signals": 36,
+        "pct_female": 36.1
+      },
+      "allergic": {
+        "n_signals": 31,
+        "pct_female": 54.8
+      }
+    }
+  },
+  "antibiotics": {
+    "total_signals": 3126,
+    "drugs_found": 31,
+    "overall_pct_female": 48.8,
+    "by_class": {
+      "fluoroquinolones": {
+        "n_signals": 816,
+        "n_drugs": 5,
+        "pct_female": 45.3
+      },
+      "penicillins": {
+        "n_signals": 238,
+        "n_drugs": 3,
+        "pct_female": 42.9
+      },
+      "cephalosporins": {
+        "n_signals": 337,
+        "n_drugs": 5,
+        "pct_female": 55.2
+      },
+      "macrolides": {
+        "n_signals": 419,
+        "n_drugs": 3,
+        "pct_female": 36.8
+      },
+      "tetracyclines": {
+        "n_signals": 334,
+        "n_drugs": 3,
+        "pct_female": 56.3
+      },
+      "sulfonamides": {
+        "n_signals": 128,
+        "n_drugs": 2,
+        "pct_female": 46.1
+      },
+      "aminoglycosides": {
+        "n_signals": 177,
+        "n_drugs": 3,
+        "pct_female": 50.8
+      },
+      "glycopeptides": {
+        "n_signals": 209,
+        "n_drugs": 2,
+        "pct_female": 77.0
+      },
+      "carbapenems": {
+        "n_signals": 161,
+        "n_drugs": 3,
+        "pct_female": 75.8
+      },
+      "lincosamides": {
+        "n_signals": 98,
+        "n_drugs": 1,
+        "pct_female": 42.9
+      },
+      "nitroimidazoles": {
+        "n_signals": 209,
+        "n_drugs": 1,
+        "pct_female": 23.9
+      }
+    },
+    "ae_categories": {
+      "cdiff": {
+        "n_signals": 34,
+        "pct_female": 64.7
+      },
+      "allergic": {
+        "n_signals": 74,
+        "pct_female": 52.7
+      },
+      "hepatic": {
+        "n_signals": 92,
+        "pct_female": 39.1
+      },
+      "renal": {
+        "n_signals": 63,
+        "pct_female": 60.3
+      },
+      "tendon": {
+        "n_signals": 11,
+        "pct_female": 0.0
+      },
+      "neuropathy": {
+        "n_signals": 6,
+        "pct_female": 16.7
+      },
+      "haematological": {
+        "n_signals": 52,
+        "pct_female": 48.1
+      },
+      "cardiac": {
+        "n_signals": 11,
+        "pct_female": 27.3
+      }
+    }
+  }
+}
