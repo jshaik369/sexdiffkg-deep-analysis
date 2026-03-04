@@ -1,0 +1,990 @@
+{
+  "analysis": "temporal_instability_signal_stability",
+  "wave": 15,
+  "date": "2026-03-04",
+  "volume_quintile_analysis": {
+    "Q1_lowest": {
+      "n_signals": 567,
+      "n_drugs": 440,
+      "pct_female": 41.8,
+      "mean_abs_lr": 0.955,
+      "median_volume": 50
+    },
+    "Q2": {
+      "n_signals": 1638,
+      "n_drugs": 432,
+      "pct_female": 44.1,
+      "mean_abs_lr": 0.8956,
+      "median_volume": 218
+    },
+    "Q3": {
+      "n_signals": 4820,
+      "n_drugs": 435,
+      "pct_female": 45.8,
+      "mean_abs_lr": 0.8764,
+      "median_volume": 821
+    },
+    "Q4": {
+      "n_signals": 14315,
+      "n_drugs": 435,
+      "pct_female": 50.0,
+      "mean_abs_lr": 0.909,
+      "median_volume": 3542
+    },
+    "Q5_highest": {
+      "n_signals": 74941,
+      "n_drugs": 436,
+      "pct_female": 55.3,
+      "mean_abs_lr": 1.011,
+      "median_volume": 42825
+    }
+  },
+  "signal_volume_relationship": {
+    "minimal_10_25": {
+      "n_signals": 3664,
+      "pct_female": 40.8,
+      "mean_abs_lr": 0.8757,
+      "median_abs_lr": 0.7721,
+      "p90_abs_lr": 1.3142
+    },
+    "small_25_50": {
+      "n_signals": 28866,
+      "pct_female": 44.4,
+      "mean_abs_lr": 0.8833,
+      "median_abs_lr": 0.775,
+      "p90_abs_lr": 1.3415
+    },
+    "moderate_50_100": {
+      "n_signals": 26676,
+      "pct_female": 50.4,
+      "mean_abs_lr": 0.9226,
+      "median_abs_lr": 0.7919,
+      "p90_abs_lr": 1.4615
+    },
+    "large_100_500": {
+      "n_signals": 28194,
+      "pct_female": 59.0,
+      "mean_abs_lr": 1.0508,
+      "median_abs_lr": 0.8398,
+      "p90_abs_lr": 1.8744
+    },
+    "very_large_500_1000": {
+      "n_signals": 4406,
+      "pct_female": 78.9,
+      "mean_abs_lr": 1.277,
+      "median_abs_lr": 1.0294,
+      "p90_abs_lr": 2.4013
+    },
+    "massive_1000plus": {
+      "n_signals": 4475,
+      "pct_female": 87.4,
+      "mean_abs_lr": 1.4391,
+      "median_abs_lr": 1.1525,
+      "p90_abs_lr": 2.8181
+    }
+  },
+  "intra_drug_variability": {
+    "drugs_with_10plus_signals": 1090,
+    "most_variable": [
+      {
+        "drug_name": "XANTOFYL",
+        "n_signals": 11,
+        "pct_female": 36.364,
+        "lr_std": 2.386,
+        "lr_range": 7.867,
+        "mean_abs_lr": 2.055
+      },
+      {
+        "drug_name": "CHLORHEXIDINE",
+        "n_signals": 36,
+        "pct_female": 61.111,
+        "lr_std": 2.243,
+        "lr_range": 7.049,
+        "mean_abs_lr": 2.161
+      },
+      {
+        "drug_name": "SODIUM PICOSULFATE",
+        "n_signals": 22,
+        "pct_female": 31.818,
+        "lr_std": 2.101,
+        "lr_range": 7.01,
+        "mean_abs_lr": 2.141
+      },
+      {
+        "drug_name": "DESOXIMETASONE",
+        "n_signals": 79,
+        "pct_female": 43.038,
+        "lr_std": 2.074,
+        "lr_range": 8.326,
+        "mean_abs_lr": 1.88
+      },
+      {
+        "drug_name": "ENZALUTAMIDE",
+        "n_signals": 10,
+        "pct_female": 50.0,
+        "lr_std": 2.042,
+        "lr_range": 5.049,
+        "mean_abs_lr": 1.847
+      },
+      {
+        "drug_name": "TESTOSTERONE",
+        "n_signals": 46,
+        "pct_female": 73.913,
+        "lr_std": 2.019,
+        "lr_range": 11.276,
+        "mean_abs_lr": 2.02
+      },
+      {
+        "drug_name": "CETIRIZINE;PSEUDOEPHEDRINE",
+        "n_signals": 21,
+        "pct_female": 57.143,
+        "lr_std": 2.012,
+        "lr_range": 5.557,
+        "mean_abs_lr": 1.919
+      },
+      {
+        "drug_name": "CHLORHEXIDINE;ISOPROPANOL",
+        "n_signals": 12,
+        "pct_female": 33.333,
+        "lr_std": 1.98,
+        "lr_range": 5.46,
+        "mean_abs_lr": 1.938
+      },
+      {
+        "drug_name": "SULFAMETHOXAZOLE",
+        "n_signals": 75,
+        "pct_female": 57.333,
+        "lr_std": 1.91,
+        "lr_range": 7.149,
+        "mean_abs_lr": 1.732
+      },
+      {
+        "drug_name": "SODIUM AUROTHIOMALATE",
+        "n_signals": 68,
+        "pct_female": 30.882,
+        "lr_std": 1.907,
+        "lr_range": 6.847,
+        "mean_abs_lr": 1.927
+      },
+      {
+        "drug_name": "LOPINAVIR",
+        "n_signals": 10,
+        "pct_female": 90.0,
+        "lr_std": 1.886,
+        "lr_range": 6.986,
+        "mean_abs_lr": 1.478
+      },
+      {
+        "drug_name": "CORTISONE",
+        "n_signals": 188,
+        "pct_female": 45.745,
+        "lr_std": 1.853,
+        "lr_range": 7.896,
+        "mean_abs_lr": 1.701
+      },
+      {
+        "drug_name": "VITAMIN B9",
+        "n_signals": 250,
+        "pct_female": 46.8,
+        "lr_std": 1.85,
+        "lr_range": 9.993,
+        "mean_abs_lr": 1.675
+      },
+      {
+        "drug_name": "PSEUDOEPHEDRINE",
+        "n_signals": 51,
+        "pct_female": 49.02,
+        "lr_std": 1.844,
+        "lr_range": 6.19,
+        "mean_abs_lr": 1.691
+      },
+      {
+        "drug_name": "RUPATADINE",
+        "n_signals": 20,
+        "pct_female": 20.0,
+        "lr_std": 1.835,
+        "lr_range": 6.59,
+        "mean_abs_lr": 1.942
+      },
+      {
+        "drug_name": "CLOTRIMAZOLE",
+        "n_signals": 18,
+        "pct_female": 33.333,
+        "lr_std": 1.791,
+        "lr_range": 5.442,
+        "mean_abs_lr": 1.625
+      },
+      {
+        "drug_name": "CALCIUM",
+        "n_signals": 219,
+        "pct_female": 40.183,
+        "lr_std": 1.772,
+        "lr_range": 7.58,
+        "mean_abs_lr": 1.598
+      },
+      {
+        "drug_name": "FLUPENTIXOL",
+        "n_signals": 27,
+        "pct_female": 70.37,
+        "lr_std": 1.767,
+        "lr_range": 6.131,
+        "mean_abs_lr": 1.711
+      },
+      {
+        "drug_name": "FINASTERIDE",
+        "n_signals": 15,
+        "pct_female": 73.333,
+        "lr_std": 1.762,
+        "lr_range": 5.427,
+        "mean_abs_lr": 1.759
+      },
+      {
+        "drug_name": "VITAMIN D2",
+        "n_signals": 79,
+        "pct_female": 50.633,
+        "lr_std": 1.707,
+        "lr_range": 7.51,
+        "mean_abs_lr": 1.468
+      },
+      {
+        "drug_name": "SODIUM PHOSPHATE",
+        "n_signals": 42,
+        "pct_female": 45.238,
+        "lr_std": 1.704,
+        "lr_range": 5.109,
+        "mean_abs_lr": 1.605
+      },
+      {
+        "drug_name": "BISACODYL",
+        "n_signals": 57,
+        "pct_female": 24.561,
+        "lr_std": 1.698,
+        "lr_range": 6.744,
+        "mean_abs_lr": 1.677
+      },
+      {
+        "drug_name": "VITAMIN C",
+        "n_signals": 77,
+        "pct_female": 63.636,
+        "lr_std": 1.692,
+        "lr_range": 6.449,
+        "mean_abs_lr": 1.594
+      },
+      {
+        "drug_name": "AMBROXOL",
+        "n_signals": 14,
+        "pct_female": 50.0,
+        "lr_std": 1.678,
+        "lr_range": 4.437,
+        "mean_abs_lr": 1.493
+      },
+      {
+        "drug_name": "ALENDRONIC ACID",
+        "n_signals": 241,
+        "pct_female": 44.398,
+        "lr_std": 1.667,
+        "lr_range": 8.007,
+        "mean_abs_lr": 1.447
+      },
+      {
+        "drug_name": "VITAMIN E",
+        "n_signals": 16,
+        "pct_female": 31.25,
+        "lr_std": 1.647,
+        "lr_range": 4.56,
+        "mean_abs_lr": 1.623
+      },
+      {
+        "drug_name": "VITAMIN D3",
+        "n_signals": 242,
+        "pct_female": 45.868,
+        "lr_std": 1.647,
+        "lr_range": 7.006,
+        "mean_abs_lr": 1.482
+      },
+      {
+        "drug_name": "HYDROCORTISONE",
+        "n_signals": 302,
+        "pct_female": 50.662,
+        "lr_std": 1.646,
+        "lr_range": 7.25,
+        "mean_abs_lr": 1.439
+      },
+      {
+        "drug_name": "PENTOSAN POLYSULFATE",
+        "n_signals": 15,
+        "pct_female": 20.0,
+        "lr_std": 1.64,
+        "lr_range": 5.754,
+        "mean_abs_lr": 2.151
+      },
+      {
+        "drug_name": "CETIRIZINE",
+        "n_signals": 244,
+        "pct_female": 44.262,
+        "lr_std": 1.599,
+        "lr_range": 7.643,
+        "mean_abs_lr": 1.357
+      }
+    ],
+    "most_stable": [
+      {
+        "drug_name": "METFORMIN;ROSIGLITAZONE",
+        "n_signals": 20,
+        "pct_female": 100.0,
+        "lr_std": 0.13,
+        "lr_range": 0.54,
+        "mean_abs_lr": 0.693
+      },
+      {
+        "drug_name": "IOPAMIDOL",
+        "n_signals": 13,
+        "pct_female": 0.0,
+        "lr_std": 0.134,
+        "lr_range": 0.437,
+        "mean_abs_lr": 0.727
+      },
+      {
+        "drug_name": "PHENTERMINE;TOPIRAMATE",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "lr_std": 0.139,
+        "lr_range": 0.491,
+        "mean_abs_lr": 0.734
+      },
+      {
+        "drug_name": "BRIMONIDINE;TIMOLOL",
+        "n_signals": 20,
+        "pct_female": 0.0,
+        "lr_std": 0.166,
+        "lr_range": 0.549,
+        "mean_abs_lr": 0.705
+      },
+      {
+        "drug_name": "GADOXETIC ACID",
+        "n_signals": 15,
+        "pct_female": 0.0,
+        "lr_std": 0.177,
+        "lr_range": 0.596,
+        "mean_abs_lr": 0.768
+      },
+      {
+        "drug_name": "CENEGERMIN",
+        "n_signals": 20,
+        "pct_female": 0.0,
+        "lr_std": 0.194,
+        "lr_range": 0.643,
+        "mean_abs_lr": 0.683
+      },
+      {
+        "drug_name": "CASIRIVIMAB;IMDEVIMAB",
+        "n_signals": 15,
+        "pct_female": 0.0,
+        "lr_std": 0.204,
+        "lr_range": 0.656,
+        "mean_abs_lr": 0.746
+      },
+      {
+        "drug_name": "ORITAVANCIN",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "lr_std": 0.205,
+        "lr_range": 0.65,
+        "mean_abs_lr": 0.863
+      },
+      {
+        "drug_name": "PEGVALIASE",
+        "n_signals": 37,
+        "pct_female": 0.0,
+        "lr_std": 0.222,
+        "lr_range": 1.027,
+        "mean_abs_lr": 0.79
+      },
+      {
+        "drug_name": "CRISABOROLE",
+        "n_signals": 13,
+        "pct_female": 0.0,
+        "lr_std": 0.227,
+        "lr_range": 0.863,
+        "mean_abs_lr": 0.786
+      },
+      {
+        "drug_name": "AZELASTINE",
+        "n_signals": 11,
+        "pct_female": 0.0,
+        "lr_std": 0.229,
+        "lr_range": 0.655,
+        "mean_abs_lr": 0.713
+      },
+      {
+        "drug_name": "PEGINTERFERON BETA-1A",
+        "n_signals": 46,
+        "pct_female": 0.0,
+        "lr_std": 0.231,
+        "lr_range": 1.002,
+        "mean_abs_lr": 0.752
+      },
+      {
+        "drug_name": "SOTROVIMAB",
+        "n_signals": 26,
+        "pct_female": 0.0,
+        "lr_std": 0.244,
+        "lr_range": 0.855,
+        "mean_abs_lr": 0.833
+      },
+      {
+        "drug_name": "ROPEGINTERFERON ALFA-2B",
+        "n_signals": 11,
+        "pct_female": 0.0,
+        "lr_std": 0.25,
+        "lr_range": 0.714,
+        "mean_abs_lr": 0.838
+      },
+      {
+        "drug_name": "INOTERSEN",
+        "n_signals": 20,
+        "pct_female": 100.0,
+        "lr_std": 0.258,
+        "lr_range": 0.921,
+        "mean_abs_lr": 0.775
+      },
+      {
+        "drug_name": "SAPROPTERIN",
+        "n_signals": 20,
+        "pct_female": 0.0,
+        "lr_std": 0.264,
+        "lr_range": 1.208,
+        "mean_abs_lr": 0.75
+      },
+      {
+        "drug_name": "RANITIDINE HYDROCHLORIDE",
+        "n_signals": 50,
+        "pct_female": 100.0,
+        "lr_std": 0.272,
+        "lr_range": 1.132,
+        "mean_abs_lr": 0.791
+      },
+      {
+        "drug_name": "MACROGOL;PROPYLENE GLYCOL",
+        "n_signals": 12,
+        "pct_female": 0.0,
+        "lr_std": 0.277,
+        "lr_range": 0.795,
+        "mean_abs_lr": 0.886
+      },
+      {
+        "drug_name": "VINDESINE",
+        "n_signals": 12,
+        "pct_female": 100.0,
+        "lr_std": 0.281,
+        "lr_range": 0.994,
+        "mean_abs_lr": 0.75
+      },
+      {
+        "drug_name": "TEPROTUMUMAB",
+        "n_signals": 33,
+        "pct_female": 0.0,
+        "lr_std": 0.281,
+        "lr_range": 1.226,
+        "mean_abs_lr": 0.884
+      },
+      {
+        "drug_name": "IDARUCIZUMAB",
+        "n_signals": 12,
+        "pct_female": 100.0,
+        "lr_std": 0.293,
+        "lr_range": 0.757,
+        "mean_abs_lr": 0.813
+      },
+      {
+        "drug_name": "KETOTIFEN",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "lr_std": 0.303,
+        "lr_range": 0.943,
+        "mean_abs_lr": 0.899
+      },
+      {
+        "drug_name": "AZELASTINE;FLUTICASONE",
+        "n_signals": 12,
+        "pct_female": 0.0,
+        "lr_std": 0.311,
+        "lr_range": 1.185,
+        "mean_abs_lr": 0.933
+      },
+      {
+        "drug_name": "RIMEGEPANT",
+        "n_signals": 12,
+        "pct_female": 0.0,
+        "lr_std": 0.324,
+        "lr_range": 0.924,
+        "mean_abs_lr": 0.964
+      },
+      {
+        "drug_name": "BUPROPION;NALTREXONE",
+        "n_signals": 23,
+        "pct_female": 0.0,
+        "lr_std": 0.326,
+        "lr_range": 1.004,
+        "mean_abs_lr": 0.872
+      },
+      {
+        "drug_name": "CITRIC ACID;MAGNESIUM;SODIUM PICOSULFATE",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "lr_std": 0.334,
+        "lr_range": 0.983,
+        "mean_abs_lr": 0.912
+      },
+      {
+        "drug_name": "TEMSIROLIMUS",
+        "n_signals": 24,
+        "pct_female": 95.833,
+        "lr_std": 0.338,
+        "lr_range": 1.825,
+        "mean_abs_lr": 0.789
+      },
+      {
+        "drug_name": "LORATADINE;PSEUDOEPHEDRINE",
+        "n_signals": 16,
+        "pct_female": 6.25,
+        "lr_std": 0.341,
+        "lr_range": 1.531,
+        "mean_abs_lr": 0.703
+      },
+      {
+        "drug_name": "CARIPRAZINE",
+        "n_signals": 39,
+        "pct_female": 2.564,
+        "lr_std": 0.344,
+        "lr_range": 2.081,
+        "mean_abs_lr": 0.861
+      },
+      {
+        "drug_name": "OLOPATADINE",
+        "n_signals": 10,
+        "pct_female": 0.0,
+        "lr_std": 0.345,
+        "lr_range": 0.929,
+        "mean_abs_lr": 0.882
+      }
+    ]
+  },
+  "bidirectional_drugs": {
+    "total": 486,
+    "top_bidirectional": [
+      {
+        "drug": "PREDNISONE",
+        "n_strong_female": 303,
+        "n_strong_male": 73,
+        "n_total": 926,
+        "top_female_aes": [
+          "Duodenal ulcer perforation",
+          "Helicobacter infection",
+          "Glossodynia"
+        ],
+        "top_male_aes": [
+          "Metastases to bone",
+          "Normochromic normocytic anaemia",
+          "Device dislocation"
+        ]
+      },
+      {
+        "drug": "METHOTREXATE",
+        "n_strong_female": 162,
+        "n_strong_male": 118,
+        "n_total": 892,
+        "top_female_aes": [
+          "Glossodynia",
+          "Pemphigus",
+          "Helicobacter infection"
+        ],
+        "top_male_aes": [
+          "Apparent death",
+          "Chondropathy",
+          "Onychoclasis"
+        ]
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "n_strong_female": 96,
+        "n_strong_male": 86,
+        "n_total": 807,
+        "top_female_aes": [
+          "Pemphigus",
+          "Glossodynia",
+          "Lip dry"
+        ],
+        "top_male_aes": [
+          "Acne cystic",
+          "Post procedural discomfort",
+          "Medical device pain"
+        ]
+      },
+      {
+        "drug": "RITUXIMAB",
+        "n_strong_female": 276,
+        "n_strong_male": 74,
+        "n_total": 755,
+        "top_female_aes": [
+          "Prescribed overdose",
+          "Obesity",
+          "Irritable bowel syndrome"
+        ],
+        "top_male_aes": [
+          "Chondropathy",
+          "Apparent death",
+          "Osteosclerosis"
+        ]
+      },
+      {
+        "drug": "INFLIXIMAB",
+        "n_strong_female": 164,
+        "n_strong_male": 80,
+        "n_total": 623,
+        "top_female_aes": [
+          "Glossodynia",
+          "Obesity",
+          "Sleep disorder due to general medical condition, insomnia type"
+        ],
+        "top_male_aes": [
+          "Onychoclasis",
+          "Apparent death",
+          "Rheumatoid factor negative"
+        ]
+      },
+      {
+        "drug": "ETANERCEPT",
+        "n_strong_female": 101,
+        "n_strong_male": 97,
+        "n_total": 618,
+        "top_female_aes": [
+          "Glossodynia",
+          "Helicobacter infection",
+          "Muscle injury"
+        ],
+        "top_male_aes": [
+          "Breast feeding",
+          "Vein rupture",
+          "Apparent death"
+        ]
+      },
+      {
+        "drug": "TACROLIMUS",
+        "n_strong_female": 125,
+        "n_strong_male": 32,
+        "n_total": 572,
+        "top_female_aes": [
+          "Adenovirus interstitial nephritis",
+          "Infective aneurysm",
+          "Adenovirus reactivation"
+        ],
+        "top_male_aes": [
+          "Polyhydramnios",
+          "Folliculitis",
+          "Sjogren's syndrome"
+        ]
+      },
+      {
+        "drug": "PREDNISOLONE",
+        "n_strong_female": 134,
+        "n_strong_male": 17,
+        "n_total": 542,
+        "top_female_aes": [
+          "Inguinal hernia",
+          "Obesity",
+          "Lower limb fracture"
+        ],
+        "top_male_aes": [
+          "Scleroderma",
+          "Injection site reaction",
+          "Neoplasm progression"
+        ]
+      },
+      {
+        "drug": "DEXAMETHASONE",
+        "n_strong_female": 121,
+        "n_strong_male": 17,
+        "n_total": 537,
+        "top_female_aes": [
+          "Propofol infusion syndrome",
+          "Human herpesvirus 6 infection",
+          "Emotional distress"
+        ],
+        "top_male_aes": [
+          "Complication of device insertion",
+          "Lymphoedema",
+          "Disseminated aspergillosis"
+        ]
+      },
+      {
+        "drug": "METHYLPREDNISOLONE",
+        "n_strong_female": 201,
+        "n_strong_male": 27,
+        "n_total": 521,
+        "top_female_aes": [
+          "Psoriatic arthropathy",
+          "Wound",
+          "Prescribed overdose"
+        ],
+        "top_male_aes": [
+          "Blood immunoglobulin G decreased",
+          "Sjogren's syndrome",
+          "Smooth muscle cell neoplasm"
+        ]
+      },
+      {
+        "drug": "RISPERIDONE",
+        "n_strong_female": 252,
+        "n_strong_male": 21,
+        "n_total": 518,
+        "top_female_aes": [
+          "Blood bilirubin increased",
+          "Cholelithiasis",
+          "Lung neoplasm malignant"
+        ],
+        "top_male_aes": [
+          "Emotional disorder",
+          "Abnormal weight gain",
+          "Injury"
+        ]
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "n_strong_female": 143,
+        "n_strong_male": 119,
+        "n_total": 508,
+        "top_female_aes": [
+          "Folliculitis",
+          "Pericarditis",
+          "Discomfort"
+        ],
+        "top_male_aes": [
+          "Apparent death",
+          "Joint ankylosis",
+          "Osteolysis"
+        ]
+      },
+      {
+        "drug": "MYCOPHENOLIC ACID",
+        "n_strong_female": 177,
+        "n_strong_male": 29,
+        "n_total": 507,
+        "top_female_aes": [
+          "Injury",
+          "Sciatica",
+          "Gait inability"
+        ],
+        "top_male_aes": [
+          "Rectal prolapse",
+          "Abdominal pain lower",
+          "Procedural pain"
+        ]
+      },
+      {
+        "drug": "PANTOPRAZOLE",
+        "n_strong_female": 161,
+        "n_strong_male": 70,
+        "n_total": 501,
+        "top_female_aes": [
+          "Wound",
+          "Infusion related reaction",
+          "Impaired healing"
+        ],
+        "top_male_aes": [
+          "Juvenile idiopathic arthritis",
+          "Forced expiratory volume decreased",
+          "Spinal osteoarthritis"
+        ]
+      },
+      {
+        "drug": "CYCLOPHOSPHAMIDE",
+        "n_strong_female": 99,
+        "n_strong_male": 48,
+        "n_total": 498,
+        "top_female_aes": [
+          "Disseminated mucormycosis",
+          "Acute promyelocytic leukaemia",
+          "Inguinal hernia"
+        ],
+        "top_male_aes": [
+          "Carbohydrate antigen 15-3 increased",
+          "Diffuse alopecia",
+          "Helicobacter infection"
+        ]
+      },
+      {
+        "drug": "OXYCODONE",
+        "n_strong_female": 218,
+        "n_strong_male": 11,
+        "n_total": 492,
+        "top_female_aes": [
+          "Infusion related reaction",
+          "Pericarditis",
+          "Blister"
+        ],
+        "top_male_aes": [
+          "Psychological trauma",
+          "Ligament sprain",
+          "Burns second degree"
+        ]
+      },
+      {
+        "drug": "PARACETAMOL",
+        "n_strong_female": 150,
+        "n_strong_male": 78,
+        "n_total": 487,
+        "top_female_aes": [
+          "Impaired healing",
+          "Therapeutic product effect decreased",
+          "Irritable bowel syndrome"
+        ],
+        "top_male_aes": [
+          "Device dislocation",
+          "Appendicitis",
+          "Bacterial infection"
+        ]
+      },
+      {
+        "drug": "SECUKINUMAB",
+        "n_strong_female": 118,
+        "n_strong_male": 39,
+        "n_total": 456,
+        "top_female_aes": [
+          "Infusion related reaction",
+          "Delirium",
+          "Intentional product use issue"
+        ],
+        "top_male_aes": [
+          "Pelvic pain",
+          "Injection site warmth",
+          "Lower respiratory tract congestion"
+        ]
+      },
+      {
+        "drug": "MORPHINE",
+        "n_strong_female": 183,
+        "n_strong_male": 13,
+        "n_total": 441,
+        "top_female_aes": [
+          "Orthostatic hypotension",
+          "Upper respiratory tract infection",
+          "Psoriasis"
+        ],
+        "top_male_aes": [
+          "Psychological trauma",
+          "Febrile neutropenia",
+          "Ankle fracture"
+        ]
+      },
+      {
+        "drug": "ACETYLSALICYLIC ACID",
+        "n_strong_female": 112,
+        "n_strong_male": 43,
+        "n_total": 433,
+        "top_female_aes": [
+          "Muscle spasticity",
+          "Coordination abnormal",
+          "Throat clearing"
+        ],
+        "top_male_aes": [
+          "Sensation of foreign body",
+          "Bronchiectasis",
+          "Systemic lupus erythematosus"
+        ]
+      }
+    ]
+  },
+  "effect_size_decay_test": {
+    "decile_stats": [
+      {
+        "volume_decile": 0,
+        "mean_abs_lr": 0.8708,
+        "median_abs_lr": 0.7678,
+        "p90_abs_lr": 1.3115,
+        "n": 9772,
+        "pct_female": 42.2329
+      },
+      {
+        "volume_decile": 1,
+        "mean_abs_lr": 0.8739,
+        "median_abs_lr": 0.7706,
+        "p90_abs_lr": 1.3198,
+        "n": 10141,
+        "pct_female": 43.615
+      },
+      {
+        "volume_decile": 2,
+        "mean_abs_lr": 0.8978,
+        "median_abs_lr": 0.7855,
+        "p90_abs_lr": 1.3694,
+        "n": 9839,
+        "pct_female": 45.2892
+      },
+      {
+        "volume_decile": 3,
+        "mean_abs_lr": 0.9013,
+        "median_abs_lr": 0.7806,
+        "p90_abs_lr": 1.3996,
+        "n": 9402,
+        "pct_female": 47.6601
+      },
+      {
+        "volume_decile": 4,
+        "mean_abs_lr": 0.9144,
+        "median_abs_lr": 0.7927,
+        "p90_abs_lr": 1.4371,
+        "n": 9307,
+        "pct_female": 51.1013
+      },
+      {
+        "volume_decile": 5,
+        "mean_abs_lr": 0.9364,
+        "median_abs_lr": 0.7966,
+        "p90_abs_lr": 1.5033,
+        "n": 9454,
+        "pct_female": 51.5337
+      },
+      {
+        "volume_decile": 6,
+        "mean_abs_lr": 1.0032,
+        "median_abs_lr": 0.8204,
+        "p90_abs_lr": 1.7445,
+        "n": 9642,
+        "pct_female": 52.2921
+      },
+      {
+        "volume_decile": 7,
+        "mean_abs_lr": 1.029,
+        "median_abs_lr": 0.8323,
+        "p90_abs_lr": 1.7983,
+        "n": 9505,
+        "pct_female": 58.2325
+      },
+      {
+        "volume_decile": 8,
+        "mean_abs_lr": 1.0958,
+        "median_abs_lr": 0.8597,
+        "p90_abs_lr": 2.0262,
+        "n": 9615,
+        "pct_female": 64.0042
+      },
+      {
+        "volume_decile": 9,
+        "mean_abs_lr": 1.3513,
+        "median_abs_lr": 1.0728,
+        "p90_abs_lr": 2.5764,
+        "n": 9604,
+        "pct_female": 82.5177
+      }
+    ],
+    "volume_lr_spearman_rho": 0.1519,
+    "volume_lr_spearman_p": "0.00e+00",
+    "anti_regression_confirmed": "True"
+  },
+  "key_findings": {
+    "volume_quintile_gradient": "Q1=41.8%F \u2192 Q5=55.3%F",
+    "bidirectional_drugs": "486 drugs have strong signals in BOTH directions",
+    "effect_size_anti_regression": "rho=0.1519 (effects increase with volume)"
+  }
+}

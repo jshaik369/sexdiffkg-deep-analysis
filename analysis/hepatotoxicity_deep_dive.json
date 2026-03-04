@@ -1,0 +1,764 @@
+{
+  "analysis": "hepatotoxicity_deep_dive",
+  "wave": 15,
+  "date": "2026-03-04",
+  "overview": {
+    "total_hepatic_signals": 3073,
+    "total_hepatic_aes": 133,
+    "drugs_with_hepatic_signals": 601,
+    "overall_pct_female": 65.3,
+    "mean_abs_lr": 0.9908
+  },
+  "subtypes": {
+    "hepatocellular_injury": {
+      "n_signals": 632,
+      "n_drugs": 365,
+      "n_aes": 31,
+      "pct_female": 63.6,
+      "mean_abs_lr": 0.9488,
+      "top_aes": {
+        "Alanine aminotransferase increased": 142,
+        "Aspartate aminotransferase increased": 131,
+        "Transaminases increased": 120,
+        "Hepatocellular injury": 104,
+        "Hepatocellular carcinoma": 21
+      }
+    },
+    "cholestatic": {
+      "n_signals": 418,
+      "n_drugs": 225,
+      "n_aes": 14,
+      "pct_female": 68.2,
+      "mean_abs_lr": 0.8442,
+      "top_aes": {
+        "Jaundice": 75,
+        "Blood bilirubin increased": 73,
+        "Gamma-glutamyltransferase increased": 71,
+        "Blood alkaline phosphatase increased": 64,
+        "Hyperbilirubinaemia": 60
+      }
+    },
+    "hepatic_failure": {
+      "n_signals": 174,
+      "n_drugs": 145,
+      "n_aes": 4,
+      "pct_female": 69.0,
+      "mean_abs_lr": 0.8471,
+      "top_aes": {
+        "Hepatic failure": 93,
+        "Acute hepatic failure": 65,
+        "Hepatic necrosis": 10,
+        "Hepatitis fulminant": 6
+      }
+    },
+    "steatosis_fibrosis": {
+      "n_signals": 150,
+      "n_drugs": 121,
+      "n_aes": 4,
+      "pct_female": 59.3,
+      "mean_abs_lr": 1.1631,
+      "top_aes": {
+        "Hepatic steatosis": 70,
+        "Hepatic cirrhosis": 64,
+        "Hepatic fibrosis": 15,
+        "Non-alcoholic fatty liver": 1
+      }
+    },
+    "general_hepatic": {
+      "n_signals": 2198,
+      "n_drugs": 554,
+      "n_aes": 92,
+      "pct_female": 66.2,
+      "mean_abs_lr": 1.0184,
+      "top_aes": {
+        "Hepatic enzyme increased": 181,
+        "Liver disorder": 137,
+        "Drug-induced liver injury": 135,
+        "Hepatic function abnormal": 132,
+        "Liver injury": 116
+      }
+    },
+    "autoimmune": {
+      "n_signals": 18,
+      "n_drugs": 18,
+      "n_aes": 1,
+      "pct_female": 27.8,
+      "mean_abs_lr": 0.9714,
+      "top_aes": {
+        "Autoimmune hepatitis": 18
+      }
+    }
+  },
+  "drug_level": {
+    "total_drugs": 601,
+    "strongly_female": 175,
+    "strongly_male": 49,
+    "top_by_reports": [
+      {
+        "drug_name": "RANITIDINE",
+        "n_hepatic_signals": 17,
+        "pct_female": 88.235,
+        "mean_abs_lr": 1.325,
+        "total_reports": 31379
+      },
+      {
+        "drug_name": "METHOTREXATE",
+        "n_hepatic_signals": 25,
+        "pct_female": 48.0,
+        "mean_abs_lr": 0.95,
+        "total_reports": 23224
+      },
+      {
+        "drug_name": "ADALIMUMAB",
+        "n_hepatic_signals": 25,
+        "pct_female": 60.0,
+        "mean_abs_lr": 0.948,
+        "total_reports": 22265
+      },
+      {
+        "drug_name": "ETANERCEPT",
+        "n_hepatic_signals": 26,
+        "pct_female": 34.615,
+        "mean_abs_lr": 1.199,
+        "total_reports": 18146
+      },
+      {
+        "drug_name": "RITUXIMAB",
+        "n_hepatic_signals": 22,
+        "pct_female": 54.545,
+        "mean_abs_lr": 1.221,
+        "total_reports": 18030
+      },
+      {
+        "drug_name": "TOCILIZUMAB",
+        "n_hepatic_signals": 23,
+        "pct_female": 43.478,
+        "mean_abs_lr": 1.133,
+        "total_reports": 17282
+      },
+      {
+        "drug_name": "INFLIXIMAB",
+        "n_hepatic_signals": 22,
+        "pct_female": 63.636,
+        "mean_abs_lr": 1.325,
+        "total_reports": 15866
+      },
+      {
+        "drug_name": "ABATACEPT",
+        "n_hepatic_signals": 10,
+        "pct_female": 70.0,
+        "mean_abs_lr": 1.748,
+        "total_reports": 13642
+      },
+      {
+        "drug_name": "HYDROXYCHLOROQUINE",
+        "n_hepatic_signals": 20,
+        "pct_female": 50.0,
+        "mean_abs_lr": 1.096,
+        "total_reports": 13492
+      },
+      {
+        "drug_name": "PREDNISONE",
+        "n_hepatic_signals": 26,
+        "pct_female": 65.385,
+        "mean_abs_lr": 1.249,
+        "total_reports": 12788
+      },
+      {
+        "drug_name": "LEFLUNOMIDE",
+        "n_hepatic_signals": 12,
+        "pct_female": 41.667,
+        "mean_abs_lr": 1.257,
+        "total_reports": 12196
+      },
+      {
+        "drug_name": "TOFACITINIB",
+        "n_hepatic_signals": 14,
+        "pct_female": 78.571,
+        "mean_abs_lr": 1.257,
+        "total_reports": 12094
+      },
+      {
+        "drug_name": "SULFASALAZINE",
+        "n_hepatic_signals": 12,
+        "pct_female": 58.333,
+        "mean_abs_lr": 1.476,
+        "total_reports": 10804
+      },
+      {
+        "drug_name": "DICLOFENAC",
+        "n_hepatic_signals": 16,
+        "pct_female": 56.25,
+        "mean_abs_lr": 1.83,
+        "total_reports": 10652
+      },
+      {
+        "drug_name": "CERTOLIZUMAB",
+        "n_hepatic_signals": 16,
+        "pct_female": 56.25,
+        "mean_abs_lr": 1.509,
+        "total_reports": 10385
+      },
+      {
+        "drug_name": "PARACETAMOL",
+        "n_hepatic_signals": 15,
+        "pct_female": 66.667,
+        "mean_abs_lr": 1.135,
+        "total_reports": 10277
+      },
+      {
+        "drug_name": "GOLIMUMAB",
+        "n_hepatic_signals": 12,
+        "pct_female": 66.667,
+        "mean_abs_lr": 1.943,
+        "total_reports": 9980
+      },
+      {
+        "drug_name": "SECUKINUMAB",
+        "n_hepatic_signals": 14,
+        "pct_female": 64.286,
+        "mean_abs_lr": 1.379,
+        "total_reports": 8844
+      },
+      {
+        "drug_name": "USTEKINUMAB",
+        "n_hepatic_signals": 13,
+        "pct_female": 61.538,
+        "mean_abs_lr": 1.64,
+        "total_reports": 8416
+      },
+      {
+        "drug_name": "OXYCODONE",
+        "n_hepatic_signals": 17,
+        "pct_female": 88.235,
+        "mean_abs_lr": 1.523,
+        "total_reports": 6976
+      }
+    ],
+    "most_female": [
+      {
+        "drug_name": "RANITIDINE",
+        "n_hepatic_signals": 17,
+        "pct_female": 88.2,
+        "total_reports": 31379
+      },
+      {
+        "drug_name": "ABATACEPT",
+        "n_hepatic_signals": 10,
+        "pct_female": 70.0,
+        "total_reports": 13642
+      },
+      {
+        "drug_name": "TOFACITINIB",
+        "n_hepatic_signals": 14,
+        "pct_female": 78.6,
+        "total_reports": 12094
+      },
+      {
+        "drug_name": "OXYCODONE",
+        "n_hepatic_signals": 17,
+        "pct_female": 88.2,
+        "total_reports": 6976
+      },
+      {
+        "drug_name": "PANTOPRAZOLE",
+        "n_hepatic_signals": 21,
+        "pct_female": 81.0,
+        "total_reports": 6173
+      },
+      {
+        "drug_name": "MYCOPHENOLIC ACID",
+        "n_hepatic_signals": 29,
+        "pct_female": 79.3,
+        "total_reports": 5464
+      },
+      {
+        "drug_name": "APREMILAST",
+        "n_hepatic_signals": 7,
+        "pct_female": 85.7,
+        "total_reports": 5418
+      },
+      {
+        "drug_name": "NAPROXEN",
+        "n_hepatic_signals": 11,
+        "pct_female": 81.8,
+        "total_reports": 5306
+      },
+      {
+        "drug_name": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+        "n_hepatic_signals": 14,
+        "pct_female": 71.4,
+        "total_reports": 5216
+      },
+      {
+        "drug_name": "TRAMADOL",
+        "n_hepatic_signals": 18,
+        "pct_female": 88.9,
+        "total_reports": 4227
+      },
+      {
+        "drug_name": "CAPECITABINE",
+        "n_hepatic_signals": 19,
+        "pct_female": 94.7,
+        "total_reports": 3956
+      },
+      {
+        "drug_name": "QUETIAPINE",
+        "n_hepatic_signals": 15,
+        "pct_female": 86.7,
+        "total_reports": 3917
+      },
+      {
+        "drug_name": "PACLITAXEL",
+        "n_hepatic_signals": 14,
+        "pct_female": 71.4,
+        "total_reports": 3855
+      },
+      {
+        "drug_name": "RAMIPRIL",
+        "n_hepatic_signals": 14,
+        "pct_female": 85.7,
+        "total_reports": 3618
+      },
+      {
+        "drug_name": "PREGABALIN",
+        "n_hepatic_signals": 10,
+        "pct_female": 80.0,
+        "total_reports": 3540
+      }
+    ],
+    "most_male": [
+      {
+        "drug_name": "FINGOLIMOD",
+        "n_hepatic_signals": 9,
+        "pct_female": 0.0,
+        "total_reports": 2289
+      },
+      {
+        "drug_name": "SULFAMETHOXAZOLE",
+        "n_hepatic_signals": 4,
+        "pct_female": 25.0,
+        "total_reports": 1653
+      },
+      {
+        "drug_name": "LEVOTHYROXINE",
+        "n_hepatic_signals": 20,
+        "pct_female": 5.0,
+        "total_reports": 1487
+      },
+      {
+        "drug_name": "ISOTRETINOIN",
+        "n_hepatic_signals": 8,
+        "pct_female": 0.0,
+        "total_reports": 1343
+      },
+      {
+        "drug_name": "BETAMETHASONE",
+        "n_hepatic_signals": 5,
+        "pct_female": 20.0,
+        "total_reports": 1198
+      },
+      {
+        "drug_name": "FLUCONAZOLE",
+        "n_hepatic_signals": 10,
+        "pct_female": 20.0,
+        "total_reports": 1028
+      },
+      {
+        "drug_name": "LEVETIRACETAM",
+        "n_hepatic_signals": 10,
+        "pct_female": 30.0,
+        "total_reports": 929
+      },
+      {
+        "drug_name": "LENVATINIB",
+        "n_hepatic_signals": 6,
+        "pct_female": 16.7,
+        "total_reports": 911
+      },
+      {
+        "drug_name": "VENLAFAXINE",
+        "n_hepatic_signals": 11,
+        "pct_female": 27.3,
+        "total_reports": 889
+      },
+      {
+        "drug_name": "DENOSUMAB",
+        "n_hepatic_signals": 5,
+        "pct_female": 0.0,
+        "total_reports": 833
+      },
+      {
+        "drug_name": "EXENATIDE",
+        "n_hepatic_signals": 3,
+        "pct_female": 0.0,
+        "total_reports": 800
+      },
+      {
+        "drug_name": "METRONIDAZOLE",
+        "n_hepatic_signals": 12,
+        "pct_female": 0.0,
+        "total_reports": 758
+      },
+      {
+        "drug_name": "INSULIN",
+        "n_hepatic_signals": 9,
+        "pct_female": 22.2,
+        "total_reports": 718
+      },
+      {
+        "drug_name": "DOCETAXEL",
+        "n_hepatic_signals": 7,
+        "pct_female": 14.3,
+        "total_reports": 686
+      },
+      {
+        "drug_name": "NIRMATRELVIR;RITONAVIR",
+        "n_hepatic_signals": 9,
+        "pct_female": 11.1,
+        "total_reports": 633
+      }
+    ]
+  },
+  "hepatic_vs_overall": {
+    "drugs_with_female_hepatic_excess": 87,
+    "drugs_with_male_hepatic_excess": 47,
+    "top_female_excess": [
+      {
+        "drug_name": "CANAKINUMAB",
+        "pct_female": 100.0,
+        "overall_pct_female": 26.5,
+        "hepatic_excess": 73.5,
+        "n_hepatic_signals": 4
+      },
+      {
+        "drug_name": "GLECAPREVIR;PIBRENTASVIR",
+        "pct_female": 100.0,
+        "overall_pct_female": 37.9,
+        "hepatic_excess": 62.1,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "PEXIDARTINIB",
+        "pct_female": 100.0,
+        "overall_pct_female": 42.9,
+        "hepatic_excess": 57.1,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "FLUVASTATIN",
+        "pct_female": 100.0,
+        "overall_pct_female": 42.9,
+        "hepatic_excess": 57.1,
+        "n_hepatic_signals": 4
+      },
+      {
+        "drug_name": "ZOLEDRONIC ACID",
+        "pct_female": 83.3,
+        "overall_pct_female": 26.3,
+        "hepatic_excess": 57.0,
+        "n_hepatic_signals": 12
+      },
+      {
+        "drug_name": "PAZOPANIB",
+        "pct_female": 100.0,
+        "overall_pct_female": 46.6,
+        "hepatic_excess": 53.4,
+        "n_hepatic_signals": 4
+      },
+      {
+        "drug_name": "EMTRICITABINE;TENOFOVIR",
+        "pct_female": 100.0,
+        "overall_pct_female": 47.5,
+        "hepatic_excess": 52.5,
+        "n_hepatic_signals": 10
+      },
+      {
+        "drug_name": "DASABUVIR;OMBITASVIR;PARITAPREVIR;RITONAVIR",
+        "pct_female": 100.0,
+        "overall_pct_female": 48.9,
+        "hepatic_excess": 51.1,
+        "n_hepatic_signals": 5
+      },
+      {
+        "drug_name": "LOSARTAN",
+        "pct_female": 100.0,
+        "overall_pct_female": 49.2,
+        "hepatic_excess": 50.8,
+        "n_hepatic_signals": 5
+      },
+      {
+        "drug_name": "OLMESARTAN",
+        "pct_female": 100.0,
+        "overall_pct_female": 49.3,
+        "hepatic_excess": 50.7,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "AVACOPAN",
+        "pct_female": 100.0,
+        "overall_pct_female": 50.0,
+        "hepatic_excess": 50.0,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "VITAMIN D2",
+        "pct_female": 100.0,
+        "overall_pct_female": 50.6,
+        "hepatic_excess": 49.4,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "CARVEDILOL",
+        "pct_female": 100.0,
+        "overall_pct_female": 52.7,
+        "hepatic_excess": 47.3,
+        "n_hepatic_signals": 4
+      },
+      {
+        "drug_name": "PEGINTERFERON ALFA-2B",
+        "pct_female": 100.0,
+        "overall_pct_female": 54.7,
+        "hepatic_excess": 45.3,
+        "n_hepatic_signals": 5
+      },
+      {
+        "drug_name": "DARUNAVIR",
+        "pct_female": 100.0,
+        "overall_pct_female": 55.2,
+        "hepatic_excess": 44.8,
+        "n_hepatic_signals": 5
+      }
+    ],
+    "top_male_excess": [
+      {
+        "drug_name": "AZITHROMYCIN ANHYDROUS",
+        "pct_female": 0.0,
+        "overall_pct_female": 62.2,
+        "hepatic_excess": -62.2,
+        "n_hepatic_signals": 4
+      },
+      {
+        "drug_name": "REMDESIVIR",
+        "pct_female": 33.3,
+        "overall_pct_female": 88.1,
+        "hepatic_excess": -54.8,
+        "n_hepatic_signals": 6
+      },
+      {
+        "drug_name": "AMITRIPTYLINE",
+        "pct_female": 0.0,
+        "overall_pct_female": 54.0,
+        "hepatic_excess": -54.0,
+        "n_hepatic_signals": 5
+      },
+      {
+        "drug_name": "PALIPERIDONE",
+        "pct_female": 33.3,
+        "overall_pct_female": 85.7,
+        "hepatic_excess": -52.4,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "BEDAQUILINE",
+        "pct_female": 33.3,
+        "overall_pct_female": 83.9,
+        "hepatic_excess": -50.5,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "SPIRONOLACTONE",
+        "pct_female": 0.0,
+        "overall_pct_female": 50.0,
+        "hepatic_excess": -50.0,
+        "n_hepatic_signals": 6
+      },
+      {
+        "drug_name": "OXCARBAZEPINE",
+        "pct_female": 0.0,
+        "overall_pct_female": 47.2,
+        "hepatic_excess": -47.2,
+        "n_hepatic_signals": 4
+      },
+      {
+        "drug_name": "LENVATINIB",
+        "pct_female": 16.7,
+        "overall_pct_female": 62.4,
+        "hepatic_excess": -45.8,
+        "n_hepatic_signals": 6
+      },
+      {
+        "drug_name": "FLUCONAZOLE",
+        "pct_female": 20.0,
+        "overall_pct_female": 65.2,
+        "hepatic_excess": -45.2,
+        "n_hepatic_signals": 10
+      },
+      {
+        "drug_name": "COVID-19 VACCINE",
+        "pct_female": 0.0,
+        "overall_pct_female": 43.2,
+        "hepatic_excess": -43.2,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "AMOXICILLIN;CLAVULANIC ACID",
+        "pct_female": 0.0,
+        "overall_pct_female": 42.6,
+        "hepatic_excess": -42.6,
+        "n_hepatic_signals": 6
+      },
+      {
+        "drug_name": "METHADONE",
+        "pct_female": 33.3,
+        "overall_pct_female": 73.8,
+        "hepatic_excess": -40.5,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "OXAZEPAM",
+        "pct_female": 25.0,
+        "overall_pct_female": 64.8,
+        "hepatic_excess": -39.8,
+        "n_hepatic_signals": 4
+      },
+      {
+        "drug_name": "EXENATIDE",
+        "pct_female": 0.0,
+        "overall_pct_female": 39.1,
+        "hepatic_excess": -39.1,
+        "n_hepatic_signals": 3
+      },
+      {
+        "drug_name": "CEFTRIAXONE",
+        "pct_female": 25.0,
+        "overall_pct_female": 64.1,
+        "hepatic_excess": -39.1,
+        "n_hepatic_signals": 4
+      }
+    ]
+  },
+  "known_hepatotoxic_classes": {
+    "acetaminophen": {
+      "n_signals": 19,
+      "n_drugs_found": 2,
+      "drugs_found": [
+        "ACETAMINOPHEN",
+        "PARACETAMOL"
+      ],
+      "pct_female": 63.2,
+      "mean_abs_lr": 1.1494
+    },
+    "statins": {
+      "n_signals": 33,
+      "n_drugs_found": 5,
+      "drugs_found": [
+        "ROSUVASTATIN",
+        "SIMVASTATIN",
+        "ATORVASTATIN",
+        "PRAVASTATIN",
+        "FLUVASTATIN"
+      ],
+      "pct_female": 69.7,
+      "mean_abs_lr": 0.837
+    },
+    "nsaids": {
+      "n_signals": 41,
+      "n_drugs_found": 3,
+      "drugs_found": [
+        "DICLOFENAC",
+        "NAPROXEN",
+        "IBUPROFEN"
+      ],
+      "pct_female": 75.6,
+      "mean_abs_lr": 1.4458
+    },
+    "antibiotics": {
+      "n_signals": 29,
+      "n_drugs_found": 6,
+      "drugs_found": [
+        "MINOCYCLINE",
+        "ISONIAZID",
+        "NITROFURANTOIN",
+        "FLUCLOXACILLIN",
+        "RIFAMPICIN",
+        "AMOXICILLIN"
+      ],
+      "pct_female": 75.9,
+      "mean_abs_lr": 0.9381
+    },
+    "antiepileptics": {
+      "n_signals": 28,
+      "n_drugs_found": 3,
+      "drugs_found": [
+        "CARBAMAZEPINE",
+        "LAMOTRIGINE",
+        "PHENYTOIN"
+      ],
+      "pct_female": 57.1,
+      "mean_abs_lr": 1.0834
+    },
+    "immunosuppressants": {
+      "n_signals": 54,
+      "n_drugs_found": 3,
+      "drugs_found": [
+        "AZATHIOPRINE",
+        "LEFLUNOMIDE",
+        "METHOTREXATE"
+      ],
+      "pct_female": 51.9,
+      "mean_abs_lr": 1.0903
+    },
+    "antifungals": {
+      "n_signals": 20,
+      "n_drugs_found": 3,
+      "drugs_found": [
+        "VORICONAZOLE",
+        "ITRACONAZOLE",
+        "FLUCONAZOLE"
+      ],
+      "pct_female": 55.0,
+      "mean_abs_lr": 0.8129
+    },
+    "anti_tnf": {
+      "n_signals": 73,
+      "n_drugs_found": 3,
+      "drugs_found": [
+        "ETANERCEPT",
+        "INFLIXIMAB",
+        "ADALIMUMAB"
+      ],
+      "pct_female": 52.1,
+      "mean_abs_lr": 1.1511
+    },
+    "checkpoint_inhibitors": {
+      "n_signals": 41,
+      "n_drugs_found": 4,
+      "drugs_found": [
+        "IPILIMUMAB",
+        "ATEZOLIZUMAB",
+        "NIVOLUMAB",
+        "PEMBROLIZUMAB"
+      ],
+      "pct_female": 95.1,
+      "mean_abs_lr": 0.7508
+    }
+  },
+  "hepatic_severity_gradient": {
+    "severe": {
+      "n_signals": 189,
+      "pct_female": 69.3,
+      "mean_abs_lr": 0.8463
+    },
+    "moderate": {
+      "n_signals": 639,
+      "pct_female": 69.6,
+      "mean_abs_lr": 1.0146
+    },
+    "mild": {
+      "n_signals": 2245,
+      "pct_female": 63.7,
+      "mean_abs_lr": 0.9962
+    }
+  }
+}
