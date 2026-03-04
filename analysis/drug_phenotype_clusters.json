@@ -1,296 +1,526 @@
 {
-  "analysis": "drug_phenotype_clustering",
-  "common_aes": 521,
-  "drugs_in_matrix": 2128,
-  "active_drugs": 726,
-  "clusters_10": [
-    {
-      "cluster_id": 1,
-      "n_drugs": 52,
-      "pct_female": 60.8,
-      "n_signals": 19923,
-      "top_drugs": [
-        "OXYCODONE",
-        "GOLIMUMAB",
-        "HYDROXYCHLOROQUINE",
-        "RITUXIMAB",
-        "SULFASALAZINE",
-        "SECUKINUMAB",
-        "SULFAMETHOXAZOLE;TRIMETHOPRIM",
-        "OXYCODONE;PARACETAMOL",
-        "PREDNISONE",
-        "DICLOFENAC"
-      ],
-      "female_characteristic_aes": [
-        "Malaise",
-        "C-reactive protein",
-        "Malignant transformation"
-      ],
-      "male_characteristic_aes": [
-        "Xerosis",
-        "Ocular icterus",
-        "Ear infection bacterial"
-      ]
-    },
-    {
-      "cluster_id": 2,
-      "n_drugs": 44,
-      "pct_female": 56.0,
-      "n_signals": 4863,
-      "top_drugs": [
-        "DESOXIMETASONE",
-        "ALENDRONIC ACID",
-        "VITAMIN B9",
-        "CETIRIZINE",
-        "HYDROCORTISONE",
-        "CALCIUM",
-        "PSEUDOEPHEDRINE",
-        "ATOMOXETINE",
-        "CORTISONE",
-        "MOXIFLOXACIN"
-      ],
-      "female_characteristic_aes": [
-        "Ear pruritus",
-        "Sneezing",
-        "Colorectal cancer stage II"
-      ],
-      "male_characteristic_aes": [
-        "Injection site pruritus",
-        "Mast cell activation syndrome",
-        "Maternal drugs affecting foetus"
-      ]
-    },
-    {
-      "cluster_id": 3,
-      "n_drugs": 133,
-      "pct_female": 67.5,
-      "n_signals": 16574,
-      "top_drugs": [
-        "ANTITHYMOCYTE IMMUNOGLOBULIN",
-        "SIROLIMUS",
-        "BEVACIZUMAB",
-        "VANCOMYCIN",
-        "VINCRISTINE",
-        "MYCOPHENOLATE MOFETIL",
-        "BORTEZOMIB",
-        "AMPHOTERICIN B",
-        "DEXAMETHASONE",
-        "FLUDARABINE"
-      ],
-      "female_characteristic_aes": [
-        "Hyperviscosity syndrome",
-        "Hypoproteinaemia",
-        "Zygomycosis"
-      ],
-      "male_characteristic_aes": [
-        "Patient dissatisfaction with treatment",
-        "Libido decreased",
-        "Leukaemic infiltration extramedullary"
-      ]
-    },
-    {
-      "cluster_id": 4,
-      "n_drugs": 201,
-      "pct_female": 51.6,
-      "n_signals": 13978,
-      "top_drugs": [
-        "ALENDRONIC ACID;VITAMIN D3",
-        "DESVENLAFAXINE",
-        "FOLIC ACID",
-        "TAMSULOSIN",
-        "DICLOFENAC SODIUM",
-        "OXAZEPAM",
-        "LEUPRORELIN",
-        "VENLAFAXINE",
-        "ZIPRASIDONE",
-        "CLOZAPINE"
-      ],
-      "female_characteristic_aes": [
-        "Galactorrhoea",
-        "Pancreatic carcinoma metastatic",
-        "Multi-organ failure"
-      ],
-      "male_characteristic_aes": [
-        "5-hydroxyindolacetic acid increased",
-        "Impaired gastric emptying",
-        "Impaired self-care"
-      ]
-    },
-    {
-      "cluster_id": 5,
-      "n_drugs": 76,
-      "pct_female": 65.6,
-      "n_signals": 11348,
-      "top_drugs": [
-        "RISPERIDONE",
-        "LACTULOSE",
-        "AMLODIPINE",
-        "NORTRIPTYLINE",
-        "SERTRALINE",
-        "ATORVASTATIN",
-        "ABACAVIR",
-        "CLONIDINE",
-        "APIXABAN",
-        "ROSUVASTATIN"
-      ],
-      "female_characteristic_aes": [
-        "Functional gastrointestinal disorder",
-        "Gastrointestinal angiodysplasia",
-        "Yawning"
-      ],
-      "male_characteristic_aes": [
-        "Breath sounds abnormal",
-        "Cheilitis",
-        "Plantar fasciitis"
-      ]
-    },
-    {
-      "cluster_id": 6,
-      "n_drugs": 38,
-      "pct_female": 42.4,
-      "n_signals": 4420,
-      "top_drugs": [
-        "SODIUM PICOSULFATE",
-        "VITAMIN A",
-        "IRON",
-        "CEFTRIAXONE",
-        "MELATONIN",
-        "BISACODYL",
-        "BETAMETHASONE",
-        "CALCITRIOL",
-        "ONDANSETRON",
-        "DARBEPOETIN ALFA"
-      ],
-      "female_characteristic_aes": [
-        "Drug administration error",
-        "Palmoplantar keratoderma",
-        "Dementia"
-      ],
-      "male_characteristic_aes": [
-        "Infusion site induration",
-        "Muscle contractions involuntary",
-        "Muscle discomfort"
-      ]
-    },
-    {
-      "cluster_id": 7,
-      "n_drugs": 62,
-      "pct_female": 39.1,
-      "n_signals": 3134,
-      "top_drugs": [
-        "MINOXIDIL",
-        "GLUCOSE",
-        "SODIUM CITRATE",
-        "TESTOSTERONE",
-        "MIFEPRISTONE",
-        "KETOROLAC",
-        "GALANTAMINE",
-        "ATAZANAVIR",
-        "ATORVASTATIN CALCIUM",
-        "EFAVIRENZ"
-      ],
-      "female_characteristic_aes": [
-        "Product physical issue",
-        "Haematochezia",
-        "Metabolic acidosis"
-      ],
-      "male_characteristic_aes": [
-        "Abasia",
-        "Gastrooesophageal reflux disease",
-        "Gastroenteritis"
-      ]
-    },
-    {
-      "cluster_id": 8,
-      "n_drugs": 31,
-      "pct_female": 36.9,
-      "n_signals": 4296,
-      "top_drugs": [
-        "VITAMIN D2",
-        "LEVOFLOXACIN",
-        "FLUTICASONE;SALMETEROL",
-        "SALBUTAMOL",
-        "CEFALEXIN",
-        "DOXAZOSIN",
-        "FORMOTEROL;MOMETASONE",
-        "UMECLIDINIUM",
-        "DOMPERIDONE",
-        "TIOTROPIUM"
-      ],
-      "female_characteristic_aes": [
-        "Post-traumatic stress disorder",
-        "Dyslipidaemia",
-        "Abasia"
-      ],
-      "male_characteristic_aes": [
-        "Intentional device misuse",
-        "Parkinson's disease",
-        "Papillary thyroid cancer"
-      ]
-    },
-    {
-      "cluster_id": 9,
-      "n_drugs": 11,
-      "pct_female": 36.9,
-      "n_signals": 1819,
-      "top_drugs": [
-        "FELODIPINE",
-        "MEBEVERINE",
-        "EPINEPHRINE",
-        "ESCITALOPRAM",
-        "LEVOTHYROXINE",
-        "ALBENDAZOLE",
-        "BUDESONIDE",
-        "COVID-19 VACCINE",
-        "ESOMEPRAZOLE",
-        "DAPAGLIFLOZIN"
-      ],
-      "female_characteristic_aes": [
-        "Lung neoplasm malignant",
-        "Myocardial infarction",
-        "Yawning"
-      ],
-      "male_characteristic_aes": [
-        "Abdominal discomfort",
-        "Intentional product use issue",
-        "Intentional underdose"
-      ]
-    },
-    {
-      "cluster_id": 10,
-      "n_drugs": 78,
-      "pct_female": 24.8,
-      "n_signals": 6456,
-      "top_drugs": [
-        "BOTULINUM TOXIN",
-        "GLYCERYL TRINITRATE",
-        "SODIUM AUROTHIOMALATE",
-        "GOLD (198 AU)",
-        "TRASTUZUMAB",
-        "DOCETAXEL",
-        "PETHIDINE",
-        "PERTUZUMAB",
-        "IPRATROPIUM",
-        "CANAKINUMAB"
-      ],
-      "female_characteristic_aes": [
-        "Central venous catheterisation",
-        "Philadelphia chromosome positive",
-        "Chronic myeloid leukaemia transformation"
-      ],
-      "male_characteristic_aes": [
-        "Abasia",
-        "Meniscus injury",
-        "Meningioma"
-      ]
-    }
-  ],
-  "most_similar_pairs": [
-    {
-      "drug1": "FELODIPINE",
-      "drug2": "MEBEVERINE",
-      "similarity": 0.82
-    }
-  ],
-  "most_different_pairs": []
+  "clustering": {
+    "n_drugs": 644,
+    "n_aes": 118,
+    "n_clusters": 10,
+    "silhouette_score": 0.013,
+    "cluster_f_range": 21.0,
+    "clusters": [
+      {
+        "cluster": 7,
+        "n_drugs": 15,
+        "mean_f_pct": 69.6,
+        "mean_lr": 0.9,
+        "top_drugs": [
+          {
+            "drug": "TRASTUZUMAB",
+            "f_pct": 78.9
+          },
+          {
+            "drug": "GLATIRAMER",
+            "f_pct": 75.0
+          },
+          {
+            "drug": "EPIRUBICIN",
+            "f_pct": 73.8
+          },
+          {
+            "drug": "PEGINTERFERON BETA-1A",
+            "f_pct": 73.1
+          },
+          {
+            "drug": "INTERFERON BETA-1A",
+            "f_pct": 72.6
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "TOPIRAMATE",
+            "f_pct": 67.3
+          },
+          {
+            "drug": "ERYTHROMYCIN",
+            "f_pct": 65.1
+          },
+          {
+            "drug": "VORTIOXETINE",
+            "f_pct": 61.6
+          },
+          {
+            "drug": "PROMETHAZINE",
+            "f_pct": 57.5
+          },
+          {
+            "drug": "BUSPIRONE",
+            "f_pct": 54.4
+          }
+        ],
+        "n_signals": 1533
+      },
+      {
+        "cluster": 8,
+        "n_drugs": 22,
+        "mean_f_pct": 66.0,
+        "mean_lr": 1.092,
+        "top_drugs": [
+          {
+            "drug": "SARILUMAB",
+            "f_pct": 86.0
+          },
+          {
+            "drug": "MIFEPRISTONE",
+            "f_pct": 77.6
+          },
+          {
+            "drug": "MELOXICAM",
+            "f_pct": 73.0
+          },
+          {
+            "drug": "CETIRIZINE",
+            "f_pct": 72.8
+          },
+          {
+            "drug": "APREPITANT",
+            "f_pct": 72.0
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "BROMAZEPAM",
+            "f_pct": 56.1
+          },
+          {
+            "drug": "IRBESARTAN",
+            "f_pct": 54.7
+          },
+          {
+            "drug": "ALIROCUMAB",
+            "f_pct": 52.2
+          },
+          {
+            "drug": "OLMESARTAN",
+            "f_pct": 51.7
+          },
+          {
+            "drug": "PANITUMUMAB",
+            "f_pct": 46.4
+          }
+        ],
+        "n_signals": 3525
+      },
+      {
+        "cluster": 2,
+        "n_drugs": 51,
+        "mean_f_pct": 65.0,
+        "mean_lr": 1.189,
+        "top_drugs": [
+          {
+            "drug": "DESOXIMETASONE",
+            "f_pct": 80.9
+          },
+          {
+            "drug": "VITAMIN C",
+            "f_pct": 78.2
+          },
+          {
+            "drug": "ABATACEPT",
+            "f_pct": 76.7
+          },
+          {
+            "drug": "CORTISONE",
+            "f_pct": 76.5
+          },
+          {
+            "drug": "LEFLUNOMIDE",
+            "f_pct": 73.2
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "METRONIDAZOLE",
+            "f_pct": 49.1
+          },
+          {
+            "drug": "LIDOCAINE",
+            "f_pct": 49.0
+          },
+          {
+            "drug": "UMECLIDINIUM;VILANTEROL",
+            "f_pct": 46.1
+          },
+          {
+            "drug": "ALLOPURINOL",
+            "f_pct": 45.0
+          },
+          {
+            "drug": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+            "f_pct": 44.0
+          }
+        ],
+        "n_signals": 14831
+      },
+      {
+        "cluster": 6,
+        "n_drugs": 32,
+        "mean_f_pct": 63.6,
+        "mean_lr": 1.003,
+        "top_drugs": [
+          {
+            "drug": "DIPHENHYDRAMINE",
+            "f_pct": 78.5
+          },
+          {
+            "drug": "CODEINE",
+            "f_pct": 77.6
+          },
+          {
+            "drug": "ACETAMINOPHEN",
+            "f_pct": 73.4
+          },
+          {
+            "drug": "CAFFEINE",
+            "f_pct": 71.6
+          },
+          {
+            "drug": "TRAZODONE",
+            "f_pct": 68.7
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "ENOXAPARIN",
+            "f_pct": 54.6
+          },
+          {
+            "drug": "MORPHINE SULFATE",
+            "f_pct": 54.0
+          },
+          {
+            "drug": "DOXEPIN",
+            "f_pct": 50.8
+          },
+          {
+            "drug": "AMFETAMINE",
+            "f_pct": 44.1
+          },
+          {
+            "drug": "CANNABINOIDS",
+            "f_pct": 41.6
+          }
+        ],
+        "n_signals": 5491
+      },
+      {
+        "cluster": 10,
+        "n_drugs": 153,
+        "mean_f_pct": 59.5,
+        "mean_lr": 0.967,
+        "top_drugs": [
+          {
+            "drug": "PSEUDOEPHEDRINE",
+            "f_pct": 81.9
+          },
+          {
+            "drug": "BOTULINUM TOXIN",
+            "f_pct": 80.0
+          },
+          {
+            "drug": "MIRABEGRON",
+            "f_pct": 79.7
+          },
+          {
+            "drug": "INDOMETACIN",
+            "f_pct": 79.6
+          },
+          {
+            "drug": "CODEINE;PARACETAMOL",
+            "f_pct": 79.3
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+            "f_pct": 42.2
+          },
+          {
+            "drug": "LEUPRORELIN",
+            "f_pct": 38.9
+          },
+          {
+            "drug": "TENOFOVIR",
+            "f_pct": 38.9
+          },
+          {
+            "drug": "EPLERENONE",
+            "f_pct": 38.7
+          },
+          {
+            "drug": "LOPINAVIR;RITONAVIR",
+            "f_pct": 38.2
+          }
+        ],
+        "n_signals": 17305
+      },
+      {
+        "cluster": 5,
+        "n_drugs": 36,
+        "mean_f_pct": 58.9,
+        "mean_lr": 1.099,
+        "top_drugs": [
+          {
+            "drug": "ALENDRONIC ACID",
+            "f_pct": 83.6
+          },
+          {
+            "drug": "DOMPERIDONE",
+            "f_pct": 77.1
+          },
+          {
+            "drug": "VITAMIN D2",
+            "f_pct": 74.4
+          },
+          {
+            "drug": "DILTIAZEM",
+            "f_pct": 70.3
+          },
+          {
+            "drug": "GLICLAZIDE",
+            "f_pct": 66.6
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "CANDESARTAN;HYDROCHLOROTHIAZIDE",
+            "f_pct": 48.5
+          },
+          {
+            "drug": "FORMOTEROL;MOMETASONE",
+            "f_pct": 46.5
+          },
+          {
+            "drug": "DOXAZOSIN",
+            "f_pct": 37.9
+          },
+          {
+            "drug": "UMECLIDINIUM",
+            "f_pct": 37.9
+          },
+          {
+            "drug": "ALBENDAZOLE",
+            "f_pct": 30.1
+          }
+        ],
+        "n_signals": 4590
+      },
+      {
+        "cluster": 9,
+        "n_drugs": 73,
+        "mean_f_pct": 56.5,
+        "mean_lr": 0.974,
+        "top_drugs": [
+          {
+            "drug": "C1-INHIBITOR",
+            "f_pct": 87.3
+          },
+          {
+            "drug": "CYCLOBENZAPRINE",
+            "f_pct": 78.9
+          },
+          {
+            "drug": "GOLIMUMAB",
+            "f_pct": 78.4
+          },
+          {
+            "drug": "APREMILAST",
+            "f_pct": 77.5
+          },
+          {
+            "drug": "VITAMIN B12",
+            "f_pct": 75.5
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "AGALSIDASE BETA",
+            "f_pct": 38.9
+          },
+          {
+            "drug": "RALTEGRAVIR",
+            "f_pct": 38.6
+          },
+          {
+            "drug": "COCAINE",
+            "f_pct": 37.5
+          },
+          {
+            "drug": "DIAMORPHINE",
+            "f_pct": 37.3
+          },
+          {
+            "drug": "RILPIVIRINE",
+            "f_pct": 33.6
+          }
+        ],
+        "n_signals": 7765
+      },
+      {
+        "cluster": 4,
+        "n_drugs": 34,
+        "mean_f_pct": 56.1,
+        "mean_lr": 0.963,
+        "top_drugs": [
+          {
+            "drug": "SULFAMETHOXAZOLE",
+            "f_pct": 80.3
+          },
+          {
+            "drug": "AMINOSALICYLIC ACID",
+            "f_pct": 72.8
+          },
+          {
+            "drug": "LACTULOSE",
+            "f_pct": 68.5
+          },
+          {
+            "drug": "LEVOTHYROXINE",
+            "f_pct": 67.5
+          },
+          {
+            "drug": "PEGFILGRASTIM",
+            "f_pct": 64.7
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "CANAGLIFLOZIN",
+            "f_pct": 50.1
+          },
+          {
+            "drug": "TOBRAMYCIN",
+            "f_pct": 48.4
+          },
+          {
+            "drug": "VALPROIC ACID",
+            "f_pct": 48.0
+          },
+          {
+            "drug": "FELODIPINE",
+            "f_pct": 41.9
+          },
+          {
+            "drug": "DOCUSATE",
+            "f_pct": 41.5
+          }
+        ],
+        "n_signals": 5469
+      },
+      {
+        "cluster": 3,
+        "n_drugs": 203,
+        "mean_f_pct": 52.5,
+        "mean_lr": 0.847,
+        "top_drugs": [
+          {
+            "drug": "PALBOCICLIB",
+            "f_pct": 94.3
+          },
+          {
+            "drug": "ERENUMAB",
+            "f_pct": 92.0
+          },
+          {
+            "drug": "ABALOPARATIDE",
+            "f_pct": 91.8
+          },
+          {
+            "drug": "TERIPARATIDE",
+            "f_pct": 86.2
+          },
+          {
+            "drug": "CHLORHEXIDINE",
+            "f_pct": 83.6
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+            "f_pct": 28.2
+          },
+          {
+            "drug": "TESTOSTERONE",
+            "f_pct": 25.7
+          },
+          {
+            "drug": "MEBEVERINE",
+            "f_pct": 25.4
+          },
+          {
+            "drug": "TAMSULOSIN",
+            "f_pct": 23.3
+          },
+          {
+            "drug": "FACTOR VIII",
+            "f_pct": 13.1
+          }
+        ],
+        "n_signals": 21629
+      },
+      {
+        "cluster": 1,
+        "n_drugs": 25,
+        "mean_f_pct": 48.6,
+        "mean_lr": 1.118,
+        "top_drugs": [
+          {
+            "drug": "RISEDRONIC ACID",
+            "f_pct": 81.2
+          },
+          {
+            "drug": "GLYCERYL TRINITRATE",
+            "f_pct": 62.3
+          },
+          {
+            "drug": "DEXLANSOPRAZOLE",
+            "f_pct": 57.2
+          },
+          {
+            "drug": "IPRATROPIUM",
+            "f_pct": 55.2
+          },
+          {
+            "drug": "GABAPENTIN",
+            "f_pct": 53.5
+          }
+        ],
+        "bottom_drugs": [
+          {
+            "drug": "GLUCOSE",
+            "f_pct": 39.7
+          },
+          {
+            "drug": "MELATONIN",
+            "f_pct": 39.6
+          },
+          {
+            "drug": "DARBEPOETIN ALFA",
+            "f_pct": 38.2
+          },
+          {
+            "drug": "DALTEPARIN",
+            "f_pct": 37.2
+          },
+          {
+            "drug": "CALCITRIOL",
+            "f_pct": 34.1
+          }
+        ],
+        "n_signals": 2723
+      }
+    ]
+  },
+  "matrix_stats": {
+    "drugs_analyzed": 644,
+    "aes_used": 118,
+    "fill_rate": 25.9
+  }
 }

@@ -1,0 +1,2250 @@
+{
+  "class_heterogeneity": [
+    {
+      "class": "TKIs",
+      "n_drugs_found": 14,
+      "n_signals": 1250,
+      "class_mean_f": 50.1,
+      "within_class_spread": 33.8,
+      "min_drug": {
+        "name": "AXITINIB",
+        "f_pct": 34.5,
+        "n": 64
+      },
+      "max_drug": {
+        "name": "OSIMERTINIB",
+        "f_pct": 68.3,
+        "n": 53
+      },
+      "kruskal_wallis_H": 456.2,
+      "kruskal_wallis_p": 2.9e-89,
+      "class_mean_lr": 0.768,
+      "drug_ranking": [
+        {
+          "drug": "OSIMERTINIB",
+          "f_pct": 68.3,
+          "n": 53
+        },
+        {
+          "drug": "AFATINIB",
+          "f_pct": 63.5,
+          "n": 24
+        },
+        {
+          "drug": "ERLOTINIB",
+          "f_pct": 61.9,
+          "n": 83
+        },
+        {
+          "drug": "GEFITINIB",
+          "f_pct": 61.8,
+          "n": 12
+        },
+        {
+          "drug": "LENVATINIB",
+          "f_pct": 58.9,
+          "n": 165
+        },
+        {
+          "drug": "NILOTINIB",
+          "f_pct": 54.7,
+          "n": 132
+        },
+        {
+          "drug": "IMATINIB",
+          "f_pct": 53.8,
+          "n": 155
+        },
+        {
+          "drug": "DASATINIB",
+          "f_pct": 51.7,
+          "n": 79
+        },
+        {
+          "drug": "REGORAFENIB",
+          "f_pct": 48.9,
+          "n": 70
+        },
+        {
+          "drug": "SUNITINIB",
+          "f_pct": 43.1,
+          "n": 122
+        },
+        {
+          "drug": "PAZOPANIB",
+          "f_pct": 41.7,
+          "n": 103
+        },
+        {
+          "drug": "SORAFENIB",
+          "f_pct": 38.3,
+          "n": 76
+        },
+        {
+          "drug": "CABOZANTINIB",
+          "f_pct": 36.8,
+          "n": 112
+        },
+        {
+          "drug": "AXITINIB",
+          "f_pct": 34.5,
+          "n": 64
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Cardiac failure congestive",
+          "n_drugs": 7,
+          "mean_f": 52.9,
+          "spread": 38.8
+        },
+        {
+          "ae": "Drug interaction",
+          "n_drugs": 8,
+          "mean_f": 52.9,
+          "spread": 38.1
+        },
+        {
+          "ae": "Pancytopenia",
+          "n_drugs": 7,
+          "mean_f": 53.4,
+          "spread": 28.9
+        }
+      ]
+    },
+    {
+      "class": "Opioids",
+      "n_drugs_found": 10,
+      "n_signals": 2568,
+      "class_mean_f": 64.4,
+      "within_class_spread": 29.6,
+      "min_drug": {
+        "name": "METHADONE",
+        "f_pct": 48.0,
+        "n": 107
+      },
+      "max_drug": {
+        "name": "CODEINE",
+        "f_pct": 77.6,
+        "n": 190
+      },
+      "kruskal_wallis_H": 214.4,
+      "kruskal_wallis_p": 3.181e-41,
+      "class_mean_lr": 1.127,
+      "drug_ranking": [
+        {
+          "drug": "CODEINE",
+          "f_pct": 77.6,
+          "n": 190
+        },
+        {
+          "drug": "TRAMADOL",
+          "f_pct": 68.4,
+          "n": 360
+        },
+        {
+          "drug": "MORPHINE",
+          "f_pct": 67.1,
+          "n": 441
+        },
+        {
+          "drug": "OXYCODONE",
+          "f_pct": 65.3,
+          "n": 492
+        },
+        {
+          "drug": "HYDROMORPHONE",
+          "f_pct": 62.2,
+          "n": 311
+        },
+        {
+          "drug": "FENTANYL",
+          "f_pct": 61.0,
+          "n": 291
+        },
+        {
+          "drug": "BUPRENORPHINE",
+          "f_pct": 59.3,
+          "n": 261
+        },
+        {
+          "drug": "TAPENTADOL",
+          "f_pct": 57.9,
+          "n": 39
+        },
+        {
+          "drug": "HYDROCODONE",
+          "f_pct": 57.6,
+          "n": 76
+        },
+        {
+          "drug": "METHADONE",
+          "f_pct": 48.0,
+          "n": 107
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Blood creatinine increased",
+          "n_drugs": 6,
+          "mean_f": 62.5,
+          "spread": 71.0
+        },
+        {
+          "ae": "Abdominal distension",
+          "n_drugs": 5,
+          "mean_f": 66.1,
+          "spread": 63.6
+        },
+        {
+          "ae": "Abdominal discomfort",
+          "n_drugs": 9,
+          "mean_f": 73.2,
+          "spread": 60.6
+        },
+        {
+          "ae": "Blood pressure increased",
+          "n_drugs": 6,
+          "mean_f": 66.4,
+          "spread": 54.3
+        },
+        {
+          "ae": "Altered state of consciousness",
+          "n_drugs": 5,
+          "mean_f": 54.0,
+          "spread": 48.6
+        },
+        {
+          "ae": "Arthropathy",
+          "n_drugs": 8,
+          "mean_f": 87.5,
+          "spread": 43.1
+        },
+        {
+          "ae": "Angioedema",
+          "n_drugs": 7,
+          "mean_f": 75.5,
+          "spread": 39.4
+        },
+        {
+          "ae": "Alanine aminotransferase increased",
+          "n_drugs": 5,
+          "mean_f": 74.4,
+          "spread": 34.5
+        },
+        {
+          "ae": "Alopecia",
+          "n_drugs": 5,
+          "mean_f": 91.5,
+          "spread": 29.4
+        },
+        {
+          "ae": "Acute myocardial infarction",
+          "n_drugs": 5,
+          "mean_f": 52.0,
+          "spread": 27.6
+        }
+      ]
+    },
+    {
+      "class": "NSAIDs",
+      "n_drugs_found": 9,
+      "n_signals": 1617,
+      "class_mean_f": 69.2,
+      "within_class_spread": 29.4,
+      "min_drug": {
+        "name": "KETOROLAC",
+        "f_pct": 50.1,
+        "n": 60
+      },
+      "max_drug": {
+        "name": "PIROXICAM",
+        "f_pct": 79.5,
+        "n": 21
+      },
+      "kruskal_wallis_H": 134.2,
+      "kruskal_wallis_p": 3.791e-25,
+      "class_mean_lr": 1.154,
+      "drug_ranking": [
+        {
+          "drug": "PIROXICAM",
+          "f_pct": 79.5,
+          "n": 21
+        },
+        {
+          "drug": "CELECOXIB",
+          "f_pct": 78.0,
+          "n": 274
+        },
+        {
+          "drug": "MELOXICAM",
+          "f_pct": 73.0,
+          "n": 87
+        },
+        {
+          "drug": "NAPROXEN",
+          "f_pct": 70.6,
+          "n": 331
+        },
+        {
+          "drug": "KETOPROFEN",
+          "f_pct": 68.9,
+          "n": 59
+        },
+        {
+          "drug": "DICLOFENAC",
+          "f_pct": 68.8,
+          "n": 401
+        },
+        {
+          "drug": "IBUPROFEN",
+          "f_pct": 63.8,
+          "n": 372
+        },
+        {
+          "drug": "INDOMETHACIN",
+          "f_pct": 60.0,
+          "n": 12
+        },
+        {
+          "drug": "KETOROLAC",
+          "f_pct": 50.1,
+          "n": 60
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Bronchitis",
+          "n_drugs": 4,
+          "mean_f": 74.9,
+          "spread": 70.4
+        },
+        {
+          "ae": "Atrial fibrillation",
+          "n_drugs": 4,
+          "mean_f": 45.5,
+          "spread": 54.8
+        },
+        {
+          "ae": "Cardiac disorder",
+          "n_drugs": 4,
+          "mean_f": 37.2,
+          "spread": 54.6
+        },
+        {
+          "ae": "Alopecia",
+          "n_drugs": 4,
+          "mean_f": 76.6,
+          "spread": 46.2
+        },
+        {
+          "ae": "Abdominal discomfort",
+          "n_drugs": 6,
+          "mean_f": 82.4,
+          "spread": 45.4
+        },
+        {
+          "ae": "Asthenia",
+          "n_drugs": 6,
+          "mean_f": 78.4,
+          "spread": 40.6
+        },
+        {
+          "ae": "Blood creatinine increased",
+          "n_drugs": 4,
+          "mean_f": 62.1,
+          "spread": 38.5
+        },
+        {
+          "ae": "Abdominal distension",
+          "n_drugs": 4,
+          "mean_f": 79.9,
+          "spread": 34.5
+        },
+        {
+          "ae": "Abdominal pain upper",
+          "n_drugs": 4,
+          "mean_f": 81.7,
+          "spread": 32.6
+        },
+        {
+          "ae": "Coagulopathy",
+          "n_drugs": 4,
+          "mean_f": 63.2,
+          "spread": 32.2
+        }
+      ]
+    },
+    {
+      "class": "Fluoroquinolones",
+      "n_drugs_found": 4,
+      "n_signals": 811,
+      "class_mean_f": 57.5,
+      "within_class_spread": 22.2,
+      "min_drug": {
+        "name": "OFLOXACIN",
+        "f_pct": 42.6,
+        "n": 40
+      },
+      "max_drug": {
+        "name": "MOXIFLOXACIN",
+        "f_pct": 64.8,
+        "n": 175
+      },
+      "kruskal_wallis_H": 50.2,
+      "kruskal_wallis_p": 7.181e-11,
+      "class_mean_lr": 0.981,
+      "drug_ranking": [
+        {
+          "drug": "MOXIFLOXACIN",
+          "f_pct": 64.8,
+          "n": 175
+        },
+        {
+          "drug": "CIPROFLOXACIN",
+          "f_pct": 57.9,
+          "n": 342
+        },
+        {
+          "drug": "LEVOFLOXACIN",
+          "f_pct": 54.3,
+          "n": 254
+        },
+        {
+          "drug": "OFLOXACIN",
+          "f_pct": 42.6,
+          "n": 40
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Asthma",
+          "n_drugs": 3,
+          "mean_f": 66.8,
+          "spread": 65.4
+        },
+        {
+          "ae": "Arthropathy",
+          "n_drugs": 3,
+          "mean_f": 66.4,
+          "spread": 39.3
+        },
+        {
+          "ae": "Blood creatinine increased",
+          "n_drugs": 2,
+          "mean_f": 48.6,
+          "spread": 36.7
+        },
+        {
+          "ae": "Abdominal distension",
+          "n_drugs": 2,
+          "mean_f": 68.7,
+          "spread": 27.9
+        },
+        {
+          "ae": "Bacterial infection",
+          "n_drugs": 2,
+          "mean_f": 56.0,
+          "spread": 23.1
+        },
+        {
+          "ae": "Adverse drug reaction",
+          "n_drugs": 3,
+          "mean_f": 75.3,
+          "spread": 20.5
+        },
+        {
+          "ae": "Abdominal pain lower",
+          "n_drugs": 2,
+          "mean_f": 62.2,
+          "spread": 17.8
+        },
+        {
+          "ae": "Abdominal discomfort",
+          "n_drugs": 2,
+          "mean_f": 84.8,
+          "spread": 15.3
+        },
+        {
+          "ae": "Blood creatine phosphokinase increased",
+          "n_drugs": 2,
+          "mean_f": 58.8,
+          "spread": 14.3
+        },
+        {
+          "ae": "Adverse reaction",
+          "n_drugs": 2,
+          "mean_f": 52.9,
+          "spread": 14.2
+        }
+      ]
+    },
+    {
+      "class": "Beta_blockers",
+      "n_drugs_found": 9,
+      "n_signals": 981,
+      "class_mean_f": 55.2,
+      "within_class_spread": 19.7,
+      "min_drug": {
+        "name": "CARVEDILOL",
+        "f_pct": 45.9,
+        "n": 112
+      },
+      "max_drug": {
+        "name": "ATENOLOL",
+        "f_pct": 65.7,
+        "n": 136
+      },
+      "kruskal_wallis_H": 68.0,
+      "kruskal_wallis_p": 1.235e-11,
+      "class_mean_lr": 0.918,
+      "drug_ranking": [
+        {
+          "drug": "ATENOLOL",
+          "f_pct": 65.7,
+          "n": 136
+        },
+        {
+          "drug": "NADOLOL",
+          "f_pct": 60.8,
+          "n": 12
+        },
+        {
+          "drug": "METOPROLOL",
+          "f_pct": 56.1,
+          "n": 244
+        },
+        {
+          "drug": "LABETALOL",
+          "f_pct": 55.1,
+          "n": 22
+        },
+        {
+          "drug": "PROPRANOLOL",
+          "f_pct": 55.0,
+          "n": 123
+        },
+        {
+          "drug": "NEBIVOLOL",
+          "f_pct": 54.6,
+          "n": 38
+        },
+        {
+          "drug": "SOTALOL",
+          "f_pct": 53.8,
+          "n": 24
+        },
+        {
+          "drug": "BISOPROLOL",
+          "f_pct": 52.9,
+          "n": 270
+        },
+        {
+          "drug": "CARVEDILOL",
+          "f_pct": 45.9,
+          "n": 112
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Psoriasis",
+          "n_drugs": 5,
+          "mean_f": 60.2,
+          "spread": 66.1
+        },
+        {
+          "ae": "Sedation",
+          "n_drugs": 4,
+          "mean_f": 55.6,
+          "spread": 64.0
+        },
+        {
+          "ae": "Hyperkalaemia",
+          "n_drugs": 4,
+          "mean_f": 47.2,
+          "spread": 57.9
+        },
+        {
+          "ae": "Anaemia",
+          "n_drugs": 4,
+          "mean_f": 62.5,
+          "spread": 53.9
+        },
+        {
+          "ae": "Renal failure",
+          "n_drugs": 4,
+          "mean_f": 51.4,
+          "spread": 46.3
+        },
+        {
+          "ae": "Cardio-respiratory arrest",
+          "n_drugs": 6,
+          "mean_f": 53.3,
+          "spread": 45.4
+        },
+        {
+          "ae": "Overdose",
+          "n_drugs": 5,
+          "mean_f": 60.0,
+          "spread": 45.1
+        },
+        {
+          "ae": "Respiratory failure",
+          "n_drugs": 5,
+          "mean_f": 58.4,
+          "spread": 40.2
+        },
+        {
+          "ae": "Drug intolerance",
+          "n_drugs": 4,
+          "mean_f": 68.5,
+          "spread": 36.4
+        },
+        {
+          "ae": "Angioedema",
+          "n_drugs": 5,
+          "mean_f": 71.2,
+          "spread": 35.3
+        }
+      ]
+    },
+    {
+      "class": "Statins",
+      "n_drugs_found": 6,
+      "n_signals": 1085,
+      "class_mean_f": 52.0,
+      "within_class_spread": 19.4,
+      "min_drug": {
+        "name": "FLUVASTATIN",
+        "f_pct": 44.3,
+        "n": 21
+      },
+      "max_drug": {
+        "name": "LOVASTATIN",
+        "f_pct": 63.7,
+        "n": 8
+      },
+      "kruskal_wallis_H": 9.4,
+      "kruskal_wallis_p": 0.09487,
+      "class_mean_lr": 0.943,
+      "drug_ranking": [
+        {
+          "drug": "LOVASTATIN",
+          "f_pct": 63.7,
+          "n": 8
+        },
+        {
+          "drug": "ATORVASTATIN",
+          "f_pct": 53.5,
+          "n": 388
+        },
+        {
+          "drug": "ROSUVASTATIN",
+          "f_pct": 52.2,
+          "n": 337
+        },
+        {
+          "drug": "PRAVASTATIN",
+          "f_pct": 50.5,
+          "n": 67
+        },
+        {
+          "drug": "SIMVASTATIN",
+          "f_pct": 50.1,
+          "n": 261
+        },
+        {
+          "drug": "FLUVASTATIN",
+          "f_pct": 44.3,
+          "n": 21
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Ascites",
+          "n_drugs": 3,
+          "mean_f": 34.9,
+          "spread": 70.1
+        },
+        {
+          "ae": "Frequent bowel movements",
+          "n_drugs": 3,
+          "mean_f": 68.4,
+          "spread": 59.3
+        },
+        {
+          "ae": "Accidental overdose",
+          "n_drugs": 3,
+          "mean_f": 48.6,
+          "spread": 47.5
+        },
+        {
+          "ae": "Eye disorder",
+          "n_drugs": 3,
+          "mean_f": 54.3,
+          "spread": 44.8
+        },
+        {
+          "ae": "Blood uric acid increased",
+          "n_drugs": 3,
+          "mean_f": 26.6,
+          "spread": 43.5
+        },
+        {
+          "ae": "Eczema",
+          "n_drugs": 3,
+          "mean_f": 55.0,
+          "spread": 37.4
+        },
+        {
+          "ae": "Drug ineffective",
+          "n_drugs": 3,
+          "mean_f": 45.5,
+          "spread": 36.7
+        },
+        {
+          "ae": "Exercise tolerance decreased",
+          "n_drugs": 3,
+          "mean_f": 43.0,
+          "spread": 35.8
+        },
+        {
+          "ae": "Fluid retention",
+          "n_drugs": 3,
+          "mean_f": 49.4,
+          "spread": 35.7
+        },
+        {
+          "ae": "Circulatory collapse",
+          "n_drugs": 3,
+          "mean_f": 37.2,
+          "spread": 35.3
+        }
+      ]
+    },
+    {
+      "class": "Atypical_APs",
+      "n_drugs_found": 10,
+      "n_signals": 2320,
+      "class_mean_f": 52.0,
+      "within_class_spread": 18.6,
+      "min_drug": {
+        "name": "CLOZAPINE",
+        "f_pct": 44.4,
+        "n": 287
+      },
+      "max_drug": {
+        "name": "QUETIAPINE",
+        "f_pct": 63.1,
+        "n": 426
+      },
+      "kruskal_wallis_H": 225.8,
+      "kruskal_wallis_p": 1.288e-43,
+      "class_mean_lr": 0.986,
+      "drug_ranking": [
+        {
+          "drug": "QUETIAPINE",
+          "f_pct": 63.1,
+          "n": 426
+        },
+        {
+          "drug": "BREXPIPRAZOLE",
+          "f_pct": 62.2,
+          "n": 43
+        },
+        {
+          "drug": "LURASIDONE",
+          "f_pct": 57.2,
+          "n": 81
+        },
+        {
+          "drug": "ZIPRASIDONE",
+          "f_pct": 57.2,
+          "n": 87
+        },
+        {
+          "drug": "ARIPIPRAZOLE",
+          "f_pct": 52.2,
+          "n": 342
+        },
+        {
+          "drug": "OLANZAPINE",
+          "f_pct": 49.8,
+          "n": 336
+        },
+        {
+          "drug": "RISPERIDONE",
+          "f_pct": 47.7,
+          "n": 518
+        },
+        {
+          "drug": "PALIPERIDONE",
+          "f_pct": 47.6,
+          "n": 161
+        },
+        {
+          "drug": "CARIPRAZINE",
+          "f_pct": 46.1,
+          "n": 39
+        },
+        {
+          "drug": "CLOZAPINE",
+          "f_pct": 44.4,
+          "n": 287
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Drug interaction",
+          "n_drugs": 5,
+          "mean_f": 55.5,
+          "spread": 51.2
+        },
+        {
+          "ae": "Blood cholesterol increased",
+          "n_drugs": 5,
+          "mean_f": 56.4,
+          "spread": 48.7
+        },
+        {
+          "ae": "Alopecia",
+          "n_drugs": 5,
+          "mean_f": 47.1,
+          "spread": 47.5
+        },
+        {
+          "ae": "Abnormal weight gain",
+          "n_drugs": 5,
+          "mean_f": 23.7,
+          "spread": 47.1
+        },
+        {
+          "ae": "Electrocardiogram QT prolonged",
+          "n_drugs": 5,
+          "mean_f": 61.0,
+          "spread": 44.0
+        },
+        {
+          "ae": "Drug level increased",
+          "n_drugs": 5,
+          "mean_f": 59.9,
+          "spread": 40.7
+        },
+        {
+          "ae": "Dystonia",
+          "n_drugs": 6,
+          "mean_f": 64.6,
+          "spread": 39.1
+        },
+        {
+          "ae": "Adverse drug reaction",
+          "n_drugs": 9,
+          "mean_f": 68.0,
+          "spread": 32.7
+        },
+        {
+          "ae": "Dyskinesia",
+          "n_drugs": 6,
+          "mean_f": 65.4,
+          "spread": 30.5
+        },
+        {
+          "ae": "Blepharospasm",
+          "n_drugs": 5,
+          "mean_f": 45.3,
+          "spread": 26.6
+        }
+      ]
+    },
+    {
+      "class": "ICIs",
+      "n_drugs_found": 6,
+      "n_signals": 944,
+      "class_mean_f": 46.9,
+      "within_class_spread": 18.3,
+      "min_drug": {
+        "name": "AVELUMAB",
+        "f_pct": 36.4,
+        "n": 19
+      },
+      "max_drug": {
+        "name": "PEMBROLIZUMAB",
+        "f_pct": 54.7,
+        "n": 309
+      },
+      "kruskal_wallis_H": 203.6,
+      "kruskal_wallis_p": 4.794e-42,
+      "class_mean_lr": 0.831,
+      "drug_ranking": [
+        {
+          "drug": "PEMBROLIZUMAB",
+          "f_pct": 54.7,
+          "n": 309
+        },
+        {
+          "drug": "DURVALUMAB",
+          "f_pct": 48.5,
+          "n": 61
+        },
+        {
+          "drug": "ATEZOLIZUMAB",
+          "f_pct": 47.0,
+          "n": 152
+        },
+        {
+          "drug": "IPILIMUMAB",
+          "f_pct": 41.6,
+          "n": 161
+        },
+        {
+          "drug": "NIVOLUMAB",
+          "f_pct": 40.7,
+          "n": 238
+        },
+        {
+          "drug": "AVELUMAB",
+          "f_pct": 36.4,
+          "n": 19
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Ejection fraction decreased",
+          "n_drugs": 3,
+          "mean_f": 56.5,
+          "spread": 30.4
+        },
+        {
+          "ae": "Bacteraemia",
+          "n_drugs": 4,
+          "mean_f": 45.3,
+          "spread": 29.2
+        },
+        {
+          "ae": "Cytokine release syndrome",
+          "n_drugs": 4,
+          "mean_f": 39.4,
+          "spread": 25.8
+        },
+        {
+          "ae": "Autoimmune disorder",
+          "n_drugs": 3,
+          "mean_f": 45.7,
+          "spread": 22.5
+        },
+        {
+          "ae": "Bronchitis",
+          "n_drugs": 4,
+          "mean_f": 35.4,
+          "spread": 20.4
+        },
+        {
+          "ae": "Cholestasis",
+          "n_drugs": 4,
+          "mean_f": 52.8,
+          "spread": 18.8
+        },
+        {
+          "ae": "Cardiomyopathy",
+          "n_drugs": 3,
+          "mean_f": 48.7,
+          "spread": 17.6
+        },
+        {
+          "ae": "Adrenocorticotropic hormone deficiency",
+          "n_drugs": 3,
+          "mean_f": 37.6,
+          "spread": 16.0
+        },
+        {
+          "ae": "Autoimmune pancreatitis",
+          "n_drugs": 3,
+          "mean_f": 39.2,
+          "spread": 14.9
+        },
+        {
+          "ae": "Cytopenia",
+          "n_drugs": 3,
+          "mean_f": 45.0,
+          "spread": 14.3
+        }
+      ]
+    },
+    {
+      "class": "ACE_inhibitors",
+      "n_drugs_found": 8,
+      "n_signals": 871,
+      "class_mean_f": 63.0,
+      "within_class_spread": 15.6,
+      "min_drug": {
+        "name": "CAPTOPRIL",
+        "f_pct": 51.8,
+        "n": 20
+      },
+      "max_drug": {
+        "name": "LISINOPRIL",
+        "f_pct": 67.5,
+        "n": 252
+      },
+      "kruskal_wallis_H": 28.2,
+      "kruskal_wallis_p": 0.0002015,
+      "class_mean_lr": 1.065,
+      "drug_ranking": [
+        {
+          "drug": "LISINOPRIL",
+          "f_pct": 67.5,
+          "n": 252
+        },
+        {
+          "drug": "QUINAPRIL",
+          "f_pct": 64.7,
+          "n": 15
+        },
+        {
+          "drug": "TRANDOLAPRIL",
+          "f_pct": 64.0,
+          "n": 8
+        },
+        {
+          "drug": "RAMIPRIL",
+          "f_pct": 63.6,
+          "n": 368
+        },
+        {
+          "drug": "ENALAPRIL",
+          "f_pct": 59.0,
+          "n": 72
+        },
+        {
+          "drug": "BENAZEPRIL",
+          "f_pct": 57.4,
+          "n": 9
+        },
+        {
+          "drug": "PERINDOPRIL",
+          "f_pct": 57.2,
+          "n": 123
+        },
+        {
+          "drug": "CAPTOPRIL",
+          "f_pct": 51.8,
+          "n": 20
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Muscular weakness",
+          "n_drugs": 4,
+          "mean_f": 54.9,
+          "spread": 70.4
+        },
+        {
+          "ae": "Arthralgia",
+          "n_drugs": 4,
+          "mean_f": 66.9,
+          "spread": 57.6
+        },
+        {
+          "ae": "Abdominal discomfort",
+          "n_drugs": 4,
+          "mean_f": 76.5,
+          "spread": 51.0
+        },
+        {
+          "ae": "Angioedema",
+          "n_drugs": 4,
+          "mean_f": 35.4,
+          "spread": 48.2
+        },
+        {
+          "ae": "Memory impairment",
+          "n_drugs": 4,
+          "mean_f": 69.3,
+          "spread": 41.7
+        },
+        {
+          "ae": "Hypertension",
+          "n_drugs": 5,
+          "mean_f": 71.7,
+          "spread": 38.9
+        },
+        {
+          "ae": "Condition aggravated",
+          "n_drugs": 5,
+          "mean_f": 59.5,
+          "spread": 37.0
+        },
+        {
+          "ae": "Joint swelling",
+          "n_drugs": 4,
+          "mean_f": 76.4,
+          "spread": 36.7
+        },
+        {
+          "ae": "Fatigue",
+          "n_drugs": 7,
+          "mean_f": 68.1,
+          "spread": 34.6
+        },
+        {
+          "ae": "Asthenia",
+          "n_drugs": 4,
+          "mean_f": 58.1,
+          "spread": 30.2
+        }
+      ]
+    },
+    {
+      "class": "SSRIs",
+      "n_drugs_found": 6,
+      "n_signals": 1176,
+      "class_mean_f": 57.6,
+      "within_class_spread": 15.3,
+      "min_drug": {
+        "name": "FLUVOXAMINE",
+        "f_pct": 46.9,
+        "n": 30
+      },
+      "max_drug": {
+        "name": "CITALOPRAM",
+        "f_pct": 62.2,
+        "n": 237
+      },
+      "kruskal_wallis_H": 41.7,
+      "kruskal_wallis_p": 6.898e-08,
+      "class_mean_lr": 0.95,
+      "drug_ranking": [
+        {
+          "drug": "CITALOPRAM",
+          "f_pct": 62.2,
+          "n": 237
+        },
+        {
+          "drug": "PAROXETINE",
+          "f_pct": 58.8,
+          "n": 186
+        },
+        {
+          "drug": "FLUOXETINE",
+          "f_pct": 58.4,
+          "n": 204
+        },
+        {
+          "drug": "SERTRALINE",
+          "f_pct": 58.2,
+          "n": 302
+        },
+        {
+          "drug": "ESCITALOPRAM",
+          "f_pct": 51.4,
+          "n": 217
+        },
+        {
+          "drug": "FLUVOXAMINE",
+          "f_pct": 46.9,
+          "n": 30
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Asthma",
+          "n_drugs": 4,
+          "mean_f": 50.7,
+          "spread": 64.3
+        },
+        {
+          "ae": "Blood creatinine increased",
+          "n_drugs": 3,
+          "mean_f": 59.3,
+          "spread": 61.9
+        },
+        {
+          "ae": "Acute respiratory distress syndrome",
+          "n_drugs": 3,
+          "mean_f": 61.5,
+          "spread": 43.9
+        },
+        {
+          "ae": "Brain injury",
+          "n_drugs": 3,
+          "mean_f": 60.1,
+          "spread": 39.7
+        },
+        {
+          "ae": "Alanine aminotransferase increased",
+          "n_drugs": 4,
+          "mean_f": 60.5,
+          "spread": 39.5
+        },
+        {
+          "ae": "Bruxism",
+          "n_drugs": 3,
+          "mean_f": 65.0,
+          "spread": 33.4
+        },
+        {
+          "ae": "Abdominal distension",
+          "n_drugs": 3,
+          "mean_f": 74.4,
+          "spread": 26.8
+        },
+        {
+          "ae": "Abdominal discomfort",
+          "n_drugs": 4,
+          "mean_f": 75.1,
+          "spread": 26.3
+        },
+        {
+          "ae": "Abnormal weight gain",
+          "n_drugs": 3,
+          "mean_f": 67.5,
+          "spread": 26.2
+        },
+        {
+          "ae": "Alcohol abuse",
+          "n_drugs": 3,
+          "mean_f": 60.3,
+          "spread": 19.9
+        }
+      ]
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_drugs_found": 5,
+      "n_signals": 2696,
+      "class_mean_f": 69.1,
+      "within_class_spread": 15.2,
+      "min_drug": {
+        "name": "ADALIMUMAB",
+        "f_pct": 64.0,
+        "n": 807
+      },
+      "max_drug": {
+        "name": "CERTOLIZUMAB",
+        "f_pct": 79.1,
+        "n": 314
+      },
+      "kruskal_wallis_H": 245.3,
+      "kruskal_wallis_p": 6.743e-52,
+      "class_mean_lr": 1.054,
+      "drug_ranking": [
+        {
+          "drug": "CERTOLIZUMAB",
+          "f_pct": 79.1,
+          "n": 314
+        },
+        {
+          "drug": "GOLIMUMAB",
+          "f_pct": 78.4,
+          "n": 334
+        },
+        {
+          "drug": "ETANERCEPT",
+          "f_pct": 69.9,
+          "n": 618
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "f_pct": 64.9,
+          "n": 623
+        },
+        {
+          "drug": "ADALIMUMAB",
+          "f_pct": 64.0,
+          "n": 807
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Adverse drug reaction",
+          "n_drugs": 5,
+          "mean_f": 86.9,
+          "spread": 15.5
+        },
+        {
+          "ae": "Acne",
+          "n_drugs": 2,
+          "mean_f": 70.9,
+          "spread": 15.4
+        },
+        {
+          "ae": "Abdominal pain lower",
+          "n_drugs": 3,
+          "mean_f": 72.3,
+          "spread": 14.0
+        },
+        {
+          "ae": "Abdominal abscess",
+          "n_drugs": 3,
+          "mean_f": 56.3,
+          "spread": 11.7
+        },
+        {
+          "ae": "Abdominal pain upper",
+          "n_drugs": 4,
+          "mean_f": 91.4,
+          "spread": 11.5
+        },
+        {
+          "ae": "Adverse event",
+          "n_drugs": 4,
+          "mean_f": 89.5,
+          "spread": 11.4
+        },
+        {
+          "ae": "Alanine aminotransferase abnormal",
+          "n_drugs": 5,
+          "mean_f": 42.6,
+          "spread": 11.4
+        },
+        {
+          "ae": "Accident at work",
+          "n_drugs": 2,
+          "mean_f": 36.1,
+          "spread": 11.1
+        },
+        {
+          "ae": "Accidental exposure to product",
+          "n_drugs": 3,
+          "mean_f": 71.8,
+          "spread": 11.1
+        },
+        {
+          "ae": "Adrenal insufficiency",
+          "n_drugs": 3,
+          "mean_f": 92.8,
+          "spread": 9.8
+        }
+      ]
+    },
+    {
+      "class": "PPIs",
+      "n_drugs_found": 6,
+      "n_signals": 1511,
+      "class_mean_f": 61.6,
+      "within_class_spread": 14.5,
+      "min_drug": {
+        "name": "RABEPRAZOLE",
+        "f_pct": 50.4,
+        "n": 65
+      },
+      "max_drug": {
+        "name": "ESOMEPRAZOLE",
+        "f_pct": 64.9,
+        "n": 308
+      },
+      "kruskal_wallis_H": 34.4,
+      "kruskal_wallis_p": 2.017e-06,
+      "class_mean_lr": 1.023,
+      "drug_ranking": [
+        {
+          "drug": "ESOMEPRAZOLE",
+          "f_pct": 64.9,
+          "n": 308
+        },
+        {
+          "drug": "PANTOPRAZOLE",
+          "f_pct": 63.5,
+          "n": 501
+        },
+        {
+          "drug": "LANSOPRAZOLE",
+          "f_pct": 60.1,
+          "n": 240
+        },
+        {
+          "drug": "OMEPRAZOLE",
+          "f_pct": 59.9,
+          "n": 319
+        },
+        {
+          "drug": "DEXLANSOPRAZOLE",
+          "f_pct": 57.2,
+          "n": 78
+        },
+        {
+          "drug": "RABEPRAZOLE",
+          "f_pct": 50.4,
+          "n": 65
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Bronchiectasis",
+          "n_drugs": 4,
+          "mean_f": 40.4,
+          "spread": 62.4
+        },
+        {
+          "ae": "Blood pressure increased",
+          "n_drugs": 3,
+          "mean_f": 60.9,
+          "spread": 54.6
+        },
+        {
+          "ae": "Bronchopulmonary aspergillosis allergic",
+          "n_drugs": 4,
+          "mean_f": 71.3,
+          "spread": 54.6
+        },
+        {
+          "ae": "Blood pressure fluctuation",
+          "n_drugs": 3,
+          "mean_f": 60.8,
+          "spread": 51.3
+        },
+        {
+          "ae": "Blood glucose decreased",
+          "n_drugs": 3,
+          "mean_f": 69.4,
+          "spread": 39.7
+        },
+        {
+          "ae": "Aspartate aminotransferase increased",
+          "n_drugs": 3,
+          "mean_f": 58.8,
+          "spread": 35.0
+        },
+        {
+          "ae": "Blood sodium decreased",
+          "n_drugs": 3,
+          "mean_f": 66.9,
+          "spread": 28.6
+        },
+        {
+          "ae": "Cardiogenic shock",
+          "n_drugs": 3,
+          "mean_f": 26.2,
+          "spread": 28.2
+        },
+        {
+          "ae": "Blood potassium decreased",
+          "n_drugs": 3,
+          "mean_f": 77.5,
+          "spread": 27.3
+        },
+        {
+          "ae": "Bipolar disorder",
+          "n_drugs": 3,
+          "mean_f": 59.6,
+          "spread": 26.8
+        }
+      ]
+    },
+    {
+      "class": "SNRIs",
+      "n_drugs_found": 4,
+      "n_signals": 537,
+      "class_mean_f": 64.1,
+      "within_class_spread": 14.4,
+      "min_drug": {
+        "name": "VENLAFAXINE",
+        "f_pct": 61.3,
+        "n": 287
+      },
+      "max_drug": {
+        "name": "MILNACIPRAN",
+        "f_pct": 75.7,
+        "n": 11
+      },
+      "kruskal_wallis_H": 14.3,
+      "kruskal_wallis_p": 0.002474,
+      "class_mean_lr": 0.888,
+      "drug_ranking": [
+        {
+          "drug": "MILNACIPRAN",
+          "f_pct": 75.7,
+          "n": 11
+        },
+        {
+          "drug": "DESVENLAFAXINE",
+          "f_pct": 68.0,
+          "n": 46
+        },
+        {
+          "drug": "DULOXETINE",
+          "f_pct": 66.6,
+          "n": 189
+        },
+        {
+          "drug": "VENLAFAXINE",
+          "f_pct": 61.3,
+          "n": 287
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "C-reactive protein increased",
+          "n_drugs": 2,
+          "mean_f": 59.8,
+          "spread": 57.2
+        },
+        {
+          "ae": "Anuria",
+          "n_drugs": 2,
+          "mean_f": 70.2,
+          "spread": 36.9
+        },
+        {
+          "ae": "Emotional poverty",
+          "n_drugs": 2,
+          "mean_f": 56.8,
+          "spread": 34.9
+        },
+        {
+          "ae": "Dysphoria",
+          "n_drugs": 2,
+          "mean_f": 61.2,
+          "spread": 28.2
+        },
+        {
+          "ae": "Dysstasia",
+          "n_drugs": 2,
+          "mean_f": 76.8,
+          "spread": 20.2
+        },
+        {
+          "ae": "Dementia",
+          "n_drugs": 3,
+          "mean_f": 45.4,
+          "spread": 19.0
+        },
+        {
+          "ae": "Abulia",
+          "n_drugs": 2,
+          "mean_f": 40.0,
+          "spread": 16.9
+        },
+        {
+          "ae": "Body temperature decreased",
+          "n_drugs": 2,
+          "mean_f": 51.9,
+          "spread": 15.4
+        },
+        {
+          "ae": "Bipolar disorder",
+          "n_drugs": 2,
+          "mean_f": 58.2,
+          "spread": 14.7
+        },
+        {
+          "ae": "Drug dependence",
+          "n_drugs": 2,
+          "mean_f": 75.8,
+          "spread": 14.0
+        }
+      ]
+    },
+    {
+      "class": "ARBs",
+      "n_drugs_found": 6,
+      "n_signals": 784,
+      "class_mean_f": 58.6,
+      "within_class_spread": 11.5,
+      "min_drug": {
+        "name": "OLMESARTAN",
+        "f_pct": 51.7,
+        "n": 67
+      },
+      "max_drug": {
+        "name": "CANDESARTAN",
+        "f_pct": 63.2,
+        "n": 198
+      },
+      "kruskal_wallis_H": 23.7,
+      "kruskal_wallis_p": 0.0002496,
+      "class_mean_lr": 0.996,
+      "drug_ranking": [
+        {
+          "drug": "CANDESARTAN",
+          "f_pct": 63.2,
+          "n": 198
+        },
+        {
+          "drug": "LOSARTAN",
+          "f_pct": 60.6,
+          "n": 130
+        },
+        {
+          "drug": "TELMISARTAN",
+          "f_pct": 60.1,
+          "n": 73
+        },
+        {
+          "drug": "VALSARTAN",
+          "f_pct": 56.6,
+          "n": 219
+        },
+        {
+          "drug": "IRBESARTAN",
+          "f_pct": 54.7,
+          "n": 97
+        },
+        {
+          "drug": "OLMESARTAN",
+          "f_pct": 51.7,
+          "n": 67
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Cardiac failure congestive",
+          "n_drugs": 3,
+          "mean_f": 60.7,
+          "spread": 76.2
+        },
+        {
+          "ae": "Asthma",
+          "n_drugs": 5,
+          "mean_f": 59.2,
+          "spread": 75.6
+        },
+        {
+          "ae": "Abdominal distension",
+          "n_drugs": 3,
+          "mean_f": 59.1,
+          "spread": 66.6
+        },
+        {
+          "ae": "Constipation",
+          "n_drugs": 4,
+          "mean_f": 54.6,
+          "spread": 59.6
+        },
+        {
+          "ae": "Atrial fibrillation",
+          "n_drugs": 3,
+          "mean_f": 40.4,
+          "spread": 58.6
+        },
+        {
+          "ae": "Anxiety",
+          "n_drugs": 3,
+          "mean_f": 71.1,
+          "spread": 58.2
+        },
+        {
+          "ae": "Abdominal pain upper",
+          "n_drugs": 3,
+          "mean_f": 69.4,
+          "spread": 55.8
+        },
+        {
+          "ae": "Contusion",
+          "n_drugs": 3,
+          "mean_f": 59.6,
+          "spread": 54.8
+        },
+        {
+          "ae": "Chronic kidney disease",
+          "n_drugs": 3,
+          "mean_f": 40.6,
+          "spread": 53.7
+        },
+        {
+          "ae": "Blood creatine phosphokinase increased",
+          "n_drugs": 3,
+          "mean_f": 51.1,
+          "spread": 48.8
+        }
+      ]
+    },
+    {
+      "class": "Benzodiazepines",
+      "n_drugs_found": 5,
+      "n_signals": 1143,
+      "class_mean_f": 62.7,
+      "within_class_spread": 11.5,
+      "min_drug": {
+        "name": "MIDAZOLAM",
+        "f_pct": 55.0,
+        "n": 107
+      },
+      "max_drug": {
+        "name": "ALPRAZOLAM",
+        "f_pct": 66.5,
+        "n": 237
+      },
+      "kruskal_wallis_H": 32.4,
+      "kruskal_wallis_p": 1.605e-06,
+      "class_mean_lr": 0.938,
+      "drug_ranking": [
+        {
+          "drug": "ALPRAZOLAM",
+          "f_pct": 66.5,
+          "n": 237
+        },
+        {
+          "drug": "LORAZEPAM",
+          "f_pct": 64.3,
+          "n": 264
+        },
+        {
+          "drug": "CLONAZEPAM",
+          "f_pct": 61.8,
+          "n": 285
+        },
+        {
+          "drug": "DIAZEPAM",
+          "f_pct": 61.6,
+          "n": 250
+        },
+        {
+          "drug": "MIDAZOLAM",
+          "f_pct": 55.0,
+          "n": 107
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Acute respiratory distress syndrome",
+          "n_drugs": 3,
+          "mean_f": 59.7,
+          "spread": 57.2
+        },
+        {
+          "ae": "Agranulocytosis",
+          "n_drugs": 3,
+          "mean_f": 57.7,
+          "spread": 44.1
+        },
+        {
+          "ae": "Acute respiratory failure",
+          "n_drugs": 3,
+          "mean_f": 52.9,
+          "spread": 40.5
+        },
+        {
+          "ae": "Acidosis",
+          "n_drugs": 3,
+          "mean_f": 38.0,
+          "spread": 38.6
+        },
+        {
+          "ae": "Affective disorder",
+          "n_drugs": 3,
+          "mean_f": 48.9,
+          "spread": 35.1
+        },
+        {
+          "ae": "Accidental death",
+          "n_drugs": 2,
+          "mean_f": 34.9,
+          "spread": 31.2
+        },
+        {
+          "ae": "Affect lability",
+          "n_drugs": 2,
+          "mean_f": 66.7,
+          "spread": 26.6
+        },
+        {
+          "ae": "Abdominal distension",
+          "n_drugs": 4,
+          "mean_f": 79.3,
+          "spread": 16.7
+        },
+        {
+          "ae": "Alcohol abuse",
+          "n_drugs": 3,
+          "mean_f": 53.3,
+          "spread": 16.2
+        },
+        {
+          "ae": "Abdominal pain",
+          "n_drugs": 4,
+          "mean_f": 86.7,
+          "spread": 14.6
+        }
+      ]
+    },
+    {
+      "class": "GLP1_agonists",
+      "n_drugs_found": 4,
+      "n_signals": 422,
+      "class_mean_f": 56.7,
+      "within_class_spread": 10.6,
+      "min_drug": {
+        "name": "LIRAGLUTIDE",
+        "f_pct": 50.4,
+        "n": 101
+      },
+      "max_drug": {
+        "name": "SEMAGLUTIDE",
+        "f_pct": 61.0,
+        "n": 152
+      },
+      "kruskal_wallis_H": 23.0,
+      "kruskal_wallis_p": 4.012e-05,
+      "class_mean_lr": 0.798,
+      "drug_ranking": [
+        {
+          "drug": "SEMAGLUTIDE",
+          "f_pct": 61.0,
+          "n": 152
+        },
+        {
+          "drug": "DULAGLUTIDE",
+          "f_pct": 56.9,
+          "n": 77
+        },
+        {
+          "drug": "EXENATIDE",
+          "f_pct": 56.6,
+          "n": 92
+        },
+        {
+          "drug": "LIRAGLUTIDE",
+          "f_pct": 50.4,
+          "n": 101
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Asthma",
+          "n_drugs": 2,
+          "mean_f": 59.2,
+          "spread": 56.1
+        },
+        {
+          "ae": "Blood cholesterol increased",
+          "n_drugs": 2,
+          "mean_f": 63.4,
+          "spread": 41.8
+        },
+        {
+          "ae": "Device failure",
+          "n_drugs": 2,
+          "mean_f": 63.5,
+          "spread": 33.7
+        },
+        {
+          "ae": "Diabetic neuropathy",
+          "n_drugs": 2,
+          "mean_f": 55.9,
+          "spread": 30.5
+        },
+        {
+          "ae": "Device mechanical issue",
+          "n_drugs": 2,
+          "mean_f": 63.4,
+          "spread": 19.0
+        },
+        {
+          "ae": "Cholecystitis chronic",
+          "n_drugs": 2,
+          "mean_f": 57.8,
+          "spread": 15.5
+        },
+        {
+          "ae": "Cellulitis",
+          "n_drugs": 2,
+          "mean_f": 39.9,
+          "spread": 12.1
+        },
+        {
+          "ae": "Cardiac failure congestive",
+          "n_drugs": 2,
+          "mean_f": 36.6,
+          "spread": 11.2
+        },
+        {
+          "ae": "Device leakage",
+          "n_drugs": 2,
+          "mean_f": 77.5,
+          "spread": 10.7
+        },
+        {
+          "ae": "Agitation",
+          "n_drugs": 2,
+          "mean_f": 66.0,
+          "spread": 10.1
+        }
+      ]
+    },
+    {
+      "class": "Macrolides",
+      "n_drugs_found": 3,
+      "n_signals": 419,
+      "class_mean_f": 58.9,
+      "within_class_spread": 7.4,
+      "min_drug": {
+        "name": "CLARITHROMYCIN",
+        "f_pct": 57.6,
+        "n": 175
+      },
+      "max_drug": {
+        "name": "ERYTHROMYCIN",
+        "f_pct": 65.1,
+        "n": 55
+      },
+      "kruskal_wallis_H": 7.3,
+      "kruskal_wallis_p": 0.02553,
+      "class_mean_lr": 0.987,
+      "drug_ranking": [
+        {
+          "drug": "ERYTHROMYCIN",
+          "f_pct": 65.1,
+          "n": 55
+        },
+        {
+          "drug": "AZITHROMYCIN",
+          "f_pct": 58.4,
+          "n": 189
+        },
+        {
+          "drug": "CLARITHROMYCIN",
+          "f_pct": 57.6,
+          "n": 175
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Cardiac failure congestive",
+          "n_drugs": 2,
+          "mean_f": 59.2,
+          "spread": 46.4
+        },
+        {
+          "ae": "Anaemia",
+          "n_drugs": 3,
+          "mean_f": 71.2,
+          "spread": 33.5
+        },
+        {
+          "ae": "Asthma",
+          "n_drugs": 2,
+          "mean_f": 74.7,
+          "spread": 28.5
+        },
+        {
+          "ae": "Agranulocytosis",
+          "n_drugs": 2,
+          "mean_f": 53.5,
+          "spread": 27.7
+        },
+        {
+          "ae": "Alopecia",
+          "n_drugs": 3,
+          "mean_f": 78.0,
+          "spread": 19.4
+        },
+        {
+          "ae": "Burning sensation",
+          "n_drugs": 2,
+          "mean_f": 48.0,
+          "spread": 14.0
+        },
+        {
+          "ae": "Acute hepatic failure",
+          "n_drugs": 2,
+          "mean_f": 42.9,
+          "spread": 12.5
+        },
+        {
+          "ae": "Cataract",
+          "n_drugs": 2,
+          "mean_f": 51.1,
+          "spread": 10.6
+        },
+        {
+          "ae": "Abdominal pain",
+          "n_drugs": 3,
+          "mean_f": 84.7,
+          "spread": 9.6
+        },
+        {
+          "ae": "Cold sweat",
+          "n_drugs": 2,
+          "mean_f": 40.8,
+          "spread": 8.6
+        }
+      ]
+    },
+    {
+      "class": "DOACs",
+      "n_drugs_found": 4,
+      "n_signals": 744,
+      "class_mean_f": 52.8,
+      "within_class_spread": 4.3,
+      "min_drug": {
+        "name": "DABIGATRAN",
+        "f_pct": 51.4,
+        "n": 176
+      },
+      "max_drug": {
+        "name": "EDOXABAN",
+        "f_pct": 55.7,
+        "n": 50
+      },
+      "kruskal_wallis_H": 4.5,
+      "kruskal_wallis_p": 0.2094,
+      "class_mean_lr": 0.825,
+      "drug_ranking": [
+        {
+          "drug": "EDOXABAN",
+          "f_pct": 55.7,
+          "n": 50
+        },
+        {
+          "drug": "RIVAROXABAN",
+          "f_pct": 53.3,
+          "n": 243
+        },
+        {
+          "drug": "APIXABAN",
+          "f_pct": 52.6,
+          "n": 275
+        },
+        {
+          "drug": "DABIGATRAN",
+          "f_pct": 51.4,
+          "n": 176
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Arteriosclerosis",
+          "n_drugs": 3,
+          "mean_f": 36.6,
+          "spread": 43.9
+        },
+        {
+          "ae": "Carpal tunnel syndrome",
+          "n_drugs": 2,
+          "mean_f": 71.2,
+          "spread": 38.7
+        },
+        {
+          "ae": "Asthma",
+          "n_drugs": 3,
+          "mean_f": 70.3,
+          "spread": 36.6
+        },
+        {
+          "ae": "Cerebral artery occlusion",
+          "n_drugs": 2,
+          "mean_f": 44.4,
+          "spread": 30.0
+        },
+        {
+          "ae": "Brain midline shift",
+          "n_drugs": 2,
+          "mean_f": 56.7,
+          "spread": 17.4
+        },
+        {
+          "ae": "Anticoagulation drug level above therapeutic",
+          "n_drugs": 2,
+          "mean_f": 59.1,
+          "spread": 15.2
+        },
+        {
+          "ae": "Blood potassium increased",
+          "n_drugs": 2,
+          "mean_f": 64.9,
+          "spread": 11.3
+        },
+        {
+          "ae": "Altered state of consciousness",
+          "n_drugs": 2,
+          "mean_f": 58.6,
+          "spread": 10.4
+        },
+        {
+          "ae": "Cholestasis",
+          "n_drugs": 2,
+          "mean_f": 61.3,
+          "spread": 6.4
+        },
+        {
+          "ae": "Contraindicated product administered",
+          "n_drugs": 3,
+          "mean_f": 41.9,
+          "spread": 6.1
+        }
+      ]
+    },
+    {
+      "class": "SGLT2i",
+      "n_drugs_found": 3,
+      "n_signals": 320,
+      "class_mean_f": 48.0,
+      "within_class_spread": 3.7,
+      "min_drug": {
+        "name": "DAPAGLIFLOZIN",
+        "f_pct": 46.4,
+        "n": 154
+      },
+      "max_drug": {
+        "name": "CANAGLIFLOZIN",
+        "f_pct": 50.1,
+        "n": 69
+      },
+      "kruskal_wallis_H": 3.0,
+      "kruskal_wallis_p": 0.218,
+      "class_mean_lr": 0.793,
+      "drug_ranking": [
+        {
+          "drug": "CANAGLIFLOZIN",
+          "f_pct": 50.1,
+          "n": 69
+        },
+        {
+          "drug": "EMPAGLIFLOZIN",
+          "f_pct": 49.0,
+          "n": 96
+        },
+        {
+          "drug": "DAPAGLIFLOZIN",
+          "f_pct": 46.4,
+          "n": 154
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Bronchiectasis",
+          "n_drugs": 2,
+          "mean_f": 51.5,
+          "spread": 48.6
+        },
+        {
+          "ae": "Arthritis",
+          "n_drugs": 2,
+          "mean_f": 53.8,
+          "spread": 38.6
+        },
+        {
+          "ae": "C-reactive protein increased",
+          "n_drugs": 2,
+          "mean_f": 46.3,
+          "spread": 36.5
+        },
+        {
+          "ae": "Abscess limb",
+          "n_drugs": 2,
+          "mean_f": 41.6,
+          "spread": 35.4
+        },
+        {
+          "ae": "Dysgeusia",
+          "n_drugs": 2,
+          "mean_f": 50.5,
+          "spread": 35.3
+        },
+        {
+          "ae": "Bradycardia",
+          "n_drugs": 2,
+          "mean_f": 34.2,
+          "spread": 33.4
+        },
+        {
+          "ae": "Acidosis",
+          "n_drugs": 3,
+          "mean_f": 47.3,
+          "spread": 31.6
+        },
+        {
+          "ae": "Blood urea increased",
+          "n_drugs": 2,
+          "mean_f": 36.2,
+          "spread": 30.9
+        },
+        {
+          "ae": "Blood sodium decreased",
+          "n_drugs": 2,
+          "mean_f": 48.7,
+          "spread": 26.1
+        },
+        {
+          "ae": "Glycosuria",
+          "n_drugs": 2,
+          "mean_f": 51.3,
+          "spread": 10.8
+        }
+      ]
+    },
+    {
+      "class": "CDK46i",
+      "n_drugs_found": 3,
+      "n_signals": 60,
+      "class_mean_f": 93.7,
+      "within_class_spread": 2.7,
+      "min_drug": {
+        "name": "ABEMACICLIB",
+        "f_pct": 91.6,
+        "n": 12
+      },
+      "max_drug": {
+        "name": "PALBOCICLIB",
+        "f_pct": 94.3,
+        "n": 38
+      },
+      "kruskal_wallis_H": 6.2,
+      "kruskal_wallis_p": 0.04581,
+      "class_mean_lr": 1.036,
+      "drug_ranking": [
+        {
+          "drug": "PALBOCICLIB",
+          "f_pct": 94.3,
+          "n": 38
+        },
+        {
+          "drug": "RIBOCICLIB",
+          "f_pct": 94.0,
+          "n": 10
+        },
+        {
+          "drug": "ABEMACICLIB",
+          "f_pct": 91.6,
+          "n": 12
+        }
+      ],
+      "most_divergent_aes": [
+        {
+          "ae": "Product use in unapproved indication",
+          "n_drugs": 2,
+          "mean_f": 85.1,
+          "spread": 15.7
+        },
+        {
+          "ae": "Off label use",
+          "n_drugs": 3,
+          "mean_f": 90.9,
+          "spread": 10.3
+        },
+        {
+          "ae": "Product use issue",
+          "n_drugs": 2,
+          "mean_f": 82.5,
+          "spread": 10.0
+        },
+        {
+          "ae": "Malignant neoplasm progression",
+          "n_drugs": 2,
+          "mean_f": 98.3,
+          "spread": 1.1
+        },
+        {
+          "ae": "Neutropenia",
+          "n_drugs": 2,
+          "mean_f": 98.6,
+          "spread": 0.9
+        },
+        {
+          "ae": "Metastases to bone",
+          "n_drugs": 2,
+          "mean_f": 98.9,
+          "spread": 0.5
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "n_classes": 20,
+    "mean_spread": 15.9,
+    "max_spread_class": "TKIs",
+    "max_spread": 33.8,
+    "classes_with_significant_heterogeneity": 17
+  }
+}
