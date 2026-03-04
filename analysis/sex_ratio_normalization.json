@@ -1,0 +1,270 @@
+{
+  "baseline_comparison": {
+    "baseline_f_pct": 60.2,
+    "above_baseline": 43233,
+    "below_baseline": 53048,
+    "above_pct": 44.9
+  },
+  "normalized_anti_regression": {
+    "deciles": [
+      {
+        "decile": 0,
+        "n_drugs": 217,
+        "raw_f_pct": 52.7,
+        "excess_f_pct": -7.5,
+        "mean_signals": 1.0
+      },
+      {
+        "decile": 1,
+        "n_drugs": 217,
+        "raw_f_pct": 54.2,
+        "excess_f_pct": -6.0,
+        "mean_signals": 1.0
+      },
+      {
+        "decile": 2,
+        "n_drugs": 217,
+        "raw_f_pct": 53.3,
+        "excess_f_pct": -6.9,
+        "mean_signals": 2.0
+      },
+      {
+        "decile": 3,
+        "n_drugs": 217,
+        "raw_f_pct": 53.6,
+        "excess_f_pct": -6.6,
+        "mean_signals": 4.0
+      },
+      {
+        "decile": 4,
+        "n_drugs": 217,
+        "raw_f_pct": 54.4,
+        "excess_f_pct": -5.8,
+        "mean_signals": 7.0
+      },
+      {
+        "decile": 5,
+        "n_drugs": 217,
+        "raw_f_pct": 55.9,
+        "excess_f_pct": -4.3,
+        "mean_signals": 13.0
+      },
+      {
+        "decile": 6,
+        "n_drugs": 217,
+        "raw_f_pct": 54.8,
+        "excess_f_pct": -5.4,
+        "mean_signals": 22.0
+      },
+      {
+        "decile": 7,
+        "n_drugs": 217,
+        "raw_f_pct": 54.2,
+        "excess_f_pct": -6.0,
+        "mean_signals": 40.0
+      },
+      {
+        "decile": 8,
+        "n_drugs": 217,
+        "raw_f_pct": 55.8,
+        "excess_f_pct": -4.4,
+        "mean_signals": 82.0
+      },
+      {
+        "decile": 9,
+        "n_drugs": 225,
+        "raw_f_pct": 59.1,
+        "excess_f_pct": -1.1,
+        "mean_signals": 261.0
+      }
+    ],
+    "raw_rho": 0.809,
+    "raw_p": 0.004635280964462701,
+    "normalized_rho": 0.809,
+    "normalized_p": 0.004635280964462701
+  },
+  "flip_drugs": {
+    "n_apparent_female_below_baseline": 331,
+    "examples": [
+      {
+        "drug": "PREDNISOLONE",
+        "f_pct": 60.1,
+        "excess": -0.1,
+        "n_signals": 542
+      },
+      {
+        "drug": "DEXAMETHASONE",
+        "f_pct": 54.0,
+        "excess": -6.2,
+        "n_signals": 537
+      },
+      {
+        "drug": "CYCLOPHOSPHAMIDE",
+        "f_pct": 56.4,
+        "excess": -3.8,
+        "n_signals": 498
+      },
+      {
+        "drug": "ACETYLSALICYLIC ACID",
+        "f_pct": 56.1,
+        "excess": -4.1,
+        "n_signals": 433
+      },
+      {
+        "drug": "AMLODIPINE",
+        "f_pct": 55.2,
+        "excess": -5.0,
+        "n_signals": 422
+      },
+      {
+        "drug": "SALBUTAMOL",
+        "f_pct": 58.0,
+        "excess": -2.2,
+        "n_signals": 418
+      },
+      {
+        "drug": "CICLOSPORIN",
+        "f_pct": 57.3,
+        "excess": -2.9,
+        "n_signals": 409
+      },
+      {
+        "drug": "METFORMIN",
+        "f_pct": 59.0,
+        "excess": -1.2,
+        "n_signals": 399
+      },
+      {
+        "drug": "ATORVASTATIN",
+        "f_pct": 53.5,
+        "excess": -6.7,
+        "n_signals": 388
+      },
+      {
+        "drug": "FUROSEMIDE",
+        "f_pct": 55.1,
+        "excess": -5.1,
+        "n_signals": 385
+      },
+      {
+        "drug": "ARIPIPRAZOLE",
+        "f_pct": 52.2,
+        "excess": -8.0,
+        "n_signals": 342
+      },
+      {
+        "drug": "CIPROFLOXACIN",
+        "f_pct": 57.9,
+        "excess": -2.3,
+        "n_signals": 342
+      },
+      {
+        "drug": "INSULIN",
+        "f_pct": 52.9,
+        "excess": -7.3,
+        "n_signals": 339
+      },
+      {
+        "drug": "ROSUVASTATIN",
+        "f_pct": 52.2,
+        "excess": -8.0,
+        "n_signals": 337
+      },
+      {
+        "drug": "GABAPENTIN",
+        "f_pct": 53.5,
+        "excess": -6.7,
+        "n_signals": 333
+      }
+    ]
+  },
+  "true_differential": {
+    "n_true_female": 93,
+    "n_true_male": 240,
+    "n_ambiguous": 485,
+    "top_true_female": [
+      {
+        "drug": "PALBOCICLIB",
+        "excess_pp": 34.1
+      },
+      {
+        "drug": "ERENUMAB",
+        "excess_pp": 31.8
+      },
+      {
+        "drug": "ABALOPARATIDE",
+        "excess_pp": 31.6
+      },
+      {
+        "drug": "C1-INHIBITOR",
+        "excess_pp": 27.1
+      },
+      {
+        "drug": "TERIPARATIDE",
+        "excess_pp": 26.0
+      },
+      {
+        "drug": "CETIRIZINE;PSEUDOEPHEDRINE",
+        "excess_pp": 25.8
+      },
+      {
+        "drug": "SARILUMAB",
+        "excess_pp": 25.8
+      },
+      {
+        "drug": "CHLORHEXIDINE",
+        "excess_pp": 23.4
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "excess_pp": 23.4
+      },
+      {
+        "drug": "PSEUDOEPHEDRINE",
+        "excess_pp": 21.7
+      }
+    ],
+    "top_true_male": [
+      {
+        "drug": "FACTOR VIII",
+        "excess_pp": -47.1
+      },
+      {
+        "drug": "TAMSULOSIN",
+        "excess_pp": -36.9
+      },
+      {
+        "drug": "MEBEVERINE",
+        "excess_pp": -34.8
+      },
+      {
+        "drug": "TESTOSTERONE",
+        "excess_pp": -34.5
+      },
+      {
+        "drug": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "excess_pp": -32.0
+      },
+      {
+        "drug": "TAFAMIDIS",
+        "excess_pp": -32.0
+      },
+      {
+        "drug": "CABOTEGRAVIR",
+        "excess_pp": -31.8
+      },
+      {
+        "drug": "ALBENDAZOLE",
+        "excess_pp": -30.1
+      },
+      {
+        "drug": "CABOTEGRAVIR;RILPIVIRINE",
+        "excess_pp": -30.1
+      },
+      {
+        "drug": "DOBUTAMINE",
+        "excess_pp": -29.4
+      }
+    ]
+  }
+}
