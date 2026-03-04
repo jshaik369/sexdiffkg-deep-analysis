@@ -1,0 +1,222 @@
+{
+  "degree_by_node_type": {
+    "AdverseEvent": {
+      "mean": 97.0,
+      "median": 12.0,
+      "max": 4529,
+      "count": 9949
+    },
+    "Drug": {
+      "mean": 247.2,
+      "median": 34.0,
+      "max": 8203,
+      "count": 3920
+    },
+    "Gene": {
+      "mean": 4.9,
+      "median": 2.0,
+      "max": 1245,
+      "count": 77498
+    },
+    "Pathway": {
+      "mean": 162.6,
+      "median": 82.0,
+      "max": 3680,
+      "count": 2279
+    },
+    "Protein": {
+      "mean": 58.5,
+      "median": 26.0,
+      "max": 1532,
+      "count": 16201
+    },
+    "Tissue": {
+      "mean": 14.4,
+      "median": 11.5,
+      "max": 88,
+      "count": 20
+    }
+  },
+  "drug_degree_sex_correlation": {
+    "n_drugs": 2178,
+    "rho": 0.182,
+    "p": 9.546e-18
+  },
+  "ae_degree_sex_correlation": {
+    "n_aes": 5069,
+    "rho": 0.184,
+    "p": 6.002e-40
+  },
+  "edge_distribution": {
+    "has_adverse_event": 869142,
+    "interacts_with": 473860,
+    "participates_in": 370597,
+    "sex_differential_adverse_event": 96281,
+    "targets": 12682,
+    "sex_differential_expression": 289
+  },
+  "drug_target_sex": {
+    "n_drugs_with_targets": 846,
+    "rho": -0.006,
+    "p": 0.8557
+  },
+  "drug_hubs": [
+    {
+      "drug_name": "ADALIMUMAB",
+      "degree": 8203,
+      "mean_f": 64.0
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "degree": 6611,
+      "mean_f": 64.3
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "degree": 6339,
+      "mean_f": 63.8
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "degree": 5281,
+      "mean_f": 69.9
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "degree": 5176,
+      "mean_f": 66.4
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "degree": 4543,
+      "mean_f": 64.9
+    },
+    {
+      "drug_name": "TACROLIMUS",
+      "degree": 4529,
+      "mean_f": 48.0
+    },
+    {
+      "drug_name": "PREDNISOLONE",
+      "degree": 4299,
+      "mean_f": 60.1
+    },
+    {
+      "drug_name": "DEXAMETHASONE",
+      "degree": 4257,
+      "mean_f": 54.0
+    },
+    {
+      "drug_name": "CYCLOPHOSPHAMIDE",
+      "degree": 4171,
+      "mean_f": 56.4
+    },
+    {
+      "drug_name": "MYCOPHENOLIC ACID",
+      "degree": 3950,
+      "mean_f": 60.4
+    },
+    {
+      "drug_name": "METHYLPREDNISOLONE",
+      "degree": 3832,
+      "mean_f": 66.9
+    },
+    {
+      "drug_name": "LENALIDOMIDE",
+      "degree": 3788,
+      "mean_f": 50.7
+    },
+    {
+      "drug_name": "INSULIN",
+      "degree": 3653,
+      "mean_f": 52.9
+    },
+    {
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "degree": 3521,
+      "mean_f": 56.1
+    },
+    {
+      "drug_name": "SECUKINUMAB",
+      "degree": 3521,
+      "mean_f": 66.8
+    },
+    {
+      "drug_name": "PARACETAMOL",
+      "degree": 3506,
+      "mean_f": 67.6
+    },
+    {
+      "drug_name": "PREGABALIN",
+      "degree": 3475,
+      "mean_f": 65.8
+    },
+    {
+      "drug_name": "PANTOPRAZOLE",
+      "degree": 3438,
+      "mean_f": 63.5
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "degree": 3396,
+      "mean_f": 72.3
+    },
+    {
+      "drug_name": "METFORMIN",
+      "degree": 3375,
+      "mean_f": 59.0
+    },
+    {
+      "drug_name": "AMLODIPINE",
+      "degree": 3351,
+      "mean_f": 55.2
+    },
+    {
+      "drug_name": "QUETIAPINE",
+      "degree": 3343,
+      "mean_f": 63.1
+    },
+    {
+      "drug_name": "CICLOSPORIN",
+      "degree": 3268,
+      "mean_f": 57.3
+    },
+    {
+      "drug_name": "IBUPROFEN",
+      "degree": 3260,
+      "mean_f": 63.8
+    },
+    {
+      "drug_name": "ZOLEDRONIC ACID",
+      "degree": 3160,
+      "mean_f": 66.6
+    },
+    {
+      "drug_name": "ATORVASTATIN",
+      "degree": 3150,
+      "mean_f": 53.5
+    },
+    {
+      "drug_name": "OMEPRAZOLE",
+      "degree": 3148,
+      "mean_f": 59.9
+    },
+    {
+      "drug_name": "APIXABAN",
+      "degree": 3118,
+      "mean_f": 52.6
+    },
+    {
+      "drug_name": "TOFACITINIB",
+      "degree": 3094,
+      "mean_f": 77.0
+    }
+  ],
+  "kg_stats": {
+    "total_nodes": 109867,
+    "total_edges": 1822851,
+    "mean_degree": 32.2,
+    "max_degree": 8203,
+    "max_degree_node": "DRUG:ADALIMUMAB"
+  }
+}

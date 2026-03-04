@@ -1,0 +1,615 @@
+{
+  "overview": {
+    "n_hepato_signals": 3090,
+    "n_drugs": 348,
+    "mean_f_hepato": 57.5,
+    "mean_f_non_hepato": 58.1,
+    "mwu_p": 0.05138
+  },
+  "anti_regression": {
+    "quintiles": [
+      {
+        "q": 0,
+        "mean_f": 52.6,
+        "n": 69
+      },
+      {
+        "q": 1,
+        "mean_f": 53.0,
+        "n": 69
+      },
+      {
+        "q": 2,
+        "mean_f": 54.4,
+        "n": 69
+      },
+      {
+        "q": 3,
+        "mean_f": 56.9,
+        "n": 69
+      },
+      {
+        "q": 4,
+        "mean_f": 66.5,
+        "n": 72
+      }
+    ],
+    "rho": 1.0,
+    "p": 1.404e-24
+  },
+  "top_female_drugs": [
+    {
+      "drug_name": "VITAMIN D2",
+      "n_hepato": 3,
+      "mean_f": 89.3,
+      "mean_lr": 0.79
+    },
+    {
+      "drug_name": "APREMILAST",
+      "n_hepato": 7,
+      "mean_f": 87.0,
+      "mean_lr": 2.214
+    },
+    {
+      "drug_name": "MINOCYCLINE",
+      "n_hepato": 4,
+      "mean_f": 85.3,
+      "mean_lr": 1.7
+    },
+    {
+      "drug_name": "DIPHENHYDRAMINE",
+      "n_hepato": 3,
+      "mean_f": 85.2,
+      "mean_lr": 1.329
+    },
+    {
+      "drug_name": "TRIAMCINOLONE",
+      "n_hepato": 3,
+      "mean_f": 84.3,
+      "mean_lr": 2.113
+    },
+    {
+      "drug_name": "ABATACEPT",
+      "n_hepato": 10,
+      "mean_f": 84.2,
+      "mean_lr": 1.748
+    },
+    {
+      "drug_name": "TOPIRAMATE",
+      "n_hepato": 6,
+      "mean_f": 80.3,
+      "mean_lr": 1.588
+    },
+    {
+      "drug_name": "CETIRIZINE",
+      "n_hepato": 5,
+      "mean_f": 80.2,
+      "mean_lr": 1.885
+    },
+    {
+      "drug_name": "GOLD (198 AU)",
+      "n_hepato": 3,
+      "mean_f": 79.9,
+      "mean_lr": 0.75
+    },
+    {
+      "drug_name": "NAPROXEN",
+      "n_hepato": 11,
+      "mean_f": 79.8,
+      "mean_lr": 1.689
+    },
+    {
+      "drug_name": "TOFACITINIB",
+      "n_hepato": 14,
+      "mean_f": 79.8,
+      "mean_lr": 1.257
+    },
+    {
+      "drug_name": "VITAMIN D3",
+      "n_hepato": 4,
+      "mean_f": 79.4,
+      "mean_lr": 1.887
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE SULFATE",
+      "n_hepato": 7,
+      "mean_f": 79.3,
+      "mean_lr": 1.066
+    },
+    {
+      "drug_name": "VITAMIN C",
+      "n_hepato": 4,
+      "mean_f": 79.2,
+      "mean_lr": 1.615
+    },
+    {
+      "drug_name": "CORTISONE",
+      "n_hepato": 3,
+      "mean_f": 78.9,
+      "mean_lr": 1.054
+    }
+  ],
+  "top_male_drugs": [
+    {
+      "drug_name": "REMDESIVIR",
+      "n_hepato": 6,
+      "mean_f": 29.9,
+      "mean_lr": 0.674
+    },
+    {
+      "drug_name": "SORAFENIB",
+      "n_hepato": 6,
+      "mean_f": 30.1,
+      "mean_lr": 0.713
+    },
+    {
+      "drug_name": "ADEFOVIR",
+      "n_hepato": 4,
+      "mean_f": 30.6,
+      "mean_lr": 0.891
+    },
+    {
+      "drug_name": "AZITHROMYCIN ANHYDROUS",
+      "n_hepato": 4,
+      "mean_f": 31.0,
+      "mean_lr": 0.944
+    },
+    {
+      "drug_name": "SPIRONOLACTONE",
+      "n_hepato": 3,
+      "mean_f": 32.0,
+      "mean_lr": 0.767
+    },
+    {
+      "drug_name": "SOFOSBUVIR;VELPATASVIR",
+      "n_hepato": 4,
+      "mean_f": 33.3,
+      "mean_lr": 0.701
+    },
+    {
+      "drug_name": "ARIPIPRAZOLE",
+      "n_hepato": 5,
+      "mean_f": 33.7,
+      "mean_lr": 0.828
+    },
+    {
+      "drug_name": "CABOZANTINIB",
+      "n_hepato": 5,
+      "mean_f": 33.8,
+      "mean_lr": 0.742
+    },
+    {
+      "drug_name": "VITAMIN B6",
+      "n_hepato": 3,
+      "mean_f": 33.9,
+      "mean_lr": 0.863
+    },
+    {
+      "drug_name": "ENFORTUMAB VEDOTIN",
+      "n_hepato": 3,
+      "mean_f": 34.9,
+      "mean_lr": 0.656
+    },
+    {
+      "drug_name": "TREMELIMUMAB",
+      "n_hepato": 5,
+      "mean_f": 35.2,
+      "mean_lr": 0.673
+    },
+    {
+      "drug_name": "INSULIN",
+      "n_hepato": 7,
+      "mean_f": 35.6,
+      "mean_lr": 0.8
+    },
+    {
+      "drug_name": "MACROGOL",
+      "n_hepato": 3,
+      "mean_f": 35.9,
+      "mean_lr": 1.131
+    },
+    {
+      "drug_name": "OXCARBAZEPINE",
+      "n_hepato": 4,
+      "mean_f": 36.3,
+      "mean_lr": 0.824
+    },
+    {
+      "drug_name": "ENTECAVIR",
+      "n_hepato": 7,
+      "mean_f": 36.8,
+      "mean_lr": 0.997
+    }
+  ],
+  "ae_breakdown": [
+    {
+      "adverse_event": "Hepatic enzyme increased",
+      "n_drugs": 181,
+      "n_signals": 181,
+      "mean_f": 70.9,
+      "mean_lr": 1.403
+    },
+    {
+      "adverse_event": "Alanine aminotransferase increased",
+      "n_drugs": 142,
+      "n_signals": 142,
+      "mean_f": 61.1,
+      "mean_lr": 0.866
+    },
+    {
+      "adverse_event": "Liver disorder",
+      "n_drugs": 137,
+      "n_signals": 137,
+      "mean_f": 66.6,
+      "mean_lr": 1.079
+    },
+    {
+      "adverse_event": "Drug-induced liver injury",
+      "n_drugs": 135,
+      "n_signals": 135,
+      "mean_f": 67.0,
+      "mean_lr": 1.08
+    },
+    {
+      "adverse_event": "Hepatic function abnormal",
+      "n_drugs": 132,
+      "n_signals": 132,
+      "mean_f": 50.0,
+      "mean_lr": 0.864
+    },
+    {
+      "adverse_event": "Aspartate aminotransferase increased",
+      "n_drugs": 131,
+      "n_signals": 131,
+      "mean_f": 53.7,
+      "mean_lr": 0.874
+    },
+    {
+      "adverse_event": "Transaminases increased",
+      "n_drugs": 120,
+      "n_signals": 120,
+      "mean_f": 55.0,
+      "mean_lr": 0.942
+    },
+    {
+      "adverse_event": "Liver injury",
+      "n_drugs": 116,
+      "n_signals": 116,
+      "mean_f": 68.4,
+      "mean_lr": 1.435
+    },
+    {
+      "adverse_event": "Hepatitis",
+      "n_drugs": 107,
+      "n_signals": 107,
+      "mean_f": 67.3,
+      "mean_lr": 1.071
+    },
+    {
+      "adverse_event": "Cholestasis",
+      "n_drugs": 106,
+      "n_signals": 106,
+      "mean_f": 55.8,
+      "mean_lr": 0.836
+    },
+    {
+      "adverse_event": "Hepatocellular injury",
+      "n_drugs": 104,
+      "n_signals": 104,
+      "mean_f": 57.1,
+      "mean_lr": 0.834
+    },
+    {
+      "adverse_event": "Liver function test increased",
+      "n_drugs": 96,
+      "n_signals": 96,
+      "mean_f": 67.5,
+      "mean_lr": 1.116
+    },
+    {
+      "adverse_event": "Hepatic failure",
+      "n_drugs": 93,
+      "n_signals": 93,
+      "mean_f": 52.0,
+      "mean_lr": 0.824
+    },
+    {
+      "adverse_event": "Hepatotoxicity",
+      "n_drugs": 93,
+      "n_signals": 93,
+      "mean_f": 60.1,
+      "mean_lr": 0.939
+    },
+    {
+      "adverse_event": "Hepatic cytolysis",
+      "n_drugs": 90,
+      "n_signals": 90,
+      "mean_f": 51.3,
+      "mean_lr": 0.897
+    },
+    {
+      "adverse_event": "Liver function test abnormal",
+      "n_drugs": 82,
+      "n_signals": 82,
+      "mean_f": 58.3,
+      "mean_lr": 0.837
+    },
+    {
+      "adverse_event": "Jaundice",
+      "n_drugs": 75,
+      "n_signals": 75,
+      "mean_f": 51.5,
+      "mean_lr": 0.811
+    },
+    {
+      "adverse_event": "Blood bilirubin increased",
+      "n_drugs": 73,
+      "n_signals": 73,
+      "mean_f": 55.3,
+      "mean_lr": 0.959
+    },
+    {
+      "adverse_event": "Gamma-glutamyltransferase increased",
+      "n_drugs": 71,
+      "n_signals": 71,
+      "mean_f": 55.6,
+      "mean_lr": 0.789
+    },
+    {
+      "adverse_event": "Hepatic steatosis",
+      "n_drugs": 70,
+      "n_signals": 70,
+      "mean_f": 57.4,
+      "mean_lr": 0.911
+    }
+  ],
+  "class_comparison": [
+    {
+      "class": "NSAIDs",
+      "n_signals": 51,
+      "n_drugs": 5,
+      "mean_f_pct": 74.9,
+      "mean_lr": 1.434,
+      "drugs": [
+        {
+          "drug": "CELECOXIB",
+          "n": 9,
+          "f_pct": 75.9
+        },
+        {
+          "drug": "DICLOFENAC",
+          "n": 15,
+          "f_pct": 73.7
+        },
+        {
+          "drug": "IBUPROFEN",
+          "n": 14,
+          "f_pct": 70.3
+        },
+        {
+          "drug": "MELOXICAM",
+          "n": 2,
+          "f_pct": 83.4
+        },
+        {
+          "drug": "NAPROXEN",
+          "n": 11,
+          "f_pct": 79.8
+        }
+      ]
+    },
+    {
+      "class": "Statins",
+      "n_signals": 27,
+      "n_drugs": 4,
+      "mean_f_pct": 58.5,
+      "mean_lr": 0.776,
+      "drugs": [
+        {
+          "drug": "ATORVASTATIN",
+          "n": 7,
+          "f_pct": 69.3
+        },
+        {
+          "drug": "PRAVASTATIN",
+          "n": 4,
+          "f_pct": 54.4
+        },
+        {
+          "drug": "ROSUVASTATIN",
+          "n": 9,
+          "f_pct": 53.7
+        },
+        {
+          "drug": "SIMVASTATIN",
+          "n": 7,
+          "f_pct": 56.1
+        }
+      ]
+    },
+    {
+      "class": "Antibiotics",
+      "n_signals": 54,
+      "n_drugs": 5,
+      "mean_f_pct": 55.7,
+      "mean_lr": 1.048,
+      "drugs": [
+        {
+          "drug": "AMOXICILLIN",
+          "n": 5,
+          "f_pct": 56.4
+        },
+        {
+          "drug": "AZITHROMYCIN",
+          "n": 14,
+          "f_pct": 51.9
+        },
+        {
+          "drug": "CIPROFLOXACIN",
+          "n": 10,
+          "f_pct": 55.7
+        },
+        {
+          "drug": "DOXYCYCLINE",
+          "n": 14,
+          "f_pct": 64.5
+        },
+        {
+          "drug": "LEVOFLOXACIN",
+          "n": 11,
+          "f_pct": 48.7
+        }
+      ]
+    },
+    {
+      "class": "Anticonvulsants",
+      "n_signals": 34,
+      "n_drugs": 4,
+      "mean_f_pct": 65.8,
+      "mean_lr": 1.057,
+      "drugs": [
+        {
+          "drug": "CARBAMAZEPINE",
+          "n": 10,
+          "f_pct": 62.4
+        },
+        {
+          "drug": "LAMOTRIGINE",
+          "n": 10,
+          "f_pct": 74.9
+        },
+        {
+          "drug": "PHENYTOIN",
+          "n": 4,
+          "f_pct": 56.6
+        },
+        {
+          "drug": "VALPROIC ACID",
+          "n": 10,
+          "f_pct": 63.9
+        }
+      ]
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_signals": 81,
+      "n_drugs": 4,
+      "mean_f_pct": 66.7,
+      "mean_lr": 1.179,
+      "drugs": [
+        {
+          "drug": "ADALIMUMAB",
+          "n": 22,
+          "f_pct": 66.1
+        },
+        {
+          "drug": "CERTOLIZUMAB",
+          "n": 14,
+          "f_pct": 75.2
+        },
+        {
+          "drug": "ETANERCEPT",
+          "n": 23,
+          "f_pct": 62.5
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "n": 22,
+          "f_pct": 66.2
+        }
+      ]
+    },
+    {
+      "class": "TKIs",
+      "n_signals": 30,
+      "n_drugs": 5,
+      "mean_f_pct": 49.2,
+      "mean_lr": 0.778,
+      "drugs": [
+        {
+          "drug": "ERLOTINIB",
+          "n": 5,
+          "f_pct": 58.0
+        },
+        {
+          "drug": "IMATINIB",
+          "n": 11,
+          "f_pct": 56.8
+        },
+        {
+          "drug": "PAZOPANIB",
+          "n": 5,
+          "f_pct": 50.0
+        },
+        {
+          "drug": "SORAFENIB",
+          "n": 6,
+          "f_pct": 30.1
+        },
+        {
+          "drug": "SUNITINIB",
+          "n": 3,
+          "f_pct": 43.7
+        }
+      ]
+    },
+    {
+      "class": "ICIs",
+      "n_signals": 44,
+      "n_drugs": 4,
+      "mean_f_pct": 46.6,
+      "mean_lr": 0.745,
+      "drugs": [
+        {
+          "drug": "ATEZOLIZUMAB",
+          "n": 5,
+          "f_pct": 40.6
+        },
+        {
+          "drug": "IPILIMUMAB",
+          "n": 11,
+          "f_pct": 43.4
+        },
+        {
+          "drug": "NIVOLUMAB",
+          "n": 16,
+          "f_pct": 45.4
+        },
+        {
+          "drug": "PEMBROLIZUMAB",
+          "n": 12,
+          "f_pct": 53.8
+        }
+      ]
+    },
+    {
+      "class": "DMARDs",
+      "n_signals": 67,
+      "n_drugs": 4,
+      "mean_f_pct": 65.8,
+      "mean_lr": 1.16,
+      "drugs": [
+        {
+          "drug": "AZATHIOPRINE",
+          "n": 17,
+          "f_pct": 65.0
+        },
+        {
+          "drug": "LEFLUNOMIDE",
+          "n": 13,
+          "f_pct": 70.5
+        },
+        {
+          "drug": "METHOTREXATE",
+          "n": 25,
+          "f_pct": 59.8
+        },
+        {
+          "drug": "SULFASALAZINE",
+          "n": 12,
+          "f_pct": 74.6
+        }
+      ]
+    }
+  ]
+}
