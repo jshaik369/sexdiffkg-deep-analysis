@@ -1,0 +1,254 @@
+{
+  "moa_classes": {
+    "kinase_inhibitors": {
+      "n_drugs": 60,
+      "n_signals": 1486,
+      "f_pct": 76.7,
+      "mean_lr": 0.864
+    },
+    "GPCR_modulators": {
+      "n_drugs": 452,
+      "n_signals": 21349,
+      "f_pct": 70.8,
+      "mean_lr": 1.0
+    },
+    "ion_channel": {
+      "n_drugs": 125,
+      "n_signals": 6278,
+      "f_pct": 66.2,
+      "mean_lr": 0.932
+    },
+    "enzyme_inhibitors": {
+      "n_drugs": 80,
+      "n_signals": 6278,
+      "f_pct": 83.3,
+      "mean_lr": 1.036
+    },
+    "transporter": {
+      "n_drugs": 44,
+      "n_signals": 1581,
+      "f_pct": 56.1,
+      "mean_lr": 0.881
+    },
+    "nuclear_receptor": {
+      "n_drugs": 63,
+      "n_signals": 4525,
+      "f_pct": 77.4,
+      "mean_lr": 1.09
+    },
+    "immune_targets": {
+      "n_drugs": 49,
+      "n_signals": 4612,
+      "f_pct": 85.0,
+      "mean_lr": 1.04
+    }
+  },
+  "moa_comparison": [
+    {
+      "moa": "kinase_inhibitors",
+      "n_drugs": 60,
+      "n_signals": 1486,
+      "f_pct": 76.7,
+      "mean_lr": 0.864
+    },
+    {
+      "moa": "GPCR_modulators",
+      "n_drugs": 452,
+      "n_signals": 21349,
+      "f_pct": 70.8,
+      "mean_lr": 1.0
+    },
+    {
+      "moa": "ion_channel",
+      "n_drugs": 125,
+      "n_signals": 6278,
+      "f_pct": 66.2,
+      "mean_lr": 0.932
+    },
+    {
+      "moa": "enzyme_inhibitors",
+      "n_drugs": 80,
+      "n_signals": 6278,
+      "f_pct": 83.3,
+      "mean_lr": 1.036
+    },
+    {
+      "moa": "transporter",
+      "n_drugs": 44,
+      "n_signals": 1581,
+      "f_pct": 56.1,
+      "mean_lr": 0.881
+    },
+    {
+      "moa": "nuclear_receptor",
+      "n_drugs": 63,
+      "n_signals": 4525,
+      "f_pct": 77.4,
+      "mean_lr": 1.09
+    },
+    {
+      "moa": "immune_targets",
+      "n_drugs": 49,
+      "n_signals": 4612,
+      "f_pct": 85.0,
+      "mean_lr": 1.04
+    }
+  ],
+  "target_family_sex_bias": [
+    {
+      "target": "Estrogen receptor",
+      "n_drugs": 48,
+      "n_signals": 27,
+      "f_pct": 95.5
+    },
+    {
+      "target": "Receptor tyrosine-protein kinase erbB-2",
+      "n_drugs": 40,
+      "n_signals": 199,
+      "f_pct": 89.7
+    },
+    {
+      "target": "Cyclooxygenase",
+      "n_drugs": 57,
+      "n_signals": 1867,
+      "f_pct": 87.9
+    },
+    {
+      "target": "Progesterone receptor",
+      "n_drugs": 34,
+      "n_signals": 65,
+      "f_pct": 86.1
+    },
+    {
+      "target": "Glucocorticoid receptor",
+      "n_drugs": 75,
+      "n_signals": 3786,
+      "f_pct": 80.8
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M3",
+      "n_drugs": 45,
+      "n_signals": 108,
+      "f_pct": 80.5
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "n_drugs": 72,
+      "n_signals": 234,
+      "f_pct": 74.0
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "n_drugs": 58,
+      "n_signals": 1174,
+      "f_pct": 73.2
+    },
+    {
+      "target": "Mu-type opioid receptor",
+      "n_drugs": 54,
+      "n_signals": 1311,
+      "f_pct": 72.8
+    },
+    {
+      "target": "Tubulin",
+      "n_drugs": 83,
+      "n_signals": 892,
+      "f_pct": 72.1
+    },
+    {
+      "target": "GABA-A receptor; anion channel",
+      "n_drugs": 66,
+      "n_signals": 1824,
+      "f_pct": 69.7
+    },
+    {
+      "target": "Beta-1 adrenergic receptor",
+      "n_drugs": 33,
+      "n_signals": 253,
+      "f_pct": 69.2
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M1",
+      "n_drugs": 37,
+      "n_signals": 57,
+      "f_pct": 66.2
+    },
+    {
+      "target": "Beta-2 adrenergic receptor",
+      "n_drugs": 57,
+      "n_signals": 75,
+      "f_pct": 64.8
+    },
+    {
+      "target": "Sodium-dependent serotonin transporter",
+      "n_drugs": 34,
+      "n_signals": 194,
+      "f_pct": 62.5
+    },
+    {
+      "target": "Hepatocyte growth factor receptor",
+      "n_drugs": 39,
+      "n_signals": 62,
+      "f_pct": 53.5
+    },
+    {
+      "target": "Sodium-dependent noradrenaline transporter",
+      "n_drugs": 65,
+      "n_signals": 274,
+      "f_pct": 50.2
+    },
+    {
+      "target": "Epidermal growth factor receptor",
+      "n_drugs": 80,
+      "n_signals": 228,
+      "f_pct": 48.3
+    },
+    {
+      "target": "Mast/stem cell growth factor receptor Kit",
+      "n_drugs": 34,
+      "n_signals": 326,
+      "f_pct": 44.8
+    },
+    {
+      "target": "D(2) dopamine receptor",
+      "n_drugs": 68,
+      "n_signals": 1610,
+      "f_pct": 41.9
+    },
+    {
+      "target": "Receptor-type tyrosine-protein kinase FLT3",
+      "n_drugs": 45,
+      "n_signals": 198,
+      "f_pct": 41.9
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "n_drugs": 56,
+      "n_signals": 2251,
+      "f_pct": 41.0
+    },
+    {
+      "target": "Vascular endothelial growth factor receptor",
+      "n_drugs": 41,
+      "n_signals": 165,
+      "f_pct": 38.2
+    },
+    {
+      "target": "Androgen receptor",
+      "n_drugs": 42,
+      "n_signals": 63,
+      "f_pct": 5.8
+    }
+  ],
+  "targeted_stats": {
+    "n_drugs": 846,
+    "n_signals": 48907,
+    "f_pct": 76.1
+  },
+  "untargeted_stats": {
+    "n_drugs": 1332,
+    "n_signals": 47374,
+    "f_pct": 71.4
+  },
+  "targeted_vs_untargeted_p": 2.043920787842641e-64
+}
