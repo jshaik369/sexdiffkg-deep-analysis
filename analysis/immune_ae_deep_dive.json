@@ -1,0 +1,364 @@
+{
+  "irae_analysis": {
+    "n_ici_signals": 965,
+    "n_irae": 125,
+    "irae_pct": 13.0,
+    "irae_f_pct": 46.2,
+    "non_irae_f_pct": 46.9,
+    "drug_profiles": [
+      {
+        "drug": "NIVOLUMAB",
+        "n_irae": 27,
+        "n_total": 238,
+        "irae_pct": 11.3,
+        "irae_f_pct": 38.6,
+        "non_irae_f_pct": 41.0,
+        "overall_f_pct": 40.7
+      },
+      {
+        "drug": "PEMBROLIZUMAB",
+        "n_irae": 49,
+        "n_total": 309,
+        "irae_pct": 15.9,
+        "irae_f_pct": 55.2,
+        "non_irae_f_pct": 54.5,
+        "overall_f_pct": 54.7
+      },
+      {
+        "drug": "ATEZOLIZUMAB",
+        "n_irae": 16,
+        "n_total": 152,
+        "irae_pct": 10.5,
+        "irae_f_pct": 43.3,
+        "non_irae_f_pct": 47.5,
+        "overall_f_pct": 47.0
+      },
+      {
+        "drug": "DURVALUMAB",
+        "n_irae": 4,
+        "n_total": 61,
+        "irae_pct": 6.6,
+        "irae_f_pct": 44.8,
+        "non_irae_f_pct": 48.7,
+        "overall_f_pct": 48.5
+      },
+      {
+        "drug": "AVELUMAB",
+        "n_irae": 2,
+        "n_total": 19,
+        "irae_pct": 10.5,
+        "irae_f_pct": 43.4,
+        "non_irae_f_pct": 35.6,
+        "overall_f_pct": 36.4
+      },
+      {
+        "drug": "IPILIMUMAB",
+        "n_irae": 25,
+        "n_total": 161,
+        "irae_pct": 15.5,
+        "irae_f_pct": 39.8,
+        "non_irae_f_pct": 41.9,
+        "overall_f_pct": 41.6
+      },
+      {
+        "drug": "TREMELIMUMAB",
+        "n_irae": 2,
+        "n_total": 21,
+        "irae_pct": 9.5,
+        "irae_f_pct": 37.2,
+        "non_irae_f_pct": 44.7,
+        "overall_f_pct": 44.0
+      }
+    ],
+    "top_iraes": [
+      {
+        "adverse_event": "Immune-mediated lung disease",
+        "n_drugs": 5,
+        "mean_f": 31.2,
+        "mean_lr": 0.744
+      },
+      {
+        "adverse_event": "Myocarditis",
+        "n_drugs": 5,
+        "mean_f": 38.5,
+        "mean_lr": 0.784
+      },
+      {
+        "adverse_event": "Immune-mediated hepatitis",
+        "n_drugs": 4,
+        "mean_f": 44.9,
+        "mean_lr": 0.951
+      },
+      {
+        "adverse_event": "Immune-mediated enterocolitis",
+        "n_drugs": 4,
+        "mean_f": 40.6,
+        "mean_lr": 0.819
+      },
+      {
+        "adverse_event": "Immune-mediated hepatic disorder",
+        "n_drugs": 3,
+        "mean_f": 40.5,
+        "mean_lr": 0.905
+      },
+      {
+        "adverse_event": "Fulminant type 1 diabetes mellitus",
+        "n_drugs": 3,
+        "mean_f": 46.9,
+        "mean_lr": 1.087
+      },
+      {
+        "adverse_event": "Immune-mediated pneumonitis",
+        "n_drugs": 3,
+        "mean_f": 39.5,
+        "mean_lr": 1.085
+      },
+      {
+        "adverse_event": "Immune-mediated nephritis",
+        "n_drugs": 3,
+        "mean_f": 44.0,
+        "mean_lr": 0.988
+      },
+      {
+        "adverse_event": "Autoimmune colitis",
+        "n_drugs": 3,
+        "mean_f": 42.8,
+        "mean_lr": 0.951
+      },
+      {
+        "adverse_event": "Hepatitis cholestatic",
+        "n_drugs": 3,
+        "mean_f": 44.9,
+        "mean_lr": 0.71
+      },
+      {
+        "adverse_event": "Hepatitis acute",
+        "n_drugs": 3,
+        "mean_f": 54.3,
+        "mean_lr": 0.715
+      },
+      {
+        "adverse_event": "Hypophysitis",
+        "n_drugs": 3,
+        "mean_f": 45.8,
+        "mean_lr": 0.909
+      },
+      {
+        "adverse_event": "Autoimmune disorder",
+        "n_drugs": 3,
+        "mean_f": 45.7,
+        "mean_lr": 0.818
+      },
+      {
+        "adverse_event": "Colitis microscopic",
+        "n_drugs": 3,
+        "mean_f": 29.0,
+        "mean_lr": 1.263
+      },
+      {
+        "adverse_event": "Tubulointerstitial nephritis",
+        "n_drugs": 3,
+        "mean_f": 49.5,
+        "mean_lr": 0.859
+      }
+    ]
+  },
+  "autoimmune_drugs": {
+    "n_signals": 8354,
+    "n_drugs": 22,
+    "mean_f_pct": 69.2,
+    "drug_ranking": [
+      {
+        "drug_name": "SARILUMAB",
+        "n": 103,
+        "mean_f": 86.0
+      },
+      {
+        "drug_name": "CERTOLIZUMAB",
+        "n": 314,
+        "mean_f": 79.1
+      },
+      {
+        "drug_name": "BELIMUMAB",
+        "n": 22,
+        "mean_f": 78.7
+      },
+      {
+        "drug_name": "GOLIMUMAB",
+        "n": 334,
+        "mean_f": 78.4
+      },
+      {
+        "drug_name": "TOFACITINIB",
+        "n": 331,
+        "mean_f": 77.0
+      },
+      {
+        "drug_name": "ABATACEPT",
+        "n": 344,
+        "mean_f": 76.7
+      },
+      {
+        "drug_name": "LEFLUNOMIDE",
+        "n": 370,
+        "mean_f": 73.2
+      },
+      {
+        "drug_name": "HYDROXYCHLOROQUINE",
+        "n": 376,
+        "mean_f": 73.2
+      },
+      {
+        "drug_name": "TOCILIZUMAB",
+        "n": 508,
+        "mean_f": 72.3
+      },
+      {
+        "drug_name": "SULFASALAZINE",
+        "n": 318,
+        "mean_f": 71.8
+      },
+      {
+        "drug_name": "USTEKINUMAB",
+        "n": 314,
+        "mean_f": 70.8
+      },
+      {
+        "drug_name": "ETANERCEPT",
+        "n": 618,
+        "mean_f": 69.9
+      },
+      {
+        "drug_name": "SECUKINUMAB",
+        "n": 456,
+        "mean_f": 66.8
+      },
+      {
+        "drug_name": "RITUXIMAB",
+        "n": 755,
+        "mean_f": 66.4
+      },
+      {
+        "drug_name": "AZATHIOPRINE",
+        "n": 337,
+        "mean_f": 65.4
+      },
+      {
+        "drug_name": "VEDOLIZUMAB",
+        "n": 233,
+        "mean_f": 65.4
+      },
+      {
+        "drug_name": "INFLIXIMAB",
+        "n": 623,
+        "mean_f": 64.9
+      },
+      {
+        "drug_name": "METHOTREXATE",
+        "n": 892,
+        "mean_f": 64.3
+      },
+      {
+        "drug_name": "ADALIMUMAB",
+        "n": 807,
+        "mean_f": 64.0
+      },
+      {
+        "drug_name": "UPADACITINIB",
+        "n": 181,
+        "mean_f": 63.5
+      },
+      {
+        "drug_name": "IXEKIZUMAB",
+        "n": 82,
+        "mean_f": 54.0
+      },
+      {
+        "drug_name": "BARICITINIB",
+        "n": 36,
+        "mean_f": 53.3
+      }
+    ]
+  },
+  "hypersensitivity": {
+    "n_signals": 1400,
+    "mean_f_pct": 65.0,
+    "top_drugs": [
+      {
+        "drug_name": "PREDNISONE",
+        "n": 9,
+        "mean_f": 77.3
+      },
+      {
+        "drug_name": "PARACETAMOL",
+        "n": 8,
+        "mean_f": 65.4
+      },
+      {
+        "drug_name": "MORPHINE",
+        "n": 8,
+        "mean_f": 77.8
+      },
+      {
+        "drug_name": "METHOTREXATE",
+        "n": 8,
+        "mean_f": 78.5
+      },
+      {
+        "drug_name": "SALBUTAMOL",
+        "n": 7,
+        "mean_f": 65.2
+      },
+      {
+        "drug_name": "RITUXIMAB",
+        "n": 7,
+        "mean_f": 81.8
+      },
+      {
+        "drug_name": "ADALIMUMAB",
+        "n": 7,
+        "mean_f": 77.2
+      },
+      {
+        "drug_name": "MONTELUKAST",
+        "n": 7,
+        "mean_f": 77.1
+      },
+      {
+        "drug_name": "PANTOPRAZOLE",
+        "n": 7,
+        "mean_f": 70.5
+      },
+      {
+        "drug_name": "CARBOPLATIN",
+        "n": 7,
+        "mean_f": 79.3
+      },
+      {
+        "drug_name": "SECUKINUMAB",
+        "n": 7,
+        "mean_f": 81.1
+      },
+      {
+        "drug_name": "RANITIDINE",
+        "n": 7,
+        "mean_f": 73.0
+      },
+      {
+        "drug_name": "OMALIZUMAB",
+        "n": 7,
+        "mean_f": 74.2
+      },
+      {
+        "drug_name": "PREGABALIN",
+        "n": 6,
+        "mean_f": 69.5
+      },
+      {
+        "drug_name": "METHYLPREDNISOLONE",
+        "n": 6,
+        "mean_f": 75.8
+      }
+    ]
+  }
+}
