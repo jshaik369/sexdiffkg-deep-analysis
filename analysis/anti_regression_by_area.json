@@ -1,0 +1,60 @@
+{
+  "area_results": {
+    "Psychiatric": {
+      "n_signals": 5033,
+      "d0_f_pct": 50.1,
+      "d9_f_pct": 66.3,
+      "spearman_rho": 1.0,
+      "p_value": 0.0,
+      "is_anti_regression": true
+    },
+    "Pain": {
+      "n_signals": 4764,
+      "d0_f_pct": 50.1,
+      "d9_f_pct": 87.7,
+      "spearman_rho": 1.0,
+      "p_value": 0.0,
+      "is_anti_regression": true
+    },
+    "Cardiovascular": {
+      "n_signals": 3924,
+      "d0_f_pct": 50.0,
+      "d9_f_pct": 67.8,
+      "spearman_rho": 0.879,
+      "p_value": 0.00081,
+      "is_anti_regression": true
+    },
+    "Endocrine": {
+      "n_signals": 4166,
+      "d0_f_pct": 50.6,
+      "d9_f_pct": 74.9,
+      "spearman_rho": 0.939,
+      "p_value": 5e-05,
+      "is_anti_regression": true
+    },
+    "Autoimmune": {
+      "n_signals": 6561,
+      "d0_f_pct": 50.9,
+      "d9_f_pct": 90.5,
+      "spearman_rho": 1.0,
+      "p_value": 0.0,
+      "is_anti_regression": true
+    },
+    "Anti-infective": {
+      "n_signals": 2012,
+      "d0_f_pct": 50.3,
+      "d9_f_pct": 73.6,
+      "spearman_rho": 0.964,
+      "p_value": 1e-05,
+      "is_anti_regression": true
+    },
+    "Oncology": {
+      "n_signals": 3763,
+      "d0_f_pct": 50.9,
+      "d9_f_pct": 79.0,
+      "spearman_rho": 0.964,
+      "p_value": 1e-05,
+      "is_anti_regression": true
+    }
+  }
+}

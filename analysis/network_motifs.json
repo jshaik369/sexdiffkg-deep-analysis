@@ -1,0 +1,23 @@
+{
+  "n_hub_aes": 521,
+  "n_consistent_female_hubs": 221,
+  "n_consistent_male_hubs": 3,
+  "n_drug_fans": 475,
+  "n_concordant_pairs": 4870,
+  "mean_pair_corr": 0.238,
+  "signal_strength": {
+    "female_biased": {
+      "n": 43279,
+      "mean_lr": 1.063
+    },
+    "male_biased": {
+      "n": 20041,
+      "mean_lr": 1.096
+    },
+    "balanced": {
+      "n": 32961,
+      "mean_lr": 0.82
+    },
+    "f_vs_m_p": 0.0
+  }
+}
