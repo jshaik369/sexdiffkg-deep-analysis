@@ -1,0 +1,423 @@
+{
+  "top25_pairs": [
+    {
+      "class": "NSAIDs",
+      "drug1": "CELECOXIB",
+      "drug2": "KETOROLAC",
+      "shared_aes": 38,
+      "mean_diff_pp": 34.1,
+      "abs_diff_pp": 34.1,
+      "direction_flips": 12,
+      "flip_rate": 31.6
+    },
+    {
+      "class": "Atypical AP",
+      "drug1": "CLOZAPINE",
+      "drug2": "BREXPIPRAZOLE",
+      "shared_aes": 11,
+      "mean_diff_pp": -31.6,
+      "abs_diff_pp": 31.6,
+      "direction_flips": 7,
+      "flip_rate": 63.6
+    },
+    {
+      "class": "NSAIDs",
+      "drug1": "DICLOFENAC",
+      "drug2": "KETOROLAC",
+      "shared_aes": 41,
+      "mean_diff_pp": 27.9,
+      "abs_diff_pp": 30.9,
+      "direction_flips": 19,
+      "flip_rate": 46.3
+    },
+    {
+      "class": "NSAIDs",
+      "drug1": "NAPROXEN",
+      "drug2": "KETOROLAC",
+      "shared_aes": 40,
+      "mean_diff_pp": 27.5,
+      "abs_diff_pp": 30.5,
+      "direction_flips": 19,
+      "flip_rate": 47.5
+    },
+    {
+      "class": "Atypical AP",
+      "drug1": "QUETIAPINE",
+      "drug2": "CLOZAPINE",
+      "shared_aes": 83,
+      "mean_diff_pp": 22.2,
+      "abs_diff_pp": 29.0,
+      "direction_flips": 45,
+      "flip_rate": 54.2
+    },
+    {
+      "class": "NSAIDs",
+      "drug1": "MELOXICAM",
+      "drug2": "KETOROLAC",
+      "shared_aes": 24,
+      "mean_diff_pp": 26.4,
+      "abs_diff_pp": 27.4,
+      "direction_flips": 5,
+      "flip_rate": 20.8
+    },
+    {
+      "class": "Corticosteroids",
+      "drug1": "METHYLPREDNISOLONE",
+      "drug2": "BUDESONIDE",
+      "shared_aes": 109,
+      "mean_diff_pp": 19.8,
+      "abs_diff_pp": 26.5,
+      "direction_flips": 48,
+      "flip_rate": 44.0
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "ATENOLOL",
+      "drug2": "PROPRANOLOL",
+      "shared_aes": 36,
+      "mean_diff_pp": 11.1,
+      "abs_diff_pp": 26.0,
+      "direction_flips": 18,
+      "flip_rate": 50.0
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "METOPROLOL",
+      "drug2": "CARVEDILOL",
+      "shared_aes": 30,
+      "mean_diff_pp": 23.4,
+      "abs_diff_pp": 25.8,
+      "direction_flips": 17,
+      "flip_rate": 56.7
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "CARVEDILOL",
+      "drug2": "PROPRANOLOL",
+      "shared_aes": 18,
+      "mean_diff_pp": -13.1,
+      "abs_diff_pp": 25.6,
+      "direction_flips": 11,
+      "flip_rate": 61.1
+    },
+    {
+      "class": "Atypical AP",
+      "drug1": "ZIPRASIDONE",
+      "drug2": "BREXPIPRAZOLE",
+      "shared_aes": 11,
+      "mean_diff_pp": -20.7,
+      "abs_diff_pp": 25.4,
+      "direction_flips": 5,
+      "flip_rate": 45.5
+    },
+    {
+      "class": "Corticosteroids",
+      "drug1": "DEXAMETHASONE",
+      "drug2": "HYDROCORTISONE",
+      "shared_aes": 81,
+      "mean_diff_pp": -9.1,
+      "abs_diff_pp": 24.4,
+      "direction_flips": 31,
+      "flip_rate": 38.3
+    },
+    {
+      "class": "Corticosteroids",
+      "drug1": "PREDNISOLONE",
+      "drug2": "BUDESONIDE",
+      "shared_aes": 79,
+      "mean_diff_pp": 5.1,
+      "abs_diff_pp": 24.2,
+      "direction_flips": 34,
+      "flip_rate": 43.0
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "ATENOLOL",
+      "drug2": "NEBIVOLOL",
+      "shared_aes": 21,
+      "mean_diff_pp": 12.3,
+      "abs_diff_pp": 22.7,
+      "direction_flips": 9,
+      "flip_rate": 42.9
+    },
+    {
+      "class": "Atypical AP",
+      "drug1": "RISPERIDONE",
+      "drug2": "ZIPRASIDONE",
+      "shared_aes": 57,
+      "mean_diff_pp": -20.0,
+      "abs_diff_pp": 22.6,
+      "direction_flips": 26,
+      "flip_rate": 45.6
+    },
+    {
+      "class": "Atypical AP",
+      "drug1": "RISPERIDONE",
+      "drug2": "QUETIAPINE",
+      "shared_aes": 183,
+      "mean_diff_pp": -17.2,
+      "abs_diff_pp": 22.5,
+      "direction_flips": 76,
+      "flip_rate": 41.5
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "BISOPROLOL",
+      "drug2": "PROPRANOLOL",
+      "shared_aes": 39,
+      "mean_diff_pp": 2.0,
+      "abs_diff_pp": 22.0,
+      "direction_flips": 17,
+      "flip_rate": 43.6
+    },
+    {
+      "class": "Corticosteroids",
+      "drug1": "HYDROCORTISONE",
+      "drug2": "BUDESONIDE",
+      "shared_aes": 110,
+      "mean_diff_pp": 7.7,
+      "abs_diff_pp": 21.7,
+      "direction_flips": 34,
+      "flip_rate": 30.9
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "BISOPROLOL",
+      "drug2": "ATENOLOL",
+      "shared_aes": 45,
+      "mean_diff_pp": -10.0,
+      "abs_diff_pp": 21.0,
+      "direction_flips": 18,
+      "flip_rate": 40.0
+    },
+    {
+      "class": "Statins",
+      "drug1": "ROSUVASTATIN",
+      "drug2": "SIMVASTATIN",
+      "shared_aes": 88,
+      "mean_diff_pp": 0.8,
+      "abs_diff_pp": 21.0,
+      "direction_flips": 38,
+      "flip_rate": 43.2
+    },
+    {
+      "class": "Atypical AP",
+      "drug1": "QUETIAPINE",
+      "drug2": "PALIPERIDONE",
+      "shared_aes": 57,
+      "mean_diff_pp": 17.9,
+      "abs_diff_pp": 20.9,
+      "direction_flips": 23,
+      "flip_rate": 40.4
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "ATENOLOL",
+      "drug2": "CARVEDILOL",
+      "shared_aes": 19,
+      "mean_diff_pp": 8.2,
+      "abs_diff_pp": 20.9,
+      "direction_flips": 9,
+      "flip_rate": 47.4
+    },
+    {
+      "class": "Corticosteroids",
+      "drug1": "DEXAMETHASONE",
+      "drug2": "BUDESONIDE",
+      "shared_aes": 56,
+      "mean_diff_pp": 0.5,
+      "abs_diff_pp": 20.8,
+      "direction_flips": 21,
+      "flip_rate": 37.5
+    },
+    {
+      "class": "Statins",
+      "drug1": "SIMVASTATIN",
+      "drug2": "PRAVASTATIN",
+      "shared_aes": 20,
+      "mean_diff_pp": 1.8,
+      "abs_diff_pp": 20.7,
+      "direction_flips": 8,
+      "flip_rate": 40.0
+    },
+    {
+      "class": "Beta-blockers",
+      "drug1": "METOPROLOL",
+      "drug2": "BISOPROLOL",
+      "shared_aes": 81,
+      "mean_diff_pp": 4.0,
+      "abs_diff_pp": 20.5,
+      "direction_flips": 36,
+      "flip_rate": 44.4
+    }
+  ],
+  "class_summary": {
+    "Atypical AP": {
+      "mean_abs_diff": 17.0,
+      "max_abs_diff": 31.6,
+      "mean_flip_rate": 36.4
+    },
+    "SSRIs": {
+      "mean_abs_diff": 16.5,
+      "max_abs_diff": 19.3,
+      "mean_flip_rate": 30.0
+    },
+    "Strong opioids": {
+      "mean_abs_diff": 14.1,
+      "max_abs_diff": 19.7,
+      "mean_flip_rate": 24.2
+    },
+    "Beta-blockers": {
+      "mean_abs_diff": 20.9,
+      "max_abs_diff": 26.0,
+      "mean_flip_rate": 41.8
+    },
+    "Statins": {
+      "mean_abs_diff": 19.1,
+      "max_abs_diff": 21.0,
+      "mean_flip_rate": 38.2
+    },
+    "Anti-TNF": {
+      "mean_abs_diff": 8.7,
+      "max_abs_diff": 10.1,
+      "mean_flip_rate": 10.4
+    },
+    "GLP-1 agonists": {
+      "mean_abs_diff": 12.9,
+      "max_abs_diff": 18.3,
+      "mean_flip_rate": 27.7
+    },
+    "NSAIDs": {
+      "mean_abs_diff": 16.3,
+      "max_abs_diff": 34.1,
+      "mean_flip_rate": 20.7
+    },
+    "Corticosteroids": {
+      "mean_abs_diff": 17.7,
+      "max_abs_diff": 26.5,
+      "mean_flip_rate": 27.0
+    }
+  },
+  "ae_max_range": [
+    {
+      "ae": "Fatigue",
+      "range_pp": 99.3,
+      "std": 22.4,
+      "n_drugs": 332
+    },
+    {
+      "ae": "Arthralgia",
+      "range_pp": 99.0,
+      "std": 22.3,
+      "n_drugs": 238
+    },
+    {
+      "ae": "Back pain",
+      "range_pp": 98.5,
+      "std": 21.0,
+      "n_drugs": 181
+    },
+    {
+      "ae": "Nausea",
+      "range_pp": 98.4,
+      "std": 23.1,
+      "n_drugs": 339
+    },
+    {
+      "ae": "Adverse drug reaction",
+      "range_pp": 98.4,
+      "std": 17.2,
+      "n_drugs": 206
+    },
+    {
+      "ae": "Injury",
+      "range_pp": 98.3,
+      "std": 26.9,
+      "n_drugs": 89
+    },
+    {
+      "ae": "Pain",
+      "range_pp": 98.3,
+      "std": 22.3,
+      "n_drugs": 327
+    },
+    {
+      "ae": "Asthenia",
+      "range_pp": 98.2,
+      "std": 20.1,
+      "n_drugs": 266
+    },
+    {
+      "ae": "Hot flush",
+      "range_pp": 97.6,
+      "std": 17.9,
+      "n_drugs": 117
+    },
+    {
+      "ae": "Drug ineffective",
+      "range_pp": 97.4,
+      "std": 21.9,
+      "n_drugs": 501
+    },
+    {
+      "ae": "Joint swelling",
+      "range_pp": 97.2,
+      "std": 23.5,
+      "n_drugs": 169
+    },
+    {
+      "ae": "Emotional distress",
+      "range_pp": 97.0,
+      "std": 18.0,
+      "n_drugs": 98
+    },
+    {
+      "ae": "Depression",
+      "range_pp": 97.0,
+      "std": 25.2,
+      "n_drugs": 214
+    },
+    {
+      "ae": "Dizziness",
+      "range_pp": 96.9,
+      "std": 23.0,
+      "n_drugs": 289
+    },
+    {
+      "ae": "Alopecia",
+      "range_pp": 96.8,
+      "std": 19.9,
+      "n_drugs": 198
+    },
+    {
+      "ae": "Wheezing",
+      "range_pp": 96.5,
+      "std": 25.7,
+      "n_drugs": 181
+    },
+    {
+      "ae": "Dyspnoea",
+      "range_pp": 96.3,
+      "std": 23.6,
+      "n_drugs": 349
+    },
+    {
+      "ae": "Obesity",
+      "range_pp": 96.0,
+      "std": 30.2,
+      "n_drugs": 91
+    },
+    {
+      "ae": "Emotional disorder",
+      "range_pp": 95.9,
+      "std": 19.9,
+      "n_drugs": 79
+    },
+    {
+      "ae": "Peripheral swelling",
+      "range_pp": 95.7,
+      "std": 22.3,
+      "n_drugs": 159
+    }
+  ]
+}

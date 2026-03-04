@@ -1,0 +1,311 @@
+{
+  "n_robust_aes": 1668,
+  "top20_female": [
+    {
+      "adverse_event": "Rheumatoid factor positive",
+      "mean_f_pct": 97.52359883460578,
+      "std_f_pct": 2.403146549699665,
+      "n_drugs": 14
+    },
+    {
+      "adverse_event": "Exposure during pregnancy",
+      "mean_f_pct": 96.20369787881387,
+      "std_f_pct": 2.199188012342191,
+      "n_drugs": 16
+    },
+    {
+      "adverse_event": "X-ray abnormal",
+      "mean_f_pct": 92.52076813284667,
+      "std_f_pct": 9.238698814323367,
+      "n_drugs": 10
+    },
+    {
+      "adverse_event": "Anti-cyclic citrullinated peptide antibody positive",
+      "mean_f_pct": 92.47256555908851,
+      "std_f_pct": 17.392766737455524,
+      "n_drugs": 16
+    },
+    {
+      "adverse_event": "Maternal exposure during pregnancy",
+      "mean_f_pct": 92.34202104259518,
+      "std_f_pct": 8.47325217065665,
+      "n_drugs": 82
+    },
+    {
+      "adverse_event": "Drug tolerance",
+      "mean_f_pct": 89.04578950505844,
+      "std_f_pct": 6.379100344896774,
+      "n_drugs": 20
+    },
+    {
+      "adverse_event": "Granuloma skin",
+      "mean_f_pct": 88.50913664199884,
+      "std_f_pct": 9.737895190050558,
+      "n_drugs": 16
+    },
+    {
+      "adverse_event": "Rheumatoid nodule",
+      "mean_f_pct": 88.2060639984831,
+      "std_f_pct": 10.766360661809909,
+      "n_drugs": 10
+    },
+    {
+      "adverse_event": "Abortion spontaneous",
+      "mean_f_pct": 88.06581701877407,
+      "std_f_pct": 10.274498395458249,
+      "n_drugs": 17
+    },
+    {
+      "adverse_event": "Lupus nephritis",
+      "mean_f_pct": 87.48310586032136,
+      "std_f_pct": 2.5463131707476334,
+      "n_drugs": 11
+    },
+    {
+      "adverse_event": "Hand deformity",
+      "mean_f_pct": 87.3913780424723,
+      "std_f_pct": 19.82962114567025,
+      "n_drugs": 32
+    },
+    {
+      "adverse_event": "Finger deformity",
+      "mean_f_pct": 86.73442969466502,
+      "std_f_pct": 17.039257370651104,
+      "n_drugs": 10
+    },
+    {
+      "adverse_event": "Synovitis",
+      "mean_f_pct": 86.45331308517099,
+      "std_f_pct": 17.859221571109764,
+      "n_drugs": 53
+    },
+    {
+      "adverse_event": "Fibromyalgia",
+      "mean_f_pct": 86.20553906999656,
+      "std_f_pct": 15.76787967739508,
+      "n_drugs": 43
+    },
+    {
+      "adverse_event": "Blood parathyroid hormone decreased",
+      "mean_f_pct": 85.83288274461756,
+      "std_f_pct": 15.743777270464706,
+      "n_drugs": 18
+    },
+    {
+      "adverse_event": "Seronegative arthritis",
+      "mean_f_pct": 85.07278755701648,
+      "std_f_pct": 13.521794485683516,
+      "n_drugs": 14
+    },
+    {
+      "adverse_event": "Caesarean section",
+      "mean_f_pct": 84.06395184784047,
+      "std_f_pct": 5.995980207295078,
+      "n_drugs": 14
+    },
+    {
+      "adverse_event": "Panniculitis",
+      "mean_f_pct": 83.88386503321922,
+      "std_f_pct": 16.9217913226236,
+      "n_drugs": 21
+    },
+    {
+      "adverse_event": "Joint range of motion decreased",
+      "mean_f_pct": 83.37372433993397,
+      "std_f_pct": 21.199206191957074,
+      "n_drugs": 38
+    },
+    {
+      "adverse_event": "Drug tolerance decreased",
+      "mean_f_pct": 83.22806108686527,
+      "std_f_pct": 11.695122896830021,
+      "n_drugs": 14
+    }
+  ],
+  "top20_male": [
+    {
+      "adverse_event": "Intestinal sepsis",
+      "mean_f_pct": 33.19233177321668,
+      "std_f_pct": 2.492791355680696,
+      "n_drugs": 11
+    },
+    {
+      "adverse_event": "Activated partial thromboplastin time prolonged",
+      "mean_f_pct": 32.37875243153823,
+      "std_f_pct": 16.448394071399264,
+      "n_drugs": 14
+    },
+    {
+      "adverse_event": "Normochromic normocytic anaemia",
+      "mean_f_pct": 32.196461543072616,
+      "std_f_pct": 26.459220233744567,
+      "n_drugs": 11
+    },
+    {
+      "adverse_event": "Kaposi's sarcoma",
+      "mean_f_pct": 30.682654352094623,
+      "std_f_pct": 10.38815669662257,
+      "n_drugs": 15
+    },
+    {
+      "adverse_event": "Imprisonment",
+      "mean_f_pct": 30.59379847994807,
+      "std_f_pct": 5.5978776941712844,
+      "n_drugs": 12
+    },
+    {
+      "adverse_event": "Steroid dependence",
+      "mean_f_pct": 29.63357234524292,
+      "std_f_pct": 11.521842282605686,
+      "n_drugs": 34
+    },
+    {
+      "adverse_event": "End stage renal disease",
+      "mean_f_pct": 29.395673004109963,
+      "std_f_pct": 15.17318520456222,
+      "n_drugs": 30
+    },
+    {
+      "adverse_event": "Forced expiratory volume decreased",
+      "mean_f_pct": 29.21933553564517,
+      "std_f_pct": 14.516695174296535,
+      "n_drugs": 26
+    },
+    {
+      "adverse_event": "Hypopnoea",
+      "mean_f_pct": 28.892603269911888,
+      "std_f_pct": 7.5542558417571914,
+      "n_drugs": 35
+    },
+    {
+      "adverse_event": "Hepatocellular carcinoma",
+      "mean_f_pct": 28.3859492187437,
+      "std_f_pct": 12.219455847280251,
+      "n_drugs": 21
+    },
+    {
+      "adverse_event": "Burns second degree",
+      "mean_f_pct": 27.91401190023432,
+      "std_f_pct": 13.97517122358069,
+      "n_drugs": 31
+    },
+    {
+      "adverse_event": "Disinhibition",
+      "mean_f_pct": 26.15003105156578,
+      "std_f_pct": 17.582310641634663,
+      "n_drugs": 10
+    },
+    {
+      "adverse_event": "Catarrh",
+      "mean_f_pct": 25.489156384447913,
+      "std_f_pct": 4.059299274990211,
+      "n_drugs": 28
+    },
+    {
+      "adverse_event": "Eosinophilic granulomatosis with polyangiitis",
+      "mean_f_pct": 24.573408220378617,
+      "std_f_pct": 16.371611336672107,
+      "n_drugs": 20
+    },
+    {
+      "adverse_event": "Dust allergy",
+      "mean_f_pct": 22.343070922729215,
+      "std_f_pct": 16.81528986306584,
+      "n_drugs": 12
+    },
+    {
+      "adverse_event": "Blood phosphorus increased",
+      "mean_f_pct": 22.145434825842912,
+      "std_f_pct": 19.37900358626967,
+      "n_drugs": 20
+    },
+    {
+      "adverse_event": "Mite allergy",
+      "mean_f_pct": 20.481346221904666,
+      "std_f_pct": 12.269734715839906,
+      "n_drugs": 13
+    },
+    {
+      "adverse_event": "Lipodystrophy acquired",
+      "mean_f_pct": 19.45353691671458,
+      "std_f_pct": 10.019426899136517,
+      "n_drugs": 15
+    },
+    {
+      "adverse_event": "Apparent death",
+      "mean_f_pct": 19.10271195211665,
+      "std_f_pct": 22.56127784901158,
+      "n_drugs": 15
+    },
+    {
+      "adverse_event": "Spirometry abnormal",
+      "mean_f_pct": 14.268413126607573,
+      "std_f_pct": 14.890360788884887,
+      "n_drugs": 10
+    }
+  ],
+  "universal_female": 85,
+  "universal_male": 11,
+  "organ_archetypes": {
+    "cardiac": {
+      "mean_f_pct": 51.4,
+      "mean_std": 17.2,
+      "n_ae_types": 40
+    },
+    "hepatic": {
+      "mean_f_pct": 54.6,
+      "mean_std": 16.8,
+      "n_ae_types": 40
+    },
+    "renal": {
+      "mean_f_pct": 51.4,
+      "mean_std": 16.6,
+      "n_ae_types": 24
+    },
+    "GI": {
+      "mean_f_pct": 58.6,
+      "mean_std": 17.7,
+      "n_ae_types": 28
+    },
+    "respiratory": {
+      "mean_f_pct": 52.9,
+      "mean_std": 18.2,
+      "n_ae_types": 57
+    },
+    "neurological": {
+      "mean_f_pct": 56.5,
+      "mean_std": 16.0,
+      "n_ae_types": 15
+    },
+    "psychiatric": {
+      "mean_f_pct": 55.9,
+      "mean_std": 17.4,
+      "n_ae_types": 28
+    },
+    "dermatological": {
+      "mean_f_pct": 58.6,
+      "mean_std": 17.1,
+      "n_ae_types": 67
+    },
+    "musculoskeletal": {
+      "mean_f_pct": 59.3,
+      "mean_std": 20.7,
+      "n_ae_types": 31
+    },
+    "ocular": {
+      "mean_f_pct": 61.2,
+      "mean_std": 16.5,
+      "n_ae_types": 22
+    },
+    "infection": {
+      "mean_f_pct": 53.3,
+      "mean_std": 15.6,
+      "n_ae_types": 87
+    },
+    "haematological": {
+      "mean_f_pct": 52.0,
+      "mean_std": 18.1,
+      "n_ae_types": 15
+    }
+  }
+}
