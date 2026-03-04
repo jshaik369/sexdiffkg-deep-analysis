@@ -1,0 +1,93 @@
+{
+  "withdrawn_drugs": {
+    "Rofecoxib (Vioxx)": {
+      "n_signals": 14,
+      "mean_f_pct": 57.4,
+      "mean_abs_lr": 1.666,
+      "withdrawal_year": 2004,
+      "reason": "CV events",
+      "expected_sex": "male",
+      "observed_sex": "female",
+      "concordant": false
+    },
+    "Rosiglitazone (Avandia)": {
+      "n_signals": 47,
+      "mean_f_pct": 47.0,
+      "mean_abs_lr": 0.701,
+      "withdrawal_year": 2010,
+      "reason": "CV events",
+      "expected_sex": "male",
+      "observed_sex": "neutral",
+      "concordant": true
+    },
+    "Valdecoxib (Bextra)": {
+      "n_signals": 1,
+      "mean_f_pct": 56.9,
+      "mean_abs_lr": 0.983,
+      "withdrawal_year": 2005,
+      "reason": "SJS/CV",
+      "expected_sex": "female",
+      "observed_sex": "female",
+      "concordant": true
+    },
+    "Phenylpropanolamine": {
+      "n_signals": 1,
+      "mean_f_pct": 60.5,
+      "mean_abs_lr": 0.531,
+      "withdrawal_year": 2000,
+      "reason": "Hemorrhagic stroke",
+      "expected_sex": "female",
+      "observed_sex": "female",
+      "concordant": true
+    },
+    "Darvocet (Propoxyphene)": {
+      "n_signals": 16,
+      "mean_f_pct": 53.8,
+      "mean_abs_lr": 0.836,
+      "withdrawal_year": 2010,
+      "reason": "Cardiac",
+      "expected_sex": "female",
+      "observed_sex": "neutral",
+      "concordant": true
+    }
+  },
+  "blackbox_drugs": {
+    "Isotretinoin (Accutane)": {
+      "n_signals": 217,
+      "mean_f_pct": 51.3,
+      "reason": "Teratogenicity",
+      "expected_sex": "female"
+    },
+    "Thalidomide": {
+      "n_signals": 62,
+      "mean_f_pct": 53.4,
+      "reason": "Teratogenicity",
+      "expected_sex": "female"
+    },
+    "Clozapine": {
+      "n_signals": 287,
+      "mean_f_pct": 44.4,
+      "reason": "Agranulocytosis",
+      "expected_sex": "male"
+    },
+    "Methotrexate": {
+      "n_signals": 892,
+      "mean_f_pct": 64.3,
+      "reason": "Hepato/myelosuppression",
+      "expected_sex": "female"
+    },
+    "Fluorouracil": {
+      "n_signals": 239,
+      "mean_f_pct": 48.9,
+      "reason": "Myelosuppression",
+      "expected_sex": "female"
+    }
+  },
+  "summary": {
+    "n_withdrawn_tested": 5,
+    "n_concordant": 4,
+    "concordance_pct": 80.0,
+    "withdrawn_mean_f_pct": 50.5,
+    "non_withdrawn_mean_f_pct": 58.1
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "approach": "signal-based linear regression",
+  "n_train": 1116,
+  "n_test": 278,
+  "features": [
+    "n_signals",
+    "mean_lr",
+    "pct_female_biased"
+  ],
+  "performance": {
+    "rmse": 0.0487,
+    "r2": 0.7723,
+    "spearman_rho": 0.9033,
+    "p_value": 2.0535364979753917e-103,
+    "baseline_rmse": 0.1022,
+    "improvement_pct": 52.3
+  },
+  "coefficients": {
+    "n_signals": 4.9e-05,
+    "mean_lr": 0.02987,
+    "pct_female_biased": 0.440429
+  },
+  "intercept": 0.268691,
+  "test_predictions": [
+    {
+      "drug": "ACLIDINIUM",
+      "actual_f_pct": 61.3,
+      "predicted_f_pct": 59.4,
+      "error_pp": -1.9
+    },
+    {
+      "drug": "ADEFOVIR",
+      "actual_f_pct": 33.6,
+      "predicted_f_pct": 32.4,
+      "error_pp": -1.2
+    },
+    {
+      "drug": "ADEFOVIR DIPIVOXIL",
+      "actual_f_pct": 30.6,
+      "predicted_f_pct": 29.5,
+      "error_pp": -1.2
+    },
+    {
+      "drug": "AFATINIB",
+      "actual_f_pct": 63.5,
+      "predicted_f_pct": 63.8,
+      "error_pp": 0.3
+    },
+    {
+      "drug": "AFLIBERCEPT",
+      "actual_f_pct": 48.1,
+      "predicted_f_pct": 47.9,
+      "error_pp": -0.1
+    },
+    {
+      "drug": "ALENDRONATE SODIUM",
+      "actual_f_pct": 91.5,
+      "predicted_f_pct": 74.3,
+      "error_pp": -17.2
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "actual_f_pct": 83.6,
+      "predicted_f_pct": 73.1,
+      "error_pp": -10.5
+    },
+    {
+      "drug": "ALGLUCOSIDASE ALFA",
+      "actual_f_pct": 46.2,
+      "predicted_f_pct": 40.8,
+      "error_pp": -5.4
+    },
+    {
+      "drug": "ALIMEMAZINE",
+      "actual_f_pct": 54.9,
+      "predicted_f_pct": 55.8,
+      "error_pp": 0.9
+    },
+    {
+      "drug": "ALISKIREN",
+      "actual_f_pct": 62.8,
+      "predicted_f_pct": 56.2,
+      "error_pp": -6.5
+    },
+    {
+      "drug": "ALPHA-1-ANTITRYPSIN",
+      "actual_f_pct": 52.8,
+      "predicted_f_pct": 55.1,
+      "error_pp": 2.3
+    },
+    {
+      "drug": "ALTEPLASE",
+      "actual_f_pct": 46.5,
+      "predicted_f_pct": 45.7,
+      "error_pp": -0.8
+    },
+    {
+      "drug": "AMBROXOL",
+      "actual_f_pct": 49.9,
+      "predicted_f_pct": 53.4,
+      "error_pp": 3.5
+    },
+    {
+      "drug": "AMFETAMINE;DEXAMFETAMINE",
+      "actual_f_pct": 59.4,
+      "predicted_f_pct": 58.5,
+      "error_pp": -0.9
+    },
+    {
+      "drug": "AMIKACIN",
+      "actual_f_pct": 55.7,
+      "predicted_f_pct": 57.2,
+      "error_pp": 1.4
+    },
+    {
+      "drug": "AMIODARONE",
+      "actual_f_pct": 42.4,
+      "predicted_f_pct": 47.4,
+      "error_pp": 5.0
+    },
+    {
+      "drug": "AMLODIPINE",
+      "actual_f_pct": 55.2,
+      "predicted_f_pct": 56.7,
+      "error_pp": 1.5
+    },
+    {
+      "drug": "AMLODIPINE;HYDROCHLOROTHIAZIDE;VALSARTAN",
+      "actual_f_pct": 62.2,
+      "predicted_f_pct": 58.3,
+      "error_pp": -3.9
+    },
+    {
+      "drug": "AMLODIPINE;VALSARTAN",
+      "actual_f_pct": 61.3,
+      "predicted_f_pct": 60.3,
+      "error_pp": -1.0
+    },
+    {
+      "drug": "AMPICILLIN;SULBACTAM",
+      "actual_f_pct": 46.5,
+      "predicted_f_pct": 46.8,
+      "error_pp": 0.3
+    }
+  ]
+}

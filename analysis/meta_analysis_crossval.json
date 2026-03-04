@@ -1,0 +1,196 @@
+{
+  "meta_analysis_validations": [
+    {
+      "reference": "Watson 2019 - GI ADRs 1.5x more in women",
+      "category": "GI",
+      "expected": "female",
+      "observed_f_pct": 60.6,
+      "observed_direction": "female",
+      "concordant": true,
+      "n_signals": 1323,
+      "mean_abs_lr": 0.961
+    },
+    {
+      "reference": "Watson 2019 - QT prolongation more in women",
+      "category": "Cardiac",
+      "expected": "female",
+      "observed_f_pct": 63.5,
+      "observed_direction": "female",
+      "concordant": true,
+      "n_signals": 43,
+      "mean_abs_lr": 0.855
+    },
+    {
+      "reference": "Zucker 2020 - Dermatologic ADRs female-predominant",
+      "category": "Skin",
+      "expected": "female",
+      "observed_f_pct": 60.6,
+      "observed_direction": "female",
+      "concordant": true,
+      "n_signals": 2447,
+      "mean_abs_lr": 0.925
+    },
+    {
+      "reference": "Soldin 2009 - Warfarin bleeding more in women",
+      "category": "Anticoagulant",
+      "expected": "female",
+      "observed_f_pct": 51.5,
+      "observed_direction": "neutral",
+      "concordant": true,
+      "n_signals": 12,
+      "mean_abs_lr": 0.831
+    },
+    {
+      "reference": "Franconi 2014 - Headache ADRs female-predominant",
+      "category": "CNS",
+      "expected": "female",
+      "observed_f_pct": 69.0,
+      "observed_direction": "female",
+      "concordant": true,
+      "n_signals": 515,
+      "mean_abs_lr": 0.957
+    },
+    {
+      "reference": "ACE-inhibitor cough more in women",
+      "category": "Respiratory",
+      "expected": "female",
+      "observed_f_pct": 55.7,
+      "observed_direction": "female",
+      "concordant": true,
+      "n_signals": 387,
+      "mean_abs_lr": 1.009
+    },
+    {
+      "reference": "Rathore 2002 - Digoxin mortality higher in women",
+      "category": "Cardiac",
+      "expected": "female",
+      "observed_f_pct": 56.3,
+      "observed_direction": "female",
+      "concordant": true,
+      "n_signals": 71,
+      "mean_abs_lr": 0.793
+    },
+    {
+      "reference": "Berger 2006 - Aspirin more effective for MI in men",
+      "category": "Antiplatelet",
+      "expected": "male",
+      "observed_f_pct": 56.4,
+      "observed_direction": "female",
+      "concordant": false,
+      "n_signals": 140,
+      "mean_abs_lr": 0.836
+    },
+    {
+      "reference": "Conforti 2018 - ICI efficacy higher in men",
+      "category": "Immuno-oncology",
+      "expected": "male",
+      "observed_f_pct": 47.0,
+      "observed_direction": "neutral",
+      "concordant": true,
+      "n_signals": 708,
+      "mean_abs_lr": 0.833
+    },
+    {
+      "reference": "Stroes 2015 - Statin myopathy more in women",
+      "category": "Statin",
+      "expected": "female",
+      "observed_f_pct": 52.5,
+      "observed_direction": "neutral",
+      "concordant": true,
+      "n_signals": 12,
+      "mean_abs_lr": 0.788
+    },
+    {
+      "reference": "Sramek 2016 - SSRI side effects more in women",
+      "category": "Psychiatric",
+      "expected": "female",
+      "observed_f_pct": 56.5,
+      "observed_direction": "female",
+      "concordant": true,
+      "n_signals": 18,
+      "mean_abs_lr": 1.097
+    },
+    {
+      "reference": "Corrao 2006 - FQ tendon damage more in women",
+      "category": "Antibiotic",
+      "expected": "female",
+      "observed_f_pct": 48.5,
+      "observed_direction": "neutral",
+      "concordant": false,
+      "n_signals": 5,
+      "mean_abs_lr": 0.676
+    },
+    {
+      "reference": "Moore 1984 - Aminoglycoside nephrotoxicity male-predominant",
+      "category": "Antibiotic",
+      "expected": "male",
+      "observed_f_pct": 53.3,
+      "observed_direction": "neutral",
+      "concordant": false,
+      "n_signals": 14,
+      "mean_abs_lr": 0.785
+    }
+  ],
+  "summary": {
+    "n_findings_tested": 13,
+    "n_concordant": 10,
+    "concordance_pct": 76.9
+  },
+  "category_summary": {
+    "Immuno-oncology": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    },
+    "Respiratory": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    },
+    "Antiplatelet": {
+      "n_tested": 1,
+      "n_concordant": 0,
+      "concordance_pct": 0.0
+    },
+    "Psychiatric": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    },
+    "Antibiotic": {
+      "n_tested": 2,
+      "n_concordant": 0,
+      "concordance_pct": 0.0
+    },
+    "Anticoagulant": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    },
+    "Skin": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    },
+    "Statin": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    },
+    "Cardiac": {
+      "n_tested": 2,
+      "n_concordant": 2,
+      "concordance_pct": 100.0
+    },
+    "CNS": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    },
+    "GI": {
+      "n_tested": 1,
+      "n_concordant": 1,
+      "concordance_pct": 100.0
+    }
+  }
+}
