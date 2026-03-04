@@ -1,0 +1,108 @@
+{
+  "wave": "32_psychiatric_extended",
+  "categories": {
+    "mood_stabilizers": {
+      "n_signals": 1089,
+      "f_frac": 0.4573
+    },
+    "anxiolytics_benzo": {
+      "n_signals": 1214,
+      "f_frac": 0.6705
+    },
+    "anxiolytics_non_benzo": {
+      "n_signals": 867,
+      "f_frac": 0.4602
+    },
+    "ADHD_stimulants": {
+      "n_signals": 257,
+      "f_frac": 0.5525
+    },
+    "ADHD_non_stimulants": {
+      "n_signals": 235,
+      "f_frac": 0.6468
+    },
+    "SNRIs": {
+      "n_signals": 537,
+      "f_frac": 0.3948
+    },
+    "TCAs": {
+      "n_signals": 340,
+      "f_frac": 0.4794
+    },
+    "antipsychotics_typical": {
+      "n_signals": 238,
+      "f_frac": 0.5798
+    },
+    "antipsychotics_atypical": {
+      "n_signals": 2321,
+      "f_frac": 0.6549
+    },
+    "sleep_agents": {
+      "n_signals": 250,
+      "f_frac": 0.448
+    }
+  },
+  "atypical_antipsychotic_ranking": [
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "f_frac": 0.9286,
+      "mean_lr": 1.1677
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "n_signals": 161,
+      "f_frac": 0.8571,
+      "mean_lr": 0.9702
+    },
+    {
+      "drug": "CLOZAPINE",
+      "n_signals": 287,
+      "f_frac": 0.6864,
+      "mean_lr": 0.9135
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_signals": 426,
+      "f_frac": 0.6338,
+      "mean_lr": 1.0244
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_signals": 336,
+      "f_frac": 0.5893,
+      "mean_lr": 0.9087
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "n_signals": 342,
+      "f_frac": 0.4737,
+      "mean_lr": 0.8378
+    },
+    {
+      "drug": "ZIPRASIDONE",
+      "n_signals": 87,
+      "f_frac": 0.4483,
+      "mean_lr": 1.1038
+    },
+    {
+      "drug": "BREXPIPRAZOLE",
+      "n_signals": 43,
+      "f_frac": 0.3256,
+      "mean_lr": 0.7812
+    },
+    {
+      "drug": "LURASIDONE",
+      "n_signals": 81,
+      "f_frac": 0.2346,
+      "mean_lr": 0.8857
+    },
+    {
+      "drug": "CARIPRAZINE",
+      "n_signals": 39,
+      "f_frac": 0.0256,
+      "mean_lr": 0.8612
+    }
+  ],
+  "total_psychiatric_signals": 7348
+}
