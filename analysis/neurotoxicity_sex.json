@@ -1,0 +1,251 @@
+{
+  "overview": {
+    "n_signals": 6202,
+    "n_drugs": 1170,
+    "n_aes": 65,
+    "overall_f_pct": 61.4,
+    "mean_abs_lr": 0.955
+  },
+  "subcategories": [
+    {
+      "category": "Cerebrovascular",
+      "n_signals": 227,
+      "n_drugs": 207,
+      "mean_f_pct": 53.2,
+      "mean_lr": 0.864
+    },
+    {
+      "category": "Seizures",
+      "n_signals": 184,
+      "n_drugs": 176,
+      "mean_f_pct": 55.9,
+      "mean_lr": 0.767
+    },
+    {
+      "category": "Sleep",
+      "n_signals": 551,
+      "n_drugs": 442,
+      "mean_f_pct": 56.5,
+      "mean_lr": 1.047
+    },
+    {
+      "category": "Psychiatric_neuro",
+      "n_signals": 241,
+      "n_drugs": 211,
+      "mean_f_pct": 57.2,
+      "mean_lr": 0.86
+    },
+    {
+      "category": "Demyelinating",
+      "n_signals": 116,
+      "n_drugs": 92,
+      "mean_f_pct": 57.7,
+      "mean_lr": 0.898
+    },
+    {
+      "category": "Movement_disorders",
+      "n_signals": 444,
+      "n_drugs": 303,
+      "mean_f_pct": 58.1,
+      "mean_lr": 0.888
+    },
+    {
+      "category": "Balance_gait",
+      "n_signals": 1198,
+      "n_drugs": 693,
+      "mean_f_pct": 62.5,
+      "mean_lr": 0.92
+    },
+    {
+      "category": "Peripheral_neuropathy",
+      "n_signals": 613,
+      "n_drugs": 394,
+      "mean_f_pct": 63.2,
+      "mean_lr": 1.029
+    },
+    {
+      "category": "Cognitive",
+      "n_signals": 820,
+      "n_drugs": 469,
+      "mean_f_pct": 64.6,
+      "mean_lr": 1.084
+    },
+    {
+      "category": "Headache_pain",
+      "n_signals": 498,
+      "n_drugs": 436,
+      "mean_f_pct": 69.2,
+      "mean_lr": 0.952
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 39,
+      "mean_f_pct": 50.8,
+      "mean_lr": 0.729
+    },
+    {
+      "class": "Antipsychotics",
+      "n_drugs": 10,
+      "n_signals": 129,
+      "mean_f_pct": 54.3,
+      "mean_lr": 0.841
+    },
+    {
+      "class": "Chemotherapy",
+      "n_drugs": 9,
+      "n_signals": 93,
+      "mean_f_pct": 57.7,
+      "mean_lr": 0.829
+    },
+    {
+      "class": "Antiepileptics",
+      "n_drugs": 9,
+      "n_signals": 98,
+      "mean_f_pct": 59.7,
+      "mean_lr": 0.886
+    },
+    {
+      "class": "SSRIs",
+      "n_drugs": 6,
+      "n_signals": 58,
+      "mean_f_pct": 62.7,
+      "mean_lr": 0.846
+    },
+    {
+      "class": "SNRIs",
+      "n_drugs": 4,
+      "n_signals": 28,
+      "mean_f_pct": 63.5,
+      "mean_lr": 0.803
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 33,
+      "mean_f_pct": 79.3,
+      "total_reports": 42944
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 29,
+      "mean_f_pct": 76.2,
+      "total_reports": 40206
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 25,
+      "mean_f_pct": 75.0,
+      "total_reports": 38968
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 26,
+      "mean_f_pct": 83.7,
+      "total_reports": 36085
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 26,
+      "mean_f_pct": 76.2,
+      "total_reports": 27774
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 25,
+      "mean_f_pct": 65.7,
+      "total_reports": 27442
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 19,
+      "mean_f_pct": 78.3,
+      "total_reports": 25648
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 18,
+      "mean_f_pct": 87.9,
+      "total_reports": 24801
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 26,
+      "mean_f_pct": 85.2,
+      "total_reports": 23736
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 18,
+      "mean_f_pct": 76.3,
+      "total_reports": 23107
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 21,
+      "mean_f_pct": 84.0,
+      "total_reports": 22503
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_aes": 19,
+      "mean_f_pct": 77.4,
+      "total_reports": 21698
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_aes": 11,
+      "mean_f_pct": 85.9,
+      "total_reports": 21436
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_aes": 16,
+      "mean_f_pct": 89.7,
+      "total_reports": 20419
+    },
+    {
+      "drug": "NAPROXEN",
+      "n_aes": 24,
+      "mean_f_pct": 73.4,
+      "total_reports": 20273
+    },
+    {
+      "drug": "CETIRIZINE",
+      "n_aes": 21,
+      "mean_f_pct": 74.9,
+      "total_reports": 20189
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 21,
+      "mean_f_pct": 79.5,
+      "total_reports": 18411
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_aes": 23,
+      "mean_f_pct": 72.7,
+      "total_reports": 18313
+    },
+    {
+      "drug": "CELECOXIB",
+      "n_aes": 25,
+      "mean_f_pct": 81.7,
+      "total_reports": 18229
+    },
+    {
+      "drug": "FUMARIC ACID",
+      "n_aes": 8,
+      "mean_f_pct": 70.1,
+      "total_reports": 17466
+    }
+  ],
+  "volume_sex_correlation": {
+    "rho": 0.313,
+    "p": 5.117905510694902e-28
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "overview": {
+    "n_signals": 3993,
+    "n_drugs": 887,
+    "n_aes": 47,
+    "overall_f_pct": 60.2,
+    "mean_abs_lr": 1.052
+  },
+  "subcategories": [
+    {
+      "category": "Glucose",
+      "n_signals": 656,
+      "n_drugs": 351,
+      "mean_f_pct": 57.0,
+      "mean_lr": 0.985
+    },
+    {
+      "category": "Electrolytes",
+      "n_signals": 659,
+      "n_drugs": 415,
+      "mean_f_pct": 57.6,
+      "mean_lr": 0.941
+    },
+    {
+      "category": "Lipids",
+      "n_signals": 359,
+      "n_drugs": 207,
+      "mean_f_pct": 59.4,
+      "mean_lr": 1.35
+    },
+    {
+      "category": "Thyroid",
+      "n_signals": 187,
+      "n_drugs": 145,
+      "mean_f_pct": 59.9,
+      "mean_lr": 1.075
+    },
+    {
+      "category": "Adrenal_pituitary",
+      "n_signals": 55,
+      "n_drugs": 55,
+      "mean_f_pct": 63.7,
+      "mean_lr": 1.242
+    },
+    {
+      "category": "Fluid",
+      "n_signals": 597,
+      "n_drugs": 393,
+      "mean_f_pct": 67.6,
+      "mean_lr": 1.06
+    },
+    {
+      "category": "Weight",
+      "n_signals": 589,
+      "n_drugs": 429,
+      "mean_f_pct": 67.8,
+      "mean_lr": 1.114
+    },
+    {
+      "category": "Bone",
+      "n_signals": 169,
+      "n_drugs": 130,
+      "mean_f_pct": 69.8,
+      "mean_lr": 1.265
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 36,
+      "mean_f_pct": 49.3,
+      "mean_lr": 0.836
+    },
+    {
+      "class": "Insulins",
+      "n_drugs": 1,
+      "n_signals": 15,
+      "mean_f_pct": 51.7,
+      "mean_lr": 1.013
+    },
+    {
+      "class": "Antipsychotics",
+      "n_drugs": 5,
+      "n_signals": 76,
+      "mean_f_pct": 52.0,
+      "mean_lr": 0.998
+    },
+    {
+      "class": "Statins",
+      "n_drugs": 6,
+      "n_signals": 58,
+      "mean_f_pct": 54.4,
+      "mean_lr": 0.927
+    },
+    {
+      "class": "SGLT2i",
+      "n_drugs": 3,
+      "n_signals": 10,
+      "mean_f_pct": 54.4,
+      "mean_lr": 0.782
+    },
+    {
+      "class": "GLP1_agonists",
+      "n_drugs": 4,
+      "n_signals": 27,
+      "mean_f_pct": 55.5,
+      "mean_lr": 0.764
+    },
+    {
+      "class": "Corticosteroids",
+      "n_drugs": 5,
+      "n_signals": 92,
+      "mean_f_pct": 66.6,
+      "mean_lr": 1.256
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 25,
+      "mean_f_pct": 70.0,
+      "total_reports": 29239
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 26,
+      "mean_f_pct": 78.1,
+      "total_reports": 25935
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 23,
+      "mean_f_pct": 84.6,
+      "total_reports": 23982
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 21,
+      "mean_f_pct": 74.3,
+      "total_reports": 22598
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 21,
+      "mean_f_pct": 78.5,
+      "total_reports": 18708
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 17,
+      "mean_f_pct": 77.8,
+      "total_reports": 18227
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 14,
+      "mean_f_pct": 89.0,
+      "total_reports": 16942
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_aes": 9,
+      "mean_f_pct": 86.3,
+      "total_reports": 15951
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "n_aes": 14,
+      "mean_f_pct": 92.6,
+      "total_reports": 15232
+    },
+    {
+      "drug": "PREGABALIN",
+      "n_aes": 20,
+      "mean_f_pct": 71.7,
+      "total_reports": 14827
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 13,
+      "mean_f_pct": 80.9,
+      "total_reports": 14324
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 22,
+      "mean_f_pct": 74.8,
+      "total_reports": 13994
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 9,
+      "mean_f_pct": 89.2,
+      "total_reports": 13945
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_aes": 22,
+      "mean_f_pct": 44.6,
+      "total_reports": 13789
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 10,
+      "mean_f_pct": 91.2,
+      "total_reports": 13340
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 17,
+      "mean_f_pct": 65.7,
+      "total_reports": 12949
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 15,
+      "mean_f_pct": 90.0,
+      "total_reports": 12724
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_aes": 16,
+      "mean_f_pct": 78.9,
+      "total_reports": 12434
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 18,
+      "mean_f_pct": 77.4,
+      "total_reports": 11793
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_aes": 19,
+      "mean_f_pct": 62.3,
+      "total_reports": 11721
+    }
+  ],
+  "weight_analysis": {
+    "weight_gain": {
+      "n_signals": 237,
+      "mean_f_pct": 68.5
+    },
+    "weight_loss": {
+      "n_signals": 261,
+      "mean_f_pct": 67.6
+    }
+  },
+  "ici_endocrinopathy": {
+    "total_ici_metabolic": 36,
+    "ici_f_pct": 49.3,
+    "thyroid_n": 2,
+    "thyroid_f_pct": 62.6,
+    "adrenal_n": 3,
+    "adrenal_f_pct": 45.8
+  }
+}
