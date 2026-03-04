@@ -1,0 +1,18 @@
+{
+  "session": 9,
+  "waves_completed": "71-76",
+  "output_totals": {
+    "analysis_jsons": 184,
+    "figures_png": 251,
+    "figures_pdf": 251,
+    "paper_drafts": 31
+  },
+  "key_metrics": {
+    "total_signals": 96281,
+    "total_drugs": 2178,
+    "total_aes": 5069,
+    "organ_systems": 13,
+    "literature_concordance": 91.7,
+    "faers_reports": 14536008
+  }
+}
