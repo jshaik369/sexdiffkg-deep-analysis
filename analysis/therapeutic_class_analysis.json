@@ -1,0 +1,2349 @@
+{
+  "analysis": "therapeutic_class_deep_analysis",
+  "class_summary": [
+    {
+      "class": "ACE_Inhibitors",
+      "n_drugs": 21,
+      "n_signals": 936,
+      "n_aes": 569,
+      "pct_female": 71.9,
+      "mean_abs_lr": 1.05
+    },
+    {
+      "class": "ARBs",
+      "n_drugs": 23,
+      "n_signals": 1215,
+      "n_aes": 630,
+      "pct_female": 52.5,
+      "mean_abs_lr": 0.929
+    },
+    {
+      "class": "Anticoagulants",
+      "n_drugs": 11,
+      "n_signals": 1262,
+      "n_aes": 809,
+      "pct_female": 64.0,
+      "mean_abs_lr": 0.852
+    },
+    {
+      "class": "Antiepileptics",
+      "n_drugs": 15,
+      "n_signals": 2363,
+      "n_aes": 1155,
+      "pct_female": 46.3,
+      "mean_abs_lr": 0.934
+    },
+    {
+      "class": "Benzodiazepines",
+      "n_drugs": 20,
+      "n_signals": 1537,
+      "n_aes": 701,
+      "pct_female": 64.2,
+      "mean_abs_lr": 0.937
+    },
+    {
+      "class": "Beta_Blockers",
+      "n_drugs": 31,
+      "n_signals": 1160,
+      "n_aes": 648,
+      "pct_female": 49.2,
+      "mean_abs_lr": 0.906
+    },
+    {
+      "class": "Checkpoint_Inhibitors",
+      "n_drugs": 8,
+      "n_signals": 965,
+      "n_aes": 649,
+      "pct_female": 74.6,
+      "mean_abs_lr": 0.835
+    },
+    {
+      "class": "Corticosteroids",
+      "n_drugs": 30,
+      "n_signals": 3790,
+      "n_aes": 1794,
+      "pct_female": 67.0,
+      "mean_abs_lr": 1.068
+    },
+    {
+      "class": "Fluoroquinolones",
+      "n_drugs": 9,
+      "n_signals": 840,
+      "n_aes": 617,
+      "pct_female": 44.8,
+      "mean_abs_lr": 0.976
+    },
+    {
+      "class": "Insulins",
+      "n_drugs": 3,
+      "n_signals": 349,
+      "n_aes": 348,
+      "pct_female": 40.4,
+      "mean_abs_lr": 0.849
+    },
+    {
+      "class": "Metformin_DPP4_GLP1",
+      "n_drugs": 26,
+      "n_signals": 1569,
+      "n_aes": 875,
+      "pct_female": 51.7,
+      "mean_abs_lr": 0.836
+    },
+    {
+      "class": "NSAIDs",
+      "n_drugs": 25,
+      "n_signals": 1763,
+      "n_aes": 844,
+      "pct_female": 53.5,
+      "mean_abs_lr": 1.145
+    },
+    {
+      "class": "Opioids",
+      "n_drugs": 50,
+      "n_signals": 3812,
+      "n_aes": 1099,
+      "pct_female": 72.3,
+      "mean_abs_lr": 1.089
+    },
+    {
+      "class": "PPIs",
+      "n_drugs": 19,
+      "n_signals": 2008,
+      "n_aes": 1107,
+      "pct_female": 54.8,
+      "mean_abs_lr": 0.974
+    },
+    {
+      "class": "SSRIs",
+      "n_drugs": 12,
+      "n_signals": 1252,
+      "n_aes": 719,
+      "pct_female": 41.4,
+      "mean_abs_lr": 0.944
+    },
+    {
+      "class": "Statins",
+      "n_drugs": 16,
+      "n_signals": 1245,
+      "n_aes": 804,
+      "pct_female": 47.5,
+      "mean_abs_lr": 0.93
+    },
+    {
+      "class": "TNF_Inhibitors",
+      "n_drugs": 5,
+      "n_signals": 2696,
+      "n_aes": 1616,
+      "pct_female": 45.8,
+      "mean_abs_lr": 1.054
+    }
+  ],
+  "within_class_variability": [
+    {
+      "class": "ACE_Inhibitors",
+      "n_drugs": 21,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "AMLODIPINE;BENAZEPRIL",
+          "pct_f": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "AMLODIPINE;INDAPAMIDE;PERINDOPRIL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "BENAZEPRIL HYDROCHLORIDE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "CAPTOPRIL",
+          "pct_f": 20.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "QUINAPRIL",
+          "pct_f": 26.7,
+          "n_signals": 15
+        },
+        {
+          "drug": "LIDOCAINE;PRILOCAINE",
+          "pct_f": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "INDAPAMIDE;PERINDOPRIL",
+          "pct_f": 50.0,
+          "n_signals": 12
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;RAMIPRIL",
+          "pct_f": 55.6,
+          "n_signals": 9
+        },
+        {
+          "drug": "BENAZEPRIL",
+          "pct_f": 66.7,
+          "n_signals": 9
+        },
+        {
+          "drug": "ENALAPRIL",
+          "pct_f": 66.7,
+          "n_signals": 72
+        },
+        {
+          "drug": "ENALAPRIL MALEATE",
+          "pct_f": 66.7,
+          "n_signals": 3
+        },
+        {
+          "drug": "ENALAPRIL;HYDROCHLOROTHIAZIDE",
+          "pct_f": 66.7,
+          "n_signals": 3
+        },
+        {
+          "drug": "PERINDOPRIL",
+          "pct_f": 68.3,
+          "n_signals": 123
+        },
+        {
+          "drug": "RAMIPRIL",
+          "pct_f": 71.2,
+          "n_signals": 368
+        },
+        {
+          "drug": "FOSINOPRIL",
+          "pct_f": 75.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;LISINOPRIL",
+          "pct_f": 79.2,
+          "n_signals": 24
+        },
+        {
+          "drug": "LISINOPRIL",
+          "pct_f": 84.5,
+          "n_signals": 252
+        },
+        {
+          "drug": "TRANDOLAPRIL",
+          "pct_f": 87.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "AMLODIPINE;RAMIPRIL",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "AMLODIPINE;PERINDOPRIL",
+          "pct_f": 100.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "INDAPAMIDE\\PERINDOPRIL",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "ARBs",
+      "n_drugs": 23,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "AZILSARTAN",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "AZILSARTAN;CHLORTALIDONE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE\\OLMESARTAN MEDOXOMIL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;OLMESARTAN",
+          "pct_f": 5.3,
+          "n_signals": 19
+        },
+        {
+          "drug": "LOSARTAN POTASSIUM",
+          "pct_f": 40.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "OLMESARTAN MEDOXOMIL",
+          "pct_f": 41.7,
+          "n_signals": 12
+        },
+        {
+          "drug": "IRBESARTAN",
+          "pct_f": 43.3,
+          "n_signals": 97
+        },
+        {
+          "drug": "CANDESARTAN;HYDROCHLOROTHIAZIDE",
+          "pct_f": 43.3,
+          "n_signals": 30
+        },
+        {
+          "drug": "LOSARTAN",
+          "pct_f": 49.2,
+          "n_signals": 130
+        },
+        {
+          "drug": "OLMESARTAN",
+          "pct_f": 49.3,
+          "n_signals": 67
+        },
+        {
+          "drug": "VALSARTAN",
+          "pct_f": 49.3,
+          "n_signals": 219
+        },
+        {
+          "drug": "AMLODIPINE;OLMESARTAN",
+          "pct_f": 50.0,
+          "n_signals": 8
+        },
+        {
+          "drug": "TELMISARTAN",
+          "pct_f": 50.7,
+          "n_signals": 73
+        },
+        {
+          "drug": "CANDESARTAN",
+          "pct_f": 52.5,
+          "n_signals": 198
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;VALSARTAN",
+          "pct_f": 52.6,
+          "n_signals": 78
+        },
+        {
+          "drug": "AMLODIPINE;HYDROCHLOROTHIAZIDE;VALSARTAN",
+          "pct_f": 55.6,
+          "n_signals": 18
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;TELMISARTAN",
+          "pct_f": 62.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;IRBESARTAN",
+          "pct_f": 63.6,
+          "n_signals": 11
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;LOSARTAN",
+          "pct_f": 66.7,
+          "n_signals": 24
+        },
+        {
+          "drug": "SACUBITRIL;VALSARTAN",
+          "pct_f": 67.5,
+          "n_signals": 157
+        },
+        {
+          "drug": "AMLODIPINE;VALSARTAN",
+          "pct_f": 67.6,
+          "n_signals": 34
+        },
+        {
+          "drug": "CANDESARTAN CILEXETIL",
+          "pct_f": 73.3,
+          "n_signals": 15
+        },
+        {
+          "drug": "SACUBITRIL, TRIAL;VALSARTAN, TRIAL",
+          "pct_f": 100.0,
+          "n_signals": 4
+        }
+      ]
+    },
+    {
+      "class": "Anticoagulants",
+      "n_drugs": 11,
+      "spread_pp": 79.5,
+      "drugs": [
+        {
+          "drug": "LOW MOLECULAR WEIGHT HEPARIN",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "ENOXAPARIN",
+          "pct_f": 52.4,
+          "n_signals": 105
+        },
+        {
+          "drug": "ENOXAPARIN SODIUM",
+          "pct_f": 54.5,
+          "n_signals": 11
+        },
+        {
+          "drug": "WARFARIN",
+          "pct_f": 56.8,
+          "n_signals": 220
+        },
+        {
+          "drug": "APIXABAN",
+          "pct_f": 58.5,
+          "n_signals": 275
+        },
+        {
+          "drug": "HEPARIN SODIUM",
+          "pct_f": 58.8,
+          "n_signals": 17
+        },
+        {
+          "drug": "HEPARIN",
+          "pct_f": 63.9,
+          "n_signals": 144
+        },
+        {
+          "drug": "RIVAROXABAN",
+          "pct_f": 68.7,
+          "n_signals": 243
+        },
+        {
+          "drug": "EDOXABAN",
+          "pct_f": 74.0,
+          "n_signals": 50
+        },
+        {
+          "drug": "WARFARIN SODIUM",
+          "pct_f": 75.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "DABIGATRAN",
+          "pct_f": 79.5,
+          "n_signals": 176
+        }
+      ]
+    },
+    {
+      "class": "Antiepileptics",
+      "n_drugs": 15,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "PHENTERMINE;TOPIRAMATE",
+          "pct_f": 0.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "GABAPENTIN",
+          "pct_f": 34.8,
+          "n_signals": 333
+        },
+        {
+          "drug": "CARBAMAZEPINE",
+          "pct_f": 38.9,
+          "n_signals": 180
+        },
+        {
+          "drug": "LAMOTRIGINE",
+          "pct_f": 43.6,
+          "n_signals": 319
+        },
+        {
+          "drug": "LEVETIRACETAM",
+          "pct_f": 45.3,
+          "n_signals": 258
+        },
+        {
+          "drug": "OXCARBAZEPINE",
+          "pct_f": 47.2,
+          "n_signals": 108
+        },
+        {
+          "drug": "TOPIRAMATE",
+          "pct_f": 48.0,
+          "n_signals": 200
+        },
+        {
+          "drug": "LACOSAMIDE",
+          "pct_f": 49.0,
+          "n_signals": 98
+        },
+        {
+          "drug": "VALPROIC ACID",
+          "pct_f": 49.3,
+          "n_signals": 339
+        },
+        {
+          "drug": "PREGABALIN",
+          "pct_f": 53.9,
+          "n_signals": 406
+        },
+        {
+          "drug": "PHENYTOIN",
+          "pct_f": 60.2,
+          "n_signals": 88
+        },
+        {
+          "drug": "VALPROATE SODIUM",
+          "pct_f": 66.7,
+          "n_signals": 18
+        },
+        {
+          "drug": "FOSPHENYTOIN",
+          "pct_f": 100.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "FOSPHENYTOIN SODIUM",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PHENYTOIN SODIUM",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "Benzodiazepines",
+      "n_drugs": 20,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "TETRAZEPAM",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "CLOTIAZEPAM",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "FLURAZEPAM",
+          "pct_f": 14.3,
+          "n_signals": 14
+        },
+        {
+          "drug": "NITRAZEPAM",
+          "pct_f": 28.6,
+          "n_signals": 7
+        },
+        {
+          "drug": "CLOBAZAM",
+          "pct_f": 34.4,
+          "n_signals": 64
+        },
+        {
+          "drug": "DELORAZEPAM",
+          "pct_f": 45.5,
+          "n_signals": 11
+        },
+        {
+          "drug": "TEMAZEPAM",
+          "pct_f": 50.7,
+          "n_signals": 71
+        },
+        {
+          "drug": "BROMAZEPAM",
+          "pct_f": 52.9,
+          "n_signals": 68
+        },
+        {
+          "drug": "PRAZEPAM",
+          "pct_f": 60.0,
+          "n_signals": 15
+        },
+        {
+          "drug": "LORMETAZEPAM",
+          "pct_f": 60.0,
+          "n_signals": 25
+        },
+        {
+          "drug": "CLONAZEPAM",
+          "pct_f": 62.1,
+          "n_signals": 285
+        },
+        {
+          "drug": "LORAZEPAM",
+          "pct_f": 62.5,
+          "n_signals": 264
+        },
+        {
+          "drug": "MIDAZOLAM",
+          "pct_f": 62.6,
+          "n_signals": 107
+        },
+        {
+          "drug": "OXAZEPAM",
+          "pct_f": 64.8,
+          "n_signals": 88
+        },
+        {
+          "drug": "ALPRAZOLAM",
+          "pct_f": 75.1,
+          "n_signals": 237
+        },
+        {
+          "drug": "DIAZEPAM",
+          "pct_f": 76.4,
+          "n_signals": 250
+        },
+        {
+          "drug": "NORDAZEPAM",
+          "pct_f": 84.2,
+          "n_signals": 19
+        },
+        {
+          "drug": "FLUNITRAZEPAM",
+          "pct_f": 100.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "MIDAZOLAM HYDROCHLORIDE",
+          "pct_f": 100.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "FLURAZEPAM HYDROCHLORIDE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "Beta_Blockers",
+      "n_drugs": 31,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "TIMOLOL;TRAVOPROST",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LEVOBUNOLOL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LABETALOL HYDROCHLORIDE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "TIMOLOL MALEATE\\TRAVOPROST",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "DORZOLAMIDE HYDROCHLORIDE\\TIMOLOL MALEATE",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "BRINZOLAMIDE;TIMOLOL",
+          "pct_f": 0.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "BRIMONIDINE;TIMOLOL",
+          "pct_f": 0.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "BRIMONIDINE TARTRATE\\TIMOLOL MALEATE",
+          "pct_f": 0.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "DORZOLAMIDE\\TIMOLOL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "BETAXOLOL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "ATENOLOL;CHLORTHALIDONE",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "ATENOLOL;CHLORTALIDONE",
+          "pct_f": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "BISOPROLOL;HYDROCHLOROTHIAZIDE",
+          "pct_f": 12.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "LABETALOL",
+          "pct_f": 18.2,
+          "n_signals": 22
+        },
+        {
+          "drug": "DORZOLAMIDE;TIMOLOL",
+          "pct_f": 18.8,
+          "n_signals": 16
+        },
+        {
+          "drug": "TIMOLOL MALEATE",
+          "pct_f": 25.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "NADOLOL",
+          "pct_f": 25.0,
+          "n_signals": 12
+        },
+        {
+          "drug": "PROPRANOLOL",
+          "pct_f": 27.6,
+          "n_signals": 123
+        },
+        {
+          "drug": "METOPROLOL TARTRATE",
+          "pct_f": 33.3,
+          "n_signals": 24
+        },
+        {
+          "drug": "BISOPROLOL FUMARATE",
+          "pct_f": 42.3,
+          "n_signals": 26
+        },
+        {
+          "drug": "METOPROLOL SUCCINATE",
+          "pct_f": 43.3,
+          "n_signals": 30
+        },
+        {
+          "drug": "TIMOLOL",
+          "pct_f": 46.7,
+          "n_signals": 15
+        },
+        {
+          "drug": "NEBIVOLOL",
+          "pct_f": 50.0,
+          "n_signals": 38
+        },
+        {
+          "drug": "CARVEDILOL",
+          "pct_f": 52.7,
+          "n_signals": 112
+        },
+        {
+          "drug": "METOPROLOL",
+          "pct_f": 53.7,
+          "n_signals": 244
+        },
+        {
+          "drug": "SOTALOL",
+          "pct_f": 58.3,
+          "n_signals": 24
+        },
+        {
+          "drug": "BISOPROLOL",
+          "pct_f": 60.4,
+          "n_signals": 270
+        },
+        {
+          "drug": "ATENOLOL",
+          "pct_f": 66.2,
+          "n_signals": 136
+        },
+        {
+          "drug": "PROPRANOLOL HYDROCHLORIDE",
+          "pct_f": 66.7,
+          "n_signals": 6
+        },
+        {
+          "drug": "ACEBUTOLOL",
+          "pct_f": 83.3,
+          "n_signals": 6
+        },
+        {
+          "drug": "HYDROCHLOROTHIAZIDE;NEBIVOLOL",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "Checkpoint_Inhibitors",
+      "n_drugs": 8,
+      "spread_pp": 18.9,
+      "drugs": [
+        {
+          "drug": "NIVOLUMAB",
+          "pct_f": 66.8,
+          "n_signals": 238
+        },
+        {
+          "drug": "PEMBROLIZUMAB",
+          "pct_f": 73.1,
+          "n_signals": 309
+        },
+        {
+          "drug": "AVELUMAB",
+          "pct_f": 73.7,
+          "n_signals": 19
+        },
+        {
+          "drug": "CEMIPLIMAB",
+          "pct_f": 75.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "IPILIMUMAB",
+          "pct_f": 75.8,
+          "n_signals": 161
+        },
+        {
+          "drug": "ATEZOLIZUMAB",
+          "pct_f": 82.9,
+          "n_signals": 152
+        },
+        {
+          "drug": "DURVALUMAB",
+          "pct_f": 85.2,
+          "n_signals": 61
+        },
+        {
+          "drug": "TREMELIMUMAB",
+          "pct_f": 85.7,
+          "n_signals": 21
+        }
+      ]
+    },
+    {
+      "class": "Corticosteroids",
+      "n_drugs": 30,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "SALBUTAMOL;BUDESONIDE",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "BETAMETHASONE DIPROPIONATE\\CLOTRIMAZOLE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "HYDROCORTISONE;NEOMYCIN;POLYMYXIN B",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "DEXAMETHASONE;NEOMYCIN;POLYMYXIN B",
+          "pct_f": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "CIPROFLOXACIN;DEXAMETHASONE",
+          "pct_f": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "DEXAMETHASONE;TOBRAMYCIN",
+          "pct_f": 9.1,
+          "n_signals": 11
+        },
+        {
+          "drug": "PREDNISOLONE ACETATE",
+          "pct_f": 12.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "DEXAMETHASONE SODIUM PHOSPHATE",
+          "pct_f": 25.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "HYDROCORTISONE;PRAMOCAINE",
+          "pct_f": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "TRIAMCINOLONE ACETONIDE",
+          "pct_f": 33.3,
+          "n_signals": 9
+        },
+        {
+          "drug": "BETAMETHASONE;CALCIPOTRIOL",
+          "pct_f": 33.3,
+          "n_signals": 9
+        },
+        {
+          "drug": "BETAMETHASONE",
+          "pct_f": 35.4,
+          "n_signals": 130
+        },
+        {
+          "drug": "BUDESONIDE;FORMOTEROL",
+          "pct_f": 37.6,
+          "n_signals": 245
+        },
+        {
+          "drug": "BUDESONIDE",
+          "pct_f": 45.2,
+          "n_signals": 259
+        },
+        {
+          "drug": "BETAMETHASONE DIPROPIONATE",
+          "pct_f": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "HYDROCORTISONE",
+          "pct_f": 50.7,
+          "n_signals": 302
+        },
+        {
+          "drug": "TRIAMCINOLONE",
+          "pct_f": 60.0,
+          "n_signals": 170
+        },
+        {
+          "drug": "BUDESONIDE;FORMOTEROL;GLYCOPYRRONIUM",
+          "pct_f": 69.6,
+          "n_signals": 23
+        },
+        {
+          "drug": "PREDNISONE",
+          "pct_f": 70.2,
+          "n_signals": 926
+        },
+        {
+          "drug": "METHYLPREDNISOLONE",
+          "pct_f": 77.2,
+          "n_signals": 521
+        },
+        {
+          "drug": "DEXAMETHASONE",
+          "pct_f": 80.3,
+          "n_signals": 537
+        },
+        {
+          "drug": "PREDNISOLONE",
+          "pct_f": 82.5,
+          "n_signals": 542
+        },
+        {
+          "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+          "pct_f": 91.2,
+          "n_signals": 68
+        },
+        {
+          "drug": "HYDROCORTISONE ACETATE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "BUDESONIDE\\FORMOTEROL FUMARATE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE",
+          "pct_f": 100.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "BETAMETHASONE VALERATE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "PREDNISOLONE SODIUM PHOSPHATE",
+          "pct_f": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "CISPLATIN;CYTARABINE;DEXAMETHASONE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "BETAMETHASONE;CLOTRIMAZOLE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "Fluoroquinolones",
+      "n_drugs": 9,
+      "spread_pp": 58.9,
+      "drugs": [
+        {
+          "drug": "CIPROFLOXACIN;DEXAMETHASONE",
+          "pct_f": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "NORFLOXACIN",
+          "pct_f": 0.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "CIPROFLOXACIN HYDROCHLORIDE",
+          "pct_f": 15.4,
+          "n_signals": 13
+        },
+        {
+          "drug": "OFLOXACIN",
+          "pct_f": 20.0,
+          "n_signals": 40
+        },
+        {
+          "drug": "CIPROFLOXACIN",
+          "pct_f": 41.2,
+          "n_signals": 342
+        },
+        {
+          "drug": "LEVOFLOXACIN",
+          "pct_f": 46.5,
+          "n_signals": 254
+        },
+        {
+          "drug": "BESIFLOXACIN",
+          "pct_f": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "MOXIFLOXACIN HYDROCHLORIDE",
+          "pct_f": 50.0,
+          "n_signals": 6
+        },
+        {
+          "drug": "MOXIFLOXACIN",
+          "pct_f": 58.9,
+          "n_signals": 175
+        }
+      ]
+    },
+    {
+      "class": "Insulins",
+      "n_drugs": 3,
+      "spread_pp": 60.5,
+      "drugs": [
+        {
+          "drug": "INSULIN",
+          "pct_f": 39.5,
+          "n_signals": 339
+        },
+        {
+          "drug": "INSULIN;LIXISENATIDE",
+          "pct_f": 66.7,
+          "n_signals": 9
+        },
+        {
+          "drug": "INSULIN;LIRAGLUTIDE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "Metformin_DPP4_GLP1",
+      "n_drugs": 26,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "ALOGLIPTIN;METFORMIN",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LINAGLIPTIN;METFORMIN",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LIRAGLUTIDE",
+          "pct_f": 13.9,
+          "n_signals": 101
+        },
+        {
+          "drug": "EMPAGLIFLOZIN;LINAGLIPTIN",
+          "pct_f": 25.0,
+          "n_signals": 8
+        },
+        {
+          "drug": "DULAGLUTIDE",
+          "pct_f": 27.3,
+          "n_signals": 77
+        },
+        {
+          "drug": "SEMAGLUTIDE",
+          "pct_f": 31.6,
+          "n_signals": 152
+        },
+        {
+          "drug": "EXENATIDE",
+          "pct_f": 39.1,
+          "n_signals": 92
+        },
+        {
+          "drug": "METFORMIN;SITAGLIPTIN",
+          "pct_f": 48.3,
+          "n_signals": 58
+        },
+        {
+          "drug": "METFORMIN HYDROCHLORIDE",
+          "pct_f": 50.8,
+          "n_signals": 59
+        },
+        {
+          "drug": "LINAGLIPTIN",
+          "pct_f": 52.4,
+          "n_signals": 42
+        },
+        {
+          "drug": "SITAGLIPTIN",
+          "pct_f": 55.2,
+          "n_signals": 154
+        },
+        {
+          "drug": "DAPAGLIFLOZIN",
+          "pct_f": 59.1,
+          "n_signals": 154
+        },
+        {
+          "drug": "CANAGLIFLOZIN;METFORMIN",
+          "pct_f": 60.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "EMPAGLIFLOZIN",
+          "pct_f": 60.4,
+          "n_signals": 96
+        },
+        {
+          "drug": "CANAGLIFLOZIN",
+          "pct_f": 60.9,
+          "n_signals": 69
+        },
+        {
+          "drug": "METFORMIN",
+          "pct_f": 62.4,
+          "n_signals": 399
+        },
+        {
+          "drug": "METFORMIN;SAXAGLIPTIN",
+          "pct_f": 66.7,
+          "n_signals": 3
+        },
+        {
+          "drug": "SAXAGLIPTIN",
+          "pct_f": 66.7,
+          "n_signals": 18
+        },
+        {
+          "drug": "DAPAGLIFLOZIN;METFORMIN",
+          "pct_f": 72.7,
+          "n_signals": 11
+        },
+        {
+          "drug": "EMPAGLIFLOZIN;METFORMIN",
+          "pct_f": 80.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "METFORMIN;VILDAGLIPTIN",
+          "pct_f": 82.8,
+          "n_signals": 29
+        },
+        {
+          "drug": "INSULIN;LIRAGLUTIDE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "LINAGLIPTIN, TRIAL",
+          "pct_f": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "METFORMIN HYDROCHLORIDE\\VILDAGLIPTIN",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "METFORMIN;ROSIGLITAZONE",
+          "pct_f": 100.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "EMPAGLIFLOZIN\\LINAGLIPTIN\\METFORMIN HYDROCHLORIDE",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "NSAIDs",
+      "n_drugs": 25,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "KETOROLAC TROMETHAMINE",
+          "pct_f": 0.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "DEXKETOPROFEN",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "DICLOFENAC POTASSIUM",
+          "pct_f": 0.0,
+          "n_signals": 6
+        },
+        {
+          "drug": "DIPHENHYDRAMINE;IBUPROFEN",
+          "pct_f": 0.0,
+          "n_signals": 8
+        },
+        {
+          "drug": "DIPHENHYDRAMINE;NAPROXEN",
+          "pct_f": 0.0,
+          "n_signals": 6
+        },
+        {
+          "drug": "NAPROXEN;PSEUDOEPHEDRINE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "IBUPROFEN;PARACETAMOL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "IBUPROFEN;PHENYLEPHRINE",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "IBUPROFEN;PSEUDOEPHEDRINE",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "KETOROLAC",
+          "pct_f": 20.0,
+          "n_signals": 60
+        },
+        {
+          "drug": "DICLOFENAC SODIUM",
+          "pct_f": 26.9,
+          "n_signals": 67
+        },
+        {
+          "drug": "DICLOFENAC;MISOPROSTOL",
+          "pct_f": 33.3,
+          "n_signals": 9
+        },
+        {
+          "drug": "FAMOTIDINE;IBUPROFEN",
+          "pct_f": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "NAPROXEN SODIUM",
+          "pct_f": 38.5,
+          "n_signals": 13
+        },
+        {
+          "drug": "INDOMETHACIN",
+          "pct_f": 50.0,
+          "n_signals": 12
+        },
+        {
+          "drug": "DICLOFENAC",
+          "pct_f": 50.6,
+          "n_signals": 401
+        },
+        {
+          "drug": "ESOMEPRAZOLE;NAPROXEN",
+          "pct_f": 53.8,
+          "n_signals": 13
+        },
+        {
+          "drug": "NAPROXEN",
+          "pct_f": 54.1,
+          "n_signals": 331
+        },
+        {
+          "drug": "IBUPROFEN",
+          "pct_f": 59.4,
+          "n_signals": 372
+        },
+        {
+          "drug": "MELOXICAM",
+          "pct_f": 59.8,
+          "n_signals": 87
+        },
+        {
+          "drug": "CELECOXIB",
+          "pct_f": 63.1,
+          "n_signals": 274
+        },
+        {
+          "drug": "KETOPROFEN",
+          "pct_f": 66.1,
+          "n_signals": 59
+        },
+        {
+          "drug": "PIROXICAM",
+          "pct_f": 81.0,
+          "n_signals": 21
+        },
+        {
+          "drug": "HYDROCODONE;IBUPROFEN",
+          "pct_f": 87.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "CODEINE;IBUPROFEN",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "Opioids",
+      "n_drugs": 50,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "CHLORPHENAMINE;HYDROCODONE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "MORPHINE;NALTREXONE",
+          "pct_f": 0.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "ACETAMINOPHEN\\TRAMADOL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "CAFFEINE;CODEINE;PARACETAMOL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "BUTALBITAL;CAFFEINE;CODEINE;PARACETAMOL",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "ASPIRIN\\OXYCODONE HYDROCHLORIDE\\OXYCODONE TEREPHTHALATE",
+          "pct_f": 0.0,
+          "n_signals": 3
+        },
+        {
+          "drug": "BUPRENORPHINE\\NALOXONE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "MORPHINE SULFATE",
+          "pct_f": 12.8,
+          "n_signals": 86
+        },
+        {
+          "drug": "APOMORPHINE",
+          "pct_f": 23.1,
+          "n_signals": 39
+        },
+        {
+          "drug": "NALOXONE;OXYCODONE",
+          "pct_f": 28.6,
+          "n_signals": 14
+        },
+        {
+          "drug": "BUPRENORPHINE;NALOXONE",
+          "pct_f": 31.1,
+          "n_signals": 90
+        },
+        {
+          "drug": "CODEINE SULFATE",
+          "pct_f": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE",
+          "pct_f": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "BUPRENORPHINE HYDROCHLORIDE\\NALOXONE HYDROCHLORIDE",
+          "pct_f": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "CODEINE;PROMETHAZINE",
+          "pct_f": 42.9,
+          "n_signals": 7
+        },
+        {
+          "drug": "TAPENTADOL",
+          "pct_f": 43.6,
+          "n_signals": 39
+        },
+        {
+          "drug": "CHLORPHENAMINE;CODEINE;PSEUDOEPHEDRINE",
+          "pct_f": 50.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "HYDROMORPHONE HYDROCHLORIDE",
+          "pct_f": 50.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "BUPRENORPHINE",
+          "pct_f": 54.0,
+          "n_signals": 261
+        },
+        {
+          "drug": "DIHYDROCODEINE",
+          "pct_f": 57.1,
+          "n_signals": 7
+        },
+        {
+          "drug": "METHADONE HYDROCHLORIDE",
+          "pct_f": 57.1,
+          "n_signals": 7
+        },
+        {
+          "drug": "TRAMADOL HYDROCHLORIDE",
+          "pct_f": 59.0,
+          "n_signals": 39
+        },
+        {
+          "drug": "OXYCODONE HYDROCHLORIDE",
+          "pct_f": 59.7,
+          "n_signals": 67
+        },
+        {
+          "drug": "HYDROCODONE",
+          "pct_f": 68.4,
+          "n_signals": 76
+        },
+        {
+          "drug": "ACETYLSALICYLIC ACID;OXYCODONE",
+          "pct_f": 69.2,
+          "n_signals": 13
+        },
+        {
+          "drug": "FENTANYL CITRATE",
+          "pct_f": 72.4,
+          "n_signals": 29
+        },
+        {
+          "drug": "PARACETAMOL;TRAMADOL",
+          "pct_f": 73.5,
+          "n_signals": 83
+        },
+        {
+          "drug": "METHADONE",
+          "pct_f": 73.8,
+          "n_signals": 107
+        },
+        {
+          "drug": "FENTANYL",
+          "pct_f": 74.6,
+          "n_signals": 291
+        },
+        {
+          "drug": "TRAMADOL",
+          "pct_f": 75.3,
+          "n_signals": 360
+        },
+        {
+          "drug": "HYDROCODONE;PARACETAMOL",
+          "pct_f": 75.6,
+          "n_signals": 197
+        },
+        {
+          "drug": "CODEINE",
+          "pct_f": 75.8,
+          "n_signals": 190
+        },
+        {
+          "drug": "HYDROMORPHONE",
+          "pct_f": 76.5,
+          "n_signals": 311
+        },
+        {
+          "drug": "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE\\OXYCODONE TEREPHTHALATE",
+          "pct_f": 78.8,
+          "n_signals": 33
+        },
+        {
+          "drug": "ACETAMINOPHEN\\CODEINE PHOSPHATE",
+          "pct_f": 80.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "OXYCODONE;PARACETAMOL",
+          "pct_f": 80.8,
+          "n_signals": 265
+        },
+        {
+          "drug": "DIAMORPHINE",
+          "pct_f": 82.9,
+          "n_signals": 41
+        },
+        {
+          "drug": "MORPHINE",
+          "pct_f": 83.4,
+          "n_signals": 441
+        },
+        {
+          "drug": "CODEINE;PARACETAMOL",
+          "pct_f": 83.7,
+          "n_signals": 141
+        },
+        {
+          "drug": "OXYCODONE",
+          "pct_f": 85.0,
+          "n_signals": 492
+        },
+        {
+          "drug": "HYDROCODONE;IBUPROFEN",
+          "pct_f": 87.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "CAFFEINE;DIHYDROCODEINE;PARACETAMOL",
+          "pct_f": 92.9,
+          "n_signals": 14
+        },
+        {
+          "drug": "LEVOMETHADONE",
+          "pct_f": 100.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "GUAIFENESIN;HYDROCODONE",
+          "pct_f": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "CODEINE;IBUPROFEN",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "CODEINE;GUAIFENESIN",
+          "pct_f": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "CHLORPHENIRAMINE;HYDROCODONE;PSEUDOEPHEDRINE",
+          "pct_f": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "PARAFLUOROFENTANYL",
+          "pct_f": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "ACETYLFENTANYL",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "DESMETRAMADOL",
+          "pct_f": 100.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    {
+      "class": "PPIs",
+      "n_drugs": 19,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "AMOXICILLIN;CLARITHROMYCIN;ESOMEPRAZOLE",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "ESOMEPRAZOLE;MAGNESIUM",
+          "pct_f": 0.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "OMEPRAZOLE;SODIUM BICARBONATE",
+          "pct_f": 25.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "RABEPRAZOLE",
+          "pct_f": 32.3,
+          "n_signals": 65
+        },
+        {
+          "drug": "BREXPIPRAZOLE",
+          "pct_f": 32.6,
+          "n_signals": 43
+        },
+        {
+          "drug": "ESOMEPRAZOLE MAGNESIUM",
+          "pct_f": 45.9,
+          "n_signals": 61
+        },
+        {
+          "drug": "ARIPIPRAZOLE",
+          "pct_f": 47.4,
+          "n_signals": 342
+        },
+        {
+          "drug": "DEXLANSOPRAZOLE",
+          "pct_f": 51.3,
+          "n_signals": 78
+        },
+        {
+          "drug": "ESOMEPRAZOLE;NAPROXEN",
+          "pct_f": 53.8,
+          "n_signals": 13
+        },
+        {
+          "drug": "OMEPRAZOLE",
+          "pct_f": 54.2,
+          "n_signals": 319
+        },
+        {
+          "drug": "LANSOPRAZOLE",
+          "pct_f": 57.5,
+          "n_signals": 240
+        },
+        {
+          "drug": "OMEPRAZOLE MAGNESIUM",
+          "pct_f": 60.0,
+          "n_signals": 5
+        },
+        {
+          "drug": "PANTOPRAZOLE",
+          "pct_f": 60.3,
+          "n_signals": 501
+        },
+        {
+          "drug": "ESOMEPRAZOLE",
+          "pct_f": 60.4,
+          "n_signals": 308
+        },
+        {
+          "drug": "PANTOPRAZOLE SODIUM",
+          "pct_f": 87.5,
+          "n_signals": 16
+        },
+        {
+          "drug": "ESOMEPRAZOLE SODIUM",
+          "pct_f": 100.0,
+          "n_signals": 1
+        },
+        {
+          "drug": "OMEPRAZOLE SODIUM",
+          "pct_f": 100.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "AMOXICILLIN;CLARITHROMYCIN;LANSOPRAZOLE",
+          "pct_f": 100.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "OMEPRAZOLE\\SODIUM BICARBONATE",
+          "pct_f": 100.0,
+          "n_signals": 4
+        }
+      ]
+    },
+    {
+      "class": "SSRIs",
+      "n_drugs": 12,
+      "spread_pp": 56.5,
+      "drugs": [
+        {
+          "drug": "FLUOXETINE;OLANZAPINE",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "ESCITALOPRAM OXALATE",
+          "pct_f": 12.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "CITALOPRAM HYDROBROMIDE",
+          "pct_f": 16.7,
+          "n_signals": 6
+        },
+        {
+          "drug": "PAROXETINE HYDROCHLORIDE",
+          "pct_f": 22.7,
+          "n_signals": 22
+        },
+        {
+          "drug": "ESCITALOPRAM",
+          "pct_f": 28.1,
+          "n_signals": 217
+        },
+        {
+          "drug": "FLUVOXAMINE",
+          "pct_f": 33.3,
+          "n_signals": 30
+        },
+        {
+          "drug": "FLUOXETINE",
+          "pct_f": 36.3,
+          "n_signals": 204
+        },
+        {
+          "drug": "SERTRALINE HYDROCHLORIDE",
+          "pct_f": 37.5,
+          "n_signals": 24
+        },
+        {
+          "drug": "SERTRALINE",
+          "pct_f": 42.1,
+          "n_signals": 302
+        },
+        {
+          "drug": "FLUOXETINE HYDROCHLORIDE",
+          "pct_f": 42.9,
+          "n_signals": 14
+        },
+        {
+          "drug": "PAROXETINE",
+          "pct_f": 48.4,
+          "n_signals": 186
+        },
+        {
+          "drug": "CITALOPRAM",
+          "pct_f": 56.5,
+          "n_signals": 237
+        }
+      ]
+    },
+    {
+      "class": "Statins",
+      "n_drugs": 16,
+      "spread_pp": 100.0,
+      "drugs": [
+        {
+          "drug": "SIMVASTATIN;VITAMIN B3",
+          "pct_f": 0.0,
+          "n_signals": 2
+        },
+        {
+          "drug": "ATORVASTATIN CALCIUM",
+          "pct_f": 19.0,
+          "n_signals": 63
+        },
+        {
+          "drug": "PITAVASTATIN",
+          "pct_f": 33.3,
+          "n_signals": 3
+        },
+        {
+          "drug": "PRAVASTATIN SODIUM",
+          "pct_f": 33.3,
+          "n_signals": 6
+        },
+        {
+          "drug": "NYSTATIN",
+          "pct_f": 35.0,
+          "n_signals": 20
+        },
+        {
+          "drug": "PRAVASTATIN",
+          "pct_f": 37.3,
+          "n_signals": 67
+        },
+        {
+          "drug": "FLUVASTATIN",
+          "pct_f": 42.9,
+          "n_signals": 21
+        },
+        {
+          "drug": "ROSUVASTATIN CALCIUM",
+          "pct_f": 46.2,
+          "n_signals": 26
+        },
+        {
+          "drug": "ATORVASTATIN",
+          "pct_f": 46.4,
+          "n_signals": 388
+        },
+        {
+          "drug": "ROSUVASTATIN",
+          "pct_f": 49.0,
+          "n_signals": 337
+        },
+        {
+          "drug": "SIMVASTATIN",
+          "pct_f": 52.5,
+          "n_signals": 261
+        },
+        {
+          "drug": "LOVASTATIN",
+          "pct_f": 62.5,
+          "n_signals": 8
+        },
+        {
+          "drug": "EZETIMIBE;SIMVASTATIN",
+          "pct_f": 72.7,
+          "n_signals": 11
+        },
+        {
+          "drug": "CILASTATIN;IMIPENEM",
+          "pct_f": 81.0,
+          "n_signals": 21
+        },
+        {
+          "drug": "ATORVASTATIN;EZETIMIBE",
+          "pct_f": 100.0,
+          "n_signals": 8
+        },
+        {
+          "drug": "PENTOSTATIN",
+          "pct_f": 100.0,
+          "n_signals": 3
+        }
+      ]
+    },
+    {
+      "class": "TNF_Inhibitors",
+      "n_drugs": 5,
+      "spread_pp": 17.5,
+      "drugs": [
+        {
+          "drug": "ADALIMUMAB",
+          "pct_f": 38.2,
+          "n_signals": 807
+        },
+        {
+          "drug": "ETANERCEPT",
+          "pct_f": 42.6,
+          "n_signals": 618
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "pct_f": 50.4,
+          "n_signals": 623
+        },
+        {
+          "drug": "CERTOLIZUMAB",
+          "pct_f": 52.5,
+          "n_signals": 314
+        },
+        {
+          "drug": "GOLIMUMAB",
+          "pct_f": 55.7,
+          "n_signals": 334
+        }
+      ]
+    }
+  ],
+  "cross_class_ae_comparison": [
+    {
+      "ae": "Nausea",
+      "classes": [
+        {
+          "class": "ACE_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Fluoroquinolones",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Corticosteroids",
+          "pct_f": 83.3,
+          "n_drugs": 6
+        },
+        {
+          "class": "Benzodiazepines",
+          "pct_f": 80.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "ARBs",
+          "pct_f": 66.7,
+          "n_drugs": 6
+        },
+        {
+          "class": "Statins",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Opioids",
+          "pct_f": 33.3,
+          "n_drugs": 3
+        },
+        {
+          "class": "PPIs",
+          "pct_f": 25.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "Beta_Blockers",
+          "pct_f": 20.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "NSAIDs",
+          "pct_f": 16.7,
+          "n_drugs": 6
+        },
+        {
+          "class": "Anticoagulants",
+          "pct_f": 0.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Antiepileptics",
+          "pct_f": 0.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Metformin_DPP4_GLP1",
+          "pct_f": 0.0,
+          "n_drugs": 1
+        }
+      ]
+    },
+    {
+      "ae": "Headache",
+      "classes": [
+        {
+          "class": "Benzodiazepines",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Beta_Blockers",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "PPIs",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "TNF_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Corticosteroids",
+          "pct_f": 83.3,
+          "n_drugs": 6
+        },
+        {
+          "class": "ACE_Inhibitors",
+          "pct_f": 80.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "NSAIDs",
+          "pct_f": 80.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "ARBs",
+          "pct_f": 75.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "Opioids",
+          "pct_f": 71.4,
+          "n_drugs": 14
+        },
+        {
+          "class": "Fluoroquinolones",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Metformin_DPP4_GLP1",
+          "pct_f": 50.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "Statins",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Anticoagulants",
+          "pct_f": 0.0,
+          "n_drugs": 3
+        },
+        {
+          "class": "Antiepileptics",
+          "pct_f": 0.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "SSRIs",
+          "pct_f": 0.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Dizziness",
+      "classes": [
+        {
+          "class": "Corticosteroids",
+          "pct_f": 100.0,
+          "n_drugs": 8
+        },
+        {
+          "class": "Fluoroquinolones",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "TNF_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "class": "NSAIDs",
+          "pct_f": 87.5,
+          "n_drugs": 8
+        },
+        {
+          "class": "Opioids",
+          "pct_f": 87.5,
+          "n_drugs": 8
+        },
+        {
+          "class": "Benzodiazepines",
+          "pct_f": 75.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "Antiepileptics",
+          "pct_f": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "class": "PPIs",
+          "pct_f": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "class": "SSRIs",
+          "pct_f": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "class": "ACE_Inhibitors",
+          "pct_f": 50.0,
+          "n_drugs": 6
+        },
+        {
+          "class": "Metformin_DPP4_GLP1",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Statins",
+          "pct_f": 50.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "ARBs",
+          "pct_f": 0.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Anticoagulants",
+          "pct_f": 0.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Beta_Blockers",
+          "pct_f": 0.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Fatigue",
+      "classes": [
+        {
+          "class": "Antiepileptics",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Beta_Blockers",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Checkpoint_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Fluoroquinolones",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "TNF_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "Opioids",
+          "pct_f": 91.7,
+          "n_drugs": 12
+        },
+        {
+          "class": "NSAIDs",
+          "pct_f": 87.5,
+          "n_drugs": 8
+        },
+        {
+          "class": "Corticosteroids",
+          "pct_f": 83.3,
+          "n_drugs": 6
+        },
+        {
+          "class": "Benzodiazepines",
+          "pct_f": 80.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "ACE_Inhibitors",
+          "pct_f": 75.0,
+          "n_drugs": 8
+        },
+        {
+          "class": "PPIs",
+          "pct_f": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "class": "ARBs",
+          "pct_f": 60.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "SSRIs",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Statins",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Metformin_DPP4_GLP1",
+          "pct_f": 0.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Rash",
+      "classes": [
+        {
+          "class": "Antiepileptics",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Benzodiazepines",
+          "pct_f": 100.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "Fluoroquinolones",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "PPIs",
+          "pct_f": 100.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "SSRIs",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "TNF_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "Opioids",
+          "pct_f": 93.8,
+          "n_drugs": 16
+        },
+        {
+          "class": "Corticosteroids",
+          "pct_f": 85.7,
+          "n_drugs": 7
+        },
+        {
+          "class": "NSAIDs",
+          "pct_f": 80.0,
+          "n_drugs": 10
+        },
+        {
+          "class": "Beta_Blockers",
+          "pct_f": 75.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "ACE_Inhibitors",
+          "pct_f": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "class": "ARBs",
+          "pct_f": 50.0,
+          "n_drugs": 4
+        },
+        {
+          "class": "Statins",
+          "pct_f": 33.3,
+          "n_drugs": 3
+        }
+      ]
+    },
+    {
+      "ae": "Diarrhoea",
+      "classes": [
+        {
+          "class": "ACE_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 6
+        },
+        {
+          "class": "Anticoagulants",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Beta_Blockers",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Corticosteroids",
+          "pct_f": 100.0,
+          "n_drugs": 6
+        },
+        {
+          "class": "Fluoroquinolones",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "Insulins",
+          "pct_f": 100.0,
+          "n_drugs": 1
+        },
+        {
+          "class": "PPIs",
+          "pct_f": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "TNF_Inhibitors",
+          "pct_f": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "class": "Opioids",
+          "pct_f": 92.3,
+          "n_drugs": 13
+        },
+        {
+          "class": "NSAIDs",
+          "pct_f": 87.5,
+          "n_drugs": 8
+        },
+        {
+          "class": "Antiepileptics",
+          "pct_f": 80.0,
+          "n_drugs": 5
+        },
+        {
+          "class": "Benzodiazepines",
+          "pct_f": 71.4,
+          "n_drugs": 7
+        },
+        {
+          "class": "ARBs",
+          "pct_f": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "class": "Metformin_DPP4_GLP1",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "SSRIs",
+          "pct_f": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "class": "Statins",
+          "pct_f": 33.3,
+          "n_drugs": 3
+        }
+      ]
+    }
+  ]
+}

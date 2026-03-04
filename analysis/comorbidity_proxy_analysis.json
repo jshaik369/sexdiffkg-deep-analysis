@@ -1,0 +1,134 @@
+{
+  "analysis": "comorbidity_proxy_analysis",
+  "condition_bias": [
+    {
+      "condition": "Autoimmune_RA",
+      "n_drugs": 17,
+      "n_signals": 6468,
+      "pct_female": 46.3,
+      "expected_bias": "F",
+      "actual_bias": "N",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Breast_Cancer",
+      "n_drugs": 11,
+      "n_signals": 299,
+      "pct_female": 23.7,
+      "expected_bias": "F",
+      "actual_bias": "M",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Osteoporosis",
+      "n_drugs": 6,
+      "n_signals": 972,
+      "pct_female": 28.6,
+      "expected_bias": "F",
+      "actual_bias": "M",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Thyroid",
+      "n_drugs": 6,
+      "n_signals": 350,
+      "pct_female": 21.1,
+      "expected_bias": "F",
+      "actual_bias": "M",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Migraine",
+      "n_drugs": 14,
+      "n_signals": 733,
+      "pct_female": 43.8,
+      "expected_bias": "F",
+      "actual_bias": "N",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Contraception_HRT",
+      "n_drugs": 8,
+      "n_signals": 37,
+      "pct_female": 0.0,
+      "expected_bias": "F",
+      "actual_bias": "M",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Prostate",
+      "n_drugs": 6,
+      "n_signals": 389,
+      "pct_female": 66.1,
+      "expected_bias": "M",
+      "actual_bias": "F",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Erectile_Dysfunction",
+      "n_drugs": 3,
+      "n_signals": 572,
+      "pct_female": 81.6,
+      "expected_bias": "M",
+      "actual_bias": "F",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "BPH",
+      "n_drugs": 7,
+      "n_signals": 139,
+      "pct_female": 70.5,
+      "expected_bias": "M",
+      "actual_bias": "F",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Testosterone_Replacement",
+      "n_drugs": 2,
+      "n_signals": 47,
+      "pct_female": 74.5,
+      "expected_bias": "M",
+      "actual_bias": "F",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Gout",
+      "n_drugs": 4,
+      "n_signals": 328,
+      "pct_female": 66.8,
+      "expected_bias": "M",
+      "actual_bias": "F",
+      "match": "MISMATCH"
+    },
+    {
+      "condition": "Diabetes",
+      "n_drugs": 25,
+      "n_signals": 1752,
+      "pct_female": 52.7,
+      "expected_bias": "N",
+      "actual_bias": "N",
+      "match": "N/A"
+    },
+    {
+      "condition": "Hypertension",
+      "n_drugs": 38,
+      "n_signals": 2687,
+      "pct_female": 58.9,
+      "expected_bias": "N",
+      "actual_bias": "N",
+      "match": "N/A"
+    },
+    {
+      "condition": "Asthma_COPD",
+      "n_drugs": 31,
+      "n_signals": 3028,
+      "pct_female": 34.5,
+      "expected_bias": "N",
+      "actual_bias": "M",
+      "match": "N/A"
+    }
+  ],
+  "n_female_conditions": 6,
+  "n_male_conditions": 5,
+  "n_neutral_conditions": 3
+}
