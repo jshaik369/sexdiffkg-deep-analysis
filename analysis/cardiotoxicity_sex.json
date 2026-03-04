@@ -1,0 +1,485 @@
+{
+  "overview": {
+    "n_cardio_signals": 3792,
+    "n_drugs": 411,
+    "mean_f_cardio": 53.6,
+    "mean_f_non_cardio": 58.3,
+    "mwu_p": 1.027e-35
+  },
+  "anti_regression": {
+    "quintiles": [
+      {
+        "q": 0,
+        "mean_f": 53.2
+      },
+      {
+        "q": 1,
+        "mean_f": 53.8
+      },
+      {
+        "q": 2,
+        "mean_f": 55.6
+      },
+      {
+        "q": 3,
+        "mean_f": 53.0
+      },
+      {
+        "q": 4,
+        "mean_f": 54.6
+      }
+    ],
+    "rho": 0.2,
+    "p": 0.7471
+  },
+  "class_comparison": [
+    {
+      "class": "Anthracyclines",
+      "n_signals": 35,
+      "n_drugs": 2,
+      "mean_f_pct": 67.5,
+      "mean_lr": 1.177
+    },
+    {
+      "class": "SSRIs",
+      "n_signals": 50,
+      "n_drugs": 5,
+      "mean_f_pct": 59.2,
+      "mean_lr": 0.809
+    },
+    {
+      "class": "Fluoropyrimidines",
+      "n_signals": 28,
+      "n_drugs": 2,
+      "mean_f_pct": 57.8,
+      "mean_lr": 0.907
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_signals": 41,
+      "n_drugs": 3,
+      "mean_f_pct": 52.8,
+      "mean_lr": 0.933
+    },
+    {
+      "class": "Antiarrhythmics",
+      "n_signals": 45,
+      "n_drugs": 5,
+      "mean_f_pct": 52.4,
+      "mean_lr": 0.806
+    },
+    {
+      "class": "Antipsychotics",
+      "n_signals": 93,
+      "n_drugs": 5,
+      "mean_f_pct": 50.0,
+      "mean_lr": 1.027
+    },
+    {
+      "class": "ICIs",
+      "n_signals": 49,
+      "n_drugs": 4,
+      "mean_f_pct": 48.9,
+      "mean_lr": 0.882
+    },
+    {
+      "class": "TKIs",
+      "n_signals": 33,
+      "n_drugs": 6,
+      "mean_f_pct": 47.6,
+      "mean_lr": 0.825
+    }
+  ],
+  "top_female_drugs": [
+    {
+      "drug_name": "TRASTUZUMAB",
+      "n_cardio": 7,
+      "mean_f": 85.9,
+      "mean_lr": 0.9919364125926233,
+      "total_rep": 2922
+    },
+    {
+      "drug_name": "ALENDRONIC ACID",
+      "n_cardio": 9,
+      "mean_f": 78.8,
+      "mean_lr": 1.0853073418897736,
+      "total_rep": 1679
+    },
+    {
+      "drug_name": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+      "n_cardio": 5,
+      "mean_f": 78.3,
+      "mean_lr": 1.0473197618047343,
+      "total_rep": 363
+    },
+    {
+      "drug_name": "RIOCIGUAT",
+      "n_cardio": 5,
+      "mean_f": 78.2,
+      "mean_lr": 0.6186776299773931,
+      "total_rep": 598
+    },
+    {
+      "drug_name": "CODEINE",
+      "n_cardio": 3,
+      "mean_f": 76.9,
+      "mean_lr": 1.266436731721079,
+      "total_rep": 294
+    },
+    {
+      "drug_name": "DENOSUMAB",
+      "n_cardio": 4,
+      "mean_f": 76.0,
+      "mean_lr": 0.897474753376841,
+      "total_rep": 467
+    },
+    {
+      "drug_name": "SELEXIPAG",
+      "n_cardio": 7,
+      "mean_f": 76.0,
+      "mean_lr": 0.6810546428175446,
+      "total_rep": 834
+    },
+    {
+      "drug_name": "AMBRISENTAN",
+      "n_cardio": 9,
+      "mean_f": 75.9,
+      "mean_lr": 0.7344002302723784,
+      "total_rep": 1479
+    },
+    {
+      "drug_name": "PACLITAXEL",
+      "n_cardio": 16,
+      "mean_f": 75.5,
+      "mean_lr": 1.001324413092504,
+      "total_rep": 2594
+    },
+    {
+      "drug_name": "ILOPROST",
+      "n_cardio": 4,
+      "mean_f": 75.4,
+      "mean_lr": 0.6859884303048323,
+      "total_rep": 389
+    },
+    {
+      "drug_name": "CLONIDINE",
+      "n_cardio": 3,
+      "mean_f": 74.9,
+      "mean_lr": 0.7112257861578817,
+      "total_rep": 295
+    },
+    {
+      "drug_name": "HYDRALAZINE",
+      "n_cardio": 5,
+      "mean_f": 74.5,
+      "mean_lr": 1.0622802879011326,
+      "total_rep": 366
+    },
+    {
+      "drug_name": "NIFEDIPINE",
+      "n_cardio": 5,
+      "mean_f": 74.1,
+      "mean_lr": 0.846148204579878,
+      "total_rep": 354
+    },
+    {
+      "drug_name": "INDAPAMIDE",
+      "n_cardio": 4,
+      "mean_f": 74.0,
+      "mean_lr": 0.8298231705163797,
+      "total_rep": 263
+    },
+    {
+      "drug_name": "DIPHENHYDRAMINE",
+      "n_cardio": 8,
+      "mean_f": 74.0,
+      "mean_lr": 0.8776414276014167,
+      "total_rep": 760
+    }
+  ],
+  "top_male_drugs": [
+    {
+      "drug_name": "LOPINAVIR;RITONAVIR",
+      "n_cardio": 3,
+      "mean_f": 23.0,
+      "mean_lr": 0.5421833632149421,
+      "total_rep": 250
+    },
+    {
+      "drug_name": "TAFAMIDIS",
+      "n_cardio": 6,
+      "mean_f": 24.6,
+      "mean_lr": 0.6792725190168695,
+      "total_rep": 597
+    },
+    {
+      "drug_name": "IXEKIZUMAB",
+      "n_cardio": 3,
+      "mean_f": 26.3,
+      "mean_lr": 1.146509987377611,
+      "total_rep": 185
+    },
+    {
+      "drug_name": "ALLOPURINOL",
+      "n_cardio": 12,
+      "mean_f": 28.0,
+      "mean_lr": 0.8769313816750547,
+      "total_rep": 1180
+    },
+    {
+      "drug_name": "CALCIUM;ICODEXTRIN;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "n_cardio": 4,
+      "mean_f": 30.2,
+      "mean_lr": 0.7713140451974457,
+      "total_rep": 263
+    },
+    {
+      "drug_name": "SEVOFLURANE",
+      "n_cardio": 3,
+      "mean_f": 30.8,
+      "mean_lr": 0.9023704431468426,
+      "total_rep": 337
+    },
+    {
+      "drug_name": "LEUPRORELIN",
+      "n_cardio": 8,
+      "mean_f": 31.1,
+      "mean_lr": 0.9396766234408502,
+      "total_rep": 1344
+    },
+    {
+      "drug_name": "EPLERENONE",
+      "n_cardio": 7,
+      "mean_f": 31.5,
+      "mean_lr": 0.8631165480573805,
+      "total_rep": 470
+    },
+    {
+      "drug_name": "CETUXIMAB",
+      "n_cardio": 3,
+      "mean_f": 31.9,
+      "mean_lr": 0.7628327134741326,
+      "total_rep": 139
+    },
+    {
+      "drug_name": "TRAMETINIB",
+      "n_cardio": 4,
+      "mean_f": 32.4,
+      "mean_lr": 0.7624086064355777,
+      "total_rep": 289
+    },
+    {
+      "drug_name": "DABRAFENIB",
+      "n_cardio": 3,
+      "mean_f": 32.8,
+      "mean_lr": 0.6674528231682896,
+      "total_rep": 210
+    },
+    {
+      "drug_name": "MAGNESIUM",
+      "n_cardio": 8,
+      "mean_f": 32.9,
+      "mean_lr": 1.455431087192297,
+      "total_rep": 655
+    },
+    {
+      "drug_name": "SACUBITRIL;VALSARTAN",
+      "n_cardio": 12,
+      "mean_f": 33.2,
+      "mean_lr": 0.7389876737787416,
+      "total_rep": 1909
+    },
+    {
+      "drug_name": "AMPHOTERICIN B",
+      "n_cardio": 3,
+      "mean_f": 33.5,
+      "mean_lr": 0.6676372155711808,
+      "total_rep": 195
+    },
+    {
+      "drug_name": "COCAINE",
+      "n_cardio": 4,
+      "mean_f": 33.5,
+      "mean_lr": 0.8127847105446916,
+      "total_rep": 1226
+    }
+  ],
+  "ae_breakdown": [
+    {
+      "adverse_event": "Cardiac arrest",
+      "n_drugs": 210,
+      "mean_f": 54.5,
+      "mean_lr": 0.8285165440981568
+    },
+    {
+      "adverse_event": "Cardiac failure",
+      "n_drugs": 184,
+      "mean_f": 55.7,
+      "mean_lr": 0.8777690458774047
+    },
+    {
+      "adverse_event": "Myocardial infarction",
+      "n_drugs": 182,
+      "mean_f": 54.4,
+      "mean_lr": 0.934376386081211
+    },
+    {
+      "adverse_event": "Atrial fibrillation",
+      "n_drugs": 180,
+      "mean_f": 51.5,
+      "mean_lr": 0.8553907976928582
+    },
+    {
+      "adverse_event": "Tachycardia",
+      "n_drugs": 172,
+      "mean_f": 60.7,
+      "mean_lr": 0.8679817102579398
+    },
+    {
+      "adverse_event": "Palpitations",
+      "n_drugs": 153,
+      "mean_f": 60.3,
+      "mean_lr": 0.88085739575642
+    },
+    {
+      "adverse_event": "Bradycardia",
+      "n_drugs": 152,
+      "mean_f": 52.5,
+      "mean_lr": 0.8746450612822826
+    },
+    {
+      "adverse_event": "Heart rate increased",
+      "n_drugs": 124,
+      "mean_f": 58.0,
+      "mean_lr": 0.837356347388606
+    },
+    {
+      "adverse_event": "Electrocardiogram QT prolonged",
+      "n_drugs": 122,
+      "mean_f": 61.6,
+      "mean_lr": 0.8637720203970762
+    },
+    {
+      "adverse_event": "Cardiac disorder",
+      "n_drugs": 110,
+      "mean_f": 55.1,
+      "mean_lr": 0.9231941182174801
+    },
+    {
+      "adverse_event": "Cardiac failure congestive",
+      "n_drugs": 106,
+      "mean_f": 55.9,
+      "mean_lr": 1.0045094770065977
+    },
+    {
+      "adverse_event": "Arrhythmia",
+      "n_drugs": 88,
+      "mean_f": 53.0,
+      "mean_lr": 0.8122176756436251
+    },
+    {
+      "adverse_event": "Ventricular tachycardia",
+      "n_drugs": 83,
+      "mean_f": 52.2,
+      "mean_lr": 0.9120657768913146
+    },
+    {
+      "adverse_event": "Pericarditis",
+      "n_drugs": 79,
+      "mean_f": 70.2,
+      "mean_lr": 1.8784367855621522
+    },
+    {
+      "adverse_event": "Heart rate decreased",
+      "n_drugs": 79,
+      "mean_f": 57.9,
+      "mean_lr": 0.8734481884458307
+    },
+    {
+      "adverse_event": "Acute myocardial infarction",
+      "n_drugs": 76,
+      "mean_f": 43.3,
+      "mean_lr": 0.8466327223928353
+    },
+    {
+      "adverse_event": "Pericardial effusion",
+      "n_drugs": 75,
+      "mean_f": 53.2,
+      "mean_lr": 0.8580580910264322
+    },
+    {
+      "adverse_event": "Angina pectoris",
+      "n_drugs": 68,
+      "mean_f": 60.5,
+      "mean_lr": 0.9816817558624583
+    },
+    {
+      "adverse_event": "Ventricular fibrillation",
+      "n_drugs": 64,
+      "mean_f": 41.0,
+      "mean_lr": 1.27928194476879
+    },
+    {
+      "adverse_event": "Ejection fraction decreased",
+      "n_drugs": 64,
+      "mean_f": 47.9,
+      "mean_lr": 1.0624507077611063
+    }
+  ],
+  "qt_prolongation": {
+    "n_signals": 165,
+    "mean_f": 62.1,
+    "top_drugs": [
+      {
+        "drug_name": "BREXPIPRAZOLE",
+        "n": 1,
+        "mean_f": 91.3
+      },
+      {
+        "drug_name": "LEVOTHYROXINE",
+        "n": 1,
+        "mean_f": 90.9
+      },
+      {
+        "drug_name": "TOPIRAMATE",
+        "n": 1,
+        "mean_f": 87.2
+      },
+      {
+        "drug_name": "NAPROXEN",
+        "n": 1,
+        "mean_f": 86.4
+      },
+      {
+        "drug_name": "PARACETAMOL",
+        "n": 1,
+        "mean_f": 86.1
+      },
+      {
+        "drug_name": "VORTIOXETINE",
+        "n": 1,
+        "mean_f": 84.5
+      },
+      {
+        "drug_name": "OMEPRAZOLE",
+        "n": 1,
+        "mean_f": 84.4
+      },
+      {
+        "drug_name": "CARBOPLATIN",
+        "n": 1,
+        "mean_f": 83.6
+      },
+      {
+        "drug_name": "ITRACONAZOLE",
+        "n": 1,
+        "mean_f": 83.3
+      },
+      {
+        "drug_name": "CAPECITABINE",
+        "n": 1,
+        "mean_f": 83.0
+      }
+    ]
+  }
+}

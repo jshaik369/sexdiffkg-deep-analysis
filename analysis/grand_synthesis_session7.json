@@ -1,0 +1,93 @@
+{
+  "session_7_summary": {
+    "waves_completed": "47-53",
+    "analyses_produced": 155,
+    "figures_produced": 211,
+    "papers_produced": 25,
+    "github_repo": "https://github.com/jshaik369/sexdiffkg-deep-analysis"
+  },
+  "major_discoveries_session7": [
+    {
+      "rank": 1,
+      "finding": "Seriousness-Sex Gradient",
+      "detail": "Serious AEs 51.2%F vs non-serious 58.3%F (p=8.2e-83) \u2014 serious events approach parity",
+      "novelty": "VERY HIGH",
+      "paper": "Paper 26"
+    },
+    {
+      "rank": 2,
+      "finding": "Information-Theoretic Anti-Regression",
+      "detail": "Entropy decreases with volume (rho=-0.952) \u2014 high-volume drugs are MORE sex-predictable",
+      "novelty": "HIGH",
+      "paper": "Paper 27"
+    },
+    {
+      "rank": 3,
+      "finding": "Sex Dominates Drug AE Profile Space",
+      "detail": "PC0 of drug-AE matrix correlates rho=0.841 with sex. 8/10 PCs significant",
+      "novelty": "HIGH",
+      "paper": "Main Methods Paper"
+    },
+    {
+      "rank": 4,
+      "finding": "Universal Within-Class Heterogeneity",
+      "detail": "17/20 drug classes have significant intra-class sex variation (TKIs: 33.8pp)",
+      "novelty": "HIGH",
+      "paper": "Paper 28"
+    },
+    {
+      "rank": 5,
+      "finding": "Therapeutic Area 13pp Gap",
+      "detail": "Autoimmune 66.6%F >> Oncology 53.5%F (KW H=2240, p\u22480)",
+      "novelty": "MODERATE-HIGH",
+      "paper": "Paper 28"
+    },
+    {
+      "rank": 6,
+      "finding": "AE Direction Concordance",
+      "detail": "97% of AE pairs show same-direction sex bias (mean rho=0.583) \u2014 drug-specific effects",
+      "novelty": "HIGH",
+      "paper": "Network analysis"
+    },
+    {
+      "rank": 7,
+      "finding": "Sex Ratio Normalization Reframing",
+      "detail": "55.1% of signals BELOW baseline; 240 truly male-biased vs 93 truly female-biased drugs",
+      "novelty": "VERY HIGH",
+      "paper": "Paper 25"
+    },
+    {
+      "rank": 8,
+      "finding": "ICI Hepatotoxicity Male-Biased",
+      "detail": "Checkpoint inhibitor hepatotox 46.6%F vs NSAID hepatotox 74.9%F (28.3pp gap)",
+      "novelty": "MODERATE-HIGH",
+      "paper": "Paper 29"
+    },
+    {
+      "rank": 9,
+      "finding": "Drug Degree-Sex Correlation",
+      "detail": "More connected KG nodes are more female-biased (rho=0.182, p=1e-17)",
+      "novelty": "MODERATE",
+      "paper": "Topology analysis"
+    },
+    {
+      "rank": 10,
+      "finding": "Signal Prioritization Framework",
+      "detail": "116 critical + 6,827 high priority sex-differential signals; Leuprorelin death #1",
+      "novelty": "HIGH (clinical utility)",
+      "paper": "Paper 28"
+    }
+  ],
+  "cumulative_totals": {
+    "total_waves": "1-53 (Sessions 1-7)",
+    "total_analyses": 155,
+    "total_figures": 211,
+    "total_papers": 25,
+    "kg_nodes": 109867,
+    "kg_edges": 1822851,
+    "faers_reports": 14536008,
+    "signals": 96281,
+    "drugs": 2178,
+    "aes": 5069
+  }
+}
