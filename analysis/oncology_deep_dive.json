@@ -1,0 +1,485 @@
+{
+  "analysis": "oncology_deep_dive",
+  "wave": 22,
+  "date": "2026-03-04",
+  "overall": {
+    "total_signals": 8904,
+    "n_drugs": 68,
+    "pct_female": 63.1
+  },
+  "by_class": {
+    "checkpoint_inhibitors": {
+      "n_signals": 965,
+      "n_drugs": 8,
+      "pct_female": 74.6,
+      "per_drug": [
+        {
+          "drug_name": "PEMBROLIZUMAB",
+          "n": 309,
+          "pct_f": 73.1
+        },
+        {
+          "drug_name": "NIVOLUMAB",
+          "n": 238,
+          "pct_f": 66.8
+        },
+        {
+          "drug_name": "IPILIMUMAB",
+          "n": 161,
+          "pct_f": 75.8
+        },
+        {
+          "drug_name": "ATEZOLIZUMAB",
+          "n": 152,
+          "pct_f": 82.9
+        },
+        {
+          "drug_name": "DURVALUMAB",
+          "n": 61,
+          "pct_f": 85.2
+        },
+        {
+          "drug_name": "TREMELIMUMAB",
+          "n": 21,
+          "pct_f": 85.7
+        },
+        {
+          "drug_name": "AVELUMAB",
+          "n": 19,
+          "pct_f": 73.7
+        },
+        {
+          "drug_name": "CEMIPLIMAB",
+          "n": 4,
+          "pct_f": 75.0
+        }
+      ]
+    },
+    "tyrosine_kinase_inhibitors": {
+      "n_signals": 1423,
+      "n_drugs": 17,
+      "pct_female": 66.5,
+      "per_drug": [
+        {
+          "drug_name": "IBRUTINIB",
+          "n": 186,
+          "pct_f": 64.5
+        },
+        {
+          "drug_name": "LENVATINIB",
+          "n": 165,
+          "pct_f": 62.4
+        },
+        {
+          "drug_name": "IMATINIB",
+          "n": 155,
+          "pct_f": 81.9
+        },
+        {
+          "drug_name": "RUXOLITINIB",
+          "n": 127,
+          "pct_f": 70.1
+        },
+        {
+          "drug_name": "SUNITINIB",
+          "n": 122,
+          "pct_f": 65.6
+        },
+        {
+          "drug_name": "CABOZANTINIB",
+          "n": 112,
+          "pct_f": 67.0
+        },
+        {
+          "drug_name": "PAZOPANIB",
+          "n": 103,
+          "pct_f": 46.6
+        },
+        {
+          "drug_name": "ERLOTINIB",
+          "n": 83,
+          "pct_f": 73.5
+        },
+        {
+          "drug_name": "SORAFENIB",
+          "n": 76,
+          "pct_f": 80.3
+        },
+        {
+          "drug_name": "REGORAFENIB",
+          "n": 70,
+          "pct_f": 74.3
+        },
+        {
+          "drug_name": "AXITINIB",
+          "n": 64,
+          "pct_f": 59.4
+        },
+        {
+          "drug_name": "OSIMERTINIB",
+          "n": 53,
+          "pct_f": 71.7
+        },
+        {
+          "drug_name": "CRIZOTINIB",
+          "n": 38,
+          "pct_f": 60.5
+        },
+        {
+          "drug_name": "ALECTINIB",
+          "n": 28,
+          "pct_f": 53.6
+        },
+        {
+          "drug_name": "LORLATINIB",
+          "n": 22,
+          "pct_f": 36.4
+        },
+        {
+          "drug_name": "GEFITINIB",
+          "n": 12,
+          "pct_f": 50.0
+        },
+        {
+          "drug_name": "LAPATINIB",
+          "n": 7,
+          "pct_f": 28.6
+        }
+      ]
+    },
+    "anthracyclines": {
+      "n_signals": 538,
+      "n_drugs": 4,
+      "pct_female": 66.7,
+      "per_drug": [
+        {
+          "drug_name": "DOXORUBICIN",
+          "n": 325,
+          "pct_f": 71.4
+        },
+        {
+          "drug_name": "DAUNORUBICIN",
+          "n": 102,
+          "pct_f": 72.5
+        },
+        {
+          "drug_name": "EPIRUBICIN",
+          "n": 72,
+          "pct_f": 33.3
+        },
+        {
+          "drug_name": "IDARUBICIN",
+          "n": 39,
+          "pct_f": 74.4
+        }
+      ]
+    },
+    "platinum": {
+      "n_signals": 768,
+      "n_drugs": 3,
+      "pct_female": 68.9,
+      "per_drug": [
+        {
+          "drug_name": "CARBOPLATIN",
+          "n": 310,
+          "pct_f": 63.5
+        },
+        {
+          "drug_name": "OXALIPLATIN",
+          "n": 239,
+          "pct_f": 69.0
+        },
+        {
+          "drug_name": "CISPLATIN",
+          "n": 219,
+          "pct_f": 76.3
+        }
+      ]
+    },
+    "taxanes": {
+      "n_signals": 563,
+      "n_drugs": 2,
+      "pct_female": 34.8,
+      "per_drug": [
+        {
+          "drug_name": "DOCETAXEL",
+          "n": 304,
+          "pct_f": 11.2
+        },
+        {
+          "drug_name": "PACLITAXEL",
+          "n": 259,
+          "pct_f": 62.5
+        }
+      ]
+    },
+    "antimetabolites": {
+      "n_signals": 2111,
+      "n_drugs": 8,
+      "pct_female": 61.1,
+      "per_drug": [
+        {
+          "drug_name": "METHOTREXATE",
+          "n": 892,
+          "pct_f": 48.5
+        },
+        {
+          "drug_name": "CYTARABINE",
+          "n": 274,
+          "pct_f": 79.6
+        },
+        {
+          "drug_name": "CAPECITABINE",
+          "n": 270,
+          "pct_f": 57.4
+        },
+        {
+          "drug_name": "FLUOROURACIL",
+          "n": 239,
+          "pct_f": 60.3
+        },
+        {
+          "drug_name": "GEMCITABINE",
+          "n": 173,
+          "pct_f": 76.9
+        },
+        {
+          "drug_name": "PEMETREXED",
+          "n": 133,
+          "pct_f": 78.2
+        },
+        {
+          "drug_name": "AZACITIDINE",
+          "n": 111,
+          "pct_f": 79.3
+        },
+        {
+          "drug_name": "DECITABINE",
+          "n": 19,
+          "pct_f": 78.9
+        }
+      ]
+    },
+    "alkylating": {
+      "n_signals": 944,
+      "n_drugs": 6,
+      "pct_female": 72.2,
+      "per_drug": [
+        {
+          "drug_name": "CYCLOPHOSPHAMIDE",
+          "n": 498,
+          "pct_f": 64.7
+        },
+        {
+          "drug_name": "MELPHALAN",
+          "n": 134,
+          "pct_f": 84.3
+        },
+        {
+          "drug_name": "BENDAMUSTINE",
+          "n": 113,
+          "pct_f": 82.3
+        },
+        {
+          "drug_name": "BUSULFAN",
+          "n": 106,
+          "pct_f": 83.0
+        },
+        {
+          "drug_name": "TEMOZOLOMIDE",
+          "n": 79,
+          "pct_f": 68.4
+        },
+        {
+          "drug_name": "CHLORAMBUCIL",
+          "n": 14,
+          "pct_f": 85.7
+        }
+      ]
+    },
+    "proteasome_inhibitors": {
+      "n_signals": 392,
+      "n_drugs": 3,
+      "pct_female": 71.9,
+      "per_drug": [
+        {
+          "drug_name": "BORTEZOMIB",
+          "n": 209,
+          "pct_f": 75.1
+        },
+        {
+          "drug_name": "CARFILZOMIB",
+          "n": 93,
+          "pct_f": 69.9
+        },
+        {
+          "drug_name": "IXAZOMIB",
+          "n": 90,
+          "pct_f": 66.7
+        }
+      ]
+    },
+    "imids": {
+      "n_signals": 482,
+      "n_drugs": 3,
+      "pct_female": 60.8,
+      "per_drug": [
+        {
+          "drug_name": "LENALIDOMIDE",
+          "n": 292,
+          "pct_f": 59.6
+        },
+        {
+          "drug_name": "POMALIDOMIDE",
+          "n": 128,
+          "pct_f": 57.0
+        },
+        {
+          "drug_name": "THALIDOMIDE",
+          "n": 62,
+          "pct_f": 74.2
+        }
+      ]
+    },
+    "cdk_inhibitors": {
+      "n_signals": 60,
+      "n_drugs": 3,
+      "pct_female": 38.3,
+      "per_drug": [
+        {
+          "drug_name": "PALBOCICLIB",
+          "n": 38,
+          "pct_f": 47.4
+        },
+        {
+          "drug_name": "ABEMACICLIB",
+          "n": 12,
+          "pct_f": 8.3
+        },
+        {
+          "drug_name": "RIBOCICLIB",
+          "n": 10,
+          "pct_f": 40.0
+        }
+      ]
+    },
+    "parp_inhibitors": {
+      "n_signals": 76,
+      "n_drugs": 4,
+      "pct_female": 52.6,
+      "per_drug": [
+        {
+          "drug_name": "OLAPARIB",
+          "n": 44,
+          "pct_f": 50.0
+        },
+        {
+          "drug_name": "RUCAPARIB",
+          "n": 13,
+          "pct_f": 38.5
+        },
+        {
+          "drug_name": "NIRAPARIB",
+          "n": 12,
+          "pct_f": 66.7
+        },
+        {
+          "drug_name": "TALAZOPARIB",
+          "n": 7,
+          "pct_f": 71.4
+        }
+      ]
+    },
+    "vegf_inhibitors": {
+      "n_signals": 391,
+      "n_drugs": 3,
+      "pct_female": 55.8,
+      "per_drug": [
+        {
+          "drug_name": "BEVACIZUMAB",
+          "n": 294,
+          "pct_f": 55.4
+        },
+        {
+          "drug_name": "AFLIBERCEPT",
+          "n": 57,
+          "pct_f": 40.4
+        },
+        {
+          "drug_name": "RAMUCIRUMAB",
+          "n": 40,
+          "pct_f": 80.0
+        }
+      ]
+    },
+    "anti_her2": {
+      "n_signals": 191,
+      "n_drugs": 4,
+      "pct_female": 20.9,
+      "per_drug": [
+        {
+          "drug_name": "TRASTUZUMAB",
+          "n": 101,
+          "pct_f": 30.7
+        },
+        {
+          "drug_name": "PERTUZUMAB",
+          "n": 53,
+          "pct_f": 7.5
+        },
+        {
+          "drug_name": "TRASTUZUMAB DERUXTECAN",
+          "n": 20,
+          "pct_f": 25.0
+        },
+        {
+          "drug_name": "TRASTUZUMAB EMTANSINE",
+          "n": 17,
+          "pct_f": 0.0
+        }
+      ]
+    }
+  },
+  "organ_breakdown": {
+    "Haematological": {
+      "n_signals": 207,
+      "pct_female": 75.8
+    },
+    "GI": {
+      "n_signals": 35,
+      "pct_female": 34.3
+    },
+    "Hepatic": {
+      "n_signals": 317,
+      "pct_female": 75.7
+    },
+    "Cardiac": {
+      "n_signals": 173,
+      "pct_female": 91.9
+    },
+    "Dermatological": {
+      "n_signals": 257,
+      "pct_female": 53.7
+    },
+    "Neurological": {
+      "n_signals": 72,
+      "pct_female": 73.6
+    },
+    "Fatigue": {
+      "n_signals": 31,
+      "pct_female": 61.3
+    },
+    "Immune": {
+      "n_signals": 199,
+      "pct_female": 71.9
+    },
+    "Pulmonary": {
+      "n_signals": 173,
+      "pct_female": 64.2
+    },
+    "Endocrine": {
+      "n_signals": 70,
+      "pct_female": 58.6
+    }
+  }
+}

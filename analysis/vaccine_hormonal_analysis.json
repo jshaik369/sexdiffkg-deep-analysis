@@ -1,0 +1,316 @@
+{
+  "analysis": "vaccine_hormonal_reproductive",
+  "wave": 22,
+  "date": "2026-03-04",
+  "vaccines": {
+    "covid": {
+      "n_signals": 153,
+      "n_drugs": 2,
+      "pct_female": 42.5,
+      "drugs": [
+        "COVID-19 VACCINE",
+        "COVID-19 VACCINE NOS"
+      ]
+    },
+    "influenza": {
+      "n_signals": 60,
+      "n_drugs": 1,
+      "pct_female": 40.0,
+      "drugs": [
+        "INFLUENZA VACCINE"
+      ]
+    },
+    "pneumococcal": {
+      "n_signals": 39,
+      "n_drugs": 1,
+      "pct_female": 51.3,
+      "drugs": [
+        "PNEUMOCOCCAL VACCINE"
+      ]
+    },
+    "shingles": {
+      "n_signals": 14,
+      "n_drugs": 1,
+      "pct_female": 21.4,
+      "drugs": [
+        "VARICELLA ZOSTER VACCINE"
+      ]
+    }
+  },
+  "hormonal_drugs": {
+    "oral_contraceptives": {
+      "n_signals": 2,
+      "n_drugs": 2,
+      "pct_female": 0.0,
+      "per_drug": [
+        {
+          "drug_name": "LEVONORGESTREL",
+          "n": 1,
+          "pct_f": 0.0
+        },
+        {
+          "drug_name": "NORETHISTERONE",
+          "n": 1,
+          "pct_f": 0.0
+        }
+      ]
+    },
+    "hrt": {
+      "n_signals": 23,
+      "n_drugs": 2,
+      "pct_female": 0.0,
+      "per_drug": [
+        {
+          "drug_name": "ESTRADIOL",
+          "n": 18,
+          "pct_f": 0.0
+        },
+        {
+          "drug_name": "MEDROXYPROGESTERONE",
+          "n": 5,
+          "pct_f": 0.0
+        }
+      ]
+    },
+    "testosterone": {
+      "n_signals": 47,
+      "n_drugs": 2,
+      "pct_female": 74.5,
+      "per_drug": [
+        {
+          "drug_name": "TESTOSTERONE",
+          "n": 46,
+          "pct_f": 73.9
+        },
+        {
+          "drug_name": "TESTOSTERONE CYPIONATE",
+          "n": 1,
+          "pct_f": 100.0
+        }
+      ]
+    },
+    "gnrh": {
+      "n_signals": 82,
+      "n_drugs": 2,
+      "pct_female": 53.7,
+      "per_drug": [
+        {
+          "drug_name": "TRIPTORELIN",
+          "n": 46,
+          "pct_f": 43.5
+        },
+        {
+          "drug_name": "GOSERELIN",
+          "n": 36,
+          "pct_f": 66.7
+        }
+      ]
+    },
+    "aromatase_inhibitors": {
+      "n_signals": 36,
+      "n_drugs": 3,
+      "pct_female": 19.4,
+      "per_drug": [
+        {
+          "drug_name": "LETROZOLE",
+          "n": 17,
+          "pct_f": 17.6
+        },
+        {
+          "drug_name": "ANASTROZOLE",
+          "n": 15,
+          "pct_f": 26.7
+        },
+        {
+          "drug_name": "EXEMESTANE",
+          "n": 4,
+          "pct_f": 0.0
+        }
+      ]
+    },
+    "serms": {
+      "n_signals": 12,
+      "n_drugs": 1,
+      "pct_female": 8.3,
+      "per_drug": [
+        {
+          "drug_name": "TAMOXIFEN",
+          "n": 12,
+          "pct_f": 8.3
+        }
+      ]
+    },
+    "antiandrogens": {
+      "n_signals": 36,
+      "n_drugs": 6,
+      "pct_female": 75.0,
+      "per_drug": [
+        {
+          "drug_name": "FINASTERIDE",
+          "n": 15,
+          "pct_f": 73.3
+        },
+        {
+          "drug_name": "ENZALUTAMIDE",
+          "n": 10,
+          "pct_f": 50.0
+        },
+        {
+          "drug_name": "CYPROTERONE",
+          "n": 4,
+          "pct_f": 100.0
+        },
+        {
+          "drug_name": "DUTASTERIDE",
+          "n": 4,
+          "pct_f": 100.0
+        },
+        {
+          "drug_name": "ABIRATERONE",
+          "n": 2,
+          "pct_f": 100.0
+        },
+        {
+          "drug_name": "BICALUTAMIDE",
+          "n": 1,
+          "pct_f": 100.0
+        }
+      ]
+    },
+    "thyroid": {
+      "n_signals": 355,
+      "n_drugs": 5,
+      "pct_female": 20.0,
+      "per_drug": [
+        {
+          "drug_name": "LEVOTHYROXINE",
+          "n": 322,
+          "pct_f": 20.5
+        },
+        {
+          "drug_name": "LIOTHYRONINE",
+          "n": 23,
+          "pct_f": 13.0
+        },
+        {
+          "drug_name": "CARBIMAZOLE",
+          "n": 4,
+          "pct_f": 25.0
+        },
+        {
+          "drug_name": "PROPYLTHIOURACIL",
+          "n": 4,
+          "pct_f": 0.0
+        },
+        {
+          "drug_name": "METHIMAZOLE",
+          "n": 2,
+          "pct_f": 50.0
+        }
+      ]
+    },
+    "corticosteroids": {
+      "n_signals": 3387,
+      "n_drugs": 8,
+      "pct_female": 69.3,
+      "per_drug": [
+        {
+          "drug_name": "PREDNISONE",
+          "n": 926,
+          "pct_f": 70.2
+        },
+        {
+          "drug_name": "PREDNISOLONE",
+          "n": 542,
+          "pct_f": 82.5
+        },
+        {
+          "drug_name": "DEXAMETHASONE",
+          "n": 537,
+          "pct_f": 80.3
+        },
+        {
+          "drug_name": "METHYLPREDNISOLONE",
+          "n": 521,
+          "pct_f": 77.2
+        },
+        {
+          "drug_name": "HYDROCORTISONE",
+          "n": 302,
+          "pct_f": 50.7
+        },
+        {
+          "drug_name": "BUDESONIDE",
+          "n": 259,
+          "pct_f": 45.2
+        },
+        {
+          "drug_name": "TRIAMCINOLONE",
+          "n": 170,
+          "pct_f": 60.0
+        },
+        {
+          "drug_name": "BETAMETHASONE",
+          "n": 130,
+          "pct_f": 35.4
+        }
+      ]
+    },
+    "insulin": {
+      "n_signals": 339,
+      "n_drugs": 1,
+      "pct_female": 39.5,
+      "per_drug": [
+        {
+          "drug_name": "INSULIN",
+          "n": 339,
+          "pct_f": 39.5
+        }
+      ]
+    }
+  },
+  "reproductive_paradox": {
+    "female_indication_drugs": {
+      "n_signals": 73,
+      "pct_female": 11.0,
+      "drugs": [
+        "ESTRADIOL",
+        "TAMOXIFEN",
+        "LEVONORGESTREL",
+        "LETROZOLE",
+        "MEDROXYPROGESTERONE",
+        "NORETHISTERONE",
+        "EXEMESTANE",
+        "ANASTROZOLE"
+      ],
+      "explanation": "Drugs used primarily in women \u2014 expect high %F"
+    },
+    "male_indication_drugs": {
+      "n_signals": 83,
+      "pct_female": 74.7,
+      "drugs": [
+        "TESTOSTERONE",
+        "DUTASTERIDE",
+        "ENZALUTAMIDE",
+        "FINASTERIDE",
+        "TESTOSTERONE CYPIONATE",
+        "ABIRATERONE",
+        "CYPROTERONE",
+        "BICALUTAMIDE"
+      ],
+      "explanation": "Drugs used primarily in men \u2014 expect low %F"
+    }
+  },
+  "biologics_vs_small_molecules": {
+    "biologics": {
+      "n_signals": 13581,
+      "n_drugs": 191,
+      "pct_female": 51.5
+    },
+    "small_molecules": {
+      "n_signals": 82700,
+      "n_drugs": 1987,
+      "pct_female": 54.1
+    }
+  }
+}

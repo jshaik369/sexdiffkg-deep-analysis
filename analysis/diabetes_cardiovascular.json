@@ -1,0 +1,133 @@
+{
+  "analysis": "diabetes_cardiovascular_deep_dive",
+  "wave": 22,
+  "date": "2026-03-04",
+  "diabetes": {
+    "total_signals": 2079,
+    "by_class": {
+      "metformin": {
+        "n_signals": 399,
+        "n_drugs": 1,
+        "pct_female": 62.4
+      },
+      "sulfonylureas": {
+        "n_signals": 148,
+        "n_drugs": 4,
+        "pct_female": 73.6
+      },
+      "sglt2i": {
+        "n_signals": 320,
+        "n_drugs": 4,
+        "pct_female": 59.7
+      },
+      "glp1ra": {
+        "n_signals": 517,
+        "n_drugs": 5,
+        "pct_female": 24.6
+      },
+      "dpp4i": {
+        "n_signals": 248,
+        "n_drugs": 5,
+        "pct_female": 57.7
+      },
+      "thiazolidinediones": {
+        "n_signals": 108,
+        "n_drugs": 2,
+        "pct_female": 91.7
+      },
+      "insulin": {
+        "n_signals": 339,
+        "n_drugs": 1,
+        "pct_female": 39.5
+      }
+    },
+    "ae_profile": {
+      "hypoglycemia": {
+        "n_signals": 20,
+        "pct_female": 75.0
+      },
+      "gi": {
+        "n_signals": 16,
+        "pct_female": 50.0
+      },
+      "cardiac": {
+        "n_signals": 34,
+        "pct_female": 76.5
+      },
+      "renal": {
+        "n_signals": 41,
+        "pct_female": 80.5
+      },
+      "dka": {
+        "n_signals": 31,
+        "pct_female": 83.9
+      },
+      "genital": {
+        "n_signals": 12,
+        "pct_female": 75.0
+      },
+      "weight": {
+        "n_signals": 18,
+        "pct_female": 72.2
+      },
+      "lactic_acidosis": {
+        "n_signals": 31,
+        "pct_female": 83.9
+      }
+    }
+  },
+  "cardiovascular": {
+    "by_class": {
+      "ace_inhibitors": {
+        "n_signals": 871,
+        "n_drugs": 9,
+        "pct_female": 72.4
+      },
+      "arbs": {
+        "n_signals": 785,
+        "n_drugs": 7,
+        "pct_female": 49.4
+      },
+      "ccbs": {
+        "n_signals": 792,
+        "n_drugs": 5,
+        "pct_female": 47.5
+      },
+      "beta_blockers": {
+        "n_signals": 981,
+        "n_drugs": 9,
+        "pct_female": 52.7
+      },
+      "diuretics": {
+        "n_signals": 849,
+        "n_drugs": 8,
+        "pct_female": 52.3
+      },
+      "anticoagulants": {
+        "n_signals": 1213,
+        "n_drugs": 7,
+        "pct_female": 64.1
+      },
+      "antiplatelets": {
+        "n_signals": 631,
+        "n_drugs": 5,
+        "pct_female": 82.4
+      },
+      "antiarrhythmics": {
+        "n_signals": 325,
+        "n_drugs": 5,
+        "pct_female": 56.3
+      },
+      "nitrates": {
+        "n_signals": 82,
+        "n_drugs": 3,
+        "pct_female": 54.9
+      },
+      "doacs": {
+        "n_signals": 744,
+        "n_drugs": 4,
+        "pct_female": 67.9
+      }
+    }
+  }
+}
