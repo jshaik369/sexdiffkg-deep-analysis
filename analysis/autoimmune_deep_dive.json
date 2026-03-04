@@ -1,0 +1,392 @@
+{
+  "wave": "30_autoimmune_deep_dive",
+  "categories": {
+    "anti_TNF": {
+      "n_signals": 2382,
+      "f_frac": 0.4496,
+      "n_drugs_with_data": 4,
+      "drugs": [
+        {
+          "drug": "ADALIMUMAB",
+          "n_signals": 807,
+          "f_frac": 0.3817,
+          "mean_lr": 0.8792
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "n_signals": 623,
+          "f_frac": 0.504,
+          "mean_lr": 1.0893
+        },
+        {
+          "drug": "ETANERCEPT",
+          "n_signals": 618,
+          "f_frac": 0.4256,
+          "mean_lr": 0.9845
+        },
+        {
+          "drug": "GOLIMUMAB",
+          "n_signals": 334,
+          "f_frac": 0.5569,
+          "mean_lr": 1.3765
+        }
+      ]
+    },
+    "anti_IL6": {
+      "n_signals": 611,
+      "f_frac": 0.509,
+      "n_drugs_with_data": 2,
+      "drugs": [
+        {
+          "drug": "TOCILIZUMAB",
+          "n_signals": 508,
+          "f_frac": 0.4941,
+          "mean_lr": 1.1859
+        },
+        {
+          "drug": "SARILUMAB",
+          "n_signals": 103,
+          "f_frac": 0.5825,
+          "mean_lr": 1.2944
+        }
+      ]
+    },
+    "anti_IL17": {
+      "n_signals": 550,
+      "f_frac": 0.4691,
+      "n_drugs_with_data": 3,
+      "drugs": [
+        {
+          "drug": "SECUKINUMAB",
+          "n_signals": 456,
+          "f_frac": 0.5219,
+          "mean_lr": 1.0401
+        },
+        {
+          "drug": "IXEKIZUMAB",
+          "n_signals": 82,
+          "f_frac": 0.1707,
+          "mean_lr": 0.7689
+        },
+        {
+          "drug": "BRODALUMAB",
+          "n_signals": 12,
+          "f_frac": 0.5,
+          "mean_lr": 0.663
+        }
+      ]
+    },
+    "anti_IL23": {
+      "n_signals": 178,
+      "f_frac": 0.309,
+      "n_drugs_with_data": 3,
+      "drugs": [
+        {
+          "drug": "GUSELKUMAB",
+          "n_signals": 38,
+          "f_frac": 0.2895,
+          "mean_lr": 0.7665
+        },
+        {
+          "drug": "RISANKIZUMAB",
+          "n_signals": 137,
+          "f_frac": 0.2993,
+          "mean_lr": 0.7124
+        },
+        {
+          "drug": "TILDRAKIZUMAB",
+          "n_signals": 3,
+          "f_frac": 1.0,
+          "mean_lr": 0.6009
+        }
+      ]
+    },
+    "anti_IL12_23": {
+      "n_signals": 314,
+      "f_frac": 0.6497,
+      "n_drugs_with_data": 1,
+      "drugs": [
+        {
+          "drug": "USTEKINUMAB",
+          "n_signals": 314,
+          "f_frac": 0.6497,
+          "mean_lr": 1.3288
+        }
+      ]
+    },
+    "anti_CD20": {
+      "n_signals": 1032,
+      "f_frac": 0.5843,
+      "n_drugs_with_data": 4,
+      "drugs": [
+        {
+          "drug": "RITUXIMAB",
+          "n_signals": 755,
+          "f_frac": 0.6662,
+          "mean_lr": 1.1643
+        },
+        {
+          "drug": "OCRELIZUMAB",
+          "n_signals": 136,
+          "f_frac": 0.2868,
+          "mean_lr": 0.7628
+        },
+        {
+          "drug": "OFATUMUMAB",
+          "n_signals": 67,
+          "f_frac": 0.1194,
+          "mean_lr": 0.8625
+        },
+        {
+          "drug": "OBINUTUZUMAB",
+          "n_signals": 74,
+          "f_frac": 0.7162,
+          "mean_lr": 0.8207
+        }
+      ]
+    },
+    "anti_BAFF": {
+      "n_signals": 22,
+      "f_frac": 0.0909,
+      "n_drugs_with_data": 1,
+      "drugs": [
+        {
+          "drug": "BELIMUMAB",
+          "n_signals": 22,
+          "f_frac": 0.0909,
+          "mean_lr": 1.2791
+        }
+      ]
+    },
+    "JAK_inhibitors": {
+      "n_signals": 678,
+      "f_frac": 0.4631,
+      "n_drugs_with_data": 5,
+      "drugs": [
+        {
+          "drug": "TOFACITINIB",
+          "n_signals": 331,
+          "f_frac": 0.5136,
+          "mean_lr": 1.0447
+        },
+        {
+          "drug": "BARICITINIB",
+          "n_signals": 36,
+          "f_frac": 0.25,
+          "mean_lr": 0.8963
+        },
+        {
+          "drug": "UPADACITINIB",
+          "n_signals": 181,
+          "f_frac": 0.2431,
+          "mean_lr": 0.7605
+        },
+        {
+          "drug": "RUXOLITINIB",
+          "n_signals": 127,
+          "f_frac": 0.7008,
+          "mean_lr": 0.7478
+        },
+        {
+          "drug": "FEDRATINIB",
+          "n_signals": 3,
+          "f_frac": 0.6667,
+          "mean_lr": 0.8295
+        }
+      ]
+    },
+    "DMARDs_conventional": {
+      "n_signals": 2800,
+      "f_frac": 0.5421,
+      "n_drugs_with_data": 6,
+      "drugs": [
+        {
+          "drug": "METHOTREXATE",
+          "n_signals": 892,
+          "f_frac": 0.4854,
+          "mean_lr": 0.9671
+        },
+        {
+          "drug": "LEFLUNOMIDE",
+          "n_signals": 370,
+          "f_frac": 0.4189,
+          "mean_lr": 1.3104
+        },
+        {
+          "drug": "SULFASALAZINE",
+          "n_signals": 318,
+          "f_frac": 0.4654,
+          "mean_lr": 1.4089
+        },
+        {
+          "drug": "HYDROXYCHLOROQUINE",
+          "n_signals": 376,
+          "f_frac": 0.5186,
+          "mean_lr": 1.2997
+        },
+        {
+          "drug": "AZATHIOPRINE",
+          "n_signals": 337,
+          "f_frac": 0.5935,
+          "mean_lr": 1.1695
+        },
+        {
+          "drug": "MYCOPHENOLIC ACID",
+          "n_signals": 507,
+          "f_frac": 0.7633,
+          "mean_lr": 1.1122
+        }
+      ]
+    },
+    "anti_integrin": {
+      "n_signals": 374,
+      "f_frac": 0.5214,
+      "n_drugs_with_data": 2,
+      "drugs": [
+        {
+          "drug": "NATALIZUMAB",
+          "n_signals": 141,
+          "f_frac": 0.227,
+          "mean_lr": 0.7547
+        },
+        {
+          "drug": "VEDOLIZUMAB",
+          "n_signals": 233,
+          "f_frac": 0.6996,
+          "mean_lr": 0.9302
+        }
+      ]
+    },
+    "calcineurin_inhibitors": {
+      "n_signals": 981,
+      "f_frac": 0.6483,
+      "n_drugs_with_data": 2,
+      "drugs": [
+        {
+          "drug": "TACROLIMUS",
+          "n_signals": 572,
+          "f_frac": 0.7587,
+          "mean_lr": 0.8789
+        },
+        {
+          "drug": "CICLOSPORIN",
+          "n_signals": 409,
+          "f_frac": 0.4939,
+          "mean_lr": 0.9003
+        }
+      ]
+    },
+    "anti_IgE": {
+      "n_signals": 306,
+      "f_frac": 0.2778,
+      "n_drugs_with_data": 1,
+      "drugs": [
+        {
+          "drug": "OMALIZUMAB",
+          "n_signals": 306,
+          "f_frac": 0.2778,
+          "mean_lr": 0.8842
+        }
+      ]
+    },
+    "S1P_modulators": {
+      "n_signals": 242,
+      "f_frac": 0.1446,
+      "n_drugs_with_data": 3,
+      "drugs": [
+        {
+          "drug": "FINGOLIMOD",
+          "n_signals": 159,
+          "f_frac": 0.195,
+          "mean_lr": 0.7664
+        },
+        {
+          "drug": "SIPONIMOD",
+          "n_signals": 48,
+          "f_frac": 0.0417,
+          "mean_lr": 0.8884
+        },
+        {
+          "drug": "OZANIMOD",
+          "n_signals": 35,
+          "f_frac": 0.0571,
+          "mean_lr": 0.764
+        }
+      ]
+    },
+    "anti_CD52": {
+      "n_signals": 195,
+      "f_frac": 0.7385,
+      "n_drugs_with_data": 1,
+      "drugs": [
+        {
+          "drug": "ALEMTUZUMAB",
+          "n_signals": 195,
+          "f_frac": 0.7385,
+          "mean_lr": 0.8629
+        }
+      ]
+    },
+    "CTLA4_Ig": {
+      "n_signals": 344,
+      "f_frac": 0.4506,
+      "n_drugs_with_data": 1,
+      "drugs": [
+        {
+          "drug": "ABATACEPT",
+          "n_signals": 344,
+          "f_frac": 0.4506,
+          "mean_lr": 1.3424
+        }
+      ]
+    }
+  },
+  "organ_breakdown": {
+    "Infection": {
+      "n": 720,
+      "f_pct": 40.1
+    },
+    "Hepatic": {
+      "n": 328,
+      "f_pct": 57.6
+    },
+    "Cardiac": {
+      "n": 151,
+      "f_pct": 41.1
+    },
+    "GI": {
+      "n": 237,
+      "f_pct": 58.6
+    },
+    "Renal": {
+      "n": 183,
+      "f_pct": 62.8
+    },
+    "Haematological": {
+      "n": 102,
+      "f_pct": 52.9
+    },
+    "Neurological": {
+      "n": 63,
+      "f_pct": 55.6
+    },
+    "Dermatological": {
+      "n": 206,
+      "f_pct": 55.3
+    },
+    "Malignancy": {
+      "n": 227,
+      "f_pct": 51.5
+    },
+    "Autoimmune_flare": {
+      "n": 175,
+      "f_pct": 64.0
+    },
+    "Infusion_reaction": {
+      "n": 137,
+      "f_pct": 42.3
+    }
+  },
+  "total_autoimmune_signals": 11009,
+  "overall_f_frac": 0.5074
+}

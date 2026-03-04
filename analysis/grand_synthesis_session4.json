@@ -1,0 +1,248 @@
+{
+  "wave": "31_session4_grand_synthesis",
+  "session": 4,
+  "total_waves": "26-31",
+  "output_counts": {
+    "analysis_jsons": 108,
+    "figures_png": 121,
+    "paper_drafts": 17
+  },
+  "signal_summary": {
+    "total": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "unique_drugs": 2178,
+    "unique_aes": 5069
+  },
+  "top_20_discoveries": [
+    {
+      "rank": 1,
+      "finding": "Anti-regression PERFECT monotonicity (rho=1.000, p=6.65e-64)",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 2,
+      "finding": "Reporter-signal NEGATIVE correlation (r=-0.271 at \u2265100 signals, p=5e-6)",
+      "novelty": "EXTREMELY HIGH"
+    },
+    {
+      "rank": 3,
+      "finding": "53% of drugs are DISCORDANT (reporter sex \u2260 signal direction)",
+      "novelty": "EXTREMELY HIGH"
+    },
+    {
+      "rank": 4,
+      "finding": "Risperidone/Olanzapine embedding cos=0.947, 34pp sex difference",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 5,
+      "finding": "Histone deacetylase inhibitors 93.8%F (110 drugs)",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 6,
+      "finding": "S1P modulators 14.5%F (Siponimod 4.2%F)",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 7,
+      "finding": "Belimumab (lupus drug) only 9.1%F signals",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 8,
+      "finding": "Anti-CD20 60pp within-class spread (Ofatumumab 12% vs Obinutuzumab 72%)",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 9,
+      "finding": "Serious AEs 65.6%F vs Moderate 53.5%F",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 10,
+      "finding": "Female signals STRONGER (mean|LR| 1.007 vs 0.963, p=3e-37)",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 11,
+      "finding": "258 drugs Bonferroni-significant sex-enriched",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 12,
+      "finding": "Weighted meta-analysis: overall female-biased (weighted LR=0.374)",
+      "novelty": "MODERATE"
+    },
+    {
+      "rank": 13,
+      "finding": "115 paradoxical signals (pregnancy AEs male-higher)",
+      "novelty": "VERY HIGH"
+    },
+    {
+      "rank": 14,
+      "finding": "Combo drugs more male-biased (41.9%F vs singles 46.8%F)",
+      "novelty": "MODERATE"
+    },
+    {
+      "rank": 15,
+      "finding": "AE specificity gradient: 1-drug 45.1%F \u2192 200+ drugs 59.0%F",
+      "novelty": "MODERATE"
+    },
+    {
+      "rank": 16,
+      "finding": "Drug entropy: MEBEVERINE 0%F (entropy=0), Ranitidine HCl 100%F",
+      "novelty": "MODERATE"
+    },
+    {
+      "rank": 17,
+      "finding": "GABA-A 59.4%F, NMDA 31.0%F, V-gated K+ 28.6%F",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 18,
+      "finding": "Power law: Gini 0.75 for both drugs and AEs",
+      "novelty": "LOW"
+    },
+    {
+      "rank": 19,
+      "finding": "JAK inhibitor spread: Upadacitinib 24%F vs Ruxolitinib 70%F",
+      "novelty": "HIGH"
+    },
+    {
+      "rank": 20,
+      "finding": "Autoimmune infections 40.1%F (male-biased) vs autoimmune flare 64.0%F",
+      "novelty": "HIGH"
+    }
+  ],
+  "paper_drafts": [
+    "CPI_irAE_paper.md",
+    "anti_regression_paper.md",
+    "bidirectional_ae_paper.md",
+    "cardiac_reversal_paper.md",
+    "clinical_urgency_paper.md",
+    "embedding_paper.md",
+    "glp1ra_diabetes_paper.md",
+    "hepatotoxicity_paper.md",
+    "regulatory_paper.md",
+    "reporter_decorrelation_paper.md",
+    "reproductive_paradox_paper.md",
+    "severe_ae_sex_paper.md",
+    "severity_sex_gradient_paper.md",
+    "sex_paradox_paper.md",
+    "sexdiffkg_methods_paper.md",
+    "temporal_instability_paper.md",
+    "volume_gradient_paper.md"
+  ],
+  "json_files": [
+    "ae_network_analysis.json",
+    "age_sex_interaction.json",
+    "age_sex_interaction_v4.json",
+    "atc_soc_analysis.json",
+    "autoimmune_deep_dive.json",
+    "autoimmune_sex_diff.json",
+    "bidirectional_ae_analysis.json",
+    "canada_faers_cross_validation.json",
+    "canada_vigilance_signals_v4.json",
+    "cardiac_reversal_analysis.json",
+    "cardiotoxicity_deep_dive.json",
+    "clinical_significance_scoring.json",
+    "cluster_profiles.json",
+    "comorbidity_proxy_analysis.json",
+    "comprehensive_drug_profiles.json",
+    "cpi_comprehensive.json",
+    "cross_organ_reversal.json",
+    "ddi_sex_analysis.json",
+    "death_deepdive_analysis.json",
+    "diabetes_cardiovascular.json",
+    "dose_response_analysis.json",
+    "drug_class_deepdive.json",
+    "drug_class_target_deep.json",
+    "drug_network_soc.json",
+    "drug_phenotype_clusters.json",
+    "drug_properties_analysis.json",
+    "effect_size_deep_analysis.json",
+    "embedding_clustering.json",
+    "embedding_predictions.json",
+    "embedding_validation_report.json",
+    "geographic_variation_v4.json",
+    "global_signal_rankings.json",
+    "grand_summary_session3.json",
+    "grand_synthesis_session3.json",
+    "gtex_integration.json",
+    "hepatotoxicity_deep_dive.json",
+    "hepatotoxicity_sex_diff.json",
+    "high_confidence_signals.json",
+    "high_volume_classes.json",
+    "indication_sex_analysis.json",
+    "master_statistics.json",
+    "mechanism_analysis.json",
+    "mechanism_clustering.json",
+    "moa_clustering_analysis.json",
+    "molecular_audit_wave4.json",
+    "multi_drug_ae_landscape.json",
+    "nephrotoxicity_deep_dive.json",
+    "network_centrality.json",
+    "network_medicine_tripartite.json",
+    "neurotoxicity_deep_dive.json",
+    "new_angles_analysis.json",
+    "oncology_deep_dive.json",
+    "oncology_sex_diff.json",
+    "openfda_concordance.json",
+    "opioid_deep_dive.json",
+    "opioid_sex_diff_analysis.json",
+    "organ_toxicity_comprehensive.json",
+    "per_country_deep_analysis_v4.json",
+    "polypharmacy_analysis.json",
+    "polypharmacy_sex_bias.json",
+    "protein_family_tissue.json",
+    "protein_network_topology.json",
+    "psychotropic_deep_dive.json",
+    "psychotropic_sex_diff.json",
+    "rare_biologics_analysis.json",
+    "rare_drug_analysis.json",
+    "reporter_decorrelation.json",
+    "reproductive_paradox_analysis.json",
+    "repurposing_analysis.json",
+    "safety_label_gap.json",
+    "safety_signal_ranking.json",
+    "severity_sex_analysis.json",
+    "severity_sex_interaction.json",
+    "sex_enrichment_testing.json",
+    "sex_paradox_analysis.json",
+    "sex_safety_profiles.json",
+    "sexdiffkg_statistics_v4.json",
+    "sider_cross_reference_v4.json",
+    "sider_cross_validation.json",
+    "signal_quality_robustness.json",
+    "signal_validation_benchmarks.json",
+    "soc_sex_bias_analysis.json",
+    "soc_sex_bias_complete.json",
+    "soc_structural_analysis.json",
+    "statistical_tests_v4.json",
+    "temporal_cohort_polypharmacy.json",
+    "temporal_instability.json",
+    "temporal_stability_analysis.json",
+    "temporal_trend_analysis.json",
+    "temporal_validation_v4.json",
+    "temporal_volume_deep.json",
+    "therapeutic_area_analysis.json",
+    "therapeutic_class_analysis.json",
+    "v4_drug_class_sex_bias.json",
+    "v4_drug_clustering.json",
+    "v4_geripharm_kg_feasibility.json",
+    "v4_mentalhealth_kg_feasibility.json",
+    "v4_model_comparison_full.json",
+    "v4_pathway_enrichment.json",
+    "v4_polypharmacy_sex_diff.json",
+    "v4_sex_diff_summary.json",
+    "v4_soc_sex_bias.json",
+    "v4_target_analysis.json",
+    "vaccine_hormonal_analysis.json",
+    "vaccine_sex_diff.json",
+    "validation_audit.json",
+    "wave10_audit.json",
+    "withdrawal_rarity_analysis.json"
+  ]
+}
