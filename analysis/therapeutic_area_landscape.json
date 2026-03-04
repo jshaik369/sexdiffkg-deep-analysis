@@ -1,0 +1,1069 @@
+{
+  "therapeutic_areas": {
+    "oncology": {
+      "n_drugs": 76,
+      "n_signals": 7962,
+      "mean_f_pct": 53.5,
+      "mean_lr": 0.859,
+      "subclasses": [
+        {
+          "subclass": "chemo",
+          "n_drugs": 20,
+          "n_signals": 4035,
+          "mean_f_pct": 55.5,
+          "std_f_pct": 17.6,
+          "mean_lr": 0.89,
+          "drug_ranking": [
+            {
+              "drug": "EPIRUBICIN",
+              "n_signals": 72,
+              "f_pct": 73.8
+            },
+            {
+              "drug": "PACLITAXEL",
+              "n_signals": 259,
+              "f_pct": 68.9
+            },
+            {
+              "drug": "CAPECITABINE",
+              "n_signals": 270,
+              "f_pct": 63.7
+            },
+            {
+              "drug": "TOPOTECAN",
+              "n_signals": 19,
+              "f_pct": 60.4
+            },
+            {
+              "drug": "CARBOPLATIN",
+              "n_signals": 310,
+              "f_pct": 60.3
+            },
+            {
+              "drug": "DOXORUBICIN",
+              "n_signals": 325,
+              "f_pct": 59.2
+            },
+            {
+              "drug": "DOCETAXEL",
+              "n_signals": 304,
+              "f_pct": 59.0
+            },
+            {
+              "drug": "BLEOMYCIN",
+              "n_signals": 61,
+              "f_pct": 57.8
+            },
+            {
+              "drug": "GEMCITABINE",
+              "n_signals": 173,
+              "f_pct": 56.6
+            },
+            {
+              "drug": "CYCLOPHOSPHAMIDE",
+              "n_signals": 498,
+              "f_pct": 56.4
+            }
+          ]
+        },
+        {
+          "subclass": "immuno",
+          "n_drugs": 8,
+          "n_signals": 965,
+          "mean_f_pct": 46.8,
+          "std_f_pct": 13.3,
+          "mean_lr": 0.835,
+          "drug_ranking": [
+            {
+              "drug": "PEMBROLIZUMAB",
+              "n_signals": 309,
+              "f_pct": 54.7
+            },
+            {
+              "drug": "DURVALUMAB",
+              "n_signals": 61,
+              "f_pct": 48.5
+            },
+            {
+              "drug": "ATEZOLIZUMAB",
+              "n_signals": 152,
+              "f_pct": 47.0
+            },
+            {
+              "drug": "CEMIPLIMAB",
+              "n_signals": 4,
+              "f_pct": 46.7
+            },
+            {
+              "drug": "TREMELIMUMAB",
+              "n_signals": 21,
+              "f_pct": 44.0
+            },
+            {
+              "drug": "IPILIMUMAB",
+              "n_signals": 161,
+              "f_pct": 41.6
+            },
+            {
+              "drug": "NIVOLUMAB",
+              "n_signals": 238,
+              "f_pct": 40.7
+            },
+            {
+              "drug": "AVELUMAB",
+              "n_signals": 19,
+              "f_pct": 36.4
+            }
+          ]
+        },
+        {
+          "subclass": "targeted",
+          "n_drugs": 48,
+          "n_signals": 2962,
+          "mean_f_pct": 52.9,
+          "std_f_pct": 17.9,
+          "mean_lr": 0.823,
+          "drug_ranking": [
+            {
+              "drug": "NIRAPARIB",
+              "n_signals": 12,
+              "f_pct": 95.8
+            },
+            {
+              "drug": "PALBOCICLIB",
+              "n_signals": 38,
+              "f_pct": 94.3
+            },
+            {
+              "drug": "RIBOCICLIB",
+              "n_signals": 10,
+              "f_pct": 94.0
+            },
+            {
+              "drug": "ABEMACICLIB",
+              "n_signals": 12,
+              "f_pct": 91.6
+            },
+            {
+              "drug": "LAPATINIB",
+              "n_signals": 7,
+              "f_pct": 89.3
+            },
+            {
+              "drug": "RUCAPARIB",
+              "n_signals": 13,
+              "f_pct": 86.7
+            },
+            {
+              "drug": "TUCATINIB",
+              "n_signals": 7,
+              "f_pct": 83.7
+            },
+            {
+              "drug": "TRASTUZUMAB",
+              "n_signals": 101,
+              "f_pct": 78.9
+            },
+            {
+              "drug": "PERTUZUMAB",
+              "n_signals": 53,
+              "f_pct": 77.7
+            },
+            {
+              "drug": "OLAPARIB",
+              "n_signals": 44,
+              "f_pct": 74.1
+            }
+          ]
+        }
+      ],
+      "anti_regression": {
+        "quintiles": [
+          {
+            "q": 0,
+            "n": 15,
+            "mean_f": 52.2
+          },
+          {
+            "q": 1,
+            "n": 15,
+            "mean_f": 57.7
+          },
+          {
+            "q": 2,
+            "n": 15,
+            "mean_f": 55.1
+          },
+          {
+            "q": 3,
+            "n": 15,
+            "mean_f": 57.0
+          },
+          {
+            "q": 4,
+            "n": 15,
+            "mean_f": 59.2
+          }
+        ],
+        "rho": 0.7,
+        "p": 0.1881
+      }
+    },
+    "cns": {
+      "n_drugs": 63,
+      "n_signals": 9612,
+      "mean_f_pct": 57.2,
+      "mean_lr": 0.944,
+      "subclasses": [
+        {
+          "subclass": "adhd",
+          "n_drugs": 4,
+          "n_signals": 368,
+          "mean_f_pct": 54.5,
+          "std_f_pct": 21.2,
+          "mean_lr": 1.048,
+          "drug_ranking": [
+            {
+              "drug": "ATOMOXETINE",
+              "n_signals": 105,
+              "f_pct": 67.9
+            },
+            {
+              "drug": "METHYLPHENIDATE",
+              "n_signals": 147,
+              "f_pct": 52.5
+            },
+            {
+              "drug": "LISDEXAMFETAMINE",
+              "n_signals": 97,
+              "f_pct": 45.5
+            },
+            {
+              "drug": "GUANFACINE",
+              "n_signals": 19,
+              "f_pct": 42.4
+            }
+          ]
+        },
+        {
+          "subclass": "alzheimers",
+          "n_drugs": 4,
+          "n_signals": 195,
+          "mean_f_pct": 56.5,
+          "std_f_pct": 15.2,
+          "mean_lr": 0.813,
+          "drug_ranking": [
+            {
+              "drug": "MEMANTINE",
+              "n_signals": 35,
+              "f_pct": 58.4
+            },
+            {
+              "drug": "DONEPEZIL",
+              "n_signals": 62,
+              "f_pct": 57.6
+            },
+            {
+              "drug": "GALANTAMINE",
+              "n_signals": 24,
+              "f_pct": 55.8
+            },
+            {
+              "drug": "RIVASTIGMINE",
+              "n_signals": 74,
+              "f_pct": 54.8
+            }
+          ]
+        },
+        {
+          "subclass": "anticonvulsants",
+          "n_drugs": 13,
+          "n_signals": 2411,
+          "mean_f_pct": 57.1,
+          "std_f_pct": 20.8,
+          "mean_lr": 0.93,
+          "drug_ranking": [
+            {
+              "drug": "TOPIRAMATE",
+              "n_signals": 200,
+              "f_pct": 67.3
+            },
+            {
+              "drug": "PREGABALIN",
+              "n_signals": 406,
+              "f_pct": 65.8
+            },
+            {
+              "drug": "LAMOTRIGINE",
+              "n_signals": 319,
+              "f_pct": 62.9
+            },
+            {
+              "drug": "ZONISAMIDE",
+              "n_signals": 30,
+              "f_pct": 61.2
+            },
+            {
+              "drug": "LACOSAMIDE",
+              "n_signals": 98,
+              "f_pct": 54.6
+            },
+            {
+              "drug": "OXCARBAZEPINE",
+              "n_signals": 108,
+              "f_pct": 54.4
+            },
+            {
+              "drug": "BRIVARACETAM",
+              "n_signals": 27,
+              "f_pct": 53.9
+            },
+            {
+              "drug": "CARBAMAZEPINE",
+              "n_signals": 180,
+              "f_pct": 53.6
+            },
+            {
+              "drug": "GABAPENTIN",
+              "n_signals": 333,
+              "f_pct": 53.5
+            },
+            {
+              "drug": "PHENYTOIN",
+              "n_signals": 88,
+              "f_pct": 53.0
+            }
+          ]
+        },
+        {
+          "subclass": "antidepressants",
+          "n_drugs": 15,
+          "n_signals": 2517,
+          "mean_f_pct": 61.3,
+          "std_f_pct": 20.4,
+          "mean_lr": 0.941,
+          "drug_ranking": [
+            {
+              "drug": "TRAZODONE",
+              "n_signals": 151,
+              "f_pct": 68.7
+            },
+            {
+              "drug": "DESVENLAFAXINE",
+              "n_signals": 46,
+              "f_pct": 68.0
+            },
+            {
+              "drug": "DULOXETINE",
+              "n_signals": 189,
+              "f_pct": 66.6
+            },
+            {
+              "drug": "AMITRIPTYLINE",
+              "n_signals": 189,
+              "f_pct": 66.5
+            },
+            {
+              "drug": "VILAZODONE",
+              "n_signals": 17,
+              "f_pct": 65.7
+            },
+            {
+              "drug": "BUPROPION",
+              "n_signals": 174,
+              "f_pct": 65.1
+            },
+            {
+              "drug": "NORTRIPTYLINE",
+              "n_signals": 64,
+              "f_pct": 62.5
+            },
+            {
+              "drug": "CITALOPRAM",
+              "n_signals": 237,
+              "f_pct": 62.2
+            },
+            {
+              "drug": "VORTIOXETINE",
+              "n_signals": 61,
+              "f_pct": 61.6
+            },
+            {
+              "drug": "VENLAFAXINE",
+              "n_signals": 287,
+              "f_pct": 61.3
+            }
+          ]
+        },
+        {
+          "subclass": "antipsychotics",
+          "n_drugs": 12,
+          "n_signals": 2535,
+          "mean_f_pct": 51.5,
+          "std_f_pct": 18.5,
+          "mean_lr": 0.977,
+          "drug_ranking": [
+            {
+              "drug": "QUETIAPINE",
+              "n_signals": 426,
+              "f_pct": 63.1
+            },
+            {
+              "drug": "BREXPIPRAZOLE",
+              "n_signals": 43,
+              "f_pct": 62.2
+            },
+            {
+              "drug": "LURASIDONE",
+              "n_signals": 81,
+              "f_pct": 57.2
+            },
+            {
+              "drug": "ZIPRASIDONE",
+              "n_signals": 87,
+              "f_pct": 57.2
+            },
+            {
+              "drug": "ARIPIPRAZOLE",
+              "n_signals": 342,
+              "f_pct": 52.2
+            },
+            {
+              "drug": "OLANZAPINE",
+              "n_signals": 336,
+              "f_pct": 49.8
+            },
+            {
+              "drug": "CHLORPROMAZINE",
+              "n_signals": 57,
+              "f_pct": 48.9
+            },
+            {
+              "drug": "RISPERIDONE",
+              "n_signals": 518,
+              "f_pct": 47.7
+            },
+            {
+              "drug": "PALIPERIDONE",
+              "n_signals": 161,
+              "f_pct": 47.6
+            },
+            {
+              "drug": "CARIPRAZINE",
+              "n_signals": 39,
+              "f_pct": 46.1
+            }
+          ]
+        },
+        {
+          "subclass": "anxiolytics_hypnotics",
+          "n_drugs": 8,
+          "n_signals": 1318,
+          "mean_f_pct": 62.8,
+          "std_f_pct": 19.7,
+          "mean_lr": 0.924,
+          "drug_ranking": [
+            {
+              "drug": "HYDROXYZINE",
+              "n_signals": 78,
+              "f_pct": 66.6
+            },
+            {
+              "drug": "ALPRAZOLAM",
+              "n_signals": 237,
+              "f_pct": 66.5
+            },
+            {
+              "drug": "LORAZEPAM",
+              "n_signals": 264,
+              "f_pct": 64.3
+            },
+            {
+              "drug": "CLONAZEPAM",
+              "n_signals": 285,
+              "f_pct": 61.8
+            },
+            {
+              "drug": "DIAZEPAM",
+              "n_signals": 250,
+              "f_pct": 61.6
+            },
+            {
+              "drug": "ZOLPIDEM",
+              "n_signals": 146,
+              "f_pct": 60.0
+            },
+            {
+              "drug": "BUSPIRONE",
+              "n_signals": 50,
+              "f_pct": 54.4
+            },
+            {
+              "drug": "ESZOPICLONE",
+              "n_signals": 8,
+              "f_pct": 48.1
+            }
+          ]
+        },
+        {
+          "subclass": "parkinsons",
+          "n_drugs": 7,
+          "n_signals": 268,
+          "mean_f_pct": 50.6,
+          "std_f_pct": 17.3,
+          "mean_lr": 0.846,
+          "drug_ranking": [
+            {
+              "drug": "ENTACAPONE",
+              "n_signals": 21,
+              "f_pct": 57.0
+            },
+            {
+              "drug": "LEVODOPA",
+              "n_signals": 42,
+              "f_pct": 53.3
+            },
+            {
+              "drug": "PRAMIPEXOLE",
+              "n_signals": 95,
+              "f_pct": 53.0
+            },
+            {
+              "drug": "AMANTADINE",
+              "n_signals": 34,
+              "f_pct": 47.1
+            },
+            {
+              "drug": "ROPINIROLE",
+              "n_signals": 49,
+              "f_pct": 46.5
+            },
+            {
+              "drug": "RASAGILINE",
+              "n_signals": 26,
+              "f_pct": 45.5
+            },
+            {
+              "drug": "SAFINAMIDE",
+              "n_signals": 1,
+              "f_pct": 31.4
+            }
+          ]
+        }
+      ],
+      "anti_regression": {
+        "quintiles": [
+          {
+            "q": 0,
+            "n": 12,
+            "mean_f": 53.1
+          },
+          {
+            "q": 1,
+            "n": 12,
+            "mean_f": 56.2
+          },
+          {
+            "q": 2,
+            "n": 12,
+            "mean_f": 55.4
+          },
+          {
+            "q": 3,
+            "n": 12,
+            "mean_f": 59.7
+          },
+          {
+            "q": 4,
+            "n": 14,
+            "mean_f": 58.0
+          }
+        ],
+        "rho": 0.8,
+        "p": 0.1041
+      }
+    },
+    "autoimmune": {
+      "n_drugs": 36,
+      "n_signals": 12102,
+      "mean_f_pct": 66.6,
+      "mean_lr": 1.083,
+      "subclasses": [
+        {
+          "subclass": "biologics",
+          "n_drugs": 19,
+          "n_signals": 5844,
+          "mean_f_pct": 68.9,
+          "std_f_pct": 21.3,
+          "mean_lr": 1.089,
+          "drug_ranking": [
+            {
+              "drug": "SARILUMAB",
+              "n_signals": 103,
+              "f_pct": 86.0
+            },
+            {
+              "drug": "CERTOLIZUMAB",
+              "n_signals": 314,
+              "f_pct": 79.1
+            },
+            {
+              "drug": "BELIMUMAB",
+              "n_signals": 22,
+              "f_pct": 78.7
+            },
+            {
+              "drug": "GOLIMUMAB",
+              "n_signals": 334,
+              "f_pct": 78.4
+            },
+            {
+              "drug": "ABATACEPT",
+              "n_signals": 344,
+              "f_pct": 76.7
+            },
+            {
+              "drug": "TOCILIZUMAB",
+              "n_signals": 508,
+              "f_pct": 72.3
+            },
+            {
+              "drug": "USTEKINUMAB",
+              "n_signals": 314,
+              "f_pct": 70.8
+            },
+            {
+              "drug": "NATALIZUMAB",
+              "n_signals": 141,
+              "f_pct": 70.5
+            },
+            {
+              "drug": "ETANERCEPT",
+              "n_signals": 618,
+              "f_pct": 69.9
+            },
+            {
+              "drug": "SECUKINUMAB",
+              "n_signals": 456,
+              "f_pct": 66.8
+            }
+          ]
+        },
+        {
+          "subclass": "dmards",
+          "n_drugs": 7,
+          "n_signals": 2622,
+          "mean_f_pct": 66.8,
+          "std_f_pct": 22.9,
+          "mean_lr": 1.133,
+          "drug_ranking": [
+            {
+              "drug": "HYDROXYCHLOROQUINE",
+              "n_signals": 376,
+              "f_pct": 73.2
+            },
+            {
+              "drug": "LEFLUNOMIDE",
+              "n_signals": 370,
+              "f_pct": 73.2
+            },
+            {
+              "drug": "SULFASALAZINE",
+              "n_signals": 318,
+              "f_pct": 71.8
+            },
+            {
+              "drug": "AZATHIOPRINE",
+              "n_signals": 337,
+              "f_pct": 65.4
+            },
+            {
+              "drug": "METHOTREXATE",
+              "n_signals": 892,
+              "f_pct": 64.3
+            },
+            {
+              "drug": "CYCLOSPORINE",
+              "n_signals": 52,
+              "f_pct": 59.4
+            },
+            {
+              "drug": "MYCOPHENOLATE MOFETIL",
+              "n_signals": 277,
+              "f_pct": 54.6
+            }
+          ]
+        },
+        {
+          "subclass": "jak_inhibitors",
+          "n_drugs": 4,
+          "n_signals": 549,
+          "mean_f_pct": 71.0,
+          "std_f_pct": 19.3,
+          "mean_lr": 0.94,
+          "drug_ranking": [
+            {
+              "drug": "TOFACITINIB",
+              "n_signals": 331,
+              "f_pct": 77.0
+            },
+            {
+              "drug": "UPADACITINIB",
+              "n_signals": 181,
+              "f_pct": 63.5
+            },
+            {
+              "drug": "BARICITINIB",
+              "n_signals": 36,
+              "f_pct": 53.3
+            },
+            {
+              "drug": "FILGOTINIB",
+              "n_signals": 1,
+              "f_pct": 52.0
+            }
+          ]
+        },
+        {
+          "subclass": "steroids",
+          "n_drugs": 6,
+          "n_signals": 3087,
+          "mean_f_pct": 61.2,
+          "std_f_pct": 21.4,
+          "mean_lr": 1.056,
+          "drug_ranking": [
+            {
+              "drug": "METHYLPREDNISOLONE",
+              "n_signals": 521,
+              "f_pct": 66.9
+            },
+            {
+              "drug": "PREDNISONE",
+              "n_signals": 926,
+              "f_pct": 63.8
+            },
+            {
+              "drug": "HYDROCORTISONE",
+              "n_signals": 302,
+              "f_pct": 63.1
+            },
+            {
+              "drug": "PREDNISOLONE",
+              "n_signals": 542,
+              "f_pct": 60.1
+            },
+            {
+              "drug": "BUDESONIDE",
+              "n_signals": 259,
+              "f_pct": 55.8
+            },
+            {
+              "drug": "DEXAMETHASONE",
+              "n_signals": 537,
+              "f_pct": 54.0
+            }
+          ]
+        }
+      ],
+      "anti_regression": {
+        "quintiles": [
+          {
+            "q": 0,
+            "n": 6,
+            "mean_f": 59.0
+          },
+          {
+            "q": 1,
+            "n": 6,
+            "mean_f": 60.7
+          },
+          {
+            "q": 2,
+            "n": 6,
+            "mean_f": 65.9
+          },
+          {
+            "q": 3,
+            "n": 6,
+            "mean_f": 73.1
+          },
+          {
+            "q": 4,
+            "n": 10,
+            "mean_f": 69.4
+          }
+        ],
+        "rho": 0.9,
+        "p": 0.03739
+      }
+    },
+    "metabolic": {
+      "n_drugs": 38,
+      "n_signals": 3647,
+      "mean_f_pct": 54.6,
+      "mean_lr": 0.9,
+      "subclasses": [
+        {
+          "subclass": "diabetes",
+          "n_drugs": 20,
+          "n_signals": 1881,
+          "mean_f_pct": 54.5,
+          "std_f_pct": 17.8,
+          "mean_lr": 0.847,
+          "drug_ranking": [
+            {
+              "drug": "SEMAGLUTIDE",
+              "n_signals": 152,
+              "f_pct": 61.0
+            },
+            {
+              "drug": "GLIMEPIRIDE",
+              "n_signals": 38,
+              "f_pct": 59.7
+            },
+            {
+              "drug": "METFORMIN",
+              "n_signals": 399,
+              "f_pct": 59.0
+            },
+            {
+              "drug": "DULAGLUTIDE",
+              "n_signals": 77,
+              "f_pct": 56.9
+            },
+            {
+              "drug": "EXENATIDE",
+              "n_signals": 92,
+              "f_pct": 56.6
+            },
+            {
+              "drug": "PIOGLITAZONE",
+              "n_signals": 61,
+              "f_pct": 56.4
+            },
+            {
+              "drug": "SITAGLIPTIN",
+              "n_signals": 154,
+              "f_pct": 56.2
+            },
+            {
+              "drug": "SAXAGLIPTIN",
+              "n_signals": 18,
+              "f_pct": 54.8
+            },
+            {
+              "drug": "ACARBOSE",
+              "n_signals": 13,
+              "f_pct": 54.7
+            },
+            {
+              "drug": "INSULIN",
+              "n_signals": 339,
+              "f_pct": 52.9
+            }
+          ]
+        },
+        {
+          "subclass": "lipids",
+          "n_drugs": 12,
+          "n_signals": 1424,
+          "mean_f_pct": 51.6,
+          "std_f_pct": 19.7,
+          "mean_lr": 0.915,
+          "drug_ranking": [
+            {
+              "drug": "LOVASTATIN",
+              "n_signals": 8,
+              "f_pct": 63.7
+            },
+            {
+              "drug": "PITAVASTATIN",
+              "n_signals": 3,
+              "f_pct": 58.9
+            },
+            {
+              "drug": "EVOLOCUMAB",
+              "n_signals": 131,
+              "f_pct": 54.2
+            },
+            {
+              "drug": "ATORVASTATIN",
+              "n_signals": 388,
+              "f_pct": 53.5
+            },
+            {
+              "drug": "ALIROCUMAB",
+              "n_signals": 53,
+              "f_pct": 52.2
+            },
+            {
+              "drug": "ROSUVASTATIN",
+              "n_signals": 337,
+              "f_pct": 52.2
+            },
+            {
+              "drug": "PRAVASTATIN",
+              "n_signals": 67,
+              "f_pct": 50.5
+            },
+            {
+              "drug": "SIMVASTATIN",
+              "n_signals": 261,
+              "f_pct": 50.1
+            },
+            {
+              "drug": "FENOFIBRATE",
+              "n_signals": 57,
+              "f_pct": 48.2
+            },
+            {
+              "drug": "EZETIMIBE",
+              "n_signals": 94,
+              "f_pct": 46.3
+            }
+          ]
+        },
+        {
+          "subclass": "obesity",
+          "n_drugs": 3,
+          "n_signals": 14,
+          "mean_f_pct": 70.1,
+          "std_f_pct": 13.6,
+          "mean_lr": 0.919,
+          "drug_ranking": [
+            {
+              "drug": "LORCASERIN",
+              "n_signals": 5,
+              "f_pct": 77.3
+            },
+            {
+              "drug": "ORLISTAT",
+              "n_signals": 7,
+              "f_pct": 67.4
+            },
+            {
+              "drug": "PHENTERMINE",
+              "n_signals": 2,
+              "f_pct": 61.3
+            }
+          ]
+        },
+        {
+          "subclass": "thyroid",
+          "n_drugs": 3,
+          "n_signals": 328,
+          "mean_f_pct": 67.3,
+          "std_f_pct": 18.2,
+          "mean_lr": 1.142,
+          "drug_ranking": [
+            {
+              "drug": "METHIMAZOLE",
+              "n_signals": 2,
+              "f_pct": 67.9
+            },
+            {
+              "drug": "LEVOTHYROXINE",
+              "n_signals": 322,
+              "f_pct": 67.5
+            },
+            {
+              "drug": "PROPYLTHIOURACIL",
+              "n_signals": 4,
+              "f_pct": 52.9
+            }
+          ]
+        }
+      ],
+      "anti_regression": {
+        "quintiles": [
+          {
+            "q": 0,
+            "n": 6,
+            "mean_f": 61.4
+          },
+          {
+            "q": 1,
+            "n": 6,
+            "mean_f": 51.6
+          },
+          {
+            "q": 2,
+            "n": 6,
+            "mean_f": 50.9
+          },
+          {
+            "q": 3,
+            "n": 6,
+            "mean_f": 52.9
+          },
+          {
+            "q": 4,
+            "n": 7,
+            "mean_f": 55.6
+          }
+        ],
+        "rho": -0.1,
+        "p": 0.8729
+      }
+    }
+  },
+  "cross_ta_comparison": {
+    "kruskal_wallis_H": 2239.8,
+    "kruskal_wallis_p": 0.0,
+    "pairwise": [
+      {
+        "ta1": "oncology",
+        "ta2": "autoimmune",
+        "f1": 53.5,
+        "f2": 66.6,
+        "diff_pp": 13.1,
+        "mwu_p": 0.0
+      },
+      {
+        "ta1": "autoimmune",
+        "ta2": "metabolic",
+        "f1": 66.6,
+        "f2": 54.6,
+        "diff_pp": 12.0,
+        "mwu_p": 1.164e-183
+      },
+      {
+        "ta1": "cns",
+        "ta2": "autoimmune",
+        "f1": 57.2,
+        "f2": 66.6,
+        "diff_pp": 9.4,
+        "mwu_p": 9.337e-223
+      },
+      {
+        "ta1": "oncology",
+        "ta2": "cns",
+        "f1": 53.5,
+        "f2": 57.2,
+        "diff_pp": 3.7,
+        "mwu_p": 5.963e-35
+      },
+      {
+        "ta1": "cns",
+        "ta2": "metabolic",
+        "f1": 57.2,
+        "f2": 54.6,
+        "diff_pp": 2.6,
+        "mwu_p": 5.226e-10
+      },
+      {
+        "ta1": "oncology",
+        "ta2": "metabolic",
+        "f1": 53.5,
+        "f2": 54.6,
+        "diff_pp": 1.1,
+        "mwu_p": 0.0001055
+      }
+    ]
+  },
+  "coverage": {
+    "total_signals": 96281,
+    "classified": 33323,
+    "pct": 34.6
+  }
+}

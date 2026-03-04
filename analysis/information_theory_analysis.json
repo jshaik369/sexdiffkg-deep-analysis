@@ -1,0 +1,646 @@
+{
+  "drug_entropy": {
+    "n_drugs": 1394,
+    "mean_entropy": 0.9487,
+    "median_entropy": 0.9848,
+    "most_predictable": {
+      "NIRAPARIB": {
+        "entropy": 0.2536,
+        "f_frac": 0.9575,
+        "n_signals": 12,
+        "total_rep": 19484
+      },
+      "FULVESTRANT": {
+        "entropy": 0.2592,
+        "f_frac": 0.9563,
+        "n_signals": 6,
+        "total_rep": 6145
+      },
+      "INTRAUTERINE CONTRACEPTIVE DEVICE": {
+        "entropy": 0.2923,
+        "f_frac": 0.9486,
+        "n_signals": 5,
+        "total_rep": 3622
+      },
+      "PALBOCICLIB": {
+        "entropy": 0.3135,
+        "f_frac": 0.9435,
+        "n_signals": 38,
+        "total_rep": 56177
+      },
+      "RIBOCICLIB": {
+        "entropy": 0.3288,
+        "f_frac": 0.9397,
+        "n_signals": 10,
+        "total_rep": 10333
+      },
+      "ENZALUTAMIDE": {
+        "entropy": 0.3352,
+        "f_frac": 0.062,
+        "n_signals": 10,
+        "total_rep": 20903
+      },
+      "ERENUMAB": {
+        "entropy": 0.4028,
+        "f_frac": 0.9198,
+        "n_signals": 68,
+        "total_rep": 60536
+      },
+      "ABALOPARATIDE": {
+        "entropy": 0.4075,
+        "f_frac": 0.9185,
+        "n_signals": 31,
+        "total_rep": 14087
+      },
+      "ABEMACICLIB": {
+        "entropy": 0.4153,
+        "f_frac": 0.9162,
+        "n_signals": 12,
+        "total_rep": 7548
+      },
+      "ALENDRONATE SODIUM": {
+        "entropy": 0.4183,
+        "f_frac": 0.9154,
+        "n_signals": 19,
+        "total_rep": 6453
+      },
+      "ALPELISIB": {
+        "entropy": 0.448,
+        "f_frac": 0.9065,
+        "n_signals": 11,
+        "total_rep": 6900
+      },
+      "LAPATINIB": {
+        "entropy": 0.4915,
+        "f_frac": 0.8928,
+        "n_signals": 7,
+        "total_rep": 3102
+      },
+      "ALMOTRIPTAN": {
+        "entropy": 0.5297,
+        "f_frac": 0.1201,
+        "n_signals": 5,
+        "total_rep": 1155
+      },
+      "C1-INHIBITOR": {
+        "entropy": 0.5488,
+        "f_frac": 0.8731,
+        "n_signals": 59,
+        "total_rep": 26343
+      },
+      "LETROZOLE": {
+        "entropy": 0.5569,
+        "f_frac": 0.8702,
+        "n_signals": 17,
+        "total_rep": 12170
+      },
+      "FACTOR VIII": {
+        "entropy": 0.5597,
+        "f_frac": 0.1308,
+        "n_signals": 38,
+        "total_rep": 10033
+      },
+      "RUCAPARIB": {
+        "entropy": 0.5648,
+        "f_frac": 0.8673,
+        "n_signals": 13,
+        "total_rep": 6305
+      },
+      "ROMOSOZUMAB": {
+        "entropy": 0.5658,
+        "f_frac": 0.8669,
+        "n_signals": 10,
+        "total_rep": 1633
+      },
+      "CLORHEXIDINE;ISOPROPANOL": {
+        "entropy": 0.5687,
+        "f_frac": 0.8659,
+        "n_signals": 5,
+        "total_rep": 1014
+      },
+      "HERBALS, UNSPECIFIED;NUTRIENTS, UNSPECIFIED": {
+        "entropy": 0.5711,
+        "f_frac": 0.865,
+        "n_signals": 5,
+        "total_rep": 1766
+      }
+    },
+    "most_balanced": {
+      "AMBROXOL": {
+        "entropy": 1.0,
+        "f_frac": 0.4994,
+        "n_signals": 14,
+        "total_rep": 1303
+      },
+      "AMLODIPINE BESYLATE": {
+        "entropy": 1.0,
+        "f_frac": 0.5023,
+        "n_signals": 11,
+        "total_rep": 441
+      },
+      "ANTITHYMOCYTE IMMUNOGLOBULIN": {
+        "entropy": 1.0,
+        "f_frac": 0.5034,
+        "n_signals": 169,
+        "total_rep": 18264
+      },
+      "BUSULFAN": {
+        "entropy": 1.0,
+        "f_frac": 0.4986,
+        "n_signals": 106,
+        "total_rep": 9068
+      },
+      "CANAGLIFLOZIN": {
+        "entropy": 1.0,
+        "f_frac": 0.5009,
+        "n_signals": 69,
+        "total_rep": 13855
+      },
+      "CARFILZOMIB": {
+        "entropy": 1.0,
+        "f_frac": 0.5006,
+        "n_signals": 93,
+        "total_rep": 7325
+      },
+      "CEFOXITIN": {
+        "entropy": 1.0,
+        "f_frac": 0.4997,
+        "n_signals": 6,
+        "total_rep": 229
+      },
+      "CLOMIPRAMINE": {
+        "entropy": 1.0,
+        "f_frac": 0.497,
+        "n_signals": 43,
+        "total_rep": 4255
+      },
+      "DABRAFENIB": {
+        "entropy": 1.0,
+        "f_frac": 0.5009,
+        "n_signals": 81,
+        "total_rep": 5413
+      },
+      "DASABUVIR;OMBITASVIR;PARITAPREVIR;RITONAVIR": {
+        "entropy": 1.0,
+        "f_frac": 0.4977,
+        "n_signals": 47,
+        "total_rep": 3459
+      },
+      "DAUNORUBICIN": {
+        "entropy": 1.0,
+        "f_frac": 0.4973,
+        "n_signals": 102,
+        "total_rep": 8162
+      },
+      "DIVALPROEX SODIUM": {
+        "entropy": 1.0,
+        "f_frac": 0.5031,
+        "n_signals": 8,
+        "total_rep": 401
+      },
+      "ERDAFITINIB": {
+        "entropy": 1.0,
+        "f_frac": 0.4967,
+        "n_signals": 8,
+        "total_rep": 275
+      },
+      "ESCITALOPRAM OXALATE": {
+        "entropy": 1.0,
+        "f_frac": 0.5035,
+        "n_signals": 8,
+        "total_rep": 368
+      },
+      "ESLICARBAZEPINE": {
+        "entropy": 1.0,
+        "f_frac": 0.5029,
+        "n_signals": 11,
+        "total_rep": 640
+      },
+      "ETHANOL": {
+        "entropy": 1.0,
+        "f_frac": 0.4975,
+        "n_signals": 65,
+        "total_rep": 9246
+      },
+      "FLURAZEPAM": {
+        "entropy": 1.0,
+        "f_frac": 0.5012,
+        "n_signals": 14,
+        "total_rep": 1230
+      },
+      "FLUTICASONE;VILANTEROL": {
+        "entropy": 1.0,
+        "f_frac": 0.5018,
+        "n_signals": 175,
+        "total_rep": 30645
+      },
+      "GLYCEROL PHENYLBUTYRATE": {
+        "entropy": 1.0,
+        "f_frac": 0.5023,
+        "n_signals": 7,
+        "total_rep": 252
+      },
+      "HYDROCODONE;IBUPROFEN": {
+        "entropy": 1.0,
+        "f_frac": 0.4998,
+        "n_signals": 8,
+        "total_rep": 981
+      }
+    }
+  },
+  "entropy_anti_regression": {
+    "deciles": [
+      {
+        "decile": 0,
+        "n_drugs": 139,
+        "mean_entropy": 0.9819,
+        "mean_f_frac": 0.5237,
+        "mean_total_rep": 267
+      },
+      {
+        "decile": 1,
+        "n_drugs": 139,
+        "mean_entropy": 0.9701,
+        "mean_f_frac": 0.5321,
+        "mean_total_rep": 450
+      },
+      {
+        "decile": 2,
+        "n_drugs": 139,
+        "mean_entropy": 0.9576,
+        "mean_f_frac": 0.5409,
+        "mean_total_rep": 751
+      },
+      {
+        "decile": 3,
+        "n_drugs": 139,
+        "mean_entropy": 0.9598,
+        "mean_f_frac": 0.5289,
+        "mean_total_rep": 1186
+      },
+      {
+        "decile": 4,
+        "n_drugs": 139,
+        "mean_entropy": 0.9543,
+        "mean_f_frac": 0.5526,
+        "mean_total_rep": 1846
+      },
+      {
+        "decile": 5,
+        "n_drugs": 139,
+        "mean_entropy": 0.9457,
+        "mean_f_frac": 0.5594,
+        "mean_total_rep": 3111
+      },
+      {
+        "decile": 6,
+        "n_drugs": 139,
+        "mean_entropy": 0.9326,
+        "mean_f_frac": 0.5574,
+        "mean_total_rep": 5117
+      },
+      {
+        "decile": 7,
+        "n_drugs": 139,
+        "mean_entropy": 0.9447,
+        "mean_f_frac": 0.5517,
+        "mean_total_rep": 9586
+      },
+      {
+        "decile": 8,
+        "n_drugs": 139,
+        "mean_entropy": 0.9334,
+        "mean_f_frac": 0.5684,
+        "mean_total_rep": 22118
+      },
+      {
+        "decile": 9,
+        "n_drugs": 143,
+        "mean_entropy": 0.908,
+        "mean_f_frac": 0.6414,
+        "mean_total_rep": 125309
+      }
+    ],
+    "rho": -0.952,
+    "p": 2.28e-05,
+    "interpretation": "Negative rho = high-volume drugs have LOWER entropy (more predictable sex)"
+  },
+  "ae_mutual_information": {
+    "n_aes": 1668,
+    "mean_mi": 0.0995,
+    "most_informative": {
+      "Folliculitis": {
+        "mutual_info": 0.3199,
+        "H_overall": 0.8802,
+        "H_conditional": 0.5603,
+        "n_drugs": 46,
+        "f_frac": 0.7009
+      },
+      "Obesity": {
+        "mutual_info": 0.3184,
+        "H_overall": 0.9216,
+        "H_conditional": 0.6033,
+        "n_drugs": 91,
+        "f_frac": 0.6633
+      },
+      "Blood cholesterol increased": {
+        "mutual_info": 0.315,
+        "H_overall": 0.9199,
+        "H_conditional": 0.6049,
+        "n_drugs": 122,
+        "f_frac": 0.6651
+      },
+      "Hip arthroplasty": {
+        "mutual_info": 0.2967,
+        "H_overall": 0.7909,
+        "H_conditional": 0.4942,
+        "n_drugs": 42,
+        "f_frac": 0.7625
+      },
+      "Peripheral venous disease": {
+        "mutual_info": 0.296,
+        "H_overall": 0.8429,
+        "H_conditional": 0.547,
+        "n_drugs": 21,
+        "f_frac": 0.729
+      },
+      "Incorrect route of product administration": {
+        "mutual_info": 0.2945,
+        "H_overall": 0.9924,
+        "H_conditional": 0.698,
+        "n_drugs": 99,
+        "f_frac": 0.5512
+      },
+      "Prescribed overdose": {
+        "mutual_info": 0.2887,
+        "H_overall": 0.8692,
+        "H_conditional": 0.5805,
+        "n_drugs": 64,
+        "f_frac": 0.7096
+      },
+      "Hypercholesterolaemia": {
+        "mutual_info": 0.2878,
+        "H_overall": 0.8775,
+        "H_conditional": 0.5896,
+        "n_drugs": 79,
+        "f_frac": 0.7031
+      },
+      "Infusion related reaction": {
+        "mutual_info": 0.2851,
+        "H_overall": 0.7767,
+        "H_conditional": 0.4916,
+        "n_drugs": 94,
+        "f_frac": 0.7708
+      },
+      "Impaired healing": {
+        "mutual_info": 0.2754,
+        "H_overall": 0.909,
+        "H_conditional": 0.6336,
+        "n_drugs": 92,
+        "f_frac": 0.6757
+      },
+      "Pulmonary fibrosis": {
+        "mutual_info": 0.2718,
+        "H_overall": 0.9411,
+        "H_conditional": 0.6693,
+        "n_drugs": 106,
+        "f_frac": 0.6419
+      },
+      "Injury": {
+        "mutual_info": 0.2689,
+        "H_overall": 0.9048,
+        "H_conditional": 0.636,
+        "n_drugs": 89,
+        "f_frac": 0.6796
+      },
+      "Pericarditis": {
+        "mutual_info": 0.2684,
+        "H_overall": 0.8791,
+        "H_conditional": 0.6107,
+        "n_drugs": 79,
+        "f_frac": 0.7018
+      },
+      "Dry mouth": {
+        "mutual_info": 0.2662,
+        "H_overall": 0.9458,
+        "H_conditional": 0.6796,
+        "n_drugs": 180,
+        "f_frac": 0.6362
+      },
+      "Systemic lupus erythematosus": {
+        "mutual_info": 0.2651,
+        "H_overall": 0.7816,
+        "H_conditional": 0.5165,
+        "n_drugs": 71,
+        "f_frac": 0.7679
+      },
+      "Chest X-ray abnormal": {
+        "mutual_info": 0.2637,
+        "H_overall": 0.9961,
+        "H_conditional": 0.7324,
+        "n_drugs": 11,
+        "f_frac": 0.5369
+      },
+      "Exostosis": {
+        "mutual_info": 0.2616,
+        "H_overall": 0.9051,
+        "H_conditional": 0.6435,
+        "n_drugs": 33,
+        "f_frac": 0.6793
+      },
+      "Breath sounds abnormal": {
+        "mutual_info": 0.2594,
+        "H_overall": 0.9999,
+        "H_conditional": 0.7404,
+        "n_drugs": 33,
+        "f_frac": 0.4932
+      },
+      "General physical health deterioration": {
+        "mutual_info": 0.257,
+        "H_overall": 0.9729,
+        "H_conditional": 0.7159,
+        "n_drugs": 239,
+        "f_frac": 0.5966
+      },
+      "Pulmonary function test abnormal": {
+        "mutual_info": 0.2558,
+        "H_overall": 0.9875,
+        "H_conditional": 0.7317,
+        "n_drugs": 14,
+        "f_frac": 0.4342
+      }
+    },
+    "least_informative": {
+      "Catarrh": {
+        "mutual_info": 0.0056,
+        "H_overall": 0.8189,
+        "H_conditional": 0.8133,
+        "n_drugs": 28,
+        "f_frac": 0.2549
+      },
+      "Graft versus host disease in gastrointestinal tract": {
+        "mutual_info": 0.0121,
+        "H_overall": 0.9978,
+        "H_conditional": 0.9857,
+        "n_drugs": 21,
+        "f_frac": 0.4724
+      },
+      "Acute lymphocytic leukaemia recurrent": {
+        "mutual_info": 0.0158,
+        "H_overall": 0.9998,
+        "H_conditional": 0.984,
+        "n_drugs": 20,
+        "f_frac": 0.5078
+      },
+      "Hypopnoea": {
+        "mutual_info": 0.0184,
+        "H_overall": 0.8673,
+        "H_conditional": 0.8489,
+        "n_drugs": 35,
+        "f_frac": 0.2889
+      },
+      "Cytomegalovirus infection reactivation": {
+        "mutual_info": 0.0215,
+        "H_overall": 0.9979,
+        "H_conditional": 0.9764,
+        "n_drugs": 33,
+        "f_frac": 0.4732
+      },
+      "Venoocclusive liver disease": {
+        "mutual_info": 0.0217,
+        "H_overall": 0.9894,
+        "H_conditional": 0.9677,
+        "n_drugs": 30,
+        "f_frac": 0.4395
+      },
+      "Maternal drugs affecting foetus": {
+        "mutual_info": 0.0222,
+        "H_overall": 0.9999,
+        "H_conditional": 0.9778,
+        "n_drugs": 21,
+        "f_frac": 0.4958
+      },
+      "Cholangitis": {
+        "mutual_info": 0.0225,
+        "H_overall": 0.9992,
+        "H_conditional": 0.9767,
+        "n_drugs": 20,
+        "f_frac": 0.4835
+      },
+      "Developmental delay": {
+        "mutual_info": 0.0226,
+        "H_overall": 0.9824,
+        "H_conditional": 0.9598,
+        "n_drugs": 20,
+        "f_frac": 0.422
+      },
+      "Graft versus host disease in skin": {
+        "mutual_info": 0.0227,
+        "H_overall": 0.9999,
+        "H_conditional": 0.9772,
+        "n_drugs": 24,
+        "f_frac": 0.4931
+      },
+      "Multi-organ failure": {
+        "mutual_info": 0.0241,
+        "H_overall": 0.994,
+        "H_conditional": 0.9699,
+        "n_drugs": 41,
+        "f_frac": 0.5454
+      },
+      "Drug tolerance": {
+        "mutual_info": 0.0255,
+        "H_overall": 0.4985,
+        "H_conditional": 0.4731,
+        "n_drugs": 20,
+        "f_frac": 0.8905
+      },
+      "Virologic failure": {
+        "mutual_info": 0.0267,
+        "H_overall": 0.9736,
+        "H_conditional": 0.947,
+        "n_drugs": 32,
+        "f_frac": 0.4047
+      },
+      "Hypoalbuminaemia": {
+        "mutual_info": 0.0269,
+        "H_overall": 0.9933,
+        "H_conditional": 0.9663,
+        "n_drugs": 32,
+        "f_frac": 0.5483
+      },
+      "Acute graft versus host disease": {
+        "mutual_info": 0.027,
+        "H_overall": 0.9853,
+        "H_conditional": 0.9583,
+        "n_drugs": 21,
+        "f_frac": 0.4288
+      },
+      "Systemic inflammatory response syndrome": {
+        "mutual_info": 0.0282,
+        "H_overall": 0.9965,
+        "H_conditional": 0.9683,
+        "n_drugs": 29,
+        "f_frac": 0.5349
+      },
+      "Febrile bone marrow aplasia": {
+        "mutual_info": 0.0298,
+        "H_overall": 0.9992,
+        "H_conditional": 0.9695,
+        "n_drugs": 28,
+        "f_frac": 0.5166
+      },
+      "Cytopenia": {
+        "mutual_info": 0.0302,
+        "H_overall": 0.9983,
+        "H_conditional": 0.968,
+        "n_drugs": 61,
+        "f_frac": 0.5243
+      },
+      "Hyperuricaemia": {
+        "mutual_info": 0.0306,
+        "H_overall": 0.9996,
+        "H_conditional": 0.9689,
+        "n_drugs": 26,
+        "f_frac": 0.4878
+      },
+      "Ileus paralytic": {
+        "mutual_info": 0.0309,
+        "H_overall": 0.997,
+        "H_conditional": 0.9661,
+        "n_drugs": 26,
+        "f_frac": 0.5322
+      }
+    }
+  },
+  "signal_entropy_by_volume": {
+    "0": 1.0,
+    "1": 0.9997,
+    "2": 0.9988,
+    "3": 0.9971,
+    "4": 0.9935,
+    "5": 0.9899,
+    "6": 0.9878,
+    "7": 0.9669,
+    "8": 0.9193,
+    "9": 0.7162
+  },
+  "information_concentration": [
+    {
+      "top_n": 10,
+      "pct_info": 0.3
+    },
+    {
+      "top_n": 50,
+      "pct_info": 2.2
+    },
+    {
+      "top_n": 100,
+      "pct_info": 5.1
+    },
+    {
+      "top_n": 500,
+      "pct_info": 32.9
+    }
+  ]
+}
