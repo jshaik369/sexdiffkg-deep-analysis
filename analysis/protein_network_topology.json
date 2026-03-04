@@ -1,0 +1,14 @@
+{
+  "analysis": "protein_network_topology",
+  "total_drug_target_pairs": 2843,
+  "unique_targets": 413,
+  "female_biased_targets": 152,
+  "male_biased_targets": 149,
+  "mixed_targets": 112,
+  "mean_ppi_degree_female": 0.0,
+  "mean_ppi_degree_male": 0.0,
+  "hub_targets": [],
+  "ppi_clusters": [],
+  "female_enriched_pathways": [],
+  "male_enriched_pathways": []
+}

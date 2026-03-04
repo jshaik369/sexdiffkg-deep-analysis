@@ -1,0 +1,497 @@
+{
+  "analysis": "severity_sex_interaction",
+  "severity_gradient": [
+    {
+      "severity": "Moderate",
+      "n_signals": 10826,
+      "pct_female": 50.2,
+      "mean_abs_log_ratio": 0.973
+    },
+    {
+      "severity": "Other",
+      "n_signals": 76286,
+      "pct_female": 52.4,
+      "mean_abs_log_ratio": 0.995
+    },
+    {
+      "severity": "Serious",
+      "n_signals": 5550,
+      "pct_female": 69.5,
+      "mean_abs_log_ratio": 0.943
+    },
+    {
+      "severity": "Life-threatening/Fatal",
+      "n_signals": 3619,
+      "pct_female": 68.2,
+      "mean_abs_log_ratio": 0.923
+    }
+  ],
+  "life_threatening_total": 3619,
+  "life_threatening_pct_female": 68.2,
+  "top_lt_drugs": [
+    {
+      "drug": "CYTARABINE",
+      "n_signals": 21,
+      "pct_female": 95.2
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 20,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_signals": 17,
+      "pct_female": 82.4
+    },
+    {
+      "drug": "VINCRISTINE",
+      "n_signals": 16,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 16,
+      "pct_female": 12.5
+    },
+    {
+      "drug": "ETOPOSIDE",
+      "n_signals": 15,
+      "pct_female": 86.7
+    },
+    {
+      "drug": "AMIODARONE",
+      "n_signals": 15,
+      "pct_female": 73.3
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 15,
+      "pct_female": 26.7
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 15,
+      "pct_female": 86.7
+    },
+    {
+      "drug": "PEGASPARGASE",
+      "n_signals": 15,
+      "pct_female": 86.7
+    },
+    {
+      "drug": "DOXORUBICIN",
+      "n_signals": 15,
+      "pct_female": 93.3
+    },
+    {
+      "drug": "RAMIPRIL",
+      "n_signals": 15,
+      "pct_female": 80.0
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "n_signals": 15,
+      "pct_female": 80.0
+    },
+    {
+      "drug": "BORTEZOMIB",
+      "n_signals": 15,
+      "pct_female": 86.7
+    },
+    {
+      "drug": "CISPLATIN",
+      "n_signals": 14,
+      "pct_female": 92.9
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_signals": 14,
+      "pct_female": 71.4
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 14,
+      "pct_female": 28.6
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_signals": 14,
+      "pct_female": 21.4
+    },
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "n_signals": 14,
+      "pct_female": 92.9
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 14,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_signals": 13,
+      "pct_female": 92.3
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 13,
+      "pct_female": 30.8
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "n_signals": 13,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "FLUDARABINE",
+      "n_signals": 13,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "SILDENAFIL",
+      "n_signals": 13,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_signals": 13,
+      "pct_female": 84.6
+    },
+    {
+      "drug": "DOCETAXEL",
+      "n_signals": 13,
+      "pct_female": 7.7
+    },
+    {
+      "drug": "CALCIUM",
+      "n_signals": 13,
+      "pct_female": 7.7
+    },
+    {
+      "drug": "TRAMADOL",
+      "n_signals": 12,
+      "pct_female": 91.7
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_signals": 12,
+      "pct_female": 25.0
+    }
+  ],
+  "extreme_female_lt_drugs": [
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 20
+    },
+    {
+      "drug": "VINCRISTINE",
+      "n_signals": 16
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 14
+    },
+    {
+      "drug": "FLUDARABINE",
+      "n_signals": 13
+    },
+    {
+      "drug": "SILDENAFIL",
+      "n_signals": 13
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_signals": 12
+    },
+    {
+      "drug": "ROSIGLITAZONE",
+      "n_signals": 11
+    },
+    {
+      "drug": "DAUNORUBICIN",
+      "n_signals": 11
+    },
+    {
+      "drug": "METHADONE",
+      "n_signals": 10
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 10
+    },
+    {
+      "drug": "DABIGATRAN",
+      "n_signals": 10
+    },
+    {
+      "drug": "MEROPENEM",
+      "n_signals": 10
+    },
+    {
+      "drug": "PIPERACILLIN;TAZOBACTAM",
+      "n_signals": 10
+    },
+    {
+      "drug": "CLOPIDOGREL",
+      "n_signals": 10
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "n_signals": 10
+    },
+    {
+      "drug": "RIBAVIRIN",
+      "n_signals": 9
+    },
+    {
+      "drug": "AZACITIDINE",
+      "n_signals": 9
+    },
+    {
+      "drug": "CEFOTAXIME",
+      "n_signals": 9
+    },
+    {
+      "drug": "SORAFENIB",
+      "n_signals": 8
+    },
+    {
+      "drug": "ALCOHOL",
+      "n_signals": 8
+    },
+    {
+      "drug": "ALTEPLASE",
+      "n_signals": 8
+    },
+    {
+      "drug": "HALOPERIDOL",
+      "n_signals": 8
+    },
+    {
+      "drug": "SUNITINIB",
+      "n_signals": 7
+    },
+    {
+      "drug": "HYDROCODONE",
+      "n_signals": 7
+    },
+    {
+      "drug": "CITALOPRAM",
+      "n_signals": 7
+    },
+    {
+      "drug": "IPILIMUMAB",
+      "n_signals": 7
+    },
+    {
+      "drug": "COCAINE",
+      "n_signals": 7
+    },
+    {
+      "drug": "METFORMIN;ROSIGLITAZONE",
+      "n_signals": 7
+    },
+    {
+      "drug": "CLOZAPINE",
+      "n_signals": 7
+    },
+    {
+      "drug": "ETHANOL",
+      "n_signals": 7
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "n_signals": 7
+    },
+    {
+      "drug": "OXYMORPHONE",
+      "n_signals": 7
+    },
+    {
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "n_signals": 7
+    },
+    {
+      "drug": "ASPIRIN",
+      "n_signals": 7
+    },
+    {
+      "drug": "TICAGRELOR",
+      "n_signals": 7
+    },
+    {
+      "drug": "MITOXANTRONE",
+      "n_signals": 6
+    },
+    {
+      "drug": "TEMOZOLOMIDE",
+      "n_signals": 6
+    },
+    {
+      "drug": "BEVACIZUMAB",
+      "n_signals": 6
+    },
+    {
+      "drug": "IDARUBICIN",
+      "n_signals": 6
+    },
+    {
+      "drug": "CHLORPROMAZINE",
+      "n_signals": 6
+    },
+    {
+      "drug": "PRASUGREL",
+      "n_signals": 6
+    },
+    {
+      "drug": "EMTRICITABINE;TENOFOVIR",
+      "n_signals": 6
+    },
+    {
+      "drug": "OXYCODONE HYDROCHLORIDE",
+      "n_signals": 6
+    },
+    {
+      "drug": "ATEZOLIZUMAB",
+      "n_signals": 6
+    },
+    {
+      "drug": "IMATINIB",
+      "n_signals": 6
+    },
+    {
+      "drug": "EVEROLIMUS",
+      "n_signals": 6
+    },
+    {
+      "drug": "TRAZODONE",
+      "n_signals": 6
+    },
+    {
+      "drug": "TEDUGLUTIDE",
+      "n_signals": 6
+    },
+    {
+      "drug": "PARICALCITOL",
+      "n_signals": 6
+    },
+    {
+      "drug": "CARFILZOMIB",
+      "n_signals": 6
+    },
+    {
+      "drug": "LENALIDOMIDE",
+      "n_signals": 6
+    },
+    {
+      "drug": "CODEINE;PARACETAMOL",
+      "n_signals": 6
+    },
+    {
+      "drug": "PAZOPANIB",
+      "n_signals": 6
+    },
+    {
+      "drug": "BUSULFAN",
+      "n_signals": 6
+    },
+    {
+      "drug": "ZOLEDRONIC ACID",
+      "n_signals": 6
+    },
+    {
+      "drug": "TISAGENLECLEUCEL",
+      "n_signals": 5
+    },
+    {
+      "drug": "DASABUVIR",
+      "n_signals": 5
+    },
+    {
+      "drug": "DIAMORPHINE",
+      "n_signals": 5
+    },
+    {
+      "drug": "BEDAQUILINE",
+      "n_signals": 5
+    },
+    {
+      "drug": "DAPTOMYCIN",
+      "n_signals": 5
+    },
+    {
+      "drug": "PALIVIZUMAB",
+      "n_signals": 5
+    },
+    {
+      "drug": "GANCICLOVIR",
+      "n_signals": 5
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "n_signals": 5
+    },
+    {
+      "drug": "PEGINTERFERON ALFA-2B",
+      "n_signals": 5
+    },
+    {
+      "drug": "EMPAGLIFLOZIN",
+      "n_signals": 5
+    },
+    {
+      "drug": "EDOXABAN",
+      "n_signals": 5
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "n_signals": 5
+    },
+    {
+      "drug": "PONATINIB",
+      "n_signals": 5
+    },
+    {
+      "drug": "POSACONAZOLE",
+      "n_signals": 5
+    },
+    {
+      "drug": "BACLOFEN",
+      "n_signals": 5
+    },
+    {
+      "drug": "LITHIUM",
+      "n_signals": 5
+    },
+    {
+      "drug": "SITAGLIPTIN",
+      "n_signals": 5
+    },
+    {
+      "drug": "TELAPREVIR",
+      "n_signals": 5
+    },
+    {
+      "drug": "ISOSORBIDE MONONITRATE",
+      "n_signals": 5
+    },
+    {
+      "drug": "SOMATROPIN",
+      "n_signals": 5
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "n_signals": 5
+    },
+    {
+      "drug": "METAMFETAMINE",
+      "n_signals": 5
+    },
+    {
+      "drug": "OMBITASVIR;PARITAPREVIR;RITONAVIR",
+      "n_signals": 5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-03-04T08:42:21.360995",
+  "signals_total": 96281,
+  "signals_female_higher": 51771,
+  "signals_male_higher": 44510,
+  "nodes_match_gt": false,
+  "edges_match_gt": false,
+  "json_files_audited": 57,
+  "issues": [
+    "sexdiffkg_statistics_v42.json: stale number 126575",
+    "sexdiffkg_statistics_v42.json: stale number 5489928",
+    "sexdiffkg_statistics_v42.json: stale number 16162",
+    "v4_drug_similarity_complex.json: stale number 29277",
+    "v4_network_topology.json: stale number 127063",
+    "v4_network_topology.json: stale number 5839717"
+  ],
+  "draft_issues": [],
+  "figures_png": 30,
+  "figures_pdf": 26,
+  "vault_docs": 89,
+  "verdict": "REVIEW"
+}

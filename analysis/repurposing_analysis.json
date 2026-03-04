@@ -1,0 +1,1034 @@
+{
+  "analysis": "repurposing_and_syndromes",
+  "top_signal_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "pct_female": 70.2,
+      "n_targets": 1,
+      "mean_effect": 1.08
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "pct_female": 48.5,
+      "n_targets": 1,
+      "mean_effect": 0.967
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "pct_female": 38.2,
+      "n_targets": 1,
+      "mean_effect": 0.879
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "pct_female": 66.6,
+      "n_targets": 1,
+      "mean_effect": 1.164
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "pct_female": 50.4,
+      "n_targets": 1,
+      "mean_effect": 1.089
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "pct_female": 42.6,
+      "n_targets": 1,
+      "mean_effect": 0.984
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_signals": 572,
+      "pct_female": 75.9,
+      "n_targets": 1,
+      "mean_effect": 0.879
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "pct_female": 82.5,
+      "n_targets": 1,
+      "mean_effect": 0.886
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "pct_female": 80.3,
+      "n_targets": 1,
+      "mean_effect": 0.858
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "pct_female": 77.2,
+      "n_targets": 1,
+      "mean_effect": 1.156
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "pct_female": 92.9,
+      "n_targets": 3,
+      "mean_effect": 1.168
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "pct_female": 49.4,
+      "n_targets": 1,
+      "mean_effect": 1.186
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "pct_female": 76.3,
+      "n_targets": 2,
+      "mean_effect": 1.112
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_signals": 501,
+      "pct_female": 60.3,
+      "n_targets": 0,
+      "mean_effect": 1.131
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_signals": 498,
+      "pct_female": 64.7,
+      "n_targets": 0,
+      "mean_effect": 0.908
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 492,
+      "pct_female": 85.0,
+      "n_targets": 1,
+      "mean_effect": 1.332
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_signals": 487,
+      "pct_female": 56.9,
+      "n_targets": 0,
+      "mean_effect": 1.176
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "pct_female": 52.2,
+      "n_targets": 1,
+      "mean_effect": 1.04
+    },
+    {
+      "drug": "MORPHINE",
+      "n_signals": 441,
+      "pct_female": 83.4,
+      "n_targets": 0,
+      "mean_effect": 1.117
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_signals": 433,
+      "pct_female": 73.0,
+      "n_targets": 0,
+      "mean_effect": 0.983
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_signals": 426,
+      "pct_female": 63.4,
+      "n_targets": 0,
+      "mean_effect": 1.024
+    },
+    {
+      "drug": "AMLODIPINE",
+      "n_signals": 422,
+      "pct_female": 50.5,
+      "n_targets": 0,
+      "mean_effect": 0.961
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "n_signals": 418,
+      "pct_female": 42.3,
+      "n_targets": 0,
+      "mean_effect": 1.084
+    },
+    {
+      "drug": "CICLOSPORIN",
+      "n_signals": 409,
+      "pct_female": 49.4,
+      "n_targets": 0,
+      "mean_effect": 0.9
+    },
+    {
+      "drug": "PREGABALIN",
+      "n_signals": 406,
+      "pct_female": 53.9,
+      "n_targets": 26,
+      "mean_effect": 1.006
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_signals": 401,
+      "pct_female": 50.6,
+      "n_targets": 2,
+      "mean_effect": 1.325
+    },
+    {
+      "drug": "METFORMIN",
+      "n_signals": 399,
+      "pct_female": 62.4,
+      "n_targets": 0,
+      "mean_effect": 0.954
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "n_signals": 388,
+      "pct_female": 46.4,
+      "n_targets": 0,
+      "mean_effect": 0.957
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "n_signals": 385,
+      "pct_female": 56.9,
+      "n_targets": 1,
+      "mean_effect": 0.966
+    },
+    {
+      "drug": "ZOLEDRONIC ACID",
+      "n_signals": 376,
+      "pct_female": 26.3,
+      "n_targets": 1,
+      "mean_effect": 0.852
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_signals": 376,
+      "pct_female": 51.9,
+      "n_targets": 0,
+      "mean_effect": 1.3
+    },
+    {
+      "drug": "IBUPROFEN",
+      "n_signals": 372,
+      "pct_female": 59.4,
+      "n_targets": 2,
+      "mean_effect": 0.917
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_signals": 370,
+      "pct_female": 41.9,
+      "n_targets": 1,
+      "mean_effect": 1.31
+    },
+    {
+      "drug": "RAMIPRIL",
+      "n_signals": 368,
+      "pct_female": 71.2,
+      "n_targets": 1,
+      "mean_effect": 1.209
+    },
+    {
+      "drug": "TRAMADOL",
+      "n_signals": 360,
+      "pct_female": 75.3,
+      "n_targets": 0,
+      "mean_effect": 1.119
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_signals": 344,
+      "pct_female": 45.1,
+      "n_targets": 2,
+      "mean_effect": 1.342
+    },
+    {
+      "drug": "CIPROFLOXACIN",
+      "n_signals": 342,
+      "pct_female": 41.2,
+      "n_targets": 0,
+      "mean_effect": 0.897
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "n_signals": 342,
+      "pct_female": 47.4,
+      "n_targets": 3,
+      "mean_effect": 0.838
+    },
+    {
+      "drug": "INSULIN",
+      "n_signals": 339,
+      "pct_female": 39.5,
+      "n_targets": 0,
+      "mean_effect": 0.852
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "n_signals": 339,
+      "pct_female": 49.3,
+      "n_targets": 1,
+      "mean_effect": 0.851
+    },
+    {
+      "drug": "ROSUVASTATIN",
+      "n_signals": 337,
+      "pct_female": 49.0,
+      "n_targets": 0,
+      "mean_effect": 0.952
+    },
+    {
+      "drug": "AZATHIOPRINE",
+      "n_signals": 337,
+      "pct_female": 59.3,
+      "n_targets": 1,
+      "mean_effect": 1.17
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_signals": 336,
+      "pct_female": 58.9,
+      "n_targets": 5,
+      "mean_effect": 0.909
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_signals": 334,
+      "pct_female": 55.7,
+      "n_targets": 1,
+      "mean_effect": 1.376
+    },
+    {
+      "drug": "GABAPENTIN",
+      "n_signals": 333,
+      "pct_female": 34.8,
+      "n_targets": 26,
+      "mean_effect": 1.011
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_signals": 331,
+      "pct_female": 51.4,
+      "n_targets": 0,
+      "mean_effect": 1.045
+    },
+    {
+      "drug": "NAPROXEN",
+      "n_signals": 331,
+      "pct_female": 54.1,
+      "n_targets": 2,
+      "mean_effect": 1.233
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_signals": 327,
+      "pct_female": 63.6,
+      "n_targets": 0,
+      "mean_effect": 1.329
+    },
+    {
+      "drug": "DOXORUBICIN",
+      "n_signals": 325,
+      "pct_female": 71.4,
+      "n_targets": 0,
+      "mean_effect": 0.895
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_signals": 324,
+      "pct_female": 93.5,
+      "n_targets": 1,
+      "mean_effect": 1.459
+    }
+  ],
+  "repurposing_candidates": [
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "n_targets": 1,
+      "pct_female": 70.2
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "n_targets": 1,
+      "pct_female": 48.5
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "n_targets": 1,
+      "pct_female": 38.2
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "n_targets": 1,
+      "pct_female": 66.6
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "n_targets": 1,
+      "pct_female": 50.4
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "n_targets": 1,
+      "pct_female": 42.6
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_signals": 572,
+      "n_targets": 1,
+      "pct_female": 75.9
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "n_targets": 1,
+      "pct_female": 82.5
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "n_targets": 1,
+      "pct_female": 80.3
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "n_targets": 1,
+      "pct_female": 77.2
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "n_targets": 1,
+      "pct_female": 49.4
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "n_targets": 2,
+      "pct_female": 76.3
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_signals": 501,
+      "n_targets": 0,
+      "pct_female": 60.3
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_signals": 498,
+      "n_targets": 0,
+      "pct_female": 64.7
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 492,
+      "n_targets": 1,
+      "pct_female": 85.0
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_signals": 487,
+      "n_targets": 0,
+      "pct_female": 56.9
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "n_targets": 1,
+      "pct_female": 52.2
+    },
+    {
+      "drug": "MORPHINE",
+      "n_signals": 441,
+      "n_targets": 0,
+      "pct_female": 83.4
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_signals": 433,
+      "n_targets": 0,
+      "pct_female": 73.0
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_signals": 426,
+      "n_targets": 0,
+      "pct_female": 63.4
+    },
+    {
+      "drug": "AMLODIPINE",
+      "n_signals": 422,
+      "n_targets": 0,
+      "pct_female": 50.5
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "n_signals": 418,
+      "n_targets": 0,
+      "pct_female": 42.3
+    },
+    {
+      "drug": "CICLOSPORIN",
+      "n_signals": 409,
+      "n_targets": 0,
+      "pct_female": 49.4
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_signals": 401,
+      "n_targets": 2,
+      "pct_female": 50.6
+    },
+    {
+      "drug": "METFORMIN",
+      "n_signals": 399,
+      "n_targets": 0,
+      "pct_female": 62.4
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "n_signals": 388,
+      "n_targets": 0,
+      "pct_female": 46.4
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "n_signals": 385,
+      "n_targets": 1,
+      "pct_female": 56.9
+    },
+    {
+      "drug": "ZOLEDRONIC ACID",
+      "n_signals": 376,
+      "n_targets": 1,
+      "pct_female": 26.3
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_signals": 376,
+      "n_targets": 0,
+      "pct_female": 51.9
+    },
+    {
+      "drug": "IBUPROFEN",
+      "n_signals": 372,
+      "n_targets": 2,
+      "pct_female": 59.4
+    }
+  ],
+  "ae_syndromes": [
+    {
+      "ae1": "Off label use",
+      "ae2": "Product use in unapproved indication",
+      "n_drugs": 149
+    },
+    {
+      "ae1": "Pyrexia",
+      "ae2": "Rash",
+      "n_drugs": 144
+    },
+    {
+      "ae1": "Fatigue",
+      "ae2": "Headache",
+      "n_drugs": 143
+    },
+    {
+      "ae1": "Drug hypersensitivity",
+      "ae2": "Drug intolerance",
+      "n_drugs": 136
+    },
+    {
+      "ae1": "Drug ineffective",
+      "ae2": "Off label use",
+      "n_drugs": 136
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Drug intolerance",
+      "n_drugs": 135
+    },
+    {
+      "ae1": "Dyspnoea",
+      "ae2": "Fatigue",
+      "n_drugs": 133
+    },
+    {
+      "ae1": "Off label use",
+      "ae2": "Pain",
+      "n_drugs": 132
+    },
+    {
+      "ae1": "Nausea",
+      "ae2": "Off label use",
+      "n_drugs": 129
+    },
+    {
+      "ae1": "Hypersensitivity",
+      "ae2": "Hypertension",
+      "n_drugs": 129
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Drug hypersensitivity",
+      "n_drugs": 127
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Dyspnoea",
+      "n_drugs": 127
+    },
+    {
+      "ae1": "Pruritus",
+      "ae2": "Rash",
+      "n_drugs": 125
+    },
+    {
+      "ae1": "Pneumonia",
+      "ae2": "Pyrexia",
+      "n_drugs": 123
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Drug ineffective",
+      "n_drugs": 122
+    },
+    {
+      "ae1": "Dizziness",
+      "ae2": "Dyspnoea",
+      "n_drugs": 121
+    },
+    {
+      "ae1": "Headache",
+      "ae2": "Hypertension",
+      "n_drugs": 120
+    },
+    {
+      "ae1": "Pain",
+      "ae2": "Pneumonia",
+      "n_drugs": 120
+    },
+    {
+      "ae1": "Nausea",
+      "ae2": "Pain",
+      "n_drugs": 119
+    },
+    {
+      "ae1": "Pain",
+      "ae2": "Rash",
+      "n_drugs": 118
+    },
+    {
+      "ae1": "Product use in unapproved indication",
+      "ae2": "Pyrexia",
+      "n_drugs": 115
+    },
+    {
+      "ae1": "Diarrhoea",
+      "ae2": "Dizziness",
+      "n_drugs": 114
+    },
+    {
+      "ae1": "Product use issue",
+      "ae2": "Rash",
+      "n_drugs": 114
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Dizziness",
+      "n_drugs": 113
+    },
+    {
+      "ae1": "Diarrhoea",
+      "ae2": "Dyspnoea",
+      "n_drugs": 113
+    },
+    {
+      "ae1": "Malaise",
+      "ae2": "Pain",
+      "n_drugs": 113
+    },
+    {
+      "ae1": "Vomiting",
+      "ae2": "Weight decreased",
+      "n_drugs": 113
+    },
+    {
+      "ae1": "Pain",
+      "ae2": "Product use in unapproved indication",
+      "n_drugs": 113
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Diarrhoea",
+      "n_drugs": 112
+    },
+    {
+      "ae1": "Dizziness",
+      "ae2": "Fatigue",
+      "n_drugs": 112
+    },
+    {
+      "ae1": "Drug hypersensitivity",
+      "ae2": "Dyspnoea",
+      "n_drugs": 112
+    },
+    {
+      "ae1": "Drug ineffective",
+      "ae2": "Fatigue",
+      "n_drugs": 112
+    },
+    {
+      "ae1": "Pain",
+      "ae2": "Pyrexia",
+      "n_drugs": 112
+    },
+    {
+      "ae1": "Decreased appetite",
+      "ae2": "Diarrhoea",
+      "n_drugs": 110
+    },
+    {
+      "ae1": "Drug ineffective",
+      "ae2": "Dyspnoea",
+      "n_drugs": 110
+    },
+    {
+      "ae1": "Pain",
+      "ae2": "Pain in extremity",
+      "n_drugs": 110
+    },
+    {
+      "ae1": "Product use in unapproved indication",
+      "ae2": "Product use issue",
+      "n_drugs": 110
+    },
+    {
+      "ae1": "Sleep disorder",
+      "ae2": "Swelling",
+      "n_drugs": 110
+    },
+    {
+      "ae1": "Diarrhoea",
+      "ae2": "Fatigue",
+      "n_drugs": 109
+    },
+    {
+      "ae1": "Nausea",
+      "ae2": "Vomiting",
+      "n_drugs": 109
+    },
+    {
+      "ae1": "Off label use",
+      "ae2": "Pyrexia",
+      "n_drugs": 108
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Decreased appetite",
+      "n_drugs": 107
+    },
+    {
+      "ae1": "Dyspnoea",
+      "ae2": "Headache",
+      "n_drugs": 107
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Confusional state",
+      "n_drugs": 107
+    },
+    {
+      "ae1": "Product use in unapproved indication",
+      "ae2": "Rash",
+      "n_drugs": 107
+    },
+    {
+      "ae1": "Pruritus",
+      "ae2": "Pyrexia",
+      "n_drugs": 107
+    },
+    {
+      "ae1": "Drug intolerance",
+      "ae2": "Dyspnoea",
+      "n_drugs": 106
+    },
+    {
+      "ae1": "General physical health deterioration",
+      "ae2": "Hypertension",
+      "n_drugs": 106
+    },
+    {
+      "ae1": "Fatigue",
+      "ae2": "Hypertension",
+      "n_drugs": 105
+    },
+    {
+      "ae1": "Condition aggravated",
+      "ae2": "Constipation",
+      "n_drugs": 105
+    }
+  ],
+  "divergent_target_pairs": [
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "most_female": "LOXAPINE SUCCINATE",
+      "pct_f_high": 100.0,
+      "most_male": "CYCLOBENZAPRINE HYDROCHLORIDE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2C",
+      "most_female": "LOXAPINE SUCCINATE",
+      "pct_f_high": 100.0,
+      "most_male": "CYCLOBENZAPRINE HYDROCHLORIDE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Adrenergic receptor alpha-2",
+      "most_female": "DEXMEDETOMIDINE HYDROCHLORIDE",
+      "pct_f_high": 100.0,
+      "most_male": "BRIMONIDINE TARTRATE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "BDNF/NT-3 growth factors receptor",
+      "most_female": "LESTAURTINIB",
+      "pct_f_high": 100.0,
+      "most_male": "REPOTRECTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Cyclooxygenase",
+      "most_female": "MESALAMINE",
+      "pct_f_high": 100.0,
+      "most_male": "KETOROLAC TROMETHAMINE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "D2-like dopamine receptor",
+      "most_female": "HALOPERIDOL LACTATE",
+      "pct_f_high": 100.0,
+      "most_male": "THIORIDAZINE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Epidermal growth factor receptor",
+      "most_female": "NECITUMUMAB",
+      "pct_f_high": 100.0,
+      "most_male": "DACOMITINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "GABA-A receptor; anion channel",
+      "most_female": "PENTOBARBITAL",
+      "pct_f_high": 100.0,
+      "most_male": "ESZOPICLONE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Glucocorticoid receptor",
+      "most_female": "PREDNISOLONE SODIUM PHOSPHATE",
+      "pct_f_high": 100.0,
+      "most_male": "MIFEPRISTONE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "High affinity nerve growth factor receptor",
+      "most_female": "LESTAURTINIB",
+      "pct_f_high": 100.0,
+      "most_male": "REPOTRECTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "most_female": "HYDROXYZINE HYDROCHLORIDE",
+      "pct_f_high": 100.0,
+      "most_male": "FEXOFENADINE HYDROCHLORIDE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Interferon alpha/beta receptor",
+      "most_female": "INTERFERON ALFA-2A",
+      "pct_f_high": 100.0,
+      "most_male": "PEGINTERFERON BETA-1A",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Macrophage colony-stimulating factor 1 receptor",
+      "most_female": "SUNITINIB MALATE",
+      "pct_f_high": 100.0,
+      "most_male": "QUIZARTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Mast/stem cell growth factor receptor Kit",
+      "most_female": "CATEQUENTINIB",
+      "pct_f_high": 100.0,
+      "most_male": "QUIZARTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M1",
+      "most_female": "BENZTROPINE MESYLATE",
+      "pct_f_high": 100.0,
+      "most_male": "ATROPINE SULFATE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M3",
+      "most_female": "ACLIDINIUM BROMIDE",
+      "pct_f_high": 100.0,
+      "most_male": "TOLTERODINE TARTRATE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "NT-3 growth factor receptor",
+      "most_female": "LESTAURTINIB",
+      "pct_f_high": 100.0,
+      "most_male": "REPOTRECTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Platelet-derived growth factor receptor",
+      "most_female": "SUNITINIB MALATE",
+      "pct_f_high": 100.0,
+      "most_male": "QUIZARTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+      "most_female": "LESTAURTINIB",
+      "pct_f_high": 100.0,
+      "most_male": "QUIZARTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Receptor-type tyrosine-protein kinase FLT3",
+      "most_female": "LESTAURTINIB",
+      "pct_f_high": 100.0,
+      "most_male": "QUIZARTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "most_female": "FOSPHENYTOIN SODIUM",
+      "pct_f_high": 100.0,
+      "most_male": "ROPIVACAINE HYDROCHLORIDE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Sodium-dependent dopamine transporter",
+      "most_female": "AMPHETAMINE SULFATE",
+      "pct_f_high": 100.0,
+      "most_male": "DEXTROAMPHETAMINE SULFATE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Sodium-dependent noradrenaline transporter",
+      "most_female": "AMPHETAMINE SULFATE",
+      "pct_f_high": 100.0,
+      "most_male": "NORTRIPTYLINE HYDROCHLORIDE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Tyrosine-protein kinase JAK2",
+      "most_female": "PACRITINIB",
+      "pct_f_high": 100.0,
+      "most_male": "FILGOTINIB",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Voltage-gated L-type calcium channel",
+      "most_female": "VERAPAMIL HYDROCHLORIDE",
+      "pct_f_high": 100.0,
+      "most_male": "NIMODIPINE",
+      "pct_f_low": 0.0,
+      "spread": 100.0
+    },
+    {
+      "target": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+      "most_female": "TEMSIROLIMUS",
+      "pct_f_high": 95.8,
+      "most_male": "PIMECROLIMUS",
+      "pct_f_low": 0.0,
+      "spread": 95.8
+    },
+    {
+      "target": "D(2) dopamine receptor",
+      "most_female": "TIAPRIDE",
+      "pct_f_high": 92.9,
+      "most_male": "ALIZAPRIDE",
+      "pct_f_low": 0.0,
+      "spread": 92.9
+    },
+    {
+      "target": "Plasma kallikrein",
+      "most_female": "APROTININ",
+      "pct_f_high": 90.9,
+      "most_male": "ECALLANTIDE",
+      "pct_f_low": 0.0,
+      "spread": 90.9
+    },
+    {
+      "target": "Integrin alpha-L/beta-2 (LFA-1)",
+      "most_female": "EFALIZUMAB",
+      "pct_f_high": 100.0,
+      "most_male": "LIFITEGRAST",
+      "pct_f_low": 10.0,
+      "spread": 90.0
+    },
+    {
+      "target": "B-lymphocyte antigen CD20",
+      "most_female": "GLOFITAMAB",
+      "pct_f_high": 88.9,
+      "most_male": "UBLITUXIMAB",
+      "pct_f_low": 0.0,
+      "spread": 88.9
+    }
+  ],
+  "total_drugs": 2178,
+  "drugs_with_targets": 846,
+  "drugs_without_targets": 1332
+}
