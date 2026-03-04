@@ -1,0 +1,155 @@
+{
+  "analysis": "neurotoxicity_deep_dive",
+  "wave": 17,
+  "date": "2026-03-04",
+  "overview": {
+    "total_neuro_signals": 6063,
+    "total_neuro_aes": 243,
+    "drugs_with_neuro_signals": 1139,
+    "overall_pct_female": 56.2
+  },
+  "subtypes": {
+    "seizure_epilepsy": {
+      "n_signals": 430,
+      "n_drugs": 291,
+      "pct_female": 65.3,
+      "mean_abs_lr": 0.912
+    },
+    "movement_disorders": {
+      "n_signals": 405,
+      "n_drugs": 282,
+      "pct_female": 58.3,
+      "mean_abs_lr": 0.9003
+    },
+    "cerebrovascular": {
+      "n_signals": 631,
+      "n_drugs": 327,
+      "pct_female": 70.2,
+      "mean_abs_lr": 0.8651
+    },
+    "cognitive": {
+      "n_signals": 711,
+      "n_drugs": 441,
+      "pct_female": 61.0,
+      "mean_abs_lr": 1.0522
+    },
+    "headache_pain": {
+      "n_signals": 613,
+      "n_drugs": 480,
+      "pct_female": 34.9,
+      "mean_abs_lr": 0.9839
+    },
+    "peripheral_nerve": {
+      "n_signals": 259,
+      "n_drugs": 199,
+      "pct_female": 67.6,
+      "mean_abs_lr": 0.8893
+    },
+    "sleep": {
+      "n_signals": 1002,
+      "n_drugs": 561,
+      "pct_female": 43.7,
+      "mean_abs_lr": 1.0843
+    },
+    "syncope_consciousness": {
+      "n_signals": 1229,
+      "n_drugs": 688,
+      "pct_female": 57.6,
+      "mean_abs_lr": 0.9066
+    },
+    "autoimmune_neuro": {
+      "n_signals": 173,
+      "n_drugs": 103,
+      "pct_female": 32.4,
+      "mean_abs_lr": 0.9498
+    }
+  },
+  "drug_classes": {
+    "ssris": {
+      "n_signals": 80,
+      "n_drugs_found": 6,
+      "pct_female": 46.2,
+      "mean_abs_lr": 0.8711
+    },
+    "snris": {
+      "n_signals": 27,
+      "n_drugs_found": 3,
+      "pct_female": 37.0,
+      "mean_abs_lr": 0.78
+    },
+    "antipsychotics": {
+      "n_signals": 118,
+      "n_drugs_found": 6,
+      "pct_female": 86.4,
+      "mean_abs_lr": 1.0252
+    },
+    "benzodiazepines": {
+      "n_signals": 87,
+      "n_drugs_found": 5,
+      "pct_female": 65.5,
+      "mean_abs_lr": 0.9058
+    },
+    "antiepileptics": {
+      "n_signals": 108,
+      "n_drugs_found": 7,
+      "pct_female": 48.1,
+      "mean_abs_lr": 0.9143
+    },
+    "opioids": {
+      "n_signals": 119,
+      "n_drugs_found": 7,
+      "pct_female": 79.8,
+      "mean_abs_lr": 0.899
+    },
+    "fluoroquinolones": {
+      "n_signals": 35,
+      "n_drugs_found": 3,
+      "pct_female": 54.3,
+      "mean_abs_lr": 0.9267
+    },
+    "checkpoint_inhibitors": {
+      "n_signals": 53,
+      "n_drugs_found": 4,
+      "pct_female": 88.7,
+      "mean_abs_lr": 0.8236
+    },
+    "taxanes": {
+      "n_signals": 32,
+      "n_drugs_found": 2,
+      "pct_female": 43.8,
+      "mean_abs_lr": 0.7835
+    },
+    "vinca_alkaloids": {
+      "n_signals": 26,
+      "n_drugs_found": 2,
+      "pct_female": 84.6,
+      "mean_abs_lr": 0.8396
+    }
+  },
+  "psychiatric": {
+    "n_signals": 1739,
+    "n_drugs": 647,
+    "pct_female": 51.6,
+    "mean_abs_lr": 0.9574,
+    "suicidality": {
+      "n_signals": 397,
+      "pct_female": 51.6
+    },
+    "depression": {
+      "n_signals": 296,
+      "pct_female": 52.7
+    },
+    "anxiety": {
+      "n_signals": 370,
+      "pct_female": 33.2
+    },
+    "psychosis": {
+      "n_signals": 497,
+      "pct_female": 70.4
+    },
+    "mania": {
+      "n_signals": 94,
+      "pct_female": 48.9
+    }
+  }
+}

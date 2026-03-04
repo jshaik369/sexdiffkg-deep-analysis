@@ -1,0 +1,497 @@
+{
+  "analysis": "nephrotoxicity_deep_dive",
+  "wave": 17,
+  "date": "2026-03-04",
+  "overview": {
+    "total_renal_signals": 2371,
+    "total_renal_aes": 121,
+    "drugs_with_renal_signals": 696,
+    "overall_pct_female": 74.5,
+    "mean_abs_lr": 0.8925
+  },
+  "subtypes": {
+    "acute_kidney_injury": {
+      "n_signals": 341,
+      "n_drugs": 313,
+      "pct_female": 75.1,
+      "mean_abs_lr": 0.8104,
+      "top_aes": {
+        "Acute kidney injury": 267,
+        "Renal failure acute": 74
+      }
+    },
+    "chronic_kidney": {
+      "n_signals": 121,
+      "n_drugs": 108,
+      "pct_female": 67.8,
+      "mean_abs_lr": 0.934,
+      "top_aes": {
+        "Chronic kidney disease": 87,
+        "End stage renal disease": 30,
+        "Renal failure chronic": 4
+      }
+    },
+    "renal_impairment": {
+      "n_signals": 327,
+      "n_drugs": 260,
+      "pct_female": 78.0,
+      "mean_abs_lr": 0.9331,
+      "top_aes": {
+        "Renal impairment": 177,
+        "Renal disorder": 92,
+        "Adrenal insufficiency": 47,
+        "Immune-mediated renal disorder": 5,
+        "Immune-mediated adrenal insufficiency": 3
+      }
+    },
+    "glomerular": {
+      "n_signals": 131,
+      "n_drugs": 93,
+      "pct_female": 75.6,
+      "mean_abs_lr": 0.8236,
+      "top_aes": {
+        "Proteinuria": 44,
+        "Glomerular filtration rate decreased": 33,
+        "Nephrotic syndrome": 29,
+        "Glomerulonephritis": 9,
+        "Glomerulonephritis membranous": 5
+      }
+    },
+    "tubular": {
+      "n_signals": 161,
+      "n_drugs": 123,
+      "pct_female": 70.8,
+      "mean_abs_lr": 0.9126,
+      "top_aes": {
+        "Tubulointerstitial nephritis": 67,
+        "Renal tubular necrosis": 54,
+        "Renal tubular disorder": 20,
+        "Renal tubular injury": 8,
+        "Renal tubular acidosis": 8
+      }
+    },
+    "biomarker": {
+      "n_signals": 290,
+      "n_drugs": 242,
+      "pct_female": 74.5,
+      "mean_abs_lr": 0.9015,
+      "top_aes": {
+        "Blood creatinine increased": 178,
+        "Blood urea increased": 49,
+        "Glomerular filtration rate decreased": 33,
+        "Blood creatinine decreased": 8,
+        "Creatinine renal clearance decreased": 7
+      }
+    },
+    "structural": {
+      "n_signals": 64,
+      "n_drugs": 59,
+      "pct_female": 67.2,
+      "mean_abs_lr": 0.8911,
+      "top_aes": {
+        "Renal cyst": 32,
+        "Hydronephrosis": 28,
+        "Congenital hydronephrosis": 3,
+        "Renal cyst haemorrhage": 1
+      }
+    },
+    "dialysis": {
+      "n_signals": 47,
+      "n_drugs": 41,
+      "pct_female": 89.4,
+      "mean_abs_lr": 0.8065,
+      "top_aes": {
+        "Dialysis": 27,
+        "Haemodialysis": 13,
+        "Peritoneal dialysis complication": 4,
+        "Inadequate peritoneal dialysis": 2,
+        "Dialysis hypotension": 1
+      }
+    }
+  },
+  "drug_classes": {
+    "nsaids": {
+      "n_signals": 25,
+      "n_drugs_found": 6,
+      "pct_female": 36.0,
+      "mean_abs_lr": 1.1901
+    },
+    "ace_inhibitors": {
+      "n_signals": 27,
+      "n_drugs_found": 5,
+      "pct_female": 74.1,
+      "mean_abs_lr": 0.743
+    },
+    "arbs": {
+      "n_signals": 25,
+      "n_drugs_found": 5,
+      "pct_female": 64.0,
+      "mean_abs_lr": 1.0148
+    },
+    "aminoglycosides": {
+      "n_signals": 12,
+      "n_drugs_found": 3,
+      "pct_female": 91.7,
+      "mean_abs_lr": 0.8213
+    },
+    "cisplatin_analogs": {
+      "n_signals": 29,
+      "n_drugs_found": 3,
+      "pct_female": 86.2,
+      "mean_abs_lr": 0.9669
+    },
+    "checkpoint_inhibitors": {
+      "n_signals": 37,
+      "n_drugs_found": 4,
+      "pct_female": 91.9,
+      "mean_abs_lr": 0.8866
+    },
+    "calcineurin_inhibitors": {
+      "n_signals": 43,
+      "n_drugs_found": 3,
+      "pct_female": 67.4,
+      "mean_abs_lr": 0.8509
+    },
+    "diuretics": {
+      "n_signals": 27,
+      "n_drugs_found": 4,
+      "pct_female": 85.2,
+      "mean_abs_lr": 0.8786
+    },
+    "vancomycin": {
+      "n_signals": 7,
+      "n_drugs_found": 1,
+      "pct_female": 71.4,
+      "mean_abs_lr": 0.7434
+    }
+  },
+  "organ_comparison": {
+    "drugs_in_all_three": 339,
+    "examples": [
+      {
+        "drug": "COLCHICINE",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 66.7,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 2,
+        "hepatic_n": 3,
+        "cardiac_n": 2
+      },
+      {
+        "drug": "AZATHIOPRINE",
+        "renal_pct_f": 90.0,
+        "hepatic_pct_f": 69.2,
+        "cardiac_pct_f": 50.0,
+        "renal_n": 10,
+        "hepatic_n": 13,
+        "cardiac_n": 4
+      },
+      {
+        "drug": "CARFILZOMIB",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 100.0,
+        "cardiac_pct_f": 50.0,
+        "renal_n": 2,
+        "hepatic_n": 4,
+        "cardiac_n": 2
+      },
+      {
+        "drug": "LENVATINIB",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 20.0,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 5,
+        "hepatic_n": 5,
+        "cardiac_n": 7
+      },
+      {
+        "drug": "PEMETREXED",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 100.0,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 11,
+        "hepatic_n": 7,
+        "cardiac_n": 2
+      },
+      {
+        "drug": "BEVACIZUMAB",
+        "renal_pct_f": 81.8,
+        "hepatic_pct_f": 50.0,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 11,
+        "hepatic_n": 8,
+        "cardiac_n": 3
+      },
+      {
+        "drug": "MELPHALAN",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 83.3,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 7,
+        "hepatic_n": 6,
+        "cardiac_n": 3
+      },
+      {
+        "drug": "CLOZAPINE",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 66.7,
+        "cardiac_pct_f": 71.4,
+        "renal_n": 9,
+        "hepatic_n": 3,
+        "cardiac_n": 7
+      },
+      {
+        "drug": "HEPARIN",
+        "renal_pct_f": 83.3,
+        "hepatic_pct_f": 33.3,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 6,
+        "hepatic_n": 6,
+        "cardiac_n": 3
+      },
+      {
+        "drug": "DOXORUBICIN",
+        "renal_pct_f": 85.7,
+        "hepatic_pct_f": 71.4,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 7,
+        "hepatic_n": 7,
+        "cardiac_n": 9
+      },
+      {
+        "drug": "CALCIUM",
+        "renal_pct_f": 14.3,
+        "hepatic_pct_f": 60.0,
+        "cardiac_pct_f": 0.0,
+        "renal_n": 7,
+        "hepatic_n": 5,
+        "cardiac_n": 4
+      },
+      {
+        "drug": "TICAGRELOR",
+        "renal_pct_f": 85.7,
+        "hepatic_pct_f": 100.0,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 7,
+        "hepatic_n": 4,
+        "cardiac_n": 6
+      },
+      {
+        "drug": "OLANZAPINE",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 58.3,
+        "cardiac_pct_f": 66.7,
+        "renal_n": 6,
+        "hepatic_n": 12,
+        "cardiac_n": 6
+      },
+      {
+        "drug": "DAUNORUBICIN",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 60.0,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 4,
+        "hepatic_n": 5,
+        "cardiac_n": 2
+      },
+      {
+        "drug": "PAROXETINE",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 66.7,
+        "cardiac_pct_f": 25.0,
+        "renal_n": 4,
+        "hepatic_n": 3,
+        "cardiac_n": 4
+      },
+      {
+        "drug": "CIPROFLOXACIN",
+        "renal_pct_f": 77.8,
+        "hepatic_pct_f": 57.1,
+        "cardiac_pct_f": 80.0,
+        "renal_n": 9,
+        "hepatic_n": 7,
+        "cardiac_n": 5
+      },
+      {
+        "drug": "DEXAMETHASONE",
+        "renal_pct_f": 66.7,
+        "hepatic_pct_f": 90.9,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 9,
+        "hepatic_n": 11,
+        "cardiac_n": 11
+      },
+      {
+        "drug": "OXALIPLATIN",
+        "renal_pct_f": 80.0,
+        "hepatic_pct_f": 72.7,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 5,
+        "hepatic_n": 11,
+        "cardiac_n": 2
+      },
+      {
+        "drug": "ESCITALOPRAM",
+        "renal_pct_f": 50.0,
+        "hepatic_pct_f": 33.3,
+        "cardiac_pct_f": 50.0,
+        "renal_n": 2,
+        "hepatic_n": 3,
+        "cardiac_n": 4
+      },
+      {
+        "drug": "METHADONE",
+        "renal_pct_f": 100.0,
+        "hepatic_pct_f": 0.0,
+        "cardiac_pct_f": 100.0,
+        "renal_n": 2,
+        "hepatic_n": 2,
+        "cardiac_n": 5
+      }
+    ]
+  },
+  "drug_rankings": {
+    "top_by_reports": [
+      {
+        "drug_name": "LANSOPRAZOLE",
+        "n_renal_signals": 12,
+        "pct_female": 75.0,
+        "mean_abs_lr": 0.685,
+        "total_reports": 37581
+      },
+      {
+        "drug_name": "OMEPRAZOLE",
+        "n_renal_signals": 9,
+        "pct_female": 77.778,
+        "mean_abs_lr": 0.821,
+        "total_reports": 29990
+      },
+      {
+        "drug_name": "ESOMEPRAZOLE",
+        "n_renal_signals": 8,
+        "pct_female": 87.5,
+        "mean_abs_lr": 0.752,
+        "total_reports": 29092
+      },
+      {
+        "drug_name": "PANTOPRAZOLE",
+        "n_renal_signals": 19,
+        "pct_female": 73.684,
+        "mean_abs_lr": 0.69,
+        "total_reports": 25789
+      },
+      {
+        "drug_name": "TACROLIMUS",
+        "n_renal_signals": 28,
+        "pct_female": 92.857,
+        "mean_abs_lr": 0.846,
+        "total_reports": 5935
+      },
+      {
+        "drug_name": "GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+        "n_renal_signals": 4,
+        "pct_female": 100.0,
+        "mean_abs_lr": 1.119,
+        "total_reports": 5564
+      },
+      {
+        "drug_name": "METHOTREXATE",
+        "n_renal_signals": 20,
+        "pct_female": 45.0,
+        "mean_abs_lr": 0.736,
+        "total_reports": 5463
+      },
+      {
+        "drug_name": "METFORMIN",
+        "n_renal_signals": 13,
+        "pct_female": 100.0,
+        "mean_abs_lr": 0.779,
+        "total_reports": 5024
+      },
+      {
+        "drug_name": "PREDNISONE",
+        "n_renal_signals": 25,
+        "pct_female": 72.0,
+        "mean_abs_lr": 0.783,
+        "total_reports": 4713
+      },
+      {
+        "drug_name": "EFAVIRENZ;EMTRICITABINE;TENOFOVIR",
+        "n_renal_signals": 5,
+        "pct_female": 80.0,
+        "mean_abs_lr": 0.602,
+        "total_reports": 4373
+      },
+      {
+        "drug_name": "RITUXIMAB",
+        "n_renal_signals": 21,
+        "pct_female": 61.905,
+        "mean_abs_lr": 0.927,
+        "total_reports": 4146
+      },
+      {
+        "drug_name": "ESOMEPRAZOLE MAGNESIUM",
+        "n_renal_signals": 7,
+        "pct_female": 71.429,
+        "mean_abs_lr": 0.641,
+        "total_reports": 3743
+      },
+      {
+        "drug_name": "ETANERCEPT",
+        "n_renal_signals": 11,
+        "pct_female": 54.545,
+        "mean_abs_lr": 0.864,
+        "total_reports": 3571
+      },
+      {
+        "drug_name": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "n_renal_signals": 5,
+        "pct_female": 80.0,
+        "mean_abs_lr": 0.706,
+        "total_reports": 3531
+      },
+      {
+        "drug_name": "PEMBROLIZUMAB",
+        "n_renal_signals": 15,
+        "pct_female": 93.333,
+        "mean_abs_lr": 0.948,
+        "total_reports": 3064
+      },
+      {
+        "drug_name": "TOCILIZUMAB",
+        "n_renal_signals": 11,
+        "pct_female": 45.455,
+        "mean_abs_lr": 0.993,
+        "total_reports": 2780
+      },
+      {
+        "drug_name": "INFLIXIMAB",
+        "n_renal_signals": 12,
+        "pct_female": 50.0,
+        "mean_abs_lr": 0.956,
+        "total_reports": 2758
+      },
+      {
+        "drug_name": "ADALIMUMAB",
+        "n_renal_signals": 13,
+        "pct_female": 38.462,
+        "mean_abs_lr": 0.787,
+        "total_reports": 2715
+      },
+      {
+        "drug_name": "FUROSEMIDE",
+        "n_renal_signals": 15,
+        "pct_female": 86.667,
+        "mean_abs_lr": 1.001,
+        "total_reports": 2576
+      },
+      {
+        "drug_name": "ACETYLSALICYLIC ACID",
+        "n_renal_signals": 13,
+        "pct_female": 84.615,
+        "mean_abs_lr": 0.851,
+        "total_reports": 2298
+      }
+    ]
+  }
+}
