@@ -1,0 +1,635 @@
+{
+  "analysis": "reporter_outcome_severity_sex",
+  "wave": 13,
+  "date": "2026-03-04",
+  "severity_distribution": {
+    "fatal": {
+      "n_signals": 597,
+      "n_drugs": 501,
+      "n_aes": 13,
+      "pct_female": 70.4,
+      "mean_abs_lr": 0.9164,
+      "median_abs_lr": 0.7558,
+      "total_reports": 192617
+    },
+    "life_threatening": {
+      "n_signals": 1793,
+      "n_drugs": 676,
+      "n_aes": 21,
+      "pct_female": 75.0,
+      "mean_abs_lr": 0.8684,
+      "median_abs_lr": 0.7557,
+      "total_reports": 220578
+    },
+    "serious_organ": {
+      "n_signals": 1834,
+      "n_drugs": 686,
+      "n_aes": 34,
+      "pct_female": 64.3,
+      "mean_abs_lr": 0.9518,
+      "median_abs_lr": 0.804,
+      "total_reports": 260612
+    },
+    "disabling": {
+      "n_signals": 525,
+      "n_drugs": 312,
+      "n_aes": 38,
+      "pct_female": 56.8,
+      "mean_abs_lr": 0.9112,
+      "median_abs_lr": 0.7715,
+      "total_reports": 79389
+    },
+    "hospitalization": {
+      "n_signals": 96,
+      "n_drugs": 96,
+      "n_aes": 1,
+      "pct_female": 66.7,
+      "mean_abs_lr": 0.8264,
+      "median_abs_lr": 0.7272,
+      "total_reports": 10627
+    },
+    "moderate": {
+      "n_signals": 5921,
+      "n_drugs": 937,
+      "n_aes": 355,
+      "pct_female": 56.7,
+      "mean_abs_lr": 0.95,
+      "median_abs_lr": 0.7879,
+      "total_reports": 1161539
+    },
+    "mild": {
+      "n_signals": 6528,
+      "n_drugs": 1381,
+      "n_aes": 124,
+      "pct_female": 47.4,
+      "mean_abs_lr": 0.9707,
+      "median_abs_lr": 0.812,
+      "total_reports": 2951491
+    },
+    "unclassified": {
+      "n_signals": 78987,
+      "n_drugs": 2075,
+      "n_aes": 4483,
+      "pct_female": 53.2,
+      "mean_abs_lr": 0.9956,
+      "median_abs_lr": 0.8171,
+      "total_reports": 19317423
+    }
+  },
+  "severity_gradient": [
+    {
+      "severity": "fatal",
+      "pct_female": 70.4,
+      "mean_abs_lr": 0.9164,
+      "n_signals": 597
+    },
+    {
+      "severity": "life_threatening",
+      "pct_female": 75.0,
+      "mean_abs_lr": 0.8684,
+      "n_signals": 1793
+    },
+    {
+      "severity": "serious_organ",
+      "pct_female": 64.3,
+      "mean_abs_lr": 0.9518,
+      "n_signals": 1834
+    },
+    {
+      "severity": "disabling",
+      "pct_female": 56.8,
+      "mean_abs_lr": 0.9112,
+      "n_signals": 525
+    },
+    {
+      "severity": "moderate",
+      "pct_female": 56.7,
+      "mean_abs_lr": 0.95,
+      "n_signals": 5921
+    },
+    {
+      "severity": "mild",
+      "pct_female": 47.4,
+      "mean_abs_lr": 0.9707,
+      "n_signals": 6528
+    }
+  ],
+  "key_finding_severity_gradient": "More severe AEs tend to show different sex bias patterns than mild AEs",
+  "fatal_outcome_analysis": {
+    "total_fatal_signals": 597,
+    "fatal_pct_female": 70.4,
+    "drugs_with_fatal_signals": 501,
+    "top_drugs_by_fatal_reports": [
+      {
+        "drug_name": "HYDROCODONE;PARACETAMOL",
+        "n_fatal": 3,
+        "pct_f": 66.667,
+        "mean_lr": 0.227,
+        "total_reports": 9782
+      },
+      {
+        "drug_name": "NIVOLUMAB",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.588,
+        "total_reports": 9320
+      },
+      {
+        "drug_name": "LEUPRORELIN",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -2.916,
+        "total_reports": 8397
+      },
+      {
+        "drug_name": "EVEROLIMUS",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.626,
+        "total_reports": 5309
+      },
+      {
+        "drug_name": "ALPRAZOLAM",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.535,
+        "total_reports": 5231
+      },
+      {
+        "drug_name": "CALCIUM;ICODEXTRIN;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.554,
+        "total_reports": 4569
+      },
+      {
+        "drug_name": "OXYCODONE",
+        "n_fatal": 4,
+        "pct_f": 75.0,
+        "mean_lr": 0.547,
+        "total_reports": 4254
+      },
+      {
+        "drug_name": "OLAPARIB",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -0.616,
+        "total_reports": 3708
+      },
+      {
+        "drug_name": "ALCOHOL",
+        "n_fatal": 3,
+        "pct_f": 100.0,
+        "mean_lr": 0.753,
+        "total_reports": 3627
+      },
+      {
+        "drug_name": "CLONAZEPAM",
+        "n_fatal": 2,
+        "pct_f": 50.0,
+        "mean_lr": -0.188,
+        "total_reports": 3601
+      },
+      {
+        "drug_name": "ETHANOL",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.935,
+        "total_reports": 3112
+      },
+      {
+        "drug_name": "IPILIMUMAB",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.605,
+        "total_reports": 3106
+      },
+      {
+        "drug_name": "SILDENAFIL",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 1.252,
+        "total_reports": 2845
+      },
+      {
+        "drug_name": "TRAZODONE",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.671,
+        "total_reports": 2676
+      },
+      {
+        "drug_name": "DIAZEPAM",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.788,
+        "total_reports": 2584
+      }
+    ],
+    "predominantly_female_fatal": [
+      {
+        "drug_name": "NIVOLUMAB",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.588,
+        "total_reports": 9320
+      },
+      {
+        "drug_name": "EVEROLIMUS",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.626,
+        "total_reports": 5309
+      },
+      {
+        "drug_name": "ALPRAZOLAM",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.535,
+        "total_reports": 5231
+      },
+      {
+        "drug_name": "CALCIUM;ICODEXTRIN;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.554,
+        "total_reports": 4569
+      },
+      {
+        "drug_name": "ALCOHOL",
+        "n_fatal": 3,
+        "pct_f": 100.0,
+        "mean_lr": 0.753,
+        "total_reports": 3627
+      },
+      {
+        "drug_name": "ETHANOL",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.935,
+        "total_reports": 3112
+      },
+      {
+        "drug_name": "IPILIMUMAB",
+        "n_fatal": 1,
+        "pct_f": 100.0,
+        "mean_lr": 0.605,
+        "total_reports": 3106
+      },
+      {
+        "drug_name": "SILDENAFIL",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 1.252,
+        "total_reports": 2845
+      },
+      {
+        "drug_name": "TRAZODONE",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.671,
+        "total_reports": 2676
+      },
+      {
+        "drug_name": "DIAZEPAM",
+        "n_fatal": 2,
+        "pct_f": 100.0,
+        "mean_lr": 0.788,
+        "total_reports": 2584
+      }
+    ],
+    "predominantly_male_fatal": [
+      {
+        "drug_name": "LEUPRORELIN",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -2.916,
+        "total_reports": 8397
+      },
+      {
+        "drug_name": "OLAPARIB",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -0.616,
+        "total_reports": 3708
+      },
+      {
+        "drug_name": "TERIPARATIDE",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -0.651,
+        "total_reports": 1887
+      },
+      {
+        "drug_name": "BOTULINUM TOXIN",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -1.093,
+        "total_reports": 1141
+      },
+      {
+        "drug_name": "LEVOTHYROXINE",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -0.74,
+        "total_reports": 1105
+      },
+      {
+        "drug_name": "DOCETAXEL",
+        "n_fatal": 2,
+        "pct_f": 0.0,
+        "mean_lr": -0.729,
+        "total_reports": 1006
+      },
+      {
+        "drug_name": "GOSERELIN",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -2.585,
+        "total_reports": 690
+      },
+      {
+        "drug_name": "LEFLUNOMIDE",
+        "n_fatal": 2,
+        "pct_f": 0.0,
+        "mean_lr": -2.656,
+        "total_reports": 601
+      },
+      {
+        "drug_name": "ADALIMUMAB",
+        "n_fatal": 3,
+        "pct_f": 0.0,
+        "mean_lr": -1.637,
+        "total_reports": 591
+      },
+      {
+        "drug_name": "TRASTUZUMAB EMTANSINE",
+        "n_fatal": 1,
+        "pct_f": 0.0,
+        "mean_lr": -0.575,
+        "total_reports": 486
+      }
+    ]
+  },
+  "lethal_vs_nonlethal_pairs": {
+    "drugs_with_both": 137,
+    "top_divergent_pairs": [
+      {
+        "drug": "KETOCONAZOLE",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 0.0,
+        "gap": 100.0,
+        "n_fatal": 1,
+        "n_nonfatal": 8
+      },
+      {
+        "drug": "CAFFEINE",
+        "fatal_pct_f": 0.0,
+        "nonfatal_pct_f": 100.0,
+        "gap": -100.0,
+        "n_fatal": 1,
+        "n_nonfatal": 8
+      },
+      {
+        "drug": "CODEINE",
+        "fatal_pct_f": 0.0,
+        "nonfatal_pct_f": 91.7,
+        "gap": -91.7,
+        "n_fatal": 1,
+        "n_nonfatal": 24
+      },
+      {
+        "drug": "DIGOXIN",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 12.5,
+        "gap": 87.5,
+        "n_fatal": 1,
+        "n_nonfatal": 8
+      },
+      {
+        "drug": "VITAMIN C",
+        "fatal_pct_f": 0.0,
+        "nonfatal_pct_f": 86.7,
+        "gap": -86.7,
+        "n_fatal": 1,
+        "n_nonfatal": 15
+      },
+      {
+        "drug": "UNSPECIFIED",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 14.3,
+        "gap": 85.7,
+        "n_fatal": 1,
+        "n_nonfatal": 7
+      },
+      {
+        "drug": "BUMETANIDE",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 14.3,
+        "gap": 85.7,
+        "n_fatal": 2,
+        "n_nonfatal": 7
+      },
+      {
+        "drug": "DARBEPOETIN ALFA",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 16.7,
+        "gap": 83.3,
+        "n_fatal": 1,
+        "n_nonfatal": 12
+      },
+      {
+        "drug": "DOMPERIDONE",
+        "fatal_pct_f": 0.0,
+        "nonfatal_pct_f": 82.4,
+        "gap": -82.4,
+        "n_fatal": 1,
+        "n_nonfatal": 17
+      },
+      {
+        "drug": "MORPHINE",
+        "fatal_pct_f": 0.0,
+        "nonfatal_pct_f": 82.0,
+        "gap": -82.0,
+        "n_fatal": 1,
+        "n_nonfatal": 50
+      },
+      {
+        "drug": "TRAMADOL HYDROCHLORIDE",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 20.0,
+        "gap": 80.0,
+        "n_fatal": 1,
+        "n_nonfatal": 5
+      },
+      {
+        "drug": "LANTHANUM CARBONATE",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 20.0,
+        "gap": 80.0,
+        "n_fatal": 1,
+        "n_nonfatal": 5
+      },
+      {
+        "drug": "CLOBAZAM",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 22.2,
+        "gap": 77.8,
+        "n_fatal": 1,
+        "n_nonfatal": 9
+      },
+      {
+        "drug": "MELATONIN",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 22.2,
+        "gap": 77.8,
+        "n_fatal": 1,
+        "n_nonfatal": 9
+      },
+      {
+        "drug": "SOMATROPIN",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 23.5,
+        "gap": 76.5,
+        "n_fatal": 1,
+        "n_nonfatal": 17
+      },
+      {
+        "drug": "ZOLEDRONIC ACID",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 26.2,
+        "gap": 73.8,
+        "n_fatal": 1,
+        "n_nonfatal": 42
+      },
+      {
+        "drug": "SENNA SPP",
+        "fatal_pct_f": 0.0,
+        "nonfatal_pct_f": 73.3,
+        "gap": -73.3,
+        "n_fatal": 2,
+        "n_nonfatal": 15
+      },
+      {
+        "drug": "OLMESARTAN",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 28.6,
+        "gap": 71.4,
+        "n_fatal": 1,
+        "n_nonfatal": 7
+      },
+      {
+        "drug": "SPIRONOLACTONE",
+        "fatal_pct_f": 100.0,
+        "nonfatal_pct_f": 28.6,
+        "gap": 71.4,
+        "n_fatal": 2,
+        "n_nonfatal": 14
+      },
+      {
+        "drug": "CALCIUM",
+        "fatal_pct_f": 0.0,
+        "nonfatal_pct_f": 70.8,
+        "gap": -70.8,
+        "n_fatal": 2,
+        "n_nonfatal": 24
+      }
+    ],
+    "avg_gap": 41.9
+  },
+  "fatal_gender_paradox": {
+    "paradox_drugs": 140,
+    "examples": [
+      {
+        "drug": "PSEUDOEPHEDRINE",
+        "report_pct_female": 97.1,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 2
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "report_pct_female": 96.3,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "CORTISONE",
+        "report_pct_female": 95.6,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "VITAMIN B9",
+        "report_pct_female": 95.4,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "ABATACEPT",
+        "report_pct_female": 93.6,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "FACTOR VIII",
+        "report_pct_female": 6.8,
+        "fatal_pct_female": 100.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "RUCAPARIB",
+        "report_pct_female": 93.1,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "TRASTUZUMAB EMTANSINE",
+        "report_pct_female": 92.9,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "LEFLUNOMIDE",
+        "report_pct_female": 92.3,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 2
+      },
+      {
+        "drug": "SULFASALAZINE",
+        "report_pct_female": 92.0,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "VITAMIN C",
+        "report_pct_female": 92.0,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "TOFACITINIB",
+        "report_pct_female": 91.8,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "report_pct_female": 91.4,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "HYDROXYCHLOROQUINE",
+        "report_pct_female": 91.4,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      },
+      {
+        "drug": "ESTRADIOL",
+        "report_pct_female": 91.2,
+        "fatal_pct_female": 0.0,
+        "n_fatal_signals": 1
+      }
+    ]
+  }
+}

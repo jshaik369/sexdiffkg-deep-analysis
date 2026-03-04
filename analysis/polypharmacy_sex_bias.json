@@ -1,0 +1,831 @@
+{
+  "analysis": "polypharmacy_drug_interaction_sex_bias",
+  "wave": 13,
+  "date": "2026-03-04",
+  "shared_ae_analysis": {
+    "aes_shared_by_50plus_drugs": 521,
+    "top_shared_aes": [
+      {
+        "ae": "Drug ineffective",
+        "n_drugs": 501,
+        "pct_female": 37.7,
+        "mean_log_ratio": -0.1725,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Off label use",
+        "n_drugs": 445,
+        "pct_female": 50.8,
+        "mean_log_ratio": 0.0131,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Condition aggravated",
+        "n_drugs": 392,
+        "pct_female": 33.7,
+        "mean_log_ratio": -0.3526,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Vomiting",
+        "n_drugs": 362,
+        "pct_female": 48.9,
+        "mean_log_ratio": -0.0499,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Dyspnoea",
+        "n_drugs": 349,
+        "pct_female": 51.9,
+        "mean_log_ratio": 0.0398,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Nausea",
+        "n_drugs": 339,
+        "pct_female": 39.5,
+        "mean_log_ratio": -0.313,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Death",
+        "n_drugs": 337,
+        "pct_female": 74.5,
+        "mean_log_ratio": 0.3002,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Fatigue",
+        "n_drugs": 332,
+        "pct_female": 66.3,
+        "mean_log_ratio": 0.4248,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Headache",
+        "n_drugs": 327,
+        "pct_female": 50.2,
+        "mean_log_ratio": 0.0674,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Pain",
+        "n_drugs": 327,
+        "pct_female": 69.4,
+        "mean_log_ratio": 0.5402,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Pyrexia",
+        "n_drugs": 322,
+        "pct_female": 68.6,
+        "mean_log_ratio": 0.5175,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Hypertension",
+        "n_drugs": 313,
+        "pct_female": 66.1,
+        "mean_log_ratio": 0.4177,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Product use in unapproved indication",
+        "n_drugs": 304,
+        "pct_female": 50.7,
+        "mean_log_ratio": -0.0214,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Rash",
+        "n_drugs": 301,
+        "pct_female": 73.4,
+        "mean_log_ratio": 0.6342,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Drug hypersensitivity",
+        "n_drugs": 299,
+        "pct_female": 46.2,
+        "mean_log_ratio": -0.1942,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Diarrhoea",
+        "n_drugs": 296,
+        "pct_female": 68.6,
+        "mean_log_ratio": 0.376,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Dizziness",
+        "n_drugs": 289,
+        "pct_female": 55.4,
+        "mean_log_ratio": 0.1539,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Hypersensitivity",
+        "n_drugs": 281,
+        "pct_female": 47.3,
+        "mean_log_ratio": 0.1686,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Drug intolerance",
+        "n_drugs": 279,
+        "pct_female": 44.8,
+        "mean_log_ratio": -0.0685,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Malaise",
+        "n_drugs": 275,
+        "pct_female": 54.9,
+        "mean_log_ratio": 0.1551,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Hypotension",
+        "n_drugs": 274,
+        "pct_female": 81.0,
+        "mean_log_ratio": 0.5813,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Acute kidney injury",
+        "n_drugs": 267,
+        "pct_female": 71.5,
+        "mean_log_ratio": 0.3332,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Pneumonia",
+        "n_drugs": 267,
+        "pct_female": 73.0,
+        "mean_log_ratio": 0.6474,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Asthenia",
+        "n_drugs": 266,
+        "pct_female": 73.7,
+        "mean_log_ratio": 0.5012,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Abdominal pain",
+        "n_drugs": 261,
+        "pct_female": 46.4,
+        "mean_log_ratio": -0.1007,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Weight decreased",
+        "n_drugs": 261,
+        "pct_female": 79.7,
+        "mean_log_ratio": 0.5987,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Anxiety",
+        "n_drugs": 260,
+        "pct_female": 41.9,
+        "mean_log_ratio": -0.1748,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Product use issue",
+        "n_drugs": 256,
+        "pct_female": 55.9,
+        "mean_log_ratio": 0.3045,
+        "consistency": "mixed"
+      },
+      {
+        "ae": "Toxicity to various agents",
+        "n_drugs": 255,
+        "pct_female": 70.2,
+        "mean_log_ratio": 0.3836,
+        "consistency": "consistent"
+      },
+      {
+        "ae": "Fall",
+        "n_drugs": 250,
+        "pct_female": 58.8,
+        "mean_log_ratio": 0.2252,
+        "consistency": "mixed"
+      }
+    ],
+    "most_consistently_female": [
+      {
+        "ae": "Hypotension",
+        "n_drugs": 274,
+        "pct_female": 81.0,
+        "mean_log_ratio": 0.5813,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Drug interaction",
+        "n_drugs": 243,
+        "pct_female": 80.2,
+        "mean_log_ratio": 0.4489,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Overdose",
+        "n_drugs": 241,
+        "pct_female": 81.7,
+        "mean_log_ratio": 0.656,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Cardiac arrest",
+        "n_drugs": 210,
+        "pct_female": 84.8,
+        "mean_log_ratio": 0.5848,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Adverse drug reaction",
+        "n_drugs": 206,
+        "pct_female": 93.7,
+        "mean_log_ratio": 0.9174,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Myocardial infarction",
+        "n_drugs": 182,
+        "pct_female": 82.4,
+        "mean_log_ratio": 0.6258,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Renal impairment",
+        "n_drugs": 177,
+        "pct_female": 81.4,
+        "mean_log_ratio": 0.5326,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Drug abuse",
+        "n_drugs": 176,
+        "pct_female": 80.1,
+        "mean_log_ratio": 0.604,
+        "consistency": "highly_consistent"
+      },
+      {
+        "ae": "Haemorrhage",
+        "n_drugs": 170,
+        "pct_female": 84.7,
+        "mean_log_ratio": 0.5344,
+        "consistency": "highly_consistent"
+      }
+    ],
+    "most_consistently_male": []
+  },
+  "drug_similarity": {
+    "drugs_with_20plus_signals": 818,
+    "high_similarity_pairs": 7,
+    "concordant_pairs": 7,
+    "discordant_pairs": 0,
+    "top_similar_pairs": [
+      {
+        "drug1": "SILDENAFIL",
+        "drug2": "TADALAFIL",
+        "jaccard": 0.444,
+        "shared_aes": 163,
+        "pct_female_1": 87.5,
+        "pct_female_2": 73.3,
+        "bias_concordant": "True"
+      },
+      {
+        "drug1": "EMTRICITABINE;RILPIVIRINE;TENOFOVIR",
+        "drug2": "COBICISTAT;ELVITEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "jaccard": 0.444,
+        "shared_aes": 28,
+        "pct_female_1": 42.1,
+        "pct_female_2": 54.7,
+        "bias_concordant": "True"
+      },
+      {
+        "drug1": "PYRAZINAMIDE",
+        "drug2": "ETHAMBUTOL",
+        "jaccard": 0.358,
+        "shared_aes": 29,
+        "pct_female_1": 80.9,
+        "pct_female_2": 66.7,
+        "bias_concordant": "True"
+      },
+      {
+        "drug1": "HYDROCORTISONE",
+        "drug2": "CORTISONE",
+        "jaccard": 0.324,
+        "shared_aes": 120,
+        "pct_female_1": 50.7,
+        "pct_female_2": 45.7,
+        "bias_concordant": "True"
+      },
+      {
+        "drug1": "DICLOFENAC",
+        "drug2": "NAPROXEN",
+        "jaccard": 0.321,
+        "shared_aes": 178,
+        "pct_female_1": 50.6,
+        "pct_female_2": 54.1,
+        "bias_concordant": "True"
+      },
+      {
+        "drug1": "NAPROXEN",
+        "drug2": "CELECOXIB",
+        "jaccard": 0.318,
+        "shared_aes": 146,
+        "pct_female_1": 54.1,
+        "pct_female_2": 63.1,
+        "bias_concordant": "True"
+      },
+      {
+        "drug1": "ERENUMAB",
+        "drug2": "MIRABEGRON",
+        "jaccard": 0.306,
+        "shared_aes": 38,
+        "pct_female_1": 79.4,
+        "pct_female_2": 75.5,
+        "bias_concordant": "True"
+      }
+    ]
+  },
+  "ae_exclusivity": {
+    "exclusive_1drug": {
+      "n_aes": 1418,
+      "n_signals": 1418,
+      "pct_female": 45.1,
+      "mean_abs_lr": 0.9484
+    },
+    "rare_2_3drugs": {
+      "n_aes": 1007,
+      "n_signals": 2387,
+      "pct_female": 47.4,
+      "mean_abs_lr": 0.9079
+    },
+    "common_100plus_drugs": {
+      "n_aes": 246,
+      "n_signals": 41521,
+      "pct_female": 57.3,
+      "mean_abs_lr": 1.0198
+    }
+  },
+  "signal_density": {
+    "high_density_drugs": 0,
+    "top_high_density": [],
+    "low_density_drugs": 818,
+    "top_low_density": [
+      {
+        "drug_name": "ABACAVIR",
+        "n_signals": 42,
+        "n_aes": 42,
+        "signals_per_ae": 1.0,
+        "pct_female": 69.048
+      },
+      {
+        "drug_name": "ABACAVIR;DOLUTEGRAVIR;LAMIVUDINE",
+        "n_signals": 43,
+        "n_aes": 43,
+        "signals_per_ae": 1.0,
+        "pct_female": 67.442
+      },
+      {
+        "drug_name": "ABACAVIR;LAMIVUDINE",
+        "n_signals": 53,
+        "n_aes": 53,
+        "signals_per_ae": 1.0,
+        "pct_female": 69.811
+      },
+      {
+        "drug_name": "ABALOPARATIDE",
+        "n_signals": 31,
+        "n_aes": 31,
+        "signals_per_ae": 1.0,
+        "pct_female": 6.452
+      },
+      {
+        "drug_name": "ABATACEPT",
+        "n_signals": 344,
+        "n_aes": 344,
+        "signals_per_ae": 1.0,
+        "pct_female": 45.058
+      },
+      {
+        "drug_name": "ACALABRUTINIB",
+        "n_signals": 31,
+        "n_aes": 31,
+        "signals_per_ae": 1.0,
+        "pct_female": 87.097
+      },
+      {
+        "drug_name": "ACETAMINOPHEN",
+        "n_signals": 89,
+        "n_aes": 89,
+        "signals_per_ae": 1.0,
+        "pct_female": 65.169
+      },
+      {
+        "drug_name": "ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE\\OXYCODONE TEREPHTHALATE",
+        "n_signals": 33,
+        "n_aes": 33,
+        "signals_per_ae": 1.0,
+        "pct_female": 78.788
+      },
+      {
+        "drug_name": "ACETYLCYSTEINE",
+        "n_signals": 35,
+        "n_aes": 35,
+        "signals_per_ae": 1.0,
+        "pct_female": 51.429
+      },
+      {
+        "drug_name": "ACETYLSALICYLIC ACID",
+        "n_signals": 433,
+        "n_aes": 433,
+        "signals_per_ae": 1.0,
+        "pct_female": 72.979
+      },
+      {
+        "drug_name": "ACETYLSALICYLIC ACID;CAFFEINE;PARACETAMOL",
+        "n_signals": 20,
+        "n_aes": 20,
+        "signals_per_ae": 1.0,
+        "pct_female": 10.0
+      },
+      {
+        "drug_name": "ACICLOVIR",
+        "n_signals": 131,
+        "n_aes": 131,
+        "signals_per_ae": 1.0,
+        "pct_female": 67.176
+      },
+      {
+        "drug_name": "ACITRETIN",
+        "n_signals": 30,
+        "n_aes": 30,
+        "signals_per_ae": 1.0,
+        "pct_female": 30.0
+      },
+      {
+        "drug_name": "ACLIDINIUM",
+        "n_signals": 52,
+        "n_aes": 52,
+        "signals_per_ae": 1.0,
+        "pct_female": 38.462
+      },
+      {
+        "drug_name": "ACYCLOVIR",
+        "n_signals": 29,
+        "n_aes": 29,
+        "signals_per_ae": 1.0,
+        "pct_female": 72.414
+      },
+      {
+        "drug_name": "ADALIMUMAB",
+        "n_signals": 807,
+        "n_aes": 807,
+        "signals_per_ae": 1.0,
+        "pct_female": 38.166
+      },
+      {
+        "drug_name": "ADAPALENE",
+        "n_signals": 20,
+        "n_aes": 20,
+        "signals_per_ae": 1.0,
+        "pct_female": 25.0
+      },
+      {
+        "drug_name": "AFATINIB",
+        "n_signals": 24,
+        "n_aes": 24,
+        "signals_per_ae": 1.0,
+        "pct_female": 58.333
+      },
+      {
+        "drug_name": "AFLIBERCEPT",
+        "n_signals": 57,
+        "n_aes": 57,
+        "signals_per_ae": 1.0,
+        "pct_female": 40.351
+      },
+      {
+        "drug_name": "AGALSIDASE BETA",
+        "n_signals": 41,
+        "n_aes": 41,
+        "signals_per_ae": 1.0,
+        "pct_female": 26.829
+      }
+    ]
+  },
+  "cross_soc_reactivity": {
+    "drugs_with_5plus_socs": 877,
+    "top_multi_soc_drugs": [
+      {
+        "drug": "ABATACEPT",
+        "n_socs": 13,
+        "n_signals": 344,
+        "overall_pct_f": 45.1,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "GI",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "ACETYLSALICYLIC ACID",
+        "n_socs": 13,
+        "n_signals": 433,
+        "overall_pct_f": 73.0,
+        "soc_bias_range": 66.7,
+        "most_female_soc": "Fatal",
+        "most_male_soc": "Cardiac",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "n_socs": 13,
+        "n_signals": 807,
+        "overall_pct_f": 38.2,
+        "soc_bias_range": 57.9,
+        "most_female_soc": "Hepatic",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "ALENDRONIC ACID",
+        "n_socs": 13,
+        "n_signals": 241,
+        "overall_pct_f": 44.4,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "GI",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "ALLOPURINOL",
+        "n_socs": 13,
+        "n_signals": 210,
+        "overall_pct_f": 58.6,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Cardiac",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "AMIODARONE",
+        "n_socs": 13,
+        "n_signals": 228,
+        "overall_pct_f": 58.3,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Fatal",
+        "most_male_soc": "GI",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "AMOXICILLIN",
+        "n_socs": 13,
+        "n_signals": 212,
+        "overall_pct_f": 42.9,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Fatal",
+        "most_male_soc": "Cardiac",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "CALCIUM",
+        "n_socs": 13,
+        "n_signals": 219,
+        "overall_pct_f": 40.2,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Psychiatric",
+        "most_male_soc": "Cardiac",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "CAPECITABINE",
+        "n_socs": 13,
+        "n_signals": 270,
+        "overall_pct_f": 57.4,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Fatal",
+        "most_male_soc": "GI",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "CARBOPLATIN",
+        "n_socs": 13,
+        "n_signals": 310,
+        "overall_pct_f": 63.5,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Respiratory",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "CLONAZEPAM",
+        "n_socs": 13,
+        "n_signals": 285,
+        "overall_pct_f": 62.1,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "DIAZEPAM",
+        "n_socs": 13,
+        "n_signals": 250,
+        "overall_pct_f": 76.4,
+        "soc_bias_range": 60.0,
+        "most_female_soc": "Fatal",
+        "most_male_soc": "Cardiac",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "DOCETAXEL",
+        "n_socs": 13,
+        "n_signals": 304,
+        "overall_pct_f": 11.2,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Psychiatric",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "DOMPERIDONE",
+        "n_socs": 13,
+        "n_signals": 89,
+        "overall_pct_f": 60.7,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "GI",
+        "most_male_soc": "Cardiac",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "DOXORUBICIN",
+        "n_socs": 13,
+        "n_signals": 325,
+        "overall_pct_f": 71.4,
+        "soc_bias_range": 50.0,
+        "most_female_soc": "Cardiac",
+        "most_male_soc": "GI",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "ETANERCEPT",
+        "n_socs": 13,
+        "n_signals": 618,
+        "overall_pct_f": 42.6,
+        "soc_bias_range": 75.0,
+        "most_female_soc": "Respiratory",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "ETOPOSIDE",
+        "n_socs": 13,
+        "n_signals": 273,
+        "overall_pct_f": 79.1,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "GI",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "GEMCITABINE",
+        "n_socs": 13,
+        "n_signals": 173,
+        "overall_pct_f": 76.9,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "GI",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "HEPARIN",
+        "n_socs": 13,
+        "n_signals": 144,
+        "overall_pct_f": 63.9,
+        "soc_bias_range": 75.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Nervous",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "HYDROMORPHONE",
+        "n_socs": 13,
+        "n_signals": 311,
+        "overall_pct_f": 76.5,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "HYDROXYCHLOROQUINE",
+        "n_socs": 13,
+        "n_signals": 376,
+        "overall_pct_f": 51.9,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "MSK",
+        "most_male_soc": "Blood",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "INFLIXIMAB",
+        "n_socs": 13,
+        "n_signals": 623,
+        "overall_pct_f": 50.4,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Cardiac",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "IPRATROPIUM",
+        "n_socs": 13,
+        "n_signals": 129,
+        "overall_pct_f": 45.7,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "IRON",
+        "n_socs": 13,
+        "n_signals": 198,
+        "overall_pct_f": 28.8,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Cardiac",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "LEFLUNOMIDE",
+        "n_socs": 13,
+        "n_signals": 370,
+        "overall_pct_f": 41.9,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Cardiac",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "n_socs": 13,
+        "n_signals": 294,
+        "overall_pct_f": 69.7,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Fatal",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "LEVETIRACETAM",
+        "n_socs": 13,
+        "n_signals": 258,
+        "overall_pct_f": 45.3,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Fatal",
+        "most_male_soc": "Blood",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "LISINOPRIL",
+        "n_socs": 13,
+        "n_signals": 252,
+        "overall_pct_f": 84.5,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "Skin",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "MERCAPTOPURINE",
+        "n_socs": 13,
+        "n_signals": 96,
+        "overall_pct_f": 69.8,
+        "soc_bias_range": 100.0,
+        "most_female_soc": "Blood",
+        "most_male_soc": "GI",
+        "consistent_across_socs": "False"
+      },
+      {
+        "drug": "METHOTREXATE",
+        "n_socs": 13,
+        "n_signals": 892,
+        "overall_pct_f": 48.5,
+        "soc_bias_range": 62.5,
+        "most_female_soc": "Skin",
+        "most_male_soc": "Nervous",
+        "consistent_across_socs": "False"
+      }
+    ],
+    "consistent_across_socs": 4,
+    "inconsistent_across_socs": 46
+  }
+}

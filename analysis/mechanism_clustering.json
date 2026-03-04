@@ -1,0 +1,1529 @@
+{
+  "analysis": "biological_mechanism_clustering",
+  "wave": 13,
+  "date": "2026-03-04",
+  "pathway_sex_bias": {
+    "pathways_with_10plus_signals": 0,
+    "top_pathways_by_volume": [],
+    "most_female_pathways": [],
+    "most_male_pathways": []
+  },
+  "target_sex_bias": {
+    "targets_with_10plus_signals": 299,
+    "bias_distribution": {
+      "female": 77,
+      "male": 38,
+      "balanced": 68,
+      "strong_female": 60,
+      "strong_male": 56
+    },
+    "top_targets_by_volume": [
+      {
+        "target": "Glucocorticoid receptor",
+        "n_drugs": 75,
+        "n_drugs_with_signals": 30,
+        "n_signals": 3786,
+        "pct_female": 66.4,
+        "mean_abs_lr": 1.0965,
+        "bias_category": "female"
+      },
+      {
+        "target": "Tumor necrosis factor",
+        "n_drugs": 15,
+        "n_drugs_with_signals": 4,
+        "n_signals": 2382,
+        "pct_female": 45.0,
+        "mean_abs_lr": 1.0312,
+        "bias_category": "male"
+      },
+      {
+        "target": "5-hydroxytryptamine receptor 2A",
+        "n_drugs": 56,
+        "n_drugs_with_signals": 23,
+        "n_signals": 2251,
+        "pct_female": 66.9,
+        "mean_abs_lr": 0.9526,
+        "bias_category": "female"
+      },
+      {
+        "target": "Cyclooxygenase",
+        "n_drugs": 114,
+        "n_drugs_with_signals": 21,
+        "n_signals": 1867,
+        "pct_female": 54.6,
+        "mean_abs_lr": 1.166,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "GABA-A receptor; anion channel",
+        "n_drugs": 1056,
+        "n_drugs_with_signals": 31,
+        "n_signals": 1824,
+        "pct_female": 61.8,
+        "mean_abs_lr": 0.9499,
+        "bias_category": "female"
+      },
+      {
+        "target": "D(2) dopamine receptor",
+        "n_drugs": 68,
+        "n_drugs_with_signals": 18,
+        "n_signals": 1610,
+        "pct_female": 70.2,
+        "mean_abs_lr": 1.0127,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Mu-type opioid receptor",
+        "n_drugs": 54,
+        "n_drugs_with_signals": 14,
+        "n_signals": 1311,
+        "pct_female": 67.6,
+        "mean_abs_lr": 1.1,
+        "bias_category": "female"
+      },
+      {
+        "target": "Dihydrofolate reductase",
+        "n_drugs": 9,
+        "n_drugs_with_signals": 4,
+        "n_signals": 1215,
+        "pct_female": 45.8,
+        "mean_abs_lr": 0.9403,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "5-hydroxytryptamine receptor 2C",
+        "n_drugs": 27,
+        "n_drugs_with_signals": 12,
+        "n_signals": 1178,
+        "pct_female": 73.3,
+        "mean_abs_lr": 1.0157,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Sodium channel alpha subunit",
+        "n_drugs": 580,
+        "n_drugs_with_signals": 16,
+        "n_signals": 1174,
+        "pct_female": 43.5,
+        "mean_abs_lr": 0.9299,
+        "bias_category": "male"
+      },
+      {
+        "target": "B-lymphocyte antigen CD20",
+        "n_drugs": 18,
+        "n_drugs_with_signals": 8,
+        "n_signals": 1071,
+        "pct_female": 59.2,
+        "mean_abs_lr": 1.0586,
+        "bias_category": "female"
+      },
+      {
+        "target": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+        "n_drugs": 7,
+        "n_drugs_with_signals": 5,
+        "n_signals": 929,
+        "pct_female": 69.0,
+        "mean_abs_lr": 0.8474,
+        "bias_category": "female"
+      },
+      {
+        "target": "Tubulin",
+        "n_drugs": 1245,
+        "n_drugs_with_signals": 11,
+        "n_signals": 892,
+        "pct_female": 49.0,
+        "mean_abs_lr": 0.9163,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+        "n_drugs": 14,
+        "n_drugs_with_signals": 3,
+        "n_signals": 785,
+        "pct_female": 78.1,
+        "mean_abs_lr": 1.0381,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Voltage-gated calcium channel",
+        "n_drugs": 234,
+        "n_drugs_with_signals": 3,
+        "n_signals": 742,
+        "pct_female": 45.1,
+        "mean_abs_lr": 1.0099,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "Potassium-transporting ATPase",
+        "n_drugs": 26,
+        "n_drugs_with_signals": 7,
+        "n_signals": 720,
+        "pct_female": 55.1,
+        "mean_abs_lr": 0.9425,
+        "bias_category": "female"
+      },
+      {
+        "target": "Type-1 angiotensin II receptor",
+        "n_drugs": 19,
+        "n_drugs_with_signals": 10,
+        "n_signals": 705,
+        "pct_female": 49.6,
+        "mean_abs_lr": 1.0084,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "D2-like dopamine receptor",
+        "n_drugs": 63,
+        "n_drugs_with_signals": 11,
+        "n_signals": 689,
+        "pct_female": 57.3,
+        "mean_abs_lr": 0.898,
+        "bias_category": "female"
+      },
+      {
+        "target": "Angiotensin-converting enzyme",
+        "n_drugs": 17,
+        "n_drugs_with_signals": 6,
+        "n_signals": 652,
+        "pct_female": 74.8,
+        "mean_abs_lr": 1.0964,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Thymidylate synthase",
+        "n_drugs": 11,
+        "n_drugs_with_signals": 5,
+        "n_signals": 645,
+        "pct_female": 62.9,
+        "mean_abs_lr": 0.8638,
+        "bias_category": "female"
+      },
+      {
+        "target": "Interleukin-6 receptor subunit alpha",
+        "n_drugs": 4,
+        "n_drugs_with_signals": 2,
+        "n_signals": 611,
+        "pct_female": 50.9,
+        "mean_abs_lr": 1.2042,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "Interleukin-17A",
+        "n_drugs": 11,
+        "n_drugs_with_signals": 3,
+        "n_signals": 560,
+        "pct_female": 46.2,
+        "mean_abs_lr": 0.9862,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "Programmed cell death protein 1",
+        "n_drugs": 26,
+        "n_drugs_with_signals": 7,
+        "n_signals": 558,
+        "pct_female": 70.6,
+        "mean_abs_lr": 0.8485,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Glucagon-like peptide 1 receptor",
+        "n_drugs": 17,
+        "n_drugs_with_signals": 6,
+        "n_signals": 531,
+        "pct_female": 24.5,
+        "mean_abs_lr": 0.7763,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Coagulation factor X",
+        "n_drugs": 13,
+        "n_drugs_with_signals": 2,
+        "n_signals": 518,
+        "pct_female": 63.3,
+        "mean_abs_lr": 0.8485,
+        "bias_category": "female"
+      },
+      {
+        "target": "Interferon alpha/beta receptor",
+        "n_drugs": 22,
+        "n_drugs_with_signals": 8,
+        "n_signals": 498,
+        "pct_female": 26.3,
+        "mean_abs_lr": 0.7699,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Interleukin-23",
+        "n_drugs": 16,
+        "n_drugs_with_signals": 5,
+        "n_signals": 493,
+        "pct_female": 52.7,
+        "mean_abs_lr": 1.1086,
+        "bias_category": "balanced"
+      },
+      {
+        "target": "CRL4(CRBN) E3 ubiquitin ligase",
+        "n_drugs": 20,
+        "n_drugs_with_signals": 3,
+        "n_signals": 482,
+        "pct_female": 60.8,
+        "mean_abs_lr": 0.757,
+        "bias_category": "female"
+      },
+      {
+        "target": "Dihydroorotate dehydrogenase (quinone), mitochondrial",
+        "n_drugs": 6,
+        "n_drugs_with_signals": 2,
+        "n_signals": 447,
+        "pct_female": 36.0,
+        "mean_abs_lr": 1.2197,
+        "bias_category": "male"
+      },
+      {
+        "target": "Vascular endothelial growth factor A, long form",
+        "n_drugs": 13,
+        "n_drugs_with_signals": 5,
+        "n_signals": 445,
+        "pct_female": 50.8,
+        "mean_abs_lr": 0.8135,
+        "bias_category": "balanced"
+      }
+    ],
+    "most_female_targets": [
+      {
+        "target": "Transthyretin mRNA",
+        "n_drugs": 9,
+        "n_drugs_with_signals": 2,
+        "n_signals": 22,
+        "pct_female": 95.5,
+        "mean_abs_lr": 0.7524,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Peroxisome proliferator-activated receptor gamma",
+        "n_drugs": 31,
+        "n_drugs_with_signals": 3,
+        "n_signals": 49,
+        "pct_female": 93.9,
+        "mean_abs_lr": 0.7036,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Glutathione reductase, mitochondrial",
+        "n_drugs": 2,
+        "n_drugs_with_signals": 1,
+        "n_signals": 39,
+        "pct_female": 92.3,
+        "mean_abs_lr": 0.9411,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Transthyretin",
+        "n_drugs": 4,
+        "n_drugs_with_signals": 1,
+        "n_signals": 22,
+        "pct_female": 86.4,
+        "mean_abs_lr": 0.7302,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Histamine H2 receptor",
+        "n_drugs": 12,
+        "n_drugs_with_signals": 4,
+        "n_signals": 427,
+        "pct_female": 85.5,
+        "mean_abs_lr": 1.304,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Tyrosine-protein kinase receptor UFO",
+        "n_drugs": 7,
+        "n_drugs_with_signals": 1,
+        "n_signals": 33,
+        "pct_female": 84.8,
+        "mean_abs_lr": 0.8179,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Interleukin-2 receptor",
+        "n_drugs": 12,
+        "n_drugs_with_signals": 3,
+        "n_signals": 111,
+        "pct_female": 83.8,
+        "mean_abs_lr": 0.9508,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "B-lymphocyte antigen CD19",
+        "n_drugs": 17,
+        "n_drugs_with_signals": 6,
+        "n_signals": 176,
+        "pct_female": 83.0,
+        "mean_abs_lr": 0.7975,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Programmed cell death 1 ligand 1",
+        "n_drugs": 13,
+        "n_drugs_with_signals": 3,
+        "n_signals": 232,
+        "pct_female": 82.8,
+        "mean_abs_lr": 0.8259,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Ribonucleoside-diphosphate reductase RR1",
+        "n_drugs": 21,
+        "n_drugs_with_signals": 4,
+        "n_signals": 86,
+        "pct_female": 81.4,
+        "mean_abs_lr": 0.8557,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Prothrombin",
+        "n_drugs": 13,
+        "n_drugs_with_signals": 4,
+        "n_signals": 197,
+        "pct_female": 81.2,
+        "mean_abs_lr": 0.7588,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "Sodium channel protein type 5 subunit alpha",
+        "n_drugs": 7,
+        "n_drugs_with_signals": 2,
+        "n_signals": 37,
+        "pct_female": 81.1,
+        "mean_abs_lr": 0.7844,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "B-cell antigen receptor complex-associated protein beta chain",
+        "n_drugs": 1,
+        "n_drugs_with_signals": 1,
+        "n_signals": 41,
+        "pct_female": 80.5,
+        "mean_abs_lr": 0.8563,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "P2Y purinoceptor 12",
+        "n_drugs": 13,
+        "n_drugs_with_signals": 2,
+        "n_signals": 158,
+        "pct_female": 80.4,
+        "mean_abs_lr": 0.7973,
+        "bias_category": "strong_female"
+      },
+      {
+        "target": "DNA polymerase (alpha/delta/epsilon)",
+        "n_drugs": 66,
+        "n_drugs_with_signals": 4,
+        "n_signals": 352,
+        "pct_female": 80.1,
+        "mean_abs_lr": 0.8639,
+        "bias_category": "strong_female"
+      }
+    ],
+    "most_male_targets": [
+      {
+        "target": "Kelch-like ECH-associated protein 1",
+        "n_drugs": 3,
+        "n_drugs_with_signals": 1,
+        "n_signals": 25,
+        "pct_female": 0.0,
+        "mean_abs_lr": 0.8682,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Insulin-like growth factor 1 receptor",
+        "n_drugs": 20,
+        "n_drugs_with_signals": 2,
+        "n_signals": 35,
+        "pct_female": 2.9,
+        "mean_abs_lr": 0.8752,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Progesterone receptor",
+        "n_drugs": 34,
+        "n_drugs_with_signals": 5,
+        "n_signals": 65,
+        "pct_female": 3.1,
+        "mean_abs_lr": 1.6398,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Sphingosine 1-phosphate receptor 1",
+        "n_drugs": 8,
+        "n_drugs_with_signals": 2,
+        "n_signals": 50,
+        "pct_female": 4.0,
+        "mean_abs_lr": 0.8867,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Interleukin-13",
+        "n_drugs": 7,
+        "n_drugs_with_signals": 2,
+        "n_signals": 24,
+        "pct_female": 4.2,
+        "mean_abs_lr": 0.8014,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Calcitonin gene-related peptide",
+        "n_drugs": 6,
+        "n_drugs_with_signals": 3,
+        "n_signals": 86,
+        "pct_female": 4.7,
+        "mean_abs_lr": 0.9462,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Sphingosine 1-phosphate receptor 5",
+        "n_drugs": 2,
+        "n_drugs_with_signals": 2,
+        "n_signals": 37,
+        "pct_female": 5.4,
+        "mean_abs_lr": 0.7684,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Estrogen receptor",
+        "n_drugs": 73,
+        "n_drugs_with_signals": 3,
+        "n_signals": 27,
+        "pct_female": 7.4,
+        "mean_abs_lr": 2.2953,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Gastric inhibitory polypeptide receptor",
+        "n_drugs": 2,
+        "n_drugs_with_signals": 1,
+        "n_signals": 95,
+        "pct_female": 8.4,
+        "mean_abs_lr": 0.7026,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Tumor necrosis factor ligand superfamily member 13B",
+        "n_drugs": 7,
+        "n_drugs_with_signals": 1,
+        "n_signals": 22,
+        "pct_female": 9.1,
+        "mean_abs_lr": 1.2791,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Neurotrophic tyrosine kinase receptor",
+        "n_drugs": 27,
+        "n_drugs_with_signals": 3,
+        "n_signals": 28,
+        "pct_female": 10.7,
+        "mean_abs_lr": 0.6638,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Orexin receptor",
+        "n_drugs": 10,
+        "n_drugs_with_signals": 2,
+        "n_signals": 26,
+        "pct_female": 11.5,
+        "mean_abs_lr": 0.725,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Protein phosphatase 3 catalytic subunit alpha",
+        "n_drugs": 1,
+        "n_drugs_with_signals": 1,
+        "n_signals": 22,
+        "pct_female": 13.6,
+        "mean_abs_lr": 0.7809,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Integrin alpha-L/beta-2 (LFA-1)",
+        "n_drugs": 6,
+        "n_drugs_with_signals": 2,
+        "n_signals": 21,
+        "pct_female": 14.3,
+        "mean_abs_lr": 0.9351,
+        "bias_category": "strong_male"
+      },
+      {
+        "target": "Parathyroid hormone/parathyroid hormone-related peptide receptor",
+        "n_drugs": 6,
+        "n_drugs_with_signals": 3,
+        "n_signals": 123,
+        "pct_female": 14.6,
+        "mean_abs_lr": 0.8014,
+        "bias_category": "strong_male"
+      }
+    ]
+  },
+  "moa_clusters": {
+    "total_clusters": 203,
+    "high_variability_clusters": 50,
+    "low_variability_clusters": 60,
+    "top_clusters": [
+      {
+        "targets": [
+          "Glucocorticoid receptor"
+        ],
+        "n_drugs": 71,
+        "drugs": [
+          "ALCLOMETASONE DIPROPIONATE",
+          "AMCINONIDE",
+          "AZD-5423",
+          "BECLOMETHASONE DIPROPIONATE",
+          "BETAMETHASONE",
+          "BETAMETHASONE ACETATE",
+          "BETAMETHASONE BENZOATE",
+          "BETAMETHASONE DIPROPIONATE",
+          "BETAMETHASONE SODIUM PHOSPHATE",
+          "BETAMETHASONE VALERATE"
+        ],
+        "n_signals": 3739,
+        "overall_pct_female": 67.2,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 34.1
+      },
+      {
+        "targets": [
+          "Tumor necrosis factor"
+        ],
+        "n_drugs": 13,
+        "drugs": [
+          "ADALIMUMAB",
+          "AFELIMOMAB",
+          "AZ9773",
+          "CERTOLIZUMAB PEGOL",
+          "ETANERCEPT",
+          "GOLIMUMAB",
+          "INFLIXIMAB",
+          "LENERCEPT",
+          "NERELIMOMAB",
+          "ONERCEPT"
+        ],
+        "n_signals": 2382,
+        "overall_pct_female": 45.0,
+        "within_cluster_range": 17.5,
+        "within_cluster_std": 7.8
+      },
+      {
+        "targets": [
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel"
+        ],
+        "n_drugs": 55,
+        "drugs": [
+          "ABP-700",
+          "ADIPIPLON",
+          "ALPRAZOLAM",
+          "BREXANOLONE",
+          "BUTABARBITAL SODIUM",
+          "BUTALBITAL",
+          "CHLORDIAZEPOXIDE",
+          "CHLORDIAZEPOXIDE HYDROCHLORIDE",
+          "CIPEPOFOL",
+          "CLOBAZAM"
+        ],
+        "n_signals": 1571,
+        "overall_pct_female": 64.2,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 35.6
+      },
+      {
+        "targets": [
+          "Cyclooxygenase",
+          "Cyclooxygenase"
+        ],
+        "n_drugs": 51,
+        "drugs": [
+          "ACEMETACIN",
+          "ALOXIPRIN",
+          "APAZONE",
+          "ASPIRIN",
+          "BENZYDAMINE",
+          "BENZYDAMINE HYDROCHLORIDE",
+          "BISMUTH SUBSALICYLATE",
+          "BROMFENAC SODIUM",
+          "CLOMETACIN",
+          "DEXIBUPROFEN"
+        ],
+        "n_signals": 1459,
+        "overall_pct_female": 55.7,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 34.0
+      },
+      {
+        "targets": [
+          "Dihydrofolate reductase"
+        ],
+        "n_drugs": 4,
+        "drugs": [
+          "METHOTREXATE",
+          "METHOTREXATE SODIUM",
+          "PIRITREXIM",
+          "PRALATREXATE"
+        ],
+        "n_signals": 1082,
+        "overall_pct_female": 41.8,
+        "within_cluster_range": 66.4,
+        "within_cluster_std": 33.4
+      },
+      {
+        "targets": [
+          "Mu-type opioid receptor"
+        ],
+        "n_drugs": 41,
+        "drugs": [
+          "ALFENTANIL HYDROCHLORIDE",
+          "ALVIMOPAN",
+          "AXELOPRAN",
+          "BEVENOPRAN",
+          "CP-866087",
+          "DIACETYLMORPHINE",
+          "DIFENOXIN HYDROCHLORIDE",
+          "DIHYDROCODEINE BITARTRATE",
+          "DIPHENOXYLATE HYDROCHLORIDE",
+          "ELUXADOLINE"
+        ],
+        "n_signals": 1050,
+        "overall_pct_female": 71.0,
+        "within_cluster_range": 85.0,
+        "within_cluster_std": 32.9
+      },
+      {
+        "targets": [
+          "B-lymphocyte antigen CD20"
+        ],
+        "n_drugs": 12,
+        "drugs": [
+          "LFB-R603",
+          "OBINUTUZUMAB",
+          "OCARATUZUMAB",
+          "OCRELIZUMAB",
+          "OFATUMUMAB",
+          "RITUXIMAB",
+          "TOSITUMOMAB",
+          "TOSITUMOMAB 131I",
+          "TRU-015",
+          "UBLITUXIMAB"
+        ],
+        "n_signals": 1034,
+        "overall_pct_female": 58.3,
+        "within_cluster_range": 71.6,
+        "within_cluster_std": 32.2
+      },
+      {
+        "targets": [
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit"
+        ],
+        "n_drugs": 48,
+        "drugs": [
+          "ARTICAINE HYDROCHLORIDE",
+          "BENOXINATE HYDROCHLORIDE",
+          "CARBAMAZEPINE",
+          "CHLOROPROCAINE HYDROCHLORIDE",
+          "COCAINE HYDROCHLORIDE",
+          "DICHLOROBENZYL ALCOHOL",
+          "DISOPYRAMIDE PHOSPHATE",
+          "DYCLONINE HYDROCHLORIDE",
+          "ENCAINIDE HYDROCHLORIDE",
+          "ESLICARBAZEPINE"
+        ],
+        "n_signals": 961,
+        "overall_pct_female": 43.0,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 31.4
+      },
+      {
+        "targets": [
+          "Peptidyl-prolyl cis-trans isomerase FKBP1A"
+        ],
+        "n_drugs": 7,
+        "drugs": [
+          "EVEROLIMUS",
+          "OLOCROLIMUS",
+          "PIMECROLIMUS",
+          "SIROLIMUS",
+          "TACROLIMUS",
+          "TEMSIROLIMUS",
+          "ZOTAROLIMUS"
+        ],
+        "n_signals": 929,
+        "overall_pct_female": 69.0,
+        "within_cluster_range": 95.8,
+        "within_cluster_std": 36.5
+      },
+      {
+        "targets": [
+          "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+          "Inosine-5'-monophosphate dehydrogenase (IMPDH)"
+        ],
+        "n_drugs": 6,
+        "drugs": [
+          "AVN-944",
+          "MYCOPHENOLATE MOFETIL",
+          "MYCOPHENOLATE MOFETIL HYDROCHLORIDE",
+          "MYCOPHENOLATE SODIUM",
+          "MYCOPHENOLIC ACID",
+          "THIOGUANINE"
+        ],
+        "n_signals": 784,
+        "overall_pct_female": 78.1,
+        "within_cluster_range": 4.9,
+        "within_cluster_std": 3.5
+      },
+      {
+        "targets": [
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel"
+        ],
+        "n_drugs": 8,
+        "drugs": [
+          "ATAGABALIN",
+          "BEPRIDIL HYDROCHLORIDE",
+          "GABAPENTIN",
+          "GABAPENTIN ENACARBIL",
+          "IMAGABALIN",
+          "PHLOROGLUCINOL",
+          "PREGABALIN",
+          "SULOCTIDIL"
+        ],
+        "n_signals": 742,
+        "overall_pct_female": 45.1,
+        "within_cluster_range": 53.9,
+        "within_cluster_std": 27.3
+      },
+      {
+        "targets": [
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin"
+        ],
+        "n_drugs": 35,
+        "drugs": [
+          "BMS-275183",
+          "CABAZITAXEL",
+          "COLCHICINE",
+          "CROLIBULIN",
+          "DAVUNETIDE",
+          "DOCETAXEL",
+          "DOCETAXEL ANHYDROUS",
+          "DOLASTATIN-10",
+          "EPOTHILONE D",
+          "ERIBULIN MESYLATE"
+        ],
+        "n_signals": 741,
+        "overall_pct_female": 45.5,
+        "within_cluster_range": 81.2,
+        "within_cluster_std": 39.5
+      },
+      {
+        "targets": [
+          "Potassium-transporting ATPase",
+          "Potassium-transporting ATPase"
+        ],
+        "n_drugs": 13,
+        "drugs": [
+          "ABEPRAZAN",
+          "DEXLANSOPRAZOLE",
+          "ESOMEPRAZOLE MAGNESIUM",
+          "ESOMEPRAZOLE SODIUM",
+          "ESOMEPRAZOLE STRONTIUM",
+          "ILAPRAZOLE",
+          "LANSOPRAZOLE",
+          "OMEPRAZOLE",
+          "OMEPRAZOLE MAGNESIUM",
+          "PANTOPRAZOLE SODIUM"
+        ],
+        "n_signals": 720,
+        "overall_pct_female": 55.1,
+        "within_cluster_range": 54.1,
+        "within_cluster_std": 20.3
+      },
+      {
+        "targets": [
+          "Type-1 angiotensin II receptor"
+        ],
+        "n_drugs": 17,
+        "drugs": [
+          "ANGIOTENSIN II ACETATE",
+          "AZILSARTAN",
+          "AZILSARTAN KAMEDOXOMIL",
+          "CANDESARTAN",
+          "CANDESARTAN CILEXETIL",
+          "EPROSARTAN MESYLATE",
+          "FIMASARTAN",
+          "IRBESARTAN",
+          "IRBESARTAN HYDROCHLORIDE",
+          "LOSARTAN POTASSIUM"
+        ],
+        "n_signals": 692,
+        "overall_pct_female": 49.7,
+        "within_cluster_range": 73.3,
+        "within_cluster_std": 19.3
+      },
+      {
+        "targets": [
+          "Angiotensin-converting enzyme"
+        ],
+        "n_drugs": 16,
+        "drugs": [
+          "BENAZEPRIL HYDROCHLORIDE",
+          "CAPTOPRIL",
+          "CILAZAPRIL",
+          "DELAPRIL",
+          "ENALAPRIL MALEATE",
+          "ENALAPRILAT",
+          "FOSINOPRIL SODIUM",
+          "IMIDAPRIL",
+          "LISINOPRIL",
+          "MOEXIPRIL HYDROCHLORIDE"
+        ],
+        "n_signals": 652,
+        "overall_pct_female": 74.8,
+        "within_cluster_range": 87.5,
+        "within_cluster_std": 36.3
+      },
+      {
+        "targets": [
+          "Interleukin-6 receptor subunit alpha"
+        ],
+        "n_drugs": 4,
+        "drugs": [
+          "LEVILIMAB",
+          "SARILUMAB",
+          "TOCILIZUMAB",
+          "VOBARILIZUMAB"
+        ],
+        "n_signals": 611,
+        "overall_pct_female": 50.9,
+        "within_cluster_range": 8.8,
+        "within_cluster_std": 6.3
+      },
+      {
+        "targets": [
+          "5-hydroxytryptamine receptor 2A",
+          "5-hydroxytryptamine receptor 2C",
+          "D(2) dopamine receptor"
+        ],
+        "n_drugs": 5,
+        "drugs": [
+          "CARPHENAZINE MALEATE",
+          "QUETIAPINE FUMARATE",
+          "RISPERIDONE",
+          "ZIPRASIDONE HYDROCHLORIDE",
+          "ZIPRASIDONE MESYLATE"
+        ],
+        "n_signals": 581,
+        "overall_pct_female": 89.3,
+        "within_cluster_range": 40.9,
+        "within_cluster_std": 23.4
+      },
+      {
+        "targets": [
+          "Programmed cell death protein 1"
+        ],
+        "n_drugs": 23,
+        "drugs": [
+          "APL-501",
+          "BALSTILIMAB",
+          "BUDIGALIMAB",
+          "CAMRELIZUMAB",
+          "CEMIPLIMAB",
+          "CETRELIMAB",
+          "CS-1003",
+          "DOSTARLIMAB",
+          "FINOTONLIMAB",
+          "NIVOLUMAB"
+        ],
+        "n_signals": 558,
+        "overall_pct_female": 70.6,
+        "within_cluster_range": 50.0,
+        "within_cluster_std": 19.8
+      },
+      {
+        "targets": [
+          "Interleukin-17A"
+        ],
+        "n_drugs": 7,
+        "drugs": [
+          "AFASEVIKUMAB",
+          "CJM-112",
+          "IXEKIZUMAB",
+          "IZOKIBEP",
+          "PERAKIZUMAB",
+          "SECUKINUMAB",
+          "VUNAKIZUMAB"
+        ],
+        "n_signals": 538,
+        "overall_pct_female": 46.8,
+        "within_cluster_range": 35.1,
+        "within_cluster_std": 24.8
+      },
+      {
+        "targets": [
+          "Coagulation factor X"
+        ],
+        "n_drugs": 11,
+        "drugs": [
+          "APIXABAN",
+          "BEMIPARIN",
+          "BETRIXABAN",
+          "COAGULATION FACTOR X HUMAN",
+          "DAREXABAN",
+          "EDOXABAN TOSYLATE",
+          "IDRABIOTAPARINUX SODIUM",
+          "IDRAPARINUX SODIUM",
+          "LETAXABAN",
+          "OTAMIXABAN"
+        ],
+        "n_signals": 518,
+        "overall_pct_female": 63.3,
+        "within_cluster_range": 10.2,
+        "within_cluster_std": 7.2
+      }
+    ],
+    "highest_variability": [
+      {
+        "targets": [
+          "Glucocorticoid receptor"
+        ],
+        "n_drugs": 71,
+        "drugs": [
+          "ALCLOMETASONE DIPROPIONATE",
+          "AMCINONIDE",
+          "AZD-5423",
+          "BECLOMETHASONE DIPROPIONATE",
+          "BETAMETHASONE",
+          "BETAMETHASONE ACETATE",
+          "BETAMETHASONE BENZOATE",
+          "BETAMETHASONE DIPROPIONATE",
+          "BETAMETHASONE SODIUM PHOSPHATE",
+          "BETAMETHASONE VALERATE"
+        ],
+        "n_signals": 3739,
+        "overall_pct_female": 67.2,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 34.1
+      },
+      {
+        "targets": [
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel",
+          "GABA-A receptor; anion channel"
+        ],
+        "n_drugs": 55,
+        "drugs": [
+          "ABP-700",
+          "ADIPIPLON",
+          "ALPRAZOLAM",
+          "BREXANOLONE",
+          "BUTABARBITAL SODIUM",
+          "BUTALBITAL",
+          "CHLORDIAZEPOXIDE",
+          "CHLORDIAZEPOXIDE HYDROCHLORIDE",
+          "CIPEPOFOL",
+          "CLOBAZAM"
+        ],
+        "n_signals": 1571,
+        "overall_pct_female": 64.2,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 35.6
+      },
+      {
+        "targets": [
+          "Cyclooxygenase",
+          "Cyclooxygenase"
+        ],
+        "n_drugs": 51,
+        "drugs": [
+          "ACEMETACIN",
+          "ALOXIPRIN",
+          "APAZONE",
+          "ASPIRIN",
+          "BENZYDAMINE",
+          "BENZYDAMINE HYDROCHLORIDE",
+          "BISMUTH SUBSALICYLATE",
+          "BROMFENAC SODIUM",
+          "CLOMETACIN",
+          "DEXIBUPROFEN"
+        ],
+        "n_signals": 1459,
+        "overall_pct_female": 55.7,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 34.0
+      },
+      {
+        "targets": [
+          "Dihydrofolate reductase"
+        ],
+        "n_drugs": 4,
+        "drugs": [
+          "METHOTREXATE",
+          "METHOTREXATE SODIUM",
+          "PIRITREXIM",
+          "PRALATREXATE"
+        ],
+        "n_signals": 1082,
+        "overall_pct_female": 41.8,
+        "within_cluster_range": 66.4,
+        "within_cluster_std": 33.4
+      },
+      {
+        "targets": [
+          "Mu-type opioid receptor"
+        ],
+        "n_drugs": 41,
+        "drugs": [
+          "ALFENTANIL HYDROCHLORIDE",
+          "ALVIMOPAN",
+          "AXELOPRAN",
+          "BEVENOPRAN",
+          "CP-866087",
+          "DIACETYLMORPHINE",
+          "DIFENOXIN HYDROCHLORIDE",
+          "DIHYDROCODEINE BITARTRATE",
+          "DIPHENOXYLATE HYDROCHLORIDE",
+          "ELUXADOLINE"
+        ],
+        "n_signals": 1050,
+        "overall_pct_female": 71.0,
+        "within_cluster_range": 85.0,
+        "within_cluster_std": 32.9
+      },
+      {
+        "targets": [
+          "B-lymphocyte antigen CD20"
+        ],
+        "n_drugs": 12,
+        "drugs": [
+          "LFB-R603",
+          "OBINUTUZUMAB",
+          "OCARATUZUMAB",
+          "OCRELIZUMAB",
+          "OFATUMUMAB",
+          "RITUXIMAB",
+          "TOSITUMOMAB",
+          "TOSITUMOMAB 131I",
+          "TRU-015",
+          "UBLITUXIMAB"
+        ],
+        "n_signals": 1034,
+        "overall_pct_female": 58.3,
+        "within_cluster_range": 71.6,
+        "within_cluster_std": 32.2
+      },
+      {
+        "targets": [
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit",
+          "Sodium channel alpha subunit"
+        ],
+        "n_drugs": 48,
+        "drugs": [
+          "ARTICAINE HYDROCHLORIDE",
+          "BENOXINATE HYDROCHLORIDE",
+          "CARBAMAZEPINE",
+          "CHLOROPROCAINE HYDROCHLORIDE",
+          "COCAINE HYDROCHLORIDE",
+          "DICHLOROBENZYL ALCOHOL",
+          "DISOPYRAMIDE PHOSPHATE",
+          "DYCLONINE HYDROCHLORIDE",
+          "ENCAINIDE HYDROCHLORIDE",
+          "ESLICARBAZEPINE"
+        ],
+        "n_signals": 961,
+        "overall_pct_female": 43.0,
+        "within_cluster_range": 100.0,
+        "within_cluster_std": 31.4
+      },
+      {
+        "targets": [
+          "Peptidyl-prolyl cis-trans isomerase FKBP1A"
+        ],
+        "n_drugs": 7,
+        "drugs": [
+          "EVEROLIMUS",
+          "OLOCROLIMUS",
+          "PIMECROLIMUS",
+          "SIROLIMUS",
+          "TACROLIMUS",
+          "TEMSIROLIMUS",
+          "ZOTAROLIMUS"
+        ],
+        "n_signals": 929,
+        "overall_pct_female": 69.0,
+        "within_cluster_range": 95.8,
+        "within_cluster_std": 36.5
+      },
+      {
+        "targets": [
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel",
+          "Voltage-gated calcium channel"
+        ],
+        "n_drugs": 8,
+        "drugs": [
+          "ATAGABALIN",
+          "BEPRIDIL HYDROCHLORIDE",
+          "GABAPENTIN",
+          "GABAPENTIN ENACARBIL",
+          "IMAGABALIN",
+          "PHLOROGLUCINOL",
+          "PREGABALIN",
+          "SULOCTIDIL"
+        ],
+        "n_signals": 742,
+        "overall_pct_female": 45.1,
+        "within_cluster_range": 53.9,
+        "within_cluster_std": 27.3
+      },
+      {
+        "targets": [
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin",
+          "Tubulin"
+        ],
+        "n_drugs": 35,
+        "drugs": [
+          "BMS-275183",
+          "CABAZITAXEL",
+          "COLCHICINE",
+          "CROLIBULIN",
+          "DAVUNETIDE",
+          "DOCETAXEL",
+          "DOCETAXEL ANHYDROUS",
+          "DOLASTATIN-10",
+          "EPOTHILONE D",
+          "ERIBULIN MESYLATE"
+        ],
+        "n_signals": 741,
+        "overall_pct_female": 45.5,
+        "within_cluster_range": 81.2,
+        "within_cluster_std": 39.5
+      }
+    ],
+    "most_consistent": [
+      {
+        "targets": [
+          "Tumor necrosis factor"
+        ],
+        "n_drugs": 13,
+        "drugs": [
+          "ADALIMUMAB",
+          "AFELIMOMAB",
+          "AZ9773",
+          "CERTOLIZUMAB PEGOL",
+          "ETANERCEPT",
+          "GOLIMUMAB",
+          "INFLIXIMAB",
+          "LENERCEPT",
+          "NERELIMOMAB",
+          "ONERCEPT"
+        ],
+        "n_signals": 2382,
+        "overall_pct_female": 45.0,
+        "within_cluster_range": 17.5,
+        "within_cluster_std": 7.8
+      },
+      {
+        "targets": [
+          "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+          "Inosine-5'-monophosphate dehydrogenase (IMPDH)"
+        ],
+        "n_drugs": 6,
+        "drugs": [
+          "AVN-944",
+          "MYCOPHENOLATE MOFETIL",
+          "MYCOPHENOLATE MOFETIL HYDROCHLORIDE",
+          "MYCOPHENOLATE SODIUM",
+          "MYCOPHENOLIC ACID",
+          "THIOGUANINE"
+        ],
+        "n_signals": 784,
+        "overall_pct_female": 78.1,
+        "within_cluster_range": 4.9,
+        "within_cluster_std": 3.5
+      },
+      {
+        "targets": [
+          "Interleukin-6 receptor subunit alpha"
+        ],
+        "n_drugs": 4,
+        "drugs": [
+          "LEVILIMAB",
+          "SARILUMAB",
+          "TOCILIZUMAB",
+          "VOBARILIZUMAB"
+        ],
+        "n_signals": 611,
+        "overall_pct_female": 50.9,
+        "within_cluster_range": 8.8,
+        "within_cluster_std": 6.3
+      },
+      {
+        "targets": [
+          "Coagulation factor X"
+        ],
+        "n_drugs": 11,
+        "drugs": [
+          "APIXABAN",
+          "BEMIPARIN",
+          "BETRIXABAN",
+          "COAGULATION FACTOR X HUMAN",
+          "DAREXABAN",
+          "EDOXABAN TOSYLATE",
+          "IDRABIOTAPARINUX SODIUM",
+          "IDRAPARINUX SODIUM",
+          "LETAXABAN",
+          "OTAMIXABAN"
+        ],
+        "n_signals": 518,
+        "overall_pct_female": 63.3,
+        "within_cluster_range": 10.2,
+        "within_cluster_std": 7.2
+      },
+      {
+        "targets": [
+          "CRL4(CRBN) E3 ubiquitin ligase",
+          "CRL4(CRBN) E3 ubiquitin ligase",
+          "CRL4(CRBN) E3 ubiquitin ligase",
+          "CRL4(CRBN) E3 ubiquitin ligase"
+        ],
+        "n_drugs": 5,
+        "drugs": [
+          "IBERDOMIDE",
+          "LENALIDOMIDE",
+          "LENALIDOMIDE HYDROCHLORIDE MONOHYDRATE",
+          "POMALIDOMIDE",
+          "THALIDOMIDE"
+        ],
+        "n_signals": 482,
+        "overall_pct_female": 60.8,
+        "within_cluster_range": 17.2,
+        "within_cluster_std": 9.3
+      },
+      {
+        "targets": [
+          "Farnesyl pyrophosphate synthase"
+        ],
+        "n_drugs": 6,
+        "drugs": [
+          "ALENDRONATE SODIUM",
+          "IBANDRONATE SODIUM",
+          "MINODRONIC ACID",
+          "PAMIDRONATE DISODIUM",
+          "RISEDRONATE SODIUM",
+          "ZOLEDRONIC ACID"
+        ],
+        "n_signals": 395,
+        "overall_pct_female": 26.8,
+        "within_cluster_range": 10.5,
+        "within_cluster_std": 7.4
+      },
+      {
+        "targets": [
+          "5-hydroxytryptamine receptor 1A",
+          "5-hydroxytryptamine receptor 2A",
+          "D(2) dopamine receptor"
+        ],
+        "n_drugs": 3,
+        "drugs": [
+          "ARIPIPRAZOLE",
+          "ARIPIPRAZOLE LAUROXIL",
+          "BREXPIPRAZOLE"
+        ],
+        "n_signals": 385,
+        "overall_pct_female": 45.7,
+        "within_cluster_range": 14.8,
+        "within_cluster_std": 10.5
+      },
+      {
+        "targets": [
+          "Vascular endothelial growth factor A, long form"
+        ],
+        "n_drugs": 8,
+        "drugs": [
+          "ABICIPAR PEGOL",
+          "BEVACIZUMAB",
+          "BEVACIZUMAB 111IN",
+          "BEVACIZUMAB GAMMA",
+          "BROLUCIZUMAB",
+          "PEGAPTANIB OCTASODIUM",
+          "PEGAPTANIB SODIUM",
+          "RANIBIZUMAB"
+        ],
+        "n_signals": 378,
+        "overall_pct_female": 52.4,
+        "within_cluster_range": 14.5,
+        "within_cluster_std": 8.1
+      },
+      {
+        "targets": [
+          "Interleukin-12",
+          "Interleukin-12",
+          "Interleukin-23",
+          "Interleukin-23"
+        ],
+        "n_drugs": 3,
+        "drugs": [
+          "BRIAKINUMAB",
+          "EBDAROKIMAB",
+          "USTEKINUMAB"
+        ],
+        "n_signals": 314,
+        "overall_pct_female": 65.0,
+        "within_cluster_range": 0.0,
+        "within_cluster_std": 0
+      },
+      {
+        "targets": [
+          "Immunoglobulin heavy constant epsilon"
+        ],
+        "n_drugs": 6,
+        "drugs": [
+          "AL-901",
+          "LIGELIZUMAB",
+          "MEDI-4212",
+          "OMALIZUMAB",
+          "QUILIZUMAB",
+          "TALIZUMAB"
+        ],
+        "n_signals": 306,
+        "overall_pct_female": 27.8,
+        "within_cluster_range": 0.0,
+        "within_cluster_std": 0
+      }
+    ]
+  },
+  "sex_diff_expression_integration": {
+    "genes_with_sex_diff_expr": 20,
+    "targets_with_sex_diff_expr": 0,
+    "targets_without_sex_diff_expr": 299,
+    "avg_pct_female_with_sex_diff": null,
+    "avg_pct_female_without_sex_diff": null,
+    "avg_abs_lr_with_sex_diff": null,
+    "avg_abs_lr_without_sex_diff": null
+  }
+}
