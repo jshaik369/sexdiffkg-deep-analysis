@@ -1,0 +1,837 @@
+{
+  "therapeutic_classes": {
+    "Statins": {
+      "n_signals": 1082,
+      "n_drugs_matched": 6,
+      "n_drugs_total": 6,
+      "mean_f_pct": 51.99,
+      "std_f_pct": 20.67,
+      "mean_abs_lr": 0.9442,
+      "within_class_range_pp": 19.4,
+      "pct_female_biased": 51.9,
+      "total_reports": 157657,
+      "drug_details": [
+        {
+          "drug": "LOVASTATIN",
+          "mean_f_pct": 63.7,
+          "n_signals": 8
+        },
+        {
+          "drug": "ATORVASTATIN",
+          "mean_f_pct": 53.5,
+          "n_signals": 388
+        },
+        {
+          "drug": "ROSUVASTATIN",
+          "mean_f_pct": 52.2,
+          "n_signals": 337
+        },
+        {
+          "drug": "PRAVASTATIN",
+          "mean_f_pct": 50.5,
+          "n_signals": 67
+        },
+        {
+          "drug": "SIMVASTATIN",
+          "mean_f_pct": 50.1,
+          "n_signals": 261
+        }
+      ]
+    },
+    "NSAIDs": {
+      "n_signals": 1498,
+      "n_drugs_matched": 7,
+      "n_drugs_total": 7,
+      "mean_f_pct": 69.95,
+      "std_f_pct": 22.28,
+      "mean_abs_lr": 1.1553,
+      "within_class_range_pp": 19.5,
+      "pct_female_biased": 76.2,
+      "total_reports": 795137,
+      "drug_details": [
+        {
+          "drug": "PIROXICAM",
+          "mean_f_pct": 79.5,
+          "n_signals": 21
+        },
+        {
+          "drug": "CELECOXIB",
+          "mean_f_pct": 78.0,
+          "n_signals": 274
+        },
+        {
+          "drug": "MELOXICAM",
+          "mean_f_pct": 73.0,
+          "n_signals": 87
+        },
+        {
+          "drug": "NAPROXEN",
+          "mean_f_pct": 70.6,
+          "n_signals": 331
+        },
+        {
+          "drug": "DICLOFENAC",
+          "mean_f_pct": 68.8,
+          "n_signals": 401
+        }
+      ]
+    },
+    "SSRIs": {
+      "n_signals": 1176,
+      "n_drugs_matched": 6,
+      "n_drugs_total": 6,
+      "mean_f_pct": 57.6,
+      "std_f_pct": 20.27,
+      "mean_abs_lr": 0.9498,
+      "within_class_range_pp": 15.3,
+      "pct_female_biased": 58.3,
+      "total_reports": 149302,
+      "drug_details": [
+        {
+          "drug": "CITALOPRAM",
+          "mean_f_pct": 62.2,
+          "n_signals": 237
+        },
+        {
+          "drug": "PAROXETINE",
+          "mean_f_pct": 58.8,
+          "n_signals": 186
+        },
+        {
+          "drug": "FLUOXETINE",
+          "mean_f_pct": 58.4,
+          "n_signals": 204
+        },
+        {
+          "drug": "SERTRALINE",
+          "mean_f_pct": 58.2,
+          "n_signals": 302
+        },
+        {
+          "drug": "ESCITALOPRAM",
+          "mean_f_pct": 51.4,
+          "n_signals": 217
+        }
+      ]
+    },
+    "ACE Inhibitors": {
+      "n_signals": 844,
+      "n_drugs_matched": 6,
+      "n_drugs_total": 6,
+      "mean_f_pct": 63.07,
+      "std_f_pct": 21.48,
+      "mean_abs_lr": 1.0694,
+      "within_class_range_pp": 15.6,
+      "pct_female_biased": 71.6,
+      "total_reports": 202337,
+      "drug_details": [
+        {
+          "drug": "LISINOPRIL",
+          "mean_f_pct": 67.5,
+          "n_signals": 252
+        },
+        {
+          "drug": "RAMIPRIL",
+          "mean_f_pct": 63.6,
+          "n_signals": 368
+        },
+        {
+          "drug": "ENALAPRIL",
+          "mean_f_pct": 59.0,
+          "n_signals": 72
+        },
+        {
+          "drug": "BENAZEPRIL",
+          "mean_f_pct": 57.4,
+          "n_signals": 9
+        },
+        {
+          "drug": "PERINDOPRIL",
+          "mean_f_pct": 57.2,
+          "n_signals": 123
+        }
+      ]
+    },
+    "Beta Blockers": {
+      "n_signals": 923,
+      "n_drugs_matched": 6,
+      "n_drugs_total": 6,
+      "mean_f_pct": 55.14,
+      "std_f_pct": 19.83,
+      "mean_abs_lr": 0.9005,
+      "within_class_range_pp": 19.7,
+      "pct_female_biased": 58.5,
+      "total_reports": 102706,
+      "drug_details": [
+        {
+          "drug": "ATENOLOL",
+          "mean_f_pct": 65.7,
+          "n_signals": 136
+        },
+        {
+          "drug": "METOPROLOL",
+          "mean_f_pct": 56.1,
+          "n_signals": 244
+        },
+        {
+          "drug": "PROPRANOLOL",
+          "mean_f_pct": 55.0,
+          "n_signals": 123
+        },
+        {
+          "drug": "NEBIVOLOL",
+          "mean_f_pct": 54.6,
+          "n_signals": 38
+        },
+        {
+          "drug": "BISOPROLOL",
+          "mean_f_pct": 52.9,
+          "n_signals": 270
+        }
+      ]
+    },
+    "PPIs": {
+      "n_signals": 1433,
+      "n_drugs_matched": 5,
+      "n_drugs_total": 5,
+      "mean_f_pct": 61.86,
+      "std_f_pct": 22.19,
+      "mean_abs_lr": 1.0196,
+      "within_class_range_pp": 14.5,
+      "pct_female_biased": 65.8,
+      "total_reports": 463152,
+      "drug_details": [
+        {
+          "drug": "ESOMEPRAZOLE",
+          "mean_f_pct": 64.9,
+          "n_signals": 308
+        },
+        {
+          "drug": "PANTOPRAZOLE",
+          "mean_f_pct": 63.5,
+          "n_signals": 501
+        },
+        {
+          "drug": "LANSOPRAZOLE",
+          "mean_f_pct": 60.1,
+          "n_signals": 240
+        },
+        {
+          "drug": "OMEPRAZOLE",
+          "mean_f_pct": 59.9,
+          "n_signals": 319
+        },
+        {
+          "drug": "RABEPRAZOLE",
+          "mean_f_pct": 50.4,
+          "n_signals": 65
+        }
+      ]
+    },
+    "Fluoroquinolones": {
+      "n_signals": 816,
+      "n_drugs_matched": 5,
+      "n_drugs_total": 5,
+      "mean_f_pct": 57.46,
+      "std_f_pct": 21.29,
+      "mean_abs_lr": 0.9818,
+      "within_class_range_pp": 22.2,
+      "pct_female_biased": 57.6,
+      "total_reports": 144978,
+      "drug_details": [
+        {
+          "drug": "MOXIFLOXACIN",
+          "mean_f_pct": 64.8,
+          "n_signals": 175
+        },
+        {
+          "drug": "CIPROFLOXACIN",
+          "mean_f_pct": 57.9,
+          "n_signals": 342
+        },
+        {
+          "drug": "LEVOFLOXACIN",
+          "mean_f_pct": 54.3,
+          "n_signals": 254
+        },
+        {
+          "drug": "NORFLOXACIN",
+          "mean_f_pct": 51.7,
+          "n_signals": 5
+        },
+        {
+          "drug": "OFLOXACIN",
+          "mean_f_pct": 42.6,
+          "n_signals": 40
+        }
+      ]
+    },
+    "Anticoagulants": {
+      "n_signals": 1069,
+      "n_drugs_matched": 6,
+      "n_drugs_total": 6,
+      "mean_f_pct": 51.83,
+      "std_f_pct": 16.8,
+      "mean_abs_lr": 0.8436,
+      "within_class_range_pp": 8.4,
+      "pct_female_biased": 55.6,
+      "total_reports": 146017,
+      "drug_details": [
+        {
+          "drug": "EDOXABAN",
+          "mean_f_pct": 55.7,
+          "n_signals": 50
+        },
+        {
+          "drug": "ENOXAPARIN",
+          "mean_f_pct": 54.6,
+          "n_signals": 105
+        },
+        {
+          "drug": "RIVAROXABAN",
+          "mean_f_pct": 53.3,
+          "n_signals": 243
+        },
+        {
+          "drug": "APIXABAN",
+          "mean_f_pct": 52.6,
+          "n_signals": 275
+        },
+        {
+          "drug": "DABIGATRAN",
+          "mean_f_pct": 51.4,
+          "n_signals": 176
+        }
+      ]
+    },
+    "mAb anti-TNF": {
+      "n_signals": 2696,
+      "n_drugs_matched": 5,
+      "n_drugs_total": 5,
+      "mean_f_pct": 69.08,
+      "std_f_pct": 20.56,
+      "mean_abs_lr": 1.0544,
+      "within_class_range_pp": 15.2,
+      "pct_female_biased": 77.6,
+      "total_reports": 2362229,
+      "drug_details": [
+        {
+          "drug": "CERTOLIZUMAB",
+          "mean_f_pct": 79.1,
+          "n_signals": 314
+        },
+        {
+          "drug": "GOLIMUMAB",
+          "mean_f_pct": 78.4,
+          "n_signals": 334
+        },
+        {
+          "drug": "ETANERCEPT",
+          "mean_f_pct": 69.9,
+          "n_signals": 618
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "mean_f_pct": 64.9,
+          "n_signals": 623
+        },
+        {
+          "drug": "ADALIMUMAB",
+          "mean_f_pct": 64.0,
+          "n_signals": 807
+        }
+      ]
+    },
+    "ICIs": {
+      "n_signals": 940,
+      "n_drugs_matched": 6,
+      "n_drugs_total": 6,
+      "mean_f_pct": 46.89,
+      "std_f_pct": 13.26,
+      "mean_abs_lr": 0.8312,
+      "within_class_range_pp": 18.3,
+      "pct_female_biased": 39.0,
+      "total_reports": 111658,
+      "drug_details": [
+        {
+          "drug": "PEMBROLIZUMAB",
+          "mean_f_pct": 54.7,
+          "n_signals": 309
+        },
+        {
+          "drug": "DURVALUMAB",
+          "mean_f_pct": 48.5,
+          "n_signals": 61
+        },
+        {
+          "drug": "ATEZOLIZUMAB",
+          "mean_f_pct": 47.0,
+          "n_signals": 152
+        },
+        {
+          "drug": "IPILIMUMAB",
+          "mean_f_pct": 41.6,
+          "n_signals": 161
+        },
+        {
+          "drug": "NIVOLUMAB",
+          "mean_f_pct": 40.7,
+          "n_signals": 238
+        }
+      ]
+    },
+    "Opioids": {
+      "n_signals": 2111,
+      "n_drugs_matched": 7,
+      "n_drugs_total": 7,
+      "mean_f_pct": 65.68,
+      "std_f_pct": 20.85,
+      "mean_abs_lr": 1.1467,
+      "within_class_range_pp": 20.0,
+      "pct_female_biased": 74.7,
+      "total_reports": 877529,
+      "drug_details": [
+        {
+          "drug": "CODEINE",
+          "mean_f_pct": 77.6,
+          "n_signals": 190
+        },
+        {
+          "drug": "TRAMADOL",
+          "mean_f_pct": 68.4,
+          "n_signals": 360
+        },
+        {
+          "drug": "MORPHINE",
+          "mean_f_pct": 67.1,
+          "n_signals": 441
+        },
+        {
+          "drug": "OXYCODONE",
+          "mean_f_pct": 65.3,
+          "n_signals": 492
+        },
+        {
+          "drug": "FENTANYL",
+          "mean_f_pct": 61.0,
+          "n_signals": 291
+        }
+      ]
+    },
+    "Antiepileptics": {
+      "n_signals": 1045,
+      "n_drugs_matched": 5,
+      "n_drugs_total": 6,
+      "mean_f_pct": 58.6,
+      "std_f_pct": 20.84,
+      "mean_abs_lr": 0.9382,
+      "within_class_range_pp": 15.3,
+      "pct_female_biased": 59.1,
+      "total_reports": 180988,
+      "drug_details": [
+        {
+          "drug": "TOPIRAMATE",
+          "mean_f_pct": 67.3,
+          "n_signals": 200
+        },
+        {
+          "drug": "LAMOTRIGINE",
+          "mean_f_pct": 62.9,
+          "n_signals": 319
+        },
+        {
+          "drug": "CARBAMAZEPINE",
+          "mean_f_pct": 53.6,
+          "n_signals": 180
+        },
+        {
+          "drug": "PHENYTOIN",
+          "mean_f_pct": 53.0,
+          "n_signals": 88
+        },
+        {
+          "drug": "LEVETIRACETAM",
+          "mean_f_pct": 52.0,
+          "n_signals": 258
+        }
+      ]
+    },
+    "Benzodiazepines": {
+      "n_signals": 1143,
+      "n_drugs_matched": 5,
+      "n_drugs_total": 5,
+      "mean_f_pct": 62.66,
+      "std_f_pct": 20.17,
+      "mean_abs_lr": 0.9375,
+      "within_class_range_pp": 11.5,
+      "pct_female_biased": 71.5,
+      "total_reports": 203814,
+      "drug_details": [
+        {
+          "drug": "ALPRAZOLAM",
+          "mean_f_pct": 66.5,
+          "n_signals": 237
+        },
+        {
+          "drug": "LORAZEPAM",
+          "mean_f_pct": 64.3,
+          "n_signals": 264
+        },
+        {
+          "drug": "CLONAZEPAM",
+          "mean_f_pct": 61.8,
+          "n_signals": 285
+        },
+        {
+          "drug": "DIAZEPAM",
+          "mean_f_pct": 61.6,
+          "n_signals": 250
+        },
+        {
+          "drug": "MIDAZOLAM",
+          "mean_f_pct": 55.0,
+          "n_signals": 107
+        }
+      ]
+    },
+    "DPP-4 Inhibitors": {
+      "n_signals": 248,
+      "n_drugs_matched": 5,
+      "n_drugs_total": 5,
+      "mean_f_pct": 54.56,
+      "std_f_pct": 17.42,
+      "mean_abs_lr": 0.8557,
+      "within_class_range_pp": 5.5,
+      "pct_female_biased": 58.9,
+      "total_reports": 24582,
+      "drug_details": [
+        {
+          "drug": "SITAGLIPTIN",
+          "mean_f_pct": 56.2,
+          "n_signals": 154
+        },
+        {
+          "drug": "SAXAGLIPTIN",
+          "mean_f_pct": 54.8,
+          "n_signals": 18
+        },
+        {
+          "drug": "VILDAGLIPTIN",
+          "mean_f_pct": 52.1,
+          "n_signals": 25
+        },
+        {
+          "drug": "LINAGLIPTIN",
+          "mean_f_pct": 50.8,
+          "n_signals": 42
+        },
+        {
+          "drug": "ALOGLIPTIN",
+          "mean_f_pct": 50.7,
+          "n_signals": 9
+        }
+      ]
+    },
+    "SGLT2 Inhibitors": {
+      "n_signals": 320,
+      "n_drugs_matched": 4,
+      "n_drugs_total": 4,
+      "mean_f_pct": 47.99,
+      "std_f_pct": 15.8,
+      "mean_abs_lr": 0.7931,
+      "within_class_range_pp": 5.1,
+      "pct_female_biased": 50.6,
+      "total_reports": 44363,
+      "drug_details": [
+        {
+          "drug": "CANAGLIFLOZIN",
+          "mean_f_pct": 50.1,
+          "n_signals": 69
+        },
+        {
+          "drug": "EMPAGLIFLOZIN",
+          "mean_f_pct": 49.0,
+          "n_signals": 96
+        },
+        {
+          "drug": "DAPAGLIFLOZIN",
+          "mean_f_pct": 46.4,
+          "n_signals": 154
+        },
+        {
+          "drug": "ERTUGLIFLOZIN",
+          "mean_f_pct": 45.0,
+          "n_signals": 1
+        }
+      ]
+    },
+    "GLP-1 Agonists": {
+      "n_signals": 422,
+      "n_drugs_matched": 4,
+      "n_drugs_total": 5,
+      "mean_f_pct": 56.72,
+      "std_f_pct": 15.4,
+      "mean_abs_lr": 0.798,
+      "within_class_range_pp": 10.6,
+      "pct_female_biased": 63.5,
+      "total_reports": 57007,
+      "drug_details": [
+        {
+          "drug": "SEMAGLUTIDE",
+          "mean_f_pct": 61.0,
+          "n_signals": 152
+        },
+        {
+          "drug": "DULAGLUTIDE",
+          "mean_f_pct": 56.9,
+          "n_signals": 77
+        },
+        {
+          "drug": "EXENATIDE",
+          "mean_f_pct": 56.6,
+          "n_signals": 92
+        },
+        {
+          "drug": "LIRAGLUTIDE",
+          "mean_f_pct": 50.4,
+          "n_signals": 101
+        }
+      ]
+    },
+    "Aromatase Inhibitors": {
+      "n_signals": 36,
+      "n_drugs_matched": 3,
+      "n_drugs_total": 3,
+      "mean_f_pct": 84.68,
+      "std_f_pct": 15.16,
+      "mean_abs_lr": 1.8106,
+      "within_class_range_pp": 5.1,
+      "pct_female_biased": 94.4,
+      "total_reports": 17849,
+      "drug_details": [
+        {
+          "drug": "LETROZOLE",
+          "mean_f_pct": 87.0,
+          "n_signals": 17
+        },
+        {
+          "drug": "EXEMESTANE",
+          "mean_f_pct": 85.0,
+          "n_signals": 4
+        },
+        {
+          "drug": "ANASTROZOLE",
+          "mean_f_pct": 82.0,
+          "n_signals": 15
+        }
+      ]
+    },
+    "TKIs": {
+      "n_signals": 919,
+      "n_drugs_matched": 11,
+      "n_drugs_total": 11,
+      "mean_f_pct": 50.16,
+      "std_f_pct": 16.49,
+      "mean_abs_lr": 0.7799,
+      "within_class_range_pp": 54.7,
+      "pct_female_biased": 47.1,
+      "total_reports": 91776,
+      "drug_details": [
+        {
+          "drug": "LAPATINIB",
+          "mean_f_pct": 89.3,
+          "n_signals": 7
+        },
+        {
+          "drug": "OSIMERTINIB",
+          "mean_f_pct": 68.3,
+          "n_signals": 53
+        },
+        {
+          "drug": "ERLOTINIB",
+          "mean_f_pct": 61.9,
+          "n_signals": 83
+        },
+        {
+          "drug": "GEFITINIB",
+          "mean_f_pct": 61.8,
+          "n_signals": 12
+        },
+        {
+          "drug": "LENVATINIB",
+          "mean_f_pct": 58.9,
+          "n_signals": 165
+        }
+      ]
+    },
+    "CDK4/6 Inhibitors": {
+      "n_signals": 60,
+      "n_drugs_matched": 3,
+      "n_drugs_total": 3,
+      "mean_f_pct": 93.74,
+      "std_f_pct": 6.88,
+      "mean_abs_lr": 1.0365,
+      "within_class_range_pp": 2.7,
+      "pct_female_biased": 100.0,
+      "total_reports": 74058,
+      "drug_details": [
+        {
+          "drug": "PALBOCICLIB",
+          "mean_f_pct": 94.3,
+          "n_signals": 38
+        },
+        {
+          "drug": "RIBOCICLIB",
+          "mean_f_pct": 94.0,
+          "n_signals": 10
+        },
+        {
+          "drug": "ABEMACICLIB",
+          "mean_f_pct": 91.6,
+          "n_signals": 12
+        }
+      ]
+    },
+    "Tetracyclines": {
+      "n_signals": 334,
+      "n_drugs_matched": 3,
+      "n_drugs_total": 3,
+      "mean_f_pct": 69.65,
+      "std_f_pct": 24.59,
+      "mean_abs_lr": 1.2974,
+      "within_class_range_pp": 2.3,
+      "pct_female_biased": 73.7,
+      "total_reports": 104321,
+      "drug_details": [
+        {
+          "drug": "MINOCYCLINE",
+          "mean_f_pct": 71.2,
+          "n_signals": 100
+        },
+        {
+          "drug": "TETRACYCLINE",
+          "mean_f_pct": 70.8,
+          "n_signals": 11
+        },
+        {
+          "drug": "DOXYCYCLINE",
+          "mean_f_pct": 68.9,
+          "n_signals": 223
+        }
+      ]
+    }
+  },
+  "class_spectrum": [
+    {
+      "class": "ICIs",
+      "mean_f_pct": 46.89,
+      "n_signals": 940
+    },
+    {
+      "class": "SGLT2 Inhibitors",
+      "mean_f_pct": 47.99,
+      "n_signals": 320
+    },
+    {
+      "class": "TKIs",
+      "mean_f_pct": 50.16,
+      "n_signals": 919
+    },
+    {
+      "class": "Anticoagulants",
+      "mean_f_pct": 51.83,
+      "n_signals": 1069
+    },
+    {
+      "class": "Statins",
+      "mean_f_pct": 51.99,
+      "n_signals": 1082
+    },
+    {
+      "class": "DPP-4 Inhibitors",
+      "mean_f_pct": 54.56,
+      "n_signals": 248
+    },
+    {
+      "class": "Beta Blockers",
+      "mean_f_pct": 55.14,
+      "n_signals": 923
+    },
+    {
+      "class": "GLP-1 Agonists",
+      "mean_f_pct": 56.72,
+      "n_signals": 422
+    },
+    {
+      "class": "Fluoroquinolones",
+      "mean_f_pct": 57.46,
+      "n_signals": 816
+    },
+    {
+      "class": "SSRIs",
+      "mean_f_pct": 57.6,
+      "n_signals": 1176
+    },
+    {
+      "class": "Antiepileptics",
+      "mean_f_pct": 58.6,
+      "n_signals": 1045
+    },
+    {
+      "class": "PPIs",
+      "mean_f_pct": 61.86,
+      "n_signals": 1433
+    },
+    {
+      "class": "Benzodiazepines",
+      "mean_f_pct": 62.66,
+      "n_signals": 1143
+    },
+    {
+      "class": "ACE Inhibitors",
+      "mean_f_pct": 63.07,
+      "n_signals": 844
+    },
+    {
+      "class": "Opioids",
+      "mean_f_pct": 65.68,
+      "n_signals": 2111
+    },
+    {
+      "class": "mAb anti-TNF",
+      "mean_f_pct": 69.08,
+      "n_signals": 2696
+    },
+    {
+      "class": "Tetracyclines",
+      "mean_f_pct": 69.65,
+      "n_signals": 334
+    },
+    {
+      "class": "NSAIDs",
+      "mean_f_pct": 69.95,
+      "n_signals": 1498
+    },
+    {
+      "class": "Aromatase Inhibitors",
+      "mean_f_pct": 84.68,
+      "n_signals": 36
+    },
+    {
+      "class": "CDK4/6 Inhibitors",
+      "mean_f_pct": 93.74,
+      "n_signals": 60
+    }
+  ],
+  "nti_analysis": {
+    "nti": {
+      "n_signals": 2708,
+      "n_drugs": 11,
+      "mean_f_pct": 57.01
+    },
+    "non_nti": {
+      "n_signals": 93573,
+      "mean_f_pct": 58.1
+    }
+  }
+}

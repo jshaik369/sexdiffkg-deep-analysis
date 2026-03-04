@@ -1,0 +1,244 @@
+{
+  "volume_decile_analysis": [
+    {
+      "decile": 1,
+      "n_signals": 9772,
+      "min_reports": 20,
+      "max_reports": 29,
+      "median_reports": 26,
+      "mean_f_pct": 50.4,
+      "mean_abs_lr": 0.8708,
+      "pct_female_biased": 46.8
+    },
+    {
+      "decile": 2,
+      "n_signals": 10141,
+      "min_reports": 30,
+      "max_reports": 37,
+      "median_reports": 33,
+      "mean_f_pct": 50.94,
+      "mean_abs_lr": 0.8739,
+      "pct_female_biased": 51.0
+    },
+    {
+      "decile": 3,
+      "n_signals": 9839,
+      "min_reports": 38,
+      "max_reports": 46,
+      "median_reports": 42,
+      "mean_f_pct": 52.02,
+      "mean_abs_lr": 0.8978,
+      "pct_female_biased": 54.4
+    },
+    {
+      "decile": 4,
+      "n_signals": 9402,
+      "min_reports": 47,
+      "max_reports": 57,
+      "median_reports": 52,
+      "mean_f_pct": 53.14,
+      "mean_abs_lr": 0.9013,
+      "pct_female_biased": 56.1
+    },
+    {
+      "decile": 5,
+      "n_signals": 9307,
+      "min_reports": 58,
+      "max_reports": 72,
+      "median_reports": 64,
+      "mean_f_pct": 54.75,
+      "mean_abs_lr": 0.9144,
+      "pct_female_biased": 59.0
+    },
+    {
+      "decile": 6,
+      "n_signals": 9454,
+      "min_reports": 73,
+      "max_reports": 95,
+      "median_reports": 83,
+      "mean_f_pct": 55.9,
+      "mean_abs_lr": 0.9364,
+      "pct_female_biased": 60.3
+    },
+    {
+      "decile": 7,
+      "n_signals": 9642,
+      "min_reports": 96,
+      "max_reports": 134,
+      "median_reports": 112,
+      "mean_f_pct": 56.48,
+      "mean_abs_lr": 1.0032,
+      "pct_female_biased": 60.5
+    },
+    {
+      "decile": 8,
+      "n_signals": 9505,
+      "min_reports": 135,
+      "max_reports": 212,
+      "median_reports": 166,
+      "mean_f_pct": 60.67,
+      "mean_abs_lr": 1.029,
+      "pct_female_biased": 65.0
+    },
+    {
+      "decile": 9,
+      "n_signals": 9615,
+      "min_reports": 213,
+      "max_reports": 463,
+      "median_reports": 297,
+      "mean_f_pct": 66.56,
+      "mean_abs_lr": 1.0958,
+      "pct_female_biased": 74.3
+    },
+    {
+      "decile": 10,
+      "n_signals": 9604,
+      "min_reports": 464,
+      "max_reports": 55041,
+      "median_reports": 930,
+      "mean_f_pct": 80.29,
+      "mean_abs_lr": 1.3513,
+      "pct_female_biased": 88.7
+    }
+  ],
+  "within_drug_correlations": {
+    "n_drugs_analyzed": 818,
+    "positive_corr": 489,
+    "negative_corr": 206,
+    "neutral": 123,
+    "top_positive": [
+      {
+        "drug": "RISEDRONIC ACID",
+        "rho": 0.919,
+        "n_signals": 45,
+        "mean_f_pct": 81.2
+      },
+      {
+        "drug": "EPTINEZUMAB",
+        "rho": 0.918,
+        "n_signals": 27,
+        "mean_f_pct": 70.2
+      },
+      {
+        "drug": "DESOXIMETASONE",
+        "rho": 0.915,
+        "n_signals": 79,
+        "mean_f_pct": 80.9
+      },
+      {
+        "drug": "DIROXIMEL FUMARATE",
+        "rho": 0.914,
+        "n_signals": 25,
+        "mean_f_pct": 68.4
+      },
+      {
+        "drug": "BELIMUMAB",
+        "rho": 0.913,
+        "n_signals": 22,
+        "mean_f_pct": 78.7
+      },
+      {
+        "drug": "NITROFURANTOIN",
+        "rho": 0.889,
+        "n_signals": 45,
+        "mean_f_pct": 71.6
+      },
+      {
+        "drug": "SULFAMETHOXAZOLE",
+        "rho": 0.887,
+        "n_signals": 75,
+        "mean_f_pct": 80.3
+      },
+      {
+        "drug": "HYDROXYCHLOROQUINE DIPHOSPHATE",
+        "rho": 0.875,
+        "n_signals": 23,
+        "mean_f_pct": 73.7
+      },
+      {
+        "drug": "PSEUDOEPHEDRINE",
+        "rho": 0.866,
+        "n_signals": 51,
+        "mean_f_pct": 81.9
+      },
+      {
+        "drug": "CETIRIZINE;PSEUDOEPHEDRINE",
+        "rho": 0.857,
+        "n_signals": 21,
+        "mean_f_pct": 86.0
+      }
+    ],
+    "top_negative": [
+      {
+        "drug": "FACTOR VIII",
+        "rho": -0.863,
+        "n_signals": 38,
+        "mean_f_pct": 13.1
+      },
+      {
+        "drug": "TAMSULOSIN",
+        "rho": -0.819,
+        "n_signals": 52,
+        "mean_f_pct": 23.3
+      },
+      {
+        "drug": "BCG VACCINE",
+        "rho": -0.769,
+        "n_signals": 22,
+        "mean_f_pct": 37.7
+      },
+      {
+        "drug": "TESTOSTERONE",
+        "rho": -0.733,
+        "n_signals": 46,
+        "mean_f_pct": 25.7
+      },
+      {
+        "drug": "DOBUTAMINE",
+        "rho": -0.727,
+        "n_signals": 28,
+        "mean_f_pct": 30.8
+      },
+      {
+        "drug": "CETUXIMAB",
+        "rho": -0.714,
+        "n_signals": 72,
+        "mean_f_pct": 36.7
+      },
+      {
+        "drug": "AXITINIB",
+        "rho": -0.649,
+        "n_signals": 64,
+        "mean_f_pct": 34.5
+      },
+      {
+        "drug": "ENFORTUMAB VEDOTIN",
+        "rho": -0.605,
+        "n_signals": 23,
+        "mean_f_pct": 31.0
+      },
+      {
+        "drug": "ALBUMIN",
+        "rho": -0.605,
+        "n_signals": 22,
+        "mean_f_pct": 45.3
+      },
+      {
+        "drug": "RILPIVIRINE",
+        "rho": -0.6,
+        "n_signals": 41,
+        "mean_f_pct": 33.6
+      }
+    ]
+  },
+  "volume_effect_correlation": {
+    "rho": 0.1519,
+    "p_value": 0.0
+  },
+  "report_concentration": {
+    "extreme_female_signals": 7457,
+    "extreme_female_report_pct": 35.46,
+    "extreme_male_signals": 519,
+    "extreme_male_report_pct": 1.36
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "route_analysis": {
+    "Topical": {
+      "n_signals": 1802,
+      "n_drugs_matched": 13,
+      "n_drugs_total": 13,
+      "mean_f_pct": 57.46,
+      "median_f_pct": 54.04,
+      "mean_abs_lr": 1.1318,
+      "pct_female_biased": 56.1,
+      "total_reports": 764258
+    },
+    "Injectable/IV": {
+      "n_signals": 8314,
+      "n_drugs_matched": 27,
+      "n_drugs_total": 28,
+      "mean_f_pct": 61.54,
+      "median_f_pct": 60.82,
+      "mean_abs_lr": 0.987,
+      "pct_female_biased": 67.2,
+      "total_reports": 4046953
+    },
+    "Oral": {
+      "n_signals": 8964,
+      "n_drugs_matched": 31,
+      "n_drugs_total": 32,
+      "mean_f_pct": 60.16,
+      "median_f_pct": 60.0,
+      "mean_abs_lr": 0.9878,
+      "pct_female_biased": 63.7,
+      "total_reports": 2916491
+    },
+    "Inhaled": {
+      "n_signals": 1501,
+      "n_drugs_matched": 9,
+      "n_drugs_total": 10,
+      "mean_f_pct": 56.67,
+      "median_f_pct": 54.55,
+      "mean_abs_lr": 1.0924,
+      "pct_female_biased": 55.8,
+      "total_reports": 323334
+    },
+    "Transdermal": {
+      "n_signals": 851,
+      "n_drugs_matched": 7,
+      "n_drugs_total": 7,
+      "mean_f_pct": 57.06,
+      "median_f_pct": 58.7,
+      "mean_abs_lr": 1.0422,
+      "pct_female_biased": 60.8,
+      "total_reports": 170276
+    }
+  },
+  "biologics_vs_small_molecules": {
+    "biologics": {
+      "n_signals": 7348,
+      "n_drugs": 30,
+      "mean_f_pct": 63.85,
+      "mean_abs_lr": 1.0224
+    },
+    "small_molecules": {
+      "n_signals": 88933,
+      "n_drugs": 2148,
+      "mean_f_pct": 57.59,
+      "mean_abs_lr": 0.9839
+    },
+    "mann_whitney_p": 9.561898722130661e-117
+  },
+  "ae_route_inference": {
+    "injection_site": {
+      "n_signals": 582,
+      "mean_f_pct": 62.56
+    },
+    "oral_route": {
+      "n_signals": 722,
+      "mean_f_pct": 63.96
+    },
+    "topical_site": {
+      "n_signals": 209,
+      "mean_f_pct": 56.21
+    }
+  }
+}

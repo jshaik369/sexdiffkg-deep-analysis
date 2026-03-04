@@ -1,0 +1,377 @@
+{
+  "stability_analysis": {
+    "n_drugs_analyzed": 1090,
+    "most_stable": [
+      {
+        "drug": "CLIOQUINOL",
+        "cv": 0.0345,
+        "mean_f_pct": 82.0,
+        "n_signals": 10
+      },
+      {
+        "drug": "PHENTERMINE;TOPIRAMATE",
+        "cv": 0.0398,
+        "mean_f_pct": 82.1,
+        "n_signals": 10
+      },
+      {
+        "drug": "ROPEGINTERFERON ALFA-2B",
+        "cv": 0.0518,
+        "mean_f_pct": 52.9,
+        "n_signals": 11
+      },
+      {
+        "drug": "NIRAPARIB",
+        "cv": 0.0554,
+        "mean_f_pct": 95.8,
+        "n_signals": 12
+      },
+      {
+        "drug": "GADOXETIC ACID",
+        "cv": 0.0558,
+        "mean_f_pct": 52.8,
+        "n_signals": 15
+      },
+      {
+        "drug": "ABALOPARATIDE",
+        "cv": 0.0575,
+        "mean_f_pct": 91.8,
+        "n_signals": 31
+      },
+      {
+        "drug": "ABEMACICLIB",
+        "cv": 0.0599,
+        "mean_f_pct": 91.6,
+        "n_signals": 12
+      },
+      {
+        "drug": "PALBOCICLIB",
+        "cv": 0.0734,
+        "mean_f_pct": 94.3,
+        "n_signals": 38
+      },
+      {
+        "drug": "MIFEPRISTONE",
+        "cv": 0.0827,
+        "mean_f_pct": 77.6,
+        "n_signals": 47
+      },
+      {
+        "drug": "ROMOSOZUMAB",
+        "cv": 0.0832,
+        "mean_f_pct": 86.7,
+        "n_signals": 10
+      },
+      {
+        "drug": "AZELASTINE",
+        "cv": 0.0846,
+        "mean_f_pct": 55.9,
+        "n_signals": 11
+      },
+      {
+        "drug": "RIBOCICLIB",
+        "cv": 0.0884,
+        "mean_f_pct": 94.0,
+        "n_signals": 10
+      },
+      {
+        "drug": "BUPROPION;NALTREXONE",
+        "cv": 0.0888,
+        "mean_f_pct": 79.3,
+        "n_signals": 23
+      },
+      {
+        "drug": "ALENDRONATE SODIUM",
+        "cv": 0.0895,
+        "mean_f_pct": 91.5,
+        "n_signals": 19
+      },
+      {
+        "drug": "LOPINAVIR",
+        "cv": 0.0917,
+        "mean_f_pct": 55.0,
+        "n_signals": 10
+      }
+    ],
+    "most_variable": [
+      {
+        "drug": "ENZALUTAMIDE",
+        "cv": 1.3214,
+        "mean_f_pct": 6.2,
+        "n_signals": 10
+      },
+      {
+        "drug": "FINASTERIDE",
+        "cv": 0.9976,
+        "mean_f_pct": 18.3,
+        "n_signals": 15
+      },
+      {
+        "drug": "LANTHANUM CARBONATE",
+        "cv": 0.9088,
+        "mean_f_pct": 23.6,
+        "n_signals": 14
+      },
+      {
+        "drug": "TESTOSTERONE",
+        "cv": 0.7951,
+        "mean_f_pct": 25.7,
+        "n_signals": 46
+      },
+      {
+        "drug": "SODIUM PICOSULFATE",
+        "cv": 0.7729,
+        "mean_f_pct": 42.3,
+        "n_signals": 22
+      },
+      {
+        "drug": "VITAMIN K",
+        "cv": 0.7721,
+        "mean_f_pct": 14.5,
+        "n_signals": 19
+      },
+      {
+        "drug": "XYLOMETAZOLINE",
+        "cv": 0.7697,
+        "mean_f_pct": 22.7,
+        "n_signals": 11
+      },
+      {
+        "drug": "TAMSULOSIN",
+        "cv": 0.758,
+        "mean_f_pct": 23.3,
+        "n_signals": 52
+      },
+      {
+        "drug": "DOBUTAMINE",
+        "cv": 0.7376,
+        "mean_f_pct": 30.8,
+        "n_signals": 28
+      },
+      {
+        "drug": "MANNITOL",
+        "cv": 0.7101,
+        "mean_f_pct": 25.6,
+        "n_signals": 13
+      },
+      {
+        "drug": "CALCITRIOL",
+        "cv": 0.6987,
+        "mean_f_pct": 34.1,
+        "n_signals": 40
+      },
+      {
+        "drug": "VILANTEROL",
+        "cv": 0.6861,
+        "mean_f_pct": 32.6,
+        "n_signals": 12
+      },
+      {
+        "drug": "VITAMIN E",
+        "cv": 0.6783,
+        "mean_f_pct": 43.4,
+        "n_signals": 16
+      },
+      {
+        "drug": "SODIUM PHOSPHATE",
+        "cv": 0.6608,
+        "mean_f_pct": 40.1,
+        "n_signals": 42
+      },
+      {
+        "drug": "HERBALS, UNSPECIFIED",
+        "cv": 0.6608,
+        "mean_f_pct": 38.7,
+        "n_signals": 24
+      }
+    ]
+  },
+  "volume_trend": [
+    {
+      "bin": "(1.298, 1.645]",
+      "n_signals": 27692,
+      "mean_f_pct": 51.07
+    },
+    {
+      "bin": "(1.645, 1.989]",
+      "n_signals": 30860,
+      "mean_f_pct": 54.42
+    },
+    {
+      "bin": "(1.989, 2.333]",
+      "n_signals": 18746,
+      "mean_f_pct": 58.75
+    },
+    {
+      "bin": "(2.333, 2.677]",
+      "n_signals": 9626,
+      "mean_f_pct": 66.81
+    },
+    {
+      "bin": "(2.677, 3.021]",
+      "n_signals": 5103,
+      "mean_f_pct": 77.24
+    },
+    {
+      "bin": "(3.021, 3.365]",
+      "n_signals": 2533,
+      "mean_f_pct": 83.82
+    },
+    {
+      "bin": "(3.365, 3.709]",
+      "n_signals": 1262,
+      "mean_f_pct": 85.52
+    },
+    {
+      "bin": "(3.709, 4.053]",
+      "n_signals": 397,
+      "mean_f_pct": 85.21
+    },
+    {
+      "bin": "(4.053, 4.397]",
+      "n_signals": 52,
+      "mean_f_pct": 74.67
+    },
+    {
+      "bin": "(4.397, 4.741]",
+      "n_signals": 10,
+      "mean_f_pct": 61.04
+    }
+  ],
+  "direction_shift": {
+    "n_drugs": 818,
+    "mean_shift_pp": 6.62,
+    "toward_female": 499,
+    "toward_male": 226,
+    "stable": 93,
+    "top_toward_female": [
+      {
+        "drug": "SODIUM AUROTHIOMALATE",
+        "low_f": 42.0,
+        "high_f": 88.4,
+        "shift": 46.4
+      },
+      {
+        "drug": "ALISKIREN",
+        "low_f": 40.4,
+        "high_f": 85.1,
+        "shift": 44.8
+      },
+      {
+        "drug": "DIMENHYDRINATE",
+        "low_f": 48.9,
+        "high_f": 90.1,
+        "shift": 41.3
+      },
+      {
+        "drug": "VITAMIN B9",
+        "low_f": 51.9,
+        "high_f": 92.7,
+        "shift": 40.9
+      },
+      {
+        "drug": "VITAMIN B2",
+        "low_f": 44.3,
+        "high_f": 84.6,
+        "shift": 40.3
+      },
+      {
+        "drug": "CALCIUM",
+        "low_f": 44.6,
+        "high_f": 83.1,
+        "shift": 38.4
+      },
+      {
+        "drug": "NUTRIENTS, UNSPECIFIED",
+        "low_f": 41.1,
+        "high_f": 79.2,
+        "shift": 38.0
+      },
+      {
+        "drug": "CORTISONE",
+        "low_f": 57.6,
+        "high_f": 95.4,
+        "shift": 37.8
+      },
+      {
+        "drug": "MESALAZINE",
+        "low_f": 43.5,
+        "high_f": 81.3,
+        "shift": 37.8
+      },
+      {
+        "drug": "MINOCYCLINE",
+        "low_f": 52.3,
+        "high_f": 90.1,
+        "shift": 37.8
+      }
+    ],
+    "top_toward_male": [
+      {
+        "drug": "DOBUTAMINE",
+        "low_f": 48.4,
+        "high_f": 13.1,
+        "shift": -35.2
+      },
+      {
+        "drug": "SODIUM PHOSPHATE",
+        "low_f": 56.8,
+        "high_f": 23.4,
+        "shift": -33.4
+      },
+      {
+        "drug": "VITAMIN B6",
+        "low_f": 55.9,
+        "high_f": 28.6,
+        "shift": -27.3
+      },
+      {
+        "drug": "NOREPINEPHRINE",
+        "low_f": 58.1,
+        "high_f": 32.0,
+        "shift": -26.1
+      },
+      {
+        "drug": "CALCITRIOL",
+        "low_f": 46.6,
+        "high_f": 21.6,
+        "shift": -25.0
+      },
+      {
+        "drug": "ACETYLCYSTEINE",
+        "low_f": 63.2,
+        "high_f": 39.1,
+        "shift": -24.1
+      },
+      {
+        "drug": "TESTOSTERONE",
+        "low_f": 37.3,
+        "high_f": 14.0,
+        "shift": -23.4
+      },
+      {
+        "drug": "DALTEPARIN",
+        "low_f": 48.7,
+        "high_f": 25.7,
+        "shift": -23.0
+      },
+      {
+        "drug": "TAMSULOSIN",
+        "low_f": 33.9,
+        "high_f": 12.7,
+        "shift": -21.3
+      },
+      {
+        "drug": "SODIUM PICOSULFATE",
+        "low_f": 52.6,
+        "high_f": 32.0,
+        "shift": -20.6
+      }
+    ]
+  },
+  "covid_drugs": {
+    "n_signals": 1140,
+    "n_drugs": 5,
+    "mean_f_pct": 62.02
+  }
+}
