@@ -1,0 +1,148 @@
+{
+  "severity_analysis": {
+    "Fatal": {
+      "n_signals": 738,
+      "n_drugs": 550,
+      "n_aes": 14,
+      "mean_f_pct": 50.1,
+      "median_f_pct": 50.79,
+      "mean_abs_lr": 0.9069,
+      "pct_female_biased": 50.8,
+      "total_reports": 215944
+    },
+    "Life-threatening": {
+      "n_signals": 1426,
+      "n_drugs": 640,
+      "n_aes": 15,
+      "mean_f_pct": 51.89,
+      "median_f_pct": 52.54,
+      "mean_abs_lr": 0.9422,
+      "pct_female_biased": 55.5,
+      "total_reports": 179385
+    },
+    "Hospitalization": {
+      "n_signals": 321,
+      "n_drugs": 189,
+      "n_aes": 37,
+      "mean_f_pct": 51.97,
+      "median_f_pct": 51.43,
+      "mean_abs_lr": 0.8743,
+      "pct_female_biased": 52.6,
+      "total_reports": 48405
+    },
+    "Disabling": {
+      "n_signals": 720,
+      "n_drugs": 365,
+      "n_aes": 49,
+      "mean_f_pct": 57.45,
+      "median_f_pct": 58.09,
+      "mean_abs_lr": 0.9123,
+      "pct_female_biased": 61.3,
+      "total_reports": 109443
+    },
+    "Serious Non-fatal": {
+      "n_signals": 2352,
+      "n_drugs": 800,
+      "n_aes": 69,
+      "mean_f_pct": 54.87,
+      "median_f_pct": 54.01,
+      "mean_abs_lr": 0.9417,
+      "pct_female_biased": 57.3,
+      "total_reports": 454254
+    },
+    "Moderate": {
+      "n_signals": 7350,
+      "n_drugs": 1451,
+      "n_aes": 118,
+      "mean_f_pct": 63.5,
+      "median_f_pct": 66.13,
+      "mean_abs_lr": 0.9758,
+      "pct_female_biased": 69.0,
+      "total_reports": 3209595
+    },
+    "Mild": {
+      "n_signals": 517,
+      "n_drugs": 351,
+      "n_aes": 9,
+      "mean_f_pct": 61.62,
+      "median_f_pct": 60.98,
+      "mean_abs_lr": 1.0275,
+      "pct_female_biased": 69.1,
+      "total_reports": 131877
+    }
+  },
+  "severity_gradient": [
+    {
+      "severity": "Fatal",
+      "mean_f_pct": 50.1,
+      "n_signals": 738
+    },
+    {
+      "severity": "Life-threatening",
+      "mean_f_pct": 51.89,
+      "n_signals": 1426
+    },
+    {
+      "severity": "Hospitalization",
+      "mean_f_pct": 51.97,
+      "n_signals": 321
+    },
+    {
+      "severity": "Disabling",
+      "mean_f_pct": 57.45,
+      "n_signals": 720
+    },
+    {
+      "severity": "Serious Non-fatal",
+      "mean_f_pct": 54.87,
+      "n_signals": 2352
+    },
+    {
+      "severity": "Moderate",
+      "mean_f_pct": 63.5,
+      "n_signals": 7350
+    },
+    {
+      "severity": "Mild",
+      "mean_f_pct": 61.62,
+      "n_signals": 517
+    }
+  ],
+  "severity_sex_correlation": {
+    "rho": 0.9286,
+    "p_value": 0.0025194724037946874,
+    "interpretation": "negative = more severe \u2192 less female"
+  },
+  "organ_severity": {
+    "Cardiac": {
+      "n_signals": 1421,
+      "mean_f_pct": 53.43,
+      "mean_abs_lr": 0.8811
+    },
+    "Hepatic": {
+      "n_signals": 1411,
+      "mean_f_pct": 57.8,
+      "mean_abs_lr": 0.9851
+    },
+    "Renal": {
+      "n_signals": 913,
+      "mean_f_pct": 51.91,
+      "mean_abs_lr": 0.8691
+    },
+    "CNS": {
+      "n_signals": 1016,
+      "mean_f_pct": 54.82,
+      "mean_abs_lr": 0.8915
+    },
+    "Haematologic": {
+      "n_signals": 1113,
+      "mean_f_pct": 54.46,
+      "mean_abs_lr": 0.8933
+    }
+  },
+  "death_detail": {
+    "n_signals": 450,
+    "n_drugs": 414,
+    "mean_f_pct": 46.16
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "target_family_analysis": {},
+  "targeted_vs_untargeted": {
+    "targeted": {
+      "n_drugs": 846,
+      "n_signals": 48907,
+      "mean_f_pct": 59.27
+    },
+    "untargeted": {
+      "n_drugs": 1332,
+      "n_signals": 47374,
+      "mean_f_pct": 56.83
+    }
+  },
+  "target_count_sex_correlation": {
+    "rho": -0.0508,
+    "p_value": 0.1394869448027224
+  }
+}

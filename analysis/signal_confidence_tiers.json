@@ -1,0 +1,214 @@
+{
+  "scoring_weights": {
+    "volume": 0.3,
+    "effect_size": 0.25,
+    "sex_deviation": 0.25,
+    "evidence_balance": 0.2
+  },
+  "tier_thresholds": {
+    "Gold": ">= 0.60",
+    "Silver": ">= 0.40",
+    "Bronze": ">= 0.25",
+    "Unclassified": "< 0.25"
+  },
+  "tier_summary": {
+    "Gold": {
+      "n_signals": 524,
+      "pct_total": 0.5,
+      "mean_f_pct": 88.64,
+      "mean_abs_lr": 3.5796,
+      "mean_reports": 2696.0,
+      "pct_above_baseline": 89.5
+    },
+    "Silver": {
+      "n_signals": 43201,
+      "pct_total": 44.9,
+      "mean_f_pct": 66.48,
+      "mean_abs_lr": 1.18,
+      "mean_reports": 416.0,
+      "pct_above_baseline": 73.4
+    },
+    "Bronze": {
+      "n_signals": 46856,
+      "pct_total": 48.7,
+      "mean_f_pct": 50.95,
+      "mean_abs_lr": 0.8169,
+      "mean_reports": 99.0,
+      "pct_above_baseline": 23.6
+    },
+    "Unclassified": {
+      "n_signals": 5700,
+      "pct_total": 5.9,
+      "mean_f_pct": 50.05,
+      "mean_abs_lr": 0.6809,
+      "mean_reports": 32.0,
+      "pct_above_baseline": 0.0
+    }
+  },
+  "top_gold_signals": [
+    {
+      "drug": "MINOXIDIL",
+      "ae": "Adverse drug reaction",
+      "confidence": 0.736,
+      "f_pct": 0.2,
+      "reports": 8480,
+      "abs_lr": 6.448
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Embedded device",
+      "confidence": 0.718,
+      "f_pct": 23.6,
+      "reports": 717,
+      "abs_lr": 6.447
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Abnormal weight gain",
+      "confidence": 0.718,
+      "f_pct": 0.7,
+      "reports": 9412,
+      "abs_lr": 4.564
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "ae": "Pemphigus",
+      "confidence": 0.717,
+      "f_pct": 99.8,
+      "reports": 6782,
+      "abs_lr": 4.743
+    },
+    {
+      "drug": "METHOTREXATE",
+      "ae": "Glossodynia",
+      "confidence": 0.715,
+      "f_pct": 99.8,
+      "reports": 6118,
+      "abs_lr": 4.745
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Blister",
+      "confidence": 0.709,
+      "f_pct": 99.4,
+      "reports": 2936,
+      "abs_lr": 5.056
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "ae": "Pericarditis",
+      "confidence": 0.708,
+      "f_pct": 99.7,
+      "reports": 4072,
+      "abs_lr": 4.81
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Emotional disorder",
+      "confidence": 0.706,
+      "f_pct": 0.7,
+      "reports": 5774,
+      "abs_lr": 4.578
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Pericarditis",
+      "confidence": 0.706,
+      "f_pct": 99.8,
+      "reports": 4079,
+      "abs_lr": 4.77
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Infusion related reaction",
+      "confidence": 0.705,
+      "f_pct": 99.6,
+      "reports": 2533,
+      "abs_lr": 5.496
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Pericarditis",
+      "confidence": 0.705,
+      "f_pct": 99.6,
+      "reports": 2519,
+      "abs_lr": 5.396
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Duodenal ulcer perforation",
+      "confidence": 0.703,
+      "f_pct": 99.7,
+      "reports": 3349,
+      "abs_lr": 4.828
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Impaired healing",
+      "confidence": 0.7,
+      "f_pct": 99.3,
+      "reports": 2955,
+      "abs_lr": 4.808
+    },
+    {
+      "drug": "METHOTREXATE",
+      "ae": "Pemphigus",
+      "confidence": 0.699,
+      "f_pct": 99.7,
+      "reports": 6702,
+      "abs_lr": 4.371
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Glossodynia",
+      "confidence": 0.697,
+      "f_pct": 99.4,
+      "reports": 6116,
+      "abs_lr": 4.384
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Helicobacter infection",
+      "confidence": 0.697,
+      "f_pct": 99.6,
+      "reports": 3307,
+      "abs_lr": 4.708
+    },
+    {
+      "drug": "ETANERCEPT",
+      "ae": "Glossodynia",
+      "confidence": 0.696,
+      "f_pct": 99.8,
+      "reports": 6301,
+      "abs_lr": 4.349
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "ae": "Glossodynia",
+      "confidence": 0.696,
+      "f_pct": 99.6,
+      "reports": 5987,
+      "abs_lr": 4.365
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Pericarditis",
+      "confidence": 0.69,
+      "f_pct": 99.7,
+      "reports": 4116,
+      "abs_lr": 4.449
+    },
+    {
+      "drug": "CETIRIZINE",
+      "ae": "Arthropathy",
+      "confidence": 0.688,
+      "f_pct": 99.7,
+      "reports": 4088,
+      "abs_lr": 4.41
+    }
+  ],
+  "high_evidence_drugs": {
+    "n_drugs": 475,
+    "min_signals": 50
+  }
+}
