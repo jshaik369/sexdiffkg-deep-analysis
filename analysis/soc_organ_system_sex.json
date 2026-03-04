@@ -1,0 +1,395 @@
+{
+  "soc_sex_profiles": [
+    {
+      "soc": "Skin/Subcutaneous",
+      "n_signals": 3058,
+      "n_drugs": 886,
+      "n_aes": 92,
+      "f_pct": 84.7,
+      "mean_lr": 0.996,
+      "n_f_higher": 1437,
+      "n_m_higher": 1621,
+      "f_higher_pct": 47.0
+    },
+    {
+      "soc": "Musculoskeletal",
+      "n_signals": 3795,
+      "n_drugs": 761,
+      "n_aes": 160,
+      "f_pct": 82.6,
+      "mean_lr": 1.033,
+      "n_f_higher": 1769,
+      "n_m_higher": 2026,
+      "f_higher_pct": 46.6
+    },
+    {
+      "soc": "Immune system",
+      "n_signals": 1313,
+      "n_drugs": 630,
+      "n_aes": 84,
+      "f_pct": 80.4,
+      "mean_lr": 1.012,
+      "n_f_higher": 829,
+      "n_m_higher": 484,
+      "f_higher_pct": 63.1
+    },
+    {
+      "soc": "Gastrointestinal",
+      "n_signals": 4474,
+      "n_drugs": 1107,
+      "n_aes": 171,
+      "f_pct": 79.4,
+      "mean_lr": 1.003,
+      "n_f_higher": 2547,
+      "n_m_higher": 1927,
+      "f_higher_pct": 56.9
+    },
+    {
+      "soc": "Nervous system",
+      "n_signals": 2692,
+      "n_drugs": 949,
+      "n_aes": 80,
+      "f_pct": 77.8,
+      "mean_lr": 0.9,
+      "n_f_higher": 1494,
+      "n_m_higher": 1198,
+      "f_higher_pct": 55.5
+    },
+    {
+      "soc": "Hepatobiliary",
+      "n_signals": 2749,
+      "n_drugs": 588,
+      "n_aes": 126,
+      "f_pct": 77.6,
+      "mean_lr": 1.006,
+      "n_f_higher": 1804,
+      "n_m_higher": 945,
+      "f_higher_pct": 65.6
+    },
+    {
+      "soc": "Psychiatric",
+      "n_signals": 2085,
+      "n_drugs": 761,
+      "n_aes": 46,
+      "f_pct": 74.3,
+      "mean_lr": 0.998,
+      "n_f_higher": 1198,
+      "n_m_higher": 887,
+      "f_higher_pct": 57.5
+    },
+    {
+      "soc": "Metabolism/Nutrition",
+      "n_signals": 2519,
+      "n_drugs": 798,
+      "n_aes": 48,
+      "f_pct": 73.7,
+      "mean_lr": 0.972,
+      "n_f_higher": 1667,
+      "n_m_higher": 852,
+      "f_higher_pct": 66.2
+    },
+    {
+      "soc": "Reproductive",
+      "n_signals": 457,
+      "n_drugs": 292,
+      "n_aes": 32,
+      "f_pct": 73.5,
+      "mean_lr": 1.277,
+      "n_f_higher": 233,
+      "n_m_higher": 224,
+      "f_higher_pct": 51.0
+    },
+    {
+      "soc": "Infections",
+      "n_signals": 4205,
+      "n_drugs": 776,
+      "n_aes": 296,
+      "f_pct": 73.1,
+      "mean_lr": 0.972,
+      "n_f_higher": 2242,
+      "n_m_higher": 1963,
+      "f_higher_pct": 53.3
+    },
+    {
+      "soc": "Eye disorders",
+      "n_signals": 941,
+      "n_drugs": 421,
+      "n_aes": 64,
+      "f_pct": 69.5,
+      "mean_lr": 0.88,
+      "n_f_higher": 382,
+      "n_m_higher": 559,
+      "f_higher_pct": 40.6
+    },
+    {
+      "soc": "Respiratory",
+      "n_signals": 4783,
+      "n_drugs": 996,
+      "n_aes": 160,
+      "f_pct": 69.4,
+      "mean_lr": 1.003,
+      "n_f_higher": 2553,
+      "n_m_higher": 2230,
+      "f_higher_pct": 53.4
+    },
+    {
+      "soc": "Vascular",
+      "n_signals": 2616,
+      "n_drugs": 786,
+      "n_aes": 146,
+      "f_pct": 65.5,
+      "mean_lr": 1.016,
+      "n_f_higher": 1672,
+      "n_m_higher": 944,
+      "f_higher_pct": 63.9
+    },
+    {
+      "soc": "Blood/Lymphatic",
+      "n_signals": 1434,
+      "n_drugs": 616,
+      "n_aes": 35,
+      "f_pct": 59.9,
+      "mean_lr": 0.893,
+      "n_f_higher": 945,
+      "n_m_higher": 489,
+      "f_higher_pct": 65.9
+    },
+    {
+      "soc": "Renal/Urinary",
+      "n_signals": 2524,
+      "n_drugs": 758,
+      "n_aes": 120,
+      "f_pct": 56.1,
+      "mean_lr": 0.891,
+      "n_f_higher": 1803,
+      "n_m_higher": 721,
+      "f_higher_pct": 71.4
+    },
+    {
+      "soc": "Cardiac disorders",
+      "n_signals": 3309,
+      "n_drugs": 774,
+      "n_aes": 132,
+      "f_pct": 54.6,
+      "mean_lr": 0.908,
+      "n_f_higher": 2102,
+      "n_m_higher": 1207,
+      "f_higher_pct": 63.5
+    }
+  ],
+  "soc_signal_counts": {},
+  "most_sexed_socs": {
+    "most_female": [
+      {
+        "soc": "Skin/Subcutaneous",
+        "n_signals": 3058,
+        "n_drugs": 886,
+        "n_aes": 92,
+        "f_pct": 84.7,
+        "mean_lr": 0.996,
+        "n_f_higher": 1437,
+        "n_m_higher": 1621,
+        "f_higher_pct": 47.0
+      },
+      {
+        "soc": "Musculoskeletal",
+        "n_signals": 3795,
+        "n_drugs": 761,
+        "n_aes": 160,
+        "f_pct": 82.6,
+        "mean_lr": 1.033,
+        "n_f_higher": 1769,
+        "n_m_higher": 2026,
+        "f_higher_pct": 46.6
+      },
+      {
+        "soc": "Immune system",
+        "n_signals": 1313,
+        "n_drugs": 630,
+        "n_aes": 84,
+        "f_pct": 80.4,
+        "mean_lr": 1.012,
+        "n_f_higher": 829,
+        "n_m_higher": 484,
+        "f_higher_pct": 63.1
+      },
+      {
+        "soc": "Gastrointestinal",
+        "n_signals": 4474,
+        "n_drugs": 1107,
+        "n_aes": 171,
+        "f_pct": 79.4,
+        "mean_lr": 1.003,
+        "n_f_higher": 2547,
+        "n_m_higher": 1927,
+        "f_higher_pct": 56.9
+      },
+      {
+        "soc": "Nervous system",
+        "n_signals": 2692,
+        "n_drugs": 949,
+        "n_aes": 80,
+        "f_pct": 77.8,
+        "mean_lr": 0.9,
+        "n_f_higher": 1494,
+        "n_m_higher": 1198,
+        "f_higher_pct": 55.5
+      }
+    ],
+    "least_female": [
+      {
+        "soc": "Respiratory",
+        "n_signals": 4783,
+        "n_drugs": 996,
+        "n_aes": 160,
+        "f_pct": 69.4,
+        "mean_lr": 1.003,
+        "n_f_higher": 2553,
+        "n_m_higher": 2230,
+        "f_higher_pct": 53.4
+      },
+      {
+        "soc": "Vascular",
+        "n_signals": 2616,
+        "n_drugs": 786,
+        "n_aes": 146,
+        "f_pct": 65.5,
+        "mean_lr": 1.016,
+        "n_f_higher": 1672,
+        "n_m_higher": 944,
+        "f_higher_pct": 63.9
+      },
+      {
+        "soc": "Blood/Lymphatic",
+        "n_signals": 1434,
+        "n_drugs": 616,
+        "n_aes": 35,
+        "f_pct": 59.9,
+        "mean_lr": 0.893,
+        "n_f_higher": 945,
+        "n_m_higher": 489,
+        "f_higher_pct": 65.9
+      },
+      {
+        "soc": "Renal/Urinary",
+        "n_signals": 2524,
+        "n_drugs": 758,
+        "n_aes": 120,
+        "f_pct": 56.1,
+        "mean_lr": 0.891,
+        "n_f_higher": 1803,
+        "n_m_higher": 721,
+        "f_higher_pct": 71.4
+      },
+      {
+        "soc": "Cardiac disorders",
+        "n_signals": 3309,
+        "n_drugs": 774,
+        "n_aes": 132,
+        "f_pct": 54.6,
+        "mean_lr": 0.908,
+        "n_f_higher": 2102,
+        "n_m_higher": 1207,
+        "f_higher_pct": 63.5
+      }
+    ]
+  },
+  "soc_anti_regression": [
+    {
+      "soc": "Musculoskeletal",
+      "rho": 0.879,
+      "p": 0.0008138621117322101,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Gastrointestinal",
+      "rho": 0.83,
+      "p": 0.0029402270232795065,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Skin/Subcutaneous",
+      "rho": 0.83,
+      "p": 0.0029402270232795065,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Nervous system",
+      "rho": 0.758,
+      "p": 0.011143446799694208,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Psychiatric",
+      "rho": 0.709,
+      "p": 0.021665923367532435,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Infections",
+      "rho": 0.612,
+      "p": 0.05997214247725524,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Respiratory",
+      "rho": 0.515,
+      "p": 0.12755286970323426,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Metabolism/Nutrition",
+      "rho": 0.418,
+      "p": 0.22911284098281892,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Hepatobiliary",
+      "rho": 0.358,
+      "p": 0.3103760917056799,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Immune system",
+      "rho": 0.2,
+      "p": 0.5795840000000001,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Reproductive",
+      "rho": 0.103,
+      "p": 0.7769984634438898,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Renal/Urinary",
+      "rho": 0.018,
+      "p": 0.9602404181286243,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Eye disorders",
+      "rho": -0.079,
+      "p": 0.8287173946974606,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Cardiac disorders",
+      "rho": -0.164,
+      "p": 0.6514773427962428,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Blood/Lymphatic",
+      "rho": -0.455,
+      "p": 0.186904810349332,
+      "n_deciles": 10
+    },
+    {
+      "soc": "Vascular",
+      "rho": -0.733,
+      "p": 0.01580059625057158,
+      "n_deciles": 10
+    }
+  ]
+}

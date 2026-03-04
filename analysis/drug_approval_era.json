@@ -1,0 +1,216 @@
+{
+  "eras": {
+    "pre_1980": {
+      "label": "Pre-1980 (classic drugs)",
+      "n_drugs": 27,
+      "n_signals": 8095,
+      "f_pct": 77.4,
+      "mean_lr": 0.99,
+      "top_drugs": [
+        {
+          "drug": "CODEINE",
+          "n": 190,
+          "f_pct": 77.6
+        },
+        {
+          "drug": "PARACETAMOL",
+          "n": 487,
+          "f_pct": 67.6
+        },
+        {
+          "drug": "MORPHINE",
+          "n": 441,
+          "f_pct": 67.1
+        },
+        {
+          "drug": "AMITRIPTYLINE",
+          "n": 189,
+          "f_pct": 66.5
+        },
+        {
+          "drug": "METHOTREXATE",
+          "n": 892,
+          "f_pct": 64.3
+        }
+      ]
+    },
+    "era_1980_1999": {
+      "label": "1980-1999 (modern classics)",
+      "n_drugs": 30,
+      "n_signals": 8750,
+      "f_pct": 68.0,
+      "mean_lr": 0.979,
+      "top_drugs": [
+        {
+          "drug": "CELECOXIB",
+          "n": 274,
+          "f_pct": 78.0
+        },
+        {
+          "drug": "INTERFERON BETA-1A",
+          "n": 170,
+          "f_pct": 72.6
+        },
+        {
+          "drug": "NAPROXEN",
+          "n": 331,
+          "f_pct": 70.6
+        },
+        {
+          "drug": "PACLITAXEL",
+          "n": 259,
+          "f_pct": 68.9
+        },
+        {
+          "drug": "TRAMADOL",
+          "n": 360,
+          "f_pct": 68.4
+        }
+      ]
+    },
+    "era_2000_2009": {
+      "label": "2000-2009 (biologic revolution)",
+      "n_drugs": 24,
+      "n_signals": 7191,
+      "f_pct": 79.7,
+      "mean_lr": 0.968,
+      "top_drugs": [
+        {
+          "drug": "TRASTUZUMAB",
+          "n": 101,
+          "f_pct": 78.9
+        },
+        {
+          "drug": "ETANERCEPT",
+          "n": 618,
+          "f_pct": 69.9
+        },
+        {
+          "drug": "BOSENTAN",
+          "n": 104,
+          "f_pct": 66.9
+        },
+        {
+          "drug": "DULOXETINE",
+          "n": 189,
+          "f_pct": 66.6
+        },
+        {
+          "drug": "RITUXIMAB",
+          "n": 755,
+          "f_pct": 66.4
+        }
+      ]
+    },
+    "era_2010_2019": {
+      "label": "2010-2019 (IO/precision medicine)",
+      "n_drugs": 27,
+      "n_signals": 4650,
+      "f_pct": 76.4,
+      "mean_lr": 0.891,
+      "top_drugs": [
+        {
+          "drug": "PALBOCICLIB",
+          "n": 38,
+          "f_pct": 94.3
+        },
+        {
+          "drug": "ERENUMAB",
+          "n": 68,
+          "f_pct": 92.0
+        },
+        {
+          "drug": "TOFACITINIB",
+          "n": 331,
+          "f_pct": 77.0
+        },
+        {
+          "drug": "MACITENTAN",
+          "n": 95,
+          "f_pct": 72.6
+        },
+        {
+          "drug": "USTEKINUMAB",
+          "n": 314,
+          "f_pct": 70.8
+        }
+      ]
+    },
+    "era_2020_plus": {
+      "label": "2020+ (newest generation)",
+      "n_drugs": 13,
+      "n_signals": 412,
+      "f_pct": 67.2,
+      "mean_lr": 0.749,
+      "top_drugs": [
+        {
+          "drug": "ATOGEPANT",
+          "n": 8,
+          "f_pct": 79.3
+        },
+        {
+          "drug": "RIMEGEPANT",
+          "n": 12,
+          "f_pct": 75.4
+        },
+        {
+          "drug": "TIRZEPATIDE",
+          "n": 95,
+          "f_pct": 64.8
+        },
+        {
+          "drug": "TEZEPELUMAB",
+          "n": 15,
+          "f_pct": 62.3
+        },
+        {
+          "drug": "SEMAGLUTIDE",
+          "n": 152,
+          "f_pct": 61.0
+        }
+      ]
+    }
+  },
+  "era_comparison": [
+    {
+      "era": "pre_1980",
+      "label": "Pre-1980 (classic drugs)",
+      "f_pct": 77.4,
+      "n_drugs": 27,
+      "n_signals": 8095
+    },
+    {
+      "era": "era_1980_1999",
+      "label": "1980-1999 (modern classics)",
+      "f_pct": 68.0,
+      "n_drugs": 30,
+      "n_signals": 8750
+    },
+    {
+      "era": "era_2000_2009",
+      "label": "2000-2009 (biologic revolution)",
+      "f_pct": 79.7,
+      "n_drugs": 24,
+      "n_signals": 7191
+    },
+    {
+      "era": "era_2010_2019",
+      "label": "2010-2019 (IO/precision medicine)",
+      "f_pct": 76.4,
+      "n_drugs": 27,
+      "n_signals": 4650
+    },
+    {
+      "era": "era_2020_plus",
+      "label": "2020+ (newest generation)",
+      "f_pct": 67.2,
+      "n_drugs": 13,
+      "n_signals": 412
+    }
+  ],
+  "era_trend": {
+    "rho": -0.5,
+    "p": 0.39100221895577053,
+    "direction": "decreasing"
+  }
+}
