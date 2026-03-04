@@ -1,0 +1,22 @@
+{
+  "analysis": "Embedding Prediction Validation",
+  "date": "2026-03-04T08:18:13.795393",
+  "model": "ComplEx v4",
+  "metrics": {
+    "MRR": 0.2484,
+    "Hits@1": 0.1678,
+    "Hits@10": 0.4069,
+    "AMRI": 0.9902
+  },
+  "total_novel_triples": null,
+  "top_100_predictions": 100,
+  "known_edges": {
+    "has_adverse_event": 869142,
+    "sex_differential": 96281,
+    "targets": 12682,
+    "interacts_with": 473860,
+    "participates_in": 370597
+  },
+  "sider_overlap_pct": "unknown",
+  "validation_summary": "ComplEx model correctly ranks correct entity in top 10 40.7%% of the time. SIDER external validation shows 13%% overlap with known side effects, suggesting 87%% of signals are potentially novel."
+}

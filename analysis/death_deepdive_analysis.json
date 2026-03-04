@@ -1,0 +1,345 @@
+{
+  "analysis": "Death/Fatal Outcome Deep-Dive",
+  "date": "2026-03-04T08:17:23.065537",
+  "total_death_signals": 856,
+  "pct_female": 68.9,
+  "pct_male": 31.1,
+  "ae_breakdown": [
+    {
+      "ae": "Death",
+      "n_signals": 337,
+      "pct_female": 74.5,
+      "mean_log_ratio": 0.3002
+    },
+    {
+      "ae": "Completed suicide",
+      "n_signals": 147,
+      "pct_female": 61.9,
+      "mean_log_ratio": 0.1277
+    },
+    {
+      "ae": "Cardio-respiratory arrest",
+      "n_signals": 141,
+      "pct_female": 77.3,
+      "mean_log_ratio": 0.4114
+    },
+    {
+      "ae": "Intentional overdose",
+      "n_signals": 118,
+      "pct_female": 51.7,
+      "mean_log_ratio": -0.002
+    },
+    {
+      "ae": "Sudden death",
+      "n_signals": 37,
+      "pct_female": 94.6,
+      "mean_log_ratio": 0.8845
+    },
+    {
+      "ae": "Accidental death",
+      "n_signals": 20,
+      "pct_female": 85.0,
+      "mean_log_ratio": 0.6785
+    },
+    {
+      "ae": "Apparent death",
+      "n_signals": 15,
+      "pct_female": 13.3,
+      "mean_log_ratio": -2.9943
+    },
+    {
+      "ae": "Brain death",
+      "n_signals": 11,
+      "pct_female": 72.7,
+      "mean_log_ratio": 0.3951
+    },
+    {
+      "ae": "Cell death",
+      "n_signals": 7,
+      "pct_female": 85.7,
+      "mean_log_ratio": 0.6162
+    },
+    {
+      "ae": "Near death experience",
+      "n_signals": 7,
+      "pct_female": 0.0,
+      "mean_log_ratio": -0.6752
+    },
+    {
+      "ae": "Sudden cardiac death",
+      "n_signals": 7,
+      "pct_female": 100.0,
+      "mean_log_ratio": 0.938
+    },
+    {
+      "ae": "Fear of death",
+      "n_signals": 4,
+      "pct_female": 0.0,
+      "mean_log_ratio": -0.9405
+    },
+    {
+      "ae": "Sudden unexplained death in epilepsy",
+      "n_signals": 3,
+      "pct_female": 66.7,
+      "mean_log_ratio": 0.2716
+    },
+    {
+      "ae": "Cardiac death",
+      "n_signals": 1,
+      "pct_female": 100.0,
+      "mean_log_ratio": 0.6818
+    },
+    {
+      "ae": "Foetal death",
+      "n_signals": 1,
+      "pct_female": 0.0,
+      "mean_log_ratio": -1.5835
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "n_death_signals": 4,
+      "pct_female": 75.0,
+      "total_reports": 10673
+    },
+    {
+      "drug": "NIVOLUMAB",
+      "n_death_signals": 1,
+      "pct_female": 100.0,
+      "total_reports": 9320
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "n_death_signals": 1,
+      "pct_female": 0.0,
+      "total_reports": 8397
+    },
+    {
+      "drug": "EVEROLIMUS",
+      "n_death_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 5309
+    },
+    {
+      "drug": "ALPRAZOLAM",
+      "n_death_signals": 1,
+      "pct_female": 100.0,
+      "total_reports": 5231
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_death_signals": 5,
+      "pct_female": 80.0,
+      "total_reports": 5203
+    },
+    {
+      "drug": "CALCIUM;ICODEXTRIN;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "n_death_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 4619
+    },
+    {
+      "drug": "ALCOHOL",
+      "n_death_signals": 4,
+      "pct_female": 100.0,
+      "total_reports": 4449
+    },
+    {
+      "drug": "ETHANOL",
+      "n_death_signals": 4,
+      "pct_female": 100.0,
+      "total_reports": 4384
+    },
+    {
+      "drug": "OLAPARIB",
+      "n_death_signals": 1,
+      "pct_female": 0.0,
+      "total_reports": 3708
+    },
+    {
+      "drug": "CLONAZEPAM",
+      "n_death_signals": 2,
+      "pct_female": 50.0,
+      "total_reports": 3601
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_death_signals": 4,
+      "pct_female": 100.0,
+      "total_reports": 3570
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_death_signals": 5,
+      "pct_female": 100.0,
+      "total_reports": 3348
+    },
+    {
+      "drug": "TRAZODONE",
+      "n_death_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 3278
+    },
+    {
+      "drug": "TRAMADOL",
+      "n_death_signals": 4,
+      "pct_female": 100.0,
+      "total_reports": 3205
+    },
+    {
+      "drug": "IPILIMUMAB",
+      "n_death_signals": 1,
+      "pct_female": 100.0,
+      "total_reports": 3106
+    },
+    {
+      "drug": "COCAINE",
+      "n_death_signals": 3,
+      "pct_female": 100.0,
+      "total_reports": 3068
+    },
+    {
+      "drug": "SILDENAFIL",
+      "n_death_signals": 3,
+      "pct_female": 66.7,
+      "total_reports": 2990
+    },
+    {
+      "drug": "DIAZEPAM",
+      "n_death_signals": 2,
+      "pct_female": 100.0,
+      "total_reports": 2584
+    },
+    {
+      "drug": "DEXTROMETHORPHAN;QUINIDINE",
+      "n_death_signals": 1,
+      "pct_female": 100.0,
+      "total_reports": 2484
+    }
+  ],
+  "most_female_biased_drugs": [
+    {
+      "drug": "SERTRALINE HYDROCHLORIDE",
+      "pct_f": 100.0,
+      "n": 2,
+      "reports": 100
+    },
+    {
+      "drug": "ONDANSETRON",
+      "pct_f": 100.0,
+      "n": 2,
+      "reports": 378
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "pct_f": 100.0,
+      "n": 4,
+      "reports": 377
+    },
+    {
+      "drug": "DIGOXIN",
+      "pct_f": 100.0,
+      "n": 1,
+      "reports": 157
+    },
+    {
+      "drug": "MIRTAZAPINE",
+      "pct_f": 100.0,
+      "n": 2,
+      "reports": 373
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "pct_f": 100.0,
+      "n": 1,
+      "reports": 362
+    },
+    {
+      "drug": "FOLINIC ACID",
+      "pct_f": 100.0,
+      "n": 1,
+      "reports": 362
+    },
+    {
+      "drug": "ZIPRASIDONE",
+      "pct_f": 100.0,
+      "n": 2,
+      "reports": 158
+    },
+    {
+      "drug": "PROPRANOLOL",
+      "pct_f": 100.0,
+      "n": 1,
+      "reports": 346
+    },
+    {
+      "drug": "MIDOSTAURIN",
+      "pct_f": 100.0,
+      "n": 1,
+      "reports": 345
+    }
+  ],
+  "most_male_biased_drugs": [
+    {
+      "drug": "RUCAPARIB",
+      "pct_f": 0.0,
+      "n": 1,
+      "reports": 318
+    },
+    {
+      "drug": "VITAMIN D3",
+      "pct_f": 0.0,
+      "n": 2,
+      "reports": 313
+    },
+    {
+      "drug": "ABATACEPT",
+      "pct_f": 0.0,
+      "n": 1,
+      "reports": 304
+    },
+    {
+      "drug": "RITUXIMAB",
+      "pct_f": 0.0,
+      "n": 1,
+      "reports": 303
+    },
+    {
+      "drug": "SUMATRIPTAN",
+      "pct_f": 0.0,
+      "n": 2,
+      "reports": 163
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "pct_f": 0.0,
+      "n": 1,
+      "reports": 299
+    },
+    {
+      "drug": "DOLUTEGRAVIR",
+      "pct_f": 0.0,
+      "n": 1,
+      "reports": 298
+    },
+    {
+      "drug": "FOLIC ACID",
+      "pct_f": 0.0,
+      "n": 3,
+      "reports": 165
+    },
+    {
+      "drug": "FLUTICASONE;VILANTEROL",
+      "pct_f": 0.0,
+      "n": 1,
+      "reports": 288
+    },
+    {
+      "drug": "SODIUM CHLORIDE",
+      "pct_f": 0.0,
+      "n": 1,
+      "reports": 295
+    }
+  ]
+}

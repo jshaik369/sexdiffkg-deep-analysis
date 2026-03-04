@@ -1,0 +1,619 @@
+{
+  "analysis": "Drug-Drug Interaction Sex Analysis",
+  "date": "2026-03-04T08:18:43.700830",
+  "combo_signals": 5860,
+  "single_signals": 90421,
+  "combo_pct_female": 50.6,
+  "single_pct_female": 54.0,
+  "difference_pp": -3.4,
+  "top_combos": [
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n": 327,
+      "pct_f": 63.6
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "n": 265,
+      "pct_f": 80.8
+    },
+    {
+      "drug": "FLUTICASONE;SALMETEROL",
+      "n": 252,
+      "pct_f": 35.7
+    },
+    {
+      "drug": "BUDESONIDE;FORMOTEROL",
+      "n": 245,
+      "pct_f": 37.6
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "n": 217,
+      "pct_f": 61.8
+    },
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "n": 197,
+      "pct_f": 75.6
+    },
+    {
+      "drug": "EMTRICITABINE;TENOFOVIR",
+      "n": 181,
+      "pct_f": 47.5
+    },
+    {
+      "drug": "FLUTICASONE;VILANTEROL",
+      "n": 175,
+      "pct_f": 18.9
+    },
+    {
+      "drug": "AMOXICILLIN;CLAVULANIC ACID",
+      "n": 162,
+      "pct_f": 42.6
+    },
+    {
+      "drug": "SACUBITRIL;VALSARTAN",
+      "n": 157,
+      "pct_f": 67.5
+    },
+    {
+      "drug": "CODEINE;PARACETAMOL",
+      "n": 141,
+      "pct_f": 83.7
+    },
+    {
+      "drug": "PIPERACILLIN;TAZOBACTAM",
+      "n": 136,
+      "pct_f": 86.0
+    },
+    {
+      "drug": "GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "n": 122,
+      "pct_f": 57.4
+    },
+    {
+      "drug": "FORMOTEROL;MOMETASONE",
+      "n": 118,
+      "pct_f": 14.4
+    },
+    {
+      "drug": "BUPRENORPHINE;NALOXONE",
+      "n": 90,
+      "pct_f": 31.1
+    },
+    {
+      "drug": "CALCIUM;VITAMIN D3",
+      "n": 84,
+      "pct_f": 51.2
+    },
+    {
+      "drug": "PARACETAMOL;TRAMADOL",
+      "n": 83,
+      "pct_f": 73.5
+    },
+    {
+      "drug": "LEDIPASVIR;SOFOSBUVIR",
+      "n": 80,
+      "pct_f": 85.0
+    },
+    {
+      "drug": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+      "n": 79,
+      "pct_f": 15.2
+    },
+    {
+      "drug": "HYDROCHLOROTHIAZIDE;VALSARTAN",
+      "n": 78,
+      "pct_f": 52.6
+    }
+  ],
+  "emergent_effects": [
+    {
+      "combo": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "combo_pct_f": 63.6,
+      "combo_n": 327,
+      "components": [
+        {
+          "drug": "SULFAMETHOXAZOLE",
+          "pct_f": 57.3,
+          "n": 75
+        },
+        {
+          "drug": "TRIMETHOPRIM",
+          "pct_f": 30.2,
+          "n": 53
+        }
+      ],
+      "avg_component_f": 43.8,
+      "emergent_shift": 19.8
+    },
+    {
+      "combo": "EMTRICITABINE;TENOFOVIR",
+      "combo_pct_f": 47.5,
+      "combo_n": 181,
+      "components": [
+        {
+          "drug": "EMTRICITABINE",
+          "pct_f": 63.6,
+          "n": 22
+        },
+        {
+          "drug": "TENOFOVIR",
+          "pct_f": 64.0,
+          "n": 114
+        }
+      ],
+      "avg_component_f": 63.8,
+      "emergent_shift": -16.3
+    },
+    {
+      "combo": "FLUTICASONE;VILANTEROL",
+      "combo_pct_f": 18.9,
+      "combo_n": 175,
+      "components": [
+        {
+          "drug": "FLUTICASONE",
+          "pct_f": 33.5,
+          "n": 221
+        },
+        {
+          "drug": "VILANTEROL",
+          "pct_f": 50.0,
+          "n": 12
+        }
+      ],
+      "avg_component_f": 41.8,
+      "emergent_shift": -22.8
+    },
+    {
+      "combo": "CODEINE;PARACETAMOL",
+      "combo_pct_f": 83.7,
+      "combo_n": 141,
+      "components": [
+        {
+          "drug": "CODEINE",
+          "pct_f": 75.8,
+          "n": 190
+        },
+        {
+          "drug": "PARACETAMOL",
+          "pct_f": 56.9,
+          "n": 487
+        }
+      ],
+      "avg_component_f": 66.4,
+      "emergent_shift": 17.4
+    },
+    {
+      "combo": "GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "combo_pct_f": 57.4,
+      "combo_n": 122,
+      "components": [
+        {
+          "drug": "GLUCOSE",
+          "pct_f": 20.0,
+          "n": 70
+        },
+        {
+          "drug": "MAGNESIUM",
+          "pct_f": 50.0,
+          "n": 136
+        },
+        {
+          "drug": "SODIUM CHLORIDE",
+          "pct_f": 26.3,
+          "n": 152
+        }
+      ],
+      "avg_component_f": 32.1,
+      "emergent_shift": 25.3
+    },
+    {
+      "combo": "FORMOTEROL;MOMETASONE",
+      "combo_pct_f": 14.4,
+      "combo_n": 118,
+      "components": [
+        {
+          "drug": "FORMOTEROL",
+          "pct_f": 47.3,
+          "n": 55
+        },
+        {
+          "drug": "MOMETASONE",
+          "pct_f": 47.1,
+          "n": 119
+        }
+      ],
+      "avg_component_f": 47.2,
+      "emergent_shift": -32.8
+    },
+    {
+      "combo": "BUPRENORPHINE;NALOXONE",
+      "combo_pct_f": 31.1,
+      "combo_n": 90,
+      "components": [
+        {
+          "drug": "BUPRENORPHINE",
+          "pct_f": 54.0,
+          "n": 261
+        },
+        {
+          "drug": "NALOXONE",
+          "pct_f": 90.5,
+          "n": 21
+        }
+      ],
+      "avg_component_f": 72.2,
+      "emergent_shift": -41.2
+    },
+    {
+      "combo": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+      "combo_pct_f": 15.2,
+      "combo_n": 79,
+      "components": [
+        {
+          "drug": "FLUTICASONE",
+          "pct_f": 33.5,
+          "n": 221
+        },
+        {
+          "drug": "UMECLIDINIUM",
+          "pct_f": 16.2,
+          "n": 80
+        },
+        {
+          "drug": "VILANTEROL",
+          "pct_f": 50.0,
+          "n": 12
+        }
+      ],
+      "avg_component_f": 33.2,
+      "emergent_shift": -18.0
+    },
+    {
+      "combo": "CALCIUM;ICODEXTRIN;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "combo_pct_f": 54.5,
+      "combo_n": 66,
+      "components": [
+        {
+          "drug": "CALCIUM",
+          "pct_f": 40.2,
+          "n": 219
+        },
+        {
+          "drug": "MAGNESIUM",
+          "pct_f": 50.0,
+          "n": 136
+        },
+        {
+          "drug": "SODIUM CHLORIDE",
+          "pct_f": 26.3,
+          "n": 152
+        }
+      ],
+      "avg_component_f": 38.8,
+      "emergent_shift": 15.7
+    },
+    {
+      "combo": "DASABUVIR;OMBITASVIR;PARITAPREVIR;RITONAVIR",
+      "combo_pct_f": 48.9,
+      "combo_n": 47,
+      "components": [
+        {
+          "drug": "DASABUVIR",
+          "pct_f": 86.5,
+          "n": 37
+        },
+        {
+          "drug": "RITONAVIR",
+          "pct_f": 42.2,
+          "n": 102
+        }
+      ],
+      "avg_component_f": 64.4,
+      "emergent_shift": -15.4
+    },
+    {
+      "combo": "EMTRICITABINE;RILPIVIRINE;TENOFOVIR",
+      "combo_pct_f": 42.1,
+      "combo_n": 38,
+      "components": [
+        {
+          "drug": "EMTRICITABINE",
+          "pct_f": 63.6,
+          "n": 22
+        },
+        {
+          "drug": "RILPIVIRINE",
+          "pct_f": 48.8,
+          "n": 41
+        },
+        {
+          "drug": "TENOFOVIR",
+          "pct_f": 64.0,
+          "n": 114
+        }
+      ],
+      "avg_component_f": 58.8,
+      "emergent_shift": -16.7
+    },
+    {
+      "combo": "OLODATEROL;TIOTROPIUM",
+      "combo_pct_f": 40.0,
+      "combo_n": 35,
+      "components": [
+        {
+          "drug": "OLODATEROL",
+          "pct_f": 14.3,
+          "n": 7
+        },
+        {
+          "drug": "TIOTROPIUM",
+          "pct_f": 29.6,
+          "n": 257
+        }
+      ],
+      "avg_component_f": 22.0,
+      "emergent_shift": 18.0
+    },
+    {
+      "combo": "AMLODIPINE;VALSARTAN",
+      "combo_pct_f": 67.6,
+      "combo_n": 34,
+      "components": [
+        {
+          "drug": "AMLODIPINE",
+          "pct_f": 50.5,
+          "n": 422
+        },
+        {
+          "drug": "VALSARTAN",
+          "pct_f": 49.3,
+          "n": 219
+        }
+      ],
+      "avg_component_f": 49.9,
+      "emergent_shift": 17.7
+    },
+    {
+      "combo": "CALCIUM;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "combo_pct_f": 58.8,
+      "combo_n": 34,
+      "components": [
+        {
+          "drug": "CALCIUM",
+          "pct_f": 40.2,
+          "n": 219
+        },
+        {
+          "drug": "GLUCOSE",
+          "pct_f": 20.0,
+          "n": 70
+        },
+        {
+          "drug": "MAGNESIUM",
+          "pct_f": 50.0,
+          "n": 136
+        },
+        {
+          "drug": "SODIUM CHLORIDE",
+          "pct_f": 26.3,
+          "n": 152
+        }
+      ],
+      "avg_component_f": 34.1,
+      "emergent_shift": 24.7
+    },
+    {
+      "combo": "METFORMIN;VILDAGLIPTIN",
+      "combo_pct_f": 82.8,
+      "combo_n": 29,
+      "components": [
+        {
+          "drug": "METFORMIN",
+          "pct_f": 62.4,
+          "n": 399
+        },
+        {
+          "drug": "VILDAGLIPTIN",
+          "pct_f": 68.0,
+          "n": 25
+        }
+      ],
+      "avg_component_f": 65.2,
+      "emergent_shift": 17.6
+    },
+    {
+      "combo": "MACROGOL;POTASSIUM;SODIUM CHLORIDE;SODIUM SULFATE;VITAMIN C",
+      "combo_pct_f": 15.4,
+      "combo_n": 26,
+      "components": [
+        {
+          "drug": "MACROGOL",
+          "pct_f": 19.7,
+          "n": 117
+        },
+        {
+          "drug": "POTASSIUM",
+          "pct_f": 46.3,
+          "n": 134
+        },
+        {
+          "drug": "SODIUM CHLORIDE",
+          "pct_f": 26.3,
+          "n": 152
+        },
+        {
+          "drug": "VITAMIN C",
+          "pct_f": 63.6,
+          "n": 77
+        }
+      ],
+      "avg_component_f": 39.0,
+      "emergent_shift": -23.6
+    }
+  ],
+  "ae_combo_vs_single": [
+    {
+      "ae": "Dry mouth",
+      "combo_f": 26.9,
+      "single_f": 48.7,
+      "shift": -21.8,
+      "combo_n": 26,
+      "single_n": 154
+    },
+    {
+      "ae": "Dyspnoea",
+      "combo_f": 32.1,
+      "single_f": 53.6,
+      "shift": -21.5,
+      "combo_n": 28,
+      "single_n": 321
+    },
+    {
+      "ae": "Fatigue",
+      "combo_f": 48.3,
+      "single_f": 68.0,
+      "shift": -19.7,
+      "combo_n": 29,
+      "single_n": 303
+    },
+    {
+      "ae": "Constipation",
+      "combo_f": 38.5,
+      "single_f": 58.2,
+      "shift": -19.7,
+      "combo_n": 26,
+      "single_n": 220
+    },
+    {
+      "ae": "Pain in extremity",
+      "combo_f": 16.0,
+      "single_f": 35.2,
+      "shift": -19.2,
+      "combo_n": 25,
+      "single_n": 210
+    },
+    {
+      "ae": "Diarrhoea",
+      "combo_f": 51.6,
+      "single_f": 70.6,
+      "shift": -19.0,
+      "combo_n": 31,
+      "single_n": 265
+    },
+    {
+      "ae": "Anxiety",
+      "combo_f": 26.5,
+      "single_f": 44.2,
+      "shift": -17.7,
+      "combo_n": 34,
+      "single_n": 226
+    },
+    {
+      "ae": "Rash",
+      "combo_f": 57.7,
+      "single_f": 74.9,
+      "shift": -17.2,
+      "combo_n": 26,
+      "single_n": 275
+    },
+    {
+      "ae": "Pain",
+      "combo_f": 58.1,
+      "single_f": 70.6,
+      "shift": -12.5,
+      "combo_n": 31,
+      "single_n": 296
+    },
+    {
+      "ae": "Dizziness",
+      "combo_f": 46.9,
+      "single_f": 56.4,
+      "shift": -9.5,
+      "combo_n": 32,
+      "single_n": 257
+    },
+    {
+      "ae": "Nausea",
+      "combo_f": 31.7,
+      "single_f": 40.6,
+      "shift": -8.9,
+      "combo_n": 41,
+      "single_n": 298
+    },
+    {
+      "ae": "Malaise",
+      "combo_f": 48.1,
+      "single_f": 55.6,
+      "shift": -7.5,
+      "combo_n": 27,
+      "single_n": 248
+    },
+    {
+      "ae": "Headache",
+      "combo_f": 43.6,
+      "single_f": 51.0,
+      "shift": -7.4,
+      "combo_n": 39,
+      "single_n": 288
+    },
+    {
+      "ae": "Condition aggravated",
+      "combo_f": 27.0,
+      "single_f": 34.4,
+      "shift": -7.4,
+      "combo_n": 37,
+      "single_n": 355
+    },
+    {
+      "ae": "Off label use",
+      "combo_f": 55.6,
+      "single_f": 50.4,
+      "shift": 5.2,
+      "combo_n": 36,
+      "single_n": 409
+    },
+    {
+      "ae": "Pruritus",
+      "combo_f": 61.5,
+      "single_f": 65.1,
+      "shift": -3.6,
+      "combo_n": 26,
+      "single_n": 218
+    },
+    {
+      "ae": "Vomiting",
+      "combo_f": 51.6,
+      "single_f": 48.6,
+      "shift": 3.0,
+      "combo_n": 31,
+      "single_n": 331
+    },
+    {
+      "ae": "Death",
+      "combo_f": 72.2,
+      "single_f": 74.8,
+      "shift": -2.6,
+      "combo_n": 36,
+      "single_n": 301
+    },
+    {
+      "ae": "Drug ineffective",
+      "combo_f": 38.8,
+      "single_f": 37.6,
+      "shift": 1.2,
+      "combo_n": 49,
+      "single_n": 452
+    },
+    {
+      "ae": "Fall",
+      "combo_f": 57.7,
+      "single_f": 58.9,
+      "shift": -1.2,
+      "combo_n": 26,
+      "single_n": 224
+    }
+  ]
+}

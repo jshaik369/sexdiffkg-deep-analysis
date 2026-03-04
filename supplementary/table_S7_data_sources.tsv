@@ -1,0 +1,8 @@
+Source	Version	Entities	Count	Description
+FAERS	2004Q1-2025Q3	Reports	14536008	FDA spontaneous adverse event reports
+STRING	v12.0	PPI edges	473860	Protein-protein interactions
+ChEMBL	36	Drug-target edges	12682	Drug-protein target binding
+Reactome	Current	Pathway edges	370597	Protein-pathway annotations
+GTEx	v8	DE edges	289	Sex-differential gene expression
+DiAna	Current	Drug mappings	846917	Drug name normalization
+SIDER	4.1	Drug-SE pairs	309849	External validation (known side effects)
