@@ -1,0 +1,293 @@
+{
+  "liver_enzymes": {
+    "n_signals": 761,
+    "n_drugs": 378,
+    "f_pct": 85.4,
+    "mean_lr": 1.004,
+    "markers": [
+      {
+        "ae": "Hepatic enzyme increased",
+        "n": 181,
+        "f_pct": 93.0
+      },
+      {
+        "ae": "Liver function test abnormal",
+        "n": 82,
+        "f_pct": 69.5
+      },
+      {
+        "ae": "Hepatic enzyme abnormal",
+        "n": 15,
+        "f_pct": 67.2
+      },
+      {
+        "ae": "Alanine aminotransferase increased",
+        "n": 142,
+        "f_pct": 66.7
+      },
+      {
+        "ae": "Aspartate aminotransferase increased",
+        "n": 131,
+        "f_pct": 65.8
+      },
+      {
+        "ae": "Transaminases increased",
+        "n": 120,
+        "f_pct": 59.0
+      },
+      {
+        "ae": "Gamma-glutamyltransferase increased",
+        "n": 71,
+        "f_pct": 57.4
+      },
+      {
+        "ae": "Alanine aminotransferase abnormal",
+        "n": 17,
+        "f_pct": 46.1
+      }
+    ]
+  },
+  "renal_markers": {
+    "n_signals": 138,
+    "n_drugs": 107,
+    "f_pct": 57.4,
+    "mean_lr": 0.852,
+    "markers": [
+      {
+        "ae": "Creatinine renal clearance decreased",
+        "n": 7,
+        "f_pct": 89.0
+      },
+      {
+        "ae": "Proteinuria",
+        "n": 44,
+        "f_pct": 60.1
+      },
+      {
+        "ae": "Blood urea increased",
+        "n": 49,
+        "f_pct": 50.3
+      },
+      {
+        "ae": "Glomerular filtration rate decreased",
+        "n": 33,
+        "f_pct": 46.5
+      }
+    ]
+  },
+  "hematologic": {
+    "n_signals": 791,
+    "n_drugs": 389,
+    "f_pct": 67.2,
+    "mean_lr": 0.885,
+    "markers": [
+      {
+        "ae": "White blood cell count decreased",
+        "n": 82,
+        "f_pct": 80.4
+      },
+      {
+        "ae": "White blood cell count abnormal",
+        "n": 19,
+        "f_pct": 77.0
+      },
+      {
+        "ae": "White blood cell count increased",
+        "n": 94,
+        "f_pct": 74.4
+      },
+      {
+        "ae": "Platelet count increased",
+        "n": 36,
+        "f_pct": 74.2
+      },
+      {
+        "ae": "Red blood cell count decreased",
+        "n": 64,
+        "f_pct": 69.2
+      },
+      {
+        "ae": "Neutrophil count decreased",
+        "n": 72,
+        "f_pct": 66.0
+      },
+      {
+        "ae": "Neutrophil count abnormal",
+        "n": 8,
+        "f_pct": 64.7
+      },
+      {
+        "ae": "Platelet count decreased",
+        "n": 130,
+        "f_pct": 63.9
+      },
+      {
+        "ae": "Haemoglobin decreased",
+        "n": 135,
+        "f_pct": 59.4
+      },
+      {
+        "ae": "Haemoglobin abnormal",
+        "n": 15,
+        "f_pct": 54.4
+      },
+      {
+        "ae": "Haemoglobin increased",
+        "n": 11,
+        "f_pct": 54.1
+      },
+      {
+        "ae": "Lymphocyte count decreased",
+        "n": 56,
+        "f_pct": 53.6
+      },
+      {
+        "ae": "Platelet count abnormal",
+        "n": 13,
+        "f_pct": 48.9
+      },
+      {
+        "ae": "Neutrophil count increased",
+        "n": 46,
+        "f_pct": 46.2
+      }
+    ]
+  },
+  "metabolic_markers": {
+    "n_signals": 218,
+    "n_drugs": 173,
+    "f_pct": 63.9,
+    "mean_lr": 0.791,
+    "markers": [
+      {
+        "ae": "Blood glucose decreased",
+        "n": 44,
+        "f_pct": 66.7
+      },
+      {
+        "ae": "Blood glucose increased",
+        "n": 110,
+        "f_pct": 65.4
+      },
+      {
+        "ae": "Blood glucose abnormal",
+        "n": 20,
+        "f_pct": 60.2
+      },
+      {
+        "ae": "Glycosylated haemoglobin decreased",
+        "n": 5,
+        "f_pct": 58.6
+      },
+      {
+        "ae": "Glycosylated haemoglobin increased",
+        "n": 35,
+        "f_pct": 50.9
+      }
+    ]
+  },
+  "cardiac_biomarkers": {
+    "n_signals": 176,
+    "n_drugs": 159,
+    "f_pct": 59.9,
+    "mean_lr": 0.94,
+    "markers": [
+      {
+        "ae": "Electrocardiogram QT prolonged",
+        "n": 122,
+        "f_pct": 64.0
+      },
+      {
+        "ae": "Troponin increased",
+        "n": 54,
+        "f_pct": 42.5
+      }
+    ]
+  },
+  "inflammatory": {
+    "n_signals": 187,
+    "n_drugs": 154,
+    "f_pct": 84.6,
+    "mean_lr": 1.248,
+    "markers": [
+      {
+        "ae": "C-reactive protein abnormal",
+        "n": 40,
+        "f_pct": 89.6
+      },
+      {
+        "ae": "C-reactive protein increased",
+        "n": 136,
+        "f_pct": 82.6
+      },
+      {
+        "ae": "C-reactive protein decreased",
+        "n": 6,
+        "f_pct": 36.1
+      }
+    ]
+  },
+  "thyroid": {
+    "n_signals": 1,
+    "n_drugs": 1,
+    "f_pct": 32.3,
+    "mean_lr": 0.775,
+    "markers": []
+  },
+  "increased_vs_decreased": [
+    {
+      "marker": "C-REACTIVE PROTEIN",
+      "category": "inflammatory",
+      "increased_f_pct": 82.6,
+      "increased_n": 136,
+      "decreased_f_pct": 36.1,
+      "decreased_n": 6,
+      "delta": 46.5
+    },
+    {
+      "marker": "PLATELET COUNT",
+      "category": "hematologic",
+      "increased_f_pct": 74.2,
+      "increased_n": 36,
+      "decreased_f_pct": 63.9,
+      "decreased_n": 130,
+      "delta": 10.3
+    },
+    {
+      "marker": "GLYCOSYLATED HAEMOGLOBIN",
+      "category": "metabolic_markers",
+      "increased_f_pct": 50.9,
+      "increased_n": 35,
+      "decreased_f_pct": 58.6,
+      "decreased_n": 5,
+      "delta": -7.6
+    },
+    {
+      "marker": "WHITE BLOOD CELL COUNT",
+      "category": "hematologic",
+      "increased_f_pct": 74.4,
+      "increased_n": 94,
+      "decreased_f_pct": 80.4,
+      "decreased_n": 82,
+      "delta": -6.1
+    },
+    {
+      "marker": "HAEMOGLOBIN",
+      "category": "hematologic",
+      "increased_f_pct": 54.1,
+      "increased_n": 11,
+      "decreased_f_pct": 59.4,
+      "decreased_n": 135,
+      "delta": -5.3
+    },
+    {
+      "marker": "BLOOD GLUCOSE",
+      "category": "metabolic_markers",
+      "increased_f_pct": 65.4,
+      "increased_n": 110,
+      "decreased_f_pct": 66.7,
+      "decreased_n": 44,
+      "delta": -1.3
+    }
+  ]
+}

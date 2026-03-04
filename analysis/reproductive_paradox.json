@@ -1,0 +1,330 @@
+{
+  "contraceptives": {
+    "n_drugs": 4,
+    "n_signals": 13,
+    "f_pct": 97.2,
+    "pct_male_direction": 100.0,
+    "drugs": [
+      {
+        "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+        "n_signals": 2,
+        "f_pct": 88.7,
+        "n_male_direction": 2
+      },
+      {
+        "drug": "LEVONORGESTREL",
+        "n_signals": 1,
+        "f_pct": 69.7,
+        "n_male_direction": 1
+      },
+      {
+        "drug": "ETONOGESTREL",
+        "n_signals": 5,
+        "f_pct": 98.1,
+        "n_male_direction": 5
+      },
+      {
+        "drug": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+        "n_signals": 5,
+        "f_pct": 96.9,
+        "n_male_direction": 5
+      }
+    ]
+  },
+  "breast_cancer_hormone": {
+    "n_drugs": 6,
+    "n_signals": 90,
+    "f_pct": 90.1,
+    "pct_male_direction": 62.2,
+    "drugs": [
+      {
+        "drug": "TAMOXIFEN",
+        "n_signals": 12,
+        "f_pct": 92.3,
+        "n_male_direction": 11
+      },
+      {
+        "drug": "LETROZOLE",
+        "n_signals": 17,
+        "f_pct": 97.5,
+        "n_male_direction": 14
+      },
+      {
+        "drug": "ANASTROZOLE",
+        "n_signals": 15,
+        "f_pct": 93.4,
+        "n_male_direction": 11
+      },
+      {
+        "drug": "EXEMESTANE",
+        "n_signals": 4,
+        "f_pct": 87.6,
+        "n_male_direction": 4
+      },
+      {
+        "drug": "FULVESTRANT",
+        "n_signals": 6,
+        "f_pct": 98.3,
+        "n_male_direction": 4
+      },
+      {
+        "drug": "GOSERELIN",
+        "n_signals": 36,
+        "f_pct": 55.0,
+        "n_male_direction": 12
+      }
+    ]
+  },
+  "fertility": {
+    "n_drugs": 3,
+    "n_signals": 36,
+    "f_pct": 80.5,
+    "pct_male_direction": 97.2,
+    "drugs": [
+      {
+        "drug": "PROGESTERONE",
+        "n_signals": 10,
+        "f_pct": 77.8,
+        "n_male_direction": 9
+      },
+      {
+        "drug": "ESTRADIOL",
+        "n_signals": 18,
+        "f_pct": 91.2,
+        "n_male_direction": 18
+      },
+      {
+        "drug": "HYDROXYPROGESTERONE",
+        "n_signals": 8,
+        "f_pct": 51.2,
+        "n_male_direction": 8
+      }
+    ]
+  },
+  "menopause": {
+    "n_drugs": 1,
+    "n_signals": 18,
+    "f_pct": 91.2,
+    "pct_male_direction": 100.0,
+    "drugs": [
+      {
+        "drug": "ESTRADIOL",
+        "n_signals": 18,
+        "f_pct": 91.2,
+        "n_male_direction": 18
+      }
+    ]
+  },
+  "endometriosis": {
+    "n_drugs": 1,
+    "n_signals": 294,
+    "f_pct": 23.6,
+    "pct_male_direction": 30.3,
+    "drugs": [
+      {
+        "drug": "LEUPRORELIN",
+        "n_signals": 294,
+        "f_pct": 23.6,
+        "n_male_direction": 89
+      }
+    ]
+  },
+  "male_prostate": {
+    "n_drugs": 5,
+    "n_signals": 343,
+    "f_pct": 21.0,
+    "pct_female_direction": 69.1,
+    "drugs": [
+      {
+        "drug": "ENZALUTAMIDE",
+        "n_signals": 10,
+        "f_pct": 1.1,
+        "n_female_direction": 5
+      },
+      {
+        "drug": "ABIRATERONE",
+        "n_signals": 2,
+        "f_pct": 3.7,
+        "n_female_direction": 2
+      },
+      {
+        "drug": "BICALUTAMIDE",
+        "n_signals": 1,
+        "f_pct": 6.7,
+        "n_female_direction": 1
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "n_signals": 294,
+        "f_pct": 23.6,
+        "n_female_direction": 205
+      },
+      {
+        "drug": "GOSERELIN",
+        "n_signals": 36,
+        "f_pct": 55.0,
+        "n_female_direction": 24
+      }
+    ]
+  },
+  "male_ED_drugs": {
+    "n_drugs": 2,
+    "n_signals": 530,
+    "f_pct": 52.7,
+    "pct_female_direction": 80.6,
+    "drugs": [
+      {
+        "drug": "SILDENAFIL",
+        "n_signals": 272,
+        "f_pct": 49.3,
+        "n_female_direction": 238
+      },
+      {
+        "drug": "TADALAFIL",
+        "n_signals": 258,
+        "f_pct": 56.0,
+        "n_female_direction": 189
+      }
+    ]
+  },
+  "male_BPH": {
+    "n_drugs": 4,
+    "n_signals": 81,
+    "f_pct": 12.2,
+    "pct_female_direction": 82.7,
+    "drugs": [
+      {
+        "drug": "TAMSULOSIN",
+        "n_signals": 52,
+        "f_pct": 12.6,
+        "n_female_direction": 42
+      },
+      {
+        "drug": "ALFUZOSIN",
+        "n_signals": 10,
+        "f_pct": 27.7,
+        "n_female_direction": 10
+      },
+      {
+        "drug": "DUTASTERIDE",
+        "n_signals": 4,
+        "f_pct": 54.1,
+        "n_female_direction": 4
+      },
+      {
+        "drug": "FINASTERIDE",
+        "n_signals": 15,
+        "f_pct": 5.5,
+        "n_female_direction": 11
+      }
+    ]
+  },
+  "male_testosterone_replacement": {
+    "n_drugs": 1,
+    "n_signals": 46,
+    "f_pct": 9.3,
+    "pct_female_direction": 73.9,
+    "drugs": [
+      {
+        "drug": "TESTOSTERONE",
+        "n_signals": 46,
+        "f_pct": 9.3,
+        "n_female_direction": 34
+      }
+    ]
+  },
+  "leuprorelin_paradox": {
+    "n_signals": 294,
+    "f_pct": 23.6,
+    "n_female_dir": 205,
+    "n_male_dir": 89,
+    "top_female_aes": [
+      {
+        "adverse_event": "Tooth loss",
+        "log_ratio": 3.18360160506506
+      },
+      {
+        "adverse_event": "Bone loss",
+        "log_ratio": 3.052400360216735
+      },
+      {
+        "adverse_event": "Haemorrhage",
+        "log_ratio": 3.0375883971035718
+      },
+      {
+        "adverse_event": "Migraine",
+        "log_ratio": 2.859470282721116
+      },
+      {
+        "adverse_event": "Impaired work ability",
+        "log_ratio": 2.6562768261435554
+      }
+    ],
+    "top_male_aes": [
+      {
+        "adverse_event": "Death",
+        "log_ratio": -2.916161511246779
+      },
+      {
+        "adverse_event": "COVID-19",
+        "log_ratio": -2.404405239196084
+      },
+      {
+        "adverse_event": "Fall",
+        "log_ratio": -2.226257281716979
+      },
+      {
+        "adverse_event": "Intentional dose omission",
+        "log_ratio": -2.0121037578436614
+      },
+      {
+        "adverse_event": "Injection site haemorrhage",
+        "log_ratio": -1.9826633525709987
+      }
+    ]
+  },
+  "cross_sex_usage": [
+    {
+      "drug": "SILDENAFIL",
+      "label": "ED + PAH",
+      "note": "Used for PAH in women",
+      "n_signals": 272,
+      "f_pct": 49.3
+    },
+    {
+      "drug": "TADALAFIL",
+      "label": "ED + PAH",
+      "note": "Used for PAH in women",
+      "n_signals": 258,
+      "f_pct": 56.0
+    },
+    {
+      "drug": "FINASTERIDE",
+      "label": "BPH + FPHL",
+      "note": "Female pattern hair loss",
+      "n_signals": 15,
+      "f_pct": 5.5
+    },
+    {
+      "drug": "MINOXIDIL",
+      "label": "BPH + alopecia",
+      "note": "Both sexes for hair",
+      "n_signals": 125,
+      "f_pct": 57.1
+    },
+    {
+      "drug": "TESTOSTERONE",
+      "label": "Male HRT",
+      "note": "Also used in women",
+      "n_signals": 46,
+      "f_pct": 9.3
+    },
+    {
+      "drug": "SPIRONOLACTONE",
+      "label": "Diuretic + anti-androgen",
+      "note": "Used for acne/hirsutism in women",
+      "n_signals": 162,
+      "f_pct": 60.2
+    }
+  ]
+}
