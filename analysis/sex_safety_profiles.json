@@ -1,0 +1,414 @@
+{
+  "analysis": "Sex-Specific Drug Safety Profiles",
+  "date": "2026-03-04T08:28:52.916123",
+  "total_drugs": 2178,
+  "drugs_needing_female_warning": 113,
+  "drugs_needing_male_warning": 74,
+  "top_sex_diff_drugs": [
+    {
+      "drug": "VITAMIN B9",
+      "score": 4.018,
+      "n_signals": 250,
+      "pct_female": 46.8,
+      "n_aes": 250,
+      "total_reports": 227101
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "score": 3.942,
+      "n_signals": 5,
+      "pct_female": 0.0,
+      "n_aes": 5,
+      "total_reports": 5189
+    },
+    {
+      "drug": "CORTISONE",
+      "score": 3.871,
+      "n_signals": 188,
+      "pct_female": 45.7,
+      "n_aes": 188,
+      "total_reports": 150522
+    },
+    {
+      "drug": "CALCIUM",
+      "score": 3.744,
+      "n_signals": 219,
+      "pct_female": 40.2,
+      "n_aes": 219,
+      "total_reports": 99044
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "score": 3.698,
+      "n_signals": 53,
+      "pct_female": 7.5,
+      "n_aes": 53,
+      "total_reports": 17772
+    },
+    {
+      "drug": "RANITIDINE",
+      "score": 3.664,
+      "n_signals": 324,
+      "pct_female": 93.5,
+      "n_aes": 324,
+      "total_reports": 245940
+    },
+    {
+      "drug": "ESTRADIOL",
+      "score": 3.587,
+      "n_signals": 18,
+      "pct_female": 0.0,
+      "n_aes": 18,
+      "total_reports": 5752
+    },
+    {
+      "drug": "OXYCODONE",
+      "score": 3.587,
+      "n_signals": 492,
+      "pct_female": 85.0,
+      "n_aes": 492,
+      "total_reports": 365911
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "score": 3.577,
+      "n_signals": 79,
+      "pct_female": 43.0,
+      "n_aes": 79,
+      "total_reports": 117813
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "score": 3.57,
+      "n_signals": 302,
+      "pct_female": 50.7,
+      "n_aes": 302,
+      "total_reports": 165025
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "score": 3.544,
+      "n_signals": 68,
+      "pct_female": 30.9,
+      "n_aes": 68,
+      "total_reports": 31937
+    },
+    {
+      "drug": "VITAMIN D3",
+      "score": 3.536,
+      "n_signals": 242,
+      "pct_female": 45.9,
+      "n_aes": 242,
+      "total_reports": 91423
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "score": 3.528,
+      "n_signals": 318,
+      "pct_female": 46.5,
+      "n_aes": 318,
+      "total_reports": 300132
+    },
+    {
+      "drug": "HYDROXYPROGESTERONE",
+      "score": 3.482,
+      "n_signals": 8,
+      "pct_female": 0.0,
+      "n_aes": 8,
+      "total_reports": 1937
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "score": 3.476,
+      "n_signals": 334,
+      "pct_female": 55.7,
+      "n_aes": 334,
+      "total_reports": 382592
+    },
+    {
+      "drug": "DICLOFENAC",
+      "score": 3.451,
+      "n_signals": 401,
+      "pct_female": 50.6,
+      "n_aes": 401,
+      "total_reports": 344093
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "score": 3.449,
+      "n_signals": 241,
+      "pct_female": 44.4,
+      "n_aes": 241,
+      "total_reports": 277606
+    },
+    {
+      "drug": "ABATACEPT",
+      "score": 3.407,
+      "n_signals": 344,
+      "pct_female": 45.1,
+      "n_aes": 344,
+      "total_reports": 381099
+    },
+    {
+      "drug": "CHLORHEXIDINE",
+      "score": 3.389,
+      "n_signals": 36,
+      "pct_female": 61.1,
+      "n_aes": 36,
+      "total_reports": 41626
+    },
+    {
+      "drug": "TESTOSTERONE",
+      "score": 3.378,
+      "n_signals": 46,
+      "pct_female": 73.9,
+      "n_aes": 46,
+      "total_reports": 20090
+    }
+  ],
+  "female_warning_drugs": [
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "pct_female": 100.0,
+      "n_signals": 50,
+      "total_reports": 13481
+    },
+    {
+      "drug": "PRASUGREL",
+      "pct_female": 96.0,
+      "n_signals": 50,
+      "total_reports": 3548
+    },
+    {
+      "drug": "RANITIDINE",
+      "pct_female": 93.5,
+      "n_signals": 324,
+      "total_reports": 245940
+    },
+    {
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "pct_female": 93.5,
+      "n_signals": 62,
+      "total_reports": 8488
+    },
+    {
+      "drug": "RISPERIDONE",
+      "pct_female": 92.9,
+      "n_signals": 518,
+      "total_reports": 182301
+    },
+    {
+      "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+      "pct_female": 91.2,
+      "n_signals": 68,
+      "total_reports": 6084
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "pct_female": 90.2,
+      "n_signals": 61,
+      "total_reports": 4118
+    },
+    {
+      "drug": "POSACONAZOLE",
+      "pct_female": 89.9,
+      "n_signals": 69,
+      "total_reports": 4114
+    },
+    {
+      "drug": "BASILIXIMAB",
+      "pct_female": 88.1,
+      "n_signals": 101,
+      "total_reports": 7836
+    },
+    {
+      "drug": "VORICONAZOLE",
+      "pct_female": 87.6,
+      "n_signals": 145,
+      "total_reports": 11730
+    },
+    {
+      "drug": "SILDENAFIL",
+      "pct_female": 87.5,
+      "n_signals": 272,
+      "total_reports": 54634
+    },
+    {
+      "drug": "BLEOMYCIN",
+      "pct_female": 86.9,
+      "n_signals": 61,
+      "total_reports": 4675
+    },
+    {
+      "drug": "VITAMIN B3",
+      "pct_female": 86.8,
+      "n_signals": 76,
+      "total_reports": 17013
+    },
+    {
+      "drug": "MEROPENEM",
+      "pct_female": 86.6,
+      "n_signals": 119,
+      "total_reports": 8648
+    },
+    {
+      "drug": "THIOTEPA",
+      "pct_female": 86.3,
+      "n_signals": 51,
+      "total_reports": 3276
+    },
+    {
+      "drug": "OMBITASVIR;PARITAPREVIR;RITONAVIR",
+      "pct_female": 86.3,
+      "n_signals": 51,
+      "total_reports": 3577
+    },
+    {
+      "drug": "PIPERACILLIN;TAZOBACTAM",
+      "pct_female": 86.0,
+      "n_signals": 136,
+      "total_reports": 11434
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "pct_female": 85.7,
+      "n_signals": 161,
+      "total_reports": 26483
+    },
+    {
+      "drug": "DURVALUMAB",
+      "pct_female": 85.2,
+      "n_signals": 61,
+      "total_reports": 3315
+    },
+    {
+      "drug": "OXYCODONE",
+      "pct_female": 85.0,
+      "n_signals": 492,
+      "total_reports": 365911
+    }
+  ],
+  "male_warning_drugs": [
+    {
+      "drug": "MEBEVERINE",
+      "pct_female": 0.0,
+      "n_signals": 52,
+      "total_reports": 5220
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "pct_female": 5.2,
+      "n_signals": 58,
+      "total_reports": 5573
+    },
+    {
+      "drug": "INTERFERON BETA-1B",
+      "pct_female": 5.7,
+      "n_signals": 70,
+      "total_reports": 10488
+    },
+    {
+      "drug": "SOLIFENACIN",
+      "pct_female": 5.8,
+      "n_signals": 52,
+      "total_reports": 3796
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "pct_female": 7.5,
+      "n_signals": 53,
+      "total_reports": 17772
+    },
+    {
+      "drug": "FELODIPINE",
+      "pct_female": 7.6,
+      "n_signals": 79,
+      "total_reports": 15738
+    },
+    {
+      "drug": "TERIFLUNOMIDE",
+      "pct_female": 7.8,
+      "n_signals": 77,
+      "total_reports": 20243
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "pct_female": 8.4,
+      "n_signals": 95,
+      "total_reports": 25182
+    },
+    {
+      "drug": "METHOTREXATE SODIUM",
+      "pct_female": 8.6,
+      "n_signals": 186,
+      "total_reports": 20948
+    },
+    {
+      "drug": "ISOTRETINOIN",
+      "pct_female": 9.2,
+      "n_signals": 217,
+      "total_reports": 49720
+    },
+    {
+      "drug": "FAMPRIDINE",
+      "pct_female": 10.9,
+      "n_signals": 110,
+      "total_reports": 28874
+    },
+    {
+      "drug": "DOCETAXEL",
+      "pct_female": 11.2,
+      "n_signals": 304,
+      "total_reports": 87064
+    },
+    {
+      "drug": "GLATIRAMER",
+      "pct_female": 11.4,
+      "n_signals": 114,
+      "total_reports": 33383
+    },
+    {
+      "drug": "AVAPRITINIB",
+      "pct_female": 11.5,
+      "n_signals": 52,
+      "total_reports": 4901
+    },
+    {
+      "drug": "OFATUMUMAB",
+      "pct_female": 11.9,
+      "n_signals": 67,
+      "total_reports": 8347
+    },
+    {
+      "drug": "MORPHINE SULFATE",
+      "pct_female": 12.8,
+      "n_signals": 86,
+      "total_reports": 7786
+    },
+    {
+      "drug": "INTERFERON BETA-1A",
+      "pct_female": 12.9,
+      "n_signals": 170,
+      "total_reports": 54014
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "pct_female": 13.9,
+      "n_signals": 101,
+      "total_reports": 8665
+    },
+    {
+      "drug": "FUMARIC ACID",
+      "pct_female": 14.4,
+      "n_signals": 139,
+      "total_reports": 46657
+    },
+    {
+      "drug": "FORMOTEROL;MOMETASONE",
+      "pct_female": 14.4,
+      "n_signals": 118,
+      "total_reports": 26471
+    }
+  ],
+  "score_formula": "mean_abs_log_ratio * log10(n_signals + 1)"
+}
