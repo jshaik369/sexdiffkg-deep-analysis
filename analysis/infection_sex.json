@@ -1,0 +1,226 @@
+{
+  "overview": {
+    "n_signals": 3494,
+    "n_drugs": 851,
+    "n_aes": 46,
+    "overall_f_pct": 59.1,
+    "mean_abs_lr": 0.988
+  },
+  "subcategories": [
+    {
+      "category": "COVID",
+      "n_signals": 169,
+      "n_drugs": 161,
+      "mean_f_pct": 48.4,
+      "mean_lr": 0.997
+    },
+    {
+      "category": "Serious_systemic",
+      "n_signals": 614,
+      "n_drugs": 408,
+      "mean_f_pct": 48.8,
+      "mean_lr": 0.93
+    },
+    {
+      "category": "Opportunistic",
+      "n_signals": 410,
+      "n_drugs": 264,
+      "mean_f_pct": 53.7,
+      "mean_lr": 0.935
+    },
+    {
+      "category": "GI_infection",
+      "n_signals": 202,
+      "n_drugs": 155,
+      "mean_f_pct": 54.9,
+      "mean_lr": 0.928
+    },
+    {
+      "category": "Skin_soft_tissue",
+      "n_signals": 206,
+      "n_drugs": 167,
+      "mean_f_pct": 59.0,
+      "mean_lr": 1.058
+    },
+    {
+      "category": "Respiratory_inf",
+      "n_signals": 1174,
+      "n_drugs": 556,
+      "mean_f_pct": 66.2,
+      "mean_lr": 1.072
+    },
+    {
+      "category": "Urogenital",
+      "n_signals": 256,
+      "n_drugs": 231,
+      "mean_f_pct": 66.8,
+      "mean_lr": 0.875
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 46,
+      "mean_f_pct": 41.9,
+      "mean_lr": 0.808
+    },
+    {
+      "class": "Chemotherapy",
+      "n_drugs": 5,
+      "n_signals": 68,
+      "mean_f_pct": 58.4,
+      "mean_lr": 0.864
+    },
+    {
+      "class": "Corticosteroids",
+      "n_drugs": 4,
+      "n_signals": 57,
+      "mean_f_pct": 64.4,
+      "mean_lr": 0.999
+    },
+    {
+      "class": "DMARDs",
+      "n_drugs": 4,
+      "n_signals": 67,
+      "mean_f_pct": 68.5,
+      "mean_lr": 0.977
+    },
+    {
+      "class": "JAK_inhibitors",
+      "n_drugs": 4,
+      "n_signals": 25,
+      "mean_f_pct": 69.9,
+      "mean_lr": 0.835
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_drugs": 5,
+      "n_signals": 59,
+      "mean_f_pct": 78.0,
+      "mean_lr": 0.944
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 13,
+      "mean_f_pct": 74.0,
+      "total_reports": 33368
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 19,
+      "mean_f_pct": 69.4,
+      "total_reports": 33235
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 27,
+      "mean_f_pct": 70.1,
+      "total_reports": 29873
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 14,
+      "mean_f_pct": 65.8,
+      "total_reports": 28941
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 15,
+      "mean_f_pct": 80.8,
+      "total_reports": 27251
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 16,
+      "mean_f_pct": 71.4,
+      "total_reports": 26291
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 14,
+      "mean_f_pct": 78.6,
+      "total_reports": 23157
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 8,
+      "mean_f_pct": 77.0,
+      "total_reports": 20832
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_aes": 9,
+      "mean_f_pct": 86.9,
+      "total_reports": 20626
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 17,
+      "mean_f_pct": 75.3,
+      "total_reports": 19721
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 12,
+      "mean_f_pct": 80.2,
+      "total_reports": 19255
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 21,
+      "mean_f_pct": 76.1,
+      "total_reports": 17576
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 17,
+      "mean_f_pct": 73.9,
+      "total_reports": 17411
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "n_aes": 18,
+      "mean_f_pct": 73.7,
+      "total_reports": 16473
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 12,
+      "mean_f_pct": 79.8,
+      "total_reports": 14725
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "n_aes": 9,
+      "mean_f_pct": 71.1,
+      "total_reports": 14275
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_aes": 9,
+      "mean_f_pct": 78.7,
+      "total_reports": 13678
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_aes": 8,
+      "mean_f_pct": 80.5,
+      "total_reports": 12988
+    },
+    {
+      "drug": "CETIRIZINE",
+      "n_aes": 11,
+      "mean_f_pct": 80.3,
+      "total_reports": 12257
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 14,
+      "mean_f_pct": 70.5,
+      "total_reports": 11893
+    }
+  ]
+}

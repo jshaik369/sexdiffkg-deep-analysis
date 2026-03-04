@@ -1,0 +1,296 @@
+{
+  "overview": {
+    "n_signals": 385,
+    "n_drugs": 258,
+    "n_aes": 19,
+    "overall_f_pct": 59.8,
+    "mean_abs_lr": 1.151
+  },
+  "subcategories": [
+    {
+      "category": "Male_specific",
+      "n_signals": 6,
+      "n_drugs": 6,
+      "mean_f_pct": 7.4,
+      "mean_lr": 3.059,
+      "aes_found": [
+        "Gynaecomastia"
+      ]
+    },
+    {
+      "category": "Shared_sexual",
+      "n_signals": 76,
+      "n_drugs": 60,
+      "mean_f_pct": 52.8,
+      "mean_lr": 1.279,
+      "aes_found": [
+        "Anorgasmia",
+        "Breast pain",
+        "Breast swelling",
+        "Breast tenderness",
+        "Genital rash",
+        "Infertility",
+        "Libido decreased",
+        "Libido increased",
+        "Orgasm abnormal",
+        "Sexual dysfunction"
+      ]
+    },
+    {
+      "category": "Female_specific",
+      "n_signals": 162,
+      "n_drugs": 143,
+      "mean_f_pct": 68.8,
+      "mean_lr": 1.202,
+      "aes_found": [
+        "Galactorrhoea",
+        "Hot flush",
+        "Pelvic pain",
+        "Uterine haemorrhage"
+      ]
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "Antipsychotics",
+      "n_drugs": 5,
+      "n_signals": 31,
+      "mean_f_pct": 45.5,
+      "mean_lr": 1.58
+    },
+    {
+      "class": "Hormonal_therapies",
+      "n_drugs": 5,
+      "n_signals": 8,
+      "mean_f_pct": 47.9,
+      "mean_lr": 1.262
+    },
+    {
+      "class": "SSRIs",
+      "n_drugs": 5,
+      "n_signals": 15,
+      "mean_f_pct": 60.8,
+      "mean_lr": 1.012
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "RISPERIDONE",
+      "n_aes": 8,
+      "mean_f_pct": 33.6,
+      "total_reports": 29593
+    },
+    {
+      "drug": "ENZALUTAMIDE",
+      "n_aes": 1,
+      "mean_f_pct": 0.3,
+      "total_reports": 3102
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "n_aes": 8,
+      "mean_f_pct": 50.2,
+      "total_reports": 2222
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "n_aes": 4,
+      "mean_f_pct": 47.6,
+      "total_reports": 2028
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_aes": 5,
+      "mean_f_pct": 53.2,
+      "total_reports": 1862
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 4,
+      "mean_f_pct": 84.9,
+      "total_reports": 1806
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "n_aes": 4,
+      "mean_f_pct": 46.2,
+      "total_reports": 1489
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_aes": 7,
+      "mean_f_pct": 47.3,
+      "total_reports": 1469
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "n_aes": 2,
+      "mean_f_pct": 89.3,
+      "total_reports": 1355
+    },
+    {
+      "drug": "LENALIDOMIDE",
+      "n_aes": 4,
+      "mean_f_pct": 40.9,
+      "total_reports": 1106
+    },
+    {
+      "drug": "LETROZOLE",
+      "n_aes": 1,
+      "mean_f_pct": 97.9,
+      "total_reports": 898
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 2,
+      "mean_f_pct": 84.2,
+      "total_reports": 888
+    },
+    {
+      "drug": "CLOZAPINE",
+      "n_aes": 3,
+      "mean_f_pct": 47.1,
+      "total_reports": 712
+    },
+    {
+      "drug": "FENTANYL",
+      "n_aes": 3,
+      "mean_f_pct": 51.6,
+      "total_reports": 575
+    },
+    {
+      "drug": "PREGABALIN",
+      "n_aes": 3,
+      "mean_f_pct": 50.3,
+      "total_reports": 562
+    },
+    {
+      "drug": "SERTRALINE",
+      "n_aes": 4,
+      "mean_f_pct": 67.2,
+      "total_reports": 558
+    },
+    {
+      "drug": "DULOXETINE",
+      "n_aes": 3,
+      "mean_f_pct": 71.6,
+      "total_reports": 558
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 2,
+      "mean_f_pct": 84.1,
+      "total_reports": 548
+    },
+    {
+      "drug": "MORPHINE",
+      "n_aes": 2,
+      "mean_f_pct": 59.3,
+      "total_reports": 513
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "n_aes": 2,
+      "mean_f_pct": 85.1,
+      "total_reports": 479
+    }
+  ],
+  "female_ae_paradox": [
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Galactorrhoea",
+      "f_pct": 10.7,
+      "total_reports": 3486
+    },
+    {
+      "drug": "ENZALUTAMIDE",
+      "ae": "Hot flush",
+      "f_pct": 0.3,
+      "total_reports": 3102
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "ae": "Galactorrhoea",
+      "f_pct": 35.5,
+      "total_reports": 1303
+    },
+    {
+      "drug": "GOSERELIN",
+      "ae": "Hot flush",
+      "f_pct": 39.5,
+      "total_reports": 190
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "ae": "Pelvic pain",
+      "f_pct": 45.3,
+      "total_reports": 159
+    },
+    {
+      "drug": "TRIPTORELIN",
+      "ae": "Hot flush",
+      "f_pct": 31.6,
+      "total_reports": 152
+    },
+    {
+      "drug": "UNSPECIFIED",
+      "ae": "Hot flush",
+      "f_pct": 11.3,
+      "total_reports": 151
+    },
+    {
+      "drug": "CABOZANTINIB",
+      "ae": "Hot flush",
+      "f_pct": 48.5,
+      "total_reports": 68
+    },
+    {
+      "drug": "FENTANYL",
+      "ae": "Pelvic pain",
+      "f_pct": 16.1,
+      "total_reports": 62
+    },
+    {
+      "drug": "LANSOPRAZOLE",
+      "ae": "Pelvic pain",
+      "f_pct": 38.6,
+      "total_reports": 57
+    }
+  ],
+  "gynaecomastia_focus": {
+    "n_signals": 6,
+    "overall_f_pct": 7.4,
+    "top_drugs": [
+      {
+        "drug": "RISPERIDONE",
+        "f_pct": 0.1,
+        "reports": 24407
+      },
+      {
+        "drug": "QUETIAPINE",
+        "f_pct": 3.2,
+        "reports": 535
+      },
+      {
+        "drug": "ARIPIPRAZOLE",
+        "f_pct": 3.4,
+        "reports": 388
+      },
+      {
+        "drug": "OLANZAPINE",
+        "f_pct": 4.2,
+        "reports": 383
+      },
+      {
+        "drug": "ATORVASTATIN",
+        "f_pct": 7.5,
+        "reports": 147
+      },
+      {
+        "drug": "CLOZAPINE",
+        "f_pct": 26.2,
+        "reports": 42
+      }
+    ]
+  }
+}
