@@ -1,0 +1,80 @@
+{
+  "endocrine_categories": [
+    {
+      "category": "Gonadal",
+      "n_signals": 16,
+      "n_drugs": 12,
+      "mean_f_pct": 38.4,
+      "mean_lr": 2.276
+    },
+    {
+      "category": "Pituitary",
+      "n_signals": 39,
+      "n_drugs": 34,
+      "mean_f_pct": 52.1,
+      "mean_lr": 1.339
+    },
+    {
+      "category": "Glucose",
+      "n_signals": 341,
+      "n_drugs": 248,
+      "mean_f_pct": 54.0,
+      "mean_lr": 0.91
+    },
+    {
+      "category": "Electrolyte",
+      "n_signals": 637,
+      "n_drugs": 407,
+      "mean_f_pct": 55.6,
+      "mean_lr": 0.95
+    },
+    {
+      "category": "Lipid",
+      "n_signals": 203,
+      "n_drugs": 141,
+      "mean_f_pct": 56.2,
+      "mean_lr": 1.258
+    },
+    {
+      "category": "Thyroid",
+      "n_signals": 213,
+      "n_drugs": 152,
+      "mean_f_pct": 59.6,
+      "mean_lr": 1.072
+    },
+    {
+      "category": "Adrenal",
+      "n_signals": 53,
+      "n_drugs": 51,
+      "mean_f_pct": 63.0,
+      "mean_lr": 1.294
+    }
+  ],
+  "ici_endocrinopathies": {
+    "Thyroid": {
+      "n_signals": 19,
+      "mean_f_pct": 47.6
+    },
+    "Adrenal": {
+      "n_signals": 4,
+      "mean_f_pct": 64.1
+    },
+    "Pituitary": {
+      "n_signals": 2,
+      "mean_f_pct": 38.7
+    },
+    "Glucose": {
+      "n_signals": 12,
+      "mean_f_pct": 46.0
+    },
+    "Lipid": {
+      "n_signals": 1,
+      "mean_f_pct": 50.0
+    },
+    "Electrolyte": {
+      "n_signals": 12,
+      "mean_f_pct": 51.7
+    }
+  },
+  "total_endocrine_signals": 1502
+}

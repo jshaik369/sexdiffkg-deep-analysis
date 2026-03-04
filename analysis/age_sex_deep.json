@@ -1,0 +1,41 @@
+{
+  "age_proxy_analysis": {
+    "Pediatric": {
+      "n_signals": 88,
+      "mean_f_pct": 46.3,
+      "mean_lr": 0.866
+    },
+    "Geriatric": {
+      "n_signals": 1064,
+      "mean_f_pct": 61.4,
+      "mean_lr": 0.984
+    },
+    "Reproductive-age": {
+      "n_signals": 395,
+      "mean_f_pct": 64.8,
+      "mean_lr": 1.314
+    }
+  },
+  "drug_age_groups": {
+    "Geriatric polypharmacy": {
+      "n_signals": 3136,
+      "n_drugs": 11,
+      "mean_f_pct": 56.3
+    },
+    "Pediatric ADHD": {
+      "n_signals": 479,
+      "n_drugs": 5,
+      "mean_f_pct": 57.0
+    },
+    "Bisphosphonates": {
+      "n_signals": 610,
+      "n_drugs": 2,
+      "mean_f_pct": 69.4
+    },
+    "Statins muscle": {
+      "n_signals": 1053,
+      "n_drugs": 4,
+      "mean_f_pct": 52.0
+    }
+  }
+}
