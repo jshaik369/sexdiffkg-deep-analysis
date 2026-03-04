@@ -1,0 +1,90 @@
+{
+  "analysis": "signal_quality_robustness",
+  "report_balance": [
+    {
+      "max_imbalance": 2,
+      "n_signals": 50556,
+      "pct_female": 43.5
+    },
+    {
+      "max_imbalance": 5,
+      "n_signals": 80995,
+      "pct_female": 48.0
+    },
+    {
+      "max_imbalance": 10,
+      "n_signals": 89171,
+      "pct_female": 50.8
+    },
+    {
+      "max_imbalance": 50,
+      "n_signals": 95331,
+      "pct_female": 53.3
+    }
+  ],
+  "signal_tiers": [
+    {
+      "tier": "Ultra-strong",
+      "n_signals": 1028,
+      "pct_female": 58.5,
+      "median_reports": 432
+    },
+    {
+      "tier": "Very strong",
+      "n_signals": 4439,
+      "pct_female": 59.7,
+      "median_reports": 226
+    },
+    {
+      "tier": "Strong",
+      "n_signals": 7051,
+      "pct_female": 57.4,
+      "median_reports": 112
+    },
+    {
+      "tier": "Moderate",
+      "n_signals": 19726,
+      "pct_female": 55.1,
+      "median_reports": 71
+    },
+    {
+      "tier": "Mild",
+      "n_signals": 64037,
+      "pct_female": 52.5,
+      "median_reports": 65
+    }
+  ],
+  "gold_standard": {
+    "n_signals": 5770,
+    "pct_female": 43.8
+  },
+  "threshold_survival": [
+    {
+      "threshold": "Current",
+      "n_signals": 96281,
+      "pct_female": 53.8
+    },
+    {
+      "threshold": "Strict",
+      "n_signals": 32244,
+      "pct_female": 56.4
+    },
+    {
+      "threshold": "Very strict",
+      "n_signals": 5924,
+      "pct_female": 62.1
+    },
+    {
+      "threshold": "Ultra strict",
+      "n_signals": 700,
+      "pct_female": 71.6
+    }
+  ],
+  "ror_correlation": {
+    "rho": 0.716,
+    "note": "Female and male ROR highly correlated"
+  },
+  "both_high_ror": 40710,
+  "only_female_high": 14692,
+  "only_male_high": 12296
+}

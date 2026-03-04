@@ -1,0 +1,90 @@
+{
+  "analysis": "protein_family_tissue_analysis",
+  "sde_edges": 289,
+  "tissues": 20,
+  "genes_with_sde_and_targets": 0,
+  "top_ppi_hubs": [
+    {
+      "protein": "ENSP00000269305",
+      "degree": 1532
+    },
+    {
+      "protein": "ENSP00000272317",
+      "degree": 1178
+    },
+    {
+      "protein": "ENSP00000388107",
+      "degree": 1042
+    },
+    {
+      "protein": "ENSP00000275493",
+      "degree": 1012
+    },
+    {
+      "protein": "ENSP00000495360",
+      "degree": 930
+    },
+    {
+      "protein": "ENSP00000244537",
+      "degree": 904
+    },
+    {
+      "protein": "ENSP00000333277",
+      "degree": 904
+    },
+    {
+      "protein": "ENSP00000494750",
+      "degree": 876
+    },
+    {
+      "protein": "ENSP00000451828",
+      "degree": 870
+    },
+    {
+      "protein": "ENSP00000431822",
+      "degree": 846
+    },
+    {
+      "protein": "ENSP00000393241",
+      "degree": 842
+    },
+    {
+      "protein": "ENSP00000352252",
+      "degree": 826
+    },
+    {
+      "protein": "ENSP00000362680",
+      "degree": 814
+    },
+    {
+      "protein": "ENSP00000270625",
+      "degree": 810
+    },
+    {
+      "protein": "ENSP00000441543",
+      "degree": 796
+    },
+    {
+      "protein": "ENSP00000375632",
+      "degree": 794
+    },
+    {
+      "protein": "ENSP00000300651",
+      "degree": 790
+    },
+    {
+      "protein": "ENSP00000398698",
+      "degree": 782
+    },
+    {
+      "protein": "ENSP00000263253",
+      "degree": 780
+    },
+    {
+      "protein": "ENSP00000278572",
+      "degree": 774
+    }
+  ],
+  "multi_tissue_genes": 17,
+  "gene_target_sde_overlap": []
+}
