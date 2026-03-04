@@ -1,0 +1,214 @@
+{
+  "atlas_summary": {
+    "n_systems": 13,
+    "total_signals_covered": 44181,
+    "f_pct_range": [
+      52.1,
+      66.2
+    ],
+    "f_pct_mean": 59.0,
+    "f_pct_std": 3.8
+  },
+  "system_ranking": [
+    {
+      "system": "hematologic",
+      "n_signals": 3122,
+      "f_pct": 52.1,
+      "n_drugs": 794
+    },
+    {
+      "system": "cardiotoxicity",
+      "n_signals": 3792,
+      "f_pct": 53.6,
+      "n_drugs": 411
+    },
+    {
+      "system": "nephrotoxicity",
+      "n_signals": 2382,
+      "f_pct": 54.9,
+      "n_drugs": 746
+    },
+    {
+      "system": "psychiatric",
+      "n_signals": 2954,
+      "f_pct": 57.0,
+      "n_drugs": 796
+    },
+    {
+      "system": "respiratory",
+      "n_signals": 4952,
+      "f_pct": 57.3,
+      "n_drugs": 977
+    },
+    {
+      "system": "infection",
+      "n_signals": 3494,
+      "f_pct": 59.1,
+      "n_drugs": 851
+    },
+    {
+      "system": "reproductive",
+      "n_signals": 385,
+      "f_pct": 59.8,
+      "n_drugs": 258
+    },
+    {
+      "system": "metabolic_endocrine",
+      "n_signals": 3993,
+      "f_pct": 60.2,
+      "n_drugs": 887
+    },
+    {
+      "system": "ocular",
+      "n_signals": 1401,
+      "f_pct": 60.8,
+      "n_drugs": 463
+    },
+    {
+      "system": "neurotoxicity",
+      "n_signals": 6202,
+      "f_pct": 61.4,
+      "n_drugs": 1170
+    },
+    {
+      "system": "gastrointestinal",
+      "n_signals": 4476,
+      "f_pct": 61.8,
+      "n_drugs": 1112
+    },
+    {
+      "system": "dermatologic",
+      "n_signals": 3810,
+      "f_pct": 62.6,
+      "n_drugs": 895
+    },
+    {
+      "system": "musculoskeletal",
+      "n_signals": 3218,
+      "f_pct": 66.2,
+      "n_drugs": 794
+    }
+  ],
+  "ici_cross_organ": {
+    "respiratory": 39.9,
+    "dermatologic": 41.7,
+    "infection": 41.9,
+    "nephrotoxicity": 44.3,
+    "musculoskeletal": 46.8,
+    "gastrointestinal": 47.0,
+    "hematologic": 48.8,
+    "cardiotoxicity": 48.9,
+    "metabolic_endocrine": 49.3,
+    "neurotoxicity": 50.8,
+    "ocular": 54.6,
+    "psychiatric": 61.8
+  },
+  "anti_tnf_cross_organ": {
+    "cardiotoxicity": 52.8,
+    "hematologic": 63.3,
+    "respiratory": 77.8,
+    "infection": 78.0,
+    "gastrointestinal": 79.2,
+    "musculoskeletal": 86.3
+  },
+  "most_male_subcategories": [
+    {
+      "system": "reproductive",
+      "subcategory": "Male_specific",
+      "n_signals": 6,
+      "mean_f_pct": 7.4
+    },
+    {
+      "system": "hematologic",
+      "subcategory": "Thrombotic",
+      "n_signals": 479,
+      "mean_f_pct": 43.4
+    },
+    {
+      "system": "respiratory",
+      "subcategory": "Vascular",
+      "n_signals": 486,
+      "mean_f_pct": 44.3
+    },
+    {
+      "system": "infection",
+      "subcategory": "COVID",
+      "n_signals": 169,
+      "mean_f_pct": 48.4
+    },
+    {
+      "system": "dermatologic",
+      "subcategory": "Neoplastic",
+      "n_signals": 75,
+      "mean_f_pct": 48.5
+    },
+    {
+      "system": "infection",
+      "subcategory": "Serious_systemic",
+      "n_signals": 614,
+      "mean_f_pct": 48.8
+    }
+  ],
+  "most_female_subcategories": [
+    {
+      "system": "dermatologic",
+      "subcategory": "Hair/Nail",
+      "n_signals": 250,
+      "mean_f_pct": 73.3
+    },
+    {
+      "system": "musculoskeletal",
+      "subcategory": "Inflammatory",
+      "n_signals": 408,
+      "mean_f_pct": 72.7
+    },
+    {
+      "system": "psychiatric",
+      "subcategory": "Eating_disorders",
+      "n_signals": 52,
+      "mean_f_pct": 72.0
+    },
+    {
+      "system": "musculoskeletal",
+      "subcategory": "Joint_pain",
+      "n_signals": 533,
+      "mean_f_pct": 71.9
+    },
+    {
+      "system": "metabolic_endocrine",
+      "subcategory": "Bone",
+      "n_signals": 169,
+      "mean_f_pct": 69.8
+    },
+    {
+      "system": "neurotoxicity",
+      "subcategory": "Headache_pain",
+      "n_signals": 498,
+      "mean_f_pct": 69.2
+    },
+    {
+      "system": "reproductive",
+      "subcategory": "Female_specific",
+      "n_signals": 162,
+      "mean_f_pct": 68.8
+    },
+    {
+      "system": "musculoskeletal",
+      "subcategory": "Muscle_pain",
+      "n_signals": 726,
+      "mean_f_pct": 68.4
+    },
+    {
+      "system": "metabolic_endocrine",
+      "subcategory": "Weight",
+      "n_signals": 589,
+      "mean_f_pct": 67.8
+    },
+    {
+      "system": "metabolic_endocrine",
+      "subcategory": "Fluid",
+      "n_signals": 597,
+      "mean_f_pct": 67.6
+    }
+  ]
+}
