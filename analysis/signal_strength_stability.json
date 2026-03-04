@@ -1,0 +1,319 @@
+{
+  "report_volume_tiers": [
+    {
+      "tier": "Very Low",
+      "n_signals": 19913,
+      "mean_f_pct": 50.7,
+      "mean_lr": 0.872,
+      "median_reports": 30
+    },
+    {
+      "tier": "Low",
+      "n_signals": 19241,
+      "mean_f_pct": 52.6,
+      "mean_lr": 0.9,
+      "median_reports": 46
+    },
+    {
+      "tier": "Medium",
+      "n_signals": 18761,
+      "mean_f_pct": 55.3,
+      "mean_lr": 0.925,
+      "median_reports": 73
+    },
+    {
+      "tier": "High",
+      "n_signals": 19147,
+      "mean_f_pct": 58.6,
+      "mean_lr": 1.016,
+      "median_reports": 134
+    },
+    {
+      "tier": "Very High",
+      "n_signals": 19219,
+      "mean_f_pct": 73.4,
+      "mean_lr": 1.223,
+      "median_reports": 463
+    }
+  ],
+  "volume_correlations": {
+    "volume_lr_rho": 0.1519,
+    "volume_lr_p": 0.0,
+    "volume_f_rho": 0.3665,
+    "volume_f_p": 0.0
+  },
+  "high_confidence_signals": {
+    "threshold": "\u22651000 reports AND |LR|\u22651.0",
+    "n_signals": 2540,
+    "n_female_biased": 2472,
+    "n_male_biased": 68,
+    "top_signals": [
+      {
+        "drug": "RANITIDINE",
+        "ae": "Prostate cancer",
+        "reports": 54130,
+        "f_pct": 0.6,
+        "abs_lr": 1.17
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Gynaecomastia",
+        "reports": 24407,
+        "f_pct": 0.1,
+        "abs_lr": 1.895
+      },
+      {
+        "drug": "DOCETAXEL",
+        "ae": "Alopecia",
+        "reports": 20319,
+        "f_pct": 98.7,
+        "abs_lr": 2.129
+      },
+      {
+        "drug": "RITUXIMAB",
+        "ae": "Rheumatoid arthritis",
+        "reports": 16146,
+        "f_pct": 92.9,
+        "abs_lr": 1.292
+      },
+      {
+        "drug": "METHOTREXATE",
+        "ae": "Fatigue",
+        "reports": 15768,
+        "f_pct": 88.6,
+        "abs_lr": 1.171
+      },
+      {
+        "drug": "RITUXIMAB",
+        "ae": "Pain",
+        "reports": 13801,
+        "f_pct": 89.7,
+        "abs_lr": 1.588
+      },
+      {
+        "drug": "METHOTREXATE",
+        "ae": "Rash",
+        "reports": 12557,
+        "f_pct": 90.0,
+        "abs_lr": 1.361
+      },
+      {
+        "drug": "RITUXIMAB",
+        "ae": "Fatigue",
+        "reports": 12514,
+        "f_pct": 88.4,
+        "abs_lr": 1.55
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Pain",
+        "reports": 12359,
+        "f_pct": 90.1,
+        "abs_lr": 1.761
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Fatigue",
+        "reports": 12158,
+        "f_pct": 83.5,
+        "abs_lr": 1.266
+      },
+      {
+        "drug": "INFLIXIMAB",
+        "ae": "Fatigue",
+        "reports": 11955,
+        "f_pct": 84.5,
+        "abs_lr": 1.035
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "ae": "Fatigue",
+        "reports": 11804,
+        "f_pct": 96.2,
+        "abs_lr": 1.861
+      },
+      {
+        "drug": "ABATACEPT",
+        "ae": "Fatigue",
+        "reports": 11600,
+        "f_pct": 96.3,
+        "abs_lr": 1.388
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "ae": "Abdominal discomfort",
+        "reports": 11003,
+        "f_pct": 88.8,
+        "abs_lr": 1.052
+      },
+      {
+        "drug": "METHOTREXATE",
+        "ae": "Alopecia",
+        "reports": 10871,
+        "f_pct": 96.8,
+        "abs_lr": 1.107
+      },
+      {
+        "drug": "ETANERCEPT",
+        "ae": "Contraindicated product administered",
+        "reports": 10744,
+        "f_pct": 92.1,
+        "abs_lr": 1.237
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "ae": "Rash",
+        "reports": 10680,
+        "f_pct": 95.6,
+        "abs_lr": 1.753
+      },
+      {
+        "drug": "ABATACEPT",
+        "ae": "Rash",
+        "reports": 10612,
+        "f_pct": 96.4,
+        "abs_lr": 1.436
+      },
+      {
+        "drug": "ETANERCEPT",
+        "ae": "Abdominal discomfort",
+        "reports": 10416,
+        "f_pct": 93.4,
+        "abs_lr": 1.277
+      },
+      {
+        "drug": "METHOTREXATE",
+        "ae": "Contraindicated product administered",
+        "reports": 10294,
+        "f_pct": 91.8,
+        "abs_lr": 1.535
+      }
+    ]
+  },
+  "drug_consistency": {
+    "most_consistent": [
+      {
+        "drug": "ABALOPARATIDE",
+        "n_signals": 31,
+        "cv_f": 0.058,
+        "mean_f_pct": 91.8
+      },
+      {
+        "drug": "PALBOCICLIB",
+        "n_signals": 38,
+        "cv_f": 0.073,
+        "mean_f_pct": 94.3
+      },
+      {
+        "drug": "MIFEPRISTONE",
+        "n_signals": 47,
+        "cv_f": 0.083,
+        "mean_f_pct": 77.6
+      },
+      {
+        "drug": "BUPROPION;NALTREXONE",
+        "n_signals": 23,
+        "cv_f": 0.089,
+        "mean_f_pct": 79.3
+      },
+      {
+        "drug": "VOCLOSPORIN",
+        "n_signals": 22,
+        "cv_f": 0.094,
+        "mean_f_pct": 80.5
+      },
+      {
+        "drug": "TERIPARATIDE",
+        "n_signals": 84,
+        "cv_f": 0.096,
+        "mean_f_pct": 86.2
+      },
+      {
+        "drug": "BRIMONIDINE;TIMOLOL",
+        "n_signals": 20,
+        "cv_f": 0.098,
+        "mean_f_pct": 54.7
+      },
+      {
+        "drug": "ERENUMAB",
+        "n_signals": 68,
+        "cv_f": 0.101,
+        "mean_f_pct": 92.0
+      },
+      {
+        "drug": "TEPROTUMUMAB",
+        "n_signals": 33,
+        "cv_f": 0.101,
+        "mean_f_pct": 66.3
+      },
+      {
+        "drug": "SAPROPTERIN",
+        "n_signals": 20,
+        "cv_f": 0.101,
+        "mean_f_pct": 53.9
+      }
+    ],
+    "most_variable": [
+      {
+        "drug": "DALTEPARIN",
+        "n_signals": 58,
+        "cv_f": 0.61,
+        "mean_f_pct": 37.2
+      },
+      {
+        "drug": "FACTOR VIII",
+        "n_signals": 38,
+        "cv_f": 0.619,
+        "mean_f_pct": 13.1
+      },
+      {
+        "drug": "MELATONIN",
+        "n_signals": 68,
+        "cv_f": 0.644,
+        "mean_f_pct": 39.6
+      },
+      {
+        "drug": "HERBALS, UNSPECIFIED",
+        "n_signals": 24,
+        "cv_f": 0.661,
+        "mean_f_pct": 38.7
+      },
+      {
+        "drug": "SODIUM PHOSPHATE",
+        "n_signals": 42,
+        "cv_f": 0.661,
+        "mean_f_pct": 40.1
+      },
+      {
+        "drug": "CALCITRIOL",
+        "n_signals": 40,
+        "cv_f": 0.699,
+        "mean_f_pct": 34.1
+      },
+      {
+        "drug": "DOBUTAMINE",
+        "n_signals": 28,
+        "cv_f": 0.738,
+        "mean_f_pct": 30.8
+      },
+      {
+        "drug": "TAMSULOSIN",
+        "n_signals": 52,
+        "cv_f": 0.758,
+        "mean_f_pct": 23.3
+      },
+      {
+        "drug": "SODIUM PICOSULFATE",
+        "n_signals": 22,
+        "cv_f": 0.773,
+        "mean_f_pct": 42.3
+      },
+      {
+        "drug": "TESTOSTERONE",
+        "n_signals": 46,
+        "cv_f": 0.795,
+        "mean_f_pct": 25.7
+      }
+    ]
+  }
+}

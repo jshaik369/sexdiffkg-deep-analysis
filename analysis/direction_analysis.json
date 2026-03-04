@@ -1,0 +1,283 @@
+{
+  "direction_column_values": {
+    "female_higher": 51771,
+    "male_higher": 44510
+  },
+  "derived_direction_counts": {
+    "female": 51771,
+    "male": 44510,
+    "pct_female": 53.8
+  },
+  "effect_size_by_direction": {
+    "female_mean_lr": 1.0072,
+    "male_mean_lr": 0.9631,
+    "mwu_p": 2.802259731947894e-41
+  },
+  "direction_fraction_concordance": 76.7,
+  "drug_direction_dominance": {
+    "female_dominant": 806,
+    "male_dominant": 954,
+    "mixed": 418
+  },
+  "top_mixed_drugs": [
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "pct_female_dir": 48.5
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "pct_female_dir": 50.4
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "pct_female_dir": 42.6
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "pct_female_dir": 49.4
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_signals": 487,
+      "pct_female_dir": 56.9
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "pct_female_dir": 52.2
+    },
+    {
+      "drug": "AMLODIPINE",
+      "n_signals": 422,
+      "pct_female_dir": 50.5
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "n_signals": 418,
+      "pct_female_dir": 42.3
+    },
+    {
+      "drug": "CICLOSPORIN",
+      "n_signals": 409,
+      "pct_female_dir": 49.4
+    },
+    {
+      "drug": "PREGABALIN",
+      "n_signals": 406,
+      "pct_female_dir": 53.9
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_signals": 401,
+      "pct_female_dir": 50.6
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "n_signals": 388,
+      "pct_female_dir": 46.4
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "n_signals": 385,
+      "pct_female_dir": 56.9
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_signals": 376,
+      "pct_female_dir": 51.9
+    },
+    {
+      "drug": "IBUPROFEN",
+      "n_signals": 372,
+      "pct_female_dir": 59.4
+    }
+  ],
+  "most_female_aes": [
+    {
+      "ae": "Acute lymphocytic leukaemia recurrent",
+      "n_signals": 20,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 50.8
+    },
+    {
+      "ae": "Bone density decreased",
+      "n_signals": 27,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 67.1
+    },
+    {
+      "ae": "Drug tolerance",
+      "n_signals": 20,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 89.0
+    },
+    {
+      "ae": "Graft versus host disease in gastrointestinal tract",
+      "n_signals": 21,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 47.2
+    },
+    {
+      "ae": "Graft versus host disease in skin",
+      "n_signals": 24,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 49.3
+    },
+    {
+      "ae": "Hyperuricaemia",
+      "n_signals": 26,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 48.8
+    },
+    {
+      "ae": "Multiple fractures",
+      "n_signals": 22,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 59.7
+    },
+    {
+      "ae": "Viral load increased",
+      "n_signals": 36,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 38.5
+    },
+    {
+      "ae": "Viral mutation identified",
+      "n_signals": 36,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 43.2
+    },
+    {
+      "ae": "Virologic failure",
+      "n_signals": 32,
+      "pct_female_dir": 100.0,
+      "mean_f_frac": 40.5
+    },
+    {
+      "ae": "Haemorrhage intracranial",
+      "n_signals": 41,
+      "pct_female_dir": 97.6,
+      "mean_f_frac": 51.4
+    },
+    {
+      "ae": "Hepatitis C",
+      "n_signals": 38,
+      "pct_female_dir": 97.4,
+      "mean_f_frac": 46.9
+    },
+    {
+      "ae": "Osteonecrosis",
+      "n_signals": 57,
+      "pct_female_dir": 96.5,
+      "mean_f_frac": 53.1
+    },
+    {
+      "ae": "Hepatitis B reactivation",
+      "n_signals": 27,
+      "pct_female_dir": 96.3,
+      "mean_f_frac": 48.8
+    },
+    {
+      "ae": "Ileus paralytic",
+      "n_signals": 26,
+      "pct_female_dir": 96.2,
+      "mean_f_frac": 53.2
+    }
+  ],
+  "most_male_aes": [
+    {
+      "ae": "Blood thyroid stimulating hormone increased",
+      "n_signals": 26,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 41.1
+    },
+    {
+      "ae": "Catarrh",
+      "n_signals": 28,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 25.5
+    },
+    {
+      "ae": "Central nervous system lesion",
+      "n_signals": 35,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 48.7
+    },
+    {
+      "ae": "Complication associated with device",
+      "n_signals": 30,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 58.8
+    },
+    {
+      "ae": "Device breakage",
+      "n_signals": 30,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 55.6
+    },
+    {
+      "ae": "Device dislocation",
+      "n_signals": 29,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 61.5
+    },
+    {
+      "ae": "Facial pain",
+      "n_signals": 33,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 56.5
+    },
+    {
+      "ae": "Gingival pain",
+      "n_signals": 34,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 33.8
+    },
+    {
+      "ae": "Hypopnoea",
+      "n_signals": 35,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 28.9
+    },
+    {
+      "ae": "Pain of skin",
+      "n_signals": 61,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 59.5
+    },
+    {
+      "ae": "Sensation of foreign body",
+      "n_signals": 28,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 47.1
+    },
+    {
+      "ae": "Tooth extraction",
+      "n_signals": 22,
+      "pct_female_dir": 0.0,
+      "mean_f_frac": 50.7
+    },
+    {
+      "ae": "Skin irritation",
+      "n_signals": 58,
+      "pct_female_dir": 1.7,
+      "mean_f_frac": 50.7
+    },
+    {
+      "ae": "Abdominal pain lower",
+      "n_signals": 91,
+      "pct_female_dir": 2.2,
+      "mean_f_frac": 58.4
+    },
+    {
+      "ae": "Parosmia",
+      "n_signals": 37,
+      "pct_female_dir": 2.7,
+      "mean_f_frac": 34.5
+    }
+  ]
+}

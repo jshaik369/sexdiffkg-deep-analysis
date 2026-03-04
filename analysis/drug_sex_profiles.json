@@ -1,0 +1,467 @@
+{
+  "n_broad_drugs": 644,
+  "widest_spread_drugs": [
+    {
+      "drug": "MINOXIDIL",
+      "range_pp": 98.3,
+      "min_f": 0.2,
+      "max_f": 98.6,
+      "n_aes": 125
+    },
+    {
+      "drug": "RANITIDINE",
+      "range_pp": 98.1,
+      "min_f": 0.6,
+      "max_f": 98.7,
+      "n_aes": 324
+    },
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "range_pp": 97.2,
+      "min_f": 0.8,
+      "max_f": 98.0,
+      "n_aes": 50
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "range_pp": 95.2,
+      "min_f": 3.4,
+      "max_f": 98.6,
+      "n_aes": 342
+    },
+    {
+      "drug": "QUETIAPINE",
+      "range_pp": 95.2,
+      "min_f": 3.2,
+      "max_f": 98.4,
+      "n_aes": 426
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "range_pp": 94.0,
+      "min_f": 4.2,
+      "max_f": 98.2,
+      "n_aes": 311
+    },
+    {
+      "drug": "ONDANSETRON",
+      "range_pp": 93.9,
+      "min_f": 4.9,
+      "max_f": 98.8,
+      "n_aes": 283
+    },
+    {
+      "drug": "PARACETAMOL",
+      "range_pp": 93.6,
+      "min_f": 6.1,
+      "max_f": 99.7,
+      "n_aes": 487
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "range_pp": 93.6,
+      "min_f": 1.0,
+      "max_f": 94.6,
+      "n_aes": 294
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "range_pp": 93.6,
+      "min_f": 4.1,
+      "max_f": 97.6,
+      "n_aes": 418
+    },
+    {
+      "drug": "TRIAMCINOLONE",
+      "range_pp": 92.9,
+      "min_f": 5.9,
+      "max_f": 98.9,
+      "n_aes": 170
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "range_pp": 92.7,
+      "min_f": 7.0,
+      "max_f": 99.8,
+      "n_aes": 376
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "range_pp": 92.7,
+      "min_f": 7.0,
+      "max_f": 99.7,
+      "n_aes": 318
+    },
+    {
+      "drug": "FLUTICASONE;SALMETEROL",
+      "range_pp": 92.7,
+      "min_f": 5.0,
+      "max_f": 97.6,
+      "n_aes": 252
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "range_pp": 92.7,
+      "min_f": 7.1,
+      "max_f": 99.7,
+      "n_aes": 370
+    },
+    {
+      "drug": "LAMIVUDINE",
+      "range_pp": 92.6,
+      "min_f": 4.9,
+      "max_f": 97.5,
+      "n_aes": 120
+    },
+    {
+      "drug": "MOXIFLOXACIN",
+      "range_pp": 92.6,
+      "min_f": 4.9,
+      "max_f": 97.4,
+      "n_aes": 175
+    },
+    {
+      "drug": "TIOTROPIUM",
+      "range_pp": 92.5,
+      "min_f": 4.9,
+      "max_f": 97.3,
+      "n_aes": 257
+    },
+    {
+      "drug": "CELECOXIB",
+      "range_pp": 92.5,
+      "min_f": 6.7,
+      "max_f": 99.1,
+      "n_aes": 274
+    },
+    {
+      "drug": "ABATACEPT",
+      "range_pp": 92.4,
+      "min_f": 7.2,
+      "max_f": 99.6,
+      "n_aes": 344
+    }
+  ],
+  "narrowest_spread_drugs": [
+    {
+      "drug": "MEBEVERINE",
+      "range_pp": 19.9,
+      "mean_f": 25.4,
+      "n_aes": 52
+    },
+    {
+      "drug": "FACTOR VIII",
+      "range_pp": 25.9,
+      "mean_f": 13.1,
+      "n_aes": 38
+    },
+    {
+      "drug": "PALBOCICLIB",
+      "range_pp": 28.6,
+      "mean_f": 94.3,
+      "n_aes": 38
+    },
+    {
+      "drug": "ABALOPARATIDE",
+      "range_pp": 29.1,
+      "mean_f": 91.8,
+      "n_aes": 31
+    },
+    {
+      "drug": "CALCIUM;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "range_pp": 29.4,
+      "mean_f": 46.4,
+      "n_aes": 34
+    },
+    {
+      "drug": "FOSCARBIDOPA;FOSLEVODOPA",
+      "range_pp": 29.7,
+      "mean_f": 43.6,
+      "n_aes": 38
+    },
+    {
+      "drug": "PEGVALIASE",
+      "range_pp": 30.6,
+      "mean_f": 54.6,
+      "n_aes": 37
+    },
+    {
+      "drug": "TISAGENLECLEUCEL",
+      "range_pp": 31.8,
+      "mean_f": 45.2,
+      "n_aes": 46
+    },
+    {
+      "drug": "VALBENAZINE",
+      "range_pp": 33.6,
+      "mean_f": 61.0,
+      "n_aes": 31
+    },
+    {
+      "drug": "TEPROTUMUMAB",
+      "range_pp": 34.2,
+      "mean_f": 66.3,
+      "n_aes": 33
+    },
+    {
+      "drug": "PRASUGREL",
+      "range_pp": 35.4,
+      "mean_f": 45.9,
+      "n_aes": 50
+    },
+    {
+      "drug": "MIFEPRISTONE",
+      "range_pp": 36.3,
+      "mean_f": 77.6,
+      "n_aes": 47
+    },
+    {
+      "drug": "VIGABATRIN",
+      "range_pp": 37.4,
+      "mean_f": 49.4,
+      "n_aes": 34
+    },
+    {
+      "drug": "GILTERITINIB",
+      "range_pp": 37.5,
+      "mean_f": 53.3,
+      "n_aes": 33
+    },
+    {
+      "drug": "BINIMETINIB",
+      "range_pp": 37.7,
+      "mean_f": 50.5,
+      "n_aes": 34
+    },
+    {
+      "drug": "FLUDARABINE PHOSPHATE",
+      "range_pp": 37.9,
+      "mean_f": 50.5,
+      "n_aes": 37
+    },
+    {
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "range_pp": 38.2,
+      "mean_f": 48.2,
+      "n_aes": 62
+    },
+    {
+      "drug": "EMTRICITABINE;RILPIVIRINE;TENOFOVIR",
+      "range_pp": 40.9,
+      "mean_f": 31.3,
+      "n_aes": 38
+    },
+    {
+      "drug": "OXYMORPHONE",
+      "range_pp": 41.4,
+      "mean_f": 45.2,
+      "n_aes": 50
+    },
+    {
+      "drug": "BOSUTINIB",
+      "range_pp": 41.4,
+      "mean_f": 51.9,
+      "n_aes": 34
+    }
+  ],
+  "most_divergent_drug_pairs": [
+    {
+      "drug1": "CERTOLIZUMAB",
+      "drug2": "CLOZAPINE",
+      "n_shared_aes": 45,
+      "mean_f_diff": 47.6,
+      "abs_diff": 47.6
+    },
+    {
+      "drug1": "TOFACITINIB",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 71,
+      "mean_f_diff": 47.5,
+      "abs_diff": 47.5
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "CLOZAPINE",
+      "n_shared_aes": 54,
+      "mean_f_diff": 45.2,
+      "abs_diff": 45.2
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 115,
+      "mean_f_diff": 44.6,
+      "abs_diff": 44.6
+    },
+    {
+      "drug1": "CERTOLIZUMAB",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 86,
+      "mean_f_diff": 44.2,
+      "abs_diff": 44.2
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 90,
+      "mean_f_diff": 43.3,
+      "abs_diff": 43.3
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 104,
+      "mean_f_diff": 43.1,
+      "abs_diff": 43.1
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 103,
+      "mean_f_diff": 42.6,
+      "abs_diff": 42.6
+    },
+    {
+      "drug1": "CERTOLIZUMAB",
+      "drug2": "CYTARABINE",
+      "n_shared_aes": 33,
+      "mean_f_diff": 42.4,
+      "abs_diff": 42.4
+    },
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "CELECOXIB",
+      "n_shared_aes": 91,
+      "mean_f_diff": -42.3,
+      "abs_diff": 42.3
+    },
+    {
+      "drug1": "TOFACITINIB",
+      "drug2": "CLOZAPINE",
+      "n_shared_aes": 44,
+      "mean_f_diff": 42.0,
+      "abs_diff": 42.0
+    },
+    {
+      "drug1": "CERTOLIZUMAB",
+      "drug2": "VINCRISTINE",
+      "n_shared_aes": 43,
+      "mean_f_diff": 41.8,
+      "abs_diff": 41.8
+    },
+    {
+      "drug1": "TOFACITINIB",
+      "drug2": "VINCRISTINE",
+      "n_shared_aes": 39,
+      "mean_f_diff": 41.7,
+      "abs_diff": 41.7
+    },
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "PACLITAXEL",
+      "n_shared_aes": 54,
+      "mean_f_diff": -41.0,
+      "abs_diff": 41.0
+    },
+    {
+      "drug1": "SULFASALAZINE",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 94,
+      "mean_f_diff": 40.7,
+      "abs_diff": 40.7
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "VINCRISTINE",
+      "n_shared_aes": 51,
+      "mean_f_diff": 40.6,
+      "abs_diff": 40.6
+    },
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "VITAMIN B9",
+      "n_shared_aes": 90,
+      "mean_f_diff": -40.6,
+      "abs_diff": 40.6
+    },
+    {
+      "drug1": "CELECOXIB",
+      "drug2": "CYTARABINE",
+      "n_shared_aes": 34,
+      "mean_f_diff": 40.4,
+      "abs_diff": 40.4
+    },
+    {
+      "drug1": "METHYLPREDNISOLONE",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 117,
+      "mean_f_diff": 40.3,
+      "abs_diff": 40.3
+    },
+    {
+      "drug1": "LEFLUNOMIDE",
+      "drug2": "LEUPRORELIN",
+      "n_shared_aes": 107,
+      "mean_f_diff": 40.2,
+      "abs_diff": 40.2
+    }
+  ],
+  "drug_class_signatures": {
+    "ICIs": {
+      "n_drugs": 5,
+      "n_signals": 921,
+      "mean_f_pct": 47.1,
+      "std_f_pct": 13.2,
+      "mean_lr": 0.834,
+      "within_class_range": 13.9
+    },
+    "Anti-TNF": {
+      "n_drugs": 5,
+      "n_signals": 2696,
+      "mean_f_pct": 69.1,
+      "std_f_pct": 20.6,
+      "mean_lr": 1.054,
+      "within_class_range": 15.2
+    },
+    "SSRIs": {
+      "n_drugs": 5,
+      "n_signals": 1146,
+      "mean_f_pct": 57.9,
+      "std_f_pct": 20.2,
+      "mean_lr": 0.951,
+      "within_class_range": 10.8
+    },
+    "Statins": {
+      "n_drugs": 4,
+      "n_signals": 1053,
+      "mean_f_pct": 52.0,
+      "std_f_pct": 20.7,
+      "mean_lr": 0.947,
+      "within_class_range": 3.4
+    },
+    "NSAIDs": {
+      "n_drugs": 6,
+      "n_signals": 1477,
+      "mean_f_pct": 69.8,
+      "std_f_pct": 22.3,
+      "mean_lr": 1.158,
+      "within_class_range": 18.0
+    },
+    "DOACs": {
+      "n_drugs": 4,
+      "n_signals": 744,
+      "mean_f_pct": 52.8,
+      "std_f_pct": 15.6,
+      "mean_lr": 0.825,
+      "within_class_range": 4.3
+    },
+    "PPIs": {
+      "n_drugs": 4,
+      "n_signals": 1368,
+      "mean_f_pct": 62.4,
+      "std_f_pct": 22.0,
+      "mean_lr": 1.007,
+      "within_class_range": 5.0
+    }
+  }
+}
