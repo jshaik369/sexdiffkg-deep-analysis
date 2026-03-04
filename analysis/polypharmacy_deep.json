@@ -1,0 +1,83 @@
+{
+  "breadth_quartiles": [
+    {
+      "quartile": "Q1 (narrow)",
+      "n_drugs": 547,
+      "mean_aes": 1,
+      "mean_f_pct": 53.4
+    },
+    {
+      "quartile": "Q2",
+      "n_drugs": 574,
+      "mean_aes": 6,
+      "mean_f_pct": 54.1
+    },
+    {
+      "quartile": "Q3",
+      "n_drugs": 516,
+      "mean_aes": 22,
+      "mean_f_pct": 55.0
+    },
+    {
+      "quartile": "Q4 (broad)",
+      "n_drugs": 541,
+      "mean_aes": 150,
+      "mean_f_pct": 56.9
+    }
+  ],
+  "ae_sharing_sex_correlation": {
+    "rho": 0.1431,
+    "p": 1.29e-24
+  },
+  "jaccard_sex_correlation": {
+    "rho": -0.3558,
+    "p": 1.99e-14
+  },
+  "most_shared_aes": [
+    {
+      "ae": "Drug ineffective",
+      "n_drugs": 501,
+      "mean_f_pct": 57.0
+    },
+    {
+      "ae": "Off label use",
+      "n_drugs": 445,
+      "mean_f_pct": 59.0
+    },
+    {
+      "ae": "Condition aggravated",
+      "n_drugs": 392,
+      "mean_f_pct": 52.0
+    },
+    {
+      "ae": "Vomiting",
+      "n_drugs": 362,
+      "mean_f_pct": 63.0
+    },
+    {
+      "ae": "Death",
+      "n_drugs": 337,
+      "mean_f_pct": 46.0
+    },
+    {
+      "ae": "Fatigue",
+      "n_drugs": 332,
+      "mean_f_pct": 69.0
+    },
+    {
+      "ae": "Headache",
+      "n_drugs": 327,
+      "mean_f_pct": 68.0
+    },
+    {
+      "ae": "Pain",
+      "n_drugs": 327,
+      "mean_f_pct": 72.0
+    }
+  ],
+  "key_findings": {
+    "broader_drugs_more_female": true,
+    "similar_drugs_similar_sex": true,
+    "death_male_biased": true
+  }
+}

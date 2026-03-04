@@ -1,0 +1,710 @@
+{
+  "top_effect_size": [
+    {
+      "drug": "TESTOSTERONE",
+      "ae": "Prostatic disorder",
+      "abs_lr": 8.869,
+      "f_pct": 54.3,
+      "reports": 46
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "abs_lr": 7.391,
+      "f_pct": 52.4,
+      "reports": 21
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Foetal exposure during pregnancy",
+      "abs_lr": 6.568,
+      "f_pct": 42.9,
+      "reports": 70
+    },
+    {
+      "drug": "HYDROXYPROGESTERONE",
+      "ae": "Abortion spontaneous",
+      "abs_lr": 6.456,
+      "f_pct": 89.7,
+      "reports": 117
+    },
+    {
+      "drug": "MINOXIDIL",
+      "ae": "Adverse drug reaction",
+      "abs_lr": 6.448,
+      "f_pct": 0.2,
+      "reports": 8480
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Embedded device",
+      "abs_lr": 6.447,
+      "f_pct": 23.6,
+      "reports": 717
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Premature baby",
+      "abs_lr": 6.421,
+      "f_pct": 43.9,
+      "reports": 41
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Device expulsion",
+      "abs_lr": 6.412,
+      "f_pct": 37.8,
+      "reports": 127
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Injury associated with device",
+      "abs_lr": 6.327,
+      "f_pct": 72.7,
+      "reports": 55
+    },
+    {
+      "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+      "ae": "Medical device discomfort",
+      "abs_lr": 6.03,
+      "f_pct": 84.0,
+      "reports": 119
+    },
+    {
+      "drug": "TRASTUZUMAB",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "abs_lr": 5.865,
+      "f_pct": 65.5,
+      "reports": 29
+    },
+    {
+      "drug": "ESTRADIOL",
+      "ae": "Invasive ductal breast carcinoma",
+      "abs_lr": 5.865,
+      "f_pct": 80.8,
+      "reports": 52
+    },
+    {
+      "drug": "VITAMIN B12",
+      "ae": "Abortion spontaneous",
+      "abs_lr": 5.858,
+      "f_pct": 68.6,
+      "reports": 35
+    },
+    {
+      "drug": "FEZOLINETANT",
+      "ae": "Off label use",
+      "abs_lr": 5.744,
+      "f_pct": 80.2,
+      "reports": 81
+    },
+    {
+      "drug": "LABETALOL",
+      "ae": "Abortion spontaneous",
+      "abs_lr": 5.679,
+      "f_pct": 76.2,
+      "reports": 63
+    },
+    {
+      "drug": "HISTRELIN",
+      "ae": "Device expulsion",
+      "abs_lr": 5.598,
+      "f_pct": 65.6,
+      "reports": 32
+    },
+    {
+      "drug": "TAMOXIFEN",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "abs_lr": 5.562,
+      "f_pct": 81.5,
+      "reports": 54
+    },
+    {
+      "drug": "HYDROXYPROGESTERONE",
+      "ae": "Stillbirth",
+      "abs_lr": 5.54,
+      "f_pct": 57.7,
+      "reports": 123
+    },
+    {
+      "drug": "VITAMIN B9",
+      "ae": "Abortion spontaneous",
+      "abs_lr": 5.506,
+      "f_pct": 87.6,
+      "reports": 113
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Infusion related reaction",
+      "abs_lr": 5.496,
+      "f_pct": 99.6,
+      "reports": 2533
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Accidental exposure to product",
+      "abs_lr": 5.491,
+      "f_pct": 76.7,
+      "reports": 43
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "ae": "Stress",
+      "abs_lr": 5.456,
+      "f_pct": 19.7,
+      "reports": 61
+    },
+    {
+      "drug": "CLOZAPINE",
+      "ae": "Gynaecomastia",
+      "abs_lr": 5.448,
+      "f_pct": 26.2,
+      "reports": 42
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "ae": "Oligohydramnios",
+      "abs_lr": 5.445,
+      "f_pct": 62.1,
+      "reports": 29
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Pericarditis",
+      "abs_lr": 5.396,
+      "f_pct": 99.6,
+      "reports": 2519
+    },
+    {
+      "drug": "DENOSUMAB",
+      "ae": "Peri-implantitis",
+      "abs_lr": 5.346,
+      "f_pct": 48.1,
+      "reports": 27
+    },
+    {
+      "drug": "DUTASTERIDE",
+      "ae": "Product prescribing issue",
+      "abs_lr": 5.089,
+      "f_pct": 90.9,
+      "reports": 132
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Blister",
+      "abs_lr": 5.056,
+      "f_pct": 99.4,
+      "reports": 2936
+    },
+    {
+      "drug": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+      "ae": "Dyspareunia",
+      "abs_lr": 4.989,
+      "f_pct": 96.4,
+      "reports": 854
+    },
+    {
+      "drug": "LEVONORGESTREL",
+      "ae": "Foetal exposure during pregnancy",
+      "abs_lr": 4.946,
+      "f_pct": 69.7,
+      "reports": 33
+    }
+  ],
+  "top_combined_score": [
+    {
+      "drug": "MINOXIDIL",
+      "ae": "Adverse drug reaction",
+      "combined_score": 58.3,
+      "abs_lr": 6.448,
+      "f_pct": 0.2,
+      "reports": 8480
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Infusion related reaction",
+      "combined_score": 43.1,
+      "abs_lr": 5.496,
+      "f_pct": 99.6,
+      "reports": 2533
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Embedded device",
+      "combined_score": 42.4,
+      "abs_lr": 6.447,
+      "f_pct": 23.6,
+      "reports": 717
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Pericarditis",
+      "combined_score": 42.3,
+      "abs_lr": 5.396,
+      "f_pct": 99.6,
+      "reports": 2519
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "ae": "Pemphigus",
+      "combined_score": 41.8,
+      "abs_lr": 4.743,
+      "f_pct": 99.8,
+      "reports": 6782
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Abnormal weight gain",
+      "combined_score": 41.8,
+      "abs_lr": 4.564,
+      "f_pct": 0.7,
+      "reports": 9412
+    },
+    {
+      "drug": "METHOTREXATE",
+      "ae": "Glossodynia",
+      "combined_score": 41.4,
+      "abs_lr": 4.745,
+      "f_pct": 99.8,
+      "reports": 6118
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Blister",
+      "combined_score": 40.4,
+      "abs_lr": 5.056,
+      "f_pct": 99.4,
+      "reports": 2936
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "ae": "Pericarditis",
+      "combined_score": 40.0,
+      "abs_lr": 4.81,
+      "f_pct": 99.7,
+      "reports": 4072
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Pericarditis",
+      "combined_score": 39.7,
+      "abs_lr": 4.77,
+      "f_pct": 99.8,
+      "reports": 4079
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Emotional disorder",
+      "combined_score": 39.6,
+      "abs_lr": 4.578,
+      "f_pct": 0.7,
+      "reports": 5774
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Duodenal ulcer perforation",
+      "combined_score": 39.2,
+      "abs_lr": 4.828,
+      "f_pct": 99.7,
+      "reports": 3349
+    },
+    {
+      "drug": "METHOTREXATE",
+      "ae": "Pemphigus",
+      "combined_score": 38.5,
+      "abs_lr": 4.371,
+      "f_pct": 99.7,
+      "reports": 6702
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Impaired healing",
+      "combined_score": 38.4,
+      "abs_lr": 4.808,
+      "f_pct": 99.3,
+      "reports": 2955
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Glossodynia",
+      "combined_score": 38.2,
+      "abs_lr": 4.384,
+      "f_pct": 99.4,
+      "reports": 6116
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Helicobacter infection",
+      "combined_score": 38.2,
+      "abs_lr": 4.708,
+      "f_pct": 99.6,
+      "reports": 3307
+    },
+    {
+      "drug": "ETANERCEPT",
+      "ae": "Glossodynia",
+      "combined_score": 38.1,
+      "abs_lr": 4.349,
+      "f_pct": 99.8,
+      "reports": 6301
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "ae": "Glossodynia",
+      "combined_score": 38.0,
+      "abs_lr": 4.365,
+      "f_pct": 99.6,
+      "reports": 5987
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Pericarditis",
+      "combined_score": 37.0,
+      "abs_lr": 4.449,
+      "f_pct": 99.7,
+      "reports": 4116
+    },
+    {
+      "drug": "CETIRIZINE",
+      "ae": "Arthropathy",
+      "combined_score": 36.7,
+      "abs_lr": 4.41,
+      "f_pct": 99.7,
+      "reports": 4088
+    },
+    {
+      "drug": "VITAMIN B9",
+      "ae": "Pericarditis",
+      "combined_score": 36.6,
+      "abs_lr": 4.487,
+      "f_pct": 99.7,
+      "reports": 3503
+    },
+    {
+      "drug": "CETIRIZINE",
+      "ae": "Hepatic enzyme increased",
+      "combined_score": 36.6,
+      "abs_lr": 4.433,
+      "f_pct": 99.6,
+      "reports": 3861
+    },
+    {
+      "drug": "VITAMIN B9",
+      "ae": "Wound",
+      "combined_score": 36.2,
+      "abs_lr": 4.402,
+      "f_pct": 99.7,
+      "reports": 3740
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Wound",
+      "combined_score": 35.9,
+      "abs_lr": 4.226,
+      "f_pct": 99.7,
+      "reports": 4932
+    },
+    {
+      "drug": "CETIRIZINE",
+      "ae": "Joint swelling",
+      "combined_score": 34.9,
+      "abs_lr": 4.215,
+      "f_pct": 99.7,
+      "reports": 3908
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "ae": "Wound",
+      "combined_score": 34.6,
+      "abs_lr": 4.074,
+      "f_pct": 99.5,
+      "reports": 4907
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Pericarditis",
+      "combined_score": 34.6,
+      "abs_lr": 4.131,
+      "f_pct": 99.6,
+      "reports": 4345
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Discomfort",
+      "combined_score": 34.5,
+      "abs_lr": 4.191,
+      "f_pct": 99.7,
+      "reports": 3763
+    },
+    {
+      "drug": "CETIRIZINE",
+      "ae": "Contraindicated product administered",
+      "combined_score": 34.3,
+      "abs_lr": 4.148,
+      "f_pct": 99.6,
+      "reports": 3899
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "ae": "Confusional state",
+      "combined_score": 34.3,
+      "abs_lr": 4.303,
+      "f_pct": 99.5,
+      "reports": 2881
+    }
+  ],
+  "extreme_female": {
+    "n_signals": 7457,
+    "top": [
+      {
+        "drug": "DOCETAXEL",
+        "ae": "Alopecia",
+        "f_pct": 98.7,
+        "reports": 20319
+      },
+      {
+        "drug": "RITUXIMAB",
+        "ae": "Rheumatoid arthritis",
+        "f_pct": 92.9,
+        "reports": 16146
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "ae": "Pain",
+        "f_pct": 91.2,
+        "reports": 16089
+      },
+      {
+        "drug": "INFLIXIMAB",
+        "ae": "Rheumatoid arthritis",
+        "f_pct": 92.0,
+        "reports": 13859
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "ae": "Arthralgia",
+        "f_pct": 90.1,
+        "reports": 13829
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "ae": "Alopecia",
+        "f_pct": 94.8,
+        "reports": 12867
+      },
+      {
+        "drug": "METHOTREXATE",
+        "ae": "Rash",
+        "f_pct": 90.0,
+        "reports": 12557
+      },
+      {
+        "drug": "PREDNISONE",
+        "ae": "Pain",
+        "f_pct": 90.1,
+        "reports": 12359
+      },
+      {
+        "drug": "CERTOLIZUMAB",
+        "ae": "Pain",
+        "f_pct": 92.1,
+        "reports": 12220
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "ae": "Fatigue",
+        "f_pct": 96.2,
+        "reports": 11804
+      },
+      {
+        "drug": "ABATACEPT",
+        "ae": "Fatigue",
+        "f_pct": 96.3,
+        "reports": 11600
+      },
+      {
+        "drug": "ETANERCEPT",
+        "ae": "Alopecia",
+        "f_pct": 96.7,
+        "reports": 11257
+      },
+      {
+        "drug": "ABATACEPT",
+        "ae": "Contraindicated product administered",
+        "f_pct": 92.2,
+        "reports": 11201
+      },
+      {
+        "drug": "PALBOCICLIB",
+        "ae": "White blood cell count decreased",
+        "f_pct": 98.8,
+        "reports": 11102
+      },
+      {
+        "drug": "ETANERCEPT",
+        "ae": "Hypersensitivity",
+        "f_pct": 90.2,
+        "reports": 11061
+      },
+      {
+        "drug": "METHOTREXATE",
+        "ae": "Alopecia",
+        "f_pct": 96.8,
+        "reports": 10871
+      },
+      {
+        "drug": "ETANERCEPT",
+        "ae": "Contraindicated product administered",
+        "f_pct": 92.1,
+        "reports": 10744
+      },
+      {
+        "drug": "ETANERCEPT",
+        "ae": "Swelling",
+        "f_pct": 91.7,
+        "reports": 10712
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "ae": "Rash",
+        "f_pct": 95.6,
+        "reports": 10680
+      },
+      {
+        "drug": "ADALIMUMAB",
+        "ae": "Systemic lupus erythematosus",
+        "f_pct": 95.2,
+        "reports": 10643
+      }
+    ]
+  },
+  "extreme_male": {
+    "n_signals": 519,
+    "top": [
+      {
+        "drug": "RANITIDINE",
+        "ae": "Prostate cancer",
+        "f_pct": 0.6,
+        "reports": 54130
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Gynaecomastia",
+        "f_pct": 0.1,
+        "reports": 24407
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Abnormal weight gain",
+        "f_pct": 0.7,
+        "reports": 9412
+      },
+      {
+        "drug": "ENZALUTAMIDE",
+        "ae": "Fatigue",
+        "f_pct": 0.3,
+        "reports": 9182
+      },
+      {
+        "drug": "MINOXIDIL",
+        "ae": "Adverse drug reaction",
+        "f_pct": 0.2,
+        "reports": 8480
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "ae": "Death",
+        "f_pct": 1.0,
+        "reports": 8397
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "ae": "Intercepted product preparation error",
+        "f_pct": 5.5,
+        "reports": 7136
+      },
+      {
+        "drug": "SILDENAFIL",
+        "ae": "Drug ineffective",
+        "f_pct": 7.5,
+        "reports": 6533
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "ae": "Syringe issue",
+        "f_pct": 5.7,
+        "reports": 6312
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Emotional disorder",
+        "f_pct": 0.7,
+        "reports": 5774
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Product use in unapproved indication",
+        "f_pct": 9.4,
+        "reports": 5429
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "ae": "Device leakage",
+        "f_pct": 6.4,
+        "reports": 4959
+      },
+      {
+        "drug": "LEUPRORELIN",
+        "ae": "Wrong technique in product usage process",
+        "f_pct": 5.1,
+        "reports": 4058
+      },
+      {
+        "drug": "EMICIZUMAB",
+        "ae": "Haemorrhage",
+        "f_pct": 2.1,
+        "reports": 3445
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Emotional distress",
+        "f_pct": 1.4,
+        "reports": 3206
+      },
+      {
+        "drug": "ENZALUTAMIDE",
+        "ae": "Hot flush",
+        "f_pct": 0.3,
+        "reports": 3102
+      },
+      {
+        "drug": "ENZALUTAMIDE",
+        "ae": "Nausea",
+        "f_pct": 0.7,
+        "reports": 3083
+      },
+      {
+        "drug": "RISPERIDONE",
+        "ae": "Obesity",
+        "f_pct": 2.5,
+        "reports": 3030
+      },
+      {
+        "drug": "TADALAFIL",
+        "ae": "Drug ineffective",
+        "f_pct": 9.1,
+        "reports": 2912
+      },
+      {
+        "drug": "TESTOSTERONE",
+        "ae": "Drug ineffective",
+        "f_pct": 1.4,
+        "reports": 2843
+      }
+    ]
+  },
+  "paradoxical_signals": {
+    "female_aes_male_predominant": 7,
+    "male_aes_female_unexpected": 1
+  }
+}
