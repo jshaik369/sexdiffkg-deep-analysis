@@ -1,0 +1,1706 @@
+{
+  "analysis": "clinical_significance_scoring",
+  "top_50_signals": [
+    {
+      "drug": "LEUPRORELIN",
+      "ae": "Death",
+      "clinical_score": 114.4,
+      "log_ratio": -2.92,
+      "severity_score": 10,
+      "total_reports": 8397,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ABATACEPT",
+      "ae": "Apparent death",
+      "clinical_score": 110.9,
+      "log_ratio": -4.47,
+      "severity_score": 10,
+      "total_reports": 304,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Apparent death",
+      "clinical_score": 109.5,
+      "log_ratio": -4.39,
+      "severity_score": 10,
+      "total_reports": 311,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Apparent death",
+      "clinical_score": 106.6,
+      "log_ratio": -4.3,
+      "severity_score": 10,
+      "total_reports": 299,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Apparent death",
+      "clinical_score": 96.1,
+      "log_ratio": -4.03,
+      "severity_score": 10,
+      "total_reports": 242,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "ae": "Apparent death",
+      "clinical_score": 95.9,
+      "log_ratio": -3.86,
+      "severity_score": 10,
+      "total_reports": 304,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "Apparent death",
+      "clinical_score": 91.4,
+      "log_ratio": -4.09,
+      "severity_score": 10,
+      "total_reports": 170,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "ae": "Apparent death",
+      "clinical_score": 87.0,
+      "log_ratio": -4.06,
+      "severity_score": 10,
+      "total_reports": 137,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "METHOTREXATE",
+      "ae": "Apparent death",
+      "clinical_score": 78.2,
+      "log_ratio": -3.16,
+      "severity_score": 10,
+      "total_reports": 296,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "ae": "Apparent death",
+      "clinical_score": 75.4,
+      "log_ratio": -3.02,
+      "severity_score": 10,
+      "total_reports": 313,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "GOSERELIN",
+      "ae": "Death",
+      "clinical_score": 73.4,
+      "log_ratio": -2.58,
+      "severity_score": 10,
+      "total_reports": 690,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 72.9,
+      "log_ratio": -4.05,
+      "severity_score": 8,
+      "total_reports": 177,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ETANERCEPT",
+      "ae": "Apparent death",
+      "clinical_score": 71.2,
+      "log_ratio": -2.79,
+      "severity_score": 10,
+      "total_reports": 358,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "TRIPTORELIN",
+      "ae": "Death",
+      "clinical_score": 71.0,
+      "log_ratio": -2.79,
+      "severity_score": 10,
+      "total_reports": 350,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 67.7,
+      "log_ratio": -4.8,
+      "severity_score": 8,
+      "total_reports": 57,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "MAGNESIUM",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 66.9,
+      "log_ratio": -3.65,
+      "severity_score": 8,
+      "total_reports": 195,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 65.5,
+      "log_ratio": -3.04,
+      "severity_score": 8,
+      "total_reports": 492,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "Renal failure",
+      "clinical_score": 65.0,
+      "log_ratio": -3.61,
+      "severity_score": 8,
+      "total_reports": 177,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ANAKINRA",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 64.8,
+      "log_ratio": -3.18,
+      "severity_score": 8,
+      "total_reports": 348,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "CORTISONE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 63.6,
+      "log_ratio": -3.84,
+      "severity_score": 8,
+      "total_reports": 116,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "RITUXIMAB",
+      "ae": "Apparent death",
+      "clinical_score": 62.6,
+      "log_ratio": -2.52,
+      "severity_score": 10,
+      "total_reports": 303,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ANAKINRA",
+      "ae": "Renal failure",
+      "clinical_score": 62.2,
+      "log_ratio": -3.05,
+      "severity_score": 8,
+      "total_reports": 356,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "TOFACITINIB",
+      "ae": "Apparent death",
+      "clinical_score": 60.5,
+      "log_ratio": -3.1,
+      "severity_score": 10,
+      "total_reports": 89,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SODIUM CHLORIDE",
+      "ae": "Agranulocytosis",
+      "clinical_score": 60.0,
+      "log_ratio": 3.13,
+      "severity_score": 7,
+      "total_reports": 544,
+      "direction": "female_higher"
+    },
+    {
+      "drug": "IRON",
+      "ae": "Ventricular fibrillation",
+      "clinical_score": 59.8,
+      "log_ratio": -3.3,
+      "severity_score": 8,
+      "total_reports": 183,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "ae": "Apparent death",
+      "clinical_score": 59.2,
+      "log_ratio": -2.27,
+      "severity_score": 10,
+      "total_reports": 404,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 58.8,
+      "log_ratio": -3.29,
+      "severity_score": 8,
+      "total_reports": 170,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "TESTOSTERONE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 55.6,
+      "log_ratio": -2.08,
+      "severity_score": 8,
+      "total_reports": 2207,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ALENDRONIC ACID;VITAMIN D3",
+      "ae": "Cardiac failure congestive",
+      "clinical_score": 55.4,
+      "log_ratio": -3.6,
+      "severity_score": 8,
+      "total_reports": 83,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "CANAKINUMAB",
+      "ae": "Renal failure",
+      "clinical_score": 54.9,
+      "log_ratio": -2.77,
+      "severity_score": 8,
+      "total_reports": 300,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "METRONIDAZOLE",
+      "ae": "Ventricular fibrillation",
+      "clinical_score": 54.9,
+      "log_ratio": -2.9,
+      "severity_score": 8,
+      "total_reports": 233,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "CALCIUM",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 54.4,
+      "log_ratio": -2.89,
+      "severity_score": 8,
+      "total_reports": 224,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "ae": "Renal failure",
+      "clinical_score": 53.9,
+      "log_ratio": -3.01,
+      "severity_score": 8,
+      "total_reports": 171,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "VITAMIN C",
+      "ae": "Death",
+      "clinical_score": 53.6,
+      "log_ratio": -2.71,
+      "severity_score": 10,
+      "total_reports": 94,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SILDENAFIL",
+      "ae": "Death",
+      "clinical_score": 53.0,
+      "log_ratio": 1.54,
+      "severity_score": 10,
+      "total_reports": 2796,
+      "direction": "female_higher"
+    },
+    {
+      "drug": "TRIAMCINOLONE",
+      "ae": "Death",
+      "clinical_score": 52.5,
+      "log_ratio": 2.37,
+      "severity_score": 10,
+      "total_reports": 164,
+      "direction": "female_higher"
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 52.5,
+      "log_ratio": -2.45,
+      "severity_score": 8,
+      "total_reports": 471,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Renal failure",
+      "clinical_score": 52.3,
+      "log_ratio": -2.43,
+      "severity_score": 8,
+      "total_reports": 492,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ABATACEPT",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 51.1,
+      "log_ratio": -2.33,
+      "severity_score": 8,
+      "total_reports": 552,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "ae": "Death",
+      "clinical_score": 51.1,
+      "log_ratio": -2.36,
+      "severity_score": 10,
+      "total_reports": 146,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "BISACODYL",
+      "ae": "Ventricular fibrillation",
+      "clinical_score": 49.4,
+      "log_ratio": -2.69,
+      "severity_score": 8,
+      "total_reports": 197,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "ae": "Ventricular fibrillation",
+      "clinical_score": 48.8,
+      "log_ratio": -2.6,
+      "severity_score": 8,
+      "total_reports": 219,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 47.9,
+      "log_ratio": -2.57,
+      "severity_score": 8,
+      "total_reports": 211,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "LETROZOLE",
+      "ae": "Cardio-respiratory arrest",
+      "clinical_score": 47.1,
+      "log_ratio": -4.21,
+      "severity_score": 8,
+      "total_reports": 24,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 46.6,
+      "log_ratio": -2.23,
+      "severity_score": 8,
+      "total_reports": 403,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "FORMOTEROL;MOMETASONE",
+      "ae": "Pulmonary embolism",
+      "clinical_score": 45.6,
+      "log_ratio": -2.42,
+      "severity_score": 8,
+      "total_reports": 226,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "LOSARTAN",
+      "ae": "Cardiac failure congestive",
+      "clinical_score": 45.1,
+      "log_ratio": 2.32,
+      "severity_score": 8,
+      "total_reports": 267,
+      "direction": "female_higher"
+    },
+    {
+      "drug": "GLUCOSE",
+      "ae": "Ventricular fibrillation",
+      "clinical_score": 45.0,
+      "log_ratio": -2.41,
+      "severity_score": 8,
+      "total_reports": 217,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ABATACEPT",
+      "ae": "Renal failure",
+      "clinical_score": 44.8,
+      "log_ratio": -2.05,
+      "severity_score": 8,
+      "total_reports": 542,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Renal failure",
+      "clinical_score": 44.5,
+      "log_ratio": -2.01,
+      "severity_score": 8,
+      "total_reports": 580,
+      "direction": "male_higher"
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "total_score": 2627.0,
+      "max_score": 19.9,
+      "n_severe": 24,
+      "n_signals": 926,
+      "pct_female": 70.2
+    },
+    {
+      "drug": "RITUXIMAB",
+      "total_score": 2445.0,
+      "max_score": 62.6,
+      "n_severe": 15,
+      "n_signals": 755,
+      "pct_female": 66.6
+    },
+    {
+      "drug": "METHOTREXATE",
+      "total_score": 2348.0,
+      "max_score": 78.2,
+      "n_severe": 27,
+      "n_signals": 892,
+      "pct_female": 48.5
+    },
+    {
+      "drug": "OXYCODONE",
+      "total_score": 1900.0,
+      "max_score": 20.2,
+      "n_severe": 20,
+      "n_signals": 492,
+      "pct_female": 85.0
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "total_score": 1831.0,
+      "max_score": 95.9,
+      "n_severe": 18,
+      "n_signals": 508,
+      "pct_female": 49.4
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "total_score": 1820.0,
+      "max_score": 75.4,
+      "n_severe": 10,
+      "n_signals": 623,
+      "pct_female": 50.4
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "total_score": 1788.0,
+      "max_score": 59.2,
+      "n_severe": 15,
+      "n_signals": 807,
+      "pct_female": 38.2
+    },
+    {
+      "drug": "RISPERIDONE",
+      "total_score": 1732.0,
+      "max_score": 36.5,
+      "n_severe": 26,
+      "n_signals": 518,
+      "pct_female": 92.9
+    },
+    {
+      "drug": "ETANERCEPT",
+      "total_score": 1678.0,
+      "max_score": 71.2,
+      "n_severe": 17,
+      "n_signals": 618,
+      "pct_female": 42.6
+    },
+    {
+      "drug": "PARACETAMOL",
+      "total_score": 1574.0,
+      "max_score": 32.1,
+      "n_severe": 12,
+      "n_signals": 487,
+      "pct_female": 56.9
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "total_score": 1562.0,
+      "max_score": 19.3,
+      "n_severe": 17,
+      "n_signals": 521,
+      "pct_female": 77.2
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "total_score": 1562.0,
+      "max_score": 96.1,
+      "n_severe": 14,
+      "n_signals": 376,
+      "pct_female": 51.9
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "total_score": 1511.0,
+      "max_score": 109.5,
+      "n_severe": 13,
+      "n_signals": 370,
+      "pct_female": 41.9
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "total_score": 1463.0,
+      "max_score": 17.9,
+      "n_severe": 18,
+      "n_signals": 507,
+      "pct_female": 76.3
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "total_score": 1450.0,
+      "max_score": 106.6,
+      "n_severe": 12,
+      "n_signals": 318,
+      "pct_female": 46.5
+    },
+    {
+      "drug": "ABATACEPT",
+      "total_score": 1443.0,
+      "max_score": 110.9,
+      "n_severe": 11,
+      "n_signals": 344,
+      "pct_female": 45.1
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "total_score": 1406.0,
+      "max_score": 14.8,
+      "n_severe": 10,
+      "n_signals": 501,
+      "pct_female": 60.3
+    },
+    {
+      "drug": "DICLOFENAC",
+      "total_score": 1397.0,
+      "max_score": 14.5,
+      "n_severe": 4,
+      "n_signals": 401,
+      "pct_female": 50.6
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "total_score": 1316.0,
+      "max_score": 32.0,
+      "n_severe": 37,
+      "n_signals": 498,
+      "pct_female": 64.7
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "total_score": 1277.0,
+      "max_score": 17.4,
+      "n_severe": 3,
+      "n_signals": 334,
+      "pct_female": 55.7
+    },
+    {
+      "drug": "RANITIDINE",
+      "total_score": 1276.0,
+      "max_score": 16.5,
+      "n_severe": 16,
+      "n_signals": 324,
+      "pct_female": 93.5
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "total_score": 1254.0,
+      "max_score": 29.9,
+      "n_severe": 12,
+      "n_signals": 302,
+      "pct_female": 50.7
+    },
+    {
+      "drug": "MORPHINE",
+      "total_score": 1244.0,
+      "max_score": 18.8,
+      "n_severe": 11,
+      "n_signals": 441,
+      "pct_female": 83.4
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "total_score": 1211.0,
+      "max_score": 14.6,
+      "n_severe": 6,
+      "n_signals": 456,
+      "pct_female": 52.2
+    },
+    {
+      "drug": "RAMIPRIL",
+      "total_score": 1195.0,
+      "max_score": 19.2,
+      "n_severe": 15,
+      "n_signals": 368,
+      "pct_female": 71.2
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "total_score": 1175.0,
+      "max_score": 48.8,
+      "n_severe": 14,
+      "n_signals": 418,
+      "pct_female": 42.3
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "total_score": 1173.0,
+      "max_score": 12.5,
+      "n_severe": 8,
+      "n_signals": 314,
+      "pct_female": 65.0
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "total_score": 1170.0,
+      "max_score": 20.7,
+      "n_severe": 8,
+      "n_signals": 327,
+      "pct_female": 63.6
+    },
+    {
+      "drug": "TACROLIMUS",
+      "total_score": 1156.0,
+      "max_score": 18.7,
+      "n_severe": 23,
+      "n_signals": 572,
+      "pct_female": 75.9
+    },
+    {
+      "drug": "QUETIAPINE",
+      "total_score": 1154.0,
+      "max_score": 20.2,
+      "n_severe": 17,
+      "n_signals": 426,
+      "pct_female": 63.4
+    }
+  ],
+  "top_severe_aes": [
+    {
+      "ae": "Apparent death",
+      "n_drugs": 15,
+      "mean_score": 75.1,
+      "pct_female": 13.3,
+      "total_reports": 3712
+    },
+    {
+      "ae": "Foetal death",
+      "n_drugs": 1,
+      "mean_score": 30.4,
+      "pct_female": 0.0,
+      "total_reports": 82
+    },
+    {
+      "ae": "Bladder cancer recurrent",
+      "n_drugs": 1,
+      "mean_score": 28.5,
+      "pct_female": 100.0,
+      "total_reports": 205
+    },
+    {
+      "ae": "Pulmonary embolism",
+      "n_drugs": 196,
+      "mean_score": 21.6,
+      "pct_female": 22.4,
+      "total_reports": 38540
+    },
+    {
+      "ae": "Philadelphia positive acute lymphocytic leukaemia",
+      "n_drugs": 1,
+      "mean_score": 21.5,
+      "pct_female": 100.0,
+      "total_reports": 87
+    },
+    {
+      "ae": "Ventricular fibrillation",
+      "n_drugs": 64,
+      "mean_score": 20.8,
+      "pct_female": 59.4,
+      "total_reports": 7007
+    },
+    {
+      "ae": "Dilated cardiomyopathy",
+      "n_drugs": 3,
+      "mean_score": 18.0,
+      "pct_female": 100.0,
+      "total_reports": 158
+    },
+    {
+      "ae": "Hepatosplenic T-cell lymphoma",
+      "n_drugs": 3,
+      "mean_score": 17.5,
+      "pct_female": 33.3,
+      "total_reports": 181
+    },
+    {
+      "ae": "Death",
+      "n_drugs": 337,
+      "mean_score": 17.4,
+      "pct_female": 74.5,
+      "total_reports": 124140
+    },
+    {
+      "ae": "Myeloid leukaemia",
+      "n_drugs": 3,
+      "mean_score": 16.6,
+      "pct_female": 100.0,
+      "total_reports": 117
+    },
+    {
+      "ae": "Cardiac failure congestive",
+      "n_drugs": 106,
+      "mean_score": 15.9,
+      "pct_female": 73.6,
+      "total_reports": 25099
+    },
+    {
+      "ae": "Sudden death",
+      "n_drugs": 37,
+      "mean_score": 15.8,
+      "pct_female": 94.6,
+      "total_reports": 1708
+    },
+    {
+      "ae": "Sudden cardiac death",
+      "n_drugs": 7,
+      "mean_score": 15.6,
+      "pct_female": 100.0,
+      "total_reports": 504
+    },
+    {
+      "ae": "Accidental death",
+      "n_drugs": 20,
+      "mean_score": 15.6,
+      "pct_female": 85.0,
+      "total_reports": 1092
+    },
+    {
+      "ae": "Non-Hodgkin's lymphoma",
+      "n_drugs": 17,
+      "mean_score": 15.5,
+      "pct_female": 88.2,
+      "total_reports": 2827
+    },
+    {
+      "ae": "Acute promyelocytic leukaemia",
+      "n_drugs": 7,
+      "mean_score": 15.2,
+      "pct_female": 71.4,
+      "total_reports": 362
+    },
+    {
+      "ae": "Sudden unexplained death in epilepsy",
+      "n_drugs": 3,
+      "mean_score": 15.0,
+      "pct_female": 66.7,
+      "total_reports": 247
+    },
+    {
+      "ae": "Lymphoma",
+      "n_drugs": 26,
+      "mean_score": 14.8,
+      "pct_female": 69.2,
+      "total_reports": 3167
+    },
+    {
+      "ae": "T-cell lymphoma refractory",
+      "n_drugs": 2,
+      "mean_score": 14.7,
+      "pct_female": 100.0,
+      "total_reports": 46
+    },
+    {
+      "ae": "T-cell type acute leukaemia",
+      "n_drugs": 6,
+      "mean_score": 14.5,
+      "pct_female": 100.0,
+      "total_reports": 189
+    }
+  ],
+  "urgent_signals": [
+    {
+      "drug": "LEUPRORELIN",
+      "ae": "Death",
+      "log_ratio": -2.92,
+      "total_reports": 8397,
+      "direction": "male_higher",
+      "clinical_score": 114.4
+    },
+    {
+      "drug": "ABATACEPT",
+      "ae": "Apparent death",
+      "log_ratio": -4.47,
+      "total_reports": 304,
+      "direction": "male_higher",
+      "clinical_score": 110.9
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Apparent death",
+      "log_ratio": -4.39,
+      "total_reports": 311,
+      "direction": "male_higher",
+      "clinical_score": 109.5
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Apparent death",
+      "log_ratio": -4.3,
+      "total_reports": 299,
+      "direction": "male_higher",
+      "clinical_score": 106.6
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Apparent death",
+      "log_ratio": -4.03,
+      "total_reports": 242,
+      "direction": "male_higher",
+      "clinical_score": 96.1
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "ae": "Apparent death",
+      "log_ratio": -3.86,
+      "total_reports": 304,
+      "direction": "male_higher",
+      "clinical_score": 95.9
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "Apparent death",
+      "log_ratio": -4.09,
+      "total_reports": 170,
+      "direction": "male_higher",
+      "clinical_score": 91.4
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "ae": "Apparent death",
+      "log_ratio": -4.06,
+      "total_reports": 137,
+      "direction": "male_higher",
+      "clinical_score": 87.0
+    },
+    {
+      "drug": "METHOTREXATE",
+      "ae": "Apparent death",
+      "log_ratio": -3.16,
+      "total_reports": 296,
+      "direction": "male_higher",
+      "clinical_score": 78.2
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "ae": "Apparent death",
+      "log_ratio": -3.02,
+      "total_reports": 313,
+      "direction": "male_higher",
+      "clinical_score": 75.4
+    },
+    {
+      "drug": "GOSERELIN",
+      "ae": "Death",
+      "log_ratio": -2.58,
+      "total_reports": 690,
+      "direction": "male_higher",
+      "clinical_score": 73.4
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -4.05,
+      "total_reports": 177,
+      "direction": "male_higher",
+      "clinical_score": 72.9
+    },
+    {
+      "drug": "ETANERCEPT",
+      "ae": "Apparent death",
+      "log_ratio": -2.79,
+      "total_reports": 358,
+      "direction": "male_higher",
+      "clinical_score": 71.2
+    },
+    {
+      "drug": "TRIPTORELIN",
+      "ae": "Death",
+      "log_ratio": -2.79,
+      "total_reports": 350,
+      "direction": "male_higher",
+      "clinical_score": 71.0
+    },
+    {
+      "drug": "MAGNESIUM",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -3.65,
+      "total_reports": 195,
+      "direction": "male_higher",
+      "clinical_score": 66.9
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -3.04,
+      "total_reports": 492,
+      "direction": "male_higher",
+      "clinical_score": 65.5
+    },
+    {
+      "drug": "SODIUM AUROTHIOMALATE",
+      "ae": "Renal failure",
+      "log_ratio": -3.61,
+      "total_reports": 177,
+      "direction": "male_higher",
+      "clinical_score": 65.0
+    },
+    {
+      "drug": "ANAKINRA",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -3.18,
+      "total_reports": 348,
+      "direction": "male_higher",
+      "clinical_score": 64.8
+    },
+    {
+      "drug": "CORTISONE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -3.84,
+      "total_reports": 116,
+      "direction": "male_higher",
+      "clinical_score": 63.6
+    },
+    {
+      "drug": "RITUXIMAB",
+      "ae": "Apparent death",
+      "log_ratio": -2.52,
+      "total_reports": 303,
+      "direction": "male_higher",
+      "clinical_score": 62.6
+    },
+    {
+      "drug": "ANAKINRA",
+      "ae": "Renal failure",
+      "log_ratio": -3.05,
+      "total_reports": 356,
+      "direction": "male_higher",
+      "clinical_score": 62.2
+    },
+    {
+      "drug": "IRON",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -3.3,
+      "total_reports": 183,
+      "direction": "male_higher",
+      "clinical_score": 59.8
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "ae": "Apparent death",
+      "log_ratio": -2.27,
+      "total_reports": 404,
+      "direction": "male_higher",
+      "clinical_score": 59.2
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -3.29,
+      "total_reports": 170,
+      "direction": "male_higher",
+      "clinical_score": 58.8
+    },
+    {
+      "drug": "TESTOSTERONE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.08,
+      "total_reports": 2207,
+      "direction": "male_higher",
+      "clinical_score": 55.6
+    },
+    {
+      "drug": "CANAKINUMAB",
+      "ae": "Renal failure",
+      "log_ratio": -2.77,
+      "total_reports": 300,
+      "direction": "male_higher",
+      "clinical_score": 54.9
+    },
+    {
+      "drug": "METRONIDAZOLE",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.9,
+      "total_reports": 233,
+      "direction": "male_higher",
+      "clinical_score": 54.9
+    },
+    {
+      "drug": "CALCIUM",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.89,
+      "total_reports": 224,
+      "direction": "male_higher",
+      "clinical_score": 54.4
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE SULFATE",
+      "ae": "Renal failure",
+      "log_ratio": -3.01,
+      "total_reports": 171,
+      "direction": "male_higher",
+      "clinical_score": 53.9
+    },
+    {
+      "drug": "SILDENAFIL",
+      "ae": "Death",
+      "log_ratio": 1.54,
+      "total_reports": 2796,
+      "direction": "female_higher",
+      "clinical_score": 53.0
+    },
+    {
+      "drug": "TRIAMCINOLONE",
+      "ae": "Death",
+      "log_ratio": 2.37,
+      "total_reports": 164,
+      "direction": "female_higher",
+      "clinical_score": 52.5
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.45,
+      "total_reports": 471,
+      "direction": "male_higher",
+      "clinical_score": 52.5
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "ae": "Renal failure",
+      "log_ratio": -2.43,
+      "total_reports": 492,
+      "direction": "male_higher",
+      "clinical_score": 52.3
+    },
+    {
+      "drug": "ABATACEPT",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.33,
+      "total_reports": 552,
+      "direction": "male_higher",
+      "clinical_score": 51.1
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "ae": "Death",
+      "log_ratio": -2.36,
+      "total_reports": 146,
+      "direction": "male_higher",
+      "clinical_score": 51.1
+    },
+    {
+      "drug": "BISACODYL",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.69,
+      "total_reports": 197,
+      "direction": "male_higher",
+      "clinical_score": 49.4
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.6,
+      "total_reports": 219,
+      "direction": "male_higher",
+      "clinical_score": 48.8
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.57,
+      "total_reports": 211,
+      "direction": "male_higher",
+      "clinical_score": 47.9
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.23,
+      "total_reports": 403,
+      "direction": "male_higher",
+      "clinical_score": 46.6
+    },
+    {
+      "drug": "FORMOTEROL;MOMETASONE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.42,
+      "total_reports": 226,
+      "direction": "male_higher",
+      "clinical_score": 45.6
+    },
+    {
+      "drug": "LOSARTAN",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 2.32,
+      "total_reports": 267,
+      "direction": "female_higher",
+      "clinical_score": 45.1
+    },
+    {
+      "drug": "GLUCOSE",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.41,
+      "total_reports": 217,
+      "direction": "male_higher",
+      "clinical_score": 45.0
+    },
+    {
+      "drug": "ABATACEPT",
+      "ae": "Renal failure",
+      "log_ratio": -2.05,
+      "total_reports": 542,
+      "direction": "male_higher",
+      "clinical_score": 44.8
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "ae": "Renal failure",
+      "log_ratio": -2.01,
+      "total_reports": 580,
+      "direction": "male_higher",
+      "clinical_score": 44.5
+    },
+    {
+      "drug": "CEFUROXIME",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.72,
+      "total_reports": 110,
+      "direction": "male_higher",
+      "clinical_score": 44.5
+    },
+    {
+      "drug": "LANSOPRAZOLE",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.33,
+      "total_reports": 237,
+      "direction": "male_higher",
+      "clinical_score": 44.3
+    },
+    {
+      "drug": "CICLESONIDE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.26,
+      "total_reports": 260,
+      "direction": "male_higher",
+      "clinical_score": 43.6
+    },
+    {
+      "drug": "AZITHROMYCIN",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.5,
+      "total_reports": 140,
+      "direction": "male_higher",
+      "clinical_score": 43.0
+    },
+    {
+      "drug": "HEPARIN",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.29,
+      "total_reports": 220,
+      "direction": "male_higher",
+      "clinical_score": 43.0
+    },
+    {
+      "drug": "MACROGOL",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.29,
+      "total_reports": 207,
+      "direction": "male_higher",
+      "clinical_score": 42.5
+    },
+    {
+      "drug": "CALCIUM",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.65,
+      "total_reports": 100,
+      "direction": "male_higher",
+      "clinical_score": 42.5
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Renal failure",
+      "log_ratio": -2.02,
+      "total_reports": 421,
+      "direction": "male_higher",
+      "clinical_score": 42.5
+    },
+    {
+      "drug": "DOXAZOSIN",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.2,
+      "total_reports": 241,
+      "direction": "male_higher",
+      "clinical_score": 42.0
+    },
+    {
+      "drug": "GABAPENTIN",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.26,
+      "total_reports": 211,
+      "direction": "male_higher",
+      "clinical_score": 42.0
+    },
+    {
+      "drug": "UMECLIDINIUM;VILANTEROL",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.52,
+      "total_reports": 114,
+      "direction": "male_higher",
+      "clinical_score": 41.5
+    },
+    {
+      "drug": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.42,
+      "total_reports": 133,
+      "direction": "male_higher",
+      "clinical_score": 41.3
+    },
+    {
+      "drug": "FLUTICASONE;SALMETEROL",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.98,
+      "total_reports": 347,
+      "direction": "male_higher",
+      "clinical_score": 40.3
+    },
+    {
+      "drug": "MOXIFLOXACIN",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.05,
+      "total_reports": 272,
+      "direction": "male_higher",
+      "clinical_score": 39.9
+    },
+    {
+      "drug": "CEFTRIAXONE",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.1,
+      "total_reports": 222,
+      "direction": "male_higher",
+      "clinical_score": 39.5
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.71,
+      "total_reports": 722,
+      "direction": "male_higher",
+      "clinical_score": 39.2
+    },
+    {
+      "drug": "METAMIZOLE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.3,
+      "total_reports": 134,
+      "direction": "male_higher",
+      "clinical_score": 39.2
+    },
+    {
+      "drug": "MELATONIN",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.33,
+      "total_reports": 110,
+      "direction": "male_higher",
+      "clinical_score": 38.1
+    },
+    {
+      "drug": "IRON",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.04,
+      "total_reports": 213,
+      "direction": "male_higher",
+      "clinical_score": 38.1
+    },
+    {
+      "drug": "SILDENAFIL CITRATE",
+      "ae": "Death",
+      "log_ratio": 1.73,
+      "total_reports": 158,
+      "direction": "female_higher",
+      "clinical_score": 38.1
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.01,
+      "total_reports": 232,
+      "direction": "male_higher",
+      "clinical_score": 38.0
+    },
+    {
+      "drug": "LEVOFLOXACIN",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 2.2,
+      "total_reports": 144,
+      "direction": "female_higher",
+      "clinical_score": 38.0
+    },
+    {
+      "drug": "SILDENAFIL",
+      "ae": "Respiratory failure",
+      "log_ratio": 1.98,
+      "total_reports": 250,
+      "direction": "female_higher",
+      "clinical_score": 38.0
+    },
+    {
+      "drug": "OSELTAMIVIR",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.28,
+      "total_reports": 109,
+      "direction": "male_higher",
+      "clinical_score": 37.2
+    },
+    {
+      "drug": "MAGNESIUM",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -2.22,
+      "total_reports": 117,
+      "direction": "male_higher",
+      "clinical_score": 36.8
+    },
+    {
+      "drug": "VITAMIN D3",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.83,
+      "total_reports": 321,
+      "direction": "male_higher",
+      "clinical_score": 36.7
+    },
+    {
+      "drug": "SILDENAFIL",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 1.8,
+      "total_reports": 351,
+      "direction": "female_higher",
+      "clinical_score": 36.7
+    },
+    {
+      "drug": "MINOCYCLINE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.25,
+      "total_reports": 107,
+      "direction": "male_higher",
+      "clinical_score": 36.6
+    },
+    {
+      "drug": "TADALAFIL",
+      "ae": "Cardiac failure",
+      "log_ratio": 1.7,
+      "total_reports": 492,
+      "direction": "female_higher",
+      "clinical_score": 36.5
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.77,
+      "total_reports": 372,
+      "direction": "male_higher",
+      "clinical_score": 36.5
+    },
+    {
+      "drug": "WARFARIN",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -1.96,
+      "total_reports": 204,
+      "direction": "male_higher",
+      "clinical_score": 36.3
+    },
+    {
+      "drug": "MOXIFLOXACIN",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 2.2,
+      "total_reports": 111,
+      "direction": "female_higher",
+      "clinical_score": 36.1
+    },
+    {
+      "drug": "BUDESONIDE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.66,
+      "total_reports": 481,
+      "direction": "male_higher",
+      "clinical_score": 35.7
+    },
+    {
+      "drug": "METRONIDAZOLE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -2.03,
+      "total_reports": 156,
+      "direction": "male_higher",
+      "clinical_score": 35.6
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "ae": "Renal failure",
+      "log_ratio": -1.61,
+      "total_reports": 554,
+      "direction": "male_higher",
+      "clinical_score": 35.3
+    },
+    {
+      "drug": "SILDENAFIL",
+      "ae": "Cardiac failure",
+      "log_ratio": 1.64,
+      "total_reports": 409,
+      "direction": "female_higher",
+      "clinical_score": 34.3
+    },
+    {
+      "drug": "POTASSIUM",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -1.87,
+      "total_reports": 185,
+      "direction": "male_higher",
+      "clinical_score": 33.9
+    },
+    {
+      "drug": "ONDANSETRON",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.84,
+      "total_reports": 189,
+      "direction": "male_higher",
+      "clinical_score": 33.5
+    },
+    {
+      "drug": "ENALAPRIL",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 1.91,
+      "total_reports": 149,
+      "direction": "female_higher",
+      "clinical_score": 33.2
+    },
+    {
+      "drug": "SODIUM PHOSPHATE",
+      "ae": "Renal failure acute",
+      "log_ratio": 1.81,
+      "total_reports": 190,
+      "direction": "female_higher",
+      "clinical_score": 33.1
+    },
+    {
+      "drug": "ESCITALOPRAM",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.6,
+      "total_reports": 375,
+      "direction": "male_higher",
+      "clinical_score": 32.9
+    },
+    {
+      "drug": "POTASSIUM",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.87,
+      "total_reports": 146,
+      "direction": "male_higher",
+      "clinical_score": 32.5
+    },
+    {
+      "drug": "PARACETAMOL",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -1.68,
+      "total_reports": 243,
+      "direction": "male_higher",
+      "clinical_score": 32.1
+    },
+    {
+      "drug": "FLUOROURACIL",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 1.92,
+      "total_reports": 118,
+      "direction": "female_higher",
+      "clinical_score": 31.9
+    },
+    {
+      "drug": "CALCIUM;VITAMIN D3",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.77,
+      "total_reports": 171,
+      "direction": "male_higher",
+      "clinical_score": 31.7
+    },
+    {
+      "drug": "EPIRUBICIN",
+      "ae": "Cardiac failure",
+      "log_ratio": 1.55,
+      "total_reports": 352,
+      "direction": "female_higher",
+      "clinical_score": 31.6
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Cardiac arrest",
+      "log_ratio": 1.56,
+      "total_reports": 326,
+      "direction": "female_higher",
+      "clinical_score": 31.4
+    },
+    {
+      "drug": "LEVOFLOXACIN",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.51,
+      "total_reports": 355,
+      "direction": "male_higher",
+      "clinical_score": 30.9
+    },
+    {
+      "drug": "VITAMIN K",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.86,
+      "total_reports": 118,
+      "direction": "male_higher",
+      "clinical_score": 30.8
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Cardio-respiratory arrest",
+      "log_ratio": 1.57,
+      "total_reports": 286,
+      "direction": "female_higher",
+      "clinical_score": 30.8
+    },
+    {
+      "drug": "SILDENAFIL",
+      "ae": "Renal failure",
+      "log_ratio": 1.65,
+      "total_reports": 210,
+      "direction": "female_higher",
+      "clinical_score": 30.7
+    },
+    {
+      "drug": "IXEKIZUMAB",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": -1.89,
+      "total_reports": 102,
+      "direction": "male_higher",
+      "clinical_score": 30.4
+    },
+    {
+      "drug": "FLUTICASONE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.59,
+      "total_reports": 234,
+      "direction": "male_higher",
+      "clinical_score": 30.2
+    },
+    {
+      "drug": "INSULIN",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -1.57,
+      "total_reports": 248,
+      "direction": "male_higher",
+      "clinical_score": 30.1
+    },
+    {
+      "drug": "LEVETIRACETAM",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": 1.77,
+      "total_reports": 129,
+      "direction": "female_higher",
+      "clinical_score": 29.9
+    },
+    {
+      "drug": "CIPROFLOXACIN",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 1.72,
+      "total_reports": 137,
+      "direction": "female_higher",
+      "clinical_score": 29.5
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.82,
+      "total_reports": 105,
+      "direction": "male_higher",
+      "clinical_score": 29.5
+    },
+    {
+      "drug": "TADALAFIL",
+      "ae": "Cardiac failure congestive",
+      "log_ratio": 1.51,
+      "total_reports": 246,
+      "direction": "female_higher",
+      "clinical_score": 29.0
+    },
+    {
+      "drug": "CEFTRIAXONE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.55,
+      "total_reports": 199,
+      "direction": "male_higher",
+      "clinical_score": 28.5
+    },
+    {
+      "drug": "VASOPRESSIN",
+      "ae": "Ventricular fibrillation",
+      "log_ratio": -1.57,
+      "total_reports": 167,
+      "direction": "male_higher",
+      "clinical_score": 28.0
+    },
+    {
+      "drug": "SENNA SPP",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.64,
+      "total_reports": 134,
+      "direction": "male_higher",
+      "clinical_score": 27.9
+    },
+    {
+      "drug": "DOBUTAMINE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.64,
+      "total_reports": 119,
+      "direction": "male_higher",
+      "clinical_score": 27.3
+    },
+    {
+      "drug": "TAMSULOSIN",
+      "ae": "Renal failure",
+      "log_ratio": 1.62,
+      "total_reports": 103,
+      "direction": "female_higher",
+      "clinical_score": 26.2
+    },
+    {
+      "drug": "FELODIPINE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -1.51,
+      "total_reports": 102,
+      "direction": "male_higher",
+      "clinical_score": 24.3
+    }
+  ],
+  "total_urgent": 108
+}

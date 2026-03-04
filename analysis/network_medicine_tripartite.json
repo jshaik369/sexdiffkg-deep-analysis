@@ -1,0 +1,780 @@
+{
+  "analysis": "network_medicine_tripartite",
+  "merged_signals": 168424,
+  "target_diversity": [
+    {
+      "target": "Glucocorticoid receptor",
+      "n_aes": 1756,
+      "n_drugs": 12,
+      "overall_pct_f": 64.5
+    },
+    {
+      "target": "Tumor necrosis factor",
+      "n_aes": 1560,
+      "n_drugs": 4,
+      "overall_pct_f": 37.0
+    },
+    {
+      "target": "Dihydrofolate reductase",
+      "n_aes": 1083,
+      "n_drugs": 3,
+      "overall_pct_f": 45.2
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "n_aes": 1019,
+      "n_drugs": 9,
+      "overall_pct_f": 65.5
+    },
+    {
+      "target": "Cyclooxygenase",
+      "n_aes": 932,
+      "n_drugs": 10,
+      "overall_pct_f": 46.3
+    },
+    {
+      "target": "B-lymphocyte antigen CD20",
+      "n_aes": 917,
+      "n_drugs": 5,
+      "overall_pct_f": 60.2
+    },
+    {
+      "target": "D(2) dopamine receptor",
+      "n_aes": 907,
+      "n_drugs": 7,
+      "overall_pct_f": 69.1
+    },
+    {
+      "target": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+      "n_aes": 814,
+      "n_drugs": 3,
+      "overall_pct_f": 69.7
+    },
+    {
+      "target": "Mu-type opioid receptor",
+      "n_aes": 790,
+      "n_drugs": 7,
+      "overall_pct_f": 67.7
+    },
+    {
+      "target": "GABA-A receptor; anion channel",
+      "n_aes": 776,
+      "n_drugs": 10,
+      "overall_pct_f": 57.9
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2C",
+      "n_aes": 763,
+      "n_drugs": 5,
+      "overall_pct_f": 72.5
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "n_aes": 672,
+      "n_drugs": 6,
+      "overall_pct_f": 39.1
+    },
+    {
+      "target": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+      "n_aes": 657,
+      "n_drugs": 2,
+      "overall_pct_f": 78.0
+    },
+    {
+      "target": "Voltage-gated calcium channel",
+      "n_aes": 623,
+      "n_drugs": 2,
+      "overall_pct_f": 44.0
+    },
+    {
+      "target": "Tubulin",
+      "n_aes": 591,
+      "n_drugs": 5,
+      "overall_pct_f": 46.7
+    },
+    {
+      "target": "Potassium-transporting ATPase",
+      "n_aes": 559,
+      "n_drugs": 4,
+      "overall_pct_f": 53.1
+    },
+    {
+      "target": "Interleukin-6 receptor subunit alpha",
+      "n_aes": 550,
+      "n_drugs": 2,
+      "overall_pct_f": 47.1
+    },
+    {
+      "target": "D2-like dopamine receptor",
+      "n_aes": 518,
+      "n_drugs": 5,
+      "overall_pct_f": 57.2
+    },
+    {
+      "target": "Interleukin-17A",
+      "n_aes": 514,
+      "n_drugs": 3,
+      "overall_pct_f": 46.7
+    },
+    {
+      "target": "Thymidylate synthase",
+      "n_aes": 514,
+      "n_drugs": 3,
+      "overall_pct_f": 61.5
+    }
+  ],
+  "ae_target_enrichment": [
+    {
+      "ae": "Death",
+      "n_targets": 126,
+      "mean_pct_f": 80.0,
+      "top_targets": [
+        {
+          "target": "Epidermal growth factor receptor",
+          "pct_female": 100.0,
+          "n_drugs": 5
+        },
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 100.0,
+          "n_drugs": 5
+        },
+        {
+          "target": "Tubulin",
+          "pct_female": 60.0,
+          "n_drugs": 5
+        },
+        {
+          "target": "T cell surface glycoprotein CD3",
+          "pct_female": 75.0,
+          "n_drugs": 4
+        },
+        {
+          "target": "Tumor necrosis factor receptor superfamily member 17",
+          "pct_female": 100.0,
+          "n_drugs": 4
+        }
+      ]
+    },
+    {
+      "ae": "Cardiac arrest",
+      "n_targets": 88,
+      "mean_pct_f": 73.2,
+      "top_targets": [
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 88.9,
+          "n_drugs": 9
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 100.0,
+          "n_drugs": 5
+        },
+        {
+          "target": "Sodium channel alpha subunit",
+          "pct_female": 100.0,
+          "n_drugs": 5
+        },
+        {
+          "target": "Sodium-dependent dopamine transporter",
+          "pct_female": 100.0,
+          "n_drugs": 4
+        },
+        {
+          "target": "Sodium-dependent noradrenaline transporter",
+          "pct_female": 100.0,
+          "n_drugs": 4
+        }
+      ]
+    },
+    {
+      "ae": "Hepatic failure",
+      "n_targets": 54,
+      "mean_pct_f": 77.5,
+      "top_targets": [
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "target": "Tubulin",
+          "pct_female": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2C",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "Angiotensin-converting enzyme",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Renal failure",
+      "n_targets": 89,
+      "mean_pct_f": 75.4,
+      "top_targets": [
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 100.0,
+          "n_drugs": 4
+        },
+        {
+          "target": "Type-1 angiotensin II receptor",
+          "pct_female": 75.0,
+          "n_drugs": 4
+        },
+        {
+          "target": "Dihydrofolate reductase",
+          "pct_female": 33.3,
+          "n_drugs": 3
+        },
+        {
+          "target": "Erythropoietin receptor",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2C",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Anaphylactic reaction",
+      "n_targets": 60,
+      "mean_pct_f": 50.2,
+      "top_targets": [
+        {
+          "target": "Glucocorticoid receptor",
+          "pct_female": 28.6,
+          "n_drugs": 7
+        },
+        {
+          "target": "Cyclooxygenase",
+          "pct_female": 33.3,
+          "n_drugs": 3
+        },
+        {
+          "target": "Tumor necrosis factor",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2C",
+          "pct_female": 50.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Stevens-Johnson syndrome",
+      "n_targets": 37,
+      "mean_pct_f": 70.7,
+      "top_targets": [
+        {
+          "target": "Cyclooxygenase",
+          "pct_female": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2C",
+          "pct_female": 50.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "Glucocorticoid receptor",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Pancreatitis",
+      "n_targets": 60,
+      "mean_pct_f": 81.0,
+      "top_targets": [
+        {
+          "target": "Cyclooxygenase",
+          "pct_female": 60.0,
+          "n_drugs": 5
+        },
+        {
+          "target": "Tumor necrosis factor",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "Angiotensin-converting enzyme",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "Coagulation factor X",
+          "pct_female": 50.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Seizure",
+      "n_targets": 67,
+      "mean_pct_f": 59.0,
+      "top_targets": [
+        {
+          "target": "Glucocorticoid receptor",
+          "pct_female": 33.3,
+          "n_drugs": 3
+        },
+        {
+          "target": "Mu-type opioid receptor",
+          "pct_female": 33.3,
+          "n_drugs": 3
+        },
+        {
+          "target": "Receptor tyrosine-protein kinase erbB-2",
+          "pct_female": 0.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "Tubulin",
+          "pct_female": 33.3,
+          "n_drugs": 3
+        },
+        {
+          "target": "Adrenergic receptor",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        }
+      ]
+    },
+    {
+      "ae": "Rhabdomyolysis",
+      "n_targets": 45,
+      "mean_pct_f": 77.6,
+      "top_targets": [
+        {
+          "target": "Cyclooxygenase",
+          "pct_female": 75.0,
+          "n_drugs": 4
+        },
+        {
+          "target": "Sodium channel alpha subunit",
+          "pct_female": 50.0,
+          "n_drugs": 4
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "D2-like dopamine receptor",
+          "pct_female": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 66.7,
+          "n_drugs": 3
+        }
+      ]
+    },
+    {
+      "ae": "Pulmonary embolism",
+      "n_targets": 89,
+      "mean_pct_f": 33.0,
+      "top_targets": [
+        {
+          "target": "Glucocorticoid receptor",
+          "pct_female": 0.0,
+          "n_drugs": 6
+        },
+        {
+          "target": "Sodium channel alpha subunit",
+          "pct_female": 50.0,
+          "n_drugs": 4
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2A",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "5-hydroxytryptamine receptor 2C",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 33.3,
+          "n_drugs": 3
+        }
+      ]
+    },
+    {
+      "ae": "Suicidal ideation",
+      "n_targets": 41,
+      "mean_pct_f": 56.1,
+      "top_targets": [
+        {
+          "target": "Cyclooxygenase",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 33.3,
+          "n_drugs": 3
+        },
+        {
+          "target": "Glucocorticoid receptor",
+          "pct_female": 100.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "Mu-type opioid receptor",
+          "pct_female": 0.0,
+          "n_drugs": 3
+        },
+        {
+          "target": "Sodium channel alpha subunit",
+          "pct_female": 66.7,
+          "n_drugs": 3
+        }
+      ]
+    },
+    {
+      "ae": "Agranulocytosis",
+      "n_targets": 37,
+      "mean_pct_f": 70.7,
+      "top_targets": [
+        {
+          "target": "GABA-A receptor; anion channel",
+          "pct_female": 66.7,
+          "n_drugs": 3
+        },
+        {
+          "target": "B-lymphocyte antigen CD20",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "DNA (cytosine-5)-methyltransferase 1",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "DNA (cytosine-5)-methyltransferase 3A",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        },
+        {
+          "target": "Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+          "pct_female": 100.0,
+          "n_drugs": 2
+        }
+      ]
+    }
+  ],
+  "multi_target_drugs": [
+    {
+      "drug": "REGORAFENIB",
+      "n_targets": 15,
+      "weighted_pct_f": 74.3,
+      "n_signals": 1260
+    },
+    {
+      "drug": "SUNITINIB",
+      "n_targets": 9,
+      "weighted_pct_f": 65.6,
+      "n_signals": 1098
+    },
+    {
+      "drug": "DESFLURANE",
+      "n_targets": 7,
+      "weighted_pct_f": 100.0,
+      "n_signals": 46
+    },
+    {
+      "drug": "VANDETANIB",
+      "n_targets": 7,
+      "weighted_pct_f": 63.6,
+      "n_signals": 275
+    },
+    {
+      "drug": "SEVOFLURANE",
+      "n_targets": 7,
+      "weighted_pct_f": 50.0,
+      "n_signals": 690
+    },
+    {
+      "drug": "ISOFLURANE",
+      "n_targets": 7,
+      "weighted_pct_f": 62.5,
+      "n_signals": 184
+    },
+    {
+      "drug": "CRIZOTINIB",
+      "n_targets": 6,
+      "weighted_pct_f": 60.5,
+      "n_signals": 304
+    },
+    {
+      "drug": "REPOTRECTINIB",
+      "n_targets": 6,
+      "weighted_pct_f": 0.0,
+      "n_signals": 8
+    },
+    {
+      "drug": "TOPIRAMATE",
+      "n_targets": 6,
+      "weighted_pct_f": 48.0,
+      "n_signals": 7400
+    },
+    {
+      "drug": "LESTAURTINIB",
+      "n_targets": 6,
+      "weighted_pct_f": 100.0,
+      "n_signals": 6
+    },
+    {
+      "drug": "SUNITINIB MALATE",
+      "n_targets": 6,
+      "weighted_pct_f": 100.0,
+      "n_signals": 36
+    },
+    {
+      "drug": "MIDOSTAURIN",
+      "n_targets": 5,
+      "weighted_pct_f": 50.0,
+      "n_signals": 288
+    },
+    {
+      "drug": "QUIZARTINIB",
+      "n_targets": 5,
+      "weighted_pct_f": 0.0,
+      "n_signals": 6
+    },
+    {
+      "drug": "DOXYCYCLINE",
+      "n_targets": 4,
+      "weighted_pct_f": 58.7,
+      "n_signals": 892
+    },
+    {
+      "drug": "DEFIBROTIDE",
+      "n_targets": 4,
+      "weighted_pct_f": 93.8,
+      "n_signals": 80
+    },
+    {
+      "drug": "DOXYCYCLINE HYCLATE",
+      "n_targets": 4,
+      "weighted_pct_f": 0.0,
+      "n_signals": 36
+    },
+    {
+      "drug": "IMATINIB MESYLATE",
+      "n_targets": 4,
+      "weighted_pct_f": 84.0,
+      "n_signals": 125
+    },
+    {
+      "drug": "BOSUTINIB",
+      "n_targets": 4,
+      "weighted_pct_f": 52.9,
+      "n_signals": 136
+    },
+    {
+      "drug": "CHLORPROTHIXENE",
+      "n_targets": 4,
+      "weighted_pct_f": 80.0,
+      "n_signals": 20
+    },
+    {
+      "drug": "FILGOTINIB",
+      "n_targets": 4,
+      "weighted_pct_f": 0.0,
+      "n_signals": 4
+    }
+  ],
+  "hub_targets": [
+    {
+      "target": "Tubulin",
+      "n_drugs": 83,
+      "n_signals": 892,
+      "pct_female": 49.0
+    },
+    {
+      "target": "Epidermal growth factor receptor",
+      "n_drugs": 80,
+      "n_signals": 228,
+      "pct_female": 63.6
+    },
+    {
+      "target": "Glucocorticoid receptor",
+      "n_drugs": 75,
+      "n_signals": 3786,
+      "pct_female": 66.4
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "n_drugs": 72,
+      "n_signals": 234,
+      "pct_female": 37.6
+    },
+    {
+      "target": "D(2) dopamine receptor",
+      "n_drugs": 68,
+      "n_signals": 1610,
+      "pct_female": 70.2
+    },
+    {
+      "target": "GABA-A receptor; anion channel",
+      "n_drugs": 66,
+      "n_signals": 1824,
+      "pct_female": 61.8
+    },
+    {
+      "target": "Sodium-dependent noradrenaline transporter",
+      "n_drugs": 65,
+      "n_signals": 274,
+      "pct_female": 56.9
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "n_drugs": 58,
+      "n_signals": 1174,
+      "pct_female": 43.5
+    },
+    {
+      "target": "Cyclooxygenase",
+      "n_drugs": 57,
+      "n_signals": 1867,
+      "pct_female": 54.6
+    },
+    {
+      "target": "Beta-2 adrenergic receptor",
+      "n_drugs": 57,
+      "n_signals": 75,
+      "pct_female": 38.7
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "n_drugs": 56,
+      "n_signals": 2251,
+      "pct_female": 66.9
+    },
+    {
+      "target": "Mu-type opioid receptor",
+      "n_drugs": 54,
+      "n_signals": 1311,
+      "pct_female": 67.6
+    },
+    {
+      "target": "Estrogen receptor",
+      "n_drugs": 48,
+      "n_signals": 27,
+      "pct_female": 7.4
+    },
+    {
+      "target": "Receptor-type tyrosine-protein kinase FLT3",
+      "n_drugs": 45,
+      "n_signals": 198,
+      "pct_female": 66.7
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M3",
+      "n_drugs": 45,
+      "n_signals": 108,
+      "pct_female": 26.9
+    },
+    {
+      "target": "Androgen receptor",
+      "n_drugs": 42,
+      "n_signals": 63,
+      "pct_female": 71.4
+    },
+    {
+      "target": "Vascular endothelial growth factor receptor",
+      "n_drugs": 41,
+      "n_signals": 165,
+      "pct_female": 64.8
+    },
+    {
+      "target": "Receptor tyrosine-protein kinase erbB-2",
+      "n_drugs": 40,
+      "n_signals": 199,
+      "pct_female": 21.6
+    },
+    {
+      "target": "Hepatocyte growth factor receptor",
+      "n_drugs": 39,
+      "n_signals": 62,
+      "pct_female": 45.2
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M1",
+      "n_drugs": 37,
+      "n_signals": 57,
+      "pct_female": 40.4
+    },
+    {
+      "target": "Sodium-dependent serotonin transporter",
+      "n_drugs": 34,
+      "n_signals": 194,
+      "pct_female": 26.8
+    },
+    {
+      "target": "Progesterone receptor",
+      "n_drugs": 34,
+      "n_signals": 65,
+      "pct_female": 3.1
+    },
+    {
+      "target": "Mast/stem cell growth factor receptor Kit",
+      "n_drugs": 34,
+      "n_signals": 326,
+      "pct_female": 56.7
+    },
+    {
+      "target": "Vascular endothelial growth factor receptor 2",
+      "n_drugs": 33,
+      "n_signals": 181,
+      "pct_female": 67.4
+    }
+  ]
+}

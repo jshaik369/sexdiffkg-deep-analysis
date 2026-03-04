@@ -1,0 +1,44 @@
+{
+  "analysis": "temporal_cohort_polypharmacy",
+  "era_analysis": [
+    {
+      "era": "Newest 20%",
+      "n_drugs": 434,
+      "n_signals": 553,
+      "pct_female": 42.5,
+      "mean_abs_lr": 0.96
+    },
+    {
+      "era": "New 20%",
+      "n_drugs": 436,
+      "n_signals": 1640,
+      "pct_female": 43.8,
+      "mean_abs_lr": 0.895
+    },
+    {
+      "era": "Mid 20%",
+      "n_drugs": 437,
+      "n_signals": 4832,
+      "pct_female": 45.9,
+      "mean_abs_lr": 0.876
+    },
+    {
+      "era": "Established 20%",
+      "n_drugs": 435,
+      "n_signals": 14315,
+      "pct_female": 50.0,
+      "mean_abs_lr": 0.909
+    },
+    {
+      "era": "Legacy 20%",
+      "n_drugs": 436,
+      "n_signals": 74941,
+      "pct_female": 55.3,
+      "mean_abs_lr": 1.011
+    }
+  ],
+  "high_overlap_drug_pairs": [],
+  "concordant_pairs": 0,
+  "discordant_pairs": 0,
+  "discordant_examples": []
+}
