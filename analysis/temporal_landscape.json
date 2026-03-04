@@ -1,0 +1,550 @@
+{
+  "signal_maturation": [
+    {
+      "maturity": "1-5",
+      "n_signals": 1964,
+      "n_drugs": 869,
+      "mean_f": 53.5,
+      "mean_lr": 0.977,
+      "mean_rep": 70.0
+    },
+    {
+      "maturity": "6-10",
+      "n_signals": 1967,
+      "n_drugs": 252,
+      "mean_f": 54.9,
+      "mean_lr": 0.932,
+      "mean_rep": 92.0
+    },
+    {
+      "maturity": "11-20",
+      "n_signals": 4017,
+      "n_drugs": 270,
+      "mean_f": 55.4,
+      "mean_lr": 0.944,
+      "mean_rep": 117.0
+    },
+    {
+      "maturity": "21-50",
+      "n_signals": 10454,
+      "n_drugs": 320,
+      "mean_f": 54.6,
+      "mean_lr": 0.91,
+      "mean_rep": 117.0
+    },
+    {
+      "maturity": "51-100",
+      "n_signals": 14049,
+      "n_drugs": 196,
+      "mean_f": 56.2,
+      "mean_lr": 0.98,
+      "mean_rep": 156.0
+    },
+    {
+      "maturity": "101-500",
+      "n_signals": 55003,
+      "n_drugs": 257,
+      "mean_f": 59.0,
+      "mean_lr": 1.001,
+      "mean_rep": 271.0
+    },
+    {
+      "maturity": "500+",
+      "n_signals": 8827,
+      "n_drugs": 14,
+      "mean_f": 62.3,
+      "mean_lr": 1.033,
+      "mean_rep": 579.0
+    }
+  ],
+  "report_volume_gradient": [
+    {
+      "rep_vigintile": 0,
+      "n": 5966,
+      "mean_f": 50.2,
+      "mean_rep": 24.0,
+      "mean_lr": 0.869
+    },
+    {
+      "rep_vigintile": 1,
+      "n": 3806,
+      "mean_f": 50.7,
+      "mean_rep": 28.0,
+      "mean_lr": 0.873
+    },
+    {
+      "rep_vigintile": 2,
+      "n": 5090,
+      "mean_f": 50.7,
+      "mean_rep": 32.0,
+      "mean_lr": 0.876
+    },
+    {
+      "rep_vigintile": 3,
+      "n": 5051,
+      "mean_f": 51.2,
+      "mean_rep": 35.0,
+      "mean_lr": 0.872
+    },
+    {
+      "rep_vigintile": 4,
+      "n": 4584,
+      "mean_f": 51.7,
+      "mean_rep": 39.0,
+      "mean_lr": 0.892
+    },
+    {
+      "rep_vigintile": 5,
+      "n": 5255,
+      "mean_f": 52.3,
+      "mean_rep": 44.0,
+      "mean_lr": 0.903
+    },
+    {
+      "rep_vigintile": 6,
+      "n": 4607,
+      "mean_f": 52.9,
+      "mean_rep": 49.0,
+      "mean_lr": 0.903
+    },
+    {
+      "rep_vigintile": 7,
+      "n": 4795,
+      "mean_f": 53.4,
+      "mean_rep": 54.0,
+      "mean_lr": 0.9
+    },
+    {
+      "rep_vigintile": 8,
+      "n": 4790,
+      "mean_f": 54.1,
+      "mean_rep": 61.0,
+      "mean_lr": 0.92
+    },
+    {
+      "rep_vigintile": 9,
+      "n": 4517,
+      "mean_f": 55.5,
+      "mean_rep": 68.0,
+      "mean_lr": 0.908
+    },
+    {
+      "rep_vigintile": 10,
+      "n": 4595,
+      "mean_f": 56.0,
+      "mean_rep": 77.0,
+      "mean_lr": 0.928
+    },
+    {
+      "rep_vigintile": 11,
+      "n": 4859,
+      "mean_f": 55.8,
+      "mean_rep": 89.0,
+      "mean_lr": 0.944
+    },
+    {
+      "rep_vigintile": 12,
+      "n": 4702,
+      "mean_f": 55.5,
+      "mean_rep": 103.0,
+      "mean_lr": 1.006
+    },
+    {
+      "rep_vigintile": 13,
+      "n": 4940,
+      "mean_f": 57.4,
+      "mean_rep": 122.0,
+      "mean_lr": 1.001
+    },
+    {
+      "rep_vigintile": 14,
+      "n": 4748,
+      "mean_f": 59.5,
+      "mean_rep": 149.0,
+      "mean_lr": 1.011
+    },
+    {
+      "rep_vigintile": 15,
+      "n": 4757,
+      "mean_f": 61.8,
+      "mean_rep": 187.0,
+      "mean_lr": 1.046
+    },
+    {
+      "rep_vigintile": 16,
+      "n": 4794,
+      "mean_f": 63.9,
+      "mean_rep": 251.0,
+      "mean_lr": 1.086
+    },
+    {
+      "rep_vigintile": 17,
+      "n": 4821,
+      "mean_f": 69.2,
+      "mean_rep": 368.0,
+      "mean_lr": 1.106
+    },
+    {
+      "rep_vigintile": 18,
+      "n": 4790,
+      "mean_f": 76.6,
+      "mean_rep": 644.0,
+      "mean_lr": 1.272
+    },
+    {
+      "rep_vigintile": 19,
+      "n": 4814,
+      "mean_f": 84.0,
+      "mean_rep": 2611.0,
+      "mean_lr": 1.431
+    }
+  ],
+  "signal_density": {
+    "density_sex_correlation": {
+      "rho": 0.117,
+      "p": 4.153e-08
+    },
+    "density_stats": {
+      "mean_aes_per_drug": 44.2,
+      "median_aes_per_drug": 10.0,
+      "max_aes_per_drug": 926
+    }
+  },
+  "drug_variability": [
+    {
+      "drug": "RANITIDINE",
+      "n_aes": 324,
+      "mean_f": 71.6,
+      "std_f": 19.6,
+      "cv": 0.273,
+      "iqr": 28.2,
+      "min_f": 0.6,
+      "max_f": 98.7,
+      "range": 98.1
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_aes": 426,
+      "mean_f": 63.1,
+      "std_f": 21.8,
+      "cv": 0.346,
+      "iqr": 37.3,
+      "min_f": 3.2,
+      "max_f": 98.4,
+      "range": 95.2
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "n_aes": 342,
+      "mean_f": 52.2,
+      "std_f": 17.2,
+      "cv": 0.329,
+      "iqr": 27.3,
+      "min_f": 3.4,
+      "max_f": 98.6,
+      "range": 95.2
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 487,
+      "mean_f": 67.6,
+      "std_f": 23.2,
+      "cv": 0.343,
+      "iqr": 40.0,
+      "min_f": 6.1,
+      "max_f": 99.7,
+      "range": 93.6
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "n_aes": 418,
+      "mean_f": 58.0,
+      "std_f": 24.0,
+      "cv": 0.414,
+      "iqr": 40.6,
+      "min_f": 4.1,
+      "max_f": 97.6,
+      "range": 93.6
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 376,
+      "mean_f": 73.2,
+      "std_f": 23.5,
+      "cv": 0.321,
+      "iqr": 41.0,
+      "min_f": 7.0,
+      "max_f": 99.8,
+      "range": 92.7
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 370,
+      "mean_f": 73.2,
+      "std_f": 22.1,
+      "cv": 0.302,
+      "iqr": 36.0,
+      "min_f": 7.1,
+      "max_f": 99.7,
+      "range": 92.7
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 344,
+      "mean_f": 76.7,
+      "std_f": 21.8,
+      "cv": 0.285,
+      "iqr": 33.9,
+      "min_f": 7.2,
+      "max_f": 99.6,
+      "range": 92.4
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_aes": 518,
+      "mean_f": 47.7,
+      "std_f": 14.2,
+      "cv": 0.298,
+      "iqr": 15.7,
+      "min_f": 0.1,
+      "max_f": 92.4,
+      "range": 92.3
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 926,
+      "mean_f": 63.8,
+      "std_f": 22.5,
+      "cv": 0.352,
+      "iqr": 37.5,
+      "min_f": 7.5,
+      "max_f": 99.7,
+      "range": 92.2
+    },
+    {
+      "drug": "RAMIPRIL",
+      "n_aes": 368,
+      "mean_f": 63.6,
+      "std_f": 24.5,
+      "cv": 0.385,
+      "iqr": 40.7,
+      "min_f": 6.1,
+      "max_f": 98.1,
+      "range": 92.0
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_aes": 327,
+      "mean_f": 64.5,
+      "std_f": 26.1,
+      "cv": 0.404,
+      "iqr": 49.0,
+      "min_f": 7.5,
+      "max_f": 99.3,
+      "range": 91.8
+    },
+    {
+      "drug": "ROSUVASTATIN",
+      "n_aes": 337,
+      "mean_f": 52.2,
+      "std_f": 20.9,
+      "cv": 0.4,
+      "iqr": 35.1,
+      "min_f": 5.5,
+      "max_f": 97.1,
+      "range": 91.6
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 508,
+      "mean_f": 72.3,
+      "std_f": 22.4,
+      "cv": 0.309,
+      "iqr": 39.8,
+      "min_f": 8.2,
+      "max_f": 99.7,
+      "range": 91.5
+    },
+    {
+      "drug": "METFORMIN",
+      "n_aes": 399,
+      "mean_f": 59.0,
+      "std_f": 21.4,
+      "cv": 0.362,
+      "iqr": 35.5,
+      "min_f": 6.2,
+      "max_f": 97.7,
+      "range": 91.5
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 623,
+      "mean_f": 64.9,
+      "std_f": 22.6,
+      "cv": 0.349,
+      "iqr": 38.5,
+      "min_f": 8.6,
+      "max_f": 99.7,
+      "range": 91.1
+    },
+    {
+      "drug": "AZATHIOPRINE",
+      "n_aes": 337,
+      "mean_f": 65.4,
+      "std_f": 24.8,
+      "cv": 0.38,
+      "iqr": 44.6,
+      "min_f": 7.9,
+      "max_f": 99.0,
+      "range": 91.1
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "n_aes": 388,
+      "mean_f": 53.5,
+      "std_f": 21.4,
+      "cv": 0.399,
+      "iqr": 35.8,
+      "min_f": 7.5,
+      "max_f": 98.3,
+      "range": 90.8
+    },
+    {
+      "drug": "NAPROXEN",
+      "n_aes": 331,
+      "mean_f": 70.6,
+      "std_f": 22.8,
+      "cv": 0.324,
+      "iqr": 37.9,
+      "min_f": 8.5,
+      "max_f": 99.3,
+      "range": 90.8
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 892,
+      "mean_f": 64.3,
+      "std_f": 21.5,
+      "cv": 0.334,
+      "iqr": 39.2,
+      "min_f": 9.1,
+      "max_f": 99.8,
+      "range": 90.6
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_aes": 537,
+      "mean_f": 54.0,
+      "std_f": 15.1,
+      "cv": 0.28,
+      "iqr": 20.1,
+      "min_f": 7.3,
+      "max_f": 97.7,
+      "range": 90.4
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "n_aes": 385,
+      "mean_f": 55.1,
+      "std_f": 21.3,
+      "cv": 0.385,
+      "iqr": 36.9,
+      "min_f": 7.1,
+      "max_f": 97.5,
+      "range": 90.4
+    },
+    {
+      "drug": "MORPHINE",
+      "n_aes": 441,
+      "mean_f": 67.1,
+      "std_f": 19.1,
+      "cv": 0.284,
+      "iqr": 25.4,
+      "min_f": 8.8,
+      "max_f": 99.0,
+      "range": 90.1
+    },
+    {
+      "drug": "INSULIN",
+      "n_aes": 339,
+      "mean_f": 52.9,
+      "std_f": 17.7,
+      "cv": 0.334,
+      "iqr": 25.6,
+      "min_f": 9.3,
+      "max_f": 99.0,
+      "range": 89.7
+    },
+    {
+      "drug": "GABAPENTIN",
+      "n_aes": 333,
+      "mean_f": 53.5,
+      "std_f": 21.9,
+      "cv": 0.409,
+      "iqr": 37.7,
+      "min_f": 5.5,
+      "max_f": 95.1,
+      "range": 89.6
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_aes": 501,
+      "mean_f": 63.5,
+      "std_f": 24.3,
+      "cv": 0.383,
+      "iqr": 42.5,
+      "min_f": 9.9,
+      "max_f": 99.1,
+      "range": 89.2
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 755,
+      "mean_f": 66.4,
+      "std_f": 23.7,
+      "cv": 0.357,
+      "iqr": 44.1,
+      "min_f": 11.6,
+      "max_f": 99.5,
+      "range": 88.0
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_aes": 336,
+      "mean_f": 49.8,
+      "std_f": 18.4,
+      "cv": 0.369,
+      "iqr": 30.3,
+      "min_f": 4.2,
+      "max_f": 92.1,
+      "range": 88.0
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 334,
+      "mean_f": 78.4,
+      "std_f": 19.7,
+      "cv": 0.251,
+      "iqr": 33.9,
+      "min_f": 12.0,
+      "max_f": 99.8,
+      "range": 87.8
+    },
+    {
+      "drug": "IBUPROFEN",
+      "n_aes": 372,
+      "mean_f": 63.8,
+      "std_f": 20.2,
+      "cv": 0.317,
+      "iqr": 32.1,
+      "min_f": 9.8,
+      "max_f": 96.4,
+      "range": 86.6
+    }
+  ],
+  "summary": {
+    "total_signals": 96281,
+    "total_drugs": 2178,
+    "total_aes": 5069
+  }
+}

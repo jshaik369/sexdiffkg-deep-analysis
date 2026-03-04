@@ -1,0 +1,72 @@
+{
+  "kg_embeddings": {
+    "status": "embeddings_not_loaded"
+  },
+  "signal_profile_pca": {
+    "n_drugs": 200,
+    "n_aes_used": 4667,
+    "pc_sex_correlations": [
+      {
+        "pc": 0,
+        "rho": 0.841,
+        "p": 1.014e-54,
+        "var_explained": 3.4
+      },
+      {
+        "pc": 1,
+        "rho": -0.826,
+        "p": 3.279e-51,
+        "var_explained": 3.1
+      },
+      {
+        "pc": 2,
+        "rho": 0.142,
+        "p": 0.0446,
+        "var_explained": 3.0
+      },
+      {
+        "pc": 3,
+        "rho": 0.841,
+        "p": 1.269e-54,
+        "var_explained": 2.3
+      },
+      {
+        "pc": 4,
+        "rho": 0.737,
+        "p": 1.836e-35,
+        "var_explained": 2.1
+      },
+      {
+        "pc": 5,
+        "rho": -0.653,
+        "p": 1.072e-25,
+        "var_explained": 2.0
+      },
+      {
+        "pc": 6,
+        "rho": 0.835,
+        "p": 2.519e-53,
+        "var_explained": 1.7
+      },
+      {
+        "pc": 7,
+        "rho": -0.601,
+        "p": 4.784e-21,
+        "var_explained": 1.6
+      },
+      {
+        "pc": 8,
+        "rho": 0.76,
+        "p": 6.528e-39,
+        "var_explained": 1.5
+      },
+      {
+        "pc": 9,
+        "rho": -0.05,
+        "p": 0.4857,
+        "var_explained": 1.4
+      }
+    ],
+    "total_variance_10pc": 22.3
+  }
+}
