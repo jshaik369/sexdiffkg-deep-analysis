@@ -1,0 +1,253 @@
+{
+  "overview": {
+    "n_signals": 4476,
+    "n_drugs": 1112,
+    "n_aes": 46,
+    "overall_f_pct": 61.8,
+    "mean_abs_lr": 1.014
+  },
+  "subcategories": [
+    {
+      "category": "GI_perforation",
+      "n_signals": 66,
+      "n_drugs": 61,
+      "mean_f_pct": 53.5,
+      "mean_lr": 0.848
+    },
+    {
+      "category": "Hepatobiliary",
+      "n_signals": 122,
+      "n_drugs": 109,
+      "mean_f_pct": 57.3,
+      "mean_lr": 0.921
+    },
+    {
+      "category": "GI_bleeding",
+      "n_signals": 449,
+      "n_drugs": 268,
+      "mean_f_pct": 60.0,
+      "mean_lr": 0.995
+    },
+    {
+      "category": "Motility",
+      "n_signals": 371,
+      "n_drugs": 325,
+      "mean_f_pct": 60.1,
+      "mean_lr": 1.015
+    },
+    {
+      "category": "Nausea_vomiting",
+      "n_signals": 765,
+      "n_drugs": 569,
+      "mean_f_pct": 61.4,
+      "mean_lr": 0.972
+    },
+    {
+      "category": "Pancreatitis",
+      "n_signals": 109,
+      "n_drugs": 109,
+      "mean_f_pct": 61.7,
+      "mean_lr": 0.907
+    },
+    {
+      "category": "Abdominal_pain",
+      "n_signals": 739,
+      "n_drugs": 489,
+      "mean_f_pct": 62.2,
+      "mean_lr": 1.07
+    },
+    {
+      "category": "Upper_GI",
+      "n_signals": 344,
+      "n_drugs": 231,
+      "mean_f_pct": 64.1,
+      "mean_lr": 0.946
+    },
+    {
+      "category": "Oral",
+      "n_signals": 344,
+      "n_drugs": 257,
+      "mean_f_pct": 64.9,
+      "mean_lr": 1.266
+    },
+    {
+      "category": "Diarrhoea_colitis",
+      "n_signals": 545,
+      "n_drugs": 439,
+      "mean_f_pct": 65.9,
+      "mean_lr": 0.944
+    }
+  ],
+  "drug_class_profiles": [
+    {
+      "class": "ICIs",
+      "n_drugs": 5,
+      "n_signals": 35,
+      "mean_f_pct": 47.0,
+      "mean_lr": 0.764
+    },
+    {
+      "class": "TKIs",
+      "n_drugs": 11,
+      "n_signals": 66,
+      "mean_f_pct": 49.7,
+      "mean_lr": 0.742
+    },
+    {
+      "class": "PPIs",
+      "n_drugs": 5,
+      "n_signals": 63,
+      "mean_f_pct": 65.7,
+      "mean_lr": 0.917
+    },
+    {
+      "class": "Opioids",
+      "n_drugs": 7,
+      "n_signals": 84,
+      "mean_f_pct": 73.6,
+      "mean_lr": 1.198
+    },
+    {
+      "class": "NSAIDs",
+      "n_drugs": 7,
+      "n_signals": 84,
+      "mean_f_pct": 75.6,
+      "mean_lr": 1.063
+    },
+    {
+      "class": "Anti_TNFs",
+      "n_drugs": 5,
+      "n_signals": 73,
+      "mean_f_pct": 79.2,
+      "mean_lr": 0.974
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 24,
+      "mean_f_pct": 78.3,
+      "total_reports": 45421
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 21,
+      "mean_f_pct": 74.8,
+      "total_reports": 42044
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 14,
+      "mean_f_pct": 79.2,
+      "total_reports": 35454
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_aes": 21,
+      "mean_f_pct": 82.2,
+      "total_reports": 30981
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_aes": 15,
+      "mean_f_pct": 85.6,
+      "total_reports": 26870
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 15,
+      "mean_f_pct": 72.4,
+      "total_reports": 25737
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_aes": 17,
+      "mean_f_pct": 79.4,
+      "total_reports": 24430
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_aes": 24,
+      "mean_f_pct": 69.0,
+      "total_reports": 22665
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_aes": 15,
+      "mean_f_pct": 78.6,
+      "total_reports": 21459
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_aes": 12,
+      "mean_f_pct": 88.4,
+      "total_reports": 20866
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 13,
+      "mean_f_pct": 73.0,
+      "total_reports": 20104
+    },
+    {
+      "drug": "NAPROXEN",
+      "n_aes": 20,
+      "mean_f_pct": 73.6,
+      "total_reports": 19832
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "n_aes": 15,
+      "mean_f_pct": 78.8,
+      "total_reports": 19518
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_aes": 16,
+      "mean_f_pct": 83.3,
+      "total_reports": 19265
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_aes": 22,
+      "mean_f_pct": 68.3,
+      "total_reports": 19180
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_aes": 19,
+      "mean_f_pct": 80.1,
+      "total_reports": 18788
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_aes": 19,
+      "mean_f_pct": 74.2,
+      "total_reports": 18644
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_aes": 14,
+      "mean_f_pct": 81.1,
+      "total_reports": 17627
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_aes": 17,
+      "mean_f_pct": 74.0,
+      "total_reports": 17621
+    },
+    {
+      "drug": "CETIRIZINE",
+      "n_aes": 10,
+      "mean_f_pct": 93.4,
+      "total_reports": 17217
+    }
+  ],
+  "nausea_vomiting_focus": {
+    "n_signals": 701,
+    "mean_f_pct": 61.9,
+    "nausea_f": 60.6,
+    "vomiting_f": 63.2
+  }
+}

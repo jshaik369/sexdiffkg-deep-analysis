@@ -1,0 +1,220 @@
+{
+  "overview": {
+    "n_drugs_analyzed": 2178,
+    "breadth_sex_rho": 0.117,
+    "breadth_sex_p": 4.153000722713614e-08,
+    "ae_promiscuity_sex_rho": 0.143,
+    "ae_promiscuity_sex_p": 1.290916499057527e-24
+  },
+  "breadth_quintiles": [
+    {
+      "quintile": "Q1_narrow",
+      "n_drugs": 547,
+      "mean_f_pct": 53.4,
+      "mean_aes": 1.3,
+      "mean_lr": 0.974
+    },
+    {
+      "quintile": "Q2",
+      "n_drugs": 378,
+      "mean_f_pct": 53.4,
+      "mean_aes": 4.2,
+      "mean_lr": 0.978
+    },
+    {
+      "quintile": "Q3",
+      "n_drugs": 382,
+      "mean_f_pct": 55.4,
+      "mean_aes": 10.7,
+      "mean_lr": 0.935
+    },
+    {
+      "quintile": "Q4",
+      "n_drugs": 439,
+      "mean_f_pct": 54.5,
+      "mean_aes": 31.7,
+      "mean_lr": 0.926
+    },
+    {
+      "quintile": "Q5_broad",
+      "n_drugs": 432,
+      "mean_f_pct": 57.5,
+      "mean_aes": 176.0,
+      "mean_lr": 0.976
+    }
+  ],
+  "top_divergent_pairs": [
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "PALBOCICLIB",
+      "shared_aes": 14,
+      "d1_f_pct": 35.4,
+      "d2_f_pct": 94.9,
+      "sex_diff": 59.5
+    },
+    {
+      "drug1": "ALENDRONIC ACID",
+      "drug2": "LEUPRORELIN",
+      "shared_aes": 78,
+      "d1_f_pct": 91.5,
+      "d2_f_pct": 37.3,
+      "sex_diff": 54.2
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "PALBOCICLIB",
+      "shared_aes": 16,
+      "d1_f_pct": 41.0,
+      "d2_f_pct": 93.5,
+      "sex_diff": 52.5
+    },
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "SARILUMAB",
+      "shared_aes": 44,
+      "d1_f_pct": 37.5,
+      "d2_f_pct": 88.3,
+      "sex_diff": 50.8
+    },
+    {
+      "drug1": "ALENDRONIC ACID",
+      "drug2": "MINOXIDIL",
+      "shared_aes": 29,
+      "d1_f_pct": 95.7,
+      "d2_f_pct": 46.2,
+      "sex_diff": 49.6
+    },
+    {
+      "drug1": "DESOXIMETASONE",
+      "drug2": "LEUPRORELIN",
+      "shared_aes": 31,
+      "d1_f_pct": 86.1,
+      "d2_f_pct": 36.9,
+      "sex_diff": 49.3
+    },
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "DIPHENHYDRAMINE",
+      "shared_aes": 80,
+      "d1_f_pct": 35.6,
+      "d2_f_pct": 83.4,
+      "sex_diff": 47.7
+    },
+    {
+      "drug1": "TOFACITINIB",
+      "drug2": "LEUPRORELIN",
+      "shared_aes": 71,
+      "d1_f_pct": 84.8,
+      "d2_f_pct": 37.3,
+      "sex_diff": 47.5
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "MINOXIDIL",
+      "shared_aes": 35,
+      "d1_f_pct": 92.0,
+      "d2_f_pct": 45.3,
+      "sex_diff": 46.7
+    },
+    {
+      "drug1": "MINOXIDIL",
+      "drug2": "ERENUMAB",
+      "shared_aes": 22,
+      "d1_f_pct": 47.4,
+      "d2_f_pct": 94.0,
+      "sex_diff": 46.6
+    },
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "ERENUMAB",
+      "shared_aes": 31,
+      "d1_f_pct": 46.0,
+      "d2_f_pct": 92.4,
+      "sex_diff": 46.4
+    },
+    {
+      "drug1": "DOXYCYCLINE",
+      "drug2": "MINOXIDIL",
+      "shared_aes": 30,
+      "d1_f_pct": 85.6,
+      "d2_f_pct": 39.1,
+      "sex_diff": 46.4
+    },
+    {
+      "drug1": "PALBOCICLIB",
+      "drug2": "OLANZAPINE",
+      "shared_aes": 10,
+      "d1_f_pct": 95.1,
+      "d2_f_pct": 49.1,
+      "sex_diff": 46.1
+    },
+    {
+      "drug1": "LEUPRORELIN",
+      "drug2": "DENOSUMAB",
+      "shared_aes": 57,
+      "d1_f_pct": 35.0,
+      "d2_f_pct": 80.7,
+      "sex_diff": 45.8
+    },
+    {
+      "drug1": "CORTISONE",
+      "drug2": "LEUPRORELIN",
+      "shared_aes": 78,
+      "d1_f_pct": 79.7,
+      "d2_f_pct": 34.3,
+      "sex_diff": 45.5
+    },
+    {
+      "drug1": "CODEINE",
+      "drug2": "MINOXIDIL",
+      "shared_aes": 23,
+      "d1_f_pct": 91.7,
+      "d2_f_pct": 46.4,
+      "sex_diff": 45.2
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "LEUPRORELIN",
+      "shared_aes": 115,
+      "d1_f_pct": 82.8,
+      "d2_f_pct": 38.2,
+      "sex_diff": 44.6
+    },
+    {
+      "drug1": "CERTOLIZUMAB",
+      "drug2": "MINOXIDIL",
+      "shared_aes": 35,
+      "d1_f_pct": 91.2,
+      "d2_f_pct": 46.7,
+      "sex_diff": 44.4
+    },
+    {
+      "drug1": "PALBOCICLIB",
+      "drug2": "ISOTRETINOIN",
+      "shared_aes": 16,
+      "d1_f_pct": 96.1,
+      "d2_f_pct": 51.7,
+      "sex_diff": 44.4
+    },
+    {
+      "drug1": "CERTOLIZUMAB",
+      "drug2": "LEUPRORELIN",
+      "shared_aes": 86,
+      "d1_f_pct": 85.7,
+      "d2_f_pct": 41.5,
+      "sex_diff": 44.2
+    }
+  ],
+  "age_proxy": {
+    "elderly_proxy": {
+      "n_drugs": 18,
+      "n_signals": 4817,
+      "mean_f_pct": 57.7
+    },
+    "young_proxy": {
+      "n_drugs": 9,
+      "n_signals": 2045,
+      "mean_f_pct": 56.4
+    }
+  }
+}
