@@ -25,7 +25,7 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 - **246,056 nodes** (16 entity types) / **3,182,843 edges** (18 relation types)
 - All v4 unique triples preserved (1,532,674, 100%)
 - 1,650,169 new edges from VEDA (disease, clinical trial, Ayurvedic, compound data)
-- ComplEx v5: COMPLETE (100ep, 2h42m, loss 0.049), evaluation: 47%
+- ComplEx v5: COMPLETE — MRR 0.025, Hits@10 5.8%, AMRI 0.929 (50K subset eval)
 
 ## Audit-Proof Verification
 
