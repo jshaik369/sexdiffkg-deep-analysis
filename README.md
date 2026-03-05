@@ -10,8 +10,8 @@ Comprehensive clinical pharmacovigilance analyses derived from the SexDiffKG kno
 
 | Directory | Files | Description |
 |-----------|-------|-------------|
-| `analysis/` | 240 JSON/TSV | Analysis results, audit reports, 5 new KG ground truths |
-| `figures/` | 314 PNG/PDF | Publication-quality figures (300 dpi) |
+| `analysis/` | 243 JSON/TSV | Analysis results, audit reports, 5 new KG ground truths |
+| `figures/` | 316 PNG/PDF | Publication-quality figures (300 dpi) |
 | `papers/` | 17 papers | Full manuscript drafts across drug safety domains |
 | `drafts/` | 2 papers | Early manuscript drafts (CPI irAE, Cardiac Reversal) |
 | `vault_docs/` | 25 documents | Clinical analysis narratives and synthesis |
@@ -25,7 +25,7 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 - **246,056 nodes** (16 entity types) / **3,182,843 edges** (18 relation types)
 - All v4 unique triples preserved (1,532,674, 100%)
 - 1,650,169 new edges from VEDA (disease, clinical trial, Ayurvedic, compound data)
-- ComplEx v5: training COMPLETE (100ep, 2h42m, loss 0.049), evaluation running
+- ComplEx v5: COMPLETE (100ep, 2h42m, loss 0.049), evaluation: 47%
 
 ## Audit-Proof Verification
 
@@ -44,8 +44,8 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 | REPRODUCT-KG | 22,403 | 1,116,735 | Pregnancy drug safety | **MRR 0.163** |
 | MENTALHEALTH-KG | 20,851 | 762,389 | Psychiatric drug safety | **MRR 0.128** |
 | GERIPHARM-KG | 18,754 | 739,396 | Elderly drug safety | **MRR 0.144** |
-| PCOS-ENDO-KG | 36,903 | 697,819 | PCOS/endometriosis + GLP-1 | training... |
-| AYUR-PHARMA-KG | 24,316 | 293,444 | Ayurvedic pharmacovigilance | queued |
+| PCOS-ENDO-KG | 36,903 | 697,819 | PCOS/endometriosis + GLP-1 | **MRR 0.068** |
+| AYUR-PHARMA-KG | 24,316 | 293,444 | Ayurvedic pharmacovigilance | **MRR 0.089** |
 
 ## Ten Major Findings
 
