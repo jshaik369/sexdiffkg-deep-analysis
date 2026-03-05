@@ -1,0 +1,257 @@
+{
+  "analysis": "pathway_sex_differential_enrichment",
+  "wave": 1,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:18:15.779394",
+  "novelty": "First analysis connecting drug safety signals to Reactome pathways via identifier bridges (impossible in v5)",
+  "summary": {
+    "drugs_with_targets": 4400,
+    "drugs_traceable_to_pathways": 4332,
+    "drugs_with_sex_diff_signals": 2178,
+    "drugs_with_both": 834,
+    "pathways_reached": 1647,
+    "significant_pathways": 914
+  },
+  "top_pathways": [
+    {
+      "pathway_id": "PATHWAY:R-HSA-9679191",
+      "pathway_name": "Potential therapeutics for SARS",
+      "total_drugs": 423,
+      "sexdiff_drugs": 111,
+      "sexdiff_fraction": 0.262,
+      "total_signals": 10296
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-416476",
+      "pathway_name": "G alpha (q) signalling events",
+      "total_drugs": 548,
+      "sexdiff_drugs": 110,
+      "sexdiff_fraction": 0.201,
+      "total_signals": 4800
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-6785807",
+      "pathway_name": "Interleukin-4 and Interleukin-13 signaling",
+      "total_drugs": 448,
+      "sexdiff_drugs": 99,
+      "sexdiff_fraction": 0.221,
+      "total_signals": 9735
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-418594",
+      "pathway_name": "G alpha (i) signalling events",
+      "total_drugs": 431,
+      "sexdiff_drugs": 87,
+      "sexdiff_fraction": 0.202,
+      "total_signals": 3813
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-418555",
+      "pathway_name": "G alpha (s) signalling events",
+      "total_drugs": 353,
+      "sexdiff_drugs": 74,
+      "sexdiff_fraction": 0.21,
+      "total_signals": 2956
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-4090294",
+      "pathway_name": "SUMOylation of intracellular receptors",
+      "total_drugs": 328,
+      "sexdiff_drugs": 69,
+      "sexdiff_fraction": 0.21,
+      "total_signals": 4735
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-383280",
+      "pathway_name": "Nuclear Receptor transcription pathway",
+      "total_drugs": 335,
+      "sexdiff_drugs": 67,
+      "sexdiff_fraction": 0.2,
+      "total_signals": 4725
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-1257604",
+      "pathway_name": "PIP3 activates AKT signaling",
+      "total_drugs": 442,
+      "sexdiff_drugs": 57,
+      "sexdiff_fraction": 0.129,
+      "total_signals": 1543
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-6811558",
+      "pathway_name": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+      "total_drugs": 465,
+      "sexdiff_drugs": 57,
+      "sexdiff_fraction": 0.123,
+      "total_signals": 1543
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-5673001",
+      "pathway_name": "RAF/MAP kinase cascade",
+      "total_drugs": 414,
+      "sexdiff_drugs": 57,
+      "sexdiff_fraction": 0.138,
+      "total_signals": 1398
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-3371497",
+      "pathway_name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+      "total_drugs": 256,
+      "sexdiff_drugs": 56,
+      "sexdiff_fraction": 0.219,
+      "total_signals": 5043
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-2219530",
+      "pathway_name": "Constitutive Signaling by Aberrant PI3K in Cancer",
+      "total_drugs": 405,
+      "sexdiff_drugs": 55,
+      "sexdiff_fraction": 0.136,
+      "total_signals": 1541
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-8856825",
+      "pathway_name": "Cargo recognition for clathrin-mediated endocytosis",
+      "total_drugs": 272,
+      "sexdiff_drugs": 51,
+      "sexdiff_fraction": 0.188,
+      "total_signals": 1669
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-8856828",
+      "pathway_name": "Clathrin-mediated endocytosis",
+      "total_drugs": 273,
+      "sexdiff_drugs": 51,
+      "sexdiff_fraction": 0.187,
+      "total_signals": 1669
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-6783783",
+      "pathway_name": "Interleukin-10 signaling",
+      "total_drugs": 191,
+      "sexdiff_drugs": 49,
+      "sexdiff_fraction": 0.257,
+      "total_signals": 5768
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-375276",
+      "pathway_name": "Peptide ligand-binding receptors",
+      "total_drugs": 219,
+      "sexdiff_drugs": 45,
+      "sexdiff_fraction": 0.205,
+      "total_signals": 2882
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-1236394",
+      "pathway_name": "Signaling by ERBB4",
+      "total_drugs": 165,
+      "sexdiff_drugs": 44,
+      "sexdiff_fraction": 0.267,
+      "total_signals": 2229
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-6798695",
+      "pathway_name": "Neutrophil degranulation",
+      "total_drugs": 338,
+      "sexdiff_drugs": 41,
+      "sexdiff_fraction": 0.121,
+      "total_signals": 2930
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-8939902",
+      "pathway_name": "Regulation of RUNX2 expression and activity",
+      "total_drugs": 149,
+      "sexdiff_drugs": 39,
+      "sexdiff_fraction": 0.262,
+      "total_signals": 4506
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-977443",
+      "pathway_name": "GABA receptor activation",
+      "total_drugs": 75,
+      "sexdiff_drugs": 35,
+      "sexdiff_fraction": 0.467,
+      "total_signals": 2069
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-9927418",
+      "pathway_name": "Developmental Lineage of Mammary Gland Luminal Epithelial Cells",
+      "total_drugs": 252,
+      "sexdiff_drugs": 34,
+      "sexdiff_fraction": 0.135,
+      "total_signals": 985
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-8866910",
+      "pathway_name": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "total_drugs": 197,
+      "sexdiff_drugs": 33,
+      "sexdiff_fraction": 0.168,
+      "total_signals": 1224
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-9615017",
+      "pathway_name": "FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes",
+      "total_drugs": 93,
+      "sexdiff_drugs": 33,
+      "sexdiff_fraction": 0.355,
+      "total_signals": 3801
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-390651",
+      "pathway_name": "Dopamine receptors",
+      "total_drugs": 108,
+      "sexdiff_drugs": 32,
+      "sexdiff_fraction": 0.296,
+      "total_signals": 2394
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-8849473",
+      "pathway_name": "PTK6 Expression",
+      "total_drugs": 77,
+      "sexdiff_drugs": 32,
+      "sexdiff_fraction": 0.416,
+      "total_signals": 3800
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-9022699",
+      "pathway_name": "MECP2 regulates neuronal receptors and channels",
+      "total_drugs": 170,
+      "sexdiff_drugs": 32,
+      "sexdiff_fraction": 0.188,
+      "total_signals": 1763
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-5576892",
+      "pathway_name": "Phase 0 - rapid depolarisation",
+      "total_drugs": 114,
+      "sexdiff_drugs": 31,
+      "sexdiff_fraction": 0.272,
+      "total_signals": 2188
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-390666",
+      "pathway_name": "Serotonin receptors",
+      "total_drugs": 130,
+      "sexdiff_drugs": 31,
+      "sexdiff_fraction": 0.238,
+      "total_signals": 2386
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-9768777",
+      "pathway_name": "Regulation of NPAS4 gene transcription",
+      "total_drugs": 75,
+      "sexdiff_drugs": 30,
+      "sexdiff_fraction": 0.4,
+      "total_signals": 3786
+    },
+    {
+      "pathway_id": "PATHWAY:R-HSA-2162123",
+      "pathway_name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+      "total_drugs": 81,
+      "sexdiff_drugs": 28,
+      "sexdiff_fraction": 0.346,
+      "total_signals": 2269
+    }
+  ]
+}
