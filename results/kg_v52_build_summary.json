@@ -1,0 +1,53 @@
+{
+  "analysis_type": "kg_version_upgrade",
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:08:58.164019",
+  "title": "SexDiffKG v5.2: Bridged Merged KG with VEDA-KG",
+  "description": "Merged SexDiffKG v4 with VEDA-KG v1, built 13,167 identifier bridges connecting pharmacovigilance, pathway, and PPI subgraphs into single connected component.",
+  "kg_stats": {
+    "nodes": 217993,
+    "edges": 3194017,
+    "node_types": 13,
+    "edge_types": 18,
+    "lcc_fraction": 1.0,
+    "v4_preservation": 0.99995
+  },
+  "bridges": {
+    "same_gene": 1940,
+    "encodes": 11227,
+    "total": 13167,
+    "sources": [
+      "drug_targets.parquet",
+      "id_mappings.parquet",
+      "STRING_protein_aliases"
+    ]
+  },
+  "validation": {
+    "checks_passed": 14,
+    "checks_total": 15,
+    "zero_nan": true,
+    "zero_orphans": true,
+    "zero_duplicates": true,
+    "all_endpoints_in_nodes": true
+  },
+  "training_status": "in_progress",
+  "models_training": [
+    "ComplEx",
+    "DistMult",
+    "RotatE"
+  ],
+  "comparison": {
+    "v4": {
+      "nodes": 109867,
+      "edges": 1822851,
+      "best_mrr": 0.2484
+    },
+    "v5": {
+      "nodes": 246056,
+      "edges": 3182843,
+      "best_mrr": 0.0413
+    },
+    "v5_issues": "901 disconnected components, 25K orphan nodes, 3 separate subgraphs",
+    "v5.2_fix": "13,167 bridge edges unified all subgraphs, 100% v4 edge preservation"
+  }
+}
