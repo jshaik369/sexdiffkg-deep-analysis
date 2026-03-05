@@ -1,0 +1,11 @@
+{
+  "analysis": "publication_ready_figures",
+  "wave": 26,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:56:54.763216",
+  "novelty": "Publication-ready 4-panel overview and 6-panel key discoveries figures",
+  "figures_generated": [
+    "v52_wave26_publication_overview.png",
+    "v52_wave26_key_discoveries.png"
+  ]
+}

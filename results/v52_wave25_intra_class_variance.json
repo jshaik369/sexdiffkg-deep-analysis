@@ -1,0 +1,345 @@
+{
+  "analysis": "intra_class_variance",
+  "wave": 25,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:56:13.514615",
+  "novelty": "Same mechanism/target, wildly different sex-bias: Anti-CD20 55pp, CGRP 74pp, atypical AP 90pp spreads within classes",
+  "groups": [
+    {
+      "group": "Atypical antipsychotics",
+      "target": "D2/5-HT2A",
+      "spread_pp": 90.3,
+      "n_drugs": 8,
+      "mean_pct_f": 55.4,
+      "drugs": [
+        {
+          "drug": "RISPERIDONE",
+          "n_signals": 518,
+          "pct_female": 92.85714285714286,
+          "mean_lr": 0.9402384546252379
+        },
+        {
+          "drug": "QUETIAPINE",
+          "n_signals": 426,
+          "pct_female": 63.38028169014085,
+          "mean_lr": 0.37006614092851037
+        },
+        {
+          "drug": "ARIPIPRAZOLE",
+          "n_signals": 342,
+          "pct_female": 47.368421052631575,
+          "mean_lr": -0.03724414615699542
+        },
+        {
+          "drug": "OLANZAPINE",
+          "n_signals": 336,
+          "pct_female": 58.92857142857143,
+          "mean_lr": 0.21378342186395555
+        },
+        {
+          "drug": "CLOZAPINE",
+          "n_signals": 287,
+          "pct_female": 68.6411149825784,
+          "mean_lr": 0.39066014517368824
+        },
+        {
+          "drug": "PALIPERIDONE",
+          "n_signals": 161,
+          "pct_female": 85.71428571428571,
+          "mean_lr": 0.6897213143157772
+        },
+        {
+          "drug": "LURASIDONE",
+          "n_signals": 81,
+          "pct_female": 23.456790123456788,
+          "mean_lr": -0.5076468959660408
+        },
+        {
+          "drug": "CARIPRAZINE",
+          "n_signals": 39,
+          "pct_female": 2.564102564102564,
+          "mean_lr": -0.83264742774827
+        }
+      ]
+    },
+    {
+      "group": "CGRP pathway (migraine)",
+      "target": "CGRP/CGRP receptor",
+      "spread_pp": 73.9,
+      "n_drugs": 3,
+      "mean_pct_f": 31.2,
+      "drugs": [
+        {
+          "drug": "ERENUMAB",
+          "n_signals": 68,
+          "pct_female": 79.41176470588235,
+          "mean_lr": 0.750889064016907
+        },
+        {
+          "drug": "FREMANEZUMAB",
+          "n_signals": 23,
+          "pct_female": 8.695652173913043,
+          "mean_lr": -0.7574016681801348
+        },
+        {
+          "drug": "GALCANEZUMAB",
+          "n_signals": 36,
+          "pct_female": 5.555555555555555,
+          "mean_lr": -0.7518208856241022
+        }
+      ]
+    },
+    {
+      "group": "Anti-CD20 (B-cell depletion)",
+      "target": "CD20",
+      "spread_pp": 59.7,
+      "n_drugs": 4,
+      "mean_pct_f": 44.7,
+      "drugs": [
+        {
+          "drug": "RITUXIMAB",
+          "n_signals": 755,
+          "pct_female": 66.62251655629139,
+          "mean_lr": 0.5723869565242797
+        },
+        {
+          "drug": "OCRELIZUMAB",
+          "n_signals": 136,
+          "pct_female": 28.676470588235293,
+          "mean_lr": -0.31607648224625173
+        },
+        {
+          "drug": "OFATUMUMAB",
+          "n_signals": 67,
+          "pct_female": 11.940298507462686,
+          "mean_lr": -0.6881456289483717
+        },
+        {
+          "drug": "OBINUTUZUMAB",
+          "n_signals": 74,
+          "pct_female": 71.62162162162163,
+          "mean_lr": 0.3936646429005776
+        }
+      ]
+    },
+    {
+      "group": "Corticosteroids",
+      "target": "Glucocorticoid receptor",
+      "spread_pp": 37.3,
+      "n_drugs": 6,
+      "mean_pct_f": 67.7,
+      "drugs": [
+        {
+          "drug": "PREDNISONE",
+          "n_signals": 926,
+          "pct_female": 70.19438444924407,
+          "mean_lr": 0.5556650342550514
+        },
+        {
+          "drug": "PREDNISOLONE",
+          "n_signals": 542,
+          "pct_female": 82.47232472324724,
+          "mean_lr": 0.6072363474757183
+        },
+        {
+          "drug": "DEXAMETHASONE",
+          "n_signals": 537,
+          "pct_female": 80.26070763500931,
+          "mean_lr": 0.5446021702398532
+        },
+        {
+          "drug": "METHYLPREDNISOLONE",
+          "n_signals": 521,
+          "pct_female": 77.15930902111324,
+          "mean_lr": 0.7814295449088157
+        },
+        {
+          "drug": "HYDROCORTISONE",
+          "n_signals": 302,
+          "pct_female": 50.66225165562914,
+          "mean_lr": 0.2785510695297312
+        },
+        {
+          "drug": "BUDESONIDE",
+          "n_signals": 259,
+          "pct_female": 45.173745173745175,
+          "mean_lr": -0.1379160314836032
+        }
+      ]
+    },
+    {
+      "group": "IL-17 inhibitors",
+      "target": "IL-17A",
+      "spread_pp": 35.1,
+      "n_drugs": 2,
+      "mean_pct_f": 34.6,
+      "drugs": [
+        {
+          "drug": "SECUKINUMAB",
+          "n_signals": 456,
+          "pct_female": 52.19298245614035,
+          "mean_lr": 0.2756717513575224
+        },
+        {
+          "drug": "IXEKIZUMAB",
+          "n_signals": 82,
+          "pct_female": 17.073170731707318,
+          "mean_lr": -0.530363456379319
+        }
+      ]
+    },
+    {
+      "group": "GLP-1 receptor agonists",
+      "target": "GLP1R",
+      "spread_pp": 30.7,
+      "n_drugs": 5,
+      "mean_pct_f": 24.1,
+      "drugs": [
+        {
+          "drug": "LIRAGLUTIDE",
+          "n_signals": 101,
+          "pct_female": 13.861386138613863,
+          "mean_lr": -0.7928738132764733
+        },
+        {
+          "drug": "SEMAGLUTIDE",
+          "n_signals": 152,
+          "pct_female": 31.57894736842105,
+          "mean_lr": -0.27849717351305925
+        },
+        {
+          "drug": "DULAGLUTIDE",
+          "n_signals": 77,
+          "pct_female": 27.27272727272727,
+          "mean_lr": -0.3413985240629525
+        },
+        {
+          "drug": "EXENATIDE",
+          "n_signals": 92,
+          "pct_female": 39.130434782608695,
+          "mean_lr": -0.19875980549317465
+        },
+        {
+          "drug": "TIRZEPATIDE",
+          "n_signals": 95,
+          "pct_female": 8.421052631578947,
+          "mean_lr": -0.5797096728931171
+        }
+      ]
+    },
+    {
+      "group": "Gabapentinoids",
+      "target": "alpha2delta",
+      "spread_pp": 19.1,
+      "n_drugs": 2,
+      "mean_pct_f": 44.4,
+      "drugs": [
+        {
+          "drug": "GABAPENTIN",
+          "n_signals": 333,
+          "pct_female": 34.83483483483483,
+          "mean_lr": -0.40932891845212044
+        },
+        {
+          "drug": "PREGABALIN",
+          "n_signals": 406,
+          "pct_female": 53.94088669950739,
+          "mean_lr": 0.17297277324011862
+        }
+      ]
+    },
+    {
+      "group": "Anti-TNF-alpha",
+      "target": "TNF-alpha",
+      "spread_pp": 17.5,
+      "n_drugs": 5,
+      "mean_pct_f": 47.9,
+      "drugs": [
+        {
+          "drug": "ADALIMUMAB",
+          "n_signals": 807,
+          "pct_female": 38.166047087980175,
+          "mean_lr": -0.12682991942724886
+        },
+        {
+          "drug": "INFLIXIMAB",
+          "n_signals": 623,
+          "pct_female": 50.40128410914928,
+          "mean_lr": 0.2246662510201279
+        },
+        {
+          "drug": "ETANERCEPT",
+          "n_signals": 618,
+          "pct_female": 42.55663430420712,
+          "mean_lr": -0.06451912483508193
+        },
+        {
+          "drug": "CERTOLIZUMAB",
+          "n_signals": 314,
+          "pct_female": 52.547770700636946,
+          "mean_lr": 0.2540258865764273
+        },
+        {
+          "drug": "GOLIMUMAB",
+          "n_signals": 334,
+          "pct_female": 55.688622754491014,
+          "mean_lr": 0.5111256702343474
+        }
+      ]
+    },
+    {
+      "group": "S1P modulators (MS)",
+      "target": "S1P receptor",
+      "spread_pp": 15.3,
+      "n_drugs": 3,
+      "mean_pct_f": 9.8,
+      "drugs": [
+        {
+          "drug": "FINGOLIMOD",
+          "n_signals": 159,
+          "pct_female": 19.49685534591195,
+          "mean_lr": -0.4978385432002408
+        },
+        {
+          "drug": "SIPONIMOD",
+          "n_signals": 48,
+          "pct_female": 4.166666666666666,
+          "mean_lr": -0.8325779193209252
+        },
+        {
+          "drug": "OZANIMOD",
+          "n_signals": 35,
+          "pct_female": 5.714285714285714,
+          "mean_lr": -0.6917669301202677
+        }
+      ]
+    },
+    {
+      "group": "Platinums (DNA crosslink)",
+      "target": "DNA crosslink",
+      "spread_pp": 12.7,
+      "n_drugs": 3,
+      "mean_pct_f": 69.6,
+      "drugs": [
+        {
+          "drug": "CISPLATIN",
+          "n_signals": 219,
+          "pct_female": 76.25570776255708,
+          "mean_lr": 0.4888955366687423
+        },
+        {
+          "drug": "CARBOPLATIN",
+          "n_signals": 310,
+          "pct_female": 63.54838709677419,
+          "mean_lr": 0.2469977213656279
+        },
+        {
+          "drug": "OXALIPLATIN",
+          "n_signals": 239,
+          "pct_female": 69.0376569037657,
+          "mean_lr": 0.35645790841418123
+        }
+      ]
+    }
+  ]
+}
