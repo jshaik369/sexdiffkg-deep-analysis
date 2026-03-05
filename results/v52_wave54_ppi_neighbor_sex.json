@@ -1,0 +1,13 @@
+{
+  "analysis": "ppi_neighbor_sex_bias",
+  "wave": 54,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:59:05.907998",
+  "novelty": "PPI network topology predicts drug sex-bias propagation",
+  "summary": {
+    "drugs_with_ppi": 0,
+    "rho_max_degree_pctf": null,
+    "rho_direct_neighbor": null,
+    "proteins_analyzed": 0
+  }
+}

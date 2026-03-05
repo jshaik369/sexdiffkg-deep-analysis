@@ -1,0 +1,30 @@
+{
+  "analysis": "drug_approval_era_sex_bias",
+  "wave": 56,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:08:48.094575",
+  "novelty": "Drug era (first FAERS report) vs sex-bias \u2014 are newer drugs less biased?",
+  "summary": {
+    "drugs_analyzed": 1058,
+    "rho_year_pctf": -0.158,
+    "p_year_pctf": 2.29e-07
+  },
+  "era_means": {
+    "2004-2008": {
+      "n": 0,
+      "mean_pctf": 0
+    },
+    "2009-2013": {
+      "n": 828,
+      "mean_pctf": 51.1
+    },
+    "2014-2018": {
+      "n": 122,
+      "mean_pctf": 45.9
+    },
+    "2019-2025": {
+      "n": 108,
+      "mean_pctf": 36.7
+    }
+  }
+}

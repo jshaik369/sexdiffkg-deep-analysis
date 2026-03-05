@@ -1,0 +1,17 @@
+{
+  "analysis": "signal_effect_size_distribution",
+  "wave": 55,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:02:12.464636",
+  "novelty": "Full characterization of sex-differential effect size distribution",
+  "summary": {
+    "mean_lr": 0.0964,
+    "median_lr": 0.5343,
+    "sd_lr": 1.1187,
+    "skewness": -0.0572,
+    "kurtosis": 0.1698,
+    "shapiro_p": 1.62e-35,
+    "female_mean_abs_lr": 1.0072,
+    "male_mean_abs_lr": 0.9631
+  }
+}

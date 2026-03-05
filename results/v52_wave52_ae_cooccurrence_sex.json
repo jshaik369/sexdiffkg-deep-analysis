@@ -1,0 +1,257 @@
+{
+  "analysis": "ae_cooccurrence_sex_bias",
+  "wave": 52,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:58:32.351202",
+  "novelty": "AE co-occurrence sex-bias concordance reveals AE syndromes",
+  "summary": {
+    "ae_pairs_analyzed": 16951,
+    "mean_concordance": 62.7,
+    "female_dominated_aes": 290,
+    "male_dominated_aes": 207
+  },
+  "most_concordant": [
+    {
+      "ae1": "Foetal exposure during pregnancy",
+      "ae2": "Bone density decreased",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Adverse drug reaction",
+      "ae2": "Bone density decreased",
+      "shared_drugs": 17,
+      "concordant": 17,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Premature baby",
+      "ae2": "Low birth weight baby",
+      "shared_drugs": 53,
+      "concordant": 53,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Injury associated with device",
+      "ae2": "Accidental exposure to product",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Injury associated with device",
+      "ae2": "Pulmonary embolism",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Off label use",
+      "ae2": "Prescribed overdose",
+      "shared_drugs": 20,
+      "concordant": 20,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Off label use",
+      "ae2": "Hypercholesterolaemia",
+      "shared_drugs": 28,
+      "concordant": 28,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Glossodynia",
+      "shared_drugs": 10,
+      "concordant": 10,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Drug ineffective",
+      "shared_drugs": 27,
+      "concordant": 27,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Folliculitis",
+      "shared_drugs": 20,
+      "concordant": 20,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Back injury",
+      "shared_drugs": 17,
+      "concordant": 17,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Road traffic accident",
+      "shared_drugs": 31,
+      "concordant": 31,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Prescribed underdose",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Joint range of motion decreased",
+      "shared_drugs": 24,
+      "concordant": 24,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Hepatic cirrhosis",
+      "shared_drugs": 29,
+      "concordant": 29,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    }
+  ],
+  "most_discordant": [
+    {
+      "ae1": "Adverse drug reaction",
+      "ae2": "Device dislocation",
+      "shared_drugs": 16,
+      "concordant": 0,
+      "discordant": 16,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Pulmonary thrombosis",
+      "shared_drugs": 11,
+      "concordant": 0,
+      "discordant": 11,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Infusion related reaction",
+      "ae2": "Pelvic pain",
+      "shared_drugs": 11,
+      "concordant": 0,
+      "discordant": 11,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "COVID-19",
+      "ae2": "Disability",
+      "shared_drugs": 11,
+      "concordant": 0,
+      "discordant": 11,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Emotional disorder",
+      "ae2": "Device dislocation",
+      "shared_drugs": 10,
+      "concordant": 0,
+      "discordant": 10,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Wheezing",
+      "ae2": "Sarcoidosis",
+      "shared_drugs": 15,
+      "concordant": 0,
+      "discordant": 15,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Obesity",
+      "ae2": "Pulmonary thrombosis",
+      "shared_drugs": 10,
+      "concordant": 0,
+      "discordant": 10,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Obesity",
+      "ae2": "Pelvic pain",
+      "shared_drugs": 12,
+      "concordant": 0,
+      "discordant": 12,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Obesity",
+      "ae2": "Tooth fracture",
+      "shared_drugs": 10,
+      "concordant": 0,
+      "discordant": 10,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Confusional state",
+      "ae2": "Tooth fracture",
+      "shared_drugs": 14,
+      "concordant": 0,
+      "discordant": 14,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "General physical health deterioration",
+      "ae2": "Tooth fracture",
+      "shared_drugs": 15,
+      "concordant": 0,
+      "discordant": 15,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Discomfort",
+      "ae2": "Mass",
+      "shared_drugs": 18,
+      "concordant": 0,
+      "discordant": 18,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Folliculitis",
+      "ae2": "Pulmonary thrombosis",
+      "shared_drugs": 12,
+      "concordant": 0,
+      "discordant": 12,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Delirium",
+      "ae2": "Pelvic pain",
+      "shared_drugs": 17,
+      "concordant": 0,
+      "discordant": 17,
+      "pct_concordant": 0.0
+    },
+    {
+      "ae1": "Pulmonary thrombosis",
+      "ae2": "Liver injury",
+      "shared_drugs": 12,
+      "concordant": 0,
+      "discordant": 12,
+      "pct_concordant": 0.0
+    }
+  ]
+}

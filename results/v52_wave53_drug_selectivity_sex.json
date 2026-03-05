@@ -1,0 +1,32 @@
+{
+  "analysis": "drug_selectivity_sex_bias",
+  "wave": 53,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:58:42.149970",
+  "novelty": "Drug target selectivity (1 vs many targets) vs sex-bias patterns",
+  "summary": {
+    "drugs_analyzed": 477,
+    "rho_targets_pctf": 0.069,
+    "p_targets_pctf": 0.131,
+    "rho_targets_abs_lr": 0.048,
+    "p_targets_abs_lr": 0.291
+  },
+  "selectivity_groups": {
+    "Single (1)": {
+      "n_drugs": 384,
+      "mean_pctf": 48.4
+    },
+    "Few (2-3)": {
+      "n_drugs": 81,
+      "mean_pctf": 50.8
+    },
+    "Multi (4-10)": {
+      "n_drugs": 11,
+      "mean_pctf": 61.3
+    },
+    "Poly (>10)": {
+      "n_drugs": 1,
+      "mean_pctf": 74.3
+    }
+  }
+}

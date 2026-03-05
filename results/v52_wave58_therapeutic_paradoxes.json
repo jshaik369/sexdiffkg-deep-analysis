@@ -1,0 +1,347 @@
+{
+  "analysis": "therapeutic_paradoxes",
+  "wave": 58,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:02:13.887281",
+  "novelty": "Disease sex-prevalence vs drug AE sex-bias paradoxes",
+  "summary": {
+    "total_pairs": 58,
+    "paradoxical": 37,
+    "paradox_rate": 63.8
+  },
+  "paradoxes": [
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "DIROXIMEL FUMARATE",
+      "pct_female": 0.0,
+      "n_signals": 25,
+      "paradox": true,
+      "paradox_magnitude": 70.0
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "PEGINTERFERON BETA-1A",
+      "pct_female": 0.0,
+      "n_signals": 46,
+      "paradox": true,
+      "paradox_magnitude": 70.0
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "ELETRIPTAN",
+      "pct_female": 0.0,
+      "n_signals": 9,
+      "paradox": true,
+      "paradox_magnitude": 70.0
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "ALMOTRIPTAN",
+      "pct_female": 0.0,
+      "n_signals": 5,
+      "paradox": true,
+      "paradox_magnitude": 70.0
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "RIMEGEPANT",
+      "pct_female": 0.0,
+      "n_signals": 12,
+      "paradox": true,
+      "paradox_magnitude": 70.0
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "EPTINEZUMAB",
+      "pct_female": 0.0,
+      "n_signals": 27,
+      "paradox": true,
+      "paradox_magnitude": 70.0
+    },
+    {
+      "disease": "Heart Disease/ACS",
+      "disease_sex": "male",
+      "drug": "PRASUGREL",
+      "pct_female": 96.0,
+      "n_signals": 50,
+      "paradox": true,
+      "paradox_magnitude": 66.0
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "SIPONIMOD",
+      "pct_female": 4.2,
+      "n_signals": 48,
+      "paradox": true,
+      "paradox_magnitude": 65.8
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "GALCANEZUMAB",
+      "pct_female": 5.6,
+      "n_signals": 36,
+      "paradox": true,
+      "paradox_magnitude": 64.4
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "OZANIMOD",
+      "pct_female": 5.7,
+      "n_signals": 35,
+      "paradox": true,
+      "paradox_magnitude": 64.3
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "TERIFLUNOMIDE",
+      "pct_female": 7.8,
+      "n_signals": 77,
+      "paradox": true,
+      "paradox_magnitude": 62.2
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "FREMANEZUMAB",
+      "pct_female": 8.7,
+      "n_signals": 23,
+      "paradox": true,
+      "paradox_magnitude": 61.3
+    },
+    {
+      "disease": "Autoimmune/Lupus",
+      "disease_sex": "female",
+      "drug": "BELIMUMAB",
+      "pct_female": 9.1,
+      "n_signals": 22,
+      "paradox": true,
+      "paradox_magnitude": 60.9
+    },
+    {
+      "disease": "Depression",
+      "disease_sex": "female",
+      "drug": "DESVENLAFAXINE",
+      "pct_female": 10.9,
+      "n_signals": 46,
+      "paradox": true,
+      "paradox_magnitude": 59.1
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "OFATUMUMAB",
+      "pct_female": 11.9,
+      "n_signals": 67,
+      "paradox": true,
+      "paradox_magnitude": 58.1
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "INTERFERON BETA-1A",
+      "pct_female": 12.9,
+      "n_signals": 170,
+      "paradox": true,
+      "paradox_magnitude": 57.1
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "RIZATRIPTAN",
+      "pct_female": 13.3,
+      "n_signals": 15,
+      "paradox": true,
+      "paradox_magnitude": 56.7
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "ZOLMITRIPTAN",
+      "pct_female": 14.3,
+      "n_signals": 7,
+      "paradox": true,
+      "paradox_magnitude": 55.7
+    },
+    {
+      "disease": "Gout",
+      "disease_sex": "male",
+      "drug": "FEBUXOSTAT",
+      "pct_female": 83.3,
+      "n_signals": 42,
+      "paradox": true,
+      "paradox_magnitude": 53.3
+    },
+    {
+      "disease": "Heart Disease/ACS",
+      "disease_sex": "male",
+      "drug": "ASPIRIN",
+      "pct_female": 82.5,
+      "n_signals": 137,
+      "paradox": true,
+      "paradox_magnitude": 52.5
+    },
+    {
+      "disease": "Heart Disease/ACS",
+      "disease_sex": "male",
+      "drug": "CLOPIDOGREL",
+      "pct_female": 82.3,
+      "n_signals": 300,
+      "paradox": true,
+      "paradox_magnitude": 52.3
+    },
+    {
+      "disease": "Osteoporosis",
+      "disease_sex": "female",
+      "drug": "TERIPARATIDE",
+      "pct_female": 17.9,
+      "n_signals": 84,
+      "paradox": true,
+      "paradox_magnitude": 52.1
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "FINGOLIMOD",
+      "pct_female": 19.5,
+      "n_signals": 159,
+      "paradox": true,
+      "paradox_magnitude": 50.5
+    },
+    {
+      "disease": "Gout",
+      "disease_sex": "male",
+      "drug": "COLCHICINE",
+      "pct_female": 79.7,
+      "n_signals": 74,
+      "paradox": true,
+      "paradox_magnitude": 49.7
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "CLADRIBINE",
+      "pct_female": 20.4,
+      "n_signals": 54,
+      "paradox": true,
+      "paradox_magnitude": 49.6
+    },
+    {
+      "disease": "Thyroid",
+      "disease_sex": "female",
+      "drug": "LEVOTHYROXINE",
+      "pct_female": 20.5,
+      "n_signals": 322,
+      "paradox": true,
+      "paradox_magnitude": 49.5
+    },
+    {
+      "disease": "Heart Disease/ACS",
+      "disease_sex": "male",
+      "drug": "TICAGRELOR",
+      "pct_female": 79.4,
+      "n_signals": 136,
+      "paradox": true,
+      "paradox_magnitude": 49.4
+    },
+    {
+      "disease": "Migraine",
+      "disease_sex": "female",
+      "drug": "SUMATRIPTAN",
+      "pct_female": 21.1,
+      "n_signals": 57,
+      "paradox": true,
+      "paradox_magnitude": 48.9
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "NATALIZUMAB",
+      "pct_female": 22.7,
+      "n_signals": 141,
+      "paradox": true,
+      "paradox_magnitude": 47.3
+    },
+    {
+      "disease": "Osteoporosis",
+      "disease_sex": "female",
+      "drug": "DENOSUMAB",
+      "pct_female": 23.1,
+      "n_signals": 234,
+      "paradox": true,
+      "paradox_magnitude": 46.9
+    },
+    {
+      "disease": "Rheumatoid Arthritis",
+      "disease_sex": "female",
+      "drug": "UPADACITINIB",
+      "pct_female": 24.3,
+      "n_signals": 181,
+      "paradox": true,
+      "paradox_magnitude": 45.7
+    },
+    {
+      "disease": "Rheumatoid Arthritis",
+      "disease_sex": "female",
+      "drug": "BARICITINIB",
+      "pct_female": 25.0,
+      "n_signals": 36,
+      "paradox": true,
+      "paradox_magnitude": 45.0
+    },
+    {
+      "disease": "Osteoporosis",
+      "disease_sex": "female",
+      "drug": "ZOLEDRONIC ACID",
+      "pct_female": 26.3,
+      "n_signals": 376,
+      "paradox": true,
+      "paradox_magnitude": 43.7
+    },
+    {
+      "disease": "Depression",
+      "disease_sex": "female",
+      "drug": "ESCITALOPRAM",
+      "pct_female": 28.1,
+      "n_signals": 217,
+      "paradox": true,
+      "paradox_magnitude": 41.9
+    },
+    {
+      "disease": "Multiple Sclerosis",
+      "disease_sex": "female",
+      "drug": "OCRELIZUMAB",
+      "pct_female": 28.7,
+      "n_signals": 136,
+      "paradox": true,
+      "paradox_magnitude": 41.3
+    },
+    {
+      "disease": "Depression",
+      "disease_sex": "female",
+      "drug": "FLUOXETINE",
+      "pct_female": 36.3,
+      "n_signals": 204,
+      "paradox": true,
+      "paradox_magnitude": 33.7
+    },
+    {
+      "disease": "Rheumatoid Arthritis",
+      "disease_sex": "female",
+      "drug": "ADALIMUMAB",
+      "pct_female": 38.2,
+      "n_signals": 807,
+      "paradox": true,
+      "paradox_magnitude": 31.8
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "analysis": "sex_bias_predictability",
+  "wave": 57,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:08:56.594932",
+  "novelty": "Can KG structure predict drug sex-bias? Feature importance analysis",
+  "summary": {
+    "drugs_analyzed": 1090,
+    "lr_r2_cv": 0.0362,
+    "rf_r2_cv": 0.0516,
+    "feature_importances": {
+      "n_signals": 0.4172,
+      "n_targets": 0.0543,
+      "n_hae": 0.4604,
+      "n_pathways": 0.068
+    }
+  }
+}
