@@ -1,0 +1,395 @@
+{
+  "analysis": "disease_drug_sex_triangulation",
+  "wave": 4,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:21:49.824659",
+  "novelty": "Identifies diseases where treatment drugs systematically show sex-biased safety profiles",
+  "summary": {
+    "diseases_analyzed": 1390,
+    "diseases_high_signal_fraction": 986
+  },
+  "top_by_signals": [
+    {
+      "disease": "DISEASE:Neoplasms",
+      "n_drugs": 1179,
+      "drugs_with_signals": 369,
+      "signal_fraction": 0.313,
+      "total_signals": 29190,
+      "n_trials": 98
+    },
+    {
+      "disease": "DISEASE:Breast Neoplasms",
+      "n_drugs": 632,
+      "drugs_with_signals": 260,
+      "signal_fraction": 0.411,
+      "total_signals": 26326,
+      "n_trials": 926
+    },
+    {
+      "disease": "DISEASE:Severe Acute Respiratory Syndrome",
+      "n_drugs": 481,
+      "drugs_with_signals": 218,
+      "signal_fraction": 0.453,
+      "total_signals": 23202,
+      "n_trials": 0
+    },
+    {
+      "disease": "DISEASE:Prostatic Neoplasms, Castration-Resistant",
+      "n_drugs": 394,
+      "drugs_with_signals": 171,
+      "signal_fraction": 0.434,
+      "total_signals": 19495,
+      "n_trials": 1
+    },
+    {
+      "disease": "DISEASE:Arthritis, Rheumatoid",
+      "n_drugs": 256,
+      "drugs_with_signals": 109,
+      "signal_fraction": 0.426,
+      "total_signals": 18883,
+      "n_trials": 0
+    },
+    {
+      "disease": "DISEASE:Lymphoma",
+      "n_drugs": 265,
+      "drugs_with_signals": 165,
+      "signal_fraction": 0.623,
+      "total_signals": 18668,
+      "n_trials": 142
+    },
+    {
+      "disease": "DISEASE:Multiple Myeloma",
+      "n_drugs": 256,
+      "drugs_with_signals": 142,
+      "signal_fraction": 0.555,
+      "total_signals": 17885,
+      "n_trials": 59
+    },
+    {
+      "disease": "DISEASE:Leukemia",
+      "n_drugs": 209,
+      "drugs_with_signals": 134,
+      "signal_fraction": 0.641,
+      "total_signals": 17700,
+      "n_trials": 64
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Non-Small-Cell Lung",
+      "n_drugs": 500,
+      "drugs_with_signals": 174,
+      "signal_fraction": 0.348,
+      "total_signals": 16938,
+      "n_trials": 40
+    },
+    {
+      "disease": "DISEASE:Pain",
+      "n_drugs": 322,
+      "drugs_with_signals": 173,
+      "signal_fraction": 0.537,
+      "total_signals": 15762,
+      "n_trials": 126
+    },
+    {
+      "disease": "DISEASE:Schizophrenia",
+      "n_drugs": 259,
+      "drugs_with_signals": 141,
+      "signal_fraction": 0.544,
+      "total_signals": 15440,
+      "n_trials": 6
+    },
+    {
+      "disease": "DISEASE:Melanoma",
+      "n_drugs": 297,
+      "drugs_with_signals": 131,
+      "signal_fraction": 0.441,
+      "total_signals": 15230,
+      "n_trials": 242
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Non-Hodgkin",
+      "n_drugs": 145,
+      "drugs_with_signals": 100,
+      "signal_fraction": 0.69,
+      "total_signals": 15094,
+      "n_trials": 6
+    },
+    {
+      "disease": "DISEASE:Pancreatic Neoplasms",
+      "n_drugs": 271,
+      "drugs_with_signals": 130,
+      "signal_fraction": 0.48,
+      "total_signals": 15012,
+      "n_trials": 26
+    },
+    {
+      "disease": "DISEASE:Leukemia, Myeloid, Acute",
+      "n_drugs": 228,
+      "drugs_with_signals": 121,
+      "signal_fraction": 0.531,
+      "total_signals": 14589,
+      "n_trials": 2
+    },
+    {
+      "disease": "DISEASE:Lung Neoplasms",
+      "n_drugs": 263,
+      "drugs_with_signals": 129,
+      "signal_fraction": 0.49,
+      "total_signals": 14469,
+      "n_trials": 30
+    },
+    {
+      "disease": "DISEASE:Depressive Disorder",
+      "n_drugs": 264,
+      "drugs_with_signals": 156,
+      "signal_fraction": 0.591,
+      "total_signals": 14163,
+      "n_trials": 7
+    },
+    {
+      "disease": "DISEASE:Crohn Disease",
+      "n_drugs": 131,
+      "drugs_with_signals": 71,
+      "signal_fraction": 0.542,
+      "total_signals": 14075,
+      "n_trials": 5
+    },
+    {
+      "disease": "DISEASE:Graft vs Host Disease",
+      "n_drugs": 110,
+      "drugs_with_signals": 76,
+      "signal_fraction": 0.691,
+      "total_signals": 13657,
+      "n_trials": 1
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Large B-Cell, Diffuse",
+      "n_drugs": 163,
+      "drugs_with_signals": 105,
+      "signal_fraction": 0.644,
+      "total_signals": 13650,
+      "n_trials": 2
+    },
+    {
+      "disease": "DISEASE:Osteoarthritis",
+      "n_drugs": 122,
+      "drugs_with_signals": 72,
+      "signal_fraction": 0.59,
+      "total_signals": 13565,
+      "n_trials": 5
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Hepatocellular",
+      "n_drugs": 220,
+      "drugs_with_signals": 105,
+      "signal_fraction": 0.477,
+      "total_signals": 13423,
+      "n_trials": 4
+    },
+    {
+      "disease": "DISEASE:Multiple Sclerosis",
+      "n_drugs": 162,
+      "drugs_with_signals": 100,
+      "signal_fraction": 0.617,
+      "total_signals": 13284,
+      "n_trials": 8
+    },
+    {
+      "disease": "DISEASE:Colorectal Neoplasms",
+      "n_drugs": 297,
+      "drugs_with_signals": 128,
+      "signal_fraction": 0.431,
+      "total_signals": 13142,
+      "n_trials": 51
+    },
+    {
+      "disease": "DISEASE:Asthma",
+      "n_drugs": 221,
+      "drugs_with_signals": 87,
+      "signal_fraction": 0.394,
+      "total_signals": 12647,
+      "n_trials": 16
+    },
+    {
+      "disease": "DISEASE:Renal Insufficiency, Chronic",
+      "n_drugs": 161,
+      "drugs_with_signals": 89,
+      "signal_fraction": 0.553,
+      "total_signals": 12579,
+      "n_trials": 0
+    },
+    {
+      "disease": "DISEASE:Colitis, Ulcerative",
+      "n_drugs": 134,
+      "drugs_with_signals": 58,
+      "signal_fraction": 0.433,
+      "total_signals": 12528,
+      "n_trials": 2
+    },
+    {
+      "disease": "DISEASE:Prostatic Neoplasms",
+      "n_drugs": 223,
+      "drugs_with_signals": 94,
+      "signal_fraction": 0.422,
+      "total_signals": 12495,
+      "n_trials": 18
+    },
+    {
+      "disease": "DISEASE:Ovarian Neoplasms",
+      "n_drugs": 285,
+      "drugs_with_signals": 125,
+      "signal_fraction": 0.439,
+      "total_signals": 12392,
+      "n_trials": 268
+    },
+    {
+      "disease": "DISEASE:Heart Failure",
+      "n_drugs": 215,
+      "drugs_with_signals": 117,
+      "signal_fraction": 0.544,
+      "total_signals": 12376,
+      "n_trials": 31
+    }
+  ],
+  "top_by_fraction": [
+    {
+      "disease": "DISEASE:Delayed Graft Function",
+      "n_drugs": 7,
+      "drugs_with_signals": 7,
+      "signal_fraction": 1.0,
+      "total_signals": 1404
+    },
+    {
+      "disease": "DISEASE:Papilloma",
+      "n_drugs": 5,
+      "drugs_with_signals": 5,
+      "signal_fraction": 1.0,
+      "total_signals": 1008
+    },
+    {
+      "disease": "DISEASE:Blastic Plasmacytoid Dendritic Cell Neoplasm",
+      "n_drugs": 12,
+      "drugs_with_signals": 12,
+      "signal_fraction": 1.0,
+      "total_signals": 5283
+    },
+    {
+      "disease": "DISEASE:Neuroectodermal Tumors, Primitive, Peripheral",
+      "n_drugs": 6,
+      "drugs_with_signals": 6,
+      "signal_fraction": 1.0,
+      "total_signals": 976
+    },
+    {
+      "disease": "DISEASE:Seminoma",
+      "n_drugs": 6,
+      "drugs_with_signals": 6,
+      "signal_fraction": 1.0,
+      "total_signals": 945
+    },
+    {
+      "disease": "DISEASE:Stiff-Person Syndrome",
+      "n_drugs": 8,
+      "drugs_with_signals": 8,
+      "signal_fraction": 1.0,
+      "total_signals": 2653
+    },
+    {
+      "disease": "DISEASE:Marfan Syndrome",
+      "n_drugs": 9,
+      "drugs_with_signals": 9,
+      "signal_fraction": 1.0,
+      "total_signals": 918
+    },
+    {
+      "disease": "DISEASE:Pelvic Organ Prolapse",
+      "n_drugs": 5,
+      "drugs_with_signals": 5,
+      "signal_fraction": 1.0,
+      "total_signals": 908
+    },
+    {
+      "disease": "DISEASE:Herpes Zoster Ophthalmicus",
+      "n_drugs": 6,
+      "drugs_with_signals": 6,
+      "signal_fraction": 1.0,
+      "total_signals": 2014
+    },
+    {
+      "disease": "DISEASE:Synovitis",
+      "n_drugs": 6,
+      "drugs_with_signals": 6,
+      "signal_fraction": 1.0,
+      "total_signals": 2631
+    },
+    {
+      "disease": "DISEASE:Iritis",
+      "n_drugs": 6,
+      "drugs_with_signals": 6,
+      "signal_fraction": 1.0,
+      "total_signals": 2021
+    },
+    {
+      "disease": "DISEASE:Dermatitis Herpetiformis",
+      "n_drugs": 6,
+      "drugs_with_signals": 6,
+      "signal_fraction": 1.0,
+      "total_signals": 2032
+    },
+    {
+      "disease": "DISEASE:Thyroid Carcinoma, Anaplastic",
+      "n_drugs": 5,
+      "drugs_with_signals": 5,
+      "signal_fraction": 1.0,
+      "total_signals": 814
+    },
+    {
+      "disease": "DISEASE:Brain Infarction",
+      "n_drugs": 5,
+      "drugs_with_signals": 5,
+      "signal_fraction": 1.0,
+      "total_signals": 810
+    },
+    {
+      "disease": "DISEASE:Chorioretinitis",
+      "n_drugs": 7,
+      "drugs_with_signals": 7,
+      "signal_fraction": 1.0,
+      "total_signals": 2120
+    },
+    {
+      "disease": "DISEASE:Paranasal Sinus Neoplasms",
+      "n_drugs": 5,
+      "drugs_with_signals": 5,
+      "signal_fraction": 1.0,
+      "total_signals": 772
+    },
+    {
+      "disease": "DISEASE:Toxoplasmosis, Cerebral",
+      "n_drugs": 6,
+      "drugs_with_signals": 6,
+      "signal_fraction": 1.0,
+      "total_signals": 751
+    },
+    {
+      "disease": "DISEASE:Arthritis, Gouty",
+      "n_drugs": 10,
+      "drugs_with_signals": 10,
+      "signal_fraction": 1.0,
+      "total_signals": 2475
+    },
+    {
+      "disease": "DISEASE:Leukemia, Mast-Cell",
+      "n_drugs": 13,
+      "drugs_with_signals": 13,
+      "signal_fraction": 1.0,
+      "total_signals": 2179
+    },
+    {
+      "disease": "DISEASE:Leukemia, Prolymphocytic, T-Cell",
+      "n_drugs": 5,
+      "drugs_with_signals": 5,
+      "signal_fraction": 1.0,
+      "total_signals": 720
+    }
+  ]
+}
