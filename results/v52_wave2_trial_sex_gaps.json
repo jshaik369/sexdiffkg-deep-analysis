@@ -1,0 +1,418 @@
+{
+  "analysis": "clinical_trial_sex_gaps",
+  "wave": 2,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:19:22.718422",
+  "novelty": "Cross-referencing VEDA-KG clinical trials with SexDiffKG safety signals to identify evidence gaps",
+  "summary": {
+    "drugs_with_sex_diff_signals": 2178,
+    "drugs_with_trials": 32,
+    "drugs_without_trials": 2146,
+    "high_signal_no_trial_drugs": 1068,
+    "high_signal_with_trial_drugs": 22
+  },
+  "urgently_need_trials": [
+    {
+      "drug": "DRUG:PREDNISONE",
+      "n_signals": 926,
+      "n_ae": 3407,
+      "signal_rate": 0.272
+    },
+    {
+      "drug": "DRUG:METHOTREXATE",
+      "n_signals": 892,
+      "n_ae": 3642,
+      "signal_rate": 0.245
+    },
+    {
+      "drug": "DRUG:ADALIMUMAB",
+      "n_signals": 807,
+      "n_ae": 4508,
+      "signal_rate": 0.179
+    },
+    {
+      "drug": "DRUG:RITUXIMAB",
+      "n_signals": 755,
+      "n_ae": 2822,
+      "signal_rate": 0.268
+    },
+    {
+      "drug": "DRUG:INFLIXIMAB",
+      "n_signals": 623,
+      "n_ae": 2458,
+      "signal_rate": 0.253
+    },
+    {
+      "drug": "DRUG:ETANERCEPT",
+      "n_signals": 618,
+      "n_ae": 3017,
+      "signal_rate": 0.205
+    },
+    {
+      "drug": "DRUG:TACROLIMUS",
+      "n_signals": 572,
+      "n_ae": 2503,
+      "signal_rate": 0.229
+    },
+    {
+      "drug": "DRUG:PREDNISOLONE",
+      "n_signals": 542,
+      "n_ae": 2396,
+      "signal_rate": 0.226
+    },
+    {
+      "drug": "DRUG:DEXAMETHASONE",
+      "n_signals": 537,
+      "n_ae": 2343,
+      "signal_rate": 0.229
+    },
+    {
+      "drug": "DRUG:METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "n_ae": 2188,
+      "signal_rate": 0.238
+    },
+    {
+      "drug": "DRUG:RISPERIDONE",
+      "n_signals": 518,
+      "n_ae": 1335,
+      "signal_rate": 0.388
+    },
+    {
+      "drug": "DRUG:TOCILIZUMAB",
+      "n_signals": 508,
+      "n_ae": 2023,
+      "signal_rate": 0.251
+    },
+    {
+      "drug": "DRUG:MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "n_ae": 2229,
+      "signal_rate": 0.227
+    },
+    {
+      "drug": "DRUG:PANTOPRAZOLE",
+      "n_signals": 501,
+      "n_ae": 1973,
+      "signal_rate": 0.254
+    },
+    {
+      "drug": "DRUG:CYCLOPHOSPHAMIDE",
+      "n_signals": 498,
+      "n_ae": 2375,
+      "signal_rate": 0.21
+    },
+    {
+      "drug": "DRUG:OXYCODONE",
+      "n_signals": 492,
+      "n_ae": 1575,
+      "signal_rate": 0.312
+    },
+    {
+      "drug": "DRUG:SECUKINUMAB",
+      "n_signals": 456,
+      "n_ae": 1899,
+      "signal_rate": 0.24
+    },
+    {
+      "drug": "DRUG:MORPHINE",
+      "n_signals": 441,
+      "n_ae": 1605,
+      "signal_rate": 0.275
+    },
+    {
+      "drug": "DRUG:QUETIAPINE",
+      "n_signals": 426,
+      "n_ae": 1911,
+      "signal_rate": 0.223
+    },
+    {
+      "drug": "DRUG:AMLODIPINE",
+      "n_signals": 422,
+      "n_ae": 1930,
+      "signal_rate": 0.219
+    },
+    {
+      "drug": "DRUG:SALBUTAMOL",
+      "n_signals": 418,
+      "n_ae": 1727,
+      "signal_rate": 0.242
+    },
+    {
+      "drug": "DRUG:CICLOSPORIN",
+      "n_signals": 409,
+      "n_ae": 1851,
+      "signal_rate": 0.221
+    },
+    {
+      "drug": "DRUG:PREGABALIN",
+      "n_signals": 406,
+      "n_ae": 1969,
+      "signal_rate": 0.206
+    },
+    {
+      "drug": "DRUG:DICLOFENAC",
+      "n_signals": 401,
+      "n_ae": 1586,
+      "signal_rate": 0.253
+    },
+    {
+      "drug": "DRUG:METFORMIN",
+      "n_signals": 399,
+      "n_ae": 1941,
+      "signal_rate": 0.206
+    },
+    {
+      "drug": "DRUG:ATORVASTATIN",
+      "n_signals": 388,
+      "n_ae": 1781,
+      "signal_rate": 0.218
+    },
+    {
+      "drug": "DRUG:FUROSEMIDE",
+      "n_signals": 385,
+      "n_ae": 1578,
+      "signal_rate": 0.244
+    },
+    {
+      "drug": "DRUG:ZOLEDRONIC ACID",
+      "n_signals": 376,
+      "n_ae": 1857,
+      "signal_rate": 0.202
+    },
+    {
+      "drug": "DRUG:HYDROXYCHLOROQUINE",
+      "n_signals": 376,
+      "n_ae": 1556,
+      "signal_rate": 0.242
+    },
+    {
+      "drug": "DRUG:IBUPROFEN",
+      "n_signals": 372,
+      "n_ae": 1893,
+      "signal_rate": 0.197
+    },
+    {
+      "drug": "DRUG:LEFLUNOMIDE",
+      "n_signals": 370,
+      "n_ae": 1561,
+      "signal_rate": 0.237
+    },
+    {
+      "drug": "DRUG:RAMIPRIL",
+      "n_signals": 368,
+      "n_ae": 1481,
+      "signal_rate": 0.248
+    },
+    {
+      "drug": "DRUG:TRAMADOL",
+      "n_signals": 360,
+      "n_ae": 1450,
+      "signal_rate": 0.248
+    },
+    {
+      "drug": "DRUG:ABATACEPT",
+      "n_signals": 344,
+      "n_ae": 1672,
+      "signal_rate": 0.206
+    },
+    {
+      "drug": "DRUG:ARIPIPRAZOLE",
+      "n_signals": 342,
+      "n_ae": 1558,
+      "signal_rate": 0.22
+    },
+    {
+      "drug": "DRUG:CIPROFLOXACIN",
+      "n_signals": 342,
+      "n_ae": 1688,
+      "signal_rate": 0.203
+    },
+    {
+      "drug": "DRUG:VALPROIC ACID",
+      "n_signals": 339,
+      "n_ae": 1539,
+      "signal_rate": 0.22
+    },
+    {
+      "drug": "DRUG:ROSUVASTATIN",
+      "n_signals": 337,
+      "n_ae": 1498,
+      "signal_rate": 0.225
+    },
+    {
+      "drug": "DRUG:AZATHIOPRINE",
+      "n_signals": 337,
+      "n_ae": 1413,
+      "signal_rate": 0.238
+    },
+    {
+      "drug": "DRUG:OLANZAPINE",
+      "n_signals": 336,
+      "n_ae": 1465,
+      "signal_rate": 0.229
+    },
+    {
+      "drug": "DRUG:GOLIMUMAB",
+      "n_signals": 334,
+      "n_ae": 1277,
+      "signal_rate": 0.262
+    },
+    {
+      "drug": "DRUG:GABAPENTIN",
+      "n_signals": 333,
+      "n_ae": 1632,
+      "signal_rate": 0.204
+    },
+    {
+      "drug": "DRUG:TOFACITINIB",
+      "n_signals": 331,
+      "n_ae": 1894,
+      "signal_rate": 0.175
+    },
+    {
+      "drug": "DRUG:NAPROXEN",
+      "n_signals": 331,
+      "n_ae": 1306,
+      "signal_rate": 0.253
+    },
+    {
+      "drug": "DRUG:SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_signals": 327,
+      "n_ae": 1385,
+      "signal_rate": 0.236
+    },
+    {
+      "drug": "DRUG:DOXORUBICIN",
+      "n_signals": 325,
+      "n_ae": 1564,
+      "signal_rate": 0.208
+    },
+    {
+      "drug": "DRUG:RANITIDINE",
+      "n_signals": 324,
+      "n_ae": 1197,
+      "signal_rate": 0.271
+    },
+    {
+      "drug": "DRUG:LEVOTHYROXINE",
+      "n_signals": 322,
+      "n_ae": 1798,
+      "signal_rate": 0.179
+    },
+    {
+      "drug": "DRUG:OMEPRAZOLE",
+      "n_signals": 319,
+      "n_ae": 1846,
+      "signal_rate": 0.173
+    },
+    {
+      "drug": "DRUG:LAMOTRIGINE",
+      "n_signals": 319,
+      "n_ae": 1501,
+      "signal_rate": 0.213
+    }
+  ],
+  "have_trials_high_signals": [
+    {
+      "drug": "DRUG:PARACETAMOL",
+      "n_signals": 487,
+      "n_trials": 3
+    },
+    {
+      "drug": "DRUG:ACETYLSALICYLIC ACID",
+      "n_signals": 433,
+      "n_trials": 9
+    },
+    {
+      "drug": "DRUG:INSULIN",
+      "n_signals": 339,
+      "n_trials": 24
+    },
+    {
+      "drug": "DRUG:LEUPRORELIN",
+      "n_signals": 294,
+      "n_trials": 8
+    },
+    {
+      "drug": "DRUG:VITAMIN D3",
+      "n_signals": 242,
+      "n_trials": 16
+    },
+    {
+      "drug": "DRUG:IRON",
+      "n_signals": 198,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:FOLINIC ACID",
+      "n_signals": 175,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:ENOXAPARIN",
+      "n_signals": 105,
+      "n_trials": 6
+    },
+    {
+      "drug": "DRUG:RIFAMPICIN",
+      "n_signals": 83,
+      "n_trials": 2
+    },
+    {
+      "drug": "DRUG:VITAMIN C",
+      "n_signals": 77,
+      "n_trials": 3
+    },
+    {
+      "drug": "DRUG:VITAMIN B12",
+      "n_signals": 74,
+      "n_trials": 4
+    },
+    {
+      "drug": "DRUG:GLUCOSE",
+      "n_signals": 70,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:ETHANOL",
+      "n_signals": 65,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:DALTEPARIN",
+      "n_signals": 58,
+      "n_trials": 3
+    },
+    {
+      "drug": "DRUG:PETHIDINE",
+      "n_signals": 48,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:SKIN CARE",
+      "n_signals": 45,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:VITAMIN B6",
+      "n_signals": 40,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:URSODEOXYCHOLIC ACID",
+      "n_signals": 36,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:VITAMIN A",
+      "n_signals": 26,
+      "n_trials": 1
+    },
+    {
+      "drug": "DRUG:GLIBENCLAMIDE",
+      "n_signals": 25,
+      "n_trials": 1
+    }
+  ]
+}
