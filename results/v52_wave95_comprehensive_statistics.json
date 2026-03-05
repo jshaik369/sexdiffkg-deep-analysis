@@ -1,0 +1,95 @@
+{
+  "analysis": "comprehensive_statistics",
+  "wave": 95,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:02:03.529322",
+  "novelty": "Master statistics reference for all publications",
+  "kg": {
+    "nodes": 217993,
+    "edges": 3194017,
+    "node_types": 13,
+    "edge_types": 18,
+    "node_type_counts": {
+      "Gene": 90215,
+      "Protein": 30082,
+      "ClinicalTrial": 26695,
+      "Compound": 25778,
+      "Drug": 12843,
+      "Disease": 12679,
+      "AdverseEvent": 10130,
+      "Unknown": 3228,
+      "Symptom": 2639,
+      "Pathway": 2627,
+      "Intervention": 1052,
+      "Tissue": 20,
+      "Herb": 5
+    },
+    "edge_type_counts": {
+      "interacts_with": 1858942,
+      "has_adverse_event": 614978,
+      "participates_in": 381168,
+      "sex_differential_adverse_event": 96281,
+      "investigates": 67795,
+      "tests_intervention": 47482,
+      "treats": 41184,
+      "binds_to": 35503,
+      "encodes": 11227,
+      "modulates": 10530,
+      "encoded_by": 8402,
+      "associated_with": 7127,
+      "targets": 5744,
+      "causes_adverse_event": 2640,
+      "corresponds_to": 2639,
+      "same_gene": 1940,
+      "sex_differential_expression": 289,
+      "same_as": 146
+    }
+  },
+  "signals": {
+    "total": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "pct_female": 53.8,
+    "unique_drugs": 2178,
+    "unique_aes": 5069,
+    "mean_lr": 0.0964,
+    "median_lr": 0.5343,
+    "female_stronger_p": 2.802259731947894e-41
+  },
+  "drugs": {
+    "total_with_signals": 2178,
+    "ge10_signals": 1090,
+    "ge20_signals": 818,
+    "gt70pctf": 252,
+    "lt30pctf": 272
+  },
+  "models": {
+    "complex_v4": {
+      "mrr": 0.2484,
+      "hits1": 0.1678,
+      "hits10": 0.4069,
+      "amri": 0.9902
+    },
+    "distmult_v41": {
+      "mrr": 0.1013,
+      "hits10": 0.1961,
+      "amri": 0.9909
+    },
+    "rotate_v41": {
+      "mrr": 0.2018,
+      "hits10": 0.3677,
+      "amri": 0.9922
+    }
+  },
+  "validation": {
+    "benchmarks": 40,
+    "coverage": 72.5,
+    "precision": 82.8
+  },
+  "faers": {
+    "total_reports": 14536008,
+    "female_reports": 8744397,
+    "male_reports": 5791611,
+    "quarters": 87
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "analysis": "top_10_publication_findings",
+  "wave": 94,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:02:01.334444",
+  "novelty": "Curated top 10 most impactful findings with full statistics",
+  "findings": [
+    {
+      "rank": 1,
+      "title": "Severity-Sex Gradient",
+      "finding": "Fatal AEs 75.4%F \u2192 Mild 52.3%F; per-drug rho positive in 67.2% of drugs",
+      "stat": "rho=0.900, p=0.037 (5-tier)"
+    },
+    {
+      "rank": 2,
+      "title": "Within-Class 90pp Spread",
+      "finding": "Risperidone 92.9%F vs Cariprazine 2.6%F (both atypical antipsychotics)",
+      "stat": "p=1e-81 (Fisher exact); also CGRP 74pp, CCB 59pp, beta-blocker 48pp"
+    },
+    {
+      "rank": 3,
+      "title": "50% AE Reversibility",
+      "finding": "Over 2,500 AEs flip sex-bias direction depending on which drug causes them",
+      "stat": "50.6% of AEs are drug-determined, not AE-intrinsic"
+    },
+    {
+      "rank": 4,
+      "title": "Clinical Trial Gap",
+      "finding": "452/466 drugs with strong sex-bias have ZERO sex-stratified trials",
+      "stat": "97% unstudied for sex differences"
+    },
+    {
+      "rank": 5,
+      "title": "GLP-1 RA Paradox",
+      "finding": "GLP-1 RAs 23.6%F male-biased despite treating obesity (>60%F); Tirzepatide 8.4%F",
+      "stat": "ALL GI/pancreatitis signals 0%F; Anti-obesity 13.5%F"
+    },
+    {
+      "rank": 6,
+      "title": "CPI Immune AEs 100%F",
+      "finding": "All immune-mediated checkpoint inhibitor AEs exclusively female-biased",
+      "stat": "Hepatotox, colitis, pneumonitis, myocarditis \u2014 all 100%F across 4 CPIs"
+    },
+    {
+      "rank": 7,
+      "title": "Geographic 60pp Variation",
+      "finding": "Japan 46.5%F vs US 62.6%; Secukinumab 30%F(JP) vs 90%F(CA)",
+      "stat": "Up to 60pp drug-level variation by reporter country"
+    },
+    {
+      "rank": 8,
+      "title": "AE Onset-Sex Perfect Gradient",
+      "finding": "Immediate 55%F \u2192 Early 57%F \u2192 Delayed 65%F \u2192 Chronic 70%F",
+      "stat": "rho=1.000 (perfect monotonic); bone density 100%F"
+    },
+    {
+      "rank": 9,
+      "title": "Organ System Hierarchy",
+      "finding": "Renal/urinary 74.7%F \u2192 Eye 36.5%F across 15 organ classes",
+      "stat": "rho=-1.000 (perfect rank); hepatobiliary 66.9%F, cardiac 63.1%F"
+    },
+    {
+      "rank": 10,
+      "title": "Annual Temporal Decline",
+      "finding": "Female AE reporting declining -0.295pp/year (2013-2025: 62.7% \u2192 59.8%)",
+      "stat": "rho=-0.829, p=2.5e-4; COVID drop to 56.8% in 2021"
+    }
+  ]
+}

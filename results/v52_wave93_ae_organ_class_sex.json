@@ -1,0 +1,129 @@
+{
+  "analysis": "ae_organ_class_sex_bias",
+  "wave": 93,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:01:10.195119",
+  "novelty": "15-SOC organ system sex-bias hierarchy",
+  "soc_bias": [
+    {
+      "soc": "Renal_urinary",
+      "pct_female": 74.66039707419017,
+      "n_signals": 1914,
+      "mean_lr": 0.4331243996975681,
+      "n_drugs": 676,
+      "n_aes": 96
+    },
+    {
+      "soc": "Vascular",
+      "pct_female": 67.58080313418218,
+      "n_signals": 2042,
+      "mean_lr": 0.3081842200950497,
+      "n_drugs": 752,
+      "n_aes": 111
+    },
+    {
+      "soc": "Hepatobiliary",
+      "pct_female": 66.9178598342125,
+      "n_signals": 2654,
+      "mean_lr": 0.41804260731339093,
+      "n_drugs": 581,
+      "n_aes": 102
+    },
+    {
+      "soc": "Metabolic",
+      "pct_female": 65.29873264936631,
+      "n_signals": 1657,
+      "mean_lr": 0.2868346819792558,
+      "n_drugs": 684,
+      "n_aes": 28
+    },
+    {
+      "soc": "Blood_lymphatic",
+      "pct_female": 65.05507955936352,
+      "n_signals": 1634,
+      "mean_lr": 0.23999084355626613,
+      "n_drugs": 648,
+      "n_aes": 46
+    },
+    {
+      "soc": "Cardiac",
+      "pct_female": 63.133640552995395,
+      "n_signals": 3038,
+      "mean_lr": 0.2173626783707463,
+      "n_drugs": 769,
+      "n_aes": 116
+    },
+    {
+      "soc": "Immune",
+      "pct_female": 59.65909090909091,
+      "n_signals": 1408,
+      "mean_lr": 0.2190897853158196,
+      "n_drugs": 669,
+      "n_aes": 74
+    },
+    {
+      "soc": "Nervous_system",
+      "pct_female": 57.4685534591195,
+      "n_signals": 2544,
+      "mean_lr": 0.13192439467791456,
+      "n_drugs": 979,
+      "n_aes": 96
+    },
+    {
+      "soc": "Infections",
+      "pct_female": 55.52238805970149,
+      "n_signals": 4020,
+      "mean_lr": 0.16146480378698777,
+      "n_drugs": 771,
+      "n_aes": 259
+    },
+    {
+      "soc": "Gastrointestinal",
+      "pct_female": 55.426677713338854,
+      "n_signals": 3621,
+      "mean_lr": 0.11739862291598359,
+      "n_drugs": 1071,
+      "n_aes": 97
+    },
+    {
+      "soc": "Psychiatric",
+      "pct_female": 52.002107481559534,
+      "n_signals": 1898,
+      "mean_lr": 0.09529905445426458,
+      "n_drugs": 709,
+      "n_aes": 45
+    },
+    {
+      "soc": "Respiratory",
+      "pct_female": 51.868758915834526,
+      "n_signals": 3505,
+      "mean_lr": -0.009884008652770013,
+      "n_drugs": 908,
+      "n_aes": 96
+    },
+    {
+      "soc": "Musculoskeletal",
+      "pct_female": 46.06741573033708,
+      "n_signals": 2492,
+      "mean_lr": 0.03488479182971721,
+      "n_drugs": 677,
+      "n_aes": 88
+    },
+    {
+      "soc": "Skin",
+      "pct_female": 44.424524919325926,
+      "n_signals": 2789,
+      "mean_lr": -0.0531677988144308,
+      "n_drugs": 848,
+      "n_aes": 82
+    },
+    {
+      "soc": "Eye",
+      "pct_female": 36.49193548387097,
+      "n_signals": 496,
+      "mean_lr": -0.22424809628246795,
+      "n_drugs": 305,
+      "n_aes": 40
+    }
+  ]
+}

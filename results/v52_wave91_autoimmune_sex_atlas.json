@@ -1,0 +1,86 @@
+{
+  "analysis": "autoimmune_drug_sex_atlas",
+  "wave": 91,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:01:01.881881",
+  "novelty": "11-class autoimmune biologic sex-bias atlas",
+  "class_results": [
+    {
+      "class": "IL-6_inhibitors",
+      "n_drugs": 2,
+      "mean_pctf": 53.8,
+      "std_pctf": 4.4,
+      "range_pctf": 8.8
+    },
+    {
+      "class": "csDMARDs",
+      "n_drugs": 5,
+      "mean_pctf": 49.6,
+      "std_pctf": 5.8,
+      "range_pctf": 17.5
+    },
+    {
+      "class": "TNF_inhibitors",
+      "n_drugs": 4,
+      "mean_pctf": 46.7,
+      "std_pctf": 6.8,
+      "range_pctf": 17.5
+    },
+    {
+      "class": "Anti-integrin",
+      "n_drugs": 2,
+      "mean_pctf": 46.3,
+      "std_pctf": 23.6,
+      "range_pctf": 47.3
+    },
+    {
+      "class": "T-cell_costim",
+      "n_drugs": 1,
+      "mean_pctf": 45.1,
+      "std_pctf": 0.0,
+      "range_pctf": 0
+    },
+    {
+      "class": "Anti-CD20",
+      "n_drugs": 4,
+      "mean_pctf": 44.7,
+      "std_pctf": 25.2,
+      "range_pctf": 59.7
+    },
+    {
+      "class": "JAK_inhibitors",
+      "n_drugs": 4,
+      "mean_pctf": 42.7,
+      "std_pctf": 19.2,
+      "range_pctf": 45.8
+    },
+    {
+      "class": "IL-17_inhibitors",
+      "n_drugs": 3,
+      "mean_pctf": 39.8,
+      "std_pctf": 16.1,
+      "range_pctf": 35.1
+    },
+    {
+      "class": "IL-23_inhibitors",
+      "n_drugs": 2,
+      "mean_pctf": 29.4,
+      "std_pctf": 0.5,
+      "range_pctf": 1.0
+    },
+    {
+      "class": "S1P_modulators",
+      "n_drugs": 3,
+      "mean_pctf": 9.8,
+      "std_pctf": 6.9,
+      "range_pctf": 15.3
+    },
+    {
+      "class": "Anti-BLyS",
+      "n_drugs": 1,
+      "mean_pctf": 9.1,
+      "std_pctf": 0.0,
+      "range_pctf": 0
+    }
+  ]
+}

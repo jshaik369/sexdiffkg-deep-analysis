@@ -1,0 +1,135 @@
+{
+  "analysis": "sex_reversal_drugs",
+  "wave": 92,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:01:02.787271",
+  "novelty": "Drugs with genuinely mixed sex-bias profiles (30-70%F)",
+  "summary": {
+    "reversal_drugs": 451,
+    "pct_reversal": 55.1,
+    "strong_female": 200,
+    "strong_male": 167
+  },
+  "top_balanced": [
+    {
+      "drug_name": "SEVOFLURANE",
+      "pct_female": 50.0,
+      "n_signals": 30,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "HYDROMORPHONE HYDROCHLORIDE",
+      "pct_female": 50.0,
+      "n_signals": 20,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "VITAMIN B2",
+      "pct_female": 50.0,
+      "n_signals": 34,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "NEBIVOLOL",
+      "pct_female": 50.0,
+      "n_signals": 38,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "NUTRIENTS, UNSPECIFIED",
+      "pct_female": 50.0,
+      "n_signals": 42,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "OLAPARIB",
+      "pct_female": 50.0,
+      "n_signals": 44,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "DESLORATADINE",
+      "pct_female": 50.0,
+      "n_signals": 28,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "COBIMETINIB",
+      "pct_female": 50.0,
+      "n_signals": 20,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "ALISKIREN",
+      "pct_female": 50.0,
+      "n_signals": 38,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "SPIRONOLACTONE",
+      "pct_female": 50.0,
+      "n_signals": 162,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "BENZATROPINE",
+      "pct_female": 50.0,
+      "n_signals": 22,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "MAGNESIUM",
+      "pct_female": 50.0,
+      "n_signals": 136,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "TORASEMIDE",
+      "pct_female": 50.0,
+      "n_signals": 116,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+      "pct_female": 50.0,
+      "n_signals": 20,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "TENOFOVIR DISOPROXIL FUMARATE",
+      "pct_female": 50.0,
+      "n_signals": 20,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "LEVOCETIRIZINE",
+      "pct_female": 50.0,
+      "n_signals": 36,
+      "balance_score": 50.0
+    },
+    {
+      "drug_name": "LITHIUM",
+      "pct_female": 49.65034965034965,
+      "n_signals": 143,
+      "balance_score": 49.65034965034965
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "pct_female": 50.40128410914928,
+      "n_signals": 623,
+      "balance_score": 49.59871589085072
+    },
+    {
+      "drug_name": "AMLODIPINE",
+      "pct_female": 50.4739336492891,
+      "n_signals": 422,
+      "balance_score": 49.5260663507109
+    },
+    {
+      "drug_name": "NALTREXONE",
+      "pct_female": 49.473684210526315,
+      "n_signals": 95,
+      "balance_score": 49.473684210526315
+    }
+  ]
+}
