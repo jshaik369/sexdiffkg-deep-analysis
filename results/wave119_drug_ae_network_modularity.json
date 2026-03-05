@@ -1,0 +1,415 @@
+{
+  "wave": 119,
+  "title": "Drug-AE Network Modularity & Entropy",
+  "n_drugs_total": 2178,
+  "n_drugs_min5_signals": 1394,
+  "ae_categories": 17,
+  "entropy_stats": {
+    "min": 0.0,
+    "max": 2.9575425463308735,
+    "mean": 1.7440186625699816,
+    "std": 0.6250038050840144
+  },
+  "correlations": {
+    "entropy_vs_pct_female": {
+      "pearson_r": 0.273780216190831,
+      "pearson_p": 2.177856849666895e-25,
+      "spearman_r": 0.2930461280150076,
+      "spearman_p": 5.240800541218657e-29
+    },
+    "entropy_vs_mean_abs_lr": {
+      "pearson_r": -0.06265877804080458,
+      "pearson_p": 0.019301917898673686,
+      "spearman_r": 0.08898397222298611,
+      "spearman_p": 0.0008811701862938151
+    }
+  },
+  "category_sex_bias": [
+    {
+      "ae_category": "oncological",
+      "n_signals": 716.0,
+      "pct_female": 0.7513966480446927,
+      "mean_abs_lr": 0.9007408572901642
+    },
+    {
+      "ae_category": "reproductive",
+      "n_signals": 71.0,
+      "pct_female": 0.7323943661971831,
+      "mean_abs_lr": 1.2677624965890224
+    },
+    {
+      "ae_category": "renal",
+      "n_signals": 1918.0,
+      "pct_female": 0.7304483837330553,
+      "mean_abs_lr": 0.8894736285776114
+    },
+    {
+      "ae_category": "cardiac",
+      "n_signals": 3094.0,
+      "pct_female": 0.6619263089851325,
+      "mean_abs_lr": 0.9032048550074246
+    },
+    {
+      "ae_category": "hepatic",
+      "n_signals": 2756.0,
+      "pct_female": 0.6552975326560232,
+      "mean_abs_lr": 1.0494671504506399
+    },
+    {
+      "ae_category": "haematological",
+      "n_signals": 4350.0,
+      "pct_female": 0.6340229885057471,
+      "mean_abs_lr": 0.9229692138909483
+    },
+    {
+      "ae_category": "neurological",
+      "n_signals": 2280.0,
+      "pct_female": 0.5947368421052631,
+      "mean_abs_lr": 0.905182094709162
+    },
+    {
+      "ae_category": "psychiatric",
+      "n_signals": 1848.0,
+      "pct_female": 0.5643939393939394,
+      "mean_abs_lr": 0.970990572554084
+    },
+    {
+      "ae_category": "gastrointestinal",
+      "n_signals": 3023.0,
+      "pct_female": 0.5636784651008931,
+      "mean_abs_lr": 0.9827676901364261
+    },
+    {
+      "ae_category": "infectious",
+      "n_signals": 2452.0,
+      "pct_female": 0.5513866231647635,
+      "mean_abs_lr": 0.9834297554436621
+    },
+    {
+      "ae_category": "respiratory",
+      "n_signals": 4706.0,
+      "pct_female": 0.5435614109647259,
+      "mean_abs_lr": 0.9970847497062036
+    },
+    {
+      "ae_category": "other",
+      "n_signals": 59770.0,
+      "pct_female": 0.5170988790363058,
+      "mean_abs_lr": 0.9955066796400832
+    },
+    {
+      "ae_category": "musculoskeletal",
+      "n_signals": 2819.0,
+      "pct_female": 0.5140120610145442,
+      "mean_abs_lr": 1.0924116110061537
+    },
+    {
+      "ae_category": "endocrine",
+      "n_signals": 732.0,
+      "pct_female": 0.5095628415300546,
+      "mean_abs_lr": 1.072300501397995
+    },
+    {
+      "ae_category": "dermatological",
+      "n_signals": 3587.0,
+      "pct_female": 0.45023696682464454,
+      "mean_abs_lr": 0.9432695714222833
+    },
+    {
+      "ae_category": "immunological",
+      "n_signals": 1137.0,
+      "pct_female": 0.4450307827616535,
+      "mean_abs_lr": 1.1540971388431507
+    },
+    {
+      "ae_category": "ophthalmic",
+      "n_signals": 1022.0,
+      "pct_female": 0.2984344422700587,
+      "mean_abs_lr": 0.8540151731238285
+    }
+  ],
+  "highest_entropy_drugs": [
+    {
+      "drug_name": "IPILIMUMAB",
+      "entropy": 2.9575425463308735,
+      "n_ae_cats": 16.0,
+      "pct_female": 0.7577639751552795,
+      "mean_abs_lr": 0.7768993757442185
+    },
+    {
+      "drug_name": "PEMBROLIZUMAB",
+      "entropy": 2.9208649058112894,
+      "n_ae_cats": 15.0,
+      "pct_female": 0.7313915857605178,
+      "mean_abs_lr": 0.865911723792574
+    },
+    {
+      "drug_name": "BENDAMUSTINE",
+      "entropy": 2.9019510066332512,
+      "n_ae_cats": 13.0,
+      "pct_female": 0.8230088495575221,
+      "mean_abs_lr": 0.8703279285214384
+    },
+    {
+      "drug_name": "MELPHALAN",
+      "entropy": 2.8918078038308295,
+      "n_ae_cats": 14.0,
+      "pct_female": 0.8432835820895522,
+      "mean_abs_lr": 0.9159994242331649
+    },
+    {
+      "drug_name": "PLACEBO, TRIAL",
+      "entropy": 2.8820488277869583,
+      "n_ae_cats": 11.0,
+      "pct_female": 0.8125,
+      "mean_abs_lr": 0.8298982289551182
+    },
+    {
+      "drug_name": "CARMUSTINE",
+      "entropy": 2.8628980671941715,
+      "n_ae_cats": 11.0,
+      "pct_female": 0.9230769230769231,
+      "mean_abs_lr": 0.9411109187986246
+    },
+    {
+      "drug_name": "CEFEPIME",
+      "entropy": 2.808056272594162,
+      "n_ae_cats": 12.0,
+      "pct_female": 0.8048780487804879,
+      "mean_abs_lr": 0.8339096312752866
+    },
+    {
+      "drug_name": "OBINUTUZUMAB",
+      "entropy": 2.8028228407063924,
+      "n_ae_cats": 13.0,
+      "pct_female": 0.7162162162162162,
+      "mean_abs_lr": 0.8206781806350318
+    },
+    {
+      "drug_name": "AMIODARONE HYDROCHLORIDE",
+      "entropy": 2.801118486149384,
+      "n_ae_cats": 10.0,
+      "pct_female": 0.5333333333333333,
+      "mean_abs_lr": 0.8028893063963313
+    },
+    {
+      "drug_name": "REPAGLINIDE",
+      "entropy": 2.7990077544108964,
+      "n_ae_cats": 10.0,
+      "pct_female": 0.6818181818181818,
+      "mean_abs_lr": 0.7771341750509643
+    },
+    {
+      "drug_name": "MULTIENZYMES",
+      "entropy": 2.7912157851940362,
+      "n_ae_cats": 13.0,
+      "pct_female": 0.45,
+      "mean_abs_lr": 0.7190863411590233
+    },
+    {
+      "drug_name": "DASABUVIR",
+      "entropy": 2.7872125833916086,
+      "n_ae_cats": 11.0,
+      "pct_female": 0.8648648648648649,
+      "mean_abs_lr": 0.7622173766738015
+    },
+    {
+      "drug_name": "ATEZOLIZUMAB",
+      "entropy": 2.7831203051916016,
+      "n_ae_cats": 15.0,
+      "pct_female": 0.8289473684210527,
+      "mean_abs_lr": 0.8218015635728664
+    },
+    {
+      "drug_name": "SIROLIMUS",
+      "entropy": 2.7811475019168137,
+      "n_ae_cats": 13.0,
+      "pct_female": 0.7078651685393258,
+      "mean_abs_lr": 0.9128372417698101
+    },
+    {
+      "drug_name": "MYCOPHENOLATE MOFETIL",
+      "entropy": 2.7548988417611313,
+      "n_ae_cats": 16.0,
+      "pct_female": 0.8122743682310469,
+      "mean_abs_lr": 0.9043787904414559
+    },
+    {
+      "drug_name": "IXEKIZUMAB",
+      "entropy": 2.75373622173558,
+      "n_ae_cats": 15.0,
+      "pct_female": 0.17073170731707318,
+      "mean_abs_lr": 0.7688767449764651
+    },
+    {
+      "drug_name": "ROMIDEPSIN",
+      "entropy": 2.75,
+      "n_ae_cats": 7.0,
+      "pct_female": 0.875,
+      "mean_abs_lr": 0.7265963070122152
+    },
+    {
+      "drug_name": "MYCOPHENOLIC ACID",
+      "entropy": 2.7490197361670785,
+      "n_ae_cats": 16.0,
+      "pct_female": 0.7633136094674556,
+      "mean_abs_lr": 1.1122216770644007
+    },
+    {
+      "drug_name": "DIPHENHYDRAMINE;PARACETAMOL",
+      "entropy": 2.7321588913645702,
+      "n_ae_cats": 8.0,
+      "pct_female": 0.2727272727272727,
+      "mean_abs_lr": 0.9869120097310726
+    },
+    {
+      "drug_name": "WATER",
+      "entropy": 2.731419306105986,
+      "n_ae_cats": 10.0,
+      "pct_female": 0.2608695652173913,
+      "mean_abs_lr": 0.878577282734274
+    }
+  ],
+  "lowest_entropy_drugs": [
+    {
+      "drug_name": "ACLIDINIUM;FORMOTEROL",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.2,
+      "mean_abs_lr": 2.0173852346325525
+    },
+    {
+      "drug_name": "ASCIMINIB",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.4,
+      "mean_abs_lr": 0.6070864993215392
+    },
+    {
+      "drug_name": "BELANTAMAB MAFODOTIN",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.5555555555555556,
+      "mean_abs_lr": 0.7537287083856051
+    },
+    {
+      "drug_name": "CALCIUM;GLUCOSE;HYDROCHLORIC ACID;MAGNESIUM;SODIUM BICARBONATE;SODIUM CHLORIDE;SODIUM LACTATE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8399416877823604
+    },
+    {
+      "drug_name": "CAPSAICIN",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.3076923076923077,
+      "mean_abs_lr": 0.7923219108244987
+    },
+    {
+      "drug_name": "CEFOXITIN",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.3333333333333333,
+      "mean_abs_lr": 0.9135978321222643
+    },
+    {
+      "drug_name": "CHLORDIAZEPOXIDE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.875,
+      "mean_abs_lr": 0.9864132812379948
+    },
+    {
+      "drug_name": "CHLORPROTHIXENE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.8,
+      "mean_abs_lr": 0.691681374862337
+    },
+    {
+      "drug_name": "CODEINE;PROMETHAZINE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.42857142857142855,
+      "mean_abs_lr": 0.6809221884574176
+    },
+    {
+      "drug_name": "CRIZANLIZUMAB",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.6,
+      "mean_abs_lr": 0.6469971261431429
+    },
+    {
+      "drug_name": "DIPHENHYDRAMINE;NAPROXEN",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6501301880670517
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 5.065354946644419
+    },
+    {
+      "drug_name": "GADOVERSETAMIDE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.3333333333333333,
+      "mean_abs_lr": 0.683179387964309
+    },
+    {
+      "drug_name": "GUAIFENESIN;PARACETAMOL;PHENYLEPHRINE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.14285714285714285,
+      "mean_abs_lr": 0.6625670836123142
+    },
+    {
+      "drug_name": "IMIQUIMOD",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.14285714285714285,
+      "mean_abs_lr": 0.7048297269498924
+    },
+    {
+      "drug_name": "IOFLUPANE (123I)",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.4,
+      "mean_abs_lr": 0.795145895735478
+    },
+    {
+      "drug_name": "LEVAMISOLE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8496870017149959
+    },
+    {
+      "drug_name": "LOPERAMIDE;SIMETICONE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.6666666666666666,
+      "mean_abs_lr": 0.7557681631922609
+    },
+    {
+      "drug_name": "MEDROXYPROGESTERONE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.3260182665294105
+    },
+    {
+      "drug_name": "MEPERIDINE HYDROCHLORIDE",
+      "entropy": 0.0,
+      "n_ae_cats": 1.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9430184716333482
+    }
+  ]
+}

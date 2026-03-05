@@ -1,0 +1,4916 @@
+{
+  "wave": 118,
+  "title": "AE Sex-Bias Stability",
+  "n_aes_total": 5069,
+  "n_aes_min3_drugs": 3017,
+  "n_universally_female": 365,
+  "n_universally_male": 401,
+  "n_chameleon": 50,
+  "stability_stats": {
+    "mean": 0.5311373504796535,
+    "std": 0.323592288420875,
+    "p50": 0.5
+  },
+  "universally_female_aes": [
+    {
+      "adverse_event": "Abdominal wall haematoma",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9250450386889212
+    },
+    {
+      "adverse_event": "Multiple fractures",
+      "n_drugs": 22.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.091323227791297
+    },
+    {
+      "adverse_event": "Microsporidia infection",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0136759299699665
+    },
+    {
+      "adverse_event": "Metastatic renal cell carcinoma",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9738156246564863
+    },
+    {
+      "adverse_event": "Metastases to bone marrow",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8557791897322518
+    },
+    {
+      "adverse_event": "Metastases to adrenals",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3262544070235014
+    },
+    {
+      "adverse_event": "Metabolic syndrome",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.018333768826756
+    },
+    {
+      "adverse_event": "Mental disability",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7080646934293545
+    },
+    {
+      "adverse_event": "Medication residue present",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.042247660582224
+    },
+    {
+      "adverse_event": "Marasmus",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9900242158740867
+    },
+    {
+      "adverse_event": "Malignant transformation",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7374584004880521
+    },
+    {
+      "adverse_event": "Malignant melanoma in situ",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9121179130953917
+    },
+    {
+      "adverse_event": "Lymphoma transformation",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.94059756909588
+    },
+    {
+      "adverse_event": "Lymphocyte adoptive therapy",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0911709868611659
+    },
+    {
+      "adverse_event": "Listeriosis",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.688413877236003
+    },
+    {
+      "adverse_event": "Light chain analysis increased",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8765790838357642
+    },
+    {
+      "adverse_event": "Libido increased",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0408729829496597
+    },
+    {
+      "adverse_event": "Leg amputation",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7527842619759962
+    },
+    {
+      "adverse_event": "Klebsiella test positive",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.948781541437798
+    },
+    {
+      "adverse_event": "Morganella infection",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8075704508526828
+    },
+    {
+      "adverse_event": "Muscle haemorrhage",
+      "n_drugs": 15.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3081961161520963
+    },
+    {
+      "adverse_event": "Ketoacidosis",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.5927818612556778
+    },
+    {
+      "adverse_event": "Myelofibrosis",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7852412924064835
+    },
+    {
+      "adverse_event": "Orthostatic hypertension",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.9357511034635893
+    },
+    {
+      "adverse_event": "Oromandibular dystonia",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.933463818203681
+    },
+    {
+      "adverse_event": "Opiates positive",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0415458665782018
+    },
+    {
+      "adverse_event": "On and off phenomenon",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9262166929222571
+    },
+    {
+      "adverse_event": "Oesophageal fistula",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8840466795476142
+    },
+    {
+      "adverse_event": "Obliterative bronchiolitis",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9503081964797677
+    },
+    {
+      "adverse_event": "Non-Hodgkin's lymphoma recurrent",
+      "n_drugs": 12.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9947618932623762
+    },
+    {
+      "adverse_event": "Nocardiosis",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7400801918177868
+    },
+    {
+      "adverse_event": "Neutrophil percentage increased",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.5547824565637082
+    },
+    {
+      "adverse_event": "Neutropenic infection",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0520712566100925
+    },
+    {
+      "adverse_event": "Neuroendocrine carcinoma of the skin",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7626857725086241
+    },
+    {
+      "adverse_event": "Neonatal hypoacusis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.638249139619548
+    },
+    {
+      "adverse_event": "Necrotising retinitis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1840564766918653
+    },
+    {
+      "adverse_event": "Necrosis ischaemic",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6934324053030518
+    },
+    {
+      "adverse_event": "Myoclonic epilepsy",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8998710072432345
+    },
+    {
+      "adverse_event": "Myocardial fibrosis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0927173681840228
+    },
+    {
+      "adverse_event": "Myeloid leukaemia",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.4700936938512623
+    },
+    {
+      "adverse_event": "Klebsiella bacteraemia",
+      "n_drugs": 9.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7773413925509183
+    },
+    {
+      "adverse_event": "Joint destruction",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2322797723928174
+    },
+    {
+      "adverse_event": "Hostility",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.999194893959784
+    },
+    {
+      "adverse_event": "Immune-mediated hepatitis",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.954473514147549
+    },
+    {
+      "adverse_event": "Immune-mediated enterocolitis",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0141743470499085
+    },
+    {
+      "adverse_event": "Immune-mediated encephalitis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0125183100613946
+    },
+    {
+      "adverse_event": "Immune-mediated dermatitis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0230389967622504
+    },
+    {
+      "adverse_event": "Immune-mediated adrenal insufficiency",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.4593200565218776
+    },
+    {
+      "adverse_event": "Immune reconstitution inflammatory syndrome associated tuberculosis",
+      "n_drugs": 9.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2932256037383376
+    },
+    {
+      "adverse_event": "Ileal ulcer",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.781503423958731
+    },
+    {
+      "adverse_event": "Idiopathic pneumonia syndrome",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3214555754659745
+    },
+    {
+      "adverse_event": "Acinetobacter infection",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7893600317531081
+    },
+    {
+      "adverse_event": "Hypopituitarism",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8865527994873041
+    },
+    {
+      "adverse_event": "Hypophysitis",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9560804045672832
+    },
+    {
+      "adverse_event": "Hypoglycaemic coma",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.828532525838063
+    },
+    {
+      "adverse_event": "Hypocoagulable state",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8409274198256891
+    },
+    {
+      "adverse_event": "Hyperuricaemia",
+      "n_drugs": 26.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9256005567863419
+    },
+    {
+      "adverse_event": "Hyperglycaemic hyperosmolar nonketotic syndrome",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8908765045599307
+    },
+    {
+      "adverse_event": "Hyperammonaemic encephalopathy",
+      "n_drugs": 10.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.952352073658757
+    },
+    {
+      "adverse_event": "Human polyomavirus infection",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9124141333613396
+    },
+    {
+      "adverse_event": "Human herpesvirus 8 infection",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0565812746087155
+    },
+    {
+      "adverse_event": "Immune-mediated hepatic disorder",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8798855257913688
+    },
+    {
+      "adverse_event": "Immune-mediated hypophysitis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2608847148369857
+    },
+    {
+      "adverse_event": "Investigation abnormal",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8046592715906247
+    },
+    {
+      "adverse_event": "Immune-mediated hypothyroidism",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2046515109073914
+    },
+    {
+      "adverse_event": "Intussusception",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9626709452564612
+    },
+    {
+      "adverse_event": "Intracardiac thrombus",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7128127210815821
+    },
+    {
+      "adverse_event": "Intra-abdominal haemorrhage",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8907859481706596
+    },
+    {
+      "adverse_event": "Intestinal pseudo-obstruction",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2902918363577995
+    },
+    {
+      "adverse_event": "Intervertebral discitis",
+      "n_drugs": 10.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9042489119045067
+    },
+    {
+      "adverse_event": "International normalised ratio abnormal",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6942290713075794
+    },
+    {
+      "adverse_event": "Intellectual disability",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9726972368058983
+    },
+    {
+      "adverse_event": "Inguinal hernia",
+      "n_drugs": 13.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.6764098874414848
+    },
+    {
+      "adverse_event": "Imprisonment",
+      "n_drugs": 12.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8461998534589107
+    },
+    {
+      "adverse_event": "Immunosuppressant drug level decreased",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7453095192765917
+    },
+    {
+      "adverse_event": "Immune-mediated thyroiditis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9142481192885711
+    },
+    {
+      "adverse_event": "Immune-mediated renal disorder",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9499461238167187
+    },
+    {
+      "adverse_event": "Immune-mediated pneumonitis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.084953342252127
+    },
+    {
+      "adverse_event": "Immune-mediated nephritis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.108090042048091
+    },
+    {
+      "adverse_event": "Immune-mediated myositis",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.162652872065738
+    },
+    {
+      "adverse_event": "Immune-mediated myocarditis",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1308487539637828
+    },
+    {
+      "adverse_event": "Immune-mediated lung disease",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9308665369286007
+    },
+    {
+      "adverse_event": "Osteomalacia",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.689722026028698
+    },
+    {
+      "adverse_event": "Parkinson's disease psychosis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.792081053011647
+    },
+    {
+      "adverse_event": "Pericardial haemorrhage",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6990586777260347
+    },
+    {
+      "adverse_event": "Transitional cell carcinoma",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8024514473678284
+    },
+    {
+      "adverse_event": "Total lung capacity increased",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7326141038366618
+    },
+    {
+      "adverse_event": "Toe amputation",
+      "n_drugs": 9.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.065778249643872
+    },
+    {
+      "adverse_event": "T-cell type acute leukaemia",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3634814491038891
+    },
+    {
+      "adverse_event": "T-cell lymphoma",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8336857725005684
+    },
+    {
+      "adverse_event": "Symptom masked",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7074529025354457
+    },
+    {
+      "adverse_event": "Swollen joint count increased",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0910058510225737
+    },
+    {
+      "adverse_event": "Superior vena cava syndrome",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7619772525142111
+    },
+    {
+      "adverse_event": "Sudden cardiac death",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9379564241716528
+    },
+    {
+      "adverse_event": "Substance dependence",
+      "n_drugs": 12.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0133514715542342
+    },
+    {
+      "adverse_event": "Subdural haemorrhage",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.687632964650264
+    },
+    {
+      "adverse_event": "Subcutaneous haematoma",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7740646837992844
+    },
+    {
+      "adverse_event": "Steroid withdrawal syndrome",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8271991784445022
+    },
+    {
+      "adverse_event": "Stereotypy",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9521390549691368
+    },
+    {
+      "adverse_event": "Spontaneous haemorrhage",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 2.2126118932481478
+    },
+    {
+      "adverse_event": "Splenic rupture",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8233414289625601
+    },
+    {
+      "adverse_event": "Splenic abscess",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3357520766844466
+    },
+    {
+      "adverse_event": "Spinal epidural haematoma",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8593740583716223
+    },
+    {
+      "adverse_event": "Transformation to acute myeloid leukaemia",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8884855822677643
+    },
+    {
+      "adverse_event": "Transplant rejection",
+      "n_drugs": 17.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.985625075657282
+    },
+    {
+      "adverse_event": "Peripheral motor neuropathy",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0490316981973886
+    },
+    {
+      "adverse_event": "Traumatic haematoma",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2031222107468353
+    },
+    {
+      "adverse_event": "Vision abnormal neonatal",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7320318107870974
+    },
+    {
+      "adverse_event": "Visceral leishmaniasis",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9412853733480747
+    },
+    {
+      "adverse_event": "Virologic failure",
+      "n_drugs": 32.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1538923316543577
+    },
+    {
+      "adverse_event": "Viral mutation identified",
+      "n_drugs": 36.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3708231862430864
+    },
+    {
+      "adverse_event": "Viral load increased",
+      "n_drugs": 36.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2818496101448342
+    },
+    {
+      "adverse_event": "Viraemia",
+      "n_drugs": 18.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0369648728729532
+    },
+    {
+      "adverse_event": "Vasogenic cerebral oedema",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.4431234779541289
+    },
+    {
+      "adverse_event": "Vascular stent thrombosis",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9487843889352868
+    },
+    {
+      "adverse_event": "Vascular stent stenosis",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2758026611921607
+    },
+    {
+      "adverse_event": "Urinary tract obstruction",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2005434838848752
+    },
+    {
+      "adverse_event": "Urinary bladder haemorrhage",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0528583686104016
+    },
+    {
+      "adverse_event": "Tumour pseudoprogression",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0387460046093897
+    },
+    {
+      "adverse_event": "Tumour hyperprogression",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8471469199038276
+    },
+    {
+      "adverse_event": "Tuberculoma of central nervous system",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8296926107855432
+    },
+    {
+      "adverse_event": "Troponin I increased",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.8100062076932353
+    },
+    {
+      "adverse_event": "Trichosporon infection",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9545648126810186
+    },
+    {
+      "adverse_event": "Traumatic haemorrhage",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.4756806698790563
+    },
+    {
+      "adverse_event": "Small intestinal haemorrhage",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6504754657277733
+    },
+    {
+      "adverse_event": "Skin weeping",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1793240201406985
+    },
+    {
+      "adverse_event": "Skeletal injury",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1833917271589363
+    },
+    {
+      "adverse_event": "Serous retinal detachment",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8018137654695394
+    },
+    {
+      "adverse_event": "Protein total abnormal",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9828213134649934
+    },
+    {
+      "adverse_event": "Propofol infusion syndrome",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.9829187806123987
+    },
+    {
+      "adverse_event": "Prolonged expiration",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9032977273964903
+    },
+    {
+      "adverse_event": "Product use in unapproved therapeutic environment",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2472036856057187
+    },
+    {
+      "adverse_event": "Polysubstance dependence",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2707511917851644
+    },
+    {
+      "adverse_event": "Polyomavirus test positive",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.862095830922938
+    },
+    {
+      "adverse_event": "Polydactyly",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2612567986262122
+    },
+    {
+      "adverse_event": "Pneumonia influenzal",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6618286329432593
+    },
+    {
+      "adverse_event": "Pleurothotonus",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.195267930755282
+    },
+    {
+      "adverse_event": "Plasma cell myeloma refractory",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9187713350135915
+    },
+    {
+      "adverse_event": "Plasma cell leukaemia",
+      "n_drugs": 9.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1279525104246864
+    },
+    {
+      "adverse_event": "Physical assault",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7262455132119353
+    },
+    {
+      "adverse_event": "Philadelphia chromosome positive",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8931395847865852
+    },
+    {
+      "adverse_event": "Phaeohyphomycosis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7598182819515319
+    },
+    {
+      "adverse_event": "Peritoneal dialysis complication",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8798434783378847
+    },
+    {
+      "adverse_event": "Peritoneal cloudy effluent",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8634161107907219
+    },
+    {
+      "adverse_event": "Peripheral vascular disorder",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.5866059057163369
+    },
+    {
+      "adverse_event": "Prothrombin time prolonged",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7481551342585113
+    },
+    {
+      "adverse_event": "Pseudomonal bacteraemia",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1365794703352121
+    },
+    {
+      "adverse_event": "Pseudomonal sepsis",
+      "n_drugs": 14.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.135108834321137
+    },
+    {
+      "adverse_event": "Renal infarct",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.309092271263911
+    },
+    {
+      "adverse_event": "Secondary immunodeficiency",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9769144245598412
+    },
+    {
+      "adverse_event": "Sarcoma",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.5806919440983502
+    },
+    {
+      "adverse_event": "Richter's syndrome",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1896569722132326
+    },
+    {
+      "adverse_event": "Rhinocerebral mucormycosis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3297981698994856
+    },
+    {
+      "adverse_event": "Retroperitoneal haemorrhage",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9158372937075463
+    },
+    {
+      "adverse_event": "Retroperitoneal haematoma",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6824067933457469
+    },
+    {
+      "adverse_event": "Renal tubular dysfunction",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1019492067532475
+    },
+    {
+      "adverse_event": "Renal cancer metastatic",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0196023302528725
+    },
+    {
+      "adverse_event": "Pseudomonas test positive",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7101538669115279
+    },
+    {
+      "adverse_event": "Red blood cell transfusion",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7731203849801115
+    },
+    {
+      "adverse_event": "Rectal ulcer",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7522300529193656
+    },
+    {
+      "adverse_event": "Rebound psychosis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8734172701195413
+    },
+    {
+      "adverse_event": "Radiotherapy",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1100264121931134
+    },
+    {
+      "adverse_event": "Radioisotope scan abnormal",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6766967602076429
+    },
+    {
+      "adverse_event": "Quadriplegia",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9190925016688543
+    },
+    {
+      "adverse_event": "Psychotic behaviour",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9563444910823943
+    },
+    {
+      "adverse_event": "Human herpesvirus 6 infection reactivation",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.874437110627809
+    },
+    {
+      "adverse_event": "Hypothalamo-pituitary disorder",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9155823746244066
+    },
+    {
+      "adverse_event": "West Nile viral infection",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8631660745397912
+    },
+    {
+      "adverse_event": "Congenital aplasia",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9879428370565807
+    },
+    {
+      "adverse_event": "Akinesia",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9243660703446593
+    },
+    {
+      "adverse_event": "Cystitis viral",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6738934780304039
+    },
+    {
+      "adverse_event": "Cutaneous T-cell lymphoma",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7524928747333979
+    },
+    {
+      "adverse_event": "Cryptococcosis",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9566571175279259
+    },
+    {
+      "adverse_event": "Coronary artery thrombosis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9963904594072246
+    },
+    {
+      "adverse_event": "Amphetamines positive",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6753523103890835
+    },
+    {
+      "adverse_event": "Congenital hydronephrosis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.4999787108662581
+    },
+    {
+      "adverse_event": "Amyotrophic lateral sclerosis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7547106666885798
+    },
+    {
+      "adverse_event": "Cytomegalovirus gastritis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.893506979094183
+    },
+    {
+      "adverse_event": "Complications of transplanted heart",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8927308939774505
+    },
+    {
+      "adverse_event": "Colorectal cancer metastatic",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7878442056550232
+    },
+    {
+      "adverse_event": "Cogwheel rigidity",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9226687373566793
+    },
+    {
+      "adverse_event": "Coagulation time prolonged",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8698604602612466
+    },
+    {
+      "adverse_event": "Clear cell renal cell carcinoma",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0931354396952027
+    },
+    {
+      "adverse_event": "Chronic myelomonocytic leukaemia",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3067940900777029
+    },
+    {
+      "adverse_event": "Chronic myeloid leukaemia transformation",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6907337368103663
+    },
+    {
+      "adverse_event": "Cytomegalovirus enterocolitis",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8574764239441764
+    },
+    {
+      "adverse_event": "Cytomegalovirus gastrointestinal infection",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9432000511828836
+    },
+    {
+      "adverse_event": "Diverticulum intestinal haemorrhagic",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7387151784833631
+    },
+    {
+      "adverse_event": "Dieulafoy's vascular malformation",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7240123990373729
+    },
+    {
+      "adverse_event": "Disseminated cytomegaloviral infection",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9950555902244395
+    },
+    {
+      "adverse_event": "Disseminated cryptococcosis",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9526344962238934
+    },
+    {
+      "adverse_event": "Dislocation of vertebra",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8782235076673474
+    },
+    {
+      "adverse_event": "Dilated cardiomyopathy",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.7121998649298626
+    },
+    {
+      "adverse_event": "Adrenocorticotropic hormone deficiency",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7903429222621909
+    },
+    {
+      "adverse_event": "Diffuse alveolar damage",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8976071499320365
+    },
+    {
+      "adverse_event": "Adult T-cell lymphoma/leukaemia",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7601429388151918
+    },
+    {
+      "adverse_event": "Antipsychotic drug level decreased",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.279727227791031
+    },
+    {
+      "adverse_event": "Homicide",
+      "n_drugs": 10.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9831785884753877
+    },
+    {
+      "adverse_event": "Diabetic metabolic decompensation",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9724036214607354
+    },
+    {
+      "adverse_event": "Diabetic ketosis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6644109851958936
+    },
+    {
+      "adverse_event": "Diabetic foot",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7811828890096564
+    },
+    {
+      "adverse_event": "Device mechanical issue",
+      "n_drugs": 9.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8721742445080923
+    },
+    {
+      "adverse_event": "Dementia with Lewy bodies",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8029469727599791
+    },
+    {
+      "adverse_event": "Cytomegalovirus test positive",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.849058019099029
+    },
+    {
+      "adverse_event": "Cytomegalovirus oesophagitis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7394747486955633
+    },
+    {
+      "adverse_event": "Chronic myeloid leukaemia recurrent",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.007992918616346
+    },
+    {
+      "adverse_event": "Chronic lymphocytic leukaemia recurrent",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7742410047428153
+    },
+    {
+      "adverse_event": "Chronic graft versus host disease oral",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.760086923785997
+    },
+    {
+      "adverse_event": "Anticonvulsant drug level increased",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7932494014734354
+    },
+    {
+      "adverse_event": "Bloody peritoneal effluent",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7353489057200108
+    },
+    {
+      "adverse_event": "Blood prolactin abnormal",
+      "n_drugs": 12.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3475185420670481
+    },
+    {
+      "adverse_event": "Blood HIV RNA increased",
+      "n_drugs": 19.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.397412058648761
+    },
+    {
+      "adverse_event": "Blast crisis in myelogenous leukaemia",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0572717854375349
+    },
+    {
+      "adverse_event": "Blast cell crisis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0173005151891257
+    },
+    {
+      "adverse_event": "Blast cell count increased",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9456365841307399
+    },
+    {
+      "adverse_event": "Bladder dilatation",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8410521348540981
+    },
+    {
+      "adverse_event": "Bilirubin conjugated increased",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7268346864801148
+    },
+    {
+      "adverse_event": "Chorioretinopathy",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0035236283007978
+    },
+    {
+      "adverse_event": "Biliary tract infection",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3254280052395344
+    },
+    {
+      "adverse_event": "Bacterial sepsis",
+      "n_drugs": 14.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0877272980609451
+    },
+    {
+      "adverse_event": "Autoimmune pancreatitis",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.679888772184567
+    },
+    {
+      "adverse_event": "Autoimmune colitis",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9872497443848106
+    },
+    {
+      "adverse_event": "Atonic seizures",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7040848518186917
+    },
+    {
+      "adverse_event": "Arterial thrombosis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8899349352925313
+    },
+    {
+      "adverse_event": "Arterial haemorrhage",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0083808061314001
+    },
+    {
+      "adverse_event": "Bone demineralisation",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9026804758042231
+    },
+    {
+      "adverse_event": "Bone density decreased",
+      "n_drugs": 27.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.5586139224182443
+    },
+    {
+      "adverse_event": "Bone loss",
+      "n_drugs": 15.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3747734390668207
+    },
+    {
+      "adverse_event": "Bone marrow transplant",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9809970906925098
+    },
+    {
+      "adverse_event": "Change in seizure presentation",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6664858222103502
+    },
+    {
+      "adverse_event": "Cerebral fungal infection",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9525300603282324
+    },
+    {
+      "adverse_event": "Central hypothyroidism",
+      "n_drugs": 11.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2368006938275136
+    },
+    {
+      "adverse_event": "Catheter placement",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7103067862261162
+    },
+    {
+      "adverse_event": "Cardioversion",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6958199577132755
+    },
+    {
+      "adverse_event": "Cardiac amyloidosis",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3987955124389475
+    },
+    {
+      "adverse_event": "Capillary leak syndrome",
+      "n_drugs": 13.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7390385003626545
+    },
+    {
+      "adverse_event": "Candida sepsis",
+      "n_drugs": 9.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9086358754480711
+    },
+    {
+      "adverse_event": "Anosognosia",
+      "n_drugs": 11.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.5329027529861923
+    },
+    {
+      "adverse_event": "CSF HIV escape syndrome",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.525315393144969
+    },
+    {
+      "adverse_event": "CD4 lymphocytes decreased",
+      "n_drugs": 10.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7509035161815028
+    },
+    {
+      "adverse_event": "Breakthrough COVID-19",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8304686100939711
+    },
+    {
+      "adverse_event": "Brain midline shift",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9383514893954173
+    },
+    {
+      "adverse_event": "Brain herniation",
+      "n_drugs": 10.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.871729498220964
+    },
+    {
+      "adverse_event": "Bradyarrhythmia",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8417653591075127
+    },
+    {
+      "adverse_event": "Disseminated mucormycosis",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 2.0518309454046597
+    },
+    {
+      "adverse_event": "Diabetic nephropathy",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.61557445001969
+    },
+    {
+      "adverse_event": "Drug screen negative",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7367657415958742
+    },
+    {
+      "adverse_event": "Acute lymphocytic leukaemia recurrent",
+      "n_drugs": 20.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9153568019097188
+    },
+    {
+      "adverse_event": "Granulocytopenia",
+      "n_drugs": 14.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.042822577580768
+    },
+    {
+      "adverse_event": "Graft versus host disease in skin",
+      "n_drugs": 24.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.915555611892831
+    },
+    {
+      "adverse_event": "Graft versus host disease in gastrointestinal tract",
+      "n_drugs": 21.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.810113369053055
+    },
+    {
+      "adverse_event": "Graft loss",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1414073612236166
+    },
+    {
+      "adverse_event": "Glycosuria",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.208520159980549
+    },
+    {
+      "adverse_event": "Glucose urine present",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8159668230654645
+    },
+    {
+      "adverse_event": "Glucocorticoid deficiency",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9514772869638554
+    },
+    {
+      "adverse_event": "Fournier's gangrene",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7183588199492341
+    },
+    {
+      "adverse_event": "Drug tolerance",
+      "n_drugs": 20.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.6302998592712847
+    },
+    {
+      "adverse_event": "Geotrichum infection",
+      "n_drugs": 12.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3641295018676456
+    },
+    {
+      "adverse_event": "Genotype drug resistance test positive",
+      "n_drugs": 10.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.5866220783817182
+    },
+    {
+      "adverse_event": "Genital rash",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7153252675567611
+    },
+    {
+      "adverse_event": "Gastrointestinal stromal tumour",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7966317305814339
+    },
+    {
+      "adverse_event": "Fungal sepsis",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9052691582997805
+    },
+    {
+      "adverse_event": "HIV infection",
+      "n_drugs": 8.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.4907094908936098
+    },
+    {
+      "adverse_event": "Haemarthrosis",
+      "n_drugs": 15.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 2.25428098652759
+    },
+    {
+      "adverse_event": "Haemochromatosis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.556472306761864
+    },
+    {
+      "adverse_event": "Haemodialysis",
+      "n_drugs": 13.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8731651249368747
+    },
+    {
+      "adverse_event": "Haemorrhage subcutaneous",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6506482583937307
+    },
+    {
+      "adverse_event": "Haemorrhagic transformation stroke",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6967669968736941
+    },
+    {
+      "adverse_event": "Haemothorax",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9822833791611915
+    },
+    {
+      "adverse_event": "Hemivertebra",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0245645268242694
+    },
+    {
+      "adverse_event": "Heparin-induced thrombocytopenia",
+      "n_drugs": 6.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.906204534454745
+    },
+    {
+      "adverse_event": "Hepatitis B DNA increased",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.1386623800489892
+    },
+    {
+      "adverse_event": "Hepatitis C RNA increased",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3569190172467895
+    },
+    {
+      "adverse_event": "Hepatitis C virus test positive",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6879404480806013
+    },
+    {
+      "adverse_event": "Acquired haemophilia",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.2540016839839836
+    },
+    {
+      "adverse_event": "Hepatorenal syndrome",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9091846790528043
+    },
+    {
+      "adverse_event": "Herpes simplex oesophagitis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8949940319751146
+    },
+    {
+      "adverse_event": "Hodgkin's disease recurrent",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8321192890175286
+    },
+    {
+      "adverse_event": "Hodgkin's disease refractory",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0258607010094085
+    },
+    {
+      "adverse_event": "Fulminant type 1 diabetes mellitus",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0872952780712428
+    },
+    {
+      "adverse_event": "Glomerulonephritis membranous",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8246343493769519
+    },
+    {
+      "adverse_event": "Food interaction",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6719101513123737
+    },
+    {
+      "adverse_event": "FEV1/FVC ratio decreased",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.273372455535294
+    },
+    {
+      "adverse_event": "Adenovirus reactivation",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.7169662158611936
+    },
+    {
+      "adverse_event": "Economic problem",
+      "n_drugs": 16.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.90911007566753
+    },
+    {
+      "adverse_event": "Ejection fraction abnormal",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.251701831234549
+    },
+    {
+      "adverse_event": "Electrocardiogram ST segment depression",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7764722401804705
+    },
+    {
+      "adverse_event": "Adenoviral hepatitis",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0724382566705615
+    },
+    {
+      "adverse_event": "Encephalitis viral",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0524379257624559
+    },
+    {
+      "adverse_event": "Enterobacter infection",
+      "n_drugs": 9.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.3388834292940384
+    },
+    {
+      "adverse_event": "Enterococcal bacteraemia",
+      "n_drugs": 11.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0143957050492824
+    },
+    {
+      "adverse_event": "Enterococcal sepsis",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.252439610480129
+    },
+    {
+      "adverse_event": "Escherichia bacteraemia",
+      "n_drugs": 15.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8434418555557319
+    },
+    {
+      "adverse_event": "Ewing's sarcoma",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.8304083855729275
+    },
+    {
+      "adverse_event": "Exfoliative rash",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7710219772682914
+    },
+    {
+      "adverse_event": "Extradural haematoma",
+      "n_drugs": 5.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.9654649954536347
+    },
+    {
+      "adverse_event": "Aortic dissection",
+      "n_drugs": 4.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7730668835124698
+    },
+    {
+      "adverse_event": "Follicular lymphoma",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7747198630632842
+    },
+    {
+      "adverse_event": "Adenocarcinoma pancreas",
+      "n_drugs": 7.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.876140536736252
+    },
+    {
+      "adverse_event": "Fanconi syndrome acquired",
+      "n_drugs": 12.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 1.0802697551596976
+    },
+    {
+      "adverse_event": "Flat affect",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.5567736419443823
+    },
+    {
+      "adverse_event": "Focal dyscognitive seizures",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.6350265115570467
+    },
+    {
+      "adverse_event": "Foetal anticonvulsant syndrome",
+      "n_drugs": 3.0,
+      "pct_female": 1.0,
+      "mean_abs_lr": 0.7198957666690974
+    },
+    {
+      "adverse_event": "Haemorrhage intracranial",
+      "n_drugs": 41.0,
+      "pct_female": 0.975609756097561,
+      "mean_abs_lr": 0.8621066203047224
+    },
+    {
+      "adverse_event": "Hepatitis C",
+      "n_drugs": 38.0,
+      "pct_female": 0.9736842105263158,
+      "mean_abs_lr": 0.9613674370689449
+    },
+    {
+      "adverse_event": "Osteonecrosis",
+      "n_drugs": 57.0,
+      "pct_female": 0.9649122807017544,
+      "mean_abs_lr": 0.9930731478146857
+    },
+    {
+      "adverse_event": "Hepatitis B reactivation",
+      "n_drugs": 27.0,
+      "pct_female": 0.9629629629629629,
+      "mean_abs_lr": 1.0014214531991812
+    },
+    {
+      "adverse_event": "Ileus paralytic",
+      "n_drugs": 26.0,
+      "pct_female": 0.9615384615384616,
+      "mean_abs_lr": 0.832425127686807
+    },
+    {
+      "adverse_event": "Hyperprolactinaemia",
+      "n_drugs": 23.0,
+      "pct_female": 0.9565217391304348,
+      "mean_abs_lr": 1.6086454470707583
+    },
+    {
+      "adverse_event": "Bladder cancer",
+      "n_drugs": 22.0,
+      "pct_female": 0.9545454545454546,
+      "mean_abs_lr": 0.9145394452956627
+    },
+    {
+      "adverse_event": "Device leakage",
+      "n_drugs": 43.0,
+      "pct_female": 0.9534883720930233,
+      "mean_abs_lr": 0.9594676374757534
+    },
+    {
+      "adverse_event": "Hepatocellular carcinoma",
+      "n_drugs": 21.0,
+      "pct_female": 0.9523809523809523,
+      "mean_abs_lr": 0.8820242444871205
+    },
+    {
+      "adverse_event": "Acute graft versus host disease",
+      "n_drugs": 21.0,
+      "pct_female": 0.9523809523809523,
+      "mean_abs_lr": 0.9350455774923079
+    },
+    {
+      "adverse_event": "Cholangitis",
+      "n_drugs": 20.0,
+      "pct_female": 0.95,
+      "mean_abs_lr": 0.7985367807222862
+    },
+    {
+      "adverse_event": "Pemphigoid",
+      "n_drugs": 40.0,
+      "pct_female": 0.95,
+      "mean_abs_lr": 1.0069897976420665
+    },
+    {
+      "adverse_event": "Acute coronary syndrome",
+      "n_drugs": 39.0,
+      "pct_female": 0.9487179487179487,
+      "mean_abs_lr": 0.9220147744518895
+    },
+    {
+      "adverse_event": "Histiocytosis haematophagic",
+      "n_drugs": 19.0,
+      "pct_female": 0.9473684210526315,
+      "mean_abs_lr": 0.9839748829251963
+    },
+    {
+      "adverse_event": "Sudden death",
+      "n_drugs": 37.0,
+      "pct_female": 0.9459459459459459,
+      "mean_abs_lr": 0.9633163277197536
+    },
+    {
+      "adverse_event": "Pulmonary tuberculosis",
+      "n_drugs": 18.0,
+      "pct_female": 0.9444444444444444,
+      "mean_abs_lr": 0.8843749724410451
+    },
+    {
+      "adverse_event": "Congestive cardiomyopathy",
+      "n_drugs": 18.0,
+      "pct_female": 0.9444444444444444,
+      "mean_abs_lr": 0.9563458741496361
+    },
+    {
+      "adverse_event": "Gangrene",
+      "n_drugs": 18.0,
+      "pct_female": 0.9444444444444444,
+      "mean_abs_lr": 1.5344502670354598
+    },
+    {
+      "adverse_event": "Tooth loss",
+      "n_drugs": 53.0,
+      "pct_female": 0.9433962264150944,
+      "mean_abs_lr": 0.9894260232012689
+    },
+    {
+      "adverse_event": "Blood creatine phosphokinase increased",
+      "n_drugs": 105.0,
+      "pct_female": 0.9428571428571428,
+      "mean_abs_lr": 0.9484331255390458
+    },
+    {
+      "adverse_event": "Subdural haematoma",
+      "n_drugs": 52.0,
+      "pct_female": 0.9423076923076923,
+      "mean_abs_lr": 0.8466369159861303
+    },
+    {
+      "adverse_event": "Ischaemia",
+      "n_drugs": 17.0,
+      "pct_female": 0.9411764705882353,
+      "mean_abs_lr": 0.8909669387025776
+    },
+    {
+      "adverse_event": "Mucormycosis",
+      "n_drugs": 32.0,
+      "pct_female": 0.9375,
+      "mean_abs_lr": 1.2485324989124837
+    },
+    {
+      "adverse_event": "Protein urine present",
+      "n_drugs": 16.0,
+      "pct_female": 0.9375,
+      "mean_abs_lr": 0.9185006380249534
+    },
+    {
+      "adverse_event": "Adverse drug reaction",
+      "n_drugs": 206.0,
+      "pct_female": 0.9368932038834952,
+      "mean_abs_lr": 1.0844676683647334
+    },
+    {
+      "adverse_event": "Hyperpyrexia",
+      "n_drugs": 15.0,
+      "pct_female": 0.9333333333333333,
+      "mean_abs_lr": 0.9634838737363455
+    },
+    {
+      "adverse_event": "Venoocclusive liver disease",
+      "n_drugs": 30.0,
+      "pct_female": 0.9333333333333333,
+      "mean_abs_lr": 0.8608883212596161
+    },
+    {
+      "adverse_event": "Hallucinations, mixed",
+      "n_drugs": 15.0,
+      "pct_female": 0.9333333333333333,
+      "mean_abs_lr": 1.07454368796946
+    },
+    {
+      "adverse_event": "Leukaemia recurrent",
+      "n_drugs": 15.0,
+      "pct_female": 0.9333333333333333,
+      "mean_abs_lr": 0.910532535446615
+    },
+    {
+      "adverse_event": "Polyomavirus viraemia",
+      "n_drugs": 15.0,
+      "pct_female": 0.9333333333333333,
+      "mean_abs_lr": 0.987789587382274
+    },
+    {
+      "adverse_event": "Haematuria",
+      "n_drugs": 134.0,
+      "pct_female": 0.9328358208955224,
+      "mean_abs_lr": 0.9768256258962054
+    },
+    {
+      "adverse_event": "Pathogen resistance",
+      "n_drugs": 57.0,
+      "pct_female": 0.9298245614035088,
+      "mean_abs_lr": 0.916125545073803
+    },
+    {
+      "adverse_event": "Chronic myeloid leukaemia",
+      "n_drugs": 14.0,
+      "pct_female": 0.9285714285714286,
+      "mean_abs_lr": 0.813021818242583
+    },
+    {
+      "adverse_event": "Fungaemia",
+      "n_drugs": 14.0,
+      "pct_female": 0.9285714285714286,
+      "mean_abs_lr": 1.1051022963208987
+    },
+    {
+      "adverse_event": "Syringe issue",
+      "n_drugs": 28.0,
+      "pct_female": 0.9285714285714286,
+      "mean_abs_lr": 1.1676497034108662
+    },
+    {
+      "adverse_event": "Meningitis cryptococcal",
+      "n_drugs": 14.0,
+      "pct_female": 0.9285714285714286,
+      "mean_abs_lr": 0.89162504264249
+    },
+    {
+      "adverse_event": "Multi-organ failure",
+      "n_drugs": 41.0,
+      "pct_female": 0.926829268292683,
+      "mean_abs_lr": 0.8167714021403519
+    },
+    {
+      "adverse_event": "Autism spectrum disorder",
+      "n_drugs": 13.0,
+      "pct_female": 0.9230769230769231,
+      "mean_abs_lr": 0.9022807873665826
+    },
+    {
+      "adverse_event": "Brain abscess",
+      "n_drugs": 13.0,
+      "pct_female": 0.9230769230769231,
+      "mean_abs_lr": 0.9119651786169919
+    },
+    {
+      "adverse_event": "Tumour lysis syndrome",
+      "n_drugs": 37.0,
+      "pct_female": 0.918918918918919,
+      "mean_abs_lr": 1.0046383051046552
+    },
+    {
+      "adverse_event": "Palmoplantar keratoderma",
+      "n_drugs": 12.0,
+      "pct_female": 0.9166666666666666,
+      "mean_abs_lr": 0.9247566390625384
+    },
+    {
+      "adverse_event": "Coronary artery stenosis",
+      "n_drugs": 12.0,
+      "pct_female": 0.9166666666666666,
+      "mean_abs_lr": 1.1821864771311694
+    },
+    {
+      "adverse_event": "Mouth haemorrhage",
+      "n_drugs": 23.0,
+      "pct_female": 0.9130434782608695,
+      "mean_abs_lr": 0.8513383043609661
+    },
+    {
+      "adverse_event": "Substance use disorder",
+      "n_drugs": 33.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 1.0300602984088822
+    },
+    {
+      "adverse_event": "Hypoproteinaemia",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.8564972033606163
+    },
+    {
+      "adverse_event": "Graft versus host disease",
+      "n_drugs": 44.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.94679783416199
+    },
+    {
+      "adverse_event": "Infection reactivation",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.9760281592086852
+    },
+    {
+      "adverse_event": "Acute psychosis",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 1.032352657395856
+    },
+    {
+      "adverse_event": "Klebsiella sepsis",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.9744483405382343
+    },
+    {
+      "adverse_event": "Lupus nephritis",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 1.016309018002817
+    },
+    {
+      "adverse_event": "Encephalitis autoimmune",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.7429337373153998
+    },
+    {
+      "adverse_event": "Diffuse large B-cell lymphoma recurrent",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.8168413481361281
+    },
+    {
+      "adverse_event": "Cytomegalovirus infection reactivation",
+      "n_drugs": 33.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.8716731003900022
+    },
+    {
+      "adverse_event": "Peripheral sensorimotor neuropathy",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.9280884115542238
+    },
+    {
+      "adverse_event": "Peritonitis bacterial",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.7176311892564317
+    },
+    {
+      "adverse_event": "Alcohol abuse",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.7782740087352106
+    },
+    {
+      "adverse_event": "Congenital anomaly",
+      "n_drugs": 11.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 1.1975705497782148
+    },
+    {
+      "adverse_event": "Angina unstable",
+      "n_drugs": 22.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 0.721488466730579
+    },
+    {
+      "adverse_event": "Human herpesvirus 6 infection",
+      "n_drugs": 22.0,
+      "pct_female": 0.9090909090909091,
+      "mean_abs_lr": 1.1914308681642554
+    },
+    {
+      "adverse_event": "Neurotoxicity",
+      "n_drugs": 64.0,
+      "pct_female": 0.90625,
+      "mean_abs_lr": 0.9034814968134749
+    },
+    {
+      "adverse_event": "Hypoalbuminaemia",
+      "n_drugs": 32.0,
+      "pct_female": 0.90625,
+      "mean_abs_lr": 0.7992350892095708
+    },
+    {
+      "adverse_event": "Renal injury",
+      "n_drugs": 31.0,
+      "pct_female": 0.9032258064516129,
+      "mean_abs_lr": 0.7796833807936202
+    }
+  ],
+  "universally_male_aes": [
+    {
+      "adverse_event": "Abdominal neoplasm",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8199848039460118
+    },
+    {
+      "adverse_event": "Multiple use of single-use product",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8611644936459995
+    },
+    {
+      "adverse_event": "Morbid thoughts",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9133740898256543
+    },
+    {
+      "adverse_event": "Migraine with aura",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.376445532105105
+    },
+    {
+      "adverse_event": "Middle ear effusion",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1950140495582033
+    },
+    {
+      "adverse_event": "Microangiopathy",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9206770027912576
+    },
+    {
+      "adverse_event": "Metabolic alkalosis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.897890223964605
+    },
+    {
+      "adverse_event": "Meniscus injury",
+      "n_drugs": 12.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8192482009450829
+    },
+    {
+      "adverse_event": "Melanocytic naevus",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9436482625284534
+    },
+    {
+      "adverse_event": "Muscle contracture",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6877692446805974
+    },
+    {
+      "adverse_event": "Medical device site discomfort",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.781104482697254
+    },
+    {
+      "adverse_event": "Medical device discomfort",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 3.1382093954143913
+    },
+    {
+      "adverse_event": "Medical device complication",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.7387145538660576
+    },
+    {
+      "adverse_event": "Maternal exposure timing unspecified",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.016089116006783
+    },
+    {
+      "adverse_event": "Maternal exposure during breast feeding",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.163843881803427
+    },
+    {
+      "adverse_event": "Maternal exposure before pregnancy",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5716449535676231
+    },
+    {
+      "adverse_event": "Mast cell activation syndrome",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3549564506282987
+    },
+    {
+      "adverse_event": "Magnetic resonance imaging abnormal",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7880433332251814
+    },
+    {
+      "adverse_event": "Macule",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7291015325251126
+    },
+    {
+      "adverse_event": "Medical device removal",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3278919185496594
+    },
+    {
+      "adverse_event": "Muscle discomfort",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9136551556822109
+    },
+    {
+      "adverse_event": "Mycotic allergy",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.4995862478727338
+    },
+    {
+      "adverse_event": "Nail pitting",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6737060615962726
+    },
+    {
+      "adverse_event": "Osteitis",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9621384258640272
+    },
+    {
+      "adverse_event": "Oral mucosal blistering",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7354690171393856
+    },
+    {
+      "adverse_event": "Oral infection",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9697723741710634
+    },
+    {
+      "adverse_event": "Ophthalmic herpes zoster",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.786599785042602
+    },
+    {
+      "adverse_event": "Onycholysis",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1932198021384492
+    },
+    {
+      "adverse_event": "Oligohydramnios",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.696487999956019
+    },
+    {
+      "adverse_event": "Off label use of device",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2787904987777723
+    },
+    {
+      "adverse_event": "Oesophageal spasm",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0700660692403552
+    },
+    {
+      "adverse_event": "Oedema mouth",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7397252957710907
+    },
+    {
+      "adverse_event": "Ocular icterus",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6378284428537302
+    },
+    {
+      "adverse_event": "Obsessive thoughts",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6102268494894334
+    },
+    {
+      "adverse_event": "Nuclear magnetic resonance imaging abnormal",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8488943104179674
+    },
+    {
+      "adverse_event": "Neurogenic bladder",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9638463390196139
+    },
+    {
+      "adverse_event": "Neck surgery",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7474044693384183
+    },
+    {
+      "adverse_event": "Neck injury",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7180335355923629
+    },
+    {
+      "adverse_event": "Near death experience",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6752429443494309
+    },
+    {
+      "adverse_event": "Nasal septum deviation",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8478869875624113
+    },
+    {
+      "adverse_event": "Nasal mucosal disorder",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6579546165449851
+    },
+    {
+      "adverse_event": "Nasal discharge discolouration",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.5571328434576311
+    },
+    {
+      "adverse_event": "Lymph node tuberculosis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7487983406311546
+    },
+    {
+      "adverse_event": "Osteosclerosis",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5333527324016352
+    },
+    {
+      "adverse_event": "Lung diffusion disorder",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.77172305547934
+    },
+    {
+      "adverse_event": "Loss of control of legs",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.078846211185331
+    },
+    {
+      "adverse_event": "Injection site scab",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9024277190332337
+    },
+    {
+      "adverse_event": "Injection site paraesthesia",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7673918949536516
+    },
+    {
+      "adverse_event": "Injection site papule",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9096783344614034
+    },
+    {
+      "adverse_event": "Weight loss poor",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7334513464401996
+    },
+    {
+      "adverse_event": "Injection site injury",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8007672642048765
+    },
+    {
+      "adverse_event": "Injection site inflammation",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7758452838468715
+    },
+    {
+      "adverse_event": "Injection site infection",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7520384371833986
+    },
+    {
+      "adverse_event": "Injection site indentation",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7531326149708716
+    },
+    {
+      "adverse_event": "Injection site scar",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.678681766937703
+    },
+    {
+      "adverse_event": "Injection site hypoaesthesia",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.718087556054057
+    },
+    {
+      "adverse_event": "Injection site cellulitis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8188147029790702
+    },
+    {
+      "adverse_event": "Injection related reaction",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.135262994674563
+    },
+    {
+      "adverse_event": "Infusion site swelling",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8799497951860797
+    },
+    {
+      "adverse_event": "Infusion site infection",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.723247820061298
+    },
+    {
+      "adverse_event": "Infusion site erythema",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8564335905874926
+    },
+    {
+      "adverse_event": "Inflammatory pain",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2021443076065077
+    },
+    {
+      "adverse_event": "Infection susceptibility increased",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.803543655994396
+    },
+    {
+      "adverse_event": "Infected skin ulcer",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.660844859636542
+    },
+    {
+      "adverse_event": "Injection site hypersensitivity",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2771975937172124
+    },
+    {
+      "adverse_event": "Injection site vesicles",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6286516586398696
+    },
+    {
+      "adverse_event": "Injection site warmth",
+      "n_drugs": 16.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.08720683663119
+    },
+    {
+      "adverse_event": "Instillation site pain",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.750472415125282
+    },
+    {
+      "adverse_event": "Loose tooth",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7800379346575066
+    },
+    {
+      "adverse_event": "Lipoma",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9094557318777295
+    },
+    {
+      "adverse_event": "Lip disorder",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8208141443542246
+    },
+    {
+      "adverse_event": "Ligament rupture",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7539309651377288
+    },
+    {
+      "adverse_event": "Latent tuberculosis",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7960564313187717
+    },
+    {
+      "adverse_event": "Joint lock",
+      "n_drugs": 15.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5548705381257726
+    },
+    {
+      "adverse_event": "Joint arthroplasty",
+      "n_drugs": 16.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5427789051461342
+    },
+    {
+      "adverse_event": "Joint ankylosis",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.7867339233501989
+    },
+    {
+      "adverse_event": "Jaw disorder",
+      "n_drugs": 11.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1725925666055597
+    },
+    {
+      "adverse_event": "JC virus test positive",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9423224574718132
+    },
+    {
+      "adverse_event": "JC polyomavirus test positive",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8980322886429095
+    },
+    {
+      "adverse_event": "Iritis",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8824072182301534
+    },
+    {
+      "adverse_event": "Intrusive thoughts",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.152143423916741
+    },
+    {
+      "adverse_event": "Intestinal stenosis",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9222467320895275
+    },
+    {
+      "adverse_event": "Intestinal sepsis",
+      "n_drugs": 11.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.7345996584001269
+    },
+    {
+      "adverse_event": "Intestinal polyp",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.4858115697559768
+    },
+    {
+      "adverse_event": "Intervertebral disc space narrowing",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.7338199284783498
+    },
+    {
+      "adverse_event": "Intervertebral disc operation",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7585062954275567
+    },
+    {
+      "adverse_event": "Intentional device use issue",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.437439715644895
+    },
+    {
+      "adverse_event": "Loss of therapeutic response",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9631052775379011
+    },
+    {
+      "adverse_event": "Infected cyst",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.892808471966298
+    },
+    {
+      "adverse_event": "Pain of skin",
+      "n_drugs": 61.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9032610926078797
+    },
+    {
+      "adverse_event": "Pancreatic cyst",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6705635232291762
+    },
+    {
+      "adverse_event": "Stress fracture",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.055124459082128
+    },
+    {
+      "adverse_event": "Streptococcal infection",
+      "n_drugs": 14.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9155849418273739
+    },
+    {
+      "adverse_event": "Strabismus",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6269106780508588
+    },
+    {
+      "adverse_event": "Steatorrhoea",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9090562699685599
+    },
+    {
+      "adverse_event": "Spinal deformity",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0154788326103916
+    },
+    {
+      "adverse_event": "Spinal column stenosis",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7272446201887687
+    },
+    {
+      "adverse_event": "Solar lentigo",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9712014815986441
+    },
+    {
+      "adverse_event": "Soft tissue swelling",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3311348598380983
+    },
+    {
+      "adverse_event": "Suffocation feeling",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2109481772003252
+    },
+    {
+      "adverse_event": "Skin tightness",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8573041866656076
+    },
+    {
+      "adverse_event": "Skin fragility",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2689752765558195
+    },
+    {
+      "adverse_event": "Sjogren's syndrome",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3798362347760347
+    },
+    {
+      "adverse_event": "Sinus pain",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5815449852251369
+    },
+    {
+      "adverse_event": "Sinus headache",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6614508529836028
+    },
+    {
+      "adverse_event": "Shoulder operation",
+      "n_drugs": 12.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9864270918197308
+    },
+    {
+      "adverse_event": "Sensitive skin",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7988451172673953
+    },
+    {
+      "adverse_event": "Sensation of foreign body",
+      "n_drugs": 28.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.4461154324603727
+    },
+    {
+      "adverse_event": "Secondary progressive multiple sclerosis",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9525730483084001
+    },
+    {
+      "adverse_event": "Skin injury",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.6592044469236211
+    },
+    {
+      "adverse_event": "Swelling of eyelid",
+      "n_drugs": 10.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1038007079637673
+    },
+    {
+      "adverse_event": "Temporomandibular joint syndrome",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1580965993781203
+    },
+    {
+      "adverse_event": "Tension headache",
+      "n_drugs": 15.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9072983210605173
+    },
+    {
+      "adverse_event": "Vitreous detachment",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.682157771745003
+    },
+    {
+      "adverse_event": "Ventilation perfusion mismatch",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.952889389907913
+    },
+    {
+      "adverse_event": "Vena cava thrombosis",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8105595074373795
+    },
+    {
+      "adverse_event": "VIIth nerve paralysis",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6685579949253326
+    },
+    {
+      "adverse_event": "Upper respiratory tract congestion",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9425775622926643
+    },
+    {
+      "adverse_event": "Uhthoff's phenomenon",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7803733309021055
+    },
+    {
+      "adverse_event": "Trigeminal neuralgia",
+      "n_drugs": 15.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.901276537048105
+    },
+    {
+      "adverse_event": "Tooth extraction",
+      "n_drugs": 22.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9339257225487496
+    },
+    {
+      "adverse_event": "Tooth discolouration",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1019210696228796
+    },
+    {
+      "adverse_event": "Tonsillectomy",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.5923385207821777
+    },
+    {
+      "adverse_event": "Thyroid neoplasm",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0718840215903558
+    },
+    {
+      "adverse_event": "Thyroid mass",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.4786740970623833
+    },
+    {
+      "adverse_event": "Thyroid function test abnormal",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7512164987641337
+    },
+    {
+      "adverse_event": "Thrombophlebitis superficial",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8595115859558575
+    },
+    {
+      "adverse_event": "Thrombophlebitis",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8790593651220682
+    },
+    {
+      "adverse_event": "Therapeutic response changed",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7561379484561815
+    },
+    {
+      "adverse_event": "Therapeutic product effect delayed",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7332247888327229
+    },
+    {
+      "adverse_event": "Tetany",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.836839136225969
+    },
+    {
+      "adverse_event": "Terminal ileitis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9163991158813706
+    },
+    {
+      "adverse_event": "Seborrhoeic keratosis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9190567532700676
+    },
+    {
+      "adverse_event": "Painful respiration",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.859168542682312
+    },
+    {
+      "adverse_event": "Seborrhoea",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8613458351044286
+    },
+    {
+      "adverse_event": "Rotator cuff repair",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6531066311294478
+    },
+    {
+      "adverse_event": "Pregnancy",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 3.320054786994468
+    },
+    {
+      "adverse_event": "Post-acute COVID-19 syndrome",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9643322148100943
+    },
+    {
+      "adverse_event": "Poor quality drug administered",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6397931571483476
+    },
+    {
+      "adverse_event": "Polyhydramnios",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.567875075674137
+    },
+    {
+      "adverse_event": "Pleurisy",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8854419474540782
+    },
+    {
+      "adverse_event": "Piloerection",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7080842943454243
+    },
+    {
+      "adverse_event": "Pharyngitis streptococcal",
+      "n_drugs": 17.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8477866308156727
+    },
+    {
+      "adverse_event": "Pharyngeal paraesthesia",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2535419230419973
+    },
+    {
+      "adverse_event": "Primary progressive multiple sclerosis",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9295037962682858
+    },
+    {
+      "adverse_event": "Peroneal nerve palsy",
+      "n_drugs": 14.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9695948613246436
+    },
+    {
+      "adverse_event": "Periarthritis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1440446770850894
+    },
+    {
+      "adverse_event": "Perfume sensitivity",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3961640217765012
+    },
+    {
+      "adverse_event": "Pelvic venous thrombosis",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1452414565330107
+    },
+    {
+      "adverse_event": "Patient dissatisfaction with treatment",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.146288897674863
+    },
+    {
+      "adverse_event": "Paranasal sinus hypersecretion",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7881791950860776
+    },
+    {
+      "adverse_event": "Papilloma viral infection",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0302613367587998
+    },
+    {
+      "adverse_event": "Papillary thyroid cancer",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8486070021317876
+    },
+    {
+      "adverse_event": "Panic reaction",
+      "n_drugs": 16.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0009224787359452
+    },
+    {
+      "adverse_event": "Periorbital swelling",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8938779093725141
+    },
+    {
+      "adverse_event": "Procedural haemorrhage",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8291988518409136
+    },
+    {
+      "adverse_event": "Product contamination physical",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6656977459407182
+    },
+    {
+      "adverse_event": "Product dispensing issue",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7583384460253747
+    },
+    {
+      "adverse_event": "Rosacea",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9436980136490695
+    },
+    {
+      "adverse_event": "Rhinalgia",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9536136141180317
+    },
+    {
+      "adverse_event": "Rheumatoid factor negative",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.9686751722172053
+    },
+    {
+      "adverse_event": "Rheumatoid factor increased",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3480256378013618
+    },
+    {
+      "adverse_event": "Rhesus incompatibility",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7416942021816535
+    },
+    {
+      "adverse_event": "Reversible cerebral vasoconstriction syndrome",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9553196944020179
+    },
+    {
+      "adverse_event": "Retinal disorder",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6607366094504622
+    },
+    {
+      "adverse_event": "Renal haemangioma",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1122332820332577
+    },
+    {
+      "adverse_event": "Relapsing-remitting multiple sclerosis",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.811188048769938
+    },
+    {
+      "adverse_event": "Rectal prolapse",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.6024212827348514
+    },
+    {
+      "adverse_event": "Reaction to excipient",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9703001951359765
+    },
+    {
+      "adverse_event": "Radius fracture",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7440599678404093
+    },
+    {
+      "adverse_event": "Pyoderma gangrenosum",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7450381711263843
+    },
+    {
+      "adverse_event": "Pyelonephritis acute",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9380945600400775
+    },
+    {
+      "adverse_event": "Pustule",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8312017467165576
+    },
+    {
+      "adverse_event": "Pulmonary pain",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7159831524084737
+    },
+    {
+      "adverse_event": "Psychological trauma",
+      "n_drugs": 10.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 3.002469322011079
+    },
+    {
+      "adverse_event": "Pseudolymphoma",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9041814141080252
+    },
+    {
+      "adverse_event": "Progressive multiple sclerosis",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.944461162802196
+    },
+    {
+      "adverse_event": "Sciatic nerve injury",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.649118447469715
+    },
+    {
+      "adverse_event": "Increased upper airway secretion",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9729288092582207
+    },
+    {
+      "adverse_event": "Injection site irritation",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.888414811238833
+    },
+    {
+      "adverse_event": "Dental care",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8800609919725979
+    },
+    {
+      "adverse_event": "Colonoscopy",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8068263860057314
+    },
+    {
+      "adverse_event": "Colon operation",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8154855752508351
+    },
+    {
+      "adverse_event": "Cluster headache",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0365439221399984
+    },
+    {
+      "adverse_event": "Clumsiness",
+      "n_drugs": 13.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8150208286446945
+    },
+    {
+      "adverse_event": "Cleft lip",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6240644462015593
+    },
+    {
+      "adverse_event": "Chondropathy",
+      "n_drugs": 13.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5977891241857345
+    },
+    {
+      "adverse_event": "Cholecystitis chronic",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.147907766822761
+    },
+    {
+      "adverse_event": "Choking sensation",
+      "n_drugs": 10.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9601823950738281
+    },
+    {
+      "adverse_event": "Change of bowel habit",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.120172762301206
+    },
+    {
+      "adverse_event": "Cerebral venous thrombosis",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.832866346700906
+    },
+    {
+      "adverse_event": "Central nervous system lesion",
+      "n_drugs": 35.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0505925966338407
+    },
+    {
+      "adverse_event": "Catheter site pruritus",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6858787567282739
+    },
+    {
+      "adverse_event": "Catheter site erythema",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6170799465267814
+    },
+    {
+      "adverse_event": "Catheter site discharge",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7773004312069728
+    },
+    {
+      "adverse_event": "Catheter management",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7620879821972558
+    },
+    {
+      "adverse_event": "Catarrh",
+      "n_drugs": 28.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.692677562892902
+    },
+    {
+      "adverse_event": "Cartilage injury",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8923919535942758
+    },
+    {
+      "adverse_event": "Carotid arteriosclerosis",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8427352728113533
+    },
+    {
+      "adverse_event": "Cardiospasm",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8999978946469683
+    },
+    {
+      "adverse_event": "Complex partial seizures",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9196952738891317
+    },
+    {
+      "adverse_event": "Cardiac flutter",
+      "n_drugs": 12.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7667273167118512
+    },
+    {
+      "adverse_event": "Complication associated with device",
+      "n_drugs": 30.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2783278172184542
+    },
+    {
+      "adverse_event": "Conjunctivitis allergic",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.5089825245787756
+    },
+    {
+      "adverse_event": "Device placement issue",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.3954107614258757
+    },
+    {
+      "adverse_event": "Device misuse",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3750723795768196
+    },
+    {
+      "adverse_event": "Device kink",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3097767578801
+    },
+    {
+      "adverse_event": "Device infusion issue",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.862625243110925
+    },
+    {
+      "adverse_event": "Device dislocation",
+      "n_drugs": 29.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.7997134735193048
+    },
+    {
+      "adverse_event": "Device difficult to use",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7144798964083248
+    },
+    {
+      "adverse_event": "Device deployment issue",
+      "n_drugs": 11.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5952160641440782
+    },
+    {
+      "adverse_event": "Device breakage",
+      "n_drugs": 30.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0241685067060533
+    },
+    {
+      "adverse_event": "Dermatitis atopic",
+      "n_drugs": 11.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2329552966045867
+    },
+    {
+      "adverse_event": "Dental implantation",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1155013898368824
+    },
+    {
+      "adverse_event": "Incorrect product formulation administered",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7210303242137934
+    },
+    {
+      "adverse_event": "Decreased interest",
+      "n_drugs": 15.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8250281056181412
+    },
+    {
+      "adverse_event": "Dactylitis",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1321128795572328
+    },
+    {
+      "adverse_event": "Cystoid macular oedema",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9025314535743894
+    },
+    {
+      "adverse_event": "Cystic fibrosis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7770339163257508
+    },
+    {
+      "adverse_event": "Cutaneous lupus erythematosus",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.039223439517769
+    },
+    {
+      "adverse_event": "Costochondritis",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3342339252954016
+    },
+    {
+      "adverse_event": "Corneal disorder",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7192631642850671
+    },
+    {
+      "adverse_event": "Contraindicated product prescribed",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0449664434138577
+    },
+    {
+      "adverse_event": "Compression fracture",
+      "n_drugs": 11.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8657243149072353
+    },
+    {
+      "adverse_event": "Carcinoembryonic antigen increased",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8518365546388972
+    },
+    {
+      "adverse_event": "Carbon dioxide increased",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7310767411269576
+    },
+    {
+      "adverse_event": "Carbohydrate antigen 15-3 increased",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 5.119231001681238
+    },
+    {
+      "adverse_event": "Antipsychotic drug level below therapeutic",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.4163075739769613
+    },
+    {
+      "adverse_event": "Anticonvulsant drug level above therapeutic",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8249484764271431
+    },
+    {
+      "adverse_event": "Anti-neutrophil cytoplasmic antibody positive vasculitis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.017692589066789
+    },
+    {
+      "adverse_event": "Ankle operation",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.757435372235822
+    },
+    {
+      "adverse_event": "Ankle deformity",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.267896045673124
+    },
+    {
+      "adverse_event": "Angle closure glaucoma",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8636068058833377
+    },
+    {
+      "adverse_event": "Alopecia areata",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0925305240864596
+    },
+    {
+      "adverse_event": "Allodynia",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9946064350386795
+    },
+    {
+      "adverse_event": "Allergy to animal",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2858498369217775
+    },
+    {
+      "adverse_event": "Agraphia",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8983427954748602
+    },
+    {
+      "adverse_event": "Agoraphobia",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7636884474801976
+    },
+    {
+      "adverse_event": "Administration site pain",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7524492595072783
+    },
+    {
+      "adverse_event": "Addison's disease",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1447626524047116
+    },
+    {
+      "adverse_event": "Acute sinusitis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6989739004130335
+    },
+    {
+      "adverse_event": "Acrochordon",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7908019497289062
+    },
+    {
+      "adverse_event": "Acne cystic",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.193013653586243
+    },
+    {
+      "adverse_event": "Accidental underdose",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6648119376488508
+    },
+    {
+      "adverse_event": "Abscess jaw",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0346767786537712
+    },
+    {
+      "adverse_event": "Abortion spontaneous",
+      "n_drugs": 17.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 3.705510305833915
+    },
+    {
+      "adverse_event": "Appendicitis perforated",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8065264040581179
+    },
+    {
+      "adverse_event": "Application site burn",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1393186083868245
+    },
+    {
+      "adverse_event": "Application site discolouration",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2563914007303318
+    },
+    {
+      "adverse_event": "Application site reaction",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0250565020318112
+    },
+    {
+      "adverse_event": "Calcium deficiency",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1502368670034089
+    },
+    {
+      "adverse_event": "COVID-19 immunisation",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.682521689461907
+    },
+    {
+      "adverse_event": "C-reactive protein decreased",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3269139945692696
+    },
+    {
+      "adverse_event": "Breech presentation",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 2.0237098048361433
+    },
+    {
+      "adverse_event": "Bone cyst",
+      "n_drugs": 11.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.8617760626528919
+    },
+    {
+      "adverse_event": "Body temperature fluctuation",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8651953865258947
+    },
+    {
+      "adverse_event": "Blood thyroid stimulating hormone increased",
+      "n_drugs": 26.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0300271974767787
+    },
+    {
+      "adverse_event": "Blood thyroid stimulating hormone decreased",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8848471606702306
+    },
+    {
+      "adverse_event": "Blood thyroid stimulating hormone abnormal",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2252369152597202
+    },
+    {
+      "adverse_event": "Device use issue",
+      "n_drugs": 10.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7967807585103208
+    },
+    {
+      "adverse_event": "Blindness transient",
+      "n_drugs": 10.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8417949190238044
+    },
+    {
+      "adverse_event": "Biliary dilatation",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.5826913408186948
+    },
+    {
+      "adverse_event": "Beta haemolytic streptococcal infection",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6725202962476688
+    },
+    {
+      "adverse_event": "Band sensation",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0801981679932116
+    },
+    {
+      "adverse_event": "Axial spondyloarthritis",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.250385439024329
+    },
+    {
+      "adverse_event": "Aura",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8334866539497212
+    },
+    {
+      "adverse_event": "Atypical femur fracture",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.6741989467689167
+    },
+    {
+      "adverse_event": "Atrial tachycardia",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9613046936995949
+    },
+    {
+      "adverse_event": "Arthropod sting",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6551792546668468
+    },
+    {
+      "adverse_event": "Application site urticaria",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.57180667968459
+    },
+    {
+      "adverse_event": "Blepharitis",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6987248366544081
+    },
+    {
+      "adverse_event": "Discharge",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7468203164741124
+    },
+    {
+      "adverse_event": "Wrist deformity",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1041598146002904
+    },
+    {
+      "adverse_event": "Hangover",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9732419652465527
+    },
+    {
+      "adverse_event": "Eye contusion",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.836179685209236
+    },
+    {
+      "adverse_event": "Eye operation",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7231851160833609
+    },
+    {
+      "adverse_event": "Eyelid irritation",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9662912607961196
+    },
+    {
+      "adverse_event": "Eyelid margin crusting",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7088286400138883
+    },
+    {
+      "adverse_event": "Eyelids pruritus",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1904108554998396
+    },
+    {
+      "adverse_event": "Facial pain",
+      "n_drugs": 33.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0782149177176876
+    },
+    {
+      "adverse_event": "Gingival disorder",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.2758405093327998
+    },
+    {
+      "adverse_event": "Faecal incontinence",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7186781937675031
+    },
+    {
+      "adverse_event": "Hypertonic bladder",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.9465197125665274
+    },
+    {
+      "adverse_event": "Fear of death",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9404742993136166
+    },
+    {
+      "adverse_event": "Fear of disease",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.4593330930981658
+    },
+    {
+      "adverse_event": "Feeling guilty",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9189384751570786
+    },
+    {
+      "adverse_event": "Hyperaesthesia teeth",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.03286892444268
+    },
+    {
+      "adverse_event": "Feeling of body temperature change",
+      "n_drugs": 10.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.737676637300656
+    },
+    {
+      "adverse_event": "Hemianaesthesia",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6806273689452946
+    },
+    {
+      "adverse_event": "Hyperacusis",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7242416198967769
+    },
+    {
+      "adverse_event": "Food intolerance",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1597941981184987
+    },
+    {
+      "adverse_event": "Humerus fracture",
+      "n_drugs": 9.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7919463278367577
+    },
+    {
+      "adverse_event": "Housebound",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9076855830989675
+    },
+    {
+      "adverse_event": "Hirsutism",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.3321629867486535
+    },
+    {
+      "adverse_event": "Heart valve incompetence",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.5878945376313677
+    },
+    {
+      "adverse_event": "Hip surgery",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8122274581943021
+    },
+    {
+      "adverse_event": "Herpes virus infection",
+      "n_drugs": 16.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8124429660073749
+    },
+    {
+      "adverse_event": "Frustration",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8467195218376468
+    },
+    {
+      "adverse_event": "Herpes ophthalmic",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8893003698791705
+    },
+    {
+      "adverse_event": "Gastric bypass",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7081869638840343
+    },
+    {
+      "adverse_event": "Double stranded DNA antibody positive",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.831053491088057
+    },
+    {
+      "adverse_event": "Gastric infection",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8180158440088214
+    },
+    {
+      "adverse_event": "Hereditary angioedema",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8103431226554815
+    },
+    {
+      "adverse_event": "Gastrointestinal tract irritation",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9976333351744611
+    },
+    {
+      "adverse_event": "Food craving",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8813267256153173
+    },
+    {
+      "adverse_event": "Hypoparathyroidism",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7417359926276502
+    },
+    {
+      "adverse_event": "Eye allergy",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7505539178647158
+    },
+    {
+      "adverse_event": "Hypovitaminosis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7722870555910041
+    },
+    {
+      "adverse_event": "Drug delivery system malfunction",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.78947110638387
+    },
+    {
+      "adverse_event": "Drug effect delayed",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7508588130214641
+    },
+    {
+      "adverse_event": "Hair texture abnormal",
+      "n_drugs": 11.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.430198305045529
+    },
+    {
+      "adverse_event": "Drug effect increased",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6269740986881714
+    },
+    {
+      "adverse_event": "Drug titration error",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9815322743178938
+    },
+    {
+      "adverse_event": "Hair disorder",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.6786418614429646
+    },
+    {
+      "adverse_event": "Dry age-related macular degeneration",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5751591269134373
+    },
+    {
+      "adverse_event": "H1N1 influenza",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9376729084680799
+    },
+    {
+      "adverse_event": "Goitre",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0500935451153182
+    },
+    {
+      "adverse_event": "Incision site pain",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.5904534676704554
+    },
+    {
+      "adverse_event": "Dysgraphia",
+      "n_drugs": 13.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.798005875909327
+    },
+    {
+      "adverse_event": "Gingival swelling",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6832247170315755
+    },
+    {
+      "adverse_event": "Ear disorder",
+      "n_drugs": 8.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8413286643966694
+    },
+    {
+      "adverse_event": "Hypopnoea",
+      "n_drugs": 35.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.4339294859746123
+    },
+    {
+      "adverse_event": "Electric shock sensation",
+      "n_drugs": 7.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.098385188831673
+    },
+    {
+      "adverse_event": "Ear swelling",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.8389438042964946
+    },
+    {
+      "adverse_event": "Gingival recession",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1757628578731085
+    },
+    {
+      "adverse_event": "Ileostomy",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9979688505464092
+    },
+    {
+      "adverse_event": "Exposed bone in jaw",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.0076631855769533
+    },
+    {
+      "adverse_event": "Expanded disability status scale score increased",
+      "n_drugs": 6.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.1946218090033174
+    },
+    {
+      "adverse_event": "Exophthalmos",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6798270632152977
+    },
+    {
+      "adverse_event": "Immunosuppression",
+      "n_drugs": 16.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.7579164704159855
+    },
+    {
+      "adverse_event": "Excessive eye blinking",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9539768283324268
+    },
+    {
+      "adverse_event": "Endodontic procedure",
+      "n_drugs": 4.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6801886908175876
+    },
+    {
+      "adverse_event": "Gastrointestinal obstruction",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.6516619169027006
+    },
+    {
+      "adverse_event": "Gingival pain",
+      "n_drugs": 34.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.7153435888714572
+    },
+    {
+      "adverse_event": "Implant site pain",
+      "n_drugs": 5.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 1.8522961949047665
+    },
+    {
+      "adverse_event": "Episcleritis",
+      "n_drugs": 3.0,
+      "pct_female": 0.0,
+      "mean_abs_lr": 0.9827406095745829
+    },
+    {
+      "adverse_event": "Skin irritation",
+      "n_drugs": 58.0,
+      "pct_female": 0.017241379310344827,
+      "mean_abs_lr": 1.0161922766901879
+    },
+    {
+      "adverse_event": "Abdominal pain lower",
+      "n_drugs": 91.0,
+      "pct_female": 0.02197802197802198,
+      "mean_abs_lr": 1.0158181877851447
+    },
+    {
+      "adverse_event": "Parosmia",
+      "n_drugs": 37.0,
+      "pct_female": 0.02702702702702703,
+      "mean_abs_lr": 1.5478402618336045
+    },
+    {
+      "adverse_event": "Injection site bruising",
+      "n_drugs": 34.0,
+      "pct_female": 0.029411764705882353,
+      "mean_abs_lr": 0.8538050539954153
+    },
+    {
+      "adverse_event": "Pelvic pain",
+      "n_drugs": 34.0,
+      "pct_female": 0.029411764705882353,
+      "mean_abs_lr": 1.9672384691517049
+    },
+    {
+      "adverse_event": "Oropharyngeal discomfort",
+      "n_drugs": 33.0,
+      "pct_female": 0.030303030303030304,
+      "mean_abs_lr": 1.0098291726726543
+    },
+    {
+      "adverse_event": "Ocular discomfort",
+      "n_drugs": 31.0,
+      "pct_female": 0.03225806451612903,
+      "mean_abs_lr": 0.9308869063705398
+    },
+    {
+      "adverse_event": "Injection site rash",
+      "n_drugs": 29.0,
+      "pct_female": 0.034482758620689655,
+      "mean_abs_lr": 0.8771444023285276
+    },
+    {
+      "adverse_event": "Spinal fracture",
+      "n_drugs": 52.0,
+      "pct_female": 0.038461538461538464,
+      "mean_abs_lr": 0.8727883865691405
+    },
+    {
+      "adverse_event": "Decreased immune responsiveness",
+      "n_drugs": 26.0,
+      "pct_female": 0.038461538461538464,
+      "mean_abs_lr": 0.7995918799800789
+    },
+    {
+      "adverse_event": "Dermatitis contact",
+      "n_drugs": 25.0,
+      "pct_female": 0.04,
+      "mean_abs_lr": 0.9943090242007608
+    },
+    {
+      "adverse_event": "Skin hyperpigmentation",
+      "n_drugs": 24.0,
+      "pct_female": 0.041666666666666664,
+      "mean_abs_lr": 1.2711322162919292
+    },
+    {
+      "adverse_event": "Optic neuritis",
+      "n_drugs": 23.0,
+      "pct_female": 0.043478260869565216,
+      "mean_abs_lr": 0.9078580603533901
+    },
+    {
+      "adverse_event": "Scar",
+      "n_drugs": 44.0,
+      "pct_female": 0.045454545454545456,
+      "mean_abs_lr": 0.8008463155246507
+    },
+    {
+      "adverse_event": "Impaired quality of life",
+      "n_drugs": 60.0,
+      "pct_female": 0.05,
+      "mean_abs_lr": 1.2229799175350409
+    },
+    {
+      "adverse_event": "Dry throat",
+      "n_drugs": 19.0,
+      "pct_female": 0.05263157894736842,
+      "mean_abs_lr": 0.7022496169291603
+    },
+    {
+      "adverse_event": "Injection site swelling",
+      "n_drugs": 37.0,
+      "pct_female": 0.05405405405405406,
+      "mean_abs_lr": 0.9855456231865073
+    },
+    {
+      "adverse_event": "Skin burning sensation",
+      "n_drugs": 73.0,
+      "pct_female": 0.0547945205479452,
+      "mean_abs_lr": 0.9153630652703989
+    },
+    {
+      "adverse_event": "Onychoclasis",
+      "n_drugs": 18.0,
+      "pct_female": 0.05555555555555555,
+      "mean_abs_lr": 1.5425133879049644
+    },
+    {
+      "adverse_event": "Sensitivity to weather change",
+      "n_drugs": 17.0,
+      "pct_female": 0.058823529411764705,
+      "mean_abs_lr": 0.9655467771304134
+    },
+    {
+      "adverse_event": "Product adhesion issue",
+      "n_drugs": 17.0,
+      "pct_female": 0.058823529411764705,
+      "mean_abs_lr": 0.9156198565018414
+    },
+    {
+      "adverse_event": "Foreign body sensation in eyes",
+      "n_drugs": 17.0,
+      "pct_female": 0.058823529411764705,
+      "mean_abs_lr": 0.742888190331121
+    },
+    {
+      "adverse_event": "Alanine aminotransferase abnormal",
+      "n_drugs": 17.0,
+      "pct_female": 0.058823529411764705,
+      "mean_abs_lr": 1.2288418087004567
+    },
+    {
+      "adverse_event": "Neoplasm progression",
+      "n_drugs": 66.0,
+      "pct_female": 0.06060606060606061,
+      "mean_abs_lr": 0.9331156982832447
+    },
+    {
+      "adverse_event": "Incorrect route of drug administration",
+      "n_drugs": 16.0,
+      "pct_female": 0.0625,
+      "mean_abs_lr": 0.814981725017572
+    },
+    {
+      "adverse_event": "Product dose omission in error",
+      "n_drugs": 16.0,
+      "pct_female": 0.0625,
+      "mean_abs_lr": 0.7267463257803344
+    },
+    {
+      "adverse_event": "Formication",
+      "n_drugs": 16.0,
+      "pct_female": 0.0625,
+      "mean_abs_lr": 0.7663467851901821
+    },
+    {
+      "adverse_event": "Exposure during breast feeding",
+      "n_drugs": 16.0,
+      "pct_female": 0.0625,
+      "mean_abs_lr": 1.2592253711196806
+    },
+    {
+      "adverse_event": "Burns second degree",
+      "n_drugs": 31.0,
+      "pct_female": 0.06451612903225806,
+      "mean_abs_lr": 1.778258850136992
+    },
+    {
+      "adverse_event": "Extrasystoles",
+      "n_drugs": 15.0,
+      "pct_female": 0.06666666666666667,
+      "mean_abs_lr": 0.83046445568184
+    },
+    {
+      "adverse_event": "Nasal disorder",
+      "n_drugs": 15.0,
+      "pct_female": 0.06666666666666667,
+      "mean_abs_lr": 1.0209853212466908
+    },
+    {
+      "adverse_event": "Injection site pruritus",
+      "n_drugs": 30.0,
+      "pct_female": 0.06666666666666667,
+      "mean_abs_lr": 0.8747121380314243
+    },
+    {
+      "adverse_event": "Mouth swelling",
+      "n_drugs": 15.0,
+      "pct_female": 0.06666666666666667,
+      "mean_abs_lr": 0.8693049915039573
+    },
+    {
+      "adverse_event": "Lipodystrophy acquired",
+      "n_drugs": 15.0,
+      "pct_female": 0.06666666666666667,
+      "mean_abs_lr": 1.2395840024124898
+    },
+    {
+      "adverse_event": "Tearfulness",
+      "n_drugs": 15.0,
+      "pct_female": 0.06666666666666667,
+      "mean_abs_lr": 1.476933813015968
+    },
+    {
+      "adverse_event": "Caesarean section",
+      "n_drugs": 14.0,
+      "pct_female": 0.07142857142857142,
+      "mean_abs_lr": 1.5085067729625925
+    },
+    {
+      "adverse_event": "Multiple sclerosis relapse",
+      "n_drugs": 27.0,
+      "pct_female": 0.07407407407407407,
+      "mean_abs_lr": 0.8862964617523171
+    },
+    {
+      "adverse_event": "Injection site erythema",
+      "n_drugs": 66.0,
+      "pct_female": 0.07575757575757576,
+      "mean_abs_lr": 0.8539223898733425
+    },
+    {
+      "adverse_event": "Therapeutic product ineffective",
+      "n_drugs": 13.0,
+      "pct_female": 0.07692307692307693,
+      "mean_abs_lr": 0.732847665050962
+    },
+    {
+      "adverse_event": "Injection site induration",
+      "n_drugs": 13.0,
+      "pct_female": 0.07692307692307693,
+      "mean_abs_lr": 0.8409164300389654
+    },
+    {
+      "adverse_event": "Mite allergy",
+      "n_drugs": 13.0,
+      "pct_female": 0.07692307692307693,
+      "mean_abs_lr": 1.5033854550687424
+    },
+    {
+      "adverse_event": "Forced expiratory volume decreased",
+      "n_drugs": 26.0,
+      "pct_female": 0.07692307692307693,
+      "mean_abs_lr": 1.5105410734551286
+    },
+    {
+      "adverse_event": "Acne",
+      "n_drugs": 103.0,
+      "pct_female": 0.07766990291262135,
+      "mean_abs_lr": 1.0540216556840396
+    },
+    {
+      "adverse_event": "Spinal pain",
+      "n_drugs": 37.0,
+      "pct_female": 0.08108108108108109,
+      "mean_abs_lr": 0.7861370348965376
+    },
+    {
+      "adverse_event": "Rash papular",
+      "n_drugs": 61.0,
+      "pct_female": 0.08196721311475409,
+      "mean_abs_lr": 0.883713291726474
+    },
+    {
+      "adverse_event": "Respiratory symptom",
+      "n_drugs": 24.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 1.341677594723224
+    },
+    {
+      "adverse_event": "Gastrointestinal infection",
+      "n_drugs": 24.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 0.9515324234490449
+    },
+    {
+      "adverse_event": "Lung hyperinflation",
+      "n_drugs": 12.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 0.8121097598846584
+    },
+    {
+      "adverse_event": "Breast pain",
+      "n_drugs": 12.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 1.417281444443441
+    },
+    {
+      "adverse_event": "Facial paresis",
+      "n_drugs": 12.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 1.107478255178502
+    },
+    {
+      "adverse_event": "Meningioma",
+      "n_drugs": 12.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 1.5018639824737112
+    },
+    {
+      "adverse_event": "Dust allergy",
+      "n_drugs": 12.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 1.7680956559950927
+    },
+    {
+      "adverse_event": "Pharyngeal swelling",
+      "n_drugs": 12.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 0.7875035696735436
+    },
+    {
+      "adverse_event": "Tendon pain",
+      "n_drugs": 12.0,
+      "pct_female": 0.08333333333333333,
+      "mean_abs_lr": 0.8494031889035233
+    },
+    {
+      "adverse_event": "Rhinitis",
+      "n_drugs": 47.0,
+      "pct_female": 0.0851063829787234,
+      "mean_abs_lr": 1.246191775098288
+    },
+    {
+      "adverse_event": "Impaired driving ability",
+      "n_drugs": 34.0,
+      "pct_female": 0.08823529411764706,
+      "mean_abs_lr": 0.7999644033708004
+    },
+    {
+      "adverse_event": "Hair colour changes",
+      "n_drugs": 11.0,
+      "pct_female": 0.09090909090909091,
+      "mean_abs_lr": 1.1246490157307343
+    },
+    {
+      "adverse_event": "Post procedural infection",
+      "n_drugs": 11.0,
+      "pct_female": 0.09090909090909091,
+      "mean_abs_lr": 0.7043291095382515
+    },
+    {
+      "adverse_event": "Anosmia",
+      "n_drugs": 22.0,
+      "pct_female": 0.09090909090909091,
+      "mean_abs_lr": 0.8415849190328537
+    },
+    {
+      "adverse_event": "Fungal skin infection",
+      "n_drugs": 11.0,
+      "pct_female": 0.09090909090909091,
+      "mean_abs_lr": 0.8124116445377136
+    },
+    {
+      "adverse_event": "Skin mass",
+      "n_drugs": 21.0,
+      "pct_female": 0.09523809523809523,
+      "mean_abs_lr": 1.1643196526814972
+    },
+    {
+      "adverse_event": "Spinal operation",
+      "n_drugs": 21.0,
+      "pct_female": 0.09523809523809523,
+      "mean_abs_lr": 0.6691662593445005
+    },
+    {
+      "adverse_event": "Generalised erythema",
+      "n_drugs": 21.0,
+      "pct_female": 0.09523809523809523,
+      "mean_abs_lr": 1.1022573248227474
+    },
+    {
+      "adverse_event": "Tooth fracture",
+      "n_drugs": 31.0,
+      "pct_female": 0.0967741935483871,
+      "mean_abs_lr": 1.0457696458688885
+    },
+    {
+      "adverse_event": "Femur fracture",
+      "n_drugs": 61.0,
+      "pct_female": 0.09836065573770492,
+      "mean_abs_lr": 0.9860178192837805
+    }
+  ],
+  "chameleon_aes": [
+    {
+      "adverse_event": "Abdominal adhesions",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Abdominal tenderness",
+      "n_drugs": 16.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Abscess limb",
+      "n_drugs": 10.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Accidental overdose",
+      "n_drugs": 76.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Actinic keratosis",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Adjustment disorder",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Adrenocortical insufficiency acute",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Alcohol interaction",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Alcoholism",
+      "n_drugs": 10.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Anorectal discomfort",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Antiphospholipid syndrome",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Application site haemorrhage",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Application site inflammation",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Arteriospasm coronary",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Asphyxia",
+      "n_drugs": 40.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Aspirin-exacerbated respiratory disease",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Bacterial test positive",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Bicytopenia",
+      "n_drugs": 8.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Bile duct obstruction",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Blood fibrinogen decreased",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Blood immunoglobulin E increased",
+      "n_drugs": 16.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Blood phosphorus decreased",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Blood sodium increased",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Breakthrough pain",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Bronchiolitis obliterans syndrome",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Cardiotoxicity",
+      "n_drugs": 28.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Carotid artery stenosis",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Central nervous system infection",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Coarctation of the aorta",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Craniocerebral injury",
+      "n_drugs": 8.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Demyelination",
+      "n_drugs": 10.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Derealisation",
+      "n_drugs": 8.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Drug dose omission by device",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Drug level below therapeutic",
+      "n_drugs": 8.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Eosinophil count abnormal",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Epstein-Barr virus associated lymphoma",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Eye injury",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Faeces hard",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Fistula",
+      "n_drugs": 16.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Foot operation",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Gastric polyps",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Gastritis erosive",
+      "n_drugs": 8.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Gastritis haemorrhagic",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Gastrointestinal ulcer",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Gastrointestinal wall thickening",
+      "n_drugs": 6.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Glioblastoma multiforme",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Heart valve replacement",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Hepatitis toxic",
+      "n_drugs": 4.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Herpes simplex",
+      "n_drugs": 18.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    },
+    {
+      "adverse_event": "Hypokinesia",
+      "n_drugs": 48.0,
+      "pct_female": 0.5,
+      "flip_score": 0.0
+    }
+  ]
+}
