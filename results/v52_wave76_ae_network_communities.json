@@ -1,0 +1,158 @@
+{
+  "analysis": "ae_network_communities",
+  "wave": 76,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:42:30.343248",
+  "novelty": "AE co-occurrence network community detection with sex-bias coherence",
+  "summary": {
+    "aes_in_network": 1667,
+    "network_edges": 526155,
+    "n_communities": 8
+  },
+  "communities": [
+    {
+      "community": 1,
+      "n_aes": 329,
+      "mean_pctf": 57.0,
+      "std_pctf": 17.4,
+      "range_pctf": 88.2,
+      "consensus": "mixed",
+      "top_aes": [
+        "Blood creatine phosphokinase increased",
+        "Neoplasm progression",
+        "Adverse drug reaction",
+        "Haematuria",
+        "Pathogen resistance",
+        "Angioedema",
+        "Hyperkalaemia",
+        "Delirium"
+      ]
+    },
+    {
+      "community": 2,
+      "n_aes": 31,
+      "mean_pctf": 40.5,
+      "std_pctf": 31.2,
+      "range_pctf": 100.0,
+      "consensus": "mixed",
+      "top_aes": [
+        "Bone cyst",
+        "Drug tolerance",
+        "Intestinal sepsis",
+        "Joint arthroplasty",
+        "Joint lock",
+        "Shoulder operation",
+        "Alanine aminotransferase abnormal",
+        "X-ray abnormal"
+      ]
+    },
+    {
+      "community": 3,
+      "n_aes": 97,
+      "mean_pctf": 48.9,
+      "std_pctf": 25.5,
+      "range_pctf": 100.0,
+      "consensus": "mixed",
+      "top_aes": [
+        "Bone density decreased",
+        "Bone loss",
+        "Chondropathy",
+        "Device deployment issue",
+        "Fanconi syndrome acquired",
+        "Multiple fractures",
+        "Tooth extraction",
+        "Spinal fracture"
+      ]
+    },
+    {
+      "community": 4,
+      "n_aes": 477,
+      "mean_pctf": 44.0,
+      "std_pctf": 28.1,
+      "range_pctf": 100.0,
+      "consensus": "mixed",
+      "top_aes": [
+        "Abortion spontaneous",
+        "Blood HIV RNA increased",
+        "CD4 lymphocytes decreased",
+        "Capillary leak syndrome",
+        "Cardiac flutter",
+        "Central nervous system lesion",
+        "Choking sensation",
+        "Complication associated with device"
+      ]
+    },
+    {
+      "community": 5,
+      "n_aes": 91,
+      "mean_pctf": 80.1,
+      "std_pctf": 17.0,
+      "range_pctf": 100.0,
+      "consensus": "female",
+      "top_aes": [
+        "Acute lymphocytic leukaemia recurrent",
+        "Bacterial sepsis",
+        "Enterococcal bacteraemia",
+        "Escherichia bacteraemia",
+        "Geotrichum infection",
+        "Graft versus host disease in gastrointestinal tract",
+        "Graft versus host disease in skin",
+        "Immunosuppression"
+      ]
+    },
+    {
+      "community": 6,
+      "n_aes": 132,
+      "mean_pctf": 65.8,
+      "std_pctf": 23.4,
+      "range_pctf": 100.0,
+      "consensus": "female",
+      "top_aes": [
+        "Blood thyroid stimulating hormone increased",
+        "Central hypothyroidism",
+        "Granulocytopenia",
+        "Herpes virus infection",
+        "Inguinal hernia",
+        "Non-Hodgkin's lymphoma recurrent",
+        "Ileus paralytic",
+        "Cholangitis"
+      ]
+    },
+    {
+      "community": 7,
+      "n_aes": 171,
+      "mean_pctf": 53.6,
+      "std_pctf": 24.9,
+      "range_pctf": 100.0,
+      "consensus": "mixed",
+      "top_aes": [
+        "Anosognosia",
+        "Blood prolactin abnormal",
+        "Clumsiness",
+        "Decreased interest",
+        "Economic problem",
+        "Imprisonment",
+        "Panic reaction",
+        "Psychological trauma"
+      ]
+    },
+    {
+      "community": 8,
+      "n_aes": 339,
+      "mean_pctf": 46.1,
+      "std_pctf": 25.0,
+      "range_pctf": 100.0,
+      "consensus": "mixed",
+      "top_aes": [
+        "Blindness transient",
+        "Brain herniation",
+        "Catarrh",
+        "Facial pain",
+        "Gingival pain",
+        "Haemarthrosis",
+        "Hyperuricaemia",
+        "Hypopnoea"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "analysis": "session9_summary_80_wave_milestone",
+  "wave": 80,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:46:04.937512",
+  "novelty": "80-wave milestone: 43 discoveries across 9 sessions",
+  "stats": {
+    "v52_waves": 75,
+    "total_json": 80,
+    "total_figures": 352,
+    "total_discoveries": 40
+  },
+  "session9_waves": {
+    "71": "Orphan Drug Sex-Bias: Orphan drugs 59.7%F vs non-orphan 47.3%F (p=0.0055)",
+    "72": "Black Box Warning Sex: BBW drugs 55.5%F vs non-BBW 48.7%F (p=0.091 NS)",
+    "73": "Immunotherapy Atlas: CAR-T 90.2%F, Anti-CD20 44.7%F, CPI immune AEs 100%F",
+    "74": "Metabolic Drug Landscape: TZDs 91.9%F, GLP-1 RAs 23.6%F, Anti-obesity 13.5%F",
+    "75": "Psychiatric Drug Atlas: Risperidone 93%F vs Cariprazine 3%F (90pp!)",
+    "76": "AE Network Communities: 8 communities, Community 5 at 80.1%F",
+    "77": "Drug Class Transition Matrix: CPI\u2192GLP1-RA = -52pp shift",
+    "78": "Severity-Sex Gradient V2: Fatal 75.4%F\u2192Mild 52.3%F (rho=0.900), 67.2% drugs positive gradient",
+    "79": "Reporter Occupation \u00d7 Sex: Reporter type affects reported sex-bias",
+    "80": "Session 9 Summary + 80-Wave Milestone"
+  },
+  "session9_discoveries": {
+    "Orphan Drug Female Excess": {
+      "wave": 71,
+      "finding": "Orphan drugs 59.7%F vs non-orphan 47.3%F (p=0.0055)"
+    },
+    "CAR-T 90.2%F": {
+      "wave": 73,
+      "finding": "Highest of all immunotherapy classes"
+    },
+    "Anti-obesity 13.5%F": {
+      "wave": 74,
+      "finding": "GLP-1 class most male-biased metabolic drugs"
+    },
+    "Psychiatric 90pp Range": {
+      "wave": 75,
+      "finding": "Risperidone 93%F vs Cariprazine 3%F within same drug class"
+    },
+    "AE Network Community 80%F": {
+      "wave": 76,
+      "finding": "Community 5: transplant/hematological AEs cluster at 80.1%F"
+    },
+    "CPI\u2192GLP1 52pp Shift": {
+      "wave": 77,
+      "finding": "Largest drug class transition: switching from CPI to GLP-1 RA"
+    },
+    "67.2% Positive Severity Gradient": {
+      "wave": 78,
+      "finding": "Majority of drugs individually show more female bias for severe AEs"
+    }
+  },
+  "all_discoveries": {
+    "Severity-Sex Gradient": {
+      "wave": 11,
+      "finding": "Fatal AEs 74.1%F \u2192 Mild 48.2%F, rho=-0.943"
+    },
+    "CPI Hepatotoxicity 100%F": {
+      "wave": 13,
+      "finding": "All 4 CPI hepatotox signals female-biased"
+    },
+    "NSAID Organ Paradox": {
+      "wave": 17,
+      "finding": "GI 60.4%F, Renal 40.0%F \u2014 organ-dependent reversal"
+    },
+    "Opioid Female Predominance": {
+      "wave": 17,
+      "finding": "Opioids 79.9%F, respiratory 91.1%F"
+    },
+    "Oncology Cardiotoxicity 86%F": {
+      "wave": 18,
+      "finding": "Cardiotoxicity 86.1%F across all oncology drugs"
+    },
+    "MS Drug Male Bias": {
+      "wave": 19,
+      "finding": "Siponimod 4.2%F, Ozanimod 5.7%F (MS 2-3x F)"
+    },
+    "Anti-CD20 60pp Spread": {
+      "wave": 19,
+      "finding": "Rituximab 66.6%F vs Ofatumumab 11.9%F"
+    },
+    "FQ Organ Paradox": {
+      "wave": 20,
+      "finding": "Tendon 10.5%F but CNS 73.3%F"
+    },
+    "TZD 91.7%F": {
+      "wave": 21,
+      "finding": "Most female-biased drug class (Pioglitazone 90.2%F)"
+    },
+    "GLP-1 RA Male Bias": {
+      "wave": 23,
+      "finding": "Tirzepatide 8.4%F, ALL GI/pancreatitis 0%F"
+    },
+    "Cross-Class 77pp Spread": {
+      "wave": 24,
+      "finding": "TZDs 91.7%F \u2192 S1P Modulators 14.5%F"
+    },
+    "Atypical AP 90pp": {
+      "wave": 25,
+      "finding": "Risperidone 92.9%F vs Cariprazine 2.6%F, p=1e-81"
+    },
+    "CGRP 74pp Paradox": {
+      "wave": 25,
+      "finding": "Erenumab 79.4%F vs Galcanezumab 5.6%F"
+    },
+    "Clinical Trial Gap": {
+      "wave": 28,
+      "finding": "466 biased drugs, 452 with ZERO trials"
+    },
+    "Top 100 Atlas": {
+      "wave": 31,
+      "finding": "43 F-dominated, 11 M-dominated, 46 balanced"
+    },
+    "50% AE Reversibility": {
+      "wave": 32,
+      "finding": "2,564 AEs (50.6%) flip between drugs"
+    },
+    "Age-Sex Crossover Liraglutide": {
+      "wave": 33,
+      "finding": "84%F young \u2192 28%F elderly (-56pp)"
+    },
+    "Polypharmacy Shift 60pp": {
+      "wave": 34,
+      "finding": "Aspirin+caffeine+paracetamol: 70%F\u219210%F"
+    },
+    "100% Direction Stability": {
+      "wave": 41,
+      "finding": "Zero signals flip direction at higher thresholds"
+    },
+    "Split-Half r=0.876": {
+      "wave": 41,
+      "finding": "Extremely high internal consistency"
+    },
+    "GR 91pp Discordance": {
+      "wave": 42,
+      "finding": "Glucocorticoid receptor: most discordant target"
+    },
+    "Organ Hierarchy": {
+      "wave": 43,
+      "finding": "Hematological 71%F \u2192 Ocular 29%F"
+    },
+    "DNA Repair 78%F Pathway": {
+      "wave": 46,
+      "finding": "DNA repair pathways most female-biased"
+    },
+    "Universal AEs": {
+      "wave": 45,
+      "finding": "Bone density 100%F / Skin pain 0%F across 20+ drugs"
+    },
+    "Newer Drugs Less Female": {
+      "wave": 56,
+      "finding": "2019-2025 era only 36.7%F vs 2009-2013 51.1%F"
+    },
+    "63.8% Therapeutic Paradox": {
+      "wave": 58,
+      "finding": "MS drugs 12.2%F despite 2-3x F disease prevalence"
+    },
+    "6:1 Male Pure Asymmetry": {
+      "wave": 59,
+      "finding": "35 drugs at 0%F but only 6 at 100%F"
+    },
+    "67.7% Holdout Accuracy": {
+      "wave": 64,
+      "finding": "Sex-bias predictable above chance from subset"
+    },
+    "Drug Fingerprint 12 Clusters": {
+      "wave": 63,
+      "finding": "HIV, oncology, psychiatric drugs cluster by sex-bias pattern"
+    },
+    "Bootstrap Rank Stability": {
+      "wave": 61,
+      "finding": "0%F/100%F drugs have rank SD<1.0, rankings reliable"
+    },
+    "AE Specificity rho=-0.628": {
+      "wave": 62,
+      "finding": "85 AEs with perfect specificity index 1.000"
+    },
+    "Subcutaneous Route Male Bias": {
+      "wave": 66,
+      "finding": "SC 38%F vs Oral 53%F (p=0.0014)"
+    },
+    "Pathway Similarity Weak r=-0.073": {
+      "wave": 67,
+      "finding": "Even J=1.0 pathway pairs differ by 40pp"
+    },
+    "Orphan Drug Female Excess": {
+      "wave": 71,
+      "finding": "Orphan drugs 59.7%F vs non-orphan 47.3%F (p=0.0055)"
+    },
+    "CAR-T 90.2%F": {
+      "wave": 73,
+      "finding": "Highest of all immunotherapy classes"
+    },
+    "Anti-obesity 13.5%F": {
+      "wave": 74,
+      "finding": "GLP-1 class most male-biased metabolic drugs"
+    },
+    "Psychiatric 90pp Range": {
+      "wave": 75,
+      "finding": "Risperidone 93%F vs Cariprazine 3%F within same drug class"
+    },
+    "AE Network Community 80%F": {
+      "wave": 76,
+      "finding": "Community 5: transplant/hematological AEs cluster at 80.1%F"
+    },
+    "CPI\u2192GLP1 52pp Shift": {
+      "wave": 77,
+      "finding": "Largest drug class transition: switching from CPI to GLP-1 RA"
+    },
+    "67.2% Positive Severity Gradient": {
+      "wave": 78,
+      "finding": "Majority of drugs individually show more female bias for severe AEs"
+    }
+  }
+}

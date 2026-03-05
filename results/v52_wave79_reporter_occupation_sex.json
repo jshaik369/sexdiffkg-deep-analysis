@@ -1,0 +1,75 @@
+{
+  "analysis": "reporter_occupation_sex_bias",
+  "wave": 79,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:45:55.454833",
+  "novelty": "Reporter occupation (MD/PH/CN) systematically affects reported sex-bias",
+  "base_sex_distribution": [
+    {
+      "occupation": "Consumer",
+      "F": 4950441,
+      "M": 2909122,
+      "pct_female": 62.9862118288256
+    },
+    {
+      "occupation": "Lawyer",
+      "F": 181667,
+      "M": 205357,
+      "pct_female": 46.939466286328496
+    },
+    {
+      "occupation": "Other_HP",
+      "F": 1919718,
+      "M": 1314632,
+      "pct_female": 59.35405877533353
+    },
+    {
+      "occupation": "Pharmacist",
+      "F": 550628,
+      "M": 454584,
+      "pct_female": 54.77730070870622
+    },
+    {
+      "occupation": "Physician",
+      "F": 2152628,
+      "M": 1587971,
+      "pct_female": 57.547681534428044
+    },
+    {
+      "occupation": "Unknown",
+      "F": 325766,
+      "M": 189181,
+      "pct_female": 63.26204444340874
+    }
+  ],
+  "drug_ae_by_reporter": [
+    {
+      "occupation": "Physician",
+      "n_reports": 11888457,
+      "n_drug_ae_pairs": 67279,
+      "mean_pctf": 60.8,
+      "median_pctf": 63.6
+    },
+    {
+      "occupation": "Pharmacist",
+      "n_reports": 845331,
+      "n_drug_ae_pairs": 13974,
+      "mean_pctf": 56.0,
+      "median_pctf": 56.8
+    },
+    {
+      "occupation": "Consumer",
+      "n_reports": 8466875,
+      "n_drug_ae_pairs": 58036,
+      "mean_pctf": 67.5,
+      "median_pctf": 71.3
+    },
+    {
+      "occupation": "Other_HP",
+      "n_reports": 26591135,
+      "n_drug_ae_pairs": 65975,
+      "mean_pctf": 63.5,
+      "median_pctf": 67.5
+    }
+  ]
+}

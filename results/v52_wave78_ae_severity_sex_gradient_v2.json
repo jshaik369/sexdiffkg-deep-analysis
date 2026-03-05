@@ -1,0 +1,245 @@
+{
+  "analysis": "ae_severity_sex_gradient_v2",
+  "wave": 78,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:42:38.195499",
+  "novelty": "5-tier severity gradient with per-drug rho analysis",
+  "summary": {
+    "overall_rho": 0.9,
+    "overall_p": 0.037386,
+    "n_drugs_multi_tier": 869,
+    "pct_positive_gradient": 67.2,
+    "mean_drug_rho": 0.235
+  },
+  "tier_bias": [
+    {
+      "severity_tier": 5,
+      "severity_label": "Fatal",
+      "pct_female": 75.44180377818404,
+      "n_signals": 1641,
+      "mean_lr": 0.37631997051590865,
+      "n_drugs": 812,
+      "n_aes": 13
+    },
+    {
+      "severity_tier": 4,
+      "severity_label": "Life-threatening",
+      "pct_female": 61.50735294117647,
+      "n_signals": 2720,
+      "mean_lr": 0.16471563506132536,
+      "n_drugs": 922,
+      "n_aes": 26
+    },
+    {
+      "severity_tier": 3,
+      "severity_label": "Hospitalization",
+      "pct_female": 64.66703357182169,
+      "n_signals": 3634,
+      "mean_lr": 0.2505395785234788,
+      "n_drugs": 1127,
+      "n_aes": 29
+    },
+    {
+      "severity_tier": 2,
+      "severity_label": "Significant",
+      "pct_female": 56.7021873247336,
+      "n_signals": 7132,
+      "mean_lr": 0.15631332839669826,
+      "n_drugs": 1486,
+      "n_aes": 30
+    },
+    {
+      "severity_tier": 1,
+      "severity_label": "Mild",
+      "pct_female": 52.32767331246766,
+      "n_signals": 81154,
+      "mean_lr": 0.07623963898102629,
+      "n_drugs": 2027,
+      "n_aes": 4971
+    }
+  ],
+  "top_positive_gradient_drugs": [
+    {
+      "drug": "EVEROLIMUS",
+      "rho": 1.0,
+      "p": 0.0,
+      "n_tiers": 4
+    },
+    {
+      "drug": "CICLOSPORIN",
+      "rho": 1.0,
+      "p": 1.4042654220543672e-24,
+      "n_tiers": 5
+    },
+    {
+      "drug": "BOSENTAN",
+      "rho": 1.0,
+      "p": 1.4042654220543672e-24,
+      "n_tiers": 5
+    },
+    {
+      "drug": "TERBINAFINE",
+      "rho": 1.0,
+      "p": 0.0,
+      "n_tiers": 4
+    },
+    {
+      "drug": "OFLOXACIN",
+      "rho": 1.0,
+      "p": 0.0,
+      "n_tiers": 4
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "rho": 1.0,
+      "p": 1.4042654220543672e-24,
+      "n_tiers": 5
+    },
+    {
+      "drug": "TORASEMIDE",
+      "rho": 1.0,
+      "p": 1.4042654220543672e-24,
+      "n_tiers": 5
+    },
+    {
+      "drug": "CARBAMAZEPINE",
+      "rho": 0.975,
+      "p": 0.004818230468198537,
+      "n_tiers": 5
+    },
+    {
+      "drug": "TRAMETINIB",
+      "rho": 0.975,
+      "p": 0.004818230468198537,
+      "n_tiers": 5
+    },
+    {
+      "drug": "ENALAPRIL",
+      "rho": 0.975,
+      "p": 0.004818230468198537,
+      "n_tiers": 5
+    },
+    {
+      "drug": "BISOPROLOL FUMARATE",
+      "rho": 0.975,
+      "p": 0.004818230468198537,
+      "n_tiers": 5
+    },
+    {
+      "drug": "DUPILUMAB",
+      "rho": 0.975,
+      "p": 0.004818230468198537,
+      "n_tiers": 5
+    },
+    {
+      "drug": "KETOROLAC",
+      "rho": 0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "BILASTINE",
+      "rho": 0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "CANDESARTAN CILEXETIL",
+      "rho": 0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    }
+  ],
+  "top_negative_gradient_drugs": [
+    {
+      "drug": "VITAMIN B9",
+      "rho": -0.9,
+      "p": 0.03738607346849874,
+      "n_tiers": 5
+    },
+    {
+      "drug": "SENNA SPP",
+      "rho": -0.9,
+      "p": 0.03738607346849874,
+      "n_tiers": 5
+    },
+    {
+      "drug": "SARILUMAB",
+      "rho": -0.9,
+      "p": 0.03738607346849874,
+      "n_tiers": 5
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "rho": -0.9,
+      "p": 0.03738607346849874,
+      "n_tiers": 5
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "rho": -0.9,
+      "p": 0.03738607346849874,
+      "n_tiers": 5
+    },
+    {
+      "drug": "GLIPIZIDE",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "ACARBOSE",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "SUMATRIPTAN",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "BIMATOPROST",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "OLODATEROL;TIOTROPIUM",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "CYPROHEPTADINE",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "NADOLOL",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "LABETALOL",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "TRIPTORELIN",
+      "rho": -0.949,
+      "p": 0.05131670194948612,
+      "n_tiers": 4
+    },
+    {
+      "drug": "PIROXICAM",
+      "rho": -1.0,
+      "p": 0.0,
+      "n_tiers": 4
+    }
+  ]
+}
