@@ -25,7 +25,7 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 - **246,056 nodes** (16 entity types) / **3,182,843 edges** (18 relation types)
 - All v4 unique triples preserved (1,532,674, 100%)
 - 1,650,169 new edges from VEDA (disease, clinical trial, Ayurvedic, compound data)
-- ComplEx v5 embeddings: training in progress
+- ComplEx v5: training COMPLETE (100ep, 2h42m, loss 0.049), evaluation running
 
 ## Audit-Proof Verification
 
@@ -39,13 +39,13 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 
 ## Derived KG Projects
 
-| Project | Nodes | Edges | Focus |
-|---------|-------|-------|-------|
-| REPRODUCT-KG | 22,403 | 1,116,735 | Pregnancy drug safety |
-| MENTALHEALTH-KG | 20,851 | 762,389 | Psychiatric drug safety |
-| GERIPHARM-KG | 18,754 | 739,396 | Elderly drug safety |
-| PCOS-ENDO-KG | 36,903 | 697,819 | PCOS/endometriosis + GLP-1 |
-| AYUR-PHARMA-KG | 24,316 | 293,444 | Ayurvedic pharmacovigilance |
+| Project | Nodes | Edges | Focus | Embeddings |
+|---------|-------|-------|-------|------------|
+| REPRODUCT-KG | 22,403 | 1,116,735 | Pregnancy drug safety | **MRR 0.163** |
+| MENTALHEALTH-KG | 20,851 | 762,389 | Psychiatric drug safety | **MRR 0.128** |
+| GERIPHARM-KG | 18,754 | 739,396 | Elderly drug safety | **MRR 0.144** |
+| PCOS-ENDO-KG | 36,903 | 697,819 | PCOS/endometriosis + GLP-1 | training... |
+| AYUR-PHARMA-KG | 24,316 | 293,444 | Ayurvedic pharmacovigilance | queued |
 
 ## Ten Major Findings
 
