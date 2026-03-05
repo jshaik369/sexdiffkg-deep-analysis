@@ -1,0 +1,115 @@
+{
+  "analysis": "50_wave_milestone_summary",
+  "wave": 50,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:14:56.716198",
+  "novelty": "50-wave milestone: comprehensive sex-differential drug safety atlas",
+  "stats": {
+    "v52_waves": 46,
+    "total_json": 51,
+    "total_figures": 327,
+    "total_discoveries": 25
+  },
+  "discoveries": {
+    "Severity-Sex Gradient": {
+      "wave": 11,
+      "finding": "Fatal AEs 74.1%F \u2192 Mild 48.2%F, rho=-0.943"
+    },
+    "CPI Hepatotoxicity 100%F": {
+      "wave": 13,
+      "finding": "All 4 CPI hepatotox signals female-biased"
+    },
+    "NSAID Organ Paradox": {
+      "wave": 17,
+      "finding": "GI 60.4%F, Renal 40.0%F \u2014 organ-dependent reversal"
+    },
+    "Opioid Female Predominance": {
+      "wave": 17,
+      "finding": "Opioids 79.9%F, respiratory 91.1%F"
+    },
+    "Oncology Cardiotoxicity 86%F": {
+      "wave": 18,
+      "finding": "Cardiotoxicity 86.1%F across all oncology drugs"
+    },
+    "MS Drug Male Bias": {
+      "wave": 19,
+      "finding": "Siponimod 4.2%F, Ozanimod 5.7%F (MS 2-3x F)"
+    },
+    "Anti-CD20 60pp Spread": {
+      "wave": 19,
+      "finding": "Rituximab 66.6%F vs Ofatumumab 11.9%F"
+    },
+    "FQ Organ Paradox": {
+      "wave": 20,
+      "finding": "Tendon 10.5%F but CNS 73.3%F"
+    },
+    "TZD 91.7%F": {
+      "wave": 21,
+      "finding": "Most female-biased drug class (Pioglitazone 90.2%F)"
+    },
+    "GLP-1 RA Male Bias": {
+      "wave": 23,
+      "finding": "Tirzepatide 8.4%F, ALL GI/pancreatitis 0%F"
+    },
+    "Cross-Class 77pp Spread": {
+      "wave": 24,
+      "finding": "TZDs 91.7%F \u2192 S1P Modulators 14.5%F"
+    },
+    "Atypical AP 90pp": {
+      "wave": 25,
+      "finding": "Risperidone 92.9%F vs Cariprazine 2.6%F, p=1e-81"
+    },
+    "CGRP 74pp Paradox": {
+      "wave": 25,
+      "finding": "Erenumab 79.4%F vs Galcanezumab 5.6%F"
+    },
+    "Clinical Trial Gap": {
+      "wave": 28,
+      "finding": "466 biased drugs, 452 with ZERO trials"
+    },
+    "Top 100 Atlas": {
+      "wave": 31,
+      "finding": "43 F-dominated, 11 M-dominated, 46 balanced"
+    },
+    "50% AE Reversibility": {
+      "wave": 32,
+      "finding": "2,564 AEs (50.6%) flip between drugs"
+    },
+    "Age-Sex Crossover Liraglutide": {
+      "wave": 33,
+      "finding": "84%F young \u2192 28%F elderly (-56pp)"
+    },
+    "Age-Sex Crossover Tirzepatide": {
+      "wave": 33,
+      "finding": "90%F young \u2192 58%F elderly (-33pp)"
+    },
+    "Polypharmacy Shift 60pp": {
+      "wave": 34,
+      "finding": "Aspirin+caffeine+paracetamol: 70%F\u219210%F"
+    },
+    "100% Direction Stability": {
+      "wave": 41,
+      "finding": "Zero signals flip direction at higher thresholds"
+    },
+    "Split-Half r=0.876": {
+      "wave": 41,
+      "finding": "Extremely high internal consistency"
+    },
+    "GR 91pp Discordance": {
+      "wave": 42,
+      "finding": "Glucocorticoid receptor: most discordant target"
+    },
+    "Organ Hierarchy": {
+      "wave": 43,
+      "finding": "Hematological 71%F \u2192 Ocular 29%F"
+    },
+    "DNA Repair 78%F Pathway": {
+      "wave": 46,
+      "finding": "DNA repair pathways most female-biased"
+    },
+    "Universal AEs": {
+      "wave": 45,
+      "finding": "Bone density 100%F / Skin pain 0%F across 20+ drugs"
+    }
+  }
+}

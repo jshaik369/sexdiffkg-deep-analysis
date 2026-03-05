@@ -1,0 +1,853 @@
+{
+  "analysis": "signal_strength_extremes",
+  "wave": 48,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:14:44.556585",
+  "novelty": "Most extreme individual sex-differential signals ranked by strength and support",
+  "top_female": [
+    {
+      "drug_name": "TESTOSTERONE",
+      "adverse_event": "Prostatic disorder",
+      "log_ratio": 8.869498849549007,
+      "n_female": 25,
+      "n_male": 21
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Infusion related reaction",
+      "log_ratio": 5.49607360941596,
+      "n_female": 2523,
+      "n_male": 10
+    },
+    {
+      "drug_name": "CLOZAPINE",
+      "adverse_event": "Gynaecomastia",
+      "log_ratio": 5.447611088396968,
+      "n_female": 11,
+      "n_male": 31
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Pericarditis",
+      "log_ratio": 5.396185812256093,
+      "n_female": 2508,
+      "n_male": 11
+    },
+    {
+      "drug_name": "DUTASTERIDE",
+      "adverse_event": "Product prescribing issue",
+      "log_ratio": 5.088759044734165,
+      "n_female": 120,
+      "n_male": 12
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Blister",
+      "log_ratio": 5.055572366021432,
+      "n_female": 2917,
+      "n_male": 19
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "adverse_event": "Duodenal ulcer perforation",
+      "log_ratio": 4.827950638154627,
+      "n_female": 3339,
+      "n_male": 10
+    },
+    {
+      "drug_name": "GOLIMUMAB",
+      "adverse_event": "Pericarditis",
+      "log_ratio": 4.810226860461381,
+      "n_female": 4061,
+      "n_male": 11
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Impaired healing",
+      "log_ratio": 4.808073222879093,
+      "n_female": 2933,
+      "n_male": 22
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "adverse_event": "Pericarditis",
+      "log_ratio": 4.769659061626444,
+      "n_female": 4069,
+      "n_male": 10
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "adverse_event": "Glossodynia",
+      "log_ratio": 4.744840614648506,
+      "n_female": 6104,
+      "n_male": 14
+    },
+    {
+      "drug_name": "ADALIMUMAB",
+      "adverse_event": "Pemphigus",
+      "log_ratio": 4.742840780858185,
+      "n_female": 6766,
+      "n_male": 16
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "adverse_event": "Helicobacter infection",
+      "log_ratio": 4.707873447732176,
+      "n_female": 3295,
+      "n_male": 12
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "adverse_event": "Prescribed overdose",
+      "log_ratio": 4.559055650143672,
+      "n_female": 1278,
+      "n_male": 12
+    },
+    {
+      "drug_name": "SIROLIMUS",
+      "adverse_event": "Transplant dysfunction",
+      "log_ratio": 4.504688383143007,
+      "n_female": 452,
+      "n_male": 17
+    },
+    {
+      "drug_name": "XANTOFYL",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": 4.489151578939397,
+      "n_female": 362,
+      "n_male": 33
+    },
+    {
+      "drug_name": "VITAMIN B9",
+      "adverse_event": "Pericarditis",
+      "log_ratio": 4.4874408170897215,
+      "n_female": 3491,
+      "n_male": 12
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Wheezing",
+      "log_ratio": 4.462003340046337,
+      "n_female": 1532,
+      "n_male": 18
+    },
+    {
+      "drug_name": "MINOXIDIL",
+      "adverse_event": "Wrong patient received medication",
+      "log_ratio": 4.460326087507845,
+      "n_female": 1460,
+      "n_male": 21
+    },
+    {
+      "drug_name": "SULFASALAZINE",
+      "adverse_event": "Pericarditis",
+      "log_ratio": 4.448979090470586,
+      "n_female": 4104,
+      "n_male": 12
+    },
+    {
+      "drug_name": "CETIRIZINE",
+      "adverse_event": "Hepatic enzyme increased",
+      "log_ratio": 4.432569067188,
+      "n_female": 3847,
+      "n_male": 14
+    },
+    {
+      "drug_name": "SECUKINUMAB",
+      "adverse_event": "Infusion related reaction",
+      "log_ratio": 4.432323886314812,
+      "n_female": 1982,
+      "n_male": 11
+    },
+    {
+      "drug_name": "CETIRIZINE",
+      "adverse_event": "Arthropathy",
+      "log_ratio": 4.410212081234197,
+      "n_female": 4077,
+      "n_male": 11
+    },
+    {
+      "drug_name": "VITAMIN B9",
+      "adverse_event": "Wound",
+      "log_ratio": 4.402479899195807,
+      "n_female": 3728,
+      "n_male": 12
+    },
+    {
+      "drug_name": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "adverse_event": "Wound",
+      "log_ratio": 4.397371964752235,
+      "n_female": 1499,
+      "n_male": 10
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "adverse_event": "Glossodynia",
+      "log_ratio": 4.383854726486452,
+      "n_female": 6082,
+      "n_male": 34
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "adverse_event": "Pemphigus",
+      "log_ratio": 4.370921860017574,
+      "n_female": 6680,
+      "n_male": 22
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "adverse_event": "Glossodynia",
+      "log_ratio": 4.365145692995518,
+      "n_female": 5962,
+      "n_male": 25
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Wound",
+      "log_ratio": 4.358493627600622,
+      "n_female": 2434,
+      "n_male": 27
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "adverse_event": "Glossodynia",
+      "log_ratio": 4.349408496657637,
+      "n_female": 6286,
+      "n_male": 15
+    },
+    {
+      "drug_name": "OXYCODONE;PARACETAMOL",
+      "adverse_event": "Hepatic enzyme increased",
+      "log_ratio": 4.345509184155896,
+      "n_female": 1441,
+      "n_male": 16
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "adverse_event": "Obesity",
+      "log_ratio": 4.334857675477055,
+      "n_female": 1172,
+      "n_male": 20
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Synovitis",
+      "log_ratio": 4.315676223529395,
+      "n_female": 2510,
+      "n_male": 13
+    },
+    {
+      "drug_name": "GOLIMUMAB",
+      "adverse_event": "Confusional state",
+      "log_ratio": 4.302615856099923,
+      "n_female": 2867,
+      "n_male": 14
+    },
+    {
+      "drug_name": "CETIRIZINE",
+      "adverse_event": "General physical health deterioration",
+      "log_ratio": 4.242432529375961,
+      "n_female": 2667,
+      "n_male": 17
+    },
+    {
+      "drug_name": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "adverse_event": "Discomfort",
+      "log_ratio": 4.240945359071558,
+      "n_female": 1299,
+      "n_male": 10
+    },
+    {
+      "drug_name": "HYDROCORTISONE",
+      "adverse_event": "Arthropathy",
+      "log_ratio": 4.240760691871515,
+      "n_female": 2102,
+      "n_male": 10
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "adverse_event": "Irritable bowel syndrome",
+      "log_ratio": 4.23511061804969,
+      "n_female": 2539,
+      "n_male": 13
+    },
+    {
+      "drug_name": "DICLOFENAC",
+      "adverse_event": "Injury",
+      "log_ratio": 4.234388647238324,
+      "n_female": 2243,
+      "n_male": 14
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "adverse_event": "Wound",
+      "log_ratio": 4.2264286341653765,
+      "n_female": 4919,
+      "n_male": 13
+    },
+    {
+      "drug_name": "OXYCODONE;PARACETAMOL",
+      "adverse_event": "Wound",
+      "log_ratio": 4.222798528156514,
+      "n_female": 1150,
+      "n_male": 12
+    },
+    {
+      "drug_name": "CETIRIZINE",
+      "adverse_event": "Joint swelling",
+      "log_ratio": 4.214645385851089,
+      "n_female": 3896,
+      "n_male": 12
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "adverse_event": "Discomfort",
+      "log_ratio": 4.19084291800522,
+      "n_female": 3752,
+      "n_male": 11
+    },
+    {
+      "drug_name": "HYDROCORTISONE",
+      "adverse_event": "Joint swelling",
+      "log_ratio": 4.180675280437425,
+      "n_female": 2188,
+      "n_male": 11
+    },
+    {
+      "drug_name": "OXYCODONE;PARACETAMOL",
+      "adverse_event": "Joint swelling",
+      "log_ratio": 4.180333098010459,
+      "n_female": 1795,
+      "n_male": 17
+    },
+    {
+      "drug_name": "GOLIMUMAB",
+      "adverse_event": "Ill-defined disorder",
+      "log_ratio": 4.168439082636502,
+      "n_female": 2626,
+      "n_male": 11
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Sinusitis",
+      "log_ratio": 4.164298727376041,
+      "n_female": 2897,
+      "n_male": 26
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "adverse_event": "Folliculitis",
+      "log_ratio": 4.160461219053649,
+      "n_female": 3331,
+      "n_male": 11
+    },
+    {
+      "drug_name": "DICLOFENAC",
+      "adverse_event": "Delirium",
+      "log_ratio": 4.156298257421302,
+      "n_female": 829,
+      "n_male": 11
+    },
+    {
+      "drug_name": "CETIRIZINE",
+      "adverse_event": "Contraindicated product administered",
+      "log_ratio": 4.147760916702745,
+      "n_female": 3885,
+      "n_male": 14
+    }
+  ],
+  "top_male": [
+    {
+      "drug_name": "PERTUZUMAB",
+      "adverse_event": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -7.391389912032977,
+      "n_female": 11,
+      "n_male": 10
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "adverse_event": "Foetal exposure during pregnancy",
+      "log_ratio": -6.568155804227702,
+      "n_female": 30,
+      "n_male": 40
+    },
+    {
+      "drug_name": "HYDROXYPROGESTERONE",
+      "adverse_event": "Abortion spontaneous",
+      "log_ratio": -6.45611994771499,
+      "n_female": 105,
+      "n_male": 12
+    },
+    {
+      "drug_name": "MINOXIDIL",
+      "adverse_event": "Adverse drug reaction",
+      "log_ratio": -6.447868373787949,
+      "n_female": 20,
+      "n_male": 8460
+    },
+    {
+      "drug_name": "CARBIDOPA;LEVODOPA",
+      "adverse_event": "Embedded device",
+      "log_ratio": -6.447123659548959,
+      "n_female": 169,
+      "n_male": 548
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "adverse_event": "Premature baby",
+      "log_ratio": -6.421162224144812,
+      "n_female": 18,
+      "n_male": 23
+    },
+    {
+      "drug_name": "CARBIDOPA;LEVODOPA",
+      "adverse_event": "Device expulsion",
+      "log_ratio": -6.411558803376324,
+      "n_female": 48,
+      "n_male": 79
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "adverse_event": "Injury associated with device",
+      "log_ratio": -6.3274744571603785,
+      "n_female": 40,
+      "n_male": 15
+    },
+    {
+      "drug_name": "ETHINYLESTRADIOL;ETONOGESTREL",
+      "adverse_event": "Medical device discomfort",
+      "log_ratio": -6.030045047468779,
+      "n_female": 100,
+      "n_male": 19
+    },
+    {
+      "drug_name": "TRASTUZUMAB",
+      "adverse_event": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -5.864657873936223,
+      "n_female": 19,
+      "n_male": 10
+    },
+    {
+      "drug_name": "ESTRADIOL",
+      "adverse_event": "Invasive ductal breast carcinoma",
+      "log_ratio": -5.864613801833109,
+      "n_female": 42,
+      "n_male": 10
+    },
+    {
+      "drug_name": "VITAMIN B12",
+      "adverse_event": "Abortion spontaneous",
+      "log_ratio": -5.85809251070579,
+      "n_female": 24,
+      "n_male": 11
+    },
+    {
+      "drug_name": "FEZOLINETANT",
+      "adverse_event": "Off label use",
+      "log_ratio": -5.7443138761509145,
+      "n_female": 65,
+      "n_male": 16
+    },
+    {
+      "drug_name": "LABETALOL",
+      "adverse_event": "Abortion spontaneous",
+      "log_ratio": -5.678888909227175,
+      "n_female": 48,
+      "n_male": 15
+    },
+    {
+      "drug_name": "HISTRELIN",
+      "adverse_event": "Device expulsion",
+      "log_ratio": -5.59811612386203,
+      "n_female": 21,
+      "n_male": 11
+    },
+    {
+      "drug_name": "TAMOXIFEN",
+      "adverse_event": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -5.561696171656359,
+      "n_female": 44,
+      "n_male": 10
+    },
+    {
+      "drug_name": "HYDROXYPROGESTERONE",
+      "adverse_event": "Stillbirth",
+      "log_ratio": -5.540308462788479,
+      "n_female": 71,
+      "n_male": 52
+    },
+    {
+      "drug_name": "VITAMIN B9",
+      "adverse_event": "Abortion spontaneous",
+      "log_ratio": -5.505747965656598,
+      "n_female": 99,
+      "n_male": 14
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "adverse_event": "Accidental exposure to product",
+      "log_ratio": -5.490578318549268,
+      "n_female": 33,
+      "n_male": 10
+    },
+    {
+      "drug_name": "DESOXIMETASONE",
+      "adverse_event": "Stress",
+      "log_ratio": -5.456000927876889,
+      "n_female": 12,
+      "n_male": 49
+    },
+    {
+      "drug_name": "PERTUZUMAB",
+      "adverse_event": "Oligohydramnios",
+      "log_ratio": -5.445341371078753,
+      "n_female": 18,
+      "n_male": 11
+    },
+    {
+      "drug_name": "DENOSUMAB",
+      "adverse_event": "Peri-implantitis",
+      "log_ratio": -5.346257577321847,
+      "n_female": 13,
+      "n_male": 14
+    },
+    {
+      "drug_name": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+      "adverse_event": "Dyspareunia",
+      "log_ratio": -4.988827239907412,
+      "n_female": 823,
+      "n_male": 31
+    },
+    {
+      "drug_name": "LEVONORGESTREL",
+      "adverse_event": "Foetal exposure during pregnancy",
+      "log_ratio": -4.946367043524655,
+      "n_female": 23,
+      "n_male": 10
+    },
+    {
+      "drug_name": "ALENDRONIC ACID",
+      "adverse_event": "Vasculitis",
+      "log_ratio": -4.913095871825798,
+      "n_female": 16,
+      "n_male": 139
+    },
+    {
+      "drug_name": "VITAMIN D2",
+      "adverse_event": "Nodule",
+      "log_ratio": -4.893533902536879,
+      "n_female": 14,
+      "n_male": 169
+    },
+    {
+      "drug_name": "ALENDRONIC ACID",
+      "adverse_event": "Eosinophilic granulomatosis with polyangiitis",
+      "log_ratio": -4.857251934154963,
+      "n_female": 12,
+      "n_male": 147
+    },
+    {
+      "drug_name": "DESOXIMETASONE",
+      "adverse_event": "Pulmonary embolism",
+      "log_ratio": -4.795496463582158,
+      "n_female": 10,
+      "n_male": 47
+    },
+    {
+      "drug_name": "DOCETAXEL",
+      "adverse_event": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -4.785502735579854,
+      "n_female": 16,
+      "n_male": 10
+    },
+    {
+      "drug_name": "DESOXIMETASONE",
+      "adverse_event": "COVID-19",
+      "log_ratio": -4.699328753617481,
+      "n_female": 15,
+      "n_male": 52
+    },
+    {
+      "drug_name": "RIZATRIPTAN",
+      "adverse_event": "Hyperhidrosis",
+      "log_ratio": -4.674945851296158,
+      "n_female": 13,
+      "n_male": 255
+    },
+    {
+      "drug_name": "DESOXIMETASONE",
+      "adverse_event": "Accidental overdose",
+      "log_ratio": -4.6727359160106055,
+      "n_female": 10,
+      "n_male": 49
+    },
+    {
+      "drug_name": "ALENDRONIC ACID",
+      "adverse_event": "Neuritis",
+      "log_ratio": -4.642166407272686,
+      "n_female": 21,
+      "n_male": 141
+    },
+    {
+      "drug_name": "LOPINAVIR",
+      "adverse_event": "Abortion spontaneous",
+      "log_ratio": -4.632430443065678,
+      "n_female": 19,
+      "n_male": 11
+    },
+    {
+      "drug_name": "FLIBANSERIN",
+      "adverse_event": "Product use issue",
+      "log_ratio": -4.630571742706665,
+      "n_female": 23,
+      "n_male": 28
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "adverse_event": "Breast feeding",
+      "log_ratio": -4.612823187766978,
+      "n_female": 11,
+      "n_male": 11
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "adverse_event": "Emotional disorder",
+      "log_ratio": -4.577727249457449,
+      "n_female": 39,
+      "n_male": 5735
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "adverse_event": "Abnormal weight gain",
+      "log_ratio": -4.564312156651608,
+      "n_female": 66,
+      "n_male": 9346
+    },
+    {
+      "drug_name": "ETHINYLESTRADIOL;ETONOGESTREL",
+      "adverse_event": "Medical device site discomfort",
+      "log_ratio": -4.548101229219121,
+      "n_female": 159,
+      "n_male": 14
+    },
+    {
+      "drug_name": "INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL",
+      "adverse_event": "Low birth weight baby",
+      "log_ratio": -4.5022761402502,
+      "n_female": 16,
+      "n_male": 14
+    },
+    {
+      "drug_name": "ABATACEPT",
+      "adverse_event": "Apparent death",
+      "log_ratio": -4.465441155522753,
+      "n_female": 22,
+      "n_male": 282
+    },
+    {
+      "drug_name": "HYDROXYQUINOLINE",
+      "adverse_event": "Joint swelling",
+      "log_ratio": -4.42215725988588,
+      "n_female": 17,
+      "n_male": 46
+    },
+    {
+      "drug_name": "ALENDRONIC ACID",
+      "adverse_event": "Haemoptysis",
+      "log_ratio": -4.412939911470468,
+      "n_female": 15,
+      "n_male": 153
+    },
+    {
+      "drug_name": "DESOXIMETASONE",
+      "adverse_event": "Somnolence",
+      "log_ratio": -4.4112063288955605,
+      "n_female": 19,
+      "n_male": 52
+    },
+    {
+      "drug_name": "DEXAMETHASONE",
+      "adverse_event": "Complication of device insertion",
+      "log_ratio": -4.405197557456408,
+      "n_female": 65,
+      "n_male": 70
+    },
+    {
+      "drug_name": "PERTUZUMAB",
+      "adverse_event": "SARS-CoV-2 test positive",
+      "log_ratio": -4.395189347247233,
+      "n_female": 21,
+      "n_male": 46
+    },
+    {
+      "drug_name": "LEFLUNOMIDE",
+      "adverse_event": "Apparent death",
+      "log_ratio": -4.389138617699751,
+      "n_female": 22,
+      "n_male": 289
+    },
+    {
+      "drug_name": "ZIDOVUDINE",
+      "adverse_event": "Abortion spontaneous",
+      "log_ratio": -4.388912386584256,
+      "n_female": 50,
+      "n_male": 11
+    },
+    {
+      "drug_name": "BOTULINUM TOXIN",
+      "adverse_event": "Sedation",
+      "log_ratio": -4.360015133243556,
+      "n_female": 20,
+      "n_male": 262
+    },
+    {
+      "drug_name": "ALENDRONIC ACID",
+      "adverse_event": "Conjunctivitis allergic",
+      "log_ratio": -4.35669210870107,
+      "n_female": 10,
+      "n_male": 81
+    }
+  ],
+  "top_extreme": [
+    {
+      "drug_name": "CARBIDOPA;LEVODOPA",
+      "adverse_event": "Embedded device",
+      "log_ratio": -6.447123659548959,
+      "min_reports": 169,
+      "extreme_score": 33.11112761418131
+    },
+    {
+      "drug_name": "HYDROXYPROGESTERONE",
+      "adverse_event": "Premature baby",
+      "log_ratio": -4.287320385065003,
+      "min_reports": 732,
+      "extreme_score": 28.28407725094261
+    },
+    {
+      "drug_name": "TESTOSTERONE",
+      "adverse_event": "Prostatic disorder",
+      "log_ratio": 8.869498849549007,
+      "min_reports": 21,
+      "extreme_score": 27.415997483968724
+    },
+    {
+      "drug_name": "CARBIDOPA;LEVODOPA",
+      "adverse_event": "Device expulsion",
+      "log_ratio": -6.411558803376324,
+      "min_reports": 48,
+      "extreme_score": 24.952634693509857
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "adverse_event": "Foetal exposure during pregnancy",
+      "log_ratio": -6.568155804227702,
+      "min_reports": 30,
+      "extreme_score": 22.554962988782776
+    },
+    {
+      "drug_name": "HYDROXYPROGESTERONE",
+      "adverse_event": "Stillbirth",
+      "log_ratio": -5.540308462788479,
+      "min_reports": 52,
+      "extreme_score": 21.996641888393487
+    },
+    {
+      "drug_name": "SERTRALINE",
+      "adverse_event": "Maternal exposure during pregnancy",
+      "log_ratio": -3.341872799621804,
+      "min_reports": 448,
+      "extreme_score": 20.40889367521364
+    },
+    {
+      "drug_name": "MINOXIDIL",
+      "adverse_event": "Adverse drug reaction",
+      "log_ratio": -6.447868373787949,
+      "min_reports": 20,
+      "extreme_score": 19.63067993948465
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "adverse_event": "Galactorrhoea",
+      "log_ratio": -3.309224044818933,
+      "min_reports": 372,
+      "extreme_score": 19.595829689566212
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "adverse_event": "Abnormal weight gain",
+      "log_ratio": -4.564312156651608,
+      "min_reports": 66,
+      "extreme_score": 19.19152963766948
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "adverse_event": "Premature baby",
+      "log_ratio": -6.421162224144812,
+      "min_reports": 18,
+      "extreme_score": 18.90672034432306
+    },
+    {
+      "drug_name": "CARBIDOPA;LEVODOPA",
+      "adverse_event": "Device dislocation",
+      "log_ratio": -2.6449750858848735,
+      "min_reports": 1105,
+      "extreme_score": 18.53732159590266
+    },
+    {
+      "drug_name": "DEXAMETHASONE",
+      "adverse_event": "Complication of device insertion",
+      "log_ratio": -4.405197557456408,
+      "min_reports": 65,
+      "extreme_score": 18.456256836160467
+    },
+    {
+      "drug_name": "ETHINYLESTRADIOL;ETONOGESTREL",
+      "adverse_event": "Medical device discomfort",
+      "log_ratio": -6.030045047468779,
+      "min_reports": 19,
+      "extreme_score": 18.064400559686625
+    },
+    {
+      "drug_name": "TESTOSTERONE",
+      "adverse_event": "Accidental exposure to product",
+      "log_ratio": 3.7473044591531632,
+      "min_reports": 118,
+      "extreme_score": 17.908830776580476
+    },
+    {
+      "drug_name": "PERTUZUMAB",
+      "adverse_event": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -7.391389912032977,
+      "min_reports": 10,
+      "extreme_score": 17.72377892947344
+    },
+    {
+      "drug_name": "ATORVASTATIN",
+      "adverse_event": "Type 2 diabetes mellitus",
+      "log_ratio": 3.3183718127034725,
+      "min_reports": 198,
+      "extreme_score": 17.56515352641305
+    },
+    {
+      "drug_name": "ETONOGESTREL",
+      "adverse_event": "Injury associated with device",
+      "log_ratio": -6.3274744571603785,
+      "min_reports": 15,
+      "extreme_score": 17.543484320183147
+    },
+    {
+      "drug_name": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+      "adverse_event": "Dyspareunia",
+      "log_ratio": -4.988827239907412,
+      "min_reports": 31,
+      "extreme_score": 17.28995767821238
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "adverse_event": "Pericarditis",
+      "log_ratio": 3.963696089663096,
+      "min_reports": 73,
+      "extreme_score": 17.060005979588794
+    }
+  ]
+}

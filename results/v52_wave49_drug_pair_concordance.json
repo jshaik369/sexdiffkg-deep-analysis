@@ -1,0 +1,176 @@
+{
+  "analysis": "drug_pair_ae_concordance",
+  "wave": 49,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:14:51.312714",
+  "novelty": "Pairwise drug sex-bias concordance across shared AEs",
+  "summary": {
+    "drug_pairs_analyzed": 4950,
+    "mean_concordance": 61.4,
+    "median_concordance": 60.0
+  },
+  "most_concordant": [
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "shared_aes": 183,
+      "concordant": 183,
+      "discordant": 0,
+      "pct_concordant": 100.0
+    },
+    {
+      "drug1": "RANITIDINE",
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "shared_aes": 122,
+      "concordant": 121,
+      "discordant": 1,
+      "pct_concordant": 99.2
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "HYDROXYCHLOROQUINE",
+      "shared_aes": 240,
+      "concordant": 237,
+      "discordant": 3,
+      "pct_concordant": 98.8
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "CERTOLIZUMAB",
+      "shared_aes": 165,
+      "concordant": 163,
+      "discordant": 2,
+      "pct_concordant": 98.8
+    },
+    {
+      "drug1": "ETANERCEPT",
+      "drug2": "LEFLUNOMIDE",
+      "shared_aes": 173,
+      "concordant": 170,
+      "discordant": 3,
+      "pct_concordant": 98.3
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "ABATACEPT",
+      "shared_aes": 215,
+      "concordant": 211,
+      "discordant": 4,
+      "pct_concordant": 98.1
+    },
+    {
+      "drug1": "USTEKINUMAB",
+      "drug2": "BUPRENORPHINE",
+      "shared_aes": 96,
+      "concordant": 94,
+      "discordant": 2,
+      "pct_concordant": 97.9
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "ABATACEPT",
+      "shared_aes": 121,
+      "concordant": 118,
+      "discordant": 3,
+      "pct_concordant": 97.5
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "INFLIXIMAB",
+      "shared_aes": 232,
+      "concordant": 226,
+      "discordant": 6,
+      "pct_concordant": 97.4
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "USTEKINUMAB",
+      "shared_aes": 110,
+      "concordant": 107,
+      "discordant": 3,
+      "pct_concordant": 97.3
+    }
+  ],
+  "most_discordant": [
+    {
+      "drug1": "MORPHINE",
+      "drug2": "DOCETAXEL",
+      "shared_aes": 119,
+      "concordant": 13,
+      "discordant": 106,
+      "pct_concordant": 10.9
+    },
+    {
+      "drug1": "TRAMADOL",
+      "drug2": "DOCETAXEL",
+      "shared_aes": 95,
+      "concordant": 11,
+      "discordant": 84,
+      "pct_concordant": 11.6
+    },
+    {
+      "drug1": "DOCETAXEL",
+      "drug2": "OXYCODONE;PARACETAMOL",
+      "shared_aes": 81,
+      "concordant": 10,
+      "discordant": 71,
+      "pct_concordant": 12.3
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "DOCETAXEL",
+      "shared_aes": 128,
+      "concordant": 16,
+      "discordant": 112,
+      "pct_concordant": 12.5
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "DOCETAXEL",
+      "shared_aes": 136,
+      "concordant": 17,
+      "discordant": 119,
+      "pct_concordant": 12.5
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "VINCRISTINE",
+      "shared_aes": 47,
+      "concordant": 6,
+      "discordant": 41,
+      "pct_concordant": 12.8
+    },
+    {
+      "drug1": "RANITIDINE",
+      "drug2": "DOCETAXEL",
+      "shared_aes": 99,
+      "concordant": 14,
+      "discordant": 85,
+      "pct_concordant": 14.1
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "CYTARABINE",
+      "shared_aes": 87,
+      "concordant": 14,
+      "discordant": 73,
+      "pct_concordant": 16.1
+    },
+    {
+      "drug1": "CYTARABINE",
+      "drug2": "VITAMIN B9",
+      "shared_aes": 37,
+      "concordant": 6,
+      "discordant": 31,
+      "pct_concordant": 16.2
+    },
+    {
+      "drug1": "DOCETAXEL",
+      "drug2": "CLOPIDOGREL",
+      "shared_aes": 83,
+      "concordant": 14,
+      "discordant": 69,
+      "pct_concordant": 16.9
+    }
+  ]
+}
