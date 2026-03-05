@@ -1,0 +1,380 @@
+{
+  "analysis": "rare_vs_common_ae_sex_bias",
+  "wave": 45,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:10:20.520371",
+  "novelty": "AE frequency-stratified sex-bias analysis: rare AEs show stronger sex-differential effects",
+  "summary": {
+    "total_aes": 5069,
+    "freq_vs_pctf_rho": 0.08,
+    "freq_vs_pctf_p": 1.3898350327045955e-08,
+    "freq_vs_lr_rho": 0.222,
+    "freq_vs_lr_p": 1.3066437385103765e-57,
+    "universal_female_aes": 380,
+    "universal_male_aes": 261
+  },
+  "top_female_aes": [
+    {
+      "adverse_event": "Candida sepsis",
+      "n_signals": 9,
+      "n_drugs": 9,
+      "pct_female": 100.0,
+      "mean_lr": 0.9086358754480711,
+      "mean_abs_lr": 0.9086358754480711,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Pseudomonal bacteraemia",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 100.0,
+      "mean_lr": 1.1365794703352123,
+      "mean_abs_lr": 1.1365794703352121,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Anosognosia",
+      "n_signals": 11,
+      "n_drugs": 11,
+      "pct_female": 100.0,
+      "mean_lr": 1.5329027529861923,
+      "mean_abs_lr": 1.5329027529861923,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Necrosis ischaemic",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 100.0,
+      "mean_lr": 0.6934324053030518,
+      "mean_abs_lr": 0.6934324053030518,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Follicular lymphoma",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 100.0,
+      "mean_lr": 0.7747198630632842,
+      "mean_abs_lr": 0.7747198630632842,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Vision abnormal neonatal",
+      "n_signals": 6,
+      "n_drugs": 6,
+      "pct_female": 100.0,
+      "mean_lr": 0.7320318107870974,
+      "mean_abs_lr": 0.7320318107870974,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Ketoacidosis",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 100.0,
+      "mean_lr": 0.5927818612556778,
+      "mean_abs_lr": 0.5927818612556778,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Fournier's gangrene",
+      "n_signals": 6,
+      "n_drugs": 6,
+      "pct_female": 100.0,
+      "mean_lr": 0.7183588199492341,
+      "mean_abs_lr": 0.7183588199492341,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Klebsiella bacteraemia",
+      "n_signals": 9,
+      "n_drugs": 9,
+      "pct_female": 100.0,
+      "mean_lr": 0.7773413925509183,
+      "mean_abs_lr": 0.7773413925509183,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Visceral leishmaniasis",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 100.0,
+      "mean_lr": 0.9412853733480747,
+      "mean_abs_lr": 0.9412853733480747,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Pseudomonal sepsis",
+      "n_signals": 14,
+      "n_drugs": 14,
+      "pct_female": 100.0,
+      "mean_lr": 1.135108834321137,
+      "mean_abs_lr": 1.135108834321137,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Urinary tract obstruction",
+      "n_signals": 8,
+      "n_drugs": 8,
+      "pct_female": 100.0,
+      "mean_lr": 1.2005434838848752,
+      "mean_abs_lr": 1.2005434838848752,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Fungal sepsis",
+      "n_signals": 8,
+      "n_drugs": 8,
+      "pct_female": 100.0,
+      "mean_lr": 0.9052691582997805,
+      "mean_abs_lr": 0.9052691582997805,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Myoclonic epilepsy",
+      "n_signals": 5,
+      "n_drugs": 5,
+      "pct_female": 100.0,
+      "mean_lr": 0.8998710072432345,
+      "mean_abs_lr": 0.8998710072432345,
+      "freq_group": "very_rare"
+    },
+    {
+      "adverse_event": "Virologic failure",
+      "n_signals": 32,
+      "n_drugs": 32,
+      "pct_female": 100.0,
+      "mean_lr": 1.1538923316543575,
+      "mean_abs_lr": 1.1538923316543577,
+      "freq_group": "moderate"
+    },
+    {
+      "adverse_event": "Chorioretinopathy",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 100.0,
+      "mean_lr": 1.0035236283007978,
+      "mean_abs_lr": 1.0035236283007978,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Chronic lymphocytic leukaemia recurrent",
+      "n_signals": 6,
+      "n_drugs": 6,
+      "pct_female": 100.0,
+      "mean_lr": 0.7742410047428153,
+      "mean_abs_lr": 0.7742410047428153,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Viral mutation identified",
+      "n_signals": 36,
+      "n_drugs": 36,
+      "pct_female": 100.0,
+      "mean_lr": 1.3708231862430864,
+      "mean_abs_lr": 1.3708231862430864,
+      "freq_group": "moderate"
+    },
+    {
+      "adverse_event": "Viral load increased",
+      "n_signals": 36,
+      "n_drugs": 36,
+      "pct_female": 100.0,
+      "mean_lr": 1.2818496101448345,
+      "mean_abs_lr": 1.2818496101448342,
+      "freq_group": "moderate"
+    },
+    {
+      "adverse_event": "Myelofibrosis",
+      "n_signals": 6,
+      "n_drugs": 6,
+      "pct_female": 100.0,
+      "mean_lr": 0.7852412924064835,
+      "mean_abs_lr": 0.7852412924064835,
+      "freq_group": "rare"
+    }
+  ],
+  "top_male_aes": [
+    {
+      "adverse_event": "Injection site indentation",
+      "n_signals": 5,
+      "n_drugs": 5,
+      "pct_female": 0.0,
+      "mean_lr": -0.7531326149708716,
+      "mean_abs_lr": 0.7531326149708716,
+      "freq_group": "very_rare"
+    },
+    {
+      "adverse_event": "Joint ankylosis",
+      "n_signals": 8,
+      "n_drugs": 8,
+      "pct_female": 0.0,
+      "mean_lr": -1.7867339233501986,
+      "mean_abs_lr": 1.7867339233501989,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Joint arthroplasty",
+      "n_signals": 16,
+      "n_drugs": 16,
+      "pct_female": 0.0,
+      "mean_lr": -1.5427789051461342,
+      "mean_abs_lr": 1.5427789051461342,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Sensitive skin",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 0.0,
+      "mean_lr": -0.7988451172673955,
+      "mean_abs_lr": 0.7988451172673953,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Sensation of foreign body",
+      "n_signals": 28,
+      "n_drugs": 28,
+      "pct_female": 0.0,
+      "mean_lr": -1.4461154324603727,
+      "mean_abs_lr": 1.4461154324603727,
+      "freq_group": "moderate"
+    },
+    {
+      "adverse_event": "Joint lock",
+      "n_signals": 15,
+      "n_drugs": 15,
+      "pct_female": 0.0,
+      "mean_lr": -1.5548705381257728,
+      "mean_abs_lr": 1.5548705381257726,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Chondropathy",
+      "n_signals": 13,
+      "n_drugs": 13,
+      "pct_female": 0.0,
+      "mean_lr": -1.5977891241857347,
+      "mean_abs_lr": 1.5977891241857345,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Latent tuberculosis",
+      "n_signals": 5,
+      "n_drugs": 5,
+      "pct_female": 0.0,
+      "mean_lr": -0.7960564313187717,
+      "mean_abs_lr": 0.7960564313187717,
+      "freq_group": "very_rare"
+    },
+    {
+      "adverse_event": "Ligament rupture",
+      "n_signals": 6,
+      "n_drugs": 6,
+      "pct_female": 0.0,
+      "mean_lr": -0.7539309651377288,
+      "mean_abs_lr": 0.7539309651377288,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Secondary progressive multiple sclerosis",
+      "n_signals": 8,
+      "n_drugs": 8,
+      "pct_female": 0.0,
+      "mean_lr": -0.9525730483084001,
+      "mean_abs_lr": 0.9525730483084001,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Choking sensation",
+      "n_signals": 10,
+      "n_drugs": 10,
+      "pct_female": 0.0,
+      "mean_lr": -0.9601823950738282,
+      "mean_abs_lr": 0.9601823950738281,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Loss of control of legs",
+      "n_signals": 5,
+      "n_drugs": 5,
+      "pct_female": 0.0,
+      "mean_lr": -1.078846211185331,
+      "mean_abs_lr": 1.078846211185331,
+      "freq_group": "very_rare"
+    },
+    {
+      "adverse_event": "Cerebral venous thrombosis",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 0.0,
+      "mean_lr": -0.832866346700906,
+      "mean_abs_lr": 0.832866346700906,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Central nervous system lesion",
+      "n_signals": 35,
+      "n_drugs": 35,
+      "pct_female": 0.0,
+      "mean_lr": -1.0505925966338407,
+      "mean_abs_lr": 1.0505925966338407,
+      "freq_group": "moderate"
+    },
+    {
+      "adverse_event": "Macule",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 0.0,
+      "mean_lr": -0.7291015325251126,
+      "mean_abs_lr": 0.7291015325251126,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Catarrh",
+      "n_signals": 28,
+      "n_drugs": 28,
+      "pct_female": 0.0,
+      "mean_lr": -1.692677562892902,
+      "mean_abs_lr": 1.692677562892902,
+      "freq_group": "moderate"
+    },
+    {
+      "adverse_event": "Magnetic resonance imaging abnormal",
+      "n_signals": 5,
+      "n_drugs": 5,
+      "pct_female": 0.0,
+      "mean_lr": -0.7880433332251814,
+      "mean_abs_lr": 0.7880433332251814,
+      "freq_group": "very_rare"
+    },
+    {
+      "adverse_event": "Mast cell activation syndrome",
+      "n_signals": 5,
+      "n_drugs": 5,
+      "pct_female": 0.0,
+      "mean_lr": -1.354956450628299,
+      "mean_abs_lr": 1.3549564506282987,
+      "freq_group": "very_rare"
+    },
+    {
+      "adverse_event": "Cardiospasm",
+      "n_signals": 9,
+      "n_drugs": 9,
+      "pct_female": 0.0,
+      "mean_lr": -0.8999978946469683,
+      "mean_abs_lr": 0.8999978946469683,
+      "freq_group": "rare"
+    },
+    {
+      "adverse_event": "Medical device complication",
+      "n_signals": 7,
+      "n_drugs": 7,
+      "pct_female": 0.0,
+      "mean_lr": -1.7387145538660576,
+      "mean_abs_lr": 1.7387145538660576,
+      "freq_group": "rare"
+    }
+  ]
+}
