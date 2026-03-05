@@ -1,0 +1,288 @@
+{
+  "analysis": "sex_bias_rank_stability",
+  "wave": 61,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:28:20.646545",
+  "novelty": "Bootstrap rank stability of drug sex-bias \u2014 which rankings are robust?",
+  "summary": {
+    "drugs_analyzed": 818,
+    "bootstrap_iterations": 200,
+    "mean_rank_sd": 53.79,
+    "median_rank_sd": 49.9,
+    "rho_n_rank_sd": -0.554
+  },
+  "most_stable": [
+    {
+      "drug_name": "RANITIDINE HYDROCHLORIDE",
+      "observed_pctf": 100.0,
+      "n_signals": 50,
+      "mean_rank": 3.4,
+      "std_rank": 0.7,
+      "rank_range": 3,
+      "rank_cv": 21.0
+    },
+    {
+      "drug_name": "INOTERSEN",
+      "observed_pctf": 100.0,
+      "n_signals": 20,
+      "mean_rank": 3.4,
+      "std_rank": 0.7,
+      "rank_range": 3,
+      "rank_cv": 21.0
+    },
+    {
+      "drug_name": "METFORMIN;ROSIGLITAZONE",
+      "observed_pctf": 100.0,
+      "n_signals": 20,
+      "mean_rank": 3.4,
+      "std_rank": 0.7,
+      "rank_range": 3,
+      "rank_cv": 21.0
+    },
+    {
+      "drug_name": "DIROXIMEL FUMARATE",
+      "observed_pctf": 0.0,
+      "n_signals": 25,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "SAPROPTERIN",
+      "observed_pctf": 0.0,
+      "n_signals": 20,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "TEPROTUMUMAB",
+      "observed_pctf": 0.0,
+      "n_signals": 33,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "SOTROVIMAB",
+      "observed_pctf": 0.0,
+      "n_signals": 26,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "MEBEVERINE",
+      "observed_pctf": 0.0,
+      "n_signals": 52,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "MIFEPRISTONE",
+      "observed_pctf": 0.0,
+      "n_signals": 47,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "EPTINEZUMAB",
+      "observed_pctf": 0.0,
+      "n_signals": 27,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "BUPROPION;NALTREXONE",
+      "observed_pctf": 0.0,
+      "n_signals": 23,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "BRIMONIDINE;TIMOLOL",
+      "observed_pctf": 0.0,
+      "n_signals": 20,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "PEGINTERFERON BETA-1A",
+      "observed_pctf": 0.0,
+      "n_signals": 46,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "PEGVALIASE",
+      "observed_pctf": 0.0,
+      "n_signals": 37,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    },
+    {
+      "drug_name": "CENEGERMIN",
+      "observed_pctf": 0.0,
+      "n_signals": 20,
+      "mean_rank": 810.2,
+      "std_rank": 1.0,
+      "rank_range": 5,
+      "rank_cv": 0.1
+    }
+  ],
+  "least_stable": [
+    {
+      "drug_name": "PROCHLORPERAZINE",
+      "observed_pctf": 47.61904761904761,
+      "n_signals": 21,
+      "mean_rank": 473.5,
+      "std_rank": 118.7,
+      "rank_range": 546,
+      "rank_cv": 25.1
+    },
+    {
+      "drug_name": "ISOSORBIDE DINITRATE",
+      "observed_pctf": 66.66666666666666,
+      "n_signals": 21,
+      "mean_rank": 246.3,
+      "std_rank": 119.0,
+      "rank_range": 614,
+      "rank_cv": 48.3
+    },
+    {
+      "drug_name": "REPAGLINIDE",
+      "observed_pctf": 68.18181818181817,
+      "n_signals": 22,
+      "mean_rank": 236.2,
+      "std_rank": 119.7,
+      "rank_range": 550,
+      "rank_cv": 50.7
+    },
+    {
+      "drug_name": "PHENYLEPHRINE",
+      "observed_pctf": 45.0,
+      "n_signals": 20,
+      "mean_rank": 489.2,
+      "std_rank": 120.0,
+      "rank_range": 613,
+      "rank_cv": 24.5
+    },
+    {
+      "drug_name": "AFATINIB",
+      "observed_pctf": 58.333333333333336,
+      "n_signals": 24,
+      "mean_rank": 330.1,
+      "std_rank": 120.2,
+      "rank_range": 595,
+      "rank_cv": 36.4
+    },
+    {
+      "drug_name": "EMTRICITABINE",
+      "observed_pctf": 63.63636363636363,
+      "n_signals": 22,
+      "mean_rank": 281.0,
+      "std_rank": 120.9,
+      "rank_range": 584,
+      "rank_cv": 43.0
+    },
+    {
+      "drug_name": "FONDAPARINUX",
+      "observed_pctf": 58.333333333333336,
+      "n_signals": 24,
+      "mean_rank": 361.5,
+      "std_rank": 121.2,
+      "rank_range": 594,
+      "rank_cv": 33.5
+    },
+    {
+      "drug_name": "CETIRIZINE;PSEUDOEPHEDRINE",
+      "observed_pctf": 57.14285714285714,
+      "n_signals": 21,
+      "mean_rank": 364.1,
+      "std_rank": 122.0,
+      "rank_range": 575,
+      "rank_cv": 33.5
+    },
+    {
+      "drug_name": "CABOTEGRAVIR;RILPIVIRINE",
+      "observed_pctf": 47.61904761904761,
+      "n_signals": 21,
+      "mean_rank": 461.9,
+      "std_rank": 122.4,
+      "rank_range": 508,
+      "rank_cv": 26.5
+    },
+    {
+      "drug_name": "COBIMETINIB",
+      "observed_pctf": 50.0,
+      "n_signals": 20,
+      "mean_rank": 432.5,
+      "std_rank": 122.5,
+      "rank_range": 591,
+      "rank_cv": 28.3
+    },
+    {
+      "drug_name": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+      "observed_pctf": 50.0,
+      "n_signals": 20,
+      "mean_rank": 431.9,
+      "std_rank": 123.5,
+      "rank_range": 498,
+      "rank_cv": 28.6
+    },
+    {
+      "drug_name": "VISMODEGIB",
+      "observed_pctf": 65.0,
+      "n_signals": 20,
+      "mean_rank": 274.7,
+      "std_rank": 123.6,
+      "rank_range": 600,
+      "rank_cv": 45.0
+    },
+    {
+      "drug_name": "SOTALOL",
+      "observed_pctf": 58.333333333333336,
+      "n_signals": 24,
+      "mean_rank": 327.8,
+      "std_rank": 125.9,
+      "rank_range": 547,
+      "rank_cv": 38.4
+    },
+    {
+      "drug_name": "TENOFOVIR DISOPROXIL FUMARATE",
+      "observed_pctf": 50.0,
+      "n_signals": 20,
+      "mean_rank": 450.0,
+      "std_rank": 127.1,
+      "rank_range": 688,
+      "rank_cv": 28.2
+    },
+    {
+      "drug_name": "DIMENHYDRINATE",
+      "observed_pctf": 54.54545454545454,
+      "n_signals": 22,
+      "mean_rank": 375.6,
+      "std_rank": 132.7,
+      "rank_range": 588,
+      "rank_cv": 35.3
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "analysis": "ae_specificity_index",
+  "wave": 62,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:28:25.505684",
+  "novelty": "AE sex-bias specificity index \u2014 biological vs drug-driven AE patterns",
+  "summary": {
+    "aes_analyzed": 1668,
+    "mean_specificity": 0.4433,
+    "highly_specific_aes": 210,
+    "non_specific_aes": 389
+  },
+  "most_specific": [
+    {
+      "adverse_event": "CD4 lymphocytes decreased",
+      "n_drugs": 10,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 0.7509,
+      "std_lr": 0.2004
+    },
+    {
+      "adverse_event": "Graft versus host disease in gastrointestinal tract",
+      "n_drugs": 21,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 0.8101,
+      "std_lr": 0.2419
+    },
+    {
+      "adverse_event": "Pharyngitis streptococcal",
+      "n_drugs": 17,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -0.8478,
+      "std_lr": 0.3646
+    },
+    {
+      "adverse_event": "Hair texture abnormal",
+      "n_drugs": 11,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -1.4302,
+      "std_lr": 0.7405
+    },
+    {
+      "adverse_event": "Haemodialysis",
+      "n_drugs": 13,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 0.8732,
+      "std_lr": 0.2886
+    },
+    {
+      "adverse_event": "Haemarthrosis",
+      "n_drugs": 15,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 2.2543,
+      "std_lr": 0.6739
+    },
+    {
+      "adverse_event": "Granulocytopenia",
+      "n_drugs": 14,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 1.0428,
+      "std_lr": 0.3308
+    },
+    {
+      "adverse_event": "Graft versus host disease in skin",
+      "n_drugs": 24,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 0.9156,
+      "std_lr": 0.362
+    },
+    {
+      "adverse_event": "Blindness transient",
+      "n_drugs": 10,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -0.8418,
+      "std_lr": 0.2583
+    },
+    {
+      "adverse_event": "Pseudomonal sepsis",
+      "n_drugs": 14,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 1.1351,
+      "std_lr": 0.3944
+    },
+    {
+      "adverse_event": "Psychological trauma",
+      "n_drugs": 10,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -3.0025,
+      "std_lr": 0.3453
+    },
+    {
+      "adverse_event": "Enterococcal bacteraemia",
+      "n_drugs": 11,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 1.0144,
+      "std_lr": 0.4867
+    },
+    {
+      "adverse_event": "Blood HIV RNA increased",
+      "n_drugs": 19,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 1.3974,
+      "std_lr": 0.5585
+    },
+    {
+      "adverse_event": "Gingival pain",
+      "n_drugs": 34,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -1.7153,
+      "std_lr": 0.6168
+    },
+    {
+      "adverse_event": "Geotrichum infection",
+      "n_drugs": 12,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 1.3641,
+      "std_lr": 0.5084
+    },
+    {
+      "adverse_event": "Genotype drug resistance test positive",
+      "n_drugs": 10,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 1.5866,
+      "std_lr": 0.5765
+    },
+    {
+      "adverse_event": "Feeling of body temperature change",
+      "n_drugs": 10,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -0.7377,
+      "std_lr": 0.2324
+    },
+    {
+      "adverse_event": "Fanconi syndrome acquired",
+      "n_drugs": 12,
+      "pct_female": 100.0,
+      "specificity": 1.0,
+      "mean_lr": 1.0803,
+      "std_lr": 0.3483
+    },
+    {
+      "adverse_event": "Meniscus injury",
+      "n_drugs": 12,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -0.8192,
+      "std_lr": 0.2403
+    },
+    {
+      "adverse_event": "Sensation of foreign body",
+      "n_drugs": 28,
+      "pct_female": 0.0,
+      "specificity": 1.0,
+      "mean_lr": -1.4461,
+      "std_lr": 0.8897
+    }
+  ],
+  "least_specific": [
+    {
+      "adverse_event": "Respiratory rate decreased",
+      "n_drugs": 10,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0891,
+      "std_lr": 0.8351
+    },
+    {
+      "adverse_event": "Thrombotic thrombocytopenic purpura",
+      "n_drugs": 10,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.192,
+      "std_lr": 1.0281
+    },
+    {
+      "adverse_event": "Troponin increased",
+      "n_drugs": 54,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": -0.0454,
+      "std_lr": 1.1934
+    },
+    {
+      "adverse_event": "Intestinal haemorrhage",
+      "n_drugs": 18,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.014,
+      "std_lr": 1.026
+    },
+    {
+      "adverse_event": "Therapeutic response decreased",
+      "n_drugs": 100,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0618,
+      "std_lr": 0.8888
+    },
+    {
+      "adverse_event": "Self injurious behaviour",
+      "n_drugs": 10,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0982,
+      "std_lr": 0.8347
+    },
+    {
+      "adverse_event": "Tachyarrhythmia",
+      "n_drugs": 10,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0823,
+      "std_lr": 1.5432
+    },
+    {
+      "adverse_event": "Accidental overdose",
+      "n_drugs": 76,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": -0.1501,
+      "std_lr": 1.1543
+    },
+    {
+      "adverse_event": "Onychomadesis",
+      "n_drugs": 12,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.4086,
+      "std_lr": 1.535
+    },
+    {
+      "adverse_event": "Laryngeal oedema",
+      "n_drugs": 10,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": -0.0522,
+      "std_lr": 0.8961
+    },
+    {
+      "adverse_event": "Oesophageal candidiasis",
+      "n_drugs": 10,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0084,
+      "std_lr": 0.7242
+    },
+    {
+      "adverse_event": "Serotonin syndrome",
+      "n_drugs": 46,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0282,
+      "std_lr": 0.9566
+    },
+    {
+      "adverse_event": "Polyarthritis",
+      "n_drugs": 16,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": -0.0441,
+      "std_lr": 0.9249
+    },
+    {
+      "adverse_event": "Abdominal tenderness",
+      "n_drugs": 16,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": -0.0587,
+      "std_lr": 0.9431
+    },
+    {
+      "adverse_event": "Micturition disorder",
+      "n_drugs": 12,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.1164,
+      "std_lr": 0.8991
+    },
+    {
+      "adverse_event": "Product packaging quantity issue",
+      "n_drugs": 14,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": -0.2415,
+      "std_lr": 1.2343
+    },
+    {
+      "adverse_event": "Lung adenocarcinoma",
+      "n_drugs": 12,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": -0.0143,
+      "std_lr": 0.8949
+    },
+    {
+      "adverse_event": "Peripheral coldness",
+      "n_drugs": 36,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0408,
+      "std_lr": 0.8211
+    },
+    {
+      "adverse_event": "Alcoholism",
+      "n_drugs": 10,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.0273,
+      "std_lr": 0.9257
+    },
+    {
+      "adverse_event": "Hypokinesia",
+      "n_drugs": 48,
+      "pct_female": 50.0,
+      "specificity": 0.0,
+      "mean_lr": 0.036,
+      "std_lr": 0.9472
+    }
+  ]
+}

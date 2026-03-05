@@ -1,0 +1,12 @@
+{
+  "analysis": "drug_fingerprint_clustering",
+  "wave": 63,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:28:36.056318",
+  "novelty": "Hierarchical clustering of drug sex-bias fingerprints reveals pharmacovigilance signatures",
+  "summary": {
+    "drugs_clustered": 641,
+    "aes_in_fingerprint": 831,
+    "fingerprint_coverage": 11.6
+  }
+}

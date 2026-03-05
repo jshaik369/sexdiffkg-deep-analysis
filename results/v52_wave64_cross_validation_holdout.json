@@ -1,0 +1,13 @@
+{
+  "analysis": "cross_validation_holdout",
+  "wave": 64,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:28:41.262895",
+  "novelty": "Holdout cross-validation of drug and AE sex-bias predictability",
+  "summary": {
+    "drug_holdout_accuracy": 67.7,
+    "ae_holdout_accuracy": 68.4,
+    "drugs_tested": 818,
+    "aes_tested": 1082
+  }
+}
