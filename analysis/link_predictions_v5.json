@@ -1,0 +1,3964 @@
+{
+  "timestamp": "2026-03-05T05:18:07.639978",
+  "model": "ComplEx v5",
+  "kg": "SexDiffKG v5 merged",
+  "entities": 220785,
+  "relations": 18,
+  "relation_types": [
+    "aggravates_dosha",
+    "associated_with",
+    "binds_to",
+    "causes_adverse_event",
+    "corresponds_to",
+    "encoded_by",
+    "has_adverse_event",
+    "interacts_with",
+    "investigates",
+    "modulates",
+    "pacifies_dosha",
+    "participates_in",
+    "same_as",
+    "sex_differential_adverse_event",
+    "sex_differential_expression",
+    "targets",
+    "tests_intervention",
+    "treats"
+  ],
+  "existing_triples": 3182843,
+  "predictions": {
+    "drug_ae": {
+      "DRUG:RISPERIDONE": [
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Phlebolith",
+          "score": 34.2131,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tracheal deviation",
+          "score": 32.2933,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Rhesus incompatibility",
+          "score": 31.3803,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Application site erosion",
+          "score": 30.9734,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Stoma site ulcer",
+          "score": 29.5335,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Parenteral nutrition",
+          "score": 29.1107,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:T-cell type acute leukaemia",
+          "score": 28.4321,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Polycythaemia",
+          "score": 27.7663,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Mantle cell lymphoma recurrent",
+          "score": 27.6373,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cystocele",
+          "score": 27.4677,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Lung hernia",
+          "score": 27.0159,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 26.9165,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Immune-mediated hepatitis",
+          "score": 26.8925,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Intestinal angioedema",
+          "score": 26.8444,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cerebrospinal fluid leakage",
+          "score": 26.6293,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:COUGH",
+          "score": 26.2197,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tenosynovitis stenosans",
+          "score": 25.9534,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Device failure",
+          "score": 25.9118,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:cardio-respiratory distress",
+          "score": 25.8931,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Immunosuppressant drug level decreased",
+          "score": 25.832,
+          "known": false
+        }
+      ],
+      "DRUG:METFORMIN": [
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Dyspraxia",
+          "score": 31.1003,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Growth accelerated",
+          "score": 30.4488,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tongue paralysis",
+          "score": 30.0499,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Slow response to stimuli",
+          "score": 29.4242,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Carnitine palmitoyltransferase deficiency",
+          "score": 28.3153,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Breathing-related sleep disorder",
+          "score": 28.0225,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Small cell carcinoma",
+          "score": 27.3256,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Urine leukocyte esterase positive",
+          "score": 26.9536,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tracheal deviation",
+          "score": 26.8729,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Residual urine volume increased",
+          "score": 26.788,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Weight decrease neonatal",
+          "score": 26.4192,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Dystrophic calcification",
+          "score": 26.2647,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:KL-6 increased",
+          "score": 25.8478,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vision abnormal neonatal",
+          "score": 25.7996,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Metastases to thyroid",
+          "score": 25.7742,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Hypertrophy",
+          "score": 25.7016,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Bone atrophy",
+          "score": 25.6901,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Metastases to fallopian tube",
+          "score": 25.6472,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Acrochordon",
+          "score": 25.5885,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Eosinophil count decreased",
+          "score": 25.3398,
+          "known": false
+        }
+      ],
+      "DRUG:ASPIRIN": [
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Purpura fulminans",
+          "score": 47.7268,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cellulitis orbital",
+          "score": 36.2489,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Anoxia",
+          "score": 35.9244,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Epiretinal membrane",
+          "score": 34.4251,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Brain sarcoma",
+          "score": 32.0312,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Thyroid stimulating immunoglobulin",
+          "score": 31.8546,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Burnout syndrome",
+          "score": 31.8265,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Upper extremity mass",
+          "score": 31.8054,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Mantle cell lymphoma recurrent",
+          "score": 31.7628,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Immunosuppressant drug level abnormal",
+          "score": 31.6065,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Pituitary enlargement",
+          "score": 31.0921,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Application site exfoliation",
+          "score": 30.7669,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Lymphoma transformation",
+          "score": 30.5985,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Thyroxine free increased",
+          "score": 30.4509,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Urine leukocyte esterase positive",
+          "score": 30.3566,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Metabolic myopathy",
+          "score": 29.935,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Systemic scleroderma",
+          "score": 29.9101,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Shunt occlusion",
+          "score": 29.8933,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Post procedural hypothyroidism",
+          "score": 29.7938,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tongue paralysis",
+          "score": 29.7456,
+          "known": false
+        }
+      ],
+      "DRUG:IBUPROFEN": [
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Spermatozoa progressive motility decreased",
+          "score": 36.7185,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Retinal thickening",
+          "score": 33.4898,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Osteomyelitis chronic",
+          "score": 32.0175,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Brain sarcoma",
+          "score": 31.882,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Apnoea neonatal",
+          "score": 31.0331,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Somatic symptom disorder",
+          "score": 30.7532,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Non-high-density lipoprotein cholesterol increased",
+          "score": 30.7052,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Malaria",
+          "score": 30.3757,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Phlebolith",
+          "score": 30.0141,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Peliosis hepatis",
+          "score": 28.7493,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Lung carcinoma cell type unspecified stage II",
+          "score": 28.6709,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cellulitis orbital",
+          "score": 28.6691,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Thirst decreased",
+          "score": 28.6678,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Malpositioned teeth",
+          "score": 28.5692,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Obstructive defaecation",
+          "score": 28.4559,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Neurological decompensation",
+          "score": 28.197,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Hereditary angioedema",
+          "score": 27.5569,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Transitional cell carcinoma metastatic",
+          "score": 27.3926,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cutaneous B-cell lymphoma",
+          "score": 27.3186,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 27.2832,
+          "known": false
+        }
+      ],
+      "DRUG:ATORVASTATIN": [
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Metastases to thyroid",
+          "score": 31.643,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Application site erosion",
+          "score": 30.496,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Paroxysmal extreme pain disorder",
+          "score": 28.4947,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Breast disorder male",
+          "score": 28.3871,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 28.1868,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Neurological decompensation",
+          "score": 28.1167,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Non-high-density lipoprotein cholesterol increased",
+          "score": 27.5699,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Dyspraxia",
+          "score": 27.4213,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Bone atrophy",
+          "score": 27.2556,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Spider naevus",
+          "score": 26.9158,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Urine leukocyte esterase positive",
+          "score": 26.6265,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Papillary muscle rupture",
+          "score": 26.3961,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:T-cell type acute leukaemia",
+          "score": 26.1331,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Brain sarcoma",
+          "score": 25.8898,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cardiac sarcoidosis",
+          "score": 25.4507,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Autoimmune myocarditis",
+          "score": 25.2192,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Eosinophil count decreased",
+          "score": 24.9439,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Diabetic vascular disorder",
+          "score": 24.3028,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Haemodialysis",
+          "score": 24.1944,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Primary adrenal insufficiency",
+          "score": 24.0669,
+          "known": false
+        }
+      ],
+      "DRUG:LISINOPRIL": [
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Thyroid gland injury",
+          "score": 29.9058,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Retinal thickening",
+          "score": 25.7776,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Breast disorder male",
+          "score": 25.405,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Phlebolith",
+          "score": 24.4348,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Application site erosion",
+          "score": 23.8045,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Urine leukocyte esterase positive",
+          "score": 23.6337,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Malaria",
+          "score": 23.1915,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Intraocular melanoma",
+          "score": 23.0272,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Disseminated sporotrichosis",
+          "score": 22.3094,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 22.2942,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Hypervitaminosis",
+          "score": 21.5789,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Paraneoplastic syndrome",
+          "score": 21.4635,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Oral mucosa erosion",
+          "score": 21.3161,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Local anaesthetic systemic toxicity",
+          "score": 21.2396,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Stoma site ulcer",
+          "score": 21.115,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Heart transplant rejection",
+          "score": 21.0922,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Slow response to stimuli",
+          "score": 20.5013,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Epiretinal membrane",
+          "score": 20.3122,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Ear swelling",
+          "score": 20.2843,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Retroperitoneal lymphadenopathy",
+          "score": 20.2592,
+          "known": false
+        }
+      ],
+      "DRUG:NIVOLUMAB": [
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Osteomyelitis chronic",
+          "score": 34.9214,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Residual urine volume increased",
+          "score": 32.6666,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:T-cell type acute leukaemia",
+          "score": 31.9871,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Neurological decompensation",
+          "score": 31.8472,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Acute HIV infection",
+          "score": 31.2055,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Urine leukocyte esterase positive",
+          "score": 31.1609,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cannabinoid hyperemesis syndrome",
+          "score": 30.6745,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Fluid overload",
+          "score": 30.6128,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Malignant spinal cord compression",
+          "score": 29.5724,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Enterocutaneous fistula",
+          "score": 29.4853,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cytotoxic oedema",
+          "score": 29.2546,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Injection site hypersensitivity",
+          "score": 29.234,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Malaria",
+          "score": 29.1953,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Joint contracture",
+          "score": 28.6831,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Spine malformation",
+          "score": 28.4006,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Desmoid tumour",
+          "score": 28.3601,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Systemic scleroderma",
+          "score": 28.2064,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Sepsis syndrome",
+          "score": 27.976,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Liver transplant rejection",
+          "score": 27.9221,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tri-iodothyronine abnormal",
+          "score": 27.8383,
+          "known": false
+        }
+      ],
+      "DRUG:PEMBROLIZUMAB": [
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Bone atrophy",
+          "score": 31.4482,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Mean cell haemoglobin",
+          "score": 29.8834,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Retinal thickening",
+          "score": 29.4624,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Product reconstitution issue",
+          "score": 29.3251,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Venous pressure jugular decreased",
+          "score": 26.8023,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Limb traumatic amputation",
+          "score": 26.4118,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Optic nerve injury",
+          "score": 25.6024,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Product physical consistency issue",
+          "score": 25.5274,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Metastases to thyroid",
+          "score": 25.468,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Anticonvulsant drug level decreased",
+          "score": 24.7724,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Gastrointestinal polyp haemorrhage",
+          "score": 24.6464,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cardiac function test abnormal",
+          "score": 24.5146,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Photoonycholysis",
+          "score": 23.9563,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Serratia bacteraemia",
+          "score": 23.6555,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Bronchial irritation",
+          "score": 23.6356,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Intentional device use issue",
+          "score": 23.622,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Implant site fibrosis",
+          "score": 23.5297,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Factor VIII inhibition",
+          "score": 23.4548,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Persistent corneal epithelial defect",
+          "score": 23.211,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Paraneoplastic syndrome",
+          "score": 22.9357,
+          "known": false
+        }
+      ],
+      "DRUG:SEMAGLUTIDE": [
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Dyspraxia",
+          "score": 32.5604,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Bacterial endophthalmitis",
+          "score": 32.4006,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cerebrospinal fluid leakage",
+          "score": 32.1887,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Paroxysmal extreme pain disorder",
+          "score": 30.8015,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Sepsis syndrome",
+          "score": 30.4491,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 30.4302,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Epiretinal membrane",
+          "score": 30.2968,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Malaria",
+          "score": 30.2958,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Parkinson's disease psychosis",
+          "score": 30.1837,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Locked-in syndrome",
+          "score": 30.0914,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Diabetic vascular disorder",
+          "score": 29.6306,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Application site erosion",
+          "score": 29.1068,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Local anaesthetic systemic toxicity",
+          "score": 28.4002,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Hydrothorax",
+          "score": 28.1429,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Neurological decompensation",
+          "score": 27.3963,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Injection site oedema",
+          "score": 27.3735,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Osteomyelitis chronic",
+          "score": 26.6768,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Mantle cell lymphoma recurrent",
+          "score": 26.4456,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Pneumoretroperitoneum",
+          "score": 26.2531,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Acute prerenal failure",
+          "score": 26.1889,
+          "known": false
+        }
+      ],
+      "DRUG:METHOTREXATE": [
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Sexual abuse",
+          "score": 33.5798,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tracheal deviation",
+          "score": 31.3946,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Lordosis",
+          "score": 29.2118,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vocal cord inflammation",
+          "score": 27.5388,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vitreoretinal traction syndrome",
+          "score": 27.1067,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Unintentional use for unapproved indication",
+          "score": 26.7058,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Metastases to thyroid",
+          "score": 26.2565,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Slow response to stimuli",
+          "score": 26.1147,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Epiretinal membrane",
+          "score": 25.8743,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Phlebolith",
+          "score": 25.7346,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Intentional device use issue",
+          "score": 24.808,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Neurological decompensation",
+          "score": 24.7541,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Colorectal cancer recurrent",
+          "score": 24.7095,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Implant site fibrosis",
+          "score": 24.2659,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Joint microhaemorrhage",
+          "score": 23.955,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Retinal degeneration",
+          "score": 23.9506,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Cytogenetic analysis abnormal",
+          "score": 23.9152,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Somatic symptom disorder",
+          "score": 23.873,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Blood testosterone abnormal",
+          "score": 23.723,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Central nervous system mass",
+          "score": 23.6182,
+          "known": false
+        }
+      ],
+      "DRUG:WARFARIN": [
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Neurological decompensation",
+          "score": 34.5794,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Paraneoplastic syndrome",
+          "score": 34.503,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Metastases to thyroid",
+          "score": 33.8041,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Osteomyelitis chronic",
+          "score": 32.5752,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:CREST syndrome",
+          "score": 31.8293,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 31.0653,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Systemic scleroderma",
+          "score": 30.6984,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Intestinal haematoma",
+          "score": 30.163,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tongue paralysis",
+          "score": 29.8996,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Therapeutic drug monitoring analysis not performed",
+          "score": 29.6871,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Fracture malunion",
+          "score": 29.1362,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Hepatitis B surface antigen positive",
+          "score": 28.8491,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Paroxysmal extreme pain disorder",
+          "score": 28.517,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Embolia cutis medicamentosa",
+          "score": 28.4737,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tympanic membrane disorder",
+          "score": 28.0601,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Antibody test abnormal",
+          "score": 27.7456,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Tender joint count increased",
+          "score": 27.6945,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Bronchial irritation",
+          "score": 27.6535,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Hypergammaglobulinaemia benign monoclonal",
+          "score": 27.554,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "causes_adverse_event",
+          "tail": "AE:Vascular encephalopathy",
+          "score": 27.4088,
+          "known": false
+        }
+      ]
+    },
+    "drug_target": {
+      "DRUG:RISPERIDONE": [
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000164086",
+          "score": 5.5017,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:Sulfonylurea receptor 1, Kir6.2",
+          "score": 5.4578,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000140678",
+          "score": 5.3544,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000504594",
+          "score": 5.2702,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000064601",
+          "score": 5.1756,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000141736",
+          "score": 5.1512,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000358010",
+          "score": 5.1198,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000423241",
+          "score": 5.0617,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000301193",
+          "score": 5.0364,
+          "known": false
+        },
+        {
+          "head": "DRUG:RISPERIDONE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000253925",
+          "score": 5.0333,
+          "known": false
+        }
+      ],
+      "DRUG:METFORMIN": [
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000313809",
+          "score": 5.4456,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000379739",
+          "score": 5.4376,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000363463",
+          "score": 4.8965,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000173848",
+          "score": 4.8813,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000682292",
+          "score": 4.8332,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000532097",
+          "score": 4.798,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "GENE:Beta-secretase 1",
+          "score": 4.7843,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000334696",
+          "score": 4.7745,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000276163",
+          "score": 4.7637,
+          "known": false
+        },
+        {
+          "head": "DRUG:METFORMIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000501317",
+          "score": 4.7296,
+          "known": false
+        }
+      ],
+      "DRUG:ASPIRIN": [
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000480884",
+          "score": 6.8328,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000339992",
+          "score": 6.5892,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000305595",
+          "score": 6.4198,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000165458",
+          "score": 6.2878,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000301671",
+          "score": 6.1763,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000674963",
+          "score": 6.1377,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000106436",
+          "score": 6.124,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000229859",
+          "score": 6.082,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000374036",
+          "score": 6.0537,
+          "known": false
+        },
+        {
+          "head": "DRUG:ASPIRIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000323348",
+          "score": 6.0261,
+          "known": false
+        }
+      ],
+      "DRUG:IBUPROFEN": [
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000350369",
+          "score": 5.7685,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000632541",
+          "score": 5.5767,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000343939",
+          "score": 5.2068,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:Free fatty acid receptor 1",
+          "score": 5.0452,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000413499",
+          "score": 4.9474,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000372394",
+          "score": 4.9119,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000385581",
+          "score": 4.857,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000363229",
+          "score": 4.8296,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000315064",
+          "score": 4.7574,
+          "known": false
+        },
+        {
+          "head": "DRUG:IBUPROFEN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000450969",
+          "score": 4.7373,
+          "known": false
+        }
+      ],
+      "DRUG:ATORVASTATIN": [
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000370654",
+          "score": 5.4674,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000371143",
+          "score": 5.2445,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000334176",
+          "score": 4.9654,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000226730",
+          "score": 4.854,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000323348",
+          "score": 4.7703,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000264658",
+          "score": 4.7533,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000316173",
+          "score": 4.7438,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000541546",
+          "score": 4.6831,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:Insulin-like growth factor 1 receptor",
+          "score": 4.5823,
+          "known": false
+        },
+        {
+          "head": "DRUG:ATORVASTATIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000254436",
+          "score": 4.4938,
+          "known": false
+        }
+      ],
+      "DRUG:LISINOPRIL": [
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000409902",
+          "score": 4.1038,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000406385",
+          "score": 4.0524,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000458358",
+          "score": 4.0407,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000446680",
+          "score": 3.9901,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000425437",
+          "score": 3.9108,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000226979",
+          "score": 3.8753,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000307503",
+          "score": 3.8064,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000615183",
+          "score": 3.8048,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000378888",
+          "score": 3.7966,
+          "known": false
+        },
+        {
+          "head": "DRUG:LISINOPRIL",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000259938",
+          "score": 3.763,
+          "known": false
+        }
+      ],
+      "DRUG:NIVOLUMAB": [
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000370654",
+          "score": 5.9082,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000505805",
+          "score": 5.7537,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000397693",
+          "score": 5.5856,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000334176",
+          "score": 5.5002,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000257591",
+          "score": 5.4445,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000178999",
+          "score": 5.3971,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000496455",
+          "score": 5.3487,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000482732",
+          "score": 5.3294,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000449576",
+          "score": 5.1934,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000439456",
+          "score": 5.0129,
+          "known": false
+        }
+      ],
+      "DRUG:PEMBROLIZUMAB": [
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000416240",
+          "score": 6.5468,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000364831",
+          "score": 5.9782,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000362340",
+          "score": 5.6865,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000219334",
+          "score": 5.5334,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000334176",
+          "score": 5.3551,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000276927",
+          "score": 5.2894,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000446205",
+          "score": 5.2866,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000397693",
+          "score": 5.2207,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000366565",
+          "score": 5.1594,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000611143",
+          "score": 5.1314,
+          "known": false
+        }
+      ],
+      "DRUG:SEMAGLUTIDE": [
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000384869",
+          "score": 5.783,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000302297",
+          "score": 5.5719,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000125378",
+          "score": 5.4738,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000304061",
+          "score": 5.4606,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000226730",
+          "score": 5.447,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000425864",
+          "score": 5.443,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000216540",
+          "score": 5.4184,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000458358",
+          "score": 5.2739,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000314888",
+          "score": 5.269,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000534510",
+          "score": 5.1045,
+          "known": false
+        }
+      ],
+      "DRUG:METHOTREXATE": [
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000319516",
+          "score": 5.6524,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000446485",
+          "score": 5.1585,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000362634",
+          "score": 5.1374,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000284878",
+          "score": 5.0488,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000479615",
+          "score": 4.8736,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000469142",
+          "score": 4.8645,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000256592",
+          "score": 4.8236,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000334696",
+          "score": 4.7146,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000489675",
+          "score": 4.6794,
+          "known": false
+        },
+        {
+          "head": "DRUG:METHOTREXATE",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000455897",
+          "score": 4.639,
+          "known": false
+        }
+      ],
+      "DRUG:WARFARIN": [
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000276066",
+          "score": 6.3549,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "PROTEIN:ENSP00000291842",
+          "score": 6.1211,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSG00000115963",
+          "score": 5.8351,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000413499",
+          "score": 5.6492,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000344550",
+          "score": 5.587,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000227471",
+          "score": 5.4995,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000348099",
+          "score": 5.4593,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENST00000557906",
+          "score": 5.3614,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000438926",
+          "score": 5.3418,
+          "known": false
+        },
+        {
+          "head": "DRUG:WARFARIN",
+          "relation": "binds_to",
+          "tail": "GENE:ENSP00000381302",
+          "score": 5.3137,
+          "known": false
+        }
+      ]
+    },
+    "disease_drug": {
+      "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer": [
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:VONICOG ALFA",
+          "score": 5.355,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:CENOBAMATE",
+          "score": 5.1083,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:AMA0076",
+          "score": 5.0219,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:DIOVAN HCT UNKNOWN",
+          "score": 5.0018,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:IMMUNOGLOBULIN CYTOMEGALOVIRUS",
+          "score": 4.9786,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:ELEXACAFTOR",
+          "score": 4.9626,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:METHYLPHENIDATE HYDROCHLORIDE",
+          "score": 4.8374,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:HOMEOPATHICS, UNSPECIFIED",
+          "score": 4.7742,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:BETAMETHASONE VALERATE",
+          "score": 4.7585,
+          "known": false
+        },
+        {
+          "head": "DISEASE:1. Relapsed Ovarian Cancer 2. Metastatic Ovarian Cancer 3. Endometrial Cancer 4. Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:FLUMETHASONE PIVALATE",
+          "score": 4.7432,
+          "known": false
+        }
+      ],
+      "DISEASE:2L+ Cervical Cancer": [
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:NYSTATIN\\ZINC OXIDE",
+          "score": 4.6527,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:PRAMIPEXOLE DIHYDROCHLORIDE",
+          "score": 4.2361,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:OCTINOXATE\\ZINC OXIDE",
+          "score": 4.1638,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:ACIPIMOX",
+          "score": 4.0904,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:OSPEMIFENE",
+          "score": 3.8935,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:ROPINIROLE HYDROCHLORIDE",
+          "score": 3.8176,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:BALSALAZIDE",
+          "score": 3.8168,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:TOMINERSEN",
+          "score": 3.8126,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:ISRADIPINE",
+          "score": 3.8116,
+          "known": false
+        },
+        {
+          "head": "DISEASE:2L+ Cervical Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:GRAMICIDIN\\NEOMYCIN SULFATE",
+          "score": 3.7849,
+          "known": false
+        }
+      ],
+      "DISEASE:A. Colorectal Cancer": [
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:HYDROCHLOROTHIAZIDE\\TELMISARTAN",
+          "score": 8.2643,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:GLUTAMIC ACID",
+          "score": 7.2909,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:LAMIVUDINE\\ZIDOVUDINE",
+          "score": 6.7004,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:NECITUMUMAB",
+          "score": 6.4077,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:METFORMIN;PIOGLITAZONE",
+          "score": 6.2188,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:PALOSURAN",
+          "score": 6.1446,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:CINNAMALDEHYDE",
+          "score": 6.103,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:LONCASTUXIMAB TESIRINE",
+          "score": 6.0914,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:BISEGLIPTIN",
+          "score": 6.0369,
+          "known": false
+        },
+        {
+          "head": "DISEASE:A. Colorectal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:ELOCALCITOL",
+          "score": 5.7478,
+          "known": false
+        }
+      ],
+      "DISEASE:Abdominal Cancer": [
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:PEGNIVACOGIN",
+          "score": 4.8618,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:PAMREVLUMAB",
+          "score": 4.7484,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:AVOBENZONE\\HOMOSALATE\\OCTISALATE\\OCTOCRYLENE OR AVOBENZONE\\HOMOSALATE\\OCTISALATE\\OCTOCRYLENE\\OXYBENZONE",
+          "score": 4.7049,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:BRANEBRUTINIB",
+          "score": 4.3415,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:NALTREXONE HYDROCHLORIDE",
+          "score": 4.2496,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:CAMELLIA SPP",
+          "score": 4.229,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:CHLORPHENAMINE;IBUPROFEN;PSEUDOEPHEDRINE",
+          "score": 4.042,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:GLIMEPIRIDE;ROSIGLITAZONE",
+          "score": 3.9502,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:DROSPIRENONE\\ETHINYL ESTRADIOL",
+          "score": 3.9321,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abdominal Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:GALANTAMINE HYDROBROMIDE",
+          "score": 3.8311,
+          "known": false
+        }
+      ],
+      "DISEASE:Abnormal Breast Cancer Screening Tests": [
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:NELFINAVIR",
+          "score": 4.8249,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:CALCIUM GLUCONATE",
+          "score": 4.7632,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:GLATIRAMER ACETATE",
+          "score": 4.5968,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:DIOSMIN",
+          "score": 4.4394,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:VANDETANIB",
+          "score": 4.4178,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:LUTROPIN ALFA",
+          "score": 4.3838,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:CISPLATIN\\CYTARABINE\\ETOPOSIDE\\METHYLPREDNISOLONE (ESHAP)",
+          "score": 4.326,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:ISATUXIMAB, TRIAL",
+          "score": 4.1736,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:RAVOXERTINIB",
+          "score": 4.1461,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Breast Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:ATROPA BELLADONNA\\CALCIUM PHOSPHATE\\CHAMOMILE\\COFFEA ARABICA FRUIT",
+          "score": 4.1452,
+          "known": false
+        }
+      ],
+      "DISEASE:Abnormal Cervical Cancer Screening Tests": [
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:VIBOSTOLIMAB",
+          "score": 5.8886,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:AVUTOMETINIB",
+          "score": 5.4857,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:APATORSEN",
+          "score": 5.3324,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:BECLOMETASONE;FORMOTEROL;GLYCOPYRRONIUM",
+          "score": 5.2647,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:INCB-086550",
+          "score": 5.1863,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:ABACAVIR SULFATE",
+          "score": 4.8439,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:CLOTRIMAZOLE",
+          "score": 4.7968,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:BRETYLIUM TOSYLATE",
+          "score": 4.6769,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:TEBENTAFUSP",
+          "score": 4.6539,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Cervical Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:PROACTIV + SKIN SMOOTHING EXFOLIATOR",
+          "score": 4.6276,
+          "known": false
+        }
+      ],
+      "DISEASE:Abnormal Colon Cancer Screening Tests": [
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:MDMB-4EN-PINACA",
+          "score": 5.348,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:QUERCETIN",
+          "score": 4.4358,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:PEMETREXED DISODIUM",
+          "score": 4.3882,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:LEVOMETHADYL ACETATE HYDROCHLORIDE",
+          "score": 4.2313,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:BENZOYLECGONINE",
+          "score": 4.0161,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:VEDOLIZUMAB, TRIAL",
+          "score": 4.0041,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:OMEGA-3-ACID ETHYL ESTERS",
+          "score": 3.9989,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:MONTEPLASE",
+          "score": 3.9456,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:VITAMIN B1;VITAMIN B2;VITAMIN B3;VITAMIN B6",
+          "score": 3.8985,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Abnormal Colon Cancer Screening Tests",
+          "relation": "investigates",
+          "tail": "DRUG:PIVMECILLINAM",
+          "score": 3.7953,
+          "known": false
+        }
+      ],
+      "DISEASE:Active Breast Cancer Treatment": [
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:AMA0076",
+          "score": 5.9182,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:NETUPITANT",
+          "score": 5.6118,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:ANTHOXANTHUM SPP;DACTYLIS SPP;LOLIUM SPP;PHLEUM SPP;POA SPP",
+          "score": 5.4473,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:FASITIBANT CHLORIDE",
+          "score": 5.3702,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:DILTIAZEM MALATE",
+          "score": 4.9333,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:OMBITASVIR",
+          "score": 4.8686,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:THIORIDAZINE",
+          "score": 4.8489,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:CHLOROQUINE",
+          "score": 4.8391,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:DIFLUCORTOLONE",
+          "score": 4.7123,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Active Breast Cancer Treatment",
+          "relation": "investigates",
+          "tail": "DRUG:TEMOCILLIN",
+          "score": 4.6852,
+          "known": false
+        }
+      ],
+      "DISEASE:Adenosquamous Cell Lung Cancer": [
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:DYDROGESTERONE",
+          "score": 6.9745,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:L-21649",
+          "score": 5.8572,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:PYRIDOXINE HYDROCHLORIDE",
+          "score": 5.7517,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:SUMATRIPTAN SUCCINATE",
+          "score": 5.6663,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:ENCAINIDE HYDROCHLORIDE",
+          "score": 5.4207,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:FIBRINOLYSIN, HUMAN",
+          "score": 5.2681,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:HYDROMORPHONE HYDROCHLORIDE\\NALOXONE HYDROCHLORIDE",
+          "score": 5.2009,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:AVOBENZONE\\HOMOSALATE\\OCTISALATE\\OCTOCRYLENE OR AVOBENZONE\\HOMOSALATE\\OCTISALATE\\OCTOCRYLENE\\OXYBENZONE",
+          "score": 5.1287,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:HYALURONIC ACID;LIDOCAINE",
+          "score": 4.9538,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adenosquamous Cell Lung Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:BREMELANOTIDE ACETATE",
+          "score": 4.9385,
+          "known": false
+        }
+      ],
+      "DISEASE:Adjuvant Radiotherapy for Breast Cancer": [
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:DOCONEXENT\\ICOSAPENT",
+          "score": 6.5273,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:GLYCINE",
+          "score": 6.4971,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:SALIX ALBA (WILLOW) BARK EXTRACT",
+          "score": 5.7419,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:PARSATUZUMAB",
+          "score": 5.564,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:METHAMPHETAMINE",
+          "score": 5.3669,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:SOTAGLIFLOZIN",
+          "score": 5.2514,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:SUGAMMADEX",
+          "score": 5.224,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:PARAMETHADIONE",
+          "score": 4.9828,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:TAVAPADON",
+          "score": 4.974,
+          "known": false
+        },
+        {
+          "head": "DISEASE:Adjuvant Radiotherapy for Breast Cancer",
+          "relation": "investigates",
+          "tail": "DRUG:DANAPAROID",
+          "score": 4.9614,
+          "known": false
+        }
+      ]
+    },
+    "sex_differential": {
+      "DRUG:SEMAGLUTIDE": [
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Schizencephaly",
+          "score": 4.0315,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Poor sucking reflex",
+          "score": 3.8582,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Sacroiliitis",
+          "score": 3.8519,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Botulism",
+          "score": 3.6604,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Duodenitis",
+          "score": 3.6367,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Application site hypoaesthesia",
+          "score": 3.6085,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Cerebral artery embolism",
+          "score": 3.5773,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Keratitis",
+          "score": 3.5687,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Breast disorder male",
+          "score": 3.5582,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Oxygen consumption increased",
+          "score": 3.5554,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Hypoglycaemia neonatal",
+          "score": 3.535,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Oesophageal varices haemorrhage",
+          "score": 3.5206,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Mucous membrane disorder",
+          "score": 3.5149,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Tongue paralysis",
+          "score": 3.4749,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Rebound psychosis",
+          "score": 3.4391,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Lymphocele",
+          "score": 3.4097,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Lip erosion",
+          "score": 3.4069,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Pelvic fluid collection",
+          "score": 3.4059,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Cellulitis orbital",
+          "score": 3.3561,
+          "known": false
+        },
+        {
+          "head": "DRUG:SEMAGLUTIDE",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:T-cell type acute leukaemia",
+          "score": 3.3537,
+          "known": false
+        }
+      ],
+      "DRUG:NIVOLUMAB": [
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Gravitational oedema",
+          "score": 3.8397,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Malignant melanoma stage II",
+          "score": 3.8332,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Metabolic myopathy",
+          "score": 3.7083,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Granuloma",
+          "score": 3.7047,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Large for dates baby",
+          "score": 3.6949,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Venous pressure jugular increased",
+          "score": 3.6904,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Poor sucking reflex",
+          "score": 3.6738,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Sacroiliitis",
+          "score": 3.5922,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Homicidal ideation",
+          "score": 3.5517,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Parkinsonism",
+          "score": 3.5224,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Red blood cell count decreased",
+          "score": 3.4496,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Allergy to chemicals",
+          "score": 3.3956,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Therapeutic response delayed",
+          "score": 3.3786,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Penile burning sensation",
+          "score": 3.351,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Mean cell haemoglobin increased",
+          "score": 3.2883,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Rectal polyp",
+          "score": 3.2881,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Vancomycin infusion reaction",
+          "score": 3.2491,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Product supply issue",
+          "score": 3.2397,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Hypoglycaemia neonatal",
+          "score": 3.2384,
+          "known": false
+        },
+        {
+          "head": "DRUG:NIVOLUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Basilar artery occlusion",
+          "score": 3.2201,
+          "known": false
+        }
+      ],
+      "DRUG:PEMBROLIZUMAB": [
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Poor sucking reflex",
+          "score": 3.8542,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Cerebral artery embolism",
+          "score": 3.6851,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Granuloma",
+          "score": 3.6717,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Therapeutic response delayed",
+          "score": 3.6244,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Mantle cell lymphoma recurrent",
+          "score": 3.6096,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Tongue paralysis",
+          "score": 3.5673,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Eye infection",
+          "score": 3.4563,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Thyroid gland injury",
+          "score": 3.4556,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Muscle haemorrhage",
+          "score": 3.4483,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Educational problem",
+          "score": 3.4348,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Impulsive behaviour",
+          "score": 3.3476,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Spinal meningioma benign",
+          "score": 3.3364,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Salpingitis",
+          "score": 3.32,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Hypoglycaemia neonatal",
+          "score": 3.3133,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Venous pressure jugular increased",
+          "score": 3.3109,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Pelvic fluid collection",
+          "score": 3.3079,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:HIV infection",
+          "score": 3.3051,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Intraocular pressure decreased",
+          "score": 3.2836,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Red blood cell count decreased",
+          "score": 3.2644,
+          "known": false
+        },
+        {
+          "head": "DRUG:PEMBROLIZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Inhibitory drug interaction",
+          "score": 3.2526,
+          "known": false
+        }
+      ],
+      "DRUG:TRASTUZUMAB": [
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Mucous membrane disorder",
+          "score": 4.1553,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Impulsive behaviour",
+          "score": 3.8092,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Ear swelling",
+          "score": 3.7742,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Oxygen consumption increased",
+          "score": 3.708,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 3.5863,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Sacroiliitis",
+          "score": 3.5198,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Large for dates baby",
+          "score": 3.5184,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Botulism",
+          "score": 3.4325,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Mean cell haemoglobin increased",
+          "score": 3.3856,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:CREST syndrome",
+          "score": 3.3841,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Metabolic myopathy",
+          "score": 3.3554,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Pericardial effusion",
+          "score": 3.3286,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Type V hyperlipidaemia",
+          "score": 3.3133,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Thyroid gland injury",
+          "score": 3.3127,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Parkinsonism",
+          "score": 3.3073,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Skin laxity",
+          "score": 3.2352,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Visual field defect",
+          "score": 3.2308,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Pneumonia salmonella",
+          "score": 3.2106,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Staphylococcal abscess",
+          "score": 3.1885,
+          "known": false
+        },
+        {
+          "head": "DRUG:TRASTUZUMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Corneal infiltrates",
+          "score": 3.1842,
+          "known": false
+        }
+      ],
+      "DRUG:RITUXIMAB": [
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Impulsive behaviour",
+          "score": 3.5926,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Sacroiliitis",
+          "score": 3.5339,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Oxygen consumption increased",
+          "score": 3.4507,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Therapeutic response delayed",
+          "score": 3.4097,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Granuloma",
+          "score": 3.2932,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Vancomycin infusion reaction",
+          "score": 3.2715,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Haemolytic uraemic syndrome",
+          "score": 3.1949,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:HIV infection",
+          "score": 3.1747,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Red blood cell count decreased",
+          "score": 3.1307,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Gravitational oedema",
+          "score": 3.1124,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Acute pulmonary oedema",
+          "score": 3.1114,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Brain natriuretic peptide increased",
+          "score": 3.0969,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Immune system disorder",
+          "score": 3.0956,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Tongue paralysis",
+          "score": 3.0851,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Diverticulitis intestinal perforated",
+          "score": 3.0172,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Obsessive thoughts",
+          "score": 3.013,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Type V hyperlipidaemia",
+          "score": 3.0117,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Gastric dilatation",
+          "score": 2.9999,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Duodenitis",
+          "score": 2.9994,
+          "known": false
+        },
+        {
+          "head": "DRUG:RITUXIMAB",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Blood urea decreased",
+          "score": 2.9951,
+          "known": false
+        }
+      ],
+      "DRUG:DAPAGLIFLOZIN": [
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:CREST syndrome",
+          "score": 4.3349,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Vocal cord paralysis",
+          "score": 4.2808,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Cockroach allergy",
+          "score": 4.2535,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Chronic fatigue syndrome",
+          "score": 4.1197,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Skin haemorrhage",
+          "score": 4.1051,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Fluid replacement",
+          "score": 4.0776,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Blood electrolytes decreased",
+          "score": 4.0015,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Dermatitis acneiform",
+          "score": 3.8959,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Genital infection male",
+          "score": 3.8515,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Granuloma",
+          "score": 3.8479,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Mastication disorder",
+          "score": 3.8402,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Stoma site ulcer",
+          "score": 3.8127,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Cellulitis orbital",
+          "score": 3.8034,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Noninfective gingivitis",
+          "score": 3.7937,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Short stature",
+          "score": 3.7821,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Paraparesis",
+          "score": 3.7374,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Acute lung injury",
+          "score": 3.6746,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Serous retinal detachment",
+          "score": 3.6617,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Craniosynostosis",
+          "score": 3.6574,
+          "known": false
+        },
+        {
+          "head": "DRUG:DAPAGLIFLOZIN",
+          "relation": "sex_differential_adverse_event",
+          "tail": "AE:Bone marrow failure",
+          "score": 3.6541,
+          "known": false
+        }
+      ]
+    }
+  }
+}
