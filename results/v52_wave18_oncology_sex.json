@@ -1,0 +1,86 @@
+{
+  "analysis": "oncology_drug_sex_differential_safety",
+  "wave": 18,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:47:31.416630",
+  "novelty": "Comprehensive oncology drug class sex-bias analysis: chemo, targeted, hormonal with toxicity category breakdown",
+  "class_profiles": [
+    {
+      "class": "Chemotherapy",
+      "n_drugs": 15,
+      "n_signals": 4558,
+      "pct_female": 60.881965774462486,
+      "mean_lr": 0.21726084476562563
+    },
+    {
+      "class": "Targeted",
+      "n_drugs": 17,
+      "n_signals": 1836,
+      "pct_female": 66.50326797385621,
+      "mean_lr": 0.2743514619579347
+    },
+    {
+      "class": "Hormonal",
+      "n_drugs": 9,
+      "n_signals": 103,
+      "pct_female": 40.77669902912621,
+      "mean_lr": -0.4926213715742099
+    }
+  ],
+  "toxicity_categories": [
+    {
+      "category": "Myelosuppression",
+      "n_signals": 125,
+      "pct_female": 75.2,
+      "mean_lr": 0.47835347506881915
+    },
+    {
+      "category": "Nausea/Emesis",
+      "n_signals": 9,
+      "pct_female": 44.44444444444444,
+      "mean_lr": -0.11599843742820447
+    },
+    {
+      "category": "Neuropathy",
+      "n_signals": 40,
+      "pct_female": 70.0,
+      "mean_lr": 0.36056494621549623
+    },
+    {
+      "category": "Cardiotoxicity",
+      "n_signals": 101,
+      "pct_female": 86.13861386138613,
+      "mean_lr": 0.750176229487444
+    },
+    {
+      "category": "Hepatotoxicity",
+      "n_signals": 539,
+      "pct_female": 74.95361781076066,
+      "mean_lr": 0.4754389293949688
+    },
+    {
+      "category": "Nephrotoxicity",
+      "n_signals": 138,
+      "pct_female": 77.53623188405797,
+      "mean_lr": 0.5221732579505158
+    },
+    {
+      "category": "Dermatological",
+      "n_signals": 208,
+      "pct_female": 55.769230769230774,
+      "mean_lr": 0.09290121237705923
+    },
+    {
+      "category": "Fatigue",
+      "n_signals": 12,
+      "pct_female": 66.66666666666666,
+      "mean_lr": 0.20695565244595496
+    },
+    {
+      "category": "Immunological",
+      "n_signals": 70,
+      "pct_female": 68.57142857142857,
+      "mean_lr": 0.3897636446668972
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "analysis": "autoimmune_drug_sex_differential_safety",
+  "wave": 19,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:49:22.630026",
+  "novelty": "Sex-bias patterns in autoimmune drugs -- DMARDs, anti-TNF, IL/JAK inhibitors, B-cell therapies, MS drugs",
+  "class_profiles": [
+    {
+      "class": "DMARDs",
+      "n_drugs": 8,
+      "n_signals": 3415,
+      "pct_female": 56.04685212298682,
+      "mean_lr": 0.14534627626908095
+    },
+    {
+      "class": "Anti-TNF",
+      "n_drugs": 5,
+      "n_signals": 2696,
+      "pct_female": 45.845697329376854,
+      "mean_lr": 0.09207070196696568
+    },
+    {
+      "class": "IL Inhibitors",
+      "n_drugs": 8,
+      "n_signals": 1641,
+      "pct_female": 50.09140767824497,
+      "mean_lr": 0.2271072233052732
+    },
+    {
+      "class": "JAK Inhibitors",
+      "n_drugs": 4,
+      "n_signals": 675,
+      "pct_female": 46.22222222222222,
+      "mean_lr": -0.02899562418283545
+    },
+    {
+      "class": "B-cell Therapies",
+      "n_drugs": 5,
+      "n_signals": 1054,
+      "pct_female": 57.400379506641364,
+      "mean_lr": 0.3288121394269218
+    },
+    {
+      "class": "Other Autoimmune",
+      "n_drugs": 8,
+      "n_signals": 1021,
+      "pct_female": 38.39373163565132,
+      "mean_lr": -0.058344505894282625
+    }
+  ],
+  "infection_risk": [
+    {
+      "class": "DMARDs",
+      "n_infection_signals": 322,
+      "pct_female": 48.13664596273292
+    },
+    {
+      "class": "Anti-TNF",
+      "n_infection_signals": 153,
+      "pct_female": 37.908496732026144
+    },
+    {
+      "class": "IL Inhibitors",
+      "n_infection_signals": 111,
+      "pct_female": 35.13513513513514
+    },
+    {
+      "class": "JAK Inhibitors",
+      "n_infection_signals": 48,
+      "pct_female": 54.166666666666664
+    },
+    {
+      "class": "B-cell Therapies",
+      "n_infection_signals": 84,
+      "pct_female": 40.476190476190474
+    },
+    {
+      "class": "Other Autoimmune",
+      "n_infection_signals": 46,
+      "pct_female": 30.434782608695656
+    }
+  ],
+  "organ_toxicity": [
+    {
+      "organ": "Hepatic",
+      "n_signals": 737,
+      "pct_female": 55.223880597014926,
+      "mean_lr": 0.27729779254228976
+    },
+    {
+      "organ": "Cardiac",
+      "n_signals": 112,
+      "pct_female": 40.17857142857143,
+      "mean_lr": -0.17962774827169783
+    },
+    {
+      "organ": "GI",
+      "n_signals": 352,
+      "pct_female": 51.13636363636363,
+      "mean_lr": 0.13331333146922783
+    },
+    {
+      "organ": "Pulmonary",
+      "n_signals": 244,
+      "pct_female": 53.68852459016394,
+      "mean_lr": 0.07820271298897019
+    },
+    {
+      "organ": "Dermatological",
+      "n_signals": 452,
+      "pct_female": 48.008849557522126,
+      "mean_lr": 0.023287876241442983
+    },
+    {
+      "organ": "Hematological",
+      "n_signals": 73,
+      "pct_female": 47.94520547945205,
+      "mean_lr": -0.04170564526552768
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "analysis": "antibiotic_anti_infective_sex_differential",
+  "wave": 20,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:49:35.335205",
+  "novelty": "Comprehensive anti-infective sex-bias: FQ tendon damage, aminoglycoside nephrotoxicity, ARV metabolic effects",
+  "class_profiles": [
+    {
+      "class": "Fluoroquinolones",
+      "n_drugs": 5,
+      "n_signals": 816,
+      "pct_female": 45.34313725490196,
+      "mean_lr": -0.07867795181701238
+    },
+    {
+      "class": "Penicillins",
+      "n_drugs": 4,
+      "n_signals": 239,
+      "pct_female": 43.09623430962343,
+      "mean_lr": -0.12190600137492374
+    },
+    {
+      "class": "Cephalosporins",
+      "n_drugs": 6,
+      "n_signals": 378,
+      "pct_female": 57.407407407407405,
+      "mean_lr": 0.014894395828980063
+    },
+    {
+      "class": "Macrolides",
+      "n_drugs": 3,
+      "n_signals": 419,
+      "pct_female": 36.754176610978526,
+      "mean_lr": -0.24130455896615255
+    },
+    {
+      "class": "Tetracyclines",
+      "n_drugs": 4,
+      "n_signals": 360,
+      "pct_female": 58.333333333333336,
+      "mean_lr": 0.38714430420224744
+    },
+    {
+      "class": "Aminoglycosides",
+      "n_drugs": 4,
+      "n_signals": 178,
+      "pct_female": 51.12359550561798,
+      "mean_lr": 0.007257139312627176
+    },
+    {
+      "class": "Carbapenems",
+      "n_drugs": 4,
+      "n_signals": 164,
+      "pct_female": 76.21951219512195,
+      "mean_lr": 0.4964919738123765
+    },
+    {
+      "class": "Glycopeptides",
+      "n_drugs": 2,
+      "n_signals": 193,
+      "pct_female": 76.68393782383419,
+      "mean_lr": 0.49029270193070357
+    },
+    {
+      "class": "Antifungals",
+      "n_drugs": 6,
+      "n_signals": 388,
+      "pct_female": 76.5463917525773,
+      "mean_lr": 0.5668472126671005
+    },
+    {
+      "class": "Antivirals",
+      "n_drugs": 8,
+      "n_signals": 549,
+      "pct_female": 60.29143897996357,
+      "mean_lr": 0.1898510429653108
+    },
+    {
+      "class": "Anti-TB",
+      "n_drugs": 4,
+      "n_signals": 206,
+      "pct_female": 74.27184466019418,
+      "mean_lr": 0.46337422557081104
+    }
+  ],
+  "organ_toxicity": [
+    {
+      "organ": "Nephrotoxicity",
+      "n_signals": 97,
+      "pct_female": 64.94845360824742,
+      "mean_lr": 0.30388058863300077
+    },
+    {
+      "organ": "Hepatotoxicity",
+      "n_signals": 279,
+      "pct_female": 57.70609318996416,
+      "mean_lr": 0.2138312793454433
+    },
+    {
+      "organ": "Ototoxicity",
+      "n_signals": 18,
+      "pct_female": 44.44444444444444,
+      "mean_lr": -0.11994377744890768
+    },
+    {
+      "organ": "C. difficile",
+      "n_signals": 32,
+      "pct_female": 68.75,
+      "mean_lr": 0.5268640509281326
+    },
+    {
+      "organ": "Allergic",
+      "n_signals": 74,
+      "pct_female": 72.97297297297297,
+      "mean_lr": 0.4829519101437543
+    },
+    {
+      "organ": "Hematological",
+      "n_signals": 67,
+      "pct_female": 56.71641791044776,
+      "mean_lr": 0.1988219655185692
+    },
+    {
+      "organ": "GI",
+      "n_signals": 91,
+      "pct_female": 59.34065934065934,
+      "mean_lr": 0.17814695438331787
+    }
+  ]
+}
