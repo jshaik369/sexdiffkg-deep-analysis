@@ -1,0 +1,51 @@
+{
+  "analysis": "session8_summary_70wave_milestone",
+  "wave": 70,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:33:43.865758",
+  "novelty": "70-wave milestone: 36 unique discoveries across 8 sessions",
+  "stats": {
+    "v52_waves": 65,
+    "total_json": 70,
+    "total_figures": 343,
+    "total_discoveries": 36
+  },
+  "session8_discoveries": {
+    "Bootstrap Rank Stability": {
+      "wave": 61,
+      "finding": "Drug rankings stable: 100%F/0%F drugs have SD<1.0, strongly anti-correlated with n_signals (rho=-0.554)"
+    },
+    "AE Specificity Index": {
+      "wave": 62,
+      "finding": "85 AEs perfectly specific (spec=1.0), graft-vs-host always F, gingival pain always M"
+    },
+    "12-Cluster Drug Fingerprints": {
+      "wave": 63,
+      "finding": "641 drugs cluster into 12 distinct sex-bias fingerprint groups (antiviral, oncology, psychiatric)"
+    },
+    "67.7% Holdout Accuracy": {
+      "wave": 64,
+      "finding": "Drug sex-bias direction predictable: 67.7% accuracy vs 50% random baseline"
+    },
+    "Neuroactive Ligand Largest Gap": {
+      "wave": 65,
+      "finding": "Neuroactive ligand-receptor pathway has highest weighted gender gap (221K)"
+    },
+    "Route Affects Sex-Bias": {
+      "wave": 66,
+      "finding": "Subcutaneous drugs 38%F vs Oral 53%F (Kruskal-Wallis p=0.0014)"
+    },
+    "Pathway Similarity Weak Predictor": {
+      "wave": 67,
+      "finding": "Same-pathway drugs differ by 40pp+ (rho=-0.073 for similarity vs bias diff)"
+    },
+    "v5.2 Publication Stats": {
+      "wave": 68,
+      "finding": "217,993 nodes, 3,194,017 edges, 96,281 signals, 15 node types, 31 edge types"
+    },
+    "6:1 Male Pure Asymmetry": {
+      "wave": 59,
+      "finding": "35 drugs with 0%F but only 6 with 100%F \u2014 asymmetric pure sex-bias"
+    }
+  }
+}
