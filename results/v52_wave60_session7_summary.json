@@ -1,0 +1,50 @@
+{
+  "analysis": "session7_summary",
+  "wave": 60,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:21:02.131799",
+  "novelty": "Session 7 compilation: 9 new discoveries, therapeutic paradoxes, entropy analysis",
+  "stats": {
+    "v52_waves": 56,
+    "total_json": 61,
+    "total_figures": 336
+  },
+  "discoveries": {
+    "GR 91pp Within-Target Variance": {
+      "wave": 51,
+      "finding": "Glucocorticoid receptor: 14 drugs spanning 91.2pp (Mifepristone to Methylprednisolone)"
+    },
+    "AE Concordance 62.7%": {
+      "wave": 52,
+      "finding": "Mean AE pair concordance 62.7% \u2014 AEs in same drugs tend to share sex-bias direction"
+    },
+    "Bone Density 100%F Across 27 Drugs": {
+      "wave": 52,
+      "finding": "Bone density decreased is 100% female-biased across ALL 27 drugs with this signal"
+    },
+    "Selectivity NS": {
+      "wave": 53,
+      "finding": "Target count doesn't predict sex-bias (Kruskal-Wallis p=0.21)"
+    },
+    "PPI Bridge Gap": {
+      "wave": 54,
+      "finding": "Gene\u2192Protein ID bridge failed \u2014 need unified identifier mapping"
+    },
+    "Non-Normal Effect Sizes": {
+      "wave": 55,
+      "finding": "Effect sizes non-normal (Shapiro p=1.6e-35), female |LR| > male (p=2.8e-41)"
+    },
+    "Newer Drugs Less Female-Biased": {
+      "wave": 56,
+      "finding": "2019-2025 drugs only 36.7%F vs 51.1%F for 2009-2013 (rho=-0.158, p=2.3e-7)"
+    },
+    "KG Structure Low Predictability": {
+      "wave": 57,
+      "finding": "Random Forest R\u00b2=0.05 \u2014 graph topology poorly predicts sex-bias"
+    },
+    "63.8% Therapeutic Paradoxes": {
+      "wave": 58,
+      "finding": "37/58 drug-disease pairs show paradoxical sex-bias (disease F, AEs M or vice versa)"
+    }
+  }
+}

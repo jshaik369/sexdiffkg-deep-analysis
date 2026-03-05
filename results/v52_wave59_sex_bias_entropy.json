@@ -1,0 +1,258 @@
+{
+  "analysis": "sex_bias_entropy",
+  "wave": 59,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:21:01.514933",
+  "novelty": "Shannon entropy of drug sex-bias \u2014 uniform vs mixed AE profiles",
+  "summary": {
+    "drugs_analyzed": 1090,
+    "mean_entropy": 0.7977,
+    "pure_female": 6,
+    "pure_male": 35,
+    "mixed_30_70": 558
+  },
+  "lowest_entropy": [
+    {
+      "drug_name": "ALFUZOSIN",
+      "entropy": 0.0,
+      "pct_female": 100.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "AZELASTINE",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 11
+    },
+    {
+      "drug_name": "AZELASTINE;FLUTICASONE",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 12
+    },
+    {
+      "drug_name": "BRIMONIDINE;TIMOLOL",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 20
+    },
+    {
+      "drug_name": "BUPROPION;NALTREXONE",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 23
+    },
+    {
+      "drug_name": "CASIRIVIMAB;IMDEVIMAB",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 15
+    },
+    {
+      "drug_name": "CENEGERMIN",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 20
+    },
+    {
+      "drug_name": "CHORIONIC GONADOTROPHIN",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 14
+    },
+    {
+      "drug_name": "CITRIC ACID;MAGNESIUM;SODIUM PICOSULFATE",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "CLIOQUINOL",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "CRISABOROLE",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 13
+    },
+    {
+      "drug_name": "DIROXIMEL FUMARATE",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 25
+    },
+    {
+      "drug_name": "EPTINEZUMAB",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 27
+    },
+    {
+      "drug_name": "ESTRADIOL",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 18
+    },
+    {
+      "drug_name": "FOSFOMYCIN",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 19
+    },
+    {
+      "drug_name": "GADOXETIC ACID",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 15
+    },
+    {
+      "drug_name": "HYDROXYQUINOLINE",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 14
+    },
+    {
+      "drug_name": "IDARUCIZUMAB",
+      "entropy": 0.0,
+      "pct_female": 100.0,
+      "n_signals": 12
+    },
+    {
+      "drug_name": "INOTERSEN",
+      "entropy": 0.0,
+      "pct_female": 100.0,
+      "n_signals": 20
+    },
+    {
+      "drug_name": "IOPAMIDOL",
+      "entropy": 0.0,
+      "pct_female": 0.0,
+      "n_signals": 13
+    }
+  ],
+  "highest_entropy": [
+    {
+      "drug_name": "ALISKIREN",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 38
+    },
+    {
+      "drug_name": "AMBROXOL",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 14
+    },
+    {
+      "drug_name": "AVACOPAN",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "BELUMOSUDIL",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "BENZATROPINE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 22
+    },
+    {
+      "drug_name": "BRODALUMAB",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 12
+    },
+    {
+      "drug_name": "BUPROPION HYDROCHLORIDE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "COBIMETINIB",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 20
+    },
+    {
+      "drug_name": "DESLORATADINE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 28
+    },
+    {
+      "drug_name": "ENZALUTAMIDE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "FARICIMAB",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 10
+    },
+    {
+      "drug_name": "GEFITINIB",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 12
+    },
+    {
+      "drug_name": "HYDROMORPHONE HYDROCHLORIDE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 20
+    },
+    {
+      "drug_name": "INDAPAMIDE;PERINDOPRIL",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 12
+    },
+    {
+      "drug_name": "INDOMETHACIN",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 12
+    },
+    {
+      "drug_name": "LEVOCETIRIZINE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 36
+    },
+    {
+      "drug_name": "LUTETIUM (177LU) DOTATATE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 14
+    },
+    {
+      "drug_name": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 20
+    },
+    {
+      "drug_name": "MAGNESIUM",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 136
+    },
+    {
+      "drug_name": "MIDOSTAURIN",
+      "entropy": 1.0,
+      "pct_female": 50.0,
+      "n_signals": 18
+    }
+  ]
+}
