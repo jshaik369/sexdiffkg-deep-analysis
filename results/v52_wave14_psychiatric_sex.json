@@ -1,0 +1,205 @@
+{
+  "analysis": "psychiatric_drug_sex_differential_atlas",
+  "wave": 14,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:37:50.968056",
+  "novelty": "Comprehensive psychiatric drug sex-bias atlas with AE categories, target pathways, and clinical trial cross-reference",
+  "summary": {
+    "drugs_analyzed": 32,
+    "total_signals": 7076
+  },
+  "drug_profiles": [
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "pct_female": 92.9,
+      "mean_log_ratio": 0.94
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_signals": 426,
+      "pct_female": 63.4,
+      "mean_log_ratio": 0.37
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "n_signals": 342,
+      "pct_female": 47.4,
+      "mean_log_ratio": -0.037
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "n_signals": 339,
+      "pct_female": 49.3,
+      "mean_log_ratio": -0.007
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_signals": 336,
+      "pct_female": 58.9,
+      "mean_log_ratio": 0.214
+    },
+    {
+      "drug": "LAMOTRIGINE",
+      "n_signals": 319,
+      "pct_female": 43.6,
+      "mean_log_ratio": -0.049
+    },
+    {
+      "drug": "SERTRALINE",
+      "n_signals": 302,
+      "pct_female": 42.1,
+      "mean_log_ratio": -0.176
+    },
+    {
+      "drug": "VENLAFAXINE",
+      "n_signals": 287,
+      "pct_female": 40.8,
+      "mean_log_ratio": -0.2
+    },
+    {
+      "drug": "CLOZAPINE",
+      "n_signals": 287,
+      "pct_female": 68.6,
+      "mean_log_ratio": 0.391
+    },
+    {
+      "drug": "CLONAZEPAM",
+      "n_signals": 285,
+      "pct_female": 62.1,
+      "mean_log_ratio": 0.267
+    },
+    {
+      "drug": "LORAZEPAM",
+      "n_signals": 264,
+      "pct_female": 62.5,
+      "mean_log_ratio": 0.202
+    },
+    {
+      "drug": "DIAZEPAM",
+      "n_signals": 250,
+      "pct_female": 76.4,
+      "mean_log_ratio": 0.537
+    },
+    {
+      "drug": "CITALOPRAM",
+      "n_signals": 237,
+      "pct_female": 56.5,
+      "mean_log_ratio": 0.084
+    },
+    {
+      "drug": "ALPRAZOLAM",
+      "n_signals": 237,
+      "pct_female": 75.1,
+      "mean_log_ratio": 0.5
+    },
+    {
+      "drug": "ESCITALOPRAM",
+      "n_signals": 217,
+      "pct_female": 28.1,
+      "mean_log_ratio": -0.518
+    },
+    {
+      "drug": "FLUOXETINE",
+      "n_signals": 204,
+      "pct_female": 36.3,
+      "mean_log_ratio": -0.291
+    },
+    {
+      "drug": "MIRTAZAPINE",
+      "n_signals": 193,
+      "pct_female": 57.0,
+      "mean_log_ratio": 0.121
+    },
+    {
+      "drug": "DULOXETINE",
+      "n_signals": 189,
+      "pct_female": 45.0,
+      "mean_log_ratio": -0.158
+    },
+    {
+      "drug": "AMITRIPTYLINE",
+      "n_signals": 189,
+      "pct_female": 54.0,
+      "mean_log_ratio": 0.087
+    },
+    {
+      "drug": "PAROXETINE",
+      "n_signals": 186,
+      "pct_female": 48.4,
+      "mean_log_ratio": -0.028
+    },
+    {
+      "drug": "CARBAMAZEPINE",
+      "n_signals": 180,
+      "pct_female": 38.9,
+      "mean_log_ratio": -0.177
+    },
+    {
+      "drug": "BUPROPION",
+      "n_signals": 174,
+      "pct_female": 54.0,
+      "mean_log_ratio": 0.082
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "n_signals": 161,
+      "pct_female": 85.7,
+      "mean_log_ratio": 0.69
+    },
+    {
+      "drug": "HALOPERIDOL",
+      "n_signals": 158,
+      "pct_female": 56.3,
+      "mean_log_ratio": 0.133
+    },
+    {
+      "drug": "TRAZODONE",
+      "n_signals": 151,
+      "pct_female": 65.6,
+      "mean_log_ratio": 0.461
+    },
+    {
+      "drug": "METHYLPHENIDATE",
+      "n_signals": 147,
+      "pct_female": 77.6,
+      "mean_log_ratio": 0.474
+    },
+    {
+      "drug": "LITHIUM",
+      "n_signals": 143,
+      "pct_female": 49.7,
+      "mean_log_ratio": -0.122
+    },
+    {
+      "drug": "ATOMOXETINE",
+      "n_signals": 105,
+      "pct_female": 68.6,
+      "mean_log_ratio": 1.021
+    },
+    {
+      "drug": "ZIPRASIDONE",
+      "n_signals": 87,
+      "pct_female": 44.8,
+      "mean_log_ratio": -0.07
+    },
+    {
+      "drug": "LURASIDONE",
+      "n_signals": 81,
+      "pct_female": 23.5,
+      "mean_log_ratio": -0.508
+    },
+    {
+      "drug": "BREXPIPRAZOLE",
+      "n_signals": 43,
+      "pct_female": 32.6,
+      "mean_log_ratio": -0.195
+    },
+    {
+      "drug": "CARIPRAZINE",
+      "n_signals": 39,
+      "pct_female": 2.6,
+      "mean_log_ratio": -0.833
+    }
+  ]
+}

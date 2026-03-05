@@ -1,0 +1,335 @@
+{
+  "analysis": "immunotherapy_sex_differential_deep_dive",
+  "wave": 13,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:37:37.611450",
+  "novelty": "Deep immunotherapy sex-bias analysis: CPI hepatotoxicity validation, anti-TNF comparison, clinical trial cross-reference",
+  "summary": {
+    "immunotherapy_drugs_analyzed": 28,
+    "total_immunotherapy_signals": 6675,
+    "cpi_signals": 944,
+    "anti_tnf_signals": 2382
+  },
+  "drug_profiles": [
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "pct_female": 38.2,
+      "mean_log_ratio": -0.127
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "pct_female": 66.6,
+      "mean_log_ratio": 0.572
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "pct_female": 50.4,
+      "mean_log_ratio": 0.225
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "pct_female": 42.6,
+      "mean_log_ratio": -0.065
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "pct_female": 49.4,
+      "mean_log_ratio": 0.092
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "pct_female": 52.2,
+      "mean_log_ratio": 0.276
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_signals": 334,
+      "pct_female": 55.7,
+      "mean_log_ratio": 0.511
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "n_signals": 314,
+      "pct_female": 65.0,
+      "mean_log_ratio": 0.757
+    },
+    {
+      "drug": "PEMBROLIZUMAB",
+      "n_signals": 309,
+      "pct_female": 73.1,
+      "mean_log_ratio": 0.421
+    },
+    {
+      "drug": "BEVACIZUMAB",
+      "n_signals": 294,
+      "pct_female": 55.4,
+      "mean_log_ratio": 0.118
+    },
+    {
+      "drug": "DUPILUMAB",
+      "n_signals": 289,
+      "pct_female": 17.0,
+      "mean_log_ratio": -0.513
+    },
+    {
+      "drug": "NIVOLUMAB",
+      "n_signals": 238,
+      "pct_female": 66.8,
+      "mean_log_ratio": 0.299
+    },
+    {
+      "drug": "IPILIMUMAB",
+      "n_signals": 161,
+      "pct_female": 75.8,
+      "mean_log_ratio": 0.42
+    },
+    {
+      "drug": "ATEZOLIZUMAB",
+      "n_signals": 152,
+      "pct_female": 82.9,
+      "mean_log_ratio": 0.576
+    },
+    {
+      "drug": "OCRELIZUMAB",
+      "n_signals": 136,
+      "pct_female": 28.7,
+      "mean_log_ratio": -0.316
+    },
+    {
+      "drug": "SARILUMAB",
+      "n_signals": 103,
+      "pct_female": 58.3,
+      "mean_log_ratio": 0.547
+    },
+    {
+      "drug": "TRASTUZUMAB",
+      "n_signals": 101,
+      "pct_female": 30.7,
+      "mean_log_ratio": -0.807
+    },
+    {
+      "drug": "OBINUTUZUMAB",
+      "n_signals": 74,
+      "pct_female": 71.6,
+      "mean_log_ratio": 0.394
+    },
+    {
+      "drug": "OFATUMUMAB",
+      "n_signals": 67,
+      "pct_female": 11.9,
+      "mean_log_ratio": -0.688
+    },
+    {
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "n_signals": 62,
+      "pct_female": 93.5,
+      "mean_log_ratio": 0.708
+    },
+    {
+      "drug": "DURVALUMAB",
+      "n_signals": 61,
+      "pct_female": 85.2,
+      "mean_log_ratio": 0.676
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "n_signals": 53,
+      "pct_female": 7.5,
+      "mean_log_ratio": -2.013
+    },
+    {
+      "drug": "BLINATUMOMAB",
+      "n_signals": 48,
+      "pct_female": 60.4,
+      "mean_log_ratio": 0.274
+    },
+    {
+      "drug": "TISAGENLECLEUCEL",
+      "n_signals": 46,
+      "pct_female": 89.1,
+      "mean_log_ratio": 0.588
+    },
+    {
+      "drug": "BELIMUMAB",
+      "n_signals": 22,
+      "pct_female": 9.1,
+      "mean_log_ratio": -1.165
+    },
+    {
+      "drug": "TREMELIMUMAB",
+      "n_signals": 21,
+      "pct_female": 85.7,
+      "mean_log_ratio": 0.789
+    },
+    {
+      "drug": "AVELUMAB",
+      "n_signals": 19,
+      "pct_female": 73.7,
+      "mean_log_ratio": 0.341
+    },
+    {
+      "drug": "CEMIPLIMAB",
+      "n_signals": 4,
+      "pct_female": 75.0,
+      "mean_log_ratio": 0.57
+    }
+  ],
+  "cpi_female_aes": [
+    {
+      "adverse_event": "Immune-mediated lung disease",
+      "n_cpis": 5,
+      "mean_log_ratio": 0.744
+    },
+    {
+      "adverse_event": "Immune-mediated hepatitis",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.951
+    },
+    {
+      "adverse_event": "Hypomagnesaemia",
+      "n_cpis": 4,
+      "mean_log_ratio": 1.092
+    },
+    {
+      "adverse_event": "Bacteraemia",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.788
+    },
+    {
+      "adverse_event": "Cholestasis",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.866
+    },
+    {
+      "adverse_event": "Myocarditis",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.754
+    },
+    {
+      "adverse_event": "Cytokine release syndrome",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.783
+    },
+    {
+      "adverse_event": "Immune-mediated enterocolitis",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.819
+    },
+    {
+      "adverse_event": "Febrile neutropenia",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.751
+    },
+    {
+      "adverse_event": "Eosinophilia",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.841
+    },
+    {
+      "adverse_event": "Haematuria",
+      "n_cpis": 4,
+      "mean_log_ratio": 0.685
+    },
+    {
+      "adverse_event": "Hepatitis cholestatic",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.71
+    },
+    {
+      "adverse_event": "Fulminant type 1 diabetes mellitus",
+      "n_cpis": 3,
+      "mean_log_ratio": 1.087
+    },
+    {
+      "adverse_event": "Gastrointestinal toxicity",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.712
+    },
+    {
+      "adverse_event": "Autoimmune pancreatitis",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.58
+    },
+    {
+      "adverse_event": "Glucocorticoid deficiency",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.951
+    },
+    {
+      "adverse_event": "Pancytopenia",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.707
+    },
+    {
+      "adverse_event": "Haemolytic anaemia",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.834
+    },
+    {
+      "adverse_event": "Failure to thrive",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.629
+    },
+    {
+      "adverse_event": "Blood bilirubin increased",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.625
+    },
+    {
+      "adverse_event": "Toxic skin eruption",
+      "n_cpis": 3,
+      "mean_log_ratio": 1.004
+    },
+    {
+      "adverse_event": "Blood creatine phosphokinase increased",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.669
+    },
+    {
+      "adverse_event": "Cholangitis",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.935
+    },
+    {
+      "adverse_event": "Haemorrhage intracranial",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.773
+    },
+    {
+      "adverse_event": "Systemic inflammatory response syndrome",
+      "n_cpis": 3,
+      "mean_log_ratio": 1.196
+    },
+    {
+      "adverse_event": "Cardiomyopathy",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.687
+    },
+    {
+      "adverse_event": "Hepatitis acute",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.715
+    },
+    {
+      "adverse_event": "Hyperkalaemia",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.945
+    },
+    {
+      "adverse_event": "Hypophysitis",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.909
+    },
+    {
+      "adverse_event": "Posterior reversible encephalopathy syndrome",
+      "n_cpis": 3,
+      "mean_log_ratio": 0.876
+    }
+  ]
+}
