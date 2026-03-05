@@ -1,0 +1,493 @@
+{
+  "analysis": "sex_aware_drug_repurposing",
+  "wave": 111,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:59:42.241277",
+  "novelty": "Sex-aware drug repurposing candidates from merged KG disease-gene-drug triangulation",
+  "summary": {
+    "female_candidates": 91,
+    "male_candidates": 92
+  },
+  "female_candidates": [
+    {
+      "drug": "PREDNISOLONE",
+      "pctf": 82.5,
+      "n_signals": 542,
+      "n_diseases": 149,
+      "n_targets": 1,
+      "diseases": [
+        "Abortion, Habitual",
+        "Addison Disease",
+        "Adrenal Hyperplasia, Congenital",
+        "Adrenal Insufficiency",
+        "Alveolitis, Extrinsic Allergic"
+      ],
+      "targets": [
+        "Glucocorticoid receptor"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "pctf": 80.3,
+      "n_signals": 537,
+      "n_diseases": 249,
+      "n_targets": 1,
+      "diseases": [
+        "Acne Vulgaris",
+        "Addison Disease",
+        "Adrenal Hyperplasia, Congenital",
+        "Adrenocortical Hyperfunction",
+        "Amyloidosis"
+      ],
+      "targets": [
+        "Glucocorticoid receptor"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "RISPERIDONE",
+      "pctf": 92.9,
+      "n_signals": 518,
+      "n_diseases": 26,
+      "n_targets": 3,
+      "diseases": [
+        "Aggression",
+        "Alzheimer Disease",
+        "Amphetamine-Related Disorders",
+        "Anxiety",
+        "Asperger Syndrome"
+      ],
+      "targets": [
+        "5-hydroxytryptamine receptor 2A",
+        "5-hydroxytryptamine receptor 2C",
+        "D(2) dopamine receptor"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "OXYCODONE",
+      "pctf": 85.0,
+      "n_signals": 492,
+      "n_diseases": 27,
+      "n_targets": 1,
+      "diseases": [
+        "Back Pain",
+        "Cancer Pain",
+        "Chronic Pain",
+        "Diabetic Neuropathies",
+        "Genital Neoplasms, Female"
+      ],
+      "targets": [
+        "Mu-type opioid receptor"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "MORPHINE",
+      "pctf": 83.4,
+      "n_signals": 441,
+      "n_diseases": 34,
+      "n_targets": 0,
+      "diseases": [
+        "Anemia, Sickle Cell",
+        "Back Pain",
+        "Blood Coagulation Disorders",
+        "Cancer Pain",
+        "Chronic Pain"
+      ],
+      "targets": [],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "RANITIDINE",
+      "pctf": 93.5,
+      "n_signals": 324,
+      "n_diseases": 14,
+      "n_targets": 1,
+      "diseases": [
+        "Barrett Esophagus",
+        "Breast Carcinoma In Situ",
+        "Breast Neoplasms",
+        "Carcinoma, Renal Cell",
+        "Cough"
+      ],
+      "targets": [
+        "Histamine H2 receptor"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "CLOPIDOGREL",
+      "pctf": 82.3,
+      "n_signals": 300,
+      "n_diseases": 47,
+      "n_targets": 0,
+      "diseases": [
+        "Acute Coronary Syndrome",
+        "Angina, Stable",
+        "Aortic Valve Stenosis",
+        "Arteriosclerosis",
+        "Asthma"
+      ],
+      "targets": [],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "MYCOPHENOLATE MOFETIL",
+      "pctf": 81.2,
+      "n_signals": 277,
+      "n_diseases": 105,
+      "n_targets": 1,
+      "diseases": [
+        "Amyotrophic Lateral Sclerosis",
+        "Anemia, Aplastic",
+        "Anemia, Diamond-Blackfan",
+        "Anemia, Sickle Cell",
+        "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis"
+      ],
+      "targets": [
+        "Inosine-5'-monophosphate dehydrogenase (IMPDH)"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "SILDENAFIL",
+      "pctf": 87.5,
+      "n_signals": 272,
+      "n_diseases": 37,
+      "n_targets": 0,
+      "diseases": [
+        "Arterial Occlusive Diseases",
+        "Brain Diseases",
+        "Brain Injuries",
+        "Bronchopulmonary Dysplasia",
+        "Carcinoma, Non-Small-Cell Lung"
+      ],
+      "targets": [],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "pctf": 80.8,
+      "n_signals": 265,
+      "n_diseases": 0,
+      "n_targets": 0,
+      "diseases": [],
+      "targets": [],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "LISINOPRIL",
+      "pctf": 84.5,
+      "n_signals": 252,
+      "n_diseases": 6,
+      "n_targets": 1,
+      "diseases": [
+        "Cardiovascular Diseases",
+        "Diabetes Mellitus",
+        "Heart Failure",
+        "Hypertension",
+        "Myocardial Infarction"
+      ],
+      "targets": [
+        "Angiotensin-converting enzyme"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "FLUDARABINE",
+      "pctf": 84.2,
+      "n_signals": 184,
+      "n_diseases": 54,
+      "n_targets": 0,
+      "diseases": [
+        "Anemia, Aplastic",
+        "Anemia, Hemolytic, Autoimmune",
+        "Anemia, Refractory",
+        "Anemia, Sickle Cell",
+        "Arthritis, Psoriatic"
+      ],
+      "targets": [],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "pctf": 85.7,
+      "n_signals": 161,
+      "n_diseases": 9,
+      "n_targets": 2,
+      "diseases": [
+        "Anxiety",
+        "Autistic Disorder",
+        "Bipolar Disorder",
+        "Dementia",
+        "Depressive Disorder"
+      ],
+      "targets": [
+        "5-hydroxytryptamine receptor 2A",
+        "D(2) dopamine receptor"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "IMATINIB",
+      "pctf": 81.9,
+      "n_signals": 155,
+      "n_diseases": 31,
+      "n_targets": 0,
+      "diseases": [
+        "Arthritis, Rheumatoid",
+        "Breast Neoplasms",
+        "Chordoma",
+        "Colonic Neoplasms",
+        "Desmoid Tumors"
+      ],
+      "targets": [],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "ATEZOLIZUMAB",
+      "pctf": 82.9,
+      "n_signals": 152,
+      "n_diseases": 59,
+      "n_targets": 1,
+      "diseases": [
+        "Adrenal Cortex Neoplasms",
+        "Anus Neoplasms",
+        "Astrocytoma",
+        "Biliary Tract Neoplasms",
+        "Breast Neoplasms"
+      ],
+      "targets": [
+        "Programmed cell death 1 ligand 1"
+      ],
+      "rationale": "Strong female AE bias suggests sex-specific pharmacology"
+    }
+  ],
+  "male_candidates": [
+    {
+      "drug": "DOCETAXEL",
+      "pctf": 11.2,
+      "n_signals": 304,
+      "n_diseases": 67,
+      "n_targets": 1,
+      "diseases": [
+        "Adenocarcinoma",
+        "Adenocarcinoma of Lung",
+        "Anorexia",
+        "Biliary Tract Neoplasms",
+        "Breast Neoplasms"
+      ],
+      "targets": [
+        "Tubulin"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "DUPILUMAB",
+      "pctf": 17.0,
+      "n_signals": 289,
+      "n_diseases": 31,
+      "n_targets": 1,
+      "diseases": [
+        "Alopecia Areata",
+        "Angioedema",
+        "Aspergillosis, Allergic Bronchopulmonary",
+        "Asthma",
+        "Chronic Urticaria"
+      ],
+      "targets": [
+        "Interleukin-4 receptor subunit alpha"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "ISOTRETINOIN",
+      "pctf": 9.2,
+      "n_signals": 217,
+      "n_diseases": 29,
+      "n_targets": 1,
+      "diseases": [
+        "Acne Vulgaris",
+        "Azoospermia",
+        "Brain Neoplasms",
+        "Breast Neoplasms",
+        "Central Nervous System Neoplasms"
+      ],
+      "targets": [
+        "Retinoic acid receptor"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "METHOTREXATE SODIUM",
+      "pctf": 8.6,
+      "n_signals": 186,
+      "n_diseases": 11,
+      "n_targets": 1,
+      "diseases": [
+        "Adenoma",
+        "Arthritis",
+        "Arthritis, Juvenile",
+        "Arthritis, Rheumatoid",
+        "Breast Neoplasms"
+      ],
+      "targets": [
+        "Dihydrofolate reductase"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "FLUTICASONE;VILANTEROL",
+      "pctf": 18.9,
+      "n_signals": 175,
+      "n_diseases": 0,
+      "n_targets": 0,
+      "diseases": [],
+      "targets": [],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "INTERFERON BETA-1A",
+      "pctf": 12.9,
+      "n_signals": 170,
+      "n_diseases": 15,
+      "n_targets": 1,
+      "diseases": [
+        "Alzheimer Disease",
+        "Asthma",
+        "Colitis, Ulcerative",
+        "Crohn Disease",
+        "Hepatitis C"
+      ],
+      "targets": [
+        "Interferon alpha/beta receptor"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "FINGOLIMOD",
+      "pctf": 19.5,
+      "n_signals": 159,
+      "n_diseases": 10,
+      "n_targets": 0,
+      "diseases": [
+        "Asthma",
+        "Multiple Sclerosis",
+        "Multiple Sclerosis, Chronic Progressive",
+        "Multiple Sclerosis, Relapsing-Remitting",
+        "Optic Neuritis"
+      ],
+      "targets": [],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "FUMARIC ACID",
+      "pctf": 14.4,
+      "n_signals": 139,
+      "n_diseases": 2,
+      "n_targets": 0,
+      "diseases": [
+        "Lupus Erythematosus, Cutaneous",
+        "Psoriasis"
+      ],
+      "targets": [],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "EVOLOCUMAB",
+      "pctf": 19.1,
+      "n_signals": 131,
+      "n_diseases": 17,
+      "n_targets": 1,
+      "diseases": [
+        "Acute Coronary Syndrome",
+        "Carcinoma, Renal Cell",
+        "Cardiovascular Diseases",
+        "Coronary Artery Disease",
+        "Dyslipidemias"
+      ],
+      "targets": [
+        "Proprotein convertase subtilisin/kexin type 9"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "FORMOTEROL;MOMETASONE",
+      "pctf": 14.4,
+      "n_signals": 118,
+      "n_diseases": 0,
+      "n_targets": 0,
+      "diseases": [],
+      "targets": [],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "LIDOCAINE",
+      "pctf": 19.5,
+      "n_signals": 118,
+      "n_diseases": 90,
+      "n_targets": 1,
+      "diseases": [
+        "Analgesia",
+        "Anus Diseases",
+        "Anxiety",
+        "Arrhythmias, Cardiac",
+        "Arthritis"
+      ],
+      "targets": [
+        "Sodium channel alpha subunit"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "MACROGOL",
+      "pctf": 19.7,
+      "n_signals": 117,
+      "n_diseases": 0,
+      "n_targets": 0,
+      "diseases": [],
+      "targets": [],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "GLATIRAMER",
+      "pctf": 11.4,
+      "n_signals": 114,
+      "n_diseases": 0,
+      "n_targets": 0,
+      "diseases": [],
+      "targets": [],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "FAMPRIDINE",
+      "pctf": 10.9,
+      "n_signals": 110,
+      "n_diseases": 0,
+      "n_targets": 0,
+      "diseases": [],
+      "targets": [],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "pctf": 13.9,
+      "n_signals": 101,
+      "n_diseases": 24,
+      "n_targets": 1,
+      "diseases": [
+        "Alzheimer Disease",
+        "Bipolar Disorder",
+        "Delirium",
+        "Depressive Disorder, Major",
+        "Diabetes Mellitus"
+      ],
+      "targets": [
+        "Glucagon-like peptide 1 receptor"
+      ],
+      "rationale": "Strong male AE bias suggests sex-specific pharmacology"
+    }
+  ]
+}

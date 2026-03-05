@@ -1,0 +1,13 @@
+{
+  "analysis": "ae_tissue_sex_diff_enrichment",
+  "wave": 112,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T22:00:16.643043",
+  "novelty": "Cross-reference AE sex-bias with GTEx tissue sex-differential expression",
+  "summary": {
+    "sde_genes": 20,
+    "tissues_analyzed": 0,
+    "drugs_with_sde_targets": 0
+  },
+  "tissue_results": []
+}

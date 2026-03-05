@@ -1,0 +1,200 @@
+{
+  "analysis": "ae_cooccurrence_sex_bias",
+  "wave": 114,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T22:00:33.578747",
+  "novelty": "AE co-occurrence sex-bias concordance \u2014 identifies sex-biased AE syndromes",
+  "summary": {
+    "ae_pairs_analyzed": 7400,
+    "mean_concordance": 58.1
+  },
+  "most_concordant": [
+    {
+      "ae1": "Abdominal discomfort",
+      "ae2": "Acute coronary syndrome",
+      "shared_drugs": 10,
+      "concordant": 10,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 62.4,
+      "bias2": 94.9,
+      "bias_diff": 32.4
+    },
+    {
+      "ae1": "Abdominal pain lower",
+      "ae2": "Blood count abnormal",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 2.2,
+      "bias2": 16.2,
+      "bias_diff": 14.0
+    },
+    {
+      "ae1": "Abdominal pain lower",
+      "ae2": "Burns second degree",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 2.2,
+      "bias2": 6.5,
+      "bias_diff": 4.3
+    },
+    {
+      "ae1": "Abdominal pain lower",
+      "ae2": "Catarrh",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 2.2,
+      "bias2": 0.0,
+      "bias_diff": 2.2
+    },
+    {
+      "ae1": "Abdominal pain lower",
+      "ae2": "Central nervous system lesion",
+      "shared_drugs": 17,
+      "concordant": 17,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 2.2,
+      "bias2": 0.0,
+      "bias_diff": 2.2
+    },
+    {
+      "ae1": "Abdominal pain upper",
+      "ae2": "Autoimmune disorder",
+      "shared_drugs": 14,
+      "concordant": 14,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 64.6,
+      "bias2": 60.0,
+      "bias_diff": 4.6
+    },
+    {
+      "ae1": "Abnormal dreams",
+      "ae2": "Atrial fibrillation",
+      "shared_drugs": 11,
+      "concordant": 11,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 67.7,
+      "bias2": 62.8,
+      "bias_diff": 5.0
+    },
+    {
+      "ae1": "Accidental overdose",
+      "ae2": "Burns second degree",
+      "shared_drugs": 17,
+      "concordant": 17,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 50.0,
+      "bias2": 6.5,
+      "bias_diff": 43.5
+    },
+    {
+      "ae1": "Accidental overdose",
+      "ae2": "Catarrh",
+      "shared_drugs": 17,
+      "concordant": 17,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 50.0,
+      "bias2": 0.0,
+      "bias_diff": 50.0
+    },
+    {
+      "ae1": "Acne",
+      "ae2": "Blood thyroid stimulating hormone increased",
+      "shared_drugs": 10,
+      "concordant": 10,
+      "discordant": 0,
+      "pct_concordant": 100.0,
+      "bias1": 7.8,
+      "bias2": 0.0,
+      "bias_diff": 7.8
+    }
+  ],
+  "ae_hubs": [
+    {
+      "ae": "Adverse event",
+      "n_concordant_partners": 36,
+      "pctf": 80.41237113402062
+    },
+    {
+      "ae": "Angioedema",
+      "n_concordant_partners": 33,
+      "pctf": 89.25619834710744
+    },
+    {
+      "ae": "Blood creatine phosphokinase increased",
+      "n_concordant_partners": 33,
+      "pctf": 94.28571428571428
+    },
+    {
+      "ae": "Adrenal insufficiency",
+      "n_concordant_partners": 29,
+      "pctf": 80.85106382978722
+    },
+    {
+      "ae": "Adverse drug reaction",
+      "n_concordant_partners": 29,
+      "pctf": 93.68932038834951
+    },
+    {
+      "ae": "Blister",
+      "n_concordant_partners": 29,
+      "pctf": 71.65354330708661
+    },
+    {
+      "ae": "Cardiac arrest",
+      "n_concordant_partners": 28,
+      "pctf": 84.76190476190476
+    },
+    {
+      "ae": "Blood cholesterol increased",
+      "n_concordant_partners": 28,
+      "pctf": 47.540983606557376
+    },
+    {
+      "ae": "Arthropathy",
+      "n_concordant_partners": 28,
+      "pctf": 46.96969696969697
+    },
+    {
+      "ae": "Acute kidney injury",
+      "n_concordant_partners": 27,
+      "pctf": 71.53558052434457
+    },
+    {
+      "ae": "Cerebral haemorrhage",
+      "n_concordant_partners": 26,
+      "pctf": 88.37209302325581
+    },
+    {
+      "ae": "Abdominal discomfort",
+      "n_concordant_partners": 26,
+      "pctf": 62.44541484716157
+    },
+    {
+      "ae": "Blood creatinine increased",
+      "n_concordant_partners": 26,
+      "pctf": 78.08988764044943
+    },
+    {
+      "ae": "Alanine aminotransferase increased",
+      "n_concordant_partners": 26,
+      "pctf": 83.09859154929578
+    },
+    {
+      "ae": "Asthenia",
+      "n_concordant_partners": 26,
+      "pctf": 73.68421052631578
+    }
+  ]
+}

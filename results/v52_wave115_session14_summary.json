@@ -1,0 +1,28 @@
+{
+  "analysis": "session_14_summary",
+  "wave": 115,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T22:00:40.729342",
+  "stats": {
+    "total_json": 115,
+    "total_figures": 376
+  },
+  "session14": {
+    "Sex-Aware Repurposing": {
+      "wave": 111,
+      "finding": "Drug repurposing candidates with sex-specific pharmacology"
+    },
+    "AE-Tissue Expression": {
+      "wave": 112,
+      "finding": "GTEx sex-diff expression \u00d7 drug AE sex-bias enrichment"
+    },
+    "Target Similarity": {
+      "wave": 113,
+      "finding": "Target Jaccard similarity vs sex-bias concordance"
+    },
+    "AE Co-occurrence": {
+      "wave": 114,
+      "finding": "AE pair sex-bias concordance identifies sex-biased syndromes"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "analysis": "drug_target_similarity_sex_bias",
+  "wave": 113,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T22:00:24.651134",
+  "novelty": "Target similarity (Jaccard) vs sex-bias concordance \u2014 pharmacological similarity test",
+  "summary": {
+    "eligible_drugs": 477,
+    "pairs_with_shared_targets": 944,
+    "correlation_rho": -0.122,
+    "correlation_p": 0.000164
+  },
+  "discordant_pairs": [
+    {
+      "drug1": "TRIAZOLAM",
+      "drug2": "ALPRAZOLAM",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 35.7,
+      "bias2": 75.1,
+      "bias_diff": 39.4,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    },
+    {
+      "drug1": "TRIAZOLAM",
+      "drug2": "DIAZEPAM",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 35.7,
+      "bias2": 76.4,
+      "bias_diff": 40.7,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    },
+    {
+      "drug1": "VINCRISTINE SULFATE",
+      "drug2": "TRASTUZUMAB EMTANSINE",
+      "shared_targets": 1,
+      "jaccard": 0.5,
+      "bias1": 81.2,
+      "bias2": 0.0,
+      "bias_diff": 81.2,
+      "same_direction": false,
+      "sim_tier": "High"
+    },
+    {
+      "drug1": "VINCRISTINE SULFATE",
+      "drug2": "DOCETAXEL",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 81.2,
+      "bias2": 11.2,
+      "bias_diff": 70.0,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    },
+    {
+      "drug1": "DESOXIMETASONE",
+      "drug2": "MIFEPRISTONE",
+      "shared_targets": 1,
+      "jaccard": 0.5,
+      "bias1": 43.0,
+      "bias2": 0.0,
+      "bias_diff": 43.0,
+      "same_direction": true,
+      "sim_tier": "High"
+    },
+    {
+      "drug1": "DESOXIMETASONE",
+      "drug2": "DEXAMETHASONE",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 43.0,
+      "bias2": 80.3,
+      "bias_diff": 37.2,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    },
+    {
+      "drug1": "DESOXIMETASONE",
+      "drug2": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 43.0,
+      "bias2": 91.2,
+      "bias_diff": 48.1,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    },
+    {
+      "drug1": "DESOXIMETASONE",
+      "drug2": "PREDNISOLONE",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 43.0,
+      "bias2": 82.5,
+      "bias_diff": 39.4,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    },
+    {
+      "drug1": "DESOXIMETASONE",
+      "drug2": "METHYLPREDNISOLONE",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 43.0,
+      "bias2": 77.2,
+      "bias_diff": 34.1,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    },
+    {
+      "drug1": "ZONISAMIDE",
+      "drug2": "ESLICARBAZEPINE",
+      "shared_targets": 1,
+      "jaccard": 1.0,
+      "bias1": 66.7,
+      "bias2": 27.3,
+      "bias_diff": 39.4,
+      "same_direction": false,
+      "sim_tier": "Very High"
+    }
+  ]
+}
