@@ -1,0 +1,163 @@
+{
+  "analysis": "ae_organ_system_sex_bias",
+  "wave": 43,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:08:30.759381",
+  "novelty": "Organ-system-level sex-differential analysis across all drugs",
+  "summary": {
+    "signals_classified": 37391,
+    "organ_systems": 15
+  },
+  "organ_stats": [
+    {
+      "organ_system": "Hematological",
+      "n_signals": 1955,
+      "n_female": 1388,
+      "n_drugs": 676,
+      "n_aes": 91,
+      "mean_lr": 0.3664246935246457,
+      "mean_abs_lr": 0.906640896019141,
+      "pct_female": 70.99744245524296
+    },
+    {
+      "organ_system": "Renal",
+      "n_signals": 2573,
+      "n_female": 1784,
+      "n_drugs": 757,
+      "n_aes": 131,
+      "mean_lr": 0.33706894024647693,
+      "mean_abs_lr": 0.892321155792448,
+      "pct_female": 69.3354061406918
+    },
+    {
+      "organ_system": "Cardiac",
+      "n_signals": 3237,
+      "n_female": 2059,
+      "n_drugs": 773,
+      "n_aes": 129,
+      "mean_lr": 0.22909683752435653,
+      "mean_abs_lr": 0.9039963028850168,
+      "pct_female": 63.60827927092987
+    },
+    {
+      "organ_system": "Hepatic",
+      "n_signals": 5433,
+      "n_female": 3356,
+      "n_drugs": 892,
+      "n_aes": 311,
+      "mean_lr": 0.30219706544179564,
+      "mean_abs_lr": 1.0130554453160563,
+      "pct_female": 61.770660776734765
+    },
+    {
+      "organ_system": "Metabolic",
+      "n_signals": 1840,
+      "n_female": 1108,
+      "n_drugs": 659,
+      "n_aes": 42,
+      "mean_lr": 0.2671895180310089,
+      "mean_abs_lr": 1.139988634378225,
+      "pct_female": 60.21739130434782
+    },
+    {
+      "organ_system": "Neurological",
+      "n_signals": 2179,
+      "n_female": 1225,
+      "n_drugs": 904,
+      "n_aes": 74,
+      "mean_lr": 0.097442053719339,
+      "mean_abs_lr": 0.8676217051379835,
+      "pct_female": 56.218448829738406
+    },
+    {
+      "organ_system": "Psychiatric",
+      "n_signals": 1892,
+      "n_female": 1045,
+      "n_drugs": 709,
+      "n_aes": 46,
+      "mean_lr": 0.1814874448880604,
+      "mean_abs_lr": 1.0015223521583558,
+      "pct_female": 55.23255813953488
+    },
+    {
+      "organ_system": "Respiratory",
+      "n_signals": 4297,
+      "n_female": 2334,
+      "n_drugs": 971,
+      "n_aes": 138,
+      "mean_lr": 0.08021083769399324,
+      "mean_abs_lr": 0.9962139670331271,
+      "pct_female": 54.3169653246451
+    },
+    {
+      "organ_system": "Infection",
+      "n_signals": 2376,
+      "n_female": 1275,
+      "n_drugs": 548,
+      "n_aes": 177,
+      "mean_lr": 0.10354062529297293,
+      "mean_abs_lr": 0.9818428217044238,
+      "pct_female": 53.661616161616166
+    },
+    {
+      "organ_system": "Gastrointestinal",
+      "n_signals": 2879,
+      "n_female": 1541,
+      "n_drugs": 1027,
+      "n_aes": 55,
+      "mean_lr": 0.06512005873113437,
+      "mean_abs_lr": 1.0093801960233897,
+      "pct_female": 53.525529697811734
+    },
+    {
+      "organ_system": "Immunological",
+      "n_signals": 986,
+      "n_female": 524,
+      "n_drugs": 593,
+      "n_aes": 30,
+      "mean_lr": 0.07911256287017211,
+      "mean_abs_lr": 1.0900399907078828,
+      "pct_female": 53.14401622718052
+    },
+    {
+      "organ_system": "Reproductive",
+      "n_signals": 444,
+      "n_female": 227,
+      "n_drugs": 292,
+      "n_aes": 22,
+      "mean_lr": -0.2068352411029997,
+      "mean_abs_lr": 1.3112523272933814,
+      "pct_female": 51.126126126126124
+    },
+    {
+      "organ_system": "Musculoskeletal",
+      "n_signals": 2340,
+      "n_female": 1084,
+      "n_drugs": 703,
+      "n_aes": 112,
+      "mean_lr": -0.01773260851099573,
+      "mean_abs_lr": 0.9554730806876126,
+      "pct_female": 46.324786324786324
+    },
+    {
+      "organ_system": "Dermatological",
+      "n_signals": 3889,
+      "n_female": 1714,
+      "n_drugs": 888,
+      "n_aes": 145,
+      "mean_lr": -0.07923340804344331,
+      "mean_abs_lr": 0.9564677983430697,
+      "pct_female": 44.07302648495757
+    },
+    {
+      "organ_system": "Ocular",
+      "n_signals": 1071,
+      "n_female": 312,
+      "n_drugs": 406,
+      "n_aes": 85,
+      "mean_lr": -0.359011581024407,
+      "mean_abs_lr": 0.8585787338962517,
+      "pct_female": 29.13165266106443
+    }
+  ]
+}
