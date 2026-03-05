@@ -1,0 +1,70 @@
+{
+  "analysis": "v52_comprehensive_summary_statistics",
+  "wave": 16,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:40:16.396666",
+  "novelty": "Complete statistical overview of v5.2 merged KG for publication and reference",
+  "v52_stats": {
+    "total_nodes": 217993,
+    "total_edges": 3194017,
+    "node_types": 13,
+    "edge_types": 18,
+    "node_distribution": {
+      "Gene": 90215,
+      "Protein": 30082,
+      "ClinicalTrial": 26695,
+      "Compound": 25778,
+      "Drug": 12843,
+      "Disease": 12679,
+      "AdverseEvent": 10130,
+      "Unknown": 3228,
+      "Symptom": 2639,
+      "Pathway": 2627,
+      "Intervention": 1052,
+      "Tissue": 20,
+      "Herb": 5
+    },
+    "edge_distribution": {
+      "interacts_with": 1858942,
+      "has_adverse_event": 614978,
+      "participates_in": 381168,
+      "sex_differential_adverse_event": 96281,
+      "investigates": 67795,
+      "tests_intervention": 47482,
+      "treats": 41184,
+      "binds_to": 35503,
+      "encodes": 11227,
+      "modulates": 10530,
+      "encoded_by": 8402,
+      "associated_with": 7127,
+      "targets": 5744,
+      "causes_adverse_event": 2640,
+      "corresponds_to": 2639,
+      "same_gene": 1940,
+      "sex_differential_expression": 289,
+      "same_as": 146
+    },
+    "bridge_edges": {
+      "same_gene": 1940,
+      "encodes": 11227,
+      "encoded_by": 8402,
+      "total": 21569
+    },
+    "target_bridge_coverage_pct": 94.3,
+    "signal_stats": {
+      "total": 96281,
+      "drugs": 2178,
+      "aes": 5069,
+      "female_higher": 51771,
+      "male_higher": 44510
+    }
+  },
+  "v4_comparison": {
+    "v4_nodes": 113155,
+    "v52_nodes": 217993,
+    "v4_edges": 1532674,
+    "v52_edges": 3194017,
+    "node_growth_pct": 92.6,
+    "edge_growth_pct": 108.4
+  }
+}

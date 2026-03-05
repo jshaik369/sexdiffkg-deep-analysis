@@ -1,0 +1,62 @@
+{
+  "analysis": "cardiology_drug_sex_differential_safety",
+  "wave": 15,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:40:04.436036",
+  "novelty": "Comprehensive cardiovascular drug class sex-bias analysis: statins, ACE-I/ARB, anticoagulants, CCBs, beta-blockers, antiarrhythmics",
+  "summary": {
+    "drug_classes": 7,
+    "total_signals": 6560
+  },
+  "class_profiles": [
+    {
+      "class": "Statins",
+      "n_drugs": 7,
+      "n_signals": 1085,
+      "pct_female": 48.11059907834102,
+      "mean_log_ratio": -0.012196024786818556
+    },
+    {
+      "class": "ACE-I/ARB",
+      "n_drugs": 9,
+      "n_signals": 1476,
+      "pct_female": 61.72086720867209,
+      "mean_log_ratio": 0.3235335025676999
+    },
+    {
+      "class": "Anticoagulants",
+      "n_drugs": 7,
+      "n_signals": 1213,
+      "pct_female": 64.0560593569662,
+      "mean_log_ratio": 0.18810158721380285
+    },
+    {
+      "class": "CCB",
+      "n_drugs": 5,
+      "n_signals": 792,
+      "pct_female": 47.474747474747474,
+      "mean_log_ratio": -0.042744474673795295
+    },
+    {
+      "class": "Beta-blockers",
+      "n_drugs": 6,
+      "n_signals": 923,
+      "pct_female": 53.737811484290354,
+      "mean_log_ratio": 0.08061019976238479
+    },
+    {
+      "class": "Antiarrhythmics",
+      "n_drugs": 5,
+      "n_signals": 325,
+      "pct_female": 56.30769230769231,
+      "mean_log_ratio": 0.10211207621574223
+    },
+    {
+      "class": "Diuretics",
+      "n_drugs": 5,
+      "n_signals": 746,
+      "pct_female": 51.34048257372654,
+      "mean_log_ratio": 0.04141057668075602
+    }
+  ]
+}
