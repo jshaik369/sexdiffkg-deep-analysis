@@ -10,12 +10,42 @@ Comprehensive clinical pharmacovigilance analyses derived from the SexDiffKG kno
 
 | Directory | Files | Description |
 |-----------|-------|-------------|
-| `analysis/` | 40 JSON + 20 TSV | Quantitative analysis results (signals, rankings, predictions) |
-| `figures/` | 25 PNG + 21 PDF | Publication-quality figures (300 dpi) |
-| `drafts/` | 2 papers | Full manuscript drafts (CPI irAE for JCO, Cardiac Reversal for CPT) |
+| `analysis/` | 240 JSON/TSV | Analysis results, audit reports, 5 new KG ground truths |
+| `figures/` | 314 PNG/PDF | Publication-quality figures (300 dpi) |
+| `papers/` | 17 papers | Full manuscript drafts across drug safety domains |
+| `drafts/` | 2 papers | Early manuscript drafts (CPI irAE, Cardiac Reversal) |
 | `vault_docs/` | 25 documents | Clinical analysis narratives and synthesis |
 | `scripts/` | 83 Python scripts | Complete reproducible pipeline (FAERS → KG → analysis → figures) |
 | `data_processed/` | 6 CSV + 6 Parquet | Drug classifications, AE mappings, molecular networks |
+
+
+## SexDiffKG v5 — VEDA-KG Merged
+
+v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
+- **246,056 nodes** (16 entity types) / **3,182,843 edges** (18 relation types)
+- All v4 unique triples preserved (1,532,674, 100%)
+- 1,650,169 new edges from VEDA (disease, clinical trial, Ayurvedic, compound data)
+- ComplEx v5 embeddings: training in progress
+
+## Audit-Proof Verification
+
+| Audit | Score |
+|-------|-------|
+| VEDA integrity | 41/41 (100%) |
+| Molecular audit | 31/31 (100%) |
+| Number cascade | 33/36 (91.7%, 0 failures) |
+| FAIR compliance | 15/15 (100%) |
+| Reproducibility | 39/40 (97.5%) |
+
+## Derived KG Projects
+
+| Project | Nodes | Edges | Focus |
+|---------|-------|-------|-------|
+| REPRODUCT-KG | 22,403 | 1,116,735 | Pregnancy drug safety |
+| MENTALHEALTH-KG | 20,851 | 762,389 | Psychiatric drug safety |
+| GERIPHARM-KG | 18,754 | 739,396 | Elderly drug safety |
+| PCOS-ENDO-KG | 36,903 | 697,819 | PCOS/endometriosis + GLP-1 |
+| AYUR-PHARMA-KG | 24,316 | 293,444 | Ayurvedic pharmacovigilance |
 
 ## Ten Major Findings
 
