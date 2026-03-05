@@ -1,0 +1,357 @@
+{
+  "analysis": "psychiatric_drug_sex_bias",
+  "wave": 75,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:37:12.515251",
+  "novelty": "Complete psychiatric drug sex-bias atlas for MENTALHEALTH-KG",
+  "atlas": [
+    {
+      "class": "Typical Antipsychotics",
+      "drug": "HALOPERIDOL",
+      "pct_female": 56.3,
+      "n_signals": 158
+    },
+    {
+      "class": "Typical Antipsychotics",
+      "drug": "CHLORPROMAZINE",
+      "pct_female": 61.4,
+      "n_signals": 57
+    },
+    {
+      "class": "Typical Antipsychotics",
+      "drug": "FLUPHENAZINE",
+      "pct_female": 85.7,
+      "n_signals": 7
+    },
+    {
+      "class": "Typical Antipsychotics",
+      "drug": "PERPHENAZINE",
+      "pct_female": 53.3,
+      "n_signals": 15
+    },
+    {
+      "class": "Typical Antipsychotics",
+      "drug": "LEVOMEPROMAZINE",
+      "pct_female": 72.5,
+      "n_signals": 40
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "RISPERIDONE",
+      "pct_female": 92.9,
+      "n_signals": 518
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "QUETIAPINE",
+      "pct_female": 63.4,
+      "n_signals": 426
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "OLANZAPINE",
+      "pct_female": 58.9,
+      "n_signals": 336
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "ARIPIPRAZOLE",
+      "pct_female": 47.4,
+      "n_signals": 342
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "CLOZAPINE",
+      "pct_female": 68.6,
+      "n_signals": 287
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "PALIPERIDONE",
+      "pct_female": 85.7,
+      "n_signals": 161
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "ZIPRASIDONE",
+      "pct_female": 44.8,
+      "n_signals": 87
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "LURASIDONE",
+      "pct_female": 23.5,
+      "n_signals": 81
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "CARIPRAZINE",
+      "pct_female": 2.6,
+      "n_signals": 39
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "BREXPIPRAZOLE",
+      "pct_female": 32.6,
+      "n_signals": 43
+    },
+    {
+      "class": "Atypical Antipsychotics",
+      "drug": "LUMATEPERONE",
+      "pct_female": 13.6,
+      "n_signals": 22
+    },
+    {
+      "class": "SSRIs",
+      "drug": "FLUOXETINE",
+      "pct_female": 36.3,
+      "n_signals": 204
+    },
+    {
+      "class": "SSRIs",
+      "drug": "SERTRALINE",
+      "pct_female": 42.1,
+      "n_signals": 302
+    },
+    {
+      "class": "SSRIs",
+      "drug": "PAROXETINE",
+      "pct_female": 48.4,
+      "n_signals": 186
+    },
+    {
+      "class": "SSRIs",
+      "drug": "ESCITALOPRAM",
+      "pct_female": 28.1,
+      "n_signals": 217
+    },
+    {
+      "class": "SSRIs",
+      "drug": "CITALOPRAM",
+      "pct_female": 56.5,
+      "n_signals": 237
+    },
+    {
+      "class": "SSRIs",
+      "drug": "FLUVOXAMINE",
+      "pct_female": 33.3,
+      "n_signals": 30
+    },
+    {
+      "class": "SNRIs",
+      "drug": "VENLAFAXINE",
+      "pct_female": 40.8,
+      "n_signals": 287
+    },
+    {
+      "class": "SNRIs",
+      "drug": "DULOXETINE",
+      "pct_female": 45.0,
+      "n_signals": 189
+    },
+    {
+      "class": "SNRIs",
+      "drug": "DESVENLAFAXINE",
+      "pct_female": 10.9,
+      "n_signals": 46
+    },
+    {
+      "class": "SNRIs",
+      "drug": "MILNACIPRAN",
+      "pct_female": 27.3,
+      "n_signals": 11
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "BUPROPION",
+      "pct_female": 54.0,
+      "n_signals": 174
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "MIRTAZAPINE",
+      "pct_female": 57.0,
+      "n_signals": 193
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "TRAZODONE",
+      "pct_female": 65.6,
+      "n_signals": 151
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "AMITRIPTYLINE",
+      "pct_female": 54.0,
+      "n_signals": 189
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "NORTRIPTYLINE",
+      "pct_female": 48.4,
+      "n_signals": 64
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "CLOMIPRAMINE",
+      "pct_female": 41.9,
+      "n_signals": 43
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "IMIPRAMINE",
+      "pct_female": 14.3,
+      "n_signals": 7
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "DOXEPIN",
+      "pct_female": 29.7,
+      "n_signals": 37
+    },
+    {
+      "class": "Other Antidepressants",
+      "drug": "VORTIOXETINE",
+      "pct_female": 31.1,
+      "n_signals": 61
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "DIAZEPAM",
+      "pct_female": 76.4,
+      "n_signals": 250
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "LORAZEPAM",
+      "pct_female": 62.5,
+      "n_signals": 264
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "ALPRAZOLAM",
+      "pct_female": 75.1,
+      "n_signals": 237
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "CLONAZEPAM",
+      "pct_female": 62.1,
+      "n_signals": 285
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "MIDAZOLAM",
+      "pct_female": 62.6,
+      "n_signals": 107
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "TRIAZOLAM",
+      "pct_female": 35.7,
+      "n_signals": 14
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "TEMAZEPAM",
+      "pct_female": 50.7,
+      "n_signals": 71
+    },
+    {
+      "class": "Benzodiazepines",
+      "drug": "CLOBAZAM",
+      "pct_female": 34.4,
+      "n_signals": 64
+    },
+    {
+      "class": "Mood Stabilizers",
+      "drug": "LITHIUM",
+      "pct_female": 49.7,
+      "n_signals": 143
+    },
+    {
+      "class": "Mood Stabilizers",
+      "drug": "VALPROIC ACID",
+      "pct_female": 49.3,
+      "n_signals": 339
+    },
+    {
+      "class": "Mood Stabilizers",
+      "drug": "CARBAMAZEPINE",
+      "pct_female": 38.9,
+      "n_signals": 180
+    },
+    {
+      "class": "Mood Stabilizers",
+      "drug": "LAMOTRIGINE",
+      "pct_female": 43.6,
+      "n_signals": 319
+    },
+    {
+      "class": "Mood Stabilizers",
+      "drug": "TOPIRAMATE",
+      "pct_female": 48.0,
+      "n_signals": 200
+    },
+    {
+      "class": "ADHD",
+      "drug": "METHYLPHENIDATE",
+      "pct_female": 77.6,
+      "n_signals": 147
+    },
+    {
+      "class": "ADHD",
+      "drug": "ATOMOXETINE",
+      "pct_female": 68.6,
+      "n_signals": 105
+    },
+    {
+      "class": "ADHD",
+      "drug": "LISDEXAMFETAMINE",
+      "pct_female": 26.8,
+      "n_signals": 97
+    },
+    {
+      "class": "ADHD",
+      "drug": "GUANFACINE",
+      "pct_female": 68.4,
+      "n_signals": 19
+    },
+    {
+      "class": "Sleep",
+      "drug": "ZOLPIDEM",
+      "pct_female": 60.3,
+      "n_signals": 146
+    },
+    {
+      "class": "Sleep",
+      "drug": "ESZOPICLONE",
+      "pct_female": 0.0,
+      "n_signals": 8
+    },
+    {
+      "class": "Sleep",
+      "drug": "SUVOREXANT",
+      "pct_female": 16.7,
+      "n_signals": 18
+    },
+    {
+      "class": "Sleep",
+      "drug": "LEMBOREXANT",
+      "pct_female": 0.0,
+      "n_signals": 5
+    },
+    {
+      "class": "Sleep",
+      "drug": "RAMELTEON",
+      "pct_female": 0.0,
+      "n_signals": 5
+    },
+    {
+      "class": "Sleep",
+      "drug": "MELATONIN",
+      "pct_female": 30.9,
+      "n_signals": 68
+    }
+  ]
+}

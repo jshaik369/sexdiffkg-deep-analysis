@@ -1,0 +1,213 @@
+{
+  "analysis": "metabolic_drug_sex_bias",
+  "wave": 74,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:37:11.831166",
+  "novelty": "Comprehensive metabolic drug sex-bias landscape: diabetes, lipids, obesity",
+  "atlas": [
+    {
+      "class": "Metformin",
+      "drug": "METFORMIN",
+      "pct_female": 62.4,
+      "n_signals": 399
+    },
+    {
+      "class": "Metformin",
+      "drug": "METFORMIN HYDROCHLORIDE",
+      "pct_female": 50.8,
+      "n_signals": 59
+    },
+    {
+      "class": "Sulfonylureas",
+      "drug": "GLIMEPIRIDE",
+      "pct_female": 81.6,
+      "n_signals": 38
+    },
+    {
+      "class": "Sulfonylureas",
+      "drug": "GLIPIZIDE",
+      "pct_female": 47.1,
+      "n_signals": 17
+    },
+    {
+      "class": "Sulfonylureas",
+      "drug": "GLICLAZIDE",
+      "pct_female": 76.9,
+      "n_signals": 91
+    },
+    {
+      "class": "DPP-4 Inhibitors",
+      "drug": "SITAGLIPTIN",
+      "pct_female": 55.2,
+      "n_signals": 154
+    },
+    {
+      "class": "DPP-4 Inhibitors",
+      "drug": "SAXAGLIPTIN",
+      "pct_female": 66.7,
+      "n_signals": 18
+    },
+    {
+      "class": "DPP-4 Inhibitors",
+      "drug": "LINAGLIPTIN",
+      "pct_female": 52.4,
+      "n_signals": 42
+    },
+    {
+      "class": "DPP-4 Inhibitors",
+      "drug": "ALOGLIPTIN",
+      "pct_female": 77.8,
+      "n_signals": 9
+    },
+    {
+      "class": "DPP-4 Inhibitors",
+      "drug": "VILDAGLIPTIN",
+      "pct_female": 68.0,
+      "n_signals": 25
+    },
+    {
+      "class": "GLP-1 RAs",
+      "drug": "LIRAGLUTIDE",
+      "pct_female": 13.9,
+      "n_signals": 101
+    },
+    {
+      "class": "GLP-1 RAs",
+      "drug": "SEMAGLUTIDE",
+      "pct_female": 31.6,
+      "n_signals": 152
+    },
+    {
+      "class": "GLP-1 RAs",
+      "drug": "DULAGLUTIDE",
+      "pct_female": 27.3,
+      "n_signals": 77
+    },
+    {
+      "class": "GLP-1 RAs",
+      "drug": "EXENATIDE",
+      "pct_female": 39.1,
+      "n_signals": 92
+    },
+    {
+      "class": "GLP-1 RAs",
+      "drug": "TIRZEPATIDE",
+      "pct_female": 8.4,
+      "n_signals": 95
+    },
+    {
+      "class": "GLP-1 RAs",
+      "drug": "ALBIGLUTIDE",
+      "pct_female": 21.4,
+      "n_signals": 14
+    },
+    {
+      "class": "SGLT2 Inhibitors",
+      "drug": "EMPAGLIFLOZIN",
+      "pct_female": 60.4,
+      "n_signals": 96
+    },
+    {
+      "class": "SGLT2 Inhibitors",
+      "drug": "DAPAGLIFLOZIN",
+      "pct_female": 59.1,
+      "n_signals": 154
+    },
+    {
+      "class": "SGLT2 Inhibitors",
+      "drug": "CANAGLIFLOZIN",
+      "pct_female": 60.9,
+      "n_signals": 69
+    },
+    {
+      "class": "TZDs",
+      "drug": "PIOGLITAZONE",
+      "pct_female": 90.2,
+      "n_signals": 61
+    },
+    {
+      "class": "TZDs",
+      "drug": "ROSIGLITAZONE",
+      "pct_female": 93.6,
+      "n_signals": 47
+    },
+    {
+      "class": "Insulin",
+      "drug": "INSULIN",
+      "pct_female": 39.5,
+      "n_signals": 339
+    },
+    {
+      "class": "Statins",
+      "drug": "ATORVASTATIN",
+      "pct_female": 46.4,
+      "n_signals": 388
+    },
+    {
+      "class": "Statins",
+      "drug": "ROSUVASTATIN",
+      "pct_female": 49.0,
+      "n_signals": 337
+    },
+    {
+      "class": "Statins",
+      "drug": "SIMVASTATIN",
+      "pct_female": 52.5,
+      "n_signals": 261
+    },
+    {
+      "class": "Statins",
+      "drug": "PRAVASTATIN",
+      "pct_female": 37.3,
+      "n_signals": 67
+    },
+    {
+      "class": "Statins",
+      "drug": "LOVASTATIN",
+      "pct_female": 62.5,
+      "n_signals": 8
+    },
+    {
+      "class": "Statins",
+      "drug": "FLUVASTATIN",
+      "pct_female": 42.9,
+      "n_signals": 21
+    },
+    {
+      "class": "PCSK9 Inhibitors",
+      "drug": "EVOLOCUMAB",
+      "pct_female": 19.1,
+      "n_signals": 131
+    },
+    {
+      "class": "PCSK9 Inhibitors",
+      "drug": "ALIROCUMAB",
+      "pct_female": 17.0,
+      "n_signals": 53
+    },
+    {
+      "class": "Anti-Obesity",
+      "drug": "LIRAGLUTIDE",
+      "pct_female": 13.9,
+      "n_signals": 101
+    },
+    {
+      "class": "Anti-Obesity",
+      "drug": "SEMAGLUTIDE",
+      "pct_female": 31.6,
+      "n_signals": 152
+    },
+    {
+      "class": "Anti-Obesity",
+      "drug": "TIRZEPATIDE",
+      "pct_female": 8.4,
+      "n_signals": 95
+    },
+    {
+      "class": "Anti-Obesity",
+      "drug": "ORLISTAT",
+      "pct_female": 0.0,
+      "n_signals": 7
+    }
+  ]
+}

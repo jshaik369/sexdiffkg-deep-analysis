@@ -1,0 +1,187 @@
+{
+  "analysis": "immunotherapy_sex_bias_atlas",
+  "wave": 73,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:37:10.983449",
+  "novelty": "Comprehensive immunotherapy sex-bias atlas: CPI, CAR-T, bispecific, ADC",
+  "summary": {
+    "classes": 9,
+    "drugs_with_data": 29
+  },
+  "atlas": [
+    {
+      "class": "PD-1 Inhibitors",
+      "drug": "NIVOLUMAB",
+      "pct_female": 66.8,
+      "n_signals": 238
+    },
+    {
+      "class": "PD-1 Inhibitors",
+      "drug": "PEMBROLIZUMAB",
+      "pct_female": 73.1,
+      "n_signals": 309
+    },
+    {
+      "class": "PD-L1 Inhibitors",
+      "drug": "ATEZOLIZUMAB",
+      "pct_female": 82.9,
+      "n_signals": 152
+    },
+    {
+      "class": "PD-L1 Inhibitors",
+      "drug": "DURVALUMAB",
+      "pct_female": 85.2,
+      "n_signals": 61
+    },
+    {
+      "class": "PD-L1 Inhibitors",
+      "drug": "AVELUMAB",
+      "pct_female": 73.7,
+      "n_signals": 19
+    },
+    {
+      "class": "CTLA-4 Inhibitors",
+      "drug": "IPILIMUMAB",
+      "pct_female": 75.8,
+      "n_signals": 161
+    },
+    {
+      "class": "CTLA-4 Inhibitors",
+      "drug": "TREMELIMUMAB",
+      "pct_female": 85.7,
+      "n_signals": 21
+    },
+    {
+      "class": "CAR-T",
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "pct_female": 93.5,
+      "n_signals": 62
+    },
+    {
+      "class": "CAR-T",
+      "drug": "TISAGENLECLEUCEL",
+      "pct_female": 89.1,
+      "n_signals": 46
+    },
+    {
+      "class": "CAR-T",
+      "drug": "BREXUCABTAGENE AUTOLEUCEL",
+      "pct_female": 100.0,
+      "n_signals": 8
+    },
+    {
+      "class": "CAR-T",
+      "drug": "LISOCABTAGENE MARALEUCEL",
+      "pct_female": 85.7,
+      "n_signals": 7
+    },
+    {
+      "class": "CAR-T",
+      "drug": "IDECABTAGENE VICLEUCEL",
+      "pct_female": 100.0,
+      "n_signals": 8
+    },
+    {
+      "class": "CAR-T",
+      "drug": "CILTACABTAGENE AUTOLEUCEL",
+      "pct_female": 72.7,
+      "n_signals": 11
+    },
+    {
+      "class": "Bispecific Antibodies",
+      "drug": "BLINATUMOMAB",
+      "pct_female": 60.4,
+      "n_signals": 48
+    },
+    {
+      "class": "Bispecific Antibodies",
+      "drug": "EPCORITAMAB",
+      "pct_female": 81.8,
+      "n_signals": 22
+    },
+    {
+      "class": "Bispecific Antibodies",
+      "drug": "TECLISTAMAB",
+      "pct_female": 62.5,
+      "n_signals": 8
+    },
+    {
+      "class": "Bispecific Antibodies",
+      "drug": "MOSUNETUZUMAB",
+      "pct_female": 83.3,
+      "n_signals": 6
+    },
+    {
+      "class": "Bispecific Antibodies",
+      "drug": "GLOFITAMAB",
+      "pct_female": 88.9,
+      "n_signals": 9
+    },
+    {
+      "class": "Anti-CD20",
+      "drug": "RITUXIMAB",
+      "pct_female": 66.6,
+      "n_signals": 755
+    },
+    {
+      "class": "Anti-CD20",
+      "drug": "OBINUTUZUMAB",
+      "pct_female": 71.6,
+      "n_signals": 74
+    },
+    {
+      "class": "Anti-CD20",
+      "drug": "OFATUMUMAB",
+      "pct_female": 11.9,
+      "n_signals": 67
+    },
+    {
+      "class": "Anti-CD20",
+      "drug": "OCRELIZUMAB",
+      "pct_female": 28.7,
+      "n_signals": 136
+    },
+    {
+      "class": "Anti-CD38",
+      "drug": "DARATUMUMAB",
+      "pct_female": 76.9,
+      "n_signals": 108
+    },
+    {
+      "class": "Anti-CD38",
+      "drug": "ISATUXIMAB",
+      "pct_female": 67.9,
+      "n_signals": 28
+    },
+    {
+      "class": "ADCs",
+      "drug": "TRASTUZUMAB EMTANSINE",
+      "pct_female": 0.0,
+      "n_signals": 17
+    },
+    {
+      "class": "ADCs",
+      "drug": "ENFORTUMAB VEDOTIN",
+      "pct_female": 73.9,
+      "n_signals": 23
+    },
+    {
+      "class": "ADCs",
+      "drug": "SACITUZUMAB GOVITECAN",
+      "pct_female": 27.3,
+      "n_signals": 11
+    },
+    {
+      "class": "ADCs",
+      "drug": "TRASTUZUMAB DERUXTECAN",
+      "pct_female": 25.0,
+      "n_signals": 20
+    },
+    {
+      "class": "ADCs",
+      "drug": "POLATUZUMAB VEDOTIN",
+      "pct_female": 80.5,
+      "n_signals": 41
+    }
+  ]
+}
