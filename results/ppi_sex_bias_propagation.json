@@ -1,516 +1,1576 @@
 {
-  "timestamp": "2026-03-05T02:09:11.340534",
+  "timestamp": "2026-03-05T02:31:31.305274",
+  "version": "v4",
   "stats": {
     "ppi_proteins": 19488,
     "gene_to_protein_mappings": 8596,
+    "ensembl_bridge": 1508,
+    "ensp_gene_bridge": 1512,
+    "combined_pathway_bridge": 11616,
+    "drugs_mapped_to_ppi": 1423,
     "proteins_with_direct_bias": 102,
     "proteins_with_propagated": 7550,
-    "pathways_scored": 0
+    "filtered_hubs": 4582,
+    "pathways_scored": 1765
   },
+  "top_directly_scored": [
+    {
+      "protein": "PROTEIN:ENSP00000398698",
+      "gene_name": "Tumor necrosis factor",
+      "f_frac": 0.44962216624685136,
+      "n_drugs": 4,
+      "total_signals": 2382
+    },
+    {
+      "protein": "PROTEIN:ENSP00000437737",
+      "gene_name": "5-hydroxytryptamine receptor 2A",
+      "f_frac": 0.6694802310084407,
+      "n_drugs": 23,
+      "total_signals": 2251
+    },
+    {
+      "protein": "PROTEIN:ENSP00000356438",
+      "gene_name": "Cyclooxygenase",
+      "f_frac": 0.5457953936797001,
+      "n_drugs": 21,
+      "total_signals": 1867
+    },
+    {
+      "protein": "PROTEIN:ENSP00000354859",
+      "gene_name": "D2-like dopamine receptor",
+      "f_frac": 0.7018633540372671,
+      "n_drugs": 18,
+      "total_signals": 1610
+    },
+    {
+      "protein": "PROTEIN:ENSP00000394624",
+      "gene_name": "Mu-type opioid receptor",
+      "f_frac": 0.6758199847444699,
+      "n_drugs": 14,
+      "total_signals": 1311
+    },
+    {
+      "protein": "PROTEIN:ENSP00000383003",
+      "gene_name": "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+      "f_frac": 0.689989235737352,
+      "n_drugs": 5,
+      "total_signals": 929
+    },
+    {
+      "protein": "PROTEIN:ENSP00000373169",
+      "gene_name": "D2-like dopamine receptor",
+      "f_frac": 0.5906666666666667,
+      "n_drugs": 14,
+      "total_signals": 750
+    },
+    {
+      "protein": "PROTEIN:ENSP00000364709",
+      "gene_name": "Coagulation factor X",
+      "f_frac": 0.6332046332046332,
+      "n_drugs": 2,
+      "total_signals": 518
+    },
+    {
+      "protein": "PROTEIN:ENSP00000270139",
+      "gene_name": "Interferon alpha/beta receptor",
+      "f_frac": 0.26305220883534136,
+      "n_drugs": 8,
+      "total_signals": 498
+    },
+    {
+      "protein": "PROTEIN:ENSP00000495332",
+      "gene_name": "Solute carrier family 12 member 1",
+      "f_frac": 0.5590361445783133,
+      "n_drugs": 3,
+      "total_signals": 415
+    },
+    {
+      "protein": "PROTEIN:ENSP00000380227",
+      "gene_name": "Integrin alpha-4/beta-7",
+      "f_frac": 0.5213903743315508,
+      "n_drugs": 2,
+      "total_signals": 374
+    },
+    {
+      "protein": "PROTEIN:ENSP00000347689",
+      "gene_name": "Phosphodiesterase 4",
+      "f_frac": 0.5532544378698225,
+      "n_drugs": 5,
+      "total_signals": 338
+    },
+    {
+      "protein": "PROTEIN:ENSP00000366416",
+      "gene_name": "Endothelin receptor, ET-A/ET-B",
+      "f_frac": 0.3950617283950617,
+      "n_drugs": 3,
+      "total_signals": 324
+    },
+    {
+      "protein": "PROTEIN:ENSP00000327943",
+      "gene_name": "Sodium/glucose cotransporter 2",
+      "f_frac": 0.596875,
+      "n_drugs": 4,
+      "total_signals": 320
+    },
+    {
+      "protein": "PROTEIN:ENSP00000369960",
+      "gene_name": "Adrenergic receptor alpha-1",
+      "f_frac": 0.48788927335640137,
+      "n_drugs": 5,
+      "total_signals": 289
+    },
+    {
+      "protein": "PROTEIN:ENSP00000388510",
+      "gene_name": "Retinoic acid receptor",
+      "f_frac": 0.15498154981549817,
+      "n_drugs": 4,
+      "total_signals": 271
+    },
+    {
+      "protein": "PROTEIN:ENSP00000483403",
+      "gene_name": "Growth hormone receptor",
+      "f_frac": 0.5465116279069767,
+      "n_drugs": 3,
+      "total_signals": 258
+    },
+    {
+      "protein": "PROTEIN:ENSP00000236826",
+      "gene_name": "Neutrophil collagenase",
+      "f_frac": 0.5646551724137931,
+      "n_drugs": 2,
+      "total_signals": 232
+    },
+    {
+      "protein": "PROTEIN:ENSP00000275493",
+      "gene_name": "Epidermal growth factor receptor",
+      "f_frac": 0.6359649122807017,
+      "n_drugs": 10,
+      "total_signals": 228
+    },
+    {
+      "protein": "PROTEIN:ENSP00000270349",
+      "gene_name": "Sodium-dependent dopamine transporter",
+      "f_frac": 0.625,
+      "n_drugs": 9,
+      "total_signals": 224
+    },
+    {
+      "protein": "PROTEIN:ENSP00000347942",
+      "gene_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+      "f_frac": 0.6909090909090909,
+      "n_drugs": 8,
+      "total_signals": 220
+    },
+    {
+      "protein": "PROTEIN:ENSP00000357461",
+      "gene_name": "Neuronal acetylcholine receptor; alpha4/beta2",
+      "f_frac": 0.215,
+      "n_drugs": 2,
+      "total_signals": 200
+    },
+    {
+      "protein": "PROTEIN:ENSP00000269571",
+      "gene_name": "Receptor tyrosine-protein kinase erbB-2",
+      "f_frac": 0.21608040201005024,
+      "n_drugs": 6,
+      "total_signals": 199
+    },
+    {
+      "protein": "PROTEIN:ENSP00000363330",
+      "gene_name": "CAMPATH-1 antigen",
+      "f_frac": 0.7384615384615385,
+      "n_drugs": 1,
+      "total_signals": 195
+    },
+    {
+      "protein": "PROTEIN:ENSP00000345096",
+      "gene_name": "Inosine-5'-monophosphate dehydrogenase 1",
+      "f_frac": 0.6519337016574586,
+      "n_drugs": 1,
+      "total_signals": 181
+    },
+    {
+      "protein": "PROTEIN:ENSP00000263923",
+      "gene_name": "Vascular endothelial growth factor receptor",
+      "f_frac": 0.6484848484848484,
+      "n_drugs": 5,
+      "total_signals": 165
+    },
+    {
+      "protein": "PROTEIN:ENSP00000393097",
+      "gene_name": "GABA-A receptor; anion channel",
+      "f_frac": 0.6024844720496895,
+      "n_drugs": 1,
+      "total_signals": 161
+    },
+    {
+      "protein": "PROTEIN:ENSP00000419060",
+      "gene_name": "Serine/threonine-protein kinase B-raf",
+      "f_frac": 0.6855345911949685,
+      "n_drugs": 3,
+      "total_signals": 159
+    },
+    {
+      "protein": "PROTEIN:ENSP00000261799",
+      "gene_name": "Platelet-derived growth factor receptor",
+      "f_frac": 0.6891891891891891,
+      "n_drugs": 3,
+      "total_signals": 148
+    },
+    {
+      "protein": "PROTEIN:ENSP00000480012",
+      "gene_name": "Adenosine receptor",
+      "f_frac": 0.4461538461538462,
+      "n_drugs": 4,
+      "total_signals": 130
+    },
+    {
+      "protein": "PROTEIN:ENSP00000282397",
+      "gene_name": "Vascular endothelial growth factor receptor",
+      "f_frac": 0.6557377049180327,
+      "n_drugs": 1,
+      "total_signals": 122
+    },
+    {
+      "protein": "PROTEIN:ENSP00000363318",
+      "gene_name": "Interleukin-2 receptor",
+      "f_frac": 0.8378378378378378,
+      "n_drugs": 3,
+      "total_signals": 111
+    },
+    {
+      "protein": "PROTEIN:ENSP00000396320",
+      "gene_name": "Sodium channel alpha subunit",
+      "f_frac": 0.4074074074074074,
+      "n_drugs": 3,
+      "total_signals": 108
+    },
+    {
+      "protein": "PROTEIN:ENSP00000370034",
+      "gene_name": "Toll-like receptor 7",
+      "f_frac": 0.27358490566037735,
+      "n_drugs": 2,
+      "total_signals": 106
+    },
+    {
+      "protein": "PROTEIN:ENSP00000498939",
+      "gene_name": "Cytochrome P450 3A",
+      "f_frac": 0.4215686274509804,
+      "n_drugs": 1,
+      "total_signals": 102
+    },
+    {
+      "protein": "PROTEIN:ENSP00000282096",
+      "gene_name": "Phosphodiesterase 3",
+      "f_frac": 0.3263157894736842,
+      "n_drugs": 3,
+      "total_signals": 95
+    },
+    {
+      "protein": "PROTEIN:ENSP00000373700",
+      "gene_name": "ALK tyrosine kinase receptor",
+      "f_frac": 0.5666666666666667,
+      "n_drugs": 5,
+      "total_signals": 90
+    },
+    {
+      "protein": "PROTEIN:ENSP00000251810",
+      "gene_name": "Ribonucleoside-diphosphate reductase RR1",
+      "f_frac": 0.813953488372093,
+      "n_drugs": 4,
+      "total_signals": 86
+    },
+    {
+      "protein": "PROTEIN:ENSP00000433490",
+      "gene_name": "Calcitonin gene-related peptide",
+      "f_frac": 0.046511627906976744,
+      "n_drugs": 3,
+      "total_signals": 86
+    },
+    {
+      "protein": "PROTEIN:ENSP00000305372",
+      "gene_name": "Beta-2 adrenergic receptor",
+      "f_frac": 0.38666666666666666,
+      "n_drugs": 8,
+      "total_signals": 75
+    },
+    {
+      "protein": "PROTEIN:ENSP00000431418",
+      "gene_name": "High affinity nerve growth factor receptor",
+      "f_frac": 0.7361111111111112,
+      "n_drugs": 3,
+      "total_signals": 72
+    },
+    {
+      "protein": "PROTEIN:ENSP00000356899",
+      "gene_name": "Discoidin domain-containing receptor 2",
+      "f_frac": 0.7428571428571429,
+      "n_drugs": 1,
+      "total_signals": 70
+    },
+    {
+      "protein": "PROTEIN:ENSP00000476145",
+      "gene_name": "SRC",
+      "f_frac": 0.7428571428571429,
+      "n_drugs": 1,
+      "total_signals": 70
+    },
+    {
+      "protein": "PROTEIN:ENSP00000325120",
+      "gene_name": "Progesterone receptor",
+      "f_frac": 0.03076923076923077,
+      "n_drugs": 5,
+      "total_signals": 65
+    },
+    {
+      "protein": "PROTEIN:ENSP00000363822",
+      "gene_name": "Androgen receptor",
+      "f_frac": 0.7142857142857143,
+      "n_drugs": 7,
+      "total_signals": 63
+    },
+    {
+      "protein": "PROTEIN:ENSP00000385523",
+      "gene_name": "Peroxisome proliferator-activated receptor alpha",
+      "f_frac": 0.3770491803278688,
+      "n_drugs": 2,
+      "total_signals": 61
+    },
+    {
+      "protein": "PROTEIN:ENSP00000302486",
+      "gene_name": "Dual specificity mitogen-activated protein kinase kinase 1",
+      "f_frac": 0.5,
+      "n_drugs": 3,
+      "total_signals": 58
+    },
+    {
+      "protein": "PROTEIN:ENSP00000250416",
+      "gene_name": "PARP 1, 2 and 3",
+      "f_frac": 0.47368421052631576,
+      "n_drugs": 2,
+      "total_signals": 57
+    },
+    {
+      "protein": "PROTEIN:ENSP00000262186",
+      "gene_name": "Voltage-gated inwardly rectifying potassium channel KCNH2",
+      "f_frac": 0.5384615384615384,
+      "n_drugs": 2,
+      "total_signals": 52
+    },
+    {
+      "protein": "PROTEIN:ENSP00000287820",
+      "gene_name": "Peroxisome proliferator-activated receptor gamma",
+      "f_frac": 0.9387755102040817,
+      "n_drugs": 3,
+      "total_signals": 49
+    }
+  ],
   "top_hubs": [
     {
-      "protein_id": "PROTEIN:ENSP00000381736",
-      "protein_name": "ENSP00000381736",
-      "propagated_f_frac": 0.0,
+      "protein_id": "PROTEIN:ENSP00000350512",
+      "protein_name": "ENSP00000350512",
+      "gene_name": "ENSP00000350512",
+      "propagated_f_frac": 0.1241,
       "direct_score": NaN,
-      "degree": 635,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.227599281670061,
+      "degree": 470,
+      "n_scored_neighbors": 5,
+      "confidence": 5,
+      "hub_score": 4.1459,
       "bias_direction": "male"
     },
     {
-      "protein_id": "PROTEIN:ENSP00000383949",
-      "protein_name": "ENSP00000383949",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 615,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.2116234817667597,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000250495",
-      "protein_name": "ENSP00000250495",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 602,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.200958598363593,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000496044",
-      "protein_name": "ENSP00000496044",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 598,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.1976307990577246,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000274606",
-      "protein_name": "ENSP00000274606",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 585,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.186659894788506,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000358812",
-      "protein_name": "ENSP00000358812",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 578,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.180651238786498,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000322439",
-      "protein_name": "ENSP00000322439",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 574,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.1771850203986753,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000361076",
-      "protein_name": "ENSP00000361076",
-      "propagated_f_frac": 0.0,
+      "protein_id": "PROTEIN:ENSP00000411532",
+      "protein_name": "ENSP00000411532",
+      "gene_name": "DNA topoisomerase 2-alpha",
+      "propagated_f_frac": 0.2029,
       "direct_score": NaN,
       "degree": 567,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.171060709360576,
+      "n_scored_neighbors": 8,
+      "confidence": 8,
+      "hub_score": 4.1403,
       "bias_direction": "male"
     },
     {
-      "protein_id": "PROTEIN:ENSP00000346015",
-      "protein_name": "ENSP00000346015",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 531,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.1383217446708223,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000318646",
-      "protein_name": "ENSP00000318646",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 521,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.1288337939413196,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000413436",
-      "protein_name": "ENSP00000413436",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 509,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.1172053628591856,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000349142",
-      "protein_name": "ENSP00000349142",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 488,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.096181244737436,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000263629",
-      "protein_name": "ENSP00000263629",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 477,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.084805366245728,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000288937",
-      "protein_name": "ENSP00000288937",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 461,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0677824455408693,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000300151",
-      "protein_name": "ENSP00000300151",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 458,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0645251050302726,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000230640",
-      "protein_name": "ENSP00000230640",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 456,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0623416954471026,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000478982",
-      "protein_name": "ENSP00000478982",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 453,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.059048599020674,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000199447",
-      "protein_name": "ENSP00000199447",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 450,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0557336697513393,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000362036",
-      "protein_name": "ENSP00000362036",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 446,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0512792973067846,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000265195",
-      "protein_name": "ENSP00000265195",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 443,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0479122812161124,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000296577",
-      "protein_name": "ENSP00000296577",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 437,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.041109455188223,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000258455",
-      "protein_name": "ENSP00000258455",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 433,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0365222670502026,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000354580",
-      "protein_name": "ENSP00000354580",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 433,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0365222670502026,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000306788",
-      "protein_name": "ENSP00000306788",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 430,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0330540450518737,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000416429",
-      "protein_name": "ENSP00000416429",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 424,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0260445844622086,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000290299",
-      "protein_name": "ENSP00000290299",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 423,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.024866727615979,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000298283",
-      "protein_name": "ENSP00000298283",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 419,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.020127355638707,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000260443",
-      "protein_name": "ENSP00000260443",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 417,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.017740716262378,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000268206",
-      "protein_name": "ENSP00000268206",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 409,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.008078579849177,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000355315",
-      "protein_name": "ENSP00000355315",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 405,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0031765798008663,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000230340",
-      "protein_name": "ENSP00000230340",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 404,
-      "n_scored_neighbors": 1,
-      "hub_score": 3.0019435335532694,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000257829",
-      "protein_name": "ENSP00000257829",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 401,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.9982260443095106,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000343867",
-      "protein_name": "ENSP00000343867",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 399,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.995732273553991,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000481697",
-      "protein_name": "ENSP00000481697",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 397,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.993226002642219,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000423399",
-      "protein_name": "ENSP00000423399",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 389,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.983073369561846,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000377486",
-      "protein_name": "ENSP00000377486",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 389,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.983073369561846,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000460871",
-      "protein_name": "ENSP00000460871",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 388,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.981789671809223,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000215375",
-      "protein_name": "ENSP00000215375",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 386,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.979212346514891,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000313877",
-      "protein_name": "ENSP00000313877",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 385,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.9779186847324155,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000423067",
-      "protein_name": "ENSP00000423067",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 385,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.9779186847324155,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000225969",
-      "protein_name": "ENSP00000225969",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 382,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.974017494590323,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000341082",
-      "protein_name": "ENSP00000341082",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 379,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.970085626360216,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000339844",
-      "protein_name": "ENSP00000339844",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 378,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.968768102541213,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000296102",
-      "protein_name": "ENSP00000296102",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 373,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.962127898707266,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000382250",
-      "protein_name": "ENSP00000382250",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 372,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.960789209821908,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000456218",
-      "protein_name": "ENSP00000456218",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 368,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.9553983220202635,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000253039",
-      "protein_name": "ENSP00000253039",
-      "propagated_f_frac": 0.0,
-      "direct_score": NaN,
-      "degree": 363,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.9485769338183703,
-      "bias_direction": "male"
-    },
-    {
-      "protein_id": "PROTEIN:ENSP00000263239",
-      "protein_name": "ENSP00000263239",
+      "protein_id": "PROTEIN:ENSP00000463058",
+      "protein_name": "ENSP00000463058",
+      "gene_name": "ENSP00000463058",
       "propagated_f_frac": 1.0,
       "direct_score": NaN,
-      "degree": 363,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.9485769338183703,
+      "degree": 351,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 4.0644,
       "bias_direction": "female"
     },
     {
-      "protein_id": "PROTEIN:ENSP00000454746",
-      "protein_name": "ENSP00000454746",
-      "propagated_f_frac": 0.0,
+      "protein_id": "PROTEIN:ENSP00000225430",
+      "protein_name": "ENSP00000225430",
+      "gene_name": "80S Ribosome",
+      "propagated_f_frac": 0.12,
       "direct_score": NaN,
-      "degree": 360,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.9444389791664403,
+      "degree": 559,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 3.8697,
       "bias_direction": "male"
     },
     {
-      "protein_id": "PROTEIN:ENSP00000223324",
-      "protein_name": "ENSP00000223324",
+      "protein_id": "PROTEIN:ENSP00000338157",
+      "protein_name": "ENSP00000338157",
+      "gene_name": "ENSP00000338157",
+      "propagated_f_frac": 0.861,
+      "direct_score": NaN,
+      "degree": 243,
+      "n_scored_neighbors": 5,
+      "confidence": 5,
+      "hub_score": 3.5561,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000307508",
+      "protein_name": "ENSP00000307508",
+      "gene_name": "ENSP00000307508",
+      "propagated_f_frac": 0.0349,
+      "direct_score": NaN,
+      "degree": 197,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 3.4093,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000226760",
+      "protein_name": "ENSP00000226760",
+      "gene_name": "ENSP00000226760",
+      "propagated_f_frac": 0.9796,
+      "direct_score": NaN,
+      "degree": 135,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 3.2662,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000340019",
+      "protein_name": "ENSP00000340019",
+      "gene_name": "ENSP00000340019",
+      "propagated_f_frac": 0.8312,
+      "direct_score": NaN,
+      "degree": 443,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 3.2489,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000360124",
+      "protein_name": "ENSP00000360124",
+      "gene_name": "ENSP00000360124",
+      "propagated_f_frac": 0.9583,
+      "direct_score": NaN,
+      "degree": 163,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 3.2404,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000295589",
+      "protein_name": "ENSP00000295589",
+      "gene_name": "Cholecystokinin receptor",
+      "propagated_f_frac": 0.05,
+      "direct_score": 0.0,
+      "degree": 85,
+      "n_scored_neighbors": 1,
+      "confidence": 4,
+      "hub_score": 3.226,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000362688",
+      "protein_name": "ENSP00000362688",
+      "gene_name": "ENSP00000362688",
       "propagated_f_frac": 0.0,
       "direct_score": NaN,
-      "degree": 359,
-      "n_scored_neighbors": 1,
-      "hub_score": 2.943052015725078,
+      "degree": 336,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 3.197,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000289371",
+      "protein_name": "ENSP00000289371",
+      "gene_name": "ENSP00000289371",
+      "propagated_f_frac": 0.1838,
+      "direct_score": NaN,
+      "degree": 530,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 3.1929,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000240185",
+      "protein_name": "ENSP00000240185",
+      "gene_name": "ENSP00000240185",
+      "propagated_f_frac": 0.1333,
+      "direct_score": NaN,
+      "degree": 516,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 3.1759,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000261523",
+      "protein_name": "ENSP00000261523",
+      "gene_name": "ENSP00000261523",
+      "propagated_f_frac": 0.9667,
+      "direct_score": NaN,
+      "degree": 134,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 3.1734,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000386134",
+      "protein_name": "ENSP00000386134",
+      "gene_name": "ENSP00000386134",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 306,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 3.1458,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000311430",
+      "protein_name": "ENSP00000311430",
+      "gene_name": "80S Ribosome",
+      "propagated_f_frac": 0.2116,
+      "direct_score": NaN,
+      "degree": 830,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 3.1203,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000360034",
+      "protein_name": "ENSP00000360034",
+      "gene_name": "ENSP00000360034",
+      "propagated_f_frac": 0.0154,
+      "direct_score": NaN,
+      "degree": 340,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 3.1049,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000375629",
+      "protein_name": "ENSP00000375629",
+      "gene_name": "ENSP00000375629",
+      "propagated_f_frac": 0.8624,
+      "direct_score": NaN,
+      "degree": 176,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 3.0191,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000256383",
+      "protein_name": "ENSP00000256383",
+      "gene_name": "ENSP00000256383",
+      "propagated_f_frac": 0.1499,
+      "direct_score": NaN,
+      "degree": 498,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 3.0155,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000362146",
+      "protein_name": "ENSP00000362146",
+      "gene_name": "ENSP00000362146",
+      "propagated_f_frac": 0.1515,
+      "direct_score": NaN,
+      "degree": 498,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 3.0013,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000406162",
+      "protein_name": "ENSP00000406162",
+      "gene_name": "ENSP00000406162",
+      "propagated_f_frac": 0.256,
+      "direct_score": NaN,
+      "degree": 365,
+      "n_scored_neighbors": 7,
+      "confidence": 7,
+      "hub_score": 2.9955,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000326804",
+      "protein_name": "ENSP00000326804",
+      "gene_name": "ENSP00000326804",
+      "propagated_f_frac": 0.1515,
+      "direct_score": NaN,
+      "degree": 491,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 2.9945,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000340330",
+      "protein_name": "ENSP00000340330",
+      "gene_name": "ENSP00000340330",
+      "propagated_f_frac": 0.8004,
+      "direct_score": NaN,
+      "degree": 463,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 2.9683,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000367872",
+      "protein_name": "ENSP00000367872",
+      "gene_name": "ENSP00000367872",
+      "propagated_f_frac": 0.3539,
+      "direct_score": NaN,
+      "degree": 879,
+      "n_scored_neighbors": 19,
+      "confidence": 19,
+      "hub_score": 2.9679,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000361965",
+      "protein_name": "ENSP00000361965",
+      "gene_name": "Adenosine deaminase",
+      "propagated_f_frac": 0.7243,
+      "direct_score": 1.0,
+      "degree": 171,
+      "n_scored_neighbors": 9,
+      "confidence": 12,
+      "hub_score": 2.9612,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000405453",
+      "protein_name": "ENSP00000405453",
+      "gene_name": "ENSP00000405453",
+      "propagated_f_frac": 0.7925,
+      "direct_score": NaN,
+      "degree": 173,
+      "n_scored_neighbors": 6,
+      "confidence": 6,
+      "hub_score": 2.9363,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000359297",
+      "protein_name": "ENSP00000359297",
+      "gene_name": "ENSP00000359297",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 201,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 2.9159,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000371475",
+      "protein_name": "ENSP00000371475",
+      "gene_name": "ENSP00000371475",
+      "propagated_f_frac": 0.269,
+      "direct_score": NaN,
+      "degree": 627,
+      "n_scored_neighbors": 6,
+      "confidence": 6,
+      "hub_score": 2.8961,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000372023",
+      "protein_name": "ENSP00000372023",
+      "gene_name": "Serine/threonine-protein kinase Chk2",
+      "propagated_f_frac": 0.2843,
+      "direct_score": NaN,
+      "degree": 446,
+      "n_scored_neighbors": 8,
+      "confidence": 8,
+      "hub_score": 2.8917,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000262133",
+      "protein_name": "ENSP00000262133",
+      "gene_name": "ENSP00000262133",
+      "propagated_f_frac": 0.1322,
+      "direct_score": NaN,
+      "degree": 129,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 2.8817,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000345708",
+      "protein_name": "ENSP00000345708",
+      "gene_name": "Sulfonylurea receptor 1, Kir6.2",
+      "propagated_f_frac": 0.7938,
+      "direct_score": 1.0,
+      "degree": 150,
+      "n_scored_neighbors": 3,
+      "confidence": 6,
+      "hub_score": 2.8687,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000216962",
+      "protein_name": "ENSP00000216962",
+      "gene_name": "ENSP00000216962",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 182,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 2.8616,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000244174",
+      "protein_name": "ENSP00000244174",
+      "gene_name": "ENSP00000244174",
+      "propagated_f_frac": 0.9459,
+      "direct_score": NaN,
+      "degree": 100,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 2.8531,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000363973",
+      "protein_name": "ENSP00000363973",
+      "gene_name": "ENSP00000363973",
+      "propagated_f_frac": 0.8924,
+      "direct_score": NaN,
+      "degree": 186,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 2.8457,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000307940",
+      "protein_name": "ENSP00000307940",
+      "gene_name": "Elongation factor 2",
+      "propagated_f_frac": 0.2374,
+      "direct_score": NaN,
+      "degree": 802,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 2.8267,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000283148",
+      "protein_name": "ENSP00000283148",
+      "gene_name": "ENSP00000283148",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 169,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 2.8211,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000380837",
+      "protein_name": "ENSP00000380837",
+      "gene_name": "ENSP00000380837",
+      "propagated_f_frac": 0.0648,
+      "direct_score": NaN,
+      "degree": 105,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 2.8134,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000344393",
+      "protein_name": "ENSP00000344393",
+      "gene_name": "ENSP00000344393",
+      "propagated_f_frac": 0.037,
+      "direct_score": NaN,
+      "degree": 251,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 2.8124,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000370950",
+      "protein_name": "ENSP00000370950",
+      "gene_name": "ENSP00000370950",
+      "propagated_f_frac": 0.2735,
+      "direct_score": NaN,
+      "degree": 574,
+      "n_scored_neighbors": 6,
+      "confidence": 6,
+      "hub_score": 2.8011,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000400717",
+      "protein_name": "ENSP00000400717",
+      "gene_name": "ENSP00000400717",
+      "propagated_f_frac": 0.2166,
+      "direct_score": NaN,
+      "degree": 246,
+      "n_scored_neighbors": 5,
+      "confidence": 5,
+      "hub_score": 2.7977,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000293217",
+      "protein_name": "ENSP00000293217",
+      "gene_name": "ENSP00000293217",
+      "propagated_f_frac": 0.7977,
+      "direct_score": NaN,
+      "degree": 325,
+      "n_scored_neighbors": 4,
+      "confidence": 4,
+      "hub_score": 2.7727,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000493712",
+      "protein_name": "ENSP00000493712",
+      "gene_name": "ENSP00000493712",
+      "propagated_f_frac": 0.2951,
+      "direct_score": NaN,
+      "degree": 666,
+      "n_scored_neighbors": 7,
+      "confidence": 7,
+      "hub_score": 2.7701,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000314976",
+      "protein_name": "ENSP00000314976",
+      "gene_name": "ENSP00000314976",
+      "propagated_f_frac": 0.9459,
+      "direct_score": NaN,
+      "degree": 86,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 2.7609,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000304895",
+      "protein_name": "ENSP00000304895",
+      "gene_name": "ENSP00000304895",
+      "propagated_f_frac": 0.6476,
+      "direct_score": NaN,
+      "degree": 422,
+      "n_scored_neighbors": 21,
+      "confidence": 21,
+      "hub_score": 2.759,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000411010",
+      "protein_name": "ENSP00000411010",
+      "gene_name": "ENSP00000411010",
+      "propagated_f_frac": 0.037,
+      "direct_score": NaN,
+      "degree": 215,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 2.734,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000418823",
+      "protein_name": "ENSP00000418823",
+      "gene_name": "Alpha-ketoglutarate-dependent dioxygenase FTO",
+      "propagated_f_frac": 0.8802,
+      "direct_score": NaN,
+      "degree": 177,
+      "n_scored_neighbors": 3,
+      "confidence": 3,
+      "hub_score": 2.7313,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000386896",
+      "protein_name": "ENSP00000386896",
+      "gene_name": "ENSP00000386896",
+      "propagated_f_frac": 0.26,
+      "direct_score": NaN,
+      "degree": 231,
+      "n_scored_neighbors": 7,
+      "confidence": 7,
+      "hub_score": 2.7186,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000282018",
+      "protein_name": "ENSP00000282018",
+      "gene_name": "ENSP00000282018",
+      "propagated_f_frac": 0.3001,
+      "direct_score": NaN,
+      "degree": 233,
+      "n_scored_neighbors": 11,
+      "confidence": 11,
+      "hub_score": 2.71,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000313454",
+      "protein_name": "ENSP00000313454",
+      "gene_name": "ENSP00000313454",
+      "propagated_f_frac": 1.0,
+      "direct_score": NaN,
+      "degree": 134,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 2.6945,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000323858",
+      "protein_name": "ENSP00000323858",
+      "gene_name": "ENSP00000323858",
+      "propagated_f_frac": 0.0524,
+      "direct_score": NaN,
+      "degree": 233,
+      "n_scored_neighbors": 2,
+      "confidence": 2,
+      "hub_score": 2.6825,
       "bias_direction": "male"
     }
   ],
   "pathway_bias": {
-    "female_biased": [],
-    "male_biased": []
+    "female_biased": [
+      {
+        "pathway_id": "PATHWAY:R-HSA-73943",
+        "pathway_name": "Reversal of alkylation damage by DNA dioxygenases",
+        "mean_f_frac": 0.9201,
+        "std_f_frac": 0.0565,
+        "n_scored_genes": 3,
+        "n_total_genes": 12,
+        "coverage_pct": 25.0,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-210746",
+        "pathway_name": "Regulation of gene expression in endocrine-committed (NEUROG3+) progenitor cells",
+        "mean_f_frac": 0.8579,
+        "std_f_frac": 0.2461,
+        "n_scored_genes": 4,
+        "n_total_genes": 19,
+        "coverage_pct": 21.1,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-73614",
+        "pathway_name": "Pyrimidine salvage",
+        "mean_f_frac": 0.8204,
+        "std_f_frac": 0.185,
+        "n_scored_genes": 7,
+        "n_total_genes": 91,
+        "coverage_pct": 7.7,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-210747",
+        "pathway_name": "Regulation of gene expression in early pancreatic precursor cells",
+        "mean_f_frac": 0.8122,
+        "std_f_frac": 0.2773,
+        "n_scored_genes": 6,
+        "n_total_genes": 35,
+        "coverage_pct": 17.1,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-5683177",
+        "pathway_name": "Defective ABCC8 can cause hypo- and hyper-glycemias",
+        "mean_f_frac": 0.8045,
+        "std_f_frac": 0.015,
+        "n_scored_genes": 3,
+        "n_total_genes": 18,
+        "coverage_pct": 16.7,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-390450",
+        "pathway_name": "Folding of actin by CCT/TriC",
+        "mean_f_frac": 0.7827,
+        "std_f_frac": 0.1592,
+        "n_scored_genes": 10,
+        "n_total_genes": 69,
+        "coverage_pct": 14.5,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-5678420",
+        "pathway_name": "Defective ABCC9 causes CMD10, ATFB12 and Cantu syndrome",
+        "mean_f_frac": 0.7815,
+        "std_f_frac": 0.0123,
+        "n_scored_genes": 4,
+        "n_total_genes": 14,
+        "coverage_pct": 28.6,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-9014826",
+        "pathway_name": "Interleukin-36 pathway",
+        "mean_f_frac": 0.7811,
+        "std_f_frac": 0.0404,
+        "n_scored_genes": 9,
+        "n_total_genes": 47,
+        "coverage_pct": 19.1,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-8963693",
+        "pathway_name": "Aspartate and asparagine metabolism",
+        "mean_f_frac": 0.7748,
+        "std_f_frac": 0.1442,
+        "n_scored_genes": 5,
+        "n_total_genes": 69,
+        "coverage_pct": 7.2,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-71064",
+        "pathway_name": "Lysine catabolism",
+        "mean_f_frac": 0.7582,
+        "std_f_frac": 0.2023,
+        "n_scored_genes": 4,
+        "n_total_genes": 61,
+        "coverage_pct": 6.6,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-77111",
+        "pathway_name": "Synthesis of Ketone Bodies",
+        "mean_f_frac": 0.7558,
+        "std_f_frac": 0.187,
+        "n_scored_genes": 6,
+        "n_total_genes": 45,
+        "coverage_pct": 13.3,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-5661270",
+        "pathway_name": "Formation of xylulose-5-phosphate",
+        "mean_f_frac": 0.75,
+        "std_f_frac": 0.2224,
+        "n_scored_genes": 3,
+        "n_total_genes": 25,
+        "coverage_pct": 12.0,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-70688",
+        "pathway_name": "Proline catabolism",
+        "mean_f_frac": 0.7467,
+        "std_f_frac": 0.135,
+        "n_scored_genes": 3,
+        "n_total_genes": 23,
+        "coverage_pct": 13.0,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-425410",
+        "pathway_name": "Metal ion SLC transporters",
+        "mean_f_frac": 0.7444,
+        "std_f_frac": 0.2435,
+        "n_scored_genes": 3,
+        "n_total_genes": 49,
+        "coverage_pct": 6.1,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-1296025",
+        "pathway_name": "ATP sensitive Potassium channels",
+        "mean_f_frac": 0.7441,
+        "std_f_frac": 0.0753,
+        "n_scored_genes": 7,
+        "n_total_genes": 30,
+        "coverage_pct": 23.3,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-75094",
+        "pathway_name": "Formation of the Editosome",
+        "mean_f_frac": 0.7424,
+        "std_f_frac": 0.3643,
+        "n_scored_genes": 3,
+        "n_total_genes": 51,
+        "coverage_pct": 5.9,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-72200",
+        "pathway_name": "mRNA Editing: C to U Conversion",
+        "mean_f_frac": 0.7424,
+        "std_f_frac": 0.3643,
+        "n_scored_genes": 3,
+        "n_total_genes": 51,
+        "coverage_pct": 5.9,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-390471",
+        "pathway_name": "Association of TriC/CCT with target proteins during biosynthesis",
+        "mean_f_frac": 0.7375,
+        "std_f_frac": 0.1845,
+        "n_scored_genes": 41,
+        "n_total_genes": 297,
+        "coverage_pct": 13.8,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-177128",
+        "pathway_name": "Conjugation of salicylate with glycine",
+        "mean_f_frac": 0.7338,
+        "std_f_frac": 0.1996,
+        "n_scored_genes": 3,
+        "n_total_genes": 52,
+        "coverage_pct": 5.8,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-389599",
+        "pathway_name": "Alpha-oxidation of phytanate",
+        "mean_f_frac": 0.7329,
+        "std_f_frac": 0.1192,
+        "n_scored_genes": 4,
+        "n_total_genes": 36,
+        "coverage_pct": 11.1,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-8964041",
+        "pathway_name": "LDL remodeling",
+        "mean_f_frac": 0.7315,
+        "std_f_frac": 0.1247,
+        "n_scored_genes": 7,
+        "n_total_genes": 24,
+        "coverage_pct": 29.2,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-9687136",
+        "pathway_name": "Aberrant regulation of mitotic exit in cancer due to RB1 defects",
+        "mean_f_frac": 0.7293,
+        "std_f_frac": 0.2667,
+        "n_scored_genes": 19,
+        "n_total_genes": 146,
+        "coverage_pct": 13.0,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-500753",
+        "pathway_name": "Pyrimidine biosynthesis",
+        "mean_f_frac": 0.729,
+        "std_f_frac": 0.0581,
+        "n_scored_genes": 5,
+        "n_total_genes": 9,
+        "coverage_pct": 55.6,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-71032",
+        "pathway_name": "Propionyl-CoA catabolism",
+        "mean_f_frac": 0.7267,
+        "std_f_frac": 0.2097,
+        "n_scored_genes": 3,
+        "n_total_genes": 29,
+        "coverage_pct": 10.3,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-70895",
+        "pathway_name": "Branched-chain amino acid catabolism",
+        "mean_f_frac": 0.7253,
+        "std_f_frac": 0.2822,
+        "n_scored_genes": 13,
+        "n_total_genes": 107,
+        "coverage_pct": 12.1,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-376172",
+        "pathway_name": "DSCAM interactions",
+        "mean_f_frac": 0.7234,
+        "std_f_frac": 0.0517,
+        "n_scored_genes": 3,
+        "n_total_genes": 17,
+        "coverage_pct": 17.6,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-176407",
+        "pathway_name": "Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase",
+        "mean_f_frac": 0.722,
+        "std_f_frac": 0.2781,
+        "n_scored_genes": 19,
+        "n_total_genes": 152,
+        "coverage_pct": 12.5,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-141430",
+        "pathway_name": "Inactivation of APC/C via direct inhibition of the APC/C complex",
+        "mean_f_frac": 0.7157,
+        "std_f_frac": 0.2696,
+        "n_scored_genes": 20,
+        "n_total_genes": 149,
+        "coverage_pct": 13.4,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-176409",
+        "pathway_name": "APC/C:Cdc20 mediated degradation of mitotic proteins",
+        "mean_f_frac": 0.7157,
+        "std_f_frac": 0.2696,
+        "n_scored_genes": 20,
+        "n_total_genes": 149,
+        "coverage_pct": 13.4,
+        "bias": "female"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-176412",
+        "pathway_name": "Phosphorylation of the APC/C",
+        "mean_f_frac": 0.7133,
+        "std_f_frac": 0.255,
+        "n_scored_genes": 21,
+        "n_total_genes": 144,
+        "coverage_pct": 14.6,
+        "bias": "female"
+      }
+    ],
+    "male_biased": [
+      {
+        "pathway_id": "PATHWAY:R-HSA-6807062",
+        "pathway_name": "Zymostenol biosynthesis via lathosterol (Kandutsch-Russell pathway)",
+        "mean_f_frac": 0.2453,
+        "std_f_frac": 0.2538,
+        "n_scored_genes": 8,
+        "n_total_genes": 43,
+        "coverage_pct": 18.6,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-201688",
+        "pathway_name": "WNT mediated activation of DVL",
+        "mean_f_frac": 0.2442,
+        "std_f_frac": 0.1356,
+        "n_scored_genes": 9,
+        "n_total_genes": 102,
+        "coverage_pct": 8.8,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-975957",
+        "pathway_name": "Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",
+        "mean_f_frac": 0.2406,
+        "std_f_frac": 0.1518,
+        "n_scored_genes": 178,
+        "n_total_genes": 764,
+        "coverage_pct": 23.3,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-2408522",
+        "pathway_name": "Selenoamino acid metabolism",
+        "mean_f_frac": 0.2392,
+        "std_f_frac": 0.233,
+        "n_scored_genes": 9,
+        "n_total_genes": 76,
+        "coverage_pct": 11.8,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-72649",
+        "pathway_name": "Translation initiation complex formation",
+        "mean_f_frac": 0.2344,
+        "std_f_frac": 0.1454,
+        "n_scored_genes": 86,
+        "n_total_genes": 411,
+        "coverage_pct": 20.9,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-9633012",
+        "pathway_name": "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+        "mean_f_frac": 0.2319,
+        "std_f_frac": 0.1552,
+        "n_scored_genes": 168,
+        "n_total_genes": 699,
+        "coverage_pct": 24.0,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-72702",
+        "pathway_name": "Ribosomal scanning and start codon recognition",
+        "mean_f_frac": 0.2287,
+        "std_f_frac": 0.1449,
+        "n_scored_genes": 86,
+        "n_total_genes": 403,
+        "coverage_pct": 21.3,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-9954716",
+        "pathway_name": "ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA",
+        "mean_f_frac": 0.2281,
+        "std_f_frac": 0.1418,
+        "n_scored_genes": 162,
+        "n_total_genes": 648,
+        "coverage_pct": 25.0,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-975956",
+        "pathway_name": "Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",
+        "mean_f_frac": 0.2258,
+        "std_f_frac": 0.1316,
+        "n_scored_genes": 165,
+        "n_total_genes": 647,
+        "coverage_pct": 25.5,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-1799339",
+        "pathway_name": "SRP-dependent cotranslational protein targeting to membrane",
+        "mean_f_frac": 0.2256,
+        "std_f_frac": 0.141,
+        "n_scored_genes": 165,
+        "n_total_genes": 719,
+        "coverage_pct": 22.9,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-72695",
+        "pathway_name": "Formation of the ternary complex, and subsequently, the 43S complex",
+        "mean_f_frac": 0.2253,
+        "std_f_frac": 0.1439,
+        "n_scored_genes": 81,
+        "n_total_genes": 348,
+        "coverage_pct": 23.3,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-156902",
+        "pathway_name": "Peptide chain elongation",
+        "mean_f_frac": 0.2211,
+        "std_f_frac": 0.1307,
+        "n_scored_genes": 161,
+        "n_total_genes": 605,
+        "coverage_pct": 26.6,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-192823",
+        "pathway_name": "Viral mRNA Translation",
+        "mean_f_frac": 0.2188,
+        "std_f_frac": 0.1294,
+        "n_scored_genes": 158,
+        "n_total_genes": 589,
+        "coverage_pct": 26.8,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-72764",
+        "pathway_name": "Eukaryotic Translation Termination",
+        "mean_f_frac": 0.2187,
+        "std_f_frac": 0.129,
+        "n_scored_genes": 159,
+        "n_total_genes": 613,
+        "coverage_pct": 25.9,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-9954714",
+        "pathway_name": "PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA",
+        "mean_f_frac": 0.2176,
+        "std_f_frac": 0.1298,
+        "n_scored_genes": 160,
+        "n_total_genes": 594,
+        "coverage_pct": 26.9,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-2408557",
+        "pathway_name": "Selenocysteine synthesis",
+        "mean_f_frac": 0.2174,
+        "std_f_frac": 0.1301,
+        "n_scored_genes": 159,
+        "n_total_genes": 610,
+        "coverage_pct": 26.1,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-156827",
+        "pathway_name": "L13a-mediated translational silencing of Ceruloplasmin expression",
+        "mean_f_frac": 0.2121,
+        "std_f_frac": 0.1381,
+        "n_scored_genes": 179,
+        "n_total_genes": 736,
+        "coverage_pct": 24.3,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-72706",
+        "pathway_name": "GTP hydrolysis and joining of the 60S ribosomal subunit",
+        "mean_f_frac": 0.2093,
+        "std_f_frac": 0.1371,
+        "n_scored_genes": 180,
+        "n_total_genes": 731,
+        "coverage_pct": 24.6,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-72689",
+        "pathway_name": "Formation of a pool of free 40S subunits",
+        "mean_f_frac": 0.2085,
+        "std_f_frac": 0.1366,
+        "n_scored_genes": 171,
+        "n_total_genes": 662,
+        "coverage_pct": 25.8,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-6791226",
+        "pathway_name": "Major pathway of rRNA processing in the nucleolus and cytosol",
+        "mean_f_frac": 0.1914,
+        "std_f_frac": 0.1634,
+        "n_scored_genes": 212,
+        "n_total_genes": 1039,
+        "coverage_pct": 20.4,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-8964208",
+        "pathway_name": "Phenylalanine metabolism",
+        "mean_f_frac": 0.1884,
+        "std_f_frac": 0.1415,
+        "n_scored_genes": 5,
+        "n_total_genes": 28,
+        "coverage_pct": 17.9,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-9969901",
+        "pathway_name": "Cholesterol biosynthesis from zymosterol (modified Kandutsch-Russell pathway)",
+        "mean_f_frac": 0.1305,
+        "std_f_frac": 0.1846,
+        "n_scored_genes": 3,
+        "n_total_genes": 22,
+        "coverage_pct": 13.6,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-5419276",
+        "pathway_name": "Mitochondrial translation termination",
+        "mean_f_frac": 0.1158,
+        "std_f_frac": 0.1842,
+        "n_scored_genes": 67,
+        "n_total_genes": 564,
+        "coverage_pct": 11.9,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-8949613",
+        "pathway_name": "Cristae formation",
+        "mean_f_frac": 0.1061,
+        "std_f_frac": 0.201,
+        "n_scored_genes": 12,
+        "n_total_genes": 189,
+        "coverage_pct": 6.3,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-6790901",
+        "pathway_name": "rRNA modification in the nucleus and cytosol",
+        "mean_f_frac": 0.1031,
+        "std_f_frac": 0.1584,
+        "n_scored_genes": 51,
+        "n_total_genes": 322,
+        "coverage_pct": 15.8,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-5389840",
+        "pathway_name": "Mitochondrial translation elongation",
+        "mean_f_frac": 0.0945,
+        "std_f_frac": 0.1454,
+        "n_scored_genes": 56,
+        "n_total_genes": 517,
+        "coverage_pct": 10.8,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-9937383",
+        "pathway_name": "Mitochondrial ribosome-associated quality control",
+        "mean_f_frac": 0.0902,
+        "std_f_frac": 0.1405,
+        "n_scored_genes": 54,
+        "n_total_genes": 551,
+        "coverage_pct": 9.8,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-5368286",
+        "pathway_name": "Mitochondrial translation initiation",
+        "mean_f_frac": 0.0902,
+        "std_f_frac": 0.1405,
+        "n_scored_genes": 54,
+        "n_total_genes": 521,
+        "coverage_pct": 10.4,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-379726",
+        "pathway_name": "Mitochondrial tRNA aminoacylation",
+        "mean_f_frac": 0.0669,
+        "std_f_frac": 0.1893,
+        "n_scored_genes": 9,
+        "n_total_genes": 119,
+        "coverage_pct": 7.6,
+        "bias": "male"
+      },
+      {
+        "pathway_id": "PATHWAY:R-HSA-163210",
+        "pathway_name": "Formation of ATP by chemiosmotic coupling",
+        "mean_f_frac": 0.0217,
+        "std_f_frac": 0.046,
+        "n_scored_genes": 10,
+        "n_total_genes": 140,
+        "coverage_pct": 7.1,
+        "bias": "male"
+      }
+    ]
   }
 }
