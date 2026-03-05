@@ -1,0 +1,50 @@
+{
+  "analysis": "ae_onset_timing_sex_bias",
+  "wave": 86,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:54:41.716037",
+  "novelty": "AE onset timing (immediate\u2192chronic) correlates with sex-bias direction",
+  "summary": {
+    "classified_signals": 11153,
+    "onset_sex_rho": 1.0,
+    "onset_sex_p": 0.0
+  },
+  "onset_bias": [
+    {
+      "onset_tier": 1,
+      "onset_label": "Immediate",
+      "pct_female": 55.21042084168337,
+      "n_signals": 2994,
+      "mean_lr": 0.15885097462322303,
+      "n_drugs": 1159,
+      "n_aes": 16
+    },
+    {
+      "onset_tier": 2,
+      "onset_label": "Early",
+      "pct_female": 57.01772679874869,
+      "n_signals": 4795,
+      "mean_lr": 0.19450215327726836,
+      "n_drugs": 1288,
+      "n_aes": 19
+    },
+    {
+      "onset_tier": 3,
+      "onset_label": "Delayed",
+      "pct_female": 65.3123634775011,
+      "n_signals": 2289,
+      "mean_lr": 0.3106929662137233,
+      "n_drugs": 808,
+      "n_aes": 17
+    },
+    {
+      "onset_tier": 4,
+      "onset_label": "Chronic",
+      "pct_female": 70.04651162790698,
+      "n_signals": 1075,
+      "mean_lr": 0.3824286972875191,
+      "n_drugs": 559,
+      "n_aes": 12
+    }
+  ]
+}

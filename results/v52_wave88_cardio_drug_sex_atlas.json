@@ -1,0 +1,104 @@
+{
+  "analysis": "cardiovascular_drug_sex_atlas",
+  "wave": 88,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:54:50.107581",
+  "novelty": "10-class cardiovascular drug sex-bias atlas with cardiac AE analysis",
+  "summary": {
+    "n_classes": 10,
+    "most_female": "Antiplatelets",
+    "most_male": "CCBs"
+  },
+  "class_results": [
+    {
+      "class": "Antiplatelets",
+      "n_drugs_total": 6,
+      "n_drugs_data": 6,
+      "n_drugs_reliable": 6,
+      "mean_pctf": 77.2,
+      "std_pctf": 14.0,
+      "range_pctf": 46.0
+    },
+    {
+      "class": "Anticoagulants",
+      "n_drugs_total": 7,
+      "n_drugs_data": 7,
+      "n_drugs_reliable": 7,
+      "mean_pctf": 64.8,
+      "std_pctf": 9.1,
+      "range_pctf": 27.2
+    },
+    {
+      "class": "ACE_inhibitors",
+      "n_drugs_total": 9,
+      "n_drugs_data": 9,
+      "n_drugs_reliable": 8,
+      "mean_pctf": 61.4,
+      "std_pctf": 23.3,
+      "range_pctf": 67.5
+    },
+    {
+      "class": "Diuretics",
+      "n_drugs_total": 9,
+      "n_drugs_data": 8,
+      "n_drugs_reliable": 7,
+      "mean_pctf": 52.9,
+      "std_pctf": 9.4,
+      "range_pctf": 32.0
+    },
+    {
+      "class": "Nitrates",
+      "n_drugs_total": 3,
+      "n_drugs_data": 3,
+      "n_drugs_reliable": 3,
+      "mean_pctf": 52.7,
+      "std_pctf": 18.0,
+      "range_pctf": 39.4
+    },
+    {
+      "class": "ARBs",
+      "n_drugs_total": 8,
+      "n_drugs_data": 7,
+      "n_drugs_reliable": 6,
+      "mean_pctf": 49.1,
+      "std_pctf": 2.8,
+      "range_pctf": 9.2
+    },
+    {
+      "class": "Antiarrhythmics",
+      "n_drugs_total": 5,
+      "n_drugs_data": 5,
+      "n_drugs_reliable": 5,
+      "mean_pctf": 48.6,
+      "std_pctf": 12.1,
+      "range_pctf": 31.7
+    },
+    {
+      "class": "Statins",
+      "n_drugs_total": 7,
+      "n_drugs_data": 7,
+      "n_drugs_reliable": 6,
+      "mean_pctf": 48.4,
+      "std_pctf": 7.9,
+      "range_pctf": 25.2
+    },
+    {
+      "class": "Beta_blockers",
+      "n_drugs_total": 9,
+      "n_drugs_data": 9,
+      "n_drugs_reliable": 9,
+      "mean_pctf": 45.8,
+      "std_pctf": 16.5,
+      "range_pctf": 48.0
+    },
+    {
+      "class": "CCBs",
+      "n_drugs_total": 6,
+      "n_drugs_data": 6,
+      "n_drugs_reliable": 6,
+      "mean_pctf": 39.2,
+      "std_pctf": 18.2,
+      "range_pctf": 59.3
+    }
+  ]
+}

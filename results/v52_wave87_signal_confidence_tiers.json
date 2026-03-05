@@ -1,0 +1,284 @@
+{
+  "analysis": "signal_confidence_tiers",
+  "wave": 87,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:54:42.936731",
+  "novelty": "Multi-criteria confidence scoring with tier stratification",
+  "summary": {
+    "n_signals": 96281,
+    "tier_distribution": {
+      "Low": 24071,
+      "Medium": 24070,
+      "High": 24070,
+      "Very High": 24070
+    }
+  },
+  "tier_bias": [
+    {
+      "confidence_tier": "Low",
+      "pct_female": 46.07619126750031,
+      "n_signals": 24071,
+      "mean_abs_lr": 0.7663864920451701
+    },
+    {
+      "confidence_tier": "Medium",
+      "pct_female": 50.074781886165354,
+      "n_signals": 24070,
+      "mean_abs_lr": 0.9087825780362014
+    },
+    {
+      "confidence_tier": "High",
+      "pct_female": 53.44412131283755,
+      "n_signals": 24070,
+      "mean_abs_lr": 1.008503434797994
+    },
+    {
+      "confidence_tier": "Very High",
+      "pct_female": 65.48815953469048,
+      "n_signals": 24070,
+      "mean_abs_lr": 1.2635272671791664
+    }
+  ],
+  "top_confident": [
+    {
+      "drug_name": "OXYCODONE",
+      "adverse_event": "Pain",
+      "log_ratio": -0.5786281115841305,
+      "min_reports": 24048,
+      "confidence_score": 0.6697981532924482,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Colorectal cancer",
+      "log_ratio": 0.6661660745088058,
+      "min_reports": 15580,
+      "confidence_score": 0.6357799975384563,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "ADAPALENE",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": -0.5391407955974268,
+      "min_reports": 11658,
+      "confidence_score": 0.6271418433041798,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "EVOLOCUMAB",
+      "adverse_event": "Device difficult to use",
+      "log_ratio": -0.9637779804077109,
+      "min_reports": 10807,
+      "confidence_score": 0.6262826545834538,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "RITUXIMAB",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": 0.9593858593121162,
+      "min_reports": 5664,
+      "confidence_score": 0.5921669766805974,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "MORPHINE",
+      "adverse_event": "Pain",
+      "log_ratio": -0.5033402927724802,
+      "min_reports": 10245,
+      "confidence_score": 0.5913753078729435,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": 0.5534168009163947,
+      "min_reports": 7344,
+      "confidence_score": 0.5911469770480273,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "PREDNISONE",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": 0.6811179534603172,
+      "min_reports": 7257,
+      "confidence_score": 0.5903984722651252,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "SKIN CARE",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": -0.5221470588470385,
+      "min_reports": 7572,
+      "confidence_score": 0.5903330292117893,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "OMEPRAZOLE",
+      "adverse_event": "Chronic kidney disease",
+      "log_ratio": 0.6541923928273272,
+      "min_reports": 8847,
+      "confidence_score": 0.5899177246788052,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "HYDROMORPHONE",
+      "adverse_event": "Pain",
+      "log_ratio": -0.5316881049628313,
+      "min_reports": 9623,
+      "confidence_score": 0.5878424905173065,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "DUPILUMAB",
+      "adverse_event": "Dry skin",
+      "log_ratio": -0.7470416653247895,
+      "min_reports": 8198,
+      "confidence_score": 0.5869909128780246,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "ESOMEPRAZOLE",
+      "adverse_event": "Chronic kidney disease",
+      "log_ratio": 0.5839124058646243,
+      "min_reports": 8320,
+      "confidence_score": 0.5828444088682029,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "LANSOPRAZOLE",
+      "adverse_event": "Chronic kidney disease",
+      "log_ratio": 0.6847563699806472,
+      "min_reports": 7308,
+      "confidence_score": 0.5749784146432299,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "PANTOPRAZOLE",
+      "adverse_event": "Chronic kidney disease",
+      "log_ratio": 0.6840856485052207,
+      "min_reports": 6790,
+      "confidence_score": 0.5695535242496484,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "adverse_event": "Psoriasis",
+      "log_ratio": -0.7283025044946685,
+      "min_reports": 6331,
+      "confidence_score": 0.5666768544911615,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": 0.5199428913673045,
+      "min_reports": 4099,
+      "confidence_score": 0.5637713177597785,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "OXYCODONE;PARACETAMOL",
+      "adverse_event": "Dependence",
+      "log_ratio": 0.6142220323988425,
+      "min_reports": 6659,
+      "confidence_score": 0.563097056323024,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "SALBUTAMOL",
+      "adverse_event": "Asthma",
+      "log_ratio": -0.5413324482927591,
+      "min_reports": 6233,
+      "confidence_score": 0.5630269227981332,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "SOMATROPIN",
+      "adverse_event": "Drug dose omission by device",
+      "log_ratio": -0.5588315302423421,
+      "min_reports": 5492,
+      "confidence_score": 0.5517536420364714,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Gastric cancer",
+      "log_ratio": 0.6160265359917991,
+      "min_reports": 5897,
+      "confidence_score": 0.5517061373336797,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "adverse_event": "Drug ineffective",
+      "log_ratio": 0.706915714483731,
+      "min_reports": 3092,
+      "confidence_score": 0.5504265539618148,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "ROSIGLITAZONE",
+      "adverse_event": "Cardiac failure congestive",
+      "log_ratio": 0.6199933720745134,
+      "min_reports": 6054,
+      "confidence_score": 0.5500675118439656,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "SOMATROPIN",
+      "adverse_event": "Device breakage",
+      "log_ratio": -2.12710098104054,
+      "min_reports": 2473,
+      "confidence_score": 0.5481159962383337,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Hepatic cancer",
+      "log_ratio": 0.5579006503789534,
+      "min_reports": 5425,
+      "confidence_score": 0.5465805985644235,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "ADALIMUMAB",
+      "adverse_event": "Injection site haemorrhage",
+      "log_ratio": -0.538539685494489,
+      "min_reports": 5288,
+      "confidence_score": 0.5463277145905555,
+      "direction": "male_higher"
+    },
+    {
+      "drug_name": "ADALIMUMAB",
+      "adverse_event": "Rash",
+      "log_ratio": 0.6392009584964916,
+      "min_reports": 3490,
+      "confidence_score": 0.5453296908907893,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "adverse_event": "Fatigue",
+      "log_ratio": 0.643582657703744,
+      "min_reports": 2887,
+      "confidence_score": 0.5437981553558532,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "adverse_event": "Pancreatic carcinoma",
+      "log_ratio": 0.5991960049159482,
+      "min_reports": 5464,
+      "confidence_score": 0.5427042948565687,
+      "direction": "female_higher"
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "adverse_event": "Pain",
+      "log_ratio": 0.8180616337073868,
+      "min_reports": 2702,
+      "confidence_score": 0.5413712636034083,
+      "direction": "female_higher"
+    }
+  ]
+}
