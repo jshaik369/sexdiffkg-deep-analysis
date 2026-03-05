@@ -1,0 +1,43 @@
+{
+  "analysis": "nsaid_pain_drug_sex_differential",
+  "wave": 17,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:42:07.839253",
+  "novelty": "Validates NSAID organ paradox (GI female, renal male) and maps opioid sex-bias by AE category",
+  "summary": {
+    "nsaid_signals": 1618,
+    "opioid_signals": 2568
+  },
+  "organ_paradox": [
+    {
+      "organ": "GI",
+      "n_signals": 96,
+      "pct_female": 60.416666666666664,
+      "mean_lr": 0.363045560547507
+    },
+    {
+      "organ": "Renal",
+      "n_signals": 25,
+      "pct_female": 40.0,
+      "mean_lr": -0.3653759975012722
+    },
+    {
+      "organ": "Cardiac",
+      "n_signals": 57,
+      "pct_female": 52.63157894736842,
+      "mean_lr": 0.17238181277526932
+    },
+    {
+      "organ": "Hepatic",
+      "n_signals": 103,
+      "pct_female": 64.07766990291263,
+      "mean_lr": 0.6304265316269503
+    },
+    {
+      "organ": "Dermatological",
+      "n_signals": 30,
+      "pct_female": 60.0,
+      "mean_lr": 0.29952789870312835
+    }
+  ]
+}
