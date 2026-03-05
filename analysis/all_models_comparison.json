@@ -1,0 +1,149 @@
+{
+  "timestamp": "2026-03-05T06:38:09.057307",
+  "title": "SexDiffKG Embedding Model Comparison \u2014 All Versions",
+  "v4_canonical": {
+    "kg": {
+      "nodes": 109867,
+      "edges": 1822851,
+      "entities": 109867,
+      "relations": 6
+    },
+    "models": {
+      "ComplEx_v4": {
+        "mrr": 0.2484,
+        "hits_at_1": 0.1678,
+        "hits_at_10": 0.4069,
+        "amri": 0.9902,
+        "epochs": 100,
+        "dim": 200,
+        "time_min": 127
+      },
+      "RotatE_v4.1": {
+        "mrr": 0.2018,
+        "hits_at_1": 0.1128,
+        "hits_at_10": 0.3677,
+        "amri": 0.9922,
+        "epochs": 200,
+        "dim": 200,
+        "time_min": 382
+      },
+      "DistMult_v4.1": {
+        "mrr": 0.1013,
+        "hits_at_1": 0.0481,
+        "hits_at_10": 0.1961,
+        "amri": 0.9909,
+        "epochs": 100,
+        "dim": 200,
+        "time_min": 56
+      },
+      "DistMult_v4": {
+        "mrr": 0.0932,
+        "hits_at_1": 0.0419,
+        "hits_at_10": 0.1842,
+        "amri": 0.9906,
+        "epochs": 100,
+        "dim": 200,
+        "time_min": 47
+      },
+      "DistMult_v3": {
+        "mrr": 0.0476,
+        "hits_at_1": 0.0225,
+        "hits_at_10": 0.0885,
+        "amri": 0.9807,
+        "epochs": 100,
+        "dim": 200,
+        "time_min": null
+      }
+    }
+  },
+  "v5_merged": {
+    "kg": {
+      "nodes": 246056,
+      "edges": 3182843,
+      "entities": 220785,
+      "relations": 18,
+      "node_types": 16,
+      "edge_types": 18
+    },
+    "models": {
+      "ComplEx_v5": {
+        "mrr": 0.0247,
+        "hits_at_1": 0.0027,
+        "hits_at_10": 0.0581,
+        "amri": 0.929,
+        "epochs": 100,
+        "dim": 200,
+        "time_min": 162,
+        "eval_note": "50K subset"
+      },
+      "DistMult_v5": {
+        "mrr": null,
+        "note": "evaluation in progress (50K subset)"
+      }
+    },
+    "note": "v5 is experimental merged KG (SexDiffKG + VEDA-KG). Lower metrics expected due to 2x entities, 3x relations."
+  },
+  "derived_kgs": {
+    "REPRODUCT-KG": {
+      "entities": 13208,
+      "relations": 8,
+      "triples": 384985,
+      "mrr": 0.1629,
+      "hits_at_1": 0.0988,
+      "hits_at_10": 0.2839,
+      "amri": 0.9588,
+      "time_min": 10.6
+    },
+    "GERIPHARM-KG": {
+      "entities": 18754,
+      "relations": 8,
+      "triples": 739396,
+      "mrr": 0.1438,
+      "hits_at_1": 0.0853,
+      "hits_at_10": 0.2548,
+      "amri": 0.9691,
+      "time_min": 20.5
+    },
+    "MENTALHEALTH-KG": {
+      "entities": 17555,
+      "relations": 8,
+      "triples": 705561,
+      "mrr": 0.1277,
+      "hits_at_1": 0.0741,
+      "hits_at_10": 0.2281,
+      "amri": 0.9669,
+      "time_min": 19.9
+    },
+    "AYUR-PHARMA-KG": {
+      "entities": 24316,
+      "relations": 10,
+      "triples": 293444,
+      "mrr": 0.0887,
+      "hits_at_1": 0.0394,
+      "hits_at_10": 0.1762,
+      "amri": 0.9725,
+      "time_min": 11.1,
+      "note": "loss did not converge"
+    },
+    "PCOS-ENDO-KG": {
+      "entities": 36903,
+      "relations": 9,
+      "triples": 697819,
+      "mrr": 0.0675,
+      "hits_at_1": 0.029,
+      "hits_at_10": 0.1341,
+      "amri": 0.9803,
+      "time_min": 25.0
+    },
+    "all_model": "DistMult 200d, 100 epochs, batch 4096, CPU"
+  },
+  "key_findings": [
+    "ComplEx > RotatE > DistMult for v4 canonical KG (MRR: 0.248 > 0.202 > 0.101)",
+    "Domain-specific sub-KGs outperform parent DistMult by 26-61% MRR",
+    "Entity count inversely correlates with MRR across derived KGs",
+    "v5 merged KG (2x entities, 3x relations) drops ComplEx MRR by 90% with same hyperparams",
+    "All models well above random (AMRI > 0.92 across all KGs)",
+    "RotatE has highest AMRI (0.9922) suggesting best overall ranking quality",
+    "Top 3 derived KGs outperform parent DistMult v4.1 (MRR 0.1013)"
+  ]
+}
