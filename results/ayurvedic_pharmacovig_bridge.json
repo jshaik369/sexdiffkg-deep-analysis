@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-03-05T02:00:49.375882",
+  "ayurvedic_entities": {
+    "herbs": 5,
+    "doshas": 3,
+    "rasas": 6,
+    "gunas": 20,
+    "compounds": 35287
+  },
+  "wave_111_herb_paths": [],
+  "wave_112_dosha_connections": [
+    {
+      "dosha": "VATA",
+      "n_aggravating": 3,
+      "n_pacifying": 3,
+      "aggravating_names": [
+        "Pungent (KATU)",
+        "Astringent (KASHAYA)",
+        "Bitter (TIKTA)"
+      ],
+      "pacifying_names": [
+        "Sour (AMLA)",
+        "Sweet (MADHURA)",
+        "Salt (LAVANA)"
+      ]
+    },
+    {
+      "dosha": "PITTA",
+      "n_aggravating": 3,
+      "n_pacifying": 3,
+      "aggravating_names": [
+        "Sour (AMLA)",
+        "Pungent (KATU)",
+        "Salt (LAVANA)"
+      ],
+      "pacifying_names": [
+        "Sweet (MADHURA)",
+        "Astringent (KASHAYA)",
+        "Bitter (TIKTA)"
+      ]
+    },
+    {
+      "dosha": "KAPHA",
+      "n_aggravating": 3,
+      "n_pacifying": 3,
+      "aggravating_names": [
+        "Sour (AMLA)",
+        "Sweet (MADHURA)",
+        "Salt (LAVANA)"
+      ],
+      "pacifying_names": [
+        "Pungent (KATU)",
+        "Astringent (KASHAYA)",
+        "Bitter (TIKTA)"
+      ]
+    }
+  ],
+  "wave_113_shared_targets": {
+    "compound_targets": 2072,
+    "drug_targets": 1924,
+    "shared": 1170,
+    "shared_target_names": [
+      "Serine/threonine-protein kinase LMTK3",
+      "Tyrosine-protein kinase ABL1",
+      "Cyclin-dependent kinase 2/cyclin E",
+      "Megakaryocyte-associated tyrosine-protein kinase",
+      "Heat shock protein HSP90",
+      "Adenosine deaminase",
+      "Tyrosine-protein kinase receptor UFO",
+      "NAD-dependent protein deacetylase sirtuin-3, mitochondrial",
+      "Signal transducer and activator of transcription 3",
+      "Ephrin type-A receptor 1",
+      "Gonadotropin-releasing hormone receptor",
+      "Adrenomedullin receptor, AM2; CALCRL/RAMP3",
+      "Cyclin-dependent kinase 7",
+      "Cyclin-dependent kinase 7/ cyclin H",
+      "Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",
+      "Histamine H3 receptor",
+      "Mitogen-activated protein kinase kinase kinase 19",
+      "Peroxisome proliferator-activated receptor delta",
+      "Carbonic anhydrase 13",
+      "Gamma-aminobutyric acid receptor subunit alpha-2",
+      "Transient receptor potential cation channel subfamily A member 1",
+      "Adenosine receptor A2b",
+      "Prostaglandin E synthase",
+      "Serine/threonine-protein kinase N3",
+      "Serine/threonine-protein kinase Nek4",
+      "17-beta-hydroxysteroid dehydrogenase type 2",
+      "Lysine-specific demethylase 5A",
+      "Myeloperoxidase",
+      "ATP-dependent DNA helicase Q1",
+      "Polyunsaturated fatty acid 5-lipoxygenase",
+      "Cathepsin E",
+      "Mitogen-activated protein kinase 9",
+      "Histone-lysine N-methyltransferase NSD3",
+      "Neuronal acetylcholine receptor; alpha3/beta4",
+      "Renin",
+      "3-oxo-5-alpha-steroid 4-dehydrogenase 2",
+      "Serine/threonine-protein kinase LATS2",
+      "Proteasome subunit beta type-8",
+      "Type-2 angiotensin II receptor",
+      "Nuclear receptor subfamily 1 group I member 3",
+      "Melanocortin receptor 4",
+      "Histone deacetylase 3",
+      "DNA-dependent protein kinase catalytic subunit",
+      "Uncharacterized protein FLJ45252",
+      "Casein kinase II subunit beta",
+      "Protein kinase C (PKC)",
+      "Amine oxidase [flavin-containing] B",
+      "Sodium/glucose cotransporter 2",
+      "Endothelin receptor type B",
+      "Macrophage migration inhibitory factor"
+    ]
+  }
+}

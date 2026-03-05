@@ -1,0 +1,1312 @@
+{
+  "timestamp": "2026-03-05T02:00:07.534100",
+  "summary": {
+    "total_trials": 27451,
+    "trials_with_interventions": 24566,
+    "trials_matched_to_sexdiff": 104,
+    "drugs_with_sexdiff_in_trials": 32,
+    "diseases_with_trial_data": 11963
+  },
+  "wave_106_trial_matches": [
+    {
+      "trial_id": "TRIAL:NCT04726878",
+      "trial_name": "ESP in Breast Surgery Due to Cancer",
+      "drug_id": "DRUG:PARACETAMOL",
+      "drug_name": "PARACETAMOL",
+      "n_sexdiff_signals": 487,
+      "diseases": [
+        "Anesthesia, Local",
+        "Breast Cancer",
+        "Pain, Acute"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT07197684",
+      "trial_name": "Ultrasound Guided Pecs Block and Ketamine Infusion for Preventing Chronic Pain in Patients Undergoing Breast Cancer Surgery",
+      "drug_id": "DRUG:PARACETAMOL",
+      "drug_name": "PARACETAMOL",
+      "n_sexdiff_signals": 487,
+      "diseases": [
+        "Post Surgical Pain",
+        "Breast Cancer",
+        "Pain, Chronic"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT06513104",
+      "trial_name": "A Research Study Looking Into the Effect of NNC0519-0130 on Blood Levels of a Birth Control Pill and Emptying of the Stomach in Women After Menopause",
+      "drug_id": "DRUG:PARACETAMOL",
+      "drug_name": "PARACETAMOL",
+      "n_sexdiff_signals": 487,
+      "diseases": [
+        "Diabetes Mellitus, Type 2"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03480776",
+      "trial_name": "ASA in Prevention of Ovarian Cancer (STICs and STONEs)",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Ovarian Cancer Prevention"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02838030",
+      "trial_name": "Efficacy of Aspirin and L-arginine in High Risk Preeclamptic",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "High Risk Pregnancy"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02659384",
+      "trial_name": "Anti-programmed Cell Death-1 Ligand 1 (aPDL-1) Antibody Atezolizumab, Bevacizumab and Acetylsalicylic Acid in Recurrent Platinum Resistant Ovarian Cancer",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Ovarian Neoplasms"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT00683202",
+      "trial_name": "Low-Dose Aspirin in in Vitro Fertilization (IVF) and Intracytoplasmic Sperm Injection (ICSI) Treatments",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Miscarriage Less Than 12 Gestational Weeks",
+        "Pregnancy",
+        "Intrauterine Fetal Growth Restriction",
+        "Preeclampsia",
+        "Extrauterine Pregnancy"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02280031",
+      "trial_name": "Effect of Low Dose Aspirin on Birthweight in Twins: The GAP Trial.",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Fetal Growth Retardation",
+        "Infant, Very Low Birth Weight",
+        "Small for Gestational Age",
+        "Preeclampsia",
+        "Premature Birth"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02174328",
+      "trial_name": "Prevention of Preeclampsia With Aspirin in Recipients of Donated Oocytes.",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Pre-Eclampsia"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03378297",
+      "trial_name": "IMPACT: A Randomized WOO Study of Novel Therapeutic Agents in Women Triaged to Primary Surgery for EOC",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Ovarian Cancer"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT05460416",
+      "trial_name": "Treatment Preventive for Pre-eclampsia by Acetylsalicylic Acid in Women Who Underwent Frozen Embryo Transfer",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Hypertension, Pregnancy Induced",
+        "Embryo Transfer"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT04070573",
+      "trial_name": "Low Doses of Aspirin in the Prevention of Preeclampsia",
+      "drug_id": "DRUG:ACETYLSALICYLIC ACID",
+      "drug_name": "ACETYLSALICYLIC ACID",
+      "n_sexdiff_signals": 433,
+      "diseases": [
+        "Preeclampsia"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT06445946",
+      "trial_name": "DECIDE: A Comparative Effectiveness Trial of Metformin Versus Insulin for the Treatment of Gestational Diabetes",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Pregnancy, High Risk",
+        "Gestational Diabetes Mellitus"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01215331",
+      "trial_name": "Gestational Diabetes: Insulin or Oral Hypoglycemic Agents?",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes Mellitus"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT00835861",
+      "trial_name": "Effectiveness of Metformin Compared to Insulin in Pregnant Women With Mild Preexisting or Early Gestational Diabetes",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Pregnancy",
+        "Non Insulin Dependent Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01833559",
+      "trial_name": "Impact of Blood Glucose at the First Trimester of Pregnant Women With Gestational Diabetes on Maternal and Fetal Outcomes and Metabolic Disorders: a Multi-central Prospective Cohort Study",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03527537",
+      "trial_name": "Gestational Diabetes and Pharmacotherapy (GAP)",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT06781775",
+      "trial_name": "GDM: Insulin with or Without Metformin?",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01240785",
+      "trial_name": "Metformin Versus Insulin in Gestational Diabetes",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT00160485",
+      "trial_name": "Glyburide Compared to Insulin in the Management of White's Classification A2 Gestational Diabetes",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT05479214",
+      "trial_name": "Effect of Adding Metformin to Insulin in Uncontrolled Diabetic Patients During the 3rd Trimester of Pregnancy",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Diabetes Mellitus Pregnancy"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01087866",
+      "trial_name": "Metformin Versus Insulin in the Treatment of Gestational Diabetes Mellitus",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes Mellitus"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03320694",
+      "trial_name": "Comparison of Metformin and Insulin for Management of Gestational Diabetes Mellitus",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes Mellitus in Pregnancy"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03841591",
+      "trial_name": "Maternal Weight Gain in Gestational Diabetes Controlled by Metformin Versus Insulin",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01837680",
+      "trial_name": "Glycemic Control Using Insulin Levemir Versus Insulin NPH for Diabetes in Pregnancy",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Diabetes, Gestational",
+        "Diabetes, Type 2"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03651531",
+      "trial_name": "Comparison of Insulin Alone to Insulin With Metformin to Treat Gestational Diabetes Mellitus",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03029702",
+      "trial_name": "Metabolic Analysis for Treatment Choice in Gestational Diabetes Mellitus",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes",
+        "Diabetes, Gestational",
+        "Pregnancy in Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03602846",
+      "trial_name": "Diabetes in Pregnancy and Pregnancy Outcomes",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Diabetes Mellitus in Pregnancy",
+        "Diabetes, Gestational"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT05010356",
+      "trial_name": "Insulin Sensitivity After Breast Cancer",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Insulin Sensitivity/Resistance",
+        "Breast Cancer",
+        "Survivorship",
+        "Metabolic Disturbance"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01855763",
+      "trial_name": "Metformin Treatment in Gestational Diabetes and Noninsulin Dependent Diabetes in Pregnancy in a Developing Country",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes",
+        "Type 2 Diabetes",
+        "Pregnancy"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT06419803",
+      "trial_name": "Strict Versus Permissive Thresholds for Initiation of Pharmacotherapy in Gestational Diabetes (START 2)",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes",
+        "Pregnancy Related"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02417090",
+      "trial_name": "Late Metabolic Effects of Metformin Therapy in Gestational Diabetes",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT06419777",
+      "trial_name": "Strict Versus Permissive Thresholds for Initiation of Pharmacotherapy in Gestational Diabetes",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Gestational Diabetes",
+        "Pregnancy Related"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT04907708",
+      "trial_name": "Comparative Effects of Metformin and Insulin on Stereological Studies and Immunohistochemistry of Placenta",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Diabetes Mellitus Arising in Pregnancy, Insulin-Requiring",
+        "Diabetes Mellitus in Pregnancy"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02653092",
+      "trial_name": "Reprometabolic Syndrome Mediates Subfertility in Obesity",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Obesity",
+        "Hyperinsulinemia",
+        "Infertility",
+        "Hypogonadotropic Hypogonadotropism"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02080377",
+      "trial_name": "A Feasibility Study Looking at the Use of Glibenclamide and metfoRmin Versus stAndard Care in gEstational diabeteS",
+      "drug_id": "DRUG:INSULIN",
+      "drug_name": "INSULIN",
+      "n_sexdiff_signals": 339,
+      "diseases": [
+        "Pregnancy",
+        "Gestational Diabetes"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02344472",
+      "trial_name": "Detect V / CHEVENDO (Chemo vs. Endo)",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Metastatic Breast Cancer"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT05478083",
+      "trial_name": "A GnRH Agonist IN Pre-menopausal Women STudy to Treat Severe Polycystic Liver Disease",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Autosomal Dominant Polycystic Kidney",
+        "Polycystic Liver Disease"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03778359",
+      "trial_name": "Comparison of the Operation and Medical Treatment of Endometriosis and Adenomyosis",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Adenomyosis",
+        "Endometriosis"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03497702",
+      "trial_name": "Neo-adjuvant Chemotherapy With Letrozole in Patients With Estrogen Receptor Positive/HER-2 Negative Breast Cancer",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Invasive Breast Cancer",
+        "Breast Cancer"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02655237",
+      "trial_name": "A Phase 3 Study to Evaluate the Efficacy and Safety of Relugolix (TAK-385) 40 mg Compared With Leuprorelin in the Treatment of Uterine Fibroids",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Uterine Fibroids"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT05440383",
+      "trial_name": "A Clinical Study of KLH-2109 in Uterine Fibroids Patient With Menorrhagia",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Uterine Fibroids (MeSH Heading: Leiomyoma)"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01989780",
+      "trial_name": "Bevacizumab Plus Paclitaxel Optimization Study With Interventional Aintenance Endocrine Therapy in Breast Cancer",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Metastatic Breast Cancer"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT07159451",
+      "trial_name": "A Short-term Preoperative, Evaluating Activity and Safety of Elacestrant Monotherapy as Compared to Elacestrant + Ovarian Function Suppression (LHRH Agonist) in Premenopausal Patients With Stage I-II ER+/HER2- Breast Cancer",
+      "drug_id": "DRUG:LEUPRORELIN",
+      "drug_name": "LEUPRORELIN",
+      "n_sexdiff_signals": 294,
+      "diseases": [
+        "Breast Cancer"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01419730",
+      "trial_name": "Vitamin D and Physical Activity on Bone Health",
+      "drug_id": "DRUG:VITAMIN D3",
+      "drug_name": "VITAMIN D3",
+      "n_sexdiff_signals": 242,
+      "diseases": [
+        "Physical Fitness",
+        "Bone Metabolism Biomarkers",
+        "Bone Mineral Density"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT04067726",
+      "trial_name": "RANKL Inhibition and Mammographic Breast Density",
+      "drug_id": "DRUG:VITAMIN D3",
+      "drug_name": "VITAMIN D3",
+      "n_sexdiff_signals": 242,
+      "diseases": [
+        "Dense Breasts"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT05106712",
+      "trial_name": "Vitamin D Supplementation and Improvement of PCOS Therapy and IVF Outcomes in Infertile Saudi Women",
+      "drug_id": "DRUG:VITAMIN D3",
+      "drug_name": "VITAMIN D3",
+      "n_sexdiff_signals": 242,
+      "diseases": [
+        "Female Infertility",
+        "Vitamin D Supplement",
+        "Vitamin D Deficiency",
+        "IVF",
+        "Pathologic Processes",
+        "Polycystic Ovary Syndrome"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT03644212",
+      "trial_name": "Vitamin D Increases Serum Levels of the Soluble Receptor for Advanced Glycation End Products in Women With PCOS",
+      "drug_id": "DRUG:VITAMIN D3",
+      "drug_name": "VITAMIN D3",
+      "n_sexdiff_signals": 242,
+      "diseases": [
+        "Polycystic Ovary Syndrome",
+        "Vitamin D Deficiency"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT01166763",
+      "trial_name": "Modulation of Breast Cancer Risk Biomarkers by High Dose Vitamin D",
+      "drug_id": "DRUG:VITAMIN D3",
+      "drug_name": "VITAMIN D3",
+      "n_sexdiff_signals": 242,
+      "diseases": [
+        "Breast Cancer"
+      ]
+    },
+    {
+      "trial_id": "TRIAL:NCT02920593",
+      "trial_name": "A Randomized Control Trial of Vitamin D Prophylaxis in the Prevention of Hypertensive Disorders of Pregnancy",
+      "drug_id": "DRUG:VITAMIN D3",
+      "drug_name": "VITAMIN D3",
+      "n_sexdiff_signals": 242,
+      "diseases": [
+        "Superimposed Preeclampsia",
+        "Gestational Hypertension",
+        "Eclampsia",
+        "HELLP Syndrome",
+        "Toxemia"
+      ]
+    }
+  ],
+  "wave_107_disease_coverage": [
+    {
+      "disease_id": "DISEASE:Breast Cancer",
+      "disease_name": "Breast Cancer",
+      "total_trials": 8508,
+      "trials_with_sexdiff_drugs": 18,
+      "n_sexdiff_drugs": 10,
+      "coverage_frac": 0.0021156558533145277
+    },
+    {
+      "disease_id": "DISEASE:Gestational Diabetes",
+      "disease_name": "Gestational Diabetes",
+      "total_trials": 392,
+      "trials_with_sexdiff_drugs": 15,
+      "n_sexdiff_drugs": 4,
+      "coverage_frac": 0.03826530612244898
+    },
+    {
+      "disease_id": "DISEASE:Preeclampsia",
+      "disease_name": "Preeclampsia",
+      "total_trials": 384,
+      "trials_with_sexdiff_drugs": 9,
+      "n_sexdiff_drugs": 6,
+      "coverage_frac": 0.0234375
+    },
+    {
+      "disease_id": "DISEASE:Ovarian Cancer",
+      "disease_name": "Ovarian Cancer",
+      "total_trials": 1998,
+      "trials_with_sexdiff_drugs": 6,
+      "n_sexdiff_drugs": 6,
+      "coverage_frac": 0.003003003003003003
+    },
+    {
+      "disease_id": "DISEASE:Pregnancy",
+      "disease_name": "Pregnancy",
+      "total_trials": 140,
+      "trials_with_sexdiff_drugs": 5,
+      "n_sexdiff_drugs": 4,
+      "coverage_frac": 0.03571428571428571
+    },
+    {
+      "disease_id": "DISEASE:Polycystic Ovary Syndrome",
+      "disease_name": "Polycystic Ovary Syndrome",
+      "total_trials": 611,
+      "trials_with_sexdiff_drugs": 4,
+      "n_sexdiff_drugs": 2,
+      "coverage_frac": 0.006546644844517185
+    },
+    {
+      "disease_id": "DISEASE:Vitamin D Deficiency",
+      "disease_name": "Vitamin D Deficiency",
+      "total_trials": 48,
+      "trials_with_sexdiff_drugs": 4,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.08333333333333333
+    },
+    {
+      "disease_id": "DISEASE:Gestational Diabetes Mellitus",
+      "disease_name": "Gestational Diabetes Mellitus",
+      "total_trials": 141,
+      "trials_with_sexdiff_drugs": 3,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.02127659574468085
+    },
+    {
+      "disease_id": "DISEASE:Diabetes, Gestational",
+      "disease_name": "Diabetes, Gestational",
+      "total_trials": 73,
+      "trials_with_sexdiff_drugs": 3,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.0410958904109589
+    },
+    {
+      "disease_id": "DISEASE:Infertility",
+      "disease_name": "Infertility",
+      "total_trials": 1425,
+      "trials_with_sexdiff_drugs": 3,
+      "n_sexdiff_drugs": 3,
+      "coverage_frac": 0.002105263157894737
+    },
+    {
+      "disease_id": "DISEASE:Endometriosis",
+      "disease_name": "Endometriosis",
+      "total_trials": 671,
+      "trials_with_sexdiff_drugs": 3,
+      "n_sexdiff_drugs": 3,
+      "coverage_frac": 0.004470938897168405
+    },
+    {
+      "disease_id": "DISEASE:Metastatic Breast Cancer",
+      "disease_name": "Metastatic Breast Cancer",
+      "total_trials": 890,
+      "trials_with_sexdiff_drugs": 2,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.0022471910112359553
+    },
+    {
+      "disease_id": "DISEASE:Vitamin D",
+      "disease_name": "Vitamin D",
+      "total_trials": 6,
+      "trials_with_sexdiff_drugs": 2,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.3333333333333333
+    },
+    {
+      "disease_id": "DISEASE:Pregnancy Related",
+      "disease_name": "Pregnancy Related",
+      "total_trials": 51,
+      "trials_with_sexdiff_drugs": 2,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.0392156862745098
+    },
+    {
+      "disease_id": "DISEASE:Diabetes Mellitus in Pregnancy",
+      "disease_name": "Diabetes Mellitus in Pregnancy",
+      "total_trials": 13,
+      "trials_with_sexdiff_drugs": 2,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.15384615384615385
+    },
+    {
+      "disease_id": "DISEASE:Glucose Intolerance During Pregnancy",
+      "disease_name": "Glucose Intolerance During Pregnancy",
+      "total_trials": 10,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.1
+    },
+    {
+      "disease_id": "DISEASE:Fetal Growth Retardation",
+      "disease_name": "Fetal Growth Retardation",
+      "total_trials": 24,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.041666666666666664
+    },
+    {
+      "disease_id": "DISEASE:Uterine Cancer",
+      "disease_name": "Uterine Cancer",
+      "total_trials": 71,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.014084507042253521
+    },
+    {
+      "disease_id": "DISEASE:Diabetes Mellitus Arising in Pregnancy, Insulin-Requiring",
+      "disease_name": "Diabetes Mellitus Arising in Pregnancy, Insulin-Requiring",
+      "total_trials": 1,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 1.0
+    },
+    {
+      "disease_id": "DISEASE:Placental Insufficiency",
+      "disease_name": "Placental Insufficiency",
+      "total_trials": 9,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.1111111111111111
+    },
+    {
+      "disease_id": "DISEASE:High Risk Pregnancy",
+      "disease_name": "High Risk Pregnancy",
+      "total_trials": 7,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.14285714285714285
+    },
+    {
+      "disease_id": "DISEASE:Dense Breasts",
+      "disease_name": "Dense Breasts",
+      "total_trials": 4,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.25
+    },
+    {
+      "disease_id": "DISEASE:Small for Gestational Age",
+      "disease_name": "Small for Gestational Age",
+      "total_trials": 2,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.5
+    },
+    {
+      "disease_id": "DISEASE:Pancreatic Ductal Adenocarcinoma",
+      "disease_name": "Pancreatic Ductal Adenocarcinoma",
+      "total_trials": 32,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.03125
+    },
+    {
+      "disease_id": "DISEASE:Hypogonadotropic Hypogonadotropism",
+      "disease_name": "Hypogonadotropic Hypogonadotropism",
+      "total_trials": 1,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 1.0
+    },
+    {
+      "disease_id": "DISEASE:Cervical Cancer",
+      "disease_name": "Cervical Cancer",
+      "total_trials": 253,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.003952569169960474
+    },
+    {
+      "disease_id": "DISEASE:Endometrioma",
+      "disease_name": "Endometrioma",
+      "total_trials": 40,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.025
+    },
+    {
+      "disease_id": "DISEASE:Pregnancy in Diabetes",
+      "disease_name": "Pregnancy in Diabetes",
+      "total_trials": 2,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.5
+    },
+    {
+      "disease_id": "DISEASE:Uterine Fibroids",
+      "disease_name": "Uterine Fibroids",
+      "total_trials": 145,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.006896551724137931
+    },
+    {
+      "disease_id": "DISEASE:Anesthesia, Local",
+      "disease_name": "Anesthesia, Local",
+      "total_trials": 9,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.1111111111111111
+    },
+    {
+      "disease_id": "DISEASE:Idiopathic Infertility",
+      "disease_name": "Idiopathic Infertility",
+      "total_trials": 4,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.25
+    },
+    {
+      "disease_id": "DISEASE:Diabetes Mellitus Pregnancy",
+      "disease_name": "Diabetes Mellitus Pregnancy",
+      "total_trials": 2,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.5
+    },
+    {
+      "disease_id": "DISEASE:Prostate Cancer",
+      "disease_name": "Prostate Cancer",
+      "total_trials": 387,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.002583979328165375
+    },
+    {
+      "disease_id": "DISEASE:Eclampsia",
+      "disease_name": "Eclampsia",
+      "total_trials": 30,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.03333333333333333
+    },
+    {
+      "disease_id": "DISEASE:Pregnancy, High Risk",
+      "disease_name": "Pregnancy, High Risk",
+      "total_trials": 19,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.05263157894736842
+    },
+    {
+      "disease_id": "DISEASE:Pancreatic Acinar Cell Carcinoma",
+      "disease_name": "Pancreatic Acinar Cell Carcinoma",
+      "total_trials": 2,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.5
+    },
+    {
+      "disease_id": "DISEASE:Fetal Growth Restriction",
+      "disease_name": "Fetal Growth Restriction",
+      "total_trials": 10,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.1
+    },
+    {
+      "disease_id": "DISEASE:Adenomyosis",
+      "disease_name": "Adenomyosis",
+      "total_trials": 43,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.023255813953488372
+    },
+    {
+      "disease_id": "DISEASE:Hypertension, Pregnancy Induced",
+      "disease_name": "Hypertension, Pregnancy Induced",
+      "total_trials": 8,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.125
+    },
+    {
+      "disease_id": "DISEASE:HELLP Syndrome",
+      "disease_name": "HELLP Syndrome",
+      "total_trials": 20,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.05
+    },
+    {
+      "disease_id": "DISEASE:Superimposed Preeclampsia",
+      "disease_name": "Superimposed Preeclampsia",
+      "total_trials": 5,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.2
+    },
+    {
+      "disease_id": "DISEASE:Pre-Eclampsia",
+      "disease_name": "Pre-Eclampsia",
+      "total_trials": 255,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.00392156862745098
+    },
+    {
+      "disease_id": "DISEASE:Abruptio Placentae",
+      "disease_name": "Abruptio Placentae",
+      "total_trials": 2,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.5
+    },
+    {
+      "disease_id": "DISEASE:Type 2 Diabetes",
+      "disease_name": "Type 2 Diabetes",
+      "total_trials": 43,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.023255813953488372
+    },
+    {
+      "disease_id": "DISEASE:Ovarian Cancer Prevention",
+      "disease_name": "Ovarian Cancer Prevention",
+      "total_trials": 2,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.5
+    },
+    {
+      "disease_id": "DISEASE:PALB2 Gene Mutation",
+      "disease_name": "PALB2 Gene Mutation",
+      "total_trials": 5,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.2
+    },
+    {
+      "disease_id": "DISEASE:Thromboembolism",
+      "disease_name": "Thromboembolism",
+      "total_trials": 4,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.25
+    },
+    {
+      "disease_id": "DISEASE:Breast Cancer Metastatic",
+      "disease_name": "Breast Cancer Metastatic",
+      "total_trials": 91,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.01098901098901099
+    },
+    {
+      "disease_id": "DISEASE:Neoplasms, Breast",
+      "disease_name": "Neoplasms, Breast",
+      "total_trials": 71,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 0.014084507042253521
+    },
+    {
+      "disease_id": "DISEASE:Vitamin D Supplement",
+      "disease_name": "Vitamin D Supplement",
+      "total_trials": 1,
+      "trials_with_sexdiff_drugs": 1,
+      "n_sexdiff_drugs": 1,
+      "coverage_frac": 1.0
+    }
+  ],
+  "wave_108_urgent_gaps": [
+    {
+      "drug_id": "DRUG:PREDNISONE",
+      "drug_name": "PREDNISONE",
+      "n_sexdiff_signals": 926,
+      "n_trials": 0,
+      "urgency_score": 926.0
+    },
+    {
+      "drug_id": "DRUG:METHOTREXATE",
+      "drug_name": "METHOTREXATE",
+      "n_sexdiff_signals": 892,
+      "n_trials": 0,
+      "urgency_score": 892.0
+    },
+    {
+      "drug_id": "DRUG:ADALIMUMAB",
+      "drug_name": "ADALIMUMAB",
+      "n_sexdiff_signals": 807,
+      "n_trials": 0,
+      "urgency_score": 807.0
+    },
+    {
+      "drug_id": "DRUG:RITUXIMAB",
+      "drug_name": "RITUXIMAB",
+      "n_sexdiff_signals": 755,
+      "n_trials": 0,
+      "urgency_score": 755.0
+    },
+    {
+      "drug_id": "DRUG:INFLIXIMAB",
+      "drug_name": "INFLIXIMAB",
+      "n_sexdiff_signals": 623,
+      "n_trials": 0,
+      "urgency_score": 623.0
+    },
+    {
+      "drug_id": "DRUG:ETANERCEPT",
+      "drug_name": "ETANERCEPT",
+      "n_sexdiff_signals": 618,
+      "n_trials": 0,
+      "urgency_score": 618.0
+    },
+    {
+      "drug_id": "DRUG:TACROLIMUS",
+      "drug_name": "TACROLIMUS",
+      "n_sexdiff_signals": 572,
+      "n_trials": 0,
+      "urgency_score": 572.0
+    },
+    {
+      "drug_id": "DRUG:PREDNISOLONE",
+      "drug_name": "PREDNISOLONE",
+      "n_sexdiff_signals": 542,
+      "n_trials": 0,
+      "urgency_score": 542.0
+    },
+    {
+      "drug_id": "DRUG:DEXAMETHASONE",
+      "drug_name": "DEXAMETHASONE",
+      "n_sexdiff_signals": 537,
+      "n_trials": 0,
+      "urgency_score": 537.0
+    },
+    {
+      "drug_id": "DRUG:METHYLPREDNISOLONE",
+      "drug_name": "METHYLPREDNISOLONE",
+      "n_sexdiff_signals": 521,
+      "n_trials": 0,
+      "urgency_score": 521.0
+    },
+    {
+      "drug_id": "DRUG:RISPERIDONE",
+      "drug_name": "RISPERIDONE",
+      "n_sexdiff_signals": 518,
+      "n_trials": 0,
+      "urgency_score": 518.0
+    },
+    {
+      "drug_id": "DRUG:TOCILIZUMAB",
+      "drug_name": "TOCILIZUMAB",
+      "n_sexdiff_signals": 508,
+      "n_trials": 0,
+      "urgency_score": 508.0
+    },
+    {
+      "drug_id": "DRUG:MYCOPHENOLIC ACID",
+      "drug_name": "MYCOPHENOLIC ACID",
+      "n_sexdiff_signals": 507,
+      "n_trials": 0,
+      "urgency_score": 507.0
+    },
+    {
+      "drug_id": "DRUG:PANTOPRAZOLE",
+      "drug_name": "PANTOPRAZOLE",
+      "n_sexdiff_signals": 501,
+      "n_trials": 0,
+      "urgency_score": 501.0
+    },
+    {
+      "drug_id": "DRUG:CYCLOPHOSPHAMIDE",
+      "drug_name": "CYCLOPHOSPHAMIDE",
+      "n_sexdiff_signals": 498,
+      "n_trials": 0,
+      "urgency_score": 498.0
+    },
+    {
+      "drug_id": "DRUG:OXYCODONE",
+      "drug_name": "OXYCODONE",
+      "n_sexdiff_signals": 492,
+      "n_trials": 0,
+      "urgency_score": 492.0
+    },
+    {
+      "drug_id": "DRUG:SECUKINUMAB",
+      "drug_name": "SECUKINUMAB",
+      "n_sexdiff_signals": 456,
+      "n_trials": 0,
+      "urgency_score": 456.0
+    },
+    {
+      "drug_id": "DRUG:MORPHINE",
+      "drug_name": "MORPHINE",
+      "n_sexdiff_signals": 441,
+      "n_trials": 0,
+      "urgency_score": 441.0
+    },
+    {
+      "drug_id": "DRUG:QUETIAPINE",
+      "drug_name": "QUETIAPINE",
+      "n_sexdiff_signals": 426,
+      "n_trials": 0,
+      "urgency_score": 426.0
+    },
+    {
+      "drug_id": "DRUG:AMLODIPINE",
+      "drug_name": "AMLODIPINE",
+      "n_sexdiff_signals": 422,
+      "n_trials": 0,
+      "urgency_score": 422.0
+    },
+    {
+      "drug_id": "DRUG:SALBUTAMOL",
+      "drug_name": "SALBUTAMOL",
+      "n_sexdiff_signals": 418,
+      "n_trials": 0,
+      "urgency_score": 418.0
+    },
+    {
+      "drug_id": "DRUG:CICLOSPORIN",
+      "drug_name": "CICLOSPORIN",
+      "n_sexdiff_signals": 409,
+      "n_trials": 0,
+      "urgency_score": 409.0
+    },
+    {
+      "drug_id": "DRUG:PREGABALIN",
+      "drug_name": "PREGABALIN",
+      "n_sexdiff_signals": 406,
+      "n_trials": 0,
+      "urgency_score": 406.0
+    },
+    {
+      "drug_id": "DRUG:DICLOFENAC",
+      "drug_name": "DICLOFENAC",
+      "n_sexdiff_signals": 401,
+      "n_trials": 0,
+      "urgency_score": 401.0
+    },
+    {
+      "drug_id": "DRUG:METFORMIN",
+      "drug_name": "METFORMIN",
+      "n_sexdiff_signals": 399,
+      "n_trials": 0,
+      "urgency_score": 399.0
+    },
+    {
+      "drug_id": "DRUG:ATORVASTATIN",
+      "drug_name": "ATORVASTATIN",
+      "n_sexdiff_signals": 388,
+      "n_trials": 0,
+      "urgency_score": 388.0
+    },
+    {
+      "drug_id": "DRUG:FUROSEMIDE",
+      "drug_name": "FUROSEMIDE",
+      "n_sexdiff_signals": 385,
+      "n_trials": 0,
+      "urgency_score": 385.0
+    },
+    {
+      "drug_id": "DRUG:ZOLEDRONIC ACID",
+      "drug_name": "ZOLEDRONIC ACID",
+      "n_sexdiff_signals": 376,
+      "n_trials": 0,
+      "urgency_score": 376.0
+    },
+    {
+      "drug_id": "DRUG:HYDROXYCHLOROQUINE",
+      "drug_name": "HYDROXYCHLOROQUINE",
+      "n_sexdiff_signals": 376,
+      "n_trials": 0,
+      "urgency_score": 376.0
+    },
+    {
+      "drug_id": "DRUG:IBUPROFEN",
+      "drug_name": "IBUPROFEN",
+      "n_sexdiff_signals": 372,
+      "n_trials": 0,
+      "urgency_score": 372.0
+    },
+    {
+      "drug_id": "DRUG:LEFLUNOMIDE",
+      "drug_name": "LEFLUNOMIDE",
+      "n_sexdiff_signals": 370,
+      "n_trials": 0,
+      "urgency_score": 370.0
+    },
+    {
+      "drug_id": "DRUG:RAMIPRIL",
+      "drug_name": "RAMIPRIL",
+      "n_sexdiff_signals": 368,
+      "n_trials": 0,
+      "urgency_score": 368.0
+    },
+    {
+      "drug_id": "DRUG:TRAMADOL",
+      "drug_name": "TRAMADOL",
+      "n_sexdiff_signals": 360,
+      "n_trials": 0,
+      "urgency_score": 360.0
+    },
+    {
+      "drug_id": "DRUG:ABATACEPT",
+      "drug_name": "ABATACEPT",
+      "n_sexdiff_signals": 344,
+      "n_trials": 0,
+      "urgency_score": 344.0
+    },
+    {
+      "drug_id": "DRUG:CIPROFLOXACIN",
+      "drug_name": "CIPROFLOXACIN",
+      "n_sexdiff_signals": 342,
+      "n_trials": 0,
+      "urgency_score": 342.0
+    },
+    {
+      "drug_id": "DRUG:ARIPIPRAZOLE",
+      "drug_name": "ARIPIPRAZOLE",
+      "n_sexdiff_signals": 342,
+      "n_trials": 0,
+      "urgency_score": 342.0
+    },
+    {
+      "drug_id": "DRUG:VALPROIC ACID",
+      "drug_name": "VALPROIC ACID",
+      "n_sexdiff_signals": 339,
+      "n_trials": 0,
+      "urgency_score": 339.0
+    },
+    {
+      "drug_id": "DRUG:AZATHIOPRINE",
+      "drug_name": "AZATHIOPRINE",
+      "n_sexdiff_signals": 337,
+      "n_trials": 0,
+      "urgency_score": 337.0
+    },
+    {
+      "drug_id": "DRUG:ROSUVASTATIN",
+      "drug_name": "ROSUVASTATIN",
+      "n_sexdiff_signals": 337,
+      "n_trials": 0,
+      "urgency_score": 337.0
+    },
+    {
+      "drug_id": "DRUG:OLANZAPINE",
+      "drug_name": "OLANZAPINE",
+      "n_sexdiff_signals": 336,
+      "n_trials": 0,
+      "urgency_score": 336.0
+    },
+    {
+      "drug_id": "DRUG:GOLIMUMAB",
+      "drug_name": "GOLIMUMAB",
+      "n_sexdiff_signals": 334,
+      "n_trials": 0,
+      "urgency_score": 334.0
+    },
+    {
+      "drug_id": "DRUG:GABAPENTIN",
+      "drug_name": "GABAPENTIN",
+      "n_sexdiff_signals": 333,
+      "n_trials": 0,
+      "urgency_score": 333.0
+    },
+    {
+      "drug_id": "DRUG:TOFACITINIB",
+      "drug_name": "TOFACITINIB",
+      "n_sexdiff_signals": 331,
+      "n_trials": 0,
+      "urgency_score": 331.0
+    },
+    {
+      "drug_id": "DRUG:NAPROXEN",
+      "drug_name": "NAPROXEN",
+      "n_sexdiff_signals": 331,
+      "n_trials": 0,
+      "urgency_score": 331.0
+    },
+    {
+      "drug_id": "DRUG:SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "drug_name": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_sexdiff_signals": 327,
+      "n_trials": 0,
+      "urgency_score": 327.0
+    },
+    {
+      "drug_id": "DRUG:DOXORUBICIN",
+      "drug_name": "DOXORUBICIN",
+      "n_sexdiff_signals": 325,
+      "n_trials": 0,
+      "urgency_score": 325.0
+    },
+    {
+      "drug_id": "DRUG:RANITIDINE",
+      "drug_name": "RANITIDINE",
+      "n_sexdiff_signals": 324,
+      "n_trials": 0,
+      "urgency_score": 324.0
+    },
+    {
+      "drug_id": "DRUG:LEVOTHYROXINE",
+      "drug_name": "LEVOTHYROXINE",
+      "n_sexdiff_signals": 322,
+      "n_trials": 0,
+      "urgency_score": 322.0
+    },
+    {
+      "drug_id": "DRUG:OMEPRAZOLE",
+      "drug_name": "OMEPRAZOLE",
+      "n_sexdiff_signals": 319,
+      "n_trials": 0,
+      "urgency_score": 319.0
+    },
+    {
+      "drug_id": "DRUG:LAMOTRIGINE",
+      "drug_name": "LAMOTRIGINE",
+      "n_sexdiff_signals": 319,
+      "n_trials": 0,
+      "urgency_score": 319.0
+    }
+  ]
+}

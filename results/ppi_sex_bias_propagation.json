@@ -1,0 +1,516 @@
+{
+  "timestamp": "2026-03-05T02:09:11.340534",
+  "stats": {
+    "ppi_proteins": 19488,
+    "gene_to_protein_mappings": 8596,
+    "proteins_with_direct_bias": 102,
+    "proteins_with_propagated": 7550,
+    "pathways_scored": 0
+  },
+  "top_hubs": [
+    {
+      "protein_id": "PROTEIN:ENSP00000381736",
+      "protein_name": "ENSP00000381736",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 635,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.227599281670061,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000383949",
+      "protein_name": "ENSP00000383949",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 615,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.2116234817667597,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000250495",
+      "protein_name": "ENSP00000250495",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 602,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.200958598363593,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000496044",
+      "protein_name": "ENSP00000496044",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 598,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.1976307990577246,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000274606",
+      "protein_name": "ENSP00000274606",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 585,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.186659894788506,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000358812",
+      "protein_name": "ENSP00000358812",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 578,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.180651238786498,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000322439",
+      "protein_name": "ENSP00000322439",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 574,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.1771850203986753,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000361076",
+      "protein_name": "ENSP00000361076",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 567,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.171060709360576,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000346015",
+      "protein_name": "ENSP00000346015",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 531,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.1383217446708223,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000318646",
+      "protein_name": "ENSP00000318646",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 521,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.1288337939413196,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000413436",
+      "protein_name": "ENSP00000413436",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 509,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.1172053628591856,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000349142",
+      "protein_name": "ENSP00000349142",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 488,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.096181244737436,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000263629",
+      "protein_name": "ENSP00000263629",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 477,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.084805366245728,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000288937",
+      "protein_name": "ENSP00000288937",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 461,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0677824455408693,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000300151",
+      "protein_name": "ENSP00000300151",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 458,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0645251050302726,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000230640",
+      "protein_name": "ENSP00000230640",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 456,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0623416954471026,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000478982",
+      "protein_name": "ENSP00000478982",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 453,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.059048599020674,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000199447",
+      "protein_name": "ENSP00000199447",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 450,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0557336697513393,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000362036",
+      "protein_name": "ENSP00000362036",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 446,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0512792973067846,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000265195",
+      "protein_name": "ENSP00000265195",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 443,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0479122812161124,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000296577",
+      "protein_name": "ENSP00000296577",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 437,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.041109455188223,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000258455",
+      "protein_name": "ENSP00000258455",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 433,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0365222670502026,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000354580",
+      "protein_name": "ENSP00000354580",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 433,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0365222670502026,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000306788",
+      "protein_name": "ENSP00000306788",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 430,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0330540450518737,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000416429",
+      "protein_name": "ENSP00000416429",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 424,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0260445844622086,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000290299",
+      "protein_name": "ENSP00000290299",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 423,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.024866727615979,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000298283",
+      "protein_name": "ENSP00000298283",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 419,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.020127355638707,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000260443",
+      "protein_name": "ENSP00000260443",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 417,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.017740716262378,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000268206",
+      "protein_name": "ENSP00000268206",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 409,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.008078579849177,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000355315",
+      "protein_name": "ENSP00000355315",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 405,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0031765798008663,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000230340",
+      "protein_name": "ENSP00000230340",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 404,
+      "n_scored_neighbors": 1,
+      "hub_score": 3.0019435335532694,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000257829",
+      "protein_name": "ENSP00000257829",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 401,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.9982260443095106,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000343867",
+      "protein_name": "ENSP00000343867",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 399,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.995732273553991,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000481697",
+      "protein_name": "ENSP00000481697",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 397,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.993226002642219,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000423399",
+      "protein_name": "ENSP00000423399",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 389,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.983073369561846,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000377486",
+      "protein_name": "ENSP00000377486",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 389,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.983073369561846,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000460871",
+      "protein_name": "ENSP00000460871",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 388,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.981789671809223,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000215375",
+      "protein_name": "ENSP00000215375",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 386,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.979212346514891,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000313877",
+      "protein_name": "ENSP00000313877",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 385,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.9779186847324155,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000423067",
+      "protein_name": "ENSP00000423067",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 385,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.9779186847324155,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000225969",
+      "protein_name": "ENSP00000225969",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 382,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.974017494590323,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000341082",
+      "protein_name": "ENSP00000341082",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 379,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.970085626360216,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000339844",
+      "protein_name": "ENSP00000339844",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 378,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.968768102541213,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000296102",
+      "protein_name": "ENSP00000296102",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 373,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.962127898707266,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000382250",
+      "protein_name": "ENSP00000382250",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 372,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.960789209821908,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000456218",
+      "protein_name": "ENSP00000456218",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 368,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.9553983220202635,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000253039",
+      "protein_name": "ENSP00000253039",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 363,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.9485769338183703,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000263239",
+      "protein_name": "ENSP00000263239",
+      "propagated_f_frac": 1.0,
+      "direct_score": NaN,
+      "degree": 363,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.9485769338183703,
+      "bias_direction": "female"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000454746",
+      "protein_name": "ENSP00000454746",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 360,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.9444389791664403,
+      "bias_direction": "male"
+    },
+    {
+      "protein_id": "PROTEIN:ENSP00000223324",
+      "protein_name": "ENSP00000223324",
+      "propagated_f_frac": 0.0,
+      "direct_score": NaN,
+      "degree": 359,
+      "n_scored_neighbors": 1,
+      "hub_score": 2.943052015725078,
+      "bias_direction": "male"
+    }
+  ],
+  "pathway_bias": {
+    "female_biased": [],
+    "male_biased": []
+  }
+}

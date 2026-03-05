@@ -1,0 +1,406 @@
+{
+  "timestamp": "2026-03-05T02:10:15.748071",
+  "wave_101": {
+    "n_diseases": 1799,
+    "top_20": [
+      {
+        "disease_id": "DISEASE:Neoplasms",
+        "disease_name": "Neoplasms",
+        "n_drugs": 1179,
+        "n_drugs_sexdiff": 369,
+        "n_signals": 29190,
+        "f_frac": 0.612,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Breast Neoplasms",
+        "disease_name": "Breast Neoplasms",
+        "n_drugs": 632,
+        "n_drugs_sexdiff": 260,
+        "n_signals": 26326,
+        "f_frac": 0.578,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Severe Acute Respiratory Syndrome",
+        "disease_name": "Severe Acute Respiratory Syndrome",
+        "n_drugs": 481,
+        "n_drugs_sexdiff": 218,
+        "n_signals": 23202,
+        "f_frac": 0.536,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Prostatic Neoplasms, Castration-Resistant",
+        "disease_name": "Prostatic Neoplasms, Castration-Resistant",
+        "n_drugs": 394,
+        "n_drugs_sexdiff": 171,
+        "n_signals": 19495,
+        "f_frac": 0.594,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Arthritis, Rheumatoid",
+        "disease_name": "Arthritis, Rheumatoid",
+        "n_drugs": 256,
+        "n_drugs_sexdiff": 109,
+        "n_signals": 18883,
+        "f_frac": 0.532,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Lymphoma",
+        "disease_name": "Lymphoma",
+        "n_drugs": 265,
+        "n_drugs_sexdiff": 165,
+        "n_signals": 18668,
+        "f_frac": 0.64,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Multiple Myeloma",
+        "disease_name": "Multiple Myeloma",
+        "n_drugs": 256,
+        "n_drugs_sexdiff": 142,
+        "n_signals": 17885,
+        "f_frac": 0.626,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Leukemia",
+        "disease_name": "Leukemia",
+        "n_drugs": 209,
+        "n_drugs_sexdiff": 134,
+        "n_signals": 17700,
+        "f_frac": 0.64,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Carcinoma, Non-Small-Cell Lung",
+        "disease_name": "Carcinoma, Non-Small-Cell Lung",
+        "n_drugs": 500,
+        "n_drugs_sexdiff": 174,
+        "n_signals": 16938,
+        "f_frac": 0.595,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Pain",
+        "disease_name": "Pain",
+        "n_drugs": 322,
+        "n_drugs_sexdiff": 173,
+        "n_signals": 15762,
+        "f_frac": 0.571,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Schizophrenia",
+        "disease_name": "Schizophrenia",
+        "n_drugs": 259,
+        "n_drugs_sexdiff": 141,
+        "n_signals": 15440,
+        "f_frac": 0.555,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Melanoma",
+        "disease_name": "Melanoma",
+        "n_drugs": 297,
+        "n_drugs_sexdiff": 131,
+        "n_signals": 15230,
+        "f_frac": 0.618,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Lymphoma, Non-Hodgkin",
+        "disease_name": "Lymphoma, Non-Hodgkin",
+        "n_drugs": 145,
+        "n_drugs_sexdiff": 100,
+        "n_signals": 15094,
+        "f_frac": 0.639,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Pancreatic Neoplasms",
+        "disease_name": "Pancreatic Neoplasms",
+        "n_drugs": 271,
+        "n_drugs_sexdiff": 130,
+        "n_signals": 15012,
+        "f_frac": 0.592,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Leukemia, Myeloid, Acute",
+        "disease_name": "Leukemia, Myeloid, Acute",
+        "n_drugs": 228,
+        "n_drugs_sexdiff": 121,
+        "n_signals": 14589,
+        "f_frac": 0.672,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Lung Neoplasms",
+        "disease_name": "Lung Neoplasms",
+        "n_drugs": 263,
+        "n_drugs_sexdiff": 129,
+        "n_signals": 14469,
+        "f_frac": 0.576,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Depressive Disorder",
+        "disease_name": "Depressive Disorder",
+        "n_drugs": 264,
+        "n_drugs_sexdiff": 156,
+        "n_signals": 14163,
+        "f_frac": 0.53,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Crohn Disease",
+        "disease_name": "Crohn Disease",
+        "n_drugs": 131,
+        "n_drugs_sexdiff": 71,
+        "n_signals": 14075,
+        "f_frac": 0.568,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Graft vs Host Disease",
+        "disease_name": "Graft vs Host Disease",
+        "n_drugs": 110,
+        "n_drugs_sexdiff": 76,
+        "n_signals": 13657,
+        "f_frac": 0.646,
+        "n_genes": 0
+      },
+      {
+        "disease_id": "DISEASE:Lymphoma, Large B-Cell, Diffuse",
+        "disease_name": "Lymphoma, Large B-Cell, Diffuse",
+        "n_drugs": 163,
+        "n_drugs_sexdiff": 105,
+        "n_signals": 13650,
+        "f_frac": 0.685,
+        "n_genes": 0
+      }
+    ]
+  },
+  "wave_102": {
+    "n_triangles": 0,
+    "top_20": []
+  },
+  "wave_103": {
+    "top_30_urgent": [
+      {
+        "drug_id": "DRUG:PREDNISONE",
+        "drug_name": "PREDNISONE",
+        "n_sexdiff": 926,
+        "n_trials": 0,
+        "urgency": 926.0
+      },
+      {
+        "drug_id": "DRUG:METHOTREXATE",
+        "drug_name": "METHOTREXATE",
+        "n_sexdiff": 892,
+        "n_trials": 0,
+        "urgency": 892.0
+      },
+      {
+        "drug_id": "DRUG:ADALIMUMAB",
+        "drug_name": "ADALIMUMAB",
+        "n_sexdiff": 807,
+        "n_trials": 0,
+        "urgency": 807.0
+      },
+      {
+        "drug_id": "DRUG:RITUXIMAB",
+        "drug_name": "RITUXIMAB",
+        "n_sexdiff": 755,
+        "n_trials": 0,
+        "urgency": 755.0
+      },
+      {
+        "drug_id": "DRUG:INFLIXIMAB",
+        "drug_name": "INFLIXIMAB",
+        "n_sexdiff": 623,
+        "n_trials": 0,
+        "urgency": 623.0
+      },
+      {
+        "drug_id": "DRUG:ETANERCEPT",
+        "drug_name": "ETANERCEPT",
+        "n_sexdiff": 618,
+        "n_trials": 0,
+        "urgency": 618.0
+      },
+      {
+        "drug_id": "DRUG:TACROLIMUS",
+        "drug_name": "TACROLIMUS",
+        "n_sexdiff": 572,
+        "n_trials": 0,
+        "urgency": 572.0
+      },
+      {
+        "drug_id": "DRUG:PREDNISOLONE",
+        "drug_name": "PREDNISOLONE",
+        "n_sexdiff": 542,
+        "n_trials": 0,
+        "urgency": 542.0
+      },
+      {
+        "drug_id": "DRUG:DEXAMETHASONE",
+        "drug_name": "DEXAMETHASONE",
+        "n_sexdiff": 537,
+        "n_trials": 0,
+        "urgency": 537.0
+      },
+      {
+        "drug_id": "DRUG:METHYLPREDNISOLONE",
+        "drug_name": "METHYLPREDNISOLONE",
+        "n_sexdiff": 521,
+        "n_trials": 0,
+        "urgency": 521.0
+      },
+      {
+        "drug_id": "DRUG:RISPERIDONE",
+        "drug_name": "RISPERIDONE",
+        "n_sexdiff": 518,
+        "n_trials": 0,
+        "urgency": 518.0
+      },
+      {
+        "drug_id": "DRUG:TOCILIZUMAB",
+        "drug_name": "TOCILIZUMAB",
+        "n_sexdiff": 508,
+        "n_trials": 0,
+        "urgency": 508.0
+      },
+      {
+        "drug_id": "DRUG:MYCOPHENOLIC ACID",
+        "drug_name": "MYCOPHENOLIC ACID",
+        "n_sexdiff": 507,
+        "n_trials": 0,
+        "urgency": 507.0
+      },
+      {
+        "drug_id": "DRUG:PANTOPRAZOLE",
+        "drug_name": "PANTOPRAZOLE",
+        "n_sexdiff": 501,
+        "n_trials": 0,
+        "urgency": 501.0
+      },
+      {
+        "drug_id": "DRUG:CYCLOPHOSPHAMIDE",
+        "drug_name": "CYCLOPHOSPHAMIDE",
+        "n_sexdiff": 498,
+        "n_trials": 0,
+        "urgency": 498.0
+      },
+      {
+        "drug_id": "DRUG:OXYCODONE",
+        "drug_name": "OXYCODONE",
+        "n_sexdiff": 492,
+        "n_trials": 0,
+        "urgency": 492.0
+      },
+      {
+        "drug_id": "DRUG:SECUKINUMAB",
+        "drug_name": "SECUKINUMAB",
+        "n_sexdiff": 456,
+        "n_trials": 0,
+        "urgency": 456.0
+      },
+      {
+        "drug_id": "DRUG:MORPHINE",
+        "drug_name": "MORPHINE",
+        "n_sexdiff": 441,
+        "n_trials": 0,
+        "urgency": 441.0
+      },
+      {
+        "drug_id": "DRUG:QUETIAPINE",
+        "drug_name": "QUETIAPINE",
+        "n_sexdiff": 426,
+        "n_trials": 0,
+        "urgency": 426.0
+      },
+      {
+        "drug_id": "DRUG:AMLODIPINE",
+        "drug_name": "AMLODIPINE",
+        "n_sexdiff": 422,
+        "n_trials": 0,
+        "urgency": 422.0
+      },
+      {
+        "drug_id": "DRUG:SALBUTAMOL",
+        "drug_name": "SALBUTAMOL",
+        "n_sexdiff": 418,
+        "n_trials": 0,
+        "urgency": 418.0
+      },
+      {
+        "drug_id": "DRUG:CICLOSPORIN",
+        "drug_name": "CICLOSPORIN",
+        "n_sexdiff": 409,
+        "n_trials": 0,
+        "urgency": 409.0
+      },
+      {
+        "drug_id": "DRUG:PREGABALIN",
+        "drug_name": "PREGABALIN",
+        "n_sexdiff": 406,
+        "n_trials": 0,
+        "urgency": 406.0
+      },
+      {
+        "drug_id": "DRUG:DICLOFENAC",
+        "drug_name": "DICLOFENAC",
+        "n_sexdiff": 401,
+        "n_trials": 0,
+        "urgency": 401.0
+      },
+      {
+        "drug_id": "DRUG:METFORMIN",
+        "drug_name": "METFORMIN",
+        "n_sexdiff": 399,
+        "n_trials": 0,
+        "urgency": 399.0
+      },
+      {
+        "drug_id": "DRUG:ATORVASTATIN",
+        "drug_name": "ATORVASTATIN",
+        "n_sexdiff": 388,
+        "n_trials": 0,
+        "urgency": 388.0
+      },
+      {
+        "drug_id": "DRUG:FUROSEMIDE",
+        "drug_name": "FUROSEMIDE",
+        "n_sexdiff": 385,
+        "n_trials": 0,
+        "urgency": 385.0
+      },
+      {
+        "drug_id": "DRUG:HYDROXYCHLOROQUINE",
+        "drug_name": "HYDROXYCHLOROQUINE",
+        "n_sexdiff": 376,
+        "n_trials": 0,
+        "urgency": 376.0
+      },
+      {
+        "drug_id": "DRUG:ZOLEDRONIC ACID",
+        "drug_name": "ZOLEDRONIC ACID",
+        "n_sexdiff": 376,
+        "n_trials": 0,
+        "urgency": 376.0
+      },
+      {
+        "drug_id": "DRUG:IBUPROFEN",
+        "drug_name": "IBUPROFEN",
+        "n_sexdiff": 372,
+        "n_trials": 0,
+        "urgency": 372.0
+      }
+    ]
+  }
+}
