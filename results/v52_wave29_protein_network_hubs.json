@@ -1,0 +1,154 @@
+{
+  "analysis": "protein_network_sex_bias_hubs",
+  "wave": 29,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:02:02.141940",
+  "novelty": "PPI network hub analysis with drug sex-bias propagation and sex-differential expression overlay",
+  "summary": {
+    "targets_with_bias": 130,
+    "protein_hubs_analyzed": 0,
+    "sex_expr_overlap": 0
+  },
+  "top_targets": [
+    {
+      "target": "GABA-A receptor; anion channel",
+      "n_drugs": 31,
+      "mean_bias": 0.21141145747427656,
+      "std_bias": 0.6121652737911699,
+      "consensus": "female"
+    },
+    {
+      "target": "Glucocorticoid receptor",
+      "n_drugs": 30,
+      "mean_bias": 0.0017142838557528647,
+      "std_bias": 0.7710596944062037,
+      "consensus": "neutral"
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "n_drugs": 23,
+      "mean_bias": 0.06875544091268403,
+      "std_bias": 0.7332186936021232,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Cyclooxygenase",
+      "n_drugs": 21,
+      "mean_bias": -0.22913728630312832,
+      "std_bias": 0.8617476129708798,
+      "consensus": "male"
+    },
+    {
+      "target": "D(2) dopamine receptor",
+      "n_drugs": 18,
+      "mean_bias": 0.07563155061132723,
+      "std_bias": 0.5390952985307984,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "n_drugs": 16,
+      "mean_bias": 0.03383712356732136,
+      "std_bias": 0.5553024555033383,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Sodium-dependent noradrenaline transporter",
+      "n_drugs": 16,
+      "mean_bias": -0.20312071577952934,
+      "std_bias": 0.5598027159473901,
+      "consensus": "male"
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "n_drugs": 16,
+      "mean_bias": -0.3174087039741277,
+      "std_bias": 0.5731657131610035,
+      "consensus": "male"
+    },
+    {
+      "target": "Mu-type opioid receptor",
+      "n_drugs": 14,
+      "mean_bias": -0.11652297317534412,
+      "std_bias": 0.5894849182511048,
+      "consensus": "male"
+    },
+    {
+      "target": "Sodium-dependent serotonin transporter",
+      "n_drugs": 13,
+      "mean_bias": -0.4430329240416974,
+      "std_bias": 0.4193955203685361,
+      "consensus": "male"
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2C",
+      "n_drugs": 12,
+      "mean_bias": -0.09034141943945416,
+      "std_bias": 0.9070299619934932,
+      "consensus": "neutral"
+    },
+    {
+      "target": "D2-like dopamine receptor",
+      "n_drugs": 11,
+      "mean_bias": -0.008615508913539531,
+      "std_bias": 0.7733834010481747,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Tubulin",
+      "n_drugs": 11,
+      "mean_bias": -0.1000981915901689,
+      "std_bias": 0.7056242830989811,
+      "consensus": "male"
+    },
+    {
+      "target": "Mast/stem cell growth factor receptor Kit",
+      "n_drugs": 10,
+      "mean_bias": 0.06816110419262338,
+      "std_bias": 0.5540462632450971,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Type-1 angiotensin II receptor",
+      "n_drugs": 10,
+      "mean_bias": -0.08233914872770194,
+      "std_bias": 0.2995475711734778,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Epidermal growth factor receptor",
+      "n_drugs": 10,
+      "mean_bias": 0.08159086558638602,
+      "std_bias": 0.3408259531258648,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Sodium-dependent dopamine transporter",
+      "n_drugs": 9,
+      "mean_bias": 0.05137764355656095,
+      "std_bias": 0.5519062606355082,
+      "consensus": "neutral"
+    },
+    {
+      "target": "Muscarinic acetylcholine receptor M3",
+      "n_drugs": 9,
+      "mean_bias": -0.4732131245892788,
+      "std_bias": 0.6244056576924182,
+      "consensus": "male"
+    },
+    {
+      "target": "Receptor-type tyrosine-protein kinase FLT3",
+      "n_drugs": 9,
+      "mean_bias": 0.296693102964775,
+      "std_bias": 0.6160847039604721,
+      "consensus": "female"
+    },
+    {
+      "target": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+      "n_drugs": 8,
+      "mean_bias": 0.3468589673928531,
+      "std_bias": 0.5886864878322506,
+      "consensus": "female"
+    }
+  ]
+}

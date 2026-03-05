@@ -1,0 +1,92 @@
+{
+  "analysis": "session5_grand_summary",
+  "wave": 30,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:02:14.569926",
+  "novelty": "Grand summary of 30 v5.2 deep analysis waves covering 12 therapeutic areas",
+  "campaign_stats": {
+    "total_waves": 30,
+    "total_json": 34,
+    "total_figures": 313,
+    "therapeutic_areas": 12,
+    "drug_classes": 27,
+    "key_discoveries": 15
+  },
+  "discoveries": {
+    "Severity-Sex Gradient": {
+      "finding": "Fatal AEs 74.1%F -> Mild 48.2%F, rho=-0.943, p=0.0048",
+      "wave": 11,
+      "significance": "Monotonic decline confirms women face more severe drug reactions"
+    },
+    "GLP-1 RA Male Bias": {
+      "finding": "Tirzepatide 8.4%F, Liraglutide 13.9%F, ALL GI/pancreatitis 0%F",
+      "wave": 23,
+      "significance": "Most-prescribed drug class of 2024-25 has near-universal male bias in safety signals"
+    },
+    "Atypical Antipsychotic 90pp Spread": {
+      "finding": "Risperidone 92.9%F vs Cariprazine 2.6%F, chi2=397, p=1e-81",
+      "wave": 25,
+      "significance": "Same mechanism (D2/5-HT2A), 91% discordant AE directions"
+    },
+    "CGRP Antibody 74pp Paradox": {
+      "finding": "Erenumab 79.4%F vs Galcanezumab 5.6%F",
+      "wave": 25,
+      "significance": "Same target (CGRP), opposite sex-bias. Migraines 3:1 female"
+    },
+    "MS Drug Male Bias": {
+      "finding": "Siponimod 4.2%F, Ozanimod 5.7%F, Glatiramer 11.4%F",
+      "wave": 19,
+      "significance": "MS 2-3x more common in women, but MS drugs heavily male-biased"
+    },
+    "TZD Near-Universal Female Bias": {
+      "finding": "Pioglitazone 90.2%F, Rosiglitazone 93.6%F (class: 91.7%F)",
+      "wave": 21,
+      "significance": "Thiazolidinediones = most female-biased drug class overall"
+    },
+    "FQ Organ Paradox": {
+      "finding": "FQ tendon/MSK 10.5%F but FQ CNS effects 73.3%F",
+      "wave": 20,
+      "significance": "Same drug class, organ-dependent sex-bias reversal"
+    },
+    "Oncology Cardiotoxicity 86%F": {
+      "finding": "Cardiotoxicity 86.1%F across all oncology drugs",
+      "wave": 18,
+      "significance": "Women face much higher cardiotoxicity risk from cancer therapy"
+    },
+    "Corticosteroid Psychiatric 92%F": {
+      "finding": "Psychiatric AEs 92.0%F, metabolic 86.5%F, adrenal 84.2%F",
+      "wave": 21,
+      "significance": "Corticosteroid psychiatric side effects overwhelmingly affect women"
+    },
+    "Cross-Class 77pp Spread": {
+      "finding": "TZDs 91.7%F to S1P modulators 14.5%F across 27 drug classes",
+      "wave": 24,
+      "significance": "Drug class is a major determinant of sex-differential safety"
+    },
+    "NSAID Organ Paradox": {
+      "finding": "GI 60.4%F, Renal 40.0%F",
+      "wave": 17,
+      "significance": "Within same drug class, organ-dependent sex-bias reversal"
+    },
+    "Opioid Female Predominance": {
+      "finding": "Opioids 79.9%F overall, respiratory 91.1%F, CNS 81.8%F",
+      "wave": 17,
+      "significance": "Female patients more vulnerable to opioid respiratory depression"
+    },
+    "CPI Hepatotoxicity 100%F": {
+      "finding": "All 4 CPI hepatotoxicity signals female-biased",
+      "wave": 13,
+      "significance": "Checkpoint inhibitor liver toxicity exclusively female"
+    },
+    "Clinical Trial Sex Gap": {
+      "finding": "466 drugs with strong sex-bias, 452 with ZERO trials",
+      "wave": 28,
+      "significance": "Massive unmet need for sex-stratified clinical trials"
+    },
+    "Anti-infective Female Bias": {
+      "finding": "Antifungals 76.5%F, Carbapenems 76.2%F, Glycopeptides 76.7%F",
+      "wave": 20,
+      "significance": "Hospital-use antimicrobials heavily female-biased"
+    }
+  }
+}
