@@ -1,0 +1,14 @@
+{
+  "analysis": "sex_aware_drug_repurposing",
+  "wave": 10,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:34:10.869438",
+  "novelty": "Identifies drug repurposing candidates via shared target genes/pathways while flagging sex-differential safety profiles for new indications",
+  "summary": {
+    "target_based_candidates": 0,
+    "pathway_based_candidates": 0,
+    "high_signal_candidates": 0
+  },
+  "top_target_candidates": [],
+  "top_pathway_candidates": []
+}

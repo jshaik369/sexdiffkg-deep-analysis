@@ -1,0 +1,261 @@
+{
+  "analysis": "signal_severity_sex_gradient_v52",
+  "wave": 11,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:35:50.611871",
+  "novelty": "Re-validates severity-sex gradient on v5.2 merged KG and cross-references with disease treatment data",
+  "summary": {
+    "total_signals": 96281,
+    "gradient_confirmed": true,
+    "spearman_rho": -0.943,
+    "spearman_pval": 0.004805
+  },
+  "severity_gradient": [
+    {
+      "severity": "Fatal",
+      "n_total": 807,
+      "n_female": 598,
+      "n_male": 209,
+      "female_pct": 74.1
+    },
+    {
+      "severity": "Life-threatening",
+      "n_total": 2899,
+      "n_female": 1946,
+      "n_male": 953,
+      "female_pct": 67.1
+    },
+    {
+      "severity": "Serious/Hospitalization",
+      "n_total": 992,
+      "n_female": 594,
+      "n_male": 398,
+      "female_pct": 59.9
+    },
+    {
+      "severity": "Disabling",
+      "n_total": 1320,
+      "n_female": 792,
+      "n_male": 528,
+      "female_pct": 60.0
+    },
+    {
+      "severity": "Moderate",
+      "n_total": 5598,
+      "n_female": 2974,
+      "n_male": 2624,
+      "female_pct": 53.1
+    },
+    {
+      "severity": "Mild",
+      "n_total": 6766,
+      "n_female": 3261,
+      "n_male": 3505,
+      "female_pct": 48.2
+    },
+    {
+      "severity": "Unclassified",
+      "n_total": 77899,
+      "n_female": 41606,
+      "n_male": 36293,
+      "female_pct": 53.4
+    }
+  ],
+  "disease_severity_profiles": [
+    {
+      "disease": "DISEASE:Neoplasms",
+      "total_drug_signals": 29190,
+      "severity_distribution": {
+        "Mild": 1640,
+        "Unclassified": 23584,
+        "Moderate": 2030,
+        "Life-threatening": 993,
+        "Serious/Hospitalization": 335,
+        "Disabling": 405,
+        "Fatal": 203
+      }
+    },
+    {
+      "disease": "DISEASE:Breast Neoplasms",
+      "total_drug_signals": 26326,
+      "severity_distribution": {
+        "Mild": 1444,
+        "Unclassified": 21525,
+        "Moderate": 1745,
+        "Life-threatening": 818,
+        "Serious/Hospitalization": 299,
+        "Disabling": 350,
+        "Fatal": 145
+      }
+    },
+    {
+      "disease": "DISEASE:Severe Acute Respiratory Syndrome",
+      "total_drug_signals": 23202,
+      "severity_distribution": {
+        "Fatal": 122,
+        "Unclassified": 19022,
+        "Serious/Hospitalization": 218,
+        "Moderate": 1417,
+        "Life-threatening": 649,
+        "Mild": 1447,
+        "Disabling": 327
+      }
+    },
+    {
+      "disease": "DISEASE:Prostatic Neoplasms, Castration-Resistant",
+      "total_drug_signals": 19495,
+      "severity_distribution": {
+        "Unclassified": 15985,
+        "Moderate": 1344,
+        "Serious/Hospitalization": 205,
+        "Mild": 1014,
+        "Life-threatening": 587,
+        "Disabling": 252,
+        "Fatal": 108
+      }
+    },
+    {
+      "disease": "DISEASE:Arthritis, Rheumatoid",
+      "total_drug_signals": 18883,
+      "severity_distribution": {
+        "Fatal": 68,
+        "Unclassified": 15640,
+        "Serious/Hospitalization": 180,
+        "Moderate": 1283,
+        "Life-threatening": 417,
+        "Mild": 1022,
+        "Disabling": 273
+      }
+    },
+    {
+      "disease": "DISEASE:Lymphoma",
+      "total_drug_signals": 18668,
+      "severity_distribution": {
+        "Mild": 914,
+        "Unclassified": 14882,
+        "Moderate": 1629,
+        "Life-threatening": 609,
+        "Disabling": 285,
+        "Fatal": 103,
+        "Serious/Hospitalization": 246
+      }
+    },
+    {
+      "disease": "DISEASE:Multiple Myeloma",
+      "total_drug_signals": 17885,
+      "severity_distribution": {
+        "Fatal": 94,
+        "Unclassified": 14387,
+        "Serious/Hospitalization": 226,
+        "Moderate": 1498,
+        "Life-threatening": 540,
+        "Mild": 890,
+        "Disabling": 250
+      }
+    },
+    {
+      "disease": "DISEASE:Leukemia",
+      "total_drug_signals": 17700,
+      "severity_distribution": {
+        "Mild": 829,
+        "Unclassified": 14088,
+        "Moderate": 1580,
+        "Life-threatening": 591,
+        "Serious/Hospitalization": 243,
+        "Disabling": 274,
+        "Fatal": 95
+      }
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Non-Small-Cell Lung",
+      "total_drug_signals": 16938,
+      "severity_distribution": {
+        "Mild": 918,
+        "Unclassified": 13875,
+        "Moderate": 1134,
+        "Life-threatening": 515,
+        "Serious/Hospitalization": 200,
+        "Disabling": 213,
+        "Fatal": 83
+      }
+    },
+    {
+      "disease": "DISEASE:Pain",
+      "total_drug_signals": 15762,
+      "severity_distribution": {
+        "Mild": 1054,
+        "Unclassified": 12957,
+        "Moderate": 821,
+        "Life-threatening": 454,
+        "Serious/Hospitalization": 150,
+        "Disabling": 210,
+        "Fatal": 116
+      }
+    },
+    {
+      "disease": "DISEASE:Schizophrenia",
+      "total_drug_signals": 15440,
+      "severity_distribution": {
+        "Unclassified": 13032,
+        "Moderate": 733,
+        "Life-threatening": 372,
+        "Mild": 835,
+        "Serious/Hospitalization": 157,
+        "Disabling": 195,
+        "Fatal": 116
+      }
+    },
+    {
+      "disease": "DISEASE:Melanoma",
+      "total_drug_signals": 15230,
+      "severity_distribution": {
+        "Mild": 776,
+        "Unclassified": 12359,
+        "Moderate": 1183,
+        "Life-threatening": 449,
+        "Fatal": 66,
+        "Serious/Hospitalization": 183,
+        "Disabling": 214
+      }
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Non-Hodgkin",
+      "total_drug_signals": 15094,
+      "severity_distribution": {
+        "Mild": 672,
+        "Unclassified": 12122,
+        "Moderate": 1328,
+        "Life-threatening": 478,
+        "Disabling": 229,
+        "Fatal": 68,
+        "Serious/Hospitalization": 197
+      }
+    },
+    {
+      "disease": "DISEASE:Pancreatic Neoplasms",
+      "total_drug_signals": 15012,
+      "severity_distribution": {
+        "Unclassified": 12337,
+        "Moderate": 997,
+        "Serious/Hospitalization": 175,
+        "Mild": 752,
+        "Life-threatening": 484,
+        "Fatal": 83,
+        "Disabling": 184
+      }
+    },
+    {
+      "disease": "DISEASE:Leukemia, Myeloid, Acute",
+      "total_drug_signals": 14589,
+      "severity_distribution": {
+        "Mild": 700,
+        "Unclassified": 11595,
+        "Moderate": 1284,
+        "Life-threatening": 499,
+        "Disabling": 215,
+        "Fatal": 80,
+        "Serious/Hospitalization": 216
+      }
+    }
+  ]
+}

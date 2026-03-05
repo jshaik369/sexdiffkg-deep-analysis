@@ -1,0 +1,29 @@
+{
+  "analysis": "kg_completeness_gap_analysis",
+  "wave": 12,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:35:02.977352",
+  "novelty": "Systematic completeness audit of v5.2 merged KG \u2014 identifies coverage gaps that affect all downstream analyses",
+  "summary": {
+    "total_nodes": 217993,
+    "total_edges": 3194017,
+    "connected_nodes": 217993,
+    "isolated_nodes": 0,
+    "avg_completeness_pct": 37.7
+  },
+  "completeness_metrics": {
+    "drug_ae_coverage": 30.5,
+    "drug_target_coverage": 9.1,
+    "drug_disease_coverage": 17.1,
+    "gene_pathway_coverage": 95.1,
+    "target_bridge_coverage": 94.3,
+    "disease_drug_coverage": 16.1,
+    "disease_gene_coverage": 1.5
+  },
+  "gaps": {
+    "drugs_sexdiff_no_targets": 1332,
+    "drugs_sexdiff_no_disease": 632,
+    "target_genes_no_bridge": 65,
+    "isolated_by_category": {}
+  }
+}
