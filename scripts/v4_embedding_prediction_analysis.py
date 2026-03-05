@@ -9,7 +9,7 @@ Uses the ComplEx v4 model (MRR 0.2484, Hits@10 40.69%) to:
 4. Filter and rank top 100 clinically meaningful predictions
 5. Categorize predictions by confidence tier and clinical relevance
 
-Author: JShaik / Claude Opus 4.6
+Author: JShaik
 Date: 2026-03-04
 """
 

@@ -590,7 +590,7 @@ Scatter plot showing the correlation between sex-differential signal log_ror_rat
 
 ## Acknowledgements
 
-The author thanks the FDA for maintaining the FAERS database as a public resource, and the teams behind STRING, ChEMBL, Reactome, GTEx, and DiAna for making their data openly available. Computational resources were provided by an NVIDIA DGX Spark GB10 system. The author acknowledges the use of Claude (Anthropic) for manuscript preparation assistance and code review. This work was conducted independently without external funding.
+The author thanks the FDA for maintaining the FAERS database as a public resource, and the teams behind STRING, ChEMBL, Reactome, GTEx, and DiAna for making their data openly available. Computational resources were provided by an NVIDIA DGX Spark GB10 system. This work was conducted independently without external funding.
 
 ---
 

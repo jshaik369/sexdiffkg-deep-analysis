@@ -578,7 +578,7 @@ print("✓ Publication strategy written")
 audit = """# Peer Review Readiness Audit — SexDiffKG
 
 **Audit date:** 2026-02-27
-**Auditor:** Automated (Claude + DGX verification)
+**Auditor:** Automated (DGX verification)
 **Scope:** Full pipeline, methods, results, manuscript readiness
 
 ---
