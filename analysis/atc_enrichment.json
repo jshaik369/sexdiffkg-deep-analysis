@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-05T03:17:52.875089",
+  "total_kg_drugs": 3920,
+  "matched_with_atc": 1789,
+  "coverage_pct": 45.6,
+  "total_atc_pairs": 2412,
+  "unique_atc_codes": 2412
+}

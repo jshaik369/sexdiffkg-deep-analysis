@@ -1,0 +1,36 @@
+{
+  "project": "MENTALHEALTH-KG",
+  "version": "0.1",
+  "created": "2026-03-05T02:16:46.667244",
+  "source": "SexDiffKG v5 subgraph",
+  "kg": {
+    "total_nodes": 17555,
+    "total_edges": 705561,
+    "node_types": {
+      "AdverseEvent": 9632,
+      "Drug": 3871,
+      "Disease": 1556,
+      "Symptom": 1166,
+      "Protein": 1004,
+      "Gene": 238,
+      "ClinicalTrial": 88
+    },
+    "edge_types": {
+      "has_adverse_event": 587416,
+      "sex_differential_adverse_event": 94359,
+      "treats": 14003,
+      "binds_to": 6855,
+      "causes_adverse_event": 1167,
+      "corresponds_to": 1166,
+      "targets": 505,
+      "tests_intervention": 90
+    }
+  },
+  "signals": {
+    "total": 11547,
+    "psych_drug_signals": 8394,
+    "psych_ae_signals": 3770,
+    "unique_drugs": 868,
+    "unique_aes": 1671
+  }
+}

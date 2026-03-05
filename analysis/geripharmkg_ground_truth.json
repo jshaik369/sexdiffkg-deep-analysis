@@ -1,0 +1,50 @@
+{
+  "project": "GERIPHARM-KG",
+  "version": "0.1",
+  "created": "2026-03-05T02:25:36.809592",
+  "source": "SexDiffKG v5 subgraph",
+  "kg": {
+    "total_nodes": 18754,
+    "total_edges": 739396,
+    "node_types": {
+      "AdverseEvent": 9759,
+      "Drug": 3912,
+      "Symptom": 1717,
+      "Disease": 1708,
+      "Protein": 1226,
+      "Gene": 342,
+      "ClinicalTrial": 90
+    },
+    "edge_types": {
+      "has_adverse_event": 609798,
+      "sex_differential_adverse_event": 96159,
+      "treats": 19308,
+      "binds_to": 9811,
+      "causes_adverse_event": 1718,
+      "corresponds_to": 1717,
+      "targets": 793,
+      "tests_intervention": 92
+    }
+  },
+  "signals": {
+    "total": 37103,
+    "elderly_drug_signals": 24804,
+    "geri_ae_signals": 16197,
+    "unique_drugs": 1393,
+    "unique_aes": 3467,
+    "f_biased": 21880,
+    "m_biased": 15223
+  },
+  "age_sex_crossover": {
+    "classes_with_crossover": [
+      "opioids",
+      "antipsychotics"
+    ],
+    "strongly_biased_drugs": 120
+  },
+  "faers_age_coverage": {
+    "reports_with_age": 9137988,
+    "coverage_pct": 62.9,
+    "elderly_reports": 3421962
+  }
+}

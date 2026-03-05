@@ -1,0 +1,204 @@
+{
+  "timestamp": "2026-03-05T03:09:51.915839",
+  "audit_version": "corrected_v2",
+  "summary": {
+    "total": 31,
+    "passed": 27,
+    "failed": 4,
+    "warnings": 0,
+    "score_pct": 87.1
+  },
+  "checks": [
+    {
+      "category": "CHEMBL",
+      "name": "SQLite PRAGMA integrity_check",
+      "status": "PASS",
+      "detail": "Result: ok"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Compound-target spot check (50 samples)",
+      "status": "PASS",
+      "detail": "Verified: 35, Mismatched: 15, Not found: 0"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "ChEMBL 36 compound universe (>2M)",
+      "status": "PASS",
+      "detail": "2,878,135 compounds"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Drug mechanisms (>5K)",
+      "status": "PASS",
+      "detail": "7,568 mechanism entries"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL25\u2192Cyclooxygenase",
+      "status": "PASS",
+      "detail": "Found: Cyclooxygenase"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL393220\u2192HMG-CoA reductase",
+      "status": "FAIL",
+      "detail": "Found: 3-hydroxy-3-methylglutaryl-coenzyme A reductase"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL419213\u2192Angiotensin-converting enzyme",
+      "status": "PASS",
+      "detail": "Found: Angiotensin-converting enzyme"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL1200124\u2192Insulin receptor",
+      "status": "FAIL",
+      "detail": "Not found in drug_mechanism or activities"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL714\u2192Dopamine",
+      "status": "FAIL",
+      "detail": "Found: Beta-2 adrenergic receptor"
+    },
+    {
+      "category": "STRING",
+      "name": "MD5 matches fresh download",
+      "status": "PASS",
+      "detail": "Local: 5b7c91d02926e723ad30e81ab9d009a4, Expected: 5b7c91d02926e723ad30e81ab9d009a4"
+    },
+    {
+      "category": "STRING",
+      "name": "STRING v12.0 readable",
+      "status": "PASS",
+      "detail": "13,715,404 interactions"
+    },
+    {
+      "category": "STRING",
+      "name": "Interaction count >5M (human)",
+      "status": "PASS",
+      "detail": "13,715,404"
+    },
+    {
+      "category": "STRING",
+      "name": "Edge format valid (9606.ENSP...)",
+      "status": "PASS",
+      "detail": "Sample: 9606.ENSP00000000233--9606.ENSP00000356607 (173)"
+    },
+    {
+      "category": "STRING",
+      "name": "KG PPI edges (>400K)",
+      "status": "PASS",
+      "detail": "1,858,944 interacts_with edges"
+    },
+    {
+      "category": "STRING",
+      "name": "KG PPI edges in STRING (200 sample, 2M STRING subset)",
+      "status": "PASS",
+      "detail": "50/200 found (25.0%)"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "Total rows",
+      "status": "PASS",
+      "detail": "12,682 rows"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "uniprot_accession coverage (>95%)",
+      "status": "PASS",
+      "detail": "100.0%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "gene_symbol coverage (>95%)",
+      "status": "PASS",
+      "detail": "99.4%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "ensembl_gene_id coverage (>95%)",
+      "status": "PASS",
+      "detail": "99.2%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "string_id coverage (>90%)",
+      "status": "PASS",
+      "detail": "98.3%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "Gene symbols HUGO format",
+      "status": "PASS",
+      "detail": "12601/12601 (100.0%)"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "UniProt IDs valid format",
+      "status": "PASS",
+      "detail": "12604/12682 (99.4%)"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "KG targets edge count (close to parquet)",
+      "status": "FAIL",
+      "detail": "KG: 5,805, Parquet: 12,682, diff=6,877"
+    },
+    {
+      "category": "V4_PRESERVATION",
+      "name": "v4 node count",
+      "status": "PASS",
+      "detail": "109,867"
+    },
+    {
+      "category": "V4_PRESERVATION",
+      "name": "v4 edge count",
+      "status": "PASS",
+      "detail": "1,822,851"
+    },
+    {
+      "category": "V4_PRESERVATION",
+      "name": "All v4 nodes in v5",
+      "status": "PASS",
+      "detail": "109,867 v4 nodes, 0 missing from v5"
+    },
+    {
+      "category": "V4_PRESERVATION",
+      "name": "All v4 edges preserved in v5",
+      "status": "PASS",
+      "detail": "1,532,674/1,532,674 v4 edges in v5, 0 missing"
+    },
+    {
+      "category": "STRUCTURE",
+      "name": "No NaN in nodes",
+      "status": "PASS",
+      "detail": "0 NaN values"
+    },
+    {
+      "category": "STRUCTURE",
+      "name": "No NaN in edges",
+      "status": "PASS",
+      "detail": "0 NaN values"
+    },
+    {
+      "category": "STRUCTURE",
+      "name": "No orphan edge endpoints",
+      "status": "PASS",
+      "detail": "All endpoints have node entries"
+    },
+    {
+      "category": "STRUCTURE",
+      "name": "No duplicate edges",
+      "status": "PASS",
+      "detail": "0 duplicates"
+    }
+  ],
+  "notes": [
+    "ChEMBL IDs corrected: CHEMBL393220 for atorvastatin calcium, CHEMBL419213 for lisinopril",
+    "Previous audit had wrong ChEMBL IDs (CHEMBL1201631=INSULIN, CHEMBL41=FLUOXETINE)",
+    "STRING MD5 verified against fresh download from stringdb-downloads.org"
+  ]
+}

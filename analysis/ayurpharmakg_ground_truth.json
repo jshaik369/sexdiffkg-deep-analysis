@@ -1,0 +1,52 @@
+{
+  "project": "AYUR-PHARMA-KG",
+  "version": "0.1",
+  "created": "2026-03-05T02:38:09.127620",
+  "source": "SexDiffKG v5 subgraph (VEDA Ayurvedic entities + shared targets)",
+  "kg": {
+    "total_nodes": 24316,
+    "total_edges": 293444,
+    "node_types": {
+      "AdverseEvent": 8605,
+      "Compound": 8033,
+      "Protein": 2397,
+      "Unknown": 1664,
+      "Disease": 1519,
+      "Drug": 1407,
+      "Gene": 349,
+      "Pathway": 328,
+      "Rasa": 6,
+      "Herb": 5,
+      "Dosha": 3
+    },
+    "edge_types": {
+      "has_adverse_event": 198129,
+      "sex_differential_adverse_event": 31843,
+      "binds_to": 31239,
+      "treats": 16007,
+      "modulates": 10530,
+      "targets": 3315,
+      "participates_in": 2158,
+      "encoded_by": 205,
+      "pacifies_dosha": 9,
+      "aggravates_dosha": 9
+    }
+  },
+  "ayurvedic": {
+    "herbs": 5,
+    "compounds": 35287,
+    "doshas": 3,
+    "rasas": 6,
+    "gunas": 20
+  },
+  "bridge": {
+    "shared_targets": 566,
+    "bridged_drugs": 809,
+    "bridged_compounds": 8033
+  },
+  "signals": {
+    "shared_drug_signals": 31843,
+    "unique_drugs": 575
+  },
+  "note": "v0.1 uses only VEDA-KG Ayurvedic data (5 herbs, 3 doshas). Full version needs IMPPAT 2.0 download for 1,742 herbs."
+}

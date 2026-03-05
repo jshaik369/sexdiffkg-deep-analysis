@@ -1,0 +1,38 @@
+{
+  "project": "REPRODUCT-KG",
+  "version": "0.1",
+  "created": "2026-03-05T02:15:55.071806",
+  "source": "SexDiffKG v5 subgraph",
+  "kg": {
+    "total_nodes": 13208,
+    "total_edges": 384985,
+    "node_types": {
+      "AdverseEvent": 9435,
+      "Drug": 1429,
+      "Disease": 1317,
+      "Protein": 772,
+      "Gene": 134,
+      "ClinicalTrial": 74,
+      "Symptom": 47
+    },
+    "edge_types": {
+      "has_adverse_event": 314260,
+      "sex_differential_adverse_event": 58626,
+      "treats": 8761,
+      "binds_to": 2953,
+      "targets": 216,
+      "tests_intervention": 75,
+      "causes_adverse_event": 47,
+      "corresponds_to": 47
+    }
+  },
+  "signals": {
+    "total": 922,
+    "drugs": 394,
+    "aes": 96,
+    "female_higher": 476,
+    "male_higher": 446
+  },
+  "hormonal_drugs": 188,
+  "cross_reference_drugs": 10
+}

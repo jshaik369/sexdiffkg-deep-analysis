@@ -1,0 +1,258 @@
+{
+  "timestamp": "2026-03-05T02:33:33.762126",
+  "summary": {
+    "total": 41,
+    "passed": 41,
+    "failed": 0,
+    "warnings": 0,
+    "score_pct": 100.0
+  },
+  "checks": [
+    {
+      "category": "SOURCE",
+      "name": "VEDA nodes CSV exists",
+      "status": "PASS",
+      "detail": "Found: /home/jshaik369/veda-kg/data/exports/neo4j_nodes.csv"
+    },
+    {
+      "category": "SOURCE",
+      "name": "VEDA nodes CSV size reasonable",
+      "status": "PASS",
+      "detail": "11.6 MB (OK)"
+    },
+    {
+      "category": "SOURCE",
+      "name": "VEDA edges CSV exists",
+      "status": "PASS",
+      "detail": "Found: /home/jshaik369/veda-kg/data/exports/neo4j_edges.csv"
+    },
+    {
+      "category": "SOURCE",
+      "name": "VEDA edges CSV size reasonable",
+      "status": "PASS",
+      "detail": "201.0 MB (OK)"
+    },
+    {
+      "category": "QUALITY",
+      "name": "VEDA nodes node_id:ID NaN",
+      "status": "PASS",
+      "detail": "0.0% NaN (should be 0)"
+    },
+    {
+      "category": "QUALITY",
+      "name": "VEDA nodes type:LABEL NaN",
+      "status": "PASS",
+      "detail": "0.0% NaN (should be 0)"
+    },
+    {
+      "category": "QUALITY",
+      "name": "No empty node IDs",
+      "status": "PASS",
+      "detail": "0 empty IDs"
+    },
+    {
+      "category": "QUALITY",
+      "name": "No duplicate node IDs",
+      "status": "PASS",
+      "detail": "0 duplicates"
+    },
+    {
+      "category": "QUALITY",
+      "name": "Multiple node types",
+      "status": "PASS",
+      "detail": "14 types"
+    },
+    {
+      "category": "QUALITY",
+      "name": "VEDA edges :START_ID NaN",
+      "status": "PASS",
+      "detail": "0 NaN values"
+    },
+    {
+      "category": "QUALITY",
+      "name": "VEDA edges relation:TYPE NaN",
+      "status": "PASS",
+      "detail": "0 NaN values"
+    },
+    {
+      "category": "QUALITY",
+      "name": "VEDA edges :END_ID NaN",
+      "status": "PASS",
+      "detail": "0 NaN values"
+    },
+    {
+      "category": "QUALITY",
+      "name": "Self-loops minimal",
+      "status": "PASS",
+      "detail": "0 self-loops (0.00%)"
+    },
+    {
+      "category": "QUALITY",
+      "name": "Multiple edge types",
+      "status": "PASS",
+      "detail": "15 types"
+    },
+    {
+      "category": "QUALITY",
+      "name": "Edge endpoints in nodes",
+      "status": "PASS",
+      "detail": "0 orphan endpoints (0.0%)"
+    },
+    {
+      "category": "QUALITY",
+      "name": "Duplicate edges minimal",
+      "status": "PASS",
+      "detail": "0 duplicates (0.0%)"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "ChEMBL 36 SQLite exists",
+      "status": "PASS",
+      "detail": "27.7 GB"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "ChEMBL 36 size reasonable",
+      "status": "PASS",
+      "detail": "27.7 GB (expected ~28 GB)"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "ChEMBL tables accessible",
+      "status": "PASS",
+      "detail": "74 tables"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "ChEMBL compound count",
+      "status": "PASS",
+      "detail": "3,774,137 compounds"
+    },
+    {
+      "category": "STRING",
+      "name": "STRING directory exists",
+      "status": "PASS",
+      "detail": "2 files"
+    },
+    {
+      "category": "STRING",
+      "name": "STRING 9606.protein.links.v12.0.txt.gz",
+      "status": "PASS",
+      "detail": "79.3 MB"
+    },
+    {
+      "category": "STRING",
+      "name": "STRING 9606.protein.aliases.v12.0.txt.gz",
+      "status": "PASS",
+      "detail": "18.9 MB"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "v5 nodes id NaN",
+      "status": "PASS",
+      "detail": "0 NaN"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "v5 nodes name NaN",
+      "status": "PASS",
+      "detail": "0 NaN"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "v5 nodes category NaN",
+      "status": "PASS",
+      "detail": "0 NaN"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "v5 edges subject NaN",
+      "status": "PASS",
+      "detail": "0 NaN"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "v5 edges predicate NaN",
+      "status": "PASS",
+      "detail": "0 NaN"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "v5 edges object NaN",
+      "status": "PASS",
+      "detail": "0 NaN"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "No malformed node IDs",
+      "status": "PASS",
+      "detail": "0 malformed IDs"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "All edge subjects in nodes",
+      "status": "PASS",
+      "detail": "0 missing"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "All edge objects in nodes",
+      "status": "PASS",
+      "detail": "0 missing"
+    },
+    {
+      "category": "v5_QUALITY",
+      "name": "v4 node count preserved",
+      "status": "PASS",
+      "detail": "v4-like nodes in v5: 126,457 (expected ~109,867)"
+    },
+    {
+      "category": "CONTAMINATION",
+      "name": "No Disease-Drug ID overlap",
+      "status": "PASS",
+      "detail": "0 overlapping IDs"
+    },
+    {
+      "category": "MOLECULAR",
+      "name": "drug_targets.parquet exists",
+      "status": "PASS",
+      "detail": "12,682 rows"
+    },
+    {
+      "category": "MOLECULAR",
+      "name": "drug_targets drug_name coverage",
+      "status": "PASS",
+      "detail": "100.0% complete"
+    },
+    {
+      "category": "MOLECULAR",
+      "name": "drug_targets target_name coverage",
+      "status": "PASS",
+      "detail": "100.0% complete"
+    },
+    {
+      "category": "MOLECULAR",
+      "name": "drug_targets gene_symbol coverage",
+      "status": "PASS",
+      "detail": "99.4% complete"
+    },
+    {
+      "category": "MOLECULAR",
+      "name": "drug_targets uniprot_accession coverage",
+      "status": "PASS",
+      "detail": "100.0% complete"
+    },
+    {
+      "category": "MOLECULAR",
+      "name": "Gene symbols standard format",
+      "status": "PASS",
+      "detail": "0 non-standard out of 12601"
+    },
+    {
+      "category": "MOLECULAR",
+      "name": "Ensembl IDs valid format",
+      "status": "PASS",
+      "detail": "12577/12577 valid ENSG IDs"
+    }
+  ]
+}

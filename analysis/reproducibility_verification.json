@@ -1,0 +1,252 @@
+{
+  "timestamp": "2026-03-05T03:18:50.393235",
+  "audit_type": "reproducibility_verification",
+  "summary": {
+    "total": 40,
+    "passed": 39,
+    "failed": 1,
+    "score_pct": 97.5
+  },
+  "checks": [
+    {
+      "category": "FILE",
+      "name": "KG v4 nodes exists",
+      "status": "PASS",
+      "detail": "5,031,028 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "KG v4 edges exists",
+      "status": "PASS",
+      "detail": "109,987,347 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "KG v4 triples exists",
+      "status": "PASS",
+      "detail": "109,987,322 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "KG v5 nodes exists",
+      "status": "PASS",
+      "detail": "14,459,027 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "KG v5 edges exists",
+      "status": "PASS",
+      "detail": "198,396,536 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "KG v5 triples exists",
+      "status": "PASS",
+      "detail": "198,396,511 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "Signals v4 exists",
+      "status": "PASS",
+      "detail": "3,584,262 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "ComplEx v4 embeddings exists",
+      "status": "FAIL",
+      "detail": "NOT FOUND"
+    },
+    {
+      "category": "FILE",
+      "name": "Drug targets exists",
+      "status": "PASS",
+      "detail": "317,843 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "ID mappings exists",
+      "status": "PASS",
+      "detail": "2,324,847 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "Manuscript exists",
+      "status": "PASS",
+      "detail": "77,812 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "GROUND_TRUTH exists",
+      "status": "PASS",
+      "detail": "5,964 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "Zenodo archive exists",
+      "status": "PASS",
+      "detail": "27,739,114 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "STRING v12 exists",
+      "status": "PASS",
+      "detail": "83,164,437 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "ChEMBL 36 SQLite exists",
+      "status": "PASS",
+      "detail": "29,739,835,392 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "CITATION.cff exists",
+      "status": "PASS",
+      "detail": "998 bytes"
+    },
+    {
+      "category": "FILE",
+      "name": "ATC enrichment exists",
+      "status": "PASS",
+      "detail": "188,943 bytes"
+    },
+    {
+      "category": "MD5",
+      "name": "v4/nodes.tsv checksum",
+      "status": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "category": "MD5",
+      "name": "v4/edges.tsv checksum",
+      "status": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "category": "MD5",
+      "name": "v4/triples.tsv checksum",
+      "status": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 nodes = 109,867",
+      "status": "PASS",
+      "detail": "109,867"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 edges = 1,822,851",
+      "status": "PASS",
+      "detail": "1,822,851"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v5 nodes = 246,056",
+      "status": "PASS",
+      "detail": "246,056"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v5 edges = 3,182,843",
+      "status": "PASS",
+      "detail": "3,182,843"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "sex-diff signals = 96,281",
+      "status": "PASS",
+      "detail": "96,281"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "drug_targets rows = 12,682",
+      "status": "PASS",
+      "detail": "12,682"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 has_adverse_event = 869,142",
+      "status": "PASS",
+      "detail": "869,142"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 interacts_with = 473,860",
+      "status": "PASS",
+      "detail": "473,860"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 participates_in = 370,597",
+      "status": "PASS",
+      "detail": "370,597"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 sex_differential_adverse_event = 96,281",
+      "status": "PASS",
+      "detail": "96,281"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 targets = 12,682",
+      "status": "PASS",
+      "detail": "12,682"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 sex_differential_expression = 289",
+      "status": "PASS",
+      "detail": "289"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 Gene = 77,498",
+      "status": "PASS",
+      "detail": "77,498"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 Protein = 16,201",
+      "status": "PASS",
+      "detail": "16,201"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 AdverseEvent = 9,949",
+      "status": "PASS",
+      "detail": "9,949"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 Drug = 3,920",
+      "status": "PASS",
+      "detail": "3,920"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 Pathway = 2,279",
+      "status": "PASS",
+      "detail": "2,279"
+    },
+    {
+      "category": "CONSISTENCY",
+      "name": "v4 Tissue = 20",
+      "status": "PASS",
+      "detail": "20"
+    },
+    {
+      "category": "RAID",
+      "name": "GT copies (4/4)",
+      "status": "PASS",
+      "detail": "4 copies found"
+    },
+    {
+      "category": "RAID",
+      "name": "All GT copies identical",
+      "status": "PASS",
+      "detail": "All match"
+    }
+  ]
+}

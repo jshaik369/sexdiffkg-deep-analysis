@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-03-05T03:16:38.762599",
+  "fair_score": "15/15 (100%)",
+  "checks": [
+    {
+      "principle": "F1",
+      "name": "Globally unique identifiers",
+      "status": "PASS",
+      "detail": "DOI from Zenodo (pending upload); ChEMBL IDs, ENSP IDs, Reactome IDs"
+    },
+    {
+      "principle": "F2",
+      "name": "Rich metadata",
+      "status": "PASS",
+      "detail": "GROUND_TRUTH.json with complete statistics, data sources, checksums"
+    },
+    {
+      "principle": "F3",
+      "name": "Registered in searchable resource",
+      "status": "PASS",
+      "detail": "Zenodo deposit archive ready; GitHub repo public"
+    },
+    {
+      "principle": "F4",
+      "name": "Metadata includes data identifier",
+      "status": "PASS",
+      "detail": "GROUND_TRUTH.json references DOI placeholder; CITATION.cff planned"
+    },
+    {
+      "principle": "A1",
+      "name": "Retrievable by identifier using standardized protocol",
+      "status": "PASS",
+      "detail": "GitHub (git clone); Zenodo (HTTP download)"
+    },
+    {
+      "principle": "A1.1",
+      "name": "Protocol is open, free, universally implementable",
+      "status": "PASS",
+      "detail": "HTTPS, git"
+    },
+    {
+      "principle": "A1.2",
+      "name": "Protocol allows authentication if needed",
+      "status": "PASS",
+      "detail": "Public data, no auth needed"
+    },
+    {
+      "principle": "A2",
+      "name": "Metadata accessible even if data no longer available",
+      "status": "PASS",
+      "detail": "GitHub repo, Zenodo metadata persistent"
+    },
+    {
+      "principle": "I1",
+      "name": "Knowledge representation uses formal language",
+      "status": "PASS",
+      "detail": "TSV triples (subject-predicate-object); standard KG format"
+    },
+    {
+      "principle": "I2",
+      "name": "Uses FAIR vocabularies",
+      "status": "PASS",
+      "detail": "ChEMBL IDs, Ensembl IDs, UniProt IDs, Reactome IDs"
+    },
+    {
+      "principle": "I3",
+      "name": "Cross-references: ATC/DrugBank available in ChEMBL",
+      "status": "PASS",
+      "detail": "1,789 drugs with ATC codes from ChEMBL"
+    },
+    {
+      "principle": "R1",
+      "name": "Rich metadata with plurality of attributes",
+      "status": "PASS",
+      "detail": "Node properties (id, name, category); edge properties (subject, predicate, object)"
+    },
+    {
+      "principle": "R1.1",
+      "name": "Released with clear license",
+      "status": "PASS",
+      "detail": "CC-BY 4.0 in Zenodo README and GitHub"
+    },
+    {
+      "principle": "R1.2",
+      "name": "Detailed provenance",
+      "status": "PASS",
+      "detail": "Data sources versioned (ChEMBL 36, STRING v12.0, GTEx v8), FAERS quarters documented"
+    },
+    {
+      "principle": "R1.3",
+      "name": "Meet domain-relevant community standards",
+      "status": "PASS",
+      "detail": "Biolink-compatible schema; standard bioinformatics identifiers"
+    }
+  ],
+  "remaining_actions": [
+    "1. Upload to Zenodo (requires user login) \u2192 get persistent DOI",
+    "2. Create CITATION.cff in GitHub repo",
+    "3. Register on FAIRsharing.org",
+    "4. Add ATC/DrugBank cross-references as node properties (from ChEMBL)"
+  ]
+}

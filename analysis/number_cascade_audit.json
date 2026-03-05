@@ -1,0 +1,250 @@
+{
+  "timestamp": "2026-03-05T03:17:47.620758",
+  "audit_type": "number_cascade",
+  "summary": {
+    "total": 36,
+    "passed": 33,
+    "failed": 0,
+    "warnings": 3,
+    "score_pct": 91.7
+  },
+  "checks": [
+    {
+      "category": "GT_RAID",
+      "name": "GT copies exist (4/4)",
+      "status": "PASS",
+      "detail": "Found: 4"
+    },
+    {
+      "category": "GT_RAID",
+      "name": "All GT copies identical",
+      "status": "PASS",
+      "detail": "Identical"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "total_nodes = 109,867",
+      "status": "PASS",
+      "detail": "GT: 109867"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "total_edges = 1,822,851",
+      "status": "PASS",
+      "detail": "GT: 1822851"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "node_type Gene = 77,498",
+      "status": "PASS",
+      "detail": "GT: 77498"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "node_type Protein = 16,201",
+      "status": "PASS",
+      "detail": "GT: 16201"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "node_type AdverseEvent = 9,949",
+      "status": "PASS",
+      "detail": "GT: 9949"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "node_type Drug = 3,920",
+      "status": "PASS",
+      "detail": "GT: 3920"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "node_type Pathway = 2,279",
+      "status": "PASS",
+      "detail": "GT: 2279"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "node_type Tissue = 20",
+      "status": "PASS",
+      "detail": "GT: 20"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "FAERS reports = 14,536,008",
+      "status": "PASS",
+      "detail": "GT: 14536008 (faers.total_reports_deduplicated)"
+    },
+    {
+      "category": "GT_VALUES",
+      "name": "ComplEx MRR = 0.2484",
+      "status": "PASS",
+      "detail": "GT: 0.2484"
+    },
+    {
+      "category": "README",
+      "name": "No wrong v3 node count (127,063)",
+      "status": "PASS",
+      "detail": "Not found in README"
+    },
+    {
+      "category": "README",
+      "name": "No wrong v3 node count (127063)",
+      "status": "PASS",
+      "detail": "Not found in README"
+    },
+    {
+      "category": "README",
+      "name": "No wrong v3 node count (126,575)",
+      "status": "PASS",
+      "detail": "Not found in README"
+    },
+    {
+      "category": "README",
+      "name": "No wrong v3 edge count (5,839,717)",
+      "status": "PASS",
+      "detail": "Not found in README"
+    },
+    {
+      "category": "README",
+      "name": "No wrong v3 edge count (5,489,928)",
+      "status": "PASS",
+      "detail": "Not found in README"
+    },
+    {
+      "category": "README",
+      "name": "No wrong v3 pathway source (should be Reactome) (KEGG)",
+      "status": "PASS",
+      "detail": "Not found in README"
+    },
+    {
+      "category": "README",
+      "name": "No wrong stale DistMult MRR (0.048)",
+      "status": "PASS",
+      "detail": "Not found in README (0.0481 is Hits@1, not stale MRR)"
+    },
+    {
+      "category": "README",
+      "name": "No wrong stale MRR (0.039)",
+      "status": "PASS",
+      "detail": "Not found in README"
+    },
+    {
+      "category": "README",
+      "name": "Contains correct v4 nodes (109,867)",
+      "status": "PASS",
+      "detail": "Found in README"
+    },
+    {
+      "category": "README",
+      "name": "Contains correct v4 edges (1,822,851)",
+      "status": "PASS",
+      "detail": "Found in README"
+    },
+    {
+      "category": "README",
+      "name": "Contains correct ComplEx MRR (0.2484)",
+      "status": "PASS",
+      "detail": "Found in README"
+    },
+    {
+      "category": "README",
+      "name": "Contains correct pathway source (Reactome)",
+      "status": "PASS",
+      "detail": "Found in README"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "Contains nodes (109,867)",
+      "status": "PASS",
+      "detail": "Found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "Contains edges (1,822,851)",
+      "status": "PASS",
+      "detail": "Found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "Contains FAERS reports (14,536,008)",
+      "status": "PASS",
+      "detail": "Found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "Contains sex-diff signals (96,281)",
+      "status": "PASS",
+      "detail": "Found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "Contains ComplEx MRR (0.2484)",
+      "status": "PASS",
+      "detail": "Found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "Contains pathway source (Reactome)",
+      "status": "PASS",
+      "detail": "Found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "No wrong v3 nodes",
+      "status": "PASS",
+      "detail": "Not found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "No wrong v3 edges",
+      "status": "PASS",
+      "detail": "Not found"
+    },
+    {
+      "category": "MANUSCRIPT",
+      "name": "No wrong v3 pathways",
+      "status": "PASS",
+      "detail": "Not found"
+    },
+    {
+      "category": "ZENODO",
+      "name": "Contains nodes (109,867)",
+      "status": "WARN",
+      "detail": "NOT FOUND"
+    },
+    {
+      "category": "ZENODO",
+      "name": "Contains edges (1,822,851)",
+      "status": "WARN",
+      "detail": "NOT FOUND"
+    },
+    {
+      "category": "ISMB",
+      "name": "ISMB abstract exists",
+      "status": "WARN",
+      "detail": "Checked: ['/home/jshaik369/sexdiffkg/Publication/ISMB2026_abstract.md', '/home/jshaik369/sexdiffkg/Publication/ismb_abstract.md', '/home/jshaik369/sexdiffkg/Publication/ISMB_abstract_v2.md']"
+    }
+  ],
+  "canonical_numbers": {
+    "total_nodes": 109867,
+    "total_edges": 1822851,
+    "gene": 77498,
+    "protein": 16201,
+    "adverse_event": 9949,
+    "drug": 3920,
+    "pathway": 2279,
+    "tissue": 20,
+    "mrr_complex": 0.2484,
+    "hits_at_10_complex": 0.4069,
+    "faers_reports": 14536008,
+    "faers_female": 8744397,
+    "faers_male": 5791611,
+    "faers_quarters": 87,
+    "sex_diff_signals": 96281,
+    "total_signals": 183544,
+    "validation_coverage": 72.5,
+    "validation_precision": 82.8,
+    "validation_benchmarks": 40
+  }
+}

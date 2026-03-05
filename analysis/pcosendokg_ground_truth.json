@@ -1,0 +1,34 @@
+{
+  "project": "PCOS-ENDO-KG",
+  "version": "0.1",
+  "created": "2026-03-05T02:36:40.069955",
+  "source": "SexDiffKG v5 subgraph",
+  "kg": {
+    "total_nodes": 36903,
+    "total_edges": 697819,
+    "node_types": {
+      "ClinicalTrial": 12768,
+      "AdverseEvent": 9660,
+      "Drug": 6069,
+      "Disease": 3696,
+      "Compound": 2348,
+      "Symptom": 1012,
+      "Protein": 887,
+      "Intervention": 307,
+      "Gene": 156
+    }
+  },
+  "signals": {
+    "pcos_specific": 222,
+    "gynecological": 902,
+    "treatment_drug": 2580,
+    "combined": 3452,
+    "unique_drugs": 420,
+    "unique_aes": 1317
+  },
+  "clinical_trials": {
+    "pcos_endo_trials": 4958,
+    "trial_drugs": 4883
+  },
+  "note": "Limited AE signals (166 direct PCOS/endo); strength is in trial network (1,898 trials)"
+}
