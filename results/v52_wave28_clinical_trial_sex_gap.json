@@ -1,0 +1,224 @@
+{
+  "analysis": "clinical_trial_sex_gap",
+  "wave": 28,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:59:27.540616",
+  "novelty": "Ranked list of drugs most urgently needing sex-stratified clinical trials based on strong sex-bias + trial gaps",
+  "summary": {
+    "strong_bias_drugs": 466,
+    "no_trials": 452,
+    "few_trials": 464
+  },
+  "top_urgent": [
+    {
+      "drug_name": "RISPERIDONE",
+      "n_signals": 518,
+      "pct_female": 92.85714285714286,
+      "n_trials": 0,
+      "urgency_score": 267.9387378499667
+    },
+    {
+      "drug_name": "RANITIDINE",
+      "n_signals": 324,
+      "pct_female": 93.51851851851852,
+      "n_trials": 0,
+      "urgency_score": 251.70350330509044
+    },
+    {
+      "drug_name": "DOCETAXEL",
+      "n_signals": 304,
+      "pct_female": 11.18421052631579,
+      "n_trials": 0,
+      "urgency_score": 222.03841764462982
+    },
+    {
+      "drug_name": "ISOTRETINOIN",
+      "n_signals": 217,
+      "pct_female": 9.216589861751153,
+      "n_trials": 0,
+      "urgency_score": 219.5980705331034
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "n_signals": 492,
+      "pct_female": 84.95934959349594,
+      "n_trials": 0,
+      "urgency_score": 216.7657678730372
+    },
+    {
+      "drug_name": "METHOTREXATE SODIUM",
+      "n_signals": 186,
+      "pct_female": 8.60215053763441,
+      "n_trials": 0,
+      "urgency_score": 216.55664704182968
+    },
+    {
+      "drug_name": "SILDENAFIL",
+      "n_signals": 272,
+      "pct_female": 87.5,
+      "n_trials": 0,
+      "urgency_score": 210.355192319436
+    },
+    {
+      "drug_name": "PREDNISOLONE",
+      "n_signals": 542,
+      "pct_female": 82.47232472324724,
+      "n_trials": 0,
+      "urgency_score": 204.48177865468134
+    },
+    {
+      "drug_name": "MORPHINE",
+      "n_signals": 441,
+      "pct_female": 83.44671201814059,
+      "n_trials": 0,
+      "urgency_score": 203.73428743910665
+    },
+    {
+      "drug_name": "MEBEVERINE",
+      "n_signals": 52,
+      "pct_female": 0.0,
+      "n_trials": 0,
+      "urgency_score": 198.5145956776061
+    },
+    {
+      "drug_name": "RANITIDINE HYDROCHLORIDE",
+      "n_signals": 50,
+      "pct_female": 100.0,
+      "n_trials": 0,
+      "urgency_score": 196.59128163621628
+    },
+    {
+      "drug_name": "MIFEPRISTONE",
+      "n_signals": 47,
+      "pct_female": 0.0,
+      "n_trials": 0,
+      "urgency_score": 193.56005054539455
+    },
+    {
+      "drug_name": "PEGINTERFERON BETA-1A",
+      "n_signals": 46,
+      "pct_female": 0.0,
+      "n_trials": 0,
+      "urgency_score": 192.50738008550292
+    },
+    {
+      "drug_name": "LISINOPRIL",
+      "n_signals": 252,
+      "pct_female": 84.52380952380952,
+      "n_trials": 0,
+      "urgency_score": 191.03368472987864
+    },
+    {
+      "drug_name": "INTERFERON BETA-1A",
+      "n_signals": 170,
+      "pct_female": 12.941176470588237,
+      "n_trials": 0,
+      "urgency_score": 190.54400238803976
+    },
+    {
+      "drug_name": "DEXAMETHASONE",
+      "n_signals": 537,
+      "pct_female": 80.26070763500931,
+      "n_trials": 0,
+      "urgency_score": 190.27504953934636
+    },
+    {
+      "drug_name": "TIRZEPATIDE",
+      "n_signals": 95,
+      "pct_female": 8.421052631578947,
+      "n_trials": 0,
+      "urgency_score": 189.78079322418898
+    },
+    {
+      "drug_name": "INTERFERON BETA-1B",
+      "n_signals": 70,
+      "pct_female": 5.714285714285714,
+      "n_trials": 0,
+      "urgency_score": 188.7758231261154
+    },
+    {
+      "drug_name": "DUPILUMAB",
+      "n_signals": 289,
+      "pct_female": 16.955017301038062,
+      "n_trials": 0,
+      "urgency_score": 187.3611170050656
+    },
+    {
+      "drug_name": "VORICONAZOLE",
+      "n_signals": 145,
+      "pct_female": 87.58620689655172,
+      "n_trials": 0,
+      "urgency_score": 187.31486957455468
+    },
+    {
+      "drug_name": "FELODIPINE",
+      "n_signals": 79,
+      "pct_female": 7.59493670886076,
+      "n_trials": 0,
+      "urgency_score": 185.82011678680382
+    },
+    {
+      "drug_name": "CLOPIDOGREL",
+      "n_signals": 300,
+      "pct_female": 82.33333333333334,
+      "n_trials": 0,
+      "urgency_score": 184.5298985602137
+    },
+    {
+      "drug_name": "FAMPRIDINE",
+      "n_signals": 110,
+      "pct_female": 10.909090909090908,
+      "n_trials": 0,
+      "urgency_score": 184.09981696039125
+    },
+    {
+      "drug_name": "TERIFLUNOMIDE",
+      "n_signals": 77,
+      "pct_female": 7.792207792207792,
+      "n_trials": 0,
+      "urgency_score": 183.88706086676848
+    },
+    {
+      "drug_name": "GLATIRAMER",
+      "n_signals": 114,
+      "pct_female": 11.403508771929824,
+      "n_trials": 0,
+      "urgency_score": 183.13773127016054
+    },
+    {
+      "drug_name": "ALBENDAZOLE",
+      "n_signals": 58,
+      "pct_female": 5.172413793103448,
+      "n_trials": 0,
+      "urgency_score": 182.7861612785323
+    },
+    {
+      "drug_name": "PEGVALIASE",
+      "n_signals": 37,
+      "pct_female": 0.0,
+      "n_trials": 0,
+      "urgency_score": 181.87930798631928
+    },
+    {
+      "drug_name": "PALIPERIDONE",
+      "n_signals": 161,
+      "pct_female": 85.71428571428571,
+      "n_trials": 0,
+      "urgency_score": 181.69986911544225
+    },
+    {
+      "drug_name": "PRASUGREL",
+      "n_signals": 50,
+      "pct_female": 96.0,
+      "n_trials": 0,
+      "urgency_score": 180.86397910531898
+    },
+    {
+      "drug_name": "AXICABTAGENE CILOLEUCEL",
+      "n_signals": 62,
+      "pct_female": 93.54838709677419,
+      "n_trials": 0,
+      "urgency_score": 180.4268348589861
+    }
+  ]
+}

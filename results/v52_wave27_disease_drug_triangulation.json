@@ -1,0 +1,173 @@
+{
+  "analysis": "disease_drug_sex_triangulation",
+  "wave": 27,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:59:12.778622",
+  "novelty": "Disease-drug-sex signal triangulation using clinical trials + treats edges from merged KG",
+  "summary": {
+    "diseases_mapped": 11454,
+    "diseases_with_signals": 1770
+  },
+  "top_diseases": [
+    {
+      "disease": "Neoplasms",
+      "n_drugs": 1320,
+      "n_drugs_with_signals": 369,
+      "n_signals": 29190,
+      "pct_female": 61.223021582733814,
+      "mean_lr": 0.2460958492541898
+    },
+    {
+      "disease": "Breast Neoplasms",
+      "n_drugs": 1735,
+      "n_drugs_with_signals": 260,
+      "n_signals": 26326,
+      "pct_female": 57.78318012611107,
+      "mean_lr": 0.17079578767446277
+    },
+    {
+      "disease": "Severe Acute Respiratory Syndrome",
+      "n_drugs": 481,
+      "n_drugs_with_signals": 218,
+      "n_signals": 23202,
+      "pct_female": 53.56865787432118,
+      "mean_lr": 0.1208888127527861
+    },
+    {
+      "disease": "Prostatic Neoplasms, Castration-Resistant",
+      "n_drugs": 396,
+      "n_drugs_with_signals": 171,
+      "n_signals": 19495,
+      "pct_female": 59.40497563477815,
+      "mean_lr": 0.204776104574958
+    },
+    {
+      "disease": "Arthritis, Rheumatoid",
+      "n_drugs": 256,
+      "n_drugs_with_signals": 109,
+      "n_signals": 18883,
+      "pct_female": 53.21188370491977,
+      "mean_lr": 0.16541537056055522
+    },
+    {
+      "disease": "Lymphoma",
+      "n_drugs": 523,
+      "n_drugs_with_signals": 165,
+      "n_signals": 18668,
+      "pct_female": 64.04542532676237,
+      "mean_lr": 0.3093547539549805
+    },
+    {
+      "disease": "Multiple Myeloma",
+      "n_drugs": 387,
+      "n_drugs_with_signals": 142,
+      "n_signals": 17885,
+      "pct_female": 62.611126642437796,
+      "mean_lr": 0.2763460792418168
+    },
+    {
+      "disease": "Leukemia",
+      "n_drugs": 306,
+      "n_drugs_with_signals": 134,
+      "n_signals": 17700,
+      "pct_female": 64.0225988700565,
+      "mean_lr": 0.3112975361952823
+    },
+    {
+      "disease": "Carcinoma, Non-Small-Cell Lung",
+      "n_drugs": 562,
+      "n_drugs_with_signals": 174,
+      "n_signals": 16938,
+      "pct_female": 59.47573503365214,
+      "mean_lr": 0.19549723039432462
+    },
+    {
+      "disease": "Pain",
+      "n_drugs": 518,
+      "n_drugs_with_signals": 173,
+      "n_signals": 15762,
+      "pct_female": 57.06763101129299,
+      "mean_lr": 0.2092767143937597
+    },
+    {
+      "disease": "Schizophrenia",
+      "n_drugs": 266,
+      "n_drugs_with_signals": 141,
+      "n_signals": 15440,
+      "pct_female": 55.47279792746114,
+      "mean_lr": 0.15517631550810992
+    },
+    {
+      "disease": "Melanoma",
+      "n_drugs": 707,
+      "n_drugs_with_signals": 131,
+      "n_signals": 15230,
+      "pct_female": 61.77281680892974,
+      "mean_lr": 0.2688058713062542
+    },
+    {
+      "disease": "Lymphoma, Non-Hodgkin",
+      "n_drugs": 150,
+      "n_drugs_with_signals": 100,
+      "n_signals": 15094,
+      "pct_female": 63.91281303829336,
+      "mean_lr": 0.30621330624522075
+    },
+    {
+      "disease": "Pancreatic Neoplasms",
+      "n_drugs": 313,
+      "n_drugs_with_signals": 130,
+      "n_signals": 15012,
+      "pct_female": 59.22595257127631,
+      "mean_lr": 0.17774219320673917
+    },
+    {
+      "disease": "Leukemia, Myeloid, Acute",
+      "n_drugs": 232,
+      "n_drugs_with_signals": 121,
+      "n_signals": 14589,
+      "pct_female": 67.22187949825211,
+      "mean_lr": 0.374048185284446
+    },
+    {
+      "disease": "Lung Neoplasms",
+      "n_drugs": 315,
+      "n_drugs_with_signals": 129,
+      "n_signals": 14469,
+      "pct_female": 57.56444813048587,
+      "mean_lr": 0.17229738838380038
+    },
+    {
+      "disease": "Depressive Disorder",
+      "n_drugs": 272,
+      "n_drugs_with_signals": 156,
+      "n_signals": 14163,
+      "pct_female": 53.025488950081204,
+      "mean_lr": 0.0800046231894128
+    },
+    {
+      "disease": "Crohn Disease",
+      "n_drugs": 133,
+      "n_drugs_with_signals": 71,
+      "n_signals": 14075,
+      "pct_female": 56.795737122557725,
+      "mean_lr": 0.22980710584780972
+    },
+    {
+      "disease": "Graft vs Host Disease",
+      "n_drugs": 111,
+      "n_drugs_with_signals": 76,
+      "n_signals": 13657,
+      "pct_female": 64.57494325254449,
+      "mean_lr": 0.35646928030848196
+    },
+    {
+      "disease": "Lymphoma, Large B-Cell, Diffuse",
+      "n_drugs": 165,
+      "n_drugs_with_signals": 105,
+      "n_signals": 13650,
+      "pct_female": 68.4981684981685,
+      "mean_lr": 0.39864327388077697
+    }
+  ]
+}
