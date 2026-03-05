@@ -1,0 +1,75 @@
+{
+  "analysis": "glp1_receptor_agonist_deep_dive",
+  "wave": 23,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:53:38.114542",
+  "novelty": "Deep dive into GLP-1 RA sex-bias: male-dominated signals in most-prescribed drug class of 2024-25, AE category breakdown, target analysis",
+  "ae_categories": [
+    {
+      "category": "GI (diarrhea)",
+      "n_signals": 1,
+      "pct_female": 0.0,
+      "mean_lr": -0.575319524996964
+    },
+    {
+      "category": "GI (abdominal)",
+      "n_signals": 16,
+      "pct_female": 0.0,
+      "mean_lr": -0.723736020571273
+    },
+    {
+      "category": "Pancreatitis",
+      "n_signals": 11,
+      "pct_female": 0.0,
+      "mean_lr": -0.6938399658246058
+    },
+    {
+      "category": "Gallbladder",
+      "n_signals": 10,
+      "pct_female": 20.0,
+      "mean_lr": -0.7068285268140833
+    },
+    {
+      "category": "Thyroid",
+      "n_signals": 7,
+      "pct_female": 14.285714285714285,
+      "mean_lr": -0.9754611423654527
+    },
+    {
+      "category": "Renal",
+      "n_signals": 9,
+      "pct_female": 44.44444444444444,
+      "mean_lr": -0.07746398834891743
+    },
+    {
+      "category": "Cardiac",
+      "n_signals": 5,
+      "pct_female": 20.0,
+      "mean_lr": -0.5324599179795534
+    },
+    {
+      "category": "Injection site",
+      "n_signals": 42,
+      "pct_female": 9.523809523809524,
+      "mean_lr": -0.5813901960460865
+    },
+    {
+      "category": "Weight",
+      "n_signals": 3,
+      "pct_female": 66.66666666666666,
+      "mean_lr": 0.2124478919406311
+    },
+    {
+      "category": "Psychiatric",
+      "n_signals": 6,
+      "pct_female": 0.0,
+      "mean_lr": -0.9967117959100001
+    },
+    {
+      "category": "Eye",
+      "n_signals": 8,
+      "pct_female": 0.0,
+      "mean_lr": -0.6997890306385681
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "analysis": "cross_class_sex_bias_spectrum",
+  "wave": 24,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:53:51.753612",
+  "novelty": "Grand synthesis of sex-bias across 26 drug classes from 9 therapeutic areas. 80pp spread from TZDs (92%F) to triptans/S1P modulators (<15%F)",
+  "n_classes": 27,
+  "spectrum": [
+    {
+      "class": "Atypical Antipsychotics",
+      "n_drugs": 8,
+      "n_signals": 2238,
+      "pct_female": 67.20285969615728,
+      "mean_lr": 0.39311044955821006,
+      "median_lr": 0.6744998150316478
+    },
+    {
+      "class": "SSRIs/SNRIs",
+      "n_drugs": 7,
+      "n_signals": 1622,
+      "pct_female": 42.41676942046856,
+      "mean_lr": -0.1836068133045669,
+      "median_lr": -0.577004976404128
+    },
+    {
+      "class": "Benzodiazepines",
+      "n_drugs": 4,
+      "n_signals": 1036,
+      "pct_female": 68.62934362934364,
+      "mean_lr": 0.3687831230072194,
+      "median_lr": 0.6467860467317761
+    },
+    {
+      "class": "Statins",
+      "n_drugs": 4,
+      "n_signals": 1053,
+      "pct_female": 48.148148148148145,
+      "mean_lr": -0.00904784653227632,
+      "median_lr": -0.5156866928518888
+    },
+    {
+      "class": "ACE-I/ARB",
+      "n_drugs": 5,
+      "n_signals": 1041,
+      "pct_female": 66.76272814601344,
+      "mean_lr": 0.43859108695795856,
+      "median_lr": 0.6687852380246051
+    },
+    {
+      "class": "Anticoagulants",
+      "n_drugs": 4,
+      "n_signals": 914,
+      "pct_female": 64.87964989059081,
+      "mean_lr": 0.19190729276703858,
+      "median_lr": 0.5689433670123241
+    },
+    {
+      "class": "Beta-blockers",
+      "n_drugs": 5,
+      "n_signals": 885,
+      "pct_female": 53.898305084745765,
+      "mean_lr": 0.08302326316771977,
+      "median_lr": 0.529213595647309
+    },
+    {
+      "class": "NSAIDs",
+      "n_drugs": 5,
+      "n_signals": 1465,
+      "pct_female": 56.51877133105801,
+      "mean_lr": 0.3243080381448249,
+      "median_lr": 0.5974685669996997
+    },
+    {
+      "class": "Opioids",
+      "n_drugs": 5,
+      "n_signals": 1660,
+      "pct_female": 79.87951807228916,
+      "mean_lr": 0.803377642523615,
+      "median_lr": 0.7958417538615385
+    },
+    {
+      "class": "Chemotherapy",
+      "n_drugs": 8,
+      "n_signals": 2915,
+      "pct_female": 61.4065180102916,
+      "mean_lr": 0.2421387065757168,
+      "median_lr": 0.6042170041979715
+    },
+    {
+      "class": "Targeted Oncology",
+      "n_drugs": 7,
+      "n_signals": 1325,
+      "pct_female": 66.49056603773586,
+      "mean_lr": 0.2906018281796245,
+      "median_lr": 0.5930436870866004
+    },
+    {
+      "class": "Anti-TNF",
+      "n_drugs": 3,
+      "n_signals": 2048,
+      "pct_female": 43.212890625,
+      "mean_lr": -0.0011022899122708762,
+      "median_lr": -0.5443659203446247
+    },
+    {
+      "class": "JAK Inhibitors",
+      "n_drugs": 3,
+      "n_signals": 548,
+      "pct_female": 40.693430656934304,
+      "mean_lr": -0.11415018444873179,
+      "median_lr": -0.5773542406938161
+    },
+    {
+      "class": "S1P Modulators",
+      "n_drugs": 3,
+      "n_signals": 242,
+      "pct_female": 14.46280991735537,
+      "mean_lr": -0.5922806241754217,
+      "median_lr": -0.6942339053378027
+    },
+    {
+      "class": "Fluoroquinolones",
+      "n_drugs": 3,
+      "n_signals": 771,
+      "pct_female": 46.952010376134886,
+      "mean_lr": -0.043782634933105746,
+      "median_lr": -0.5265837017458658
+    },
+    {
+      "class": "Macrolides",
+      "n_drugs": 3,
+      "n_signals": 419,
+      "pct_female": 36.754176610978526,
+      "mean_lr": -0.24130455896615255,
+      "median_lr": -0.6332724750295422
+    },
+    {
+      "class": "Antifungals",
+      "n_drugs": 3,
+      "n_signals": 320,
+      "pct_female": 78.4375,
+      "mean_lr": 0.6138600549721296,
+      "median_lr": 0.7691210986439738
+    },
+    {
+      "class": "Carbapenems",
+      "n_drugs": 3,
+      "n_signals": 161,
+      "pct_female": 75.77639751552795,
+      "mean_lr": 0.49303636115501853,
+      "median_lr": 0.6799840891777511
+    },
+    {
+      "class": "GLP-1 RA",
+      "n_drugs": 5,
+      "n_signals": 517,
+      "pct_female": 24.564796905222437,
+      "mean_lr": -0.42951224931909926,
+      "median_lr": -0.6158500471328152
+    },
+    {
+      "class": "SGLT2i",
+      "n_drugs": 3,
+      "n_signals": 319,
+      "pct_female": 59.87460815047022,
+      "mean_lr": 0.12205191173220152,
+      "median_lr": 0.5575531827176412
+    },
+    {
+      "class": "Corticosteroids",
+      "n_drugs": 4,
+      "n_signals": 2526,
+      "pct_female": 76.40538400633412,
+      "mean_lr": 0.6109438164561801,
+      "median_lr": 0.7193403459206749
+    },
+    {
+      "class": "TZDs",
+      "n_drugs": 2,
+      "n_signals": 108,
+      "pct_female": 91.66666666666666,
+      "mean_lr": 0.6869135013915444,
+      "median_lr": 0.7035091839390957
+    },
+    {
+      "class": "Thyroid",
+      "n_drugs": 1,
+      "n_signals": 322,
+      "pct_female": 20.496894409937887,
+      "mean_lr": -0.8180979265378784,
+      "median_lr": -0.906533900514968
+    },
+    {
+      "class": "Insulin",
+      "n_drugs": 1,
+      "n_signals": 339,
+      "pct_female": 39.52802359882006,
+      "mean_lr": -0.21623053890949567,
+      "median_lr": -0.564388430205427
+    },
+    {
+      "class": "Antiepileptics",
+      "n_drugs": 7,
+      "n_signals": 2035,
+      "pct_female": 45.40540540540541,
+      "mean_lr": -0.05964932802405121,
+      "median_lr": -0.5373676965594314
+    },
+    {
+      "class": "Triptans",
+      "n_drugs": 4,
+      "n_signals": 88,
+      "pct_female": 17.045454545454543,
+      "mean_lr": -0.7869289525924636,
+      "median_lr": -0.8290498088583818
+    },
+    {
+      "class": "CGRP Antibodies",
+      "n_drugs": 3,
+      "n_signals": 127,
+      "pct_female": 45.66929133858268,
+      "mean_lr": 0.051769024429440084,
+      "median_lr": -0.5463104664103928
+    }
+  ]
+}
