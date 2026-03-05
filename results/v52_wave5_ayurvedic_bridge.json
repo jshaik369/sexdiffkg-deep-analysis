@@ -1,0 +1,398 @@
+{
+  "analysis": "ayurvedic_modern_pharmacovigilance_bridge",
+  "wave": 5,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:27:30.210927",
+  "novelty": "First systematic bridge between Ayurvedic herbs and sex-differential drug safety signals via shared disease targets",
+  "summary": {
+    "drugs_with_sex_diff_signals": 2178,
+    "drugs_with_targets": 4400,
+    "herbs_treating_diseases": 5,
+    "diseases_with_sex_biased_drugs": 1799,
+    "diseases_with_herb_drug_sex_overlap": 3,
+    "sexdiff_drug_target_genes": 413,
+    "herb_overlap_aes": 3813
+  },
+  "disease_triangulation": [
+    {
+      "disease": "DISEASE:Neoplasms",
+      "n_drugs_with_signals": 369,
+      "total_sex_diff_signals": 29190,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Breast Neoplasms",
+      "n_drugs_with_signals": 260,
+      "total_sex_diff_signals": 26326,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Severe Acute Respiratory Syndrome",
+      "n_drugs_with_signals": 218,
+      "total_sex_diff_signals": 23202,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Prostatic Neoplasms, Castration-Resistant",
+      "n_drugs_with_signals": 171,
+      "total_sex_diff_signals": 19495,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Arthritis, Rheumatoid",
+      "n_drugs_with_signals": 109,
+      "total_sex_diff_signals": 18883,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Lymphoma",
+      "n_drugs_with_signals": 165,
+      "total_sex_diff_signals": 18668,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Multiple Myeloma",
+      "n_drugs_with_signals": 142,
+      "total_sex_diff_signals": 17885,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Leukemia",
+      "n_drugs_with_signals": 134,
+      "total_sex_diff_signals": 17700,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Non-Small-Cell Lung",
+      "n_drugs_with_signals": 174,
+      "total_sex_diff_signals": 16938,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Pain",
+      "n_drugs_with_signals": 173,
+      "total_sex_diff_signals": 15762,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Schizophrenia",
+      "n_drugs_with_signals": 141,
+      "total_sex_diff_signals": 15440,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Melanoma",
+      "n_drugs_with_signals": 131,
+      "total_sex_diff_signals": 15230,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Non-Hodgkin",
+      "n_drugs_with_signals": 100,
+      "total_sex_diff_signals": 15094,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Pancreatic Neoplasms",
+      "n_drugs_with_signals": 130,
+      "total_sex_diff_signals": 15012,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Leukemia, Myeloid, Acute",
+      "n_drugs_with_signals": 121,
+      "total_sex_diff_signals": 14589,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Lung Neoplasms",
+      "n_drugs_with_signals": 129,
+      "total_sex_diff_signals": 14469,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Depressive Disorder",
+      "n_drugs_with_signals": 156,
+      "total_sex_diff_signals": 14163,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Crohn Disease",
+      "n_drugs_with_signals": 71,
+      "total_sex_diff_signals": 14075,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Graft vs Host Disease",
+      "n_drugs_with_signals": 76,
+      "total_sex_diff_signals": 13657,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Large B-Cell, Diffuse",
+      "n_drugs_with_signals": 105,
+      "total_sex_diff_signals": 13650,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Osteoarthritis",
+      "n_drugs_with_signals": 72,
+      "total_sex_diff_signals": 13565,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Hepatocellular",
+      "n_drugs_with_signals": 105,
+      "total_sex_diff_signals": 13423,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Multiple Sclerosis",
+      "n_drugs_with_signals": 100,
+      "total_sex_diff_signals": 13284,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Colorectal Neoplasms",
+      "n_drugs_with_signals": 128,
+      "total_sex_diff_signals": 13142,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Asthma",
+      "n_drugs_with_signals": 87,
+      "total_sex_diff_signals": 12647,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Renal Insufficiency, Chronic",
+      "n_drugs_with_signals": 89,
+      "total_sex_diff_signals": 12579,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Colitis, Ulcerative",
+      "n_drugs_with_signals": 58,
+      "total_sex_diff_signals": 12528,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Prostatic Neoplasms",
+      "n_drugs_with_signals": 94,
+      "total_sex_diff_signals": 12495,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Ovarian Neoplasms",
+      "n_drugs_with_signals": 125,
+      "total_sex_diff_signals": 12392,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Heart Failure",
+      "n_drugs_with_signals": 117,
+      "total_sex_diff_signals": 12376,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Pulmonary Disease, Chronic Obstructive",
+      "n_drugs_with_signals": 93,
+      "total_sex_diff_signals": 12338,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Myelodysplastic Syndromes",
+      "n_drugs_with_signals": 91,
+      "total_sex_diff_signals": 12301,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Sarcoma",
+      "n_drugs_with_signals": 103,
+      "total_sex_diff_signals": 12054,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Leukemia, Lymphocytic, Chronic, B-Cell",
+      "n_drugs_with_signals": 76,
+      "total_sex_diff_signals": 12033,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "n_drugs_with_signals": 83,
+      "total_sex_diff_signals": 11897,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:HIV Infections",
+      "n_drugs_with_signals": 133,
+      "total_sex_diff_signals": 11852,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Diabetes Mellitus, Type 1",
+      "n_drugs_with_signals": 82,
+      "total_sex_diff_signals": 11695,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Follicular",
+      "n_drugs_with_signals": 75,
+      "total_sex_diff_signals": 11621,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Hodgkin Disease",
+      "n_drugs_with_signals": 79,
+      "total_sex_diff_signals": 11525,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Spondylitis, Ankylosing",
+      "n_drugs_with_signals": 37,
+      "total_sex_diff_signals": 11172,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Kidney Neoplasms",
+      "n_drugs_with_signals": 73,
+      "total_sex_diff_signals": 11110,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Hematologic Neoplasms",
+      "n_drugs_with_signals": 66,
+      "total_sex_diff_signals": 10828,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Anxiety",
+      "n_drugs_with_signals": 108,
+      "total_sex_diff_signals": 10765,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Cardiovascular Diseases",
+      "n_drugs_with_signals": 135,
+      "total_sex_diff_signals": 10737,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Squamous Cell",
+      "n_drugs_with_signals": 91,
+      "total_sex_diff_signals": 10638,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Pneumonia",
+      "n_drugs_with_signals": 83,
+      "total_sex_diff_signals": 10569,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Psoriasis",
+      "n_drugs_with_signals": 69,
+      "total_sex_diff_signals": 10532,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Dementia",
+      "n_drugs_with_signals": 99,
+      "total_sex_diff_signals": 10472,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Immune System Diseases",
+      "n_drugs_with_signals": 49,
+      "total_sex_diff_signals": 10372,
+      "n_herbs_treating": 0,
+      "herbs": []
+    },
+    {
+      "disease": "DISEASE:Arthritis, Juvenile",
+      "n_drugs_with_signals": 36,
+      "total_sex_diff_signals": 10325,
+      "n_herbs_treating": 0,
+      "herbs": []
+    }
+  ],
+  "herb_drug_overlap": [
+    {
+      "disease": "DISEASE:Infertility",
+      "n_drugs": 29,
+      "signals": 3881,
+      "n_herbs": 1,
+      "herbs": [
+        "Ashwagandha (Withania somnifera)"
+      ]
+    },
+    {
+      "disease": "DISEASE:Polycystic Ovary Syndrome",
+      "n_drugs": 23,
+      "signals": 2211,
+      "n_herbs": 2,
+      "herbs": [
+        "Turmeric (Curcuma longa)",
+        "Licorice (Glycyrrhiza glabra)"
+      ]
+    },
+    {
+      "disease": "DISEASE:Menopause",
+      "n_drugs": 11,
+      "signals": 969,
+      "n_herbs": 1,
+      "herbs": [
+        "Shatavari (Asparagus racemosus)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1995 @@
+{
+  "analysis": "tissue_sex_differential_expression_integration",
+  "wave": 7,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:30:16.416455",
+  "novelty": "Links tissue-specific sex-differential gene expression (GTEx) to drug safety signals via target gene bridges",
+  "summary": {
+    "tissues_analyzed": 20,
+    "genes_with_sexdiff_expression": 123,
+    "target_to_symbol_bridges": 1104,
+    "bridge_overlap_genes": 35,
+    "drugs_targeting_sexexpr_genes": 301,
+    "drugs_with_both_expr_and_signals": 44
+  },
+  "tissue_summary": [
+    {
+      "tissue": "TISSUE:Adipose - Subcutaneous",
+      "n_sexexpr_genes": 22,
+      "n_drugs_targeting": 102,
+      "n_drugs_with_signals": 18,
+      "total_drug_signals": 2532
+    },
+    {
+      "tissue": "TISSUE:Whole Blood",
+      "n_sexexpr_genes": 22,
+      "n_drugs_targeting": 39,
+      "n_drugs_with_signals": 8,
+      "total_drug_signals": 2492
+    },
+    {
+      "tissue": "TISSUE:Liver",
+      "n_sexexpr_genes": 88,
+      "n_drugs_targeting": 100,
+      "n_drugs_with_signals": 19,
+      "total_drug_signals": 534
+    },
+    {
+      "tissue": "TISSUE:Muscle - Skeletal",
+      "n_sexexpr_genes": 15,
+      "n_drugs_targeting": 48,
+      "n_drugs_with_signals": 10,
+      "total_drug_signals": 321
+    },
+    {
+      "tissue": "TISSUE:Breast - Mammary Tissue",
+      "n_sexexpr_genes": 10,
+      "n_drugs_targeting": 127,
+      "n_drugs_with_signals": 14,
+      "total_drug_signals": 177
+    },
+    {
+      "tissue": "TISSUE:Heart - Left Ventricle",
+      "n_sexexpr_genes": 17,
+      "n_drugs_targeting": 64,
+      "n_drugs_with_signals": 9,
+      "total_drug_signals": 124
+    },
+    {
+      "tissue": "TISSUE:Spleen",
+      "n_sexexpr_genes": 1,
+      "n_drugs_targeting": 11,
+      "n_drugs_with_signals": 2,
+      "total_drug_signals": 106
+    },
+    {
+      "tissue": "TISSUE:Prostate",
+      "n_sexexpr_genes": 3,
+      "n_drugs_targeting": 98,
+      "n_drugs_with_signals": 11,
+      "total_drug_signals": 105
+    },
+    {
+      "tissue": "TISSUE:Small Intestine - Terminal Ileum",
+      "n_sexexpr_genes": 7,
+      "n_drugs_targeting": 8,
+      "n_drugs_with_signals": 1,
+      "total_drug_signals": 102
+    },
+    {
+      "tissue": "TISSUE:Uterus",
+      "n_sexexpr_genes": 4,
+      "n_drugs_targeting": 89,
+      "n_drugs_with_signals": 8,
+      "total_drug_signals": 92
+    },
+    {
+      "tissue": "TISSUE:Skin - Sun Exposed (Lower leg)",
+      "n_sexexpr_genes": 2,
+      "n_drugs_targeting": 42,
+      "n_drugs_with_signals": 7,
+      "total_drug_signals": 63
+    },
+    {
+      "tissue": "TISSUE:Ovary",
+      "n_sexexpr_genes": 4,
+      "n_drugs_targeting": 17,
+      "n_drugs_with_signals": 3,
+      "total_drug_signals": 36
+    },
+    {
+      "tissue": "TISSUE:Brain - Cortex",
+      "n_sexexpr_genes": 17,
+      "n_drugs_targeting": 9,
+      "n_drugs_with_signals": 2,
+      "total_drug_signals": 25
+    },
+    {
+      "tissue": "TISSUE:Adrenal Gland",
+      "n_sexexpr_genes": 7,
+      "n_drugs_targeting": 11,
+      "n_drugs_with_signals": 3,
+      "total_drug_signals": 10
+    },
+    {
+      "tissue": "TISSUE:Pituitary",
+      "n_sexexpr_genes": 2,
+      "n_drugs_targeting": 25,
+      "n_drugs_with_signals": 2,
+      "total_drug_signals": 2
+    },
+    {
+      "tissue": "TISSUE:Lung",
+      "n_sexexpr_genes": 17,
+      "n_drugs_targeting": 3,
+      "n_drugs_with_signals": 1,
+      "total_drug_signals": 1
+    },
+    {
+      "tissue": "TISSUE:Artery - Aorta",
+      "n_sexexpr_genes": 13,
+      "n_drugs_targeting": 0,
+      "n_drugs_with_signals": 0,
+      "total_drug_signals": 0
+    },
+    {
+      "tissue": "TISSUE:Thyroid",
+      "n_sexexpr_genes": 13,
+      "n_drugs_targeting": 0,
+      "n_drugs_with_signals": 0,
+      "total_drug_signals": 0
+    },
+    {
+      "tissue": "TISSUE:Kidney - Cortex",
+      "n_sexexpr_genes": 22,
+      "n_drugs_targeting": 7,
+      "n_drugs_with_signals": 0,
+      "total_drug_signals": 0
+    },
+    {
+      "tissue": "TISSUE:Testis",
+      "n_sexexpr_genes": 3,
+      "n_drugs_targeting": 11,
+      "n_drugs_with_signals": 0,
+      "total_drug_signals": 0
+    }
+  ],
+  "gene_summary": [
+    {
+      "gene": "GENE:TNF",
+      "n_tissues": 2,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Whole Blood"
+      ],
+      "n_drugs": 15,
+      "total_signals": 2382
+    },
+    {
+      "gene": "GENE:GHR",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Muscle - Skeletal"
+      ],
+      "n_drugs": 6,
+      "total_signals": 258
+    },
+    {
+      "gene": "GENE:TLR7",
+      "n_tissues": 2,
+      "tissues": [
+        "Spleen",
+        "Whole Blood"
+      ],
+      "n_drugs": 11,
+      "total_signals": 106
+    },
+    {
+      "gene": "GENE:CYP3A4",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_drugs": 3,
+      "total_signals": 102
+    },
+    {
+      "gene": "GENE:PGR",
+      "n_tissues": 2,
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Uterus"
+      ],
+      "n_drugs": 34,
+      "total_signals": 65
+    },
+    {
+      "gene": "GENE:AR",
+      "n_tissues": 6,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_drugs": 42,
+      "total_signals": 63
+    },
+    {
+      "gene": "GENE:PPARA",
+      "n_tissues": 2,
+      "tissues": [
+        "Heart - Left Ventricle",
+        "Liver"
+      ],
+      "n_drugs": 22,
+      "total_signals": 61
+    },
+    {
+      "gene": "GENE:PPARG",
+      "n_tissues": 2,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue"
+      ],
+      "n_drugs": 31,
+      "total_signals": 49
+    },
+    {
+      "gene": "GENE:CYP19A1",
+      "n_tissues": 3,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue",
+        "Ovary"
+      ],
+      "n_drugs": 6,
+      "total_signals": 36
+    },
+    {
+      "gene": "GENE:ESR2",
+      "n_tissues": 3,
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Prostate",
+        "Uterus"
+      ],
+      "n_drugs": 56,
+      "total_signals": 27
+    },
+    {
+      "gene": "GENE:COMT",
+      "n_tissues": 2,
+      "tissues": [
+        "Brain - Cortex",
+        "Liver"
+      ],
+      "n_drugs": 4,
+      "total_signals": 25
+    },
+    {
+      "gene": "GENE:SRD5A2",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Prostate"
+      ],
+      "n_drugs": 1,
+      "total_signals": 15
+    },
+    {
+      "gene": "GENE:ALDH2",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 1,
+      "total_signals": 8
+    },
+    {
+      "gene": "GENE:CYP11B1",
+      "n_tissues": 1,
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_drugs": 4,
+      "total_signals": 8
+    },
+    {
+      "gene": "GENE:CYP11A1",
+      "n_tissues": 1,
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_drugs": 3,
+      "total_signals": 6
+    },
+    {
+      "gene": "GENE:CYP17A1",
+      "n_tissues": 1,
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_drugs": 6,
+      "total_signals": 2
+    },
+    {
+      "gene": "GENE:GNRHR",
+      "n_tissues": 1,
+      "tissues": [
+        "Pituitary"
+      ],
+      "n_drugs": 25,
+      "total_signals": 2
+    },
+    {
+      "gene": "GENE:IL6",
+      "n_tissues": 2,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Whole Blood"
+      ],
+      "n_drugs": 8,
+      "total_signals": 2
+    },
+    {
+      "gene": "GENE:IFNG",
+      "n_tissues": 1,
+      "tissues": [
+        "Whole Blood"
+      ],
+      "n_drugs": 3,
+      "total_signals": 2
+    },
+    {
+      "gene": "GENE:AHR",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Lung"
+      ],
+      "n_drugs": 1,
+      "total_signals": 1
+    },
+    {
+      "gene": "GENE:ADH1C",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 1,
+      "total_signals": 1
+    },
+    {
+      "gene": "GENE:CYP3A43",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SRD5A1",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:XIST",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:DDX3X",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:KDM5C",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SHBG",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:HSD3B2",
+      "n_tissues": 1,
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_drugs": 1,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:HSD3B1",
+      "n_tissues": 2,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:HSD17B3",
+      "n_tissues": 1,
+      "tissues": [
+        "Testis"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:HSD17B2",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:HSD17B1",
+      "n_tissues": 2,
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Ovary"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:KDM6A",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:RPS4X",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:STAR",
+      "n_tissues": 1,
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:TSIX",
+      "n_tissues": 1,
+      "tissues": [
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:TLR8",
+      "n_tissues": 1,
+      "tissues": [
+        "Whole Blood"
+      ],
+      "n_drugs": 7,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:FOXP3",
+      "n_tissues": 1,
+      "tissues": [
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ESR1",
+      "n_tissues": 6,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Brain - Cortex",
+        "Breast - Mammary Tissue",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Uterus"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLC47A2",
+      "n_tissues": 1,
+      "tissues": [
+        "Kidney - Cortex"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLC47A1",
+      "n_tissues": 2,
+      "tissues": [
+        "Kidney - Cortex",
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLCO2B1",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLCO1B3",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLCO1B1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLC22A8",
+      "n_tissues": 1,
+      "tissues": [
+        "Kidney - Cortex"
+      ],
+      "n_drugs": 2,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP11B2",
+      "n_tissues": 1,
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_drugs": 1,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:LHCGR",
+      "n_tissues": 2,
+      "tissues": [
+        "Ovary",
+        "Testis"
+      ],
+      "n_drugs": 5,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP1A2",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:EIF1AY",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UTY",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:RPS4Y1",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SERPINA7",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SERPINA1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ORM2",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ORM1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ALB",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:IGFBP3",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:IGFBP1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:IGF1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 2,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:GH1",
+      "n_tissues": 1,
+      "tissues": [
+        "Pituitary"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:FSHR",
+      "n_tissues": 2,
+      "tissues": [
+        "Ovary",
+        "Testis"
+      ],
+      "n_drugs": 7,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ARNT",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ZFY",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:HNF4A",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 1,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:USP9Y",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:PRKY",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:NR1H4",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 9,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:NR1I3",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:NR1I2",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SRY",
+      "n_tissues": 1,
+      "tissues": [
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:GNRH1",
+      "n_tissues": 1,
+      "tissues": [
+        "Brain - Cortex"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLC22A7",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLC22A6",
+      "n_tissues": 1,
+      "tissues": [
+        "Kidney - Cortex"
+      ],
+      "n_drugs": 2,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLC22A2",
+      "n_tissues": 1,
+      "tissues": [
+        "Kidney - Cortex"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT1A3",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SULT1A2",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SULT1A1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT2B10",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT2B17",
+      "n_tissues": 3,
+      "tissues": [
+        "Kidney - Cortex",
+        "Liver",
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT2B15",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT2B4",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT2B7",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT1A9",
+      "n_tissues": 2,
+      "tissues": [
+        "Kidney - Cortex",
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT1A6",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT1A4",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:UGT1A1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SLC22A1",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2J2",
+      "n_tissues": 1,
+      "tissues": [
+        "Heart - Left Ventricle"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP1B1",
+      "n_tissues": 4,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue",
+        "Liver",
+        "Uterus"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP1A1",
+      "n_tissues": 2,
+      "tissues": [
+        "Liver",
+        "Lung"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2C8",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2C9",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2C19",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2A6",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2B6",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2D6",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP2E1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SULT1A3",
+      "n_tissues": 1,
+      "tissues": [
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SULT1E1",
+      "n_tissues": 2,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:SULT2A1",
+      "n_tissues": 2,
+      "tissues": [
+        "Adrenal Gland",
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:GSTA1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ABCG2",
+      "n_tissues": 2,
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ABCC3",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ABCC2",
+      "n_tissues": 2,
+      "tissues": [
+        "Kidney - Cortex",
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ABCC1",
+      "n_tissues": 2,
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Lung"
+      ],
+      "n_drugs": 1,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ABCB11",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ABCB4",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ABCB1",
+      "n_tissues": 4,
+      "tissues": [
+        "Brain - Cortex",
+        "Kidney - Cortex",
+        "Liver",
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_drugs": 5,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP3A5",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:KDM5D",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:ADH1B",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:DPYD",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 2,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:TPMT",
+      "n_tissues": 1,
+      "tissues": [
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:CYP3A7",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:NAT2",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:NAT1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:AOX1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:FMO5",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:FMO3",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:GSTP1",
+      "n_tissues": 1,
+      "tissues": [
+        "Lung"
+      ],
+      "n_drugs": 1,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:GSTM1",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:GSTA2",
+      "n_tissues": 1,
+      "tissues": [
+        "Liver"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    },
+    {
+      "gene": "GENE:DDX3Y",
+      "n_tissues": 10,
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Artery - Aorta",
+        "Brain - Cortex",
+        "Heart - Left Ventricle",
+        "Kidney - Cortex",
+        "Liver",
+        "Lung",
+        "Muscle - Skeletal",
+        "Thyroid",
+        "Whole Blood"
+      ],
+      "n_drugs": 0,
+      "total_signals": 0
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug": "DRUG:ADALIMUMAB",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "TNF"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 807
+    },
+    {
+      "drug": "DRUG:INFLIXIMAB",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "TNF"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 623
+    },
+    {
+      "drug": "DRUG:ETANERCEPT",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "TNF"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 618
+    },
+    {
+      "drug": "DRUG:GOLIMUMAB",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "TNF"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 334
+    },
+    {
+      "drug": "DRUG:SOMATROPIN",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "GHR"
+      ],
+      "tissues": [
+        "Liver",
+        "Muscle - Skeletal"
+      ],
+      "n_sex_diff_signals": 218
+    },
+    {
+      "drug": "DRUG:RITONAVIR",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "CYP3A4"
+      ],
+      "tissues": [
+        "Liver",
+        "Small Intestine - Terminal Ileum"
+      ],
+      "n_sex_diff_signals": 102
+    },
+    {
+      "drug": "DRUG:HYDROXYCHLOROQUINE SULFATE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "TLR7"
+      ],
+      "tissues": [
+        "Spleen",
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 99
+    },
+    {
+      "drug": "DRUG:FENOFIBRATE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PPARA"
+      ],
+      "tissues": [
+        "Heart - Left Ventricle",
+        "Liver"
+      ],
+      "n_sex_diff_signals": 57
+    },
+    {
+      "drug": "DRUG:MIFEPRISTONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PGR"
+      ],
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 47
+    },
+    {
+      "drug": "DRUG:ROSIGLITAZONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PPARG"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue"
+      ],
+      "n_sex_diff_signals": 47
+    },
+    {
+      "drug": "DRUG:TESTOSTERONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "AR"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_sex_diff_signals": 46
+    },
+    {
+      "drug": "DRUG:PEGVISOMANT",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "GHR"
+      ],
+      "tissues": [
+        "Liver",
+        "Muscle - Skeletal"
+      ],
+      "n_sex_diff_signals": 39
+    },
+    {
+      "drug": "DRUG:ENTACAPONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "COMT"
+      ],
+      "tissues": [
+        "Brain - Cortex",
+        "Liver"
+      ],
+      "n_sex_diff_signals": 21
+    },
+    {
+      "drug": "DRUG:ESTRADIOL",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "ESR2"
+      ],
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Prostate",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 18
+    },
+    {
+      "drug": "DRUG:LETROZOLE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "CYP19A1"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue",
+        "Ovary"
+      ],
+      "n_sex_diff_signals": 17
+    },
+    {
+      "drug": "DRUG:FINASTERIDE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "SRD5A2"
+      ],
+      "tissues": [
+        "Liver",
+        "Prostate"
+      ],
+      "n_sex_diff_signals": 15
+    },
+    {
+      "drug": "DRUG:ANASTROZOLE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "CYP19A1"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue",
+        "Ovary"
+      ],
+      "n_sex_diff_signals": 15
+    },
+    {
+      "drug": "DRUG:ENZALUTAMIDE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "AR"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_sex_diff_signals": 10
+    },
+    {
+      "drug": "DRUG:PROGESTERONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PGR"
+      ],
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 10
+    },
+    {
+      "drug": "DRUG:DISULFIRAM",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "ALDH2"
+      ],
+      "tissues": [
+        "Liver"
+      ],
+      "n_sex_diff_signals": 8
+    },
+    {
+      "drug": "DRUG:IMIQUIMOD",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "TLR7"
+      ],
+      "tissues": [
+        "Spleen",
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 7
+    },
+    {
+      "drug": "DRUG:MITOTANE",
+      "n_sexexpr_targets": 2,
+      "sexexpr_genes": [
+        "CYP11B1",
+        "CYP11A1"
+      ],
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_sex_diff_signals": 6
+    },
+    {
+      "drug": "DRUG:FULVESTRANT",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "ESR2"
+      ],
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Prostate",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 6
+    },
+    {
+      "drug": "DRUG:ETONOGESTREL",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PGR"
+      ],
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 5
+    },
+    {
+      "drug": "DRUG:GEMFIBROZIL",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PPARA"
+      ],
+      "tissues": [
+        "Heart - Left Ventricle",
+        "Liver"
+      ],
+      "n_sex_diff_signals": 4
+    },
+    {
+      "drug": "DRUG:OPICAPONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "COMT"
+      ],
+      "tissues": [
+        "Brain - Cortex",
+        "Liver"
+      ],
+      "n_sex_diff_signals": 4
+    },
+    {
+      "drug": "DRUG:EXEMESTANE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "CYP19A1"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue",
+        "Ovary"
+      ],
+      "n_sex_diff_signals": 4
+    },
+    {
+      "drug": "DRUG:ELACESTRANT",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "ESR2"
+      ],
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Prostate",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 3
+    },
+    {
+      "drug": "DRUG:DANAZOL",
+      "n_sexexpr_targets": 2,
+      "sexexpr_genes": [
+        "PGR",
+        "AR"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 2
+    },
+    {
+      "drug": "DRUG:SILTUXIMAB",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "IL6"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 2
+    },
+    {
+      "drug": "DRUG:EMAPALUMAB",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "IFNG"
+      ],
+      "tissues": [
+        "Whole Blood"
+      ],
+      "n_sex_diff_signals": 2
+    },
+    {
+      "drug": "DRUG:ABIRATERONE",
+      "n_sexexpr_targets": 2,
+      "sexexpr_genes": [
+        "AR",
+        "CYP17A1"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Adrenal Gland",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_sex_diff_signals": 2
+    },
+    {
+      "drug": "DRUG:METYRAPONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "CYP11B1"
+      ],
+      "tissues": [
+        "Adrenal Gland"
+      ],
+      "n_sex_diff_signals": 2
+    },
+    {
+      "drug": "DRUG:RELUGOLIX",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "GNRHR"
+      ],
+      "tissues": [
+        "Pituitary"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:CLASCOTERONE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "AR"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:LEVONORGESTREL",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PGR"
+      ],
+      "tissues": [
+        "Breast - Mammary Tissue",
+        "Uterus"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:TESTOSTERONE CYPIONATE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "AR"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:LEUPROLIDE ACETATE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "GNRHR"
+      ],
+      "tissues": [
+        "Pituitary"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:ROSIGLITAZONE MALEATE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PPARG"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:TAPINAROF",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "AHR"
+      ],
+      "tissues": [
+        "Liver",
+        "Lung"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:SOMATROGON",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "GHR"
+      ],
+      "tissues": [
+        "Liver",
+        "Muscle - Skeletal"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:MESALAMINE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "PPARG"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Breast - Mammary Tissue"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:BICALUTAMIDE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "AR"
+      ],
+      "tissues": [
+        "Adipose - Subcutaneous",
+        "Heart - Left Ventricle",
+        "Liver",
+        "Muscle - Skeletal",
+        "Prostate",
+        "Skin - Sun Exposed (Lower leg)"
+      ],
+      "n_sex_diff_signals": 1
+    },
+    {
+      "drug": "DRUG:FOMEPIZOLE",
+      "n_sexexpr_targets": 1,
+      "sexexpr_genes": [
+        "ADH1C"
+      ],
+      "tissues": [
+        "Liver"
+      ],
+      "n_sex_diff_signals": 1
+    }
+  ]
+}

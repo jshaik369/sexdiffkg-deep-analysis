@@ -1,0 +1,468 @@
+{
+  "analysis": "drug_class_sex_bias_clustering",
+  "wave": 6,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:27:41.900136",
+  "novelty": "Clusters drugs by shared molecular targets and pathways to reveal systematic sex-bias patterns within drug classes",
+  "summary": {
+    "drugs_with_targets_and_signals": 834,
+    "target_clusters": 130,
+    "pathway_clusters": 523,
+    "multi_target_drugs": 56,
+    "target_signal_correlation": -0.025
+  },
+  "top_target_clusters": [
+    {
+      "target": "GENE:Glucocorticoid receptor",
+      "n_drugs": 30,
+      "total_signals": 3786,
+      "mean_signals": 126.2,
+      "cv": 1.752
+    },
+    {
+      "target": "GENE:Tumor necrosis factor",
+      "n_drugs": 4,
+      "total_signals": 2382,
+      "mean_signals": 595.5,
+      "cv": 0.284
+    },
+    {
+      "target": "GENE:5-hydroxytryptamine receptor 2A",
+      "n_drugs": 23,
+      "total_signals": 2251,
+      "mean_signals": 97.9,
+      "cv": 1.443
+    },
+    {
+      "target": "GENE:Cyclooxygenase",
+      "n_drugs": 21,
+      "total_signals": 1867,
+      "mean_signals": 88.9,
+      "cv": 1.512
+    },
+    {
+      "target": "GENE:GABA-A receptor; anion channel",
+      "n_drugs": 31,
+      "total_signals": 1824,
+      "mean_signals": 58.8,
+      "cv": 1.522
+    },
+    {
+      "target": "GENE:D(2) dopamine receptor",
+      "n_drugs": 18,
+      "total_signals": 1610,
+      "mean_signals": 89.4,
+      "cv": 1.589
+    },
+    {
+      "target": "GENE:Mu-type opioid receptor",
+      "n_drugs": 14,
+      "total_signals": 1311,
+      "mean_signals": 93.6,
+      "cv": 1.529
+    },
+    {
+      "target": "GENE:Dihydrofolate reductase",
+      "n_drugs": 4,
+      "total_signals": 1215,
+      "mean_signals": 303.8,
+      "cv": 1.139
+    },
+    {
+      "target": "GENE:5-hydroxytryptamine receptor 2C",
+      "n_drugs": 12,
+      "total_signals": 1178,
+      "mean_signals": 98.2,
+      "cv": 1.631
+    },
+    {
+      "target": "GENE:Sodium channel alpha subunit",
+      "n_drugs": 16,
+      "total_signals": 1174,
+      "mean_signals": 73.4,
+      "cv": 1.238
+    },
+    {
+      "target": "GENE:B-lymphocyte antigen CD20",
+      "n_drugs": 8,
+      "total_signals": 1071,
+      "mean_signals": 133.9,
+      "cv": 1.783
+    },
+    {
+      "target": "GENE:Peptidyl-prolyl cis-trans isomerase FKBP1A",
+      "n_drugs": 5,
+      "total_signals": 929,
+      "mean_signals": 185.8,
+      "cv": 1.13
+    },
+    {
+      "target": "GENE:Tubulin",
+      "n_drugs": 11,
+      "total_signals": 892,
+      "mean_signals": 81.1,
+      "cv": 1.228
+    },
+    {
+      "target": "GENE:Inosine-5'-monophosphate dehydrogenase (IMPDH)",
+      "n_drugs": 3,
+      "total_signals": 785,
+      "mean_signals": 261.7,
+      "cv": 0.791
+    },
+    {
+      "target": "GENE:Voltage-gated calcium channel",
+      "n_drugs": 3,
+      "total_signals": 742,
+      "mean_signals": 247.3,
+      "cv": 0.709
+    },
+    {
+      "target": "GENE:Potassium-transporting ATPase",
+      "n_drugs": 7,
+      "total_signals": 720,
+      "mean_signals": 102.9,
+      "cv": 1.135
+    },
+    {
+      "target": "GENE:Type-1 angiotensin II receptor",
+      "n_drugs": 10,
+      "total_signals": 705,
+      "mean_signals": 70.5,
+      "cv": 1.074
+    },
+    {
+      "target": "GENE:D2-like dopamine receptor",
+      "n_drugs": 11,
+      "total_signals": 689,
+      "mean_signals": 62.6,
+      "cv": 1.549
+    },
+    {
+      "target": "GENE:Angiotensin-converting enzyme",
+      "n_drugs": 6,
+      "total_signals": 652,
+      "mean_signals": 108.7,
+      "cv": 1.347
+    },
+    {
+      "target": "GENE:Thymidylate synthase",
+      "n_drugs": 5,
+      "total_signals": 645,
+      "mean_signals": 129.0,
+      "cv": 0.881
+    },
+    {
+      "target": "GENE:Interleukin-17A",
+      "n_drugs": 3,
+      "total_signals": 560,
+      "mean_signals": 186.7,
+      "cv": 1.029
+    },
+    {
+      "target": "GENE:Programmed cell death protein 1",
+      "n_drugs": 7,
+      "total_signals": 558,
+      "mean_signals": 79.7,
+      "cv": 1.556
+    },
+    {
+      "target": "GENE:Glucagon-like peptide 1 receptor",
+      "n_drugs": 6,
+      "total_signals": 531,
+      "mean_signals": 88.5,
+      "cv": 0.46
+    },
+    {
+      "target": "GENE:Interferon alpha/beta receptor",
+      "n_drugs": 8,
+      "total_signals": 498,
+      "mean_signals": 62.2,
+      "cv": 0.887
+    },
+    {
+      "target": "GENE:Interleukin-23",
+      "n_drugs": 5,
+      "total_signals": 493,
+      "mean_signals": 98.6,
+      "cv": 1.202
+    },
+    {
+      "target": "GENE:CRL4(CRBN) E3 ubiquitin ligase",
+      "n_drugs": 3,
+      "total_signals": 482,
+      "mean_signals": 160.7,
+      "cv": 0.602
+    },
+    {
+      "target": "GENE:Vascular endothelial growth factor A, long form",
+      "n_drugs": 5,
+      "total_signals": 445,
+      "mean_signals": 89.0,
+      "cv": 1.173
+    },
+    {
+      "target": "GENE:Amidophosphoribosyltransferase",
+      "n_drugs": 3,
+      "total_signals": 434,
+      "mean_signals": 144.7,
+      "cv": 0.978
+    },
+    {
+      "target": "GENE:Histamine H2 receptor",
+      "n_drugs": 4,
+      "total_signals": 427,
+      "mean_signals": 106.8,
+      "cv": 1.19
+    },
+    {
+      "target": "GENE:Solute carrier family 12 member 1",
+      "n_drugs": 3,
+      "total_signals": 415,
+      "mean_signals": 138.3,
+      "cv": 1.263
+    }
+  ],
+  "top_pathway_clusters": [
+    {
+      "pathway": "PATHWAY:R-HSA-9679191",
+      "pathway_name": "Potential therapeutics for SARS",
+      "n_drugs": 111,
+      "total_signals": 10296,
+      "mean_signals": 92.8,
+      "cv": 1.696
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-6785807",
+      "pathway_name": "Interleukin-4 and Interleukin-13 signaling",
+      "n_drugs": 99,
+      "total_signals": 9735,
+      "mean_signals": 98.3,
+      "cv": 1.653
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-6783783",
+      "pathway_name": "Interleukin-10 signaling",
+      "n_drugs": 49,
+      "total_signals": 5768,
+      "mean_signals": 117.7,
+      "cv": 1.599
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-3371497",
+      "pathway_name": "HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",
+      "n_drugs": 56,
+      "total_signals": 5043,
+      "mean_signals": 90.1,
+      "cv": 1.939
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-416476",
+      "pathway_name": "G alpha (q) signalling events",
+      "n_drugs": 110,
+      "total_signals": 4800,
+      "mean_signals": 43.6,
+      "cv": 1.878
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-4090294",
+      "pathway_name": "SUMOylation of intracellular receptors",
+      "n_drugs": 69,
+      "total_signals": 4735,
+      "mean_signals": 68.6,
+      "cv": 2.297
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-383280",
+      "pathway_name": "Nuclear Receptor transcription pathway",
+      "n_drugs": 67,
+      "total_signals": 4725,
+      "mean_signals": 70.5,
+      "cv": 2.263
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-8939902",
+      "pathway_name": "Regulation of RUNX2 expression and activity",
+      "n_drugs": 39,
+      "total_signals": 4506,
+      "mean_signals": 115.5,
+      "cv": 1.724
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-418594",
+      "pathway_name": "G alpha (i) signalling events",
+      "n_drugs": 87,
+      "total_signals": 3813,
+      "mean_signals": 43.8,
+      "cv": 1.835
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-9615017",
+      "pathway_name": "FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes",
+      "n_drugs": 33,
+      "total_signals": 3801,
+      "mean_signals": 115.2,
+      "cv": 1.855
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-8849473",
+      "pathway_name": "PTK6 Expression",
+      "n_drugs": 32,
+      "total_signals": 3800,
+      "mean_signals": 118.8,
+      "cv": 1.819
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-9768777",
+      "pathway_name": "Regulation of NPAS4 gene transcription",
+      "n_drugs": 30,
+      "total_signals": 3786,
+      "mean_signals": 126.2,
+      "cv": 1.752
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-418555",
+      "pathway_name": "G alpha (s) signalling events",
+      "n_drugs": 74,
+      "total_signals": 2956,
+      "mean_signals": 39.9,
+      "cv": 1.389
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-6798695",
+      "pathway_name": "Neutrophil degranulation",
+      "n_drugs": 41,
+      "total_signals": 2930,
+      "mean_signals": 71.5,
+      "cv": 1.576
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-375276",
+      "pathway_name": "Peptide ligand-binding receptors",
+      "n_drugs": 45,
+      "total_signals": 2882,
+      "mean_signals": 64.0,
+      "cv": 1.527
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-5668541",
+      "pathway_name": "TNFR2 non-canonical NF-kB pathway",
+      "n_drugs": 8,
+      "total_signals": 2821,
+      "mean_signals": 352.6,
+      "cv": 0.783
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-381340",
+      "pathway_name": "Transcriptional regulation of white adipocyte differentiation",
+      "n_drugs": 18,
+      "total_signals": 2601,
+      "mean_signals": 144.5,
+      "cv": 1.761
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-390651",
+      "pathway_name": "Dopamine receptors",
+      "n_drugs": 32,
+      "total_signals": 2394,
+      "mean_signals": 74.8,
+      "cv": 1.637
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-390666",
+      "pathway_name": "Serotonin receptors",
+      "n_drugs": 31,
+      "total_signals": 2386,
+      "mean_signals": 77.0,
+      "cv": 1.653
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-9942503",
+      "pathway_name": "Differentiation of naive CD+ T cells to T helper 1 cells (Th1 cells)",
+      "n_drugs": 5,
+      "total_signals": 2384,
+      "mean_signals": 476.8,
+      "cv": 0.59
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-9018679",
+      "pathway_name": "Biosynthesis of EPA-derived SPMs",
+      "n_drugs": 28,
+      "total_signals": 2269,
+      "mean_signals": 81.0,
+      "cv": 1.556
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-2162123",
+      "pathway_name": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+      "n_drugs": 28,
+      "total_signals": 2269,
+      "mean_signals": 81.0,
+      "cv": 1.556
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-9018677",
+      "pathway_name": "Biosynthesis of DHA-derived SPMs",
+      "n_drugs": 28,
+      "total_signals": 2269,
+      "mean_signals": 81.0,
+      "cv": 1.556
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-9025094",
+      "pathway_name": "Biosynthesis of DPAn-3 SPMs",
+      "n_drugs": 28,
+      "total_signals": 2269,
+      "mean_signals": 81.0,
+      "cv": 1.556
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-2142770",
+      "pathway_name": "Synthesis of 15-eicosatetraenoic acid derivatives",
+      "n_drugs": 28,
+      "total_signals": 2269,
+      "mean_signals": 81.0,
+      "cv": 1.556
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-9027604",
+      "pathway_name": "Biosynthesis of electrophilic \u03c9-3 PUFA oxo-derivatives",
+      "n_drugs": 28,
+      "total_signals": 2269,
+      "mean_signals": 81.0,
+      "cv": 1.556
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-1236394",
+      "pathway_name": "Signaling by ERBB4",
+      "n_drugs": 44,
+      "total_signals": 2229,
+      "mean_signals": 50.7,
+      "cv": 1.576
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-5576892",
+      "pathway_name": "Phase 0 - rapid depolarisation",
+      "n_drugs": 31,
+      "total_signals": 2188,
+      "mean_signals": 70.6,
+      "cv": 1.518
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-69205",
+      "pathway_name": "G1/S-Specific Transcription",
+      "n_drugs": 16,
+      "total_signals": 2102,
+      "mean_signals": 131.4,
+      "cv": 1.68
+    },
+    {
+      "pathway": "PATHWAY:R-HSA-977443",
+      "pathway_name": "GABA receptor activation",
+      "n_drugs": 35,
+      "total_signals": 2069,
+      "mean_signals": 59.1,
+      "cv": 1.47
+    }
+  ]
+}

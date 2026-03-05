@@ -1,0 +1,259 @@
+{
+  "analysis": "polypharmacy_sex_bias_network",
+  "wave": 8,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:30:28.598128",
+  "novelty": "Maps polypharmacy risk through co-treatment drug pairs, identifying diseases where multiple sex-biased drugs converge on shared adverse events and targets",
+  "summary": {
+    "diseases_with_polypharmacy_risk": 1403,
+    "co_treatment_pairs": 661774,
+    "high_risk_pairs": 248313,
+    "pairs_sharing_targets": 10841
+  },
+  "top_risk_diseases": [
+    {
+      "disease": "DISEASE:Neoplasms",
+      "n_sex_biased_drugs": 369,
+      "total_signals": 29190,
+      "avg_shared_aes": 5.55,
+      "risk_score": 70504638.0
+    },
+    {
+      "disease": "DISEASE:Breast Neoplasms",
+      "n_sex_biased_drugs": 260,
+      "total_signals": 26326,
+      "avg_shared_aes": 8.17,
+      "risk_score": 62739229.0
+    },
+    {
+      "disease": "DISEASE:Severe Acute Respiratory Syndrome",
+      "n_sex_biased_drugs": 218,
+      "total_signals": 23202,
+      "avg_shared_aes": 9.53,
+      "risk_score": 53246986.0
+    },
+    {
+      "disease": "DISEASE:Arthritis, Rheumatoid",
+      "n_sex_biased_drugs": 109,
+      "total_signals": 18883,
+      "avg_shared_aes": 21.56,
+      "risk_score": 46429800.0
+    },
+    {
+      "disease": "DISEASE:Prostatic Neoplasms, Castration-Resistant",
+      "n_sex_biased_drugs": 171,
+      "total_signals": 19495,
+      "avg_shared_aes": 9.84,
+      "risk_score": 36142583.0
+    },
+    {
+      "disease": "DISEASE:Lymphoma",
+      "n_sex_biased_drugs": 165,
+      "total_signals": 18668,
+      "avg_shared_aes": 9.47,
+      "risk_score": 32235310.0
+    },
+    {
+      "disease": "DISEASE:Leukemia",
+      "n_sex_biased_drugs": 134,
+      "total_signals": 17700,
+      "avg_shared_aes": 12.48,
+      "risk_score": 31974185.0
+    },
+    {
+      "disease": "DISEASE:Multiple Myeloma",
+      "n_sex_biased_drugs": 142,
+      "total_signals": 17885,
+      "avg_shared_aes": 11.4,
+      "risk_score": 31479376.0
+    },
+    {
+      "disease": "DISEASE:Osteoarthritis",
+      "n_sex_biased_drugs": 72,
+      "total_signals": 13565,
+      "avg_shared_aes": 26.83,
+      "risk_score": 27184642.0
+    },
+    {
+      "disease": "DISEASE:Schizophrenia",
+      "n_sex_biased_drugs": 141,
+      "total_signals": 15440,
+      "avg_shared_aes": 11.37,
+      "risk_score": 26925595.0
+    },
+    {
+      "disease": "DISEASE:Pain",
+      "n_sex_biased_drugs": 173,
+      "total_signals": 15762,
+      "avg_shared_aes": 8.79,
+      "risk_score": 26706326.0
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Non-Small-Cell Lung",
+      "n_sex_biased_drugs": 174,
+      "total_signals": 16938,
+      "avg_shared_aes": 7.86,
+      "risk_score": 26108018.0
+    },
+    {
+      "disease": "DISEASE:Crohn Disease",
+      "n_sex_biased_drugs": 71,
+      "total_signals": 14075,
+      "avg_shared_aes": 24.79,
+      "risk_score": 25768510.0
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Non-Hodgkin",
+      "n_sex_biased_drugs": 100,
+      "total_signals": 15094,
+      "avg_shared_aes": 15.57,
+      "risk_score": 25012740.0
+    },
+    {
+      "disease": "DISEASE:Spondylitis, Ankylosing",
+      "n_sex_biased_drugs": 37,
+      "total_signals": 11172,
+      "avg_shared_aes": 58.56,
+      "risk_score": 24618743.0
+    },
+    {
+      "disease": "DISEASE:Colitis, Ulcerative",
+      "n_sex_biased_drugs": 58,
+      "total_signals": 12528,
+      "avg_shared_aes": 30.46,
+      "risk_score": 22859864.0
+    },
+    {
+      "disease": "DISEASE:Pancreatic Neoplasms",
+      "n_sex_biased_drugs": 130,
+      "total_signals": 15012,
+      "avg_shared_aes": 10.56,
+      "risk_score": 22567342.0
+    },
+    {
+      "disease": "DISEASE:Depressive Disorder",
+      "n_sex_biased_drugs": 156,
+      "total_signals": 14163,
+      "avg_shared_aes": 8.88,
+      "risk_score": 21826919.0
+    },
+    {
+      "disease": "DISEASE:Melanoma",
+      "n_sex_biased_drugs": 131,
+      "total_signals": 15230,
+      "avg_shared_aes": 9.91,
+      "risk_score": 21773277.0
+    },
+    {
+      "disease": "DISEASE:Graft vs Host Disease",
+      "n_sex_biased_drugs": 76,
+      "total_signals": 13657,
+      "avg_shared_aes": 19.72,
+      "risk_score": 21509593.0
+    },
+    {
+      "disease": "DISEASE:Leukemia, Myeloid, Acute",
+      "n_sex_biased_drugs": 121,
+      "total_signals": 14589,
+      "avg_shared_aes": 10.83,
+      "risk_score": 20878318.0
+    },
+    {
+      "disease": "DISEASE:Arthritis, Juvenile",
+      "n_sex_biased_drugs": 36,
+      "total_signals": 10325,
+      "avg_shared_aes": 53.49,
+      "risk_score": 20252340.0
+    },
+    {
+      "disease": "DISEASE:Lung Neoplasms",
+      "n_sex_biased_drugs": 129,
+      "total_signals": 14469,
+      "avg_shared_aes": 9.5,
+      "risk_score": 19605721.0
+    },
+    {
+      "disease": "DISEASE:Lymphoma, Large B-Cell, Diffuse",
+      "n_sex_biased_drugs": 105,
+      "total_signals": 13650,
+      "avg_shared_aes": 11.56,
+      "risk_score": 18006188.0
+    },
+    {
+      "disease": "DISEASE:Multiple Sclerosis",
+      "n_sex_biased_drugs": 100,
+      "total_signals": 13284,
+      "avg_shared_aes": 12.52,
+      "risk_score": 17957821.0
+    },
+    {
+      "disease": "DISEASE:Renal Insufficiency, Chronic",
+      "n_sex_biased_drugs": 89,
+      "total_signals": 12579,
+      "avg_shared_aes": 14.75,
+      "risk_score": 17628039.0
+    },
+    {
+      "disease": "DISEASE:Carcinoma, Hepatocellular",
+      "n_sex_biased_drugs": 105,
+      "total_signals": 13423,
+      "avg_shared_aes": 11.4,
+      "risk_score": 17471067.0
+    },
+    {
+      "disease": "DISEASE:Diabetes Mellitus, Type 1",
+      "n_sex_biased_drugs": 82,
+      "total_signals": 11695,
+      "avg_shared_aes": 16.65,
+      "risk_score": 16921943.0
+    },
+    {
+      "disease": "DISEASE:Heart Failure",
+      "n_sex_biased_drugs": 117,
+      "total_signals": 12376,
+      "avg_shared_aes": 10.59,
+      "risk_score": 16785270.0
+    },
+    {
+      "disease": "DISEASE:Asthma",
+      "n_sex_biased_drugs": 87,
+      "total_signals": 12647,
+      "avg_shared_aes": 13.91,
+      "risk_score": 16403453.0
+    }
+  ],
+  "top_drug_pairs": [
+    {
+      "drug1": "DRUG:METHOTREXATE",
+      "drug2": "DRUG:PREDNISONE",
+      "disease": "DISEASE:Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+      "combined_signals": 1818,
+      "shared_sex_diff_aes": 366,
+      "shared_targets": 0
+    },
+    {
+      "drug1": "DRUG:ADALIMUMAB",
+      "drug2": "DRUG:PREDNISONE",
+      "disease": "DISEASE:Osteoarthritis",
+      "combined_signals": 1733,
+      "shared_sex_diff_aes": 217,
+      "shared_targets": 0
+    },
+    {
+      "drug1": "DRUG:ADALIMUMAB",
+      "drug2": "DRUG:METHOTREXATE",
+      "disease": "DISEASE:Arthritis, Juvenile",
+      "combined_signals": 1699,
+      "shared_sex_diff_aes": 265,
+      "shared_targets": 0
+    },
+    {
+      "drug1": "DRUG:PREDNISONE",
+      "drug2": "DRUG:RITUXIMAB",
+      "disease": "DISEASE:Lymphoma, B-Cell",
+      "combined_signals": 1681,
+      "shared_sex_diff_aes": 401,
+      "shared_targets": 0
+    }
+  ]
+}
