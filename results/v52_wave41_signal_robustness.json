@@ -1,0 +1,62 @@
+{
+  "analysis": "signal_robustness",
+  "wave": 41,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:07:03.842288",
+  "novelty": "Multi-dimensional robustness analysis: threshold sensitivity, direction stability, split-half reliability",
+  "summary": {
+    "split_half_r": 0.8759,
+    "direction_stability": 100.0
+  },
+  "threshold_sensitivity": [
+    {
+      "min_reports": 5,
+      "n_signals": 96281,
+      "n_drugs": 2178,
+      "pct_female": 53.8,
+      "mean_abs_lr": 0.987
+    },
+    {
+      "min_reports": 10,
+      "n_signals": 96281,
+      "n_drugs": 2178,
+      "pct_female": 53.8,
+      "mean_abs_lr": 0.987
+    },
+    {
+      "min_reports": 20,
+      "n_signals": 49399,
+      "n_drugs": 1651,
+      "pct_female": 56.0,
+      "mean_abs_lr": 0.956
+    },
+    {
+      "min_reports": 50,
+      "n_signals": 18771,
+      "n_drugs": 1069,
+      "pct_female": 59.6,
+      "mean_abs_lr": 0.916
+    },
+    {
+      "min_reports": 100,
+      "n_signals": 8487,
+      "n_drugs": 729,
+      "pct_female": 62.2,
+      "mean_abs_lr": 0.882
+    },
+    {
+      "min_reports": 200,
+      "n_signals": 3475,
+      "n_drugs": 477,
+      "pct_female": 66.6,
+      "mean_abs_lr": 0.847
+    },
+    {
+      "min_reports": 500,
+      "n_signals": 916,
+      "n_drugs": 229,
+      "pct_female": 67.0,
+      "mean_abs_lr": 0.791
+    }
+  ]
+}

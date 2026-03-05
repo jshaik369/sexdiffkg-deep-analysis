@@ -1,0 +1,316 @@
+{
+  "analysis": "mechanism_of_action_sex_bias",
+  "wave": 42,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:07:26.744548",
+  "novelty": "Target-level sex-bias analysis: concordant vs discordant mechanisms",
+  "summary": {
+    "targets_analyzed": 142,
+    "concordant_targets": 36,
+    "discordant_targets": 34
+  },
+  "concordant_targets": [
+    {
+      "target": "Type-1 angiotensin II receptor",
+      "n_drugs": 9,
+      "mean_pctf": 49.6,
+      "std_pctf": 9.3,
+      "range_pctf": 33.3,
+      "mean_lr": -0.009,
+      "total_signals": 704,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "n_drugs": 7,
+      "mean_pctf": 37.7,
+      "std_pctf": 10.9,
+      "range_pctf": 34.5,
+      "mean_lr": -0.323,
+      "total_signals": 207,
+      "consensus": "male"
+    },
+    {
+      "target": "Epidermal growth factor receptor",
+      "n_drugs": 6,
+      "mean_pctf": 64.5,
+      "std_pctf": 8.6,
+      "range_pctf": 23.1,
+      "mean_lr": 0.224,
+      "total_signals": 214,
+      "consensus": "female"
+    },
+    {
+      "target": "Glucagon-like peptide 1 receptor",
+      "n_drugs": 6,
+      "mean_pctf": 23.6,
+      "std_pctf": 10.4,
+      "range_pctf": 30.7,
+      "mean_lr": -0.428,
+      "total_signals": 531,
+      "consensus": "male"
+    },
+    {
+      "target": "Beta-1 adrenergic receptor",
+      "n_drugs": 6,
+      "mean_pctf": 42.8,
+      "std_pctf": 12.7,
+      "range_pctf": 41.2,
+      "mean_lr": -0.159,
+      "total_signals": 243,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Vascular endothelial growth factor A, long form",
+      "n_drugs": 5,
+      "mean_pctf": 45.7,
+      "std_pctf": 6.0,
+      "range_pctf": 15.1,
+      "mean_lr": -0.072,
+      "total_signals": 445,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Potassium-transporting ATPase",
+      "n_drugs": 5,
+      "mean_pctf": 59.3,
+      "std_pctf": 14.6,
+      "range_pctf": 41.6,
+      "mean_lr": 0.082,
+      "total_signals": 714,
+      "consensus": "mixed"
+    },
+    {
+      "target": "ALK tyrosine kinase receptor",
+      "n_drugs": 4,
+      "mean_pctf": 58.7,
+      "std_pctf": 13.5,
+      "range_pctf": 35.1,
+      "mean_lr": 0.119,
+      "total_signals": 86,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Vascular endothelial growth factor receptor",
+      "n_drugs": 4,
+      "mean_pctf": 58.7,
+      "std_pctf": 13.4,
+      "range_pctf": 36.8,
+      "mean_lr": 0.185,
+      "total_signals": 161,
+      "consensus": "mixed"
+    },
+    {
+      "target": "DNA polymerase (alpha/delta/epsilon)",
+      "n_drugs": 4,
+      "mean_pctf": 78.3,
+      "std_pctf": 12.0,
+      "range_pctf": 30.6,
+      "mean_lr": 0.485,
+      "total_signals": 352,
+      "consensus": "female"
+    },
+    {
+      "target": "Receptor tyrosine-protein kinase erbB-2",
+      "n_drugs": 4,
+      "mean_pctf": 15.8,
+      "std_pctf": 12.5,
+      "range_pctf": 30.7,
+      "mean_lr": -1.28,
+      "total_signals": 191,
+      "consensus": "male"
+    },
+    {
+      "target": "Tumor necrosis factor",
+      "n_drugs": 4,
+      "mean_pctf": 46.7,
+      "std_pctf": 6.8,
+      "range_pctf": 17.5,
+      "mean_lr": 0.136,
+      "total_signals": 2382,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Sulfonylurea receptor 1, Kir6.2",
+      "n_drugs": 4,
+      "mean_pctf": 68.4,
+      "std_pctf": 13.2,
+      "range_pctf": 34.5,
+      "mean_lr": 0.367,
+      "total_signals": 168,
+      "consensus": "female"
+    },
+    {
+      "target": "Erythropoietin receptor",
+      "n_drugs": 3,
+      "mean_pctf": 49.1,
+      "std_pctf": 3.6,
+      "range_pctf": 7.7,
+      "mean_lr": -0.078,
+      "total_signals": 164,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Serine/threonine-protein kinase B-raf",
+      "n_drugs": 3,
+      "mean_pctf": 69.1,
+      "std_pctf": 5.8,
+      "range_pctf": 13.3,
+      "mean_lr": 0.32,
+      "total_signals": 159,
+      "consensus": "female"
+    }
+  ],
+  "discordant_targets": [
+    {
+      "target": "Glucocorticoid receptor",
+      "n_drugs": 14,
+      "mean_pctf": 52.1,
+      "std_pctf": 25.0,
+      "range_pctf": 91.2,
+      "mean_lr": 0.004,
+      "total_signals": 3728,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Phosphodiesterase 4",
+      "n_drugs": 5,
+      "mean_pctf": 44.4,
+      "std_pctf": 28.7,
+      "range_pctf": 82.4,
+      "mean_lr": 0.018,
+      "total_signals": 338,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Tubulin",
+      "n_drugs": 8,
+      "mean_pctf": 57.9,
+      "std_pctf": 30.8,
+      "range_pctf": 81.2,
+      "mean_lr": 0.027,
+      "total_signals": 880,
+      "consensus": "mixed"
+    },
+    {
+      "target": "D(2) dopamine receptor",
+      "n_drugs": 14,
+      "mean_pctf": 56.7,
+      "std_pctf": 26.2,
+      "range_pctf": 79.2,
+      "mean_lr": 0.166,
+      "total_signals": 1599,
+      "consensus": "mixed"
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "n_drugs": 13,
+      "mean_pctf": 60.4,
+      "std_pctf": 21.6,
+      "range_pctf": 79.2,
+      "mean_lr": 0.238,
+      "total_signals": 2225,
+      "consensus": "female"
+    },
+    {
+      "target": "Histamine H2 receptor",
+      "n_drugs": 3,
+      "mean_pctf": 71.6,
+      "std_pctf": 35.7,
+      "range_pctf": 78.8,
+      "mean_lr": 0.532,
+      "total_signals": 426,
+      "consensus": "female"
+    },
+    {
+      "target": "Sodium-dependent dopamine transporter",
+      "n_drugs": 5,
+      "mean_pctf": 46.1,
+      "std_pctf": 31.7,
+      "range_pctf": 76.2,
+      "mean_lr": -0.065,
+      "total_signals": 213,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Vitamin D3 receptor",
+      "n_drugs": 3,
+      "mean_pctf": 44.3,
+      "std_pctf": 31.5,
+      "range_pctf": 73.0,
+      "mean_lr": -0.413,
+      "total_signals": 85,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Sodium-dependent serotonin transporter",
+      "n_drugs": 8,
+      "mean_pctf": 35.6,
+      "std_pctf": 23.8,
+      "range_pctf": 72.5,
+      "mean_lr": -0.248,
+      "total_signals": 165,
+      "consensus": "male"
+    },
+    {
+      "target": "Mast/stem cell growth factor receptor Kit",
+      "n_drugs": 7,
+      "mean_pctf": 51.4,
+      "std_pctf": 23.4,
+      "range_pctf": 72.5,
+      "mean_lr": 0.012,
+      "total_signals": 320,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Sodium-dependent noradrenaline transporter",
+      "n_drugs": 6,
+      "mean_pctf": 49.2,
+      "std_pctf": 27.9,
+      "range_pctf": 72.5,
+      "mean_lr": -0.029,
+      "total_signals": 240,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Mu-type opioid receptor",
+      "n_drugs": 8,
+      "mean_pctf": 58.4,
+      "std_pctf": 20.4,
+      "range_pctf": 72.2,
+      "mean_lr": 0.253,
+      "total_signals": 1285,
+      "consensus": "mixed"
+    },
+    {
+      "target": "B-lymphocyte antigen CD20",
+      "n_drugs": 5,
+      "mean_pctf": 52.1,
+      "std_pctf": 27.0,
+      "range_pctf": 69.9,
+      "mean_lr": 0.114,
+      "total_signals": 1054,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Dihydrofolate reductase",
+      "n_drugs": 3,
+      "mean_pctf": 45.1,
+      "std_pctf": 28.5,
+      "range_pctf": 69.6,
+      "mean_lr": -0.046,
+      "total_signals": 1211,
+      "consensus": "mixed"
+    },
+    {
+      "target": "Mineralocorticoid receptor",
+      "n_drugs": 3,
+      "mean_pctf": 43.5,
+      "std_pctf": 27.1,
+      "range_pctf": 65.4,
+      "mean_lr": -0.208,
+      "total_signals": 278,
+      "consensus": "mixed"
+    }
+  ]
+}
