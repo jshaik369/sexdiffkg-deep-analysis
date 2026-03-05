@@ -65,7 +65,7 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 - **FAERS**: 14,536,008 deduplicated reports (Female: 8,744,397 / Male: 5,791,611)
 - **Temporal span**: 87 quarters (2004Q1–2025Q3)
 - **SexDiffKG v4**: 109,867 nodes / 1,822,851 edges / 6 node types / 6 edge types
-- **Signal detection**: 183,544 total signals, 49,026 strong (28,669 F / 20,357 M)
+- **Signal detection**: 254,114 total comparisons, 96,281 sex-differential (51,771 F / 44,510 M)
 - **Drug normalization**: DiAna dictionary (846,917 mappings, 53.9% resolution)
 - **Molecular sources**: STRING v12.0, ChEMBL 36, Reactome, GTEx v8
 
@@ -102,7 +102,7 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 |-------|-----|---------|------|--------|
 | ComplEx v4 | **0.2484** | 40.69% | 0.9902 | Complete (best) |
 | DistMult v4.1 | 0.1013 | 19.61% | 0.9909 | Complete |
-| RotatE v4.1 | — | — | — | Training |
+| RotatE v4.1 | **0.2018** | 36.77% | 0.9922 | Complete |
 
 ## Reproducibility
 
