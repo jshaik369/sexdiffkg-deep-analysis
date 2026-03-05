@@ -1,0 +1,40 @@
+{
+  "analysis": "validation_robustness_summary",
+  "wave": 99,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:05:46.326441",
+  "novelty": "Comprehensive validation evidence compilation from 99 waves",
+  "validation_evidence": {
+    "Internal Consistency": {
+      "Split-half reliability": "r=0.876 (extremely high)",
+      "Bootstrap rank stability": "200 iterations, 0%F/100%F drugs SD<1.0",
+      "Direction stability": "100% \u2014 zero signals flip at higher thresholds",
+      "Cross-validation holdout": "67.7% drug-level, 68.4% AE-level accuracy"
+    },
+    "Biological Plausibility": {
+      "Severity gradient": "rho=0.900 (5-tier), rho=1.000 (4-tier onset)",
+      "Organ system hierarchy": "rho=-1.000 (15 SOC classes)",
+      "CPI immune AEs": "All immune-mediated AEs 100%F, consistent with autoimmune F-bias",
+      "Opioid respiratory": "91.1%F respiratory AEs, consistent with known sex difference",
+      "Bone density": "100%F across 27 drugs (osteoporosis F-predominant)"
+    },
+    "Reproducibility": {
+      "Drug fingerprint clusters": "12 clusters map to known pharmacological classes",
+      "AE co-occurrence concordance": "62.7% mean (above random 50%)",
+      "Geographic consistency": "Direction preserved across countries (magnitude varies)",
+      "Within-class consistency": "Same targets yield same direction (different magnitude)"
+    },
+    "External Validation": {
+      "Literature benchmarks": "72.5% coverage, 82.8% directional precision (40 benchmarks)",
+      "Known sex differences confirmed": "Osteoporosis F>M, gout M>F, lupus F>M",
+      "Clinical trial gap": "452/466 biased drugs with zero sex-stratified trials"
+    },
+    "Robustness Checks": {
+      "Confidence tier stratification": "Pattern persists across all confidence levels",
+      "Multi-reporter agreement": "Consumer, MD, pharmacist all show female excess (56-67%F)",
+      "Temporal persistence": "Core patterns stable 2013-2025 despite declining trend",
+      "Effect size distribution": "66.5% medium, 27.8% large effects (not driven by outliers)"
+    }
+  },
+  "total_evidence_pieces": 20
+}

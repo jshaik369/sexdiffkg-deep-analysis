@@ -1,0 +1,217 @@
+{
+  "analysis": "signal_enrichment_analysis",
+  "wave": 98,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:05:45.992284",
+  "novelty": "Fisher's exact enrichment analysis for drug and AE sex-bias",
+  "summary": {
+    "drugs_tested": 818,
+    "drugs_significant": 258,
+    "aes_tested": 1082,
+    "aes_significant": 279
+  },
+  "top_female_drugs": [
+    {
+      "drug": "INOTERSEN",
+      "n_f": 20,
+      "n_m": 0,
+      "pct_f": 100.0,
+      "OR": Infinity,
+      "p": 4.2738220032207045e-06,
+      "p_adj": 0.0034959863986345364,
+      "significant": true
+    },
+    {
+      "drug": "METFORMIN;ROSIGLITAZONE",
+      "n_f": 20,
+      "n_m": 0,
+      "pct_f": 100.0,
+      "OR": Infinity,
+      "p": 4.2738220032207045e-06,
+      "p_adj": 0.0034959863986345364,
+      "significant": true
+    },
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "n_f": 50,
+      "n_m": 0,
+      "pct_f": 100.0,
+      "OR": Infinity,
+      "p": 6.315936304180413e-14,
+      "p_adj": 5.166435896819577e-11,
+      "significant": true
+    },
+    {
+      "drug": "FLUDARABINE PHOSPHATE",
+      "n_f": 36,
+      "n_m": 1,
+      "pct_f": 97.3,
+      "OR": 30.972,
+      "p": 3.874300458660885e-09,
+      "p_adj": 3.1691777751846037e-06,
+      "significant": true
+    },
+    {
+      "drug": "PRASUGREL",
+      "n_f": 48,
+      "n_m": 2,
+      "pct_f": 96.0,
+      "OR": 20.652,
+      "p": 3.959435171925409e-11,
+      "p_adj": 3.2388179706349847e-08,
+      "significant": true
+    },
+    {
+      "drug": "FLUINDIONE",
+      "n_f": 23,
+      "n_m": 1,
+      "pct_f": 95.8,
+      "OR": 19.783,
+      "p": 1.1011678493733768e-05,
+      "p_adj": 0.009007553007874222,
+      "significant": true
+    },
+    {
+      "drug": "TEMSIROLIMUS",
+      "n_f": 23,
+      "n_m": 1,
+      "pct_f": 95.8,
+      "OR": 19.783,
+      "p": 1.1011678493733768e-05,
+      "p_adj": 0.009007553007874222,
+      "significant": true
+    },
+    {
+      "drug": "BCG VACCINE",
+      "n_f": 21,
+      "n_m": 1,
+      "pct_f": 95.5,
+      "OR": 18.062,
+      "p": 3.7843698134034764e-05,
+      "p_adj": 0.03095614507364044,
+      "significant": true
+    },
+    {
+      "drug": "SILDENAFIL CITRATE",
+      "n_f": 40,
+      "n_m": 2,
+      "pct_f": 95.2,
+      "OR": 17.207,
+      "p": 5.1047380326484805e-09,
+      "p_adj": 4.175675710706457e-06,
+      "significant": true
+    },
+    {
+      "drug": "BELATACEPT",
+      "n_f": 19,
+      "n_m": 1,
+      "pct_f": 95.0,
+      "OR": 16.341,
+      "p": 0.00013000906822516848,
+      "p_adj": 0.10634741780818782,
+      "significant": false
+    }
+  ],
+  "top_male_drugs": [
+    {
+      "drug": "BRIMONIDINE;TIMOLOL",
+      "n_f": 0,
+      "n_m": 20,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 1.983092556197696e-07,
+      "p_adj": 0.00016221697109697152,
+      "significant": true
+    },
+    {
+      "drug": "BUPROPION;NALTREXONE",
+      "n_f": 0,
+      "n_m": 23,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 1.9577775504720963e-08,
+      "p_adj": 1.6014620362861748e-05,
+      "significant": true
+    },
+    {
+      "drug": "CENEGERMIN",
+      "n_f": 0,
+      "n_m": 20,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 1.983092556197696e-07,
+      "p_adj": 0.00016221697109697152,
+      "significant": true
+    },
+    {
+      "drug": "DIROXIMEL FUMARATE",
+      "n_f": 0,
+      "n_m": 25,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 4.181678747983778e-09,
+      "p_adj": 3.4206132158507303e-06,
+      "significant": true
+    },
+    {
+      "drug": "EPTINEZUMAB",
+      "n_f": 0,
+      "n_m": 27,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 8.931347435599827e-10,
+      "p_adj": 7.305842202320658e-07,
+      "significant": true
+    },
+    {
+      "drug": "MEBEVERINE",
+      "n_f": 0,
+      "n_m": 52,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 3.704446001629256e-18,
+      "p_adj": 3.0302368293327312e-15,
+      "significant": true
+    },
+    {
+      "drug": "MIFEPRISTONE",
+      "n_f": 0,
+      "n_m": 47,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 1.7596435282134082e-16,
+      "p_adj": 1.4393884060785678e-13,
+      "significant": true
+    },
+    {
+      "drug": "PEGINTERFERON BETA-1A",
+      "n_f": 0,
+      "n_m": 46,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 3.8084584143940607e-16,
+      "p_adj": 3.1153189829743417e-13,
+      "significant": true
+    },
+    {
+      "drug": "PEGVALIASE",
+      "n_f": 0,
+      "n_m": 37,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 3.9667376837834596e-13,
+      "p_adj": 3.24479142533487e-10,
+      "significant": true
+    },
+    {
+      "drug": "SAPROPTERIN",
+      "n_f": 0,
+      "n_m": 20,
+      "pct_f": 0.0,
+      "OR": 0.0,
+      "p": 1.983092556197696e-07,
+      "p_adj": 0.00016221697109697152,
+      "significant": true
+    }
+  ]
+}

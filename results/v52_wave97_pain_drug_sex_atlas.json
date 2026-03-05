@@ -1,0 +1,63 @@
+{
+  "analysis": "pain_drug_sex_atlas",
+  "wave": 97,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:05:37.107790",
+  "novelty": "9-class pain drug sex-bias atlas with pain AE analysis",
+  "class_results": [
+    {
+      "class": "Opioids",
+      "n_drugs": 10,
+      "mean_pctf": 71.0,
+      "std": 12.2
+    },
+    {
+      "class": "Acetaminophen",
+      "n_drugs": 2,
+      "mean_pctf": 61.0,
+      "std": 4.1
+    },
+    {
+      "class": "NSAIDs",
+      "n_drugs": 9,
+      "mean_pctf": 51.4,
+      "std": 17.8
+    },
+    {
+      "class": "Antidepressant_pain",
+      "n_drugs": 4,
+      "mean_pctf": 47.0,
+      "std": 4.8
+    },
+    {
+      "class": "Muscle_relaxants",
+      "n_drugs": 3,
+      "mean_pctf": 44.8,
+      "std": 23.2
+    },
+    {
+      "class": "Gabapentinoids",
+      "n_drugs": 2,
+      "mean_pctf": 44.4,
+      "std": 9.6
+    },
+    {
+      "class": "CGRP_mAbs",
+      "n_drugs": 4,
+      "mean_pctf": 23.4,
+      "std": 32.5
+    },
+    {
+      "class": "Local_anesthetics",
+      "n_drugs": 3,
+      "mean_pctf": 15.2,
+      "std": 5.3
+    },
+    {
+      "class": "Triptans",
+      "n_drugs": 5,
+      "mean_pctf": 9.7,
+      "std": 8.4
+    }
+  ]
+}

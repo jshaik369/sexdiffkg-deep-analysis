@@ -1,0 +1,114 @@
+{
+  "analysis": "oncology_drug_sex_atlas",
+  "wave": 96,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T20:05:36.078958",
+  "novelty": "15-class oncology drug sex-bias atlas",
+  "class_results": [
+    {
+      "class": "Alkylating",
+      "n_drugs": 5,
+      "mean_pctf": 77.1,
+      "std": 8.8,
+      "range": 21.1
+    },
+    {
+      "class": "CPI",
+      "n_drugs": 6,
+      "mean_pctf": 76.3,
+      "std": 6.2,
+      "range": 18.4
+    },
+    {
+      "class": "PI",
+      "n_drugs": 3,
+      "mean_pctf": 70.6,
+      "std": 3.5,
+      "range": 8.5
+    },
+    {
+      "class": "Platinum",
+      "n_drugs": 3,
+      "mean_pctf": 69.6,
+      "std": 5.2,
+      "range": 12.7
+    },
+    {
+      "class": "Anti-CD20",
+      "n_drugs": 2,
+      "mean_pctf": 69.1,
+      "std": 2.5,
+      "range": 5.0
+    },
+    {
+      "class": "Antimetabolites",
+      "n_drugs": 5,
+      "mean_pctf": 64.3,
+      "std": 11.5,
+      "range": 29.7
+    },
+    {
+      "class": "IMiDs",
+      "n_drugs": 3,
+      "mean_pctf": 63.6,
+      "std": 7.6,
+      "range": 17.2
+    },
+    {
+      "class": "TKI",
+      "n_drugs": 21,
+      "mean_pctf": 63.1,
+      "std": 14.3,
+      "range": 58.5
+    },
+    {
+      "class": "Anti-VEGF",
+      "n_drugs": 3,
+      "mean_pctf": 58.6,
+      "std": 16.3,
+      "range": 39.6
+    },
+    {
+      "class": "PARPi",
+      "n_drugs": 4,
+      "mean_pctf": 56.6,
+      "std": 13.2,
+      "range": 33.0
+    },
+    {
+      "class": "ADC",
+      "n_drugs": 5,
+      "mean_pctf": 56.1,
+      "std": 24.6,
+      "range": 55.5
+    },
+    {
+      "class": "Taxanes",
+      "n_drugs": 2,
+      "mean_pctf": 36.9,
+      "std": 25.7,
+      "range": 51.4
+    },
+    {
+      "class": "CDK4_6i",
+      "n_drugs": 3,
+      "mean_pctf": 31.9,
+      "std": 16.9,
+      "range": 39.0
+    },
+    {
+      "class": "Hormonal",
+      "n_drugs": 5,
+      "mean_pctf": 27.2,
+      "std": 14.2,
+      "range": 41.7
+    },
+    {
+      "class": "Anti-HER2",
+      "n_drugs": 3,
+      "mean_pctf": 12.7,
+      "std": 13.1,
+      "range": 30.7
+    }
+  ]
+}
