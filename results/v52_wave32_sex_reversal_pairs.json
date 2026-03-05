@@ -1,0 +1,316 @@
+{
+  "analysis": "sex_reversal_drug_pairs",
+  "wave": 32,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:07:24.692169",
+  "novelty": "Sex-reversal pairs: same AE flips direction between drugs. Intra-drug reversals: same drug, different AE directions",
+  "summary": {
+    "reversible_aes": 2564,
+    "pct_reversible": 50.6,
+    "drugs_with_both_directions": 732
+  },
+  "top_reversals": [
+    {
+      "adverse_event": "Adverse drug reaction",
+      "n_drugs_total": 206,
+      "female_drug": "TOCILIZUMAB",
+      "female_lr": 3.1978611034331506,
+      "male_drug": "MINOXIDIL",
+      "male_lr": -6.447868373787949,
+      "spread_lr": 9.6457294772211
+    },
+    {
+      "adverse_event": "Off label use",
+      "n_drugs_total": 445,
+      "female_drug": "RADIUM-223 DICHLORIDE",
+      "female_lr": 3.555798211313693,
+      "male_drug": "FEZOLINETANT",
+      "male_lr": -5.7443138761509145,
+      "spread_lr": 9.300112087464608
+    },
+    {
+      "adverse_event": "Foetal exposure during pregnancy",
+      "n_drugs_total": 203,
+      "female_drug": "ETRAVIRINE",
+      "female_lr": 2.2135034975652434,
+      "male_drug": "ETONOGESTREL",
+      "male_lr": -6.568155804227702,
+      "spread_lr": 8.781659301792946
+    },
+    {
+      "adverse_event": "Joint swelling",
+      "n_drugs_total": 169,
+      "female_drug": "CETIRIZINE",
+      "female_lr": 4.214645385851089,
+      "male_drug": "HYDROXYQUINOLINE",
+      "male_lr": -4.42215725988588,
+      "spread_lr": 8.636802645736969
+    },
+    {
+      "adverse_event": "Product use issue",
+      "n_drugs_total": 256,
+      "female_drug": "ENZALUTAMIDE",
+      "female_lr": 3.916376737440114,
+      "male_drug": "FLIBANSERIN",
+      "male_lr": -4.630571742706665,
+      "spread_lr": 8.546948480146778
+    },
+    {
+      "adverse_event": "Premature baby",
+      "n_drugs_total": 149,
+      "female_drug": "CEFOTAXIME",
+      "female_lr": 2.089423343714065,
+      "male_drug": "ETONOGESTREL",
+      "male_lr": -6.421162224144812,
+      "spread_lr": 8.510585567858877
+    },
+    {
+      "adverse_event": "Blood cholesterol increased",
+      "n_drugs_total": 122,
+      "female_drug": "OXYCODONE",
+      "female_lr": 3.9497433083175553,
+      "male_drug": "IRON",
+      "male_lr": -3.937068521698315,
+      "spread_lr": 7.88681183001587
+    },
+    {
+      "adverse_event": "Drug intolerance",
+      "n_drugs_total": 279,
+      "female_drug": "OXYCODONE;PARACETAMOL",
+      "female_lr": 3.472350203384051,
+      "male_drug": "MEDROXYPROGESTERONE",
+      "male_lr": -4.199706797826167,
+      "spread_lr": 7.672057001210218
+    },
+    {
+      "adverse_event": "Hyperhidrosis",
+      "n_drugs_total": 170,
+      "female_drug": "ABACAVIR;LAMIVUDINE",
+      "female_lr": 2.9667635513256227,
+      "male_drug": "RIZATRIPTAN",
+      "male_lr": -4.674945851296158,
+      "spread_lr": 7.641709402621781
+    },
+    {
+      "adverse_event": "Drug ineffective",
+      "n_drugs_total": 501,
+      "female_drug": "XANTOFYL",
+      "female_lr": 4.489151578939397,
+      "male_drug": "TRIFLUOPERAZINE",
+      "male_lr": -3.1268871964377944,
+      "spread_lr": 7.616038775377191
+    },
+    {
+      "adverse_event": "Wheezing",
+      "n_drugs_total": 181,
+      "female_drug": "OXYCODONE",
+      "female_lr": 4.462003340046337,
+      "male_drug": "DOXAZOSIN",
+      "male_lr": -3.1146660832447566,
+      "spread_lr": 7.576669423291094
+    },
+    {
+      "adverse_event": "General physical health deterioration",
+      "n_drugs_total": 239,
+      "female_drug": "CETIRIZINE",
+      "female_lr": 4.242432529375961,
+      "male_drug": "SODIUM PICOSULFATE",
+      "male_lr": -3.228100481747736,
+      "spread_lr": 7.470533011123697
+    },
+    {
+      "adverse_event": "Product use in unapproved indication",
+      "n_drugs_total": 304,
+      "female_drug": "ATOMOXETINE",
+      "female_lr": 3.657195817720863,
+      "male_drug": "ALMOTRIPTAN",
+      "male_lr": -3.8115667763044705,
+      "spread_lr": 7.468762594025334
+    },
+    {
+      "adverse_event": "Pain",
+      "n_drugs_total": 327,
+      "female_drug": "PSEUDOEPHEDRINE",
+      "female_lr": 4.014515419151405,
+      "male_drug": "HYDROXYQUINOLINE",
+      "male_lr": -3.4111082546666154,
+      "spread_lr": 7.425623673818021
+    },
+    {
+      "adverse_event": "Stress",
+      "n_drugs_total": 156,
+      "female_drug": "RITUXIMAB",
+      "female_lr": 1.8241428275313198,
+      "male_drug": "DESOXIMETASONE",
+      "male_lr": -5.456000927876889,
+      "spread_lr": 7.280143755408209
+    },
+    {
+      "adverse_event": "Swelling",
+      "n_drugs_total": 209,
+      "female_drug": "OXYCODONE",
+      "female_lr": 3.8236647139964584,
+      "male_drug": "GLUCOSE",
+      "male_lr": -3.44857302813986,
+      "spread_lr": 7.272237742136318
+    },
+    {
+      "adverse_event": "Arthropathy",
+      "n_drugs_total": 132,
+      "female_drug": "CETIRIZINE",
+      "female_lr": 4.410212081234197,
+      "male_drug": "CANAKINUMAB",
+      "male_lr": -2.773757539408186,
+      "spread_lr": 7.183969620642383
+    },
+    {
+      "adverse_event": "Dry mouth",
+      "n_drugs_total": 180,
+      "female_drug": "USTEKINUMAB",
+      "female_lr": 3.516610344547522,
+      "male_drug": "BISACODYL",
+      "male_lr": -3.6395370253976176,
+      "spread_lr": 7.15614736994514
+    },
+    {
+      "adverse_event": "Anxiety",
+      "n_drugs_total": 260,
+      "female_drug": "DOCETAXEL",
+      "female_lr": 3.7018637276759296,
+      "male_drug": "CLOTRIMAZOLE",
+      "male_lr": -3.411874166852671,
+      "spread_lr": 7.113737894528601
+    },
+    {
+      "adverse_event": "Abdominal discomfort",
+      "n_drugs_total": 229,
+      "female_drug": "FOLIC ACID",
+      "female_lr": 3.8074372806798493,
+      "male_drug": "ROFECOXIB",
+      "male_lr": -3.282032472220404,
+      "spread_lr": 7.0894697529002535
+    }
+  ],
+  "top_intra_drug": [
+    {
+      "drug": "TESTOSTERONE",
+      "n_total": 46,
+      "pct_female": 73.91304347826086,
+      "intra_drug_spread": 11.276004219135789
+    },
+    {
+      "drug": "MINOXIDIL",
+      "n_total": 125,
+      "pct_female": 44.0,
+      "intra_drug_spread": 10.908194461295793
+    },
+    {
+      "drug": "VITAMIN B9",
+      "n_total": 250,
+      "pct_female": 46.800000000000004,
+      "intra_drug_spread": 9.99318878274632
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_total": 618,
+      "pct_female": 42.55663430420712,
+      "intra_drug_spread": 8.962231684424616
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_total": 492,
+      "pct_female": 84.95934959349594,
+      "intra_drug_spread": 8.818819074740176
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_total": 376,
+      "pct_female": 51.86170212765957,
+      "intra_drug_spread": 8.796010568759478
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "n_total": 318,
+      "pct_female": 46.540880503144656,
+      "intra_drug_spread": 8.750432346734577
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_total": 370,
+      "pct_female": 41.891891891891895,
+      "intra_drug_spread": 8.615567251865127
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "n_total": 217,
+      "pct_female": 61.75115207373272,
+      "intra_drug_spread": 8.613434881585043
+    },
+    {
+      "drug": "DOCETAXEL",
+      "n_total": 304,
+      "pct_female": 11.18421052631579,
+      "intra_drug_spread": 8.487366463255784
+    },
+    {
+      "drug": "CLOZAPINE",
+      "n_total": 287,
+      "pct_female": 68.6411149825784,
+      "intra_drug_spread": 8.42068408238035
+    },
+    {
+      "drug": "VITAMIN B12",
+      "n_total": 74,
+      "pct_female": 72.97297297297297,
+      "intra_drug_spread": 8.402569256827192
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "n_total": 79,
+      "pct_female": 43.037974683544306,
+      "intra_drug_spread": 8.326448618217372
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_total": 344,
+      "pct_female": 45.05813953488372,
+      "intra_drug_spread": 8.105193194929749
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "n_total": 241,
+      "pct_female": 44.398340248962654,
+      "intra_drug_spread": 8.006599643263584
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_total": 334,
+      "pct_female": 55.688622754491014,
+      "intra_drug_spread": 7.96423803008325
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_total": 892,
+      "pct_female": 48.54260089686099,
+      "intra_drug_spread": 7.907862848449496
+    },
+    {
+      "drug": "CORTISONE",
+      "n_total": 188,
+      "pct_female": 45.744680851063826,
+      "intra_drug_spread": 7.895571349503466
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_total": 518,
+      "pct_female": 92.85714285714286,
+      "intra_drug_spread": 7.870501766222145
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_total": 807,
+      "pct_female": 38.166047087980175,
+      "intra_drug_spread": 7.854158508252624
+    }
+  ]
+}
