@@ -26,6 +26,7 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 - All v4 unique triples preserved (1,532,674, 100%)
 - 1,650,169 new edges from VEDA (disease, clinical trial, Ayurvedic, compound data)
 - ComplEx v5: COMPLETE — MRR 0.025, Hits@10 5.8%, AMRI 0.929 (50K subset eval)
+- DistMult v5: COMPLETE — MRR 0.041, Hits@10 7.8%, AMRI 0.988 (50K subset eval)
 
 ## Audit-Proof Verification
 
@@ -102,6 +103,7 @@ v5 absorbs VEDA-KG (Ayurvedic medicinal data) into SexDiffKG:
 |-------|-----|---------|------|--------|
 | ComplEx v4 | **0.2484** | 40.69% | 0.9902 | Complete (best) |
 | DistMult v4.1 | 0.1013 | 19.61% | 0.9909 | Complete |
+| DistMult v5 | 0.0413 | 7.78% | 0.9884 | Complete (50K subset eval) |
 | RotatE v4.1 | **0.2018** | 36.77% | 0.9922 | Complete |
 
 ## Reproducibility

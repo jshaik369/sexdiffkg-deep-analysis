@@ -77,8 +77,20 @@
         "eval_note": "50K subset"
       },
       "DistMult_v5": {
-        "mrr": null,
-        "note": "evaluation in progress (50K subset)"
+        "mrr": 0.0413,
+        "hits_at_1": 0.01846,
+        "hits_at_3": 0.03881,
+        "hits_at_5": 0.05333,
+        "hits_at_10": 0.07779,
+        "amri": 0.9884,
+        "embedding_dim": 200,
+        "epochs": 100,
+        "device": "cpu",
+        "training_time_min": 101,
+        "eval_time_min": 48.8,
+        "eval_note": "50K subset evaluation",
+        "v4_baseline_mrr": 0.1013,
+        "pct_change_mrr": -59.2
       }
     },
     "note": "v5 is experimental merged KG (SexDiffKG + VEDA-KG). Lower metrics expected due to 2x entities, 3x relations."
@@ -144,6 +156,7 @@
     "v5 merged KG (2x entities, 3x relations) drops ComplEx MRR by 90% with same hyperparams",
     "All models well above random (AMRI > 0.92 across all KGs)",
     "RotatE has highest AMRI (0.9922) suggesting best overall ranking quality",
-    "Top 3 derived KGs outperform parent DistMult v4.1 (MRR 0.1013)"
+    "Top 3 derived KGs outperform parent DistMult v4.1 (MRR 0.1013)",
+    "DistMult v5 MRR 0.0413 (-59% vs v4) \u2014 less severe drop than ComplEx (-90%), likely because DistMult is simpler and more robust to entity expansion"
   ]
 }
