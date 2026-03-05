@@ -1,0 +1,176 @@
+{
+  "analysis": "trial_phase_sex_bias",
+  "wave": 108,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:56:35.486545",
+  "novelty": "Trial volume vs drug sex-bias \u2014 identifying under-studied biased drugs",
+  "summary": {
+    "drugs_analyzed": 43,
+    "undertrialed_biased": 16
+  },
+  "top_trialed": [
+    {
+      "drug": "PEMBROLIZUMAB",
+      "n_trials": 94,
+      "pctf": 73.1,
+      "n_signals": 309,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "BEVACIZUMAB",
+      "n_trials": 78,
+      "pctf": 55.4,
+      "n_signals": 294,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "INSULIN",
+      "n_trials": 24,
+      "pctf": 39.5,
+      "n_signals": 339,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "IPILIMUMAB",
+      "n_trials": 19,
+      "pctf": 75.8,
+      "n_signals": 161,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "VITAMIN D3",
+      "n_trials": 16,
+      "pctf": 45.9,
+      "n_signals": 242,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "TRASTUZUMAB EMTANSINE",
+      "n_trials": 10,
+      "pctf": 0.0,
+      "n_signals": 17,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_trials": 9,
+      "pctf": 73.0,
+      "n_signals": 433,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "LEUPRORELIN",
+      "n_trials": 8,
+      "pctf": 69.7,
+      "n_signals": 294,
+      "quintile": "Q3"
+    },
+    {
+      "drug": "TREMELIMUMAB",
+      "n_trials": 7,
+      "pctf": 85.7,
+      "n_signals": 21,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "TRASTUZUMAB DERUXTECAN",
+      "n_trials": 7,
+      "pctf": 25.0,
+      "n_signals": 20,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "ENOXAPARIN",
+      "n_trials": 6,
+      "pctf": 52.4,
+      "n_signals": 105,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "VITAMIN B12",
+      "n_trials": 4,
+      "pctf": 73.0,
+      "n_signals": 74,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_trials": 3,
+      "pctf": 56.9,
+      "n_signals": 487,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "VITAMIN C",
+      "n_trials": 3,
+      "pctf": 63.6,
+      "n_signals": 77,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "INFLUENZA VACCINE",
+      "n_trials": 3,
+      "pctf": 40.0,
+      "n_signals": 60,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "DALTEPARIN",
+      "n_trials": 3,
+      "pctf": 25.9,
+      "n_signals": 58,
+      "quintile": "Q2"
+    },
+    {
+      "drug": "DARATUMUMAB",
+      "n_trials": 2,
+      "pctf": 76.9,
+      "n_signals": 108,
+      "quintile": "Q1"
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_trials": 2,
+      "pctf": 66.6,
+      "n_signals": 755,
+      "quintile": "Q1"
+    },
+    {
+      "drug": "DACTINOMYCIN",
+      "n_trials": 2,
+      "pctf": 40.9,
+      "n_signals": 22,
+      "quintile": "Q1"
+    },
+    {
+      "drug": "RAMUCIRUMAB",
+      "n_trials": 2,
+      "pctf": 80.0,
+      "n_signals": 40,
+      "quintile": "Q1"
+    }
+  ],
+  "quintile_analysis": [
+    {
+      "quintile": "Q1",
+      "mean_pctf": 50.63703703703704,
+      "std_pctf": 23.60016538645029,
+      "n_drugs": 27,
+      "mean_trials": 1.2962962962962963
+    },
+    {
+      "quintile": "Q2",
+      "mean_pctf": 52.8125,
+      "std_pctf": 21.66085590579072,
+      "n_drugs": 8,
+      "mean_trials": 4.5
+    },
+    {
+      "quintile": "Q3",
+      "mean_pctf": 54.05,
+      "std_pctf": 25.749729540882004,
+      "n_drugs": 8,
+      "mean_trials": 32.25
+    }
+  ]
+}

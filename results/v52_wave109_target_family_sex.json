@@ -1,0 +1,178 @@
+{
+  "analysis": "target_family_sex_bias_atlas",
+  "wave": 109,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:56:43.568126",
+  "novelty": "Drug target protein family sex-bias atlas",
+  "summary": {
+    "families_analyzed": 8,
+    "targets_classified": 696
+  },
+  "families": [
+    {
+      "family": "GPCR",
+      "n_targets": 349,
+      "n_drugs": 224,
+      "mean_pctf": 47.0,
+      "std_pctf": 23.4,
+      "min_pctf": 0.0,
+      "max_pctf": 100.0,
+      "range_pctf": 100.0,
+      "direction": "mixed",
+      "drugs": [
+        "RANITIDINE HYDROCHLORIDE",
+        "DEFIBROTIDE",
+        "ROSIGLITAZONE",
+        "RANITIDINE",
+        "RISPERIDONE",
+        "TIAPRIDE",
+        "ZIPRASIDONE HYDROCHLORIDE",
+        "METHYLPREDNISOLONE SODIUM SUCCINATE"
+      ]
+    },
+    {
+      "family": "Enzyme",
+      "n_targets": 89,
+      "n_drugs": 60,
+      "mean_pctf": 59.0,
+      "std_pctf": 22.3,
+      "min_pctf": 0.0,
+      "max_pctf": 97.3,
+      "range_pctf": 97.3,
+      "direction": "mixed",
+      "drugs": [
+        "FLUDARABINE PHOSPHATE",
+        "SILDENAFIL CITRATE",
+        "CARMUSTINE",
+        "CILOSTAZOL",
+        "FEBUXOSTAT",
+        "ASPIRIN",
+        "ROFLUMILAST",
+        "MYCOPHENOLATE MOFETIL"
+      ]
+    },
+    {
+      "family": "Kinase",
+      "n_targets": 130,
+      "n_drugs": 34,
+      "mean_pctf": 50.1,
+      "std_pctf": 23.9,
+      "min_pctf": 0.0,
+      "max_pctf": 87.1,
+      "range_pctf": 87.1,
+      "direction": "mixed",
+      "drugs": [
+        "ACALABRUTINIB",
+        "GILTERITINIB",
+        "IMATINIB MESYLATE",
+        "IDELALISIB",
+        "REGORAFENIB",
+        "ENCORAFENIB",
+        "BRIGATINIB",
+        "CERITINIB"
+      ]
+    },
+    {
+      "family": "Ion Channel",
+      "n_targets": 43,
+      "n_drugs": 29,
+      "mean_pctf": 45.1,
+      "std_pctf": 18.1,
+      "min_pctf": 7.6,
+      "max_pctf": 87.5,
+      "range_pctf": 79.9,
+      "direction": "mixed",
+      "drugs": [
+        "PANTOPRAZOLE SODIUM",
+        "RANOLAZINE",
+        "ZONISAMIDE",
+        "PHENYTOIN",
+        "LANSOPRAZOLE",
+        "DOFETILIDE",
+        "DIGITOXIN",
+        "OMEPRAZOLE"
+      ]
+    },
+    {
+      "family": "Transporter",
+      "n_targets": 16,
+      "n_drugs": 19,
+      "mean_pctf": 37.7,
+      "std_pctf": 23.2,
+      "min_pctf": 7.1,
+      "max_pctf": 83.3,
+      "range_pctf": 76.2,
+      "direction": "male",
+      "drugs": [
+        "MIDOMAFETAMINE",
+        "METHYLPHENIDATE",
+        "CANAGLIFLOZIN",
+        "EMPAGLIFLOZIN",
+        "DAPAGLIFLOZIN",
+        "VENLAFAXINE HYDROCHLORIDE",
+        "BUPROPION HYDROCHLORIDE",
+        "FLUOXETINE HYDROCHLORIDE"
+      ]
+    },
+    {
+      "family": "Immune Target",
+      "n_targets": 31,
+      "n_drugs": 19,
+      "mean_pctf": 45.5,
+      "std_pctf": 26.2,
+      "min_pctf": 4.5,
+      "max_pctf": 93.5,
+      "range_pctf": 89.0,
+      "direction": "mixed",
+      "drugs": [
+        "AXICABTAGENE CILOLEUCEL",
+        "TISAGENLECLEUCEL",
+        "EPCORITAMAB",
+        "OBINUTUZUMAB",
+        "RITUXIMAB",
+        "USTEKINUMAB",
+        "BLINATUMOMAB",
+        "SECUKINUMAB"
+      ]
+    },
+    {
+      "family": "Protease",
+      "n_targets": 14,
+      "n_drugs": 9,
+      "mean_pctf": 68.3,
+      "std_pctf": 11.4,
+      "min_pctf": 54.5,
+      "max_pctf": 93.8,
+      "range_pctf": 39.2,
+      "direction": "female",
+      "drugs": [
+        "DEFIBROTIDE",
+        "DABIGATRAN",
+        "CARFILZOMIB",
+        "RIVAROXABAN",
+        "IXAZOMIB",
+        "HEPARIN",
+        "HEPARIN SODIUM",
+        "APIXABAN"
+      ]
+    },
+    {
+      "family": "Growth Factor",
+      "n_targets": 21,
+      "n_drugs": 5,
+      "mean_pctf": 45.7,
+      "std_pctf": 6.0,
+      "min_pctf": 40.4,
+      "max_pctf": 55.4,
+      "range_pctf": 15.1,
+      "direction": "mixed",
+      "drugs": [
+        "BEVACIZUMAB",
+        "FARICIMAB",
+        "RANIBIZUMAB",
+        "BROLUCIZUMAB",
+        "AFLIBERCEPT"
+      ]
+    }
+  ]
+}

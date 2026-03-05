@@ -1,0 +1,314 @@
+{
+  "analysis": "drug_indication_sex_mismatch",
+  "wave": 106,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:56:00.029034",
+  "novelty": "Drugs treating sex-prevalent conditions with opposite-sex AE profiles",
+  "summary": {
+    "total_mismatches": 286,
+    "discordant": 242,
+    "concordant": 44
+  },
+  "mismatches": [
+    {
+      "drug": "ALFUZOSIN",
+      "pctf": 100.0,
+      "n_signals": 10,
+      "indication_sex": "male-prevalent",
+      "ae_bias": "female-biased",
+      "condition": "Prostate cancer (100% M)",
+      "mismatch_severity": 50.0,
+      "type": "M-condition, F-safety"
+    },
+    {
+      "drug": "EPTINEZUMAB",
+      "pctf": 0.0,
+      "n_signals": 27,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Migraine (3:1 F:M)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "ESTRADIOL",
+      "pctf": 0.0,
+      "n_signals": 18,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "KETOTIFEN",
+      "pctf": 0.0,
+      "n_signals": 10,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Fibromyalgia (7:1 F:M)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "MIFEPRISTONE",
+      "pctf": 0.0,
+      "n_signals": 47,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "TEPROTUMUMAB",
+      "pctf": 0.0,
+      "n_signals": 33,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "PEGINTERFERON BETA-1A",
+      "pctf": 0.0,
+      "n_signals": 46,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "RIMEGEPANT",
+      "pctf": 0.0,
+      "n_signals": 12,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Migraine (3:1 F:M)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "DIROXIMEL FUMARATE",
+      "pctf": 0.0,
+      "n_signals": 25,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "TRASTUZUMAB EMTANSINE",
+      "pctf": 0.0,
+      "n_signals": 17,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 50.0,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "CARIPRAZINE",
+      "pctf": 2.6,
+      "n_signals": 39,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Anxiety (2:1 F:M)",
+      "mismatch_severity": 47.4,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "SIPONIMOD",
+      "pctf": 4.2,
+      "n_signals": 48,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 45.8,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "TEMSIROLIMUS",
+      "pctf": 95.8,
+      "n_signals": 24,
+      "indication_sex": "male-prevalent",
+      "ae_bias": "female-biased",
+      "condition": "Prostate cancer (100% M)",
+      "mismatch_severity": 45.8,
+      "type": "M-condition, F-safety"
+    },
+    {
+      "drug": "BCG VACCINE",
+      "pctf": 95.5,
+      "n_signals": 22,
+      "indication_sex": "male-prevalent",
+      "ae_bias": "female-biased",
+      "condition": "Prostate cancer (100% M)",
+      "mismatch_severity": 45.5,
+      "type": "M-condition, F-safety"
+    },
+    {
+      "drug": "SILDENAFIL CITRATE",
+      "pctf": 95.2,
+      "n_signals": 42,
+      "indication_sex": "male-prevalent",
+      "ae_bias": "female-biased",
+      "condition": "Prostate cancer (100% M)",
+      "mismatch_severity": 45.2,
+      "type": "M-condition, F-safety"
+    },
+    {
+      "drug": "VITAMIN K",
+      "pctf": 5.3,
+      "n_signals": 19,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 44.7,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "GALCANEZUMAB",
+      "pctf": 5.6,
+      "n_signals": 36,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Migraine (3:1 F:M)",
+      "mismatch_severity": 44.4,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "INTERFERON BETA-1B",
+      "pctf": 5.7,
+      "n_signals": 70,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 44.3,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "OZANIMOD",
+      "pctf": 5.7,
+      "n_signals": 35,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 44.3,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "ROSIGLITAZONE",
+      "pctf": 93.6,
+      "n_signals": 47,
+      "indication_sex": "male-prevalent",
+      "ae_bias": "female-biased",
+      "condition": "Prostate cancer (100% M)",
+      "mismatch_severity": 43.6,
+      "type": "M-condition, F-safety"
+    },
+    {
+      "drug": "ABALOPARATIDE",
+      "pctf": 6.5,
+      "n_signals": 31,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Osteoporosis (4:1 F:M)",
+      "mismatch_severity": 43.5,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "MODAFINIL",
+      "pctf": 7.1,
+      "n_signals": 28,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 42.9,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "pctf": 7.5,
+      "n_signals": 53,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 42.5,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "CARMUSTINE",
+      "pctf": 92.3,
+      "n_signals": 39,
+      "indication_sex": "male-prevalent",
+      "ae_bias": "female-biased",
+      "condition": "Prostate cancer (100% M)",
+      "mismatch_severity": 42.3,
+      "type": "M-condition, F-safety"
+    },
+    {
+      "drug": "ROPIVACAINE",
+      "pctf": 7.7,
+      "n_signals": 13,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 42.3,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "TERIFLUNOMIDE",
+      "pctf": 7.8,
+      "n_signals": 77,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "MS (2-3:1 F:M)",
+      "mismatch_severity": 42.2,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "TAMOXIFEN",
+      "pctf": 8.3,
+      "n_signals": 12,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 41.7,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "ABEMACICLIB",
+      "pctf": 8.3,
+      "n_signals": 12,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 41.7,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "CALCIUM CARBONATE",
+      "pctf": 8.3,
+      "n_signals": 24,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 41.7,
+      "type": "F-condition, M-safety"
+    },
+    {
+      "drug": "METHOTREXATE SODIUM",
+      "pctf": 8.6,
+      "n_signals": 186,
+      "indication_sex": "female-prevalent",
+      "ae_bias": "male-biased",
+      "condition": "Breast cancer (>99% F)",
+      "mismatch_severity": 41.4,
+      "type": "F-condition, M-safety"
+    }
+  ]
+}

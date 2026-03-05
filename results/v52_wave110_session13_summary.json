@@ -1,0 +1,29 @@
+{
+  "analysis": "session_13_summary",
+  "wave": 110,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:56:50.619874",
+  "novelty": "Session 13 complete \u2014 indication mismatch, target families",
+  "stats": {
+    "total_json": 110,
+    "total_figures": 372
+  },
+  "session13": {
+    "Drug Indication Sex Mismatch": {
+      "wave": 106,
+      "finding": "Drugs for sex-prevalent conditions with opposite-sex AE profiles"
+    },
+    "Multi-Indication Bias": {
+      "wave": 107,
+      "finding": "Multi-indication drugs and their sex-bias consistency"
+    },
+    "Trial Volume vs Bias": {
+      "wave": 108,
+      "finding": "Under-trialed drugs with strong sex-differential signals"
+    },
+    "Target Family Atlas": {
+      "wave": 109,
+      "finding": "Protein family-level sex-bias \u2014 kinases, GPCRs, ion channels, etc."
+    }
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "analysis": "multi_indication_bias_shift",
+  "wave": 107,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:56:10.645186",
+  "novelty": "Multi-indication drug sex-bias analysis from merged KG disease links",
+  "summary": {
+    "multi_indication_drugs": 804,
+    "max_indications": 341
+  },
+  "top_drugs": [
+    {
+      "drug": "SODIUM CHLORIDE",
+      "n_indications": 341,
+      "pctf": 26.3,
+      "n_signals": 152,
+      "indications": [
+        "Abdominal Abscess",
+        "Abscess",
+        "Acid-Base Imbalance",
+        "Acne Vulgaris",
+        "Acromegaly",
+        "Acute Coronary Syndrome",
+        "Acute Kidney Injury",
+        "Acute Lung Injury",
+        "Adenomatous Polyposis Coli",
+        "Adiposis Dolorosa"
+      ]
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_indications": 249,
+      "pctf": 80.3,
+      "n_signals": 537,
+      "indications": [
+        "Acne Vulgaris",
+        "Addison Disease",
+        "Adrenal Hyperplasia, Congenital",
+        "Adrenocortical Hyperfunction",
+        "Amyloidosis",
+        "Amyloidosis, Familial",
+        "Anemia",
+        "Anemia, Aplastic",
+        "Anemia, Hemolytic",
+        "Anemia, Refractory"
+      ]
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_indications": 192,
+      "pctf": 70.2,
+      "n_signals": 926,
+      "indications": [
+        "AIDS-Associated Nephropathy",
+        "Acquired Immunodeficiency Syndrome",
+        "Addison Disease",
+        "Adrenal Hyperplasia, Congenital",
+        "Adrenal Insufficiency",
+        "Alzheimer Disease",
+        "Amyotrophic Lateral Sclerosis",
+        "Anemia",
+        "Anemia, Aplastic",
+        "Anemia, Hemolytic"
+      ]
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_indications": 181,
+      "pctf": 64.7,
+      "n_signals": 498,
+      "indications": [
+        "Acquired Immunodeficiency Syndrome",
+        "Adenocarcinoma",
+        "Adrenoleukodystrophy",
+        "Amyloidosis",
+        "Amyloidosis, Familial",
+        "Anemia, Aplastic",
+        "Anemia, Refractory",
+        "Anemia, Refractory, with Excess of Blasts",
+        "Anemia, Sickle Cell",
+        "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis"
+      ]
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_indications": 149,
+      "pctf": 82.5,
+      "n_signals": 542,
+      "indications": [
+        "Abortion, Habitual",
+        "Addison Disease",
+        "Adrenal Hyperplasia, Congenital",
+        "Adrenal Insufficiency",
+        "Alveolitis, Extrinsic Allergic",
+        "Anemia, Aplastic",
+        "Anemia, Hemolytic",
+        "Anemia, Hemolytic, Autoimmune",
+        "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis",
+        "Arthritis, Gouty"
+      ]
+    },
+    {
+      "drug": "BEVACIZUMAB",
+      "n_indications": 141,
+      "pctf": 55.4,
+      "n_signals": 294,
+      "indications": [
+        "Adenocarcinoma",
+        "Adenocarcinoma of Lung",
+        "Adenocarcinoma, Clear Cell",
+        "Adenoma",
+        "Adrenal Cortex Neoplasms",
+        "Ascites",
+        "Astrocytoma",
+        "Biliary Tract Neoplasms",
+        "Brain Injuries",
+        "Brain Neoplasms"
+      ]
+    },
+    {
+      "drug": "ASPIRIN",
+      "n_indications": 137,
+      "pctf": 82.5,
+      "n_signals": 137,
+      "indications": [
+        "Abortion, Habitual",
+        "Acute Chest Syndrome",
+        "Acute Coronary Syndrome",
+        "Acute Lung Injury",
+        "Adenoma",
+        "Adenomatous Polyposis Coli",
+        "Angina, Stable",
+        "Aortic Valve Stenosis",
+        "Arthritis",
+        "Asthma"
+      ]
+    },
+    {
+      "drug": "FILGRASTIM",
+      "n_indications": 129,
+      "pctf": 44.1,
+      "n_signals": 93,
+      "indications": [
+        "Adrenal Cortex Neoplasms",
+        "Amyloidosis, Familial",
+        "Amyotrophic Lateral Sclerosis",
+        "Anemia",
+        "Anemia, Aplastic",
+        "Anemia, Diamond-Blackfan",
+        "Anemia, Refractory",
+        "Anemia, Refractory, with Excess of Blasts",
+        "Anemia, Sickle Cell",
+        "Biliary Atresia"
+      ]
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_indications": 126,
+      "pctf": 48.5,
+      "n_signals": 892,
+      "indications": [
+        "Alopecia Areata",
+        "Anemia, Aplastic",
+        "Anemia, Diamond-Blackfan",
+        "Anemia, Refractory",
+        "Anemia, Refractory, with Excess of Blasts",
+        "Anemia, Sickle Cell",
+        "Arthritis",
+        "Arthritis, Juvenile",
+        "Arthritis, Psoriatic",
+        "Arthritis, Rheumatoid"
+      ]
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_indications": 122,
+      "pctf": 77.2,
+      "n_signals": 521,
+      "indications": [
+        "Abdominal Pain",
+        "Acne Vulgaris",
+        "Adenomatous Polyposis Coli",
+        "Aging",
+        "Amyotrophic Lateral Sclerosis",
+        "Anemia, Aplastic",
+        "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis",
+        "Appendicitis",
+        "Arthritis, Juvenile",
+        "Arthritis, Psoriatic"
+      ]
+    },
+    {
+      "drug": "CISPLATIN",
+      "n_indications": 116,
+      "pctf": 76.3,
+      "n_signals": 219,
+      "indications": [
+        "Adenocarcinoma",
+        "Adenocarcinoma of Lung",
+        "Adrenal Cortex Neoplasms",
+        "Anemia",
+        "Anus Neoplasms",
+        "Bile Duct Neoplasms",
+        "Biliary Tract Neoplasms",
+        "Brain Neoplasms",
+        "Breast Neoplasms",
+        "Carcinoid Tumor"
+      ]
+    },
+    {
+      "drug": "METFORMIN",
+      "n_indications": 115,
+      "pctf": 62.4,
+      "n_signals": 399,
+      "indications": [
+        "Acne Vulgaris",
+        "Acute Coronary Syndrome",
+        "Adenocarcinoma",
+        "Adenocarcinoma of Lung",
+        "Adenocarcinoma, Bronchiolo-Alveolar",
+        "Adenomatous Polyposis Coli",
+        "Aging",
+        "Aortic Aneurysm, Abdominal",
+        "Arthritis, Rheumatoid",
+        "Atherosclerosis"
+      ]
+    },
+    {
+      "drug": "CARBOPLATIN",
+      "n_indications": 113,
+      "pctf": 63.5,
+      "n_signals": 310,
+      "indications": [
+        "Adenocarcinoma",
+        "Adenocarcinoma of Lung",
+        "Adenocarcinoma, Bronchiolo-Alveolar",
+        "Anemia",
+        "Astrocytoma",
+        "Bile Duct Neoplasms",
+        "Biliary Tract Neoplasms",
+        "Bone Neoplasms",
+        "Brain Neoplasms",
+        "Brain Stem Neoplasms"
+      ]
+    },
+    {
+      "drug": "ETOPOSIDE",
+      "n_indications": 111,
+      "pctf": 79.1,
+      "n_signals": 273,
+      "indications": [
+        "Acquired Immunodeficiency Syndrome",
+        "Adenocarcinoma of Lung",
+        "Adrenal Cortex Neoplasms",
+        "Anemia, Refractory",
+        "Anemia, Refractory, with Excess of Blasts",
+        "Astrocytoma",
+        "Brain Neoplasms",
+        "Breast Neoplasms",
+        "Burkitt Lymphoma",
+        "Carcinoid Tumor"
+      ]
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_indications": 109,
+      "pctf": 66.6,
+      "n_signals": 755,
+      "indications": [
+        "Acquired Immunodeficiency Syndrome",
+        "Anemia, Aplastic",
+        "Anemia, Hemolytic, Autoimmune",
+        "Anemia, Sickle Cell",
+        "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis",
+        "Arthritis, Rheumatoid",
+        "Behcet Syndrome",
+        "Blast Crisis",
+        "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+        "Breast Neoplasms"
+      ]
+    },
+    {
+      "drug": "PEMBROLIZUMAB",
+      "n_indications": 106,
+      "pctf": 73.1,
+      "n_signals": 309,
+      "indications": [
+        "Adenocarcinoma",
+        "Adenocarcinoma of Lung",
+        "Adenocarcinoma, Follicular",
+        "Adrenal Cortex Neoplasms",
+        "Anus Neoplasms",
+        "Biliary Tract Neoplasms",
+        "Brain Neoplasms",
+        "Breast Carcinoma In Situ",
+        "Breast Neoplasms",
+        "Breast Neoplasms, Male"
+      ]
+    },
+    {
+      "drug": "MYCOPHENOLATE MOFETIL",
+      "n_indications": 105,
+      "pctf": 81.2,
+      "n_signals": 277,
+      "indications": [
+        "Amyotrophic Lateral Sclerosis",
+        "Anemia, Aplastic",
+        "Anemia, Diamond-Blackfan",
+        "Anemia, Sickle Cell",
+        "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis",
+        "Autoimmune Diseases",
+        "Bronchiolitis Obliterans Syndrome",
+        "Burkitt Lymphoma",
+        "Carcinoma, Hepatocellular",
+        "Cardiomyopathies"
+      ]
+    },
+    {
+      "drug": "CYCLOSPORINE",
+      "n_indications": 104,
+      "pctf": 51.9,
+      "n_signals": 52,
+      "indications": [
+        "Acute Kidney Injury",
+        "Anemia, Aplastic",
+        "Anemia, Hemolytic, Autoimmune",
+        "Aortic Aneurysm, Abdominal",
+        "Arthritis, Rheumatoid",
+        "Behcet Syndrome",
+        "Brain Injuries",
+        "Breast Neoplasms",
+        "Bronchiolitis Obliterans",
+        "Bronchiolitis Obliterans Syndrome"
+      ]
+    },
+    {
+      "drug": "SIROLIMUS",
+      "n_indications": 99,
+      "pctf": 70.8,
+      "n_signals": 89,
+      "indications": [
+        "Adenomatous Polyposis Coli",
+        "Aging",
+        "Amyotrophic Lateral Sclerosis",
+        "Anemia",
+        "Anemia, Aplastic",
+        "Anemia, Hemolytic, Autoimmune",
+        "Anemia, Sickle Cell",
+        "Angiofibroma",
+        "Birt-Hogg-Dube Syndrome",
+        "Blood Platelet Disorders"
+      ]
+    },
+    {
+      "drug": "PACLITAXEL",
+      "n_indications": 94,
+      "pctf": 62.5,
+      "n_signals": 259,
+      "indications": [
+        "Adenocarcinoma",
+        "Adenocarcinoma of Lung",
+        "Adenocarcinoma, Bronchiolo-Alveolar",
+        "Adrenal Cortex Neoplasms",
+        "Anemia",
+        "Arthritis, Rheumatoid",
+        "Biliary Tract Neoplasms",
+        "Bone Neoplasms",
+        "Breast Carcinoma In Situ",
+        "Breast Neoplasms"
+      ]
+    }
+  ]
+}
