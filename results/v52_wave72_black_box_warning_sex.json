@@ -1,0 +1,351 @@
+{
+  "analysis": "black_box_warning_sex_bias",
+  "wave": 72,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:35:16.051034",
+  "novelty": "FDA black box warning drugs sex-bias vs non-BBW drugs",
+  "summary": {
+    "bbw_drugs": 48,
+    "bbw_mean_pctf": 55.5,
+    "non_bbw_mean_pctf": 48.7,
+    "p_value": 0.0914
+  },
+  "bbw_details": [
+    {
+      "drug_name": "ROSIGLITAZONE",
+      "pct_female": 93.61702127659575,
+      "n_signals": 47,
+      "abs_mean_lr": 0.7006254749914956,
+      "bbw": true
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "pct_female": 92.85714285714286,
+      "n_signals": 518,
+      "abs_mean_lr": 1.1677385431563794,
+      "bbw": true
+    },
+    {
+      "drug_name": "PIOGLITAZONE",
+      "pct_female": 90.1639344262295,
+      "n_signals": 61,
+      "abs_mean_lr": 0.8936328226785756,
+      "bbw": true
+    },
+    {
+      "drug_name": "PALIPERIDONE",
+      "pct_female": 85.71428571428571,
+      "n_signals": 161,
+      "abs_mean_lr": 0.9702105504215673,
+      "bbw": true
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "pct_female": 84.95934959349594,
+      "n_signals": 492,
+      "abs_mean_lr": 1.331882933830664,
+      "bbw": true
+    },
+    {
+      "drug_name": "MORPHINE",
+      "pct_female": 83.44671201814059,
+      "n_signals": 441,
+      "abs_mean_lr": 1.117067156144758,
+      "bbw": true
+    },
+    {
+      "drug_name": "CLOPIDOGREL",
+      "pct_female": 82.33333333333334,
+      "n_signals": 300,
+      "abs_mean_lr": 0.9192887523375778,
+      "bbw": true
+    },
+    {
+      "drug_name": "FENTANYL",
+      "pct_female": 74.5704467353952,
+      "n_signals": 291,
+      "abs_mean_lr": 0.9356754819379139,
+      "bbw": true
+    },
+    {
+      "drug_name": "TESTOSTERONE",
+      "pct_female": 73.91304347826086,
+      "n_signals": 46,
+      "abs_mean_lr": 2.0201675019057688,
+      "bbw": true
+    },
+    {
+      "drug_name": "METHADONE",
+      "pct_female": 73.83177570093457,
+      "n_signals": 107,
+      "abs_mean_lr": 0.8470719450096014,
+      "bbw": true
+    },
+    {
+      "drug_name": "CLOZAPINE",
+      "pct_female": 68.6411149825784,
+      "n_signals": 287,
+      "abs_mean_lr": 0.9134503379890515,
+      "bbw": true
+    },
+    {
+      "drug_name": "HYDROCODONE",
+      "pct_female": 68.42105263157895,
+      "n_signals": 76,
+      "abs_mean_lr": 0.771457920034402,
+      "bbw": true
+    },
+    {
+      "drug_name": "OXYMORPHONE",
+      "pct_female": 68.0,
+      "n_signals": 50,
+      "abs_mean_lr": 0.768382634658515,
+      "bbw": true
+    },
+    {
+      "drug_name": "QUETIAPINE",
+      "pct_female": 63.38028169014085,
+      "n_signals": 426,
+      "abs_mean_lr": 1.0243920730063192,
+      "bbw": true
+    },
+    {
+      "drug_name": "CELECOXIB",
+      "pct_female": 63.138686131386855,
+      "n_signals": 274,
+      "abs_mean_lr": 1.2401468371722286,
+      "bbw": true
+    },
+    {
+      "drug_name": "MELOXICAM",
+      "pct_female": 59.77011494252874,
+      "n_signals": 87,
+      "abs_mean_lr": 0.9288730266700022,
+      "bbw": true
+    },
+    {
+      "drug_name": "OLANZAPINE",
+      "pct_female": 58.92857142857143,
+      "n_signals": 336,
+      "abs_mean_lr": 0.9087476456679442,
+      "bbw": true
+    },
+    {
+      "drug_name": "MOXIFLOXACIN",
+      "pct_female": 58.857142857142854,
+      "n_signals": 175,
+      "abs_mean_lr": 1.1684144261375198,
+      "bbw": true
+    },
+    {
+      "drug_name": "AMIODARONE",
+      "pct_female": 58.333333333333336,
+      "n_signals": 228,
+      "abs_mean_lr": 0.9291304379831486,
+      "bbw": true
+    },
+    {
+      "drug_name": "WARFARIN",
+      "pct_female": 56.81818181818182,
+      "n_signals": 220,
+      "abs_mean_lr": 0.9293817636204956,
+      "bbw": true
+    },
+    {
+      "drug_name": "CITALOPRAM",
+      "pct_female": 56.540084388185655,
+      "n_signals": 237,
+      "abs_mean_lr": 0.9662790930032853,
+      "bbw": true
+    },
+    {
+      "drug_name": "HALOPERIDOL",
+      "pct_female": 56.32911392405063,
+      "n_signals": 158,
+      "abs_mean_lr": 0.8502643346004642,
+      "bbw": true
+    },
+    {
+      "drug_name": "GOLIMUMAB",
+      "pct_female": 55.688622754491014,
+      "n_signals": 334,
+      "abs_mean_lr": 1.3764939900936592,
+      "bbw": true
+    },
+    {
+      "drug_name": "BUPROPION",
+      "pct_female": 54.02298850574713,
+      "n_signals": 174,
+      "abs_mean_lr": 1.0113761213020245,
+      "bbw": true
+    },
+    {
+      "drug_name": "BUPRENORPHINE",
+      "pct_female": 54.02298850574713,
+      "n_signals": 261,
+      "abs_mean_lr": 1.103680066645281,
+      "bbw": true
+    },
+    {
+      "drug_name": "DICLOFENAC",
+      "pct_female": 50.62344139650873,
+      "n_signals": 401,
+      "abs_mean_lr": 1.325318204778664,
+      "bbw": true
+    },
+    {
+      "drug_name": "INFLIXIMAB",
+      "pct_female": 50.40128410914928,
+      "n_signals": 623,
+      "abs_mean_lr": 1.0892938333425768,
+      "bbw": true
+    },
+    {
+      "drug_name": "LITHIUM",
+      "pct_female": 49.65034965034965,
+      "n_signals": 143,
+      "abs_mean_lr": 0.9151991910642205,
+      "bbw": true
+    },
+    {
+      "drug_name": "TOCILIZUMAB",
+      "pct_female": 49.40944881889764,
+      "n_signals": 508,
+      "abs_mean_lr": 1.185858286496695,
+      "bbw": true
+    },
+    {
+      "drug_name": "VALPROIC ACID",
+      "pct_female": 49.26253687315634,
+      "n_signals": 339,
+      "abs_mean_lr": 0.8510367203222815,
+      "bbw": true
+    },
+    {
+      "drug_name": "METHOTREXATE",
+      "pct_female": 48.54260089686099,
+      "n_signals": 892,
+      "abs_mean_lr": 0.9670534081451873,
+      "bbw": true
+    },
+    {
+      "drug_name": "PAROXETINE",
+      "pct_female": 48.38709677419355,
+      "n_signals": 186,
+      "abs_mean_lr": 0.8686659874952608,
+      "bbw": true
+    },
+    {
+      "drug_name": "ARIPIPRAZOLE",
+      "pct_female": 47.368421052631575,
+      "n_signals": 342,
+      "abs_mean_lr": 0.8377979688485432,
+      "bbw": true
+    },
+    {
+      "drug_name": "LEVOFLOXACIN",
+      "pct_female": 46.45669291338583,
+      "n_signals": 254,
+      "abs_mean_lr": 0.9673739969478502,
+      "bbw": true
+    },
+    {
+      "drug_name": "DULOXETINE",
+      "pct_female": 44.97354497354497,
+      "n_signals": 189,
+      "abs_mean_lr": 0.8717768194327776,
+      "bbw": true
+    },
+    {
+      "drug_name": "ZIPRASIDONE",
+      "pct_female": 44.827586206896555,
+      "n_signals": 87,
+      "abs_mean_lr": 1.10377823097576,
+      "bbw": true
+    },
+    {
+      "drug_name": "DIGOXIN",
+      "pct_female": 44.285714285714285,
+      "n_signals": 70,
+      "abs_mean_lr": 0.794299254538847,
+      "bbw": true
+    },
+    {
+      "drug_name": "TAPENTADOL",
+      "pct_female": 43.58974358974359,
+      "n_signals": 39,
+      "abs_mean_lr": 0.7712077444647415,
+      "bbw": true
+    },
+    {
+      "drug_name": "ETANERCEPT",
+      "pct_female": 42.55663430420712,
+      "n_signals": 618,
+      "abs_mean_lr": 0.9844997609425438,
+      "bbw": true
+    },
+    {
+      "drug_name": "SERTRALINE",
+      "pct_female": 42.05298013245033,
+      "n_signals": 302,
+      "abs_mean_lr": 0.9304660268978218,
+      "bbw": true
+    },
+    {
+      "drug_name": "CIPROFLOXACIN",
+      "pct_female": 41.228070175438596,
+      "n_signals": 342,
+      "abs_mean_lr": 0.8965012983291384,
+      "bbw": true
+    },
+    {
+      "drug_name": "VENLAFAXINE",
+      "pct_female": 40.76655052264808,
+      "n_signals": 287,
+      "abs_mean_lr": 0.9086630683014038,
+      "bbw": true
+    },
+    {
+      "drug_name": "ADALIMUMAB",
+      "pct_female": 38.166047087980175,
+      "n_signals": 807,
+      "abs_mean_lr": 0.8791668911810603,
+      "bbw": true
+    },
+    {
+      "drug_name": "FLUOXETINE",
+      "pct_female": 36.27450980392157,
+      "n_signals": 204,
+      "abs_mean_lr": 0.9518666648633002,
+      "bbw": true
+    },
+    {
+      "drug_name": "ESCITALOPRAM",
+      "pct_female": 28.110599078341014,
+      "n_signals": 217,
+      "abs_mean_lr": 1.0336413899705845,
+      "bbw": true
+    },
+    {
+      "drug_name": "NATALIZUMAB",
+      "pct_female": 22.69503546099291,
+      "n_signals": 141,
+      "abs_mean_lr": 0.7546987246238791,
+      "bbw": true
+    },
+    {
+      "drug_name": "DESVENLAFAXINE",
+      "pct_female": 10.869565217391305,
+      "n_signals": 46,
+      "abs_mean_lr": 0.8301895327617003,
+      "bbw": true
+    },
+    {
+      "drug_name": "ISOTRETINOIN",
+      "pct_female": 9.216589861751153,
+      "n_signals": 217,
+      "abs_mean_lr": 0.907334172771031,
+      "bbw": true
+    }
+  ]
+}

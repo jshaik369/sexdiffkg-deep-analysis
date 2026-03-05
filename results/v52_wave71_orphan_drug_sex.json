@@ -1,0 +1,282 @@
+{
+  "analysis": "orphan_drug_sex_bias",
+  "wave": 71,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:35:14.876978",
+  "novelty": "Orphan/rare disease drugs vs common drugs sex-bias comparison",
+  "summary": {
+    "orphan_drugs": 38,
+    "non_orphan_drugs": 1356,
+    "orphan_mean_pctf": 59.7,
+    "non_orphan_mean_pctf": 47.3,
+    "p_value_pctf": 0.0055
+  },
+  "orphan_details": [
+    {
+      "drug_name": "INOTERSEN",
+      "pct_female": 100.0,
+      "n_signals": 20,
+      "abs_mean_lr": 0.7748884821404278,
+      "orphan": true
+    },
+    {
+      "drug_name": "DEFIBROTIDE",
+      "pct_female": 93.75,
+      "n_signals": 16,
+      "abs_mean_lr": 0.873601158658709,
+      "orphan": true
+    },
+    {
+      "drug_name": "AXICABTAGENE CILOLEUCEL",
+      "pct_female": 93.54838709677419,
+      "n_signals": 62,
+      "abs_mean_lr": 0.7984470675576819,
+      "orphan": true
+    },
+    {
+      "drug_name": "TISAGENLECLEUCEL",
+      "pct_female": 89.13043478260869,
+      "n_signals": 46,
+      "abs_mean_lr": 0.7650521694859383,
+      "orphan": true
+    },
+    {
+      "drug_name": "GILTERITINIB",
+      "pct_female": 84.84848484848484,
+      "n_signals": 33,
+      "abs_mean_lr": 0.8179342042442571,
+      "orphan": true
+    },
+    {
+      "drug_name": "IMATINIB MESYLATE",
+      "pct_female": 84.0,
+      "n_signals": 25,
+      "abs_mean_lr": 0.8353859749575966,
+      "orphan": true
+    },
+    {
+      "drug_name": "PONATINIB",
+      "pct_female": 83.82352941176471,
+      "n_signals": 68,
+      "abs_mean_lr": 0.7364791285798643,
+      "orphan": true
+    },
+    {
+      "drug_name": "IMATINIB",
+      "pct_female": 81.93548387096774,
+      "n_signals": 155,
+      "abs_mean_lr": 0.7610052571136695,
+      "orphan": true
+    },
+    {
+      "drug_name": "SORAFENIB",
+      "pct_female": 80.26315789473685,
+      "n_signals": 76,
+      "abs_mean_lr": 0.8297820052578581,
+      "orphan": true
+    },
+    {
+      "drug_name": "IDELALISIB",
+      "pct_female": 79.3103448275862,
+      "n_signals": 29,
+      "abs_mean_lr": 0.7943603791567122,
+      "orphan": true
+    },
+    {
+      "drug_name": "NILOTINIB",
+      "pct_female": 78.03030303030303,
+      "n_signals": 132,
+      "abs_mean_lr": 0.7201401723771621,
+      "orphan": true
+    },
+    {
+      "drug_name": "NINTEDANIB",
+      "pct_female": 75.72815533980582,
+      "n_signals": 103,
+      "abs_mean_lr": 0.753845558205249,
+      "orphan": true
+    },
+    {
+      "drug_name": "BORTEZOMIB",
+      "pct_female": 75.11961722488039,
+      "n_signals": 209,
+      "abs_mean_lr": 0.8705822406332221,
+      "orphan": true
+    },
+    {
+      "drug_name": "VENETOCLAX",
+      "pct_female": 72.02380952380952,
+      "n_signals": 168,
+      "abs_mean_lr": 0.7749172597078635,
+      "orphan": true
+    },
+    {
+      "drug_name": "RUXOLITINIB",
+      "pct_female": 70.07874015748031,
+      "n_signals": 127,
+      "abs_mean_lr": 0.7477685452307951,
+      "orphan": true
+    },
+    {
+      "drug_name": "CARFILZOMIB",
+      "pct_female": 69.89247311827957,
+      "n_signals": 93,
+      "abs_mean_lr": 0.7967378586028272,
+      "orphan": true
+    },
+    {
+      "drug_name": "CABOZANTINIB",
+      "pct_female": 66.96428571428571,
+      "n_signals": 112,
+      "abs_mean_lr": 0.797898804002811,
+      "orphan": true
+    },
+    {
+      "drug_name": "SUNITINIB",
+      "pct_female": 65.57377049180327,
+      "n_signals": 122,
+      "abs_mean_lr": 0.738346083774113,
+      "orphan": true
+    },
+    {
+      "drug_name": "IBRUTINIB",
+      "pct_female": 64.51612903225806,
+      "n_signals": 186,
+      "abs_mean_lr": 0.7426566455230796,
+      "orphan": true
+    },
+    {
+      "drug_name": "CRIZOTINIB",
+      "pct_female": 60.526315789473685,
+      "n_signals": 38,
+      "abs_mean_lr": 0.6630535138402207,
+      "orphan": true
+    },
+    {
+      "drug_name": "LENALIDOMIDE",
+      "pct_female": 59.589041095890416,
+      "n_signals": 292,
+      "abs_mean_lr": 0.7610021149540952,
+      "orphan": true
+    },
+    {
+      "drug_name": "DASATINIB",
+      "pct_female": 59.49367088607595,
+      "n_signals": 79,
+      "abs_mean_lr": 0.7444808604803947,
+      "orphan": true
+    },
+    {
+      "drug_name": "POMALIDOMIDE",
+      "pct_female": 57.03125,
+      "n_signals": 128,
+      "abs_mean_lr": 0.724677975269604,
+      "orphan": true
+    },
+    {
+      "drug_name": "MACITENTAN",
+      "pct_female": 54.736842105263165,
+      "n_signals": 95,
+      "abs_mean_lr": 0.7238557910717931,
+      "orphan": true
+    },
+    {
+      "drug_name": "BOSUTINIB",
+      "pct_female": 52.94117647058824,
+      "n_signals": 34,
+      "abs_mean_lr": 0.7108660806697615,
+      "orphan": true
+    },
+    {
+      "drug_name": "MIDOSTAURIN",
+      "pct_female": 50.0,
+      "n_signals": 18,
+      "abs_mean_lr": 0.8043603500763999,
+      "orphan": true
+    },
+    {
+      "drug_name": "ENASIDENIB",
+      "pct_female": 44.44444444444444,
+      "n_signals": 9,
+      "abs_mean_lr": 0.6993590066856223,
+      "orphan": true
+    },
+    {
+      "drug_name": "PIRFENIDONE",
+      "pct_female": 44.303797468354425,
+      "n_signals": 79,
+      "abs_mean_lr": 0.7413652480430896,
+      "orphan": true
+    },
+    {
+      "drug_name": "ONASEMNOGENE ABEPARVOVEC",
+      "pct_female": 40.0,
+      "n_signals": 15,
+      "abs_mean_lr": 0.7347179984296199,
+      "orphan": true
+    },
+    {
+      "drug_name": "NUSINERSEN",
+      "pct_female": 37.03703703703704,
+      "n_signals": 27,
+      "abs_mean_lr": 0.7576902937521902,
+      "orphan": true
+    },
+    {
+      "drug_name": "LORLATINIB",
+      "pct_female": 36.36363636363637,
+      "n_signals": 22,
+      "abs_mean_lr": 0.6529361146825804,
+      "orphan": true
+    },
+    {
+      "drug_name": "ECULIZUMAB",
+      "pct_female": 35.294117647058826,
+      "n_signals": 136,
+      "abs_mean_lr": 0.7817039790223493,
+      "orphan": true
+    },
+    {
+      "drug_name": "ELEXACAFTOR;IVACAFTOR;TEZACAFTOR",
+      "pct_female": 33.33333333333333,
+      "n_signals": 27,
+      "abs_mean_lr": 0.6981645080766907,
+      "orphan": true
+    },
+    {
+      "drug_name": "IVACAFTOR",
+      "pct_female": 33.33333333333333,
+      "n_signals": 18,
+      "abs_mean_lr": 0.7178812214754693,
+      "orphan": true
+    },
+    {
+      "drug_name": "SELEXIPAG",
+      "pct_female": 25.0,
+      "n_signals": 68,
+      "abs_mean_lr": 0.7371600103572962,
+      "orphan": true
+    },
+    {
+      "drug_name": "ELIGLUSTAT",
+      "pct_female": 16.666666666666664,
+      "n_signals": 6,
+      "abs_mean_lr": 0.6888120908218253,
+      "orphan": true
+    },
+    {
+      "drug_name": "ELOSULFASE ALFA",
+      "pct_female": 10.0,
+      "n_signals": 20,
+      "abs_mean_lr": 0.6518871022584745,
+      "orphan": true
+    },
+    {
+      "drug_name": "BELIMUMAB",
+      "pct_female": 9.090909090909092,
+      "n_signals": 22,
+      "abs_mean_lr": 1.2790900225722541,
+      "orphan": true
+    }
+  ]
+}
