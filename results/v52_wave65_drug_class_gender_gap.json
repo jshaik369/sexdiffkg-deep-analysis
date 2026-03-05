@@ -1,0 +1,213 @@
+{
+  "analysis": "drug_class_gender_gap",
+  "wave": 65,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:31:17.523988",
+  "novelty": "Pathway-level gender gap scores prioritize sex-stratified pharmacovigilance",
+  "summary": {
+    "pathways_analyzed": 229,
+    "mean_gap": 17.6
+  },
+  "top_pathways": [
+    {
+      "pathway": "Neuroactive ligand-receptor interaction",
+      "n_drugs": 118,
+      "total_signals": 11980,
+      "mean_bias": 46.8,
+      "mean_gap": 17.9,
+      "total_gap": 2114.6,
+      "weighted_gap": 221700.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Neuroactive ligand signaling",
+      "n_drugs": 77,
+      "total_signals": 6366,
+      "mean_bias": 47.9,
+      "mean_gap": 17.4,
+      "total_gap": 1341.2,
+      "weighted_gap": 109800.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Metabolic pathways",
+      "n_drugs": 57,
+      "total_signals": 7418,
+      "mean_bias": 56.5,
+      "mean_gap": 18.1,
+      "total_gap": 1029.0,
+      "weighted_gap": 100300.0,
+      "direction": "female"
+    },
+    {
+      "pathway": "Calcium signaling pathway",
+      "n_drugs": 69,
+      "total_signals": 5511,
+      "mean_bias": 47.1,
+      "mean_gap": 16.3,
+      "total_gap": 1127.0,
+      "weighted_gap": 92850.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Gap junction",
+      "n_drugs": 36,
+      "total_signals": 2890,
+      "mean_bias": 54.1,
+      "mean_gap": 17.8,
+      "total_gap": 640.8,
+      "weighted_gap": 64700.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Pathways in cancer",
+      "n_drugs": 64,
+      "total_signals": 5134,
+      "mean_bias": 46.9,
+      "mean_gap": 15.3,
+      "total_gap": 978.0,
+      "weighted_gap": 62000.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Serotonergic synapse",
+      "n_drugs": 37,
+      "total_signals": 3492,
+      "mean_bias": 41.8,
+      "mean_gap": 20.5,
+      "total_gap": 757.8,
+      "weighted_gap": 57100.0,
+      "direction": "male"
+    },
+    {
+      "pathway": "Hematopoietic cell lineage",
+      "n_drugs": 31,
+      "total_signals": 3435,
+      "mean_bias": 54.4,
+      "mean_gap": 18.4,
+      "total_gap": 569.6,
+      "weighted_gap": 52350.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Pathways of neurodegeneration",
+      "n_drugs": 35,
+      "total_signals": 2794,
+      "mean_bias": 46.1,
+      "mean_gap": 19.7,
+      "total_gap": 689.4,
+      "weighted_gap": 52000.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Alzheimer disease",
+      "n_drugs": 32,
+      "total_signals": 2165,
+      "mean_bias": 46.6,
+      "mean_gap": 21.4,
+      "total_gap": 684.5,
+      "weighted_gap": 47350.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Coronavirus disease",
+      "n_drugs": 30,
+      "total_signals": 3295,
+      "mean_bias": 50.5,
+      "mean_gap": 15.9,
+      "total_gap": 476.2,
+      "weighted_gap": 45250.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Purine metabolism",
+      "n_drugs": 16,
+      "total_signals": 2080,
+      "mean_bias": 66.4,
+      "mean_gap": 22.0,
+      "total_gap": 352.3,
+      "weighted_gap": 44700.0,
+      "direction": "female"
+    },
+    {
+      "pathway": "Prion disease",
+      "n_drugs": 24,
+      "total_signals": 1951,
+      "mean_bias": 47.7,
+      "mean_gap": 23.5,
+      "total_gap": 562.8,
+      "weighted_gap": 42850.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "PI3K-Akt signaling pathway",
+      "n_drugs": 43,
+      "total_signals": 2920,
+      "mean_bias": 48.7,
+      "mean_gap": 17.1,
+      "total_gap": 736.4,
+      "weighted_gap": 42500.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Chemical carcinogenesis",
+      "n_drugs": 42,
+      "total_signals": 2718,
+      "mean_bias": 45.5,
+      "mean_gap": 17.0,
+      "total_gap": 713.7,
+      "weighted_gap": 40800.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Retrograde endocannabinoid signaling",
+      "n_drugs": 31,
+      "total_signals": 2950,
+      "mean_bias": 48.9,
+      "mean_gap": 13.7,
+      "total_gap": 423.7,
+      "weighted_gap": 40100.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "Cytokine-cytokine receptor interaction",
+      "n_drugs": 28,
+      "total_signals": 3312,
+      "mean_bias": 41.2,
+      "mean_gap": 15.7,
+      "total_gap": 439.0,
+      "weighted_gap": 40100.0,
+      "direction": "male"
+    },
+    {
+      "pathway": "Hormone signaling",
+      "n_drugs": 47,
+      "total_signals": 3041,
+      "mean_bias": 43.1,
+      "mean_gap": 15.9,
+      "total_gap": 745.3,
+      "weighted_gap": 38950.0,
+      "direction": "male"
+    },
+    {
+      "pathway": "Inflammatory mediator regulation of TRP channels",
+      "n_drugs": 25,
+      "total_signals": 1841,
+      "mean_bias": 50.4,
+      "mean_gap": 16.7,
+      "total_gap": 418.5,
+      "weighted_gap": 38250.0,
+      "direction": "mixed"
+    },
+    {
+      "pathway": "cAMP signaling pathway",
+      "n_drugs": 44,
+      "total_signals": 2535,
+      "mean_bias": 42.5,
+      "mean_gap": 15.8,
+      "total_gap": 697.4,
+      "weighted_gap": 36150.0,
+      "direction": "male"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "analysis": "publication_ready_summary",
+  "wave": 68,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:32:09.328564",
+  "novelty": "Publication-ready summary statistics for manuscript Results section",
+  "kg_stats": {
+    "nodes": 217993,
+    "edges": 3194017,
+    "node_types": {
+      "Gene": 90215,
+      "Protein": 30082,
+      "ClinicalTrial": 26695,
+      "Compound": 25778,
+      "Drug": 12843,
+      "Disease": 12679,
+      "AdverseEvent": 10130,
+      "Unknown": 3228,
+      "Symptom": 2639,
+      "Pathway": 2627,
+      "Intervention": 1052,
+      "Tissue": 20,
+      "Herb": 5
+    },
+    "edge_types": {
+      "interacts_with": 1858942,
+      "has_adverse_event": 614978,
+      "participates_in": 381168,
+      "sex_differential_adverse_event": 96281,
+      "investigates": 67795,
+      "tests_intervention": 47482,
+      "treats": 41184,
+      "binds_to": 35503,
+      "encodes": 11227,
+      "modulates": 10530,
+      "encoded_by": 8402,
+      "associated_with": 7127,
+      "targets": 5744,
+      "causes_adverse_event": 2640,
+      "corresponds_to": 2639,
+      "same_gene": 1940,
+      "sex_differential_expression": 289,
+      "same_as": 146
+    }
+  },
+  "signal_stats": {
+    "total": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "pct_female": 53.8,
+    "unique_drugs": 2178,
+    "unique_aes": 5069,
+    "mean_abs_lr": 0.9868
+  },
+  "drug_stats": {
+    "drugs_gte10": 1090,
+    "mean_pctf": 49.0,
+    "female_dominated": 397,
+    "male_dominated": 380,
+    "balanced": 313
+  }
+}

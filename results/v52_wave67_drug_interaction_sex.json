@@ -1,0 +1,13 @@
+{
+  "analysis": "drug_ppi_partner_sex_bias",
+  "wave": 67,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:32:06.935274",
+  "novelty": "Pathway-based drug similarity vs sex-bias concordance",
+  "summary": {
+    "drugs_analyzed": 184,
+    "pairs_computed": 16836,
+    "rho_sim_bias": -0.073,
+    "p_sim_bias": 3.15e-21
+  }
+}
