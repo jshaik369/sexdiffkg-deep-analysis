@@ -1,0 +1,56 @@
+{
+  "analysis": "session6_cumulative_summary",
+  "wave": 40,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:55:08.620681",
+  "novelty": "Session 6 summary: age-sex crossovers, polypharmacy shifts, drug clustering, temporal+geographic patterns",
+  "campaign_stats": {
+    "total_v52_waves": 36,
+    "total_json": 41,
+    "total_figures": 319,
+    "sessions_completed": 6,
+    "session6_discoveries": 8
+  },
+  "session6_discoveries": {
+    "Top 100 Drugs Atlas": {
+      "finding": "Top 100 drugs cover 38.1% of signals; 43 F-dominated, 11 M-dominated, 46 balanced",
+      "wave": 31,
+      "significance": "Ranitidine 93.5%F most biased, Docetaxel 11.2%F most male-biased in top 100"
+    },
+    "Sex-Reversal Drug Pairs": {
+      "finding": "2,564 AEs (50.6%) show BOTH F and M signals. Top spread: Adverse drug reaction 9.65 LR spread",
+      "wave": 32,
+      "significance": "Half of all AEs can flip sex-bias direction depending on the drug"
+    },
+    "Testosterone Intra-Drug Reversal": {
+      "finding": "Testosterone: prostatic disorder LR=8.87 (F) but CVA LR=-2.41 (M). Spread=11.28",
+      "wave": 32,
+      "significance": "Same drug, opposite sex-bias depending on organ system"
+    },
+    "Age-Sex Crossover - Liraglutide": {
+      "finding": "Liraglutide: 84%F in young adults \u2192 27.7%F in elderly (-56.3pp shift)",
+      "wave": 33,
+      "significance": "Most dramatic age-sex crossover: direction REVERSES between young and elderly"
+    },
+    "Age-Sex Crossover - Tirzepatide": {
+      "finding": "Tirzepatide: 90.4%F young \u2192 57.8%F elderly (-32.6pp)",
+      "wave": 33,
+      "significance": "GLP-1 RA sex-bias is AGE-DEPENDENT, not intrinsic"
+    },
+    "Global Age-Sex Pattern": {
+      "finding": "Young adults 78%F \u2192 Elderly 59%F across all FAERS",
+      "wave": 33,
+      "significance": "Female reporting predominance narrows dramatically with age"
+    },
+    "Polypharmacy Sex-Bias Shift": {
+      "finding": "Combination drugs shift 17.2pp on average vs components. Aspirin+caffeine+paracetamol: 70%F\u219210%F (-60pp)",
+      "wave": 34,
+      "significance": "Drug combinations can dramatically alter sex-differential safety profile"
+    },
+    "Drug Embedding Clusters": {
+      "finding": "8 distinct drug clusters by signal profiles. Cluster 3 (opioids+APs) 78%F, Cluster 2 (respiratory) 35%F",
+      "wave": 38,
+      "significance": "Drug safety signal profiles cluster by sex-bias, confirming pharmacological basis"
+    }
+  }
+}

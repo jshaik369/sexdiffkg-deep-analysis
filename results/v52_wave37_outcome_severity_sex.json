@@ -1,0 +1,439 @@
+{
+  "analysis": "outcome_severity_sex_deep_dive",
+  "wave": 37,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:35:46.527058",
+  "novelty": "Outcome-stratified sex-differential patterns at drug and class level",
+  "outcome_sex": [
+    {
+      "outcome": "DE",
+      "label": "Death",
+      "severity_rank": 5,
+      "n_total": 1361147,
+      "n_female": 623541,
+      "pct_female": 45.8
+    },
+    {
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "severity_rank": 4,
+      "n_total": 451876,
+      "n_female": 235313,
+      "pct_female": 52.1
+    },
+    {
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "severity_rank": 3,
+      "n_total": 3685817,
+      "n_female": 2017669,
+      "pct_female": 54.7
+    },
+    {
+      "outcome": "DS",
+      "label": "Disability",
+      "severity_rank": 2,
+      "n_total": 288673,
+      "n_female": 167167,
+      "pct_female": 57.9
+    },
+    {
+      "outcome": "CA",
+      "label": "Congenital Anomaly",
+      "severity_rank": 2,
+      "n_total": 37307,
+      "n_female": 19400,
+      "pct_female": 52.0
+    },
+    {
+      "outcome": "RI",
+      "label": "Required Intervention",
+      "severity_rank": 1,
+      "n_total": 34059,
+      "n_female": 16435,
+      "pct_female": 48.3
+    },
+    {
+      "outcome": "OT",
+      "label": "Other Serious",
+      "severity_rank": 0,
+      "n_total": 6410644,
+      "n_female": 3661539,
+      "pct_female": 57.1
+    }
+  ],
+  "drug_severity": [
+    {
+      "drug": "RISPERIDONE",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 3865,
+      "pct_female": 25.8
+    },
+    {
+      "drug": "RISPERIDONE",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 1732,
+      "pct_female": 52.7
+    },
+    {
+      "drug": "RISPERIDONE",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 14399,
+      "pct_female": 38.8
+    },
+    {
+      "drug": "RISPERIDONE",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 19310,
+      "pct_female": 39.6
+    },
+    {
+      "drug": "OXYCODONE",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 25783,
+      "pct_female": 58.3
+    },
+    {
+      "drug": "OXYCODONE",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 10946,
+      "pct_female": 75.6
+    },
+    {
+      "drug": "OXYCODONE",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 48802,
+      "pct_female": 59.4
+    },
+    {
+      "drug": "OXYCODONE",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 61817,
+      "pct_female": 60.7
+    },
+    {
+      "drug": "METFORMIN",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 24458,
+      "pct_female": 42.6
+    },
+    {
+      "drug": "METFORMIN",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 20469,
+      "pct_female": 46.4
+    },
+    {
+      "drug": "METFORMIN",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 115350,
+      "pct_female": 49.1
+    },
+    {
+      "drug": "METFORMIN",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 140130,
+      "pct_female": 53.8
+    },
+    {
+      "drug": "WARFARIN",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 12486,
+      "pct_female": 42.8
+    },
+    {
+      "drug": "WARFARIN",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 6414,
+      "pct_female": 37.8
+    },
+    {
+      "drug": "WARFARIN",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 44350,
+      "pct_female": 49.9
+    },
+    {
+      "drug": "WARFARIN",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 44738,
+      "pct_female": 47.8
+    },
+    {
+      "drug": "QUETIAPINE",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 9177,
+      "pct_female": 58.8
+    },
+    {
+      "drug": "QUETIAPINE",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 6745,
+      "pct_female": 72.1
+    },
+    {
+      "drug": "QUETIAPINE",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 25960,
+      "pct_female": 57.9
+    },
+    {
+      "drug": "QUETIAPINE",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 33125,
+      "pct_female": 60.1
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 15070,
+      "pct_female": 95.2
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 15392,
+      "pct_female": 95.6
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 28395,
+      "pct_female": 83.1
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 51957,
+      "pct_female": 76.9
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 7346,
+      "pct_female": 60.7
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 5716,
+      "pct_female": 72.3
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 34780,
+      "pct_female": 72.3
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 49477,
+      "pct_female": 75.5
+    },
+    {
+      "drug": "METHOTREXATE",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 94492,
+      "pct_female": 92.6
+    },
+    {
+      "drug": "METHOTREXATE",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 97254,
+      "pct_female": 95.4
+    },
+    {
+      "drug": "METHOTREXATE",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 179487,
+      "pct_female": 83.5
+    },
+    {
+      "drug": "METHOTREXATE",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 258801,
+      "pct_female": 81.4
+    },
+    {
+      "drug": "DOCETAXEL",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 4708,
+      "pct_female": 49.8
+    },
+    {
+      "drug": "DOCETAXEL",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 2209,
+      "pct_female": 56.3
+    },
+    {
+      "drug": "DOCETAXEL",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 13725,
+      "pct_female": 66.3
+    },
+    {
+      "drug": "DOCETAXEL",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 21193,
+      "pct_female": 64.5
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "outcome": "DE",
+      "label": "Death",
+      "n_total": 26,
+      "pct_female": 61.5
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "outcome": "LT",
+      "label": "Life-Threatening",
+      "n_total": 79,
+      "pct_female": 65.8
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "outcome": "HO",
+      "label": "Hospitalization",
+      "n_total": 515,
+      "pct_female": 67.4
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "outcome": "OT",
+      "label": "Other Serious",
+      "n_total": 640,
+      "pct_female": 59.4
+    }
+  ],
+  "class_severity": [
+    {
+      "class": "Opioids",
+      "outcome": "DE",
+      "n_total": 92877,
+      "pct_female": 48.7
+    },
+    {
+      "class": "Opioids",
+      "outcome": "HO",
+      "n_total": 157971,
+      "pct_female": 59.0
+    },
+    {
+      "class": "Opioids",
+      "outcome": "OT",
+      "n_total": 234640,
+      "pct_female": 58.3
+    },
+    {
+      "class": "Antipsychotics",
+      "outcome": "DE",
+      "n_total": 26445,
+      "pct_female": 41.5
+    },
+    {
+      "class": "Antipsychotics",
+      "outcome": "HO",
+      "n_total": 100721,
+      "pct_female": 46.5
+    },
+    {
+      "class": "Antipsychotics",
+      "outcome": "OT",
+      "n_total": 132029,
+      "pct_female": 49.2
+    },
+    {
+      "class": "Biologics",
+      "outcome": "DE",
+      "n_total": 95814,
+      "pct_female": 85.6
+    },
+    {
+      "class": "Biologics",
+      "outcome": "HO",
+      "n_total": 189438,
+      "pct_female": 74.9
+    },
+    {
+      "class": "Biologics",
+      "outcome": "OT",
+      "n_total": 318917,
+      "pct_female": 70.8
+    },
+    {
+      "class": "Anticoagulants",
+      "outcome": "DE",
+      "n_total": 29144,
+      "pct_female": 44.5
+    },
+    {
+      "class": "Anticoagulants",
+      "outcome": "HO",
+      "n_total": 118664,
+      "pct_female": 48.1
+    },
+    {
+      "class": "Anticoagulants",
+      "outcome": "OT",
+      "n_total": 138639,
+      "pct_female": 49.4
+    },
+    {
+      "class": "Chemotherapy",
+      "outcome": "DE",
+      "n_total": 31848,
+      "pct_female": 45.8
+    },
+    {
+      "class": "Chemotherapy",
+      "outcome": "HO",
+      "n_total": 105374,
+      "pct_female": 56.4
+    },
+    {
+      "class": "Chemotherapy",
+      "outcome": "OT",
+      "n_total": 157988,
+      "pct_female": 56.4
+    }
+  ]
+}

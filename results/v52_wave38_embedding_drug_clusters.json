@@ -1,0 +1,293 @@
+{
+  "analysis": "embedding_drug_clusters_sex_bias",
+  "wave": 38,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:33:48.781559",
+  "novelty": "Drug clustering in embedding/signal space reveals sex-bias-coherent groups",
+  "summary": {
+    "n_drugs_clustered": 818,
+    "n_clusters": 8
+  },
+  "clusters": [
+    {
+      "cluster": 0,
+      "n_drugs": 86,
+      "mean_pctf": 67.0,
+      "std_pctf": 14.0,
+      "representative_drugs": [
+        "RANITIDINE HYDROCHLORIDE",
+        "CYAMEMAZINE",
+        "HYDROCODONE",
+        "DEXAMETHASONE",
+        "SOMATROPIN"
+      ],
+      "defining_aes": [
+        [
+          "Urinary retention",
+          1.147
+        ],
+        [
+          "Dysphagia",
+          0.727
+        ],
+        [
+          "Constipation",
+          0.713
+        ],
+        [
+          "Hypoglycaemia",
+          0.701
+        ],
+        [
+          "Agitation",
+          0.681
+        ]
+      ]
+    },
+    {
+      "cluster": 1,
+      "n_drugs": 49,
+      "mean_pctf": 39.5,
+      "std_pctf": 15.1,
+      "representative_drugs": [
+        "BENZYLPENICILLIN",
+        "VARENICLINE",
+        "CANDESARTAN;HYDROCHLOROTHIAZIDE",
+        "INFLUENZA VACCINE",
+        "RUPATADINE"
+      ],
+      "defining_aes": [
+        [
+          "Pain in extremity",
+          -1.569
+        ],
+        [
+          "Productive cough",
+          -1.563
+        ],
+        [
+          "Loss of personal independence in daily activities",
+          -1.391
+        ],
+        [
+          "Asthma",
+          -1.315
+        ],
+        [
+          "Anxiety",
+          -1.27
+        ]
+      ]
+    },
+    {
+      "cluster": 2,
+      "n_drugs": 44,
+      "mean_pctf": 35.0,
+      "std_pctf": 15.8,
+      "representative_drugs": [
+        "SKIN CARE",
+        "VITAMIN A",
+        "UMECLIDINIUM;VILANTEROL",
+        "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+        "CALCIUM;VITAMIN D, UNSPECIFIED"
+      ],
+      "defining_aes": [
+        [
+          "Abdominal distension",
+          -2.737
+        ],
+        [
+          "Somnolence",
+          -2.462
+        ],
+        [
+          "Stress",
+          -2.388
+        ],
+        [
+          "Sepsis",
+          -2.278
+        ],
+        [
+          "Dry mouth",
+          -2.177
+        ]
+      ]
+    },
+    {
+      "cluster": 3,
+      "n_drugs": 12,
+      "mean_pctf": 78.0,
+      "std_pctf": 8.9,
+      "representative_drugs": [
+        "TRAMADOL",
+        "MORPHINE",
+        "PANTOPRAZOLE",
+        "QUETIAPINE",
+        "DIPHENHYDRAMINE"
+      ],
+      "defining_aes": [
+        [
+          "Upper respiratory tract infection",
+          4.555
+        ],
+        [
+          "Musculoskeletal pain",
+          3.655
+        ],
+        [
+          "Peripheral swelling",
+          3.58
+        ],
+        [
+          "C-reactive protein increased",
+          3.282
+        ],
+        [
+          "Treatment failure",
+          3.218
+        ]
+      ]
+    },
+    {
+      "cluster": 4,
+      "n_drugs": 11,
+      "mean_pctf": 49.4,
+      "std_pctf": 5.6,
+      "representative_drugs": [
+        "PARACETAMOL",
+        "NAPROXEN",
+        "HYDROCORTISONE",
+        "SULFASALAZINE",
+        "HYDROXYCHLOROQUINE"
+      ],
+      "defining_aes": [
+        [
+          "Mobility decreased",
+          3.88
+        ],
+        [
+          "Nasopharyngitis",
+          3.851
+        ],
+        [
+          "Decreased appetite",
+          3.591
+        ],
+        [
+          "Contusion",
+          3.543
+        ],
+        [
+          "Hypoaesthesia",
+          3.484
+        ]
+      ]
+    },
+    {
+      "cluster": 5,
+      "n_drugs": 561,
+      "mean_pctf": 49.9,
+      "std_pctf": 24.6,
+      "representative_drugs": [
+        "BRIMONIDINE;TIMOLOL",
+        "TREOSULFAN",
+        "CENEGERMIN",
+        "ADAPALENE",
+        "BROLUCIZUMAB"
+      ],
+      "defining_aes": [
+        [
+          "Abdominal discomfort",
+          -0.334
+        ],
+        [
+          "Hypersensitivity",
+          -0.326
+        ],
+        [
+          "Abdominal pain upper",
+          -0.325
+        ],
+        [
+          "Rash",
+          -0.305
+        ],
+        [
+          "Pain",
+          -0.299
+        ]
+      ]
+    },
+    {
+      "cluster": 6,
+      "n_drugs": 31,
+      "mean_pctf": 62.7,
+      "std_pctf": 11.5,
+      "representative_drugs": [
+        "C1-INHIBITOR",
+        "ERENUMAB",
+        "INDOMETACIN",
+        "MIRABEGRON",
+        "AMINOSALICYLIC ACID"
+      ],
+      "defining_aes": [
+        [
+          "Asthenia",
+          2.163
+        ],
+        [
+          "Pneumonia",
+          2.143
+        ],
+        [
+          "Diarrhoea",
+          1.938
+        ],
+        [
+          "Pyrexia",
+          1.921
+        ],
+        [
+          "Rash",
+          1.917
+        ]
+      ]
+    },
+    {
+      "cluster": 7,
+      "n_drugs": 24,
+      "mean_pctf": 56.8,
+      "std_pctf": 9.1,
+      "representative_drugs": [
+        "METHOTREXATE",
+        "CERTOLIZUMAB",
+        "PREDNISONE",
+        "INFLIXIMAB",
+        "SECUKINUMAB"
+      ],
+      "defining_aes": [
+        [
+          "Liver injury",
+          4.24
+        ],
+        [
+          "Wound",
+          3.819
+        ],
+        [
+          "Blister",
+          3.367
+        ],
+        [
+          "Blood cholesterol increased",
+          3.25
+        ],
+        [
+          "Type 2 diabetes mellitus",
+          3.05
+        ]
+      ]
+    }
+  ]
+}
