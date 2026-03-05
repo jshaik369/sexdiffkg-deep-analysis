@@ -1,0 +1,60 @@
+{
+  "analysis": "session10_summary_90_wave_milestone",
+  "wave": 90,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:56:34.690943",
+  "novelty": "90-wave milestone: 47 discoveries across 10 sessions",
+  "stats": {
+    "v52_waves": 85,
+    "total_json": 90,
+    "total_figures": 359,
+    "total_discoveries": 46,
+    "sessions": 10
+  },
+  "session10_discoveries": {
+    "AE Onset Gradient rho=1.000": {
+      "wave": 86,
+      "finding": "Perfect monotonic: Immediate 55%F\u2192Chronic 70%F"
+    },
+    "Bone Density 100%F Chronic": {
+      "wave": 86,
+      "finding": "Bone density decreased 100%F, chronic onset"
+    },
+    "Confidence Tier Gradient": {
+      "wave": 87,
+      "finding": "Very High confidence signals 65.5%F vs Low 49.5%F"
+    },
+    "Cardiac Arrest 84.8%F": {
+      "wave": 88,
+      "finding": "Most cardiac AEs strongly female-biased"
+    },
+    "CCB 59pp Range": {
+      "wave": 88,
+      "finding": "Diltiazem 67%F vs Felodipine 8%F within CCBs"
+    },
+    "Palpitations 18.3%F": {
+      "wave": 88,
+      "finding": "Striking reversal: minor cardiac symptom male-biased"
+    },
+    "Geographic Japan Effect": {
+      "wave": 82,
+      "finding": "Japan consistently lower %F (46.5% vs US 62.6%)"
+    },
+    "Secukinumab 60pp Geographic": {
+      "wave": 82,
+      "finding": "JP 30%F vs CA 90%F \u2014 largest geographic drug spread"
+    },
+    "Consumer Reporter 67.5%F": {
+      "wave": 79,
+      "finding": "Consumer reports most female-biased vs pharmacist 56%F"
+    },
+    "Annual Decline -0.295pp/yr": {
+      "wave": 84,
+      "finding": "Female reporting declining since 2013 (rho=-0.829)"
+    },
+    "Opposing Co-Rx Pairs": {
+      "wave": 83,
+      "finding": "14 frequent co-prescriptions have opposing sex-bias"
+    }
+  }
+}

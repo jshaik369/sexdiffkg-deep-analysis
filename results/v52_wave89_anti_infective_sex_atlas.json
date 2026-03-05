@@ -1,0 +1,100 @@
+{
+  "analysis": "anti_infective_sex_atlas",
+  "wave": 89,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:56:34.097792",
+  "novelty": "13-class anti-infective drug sex-bias atlas",
+  "class_results": [
+    {
+      "class": "Glycopeptides",
+      "n_drugs": 2,
+      "mean_pctf": 79.9,
+      "std_pctf": 3.4,
+      "range_pctf": 6.9
+    },
+    {
+      "class": "Antifungals",
+      "n_drugs": 9,
+      "mean_pctf": 74.9,
+      "std_pctf": 17.2,
+      "range_pctf": 50.0
+    },
+    {
+      "class": "Antivirals_other",
+      "n_drugs": 4,
+      "mean_pctf": 63.8,
+      "std_pctf": 20.0,
+      "range_pctf": 54.8
+    },
+    {
+      "class": "Carbapenems",
+      "n_drugs": 3,
+      "mean_pctf": 60.4,
+      "std_pctf": 25.3,
+      "range_pctf": 60.5
+    },
+    {
+      "class": "Antivirals_HIV",
+      "n_drugs": 11,
+      "mean_pctf": 59.6,
+      "std_pctf": 8.6,
+      "range_pctf": 25.3
+    },
+    {
+      "class": "Antivirals_HCV",
+      "n_drugs": 5,
+      "mean_pctf": 55.9,
+      "std_pctf": 24.1,
+      "range_pctf": 61.3
+    },
+    {
+      "class": "Aminoglycosides",
+      "n_drugs": 3,
+      "mean_pctf": 51.2,
+      "std_pctf": 12.4,
+      "range_pctf": 28.3
+    },
+    {
+      "class": "Sulfonamides",
+      "n_drugs": 2,
+      "mean_pctf": 46.9,
+      "std_pctf": 16.7,
+      "range_pctf": 33.4
+    },
+    {
+      "class": "Penicillins",
+      "n_drugs": 6,
+      "mean_pctf": 45.8,
+      "std_pctf": 18.6,
+      "range_pctf": 55.5
+    },
+    {
+      "class": "Cephalosporins",
+      "n_drugs": 7,
+      "mean_pctf": 45.7,
+      "std_pctf": 27.9,
+      "range_pctf": 80.5
+    },
+    {
+      "class": "Tetracyclines",
+      "n_drugs": 3,
+      "mean_pctf": 44.0,
+      "std_pctf": 18.3,
+      "range_pctf": 40.6
+    },
+    {
+      "class": "Fluoroquinolones",
+      "n_drugs": 5,
+      "mean_pctf": 33.3,
+      "std_pctf": 20.9,
+      "range_pctf": 58.9
+    },
+    {
+      "class": "Macrolides",
+      "n_drugs": 3,
+      "mean_pctf": 33.2,
+      "std_pctf": 8.2,
+      "range_pctf": 18.9
+    }
+  ]
+}
