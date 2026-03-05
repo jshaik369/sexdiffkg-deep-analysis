@@ -1,0 +1,785 @@
+{
+  "analysis": "geographic_sex_bias_variation",
+  "wave": 82,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:49:05.032234",
+  "novelty": "Geographic variation in drug AE sex-bias across FAERS reporter countries",
+  "country_sex_distribution": {
+    "US": {
+      "pct_female": 62.6,
+      "total": 11233100
+    },
+    "CA": {
+      "pct_female": 61.2,
+      "total": 820863
+    },
+    "COUNTRY NOT SPECIFIED": {
+      "pct_female": 59.2,
+      "total": 711453
+    },
+    "GB": {
+      "pct_female": 56.1,
+      "total": 553128
+    },
+    "JP": {
+      "pct_female": 46.5,
+      "total": 532314
+    },
+    "FR": {
+      "pct_female": 52.5,
+      "total": 477260
+    },
+    "DE": {
+      "pct_female": 56.3,
+      "total": 363045
+    },
+    "IT": {
+      "pct_female": 54.0,
+      "total": 229703
+    },
+    "CN": {
+      "pct_female": 49.2,
+      "total": 172989
+    },
+    "BR": {
+      "pct_female": 65.7,
+      "total": 140868
+    },
+    "ES": {
+      "pct_female": 51.9,
+      "total": 135997
+    },
+    "AU": {
+      "pct_female": 50.5,
+      "total": 122610
+    },
+    "NL": {
+      "pct_female": 50.3,
+      "total": 110468
+    },
+    "CO": {
+      "pct_female": 57.6,
+      "total": 74843
+    },
+    "IN": {
+      "pct_female": 47.5,
+      "total": 71666
+    }
+  },
+  "drug_country_bias": [
+    {
+      "country": "US",
+      "drug": "ACETYLSALICYLIC ACID",
+      "pct_female": 52.5,
+      "total": 8764
+    },
+    {
+      "country": "US",
+      "drug": "ADALIMUMAB",
+      "pct_female": 57.8,
+      "total": 4115
+    },
+    {
+      "country": "US",
+      "drug": "CYCLOPHOSPHAMIDE",
+      "pct_female": 49.0,
+      "total": 17120
+    },
+    {
+      "country": "US",
+      "drug": "DEXAMETHASONE",
+      "pct_female": 49.2,
+      "total": 45605
+    },
+    {
+      "country": "US",
+      "drug": "ETANERCEPT",
+      "pct_female": 63.9,
+      "total": 1719
+    },
+    {
+      "country": "US",
+      "drug": "INFLIXIMAB",
+      "pct_female": 54.6,
+      "total": 5474
+    },
+    {
+      "country": "US",
+      "drug": "METHOTREXATE",
+      "pct_female": 69.7,
+      "total": 62844
+    },
+    {
+      "country": "US",
+      "drug": "METHYLPREDNISOLONE",
+      "pct_female": 57.8,
+      "total": 17570
+    },
+    {
+      "country": "US",
+      "drug": "MORPHINE",
+      "pct_female": 55.5,
+      "total": 28944
+    },
+    {
+      "country": "US",
+      "drug": "MYCOPHENOLIC ACID",
+      "pct_female": 52.0,
+      "total": 8319
+    },
+    {
+      "country": "US",
+      "drug": "OXYCODONE",
+      "pct_female": 54.9,
+      "total": 69271
+    },
+    {
+      "country": "US",
+      "drug": "PANTOPRAZOLE",
+      "pct_female": 60.4,
+      "total": 75451
+    },
+    {
+      "country": "US",
+      "drug": "PARACETAMOL",
+      "pct_female": 63.2,
+      "total": 5443
+    },
+    {
+      "country": "US",
+      "drug": "PREDNISOLONE",
+      "pct_female": 53.5,
+      "total": 10145
+    },
+    {
+      "country": "US",
+      "drug": "PREDNISONE",
+      "pct_female": 59.3,
+      "total": 112936
+    },
+    {
+      "country": "US",
+      "drug": "RISPERIDONE",
+      "pct_female": 26.8,
+      "total": 11357
+    },
+    {
+      "country": "US",
+      "drug": "RITUXIMAB",
+      "pct_female": 47.8,
+      "total": 16091
+    },
+    {
+      "country": "US",
+      "drug": "SECUKINUMAB",
+      "pct_female": 47.1,
+      "total": 325
+    },
+    {
+      "country": "US",
+      "drug": "TACROLIMUS",
+      "pct_female": 45.6,
+      "total": 29111
+    },
+    {
+      "country": "US",
+      "drug": "TOCILIZUMAB",
+      "pct_female": 40.2,
+      "total": 2789
+    },
+    {
+      "country": "JP",
+      "drug": "ACETYLSALICYLIC ACID",
+      "pct_female": 36.8,
+      "total": 692
+    },
+    {
+      "country": "JP",
+      "drug": "ADALIMUMAB",
+      "pct_female": 52.1,
+      "total": 796
+    },
+    {
+      "country": "JP",
+      "drug": "CYCLOPHOSPHAMIDE",
+      "pct_female": 57.3,
+      "total": 7244
+    },
+    {
+      "country": "JP",
+      "drug": "DEXAMETHASONE",
+      "pct_female": 45.5,
+      "total": 7494
+    },
+    {
+      "country": "JP",
+      "drug": "ETANERCEPT",
+      "pct_female": 72.9,
+      "total": 458
+    },
+    {
+      "country": "JP",
+      "drug": "INFLIXIMAB",
+      "pct_female": 49.4,
+      "total": 1085
+    },
+    {
+      "country": "JP",
+      "drug": "METHOTREXATE",
+      "pct_female": 60.6,
+      "total": 7923
+    },
+    {
+      "country": "JP",
+      "drug": "METHYLPREDNISOLONE",
+      "pct_female": 45.2,
+      "total": 4581
+    },
+    {
+      "country": "JP",
+      "drug": "MORPHINE",
+      "pct_female": 43.1,
+      "total": 501
+    },
+    {
+      "country": "JP",
+      "drug": "MYCOPHENOLIC ACID",
+      "pct_female": 31.6,
+      "total": 57
+    },
+    {
+      "country": "JP",
+      "drug": "OXYCODONE",
+      "pct_female": 35.6,
+      "total": 1406
+    },
+    {
+      "country": "JP",
+      "drug": "PARACETAMOL",
+      "pct_female": 39.2,
+      "total": 474
+    },
+    {
+      "country": "JP",
+      "drug": "PREDNISOLONE",
+      "pct_female": 53.9,
+      "total": 30959
+    },
+    {
+      "country": "JP",
+      "drug": "PREDNISONE",
+      "pct_female": 42.7,
+      "total": 745
+    },
+    {
+      "country": "JP",
+      "drug": "RISPERIDONE",
+      "pct_female": 45.8,
+      "total": 1352
+    },
+    {
+      "country": "JP",
+      "drug": "RITUXIMAB",
+      "pct_female": 45.6,
+      "total": 5926
+    },
+    {
+      "country": "JP",
+      "drug": "SECUKINUMAB",
+      "pct_female": 30.0,
+      "total": 70
+    },
+    {
+      "country": "JP",
+      "drug": "TACROLIMUS",
+      "pct_female": 49.1,
+      "total": 6515
+    },
+    {
+      "country": "JP",
+      "drug": "TOCILIZUMAB",
+      "pct_female": 51.2,
+      "total": 897
+    },
+    {
+      "country": "GB",
+      "drug": "ACETYLSALICYLIC ACID",
+      "pct_female": 47.0,
+      "total": 5992
+    },
+    {
+      "country": "GB",
+      "drug": "ADALIMUMAB",
+      "pct_female": 70.9,
+      "total": 6804
+    },
+    {
+      "country": "GB",
+      "drug": "CYCLOPHOSPHAMIDE",
+      "pct_female": 52.1,
+      "total": 5301
+    },
+    {
+      "country": "GB",
+      "drug": "DEXAMETHASONE",
+      "pct_female": 59.4,
+      "total": 16162
+    },
+    {
+      "country": "GB",
+      "drug": "ETANERCEPT",
+      "pct_female": 68.3,
+      "total": 1955
+    },
+    {
+      "country": "GB",
+      "drug": "INFLIXIMAB",
+      "pct_female": 69.6,
+      "total": 6007
+    },
+    {
+      "country": "GB",
+      "drug": "METHOTREXATE",
+      "pct_female": 70.5,
+      "total": 9671
+    },
+    {
+      "country": "GB",
+      "drug": "METHYLPREDNISOLONE",
+      "pct_female": 57.5,
+      "total": 2106
+    },
+    {
+      "country": "GB",
+      "drug": "MORPHINE",
+      "pct_female": 51.1,
+      "total": 5060
+    },
+    {
+      "country": "GB",
+      "drug": "MYCOPHENOLIC ACID",
+      "pct_female": 45.3,
+      "total": 276
+    },
+    {
+      "country": "GB",
+      "drug": "OXYCODONE",
+      "pct_female": 64.1,
+      "total": 3034
+    },
+    {
+      "country": "GB",
+      "drug": "PANTOPRAZOLE",
+      "pct_female": 49.6,
+      "total": 2651
+    },
+    {
+      "country": "GB",
+      "drug": "PARACETAMOL",
+      "pct_female": 61.5,
+      "total": 27951
+    },
+    {
+      "country": "GB",
+      "drug": "PREDNISOLONE",
+      "pct_female": 54.7,
+      "total": 13185
+    },
+    {
+      "country": "GB",
+      "drug": "PREDNISONE",
+      "pct_female": 44.8,
+      "total": 2139
+    },
+    {
+      "country": "GB",
+      "drug": "RISPERIDONE",
+      "pct_female": 26.1,
+      "total": 3773
+    },
+    {
+      "country": "GB",
+      "drug": "RITUXIMAB",
+      "pct_female": 56.5,
+      "total": 6632
+    },
+    {
+      "country": "GB",
+      "drug": "SECUKINUMAB",
+      "pct_female": 79.5,
+      "total": 823
+    },
+    {
+      "country": "GB",
+      "drug": "TACROLIMUS",
+      "pct_female": 33.2,
+      "total": 2693
+    },
+    {
+      "country": "GB",
+      "drug": "TOCILIZUMAB",
+      "pct_female": 72.9,
+      "total": 1933
+    },
+    {
+      "country": "FR",
+      "drug": "ACETYLSALICYLIC ACID",
+      "pct_female": 41.2,
+      "total": 1135
+    },
+    {
+      "country": "FR",
+      "drug": "ADALIMUMAB",
+      "pct_female": 56.8,
+      "total": 1768
+    },
+    {
+      "country": "FR",
+      "drug": "CYCLOPHOSPHAMIDE",
+      "pct_female": 53.4,
+      "total": 7644
+    },
+    {
+      "country": "FR",
+      "drug": "DEXAMETHASONE",
+      "pct_female": 44.9,
+      "total": 11191
+    },
+    {
+      "country": "FR",
+      "drug": "ETANERCEPT",
+      "pct_female": 52.1,
+      "total": 704
+    },
+    {
+      "country": "FR",
+      "drug": "INFLIXIMAB",
+      "pct_female": 50.1,
+      "total": 1534
+    },
+    {
+      "country": "FR",
+      "drug": "METHOTREXATE",
+      "pct_female": 57.1,
+      "total": 8063
+    },
+    {
+      "country": "FR",
+      "drug": "METHYLPREDNISOLONE",
+      "pct_female": 46.1,
+      "total": 3997
+    },
+    {
+      "country": "FR",
+      "drug": "MORPHINE",
+      "pct_female": 48.4,
+      "total": 4742
+    },
+    {
+      "country": "FR",
+      "drug": "MYCOPHENOLIC ACID",
+      "pct_female": 39.4,
+      "total": 371
+    },
+    {
+      "country": "FR",
+      "drug": "OXYCODONE",
+      "pct_female": 46.8,
+      "total": 2916
+    },
+    {
+      "country": "FR",
+      "drug": "PANTOPRAZOLE",
+      "pct_female": 47.1,
+      "total": 18929
+    },
+    {
+      "country": "FR",
+      "drug": "PARACETAMOL",
+      "pct_female": 55.0,
+      "total": 17209
+    },
+    {
+      "country": "FR",
+      "drug": "PREDNISOLONE",
+      "pct_female": 49.7,
+      "total": 3053
+    },
+    {
+      "country": "FR",
+      "drug": "PREDNISONE",
+      "pct_female": 48.2,
+      "total": 11193
+    },
+    {
+      "country": "FR",
+      "drug": "RISPERIDONE",
+      "pct_female": 42.2,
+      "total": 1814
+    },
+    {
+      "country": "FR",
+      "drug": "RITUXIMAB",
+      "pct_female": 49.4,
+      "total": 8765
+    },
+    {
+      "country": "FR",
+      "drug": "SECUKINUMAB",
+      "pct_female": 66.3,
+      "total": 101
+    },
+    {
+      "country": "FR",
+      "drug": "TACROLIMUS",
+      "pct_female": 39.2,
+      "total": 4200
+    },
+    {
+      "country": "FR",
+      "drug": "TOCILIZUMAB",
+      "pct_female": 58.1,
+      "total": 1152
+    },
+    {
+      "country": "DE",
+      "drug": "ACETYLSALICYLIC ACID",
+      "pct_female": 40.6,
+      "total": 5556
+    },
+    {
+      "country": "DE",
+      "drug": "ADALIMUMAB",
+      "pct_female": 59.0,
+      "total": 2726
+    },
+    {
+      "country": "DE",
+      "drug": "CYCLOPHOSPHAMIDE",
+      "pct_female": 51.1,
+      "total": 5022
+    },
+    {
+      "country": "DE",
+      "drug": "DEXAMETHASONE",
+      "pct_female": 47.5,
+      "total": 14924
+    },
+    {
+      "country": "DE",
+      "drug": "ETANERCEPT",
+      "pct_female": 70.5,
+      "total": 2878
+    },
+    {
+      "country": "DE",
+      "drug": "INFLIXIMAB",
+      "pct_female": 48.3,
+      "total": 1545
+    },
+    {
+      "country": "DE",
+      "drug": "METHOTREXATE",
+      "pct_female": 69.4,
+      "total": 28193
+    },
+    {
+      "country": "DE",
+      "drug": "METHYLPREDNISOLONE",
+      "pct_female": 54.3,
+      "total": 2624
+    },
+    {
+      "country": "DE",
+      "drug": "MORPHINE",
+      "pct_female": 48.7,
+      "total": 1908
+    },
+    {
+      "country": "DE",
+      "drug": "MYCOPHENOLIC ACID",
+      "pct_female": 31.2,
+      "total": 276
+    },
+    {
+      "country": "DE",
+      "drug": "OXYCODONE",
+      "pct_female": 56.8,
+      "total": 1583
+    },
+    {
+      "country": "DE",
+      "drug": "PANTOPRAZOLE",
+      "pct_female": 51.7,
+      "total": 18481
+    },
+    {
+      "country": "DE",
+      "drug": "PARACETAMOL",
+      "pct_female": 60.7,
+      "total": 4346
+    },
+    {
+      "country": "DE",
+      "drug": "PREDNISOLONE",
+      "pct_female": 55.2,
+      "total": 13171
+    },
+    {
+      "country": "DE",
+      "drug": "PREDNISONE",
+      "pct_female": 40.2,
+      "total": 2818
+    },
+    {
+      "country": "DE",
+      "drug": "RISPERIDONE",
+      "pct_female": 53.7,
+      "total": 1191
+    },
+    {
+      "country": "DE",
+      "drug": "RITUXIMAB",
+      "pct_female": 42.5,
+      "total": 8005
+    },
+    {
+      "country": "DE",
+      "drug": "SECUKINUMAB",
+      "pct_female": 56.6,
+      "total": 143
+    },
+    {
+      "country": "DE",
+      "drug": "TACROLIMUS",
+      "pct_female": 33.4,
+      "total": 2602
+    },
+    {
+      "country": "DE",
+      "drug": "TOCILIZUMAB",
+      "pct_female": 53.0,
+      "total": 2215
+    },
+    {
+      "country": "CA",
+      "drug": "ACETYLSALICYLIC ACID",
+      "pct_female": 60.6,
+      "total": 5037
+    },
+    {
+      "country": "CA",
+      "drug": "ADALIMUMAB",
+      "pct_female": 89.4,
+      "total": 29406
+    },
+    {
+      "country": "CA",
+      "drug": "CYCLOPHOSPHAMIDE",
+      "pct_female": 53.2,
+      "total": 9367
+    },
+    {
+      "country": "CA",
+      "drug": "DEXAMETHASONE",
+      "pct_female": 62.5,
+      "total": 14605
+    },
+    {
+      "country": "CA",
+      "drug": "ETANERCEPT",
+      "pct_female": 85.9,
+      "total": 8028
+    },
+    {
+      "country": "CA",
+      "drug": "INFLIXIMAB",
+      "pct_female": 65.9,
+      "total": 64155
+    },
+    {
+      "country": "CA",
+      "drug": "METHOTREXATE",
+      "pct_female": 89.5,
+      "total": 178422
+    },
+    {
+      "country": "CA",
+      "drug": "METHYLPREDNISOLONE",
+      "pct_female": 76.6,
+      "total": 15029
+    },
+    {
+      "country": "CA",
+      "drug": "MORPHINE",
+      "pct_female": 67.9,
+      "total": 12037
+    },
+    {
+      "country": "CA",
+      "drug": "MYCOPHENOLIC ACID",
+      "pct_female": 55.1,
+      "total": 1089
+    },
+    {
+      "country": "CA",
+      "drug": "OXYCODONE",
+      "pct_female": 82.7,
+      "total": 16742
+    },
+    {
+      "country": "CA",
+      "drug": "PANTOPRAZOLE",
+      "pct_female": 68.3,
+      "total": 50432
+    },
+    {
+      "country": "CA",
+      "drug": "PARACETAMOL",
+      "pct_female": 79.2,
+      "total": 1932
+    },
+    {
+      "country": "CA",
+      "drug": "PREDNISOLONE",
+      "pct_female": 80.0,
+      "total": 5728
+    },
+    {
+      "country": "CA",
+      "drug": "PREDNISONE",
+      "pct_female": 77.8,
+      "total": 167790
+    },
+    {
+      "country": "CA",
+      "drug": "RISPERIDONE",
+      "pct_female": 47.0,
+      "total": 4355
+    },
+    {
+      "country": "CA",
+      "drug": "RITUXIMAB",
+      "pct_female": 89.5,
+      "total": 95699
+    },
+    {
+      "country": "CA",
+      "drug": "SECUKINUMAB",
+      "pct_female": 89.8,
+      "total": 1914
+    },
+    {
+      "country": "CA",
+      "drug": "TACROLIMUS",
+      "pct_female": 48.1,
+      "total": 5830
+    },
+    {
+      "country": "CA",
+      "drug": "TOCILIZUMAB",
+      "pct_female": 98.5,
+      "total": 22012
+    }
+  ]
+}

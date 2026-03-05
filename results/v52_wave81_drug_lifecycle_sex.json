@@ -1,0 +1,163 @@
+{
+  "analysis": "drug_lifecycle_sex_bias",
+  "wave": 81,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:48:14.812947",
+  "novelty": "Drug signal count (market maturity proxy) vs sex-bias pattern",
+  "summary": {
+    "n_drugs": 2178,
+    "signals_pctf_rho": 0.132,
+    "signals_pctf_p": 6.136939883149402e-10,
+    "reports_pctf_rho": 0.12,
+    "reports_pctf_p": 1.702030400553933e-08
+  },
+  "quintile_stats": [
+    {
+      "signal_quintile": 1,
+      "n_drugs": 547,
+      "mean_pctf": 44.05850091407678,
+      "std_pctf": 47.71692567929564,
+      "median_pctf": 0.0,
+      "min_signals": 1,
+      "max_signals": 2
+    },
+    {
+      "signal_quintile": 2,
+      "n_drugs": 378,
+      "mean_pctf": 41.92239858906525,
+      "std_pctf": 37.04720749303491,
+      "median_pctf": 33.33333333333333,
+      "min_signals": 3,
+      "max_signals": 6
+    },
+    {
+      "signal_quintile": 3,
+      "n_drugs": 382,
+      "mean_pctf": 42.07664717481472,
+      "std_pctf": 29.729718365158806,
+      "median_pctf": 38.46153846153847,
+      "min_signals": 7,
+      "max_signals": 16
+    },
+    {
+      "signal_quintile": 4,
+      "n_drugs": 439,
+      "mean_pctf": 48.643696406469864,
+      "std_pctf": 26.597172250407706,
+      "median_pctf": 50.0,
+      "min_signals": 17,
+      "max_signals": 57
+    },
+    {
+      "signal_quintile": 5,
+      "n_drugs": 432,
+      "mean_pctf": 53.6907541900265,
+      "std_pctf": 19.923458150416877,
+      "median_pctf": 54.54545454545454,
+      "min_signals": 58,
+      "max_signals": 926
+    }
+  ],
+  "high_signal_drugs": [
+    {
+      "drug_name": "RANITIDINE",
+      "pct_female": 93.51851851851852,
+      "n_signals": 324
+    },
+    {
+      "drug_name": "RISPERIDONE",
+      "pct_female": 92.85714285714286,
+      "n_signals": 518
+    },
+    {
+      "drug_name": "SILDENAFIL",
+      "pct_female": 87.5,
+      "n_signals": 272
+    },
+    {
+      "drug_name": "OXYCODONE",
+      "pct_female": 84.95934959349594,
+      "n_signals": 492
+    },
+    {
+      "drug_name": "LISINOPRIL",
+      "pct_female": 84.52380952380952,
+      "n_signals": 252
+    },
+    {
+      "drug_name": "MORPHINE",
+      "pct_female": 83.44671201814059,
+      "n_signals": 441
+    },
+    {
+      "drug_name": "PREDNISOLONE",
+      "pct_female": 82.47232472324724,
+      "n_signals": 542
+    },
+    {
+      "drug_name": "CLOPIDOGREL",
+      "pct_female": 82.33333333333334,
+      "n_signals": 300
+    },
+    {
+      "drug_name": "MYCOPHENOLATE MOFETIL",
+      "pct_female": 81.2274368231047,
+      "n_signals": 277
+    },
+    {
+      "drug_name": "OXYCODONE;PARACETAMOL",
+      "pct_female": 80.75471698113208,
+      "n_signals": 265
+    },
+    {
+      "drug_name": "DEXAMETHASONE",
+      "pct_female": 80.26070763500931,
+      "n_signals": 537
+    },
+    {
+      "drug_name": "CYTARABINE",
+      "pct_female": 79.56204379562044,
+      "n_signals": 274
+    },
+    {
+      "drug_name": "ETOPOSIDE",
+      "pct_female": 79.12087912087912,
+      "n_signals": 273
+    },
+    {
+      "drug_name": "DIPHENHYDRAMINE",
+      "pct_female": 77.27272727272727,
+      "n_signals": 220
+    },
+    {
+      "drug_name": "METHYLPREDNISOLONE",
+      "pct_female": 77.15930902111324,
+      "n_signals": 521
+    },
+    {
+      "drug_name": "HYDROMORPHONE",
+      "pct_female": 76.52733118971061,
+      "n_signals": 311
+    },
+    {
+      "drug_name": "DIAZEPAM",
+      "pct_female": 76.4,
+      "n_signals": 250
+    },
+    {
+      "drug_name": "MYCOPHENOLIC ACID",
+      "pct_female": 76.33136094674556,
+      "n_signals": 507
+    },
+    {
+      "drug_name": "CISPLATIN",
+      "pct_female": 76.25570776255708,
+      "n_signals": 219
+    },
+    {
+      "drug_name": "VINCRISTINE",
+      "pct_female": 76.20689655172413,
+      "n_signals": 290
+    }
+  ]
+}

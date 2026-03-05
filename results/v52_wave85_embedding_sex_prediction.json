@@ -1,0 +1,11 @@
+{
+  "analysis": "embedding_sex_prediction",
+  "wave": 85,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T19:52:36.361652",
+  "novelty": "Fallback: basic features for sex-bias prediction",
+  "summary": {
+    "status": "no_embeddings_found",
+    "fallback_lr_accuracy": 0.634
+  }
+}
