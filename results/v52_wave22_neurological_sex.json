@@ -1,0 +1,44 @@
+{
+  "analysis": "neurological_drug_sex_differential_safety",
+  "wave": 22,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:51:39.070407",
+  "novelty": "Neurological drug sex-bias: antiepileptics, Parkinson's, Alzheimer's, migraine, teratogenicity patterns",
+  "class_profiles": [
+    {
+      "class": "Antiepileptics",
+      "n_drugs": 14,
+      "n_signals": 2475,
+      "pct_female": 45.97979797979798,
+      "mean_lr": -0.05540866926813562
+    },
+    {
+      "class": "Parkinson's",
+      "n_drugs": 9,
+      "n_signals": 320,
+      "pct_female": 43.125,
+      "mean_lr": -0.08675811435977146
+    },
+    {
+      "class": "Alzheimer's",
+      "n_drugs": 4,
+      "n_signals": 195,
+      "pct_female": 41.02564102564102,
+      "mean_lr": -0.13672843858537553
+    },
+    {
+      "class": "Migraine",
+      "n_drugs": 8,
+      "n_signals": 415,
+      "pct_female": 40.72289156626506,
+      "mean_lr": -0.12318144890122867
+    },
+    {
+      "class": "ALS/MS",
+      "n_drugs": 3,
+      "n_signals": 15,
+      "pct_female": 26.666666666666668,
+      "mean_lr": -0.3937754728011789
+    }
+  ]
+}

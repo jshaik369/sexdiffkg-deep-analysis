@@ -1,0 +1,72 @@
+{
+  "analysis": "endocrine_metabolic_drug_sex_differential",
+  "wave": 21,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T16:51:24.000508",
+  "novelty": "Comprehensive endocrine drug sex-bias: GLP-1 RA, SGLT2i UTI/DKA, insulin, corticosteroids",
+  "class_profiles": [
+    {
+      "class": "Metformin",
+      "n_drugs": 1,
+      "n_signals": 399,
+      "pct_female": 62.40601503759399,
+      "mean_lr": 0.24213419297411856
+    },
+    {
+      "class": "Sulfonylureas",
+      "n_drugs": 3,
+      "n_signals": 57,
+      "pct_female": 68.42105263157895,
+      "mean_lr": 0.32357308261166945
+    },
+    {
+      "class": "SGLT2i",
+      "n_drugs": 4,
+      "n_signals": 320,
+      "pct_female": 59.68750000000001,
+      "mean_lr": 0.11991587457840361
+    },
+    {
+      "class": "GLP-1 RA",
+      "n_drugs": 5,
+      "n_signals": 517,
+      "pct_female": 24.564796905222437,
+      "mean_lr": -0.42951224931909926
+    },
+    {
+      "class": "DPP-4i",
+      "n_drugs": 4,
+      "n_signals": 223,
+      "pct_female": 56.502242152466366,
+      "mean_lr": 0.17337195714589712
+    },
+    {
+      "class": "Insulin",
+      "n_drugs": 1,
+      "n_signals": 339,
+      "pct_female": 39.52802359882006,
+      "mean_lr": -0.21623053890949567
+    },
+    {
+      "class": "TZDs",
+      "n_drugs": 2,
+      "n_signals": 108,
+      "pct_female": 91.66666666666666,
+      "mean_lr": 0.6869135013915444
+    },
+    {
+      "class": "Thyroid",
+      "n_drugs": 3,
+      "n_signals": 328,
+      "pct_female": 20.426829268292682,
+      "mean_lr": -0.8185283998748114
+    },
+    {
+      "class": "Corticosteroids",
+      "n_drugs": 7,
+      "n_signals": 3257,
+      "pct_female": 70.67853853239178,
+      "mean_lr": 0.5252531307714586
+    }
+  ]
+}
