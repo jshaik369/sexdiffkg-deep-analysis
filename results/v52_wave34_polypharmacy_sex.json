@@ -1,0 +1,260 @@
+{
+  "analysis": "polypharmacy_sex_differential",
+  "wave": 34,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:16:30.463006",
+  "novelty": "Combination drugs vs monotherapy sex-bias comparison, component-level shift analysis",
+  "summary": {
+    "mono_drugs": 1907,
+    "combo_drugs": 271,
+    "mono_pctf": 54.0,
+    "combo_pctf": 50.6,
+    "mono_mean_abs_lr": 0.988,
+    "combo_mean_abs_lr": 0.972,
+    "mann_whitney_p": 1.186765910214258e-09
+  },
+  "top_combos": [
+    {
+      "drug_name": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_signals": 327,
+      "pct_female": 63.608562691131496,
+      "n_components": 2
+    },
+    {
+      "drug_name": "OXYCODONE;PARACETAMOL",
+      "n_signals": 265,
+      "pct_female": 80.75471698113208,
+      "n_components": 2
+    },
+    {
+      "drug_name": "FLUTICASONE;SALMETEROL",
+      "n_signals": 252,
+      "pct_female": 35.714285714285715,
+      "n_components": 2
+    },
+    {
+      "drug_name": "BUDESONIDE;FORMOTEROL",
+      "n_signals": 245,
+      "pct_female": 37.55102040816327,
+      "n_components": 2
+    },
+    {
+      "drug_name": "CARBIDOPA;LEVODOPA",
+      "n_signals": 217,
+      "pct_female": 61.75115207373272,
+      "n_components": 2
+    },
+    {
+      "drug_name": "HYDROCODONE;PARACETAMOL",
+      "n_signals": 197,
+      "pct_female": 75.63451776649747,
+      "n_components": 2
+    },
+    {
+      "drug_name": "EMTRICITABINE;TENOFOVIR",
+      "n_signals": 181,
+      "pct_female": 47.51381215469613,
+      "n_components": 2
+    },
+    {
+      "drug_name": "FLUTICASONE;VILANTEROL",
+      "n_signals": 175,
+      "pct_female": 18.857142857142858,
+      "n_components": 2
+    },
+    {
+      "drug_name": "AMOXICILLIN;CLAVULANIC ACID",
+      "n_signals": 162,
+      "pct_female": 42.592592592592595,
+      "n_components": 2
+    },
+    {
+      "drug_name": "SACUBITRIL;VALSARTAN",
+      "n_signals": 157,
+      "pct_female": 67.51592356687898,
+      "n_components": 2
+    },
+    {
+      "drug_name": "CODEINE;PARACETAMOL",
+      "n_signals": 141,
+      "pct_female": 83.68794326241135,
+      "n_components": 2
+    },
+    {
+      "drug_name": "PIPERACILLIN;TAZOBACTAM",
+      "n_signals": 136,
+      "pct_female": 86.02941176470588,
+      "n_components": 2
+    },
+    {
+      "drug_name": "GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "n_signals": 122,
+      "pct_female": 57.377049180327866,
+      "n_components": 4
+    },
+    {
+      "drug_name": "FORMOTEROL;MOMETASONE",
+      "n_signals": 118,
+      "pct_female": 14.40677966101695,
+      "n_components": 2
+    },
+    {
+      "drug_name": "BUPRENORPHINE;NALOXONE",
+      "n_signals": 90,
+      "pct_female": 31.11111111111111,
+      "n_components": 2
+    },
+    {
+      "drug_name": "CALCIUM;VITAMIN D3",
+      "n_signals": 84,
+      "pct_female": 51.19047619047619,
+      "n_components": 2
+    },
+    {
+      "drug_name": "PARACETAMOL;TRAMADOL",
+      "n_signals": 83,
+      "pct_female": 73.49397590361446,
+      "n_components": 2
+    },
+    {
+      "drug_name": "LEDIPASVIR;SOFOSBUVIR",
+      "n_signals": 80,
+      "pct_female": 85.0,
+      "n_components": 2
+    },
+    {
+      "drug_name": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+      "n_signals": 79,
+      "pct_female": 15.18987341772152,
+      "n_components": 3
+    },
+    {
+      "drug_name": "HYDROCHLOROTHIAZIDE;VALSARTAN",
+      "n_signals": 78,
+      "pct_female": 52.56410256410257,
+      "n_components": 2
+    }
+  ],
+  "component_shifts": [
+    {
+      "combo": "ACETYLSALICYLIC ACID;CAFFEINE;PARACETAMOL",
+      "combo_pctf": 10.0,
+      "avg_component_pctf": 69.9526882944233,
+      "delta_pctf": -59.9526882944233
+    },
+    {
+      "combo": "DEXTROMETHORPHAN;QUINIDINE",
+      "combo_pctf": 14.285714285714285,
+      "avg_component_pctf": 72.97297297297297,
+      "delta_pctf": -58.687258687258684
+    },
+    {
+      "combo": "BUPROPION;NALTREXONE",
+      "combo_pctf": 0.0,
+      "avg_component_pctf": 51.748336358136726,
+      "delta_pctf": -51.748336358136726
+    },
+    {
+      "combo": "OMBITASVIR;PARITAPREVIR;RITONAVIR",
+      "combo_pctf": 86.27450980392157,
+      "avg_component_pctf": 42.15686274509804,
+      "delta_pctf": 44.117647058823536
+    },
+    {
+      "combo": "BUPRENORPHINE;NALOXONE",
+      "combo_pctf": 31.11111111111111,
+      "avg_component_pctf": 72.2495894909688,
+      "delta_pctf": -41.13847837985769
+    },
+    {
+      "combo": "ALENDRONIC ACID;VITAMIN D3",
+      "combo_pctf": 4.3478260869565215,
+      "avg_component_pctf": 45.13305442200199,
+      "delta_pctf": -40.78522833504547
+    },
+    {
+      "combo": "FORMOTEROL;MOMETASONE",
+      "combo_pctf": 14.40677966101695,
+      "avg_component_pctf": 47.16577540106952,
+      "delta_pctf": -32.75899574005257
+    },
+    {
+      "combo": "CALCIUM;VITAMIN D, UNSPECIFIED",
+      "combo_pctf": 8.0,
+      "avg_component_pctf": 39.46632420091324,
+      "delta_pctf": -31.466324200913242
+    },
+    {
+      "combo": "BRIMONIDINE;TIMOLOL",
+      "combo_pctf": 0.0,
+      "avg_component_pctf": 29.74358974358974,
+      "delta_pctf": -29.74358974358974
+    },
+    {
+      "combo": "BUDESONIDE;FORMOTEROL;GLYCOPYRRONIUM",
+      "combo_pctf": 69.56521739130434,
+      "avg_component_pctf": 43.636003636003636,
+      "delta_pctf": 25.929213755300708
+    },
+    {
+      "combo": "GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "combo_pctf": 57.377049180327866,
+      "avg_component_pctf": 32.10526315789473,
+      "delta_pctf": 25.271786022433133
+    },
+    {
+      "combo": "CALCIUM;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "combo_pctf": 58.82352941176471,
+      "avg_component_pctf": 34.12460946887767,
+      "delta_pctf": 24.698919942887038
+    },
+    {
+      "combo": "MACROGOL;POTASSIUM;SODIUM CHLORIDE;SODIUM SULFATE;VITAMIN C",
+      "combo_pctf": 15.384615384615385,
+      "avg_component_pctf": 38.96973237114635,
+      "delta_pctf": -23.585116986530963
+    },
+    {
+      "combo": "FLUTICASONE;VILANTEROL",
+      "combo_pctf": 18.857142857142858,
+      "avg_component_pctf": 41.7420814479638,
+      "delta_pctf": -22.88493859082094
+    },
+    {
+      "combo": "METFORMIN;ROSIGLITAZONE",
+      "combo_pctf": 100.0,
+      "avg_component_pctf": 78.01151815709487,
+      "delta_pctf": 21.98848184290513
+    },
+    {
+      "combo": "SOFOSBUVIR;VELPATASVIR",
+      "combo_pctf": 59.375,
+      "avg_component_pctf": 81.33333333333333,
+      "delta_pctf": -21.95833333333333
+    },
+    {
+      "combo": "HYDROCHLOROTHIAZIDE;LOSARTAN",
+      "combo_pctf": 66.66666666666666,
+      "avg_component_pctf": 45.083220872694554,
+      "delta_pctf": 21.583445793972103
+    },
+    {
+      "combo": "IVACAFTOR;LUMACAFTOR",
+      "combo_pctf": 12.5,
+      "avg_component_pctf": 33.33333333333333,
+      "delta_pctf": -20.83333333333333
+    },
+    {
+      "combo": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "combo_pctf": 63.608562691131496,
+      "avg_component_pctf": 43.76100628930818,
+      "delta_pctf": 19.84755640182332
+    },
+    {
+      "combo": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+      "combo_pctf": 50.0,
+      "avg_component_pctf": 31.551207499791293,
+      "delta_pctf": 18.448792500208707
+    }
+  ]
+}

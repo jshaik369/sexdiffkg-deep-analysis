@@ -1,0 +1,465 @@
+{
+  "analysis": "age_sex_interaction",
+  "wave": 33,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T17:19:34.092699",
+  "novelty": "Age-stratified sex-differential analysis using FAERS demographics, crossover detection",
+  "summary": {
+    "reports_with_age": 11113206,
+    "pct_with_age": 100.0
+  },
+  "age_drug_profiles": [
+    {
+      "drug": "RISPERIDONE",
+      "age_group": "young_adult",
+      "n_reports": 49459,
+      "n_female": 19635,
+      "n_male": 29824,
+      "pct_female": 39.7
+    },
+    {
+      "drug": "RISPERIDONE",
+      "age_group": "middle",
+      "n_reports": 102158,
+      "n_female": 28551,
+      "n_male": 73607,
+      "pct_female": 27.9
+    },
+    {
+      "drug": "RISPERIDONE",
+      "age_group": "elderly",
+      "n_reports": 18857,
+      "n_female": 9355,
+      "n_male": 9502,
+      "pct_female": 49.6
+    },
+    {
+      "drug": "OXYCODONE",
+      "age_group": "young_adult",
+      "n_reports": 105765,
+      "n_female": 83902,
+      "n_male": 21863,
+      "pct_female": 79.3
+    },
+    {
+      "drug": "OXYCODONE",
+      "age_group": "middle",
+      "n_reports": 642274,
+      "n_female": 523313,
+      "n_male": 118961,
+      "pct_female": 81.5
+    },
+    {
+      "drug": "OXYCODONE",
+      "age_group": "elderly",
+      "n_reports": 123840,
+      "n_female": 71389,
+      "n_male": 52451,
+      "pct_female": 57.6
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "age_group": "young_adult",
+      "n_reports": 1293,
+      "n_female": 306,
+      "n_male": 987,
+      "pct_female": 23.7
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "age_group": "middle",
+      "n_reports": 8382,
+      "n_female": 4858,
+      "n_male": 3524,
+      "pct_female": 58.0
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "age_group": "elderly",
+      "n_reports": 7333,
+      "n_female": 3253,
+      "n_male": 4080,
+      "pct_female": 44.4
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "age_group": "young_adult",
+      "n_reports": 2186,
+      "n_female": 1976,
+      "n_male": 210,
+      "pct_female": 90.4
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "age_group": "middle",
+      "n_reports": 3921,
+      "n_female": 2468,
+      "n_male": 1453,
+      "pct_female": 62.9
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "age_group": "elderly",
+      "n_reports": 1390,
+      "n_female": 804,
+      "n_male": 586,
+      "pct_female": 57.8
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "age_group": "young_adult",
+      "n_reports": 2057,
+      "n_female": 1727,
+      "n_male": 330,
+      "pct_female": 84.0
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "age_group": "middle",
+      "n_reports": 15609,
+      "n_female": 5125,
+      "n_male": 10484,
+      "pct_female": 32.8
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "age_group": "elderly",
+      "n_reports": 3777,
+      "n_female": 1045,
+      "n_male": 2732,
+      "pct_female": 27.7
+    },
+    {
+      "drug": "METFORMIN",
+      "age_group": "young_adult",
+      "n_reports": 73530,
+      "n_female": 53590,
+      "n_male": 19940,
+      "pct_female": 72.9
+    },
+    {
+      "drug": "METFORMIN",
+      "age_group": "middle",
+      "n_reports": 710531,
+      "n_female": 417479,
+      "n_male": 293052,
+      "pct_female": 58.8
+    },
+    {
+      "drug": "METFORMIN",
+      "age_group": "elderly",
+      "n_reports": 530539,
+      "n_female": 286663,
+      "n_male": 243876,
+      "pct_female": 54.0
+    },
+    {
+      "drug": "QUETIAPINE",
+      "age_group": "young_adult",
+      "n_reports": 101311,
+      "n_female": 70329,
+      "n_male": 30982,
+      "pct_female": 69.4
+    },
+    {
+      "drug": "QUETIAPINE",
+      "age_group": "middle",
+      "n_reports": 231106,
+      "n_female": 192829,
+      "n_male": 38277,
+      "pct_female": 83.4
+    },
+    {
+      "drug": "QUETIAPINE",
+      "age_group": "elderly",
+      "n_reports": 66626,
+      "n_female": 41653,
+      "n_male": 24973,
+      "pct_female": 62.5
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "age_group": "young_adult",
+      "n_reports": 60117,
+      "n_female": 33163,
+      "n_male": 26954,
+      "pct_female": 55.2
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "age_group": "middle",
+      "n_reports": 71534,
+      "n_female": 33476,
+      "n_male": 38058,
+      "pct_female": 46.8
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "age_group": "elderly",
+      "n_reports": 10107,
+      "n_female": 7361,
+      "n_male": 2746,
+      "pct_female": 72.8
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "age_group": "young_adult",
+      "n_reports": 38346,
+      "n_female": 30511,
+      "n_male": 7835,
+      "pct_female": 79.6
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "age_group": "middle",
+      "n_reports": 257488,
+      "n_female": 205771,
+      "n_male": 51717,
+      "pct_female": 79.9
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "age_group": "elderly",
+      "n_reports": 236308,
+      "n_female": 187201,
+      "n_male": 49107,
+      "pct_female": 79.2
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "age_group": "young_adult",
+      "n_reports": 194052,
+      "n_female": 180206,
+      "n_male": 13846,
+      "pct_female": 92.9
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "age_group": "middle",
+      "n_reports": 868325,
+      "n_female": 789569,
+      "n_male": 78756,
+      "pct_female": 90.9
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "age_group": "elderly",
+      "n_reports": 49094,
+      "n_female": 40984,
+      "n_male": 8110,
+      "pct_female": 83.5
+    },
+    {
+      "drug": "ETANERCEPT",
+      "age_group": "young_adult",
+      "n_reports": 30265,
+      "n_female": 26345,
+      "n_male": 3920,
+      "pct_female": 87.0
+    },
+    {
+      "drug": "ETANERCEPT",
+      "age_group": "middle",
+      "n_reports": 209938,
+      "n_female": 186908,
+      "n_male": 23030,
+      "pct_female": 89.0
+    },
+    {
+      "drug": "ETANERCEPT",
+      "age_group": "elderly",
+      "n_reports": 28159,
+      "n_female": 20783,
+      "n_male": 7376,
+      "pct_female": 73.8
+    },
+    {
+      "drug": "WARFARIN",
+      "age_group": "young_adult",
+      "n_reports": 30101,
+      "n_female": 21347,
+      "n_male": 8754,
+      "pct_female": 70.9
+    },
+    {
+      "drug": "WARFARIN",
+      "age_group": "middle",
+      "n_reports": 197175,
+      "n_female": 87436,
+      "n_male": 109739,
+      "pct_female": 44.3
+    },
+    {
+      "drug": "WARFARIN",
+      "age_group": "elderly",
+      "n_reports": 265162,
+      "n_female": 108234,
+      "n_male": 156928,
+      "pct_female": 40.8
+    },
+    {
+      "drug": "METHOTREXATE",
+      "age_group": "young_adult",
+      "n_reports": 871880,
+      "n_female": 824945,
+      "n_male": 46935,
+      "pct_female": 94.6
+    },
+    {
+      "drug": "METHOTREXATE",
+      "age_group": "middle",
+      "n_reports": 5043901,
+      "n_female": 4813454,
+      "n_male": 230447,
+      "pct_female": 95.4
+    },
+    {
+      "drug": "METHOTREXATE",
+      "age_group": "elderly",
+      "n_reports": 389541,
+      "n_female": 303182,
+      "n_male": 86359,
+      "pct_female": 77.8
+    },
+    {
+      "drug": "DOCETAXEL",
+      "age_group": "young_adult",
+      "n_reports": 14620,
+      "n_female": 13030,
+      "n_male": 1590,
+      "pct_female": 89.1
+    },
+    {
+      "drug": "DOCETAXEL",
+      "age_group": "middle",
+      "n_reports": 108120,
+      "n_female": 76488,
+      "n_male": 31632,
+      "pct_female": 70.7
+    },
+    {
+      "drug": "DOCETAXEL",
+      "age_group": "elderly",
+      "n_reports": 45190,
+      "n_female": 27548,
+      "n_male": 17642,
+      "pct_female": 61.0
+    },
+    {
+      "drug": "RANITIDINE",
+      "age_group": "young_adult",
+      "n_reports": 63218,
+      "n_female": 57072,
+      "n_male": 6146,
+      "pct_female": 90.3
+    },
+    {
+      "drug": "RANITIDINE",
+      "age_group": "middle",
+      "n_reports": 280351,
+      "n_female": 211935,
+      "n_male": 68416,
+      "pct_female": 75.6
+    },
+    {
+      "drug": "RANITIDINE",
+      "age_group": "elderly",
+      "n_reports": 79448,
+      "n_female": 50330,
+      "n_male": 29118,
+      "pct_female": 63.3
+    }
+  ],
+  "crossovers": [
+    {
+      "drug": "RISPERIDONE",
+      "young_pctf": 39.7,
+      "elderly_pctf": 49.6,
+      "delta": 9.899999999999999
+    },
+    {
+      "drug": "OXYCODONE",
+      "young_pctf": 79.3,
+      "elderly_pctf": 57.6,
+      "delta": -21.699999999999996
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "young_pctf": 23.7,
+      "elderly_pctf": 44.4,
+      "delta": 20.7
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "young_pctf": 90.4,
+      "elderly_pctf": 57.8,
+      "delta": -32.60000000000001
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "young_pctf": 84.0,
+      "elderly_pctf": 27.7,
+      "delta": -56.3
+    },
+    {
+      "drug": "METFORMIN",
+      "young_pctf": 72.9,
+      "elderly_pctf": 54.0,
+      "delta": -18.900000000000006
+    },
+    {
+      "drug": "QUETIAPINE",
+      "young_pctf": 69.4,
+      "elderly_pctf": 62.5,
+      "delta": -6.900000000000006
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "young_pctf": 55.2,
+      "elderly_pctf": 72.8,
+      "delta": 17.599999999999994
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "young_pctf": 79.6,
+      "elderly_pctf": 79.2,
+      "delta": -0.3999999999999915
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "young_pctf": 92.9,
+      "elderly_pctf": 83.5,
+      "delta": -9.400000000000006
+    },
+    {
+      "drug": "ETANERCEPT",
+      "young_pctf": 87.0,
+      "elderly_pctf": 73.8,
+      "delta": -13.200000000000003
+    },
+    {
+      "drug": "WARFARIN",
+      "young_pctf": 70.9,
+      "elderly_pctf": 40.8,
+      "delta": -30.10000000000001
+    },
+    {
+      "drug": "METHOTREXATE",
+      "young_pctf": 94.6,
+      "elderly_pctf": 77.8,
+      "delta": -16.799999999999997
+    },
+    {
+      "drug": "DOCETAXEL",
+      "young_pctf": 89.1,
+      "elderly_pctf": 61.0,
+      "delta": -28.099999999999994
+    },
+    {
+      "drug": "RANITIDINE",
+      "young_pctf": 90.3,
+      "elderly_pctf": 63.3,
+      "delta": -27.0
+    }
+  ]
+}
