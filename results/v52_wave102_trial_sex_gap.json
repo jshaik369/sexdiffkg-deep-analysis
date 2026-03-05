@@ -1,0 +1,217 @@
+{
+  "analysis": "clinical_trial_sex_gap",
+  "wave": 102,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:47:48.232652",
+  "novelty": "Cross-reference merged KG clinical trials with sex-differential drug safety signals",
+  "summary": {
+    "strong_bias_drugs": 524,
+    "with_trials": 247,
+    "without_trials": 277,
+    "trial_gap_rate": 52.9
+  },
+  "most_urgent": [
+    {
+      "drug_name": "RISPERIDONE",
+      "pct_female": 92.85714285714286,
+      "n_signals": 518,
+      "n_trials": 0,
+      "urgency_score": 267.9387378499667
+    },
+    {
+      "drug_name": "ISOTRETINOIN",
+      "pct_female": 9.216589861751153,
+      "n_signals": 217,
+      "n_trials": 0,
+      "urgency_score": 219.5980705331034
+    },
+    {
+      "drug_name": "MEBEVERINE",
+      "pct_female": 0.0,
+      "n_signals": 52,
+      "n_trials": 0,
+      "urgency_score": 198.5145956776061
+    },
+    {
+      "drug_name": "RANITIDINE HYDROCHLORIDE",
+      "pct_female": 100.0,
+      "n_signals": 50,
+      "n_trials": 0,
+      "urgency_score": 196.59128163621628
+    },
+    {
+      "drug_name": "PEGINTERFERON BETA-1A",
+      "pct_female": 0.0,
+      "n_signals": 46,
+      "n_trials": 0,
+      "urgency_score": 192.50738008550292
+    },
+    {
+      "drug_name": "INTERFERON BETA-1A",
+      "pct_female": 12.941176470588237,
+      "n_signals": 170,
+      "n_trials": 0,
+      "urgency_score": 190.54400238803976
+    },
+    {
+      "drug_name": "INTERFERON BETA-1B",
+      "pct_female": 5.714285714285714,
+      "n_signals": 70,
+      "n_trials": 0,
+      "urgency_score": 188.7758231261154
+    },
+    {
+      "drug_name": "FELODIPINE",
+      "pct_female": 7.59493670886076,
+      "n_signals": 79,
+      "n_trials": 0,
+      "urgency_score": 185.82011678680382
+    },
+    {
+      "drug_name": "FAMPRIDINE",
+      "pct_female": 10.909090909090908,
+      "n_signals": 110,
+      "n_trials": 0,
+      "urgency_score": 184.09981696039125
+    },
+    {
+      "drug_name": "TERIFLUNOMIDE",
+      "pct_female": 7.792207792207792,
+      "n_signals": 77,
+      "n_trials": 0,
+      "urgency_score": 183.88706086676848
+    },
+    {
+      "drug_name": "GLATIRAMER",
+      "pct_female": 11.403508771929824,
+      "n_signals": 114,
+      "n_trials": 0,
+      "urgency_score": 183.13773127016054
+    },
+    {
+      "drug_name": "ALBENDAZOLE",
+      "pct_female": 5.172413793103448,
+      "n_signals": 58,
+      "n_trials": 0,
+      "urgency_score": 182.7861612785323
+    },
+    {
+      "drug_name": "PEGVALIASE",
+      "pct_female": 0.0,
+      "n_signals": 37,
+      "n_trials": 0,
+      "urgency_score": 181.87930798631928
+    },
+    {
+      "drug_name": "PALIPERIDONE",
+      "pct_female": 85.71428571428571,
+      "n_signals": 161,
+      "n_trials": 0,
+      "urgency_score": 181.69986911544225
+    },
+    {
+      "drug_name": "PRASUGREL",
+      "pct_female": 96.0,
+      "n_signals": 50,
+      "n_trials": 0,
+      "urgency_score": 180.86397910531898
+    },
+    {
+      "drug_name": "AXICABTAGENE CILOLEUCEL",
+      "pct_female": 93.54838709677419,
+      "n_signals": 62,
+      "n_trials": 0,
+      "urgency_score": 180.4268348589861
+    },
+    {
+      "drug_name": "SIPONIMOD",
+      "pct_female": 4.166666666666666,
+      "n_signals": 48,
+      "n_trials": 0,
+      "urgency_score": 178.37509699673706
+    },
+    {
+      "drug_name": "PIPERACILLIN;TAZOBACTAM",
+      "pct_female": 86.02941176470588,
+      "n_signals": 136,
+      "n_trials": 0,
+      "urgency_score": 177.2640186511604
+    },
+    {
+      "drug_name": "TEPROTUMUMAB",
+      "pct_female": 0.0,
+      "n_signals": 33,
+      "n_trials": 0,
+      "urgency_score": 176.31802623080807
+    },
+    {
+      "drug_name": "BASILIXIMAB",
+      "pct_female": 88.11881188118812,
+      "n_signals": 101,
+      "n_trials": 0,
+      "urgency_score": 176.29846862519253
+    }
+  ],
+  "reanalysis_opportunities": [
+    {
+      "drug_name": "KETOTIFEN",
+      "pct_female": 0.0,
+      "n_signals": 10,
+      "n_trials": 1
+    },
+    {
+      "drug_name": "CHORIONIC GONADOTROPHIN",
+      "pct_female": 0.0,
+      "n_signals": 14,
+      "n_trials": 3
+    },
+    {
+      "drug_name": "CITRIC ACID;MAGNESIUM;SODIUM PICOSULFATE",
+      "pct_female": 0.0,
+      "n_signals": 10,
+      "n_trials": 1
+    },
+    {
+      "drug_name": "TALC",
+      "pct_female": 0.0,
+      "n_signals": 11,
+      "n_trials": 1
+    },
+    {
+      "drug_name": "IOPAMIDOL",
+      "pct_female": 0.0,
+      "n_signals": 13,
+      "n_trials": 1
+    },
+    {
+      "drug_name": "ESTRADIOL",
+      "pct_female": 0.0,
+      "n_signals": 18,
+      "n_trials": 24
+    },
+    {
+      "drug_name": "TRASTUZUMAB EMTANSINE",
+      "pct_female": 0.0,
+      "n_signals": 17,
+      "n_trials": 10
+    },
+    {
+      "drug_name": "MIFEPRISTONE",
+      "pct_female": 0.0,
+      "n_signals": 47,
+      "n_trials": 15
+    },
+    {
+      "drug_name": "FLUDARABINE PHOSPHATE",
+      "pct_female": 97.2972972972973,
+      "n_signals": 37,
+      "n_trials": 11
+    },
+    {
+      "drug_name": "SODIUM CITRATE",
+      "pct_female": 3.7037037037037033,
+      "n_signals": 27,
+      "n_trials": 1
+    }
+  ]
+}

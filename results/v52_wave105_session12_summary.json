@@ -1,0 +1,50 @@
+{
+  "analysis": "session_12_summary",
+  "wave": 105,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:53:02.304157",
+  "novelty": "Session 12: Phase 3 deep research swarms complete \u2014 4 novel merged-KG analyses",
+  "stats": {
+    "total_waves": 100,
+    "total_json": 105,
+    "total_figures": 368,
+    "session_12_waves": "101-105",
+    "session_12_discoveries": 4
+  },
+  "session12_discoveries": {
+    "Disease-Drug-Sex Triangulation": {
+      "wave": 101,
+      "finding": "Diseases mapped via gene associations to sex-biased drug safety profiles",
+      "novelty": "First disease-gene-drug-sex chain analysis using merged KG"
+    },
+    "Clinical Trial Sex-Gap": {
+      "wave": 102,
+      "finding": "Drugs with strong sex-differential signals cross-referenced with trial coverage",
+      "novelty": "Identifies drugs most urgently needing sex-stratified trials"
+    },
+    "Herb-Target Sex-Bias Bridge": {
+      "wave": 103,
+      "finding": "Ayurvedic herbs linked to sex-biased drug safety via shared molecular targets",
+      "novelty": "First herb-compound-target-drug safety sex-bias prediction"
+    },
+    "PPI Sex-Bias Propagation": {
+      "wave": 104,
+      "finding": "Sex-bias scores propagated through STRING PPI network to find bias hubs",
+      "novelty": "Network-level sex-bias analysis reveals hidden bias in untargeted proteins"
+    }
+  },
+  "all_sessions": {
+    "Session 1 (W1-5)": "Core signals, severity gradient, reporter bias",
+    "Session 2 (W6-10)": "Drug classes, organ systems, CPI hepatotox",
+    "Session 3 (W11-13)": "Severity gradient, anti-regression, validation",
+    "Session 4 (W14-17)": "NSAID paradox, opioid predominance, cross-organ reversal",
+    "Session 5 (W18-30)": "TZD 91.7%F, GLP-1 male bias, atypical AP 90pp, trial gap",
+    "Session 6 (W31-40)": "Top 100 atlas, AE reversibility, age crossover, polypharmacy",
+    "Session 7 (W41-50)": "Split-half r=0.876, GR discordance, organ hierarchy, DNA repair, universal AEs",
+    "Session 8 (W51-60)": "Embedding clusters, signal recalibration, cross-validation",
+    "Session 9 (W61-75)": "Therapeutic atlases, drug lifecycle, geographic variation",
+    "Session 10 (W76-90)": "AE communities, severity v2, onset gradient, CV atlas",
+    "Session 11 (W91-100)": "CENTENNIAL \u2014 autoimmune atlas, organ SOC, enrichment, validation summary",
+    "Session 12 (W101-105)": "PHASE 3 \u2014 disease triangulation, trial gaps, herb bridge, PPI propagation"
+  }
+}

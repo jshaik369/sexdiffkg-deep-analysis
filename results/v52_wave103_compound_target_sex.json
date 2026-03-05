@@ -1,0 +1,454 @@
+{
+  "analysis": "compound_target_sex_bias",
+  "wave": 103,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T21:49:08.206711",
+  "novelty": "Gene target-level sex-bias analysis and multi-target drug profiles",
+  "summary": {
+    "gene_targets_analyzed": 71,
+    "female_biased_targets": 20,
+    "male_biased_targets": 15,
+    "drugs_with_target_data": 477
+  },
+  "top_targets": [
+    {
+      "gene_id": "GABA-A receptor; anion channel",
+      "gene_name": "GABA-A receptor; anion channel",
+      "n_drugs": 14,
+      "mean_pctf": 54.1,
+      "std_pctf": 15.5,
+      "range_pctf": 58.2,
+      "drugs": [
+        "PRAZEPAM",
+        "OXAZEPAM",
+        "LORAZEPAM",
+        "MIDAZOLAM",
+        "TRIAZOLAM",
+        "DIAZEPAM",
+        "PRIMIDONE",
+        "CLOBAZAM"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "D(2) dopamine receptor",
+      "gene_name": "D(2) dopamine receptor",
+      "n_drugs": 14,
+      "mean_pctf": 56.7,
+      "std_pctf": 26.2,
+      "range_pctf": 79.2,
+      "drugs": [
+        "RISPERIDONE",
+        "PERPHENAZINE",
+        "DOMPERIDONE",
+        "PALIPERIDONE",
+        "PROCHLORPERAZINE",
+        "ARIPIPRAZOLE",
+        "LUMATEPERONE",
+        "QUETIAPINE FUMARATE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Glucocorticoid receptor",
+      "gene_name": "Glucocorticoid receptor",
+      "n_drugs": 14,
+      "mean_pctf": 52.1,
+      "std_pctf": 25.0,
+      "range_pctf": 91.2,
+      "drugs": [
+        "METHYLPREDNISOLONE SODIUM SUCCINATE",
+        "BETAMETHASONE",
+        "DEXAMETHASONE",
+        "DESOXIMETASONE",
+        "MIFEPRISTONE",
+        "PREDNISOLONE",
+        "BUDESONIDE",
+        "DESONIDE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "5-hydroxytryptamine receptor 2A",
+      "gene_name": "5-hydroxytryptamine receptor 2A",
+      "n_drugs": 13,
+      "mean_pctf": 60.4,
+      "std_pctf": 21.6,
+      "range_pctf": 79.2,
+      "drugs": [
+        "RISPERIDONE",
+        "OLANZAPINE",
+        "CHLORPROMAZINE",
+        "HALOPERIDOL",
+        "PALIPERIDONE",
+        "ARIPIPRAZOLE",
+        "LOXAPINE",
+        "LUMATEPERONE"
+      ],
+      "direction": "female"
+    },
+    {
+      "gene_id": "Cyclooxygenase",
+      "gene_name": "Cyclooxygenase",
+      "n_drugs": 12,
+      "mean_pctf": 57.1,
+      "std_pctf": 15.5,
+      "range_pctf": 55.6,
+      "drugs": [
+        "ASPIRIN",
+        "IBUPROFEN",
+        "LOXOPROFEN",
+        "PIROXICAM",
+        "DICLOFENAC SODIUM",
+        "INDOMETHACIN",
+        "SULFASALAZINE",
+        "ACETAMINOPHEN"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Sodium channel alpha subunit",
+      "gene_name": "Sodium channel alpha subunit",
+      "n_drugs": 10,
+      "mean_pctf": 41.9,
+      "std_pctf": 15.3,
+      "range_pctf": 48.5,
+      "drugs": [
+        "ESLICARBAZEPINE",
+        "LAMOTRIGINE",
+        "OXCARBAZEPINE",
+        "CARBAMAZEPINE",
+        "PHENYTOIN",
+        "PRIMIDONE",
+        "LACOSAMIDE",
+        "ZONISAMIDE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Type-1 angiotensin II receptor",
+      "gene_name": "Type-1 angiotensin II receptor",
+      "n_drugs": 9,
+      "mean_pctf": 49.6,
+      "std_pctf": 9.3,
+      "range_pctf": 33.3,
+      "drugs": [
+        "OLMESARTAN",
+        "CANDESARTAN CILEXETIL",
+        "LOSARTAN POTASSIUM",
+        "TELMISARTAN",
+        "OLMESARTAN MEDOXOMIL",
+        "CANDESARTAN",
+        "VALSARTAN",
+        "SPARSENTAN"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Mu-type opioid receptor",
+      "gene_name": "Mu-type opioid receptor",
+      "n_drugs": 8,
+      "mean_pctf": 58.4,
+      "std_pctf": 20.4,
+      "range_pctf": 72.2,
+      "drugs": [
+        "OXYCODONE",
+        "FENTANYL",
+        "OXYCODONE HYDROCHLORIDE",
+        "FENTANYL CITRATE",
+        "MORPHINE SULFATE",
+        "TRAMADOL HYDROCHLORIDE",
+        "HYDROMORPHONE HYDROCHLORIDE",
+        "BUPRENORPHINE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Sodium-dependent serotonin transporter",
+      "gene_name": "Sodium-dependent serotonin transporter",
+      "n_drugs": 8,
+      "mean_pctf": 35.6,
+      "std_pctf": 23.8,
+      "range_pctf": 72.5,
+      "drugs": [
+        "DULOXETINE HYDROCHLORIDE",
+        "MIDOMAFETAMINE",
+        "PAROXETINE HYDROCHLORIDE",
+        "LUMATEPERONE",
+        "SERTRALINE HYDROCHLORIDE",
+        "DESVENLAFAXINE",
+        "FLUOXETINE HYDROCHLORIDE",
+        "VENLAFAXINE HYDROCHLORIDE"
+      ],
+      "direction": "male"
+    },
+    {
+      "gene_id": "Tubulin",
+      "gene_name": "Tubulin",
+      "n_drugs": 8,
+      "mean_pctf": 57.9,
+      "std_pctf": 30.8,
+      "range_pctf": 81.2,
+      "drugs": [
+        "TRASTUZUMAB EMTANSINE",
+        "POLATUZUMAB VEDOTIN",
+        "ENFORTUMAB VEDOTIN",
+        "PACLITAXEL",
+        "VINCRISTINE SULFATE",
+        "DOCETAXEL",
+        "BRENTUXIMAB VEDOTIN",
+        "COLCHICINE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Interferon alpha/beta receptor",
+      "gene_name": "Interferon alpha/beta receptor",
+      "n_drugs": 7,
+      "mean_pctf": 23.7,
+      "std_pctf": 22.7,
+      "range_pctf": 54.7,
+      "drugs": [
+        "INTERFERON BETA-1B",
+        "INTERFERON BETA-1A",
+        "PEGINTERFERON ALFA-2B",
+        "INTERFERON ALFA-2B",
+        "PEGINTERFERON BETA-1A",
+        "PEGINTERFERON ALFA-2A",
+        "ROPEGINTERFERON ALFA-2B"
+      ],
+      "direction": "male"
+    },
+    {
+      "gene_id": "Mast/stem cell growth factor receptor Kit",
+      "gene_name": "Mast/stem cell growth factor receptor Kit",
+      "n_drugs": 7,
+      "mean_pctf": 51.4,
+      "std_pctf": 23.4,
+      "range_pctf": 72.5,
+      "drugs": [
+        "AVAPRITINIB",
+        "RIPRETINIB",
+        "PEXIDARTINIB",
+        "SUNITINIB",
+        "MIDOSTAURIN",
+        "IMATINIB MESYLATE",
+        "REGORAFENIB"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Histamine H1 receptor",
+      "gene_name": "Histamine H1 receptor",
+      "n_drugs": 7,
+      "mean_pctf": 37.7,
+      "std_pctf": 10.9,
+      "range_pctf": 34.5,
+      "drugs": [
+        "DESLORATADINE",
+        "BILASTINE",
+        "DOXEPIN",
+        "RUPATADINE",
+        "CETIRIZINE HYDROCHLORIDE",
+        "LORATADINE",
+        "DIMENHYDRINATE"
+      ],
+      "direction": "male"
+    },
+    {
+      "gene_id": "5-hydroxytryptamine receptor 2C",
+      "gene_name": "5-hydroxytryptamine receptor 2C",
+      "n_drugs": 6,
+      "mean_pctf": 70.0,
+      "std_pctf": 16.6,
+      "range_pctf": 40.9,
+      "drugs": [
+        "RISPERIDONE",
+        "OLANZAPINE",
+        "LOXAPINE",
+        "QUETIAPINE FUMARATE",
+        "ZIPRASIDONE HYDROCHLORIDE",
+        "MIRTAZAPINE"
+      ],
+      "direction": "female"
+    },
+    {
+      "gene_id": "Glucagon-like peptide 1 receptor",
+      "gene_name": "Glucagon-like peptide 1 receptor",
+      "n_drugs": 6,
+      "mean_pctf": 23.6,
+      "std_pctf": 10.4,
+      "range_pctf": 30.7,
+      "drugs": [
+        "DULAGLUTIDE",
+        "EXENATIDE",
+        "SEMAGLUTIDE",
+        "TIRZEPATIDE",
+        "ALBIGLUTIDE",
+        "LIRAGLUTIDE"
+      ],
+      "direction": "male"
+    },
+    {
+      "gene_id": "Sodium-dependent noradrenaline transporter",
+      "gene_name": "Sodium-dependent noradrenaline transporter",
+      "n_drugs": 6,
+      "mean_pctf": 49.2,
+      "std_pctf": 27.9,
+      "range_pctf": 72.5,
+      "drugs": [
+        "DULOXETINE HYDROCHLORIDE",
+        "MIDOMAFETAMINE",
+        "METHYLPHENIDATE",
+        "DESVENLAFAXINE",
+        "BUPROPION HYDROCHLORIDE",
+        "VENLAFAXINE HYDROCHLORIDE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Beta-1 adrenergic receptor",
+      "gene_name": "Beta-1 adrenergic receptor",
+      "n_drugs": 6,
+      "mean_pctf": 42.8,
+      "std_pctf": 12.7,
+      "range_pctf": 41.2,
+      "drugs": [
+        "ATENOLOL",
+        "BISOPROLOL FUMARATE",
+        "METOPROLOL SUCCINATE",
+        "TIMOLOL",
+        "NADOLOL",
+        "METOPROLOL TARTRATE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "D2-like dopamine receptor",
+      "gene_name": "D2-like dopamine receptor",
+      "n_drugs": 6,
+      "mean_pctf": 56.0,
+      "std_pctf": 16.8,
+      "range_pctf": 52.0,
+      "drugs": [
+        "OLANZAPINE",
+        "CHLORPROMAZINE",
+        "HALOPERIDOL",
+        "LEVOMEPROMAZINE",
+        "LOXAPINE",
+        "ROTIGOTINE"
+      ],
+      "direction": "mixed"
+    },
+    {
+      "gene_id": "Epidermal growth factor receptor",
+      "gene_name": "Epidermal growth factor receptor",
+      "n_drugs": 6,
+      "mean_pctf": 64.5,
+      "std_pctf": 8.6,
+      "range_pctf": 23.1,
+      "drugs": [
+        "PANITUMUMAB",
+        "CETUXIMAB",
+        "OSIMERTINIB",
+        "BRIGATINIB",
+        "GEFITINIB",
+        "VANDETANIB"
+      ],
+      "direction": "female"
+    },
+    {
+      "gene_id": "Potassium-transporting ATPase",
+      "gene_name": "Potassium-transporting ATPase",
+      "n_drugs": 5,
+      "mean_pctf": 59.3,
+      "std_pctf": 14.6,
+      "range_pctf": 41.6,
+      "drugs": [
+        "DEXLANSOPRAZOLE",
+        "OMEPRAZOLE",
+        "LANSOPRAZOLE",
+        "ESOMEPRAZOLE MAGNESIUM",
+        "PANTOPRAZOLE SODIUM"
+      ],
+      "direction": "mixed"
+    }
+  ],
+  "multi_target_drugs": [
+    {
+      "drug": "REGORAFENIB",
+      "n_targets": 15,
+      "pctf": 74.3
+    },
+    {
+      "drug": "SUNITINIB",
+      "n_targets": 9,
+      "pctf": 65.6
+    },
+    {
+      "drug": "VANDETANIB",
+      "n_targets": 7,
+      "pctf": 63.6
+    },
+    {
+      "drug": "SEVOFLURANE",
+      "n_targets": 7,
+      "pctf": 50.0
+    },
+    {
+      "drug": "TOPIRAMATE",
+      "n_targets": 6,
+      "pctf": 48.0
+    },
+    {
+      "drug": "CRIZOTINIB",
+      "n_targets": 6,
+      "pctf": 60.5
+    },
+    {
+      "drug": "MIDOSTAURIN",
+      "n_targets": 5,
+      "pctf": 50.0
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "n_targets": 4,
+      "pctf": 46.7
+    },
+    {
+      "drug": "DOXYCYCLINE",
+      "n_targets": 4,
+      "pctf": 58.7
+    },
+    {
+      "drug": "IMATINIB MESYLATE",
+      "n_targets": 4,
+      "pctf": 84.0
+    },
+    {
+      "drug": "DEFIBROTIDE",
+      "n_targets": 4,
+      "pctf": 93.8
+    },
+    {
+      "drug": "BOSUTINIB",
+      "n_targets": 4,
+      "pctf": 52.9
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_targets": 3,
+      "pctf": 92.9
+    },
+    {
+      "drug": "THEOPHYLLINE",
+      "n_targets": 3,
+      "pctf": 30.0
+    },
+    {
+      "drug": "LOXAPINE",
+      "n_targets": 3,
+      "pctf": 66.7
+    }
+  ]
+}
