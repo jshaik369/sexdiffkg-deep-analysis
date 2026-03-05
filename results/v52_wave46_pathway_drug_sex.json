@@ -1,0 +1,194 @@
+{
+  "analysis": "pathway_drug_sex_bias",
+  "wave": 46,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-05T18:11:25.752693",
+  "novelty": "Reactome pathway-level sex-bias analysis via drug target mapping",
+  "summary": {
+    "pathways_analyzed": 229,
+    "female_biased_pathways": 32,
+    "male_biased_pathways": 22
+  },
+  "top_pathways": [
+    {
+      "pathway_id": "PATHWAY_KEGG:Neuroactive ligand-receptor interaction",
+      "pathway_name": "Neuroactive ligand-receptor interaction",
+      "n_drugs": 118,
+      "mean_pctf": 46.8,
+      "std_pctf": 22.3,
+      "range_pctf": 100.0,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Neuroactive ligand signaling",
+      "pathway_name": "Neuroactive ligand signaling",
+      "n_drugs": 77,
+      "mean_pctf": 47.9,
+      "std_pctf": 21.9,
+      "range_pctf": 91.7,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Calcium signaling pathway",
+      "pathway_name": "Calcium signaling pathway",
+      "n_drugs": 69,
+      "mean_pctf": 47.1,
+      "std_pctf": 20.9,
+      "range_pctf": 100.0,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Pathways in cancer",
+      "pathway_name": "Pathways in cancer",
+      "n_drugs": 64,
+      "mean_pctf": 46.9,
+      "std_pctf": 20.6,
+      "range_pctf": 93.8,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Metabolic pathways",
+      "pathway_name": "Metabolic pathways",
+      "n_drugs": 57,
+      "mean_pctf": 56.5,
+      "std_pctf": 21.2,
+      "range_pctf": 87.4,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Hormone signaling",
+      "pathway_name": "Hormone signaling",
+      "n_drugs": 47,
+      "mean_pctf": 43.1,
+      "std_pctf": 19.7,
+      "range_pctf": 81.6,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:cAMP signaling pathway",
+      "pathway_name": "cAMP signaling pathway",
+      "n_drugs": 44,
+      "mean_pctf": 42.5,
+      "std_pctf": 19.4,
+      "range_pctf": 86.2,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:PI3K-Akt signaling pathway",
+      "pathway_name": "PI3K-Akt signaling pathway",
+      "n_drugs": 43,
+      "mean_pctf": 48.7,
+      "std_pctf": 22.8,
+      "range_pctf": 93.5,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Chemical carcinogenesis",
+      "pathway_name": "Chemical carcinogenesis",
+      "n_drugs": 42,
+      "mean_pctf": 45.5,
+      "std_pctf": 20.9,
+      "range_pctf": 88.0,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:cGMP-PKG signaling pathway",
+      "pathway_name": "cGMP-PKG signaling pathway",
+      "n_drugs": 41,
+      "mean_pctf": 49.7,
+      "std_pctf": 21.0,
+      "range_pctf": 87.6,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Serotonergic synapse",
+      "pathway_name": "Serotonergic synapse",
+      "n_drugs": 37,
+      "mean_pctf": 41.8,
+      "std_pctf": 23.1,
+      "range_pctf": 85.3,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Gap junction",
+      "pathway_name": "Gap junction",
+      "n_drugs": 36,
+      "mean_pctf": 54.1,
+      "std_pctf": 21.7,
+      "range_pctf": 92.9,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Pathways of neurodegeneration",
+      "pathway_name": "Pathways of neurodegeneration",
+      "n_drugs": 35,
+      "mean_pctf": 46.1,
+      "std_pctf": 23.5,
+      "range_pctf": 81.2,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:MAPK signaling pathway",
+      "pathway_name": "MAPK signaling pathway",
+      "n_drugs": 32,
+      "mean_pctf": 42.7,
+      "std_pctf": 22.8,
+      "range_pctf": 84.8,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Alzheimer disease",
+      "pathway_name": "Alzheimer disease",
+      "n_drugs": 32,
+      "mean_pctf": 46.6,
+      "std_pctf": 24.8,
+      "range_pctf": 81.2,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Retrograde endocannabinoid signaling",
+      "pathway_name": "Retrograde endocannabinoid signaling",
+      "n_drugs": 31,
+      "mean_pctf": 48.9,
+      "std_pctf": 17.5,
+      "range_pctf": 68.8,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Hematopoietic cell lineage",
+      "pathway_name": "Hematopoietic cell lineage",
+      "n_drugs": 31,
+      "mean_pctf": 54.4,
+      "std_pctf": 22.3,
+      "range_pctf": 82.0,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Renin secretion",
+      "pathway_name": "Renin secretion",
+      "n_drugs": 31,
+      "mean_pctf": 49.1,
+      "std_pctf": 21.6,
+      "range_pctf": 86.2,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Vascular smooth muscle contraction",
+      "pathway_name": "Vascular smooth muscle contraction",
+      "n_drugs": 30,
+      "mean_pctf": 47.2,
+      "std_pctf": 19.3,
+      "range_pctf": 79.4,
+      "consensus": "mixed"
+    },
+    {
+      "pathway_id": "PATHWAY_KEGG:Phospholipase D signaling pathway",
+      "pathway_name": "Phospholipase D signaling pathway",
+      "n_drugs": 30,
+      "mean_pctf": 53.1,
+      "std_pctf": 19.4,
+      "range_pctf": 82.2,
+      "consensus": "mixed"
+    }
+  ]
+}
