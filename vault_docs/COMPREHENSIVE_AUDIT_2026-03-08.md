@@ -441,9 +441,87 @@ The Technical Validation section is thorough:
 
 ---
 
-## SECTION 8: METHODS ASSESSMENT (Does it Follow Standards?)
+## SECTION 8: CROSS-CUTTING ISSUES (Statistical Audit Deep Dive)
 
-### Pharmacovigilance Standards
+### 8.1 Signal Definition Inconsistency Across Scripts
+
+A critical cross-cutting issue: the definition of a "sex-differential signal" varies across four different scripts, creating internal inconsistency:
+
+| Script | Signal Definition | Threshold | FDR? | Min Reports |
+|--------|------------------|-----------|------|-------------|
+| `04_compute_signals.py` (primary) | ROR lower CI > 1 AND a >= 5 AND FDR < 0.05 AND \|ln ratio\| >= 0.5 | Full | Yes | 5 per cell |
+| `v4_10_temporal_validation.py` | \|ln ratio\| >= 0.5 only | Magnitude-only | No | None |
+| `v4_13_canada_vigilance_signals.py` | ROR lower CI > 1 AND a >= 3 | Looser | No | 3 per cell |
+| `v4_09_statistical_tests.py` | Uses primary signal set | N/A | N/A | N/A |
+
+**Impact**: Temporal validation and Canada Vigilance analyses use weaker signal definitions than the primary pipeline. This means "replication" rates (84% directional precision) may be inflated — the validation is confirming direction of weaker signals, not testing whether the full primary signal definition holds in new data.
+
+**Recommendation**: Harmonize signal definitions or explicitly document and justify the differences. At minimum, temporal validation should apply CI and FDR thresholds, not just magnitude.
+
+### 8.2 OHDSI Best Practices Violations
+
+The OHDSI/OMOP community has established best practices for observational health data analysis. Several are not followed:
+
+| OHDSI Practice | Status | Impact |
+|----------------|--------|--------|
+| **Deduplication on caseid** | Partial — keeps latest `fda_dt` per caseid | Standard is also to deduplicate on `primaryid` for FAERS post-2014 |
+| **Negative controls** | **Not implemented** | OHDSI requires negative control drug-event pairs (known non-associations) to calibrate empirical null distribution and estimate Type I error rate |
+| **Empirical calibration** | **Not implemented** | Adjusts ROR thresholds using negative control distribution; reduces false positives by 50-80% in OHDSI studies |
+| **Stratification by age** | Not done for signal detection | Age is a major confounder for both drug exposure and sex |
+| **Time-at-risk windows** | N/A (FAERS lacks exposure timing) | Acknowledged limitation of spontaneous reporting data |
+
+**Recommendation (Must Fix)**: Add at least 50 negative control pairs (drugs with no known association to specific AEs) and compute empirical false positive rate. This is the single most impactful methodological addition possible.
+
+**Recommendation (Should Fix)**: Add age-stratified ROR analysis for at least the top 100 signals to assess age as a confounder.
+
+### 8.3 Sex-Differential Signals Miss One-Sex-Only Patterns
+
+**Location**: `04_compute_signals.py:498`
+
+The sex-differential signal computation requires BOTH sexes to independently pass the signal threshold (ROR lower CI > 1, a >= 5, FDR < 0.05). Only then is `ln(ROR_F) - ln(ROR_M)` computed.
+
+**Missing pattern**: Drug-AE pairs that are a signal in one sex but NOT in the other (e.g., a drug causes an AE in women but has zero signal in men). These are arguably the MOST sex-differential signals, but they are excluded entirely.
+
+**Impact**: The 96,281 signals represent pairs where both sexes show disproportionate reporting. Pairs with one-sex-only signals are completely invisible. This biases the analysis toward drugs that affect both sexes (just at different magnitudes) and misses drugs with truly sex-specific adverse events.
+
+**Recommendation (Should Fix)**: Add a separate category for "one-sex-only" signals where one sex passes threshold and the other does not. Report these separately with appropriate caveats about small sample sizes.
+
+### 8.4 Pathway Analysis Minimum Size
+
+**Location**: `05b_build_molecular.py` pathway filtering
+
+Pathway enrichment uses a minimum size of 3 genes per pathway. Standard practice in gene set enrichment analysis (GSEA, DAVID, Enrichr) uses minimum 10-15 genes.
+
+**Impact**: Very small pathways (3-9 genes) are more likely to show spurious enrichment, inflating the number of "significant" pathway associations. With only 289 sex-DE genes feeding into pathway analysis, small pathways are particularly susceptible to noise.
+
+**Recommendation (Should Consider)**: Increase minimum pathway size to 10 or document rationale for using 3.
+
+### 8.5 Prioritized Recommendations Summary
+
+**Must Fix (before any submission):**
+1. Add negative controls per OHDSI methodology (50+ pairs minimum)
+2. Harmonize signal definitions across primary and validation scripts
+3. Fix ROR zero-cell handling (symmetric Haldane-Anscombe)
+4. Fix Canada Vigilance SQL column bug and path reference
+
+**Should Fix (strengthens paper significantly):**
+5. Add one-sex-only signal category
+6. Add formal interaction test (z-test on ln ROR difference)
+7. Add age-stratified sensitivity analysis for top signals
+8. Apply CI + FDR to temporal validation signals
+9. Fix BH corrected p-values or replace with statsmodels
+
+**Should Consider (nice-to-have improvements):**
+10. Increase pathway minimum size to 10
+11. Add empirical calibration using negative control distribution
+12. Deduplicate on primaryid for post-2014 FAERS data
+13. Add formal temporal stability test (Cohen's kappa)
+
+---
+
+## SECTION 9: METHODS ASSESSMENT (Does it Follow Standards?)
+
+### 9.1 Pharmacovigilance Standards
 | Standard | Status |
 |----------|--------|
 | ROR computation (van Puijenbroek 2002) | Compliant |
@@ -452,14 +530,14 @@ The Technical Validation section is thorough:
 | Signal threshold (ROR_lower > 1, a >= 5) | Standard |
 | Sex-differential threshold (|ln ratio| > 0.5) | Novel but justified |
 
-### KG Standards
+### 9.2 KG Standards
 | Standard | Status |
 |----------|--------|
 | Biolink Model node categories | Compliant |
 | KGX format (nodes/edges TSV) | Compliant |
 | PyKEEN triple format | Compliant |
 
-### FAIR Principles
+### 9.3 FAIR Principles
 | Principle | Status |
 |-----------|--------|
 | Findable (persistent identifiers) | Planned (Zenodo DOI) |
@@ -471,7 +549,7 @@ The Technical Validation section is thorough:
 
 ---
 
-## KEY REFERENCES (Competitive Landscape Sources)
+## KEY REFERENCES
 
 - Watson et al. 2019, eClinicalMedicine — VigiBase sex-differential ADR analysis (131 countries)
 - Chandak & Tatonetti 2020, Patterns — AwareDX ML algorithm for sex-differential drug safety
@@ -490,4 +568,5 @@ The Technical Validation section is thorough:
 *Generated: 2026-03-08 by comprehensive automated audit*
 *Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs, 35 paper drafts*
 *Audit agents deployed: Statistical methodology, Molecular validation, Competitive landscape, Manuscript accuracy*
-*Total action items: 34 (8 critical, 19 important, 7 nice-to-have)*
+*Total action items: 34 (8 critical, 19 important, 7 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
+*Sections: 9 major sections covering critical issues, statistical methodology, molecular integrity, contribution assessment, manuscript accuracy, action items, competitive landscape, cross-cutting issues, and methods standards*
