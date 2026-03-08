@@ -309,7 +309,7 @@ Only 289 sex-differential expression edges in the KG. The deployed `sex_de_genes
 
 4. **Lack of clinical validation**: The 40 benchmarks are from published literature, not from prospective clinical data. **Mitigation**: This is standard for computational pharmacovigilance. FAERS-based signal detection is by definition retrospective.
 
-5. **MRR of 0.2484 is modest**: Compared to PrimeKG (which achieves higher MRR on specific tasks), the embedding performance is moderate. **Mitigation**: The KG has 6 relation types (vs PrimeKG's 30+), and AMRI > 0.99 shows triples rank in the top 0.5% of candidates.
+5. **MRR of 0.2484 is modest**: Compared to PrimeKG (which achieves higher MRR on specific tasks), the embedding performance is moderate. **Mitigation**: The KG has 6 relation types (vs PrimeKG's 30+), and AMRI > 0.99 shows triples rank in the top ~1% of candidates.
 
 ### 4.4 Will Humans Recognize and Appreciate This Work?
 
@@ -349,6 +349,14 @@ The work will be **critiqued by**:
 | Temporal directional precision | 84.0% | `temporal_validation_v4.json` | MATCH |
 | Binomial p-value | 3.5e-121 | `statistical_tests_v4.json` | MATCH |
 | Cohen's h | 0.076 | `statistical_tests_v4.json` (0.0755) | MATCH (rounded) |
+| DistMult v4.1 MRR | 0.1013 | `all_models_comparison.json` | MATCH |
+| RotatE MRR | 0.2018 | `all_models_comparison.json` | MATCH |
+| Sex prediction R² | 0.77 | `embedding_sex_prediction.json` (0.7723) | MATCH (rounded) |
+| Sex prediction Spearman | 0.90 | `embedding_sex_prediction.json` (0.9033) | MATCH (rounded) |
+| Canada Vigilance r | 0.785 | `canada_faers_cross_validation.json` (0.7848) | MATCH (rounded) |
+| Severity gradient rho | 0.93 | `outcome_severity_sex.json` (0.9286) | MATCH (rounded) |
+| Anti-regression rho | 1.0 | `validation_audit.json` | MATCH |
+| **Link prediction triples** | **71,616,111** | **`embedding_predictions.json` (26,581,477)** | **MISMATCH** |
 
 ### 5.2 Manuscript Does NOT Include Unverified Claims
 
@@ -360,10 +368,10 @@ The complete manuscript avoids the problematic claims:
 
 ### 5.3 NEW ISSUES Found in Deep Manuscript Audit
 
-#### ISSUE A — CRITICAL: Minimum Reports Threshold Inconsistency
+#### ISSUE A — CRITICAL: Minimum Reports Threshold Inconsistency (RESOLVED)
 - `manuscript_scidata_COMPLETE.md` line 59: "at least **10 reports per sex**"
 - `papers/sexdiffkg_methods_paper.md` line 67: "**>=5 reports** per sex"
-- These are contradictory. Must determine the actual pipeline threshold and make ALL documents consistent.
+- **Resolution**: `sensitivity_analysis.json` shows identical signal counts (96,281) at min_reports=5 and min_reports=10, meaning zero signals exist with 5-9 reports per sex. Actual threshold is **10 per sex** (20 total). The methods paper is wrong — correct it to 10.
 
 #### ISSUE B — MODERATE: ISMB Abstract Misquotes Severity Gradient
 - ISMB abstract says "mild events are 63.5% female"
@@ -390,12 +398,27 @@ The complete manuscript avoids the problematic claims:
 - `literature_crossvalidation.json` ICI entry: observed 47.1%F, coded as male-direction concordant
 - The "100%" claim is contradicted by the project's own cross-validation data
 
-#### ISSUE G — MINOR: "Strong Signals" Definition Unclear
-- Grand audit: "96,281 sex-differential (49,026 strong)"
-- If all 96,281 already meet |log ratio| >= 0.5, what makes 49,026 "strong"?
-- The distinction is undefined in the manuscript
+#### ISSUE G — CRITICAL: "Strong Signals" Definition Self-Contradictory
+- Methods paper line 68-69: "96,281 sex-differential signals" and "Strong signals (|log ratio| >= 0.5): 49,026"
+- Scientific Data manuscript line 69: ALL 96,281 signals meet |log ratio| >= 0.5
+- These are mutually exclusive: if all 96,281 meet the threshold, 49,026 cannot be a subset at the same threshold
+- `confidence_tiers.json`: Gold=15,497, Silver=48,254, Bronze=32,530 (totals 96,281) — Gold+Silver ≠ 49,026 either
+- **This is a fundamental methodological ambiguity that must be resolved**
 
-#### ISSUE H — MINOR: Missing Scripts in Code Availability
+#### ISSUE H — CRITICAL: Link Prediction Triple Count Discrepancy (71.6M vs 26.6M)
+- Manuscript line 139: "71,616,111 novel candidate triples were evaluated"
+- `embedding_predictions.json`: `total_novel_scored: 26,581,477` (26.6M)
+- The manuscript calculates 71.6M from 7,208 drugs × 9,949 AEs − 96,281 existing
+- But the actual pipeline applied degree filters (min_drug_degree=5, min_ae_degree=3), scoring only 3,365 drugs × 7,928 AEs = 26.7M candidates
+- **The manuscript reports a theoretical maximum, not the actual computation**
+- **Fix**: Revise to state 26.6M triples actually scored, explaining the degree filters
+
+#### ISSUE I — MODERATE: Seriousness vs Severity Terminology Confusion
+- Methods paper uses "seriousness-sex gradient" (serious 51.2%F vs non-serious 58.3%F)
+- Scientific Data manuscript uses "severity-sex gradient" (Fatal 50.1%F to Moderate 63.5%F)
+- These are different analyses (binary vs 7-level) presented without acknowledging the other
+
+#### ISSUE J — MINOR: Missing Scripts in Code Availability
 - Manuscript table lists v4_01 through v4_10 but skips v4_06 and v4_07
 - These scripts exist (`v4_06_retrain_distmult_v41.py`, `v4_07_train_rotatE_gpu.py`)
 
@@ -422,41 +445,41 @@ The Technical Validation section is thorough:
 7. **Filter gene_pathways.parquet to ENSG-only** — 53.4% of entries use ENST/ENSP IDs that break cross-dataset joins
 8. **Add unit tests** for core statistical functions (ROR, PRR, FDR) with textbook known-answer cases
 9. **Fix v4 builder gene column** (`v4_03_build_kg.py:205`): Change `gene_name` → `gene_symbol` — currently creates free-text protein descriptions as gene node IDs
+10. **Fix link prediction triple count** — manuscript says 71.6M but only 26.6M were actually scored (degree filters applied)
+11. **Resolve "strong signals" (49,026) definition** — self-contradictory with 96,281 at same threshold; must define or remove
 
 ### Important (Should Fix)
-9. **Fix drug-to-PPI bridge** — only 4.9% of drug targets found in PPI network; improve STRING-to-UniProt mapping
-10. **Fix BH corrected p-values** (`04_compute_signals.py:466-467`): Reverse the order of operations, or replace with `statsmodels.multipletests`
-11. **Add interaction test for sex-differential signals**: z-test on `ln(ROR_F) - ln(ROR_M)` with pooled SE, per CIOMS/EMA guidelines
-12. **Verify RotatE embedding dims** — manuscript says 256, JSON says 200
-13. **Document entity count mismatch** — KG has 109,867 nodes but ComplEx reports 113,012 entities
-14. **Fix README CPI claim** — "100% female-predominant" contradicted by own validation data (47.1%F)
-15. **Remove 114 PPI self-loops** and ~6,000 bidirectional duplicate edges
-16. **Fix v4 KG builder** (`v4_03_build_kg.py`) — add node-existence check before edge insertion
-17. **Bridge drug ID namespaces** — FAERS `DRUG:NAME` and ChEMBL `CHEMBL:ID` are disconnected subgraphs
-18. **Replace `05c_gtex_sex_de.py`** — script produces fabricated ENSG IDs, doesn't match deployed parquet
-19. **Add Yates correction** or document why omitted for small-cell chi-squared
-20. **Add formal temporal stability test** (Cohen's kappa or permutation test for directional agreement)
-21. Clarify in temporal validation that 48.6% of reports lacked valid dates
-22. Standardize death statistics across all vault docs and drafts
-23. Remove/flag OpenFDA concordance from validation composite
-24. **Fix Canada Vigilance to reference v4 signals**, not v2 (`v4_13_canada_vigilance_signals.py:129`)
-25. **Convert non-YR age codes** in age-sex interaction analysis (MON/12, WK/52, etc.)
-26. **Add missing v4_06/v4_07 scripts** to manuscript Code Availability table
-27. **Clarify "strong signals"** definition — what makes 49,026 "strong" vs the 96,281 total?
-
-### Important (Should Fix) — continued
-28. **Fix v3 builder NaN node contamination** — 75.1% of PPI edges create NaN-keyed Protein nodes that form a disconnected cluster
-29. **Fix sex-DE schema mismatch** — deployed parquet uses `gene_id`/`log2fc`, v3 builder expects `ensembl_gene_id`/`fold_change_f_vs_m`
-30. **Improve STRING-to-UniProt mapping** — accept multiple UniProt accessions per STRING ID instead of first-match-wins
+12. **Fix drug-to-PPI bridge** — only 4.9% of drug targets found in PPI network; improve STRING-to-UniProt mapping
+13. **Fix BH corrected p-values** (`04_compute_signals.py:466-467`): Reverse the order of operations, or replace with `statsmodels.multipletests`
+14. **Add interaction test for sex-differential signals**: z-test on `ln(ROR_F) - ln(ROR_M)` with pooled SE, per CIOMS/EMA guidelines
+15. **Verify RotatE embedding dims** — manuscript says 256, methods paper says 512, JSON says 200 (three contradictory values)
+16. **Document entity count mismatch** — KG has 109,867 nodes but ComplEx reports 113,012 entities (~3,145 extra from variant drug names)
+17. **Fix README CPI claim** — "100% female-predominant" contradicted by own validation data (47.1%F) and Drug Class Table 9 (72.3%)
+18. **Remove 114 PPI self-loops** and ~6,000 bidirectional duplicate edges
+19. **Fix v4 KG builder** (`v4_03_build_kg.py`) — add node-existence check before edge insertion
+20. **Bridge drug ID namespaces** — FAERS `DRUG:NAME` and ChEMBL `CHEMBL:ID` are disconnected subgraphs
+21. **Replace `05c_gtex_sex_de.py`** — script produces fabricated ENSG IDs, doesn't match deployed parquet
+22. **Add Yates correction** or document why omitted for small-cell chi-squared
+23. **Add formal temporal stability test** (Cohen's kappa or permutation test for directional agreement)
+24. Clarify in temporal validation that 48.6% of reports lacked valid dates
+25. Standardize death statistics across all vault docs and drafts
+26. Remove/flag OpenFDA concordance from validation composite
+27. **Fix Canada Vigilance to reference v4 signals**, not v2 (`v4_13_canada_vigilance_signals.py:129`)
+28. **Convert non-YR age codes** in age-sex interaction analysis (MON/12, WK/52, etc.)
+29. **Add missing v4_06/v4_07 scripts** to manuscript Code Availability table
+30. **Resolve seriousness vs severity terminology** — methods paper uses binary serious/non-serious, manuscript uses 7-level severity gradient; both presented as "the" gradient
+31. **Fix v3 builder NaN node contamination** — 75.1% of PPI edges create NaN-keyed Protein nodes that form a disconnected cluster
+32. **Fix sex-DE schema mismatch** — deployed parquet uses `gene_id`/`log2fc`, v3 builder expects `ensembl_gene_id`/`fold_change_f_vs_m`
+33. **Improve STRING-to-UniProt mapping** — accept multiple UniProt accessions per STRING ID instead of first-match-wins
 
 ### Nice to Have
-31. Add CI/CD pipeline with pytest
-32. Flesh out the 3 thin paper drafts (<2KB) or remove them
-33. Replace hard-coded column indices in Canada Vigilance with header-based parsing
-34. Improve Biolink compliance (`Tissue` → `AnatomicalEntity`, `AdverseEvent` → `DiseaseOrPhenotypicFeature`, proper CURIEs)
-35. Add conftest.py with synthetic data fixtures for future testing
-36. Consider adding formal interaction tests for age-sex direction flips
-37. Make literature cross-validation rounding consistent (91.7% vs 92.0%)
+34. Add CI/CD pipeline with pytest
+35. Flesh out the 3 thin paper drafts (<2KB) or remove them
+36. Replace hard-coded column indices in Canada Vigilance with header-based parsing
+37. Improve Biolink compliance (`Tissue` → `AnatomicalEntity`, `AdverseEvent` → `DiseaseOrPhenotypicFeature`, proper CURIEs)
+38. Add conftest.py with synthetic data fixtures for future testing
+39. Consider adding formal interaction tests for age-sex direction flips
+40. Make literature cross-validation rounding consistent (91.7% vs 92.0%)
 
 ---
 
@@ -662,5 +685,5 @@ Pathway enrichment uses a minimum size of 3 genes per pathway. Standard practice
 *Generated: 2026-03-08 by comprehensive automated audit*
 *Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs, 35 paper drafts*
 *Audit agents deployed: Statistical methodology, Molecular validation, Competitive landscape, Manuscript accuracy*
-*Total action items: 37 (9 critical, 21 important, 7 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
+*Total action items: 40 (11 critical, 22 important, 7 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
 *Sections: 9 major sections covering critical issues, statistical methodology, molecular integrity, contribution assessment, manuscript accuracy, action items, competitive landscape, cross-cutting issues, and methods standards*
