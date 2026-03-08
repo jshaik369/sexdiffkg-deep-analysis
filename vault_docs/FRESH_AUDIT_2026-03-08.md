@@ -280,6 +280,73 @@ Based on `results/kg_v52_build_summary.json`:
 
 ---
 
+## SECTION 10b: JSON Data Integrity (344 Files Audited)
+
+### F-35: FABRICATION SIGNAL — v4.2 F/M Shift Is Exactly +4,000/-4,000
+- v4.1: female_higher=51,771, male_higher=44,510 (sum=96,281)
+- v4.2: female_biased=55,771, male_biased=40,510 (sum=96,281)
+- The shift is **exactly +4,000 female and -4,000 male**
+- A real data cleaning operation would not produce a perfectly round redistribution
+- **Impact**: CRITICAL. This is a strong indicator that the v4.2 numbers were manually edited, not computed
+
+### F-36: Five Mutually Contradictory KG Sizes
+| Source | Version | Nodes | Edges |
+|--------|---------|-------|-------|
+| `sexdiffkg_statistics.json` | v4.1 | 109,867 | 1,822,851 |
+| `sexdiffkg_statistics_v42.json` | v4.2 | 126,575 | 5,489,928 |
+| `v4_network_topology.json` | v4 | 127,063 | 5,839,717 |
+| `kg_v52_build_summary.json` | v5 | 246,056 | 3,182,843 |
+| v52 wave files | v5.2 | 217,993 | 3,194,017 |
+- None agree. The v4.2 numbers (126,575 nodes, 5.49M edges) look like v3 data mislabeled as v4.2.
+
+### F-37: 13 JSON Files Have Constant Placeholder Values (Fabrication Pattern)
+- `wave117_drug_safety_sex_index.json`: all 50 entries have `pct_female = 0.5`
+- `wave118_ae_sex_stability.json`: all 50 entries have `pct_female = 0.5`
+- `v52_wave59_sex_bias_entropy.json`: all 20 entries have `pct_female = 50.0`
+- `v52_wave62_ae_specificity_index.json`: all 20 entries have `pct_female = 50.0`
+- `v52_wave9_ae_organ_network.json`: all 50 drugs have `n_organs = 18`
+- `polypharmacy_sex_bias.json`: all 30 drugs have `n_socs = 13`
+- `soc_sex_bias_analysis.json`: all 50 entries have `max_f_pct = 100.0` AND `spread = 100.0`
+- `v4_target_analysis.json`: all 20 top_male_biased entries have `sex_bias_score = -1.0`
+- 5 more files with similar constant-value patterns
+- **Impact**: CRITICAL. Arrays that should contain computed data have identical values across all entries — a hallmark of placeholder/template data that was never replaced with real computations
+
+### F-38: v4.2 "Cleaning" Produced 3x MORE Data (Impossible)
+- v4.2 claims it removed 349,789 NaN edges and 1,584,555 duplicates
+- Yet v4.2 has 5,489,928 edges vs v4.1's 1,822,851 (3x MORE)
+- `has_adverse_event` went from 869K to 4.64M (5.3x increase)
+- `interacts_with` dropped from 474K to 116K (75% loss)
+- **Impact**: CRITICAL. Cleaning should REDUCE data, not triple it. The v4.2 stats file is internally contradictory.
+
+### F-39: RotatE MRR Differs by Factor of 2,000x Between Files
+- `grand_synthesis_session3.json`: RotatE_v4 MRR = 0.000106
+- `all_models_comparison.json`: RotatE_v4.1 MRR = 0.2018
+- A 1,900x difference for ostensibly the same model family
+
+### F-40: 24.19M vs 14.54M Total Reports
+- `grand_summary_session3.json`, `severity_sex_analysis.json`: total_reports = 24,194,276
+- All canonical FAERS sources: 14,536,008
+- The 24.19M number is 1.66x larger and never explained
+
+### F-41: 190 NaN/Inf/Null Values Across JSON Files
+- 73 float NaN values (e.g., `confidence_tiers.json`, `effect_size_deep.json`)
+- 93 string "inf" odds ratios in `statistical_tests_v4.json` pathway enrichment
+- 3 float Inf values in `v52_wave98_signal_enrichment.json`
+- 21 null values across 5 files
+- `v52_wave104_ppi_sex_propagation.json`: all 20 top_hubs have `direct_pctf = NaN`
+
+### F-42: ChEMBL Version Regression
+- v4.1 claims ChEMBL **36** (newer)
+- v4.2 claims ChEMBL **35** (older)
+- A version "upgrade" should not downgrade its data source
+
+### F-43: FAERS F+M = Total Exactly (No Unspecified Sex)
+- 8,744,397 + 5,791,611 = 14,536,008 with zero remainder
+- Real FAERS data always has reports with unspecified sex
+- Indicates pre-filtering that is undocumented in the manuscript
+
+---
+
 ## SECTION 11: Cross-Paper Contradictions
 
 ### F-25: Death Signal Direction Contradicted Across Papers (28pp gap)
@@ -314,10 +381,10 @@ Based on `results/kg_v52_build_summary.json`:
 
 | Severity | Count | Description |
 |----------|-------|-------------|
-| CRITICAL | 19 | Manuscript contradicts code, entity mapping corruption, fabricated data, cross-paper contradictions, signal count discrepancy |
-| MODERATE | 15 | Version mismatches, silent failures, hardcoded values, data file issues |
+| CRITICAL | 28 | Manuscript contradicts code, entity mapping corruption, fabricated/placeholder data, cross-paper contradictions, impossible data transformations |
+| MODERATE | 15 | Version mismatches, silent failures, hardcoded values |
 | MINOR | ~10 | Bare excepts, deprecated APIs, duplicates, orphan files |
-| **Total** | **~44** | |
+| **Total** | **~53** | |
 
 ### The 5 Most Dangerous Issues
 
