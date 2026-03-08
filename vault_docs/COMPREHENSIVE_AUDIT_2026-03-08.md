@@ -453,6 +453,10 @@ The Technical Validation section is thorough:
 12. **Bridge PPI subgraph to KG** — 16,201 Protein nodes and 473,860 interacts_with edges are completely disconnected (no Gene-to-Protein or Drug-to-Protein edges exist). The KG's molecular integration claim is structurally false
 13. **Resolve gene namespace fragmentation** — ChEMBL genes (HUGO: `GENE:BRCA1`) and Reactome genes (Ensembl: `GENE:ENSG00000139618`) are separate unlinked nodes for the same gene, breaking Drug→Gene→Pathway inference
 14. **Remove or disclose 290,177 duplicate edges** (15.9% of 1,822,851 total) — not mentioned in manuscript
+15. **FIX MARGINAL TOTAL BUG** — `v4_02_compute_signals.py`: `ae_sex_totals` and `sex_totals` NOT filtered to PS/SS drugs. ALL 96,281 ROR values have incorrect denominators. Must filter marginals to primary/secondary suspect drugs only, then recompute all signals
+16. **FIX NEGATIVE d-CELL CLIPPING** — Negative d-cell values silently clipped to 0 instead of raising an error. Investigate root cause (marginal total bug SM-18) and fix upstream before recomputing
+17. **FIX PERMUTATION TEST DOUBLE-COUNTING** — `v4_09_statistical_tests.py`: f_drugs + m_drugs > total_drugs. Drugs in both categories counted twice, invalidating null distribution
+18. **REMOVE OR RECOMPUTE ANTI-REGRESSION rho=1.0** — Computed on only 10 decile points (trivially perfect). Replace with signal-level comparison or remove claim entirely
 
 ### Important (Should Fix)
 15. **Fix drug-to-PPI bridge** — only 4.9% of drug targets found in PPI network; improve STRING-to-UniProt mapping
@@ -483,18 +487,27 @@ The Technical Validation section is thorough:
 40. **Fix shell injection** in `run_full_pipeline.py` — use `subprocess.run(list)` not `shell=True`
 41. **Fix audit doc FAERS female rate** — "60.1%" should be "60.2%" (computed: 60.157%)
 42. **Standardize anti-regression rho** — 1.000 (decile) vs 0.258 (signal-level) labeled identically
+43. **Fix pseudo-replication in drug class chi-squared** — signals within same drug are not independent; use mixed-effects model or cluster-robust SE
+44. **Decouple composite validation sources** — 82.9% composite mixes non-independent streams (40-benchmark overlaps with literature/meta-analysis; OpenFDA IS FAERS)
+45. **Curate independent benchmark set** — current 40 benchmarks selected to validate (selection bias); use pre-registered or independently curated set
+46. **Fix Canada Vigilance and temporal validation marginal totals** — both share same PS/SS filtering bug as primary pipeline (SM-18)
+47. **Make sensitivity analysis informative** — vary log_ratio threshold (0.3, 0.5, 0.7, 1.0) instead of nested min_reports thresholds that guarantee identical results
+48. **Fix p-value computation** — use `stats.norm.sf(z)` instead of `1 - stats.norm.cdf(z)` to avoid floating-point precision loss for large z-scores
+49. **Correct AMRI "top X%" claim** — state exact formula and compute correctly (0.5% vs 0.98% vs 0.49% all claimed in different documents)
+50. **Recharacterize temporal r=0.384** — R²=0.147 (14.7% variance explained); "moderate" is generous; emphasize directional concordance (84%) instead
+51. **Deduplicate benchmark drug-AE pairs** — 40 benchmarks include duplicate pairs inflating effective sample size and narrowing CIs
 
 ### Nice to Have
-43. Add CI/CD pipeline with pytest
-44. Flesh out the 3 thin paper drafts (<2KB) or remove them
-45. Replace hard-coded column indices in Canada Vigilance with header-based parsing
-46. Improve Biolink compliance (`Tissue` → `AnatomicalEntity`, `AdverseEvent` → `DiseaseOrPhenotypicFeature`, proper CURIEs)
-47. Add conftest.py with synthetic data fixtures for future testing
-48. Consider adding formal interaction tests for age-sex direction flips
-49. Make literature cross-validation rounding consistent (91.7% vs 92.0%)
-50. Pin external data download URLs to specific versions with checksums
-51. Add runtime version logging to all scripts
-52. Fix `os.listdir()` non-determinism with `sorted()`
+52. Add CI/CD pipeline with pytest
+53. Flesh out the 3 thin paper drafts (<2KB) or remove them
+54. Replace hard-coded column indices in Canada Vigilance with header-based parsing
+55. Improve Biolink compliance (`Tissue` → `AnatomicalEntity`, `AdverseEvent` → `DiseaseOrPhenotypicFeature`, proper CURIEs)
+56. Add conftest.py with synthetic data fixtures for future testing
+57. Consider adding formal interaction tests for age-sex direction flips
+58. Make literature cross-validation rounding consistent (91.7% vs 92.0%)
+59. Pin external data download URLs to specific versions with checksums
+60. Add runtime version logging to all scripts
+61. Fix `os.listdir()` non-determinism with `sorted()`
 
 ---
 
@@ -700,5 +713,5 @@ Pathway enrichment uses a minimum size of 3 genes per pathway. Standard practice
 *Generated: 2026-03-08 by comprehensive automated audit*
 *Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs, 35 paper drafts*
 *Audit agents deployed: Statistical methodology, Molecular validation, Competitive landscape, Manuscript accuracy*
-*Total action items: 56 (18 critical, 28 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
+*Total action items: 65 (22 critical, 33 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
 *Sections: 9 major sections covering critical issues, statistical methodology, molecular integrity, contribution assessment, manuscript accuracy, action items, competitive landscape, cross-cutting issues, and methods standards*
