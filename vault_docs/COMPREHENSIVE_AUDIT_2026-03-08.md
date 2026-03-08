@@ -247,7 +247,48 @@ The complete manuscript avoids the problematic claims:
 - Does NOT claim "82.9% composite concordance" (that's in the audit, not manuscript)
 - Correctly uses the temporal validation numbers (84.0% strong, 72.6% relaxed)
 
-### 5.3 Methodological Completeness
+### 5.3 NEW ISSUES Found in Deep Manuscript Audit
+
+#### ISSUE A — CRITICAL: Minimum Reports Threshold Inconsistency
+- `manuscript_scidata_COMPLETE.md` line 59: "at least **10 reports per sex**"
+- `papers/sexdiffkg_methods_paper.md` line 67: "**>=5 reports** per sex"
+- These are contradictory. Must determine the actual pipeline threshold and make ALL documents consistent.
+
+#### ISSUE B — MODERATE: ISMB Abstract Misquotes Severity Gradient
+- ISMB abstract says "mild events are 63.5% female"
+- Actual data: **Moderate** = 63.5%F, Mild = 61.6%F
+- The abstract conflates "moderate" with "mild" — factually incorrect per `outcome_severity_sex.json`
+
+#### ISSUE C — MODERATE: AMRI Interpretation Error
+- Manuscript line 129 says AMRI 0.9902 = "top 0.5% of candidates"
+- Correct: 1 - 0.9902 = 0.0098 = **top 0.98%** (as correctly stated elsewhere in the abstract)
+- The "top 0.5%" claim is wrong by ~2x
+
+#### ISSUE D — MODERATE: RotatE Embedding Dimensions
+- Manuscript line 127: "256-dimensional embeddings"
+- `all_models_comparison.json`: `"dim": 200`
+- One of these is wrong — need to check actual training config
+
+#### ISSUE E — MODERATE: Entity Count Mismatch in Manuscript
+- Table 2: 109,867 nodes (KG total)
+- Table in Data Records: ComplEx has 113,012 entities, DistMult has 113,155
+- Difference unexplained — likely PyKEEN internal indexing from train/test splits, but must be documented
+
+#### ISSUE F — MODERATE: README's CPI "100% Female" Contradicts Validation
+- README finding #3: "CPI irAEs: 100% female-predominant across ALL checkpoint inhibitors"
+- `literature_crossvalidation.json` ICI entry: observed 47.1%F, coded as male-direction concordant
+- The "100%" claim is contradicted by the project's own cross-validation data
+
+#### ISSUE G — MINOR: "Strong Signals" Definition Unclear
+- Grand audit: "96,281 sex-differential (49,026 strong)"
+- If all 96,281 already meet |log ratio| >= 0.5, what makes 49,026 "strong"?
+- The distinction is undefined in the manuscript
+
+#### ISSUE H — MINOR: Missing Scripts in Code Availability
+- Manuscript table lists v4_01 through v4_10 but skips v4_06 and v4_07
+- These scripts exist (`v4_06_retrain_distmult_v41.py`, `v4_07_train_rotatE_gpu.py`)
+
+### 5.4 Methodological Completeness
 
 The Technical Validation section is thorough:
 - 5 validation strategies documented
@@ -263,26 +304,35 @@ The Technical Validation section is thorough:
 ### Critical (Must Fix)
 1. **Fix Canada Vigilance cross-reference bug** (`adverse_event` → `pt` in `v4_13_canada_vigilance_signals.py:128-133`)
 2. **Fix ROR zero-cell handling** (`04_compute_signals.py:324-329`): Use symmetric Haldane-Anscombe +0.5 to all cells; handle `d==0` case
-3. **Update death statistic** in `MASTER_FINDINGS_SYNTHESIS.md` Finding #7 from "74%" to canonical "50.1%F"
-4. **Add unit tests** for core statistical functions (ROR, PRR, FDR) with textbook known-answer cases
+3. **Resolve minimum reports threshold** — manuscript says 10, methods paper says 5. Determine actual value and make ALL docs consistent
+4. **Fix ISMB abstract** — "mild events are 63.5% female" should be "moderate events are 63.5% female"
+5. **Fix AMRI interpretation** — "top 0.5%" is wrong, correct is "top ~1%" (1 - 0.9902 = 0.0098)
+6. **Update death statistic** in `MASTER_FINDINGS_SYNTHESIS.md` and `README.md` Finding #7 from "74%" to canonical "50.1%F"
+7. **Add unit tests** for core statistical functions (ROR, PRR, FDR) with textbook known-answer cases
 
 ### Important (Should Fix)
-5. **Fix BH corrected p-values** (`04_compute_signals.py:466-467`): Reverse the order of operations, or replace with `statsmodels.multipletests`
-6. **Add interaction test for sex-differential signals**: z-test on `ln(ROR_F) - ln(ROR_M)` with pooled SE, per CIOMS/EMA guidelines
-7. **Add Yates correction** or document why omitted for small-cell chi-squared
-8. **Add formal temporal stability test** (Cohen's kappa or permutation test for directional agreement)
-9. Clarify in temporal validation that 48.6% of reports lacked valid dates
-10. Standardize death statistics across all vault docs and drafts
-11. Remove/flag OpenFDA concordance from validation composite
-12. **Fix Canada Vigilance to reference v4 signals**, not v2 (`v4_13_canada_vigilance_signals.py:129`)
-13. **Convert non-YR age codes** in age-sex interaction analysis (MON/12, WK/52, etc.)
+8. **Fix BH corrected p-values** (`04_compute_signals.py:466-467`): Reverse the order of operations, or replace with `statsmodels.multipletests`
+9. **Add interaction test for sex-differential signals**: z-test on `ln(ROR_F) - ln(ROR_M)` with pooled SE, per CIOMS/EMA guidelines
+10. **Verify RotatE embedding dims** — manuscript says 256, JSON says 200
+11. **Document entity count mismatch** — KG has 109,867 nodes but ComplEx reports 113,012 entities
+12. **Fix README CPI claim** — "100% female-predominant" contradicted by own validation data (47.1%F)
+13. **Add Yates correction** or document why omitted for small-cell chi-squared
+14. **Add formal temporal stability test** (Cohen's kappa or permutation test for directional agreement)
+15. Clarify in temporal validation that 48.6% of reports lacked valid dates
+16. Standardize death statistics across all vault docs and drafts
+17. Remove/flag OpenFDA concordance from validation composite
+18. **Fix Canada Vigilance to reference v4 signals**, not v2 (`v4_13_canada_vigilance_signals.py:129`)
+19. **Convert non-YR age codes** in age-sex interaction analysis (MON/12, WK/52, etc.)
+20. **Add missing v4_06/v4_07 scripts** to manuscript Code Availability table
+21. **Clarify "strong signals"** definition — what makes 49,026 "strong" vs the 96,281 total?
 
 ### Nice to Have
-14. Add CI/CD pipeline with pytest
-15. Flesh out the 3 thin paper drafts (<2KB) or remove them
-16. Replace hard-coded column indices in Canada Vigilance with header-based parsing
-17. Add conftest.py with synthetic data fixtures for future testing
-18. Consider adding formal interaction tests for age-sex direction flips
+22. Add CI/CD pipeline with pytest
+23. Flesh out the 3 thin paper drafts (<2KB) or remove them
+24. Replace hard-coded column indices in Canada Vigilance with header-based parsing
+25. Add conftest.py with synthetic data fixtures for future testing
+26. Consider adding formal interaction tests for age-sex direction flips
+27. Make literature cross-validation rounding consistent (91.7% vs 92.0%)
 
 ---
 
