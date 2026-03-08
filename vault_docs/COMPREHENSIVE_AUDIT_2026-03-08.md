@@ -460,6 +460,9 @@ The Technical Validation section is thorough:
 19. **FIX 6 JSON FILES WITH NaN/INFINITY LITERALS** — `confidence_tiers.json`, `effect_size_deep.json`, `signal_concordance.json`, `ppi_sex_bias_propagation.json`, `v52_wave104_ppi_sex_propagation.json` contain NaN; `v52_wave98_signal_enrichment.json` contains Infinity. Replace with `null` or fix upstream division-by-zero
 20. **REMOVE OR RELABEL 3 STALE KG FILES** — `v4_network_topology.json` contains v3 data (127K nodes), `sexdiffkg_statistics_v42.json` has stale v4.2 numbers (126K nodes), `sexdiffkg_statistics.json` references stale 126,575. All must match canonical 109,867/1,822,851
 21. **INVESTIGATE PPI PARQUET-TO-KG EDGE DISCREPANCY** — `ppi_network.parquet` has 465,390 rows but KG has 473,860 `interacts_with` edges (+8,470). The KG builder creates more edges than the source data contains — likely NaN-contaminated phantom edges
+22. **FIX WRONG ENTITY-TO-INDEX MAPPING** — `13_sexdiff_analysis.py` and `16_molecular_audit.py` build entity indices by alphabetical sort, but PyKEEN uses internal `entity_to_id`. ALL embedding lookups, drug similarities, sex-bias scores, and 89 "deterministic checks" use wrong embeddings. Must use `factory.entity_to_id`
+23. **REMOVE OR REPLACE FAKE FIGURE 2** — `09_generate_figures.py` uses `np.random.exponential` instead of real signal data. Publication figure based on random fabricated data
+24. **FIX INTEGRITY CHECK LOG BASE** — `15_deep_integrity_check.py` uses `np.log2()` but pipeline uses `np.log()` (natural log). Integrity checker falsely flags 100% of signals
 
 ### Important (Should Fix)
 22. **Fix drug-to-PPI bridge** — only 4.9% of drug targets found in PPI network; improve STRING-to-UniProt mapping
@@ -502,7 +505,14 @@ The Technical Validation section is thorough:
 59. **Clean up 33 empty arrays/objects across 20 result files** — failed analyses should be re-run or empty results documented
 60. **Disambiguate "total_reports" field** — `grand_summary_session3.json` uses 24.2M (non-deduplicated), canonical is 14.5M. Rename or document
 61. **Remove duplicate files** — `sexdiffkg_statistics.json`/`sexdiffkg_statistics_v4.json` are byte-identical; `sex_de_genes.parquet`/`sex_de_genes_v4.parquet` are identical
-62. **Address massive null rates in parquet files** — `gene_pathways.parquet` string_id 91.5% null, `ppi_network.parquet` ensembl IDs 51.2% null. These nulls explain the PPI disconnection and pathway orphans
+62. **Fix AMRI denominator** — `v4_05b_train_rotatE_fixed.py:88-89` uses `testing_factory.num_entities` instead of `full_factory.num_entities`, inflating reported AMRI 0.9902
+63. **Fix block training epoch reset** — 6 scripts train in 25-epoch blocks via repeated `train()` calls; PyKEEN resets LR scheduler on each call. Use single `train(num_epochs=N)` call
+64. **Fix v4_04_unify_ids gene lookup** — checks `raw` key but accesses `eid` (with `GENE:` prefix). Gene-to-ChEMBL unification silently fails for ALL entries
+65. **Fix drug clustering column name** — `v4_drug_clustering.py:49` uses wrong column index/name, selecting zero Drug nodes
+66. **Remove benchmark 24 duplicate** — ASPIRIN+GI haemorrhage duplicates benchmark 6. Reduce to 39 unique benchmarks
+67. **Delete or mark v3 scripts as deprecated** — `generate_all_submissions.py`, `master_rebuild_v3.py` contain v3 numbers. Running them overwrites v4 outputs
+68. **Fix all audit/verification scripts to target v4** — `audit_data_lineage.py` (v1 KG), `verify_numbers.py` (v3 ranges), `audit_reproducibility.py` (v3 ranges) all target wrong versions
+69. **Address massive null rates in parquet files** — `gene_pathways.parquet` string_id 91.5% null, `ppi_network.parquet` ensembl IDs 51.2% null. These nulls explain the PPI disconnection and pathway orphans
 
 ### Nice to Have
 63. Add CI/CD pipeline with pytest
@@ -720,5 +730,5 @@ Pathway enrichment uses a minimum size of 3 genes per pathway. Standard practice
 *Generated: 2026-03-08 by comprehensive automated audit*
 *Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs, 35 paper drafts*
 *Audit agents deployed: Statistical methodology, Molecular validation, Competitive landscape, Manuscript accuracy*
-*Total action items: 76 (25 critical, 41 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
+*Total action items: 86 (28 critical, 48 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
 *Sections: 9 major sections covering critical issues, statistical methodology, molecular integrity, contribution assessment, manuscript accuracy, action items, competitive landscape, cross-cutting issues, and methods standards*
