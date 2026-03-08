@@ -246,16 +246,44 @@ Based on `results/kg_v52_build_summary.json`:
 
 ---
 
-## SECTION 10: Summary
+## SECTION 10: Cross-Paper Contradictions
+
+### F-25: Death Signal Direction Contradicted Across Papers (28pp gap)
+- **MASTER_FINDINGS_SYNTHESIS.md** and **bidirectional_ae_paper.md**: Death signals are 74-74.5% female-biased
+- **Four other papers** (extreme_signals, organ_system, network_topology, seriousness_sex_gradient): Death signals are 46-46.2% female-biased
+- **Impact**: CRITICAL. A 28 percentage-point contradiction on the SAME metric across papers in the same project. One set of papers says deaths are overwhelmingly female-biased; the other says they're nearly balanced.
+- **Root cause**: Likely conflation of two different metrics — "mean female fraction of reports" vs "proportion of signals classified as female-direction by log ratio"
+
+### F-26: Severity Gradient Reversed Between Papers
+- **severity_sex_gradient_paper.md**: Life-threatening events = 75% female → severity INCREASES female bias
+- **age_sex_interaction_paper.md**: Fatal events = 50.1% female → severity DECREASES female bias
+- **Impact**: CRITICAL. These papers present OPPOSITE conclusions about the relationship between severity and sex bias
+
+### F-27: "49,026 Strong Signals" Used With Incompatible Threshold Definitions
+- One paper defines strong signals as |log_ratio| >= 0.5
+- Another paper defines strong signals as |log_ratio| >= 1.0 AND >= 50 reports
+- Both cite "49,026 strong signals" using these incompatible thresholds
+- **Impact**: CRITICAL. The same count can't apply to two different filter criteria
+
+### F-28: Systematic Metric Conflation Across All Papers
+- **Root cause**: The project uses two different measures of "female bias" interchangeably:
+  - (a) Mean female fraction of reports (demographic-based)
+  - (b) Proportion of signals classified as female-direction by log ratio (signal-based)
+- These measure FUNDAMENTALLY different things and produce dramatically different numbers
+- Until every paper explicitly labels which metric is being used, cross-document contradictions will persist
+
+---
+
+## SECTION 11: Summary
 
 ### Severity Breakdown
 
 | Severity | Count | Description |
 |----------|-------|-------------|
-| CRITICAL | 14 | Manuscript contradicts code, entity mapping corruption, fabricated data |
+| CRITICAL | 18 | Manuscript contradicts code, entity mapping corruption, fabricated data, cross-paper contradictions |
 | MODERATE | 10 | Version mismatches, silent failures, hardcoded values |
 | MINOR | ~10 | Bare excepts, deprecated APIs, style issues |
-| **Total** | **~34** | |
+| **Total** | **~38** | |
 
 ### The 5 Most Dangerous Issues
 
@@ -264,6 +292,10 @@ Based on `results/kg_v52_build_summary.json`:
 3. **Entity mapping corruption (F-06)**: ALL embedding-based analyses use wrong embeddings
 4. **RotatE metrics possibly fabricated (F-03)**: Specific numbers for a model that may not have finished training
 5. **v1 KG used in main analysis (F-07)**: Core analysis script operates on completely stale data
+
+6. **Death signal direction 74% vs 46% (F-25)**: Papers within the same project contradict each other by 28pp on whether death-associated signals are female-biased
+7. **Severity gradient reversed (F-26)**: One paper says severity increases female bias; another says it decreases it
+8. **Metric conflation (F-28)**: "Female bias" means different things in different papers — some use report demographics, others use signal direction
 
 ### What Needs to Happen Before Publication
 
