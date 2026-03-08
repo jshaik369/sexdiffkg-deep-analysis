@@ -495,22 +495,43 @@ The Technical Validation section is thorough:
 2. AwareDX (Patterns 2020) addressed sex differences with more rigorous ML — SexDiffKG should cite and compare
 3. The "Gender Hypothesis" paper (2023, Soc Sci Med) argues gendered social factors, not biology, drive aggregate sex disparities in ADE reports
 
-### Key Weaknesses vs Competitors
+### Key Weaknesses vs Competitors (Ranked by Severity)
 
-1. **No confounding adjustment**: AwareDX uses propensity-score matching; Yu et al. used logistic regression. SexDiffKG uses simple ROR without adjusting for differential prescribing, disease prevalence, or healthcare utilization
-2. **53.9% drug resolution**: Nearly half of drug entries unresolved — needs sensitivity analysis
-3. **Single data source**: Watson et al. used VigiBase (131 countries) vs SexDiffKG's FAERS-only
-4. **No Bayesian methods**: FDA uses MGPS, EMA uses BCPNN — SexDiffKG uses only frequentist ROR/PRR
-5. **Not benchmarked against AwareDX**: The closest ML competitor is not compared
+1. **No confounding adjustment** (rejection-level risk): AwareDX uses propensity-score matching; Yu et al. used logistic regression. SexDiffKG uses simple ROR without adjusting for differential prescribing, disease prevalence, or healthcare utilization. The "Gender Hypothesis" paper (2023, Soc Sci Med) provides a ready-made counter-narrative that gendered social factors — not biology — drive aggregate sex disparities in ADE reports.
+2. **No Bayesian methods**: FDA uses MGPS, EMA uses BCPNN — SexDiffKG uses only frequentist ROR/PRR. Bayesian shrinkage reduces false positives in sparse strata, especially critical when further stratified by sex.
+3. **Watson et al. contradiction on death statistics**: Watson et al. (2019) found the proportion of serious and fatal reports was *higher among male reports* globally. SexDiffKG claims 74% of death-associated signals are female-predominant (though canonical is 50.1%F Fatal). This discrepancy needs careful explanation.
+4. **53.9% drug resolution**: Nearly half of drug entries unresolved — needs sensitivity analysis demonstrating robustness when limited to resolved entries.
+5. **Single data source**: Watson et al. used VigiBase (131 countries) vs SexDiffKG's FAERS-only.
+6. **Not benchmarked against AwareDX or PreciseADR**: The closest ML competitors are not compared.
+7. **Sex vs. gender conflation**: FAERS captures reported sex (a checkbox), not biological sex verified by karyotype or hormonal status. The abstract states "sex-differential" but FAERS data is really "reported-sex-differential."
+8. **KG schema simplicity**: 6 node types, 6 edge types vs PrimeKG (10/30+), DRKG (13/107), Hetionet (11/29). Limits richness of graph-based reasoning.
+9. **Limited benchmark set**: 40 literature benchmarks for 96,281 signals. Hauben et al. (2024) specifically called for "more reliable reference sets."
+10. **Overclaiming in abstract**: "Women experience ADRs at 1.5-1.7x the rate of men" conflates FAERS reporting rates with actual incidence rates.
+
+### Venue Assessment
+
+**ISMB 2026** (July 12-16, Washington DC): Appropriate for poster, borderline for talk. Best tracks: BOKR (Bio-Ontologies and Knowledge Representation) or NetBio. Frame as computational methodology, not clinical findings. Abstract deadline: April 9, 2026.
+
+**Scientific Data**: Excellent fit — multiple biomedical KG Data Descriptors published (PrimeKG 2023, Petagraph 2024, PubMed KG 2.0 2025, PheKnowLator 2024). Must emphasize KG as reusable resource, NOT clinical findings. If it reads like a clinical analysis paper, it will be desk-rejected.
 
 ### Strategic Recommendations
 
 1. **Address confounding explicitly**: Add at minimum an analysis adjusting for sex-differential prescribing rates. Cite the "Gender Hypothesis" paper.
-2. **Frame claims carefully**: Use "reporting signal" not "risk" or "incidence." Follow EMA SDR terminology.
+2. **Frame claims carefully**: Use "reporting signal" not "risk" or "incidence." Follow EMA SDR terminology. Fix abstract's "1.5-1.7x" claim.
 3. **For Scientific Data**: Focus on the KG as a reusable resource, not clinical findings.
 4. **For ISMB**: Target BOKR or NetBio COSI track. Frame as computational methodology.
 5. **Benchmark against AwareDX**: Even a limited comparison would significantly strengthen the paper.
 6. **Consolidate paper portfolio**: 35 papers from one dataset will trigger salami-slicing concerns. Consider 3-5 papers maximum.
+7. **Add sensitivity analysis**: Demonstrate signal robustness when restricted to the 53.9% resolved drugs.
+8. **Clarify sex vs. gender**: Acknowledge that FAERS captures "reported sex" and discuss implications.
+
+### Additional References (Deep Research)
+
+- Hauben et al. 2024, Clinical Therapeutics — Scoping review of 47 KG papers in pharmacovigilance; found need for "more reliable reference sets"
+- Hauben et al. 2024 — Step-by-step guide for KGs in pharmacovigilance
+- Sex-differential systematic reviews: Pharmaceuticals 2022 (35 papers), Frontiers in Pharmacology 2023
+- Petagraph 2024, PubMed KG 2.0 2025, PheKnowLator 2024, Human Reference Atlas KG 2025 — Scientific Data KG precedents
+- NIH SABV (Sex As a Biological Variable) policy — regulatory context supporting the work
 
 ---
 
