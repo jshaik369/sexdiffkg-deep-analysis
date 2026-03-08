@@ -246,7 +246,34 @@ Based on `results/kg_v52_build_summary.json`:
 
 ---
 
-## SECTION 10: Data File Integrity
+## SECTION 10: Additional Script Bugs (from full 83-script audit)
+
+### F-44: ae_sex_totals Not Filtered to PS/SS in 4 Secondary Analysis Scripts
+- **Files**: `v4_10_temporal_validation.py:98-101`, `v4_11_age_sex_interaction.py:101-109`, `v4_12_geographic_variation.py:90-99`, `v4_14_per_country_deep_analysis.py:59-64`
+- **Problem**: The `ae_sex_totals` table counts ALL reactions regardless of drug role, while `drug_ae_sex_counts` filters to PS/SS. This inflates the `c` cell in the 2x2 table, deflating all ROR values
+- **Main pipeline is correct**: `v4_02b_compute_signals.py` properly filters ae_sex_totals to PS/SS
+- **Impact**: CRITICAL. ALL temporal validation, age-sex interaction, geographic variation, and per-country results use a DIFFERENT (wrong) methodology than the primary signals. Every comparative analysis is unreliable.
+
+### F-45: Asymmetric Haldane Pseudocounts
+- **File**: `scripts/04_compute_signals.py`
+- Haldane correction (adding 0.5) applied to one sex but not the other, creating systematic bias in sex-differential ratios
+- **Impact**: MODERATE. Biases all log_ror_ratio calculations.
+
+### F-46: v4_08_link_prediction.py Assumes Alphabetical Entity Ordering
+- **File**: `scripts/v4_08_link_prediction.py:48`
+- Relies on undocumented PyKEEN implementation detail that entities are alphabetically sorted
+- Should use `factory.entity_to_id` directly
+- **Impact**: MODERATE. Link prediction results may use wrong entity indices.
+
+### F-47: Fabricated Ensembl Gene IDs
+- **File**: `scripts/05c_gtex_sex_de.py:197`
+- When gene symbol can't be mapped, fabricates ID as `f"ENSG_{symbol}"` (e.g., `ENSG_BRCA1`)
+- These are not valid Ensembl IDs and will never match downstream analyses
+- **Impact**: CRITICAL. Pollutes KG with fake entities.
+
+---
+
+## SECTION 10a: Data File Integrity
 
 ### F-29: v4.2 JSON Has Wrong Signal Counts (4,000 Discrepancy)
 - **File**: `sexdiffkg_statistics_v42.json` reports female_biased=55,771 and male_biased=40,510
@@ -381,10 +408,10 @@ Based on `results/kg_v52_build_summary.json`:
 
 | Severity | Count | Description |
 |----------|-------|-------------|
-| CRITICAL | 28 | Manuscript contradicts code, entity mapping corruption, fabricated/placeholder data, cross-paper contradictions, impossible data transformations |
-| MODERATE | 15 | Version mismatches, silent failures, hardcoded values |
+| CRITICAL | 31 | Manuscript contradicts code, entity mapping corruption, fabricated/placeholder data, ae_sex_totals bug in 4 scripts, cross-paper contradictions, impossible data transformations |
+| MODERATE | 18 | Version mismatches, silent failures, hardcoded values, asymmetric pseudocounts |
 | MINOR | ~10 | Bare excepts, deprecated APIs, duplicates, orphan files |
-| **Total** | **~53** | |
+| **Total** | **~59** | |
 
 ### The 5 Most Dangerous Issues
 
@@ -412,5 +439,16 @@ Based on `results/kg_v52_build_summary.json`:
 
 ---
 
-*Fresh audit completed March 8, 2026. 4 parallel agents + direct manuscript review.*
-*Background agents still running — additional findings will be appended.*
+10. Fix ae_sex_totals PS/SS filter in temporal validation, age-sex interaction, geographic variation, per-country scripts
+11. Fix asymmetric Haldane pseudocounts in 04_compute_signals.py
+12. Fix link prediction entity ordering assumption
+13. Remove fabricated Ensembl IDs from 05c_gtex_sex_de.py
+14. Investigate and fix v4.2 statistics file (fabrication signal: +4000/-4000 shift)
+15. Remove or regenerate 13 JSON files with constant placeholder values
+16. Reconcile 5 contradictory KG size counts
+17. Fix death signal direction contradiction (74% vs 46%) across papers
+18. Define and consistently label the two "female bias" metrics across all papers
+
+---
+
+*Fresh audit completed March 8, 2026. 4 parallel deep-audit agents (83 scripts, 344 JSONs, 49 data files, 32 papers) + direct manuscript cross-referencing. All agents completed successfully.*
