@@ -457,57 +457,64 @@ The Technical Validation section is thorough:
 16. **FIX NEGATIVE d-CELL CLIPPING** — Negative d-cell values silently clipped to 0 instead of raising an error. Investigate root cause (marginal total bug SM-18) and fix upstream before recomputing
 17. **FIX PERMUTATION TEST DOUBLE-COUNTING** — `v4_09_statistical_tests.py`: f_drugs + m_drugs > total_drugs. Drugs in both categories counted twice, invalidating null distribution
 18. **REMOVE OR RECOMPUTE ANTI-REGRESSION rho=1.0** — Computed on only 10 decile points (trivially perfect). Replace with signal-level comparison or remove claim entirely
+19. **FIX 6 JSON FILES WITH NaN/INFINITY LITERALS** — `confidence_tiers.json`, `effect_size_deep.json`, `signal_concordance.json`, `ppi_sex_bias_propagation.json`, `v52_wave104_ppi_sex_propagation.json` contain NaN; `v52_wave98_signal_enrichment.json` contains Infinity. Replace with `null` or fix upstream division-by-zero
+20. **REMOVE OR RELABEL 3 STALE KG FILES** — `v4_network_topology.json` contains v3 data (127K nodes), `sexdiffkg_statistics_v42.json` has stale v4.2 numbers (126K nodes), `sexdiffkg_statistics.json` references stale 126,575. All must match canonical 109,867/1,822,851
+21. **INVESTIGATE PPI PARQUET-TO-KG EDGE DISCREPANCY** — `ppi_network.parquet` has 465,390 rows but KG has 473,860 `interacts_with` edges (+8,470). The KG builder creates more edges than the source data contains — likely NaN-contaminated phantom edges
 
 ### Important (Should Fix)
-15. **Fix drug-to-PPI bridge** — only 4.9% of drug targets found in PPI network; improve STRING-to-UniProt mapping
-16. **Fix BH corrected p-values** (`04_compute_signals.py:466-467`): Add monotonicity enforcement, or replace with `statsmodels.multipletests`
-17. **Add interaction test for sex-differential signals**: z-test on `ln(ROR_F) - ln(ROR_M)` with pooled SE, per CIOMS/EMA guidelines
-18. **Verify RotatE embedding dims** — manuscript says 256, methods paper says 512, JSON says 200 (three contradictory values)
-19. **Document entity count mismatch** — KG has 109,867 nodes but ComplEx reports 113,012 entities (~3,145 extra from variant drug names)
-20. **Fix README CPI claim** — "100% female-predominant" contradicted by own validation data (47.1%F) and Drug Class Table 9 (72.3%)
-21. **Fix README cardiac reversal** — "67%" contradicted by JSON 65.1%
-22. **Remove 114 PPI self-loops** and ~6,000 bidirectional duplicate edges
-23. **Fix v4 KG builder** (`v4_03_build_kg.py`) — add node-existence check before edge insertion
-24. **Bridge drug ID namespaces** — FAERS `DRUG:NAME` and ChEMBL `CHEMBL:ID` are disconnected subgraphs
-25. **Replace `05c_gtex_sex_de.py`** — script produces fabricated ENSG IDs, doesn't match deployed parquet
-26. **Add Yates correction** or document why omitted for small-cell chi-squared
-27. **Add formal temporal stability test** (Cohen's kappa or permutation test for directional agreement)
-28. Clarify in temporal validation that 48.6% of reports lacked valid dates
-29. Standardize death statistics across all vault docs and drafts (FIVE different values exist)
-30. Remove/flag OpenFDA concordance from validation composite (circular — OpenFDA IS FAERS)
-31. **Fix Canada Vigilance to reference v4 signals**, not v2 (`v4_13_canada_vigilance_signals.py:129`)
-32. **Convert non-YR age codes** in age-sex interaction analysis (MON/12, WK/52, etc.)
-33. **Add missing v4_06/v4_07 scripts** to manuscript Code Availability table
-34. **Resolve seriousness vs severity terminology** — methods paper uses binary serious/non-serious, manuscript uses 7-level severity gradient
-35. **Fix v3 builder NaN node contamination** — 75.1% of PPI edges create NaN-keyed Protein nodes
-36. **Fix sex-DE schema mismatch** — deployed parquet uses `gene_id`/`log2fc`, v3 builder expects `ensembl_gene_id`/`fold_change_f_vs_m`
-37. **Improve STRING-to-UniProt mapping** — accept multiple UniProt accessions per STRING ID instead of first-match-wins
-38. **Add requirements.txt** — zero dependency pinning across entire project (RP-01)
-39. **Fix SQL injection** in `v4_01_compute_signals_v4.py` and `v4_13_canada_vigilance_signals.py` — use parameterized queries
-40. **Fix shell injection** in `run_full_pipeline.py` — use `subprocess.run(list)` not `shell=True`
-41. **Fix audit doc FAERS female rate** — "60.1%" should be "60.2%" (computed: 60.157%)
-42. **Standardize anti-regression rho** — 1.000 (decile) vs 0.258 (signal-level) labeled identically
-43. **Fix pseudo-replication in drug class chi-squared** — signals within same drug are not independent; use mixed-effects model or cluster-robust SE
-44. **Decouple composite validation sources** — 82.9% composite mixes non-independent streams (40-benchmark overlaps with literature/meta-analysis; OpenFDA IS FAERS)
-45. **Curate independent benchmark set** — current 40 benchmarks selected to validate (selection bias); use pre-registered or independently curated set
-46. **Fix Canada Vigilance and temporal validation marginal totals** — both share same PS/SS filtering bug as primary pipeline (SM-18)
-47. **Make sensitivity analysis informative** — vary log_ratio threshold (0.3, 0.5, 0.7, 1.0) instead of nested min_reports thresholds that guarantee identical results
-48. **Fix p-value computation** — use `stats.norm.sf(z)` instead of `1 - stats.norm.cdf(z)` to avoid floating-point precision loss for large z-scores
-49. **Correct AMRI "top X%" claim** — state exact formula and compute correctly (0.5% vs 0.98% vs 0.49% all claimed in different documents)
-50. **Recharacterize temporal r=0.384** — R²=0.147 (14.7% variance explained); "moderate" is generous; emphasize directional concordance (84%) instead
-51. **Deduplicate benchmark drug-AE pairs** — 40 benchmarks include duplicate pairs inflating effective sample size and narrowing CIs
+22. **Fix drug-to-PPI bridge** — only 4.9% of drug targets found in PPI network; improve STRING-to-UniProt mapping
+23. **Fix BH corrected p-values** (`04_compute_signals.py:466-467`): Add monotonicity enforcement, or replace with `statsmodels.multipletests`
+24. **Add interaction test for sex-differential signals**: z-test on `ln(ROR_F) - ln(ROR_M)` with pooled SE, per CIOMS/EMA guidelines
+25. **Verify RotatE embedding dims** — manuscript says 256, methods paper says 512, JSON says 200 (three contradictory values)
+26. **Document entity count mismatch** — KG has 109,867 nodes but ComplEx reports 113,012 entities (~3,145 extra from variant drug names)
+27. **Fix README CPI claim** — "100% female-predominant" contradicted by own validation data (47.1%F) and Drug Class Table 9 (72.3%)
+28. **Fix README cardiac reversal** — "67%" contradicted by JSON 65.1%
+29. **Remove 114 PPI self-loops** and ~6,000 bidirectional duplicate edges
+30. **Fix v4 KG builder** (`v4_03_build_kg.py`) — add node-existence check before edge insertion
+31. **Bridge drug ID namespaces** — FAERS `DRUG:NAME` and ChEMBL `CHEMBL:ID` are disconnected subgraphs
+32. **Replace `05c_gtex_sex_de.py`** — script produces fabricated ENSG IDs, doesn't match deployed parquet
+33. **Add Yates correction** or document why omitted for small-cell chi-squared
+34. **Add formal temporal stability test** (Cohen's kappa or permutation test for directional agreement)
+35. Clarify in temporal validation that 48.6% of reports lacked valid dates
+36. Standardize death statistics across all vault docs and drafts (FIVE different values exist)
+37. Remove/flag OpenFDA concordance from validation composite (circular — OpenFDA IS FAERS)
+38. **Fix Canada Vigilance to reference v4 signals**, not v2 (`v4_13_canada_vigilance_signals.py:129`)
+39. **Convert non-YR age codes** in age-sex interaction analysis (MON/12, WK/52, etc.)
+40. **Add missing v4_06/v4_07 scripts** to manuscript Code Availability table
+41. **Resolve seriousness vs severity terminology** — methods paper uses binary serious/non-serious, manuscript uses 7-level severity gradient
+42. **Fix v3 builder NaN node contamination** — 75.1% of PPI edges create NaN-keyed Protein nodes
+43. **Fix sex-DE schema mismatch** — deployed parquet uses `gene_id`/`log2fc`, v3 builder expects `ensembl_gene_id`/`fold_change_f_vs_m`
+44. **Improve STRING-to-UniProt mapping** — accept multiple UniProt accessions per STRING ID instead of first-match-wins
+45. **Add requirements.txt** — zero dependency pinning across entire project (RP-01)
+46. **Fix SQL injection** in `v4_01_compute_signals_v4.py` and `v4_13_canada_vigilance_signals.py` — use parameterized queries
+47. **Fix shell injection** in `run_full_pipeline.py` — use `subprocess.run(list)` not `shell=True`
+48. **Fix audit doc FAERS female rate** — "60.1%" should be "60.2%" (computed: 60.157%)
+49. **Standardize anti-regression rho** — 1.000 (decile) vs 0.258 (signal-level) labeled identically
+50. **Fix pseudo-replication in drug class chi-squared** — signals within same drug are not independent; use mixed-effects model or cluster-robust SE
+51. **Decouple composite validation sources** — 82.9% composite mixes non-independent streams (40-benchmark overlaps with literature/meta-analysis; OpenFDA IS FAERS)
+52. **Curate independent benchmark set** — current 40 benchmarks selected to validate (selection bias); use pre-registered or independently curated set
+53. **Fix Canada Vigilance and temporal validation marginal totals** — both share same PS/SS filtering bug as primary pipeline (SM-18)
+54. **Make sensitivity analysis informative** — vary log_ratio threshold (0.3, 0.5, 0.7, 1.0) instead of nested min_reports thresholds that guarantee identical results
+55. **Fix p-value computation** — use `stats.norm.sf(z)` instead of `1 - stats.norm.cdf(z)` to avoid floating-point precision loss for large z-scores
+56. **Correct AMRI "top X%" claim** — state exact formula and compute correctly (0.5% vs 0.98% vs 0.49% all claimed in different documents)
+57. **Recharacterize temporal r=0.384** — R²=0.147 (14.7% variance explained); "moderate" is generous; emphasize directional concordance (84%) instead
+58. **Deduplicate benchmark drug-AE pairs** — 40 benchmarks include duplicate pairs inflating effective sample size and narrowing CIs
+59. **Clean up 33 empty arrays/objects across 20 result files** — failed analyses should be re-run or empty results documented
+60. **Disambiguate "total_reports" field** — `grand_summary_session3.json` uses 24.2M (non-deduplicated), canonical is 14.5M. Rename or document
+61. **Remove duplicate files** — `sexdiffkg_statistics.json`/`sexdiffkg_statistics_v4.json` are byte-identical; `sex_de_genes.parquet`/`sex_de_genes_v4.parquet` are identical
+62. **Address massive null rates in parquet files** — `gene_pathways.parquet` string_id 91.5% null, `ppi_network.parquet` ensembl IDs 51.2% null. These nulls explain the PPI disconnection and pathway orphans
 
 ### Nice to Have
-52. Add CI/CD pipeline with pytest
-53. Flesh out the 3 thin paper drafts (<2KB) or remove them
-54. Replace hard-coded column indices in Canada Vigilance with header-based parsing
-55. Improve Biolink compliance (`Tissue` → `AnatomicalEntity`, `AdverseEvent` → `DiseaseOrPhenotypicFeature`, proper CURIEs)
-56. Add conftest.py with synthetic data fixtures for future testing
-57. Consider adding formal interaction tests for age-sex direction flips
-58. Make literature cross-validation rounding consistent (91.7% vs 92.0%)
-59. Pin external data download URLs to specific versions with checksums
-60. Add runtime version logging to all scripts
-61. Fix `os.listdir()` non-determinism with `sorted()`
+63. Add CI/CD pipeline with pytest
+64. Flesh out the 3 thin paper drafts (<2KB) or remove them
+65. Replace hard-coded column indices in Canada Vigilance with header-based parsing
+66. Improve Biolink compliance (`Tissue` → `AnatomicalEntity`, `AdverseEvent` → `DiseaseOrPhenotypicFeature`, proper CURIEs)
+67. Add conftest.py with synthetic data fixtures for future testing
+68. Consider adding formal interaction tests for age-sex direction flips
+69. Make literature cross-validation rounding consistent (91.7% vs 92.0%)
+70. Pin external data download URLs to specific versions with checksums
+71. Add runtime version logging to all scripts
+72. Fix `os.listdir()` non-determinism with `sorted()`
 
 ---
 
@@ -713,5 +720,5 @@ Pathway enrichment uses a minimum size of 3 genes per pathway. Standard practice
 *Generated: 2026-03-08 by comprehensive automated audit*
 *Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs, 35 paper drafts*
 *Audit agents deployed: Statistical methodology, Molecular validation, Competitive landscape, Manuscript accuracy*
-*Total action items: 65 (22 critical, 33 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
+*Total action items: 76 (25 critical, 41 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
 *Sections: 9 major sections covering critical issues, statistical methodology, molecular integrity, contribution assessment, manuscript accuracy, action items, competitive landscape, cross-cutting issues, and methods standards*
