@@ -387,19 +387,57 @@ The Technical Validation section is thorough:
 
 ---
 
-## SECTION 7: COMPETITIVE LANDSCAPE POSITIONING
+## SECTION 7: COMPETITIVE LANDSCAPE POSITIONING (Web-Sourced Research)
 
-### Direct Competitors
-- **PrimeKG** (Chandak et al., 2023): 29 edge types, 100K+ nodes. No sex stratification. SexDiffKG fills this gap.
-- **Hetionet** (Himmelstein et al., 2017): 47K nodes, 24 edge types. No sex-specific safety data.
-- **DRKG** (Ioannidis et al., 2020): Drug repurposing KG. No sex dimension.
-- **PharmKG** (Zheng et al., 2021): No sex-stratified signals.
+### Tier 1: Closest Competitors (Sex-Differential Drug Safety from FAERS)
 
-### Why SexDiffKG is Novel
-None of the above KGs encode sex as a structural dimension on drug-AE edges. The `sex_differential_adverse_event` edge type with `log_ror_ratio` as a quantitative property is unique to SexDiffKG.
+| Competitor | Key Paper | Scale | Sex Dimension? | KG? | Key Difference |
+|------------|-----------|-------|---------------|-----|----------------|
+| **Watson et al.** | eClinicalMedicine 2019 | VigiBase 18M+ reports, 131 countries | Aggregate sex comparison | No | No drug-level granularity, no molecular integration |
+| **AwareDX** (Chandak & Tatonetti) | Patterns 2020 | FAERS ~8.8M patients | Yes, ML-based with bias correction | No | **More rigorous bias correction** (propensity-score matching), but not a reusable KG |
+| **Zucker & Prendergast** | Biol Sex Diff 2020 | 86 drugs | Mechanistic PK-ADR analysis | No | Biological mechanism focus, much smaller scale |
+| **Yu et al.** | Sci Reports 2016 | FAERS, 668 drugs | Chi-squared + logistic regression | No | Older data, fewer drugs, used confounding adjustment |
+| **PreciseADR** (Gao et al.) | Advanced Science 2025 | FAERS patient-level | Heterogeneous GNN with sex features | Graph-based | Patient-level prediction, not population-level KG resource |
 
-### Key Differentiator
-SexDiffKG converts sex from a metadata attribute into a first-class graph structural element, enabling embedding-based inference of sex-differential signals that is impossible with sex-aggregated KGs.
+### Tier 2: KG Competitors (No Sex Dimension)
+
+| KG | Nodes | Edges | Edge Types | Sex? |
+|----|-------|-------|------------|------|
+| **PrimeKG** (2023, Sci Data) | 129K | 4.0M | 29 | **No** |
+| **Hetionet** (2017) | 47K | 2.2M | 24 | **No** |
+| **DRKG** (2020) | ~100K | 5.9M | 107 | **No** |
+| **OpenPVSignal KG** (2025, Drug Safety) | Pharmacovig signals | FAIR-compliant | Signal reports | **No** |
+| **SexDiffKG (this work)** | **110K** | **1.8M** | **6** | **YES** |
+
+### Novelty Claim Assessment: "First Sex-Differential Pharmacovigilance KG"
+
+**Defensible with caveats:**
+- No published KG systematically incorporates sex-stratified signals as edges
+- No biomedical KG (PrimeKG, Hetionet, DRKG) includes sex as a structural dimension
+- AwareDX has better bias correction but is NOT a reusable KG resource
+- OpenPVSignal KG structures signal reports but does not perform sex stratification
+
+**Caveats reviewers will raise:**
+1. Whether computing sex-stratified ROR and putting results into a graph constitutes a "KG" in the ontological sense
+2. AwareDX (Patterns 2020) addressed sex differences with more rigorous ML — SexDiffKG should cite and compare
+3. The "Gender Hypothesis" paper (2023, Soc Sci Med) argues gendered social factors, not biology, drive aggregate sex disparities in ADE reports
+
+### Key Weaknesses vs Competitors
+
+1. **No confounding adjustment**: AwareDX uses propensity-score matching; Yu et al. used logistic regression. SexDiffKG uses simple ROR without adjusting for differential prescribing, disease prevalence, or healthcare utilization
+2. **53.9% drug resolution**: Nearly half of drug entries unresolved — needs sensitivity analysis
+3. **Single data source**: Watson et al. used VigiBase (131 countries) vs SexDiffKG's FAERS-only
+4. **No Bayesian methods**: FDA uses MGPS, EMA uses BCPNN — SexDiffKG uses only frequentist ROR/PRR
+5. **Not benchmarked against AwareDX**: The closest ML competitor is not compared
+
+### Strategic Recommendations
+
+1. **Address confounding explicitly**: Add at minimum an analysis adjusting for sex-differential prescribing rates. Cite the "Gender Hypothesis" paper.
+2. **Frame claims carefully**: Use "reporting signal" not "risk" or "incidence." Follow EMA SDR terminology.
+3. **For Scientific Data**: Focus on the KG as a reusable resource, not clinical findings.
+4. **For ISMB**: Target BOKR or NetBio COSI track. Frame as computational methodology.
+5. **Benchmark against AwareDX**: Even a limited comparison would significantly strengthen the paper.
+6. **Consolidate paper portfolio**: 35 papers from one dataset will trigger salami-slicing concerns. Consider 3-5 papers maximum.
 
 ---
 
@@ -431,5 +469,25 @@ SexDiffKG converts sex from a metadata attribute into a first-class graph struct
 
 ---
 
+---
+
+## KEY REFERENCES (Competitive Landscape Sources)
+
+- Watson et al. 2019, eClinicalMedicine — VigiBase sex-differential ADR analysis (131 countries)
+- Chandak & Tatonetti 2020, Patterns — AwareDX ML algorithm for sex-differential drug safety
+- Zucker & Prendergast 2020, Biol Sex Diff — PK-ADR sex concordance (86 drugs)
+- Chandak et al. 2023, Scientific Data — PrimeKG (benchmark biomedical KG, no sex dimension)
+- Gao et al. 2025, Advanced Science — PreciseADR (heterogeneous GNN, patient-level)
+- Chytas et al. 2025, Drug Safety — OpenPVSignal KG (FAIR pharmacovigilance KG)
+- Toonsi et al. 2026, Bioinformatics — Causal KG for ADR discovery
+- Yu et al. 2016, Scientific Reports — FAERS sex-differential analysis (668 drugs)
+- Gender Hypothesis 2023, Social Science & Medicine — Social factors vs biology in sex-ADE disparities
+- CIOMS Working Group VIII — Signal detection best practices
+- EMA Signal Detection Guidelines — EudraVigilance methodology
+
+---
+
 *Generated: 2026-03-08 by comprehensive automated audit*
-*Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs*
+*Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs, 35 paper drafts*
+*Audit agents deployed: Statistical methodology, Molecular validation, Competitive landscape, Manuscript accuracy*
+*Total action items: 34 (8 critical, 19 important, 7 nice-to-have)*
