@@ -65,45 +65,57 @@ There are no pytest/unittest files, no CI/CD pipeline, and no test configuration
 
 ---
 
-## SECTION 2: STATISTICAL METHODOLOGY AUDIT
+## SECTION 2: STATISTICAL METHODOLOGY AUDIT (Deep)
 
-### 2.1 ROR Computation — CORRECT with Minor Concern
+### 2.1 ROR Computation — BUG: Asymmetric Zero-Cell Correction
 
 **Location**: `scripts/04_compute_signals.py:308-345`
 
-The ROR formula is standard: `ROR = (a*d) / (b*c)` with 95% CI via `exp(ln(ROR) ± 1.96 * sqrt(1/a + 1/b + 1/c + 1/d))`. This matches the Rothman-Greenland formulation used in standard pharmacovigilance (van Puijenbroek 2002, Bate 2009).
+The ROR formula `(a*d)/(b*c)` and Woolf 95% CI are standard (Rothman-Greenland, van Puijenbroek 2002).
 
-**Minor concern**: The pseudocount approach (line 326-329) uses 0.5 for b,c when zero, and 1 for a,d. This is the Haldane correction, which is standard but may inflate ROR for zero-cell contingency tables. Consider noting this in the methods section.
+**BUG (lines 324-329)**: The zero-cell correction is **asymmetric** — it applies pseudocount 0.5 to b,c when zero and 1 to a,d only if zero, rather than the standard Haldane-Anscombe correction of +0.5 to ALL four cells. Worse, the condition only checks `b==0 or c==0`, so a case where `d==0` but `b>0` and `c>0` would cause a **division-by-zero** in the SE calculation at line 339 (`1.0/d_adj`).
 
-### 2.2 PRR Computation — CORRECT
+**Severity**: Medium. In practice, `d` (background cell) is almost never zero in 14.5M-report FAERS, but this is a correctness bug that should be fixed.
+
+### 2.2 PRR Computation — CORRECT, Missing Yates Correction
 
 **Location**: `scripts/04_compute_signals.py:348-384`
 
-Standard PRR formula with Yates-uncorrected chi-squared. The formula matches Evans et al. (2001).
+Standard PRR formula per Evans et al. (2001). **Concern**: Chi-squared computed without Yates' continuity correction (line 381). EMA recommends Yates correction or Fisher exact test for small cell counts. The `a >= 5` filter at line 426 partially mitigates but doesn't guarantee adequate b, c, d.
 
-### 2.3 Benjamini-Hochberg FDR — CORRECT but Custom
+### 2.3 Benjamini-Hochberg FDR — BUG in Corrected P-values (Signals Unaffected)
 
 **Location**: `scripts/04_compute_signals.py:434-471`
 
-A custom BH FDR implementation rather than using `statsmodels.stats.multitest.multipletests`. The implementation appears correct (sorted p-values, BH threshold, corrected p-values via minimum accumulation), but the per-sex stratification in `apply_fdr_correction` (line 387-431) means FDR is computed within each sex stratum separately. This is methodologically defensible (different total numbers of comparisons per sex), and is documented.
+**BUG (lines 466-467)**: The corrected p-values are computed in the wrong order — minimum accumulation is applied BEFORE the BH scaling factor, instead of after. Standard BH requires: (1) compute `p[i] * m/rank[i]`, (2) THEN apply reverse cumulative minimum. The code does it reversed.
 
-**Recommendation**: Add a unit test comparing the custom implementation against `statsmodels.stats.multitest.multipletests` to verify equivalence.
+**Impact on results**: NONE. The binary `rejected` array (lines 453-464) uses the step-up procedure directly, which IS correctly implemented. Only the returned `corrected_p_orig` values are unreliable. Since only `rejected` is used downstream (line 423), signal flags are correct.
 
-### 2.4 Sex-Differential Signal — CORRECT
+**Recommendation**: Replace with `statsmodels.stats.multitest.multipletests(method='fdr_bh')`, which is correctly used in `v4_09_statistical_tests.py`.
+
+### 2.4 Sex-Differential Signal — NO FORMAL INTERACTION TEST
 
 **Location**: `scripts/04_compute_signals.py:474-546`
 
-`log_ror_ratio = ln(ROR_female) - ln(ROR_male) = ln(ROR_F / ROR_M)`. Uses natural log (documented in the manuscript). The threshold |ln ratio| >= 0.5 corresponds to ~1.65-fold difference, which is explicitly noted.
+`log_ror_ratio = ln(ROR_F) - ln(ROR_M)`. The computation is mathematically correct.
 
-### 2.5 Temporal Validation — METHODOLOGICALLY SOUND
+**Methodological concern (CIOMS/EMA)**: The sex difference has no confidence interval or formal test statistic (e.g., Breslow-Day test for homogeneity of ORs, interaction term in logistic regression). CIOMS Working Group and EMA guidelines recommend formal interaction tests when comparing subgroup-specific disproportionality. Any nonzero difference is treated as a signal as long as both sexes pass the signal threshold. The magnitude threshold (|ln ratio| >= 0.5) partially mitigates this but is not equivalent to a formal test.
+
+**Impact**: Reviewers familiar with CIOMS/EMA guidelines may flag this. Consider adding a z-test for the difference of ln(ROR) values using the standard error formula: `SE_diff = sqrt(SE_F^2 + SE_M^2)`.
+
+### 2.5 Temporal Validation — Sound Concept, Lacks Formal Testing
 
 **Location**: `scripts/v4_10_temporal_validation.py`
 
-Train/test split on `fda_dt` (2004-2020 / 2021-2025) is standard in temporal pharmacovigilance validation. The 84% directional precision for strong signals replicated across periods is strong evidence of temporal stability.
+Train/test split on event dates (2004-2020 / 2021-2025) is standard. The 84% directional precision is good.
 
-**Concern**: Only 51.4% of reports (7.47M of 14.5M) had valid event dates. The manuscript correctly notes this but should clarify whether the 48.6% missing-date reports could have systematically different sex distributions.
+**Concerns**:
+- Only 51.4% of reports had valid dates — manuscript notes this but should check for systematic sex distribution differences in dated vs undated reports
+- No formal statistical test for temporal stability (no McNemar, Cohen's kappa, or permutation test for overlap)
+- ROR computed without CI or FDR correction — weaker signal definition than primary analysis, may inflate apparent replication
+- Date comparison via string (`<= '20201231'`) is fragile if date format varies
 
-### 2.6 Statistical Tests Module — CORRECT
+### 2.6 Statistical Tests Module — CORRECT, Good Practices
 
 **Location**: `scripts/v4_09_statistical_tests.py`
 
@@ -249,22 +261,28 @@ The Technical Validation section is thorough:
 ## SECTION 6: PRE-PUBLICATION ACTION ITEMS
 
 ### Critical (Must Fix)
-1. Fix Canada Vigilance cross-reference bug (`adverse_event` → `pt`)
-2. Update `MASTER_FINDINGS_SYNTHESIS.md` Finding #7 death statistic to 50.1%F
-3. Add basic unit tests for core statistical functions (ROR, PRR, FDR)
+1. **Fix Canada Vigilance cross-reference bug** (`adverse_event` → `pt` in `v4_13_canada_vigilance_signals.py:128-133`)
+2. **Fix ROR zero-cell handling** (`04_compute_signals.py:324-329`): Use symmetric Haldane-Anscombe +0.5 to all cells; handle `d==0` case
+3. **Update death statistic** in `MASTER_FINDINGS_SYNTHESIS.md` Finding #7 from "74%" to canonical "50.1%F"
+4. **Add unit tests** for core statistical functions (ROR, PRR, FDR) with textbook known-answer cases
 
 ### Important (Should Fix)
-4. Add note in methods about the Haldane pseudocount correction for zero cells
-5. Clarify in temporal validation that 48.6% of reports lacked valid dates
-6. Standardize death statistics across all vault docs and drafts
-7. Remove/flag OpenFDA concordance from validation composite (negative correlation)
-8. Document the natural logarithm base consistently in all materials
+5. **Fix BH corrected p-values** (`04_compute_signals.py:466-467`): Reverse the order of operations, or replace with `statsmodels.multipletests`
+6. **Add interaction test for sex-differential signals**: z-test on `ln(ROR_F) - ln(ROR_M)` with pooled SE, per CIOMS/EMA guidelines
+7. **Add Yates correction** or document why omitted for small-cell chi-squared
+8. **Add formal temporal stability test** (Cohen's kappa or permutation test for directional agreement)
+9. Clarify in temporal validation that 48.6% of reports lacked valid dates
+10. Standardize death statistics across all vault docs and drafts
+11. Remove/flag OpenFDA concordance from validation composite
+12. **Fix Canada Vigilance to reference v4 signals**, not v2 (`v4_13_canada_vigilance_signals.py:129`)
+13. **Convert non-YR age codes** in age-sex interaction analysis (MON/12, WK/52, etc.)
 
 ### Nice to Have
-9. Add CI/CD pipeline with pytest
-10. Flesh out the 3 thin paper drafts (<2KB) or remove them
-11. Add conftest.py with synthetic data fixtures for future testing
-12. Consider adding the Canada Vigilance results to the manuscript once the bug is fixed
+14. Add CI/CD pipeline with pytest
+15. Flesh out the 3 thin paper drafts (<2KB) or remove them
+16. Replace hard-coded column indices in Canada Vigilance with header-based parsing
+17. Add conftest.py with synthetic data fixtures for future testing
+18. Consider adding formal interaction tests for age-sex direction flips
 
 ---
 
