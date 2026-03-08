@@ -436,6 +436,7 @@ The Technical Validation section is thorough:
 ## SECTION 6: PRE-PUBLICATION ACTION ITEMS
 
 ### Critical (Must Fix)
+0. **FIX TRAIN/TEST SPLIT MISREPRESENTATION** — Manuscript says "80/20 train/test split" (lines 97, 468) but ALL 10+ training scripts use `ratios=[0.9, 0.1]` (90/10). ALL reported metrics (MRR, Hits@K, AMRI) were computed on 10% test set. Either correct manuscript to "90/10" or rerun all training with 80/20 and update metrics
 1. **Fix Canada Vigilance cross-reference bug** (`adverse_event` → `pt` in `v4_13_canada_vigilance_signals.py:128-133`)
 2. **Fix ROR zero-cell handling** (`04_compute_signals.py:324-329`): Use symmetric Haldane-Anscombe +0.5 to all cells; handle `d==0` case
 3. **Resolve minimum reports threshold** — manuscript says 10, methods paper says 5. Determine actual value and make ALL docs consistent
@@ -699,5 +700,5 @@ Pathway enrichment uses a minimum size of 3 genes per pathway. Standard practice
 *Generated: 2026-03-08 by comprehensive automated audit*
 *Total analysis files reviewed: 244 JSONs, 84 scripts, 40 vault docs, 35 paper drafts*
 *Audit agents deployed: Statistical methodology, Molecular validation, Competitive landscape, Manuscript accuracy*
-*Total action items: 52 (14 critical, 28 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
+*Total action items: 56 (18 critical, 28 important, 10 nice-to-have) + 13 prioritized recommendations from deep statistical audit*
 *Sections: 9 major sections covering critical issues, statistical methodology, molecular integrity, contribution assessment, manuscript accuracy, action items, competitive landscape, cross-cutting issues, and methods standards*
